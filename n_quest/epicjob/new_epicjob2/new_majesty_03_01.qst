@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at swordman]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 劍皇 (4/6)`
+
+[depend message]
+	`據說誓約之劍被人們稱為魔劍， 其中蘊藏著沉睡中的古代魔獸。
+而這只魔獸在漫長的歲月里吸收了璀璨的星光， 逐漸擁有了魔力和意志， 如今在四處尋找著自己的主人。
+當然， 這只是個傳說， 我倒不這么認為。
+準確地說， 應該是一個極致的劍士在人們的眼里幻化成了一把魔劍， 這也意味著， 他的實力足以達到能夠散發出劍氣的境界。
+被魔劍認可， 其實等于是被你內在的潛力……即你自己認可。
+好， 那我們就朝著自身認可的方向努力看看吧。
+這次我們會去參加魂·青龍大會， 據說那里云集著經過層層選拔出來的強者， 他們的實力超越了魂·黃龍大會的選手們。
+我想， 你可以借此機會充分打磨自己， 讓自己變得更加鋒利威武。
+那你現在先去準備一下‘赫侖皇帝的印章’吧。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5318
+[/pre required quest]
+
+[relation quest]
+	5320
+
+[job change quest]
+	3
+
+[grow number]
+	0

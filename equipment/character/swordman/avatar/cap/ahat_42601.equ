@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`稀有克隆裝扮帽子`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`swordman`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	316
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0	30	0	0	2200	0	0	0	0	4400	0	0	0	0	4840	2
+	`[A socket]`
+	`[A socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	40923
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`
+	`+`	45
+	`[MAGICAL_DEFENSE]`
+	`+`	45
+	`[HP_REGENRATE]`
+	`+`	60
+	`[MP_REGENRATE]`
+	`+`	12
+	`[CAST_SPEED]`
+	`+`	120
+[/avatar select ability]
+
+[explain]
+	`  直接穿戴不顯示外觀；可以複製穿戴中的同部位裝扮款式，但屬性值保留克隆裝扮原屬性。
+  如被複製的裝扮消失，則外觀恢復透明，反之則維持複製款式。（拖動或右鍵點擊穿戴裝扮圖標，可以解除克隆）`

@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	9
+
+[complete npc index]
+	5
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	6	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000	1065	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`燃燒的哥布林村莊`
+
+[depend message]
+	`啊啊啊……那幫家伙又把我的店鋪給燒了。 雖然大家都是哥布林， 但是我真的無法再忍下去了， 我要以牙還牙！ 我要把我遭受的痛苦雙倍還給那幫混蛋！
+冒險家， 我需要一些用來縱火的燃燒瓶， 請你去一趟月光酒館吧。 我已經和索西雅說好了， 你到酒館后只要和她說一聲就行了。`
+
+[condition message]
+	`    前往赫頓瑪爾的月光酒館， 向酒館主人索西雅傳達夏洛克的話。`
+
+[solve message]
+	`不是吧……夏洛克又被欺負了？ 沒辦法了， 東西我會送過去的， 你先坐下來喝一杯吧。`

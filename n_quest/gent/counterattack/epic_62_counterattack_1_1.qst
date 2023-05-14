@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5769
+[/pre required quest]
+
+[cant giveup]
+	2
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	85	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	6051	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`叛逃者郎克`
+
+[depend message]
+	`有個叫朗克的家伙半夜來找過我， 他說他也像我一樣， 因為討厭卡勒特而從那里逃了出來……
+我想只要是個正常人， 看到卡勒特慘無人道的暴行之后， 都不會想要繼續留在組織里。
+朗克說想親手毀掉卡勒特， 所以我把作戰區域的位置告訴他， 并派他到那里協助作戰。
+這件事我還沒跟澤丁說過， 我想就算說了她也不會相信……
+哎， 我現在就擔心朗克一個人行動會遇到危險， 所以想請你去幫幫他。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 找到郎克后擊敗吉賽爾博士， 要求地下城難度為王者級。`
+
+[solve message]
+	`你說什么？ 那家伙背叛了我們！
+該死的！ 竟然用這么無恥的手段， 我快要氣炸了！`
+
+[dialog]
+	0	0	13101	2	0	0	0
+	`<apc::11510>朋友， 你遲到了。 是貝利特那老頭派你來的吧？
+怎么， 你在懷疑我嗎？
+哎~放心吧！ 我絕對支持正義的皇都軍。
+呃~不管你信不信， 先出發再說吧。`
+[/dialog]
+
+[quest point]
+	4

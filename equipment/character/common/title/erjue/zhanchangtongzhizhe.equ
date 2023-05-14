@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 戰場統治者`
+
+[explain]
+	`沒有人能不犯錯誤，士兵們犯錯誤斷送的只是自己的小命，作為統籌戰場的指揮官如果犯了錯誤那?斷送的可能就是整個根特。
+現在軍中的很多人只想著功績，反而不知道自己要做些什?，這些人根本連軍人都不配做，更不用說是戰場統治者了。
+不戰而屈人之兵永遠是我們這些作戰指揮們最先考慮的方案，只有朝這個方向去想，才能夠冷靜沈著地想出最佳的戰場部署。如果只是為自己撈功績，我們如何統帥全軍，我們的部隊以後將如何戰鬥?
+要知道，無論在何時何地，榜樣與領袖的作用都非常重要。在軍隊中，戰場統治者就是士兵的榜樣與領袖。所以，充實戰爭知識，磨練戰爭素養，是我每時每刻都需要做的。勛章的作用可不只是擺設，那更是壹種責任。
+如果不能做到吾日三省吾身，妳又怎?能夠讓妳的士兵活下來?
+只有做到以上事項的人，才能具備統籌戰場的基礎，才有資格指揮軍隊。當我回顧這些的時候，我很慶幸我已經做到了。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		130001	0	0	0	99	0
+		``
+	[/passive object]
+[/then]

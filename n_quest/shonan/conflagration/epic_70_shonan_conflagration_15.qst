@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	12
+
+[complete npc index]
+	10
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4387
+[/pre required quest]
+
+[monster reward item]
+	63024	70	-1	4787	3	60	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4787	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`收集強力的氣息`
+
+[depend message]
+	`我想這些靈氣是在失去很多魔力的狀態下被收集的。雖然這明明是前所未有的強力魔法，但是收集更多來嘗試還是無法完美的組合。
+需要讓魔法能夠更穩固的力量。嗯…… 這種程度的魔法，一定對附近所有的生物都會受到影響。其中尤以強大的生物接受的能量會更多。
+只要從受到此一魔法影響的強大怪物身上取得那存在的能量，一定就能夠成功進行組合。請收集強烈的靈氣交給羅莉安。`
+
+[condition message]
+	`向獸王烏塔拉，收集「強力的大魔法陣的氣息」10個`
+
+[solve message]
+	`怎麼去這麼久？等你等到脖子都變長了`
+
+[quest point]
+	4

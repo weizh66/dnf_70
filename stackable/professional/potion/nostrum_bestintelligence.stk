@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`至尊智力靈藥`
+
+[explain]
+	`使用後，增加150點智力，效果持續30分鐘。`
+
+[grade]
+	70
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	18600
+
+[minimum level]
+	70
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	974
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[alchemist]`
+
+[appendage group]
+	4
+
+[item group name]
+	`potion`
+
+[cool time]
+	10000
+
+[move wav]
+	`POTION_TOUCH`
+
+[stat change]
+	`+`	150
+	`magical attack`
+[/stat change]
+
+[stat change duration]
+	1800000
+	`myself`
+
+[effect maintenance]
+	0	1	1	0

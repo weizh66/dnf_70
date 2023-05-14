@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`泰瑪特的風之領域`
+
+[basic explain]
+	`[疾風打]冷卻時間 -1秒
+[巨旋風]冷卻時間 -2秒
+[厄運之輪]移動距離 +20%%`
+
+[flavor text]
+	`    含有泰瑪特(奧茲瑪手下的三黑騎士之一)力量的被詛咒的鐮刀。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`scythe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2800
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/priest/scythe.img`	32
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[need material]
+	3260	750
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	452	407
+
+[equipment magical attack]
+	476	428
+
+[separate attack]
+	285	189
+
+[attack speed]
+	80
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[priest]`	85
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[priest]`	50
+	`[all]`
+	`[cooltime]`	0
+	`+`	-2000
+	`[priest]`	115
+	`[all]`
+	`[level]`	1
+	`%`	20
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	85	2
+	`[priest]`	50	2
+	`[priest]`	115	2
+[/skill levelup]
+
+[variation]
+	3	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[routing priority]
+	`priest`	3
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,182 @@
+#PVF_File
+
+[set name]
+	`圣光支援者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	30
+		`[dungeon type]`
+		`[level]`	0
+		`+`	6
+		`[fighter]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`+`	50
+		`[fighter]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`+`	50
+		`[fighter]`	36
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[fighter]`	36
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	111
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at fighter]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`+`	50
+		`[at fighter]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`+`	50
+		`[at fighter]`	36
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	36
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[風之氣息]攻擊速度與施放速度 +5%%
+[烈日光輝]光屬性抗性與魔防 +20%%
+格斗家(男)
+[念氣環繞 : 襲]攻擊力 +25%%
+格斗家(女)
+[光之兵刃]被賦予效果的武器攻擊力 +6%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	98
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[fighter]`	98
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[fighter]`	42
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	42
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[fighter]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	42
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	42
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at fighter]`	42
+		`[dungeon type]`
+		`[level]`	3
+		`%`	-30
+		`[at fighter]`	117
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	117
+		`[dungeon type]`
+		`[static]`	0
+		`%`	50
+		`[at fighter]`	117
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[念氣罩]范圍 +30%%
+[念氣罩]念氣罩HP +30%%
+[念氣罩]冷卻時間 -30%%
+格斗家(男)
+[念之戰矛]爆炸范圍 +30%%
+[念之戰矛]敵人僵直時間 +50%%
+[念之戰矛]冷卻時間 -30%%
+格斗家(女)
+[究極念氣罩]范圍 +30%%
+[究極念氣罩]念氣罩HP +30%%
+[究極念氣罩]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	100
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[fighter]`	100
+		`[dungeon type]`
+		`[level]`	8
+		`+`	30
+		`[fighter]`	100
+		`[dungeon type]`
+		`[level]`	9
+		`+`	30
+		`[fighter]`	100
+		`[dungeon type]`
+		`[level]`	10
+		`+`	30
+		`[fighter]`	100
+		`[dungeon type]`
+		`[level]`	11
+		`+`	300
+		`[fighter]`	100
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	120
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[at fighter]`	120
+		`[dungeon type]`
+		`[static]`	3
+		`+`	3
+		`[at fighter]`	120
+		`[dungeon type]`
+		`[static]`	1
+		`%`	100
+		`[at fighter]`	120
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[衝云念氣場]念氣場移動距離 +100%%
+[衝云念氣場]念氣場多段攻擊次數 +3
+[衝云念氣場]冷卻時間 -40%%
+[衝云念氣場]無色小晶塊消耗量 +1
+格斗家(女)
+[狂獅怒吼]物理暴擊率 +30%%
+[狂獅怒吼]魔法暴擊率 +30%%
+[狂獅怒吼]命中率 +30%%
+[狂獅怒吼]回避率 +30%%
+[狂獅怒吼]追加光屬性攻擊次數上限 +30%%
+[狂獅怒吼]無色小晶塊消耗量 +1`
+[/piece set ability]

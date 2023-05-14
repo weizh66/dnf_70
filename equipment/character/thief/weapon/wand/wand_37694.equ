@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`諾絲克爾的鬃毛`
+
+[basic explain]
+	`召喚降臨：尼古拉斯時讓所有 敵人進入混亂狀態
+被攻擊時以5%% 的機率讓敵人進入混亂狀態
+不可解體`
+
+[detail explain]
+	`召喚降臨：尼古拉斯時5秒內讓敵人進入混亂狀態。（高於Lv69的對象得到的機率和效果減少，低於Lv69的對象則會增加。 決鬥場內修正為2秒，以20%% 的機率發動）
+被攻擊時以 5%% 機率3秒內讓敵人進入混亂狀態。 （高於Lv69的對象得到的機率和效果減少，低於Lv69的對象則會增加。決鬥場內修正為 1%% 機率）
+不可解體`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	65
+
+[anti evil]
+	12
+
+[magical attack]
+	46
+
+[attack speed]
+	-100
+
+[price]
+	110400
+
+[repair price]
+	92736
+
+[value]
+	88320
+
+[equipment physical attack]
+	528	488
+
+[equipment magical attack]
+	752	695
+
+[separate attack]
+	389	264
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	51	2
+	`[thief]`	54	3
+[/skill levelup]
+
+[icon]
+	`Item/weapon/thief/wand.img`	90
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	21	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2100
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[use skill]
+		`thief`	51
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		100
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	69	1
+	[speech on]
+		0	2000
+		`服從我！`
+	[/speech on]
+[/then]
+
+[if]
+	[cooltime]
+		7500
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	69	1
+[/then]
+
+[routing priority]
+	`thief`	2
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

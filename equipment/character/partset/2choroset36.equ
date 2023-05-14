@@ -1,0 +1,128 @@
+#PVF_File
+
+[set name]
+	`子彈驅逐者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[gunner]`	30
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gunner]`	57
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+		`[at gunner]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[at gunner]`	30
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at gunner]`	57
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+	[/skill data up]
+	[parameter basic explain]
+		`[銀彈]冷卻時間 -3秒
+[銀彈]攻擊力 +30%%
+[G-35L感電手雷]填裝后投擲數 -1`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3600
+		`[gunner]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`%`	35
+		`[gunner]`	2
+		`[dungeon type]`
+		`[level]`	1
+		`+`	4
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3600
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`%`	35
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[level]`	1
+		`+`	4
+	[/skill data up]
+	[parameter basic explain]
+		`[冰凍彈]冷卻時間 -3.6秒
+[冰凍彈]攻擊力 +35%%
+[冰凍彈]冰凍Lv +4`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	1
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[gunner]`	1
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gunner]`	57
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[gunner]`	57
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-700
+		`[gunner]`	57
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[at gunner]`	1
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[at gunner]`	1
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at gunner]`	57
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at gunner]`	57
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-700
+		`[at gunner]`	57
+		`[dungeon type]`
+		`[static]`	7
+		`+`	-150
+		`[at gunner]`	57
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[爆炎彈]冷卻時間 -4.5秒
+[爆炎彈]爆炸傷害 +30%%
+[G-35L感電手雷]冷卻時間 -2秒
+[G-35L感電手雷]減少投擲的間隔冷卻時間
+[G-35L感電手雷]感電傷害 +20%%`
+[/piece set ability]

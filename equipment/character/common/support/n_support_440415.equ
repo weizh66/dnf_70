@@ -1,0 +1,219 @@
+#PVF_File
+
+[name]
+	`青龍紋披風`
+
+[basic explain]
+	`安裝時對自己15秒內施展偽裝效果物理，魔法暴擊機率增加12%%，暴擊攻擊力增加10%%，被攻擊時自己受到的傷害增加20%% `
+
+[detail explain]
+	`安裝時對自己15秒內施展偽裝效果物理，魔法暴擊機率增加12%%，暴擊攻擊力增加10%%，被攻擊時自己得到的傷害增加20%%（冷卻時間30秒，安裝解除時選項解除。 決鬥場，勢力戰，打鬥吧中物理，魔法暴擊機率修正為 6%%，暴擊攻擊力修正 5%%，自己受到的傷害修正10%%，不能施展偽裝）`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	29
+
+[physical defense]
+	29
+
+[magical attack]
+	29
+
+[magical defense]
+	29
+
+[anti evil]
+	2
+
+[need material]
+	4733	80
+
+[repair price]
+	71040
+
+[value]
+	71040
+
+[icon]
+	`Item/common/support.img`	62
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[set name]
+	``
+
+[set item]
+	440415	450135
+[/set item]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[time]
+		30000	1	1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		15000
+	[stat]
+		`physical critical hit rate`
+		`+`	12
+	[stat]
+		`magical critical hit rate`
+		`+`	12
+	[appendage]
+		43
+	[appendage]
+		44
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[my appendage]
+		43
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	-20
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[my appendage]
+		43
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[assault]`
+	[/module]
+	[time]
+		30000	1	1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		15000
+	[stat]
+		`physical critical hit rate`
+		`+`	6
+	[stat]
+		`magical critical hit rate`
+		`+`	6
+	[appendage]
+		43
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[assault]`
+	[/module]
+	[my appendage]
+		43
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	-10
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[assault]`
+	[/module]
+	[my appendage]
+		43
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	5
+[/then]
+
+[set ability]
+	[stuck resistance]
+		20
+	[move speed]
+		15
+	[attack speed]
+		15
+	[cast speed]
+		20
+	[physical critical hit]
+		3
+	[magical critical hit]
+		3
+	[stuck]
+		-1
+[/set ability]
+
+[possible kiri protect]

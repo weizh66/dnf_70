@@ -1,0 +1,184 @@
+#PVF_File
+
+[name]
+	`狡猾的變色龍皮革上衣`
+
+[basic explain]
+	`反攻物理攻擊時10秒內敵人的物理防禦力減少1000（最多可重疊5次）
+反攻魔法攻擊時10秒內敵人的魔法防禦力減少1000（最多可重疊5次）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[magical defense]
+	39
+
+[price]
+	85000
+
+[repair price]
+	71400
+
+[value]
+	68000
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	2232	2088
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[icon]
+	`item/new_equipment/03_leather/coat/leather_coat.img`	10
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`茂蔭變色龍套裝`
+
+[set item]
+	100060016	100110011	100160011	100210012	100260013
+[/set item]
+
+[if]
+	[attack type]
+		`magical`
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[appendage]
+		171
+[/then]
+
+[if]
+	[attack type]
+		`physical`
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[appendage]
+		170
+[/then]
+
+[set ability]
+	[fullset basic explain]
+		`攻擊時以5%%機率在20秒內向隊員施展偽裝增益，力量、體力、智能、精神力增加70，物理爆擊增加9%%，魔法爆擊增加10%%
+自己處於偽裝增益狀態敵人攻擊時20%%追加傷害`
+	[if]
+		[attack success]
+			1
+		[cooltime]
+			40000
+	[/if]
+	[then]
+		[target]
+			`party`	-1
+		[probability]
+			5
+		[duration]
+			20000
+		[stat]
+			`physical attack`
+			`+`	70
+		[stat]
+			`magical attack`
+			`+`	70
+		[stat]
+			`physical defense`
+			`+`	70
+		[stat]
+			`magical defense`
+			`+`	70
+		[stat]
+			`physical critical hit rate`
+			`+`	9
+		[stat]
+			`magical critical hit rate`
+			`+`	10
+		[buff]
+			`camoflage`
+		[appendage]
+			173
+	[/then]
+	[if]
+		[my appendage]
+			173
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	20
+	[/then]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

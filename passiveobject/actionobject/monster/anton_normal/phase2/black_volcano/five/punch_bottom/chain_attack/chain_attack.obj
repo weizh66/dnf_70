@@ -1,0 +1,22 @@
+#PVF_File
+
+[piercing power]
+	50000
+
+[basic action]
+	`Action/chain_attack_basic.act`
+
+[attack info]
+	`attackinfo/chain_attack_basic.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+[/object destroy condition]
+
+[add particles]
+	[particle]
+		[file]
+			`particle/chain.ptl`
+	[/particle]
+[/add particles]

@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+	`僵屍之力手杖`
+
+[basic explain]
+	`施放[驅使僵屍]時，有10%%的機率召喚出1隻叢林僵屍。`
+
+[detail explain]
+	`使用尼可拉斯的殭屍降靈技能時，以10%% 機率60秒內召喚Lv40森林殭屍 1隻攻擊敵人。 （召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[magical attack]
+	39
+
+[attack speed]
+	-100
+
+[cast speed]
+	20
+
+[price]
+	70400
+
+[repair price]
+	56320
+
+[value]
+	56320
+
+[creation rate]
+	30
+
+[equipment physical attack]
+	339	307
+
+[equipment magical attack]
+	483	437
+
+[separate attack]
+	245	164
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	52	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/thief/wand.img`	38
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	4	3
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		180000
+	[use skill]
+		`thief`	52
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		10
+	[summon monster]
+		65001	40	1
+[/then]
+
+[possible kiri protect]

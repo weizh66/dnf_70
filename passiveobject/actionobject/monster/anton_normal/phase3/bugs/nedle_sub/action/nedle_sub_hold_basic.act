@@ -1,0 +1,86 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Nedle_sub_hold_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/Nedle_sub_hold_Basic_8.ani`	0	-1
+		`../Animation/Nedle_sub_hold_Basic_2.ani`	0	1
+		`../Animation/Nedle_sub_hold_Basic_3.ani`	0	2
+		`../Animation/Nedle_sub_hold_Basic_4.ani`	0	3
+		`../Animation/Nedle_sub_hold_Basic_5.ani`	0	4
+		`../Animation/Nedle_sub_hold_Basic_6.ani`	0	5
+		`../Animation/Nedle_sub_hold_Basic_7.ani`	0	6
+		`../Animation/Nedle_sub_hold_Basic_1.ani`	0	7
+	[/SUB ANI]
+	[SOUND]
+		`SMALL_WORM_THORN_EXP`	0
+		`SMALL_WORM_THROW`	4
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[DO BEHAVIOR]
+	[LAST ATTACKSUCCESS]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[GRAB ON]
+		[Z OFFSET]
+			0
+		[ROTATE]
+			0
+	[/GRAB ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[LAST ATTACKSUCCESS]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[GRAB OFF]
+		[STATE]
+			4
+		[THROWING SPEED]
+			-600	600
+	[/GRAB OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		2	1000
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			15400
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			16134
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			85
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

@@ -1,0 +1,50 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_bottom_fire_0_0_1.ani`
+	[SUB ANI]
+		`../Animation/Etc_bottom_fire_0_1_4.ani`	0	1
+		`../Animation/Etc_bottom_fire_0_1_1.ani`	0	2
+		`../Animation/Etc_bottom_fire_0_2_1.ani`	0	3
+		`../Animation/Etc_bottom_fire_0_3_1.ani`	0	4
+		`../Animation/Etc_bottom_fire_0_1_2.ani`	0	5
+		`../Animation/Etc_bottom_fire_0_1_3.ani`	0	6
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70164
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-20	20
+		[RANDOM]
+			-10	10	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

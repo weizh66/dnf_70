@@ -1,0 +1,172 @@
+#PVF_File
+
+[name]
+	`2012 DNF 月度之王`
+
+[explain]
+	`  攻擊時， 有1%%的幾率增加2%%的攻擊速度， 效果持續30秒。
+  施放技能時， 有1%%的幾率增加4%%的施放速度， 效果持續30秒。`
+
+[flavor text]
+	`  DNF 2012超級錦標賽月賽冠軍的專屬稱號！ 它象征著通往大舞臺的鑰匙！ 帶上它和壹顆勇敢無畏的心踏上挑戰的征程吧！`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	146
+
+[custom animation]
+	`TitleAnimation/DNF_monthly_champion.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	330
+
+[MP MAX]
+	330
+
+[physical defense]
+	20
+
+[magical defense]
+	20
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[stuck]
+	-2
+
+[stuck resistance]
+	20
+
+[magical critical hit]
+	2
+
+[physical critical hit]
+	2
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	20
+[/then]
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`cast speed`
+		`+`	40
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	20
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`cast speed`
+		`+`	40
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

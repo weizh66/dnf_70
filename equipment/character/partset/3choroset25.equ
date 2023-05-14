@@ -1,0 +1,84 @@
+#PVF_File
+
+[set name]
+	`陰影暗跡  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[theif]`	45
+		`[dungeon type]`
+		`[static]`	14
+		`+`	1
+		`[theif]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[theif]`	45
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+		`[theif]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[雷光刃影]無法進行連續突刺
+[雷光刃影]冷卻時間 -50%%
+[雷光刃影]無色小晶塊消耗量 -1
+[疾馳]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[theif]`	34
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[theif]`	34
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[theif]`	34
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[疾風亂舞]多段攻擊次數 +6
+[疾風亂舞]冷卻時間 -20%%
+[疾風亂舞]無色小晶塊消耗量 +1`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[theif]`	75
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-70
+		`[theif]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[theif]`	75
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[theif]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[theif]`	75
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+	[/skill data up]
+	[parameter basic explain]
+		`[隕落螺旋刺]落地時間 -70%%
+[隕落螺旋刺]攻擊力 +50%%
+[隕落螺旋刺]冷卻時間 -30%%
+[隕落螺旋刺]無色小晶塊消耗量 -1`
+[/piece set ability]

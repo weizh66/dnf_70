@@ -1,0 +1,143 @@
+#PVF_File
+
+[name]
+	`復蘇之風鈍器`
+
+[grade]
+	94
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	92
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[repair price]
+	120320
+
+[value]
+	120320
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	994	939
+
+[equipment magical attack]
+	859	811
+
+[separate attack]
+	541	368
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/club/club.img`	145
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	51	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	51	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

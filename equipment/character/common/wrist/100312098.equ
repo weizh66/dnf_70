@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`天界守護者的勛章 - 手鐲`
+
+[basic explain]
+	`所受傷害 -25%%
+力量 +40
+智力 +40
+物理暴擊率 +6%%
+魔法暴擊率 +6%%`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[need material]
+	10000204	24
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	163
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	25
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical critical hit`
+		`+`	6
+	[stat by condition]
+		`magical critical hit`
+		`+`	6
+	[stat by condition]
+		`physical attack`
+		`+`	40
+	[stat by condition]
+		`magical attack`
+		`+`	40
+[/then]
+
+[set item master]
+	100300215
+
+[possible kiri protect]

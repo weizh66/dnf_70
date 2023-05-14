@@ -1,0 +1,129 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/DarkelfCemetary.ani`
+
+[cutscene image]
+	`Map/CutScene/UnderFoot.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	2	3
+	`WorldMap/SelectdungeonSlot/noierfera.img`	2
+
+[minimum required level]
+	39
+
+[basis level]
+	42
+
+[coin limit]
+	4
+
+[experience increasing point]
+	1.16
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	491	492	493	494	495	496	497	498	499	500
+
+[maze info]
+
+[size]
+	5	3
+
+[greed]
+	`JJFFFFFFMM
+ KKAAIIAAKK
+ DDFFHHFFGG`
+
+[map specification]
+	1	2	5402	5423
+[/map specification]
+
+[map specification]
+	0	2	5403	5422
+[/map specification]
+
+[map specification]
+	0	1	5406	5421
+[/map specification]
+
+[map specification]
+	0	0	5407	5420
+[/map specification]
+
+[map specification]
+	1	0	5408	5419
+[/map specification]
+
+[map specification]
+	2	0	5412	5418
+[/map specification]
+
+[map specification]
+	3	0	5411	5413
+[/map specification]
+
+[map specification]
+	4	0	5410	5414
+[/map specification]
+
+[map specification]
+	4	1	5409	5415
+[/map specification]
+
+[map specification]
+	4	2	5405	5416
+[/map specification]
+
+[map specification]
+	3	2	5404	5417
+[/map specification]
+
+[start map]
+	2	2
+[/start map]
+
+[boss map]
+	2	1
+[/boss map]
+
+[seal door map index]
+	60016
+
+[seal door pos]
+	2	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	1
+
+[hell dungeon]
+	1
+
+[special passive object item]
+	0	-1	3	1080	700	1081	1000	1082	2500	1	-1	0	2	-1	0	3	-1	0	4	-1	1	3210	10000
+[/special passive object item]
+
+[boss room entrance condition]
+	`[hunt monster]`	4	50073	1	1	50074	1	1	50075	1	1	50076	1	1
+
+[name]
+	`暗精靈墓地`
+
+[explain]
+	`邪龍斯皮茲是暗精靈的宿敵！ 數百年前， 暗精靈聚集眾人之力殺死了邪龍並分解了它的身體， 但邪龍的邪惡之心卻沒有消失。 為防止邪龍復活， 暗精靈把它的頭保存在暗精靈墓地並派守衛日夜守護。 最近有傳聞說， 暗精靈墓地的守衛被四名骷髏將軍殘害， 鑰匙也被奪走了……`
+
+[event monster]
+	1	10000	20181033	1	300	80	1
+[/event monster]

@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	126
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4172
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`目擊證詞`
+
+[depend message]
+	`這不是希洛克製作的幻影不用擔心…… 
+<npc::1011>長相沒有變化，可是…。嗯…… 這都無所謂。什麼事？
+<npc::126>她變成這個樣子，我也覺得很可惜。如果我們的力量夠強就不需要這樣排擠她。
+<npc::1011>我不想聽那些話。
+<npc::126>不要那麼冷酷。我多少也有一點罪惡感，所以很長一段時間都在尋找她變成這樣的原因。
+<npc::1011>很多時間…？奇怪。
+<npc::126>那個先不要管，正在追蹤讓這所有事情發生的人。還有你我都有可以見過他。所以仔細想想。
+<npc::1011>…。那個人的長相……？
+<npc::126>戴著黑色帽子的魔法師。他和帝國的人一起來。然後安靜的站在後面…… 洛克希發飆時也站在後面觀察而已。後來就消失了。
+<npc::1011>（難道…。） 抱歉。我沒心情繼續說……`
+
+[condition message]
+	`離開時間之門與西嵐對話`
+
+[solve message]
+	`啊…為什麼查明這魔法師的身分這麼困難呢！`
+
+[quest point]
+	4

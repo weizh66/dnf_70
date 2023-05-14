@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	12
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20645
+[/pre required quest]
+
+[depend give item]
+	2749680	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749680	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`莎蘭的自信心`
+
+[depend message]
+	`這次絕對沒問題了， 把它交給賽麗亞吧！
+真希望趕緊聽到她快樂的笑聲。`
+
+[condition message]
+	`    把[解除變異藥劑 (加強版)]帶給賽麗亞。`
+
+[solve message]
+	`莎蘭真是太偉大了， 當然你也很偉大， 冒險家。 我想這次肯定能成功的吧！
+(說完， 賽麗亞開始喝新藥劑了)……`

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	99
+
+[pre required quest]
+	5868	5871
+[/pre required quest]
+
+[monster reward item]
+	56137	87	3	4401	1	50	10	56010	87	3	4401	1	50	10	61223	87	3	4401	1	100	10	56137	87	4	4401	1	50	10	56010	87	4	4401	1	50	10	61223	87	4	4401	1	100	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4401	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5880
+
+[name]
+	`英雄 -  奪回西部線 (1/2)`
+
+[depend message]
+	`現在是時候開啟奪回西部線的英雄級了。
+這次需要收集的物品是極品鐵鱗。 上次你也收集過了， 應該知道怎么做吧！`
+
+[condition message]
+	`    前往海上列車的『奪回西部線』， 從稀有怪物和領主身上收集[極品鐵鱗]， 要求地下城難度為地獄級。`
+
+[solve message]
+	`很好， 我們馬上進入下一階段吧！`

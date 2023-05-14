@@ -1,0 +1,34 @@
+#PVF_File
+
+[kind]
+	29
+
+[grade]
+	`[pop]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`獲得勝利`
+	
+
+[cond_text]
+	`這次競賽獲得勝利`
+	
+
+[condition]
+	`[hereafter winning count]`	2	1	-1
+[/condition]
+
+[difficulty_ratio]
+	1.0

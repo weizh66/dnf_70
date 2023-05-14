@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[type]
+	`[pvp rank]`
+
+[sub type]
+	-1
+
+[int data]
+	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	20000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	355
+
+[name]
+	`向阿爾伯特學技能 (1/2)`
+
+[depend message]
+	`你想學我的技能？ 哼， 我的技能可不是一般人能學的。 特別是那些沒有能力的人， 我最討厭了！
+你不服氣嗎？ 那就證明給我看！ `
+
+[condition message]
+	`    前往決斗場， 把決斗等級提升到1段后向阿爾伯特回復。`
+
+[solve message]
+	`哼， 這只是一個簡單的測試而已。 換作是我， 閉著眼睛也能完成， 不是嗎？ `
+
+[quest point]
+	4

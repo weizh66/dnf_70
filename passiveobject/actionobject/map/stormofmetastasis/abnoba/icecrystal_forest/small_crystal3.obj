@@ -1,0 +1,27 @@
+#PVF_File
+
+[is hp by difficulty]
+	1
+
+[layer]
+	`[bottom]`
+
+[basic action]
+	`Action/9_small_crystal1_Basic9.act`
+
+[etc action]
+	`Action/9_Etc_144_small_crystal1_9.act`
+	`Action/9_144_small_crystal1_Last9.act`
+[/etc action]
+
+[team]
+	100
+
+[destroy particle]
+	`Particle/small_crystal1_destroy.ptl`
+
+[hp max]
+	5000
+
+[hp destroy]
+	1

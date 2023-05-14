@@ -1,0 +1,222 @@
+#PVF_File
+
+[name]
+	`麥斯的黃金步槍`
+
+[basic explain]
+	`    攻擊速度 +5%%
+    [空中射擊]攻擊力 +50%%
+    [空中射擊]步槍發射次數 +5次
+    施放[空中射擊]時， 在持續時間內， 使自身進入霸體狀態。
+    [步槍精通]發射數增加量 +2`
+
+[detail explain]
+	`    攻擊速度 +5%%
+    [空中射擊]攻擊力 +50%%
+    [空中射擊]步槍發射次數 +5次
+    [步槍精通]發射數增加量 +2
+    施放[空中射擊]時， 在持續時間內， 使自身進入霸體狀態。 (冷卻時間60秒； 解除裝備後效果消失)`
+
+[flavor text]
+	`    只不過是外觀好看點而已， 又不是真的黃金。`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	92
+
+[attack speed]
+	50
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	961	836
+
+[equipment magical attack]
+	834	727
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[gunner]`	110	1
+	`[at gunner]`	110	1
+	`[gunner]`	52	2
+	`[at gunner]`	52	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/musket/musket.img`	108
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	33
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	44
+	`[all]`
+	`[level]`	1
+	`+`	5
+	`[gunner]`	110
+	`[all]`
+	`[level]`	2
+	`+`	2
+	`[gunner]`	110
+	`[all]`
+	`[level]`	5
+	`+`	2
+	`[at gunner]`	33
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	33
+	`[all]`
+	`[level]`	4
+	`+`	5
+	`[at gunner]`	110
+	`[all]`
+	`[level]`	2
+	`+`	2
+	`[at gunner]`	110
+	`[all]`
+	`[level]`	5
+	`+`	2
+[/skill data up]
+
+[if]
+	[cooltime]
+		60000
+	[event use skill]
+		`gunner`	33
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		`skill level info`	33	0	-1
+	[appendage]
+		677
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[event use skill]
+		`at gunner`	33
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		`skill level info`	33	0	-1
+	[appendage]
+		677
+[/then]
+
+[possible kiri protect]

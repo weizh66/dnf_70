@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`暗影領域 - 奧茲瑪的暗影指環`
+
+[basic explain]
+	`1000PX範圍內的敵人暗屬性抗性降低200點`
+
+[flavor text]
+	`“血之詛咒”，人與人之間的信任消亡，世界陷入壹片混沌。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	280
+
+[magical attack]
+	280
+
+[attack speed]
+	50
+
+[dark attack]
+	100
+
+[anti evil]
+	30
+
+[need material]
+	3850	999999
+
+[price]
+	74400
+
+[repair price]
+	62496
+
+[value]
+	59520
+
+[equipment magical defense]
+	22240	22048
+
+[physical critical hit]
+	30
+
+[magical critical hit]
+	30
+
+[icon]
+	`Item/common/ring_cn.img`	51
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	1000
+	[duration]
+		500
+	[aura active]
+		`dark resistance`
+		`+`	-200	0
+[/then]
+
+[set item master]
+	2011121
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

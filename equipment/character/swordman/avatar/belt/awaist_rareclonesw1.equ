@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`稀有克隆裝扮腰部`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	14
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_WATER]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_DARK]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_LIGHT]`
+	`+`	35
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`
+	`+`	55
+	`[INVENTORY_MAX_WEIGHT]`
+	`+`	14000
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	2
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	3
+
+[explain]
+	`  直接穿戴不顯示外觀；可以複製穿戴中的同部位裝扮款式，但屬性值保留克隆裝扮原屬性。
+  如被複製的裝扮消失，則外觀恢復透明，反之則維持複製款式。（拖動或右鍵點擊穿戴裝扮圖標，可以解除克隆）`
+
+[usable period]
+	1

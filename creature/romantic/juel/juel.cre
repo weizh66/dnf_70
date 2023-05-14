@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	``
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[learn overskill level]
+	100
+
+[basic motion]
+	`Animation/juel_stand.ani`
+
+[walk motion]
+	`Animation/juel_walk.ani`
+
+[run motion]
+	`Animation/juel_run.ani`
+
+[response motion]
+	`Animation/juel_skill_all_skill_call.ani`
+
+[response sound tag]
+	`PRINCESSPETIT_CALL_02`
+
+[random motion]
+	`Animation/yellow_humanoid_random.ani`
+[/random motion]
+
+[etc motion]
+[/etc motion]
+
+[revision x]
+	0
+
+[revision y]
+	0
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[skill list]
+	[skill node]
+		0
+		[skill type]
+			`general skill`
+		[skill name]
+			`浪漫滿屋`
+		[skill recovery time]
+			60000
+		[learn skill level]
+			1
+		[skill mp]
+			10
+		[skill motion]
+			`Animation/juel_skill_all_skill_call.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			``
+		[skill info]
+			`skill/skill.skl`
+		[attack info]
+			``
+	[/skill node]
+[/skill list]

@@ -1,0 +1,134 @@
+#PVF_File
+
+[name]
+	`戰術之王的禦敵胸甲`
+
+[flavor text]
+	`  為什么要發我這么多勛章！現在每天要正裝出席的時候，遠看胸前跟掛著貴客一樣。 --杰特`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12574
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	39
+
+[magical attack]
+	39
+
+[magical defense]
+	42
+
+[need material]
+	3821	1000
+
+[price]
+	109200
+
+[repair price]
+	87360
+
+[value]
+	87360
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	2448	2232
+
+[stuck resistance]
+	20
+
+[stuck]
+	-2
+
+[icon]
+	`Item/new_equipment/03_leather/coat/leather_coat.img`	23
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[item aura]
+	`equipment physical attack`
+	`+`	80	300
+
+[item aura]
+	`equipment magical attack`
+	`+`	80	300
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[probability]
+		1
+	[target]
+		`party`	500
+	[buff]
+		`superarmor`
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`move speed`
+		`+`	100
+	[stat]
+		`cast speed`
+		`+`	100
+	[duration]
+		20000
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600781	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/six.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[ALL MONSTER TEAM]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PULL APPENDAGE]
+		10.0	10.0	1000
+[/BEHAVIOR]

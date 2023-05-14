@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20566
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749051	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749049	2	2749050	2	2749052	10
+[/reward int data]
+
+[name]
+	`春節大掃除！ (6/6)`
+
+[depend message]
+	`你好呀~冒險家！ 每到新年， 阿拉德大陸就會舉行隆重的迎新年慶典以驅除霉運！
+不過這慶典需要放爆竹來驅除霉運， 嗯， 阿拉德大陸的怪物身上應該會藏有一些爆竹， 你可以找它們要點。
+呵呵~你也希望新的一年遠離霉運吧？ 那就快去找些爆竹回來吧~`
+
+[condition message]
+	`    前往任意地下城， 收集50個[爆竹]。`
+
+[solve message]
+	`哎呀！ 這么快就拿來了？ 呵呵， 幸虧有冒險家在， 這世界才充滿希望~`

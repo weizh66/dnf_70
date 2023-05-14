@@ -1,0 +1,108 @@
+#PVF_File
+
+[minimum info]
+	`明天去參軍`	0	3	0	1	70	0	0	10	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	0	3000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+[/additional character status]
+
+[character status rate]
+	450	1000	1	1	1	1	1	1	1	1	1	1	10	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.3	1	1	1
+[/character status rate]
+
+[attack damage rate]
+	0.08
+
+[add equipment status from level]
+	1
+
+[armor subtype]
+	4
+
+[custom skill level]
+[/custom skill level]
+
+[quick skill]
+	76	0	81	0	24	0	79	5	8	5
+[/quick skill]
+
+[skill]
+	63	0
+[/skill]
+
+[skill correction]
+	81	0.7	79	0.7
+[/skill correction]
+
+[quick item]
+	8	1
+[/quick item]
+
+[equipment]
+	27574	2	12	39598	2	0	40822	2	0	40337	2	0
+[/equipment]
+
+[think term]
+	500
+
+[destination change term]
+	500
+
+[keep distance with target]
+	500
+
+[warlike]
+	0
+
+[vision]
+	1000
+
+[death tower item]
+[/death tower item]
+
+[targeting bonus]
+	100	50	0	0	0	0	0	0	0	0	0	0	0	0	99	0	0	0	0	0	0
+	`[stand]`
+	`[dash]`	0	0
+	`[slow]`
+	`[confuse]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+	`FightAction.ai`
+[/ai pattern]
+
+[key stream]
+	`frenzy`
+	`frenzy.key`
+	`pipock`
+	`pipock.key`
+	`outrage`
+	`outrage.key`
+	`rave`
+	`rave.key`
+	`talk`
+	`talk.key`
+	`remi`
+	`remi.key`
+	`three`
+	`three.key`
+[/key stream]
+
+[speech on situation]
+	[on key]
+		`我明天要去參軍了~`	100	0
+	[on key]
+		`價值400萬的2件裝備，現價20萬起拍啦~`	100	1
+	[on key]
+		`快來買啊，沒剩幾件啦！`	100	3
+	[on die]
+		`我下周就要結婚了……`	100
+	[on key]
+		`啊 ~@#$%……我不想死！`	10	4
+[/speech on situation]

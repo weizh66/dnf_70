@@ -1,0 +1,17 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Dummy.ani`
+[/MOTION]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

@@ -1,0 +1,104 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/CreatorTimeForward/Shock.img`
+		0
+	[IMAGE POS]
+		-243	-80
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		110
+	[FLIP TYPE]
+		`ALL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/CreatorTimeForward/Shock.img`
+		0
+	[IMAGE POS]
+		-243	-80
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		230
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`ALL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/CreatorTimeForward/Shock.img`
+		0
+	[IMAGE POS]
+		-243	-79
+	[IMAGE RATE]
+		0.8500000238418579	0.8500000238418579
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`ALL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	-5
+	[IMAGE RATE]
+		0.5	0.5
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	-5
+	[IMAGE RATE]
+		0.5	0.5
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	-5
+	[IMAGE RATE]
+		0.5	0.5
+	[DELAY]
+		80
+
+[FRAME006]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	-5
+	[IMAGE RATE]
+		0.5	0.5
+	[DELAY]
+		80

@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`瑟冥特克  卡片`
+	
+
+[flavor text]
+	`    存在於這個世界上的4元素精靈之一， 擁有暗屬性的精靈。 只要留心觀察， 也許可以發現它的可愛之處……`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	35
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[pants]`
+	`[foil]`
+	`[unlimited challenge]`
+[/string data]
+
+[int data]
+	35	602
+[/int data]
+
+[enchant]
+	[hit recovery]
+		15
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

@@ -1,0 +1,153 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Bot/bombera.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			600027
+		[PARTICLE FILENAME]
+			`../Particle/GrenadeA.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			600027
+		[PARTICLE FILENAME]
+			`../Particle/GrenadeA.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			600027
+		[PARTICLE FILENAME]
+			`../Particle/GrenadeA.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			600027
+		[PARTICLE FILENAME]
+			`../Particle/GrenadeA.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		11	11
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			600027
+		[PARTICLE FILENAME]
+			`../Particle/GrenadeA.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		14	14
+	[DO BEHAVIOR]
+	[ME]
+		5
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			600027
+		[PARTICLE FILENAME]
+			`../Particle/GrenadeA.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		17	17
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			600027
+		[PARTICLE FILENAME]
+			`../Particle/GrenadeA.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

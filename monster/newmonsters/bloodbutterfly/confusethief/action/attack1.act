@@ -1,0 +1,35 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack1.ani`
+	[SPEECH]
+		`我會讓你後悔來這兒！`
+			0	30
+	[/SPEECH]
+	[SOUND]
+		`R_THIEF_KNIFE_ATK`	2
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8931
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			100	0	0
+		[USE MY DIRECTION]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

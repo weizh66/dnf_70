@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`班圖角笛`
+	
+
+[explain]
+	`    使用後， 可以召喚出一隻Lv53~Lv57的班圖族戰士協助自身戰鬥， 班圖族戰士存在120秒。`
+	
+
+[flavor text]
+	`    我們班圖族的戰士……不會見死不救， 特別是對陷入危險的夥伴！  --班圖圖盧斯族戰士`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	238
+
+[stackable type]
+	`[waste]`	0
+
+[item group name]
+	`animal stuff`
+
+[cool time]
+	120000
+
+[cooltime group]
+	11
+
+[move wav]
+	`BONE_TOUCH`
+
+[monster summons]
+	1012	53	57	120000	2

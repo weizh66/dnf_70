@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`基本上衣`
+
+[grade]
+	0
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`item/avatar/atfighter/fm_acoat.img`	0
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

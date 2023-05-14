@@ -1,0 +1,99 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at mage]`	99
+		`[dungeon type]`
+		`[static]`	6
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[次元 : 虛影]攻擊力 +25%%
+[次元 : 萬花鏡] 攻擊次數 +1次`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	95
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	99
+		`[dungeon type]`
+		`[static]`	6
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[次元 : 虛影]攻擊力 +30%%
+[次元 : 虛影]冷卻時間 -25%%
+[次元 : 萬花鏡]攻擊次數 +2次`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	104
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[at mage]`	104
+		`[dungeon type]`
+		`[level]`	2
+		`%`	35
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	95
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[at mage]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+	[/skill data up]
+	[parameter basic explain]
+		`[乖離 : 魅魔之舞]攻擊力 +35%%
+[乖離 : 魅魔之舞]冷卻時間 -30%%
+[次元 : 虛影]攻擊力 +30%%
+[次元 : 萬花鏡]攻擊力 +45%%`
+[/piece set ability]

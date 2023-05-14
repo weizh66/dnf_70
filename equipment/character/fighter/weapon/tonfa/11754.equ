@@ -1,0 +1,221 @@
+#PVF_File
+
+[name]
+	`無軒之黃金東方棍`
+
+[basic explain]
+	`    攻擊時， 附加16%%的傷害。
+    攻擊時， 有3%%的幾率使隊員進入無敵狀態10秒， 但需消耗5個無色小晶體。
+    攻擊時， 有5%%的幾率使包括自身在的隊員增加10%%的物理攻擊力、 10%%魔法攻擊力和7%%的獨立攻擊力， 效果持續20秒。`
+
+[detail explain]
+	`    攻擊時， 附加16%%的傷害。
+    攻擊時， 有3%%的幾率使隊員進入無敵狀態10秒， 但需消耗5個無色小晶體（冷卻時間50秒）。
+    攻擊時， 有5%%的幾率使包括自身在的隊員增加10%%的物理攻擊力、 10%%魔法攻擊力和7%%的獨立攻擊力， 效果持續20秒。（冷卻時間30秒；最多重疊1次，攻擊力加成效果包括其他裝備內最多重疊1次；解除裝備後效果消失）`
+
+[flavor text]
+	`    全軍突擊！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[magical attack]
+	97
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	960	824
+
+[equipment physical defense]
+	910	910
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/tonfa/tonfa.img`	102
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	16
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		50000
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[duration]
+		10000
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		5
+	[equipment duration]
+		20000
+	[appendage]
+		228
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600722	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

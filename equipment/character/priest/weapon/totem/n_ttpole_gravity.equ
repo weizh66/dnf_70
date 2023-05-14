@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`地靈絕魂圖騰`
+
+[basic explain]
+	`攻擊時， 增加等同于自身和金庫重量之和80%%的傷害。 (金庫中適用于上述屬性的重量為， 每個欄位最高不超過6Kg)`
+
+[flavor text]
+	`    無論遇到什么狀況， 也不要動搖你的意志。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/priest/totem.img`	34
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	38
+
+[price]
+	80000
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	53
+
+[equipment physical attack]
+	500	449
+
+[equipment magical attack]
+	428	385
+
+[separate attack]
+	285	189
+
+[stuck]
+	-1
+
+[variation]
+	3	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

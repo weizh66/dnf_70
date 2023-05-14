@@ -1,0 +1,112 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/distance_smell_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			150
+		[ZPOS]
+		[<=]
+			10
+		[IS NOT TARGET STATE]
+			5
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[ON]
+	[TRIGGER]
+		2
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[ENABLE]
+	[OFF]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56659
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70214
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	150
+		[FOLLOWING TARGET]
+	[/CREATE PASSIVEOBJECT]
+	[SET ACTION]
+	[ATTACK]
+		12
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[stone]
+		100	110	5000	50
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[ENABLE]
+	[OFF]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56658
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		4
+	[NOW]
+[/BEHAVIOR]

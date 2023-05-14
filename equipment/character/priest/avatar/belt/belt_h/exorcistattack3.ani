@@ -1,0 +1,98 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		39
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-13	-5	-5	35	10	97
+
+[FRAME001]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		40
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`R_PW_3ATK`
+	[DAMAGE BOX]
+	-5	-5	-1	47	10	82
+
+[FRAME002]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		41
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-8	-5	-6	45	10	93
+
+[FRAME003]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		42
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-11	-5	-5	47	10	97
+
+[FRAME004]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		43
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-16	-5	-4	37	10	108
+	[ATTACK BOX]
+	-29	-20	-5	158	40	180
+
+[FRAME005]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		44
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-25	-5	-6	49	10	111
+
+[FRAME006]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		45
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		400
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-23	-5	-4	47	10	109

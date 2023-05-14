@@ -1,0 +1,195 @@
+#PVF_File
+
+[set name]
+	`閃擊之戰  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	40
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	40
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[fighter]`	40
+		`[dungeon type]`
+		`[level]`	4
+		`+`	3
+		`[fighter]`	40
+		`[dungeon type]`
+		`[level]`	5
+		`+`	3
+		`[fighter]`	40
+		`[dungeon type]`
+		`[level]`	10
+		`+`	3
+		`[at fighter]`	40
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	40
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[at fighter]`	40
+		`[dungeon type]`
+		`[level]`	4
+		`+`	1.5
+		`[at fighter]`	40
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1.5
+		`[at fighter]`	40
+		`[dungeon type]`
+		`[level]`	6
+		`+`	1.5
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[念氣環繞]攻擊力 +20%%
+[念氣環繞]物防 +50%%
+[念氣環繞]每生成1個念氣珠時， [螺旋念氣場]、 [雷霆膝擊]、 [念獸 : 龍虎嘯]攻擊力增加率 +1.5%%
+格斗家(女) :
+[念氣環繞]攻擊力 +20%%
+[念氣環繞]物防 +50%%
+[念氣環繞]每生成1個念氣珠時， [螺旋念氣場]、 [雷霆背摔]、 [念獸 : 龍虎嘯]攻擊力增加率 +3%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	16
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	16
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	16
+		`[dungeon type]`
+		`[level]`	3
+		`+`	1
+		`[at fighter]`	16
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	16
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at fighter]`	16
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[螺旋念氣場]冷卻時間 -6秒
+[螺旋念氣場]大小 +30%%
+[螺旋念氣場]多段攻擊次數 +2
+格斗家(女) :
+[螺旋念氣場]冷卻時間 -6秒
+[螺旋念氣場]大小 +30%%
+[螺旋念氣場]多段攻擊次數 +1`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-20000
+		`[fighter]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[fighter]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[fighter]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[fighter]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[fighter]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	15
+		`[fighter]`	79
+		`[dungeon type]`
+		`[level]`	5
+		`%`	15
+		`[fighter]`	79
+		`[dungeon type]`
+		`[level]`	6
+		`%`	15
+		`[fighter]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[fighter]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	12
+		`+`	30
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	15
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	5
+		`%`	15
+		`[at fighter]`	79
+		`[dungeon type]`
+		`[level]`	6
+		`%`	15
+		`[at fighter]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[at fighter]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[獅子吼]冷卻時間 -4.5秒
+[獅子吼]攻擊力 +15%%
+[念獸 : 龍虎嘯]攻擊力 +20%%
+[念獸 : 龍虎嘯]移動速度增加率 +3%%
+格斗家(女) :
+[獅子吼]冷卻時間 -4.5秒
+[獅子吼]攻擊力 +15%%
+[念獸 : 龍虎嘯]冷卻時間 -20秒
+[念獸 : 龍虎嘯]攻擊力 +15%%`
+[/piece set ability]

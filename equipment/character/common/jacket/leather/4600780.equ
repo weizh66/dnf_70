@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`封·暗魅之影上衣`
+
+[basic explain]
+	`  背擊攻擊時，有1%%的幾率使自身進入偽裝狀態5秒
+  攻擊時傷害 +18%%`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12573
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	84
+
+[magical attack]
+	84
+
+[magical defense]
+	42
+
+[price]
+	109200
+
+[repair price]
+	87360
+
+[value]
+	87360
+
+[need material]
+	3821	1000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2448	2232
+
+[icon]
+	`item/new_equipment/03_leather/coat/leather_coat.img`	22
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		100
+	[buff]
+		`camoflage`
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	18
+[/then]
+
+[possible kiri protect]

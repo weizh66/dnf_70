@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	1021
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4127
+[/pre required quest]
+
+[show click on complete npc]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1021
+[/int data]
+
+[dungeon info]
+	70	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`大火災`
+
+[depend message]
+	`說也奇怪…… 時間好像流動的太快了。你快去向獸王烏塔拉確任這個裝飾的主人是不是引發火災的犯人。
+沒時間拖拖拉拉了！快！`
+
+[condition message]
+	`詢問獸王烏塔拉關於奇怪裝飾的主人（完成地下城之後，點擊地下城內出現的NPC 倒下的獸王烏塔拉。）`
+
+[solve message]
+	`咳……咳呃…… 結果還是變成這樣。對不起。
+那個裝飾和我見過的那個人的裝飾很想… 精神恍惚。
+<npc::1019>烏塔拉。
+<npc::1020>這愚鈍的畜生，沒能守住魔法陣的破壞。現在…… 世界就是崩壞了。破壞這魔法陣的傢伙，肯定也沒想到事情會鬧這麼大。
+帶著妖精們躲到天空之城上面吧。在那裡尋找新的領土…… 
+<npc::1019>啊… 烏塔拉…… 就這麼虛妄的死去了。但是世界並不是這樣就結束了。`
+
+[dialog]
+	1	0	70	0	1	63024	0
+	`<monster::63024>嗚…嗚喔喔喔喔！`
+[/dialog]
+
+[quest point]
+	4

@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`貪食之力`
+
+[basic explain]
+	`對敵人的傷害+15%%。`
+
+[detail explain]
+	`對敵人的傷害+15%%。(傷害加成取最高值)`
+
+[flavor text]
+	`吃 吃 吃......`
+
+[grade]
+	91
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[physical defense]
+	93
+
+[equipment magical defense]
+	4896	4464
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[need material]
+	3822	100
+
+[price]
+	127400
+
+[value]
+	101920
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	167
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	22
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	15
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

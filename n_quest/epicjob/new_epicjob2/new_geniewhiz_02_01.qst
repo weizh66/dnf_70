@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 古靈精怪 (2/6)`
+
+[depend message]
+	`我聽說， 過去魔道學不被魔法學認可， 但后來在魔道學者們的不斷努力下， 魔法學最終承認了魔道學。
+你也要秉承前代魔道學者們背負的責任感， 去背負屬于自己的責任。
+對， 你說的沒錯。 不過， 你說的理解應該只是停留在嘴上了吧？ 好， 那你把手里的糖吃進去， 繼續認真聽我講下去。
+如果想完成進階， 首先你要知道自己都有哪些缺點。 什么， 你說你好像沒有缺點？ 這個有待驗證吧， 是不是？
+去參加魂·黃龍大會吧， 記得一定要拿到冠軍。 你這是什么表情？ 別嘮叨了， 快點去吧！
+參加大會需要拿到斯卡迪女王的印章， 記得一定要提前收集好。
+……別再?嗦了……快去！`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5055
+[/pre required quest]
+
+[relation quest]
+	6788
+
+[job change quest]
+	3
+
+[grow number]
+	0

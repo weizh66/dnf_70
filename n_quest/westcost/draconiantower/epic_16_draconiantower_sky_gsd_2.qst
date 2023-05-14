@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	16	99
+
+[pre required quest]
+	4305
+[/pre required quest]
+
+[enemy reward item]
+	70	1	11	2	3129	1	30	15	70	1	11	3	3129	1	30	15	71	1	11	2	3129	1	100	15	71	1	11	3	3129	1	100	15	72	1	11	2	3129	1	30	15	72	1	11	3	3129	1	30	15
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3129	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`不尋常的天空之城氣息`
+
+[depend message]
+	`天空之城的生命體與一般的生命體不同， 但那些生命體身上散發的氣息卻和鬼手的氣息有幾分相似。
+年輕人， 你能給我找來蘊含著天空之城生命體氣息的東西嗎？`
+
+[condition message]
+	`    前往天空之城的『龍人之塔』， 收集15個[耀眼的龍人之眼]， 要求地下城難度為王者級。`
+
+[solve message]
+	`冒險家， 你去過天空之城了嗎?`
+
+[quest point]
+	4

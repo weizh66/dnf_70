@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`塵埃與碎石`
+	
+
+[explain]
+	`這個袋子原本的主人應該是乞丐吧。`
+	
+
+[flavor text]
+	`阿加雷斯的無限挑戰活動。
+投擲時， 可以對單個敵人造成傷害。`
+	
+
+[grade]
+	43
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/IconMaterial.img`	39
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	1
+
+[cool time]
+	1000
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50604	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Gravel.ptl`
+[/string data]
+
+[expiration date]
+	1372305600

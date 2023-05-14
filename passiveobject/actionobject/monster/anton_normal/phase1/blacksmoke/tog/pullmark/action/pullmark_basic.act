@@ -1,0 +1,38 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/pullmark_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/pullmark_Basic_3.ani`	0	1
+		`../Animation/pullmark_Basic_1.ani`	0	2
+		`../Animation/pullmark_Basic_2.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		9	9
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56675
+		[/IS INDEX]
+		[IS NOT TARGET STATE]
+			8
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

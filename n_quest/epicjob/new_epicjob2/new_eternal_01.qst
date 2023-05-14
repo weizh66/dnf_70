@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 剎那永恒 (1/6)`
+
+[depend message]
+	`我已經關注你很久了。 在你的身上我看到了極大的潛力。
+如果你愿意， 我想幫助你激發出蘊含在你體內的潛力， 使你變得更加強大。 在即將來臨的大戰中， 我希望能借用你的力量。
+如果你有興趣嘗試， 就跟我好好談談吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`……你現在莫非是感到難過嗎？ 哎， 還真是難得一見啊。
+竟然在有生之年看到冰霜般的家伙重新找回了情感……
+好吧， 到底發生了什么事， 才讓冷漠的你如此難過？
+……是嗎， 這樣啊……難怪你會這樣。 嗯……
+雖然這件事的確很遺憾， 但與此同時我也在慶幸你能夠借此機會找回情感。 畢竟， 一直以來你都處于隨時可能被那冰凍的內心吞噬的危險中。 我們就往好的方向去想吧……
+好， 看來我要給你個新的提議了。 你有沒有興趣成為剎那永恒？`
+
+[target character]
+	`[at mage]`	2	1
+[/target character]
+
+[relation quest]
+	5572
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`封·聖堂騎士的援護腰帶`
+
+[basic explain]
+	`  當HP低于50%%時，會立即恢復10%%的HP，并增加10%%的自身防御力，效果持續30秒。（冷卻時間30秒；解除裝備后效果消失）
+  當HP低于25%%時，會對自身施放Lv10的[圣光守護]。（冷卻時間60秒）`
+
+[flavor text]
+	`  以神之名，拯救這些墮落的怨靈。愿他們能夠得到安息！`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12569
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	21
+
+[magical attack]
+	21
+
+[physical defense]
+	53
+
+[magical defense]
+	30
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	800
+
+[price]
+	97200
+
+[repair price]
+	77760
+
+[value]
+	77760
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1840	1660
+
+[icon]
+	`Item/new_equipment/06_plate/belt/plate_belt.img`	16
+
+[field image]
+	`Item/field_equip.img`	18
+
+[equipment type]
+	`[waist]`	18
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2000
+
+[item group name]
+	`mt waist`
+
+[cool time]
+	10000
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	50
+	[time]
+		500	1	500
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[appendage]
+		285
+[/then]
+
+[if]
+	[my appendage]
+		285
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[stat]
+		`equipment physical defense`
+		`%`	10
+	[stat]
+		`equipment magical defense`
+		`%`	10
+	[restore]
+		`hp`
+		`%`	10	0
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	25
+	[time]
+		500	1	500
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[perform skill]
+		`priest`	22	10	0
+[/then]
+
+[possible kiri protect]

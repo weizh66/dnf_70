@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+	`玄武護魂胸甲`
+
+[basic explain]
+	`背擊被攻擊時自己受到的傷害減少10%% `
+
+[flavor text]
+	`它就像烏龜背上的甲殼一樣，無論多大的背擊都不會受傷。`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	29
+
+[physical defense]
+	27
+
+[magical attack]
+	21
+
+[price]
+	86800
+
+[repair price]
+	76557
+
+[value]
+	24700
+
+[equipment physical defense]
+	3360	3072
+
+[icon]
+	`Item/common/coat.img`	109
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[if]
+	[attack condition]
+		`back attack`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	10
+[/then]
+
+[set name]
+	`玄武護魂套裝`
+
+[set item]
+	11313	13312	15304
+[/set item]
+
+[set ability]
+	[equipment physical defense]
+		1000	1000
+	[if]
+		[attack condition]
+			`back attack`
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add absolute defense percent]
+			`all`	30
+	[/then]
+	[if]
+		[attack condition]
+			`critical`
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add absolute defense percent]
+			`all`	20
+	[/then]
+	[fullset basic explain]
+		`背擊被攻擊時自己受到的傷害減少30%% 
+暴擊被攻擊時自己受到的傷害減少20%% `
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[need material]
+	2749212	49
+
+[possible kiri protect]

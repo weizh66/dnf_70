@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	127
+
+[complete npc index]
+	-1
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	74	99
+
+[pre required quest]
+	4496
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	74	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`追溯時間回到幼年時期`
+
+[depend message]
+	`稍微整理了一下西嵐開啟的時間之門。如果可以進入極密區域，就可以看到兒時的模樣了。雖然只是一下下……`
+
+[condition message]
+	`在極密區域，確認兒時的模樣`
+
+[solve message]
+	`怎麼樣呢？那不會是段愉快的回憶。`
+
+[dialog]
+	1	0	74	0	1	0	0
+	`<npc::0>那些孩子！？
+<npc::1036>我會記住你們！
+<npc::1037>喂… 你別太這樣。這都是為了治療你。
+<npc::1036>快走開！！！
+<npc::1037>嗚啊啊啊！！！
+<npc::0>（那時關係好像不怎麼好…）
+<npc::1017>真是！瑪那發飆了。就這樣靠近的孩子們……。實驗失敗了！快帶孩子們走！
+<apc::204>到…到底為什麼？`
+[/dialog]
+
+[dialog]
+	1	1	74	0	1	0	0
+	`<npc::0>是這樣陷入異次元裂縫的嗎…
+<npc::127>嗯… 沒錯！小時候，你們好像被帝國選定為實驗體了。
+<npc::0>不是那麼愉快的記憶啊…`
+[/dialog]
+
+[quest point]
+	4

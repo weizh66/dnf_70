@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[pre required quest]
+	4987
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680301	20	2680309	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680311	10	2680310	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`天藍色鮮奶油`
+
+[depend message]
+	`你需要顏色更特殊的鮮奶油？ 嗯……如果你給我一些材料， 我就給你換成天藍色的鮮奶油， 怎么樣？
+西海岸有人出售鮮奶油， 天藍色食用色素可以找羅莉安幫忙。`
+
+[condition message]
+	`    收集20個[鮮奶油]和1個[天藍色食用色素]交給賽麗亞。`
+
+[solve message]
+	`大功告成！ 大家快來慶祝一下吧~
+時間過得真快， 轉眼就1年了~因為有冒險家們的陪伴， 這1年對我來說是非常快樂的1年， 以后也請大家多多關照~最后， 請大家一起來品嘗我們一周年的生日蛋糕吧~`

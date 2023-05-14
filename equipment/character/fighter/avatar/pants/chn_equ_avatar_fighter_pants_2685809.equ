@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`褐色皮質格斗短褲`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_apants.img`	232
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	66	1
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[HP MAX]`
+	`+`	150
+	`[MP MAX]`
+	`+`	150
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`+`	300
+[/avatar select ability]
+
+[image packs]
+	`Character/Fighter/Equipment/Avatar/pants/ft_pants1702a.img`
+	`Character/Fighter/Equipment/Avatar/pants/ft_pants1702b.img`
+[/image packs]

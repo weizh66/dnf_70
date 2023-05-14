@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`血色殘陽戒指`
+
+[basic explain]
+	`HP值低於50%%時， 獨立攻擊力 +10%%`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	11857
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[HP MAX]
+	800
+
+[need material]
+	3824	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	229
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	200
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[dynamic part set index]
+	11857	12550	12551	12552	12553
+[/dynamic part set index]
+
+[if]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`<`
+		`%`	50
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`separate attack`
+		`%`	10
+[/then]
+
+[possible kiri protect]

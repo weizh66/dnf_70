@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`機械戰神的戰斗步槍`
+
+[basic explain]
+	`    攻擊時， 有10%%的幾率增加物理、 魔法暴擊率， 效果持續20秒。
+攻擊速度 +3%%
+基本裝彈數 +2`
+
+[detail explain]
+	`    攻擊時， 有10%%的幾率增加20%%的物理暴擊率和10%%的魔法暴擊率， 效果持續20秒。
+攻擊速度 +3%%
+基本裝彈數 +2`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`musket`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2100
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`item/weapon/gunner/musket.img`	61
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	2
+
+[durability]
+	30
+
+[price]
+	126000
+
+[repair price]
+	105840
+
+[value]
+	100800
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[magical attack]
+	71
+
+[equipment physical attack]
+	678	609
+
+[equipment magical attack]
+	589	529
+
+[separate attack]
+	411	278
+
+[move speed]
+	20
+
+[attack speed]
+	30
+
+[cast speed]
+	-80
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[stat]
+		`physical critical hit rate`
+		`+`	20
+	[stat]
+		`magical critical hit rate`
+		`+`	10
+[/then]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	12	5
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	12	5
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[int data]
+	5	-1	-1	-1	-1	-1	-1	-1	-1	-1
+[/int data]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

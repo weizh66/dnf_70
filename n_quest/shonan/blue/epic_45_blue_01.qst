@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	122
+
+[complete npc index]
+	124
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4080
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	124
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`青龍大會`
+
+[depend message]
+	`青龍大會在我們虛祖享有很高的地位， 可以說是最權威的武斗大會。 所有的虛祖人都渴望在這里一展身手。 你想不想來試試？
+不過參與青龍大會之前， 必須先在黃龍大會中取勝才能獲得入選資格。 我相信這對你來說是小菜一碟。 如果你有興趣的話， 就去找小鐵柱問問吧！`
+
+[condition message]
+	`    想要獲得[青龍入選資格]， 請先去找工坊區的小鐵柱談談。`
+
+[solve message]
+	`嘿， 恭喜恭喜！ 聽說你獲勝了？ 哈哈， 你是打算請俺吃一頓嗎？`
+
+[quest point]
+	4

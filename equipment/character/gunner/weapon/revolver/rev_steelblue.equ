@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`破甲左輪槍`
+
+[basic explain]
+	`穿刺力增加12%%
+攻擊時，以2%%的機率使敵人進入混亂狀態。
+`
+
+[detail explain]
+	`穿刺力 +12%%
+攻擊時，有2%%的機率使敵人進入混亂狀態6秒。 （比Lv65高的目標陷入狀態機率較低，比 Lv65低的目標陷入狀態機率較高。決鬥場修正為 3秒）`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	42
+
+[stuck]
+	-1
+
+[price]
+	93800
+
+[repair price]
+	78792
+
+[value]
+	375200
+
+[equipment physical attack]
+	556	532
+
+[equipment magical attack]
+	467	447
+
+[separate attack]
+	293	199
+
+[physical critical hit]
+	2
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/weapon/gunner/revolver.img`	49
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	12	5
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	12	5
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	65	1
+[/then]
+
+[int data]
+	-1	-1	-1	-1	-1	-1	-1	-1	37	-1
+[/int data]
+
+[possible kiri protect]

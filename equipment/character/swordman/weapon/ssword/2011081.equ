@@ -1,0 +1,255 @@
+#PVF_File
+
+[name]
+	`真·草薙劍`
+
+[basic explain]
+	`地裂波動劍傷害增加。
+鬼印珠傷害增加。
+冰刃波動劍冰柱個數，冰凍等級，傷害增加。
+爆炎波動劍傷害增加。
+邪光斬射程，傷害增加。
+不動冥王傷害增加。
+極冰裂波劍冰柱個數，冰凍等級，傷害增加。
+極炎裂波劍傷害增加。
+所有攻擊力 +50%%`
+
+[flavor text]
+	`在這個荒野中央有著大沼澤，在沼澤裏面住著駭人作祟的狂暴之神。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	150
+
+[cast speed]
+	20
+
+[anti evil]
+	40
+
+[stuck resistance]
+	50
+
+[need material]
+	3850	3000
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[equipment physical attack]
+	1612	1683
+
+[equipment magical attack]
+	1704	1748
+
+[separate attack]
+	1087	1087
+
+[magical critical hit]
+	30
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/sswd/sswd.img`	39
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	20
+	`[dungeon type]`
+	`[level]`	2
+	`%`	500
+	`[swordman]`	2
+	`[dungeon type]`
+	`[level]`	1
+	`%`	2000
+	`[swordman]`	2
+	`[dungeon type]`
+	`[level]`	7
+	`%`	2000
+	`[swordman]`	21
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+	`[swordman]`	21
+	`[dungeon type]`
+	`[level]`	3
+	`%`	300
+	`[swordman]`	21
+	`[dungeon type]`
+	`[level]`	5
+	`%`	100
+	`[swordman]`	22
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[swordman]`	22
+	`[dungeon type]`
+	`[level]`	1
+	`%`	300
+	`[swordman]`	50
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+	`[swordman]`	50
+	`[dungeon type]`
+	`[level]`	1
+	`%`	800
+	`[swordman]`	74
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[swordman]`	74
+	`[dungeon type]`
+	`[level]`	1
+	`%`	500
+	`[swordman]`	99
+	`[dungeon type]`
+	`[level]`	0
+	`%`	1000
+	`[swordman]`	99
+	`[dungeon type]`
+	`[level]`	1
+	`%`	400
+	`[swordman]`	99
+	`[dungeon type]`
+	`[level]`	2
+	`%`	400
+	`[swordman]`	100
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+	`[swordman]`	100
+	`[dungeon type]`
+	`[level]`	3
+	`%`	500
+	`[swordman]`	100
+	`[dungeon type]`
+	`[level]`	5
+	`%`	100
+	`[swordman]`	100
+	`[dungeon type]`
+	`[level]`	7
+	`%`	1000
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	2
+	`%`	500
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	3
+	`%`	500
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	4
+	`%`	500
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	5
+	`%`	1000
+	`[swordman]`	89
+	`[dungeon type]`
+	`[level]`	6
+	`%`	1000
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	7
+	`%`	1000
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	8
+	`%`	1000
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	13
+	`%`	1000
+	`[swordman]`	88
+	`[dungeon type]`
+	`[level]`	9
+	`%`	1000
+[/skill data up]
+
+[possible kiri protect]

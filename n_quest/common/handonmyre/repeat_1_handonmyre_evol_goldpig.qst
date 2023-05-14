@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[job change quest]
+	10
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[creature kind]
+	23
+
+[creature level]
+	30
+
+[level]
+	1	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	1078	6
+[/int data]
+
+[reward type]
+	`[creature evolution]`
+
+[reward int data]
+	24
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`進化 - 金色皮特蘭豬`
+
+[depend message]
+	`這家伙！ 你的主人把你喂養得這么好， 你怎么還老覺得食物不夠， 鬧來鬧去的啊？
+年輕人， 你的寵物真是個貪吃的家伙， 啊……你說它最近特別容易餓……不會是這家伙要進化了吧？ 這樣吧， 你把我說的食物拿給它吃， 看看它有什么反應。`
+
+[condition message]
+	`    收集6個[索西雅特制的烤章魚丸]交給奧蘭。 (索西雅特制的烤章魚丸可以通過月光酒館的索西雅處的重復任務獲得)`
+
+[solve message]
+	`來， 把你帶回來的食物喂給它吧。 呵呵， 這家伙的變身會讓你大吃一驚的！
+小家伙， 以后得好好對待你的主人哦。 `
+
+[quest point]
+	0

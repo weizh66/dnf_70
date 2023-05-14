@@ -1,0 +1,189 @@
+#PVF_File
+
+[name]
+	`紅色噬靈魔王制服`
+
+[explain]
+	`天使與惡魔`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_acoat.img`	123
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	450	0	30	0	0	990	0	0	0	0	2970	0	0	0	0	6500	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	41	1
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30013
+
+[physical attack]
+	5
+
+[magical attack]
+	5
+
+[avatar select ability]
+	0
+	`[SKILL_LEVEL]`
+	`[at fighter]`	36	1	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	11	1	2
+	`[SKILL_LEVEL]`
+	`[at fighter]`	40	1	3
+	`[SKILL_LEVEL]`
+	`[at fighter]`	31	1	4
+	`[SKILL_LEVEL]`
+	`[at fighter]`	42	1	5
+	`[SKILL_LEVEL]`
+	`[at fighter]`	111	1	6
+	`[SKILL_LEVEL]`
+	`[at fighter]`	112	1	7
+	`[SKILL_LEVEL]`
+	`[at fighter]`	69	1	8
+	`[SKILL_LEVEL]`
+	`[at fighter]`	79	1	9
+	`[SKILL_LEVEL]`
+	`[at fighter]`	15	1	10
+	`[SKILL_LEVEL]`
+	`[at fighter]`	16	1	11
+	`[SKILL_LEVEL]`
+	`[at fighter]`	90	1	12
+	`[SKILL_LEVEL]`
+	`[at fighter]`	45	1	13
+	`[SKILL_LEVEL]`
+	`[at fighter]`	3	1	14
+	`[SKILL_LEVEL]`
+	`[at fighter]`	43	1	15
+	`[SKILL_LEVEL]`
+	`[at fighter]`	38	1	16
+	`[SKILL_LEVEL]`
+	`[at fighter]`	75	1	17
+	`[SKILL_LEVEL]`
+	`[at fighter]`	60	1	18
+	`[SKILL_LEVEL]`
+	`[at fighter]`	14	1	19
+	`[SKILL_LEVEL]`
+	`[at fighter]`	52	1	20
+	`[SKILL_LEVEL]`
+	`[at fighter]`	106	1	21
+	`[SKILL_LEVEL]`
+	`[at fighter]`	44	1	22
+	`[SKILL_LEVEL]`
+	`[at fighter]`	76	1	23
+	`[SKILL_LEVEL]`
+	`[at fighter]`	74	1	24
+	`[SKILL_LEVEL]`
+	`[at fighter]`	77	1	25
+	`[SKILL_LEVEL]`
+	`[at fighter]`	20	1	26
+	`[SKILL_LEVEL]`
+	`[at fighter]`	80	1	27
+	`[SKILL_LEVEL]`
+	`[at fighter]`	37	1	28
+	`[SKILL_LEVEL]`
+	`[at fighter]`	1	1	29
+	`[SKILL_LEVEL]`
+	`[at fighter]`	4	1	30
+	`[SKILL_LEVEL]`
+	`[at fighter]`	91	1	31
+	`[SKILL_LEVEL]`
+	`[at fighter]`	39	1	32
+	`[SKILL_LEVEL]`
+	`[at fighter]`	19	1	33
+	`[SKILL_LEVEL]`
+	`[at fighter]`	83	1	34
+	`[SKILL_LEVEL]`
+	`[at fighter]`	68	1	35
+	`[SKILL_LEVEL]`
+	`[at fighter]`	82	1	36
+	`[SKILL_LEVEL]`
+	`[at fighter]`	22	1	37
+	`[SKILL_LEVEL]`
+	`[at fighter]`	50	1	38
+	`[SKILL_LEVEL]`
+	`[at fighter]`	49	1	39
+	`[SKILL_LEVEL]`
+	`[at fighter]`	51	1	40
+	`[SKILL_LEVEL]`
+	`[at fighter]`	81	1	41
+	`[SKILL_LEVEL]`
+	`[at fighter]`	54	1	42
+	`[SKILL_LEVEL]`
+	`[at fighter]`	62	1	43
+	`[SKILL_LEVEL]`
+	`[at fighter]`	87	1	44
+	`[SKILL_LEVEL]`
+	`[at fighter]`	18	1	45
+	`[SKILL_LEVEL]`
+	`[at fighter]`	89	1	46
+	`[SKILL_LEVEL]`
+	`[at fighter]`	88	1
+[/avatar select ability]

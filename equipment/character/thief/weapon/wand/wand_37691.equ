@@ -1,0 +1,133 @@
+#PVF_File
+
+[name]
+	`領主盜屍者骨獄息的頭蓋骨`
+
+[basic explain]
+	`安裝時300px 範圍內的敵人產生冰凍魔法。
+不可解體`
+
+[detail explain]
+	`安裝時300px 範圍內敵人產生冰凍魔法。 （決鬥場不適用）
+冰凍魔法持續10秒內，給予 32的冰屬性附加傷害，以 25%%的機率 3秒內進入冰凍狀態。（高於Lv19的對像得到的機率和效果減少，低於Lv19的對象則會增加。）
+不可解體`
+
+[grade]
+	19
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	15
+
+[magical attack]
+	16
+
+[attack speed]
+	-100
+
+[price]
+	30400
+
+[repair price]
+	24320
+
+[value]
+	24320
+
+[equipment physical attack]
+	178	145
+
+[equipment magical attack]
+	253	207
+
+[separate attack]
+	123	79
+
+[magical critical hit]
+	5
+
+[water resistance]
+	8
+
+[icon]
+	`Item/weapon/thief/wand.img`	87
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	18	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[routing priority]
+	`thief`	2
+[/routing priority]
+
+[ice appendage]
+	32	300	10000
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

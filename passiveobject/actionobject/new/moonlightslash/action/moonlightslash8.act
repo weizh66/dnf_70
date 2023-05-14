@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/moonlightslash_slash_upper.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700163
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	230
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4006
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	141	2	20607	2	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`與雀瑟的較量`
+
+[depend message]
+	`喂， 雀瑟！ 你怎么又擅自從修煉場下來了！
+<apc::20600>啊， 冒險家， 原來你在這里……嗝， 這次我喝了點馬奶酒， 渾身都暖和了。 嘿嘿！ 等下我要讓你瞧瞧我真正的實力……阿嚏！
+ <npc::40>這家伙！ 如果輸了， 就等于侮辱了我們班圖族的名譽。 到時候， 就等著再增加5年刑期吧！`
+
+[condition message]
+	`    前往萬年雪山的『布萬加的修煉場』， 打敗雪山雀瑟， 要求地下城難度為王者級。`
+
+[solve message]
+	`你替我狠狠教訓那家伙了嗎？
+干得好！ 就是要給他一些教訓！`

@@ -1,0 +1,98 @@
+#PVF_File
+
+[set name]
+	`閃電風暴  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`+`	1
+		`[at mage]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[雷光鏈]多段攻擊次數 +1
+[雷光鏈]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`+`	1
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at mage]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at mage]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	1
+		`+`	300
+	[/skill data up]
+	[parameter basic explain]
+		`[雷光鏈]多段攻擊次數 +1
+[雷光鏈]電流傳導次數 +2
+[雷光鏈]持續時間 +0.3秒
+[雷光鏈]冷卻時間 -30%%
+[雷光屏障]攻擊力 +30%%
+[雷光屏障]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+		`[at mage]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	60
+		`[at mage]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`%`	60
+		`[at mage]`	29
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at mage]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[at mage]`	29
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[雷光鏈]多段攻擊次數 +2
+[雷光屏障]攻擊范圍 +30%%
+[雷光屏障]攻擊力 +60%%
+[雷光屏障]感電幾率 +10%%
+[雷光屏障]無色小晶塊消耗量 +1`
+[/piece set ability]

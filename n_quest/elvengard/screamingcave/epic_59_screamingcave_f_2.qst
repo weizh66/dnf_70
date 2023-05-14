@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	40
+
+[complete npc index]
+	45
+
+[job]
+	`[fighter]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4334
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 布萬加知道`
+
+[depend message]
+	`我們班圖族對悲鳴洞穴確實比較熟悉， 特別是我哥哥布萬加， 他當年親自去過那里。
+他今天正好下山在家， 你就直接向他打聽吧。
+ <monster::61806>好久不見了， 小姑娘， 你要打聽悲鳴洞穴？
+奇怪……我之前好像把我知道的都告訴你了呀， 你還想知道些什么呢？
+ <npc::0>悲鳴洞穴重新開啟了， 不知道還會出現什么樣的危險。
+所以我再次來到這里， 希望得到布萬加大人的幫助。
+ <monster::61806>你說什么？ 悲鳴洞穴的入口被打開了？ 這肯定是大事件了……
+我記得， 那時候， 不知道是不是受了希洛克的影響， 悲鳴洞穴里的怪物變得非常古怪和兇暴。
+嗯， 人類也會受到那種腥穢氣息影響的， 雖然那種氣息奈何不了我布萬加， 但其他人只要接近悲鳴洞穴就會昏倒。
+但也不是沒有辦法， 我聽說只要帶著神圣的刀刃， 就可以減少那種氣息的影響。
+嗯……記得那時神圣的刀刃是圣職者們給制作的……聽說有個叫歌蘭蒂斯的后輩繼承了那項技術， 你去找她幫忙吧。`
+
+[condition message]
+	`    找歌蘭蒂斯談談。`
+
+[solve message]
+	`愿諸神的力量與你同在！ 冒險家， 有什么事需要幫忙嗎？`
+
+[quest point]
+	4

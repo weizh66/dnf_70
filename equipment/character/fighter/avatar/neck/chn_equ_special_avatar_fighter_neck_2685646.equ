@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`夏日透明星形項鏈`
+
+[explain]
+	`沙灘派對  套裝2 (格斗家)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/ch_invisible.img`	1
+
+[equipment type]
+	`[breast avatar]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	30
+	`[ATTACK_SPEED]`
+	`+`	55
+	`[HIT_RECOVERY]`
+	`+`	160
+[/avatar select ability]
+
+[part set index]
+	31101

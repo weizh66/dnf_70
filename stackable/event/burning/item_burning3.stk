@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`成長的秘藥`
+	
+
+[explain]
+	`透過賽麗亞的活動任務可以用遠古精靈的秘藥 1個交換小遠古精靈的秘藥 4個。 交換後請使用小遠古精靈的秘藥。 （該道具於 4月 30日更新時全部消失。 )`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	20
+
+[icon]
+	`Item/stackable/consumption.img`	262
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	7200000
+
+[cooltime group]
+	99
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[stat change duration]
+	7200000
+	`myself`
+
+[exp bonus rate]
+	1.0
+
+[disable]

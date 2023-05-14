@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	17
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	124
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[dungeon info]
+	14	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`存在的宮殿`
+
+[depend message]
+	`通往上層的門總算打開了， 天空之海那有什么情況嗎？ 嗯？ 你看見一個宮殿？
+天空之城里怎么會有宮殿……還真奇怪啊， 竟然還有我不知道的東西。
+嗯， 慢著， 在赫頓瑪爾的月光酒館旁邊， 有一位叫凱麗的女孩， 聽說她就是從天界來的， 她應該會知道那是怎么回事。`
+
+[condition message]
+	`    找凱麗談談。`
+
+[solve message]
+	`嗯？ 你是誰啊？ 找我什么事？ 什么？ 在天空之城里發現了一個宮殿？`
+
+[quest point]
+	4

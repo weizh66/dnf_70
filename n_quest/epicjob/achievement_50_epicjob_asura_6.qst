@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	1009
+
+[job]
+	`[swordman]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	996
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	998
+
+[name]
+	`覺醒 - 大暗黑天 (3/4)`
+
+[depend message]
+	`現在你必須要做的就是感受波動的力量。 不是被動的接受， 而是清楚地感知它們。
+經驗對你來說非常重要， 所以盡管去向那些比你強大的人挑戰吧， 也許這樣你反而可以從中獲得波動之眼。
+只是在和別人對決的時候， 也不要忘記我之前說的話。 集中精神， 用心去感受波動！`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`現在和你相比， 我又重新變回盲人了……雖然一直都是……哈哈~不知道為什么， 即使這樣我依然感到高興！`

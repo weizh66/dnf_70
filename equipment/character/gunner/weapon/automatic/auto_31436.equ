@@ -1,0 +1,282 @@
+#PVF_File
+
+[name]
+	`麥加的能量手槍`
+
+[basic explain]
+	`[空投支援]爆炸范圍減少
+[空投支援]爆炸間隔減少
+[空投支援]追擊者數量增加
+[空投支援]特殊追擊者數量增加`
+
+[detail explain]
+	`[空投支援]爆炸范圍 -30%% (在決斗場中無效)
+[空投支援]爆炸間隔 -75%% (在決斗場中無效)
+[空投支援]追擊者數 +20%%
+[空投支援]特殊追擊者數 +40%%`
+
+[flavor text]
+	`    空投支援就位， 一定要讓他們嘗嘗血的教訓！`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`automatic`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	1500
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`item/weapon/gunner/automatic.img`	67
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	30
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[magical attack]
+	47
+
+[equipment physical attack]
+	442	397
+
+[equipment magical attack]
+	648	582
+
+[separate attack]
+	411	278
+
+[cast speed]
+	60
+
+[elemental property]
+	`[water element]`
+
+[stuck]
+	1
+
+[skill levelup]
+	`[gunner]`	59	1
+	`[at gunner]`	59	1
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	13	2
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	13	2
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[skill data up]
+	`[gunner]`	59
+	`[dungeon type]`
+	`[static]`	8
+	`+`	-187
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	0
+	`+`	-150
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	1
+	`+`	-36
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	2
+	`+`	4
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	3
+	`+`	2
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[static]`	8
+	`+`	-187
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	0
+	`+`	-150
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	1
+	`+`	-36
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	2
+	`+`	4
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	3
+	`+`	2
+	`[gunner]`	59
+	`[war room]`
+	`[static]`	8
+	`+`	-187
+	`[gunner]`	59
+	`[war room]`
+	`[level]`	0
+	`+`	-150
+	`[gunner]`	59
+	`[war room]`
+	`[level]`	1
+	`+`	-36
+	`[gunner]`	59
+	`[war room]`
+	`[level]`	2
+	`+`	4
+	`[gunner]`	59
+	`[war room]`
+	`[level]`	3
+	`+`	2
+	`[at gunner]`	59
+	`[war room]`
+	`[static]`	8
+	`+`	-187
+	`[at gunner]`	59
+	`[war room]`
+	`[level]`	0
+	`+`	-150
+	`[at gunner]`	59
+	`[war room]`
+	`[level]`	1
+	`+`	-36
+	`[at gunner]`	59
+	`[war room]`
+	`[level]`	2
+	`+`	4
+	`[at gunner]`	59
+	`[war room]`
+	`[level]`	3
+	`+`	2
+	`[gunner]`	59
+	`[pvp]`
+	`[level]`	2
+	`+`	4
+	`[gunner]`	59
+	`[pvp]`
+	`[level]`	3
+	`+`	1
+	`[at gunner]`	59
+	`[pvp]`
+	`[level]`	2
+	`+`	4
+	`[at gunner]`	59
+	`[pvp]`
+	`[level]`	3
+	`+`	1
+	`[gunner]`	59
+	`[assault]`
+	`[level]`	2
+	`+`	4
+	`[gunner]`	59
+	`[assault]`
+	`[level]`	3
+	`+`	1
+	`[at gunner]`	59
+	`[assault]`
+	`[level]`	2
+	`+`	4
+	`[at gunner]`	59
+	`[assault]`
+	`[level]`	3
+	`+`	1
+	`[gunner]`	59
+	`[fair pvp]`
+	`[level]`	2
+	`+`	4
+	`[gunner]`	59
+	`[fair pvp]`
+	`[level]`	3
+	`+`	1
+	`[at gunner]`	59
+	`[fair pvp]`
+	`[level]`	2
+	`+`	4
+	`[at gunner]`	59
+	`[fair pvp]`
+	`[level]`	3
+	`+`	1
+[/skill data up]
+
+[routing priority]
+	`gunner`	3
+	`at gunner`	3
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,45 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/posssession.ani`
+	[SUB ANI]
+		`../animation/effect/posssession_sword_dodgeback.ani`	0	-1
+		`../animation/effect/posssession_dodge.ani`	0	1
+		`../animation/effect/posssession_sword_normal.ani`	0	2
+		`../animation/effect/posssession_sword_dodge.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[CHARACTER]
+	[GET TARGET]
+		1
+	[RANDOM]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+	[POS]
+		0	0	0
+	[MOVE ME]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		12	12
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		50	100	300	255	255	255	150
+[/BEHAVIOR]

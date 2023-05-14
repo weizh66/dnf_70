@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	32	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3108	30
+[/int data]
+
+[dungeon info]
+	21	-1	23	-1	25	-1	26	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3033	20	3034	20	3035	20	3036	20	3042	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`美食家 - 夏洛克`
+
+[depend message]
+	`你好啊！ 我聽說最近出現了一種超級美味的食物， 好像是用堅韌的觸須做的。 我想嘗一嘗， 你能幫我弄些來嗎？ `
+
+[condition message]
+	`    收集30個[堅韌的觸須]。`
+
+[solve message]
+	`哇！ 你弄來了！ 看來我也有機會品嘗最美味的食物了， 謝謝你！ `

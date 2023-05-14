@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`auguard_ex_name`
+
+[basic explain]
+	`auguard_ex_basic_explain`
+
+[explain]
+	`auguard_ex_explain`
+
+[basic explain ex]
+	`auguard_ex_basic_explain2`
+
+[explain ex]
+	`auguard_ex_explain2`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[pre required skill]
+	11	5
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	5	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[casting time]
+	700	700
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	136
+	`Character/Swordman/Effect/ATSkillIcon.img`	137
+
+[dungeon]
+	[static data]
+		800	-1400	500
+	[/static data]
+	[level info]
+		2	5	120000	10	120000	15	120000	20	120000	25	120000	30	120000	35	120000	40	120000	45	120000	50	120000	55	120000	60	120000	65	120000	70	120000	75	120000	80	120000	85	120000	90	120000	95	120000	100	120000
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	10
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	3	20000	5	20000	8	20000	10	20000	13	20000	15	20000	18	20000	20	20000	23	20000	25	20000	28	20000	30	20000	33	20000	35	20000	38	20000	40	20000	43	20000	45	20000	48	20000	50	20000
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`auguard_ex_level_property`	-1	0	1.0	-1	1	0.001
+[/level property]

@@ -1,0 +1,266 @@
+#PVF_File
+
+[name]
+	`墮天使的殺戮之劍 - Sariel`
+
+[basic explain]
+	`上帝封印了她的記憶，能力被暫時封印。她是上帝用來懲罰惡人，懲罰其他天使的"殺手"，她的力量強大到讓上帝憐憫被害者。
+傳說在第壹次諾亞造方舟，她曾出現過壹次，瞬間造出洪水淹沒世上的壹切。末日審判前3天，她也參與並殺死人類總數1/3。
+這個天使是最危險，最極端，最瘋狂也是最孤獨的，沒有人知道她的身世，沒有人敢靠近她。她就是殺戮天使sariel。`
+
+[detail explain]
+	`上帝封印了她的記憶，能力被暫時封印。她是上帝用來懲罰惡人，懲罰其他天使的"殺手"，她的力量強大到讓上帝憐憫被害者。
+傳說在第壹次諾亞造方舟，她曾出現過壹次，瞬間造出洪水淹沒世上的壹切。末日審判前3天，她也參與並殺死人類總數1/3。
+這個天使是最危險，最極端，最瘋狂也是最孤獨的，沒有人知道她的身世，沒有人敢靠近她。她就是殺戮天使sariel。`
+
+[flavor text]
+	`臣服于我吧，我將給你無盡的力量。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/wuqi.img`	57
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	75
+
+[magical attack]
+	112
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[equipment physical attack]
+	1458	1258
+
+[equipment magical attack]
+	1469	1269
+
+[separate attack]
+	986	986
+
+[physical critical hit]
+	7
+
+[magical critical hit]
+	7
+
+[dark attack]
+	150
+
+[icon]
+	`Item/wuqi.img`	0
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	64	0
+
+[layer variation]
+	660
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2797
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	670
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2804
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	64	0
+
+[layer variation]
+	660
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2797
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	670
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2804
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[spectrum]
+	250	250	0	200	500
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`%`	20
+	[stat by condition]
+		`magical attack`
+		`%`	20
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	60
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		100
+	[active status]
+		`bleeding`	150	16000
+[/then]
+
+[if]
+	[time]
+		20000	1	1000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	1000
+	[passive object]
+		710001	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		710002	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

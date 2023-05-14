@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`氣色恢復劑`
+
+[flavor text]
+	`完成每日任務-勇闖地下城的獎勵`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	464
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	10000
+
+[cooltime group]
+	10
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`%`	10	1000
+	`myself`
+
+[mp recovery]
+	`%`	10	1000
+	`myself`
+
+[expiration date]
+	1372305600

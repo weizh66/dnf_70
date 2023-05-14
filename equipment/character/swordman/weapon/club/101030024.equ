@@ -1,0 +1,185 @@
+#PVF_File
+
+[name]
+	`雷神之怒[活動]`
+
+[basic explain]
+	`攻擊時以 4%% 的機率施展紅色閃電
+攻擊時以2%% 的機率讓敵人陷入眩暈狀態
+不可解體，不可合成`
+
+[detail explain]
+	`攻擊時以 4%%的機率施展紅色閃電
+攻擊時以2%%的機率2秒內讓敵人陷入眩暈狀態。 （比Lv59高的目標陷入狀態機率較低，比 Lv59低的目標陷入狀態機率較高。決鬥場修正為 1秒）`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	62
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[price]
+	97600
+
+[repair price]
+	81984
+
+[value]
+	78080
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	612	568
+
+[equipment magical attack]
+	528	490
+
+[separate attack]
+	341	230
+
+[skill levelup]
+	`[swordman]`	73	1
+	`[swordman]`	81	1
+	`[demonic swordman]`	81	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/club.img`	41
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		4
+	[passive object]
+		48074	0	0	0	40	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	59
+[/then]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

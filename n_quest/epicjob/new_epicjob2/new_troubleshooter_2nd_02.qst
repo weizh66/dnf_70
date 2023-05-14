@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gun blader]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 巔峰狂徒 (2/6)`
+
+[depend message]
+	`你說你想掌握新的技術， 希望得到我的幫助？ 這個， 我幫你倒是沒問題。 但比起我， 阿甘左更精通重劍， 怎么會想到要來找我？
+啥……你需要的技術比起破壞力更重視縝密性？ 真好奇你腦子里在想著怎樣一種技術。 好吧。 有什么我能幫到的盡管說， 我會盡力而為。
+那么， 我得先看看你認真戰斗的樣子。 你看能不能先去參加正在素喃舉辦的魂·黃龍大會， 讓我看看你現在的實力？
+我打算先親眼確認一下你的戰斗方法， 再想想如何幫你完善你在構思的新技術。
+參加大會需要‘斯卡迪女王的印章’， 你先去搜集吧。 我在這里等你。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	6912
+[/pre required quest]
+
+[relation quest]
+	6914
+
+[job change quest]
+	3
+
+[grow number]
+	0

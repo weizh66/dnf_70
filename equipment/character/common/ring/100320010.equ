@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`燃燒的浪漫的戒指`
+
+[basic explain]
+	`接近武器攻擊力增加9%%`
+
+[flavor text]
+	`我打架的理由？ 哈哈，就是為了燃燒的浪漫-貝里特`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	50
+
+[magical attack]
+	50
+
+[need material]
+	4794	75
+
+[value]
+	67200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	2912	2752
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/new_equipment/07_ring/ring.img`	97
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	9
+[/then]
+
+[set item master]
+	100300008
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

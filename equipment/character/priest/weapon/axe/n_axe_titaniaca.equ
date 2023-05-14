@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`泰坦的疾風戰斧`
+
+[basic explain]
+	`近距離武器攻擊力 +30%%`
+
+[detail explain]
+	`近距離武器攻擊力 +30%% (在決斗場中 +15%%)`
+
+[flavor text]
+	`    要論破壞力非斧頭莫屬， 就拿它來說，所到之處只剩下灰塵。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/axe.img`	35
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	111600
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	486	445
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[variation]
+	3	1
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[if]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	30
+[/then]
+
+[pvp]
+	[if]
+		[attacker]
+			`character`	-1
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	3
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

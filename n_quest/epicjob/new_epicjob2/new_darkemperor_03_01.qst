@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 暗街之王 (4/6)`
+
+[depend message]
+	`待你看穿陰謀詭計之后， 接下來就會經歷純粹的力量之爭。 只有在戰斗中獲得認可， 你才能登上支配者的位置。
+只有兼備知識與武藝兩種能力， 才配登上黑暗世界的寶座， 獲得王者的品格。
+不過， 由于你只經歷過一些不正規的打斗， 現在你的身上存在很多弱點， 而且毫無基本功可言。 這樣下去， 如果遇到修煉有成的強者就會一敗涂地。 可能你不太想承認這個事實， 但想必你自己也有類似的危機感吧。
+那接下來要做什么呢？ 當然是練好基本功， 彌補弱點， 對嗎？
+那這次就去參加魂·青龍大會吧。 與那些常年習武的強者們一決高下吧。 你要去切身體會他們的每一個動作， 從中學到基本功。
+我想想……你可能會需要‘赫侖皇帝的印章’。 想要參加魂·青龍大會需要獲得皇室的推薦， 如果你有‘赫侖皇帝的印章’就相當于具備了資格。 那你就先按照我說的去收集印章吧。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5366
+[/pre required quest]
+
+[relation quest]
+	5368
+
+[job change quest]
+	3
+
+[grow number]
+	0

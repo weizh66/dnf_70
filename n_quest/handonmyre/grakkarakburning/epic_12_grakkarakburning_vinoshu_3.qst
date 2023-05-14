@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	5
+
+[complete npc index]
+	5
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	12	99
+
+[pre required quest]
+	112
+[/pre required quest]
+
+[monster reward item]
+	22	8	-1	3078	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3078	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000	20012	1
+[/reward int data]
+
+[reward selection int data]
+	14810	1	14410	1
+[/reward selection int data]
+
+[name]
+	`灰色結晶`
+
+[depend message]
+	`原來是這樣， 沒想到這么小的結晶竟然有這么強的邪惡氣息。 嗯， 也許能通過它找到精靈圣地被毀的真相……
+呵呵， 很久以前， 赫頓瑪爾有兩個很喜歡魔法的姐妹； 她們經常進入格蘭之森修煉魔法， 但有一天她們突然瘋了。
+我在想， 也許這個結晶和她們有著某種聯系， 如果你去烈焰格拉卡， 就幫我找到彼諾修并弄來這樣的灰色結晶碎片吧。
+請你一定要小心阿， 烈焰格拉卡可是格蘭之森最危險的地方！ `
+
+[condition message]
+	`    前往格蘭之森的『烈焰格拉卡』， 從領主烈焰彼諾修身上找到[灰色結晶碎片]。 `
+
+[solve message]
+	`彼諾修身上也有這樣的結晶？ 看來它就是她們以及格蘭之森動物狂暴的主要原因了， 但不知道這東西是從哪里進入動物體內的。 `
+
+[dialog]
+	1	0	8	0	1	22	0
+	` <monster::22> 敢挑戰我？！
+我的火焰地獄會讓你們付出代價的， 啊哈哈！！！`
+[/dialog]
+
+[quest point]
+	4

@@ -1,0 +1,55 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	32
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	10000	4034	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7036	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`驅動壓縮機`
+
+[depend message]
+	`歡迎光臨！ 你想驅動壓縮機？ 噢， 這個……可以是可以， 不過我需要柯卡穆的干擾芯片和一些錢， 你能給我找來嗎？`
+
+[condition message]
+	`    把10000金幣和[柯卡穆的干擾芯片]交給夏洛克。 (可以找凱麗制作柯卡穆的干擾芯片)`
+
+[solve message]
+	`呵呵， 你是我見過的最爽快的冒險家， 以后一定要常常光顧哦！ `

@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`藍色武斗勇士胸甲`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_acoat.img`	371
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[physical defense]
+	10
+
+[HP MAX]
+	60
+
+[variation]
+	114	3
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30002
+
+[avatar func filter]
+	2

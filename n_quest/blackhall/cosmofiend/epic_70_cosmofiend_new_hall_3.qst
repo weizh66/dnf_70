@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	7729
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	66	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3311	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[異界]前往虛無之境`
+
+[depend message]
+	`既然你來了， 我就把事情的來龍去脈告訴你吧。
+你也聽說過異次元裂縫吧？ 因為次元間產生的這條裂縫， 異界的惡魔開始進入我們的世界。
+圣職者教團發現， 這些惡魔身上的氣息和奧茲瑪有些相似， 我們擔心奧茲瑪也會通過這條裂縫卷土重來。
+要是這些惡魔當真是奧茲瑪派來的， 那就麻煩了！ 以防萬一， 教團計劃從它們身上找到奧茲瑪， 然后徹底消滅它。
+教團很早以前就派出了秘密調查團前往異次元裂縫調查， 不過要找到線索可不容易， 最近他們才發現了那些惡魔的大本營。
+ <npc::0>調查異次元裂縫的任務， 就讓我承擔吧！
+ <npc::45>嗯， 我正是這么想的。 那里這么危險， 只怕除了你以外， 再也找不到更合適的人了。
+如果你在那里追蹤到了奧茲瑪的氣息， 就請去找艾麗絲要一個…… 
+啊， 這是什么東西？
+看來艾麗絲真的有預測萬事的能力啊， 就是這顆珠子！
+那么現在一切都準備好了！ 請拿著艾麗絲給的珠子前往異次元裂縫的虛無之境， 調查位于那里的惡魔大本營吧。`
+
+[condition message]
+	`    通關異次元裂縫的『虛無之境』。 (只有3人以上組隊才能進入異界地下城)`
+
+[solve message]
+	`你平安回來啦！ 果然沒讓我失望啊~`
+
+[dialog]
+	0	0	17058	0	0	0	0
+	`<monster::63020>居然有人敢闖進這個空間！
+看來你是不會悔悟了， 讓我來教訓教訓你吧！`
+[/dialog]
+
+[quest point]
+	4

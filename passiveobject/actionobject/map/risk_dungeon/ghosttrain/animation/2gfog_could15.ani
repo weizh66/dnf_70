@@ -1,0 +1,46 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/PoisonMist/02_smoke03_d.img`
+		1
+	[IMAGE POS]
+		-69	-100
+	[IMAGE RATE]
+		0.800000011920929	0.4000000059604645
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/PoisonMist/02_smoke03_d.img`
+		1
+	[IMAGE POS]
+		-69	-100
+	[IMAGE RATE]
+		1.2999999523162842	0.4000000059604645
+	[INTERPOLATION]
+		1
+	[DELAY]
+		700
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/PoisonMist/02_smoke03_d.img`
+		1
+	[IMAGE POS]
+		-69	-130
+	[IMAGE RATE]
+		1.600000023841858	0.44999998807907104
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1400

@@ -1,0 +1,44 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		113
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		27
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`GHOSTPIERCE_ATK_02`
+	[DAMAGE BOX]
+	-14	-5	-5	43	10	92
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		239
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		41
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-41	-5	-8	57	10	87
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		239
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-41	-5	-8	58	10	87

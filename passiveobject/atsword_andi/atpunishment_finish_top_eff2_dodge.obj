@@ -1,0 +1,27 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/atpunishment_finish_top_eff2_dodge.act`
+
+[attack info]
+	`AttackInfo/atpunishment_finish_top_eff2_dodge.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[name]
+	`火焰爆炸`

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	20
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	2708	2710	2712
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	1	3040	1	3041	1	3038	1	3619	3
+[/int data]
+
+[reward type]
+	`[expert job]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`副職業 - 附魔師 `
+
+[depend message]
+	`附魔是一種給裝備附加魔法之力并使裝備獲得新能力的技術， 也就是說同樣的武器經過附魔之后可以更快速更精準的攻擊敵人。
+而且附魔師可以買賣附魔后的裝備， 或者收取報酬給別人的裝備進行附魔。
+如果你想成為附魔師的話， 我可以把附魔的方法告訴你， 不過你得先去找幾種材料。`
+
+[condition message]
+	`    為了成為附魔師， 請收集以下材料。 (完成此任務后， 就可以成為附魔師。 如果想成為其他副職業， 請先放棄該任務， 然后再接受其他副職業任務。 完成該任務后， 若想轉成其他副職業， 則需要消耗金幣， 請慎重選擇！！)`
+
+[solve message]
+	`看來你已經準備好了。
+如果想附魔的話， 就把我那個附魔卷軸展開。 念完咒語后， 把魔力注入你想附魔的裝備里就行了， 不難吧？
+希望你把學到的附魔技能用在益處， 祝你好運。`

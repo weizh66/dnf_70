@@ -1,0 +1,38 @@
+#PVF_File
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	0	600
+
+[y axis]
+
+[move type]
+	`[cos]`
+
+[move variable 1]
+	0	0
+
+[move variable 2]
+	0	0
+
+[changing term]
+	1800
+
+[changing type]
+	`[keep changing]`
+
+[landing type]
+	`[stop]`
+
+[creation frequency]
+	0
+
+[rotation angle range type]
+	`[rectangle]`
+
+[object type]
+	`[animation]`

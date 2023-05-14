@@ -1,0 +1,131 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	64
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[at swordman]`	123
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[暗影漩渦]持續時間 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	64
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-28
+		`[at swordman]`	123
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-28
+		`[at swordman]`	64
+		`[dungeon type]`
+		`[static]`	4
+		`%`	34
+		`[at swordman]`	123
+		`[dungeon type]`
+		`[static]`	4
+		`%`	34
+		`[at swordman]`	69
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	128
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	69
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1
+		`[at swordman]`	128
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1
+		`[at swordman]`	69
+		`[dungeon type]`
+		`[static]`	0
+		`+`	5
+		`[at swordman]`	128
+		`[dungeon type]`
+		`[static]`	0
+		`+`	5
+		`[at swordman]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[暗影漩渦]冷卻時間 -28%%
+[暗影漩渦]持續時間 +34%%
+[魔鏡幻影陣]冷卻時間 -20%%
+[魔鏡幻影陣]防御次數 +1
+[魔鏡幻影陣]防護罩的傷害吸收率 +5%%
+[暗影蓄能]技能攻擊力增加量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	78
+		`[dungeon type]`
+		`[static]`	6
+		`%`	-90
+		`[at swordman]`	78
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-90
+		`[at swordman]`	78
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	78
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at swordman]`	69
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at swordman]`	128
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at swordman]`	69
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1
+		`[at swordman]`	128
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1
+		`[at swordman]`	69
+		`[dungeon type]`
+		`[static]`	0
+		`+`	5
+		`[at swordman]`	128
+		`[dungeon type]`
+		`[static]`	0
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[魔鏡幻影陣]冷卻時間 -25%%
+[魔鏡幻影陣]防護罩的防御次數 +1
+[魔鏡幻影陣]防護罩的吸收率 +5%%
+[死亡獻祭]冷卻時間 -30%%
+[死亡獻祭]魔法陣的持續時間 -90%%
+[死亡獻祭]爆炸魔法攻擊力 +30%%`
+[/piece set ability]

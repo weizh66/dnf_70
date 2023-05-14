@@ -1,0 +1,211 @@
+#PVF_File
+
+[name]
+	`戰神剋星`
+
+[basic explain]
+	`裝備時物理攻擊 +50%%，魔法攻擊 +50%%，獨立攻擊 +50%%
+裝備時每30秒 30秒期間HP 10%減少`
+
+[detail explain]
+	`裝備時物理攻擊 +50%%，魔法攻擊 +50%%，獨立攻擊 +50%%
+裝備時每30秒 30秒期間HP 10%減少`
+
+[flavor text]
+	`死神之光！`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	185
+
+[magical attack]
+	222
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1058	1058
+
+[equipment magical attack]
+	1113	1113
+
+[equipment physical defense]
+	1056	1056
+
+[separate attack]
+	686	686
+
+[physical critical hit]
+	12
+
+[magical critical hit]
+	12
+
+[icon]
+	`Item/wuqi.img`	9
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	46	0
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	47	0
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[active status control info]
+	`bleeding`	0	0	0	50
+
+[active status control info]
+	`burn`	0	0	0	50	50	0
+
+[active status control info]
+	`poison`	0	0	0	50
+
+[if]
+
+	[if]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`equipment physical attack`
+		`%`	50
+	[stat by condition]
+		`equipment magical attack`
+		`%`	50
+	[stat by condition]
+		`separate attack`
+		`%`	50
+[/then]
+
+[if]
+	[time]
+		30000	1	1000
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-10	0
+[/then]
+
+[possible kiri protect]

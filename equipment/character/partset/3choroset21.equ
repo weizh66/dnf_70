@@ -1,0 +1,147 @@
+#PVF_File
+
+[set name]
+	`烈焰爆破者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	76
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2
+		`[at fighter]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	76
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at fighter]`	76
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[毒雷引爆]攻擊力 +30%%
+格斗家(女)
+[毒雷引爆]毒地雷數量 +2`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	76
+		`[dungeon type]`
+		`[level]`	1
+		`+`	3
+		`[fighter]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	76
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[fighter]`	76
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-20
+		`[fighter]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at fighter]`	119
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	119
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	119
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[at fighter]`	119
+		`[dungeon type]`
+		`[level]`	4
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[毒雷引爆]冷卻時間 -30%%
+[毒雷引爆]毒氣柱范圍 +30%%
+[爆破黏球]冷卻時間 -30%%
+[爆破黏球]攻擊力 +30%%
+[爆破黏球]減速狀態下， 移動速度增加比率 -5%%； 攻擊速度增加比率 -5%%
+格斗家(女)
+[毒雷引爆]毒地雷數量 +3
+[毒雷引爆]攻擊力 +20%%
+[毒雷引爆]冷卻時間 -20%%
+[毒雷引爆]毒地雷間距 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	104
+		`[dungeon type]`
+		`[level]`	6
+		`%`	50
+		`[fighter]`	104
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[fighter]`	104
+		`[dungeon type]`
+		`[static]`	5
+		`+`	3
+		`[fighter]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[fighter]`	99
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[at fighter]`	123
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	123
+		`[dungeon type]`
+		`[static]`	2
+		`+`	4
+		`[at fighter]`	123
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[at fighter]`	123
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[千絲亂舞]攻擊次數 +4
+[千絲亂舞]攻擊范圍 +20%%
+[千絲亂舞]冷卻時間 -30%%
+[千絲亂舞]無色小晶塊消耗量 +1
+格斗家(女)
+[爆碎磚襲]爆炸次數 +3
+[爆碎磚襲]爆炸范圍 +50%%
+[爆碎磚襲]冷卻時間 -30%%
+[爆碎磚襲]無色小晶塊消耗量 +1
+[猛毒擒月炎]爆炸范圍 +50%%`
+[/piece set ability]

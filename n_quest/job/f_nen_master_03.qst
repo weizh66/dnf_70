@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7816
+[/pre required quest]
+
+[collision quest]
+	7818	7821	7825
+[/collision quest]
+
+[monster reward item]
+	71	504	-1	4475	1	100	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4475	1
+[/int data]
+
+[dungeon info]
+	504	-1
+[/dungeon info]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 氣功師 (3/3)`
+
+[depend message]
+	`不要以為給點拜師禮， 就可以輕松過關。 想成為真正的氣功師， 必須擁有‘冰冷的念心臟’。
+其實這個念心臟并不是指某種物質， 而是比喻一種心態。 簡單地說， 它是一種只有在經歷了生死決戰后才能體會到的冷酷寧靜的心態。
+我想你在天空之海應該能體會到這種感覺。 現在我會將特殊的念氣附加到你身上， 這樣你就可以自由地進入天空之海了。`
+
+[condition message]
+	`    獨自一人前往天空之城的『天空之海』， 收集1個[冰冷的念心臟]交給風振。`
+
+[solve message]
+	`你拿到了？
+很好！ 我希望你在任何時候都不要忘記那種在生死考驗中領悟到的感覺。
+因為一個強大的氣功師會非常清楚的知道這最強大的念氣是來自于哪里， 那就是你自己的心靈。
+你是一個很有潛質的氣功師， 真心祝賀你， 要記得勤加修煉啊！`

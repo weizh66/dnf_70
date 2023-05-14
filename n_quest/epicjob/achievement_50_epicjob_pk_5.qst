@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	1009
+
+[job]
+	`[fighter]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	910
+[/pre required quest]
+
+[monster reward item]
+	50072	-1	-1	4103	1	100	4
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	912
+
+[name]
+	`覺醒 - 毒王 (3/4)`
+
+[depend message]
+	`記住， 你身體里的毒很容易會傷害到你最親近的家人和朋友，　所以一定要控制好。 特別是在緊迫的戰斗中， 能不能靈活用毒， 就是決定成敗的關鍵。
+這樣吧， 我給你介紹一位這方面的高手， 你可以在和他較量的過程中掌握好控毒的方法。 有信心挑戰嗎？`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`你才修煉沒多久， 我是不想打擊你的自信心， 才故意讓你的。 下次就沒這么好運了！`

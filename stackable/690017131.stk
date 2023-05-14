@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`阿拉德大陸商貿許可證`
+
+[explain]
+	`    使用後， 可以獲得在城鎮中開設個人商店的許可權， 有效期為30天。 個人商店最多可以陳列7種物品， 建議在交易場頻道進行交易。 (若在普通頻道進行交易， 則系統將收取1%%的手續費)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	11
+
+[stackable type]
+	`[booster]`	0
+
+[booster info]
+	[cera]
+		1	16	1000	1
+	[/cera]
+[/booster info]
+
+[move wav]
+	`BONE_TOUCH`

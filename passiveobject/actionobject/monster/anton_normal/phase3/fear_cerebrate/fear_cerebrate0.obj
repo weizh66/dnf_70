@@ -1,0 +1,21 @@
+#PVF_File
+
+[basic action]
+	`Action/Flu_Dash_Attack3.act`
+
+[name]
+	`青?石巨人的子?`
+
+[attack info]
+	`AttackInfo/go2.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[team]
+	100
+
+[piercing power]
+	1000

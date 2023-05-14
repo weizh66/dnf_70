@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`F`
+
+[gold multiple]
+	60
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	1
+
+[int data]
+	83	-1	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	4	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`夜間襲擊戰 - 急速閃避`
+
+[depend message]
+	`嗨， 年輕人， 你愿意跟我打賭嗎？
+如果你能做到我提出的條件， 我會給你適當的獎勵， 而且你并不用支付任何賭注。
+你問為什么？ 呵呵， 能跟你們這種富有朝氣的朋友相識， 是我人生的樂趣。 這個解釋， 你滿意嗎？
+反正對你也沒什么損失。 怎么樣， 要不要試試？`
+
+[condition message]
+	`    通關安特貝魯峽谷的『夜間襲擊戰』， 要求被擊數不超過16次。`
+
+[solve message]
+	`呵呵~干得不錯嘛！ 這是我之前答應你的獎勵， 請收下吧！`

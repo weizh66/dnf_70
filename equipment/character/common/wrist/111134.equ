@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`武之禪-灼炎`
+
+[basic explain]
+	`  攻擊時，有10%%的幾率賦予武器火屬性，并使自身增加32點火屬性強化，效果持續30秒。（冷卻時間30秒）`
+
+[flavor text]
+	`  一憂一喜皆心火，一榮一枯皆眼塵。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	37
+
+[physical defense]
+	95
+
+[need material]
+	3500	800
+
+[repair price]
+	55680
+
+[value]
+	5800
+
+[creation rate]
+	200
+
+[equipment magical defense]
+	3500	800
+
+[fire resistance]
+	18
+
+[fire attack]
+	10
+
+[burn resistance]
+	25
+
+[icon]
+	`Item/new_equipment/09_bracelet/bracelet.img`	144
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		10
+	[elemental weapon]
+		`fire`
+	[stat]
+		`fire attack`
+		`+`	32
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,33 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/cartelcommand/aimingmark_small.img`
+		2
+	[IMAGE POS]
+		-400	-290
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1500
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/cartelcommand/aimingmark_small.img`
+		2
+	[IMAGE POS]
+		-400	-290
+	[IMAGE ROTATE]
+		6.283184051513672
+	[INTERPOLATION]
+		1
+	[DELAY]
+		10
+	[DAMAGE TYPE]
+		`NORMAL`

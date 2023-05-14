@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	16
+
+[grade]
+	`[repeatable]`
+
+[rank range]
+	0	2
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[大將戰] 適應大將戰`
+	
+
+[cond_text]
+	`大將戰中，一場競賽達成5次1kill`
+	
+
+[condition]
+	`[kill]`	2	1	5
+[/condition]
+
+[reward item]
+	3312	3
+[/reward item]

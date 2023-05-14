@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	46	99
+
+[monster reward item]
+	61103	110	-1	4799	1	80	10	61108	111	-1	4799	1	80	10	61109	112	-1	4799	1	80	10
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4799	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 墮落殿堂`
+
+[depend message]
+	`在天帷巨獸取得的時間力量散發著非常強大的氣息。聽說有幾個信徒帶著碎片躲進墮落殿堂了。
+得從他們那裡找回碎片。`
+
+[condition message]
+	`擊敗墮落殿堂的頭目，取得時間碎片交給最後的先知者`
+
+[solve message]
+	`感覺得到墮落者的力量！`
+
+[quest point]
+	4

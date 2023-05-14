@@ -1,0 +1,35 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Agnes/distance.img`
+		0
+	[IMAGE POS]
+		-280	-109
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		15700
+	[FLIP TYPE]
+		`ALL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Agnes/distance.img`
+		1
+	[IMAGE POS]
+		-280	-109
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[FLIP TYPE]
+		`ALL`

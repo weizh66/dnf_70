@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5765
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	13099
+[/int data]
+
+[dungeon info]
+	85	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	6051	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`潛伏的尼貝爾`
+
+[depend message]
+	`敵人實在太狡猾了， 他們早就暗中籌劃好了路線， 要不然不會這么有條不紊地撤退。
+這場追擊戰關系到整個戰役是否能取勝， 我們必須全力以赴。
+之前我們已經派出一名軍官潛伏在敵軍撤退的路上， 他叫尼貝爾。
+請你一定要找到他， 并將他的偵查情報帶回來給我。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 與尼貝爾匯合。`
+
+[solve message]
+	`尼貝爾還好吧？ 你覺得他怎么樣， 值得信賴嗎？`
+
+[dialog]
+	0	0	13099	0	0	0	0
+	`<apc::11501>你就是澤丁大人經常提到的那個冒險家吧？
+我們皇都軍欠了你很多人情……客套的話我就不多說了。
+時間很緊， 我們必須立刻出發！`
+[/dialog]
+
+[quest point]
+	4

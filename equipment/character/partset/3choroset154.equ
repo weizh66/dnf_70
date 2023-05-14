@@ -1,0 +1,124 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	107
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1000
+		`[knight]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	111
+		`[dungeon type]`
+		`[static]`	11
+		`+`	1
+		`[knight]`	111
+		`[dungeon type]`
+		`[static]`	12
+		`+`	40000
+		`[knight]`	112
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[天使降臨]霸體持續時間 +1秒
+[圣盾]冷卻時間 -15%%
+[圣盾]新增將吸收的傷害增幅40倍后反彈給對方的功能
+[圣盾突擊]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	111
+		`[dungeon type]`
+		`[static]`	18
+		`+`	1000
+		`[knight]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	111
+		`[dungeon type]`
+		`[static]`	12
+		`+`	40000
+		`[knight]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	122
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[knight]`	122
+		`[dungeon type]`
+		`[static]`	1
+		`+`	40000
+		`[knight]`	122
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[knight]`	116
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[圣盾]霸體持續時間 +1秒
+[圣盾]冷卻時間 -20%%
+[圣盾]傷害增幅倍數增加至80倍
+[神光庇護]冷卻時間 -20%%
+[神光庇護]新增將吸收的傷害增幅40倍后返還給對方的功能
+[神光庇護]持續時間 +20%%
+[神光閃耀]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	111
+		`[dungeon type]`
+		`[static]`	12
+		`+`	40000
+		`[knight]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	122
+		`[dungeon type]`
+		`[static]`	1
+		`+`	80000
+		`[knight]`	122
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[knight]`	123
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[圣盾]冷卻時間 -20%%
+[圣盾]傷害增幅倍數增加至120倍
+[神光庇護]冷卻時間 -25%%
+[神光庇護]傷害增幅倍數增加至120倍
+[神光庇護]持續時間 +30%%
+[神光閃耀]攻擊力 +30%%
+[圣盾裁決]冷卻時間 -25%%`
+[/piece set ability]

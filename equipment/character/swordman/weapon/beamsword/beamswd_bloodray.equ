@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`血之挽歌`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`beamswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	60
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	53
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	5
+
+[durability]
+	38
+
+[price]
+	117000
+
+[repair price]
+	98280
+
+[value]
+	93600
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	580	525
+
+[equipment magical attack]
+	562	508
+
+[separate attack]
+	378	255
+
+[attack speed]
+	100
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[swordman]`	4	5
+[/skill levelup]
+
+[variation]
+	9	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[routing priority]
+	`swordman`	1
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	`毒龍手套`
+
+[basic explain]
+	`攻擊時以 2%% 的機率讓敵人進入中毒狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率6秒內讓敵人呈現中毒狀態，每0.5秒以395的攻擊力給予傷害。 (若敵人高於Lv65，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[magical attack]
+	42
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[MP MAX]
+	80
+
+[price]
+	93800
+
+[repair price]
+	78792
+
+[value]
+	375200
+
+[equipment physical attack]
+	564	545
+
+[equipment magical attack]
+	683	660
+
+[separate attack]
+	293	199
+
+[poison resistance]
+	5
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	59
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	9	4
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	9	4
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`poison`	65	4750
+[/then]
+
+[possible kiri protect]

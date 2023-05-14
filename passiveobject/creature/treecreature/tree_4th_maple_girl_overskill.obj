@@ -1,0 +1,35 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/4th_overskill_ax.ani`
+
+[etc motion]
+	`Animation/4th_overskill_ax_land.ani`
+	`Animation/4th_overskill_pop.ani`
+	`Animation/4th_overskill_shockwave.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/4th_maple_overskill.atk`
+
+[int data]
+	300	200	200
+[/int data]
+
+[name]
+	`M-3噴火器子彈`

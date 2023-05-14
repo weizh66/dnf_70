@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`感?手雷`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1500
+
+[basic action]
+	`Animation/ATMecaBolt/Land/Land_MX.act`
+
+[etc action]
+	`Animation/ATMecaBolt/Attack01/MissileShot_MX.act`
+	`Animation/ATMecaBolt/Attack02/RifleReady_MX.act`
+	`Animation/ATMecaBolt/Attack02/Rifle01_MX.act`
+	`Animation/ATMecaBolt/Attack02/RifleMove_MX.act`
+	`Animation/ATMecaBolt/Attack02/RifleTurn_MX.act`
+	`Animation/ATMecaBolt/Attack03/Attack03_MXReady.act`
+	`Animation/ATMecaBolt/Attack03/Attack03Finish_MXSet04.act`
+	`Animation/ATMecaBolt/Attack04/Ready_MX.act`
+	`Animation/ATMecaBolt/Attack04/MX_Bust.act`
+	`Animation/ATMecaBolt/Attack04/MXLoop_Bust.act`
+	`Animation/ATMecaBolt/Attack04/Boom_Dodge01.act`
+[/etc action]
+
+[attack info]
+	`AttackInfo/MecaBoltRifle.atk`
+
+[etc attack info]
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+	`AttackInfo/mecaboltbladefinish.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	35502
+[/object destroy condition]

@@ -1,0 +1,112 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/Frogdile_crimson.img`
+		33
+	[IMAGE POS]
+		-330	-400
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		400
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-95	-10	0	170	20	90
+
+[FRAME001]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/Frogdile_crimson.img`
+		34
+	[IMAGE POS]
+		-330	-400
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-70	-10	225	170	20	90
+
+[FRAME002]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/Frogdile_crimson.img`
+		35
+	[IMAGE POS]
+		-330	-400
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-95	-10	200	190	20	120
+
+[FRAME003]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/Frogdile_crimson.img`
+		36
+	[IMAGE POS]
+		-330	-400
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-95	-10	210	190	20	110
+	[ATTACK BOX]
+	-110	-10	200	220	20	80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/Frogdile_crimson.img`
+		37
+	[IMAGE POS]
+		-330	-400
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-70	-10	10	180	20	150
+	[ATTACK BOX]
+	-90	-10	0	220	20	80
+
+[FRAME005]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/Frogdile_crimson.img`
+		38
+	[IMAGE POS]
+		-330	-400
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-90	-10	0	200	20	75
+
+[FRAME006]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/Frogdile_crimson.img`
+		39
+	[IMAGE POS]
+		-330	-400
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		2000
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-90	-10	0	200	20	65

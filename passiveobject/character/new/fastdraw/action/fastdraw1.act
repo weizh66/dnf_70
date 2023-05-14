@@ -1,0 +1,20 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/fastdraw_dustground1_back.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[USE MY DIRECTION]
+[/BEHAVIOR]

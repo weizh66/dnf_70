@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`藍色巨獸戰士胸甲`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[usable period]
+	30
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acoat.img`	368
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[sub type]
+	0
+
+[physical defense]
+	15
+
+[HP MAX]
+	80
+
+[variation]
+	113	3
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30001
+
+[avatar func filter]
+	2

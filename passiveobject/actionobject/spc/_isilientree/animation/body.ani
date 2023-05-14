@@ -1,0 +1,31 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`map/Village/Cartel/Object/GroznyOutside/Tree1.img`
+		0
+	[IMAGE POS]
+		-81	-206
+	[IMAGE ROTATE]
+		0.17453299462795258
+	[DELAY]
+		1000000
+	[DAMAGE BOX]
+	-30	-10	-10	49	20	145
+
+[FRAME001]
+	[IMAGE]
+		`map/Village/Cartel/Object/GroznyOutside/Tree1.img`
+		0
+	[IMAGE POS]
+		-81	-206
+	[IMAGE RATE]
+		2.0	2.0
+	[IMAGE ROTATE]
+		0.17453299462795258
+	[DELAY]
+		1000000
+	[DAMAGE BOX]
+	-30	-10	-10	49	20	145

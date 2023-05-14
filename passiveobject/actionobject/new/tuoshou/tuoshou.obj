@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`ZhongDuan1`
+
+[piercing power]
+	1000
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/TuoShou.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	100
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

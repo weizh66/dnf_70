@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	` 阿拉德 福豆`
+
+[explain]
+	`問衛 2%%睦煎  15%%, 羹溘 15%%, 雖棟 15%%, 薑褐溘 15%%蒂 隸陛衛霾棲棻.`
+
+[flavor text]
+	`<活動>  地下城與勇士的贈送系列活動--開心豆！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	42
+
+[custom animation]
+	`TitleAnimation/dnf_happybean.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	30
+
+[HP MAX]
+	50
+
+[MP MAX]
+	50
+
+[stuck resistance]
+	10
+
+[inventory limit]
+	7000
+
+[HP regen speed]
+	30
+
+[MP regen speed]
+	6
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[stat]
+		`physical attack`
+		`%`	15
+	[stat]
+		`physical defense`
+		`%`	15
+	[stat]
+		`magical attack`
+		`%`	15
+	[stat]
+		`magical defense`
+		`%`	15
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

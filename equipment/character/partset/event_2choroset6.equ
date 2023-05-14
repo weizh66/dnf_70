@@ -1,0 +1,61 @@
+#PVF_File
+
+[set name]
+	`寒月攝魂  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[at mage]`	1
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[at mage]`	1
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[at mage]`	8
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[at mage]`	8
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[at mage]`	8
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	21
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2
+		`[at mage]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	23
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-30
+		`[at mage]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at mage]`	22
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+	[/skill data up]
+	[parameter basic explain]
+		`魔法旋風攻擊力增加12%% / 冰魄劍攻擊力增加12%%， 冷卻時間2減少5%%
+寒冰連槍多段攻擊次數增加2， 冷卻時間減少10%% / 冰魄旋槍攻擊力增加2 5%%， 冷卻時間減少20%%， 移動距離減少30%% /冰之領悟MP 消耗減少值增加2%%， 智力增加值增加12%% `
+[/piece set ability]

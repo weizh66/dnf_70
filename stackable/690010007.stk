@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`60級加百利系列武器自選禮盒`
+
+[explain]
+	`使用後，可選擇獲得一件60級加百利系列武器`
+
+[flavor text]
+	`<裝備售出系統>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[price]
+	0
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	931
+
+[stackable type]
+	`[booster selection]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster category num]
+	1	6
+
+[booster selection num]
+	1
+
+[booster select category]
+	0	0
+	[equipment]
+		27140	1	27591	1	27739	1	28035	1	28307	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[equipment]
+		29142	1	29386	1	29737	1	30033	1	30301	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	2	0
+	[equipment]
+		31140	1	31434	1	31731	1	32028	1	32335	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	3	0
+	[equipment]
+		33101	1	33406	1	33701	1	34000	1	34280	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	4	0
+	[equipment]
+		35098	1	35393	1	35695	1	35990	1	36295	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	5	0
+	[equipment]
+		37093	1	37384	1	37685	1
+	[/equipment]
+[/booster select category]
+
+[booster category name]
+	`請選擇職業`
+	`鬼劍士/黑暗武士`
+	`格鬥家`
+	`神槍手`
+	`魔法師`
+	`聖職者`
+	`暗夜使者`
+[/booster category name]

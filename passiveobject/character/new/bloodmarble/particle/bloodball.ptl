@@ -1,0 +1,23 @@
+#PVF_File
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	650	700
+
+[z axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	-650	-700
+
+[gravity]
+	1000
+
+[landing type]
+	`[vanish]`

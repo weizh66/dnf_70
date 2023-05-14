@@ -1,0 +1,24 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/stonestatue.ani`
+[/MOTION]
+
+[TRIGGER]
+	[ON DAMAGE]
+	[WHICH]
+	[ME]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../particle/StatueDestroy.ptl`	0	0	50
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

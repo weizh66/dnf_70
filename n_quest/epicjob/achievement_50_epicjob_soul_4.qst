@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	982
+
+[name]
+	`覺醒 - 弒魂 (1/4)`
+
+[depend message]
+	`你……你到底是人還是鬼？ 在我這一生中， 還是頭一次感受到如此強大的鬼神氣息……
+不過感覺你操控鬼神的技術， 應該可以成為‘弒魂’了。 不過光是能操縱鬼神之力還不夠， 身體和精神也必須變得足夠強大才行。
+否則會像吉格那樣被惡鬼吞噬……對了， 你知道吉格吧？
+身為鬼劍士， 竟然不清楚。 唉~算了， 你收集回來， 我再接著說。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`我們接著說啊， 之前說到哪了？
+……哦， 吉格可以說是最初與最強的鬼泣。 聽說古書里曾經有關于他可以隨心所欲地使喚七個鬼神的記載。
+我聽了覺得不可思議， 因為六個鬼神就是我所知道的全部……而在那段記載的最后， 還隱藏著關于第七個鬼神的線索……`

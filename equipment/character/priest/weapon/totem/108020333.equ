@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`腐蝕之界`
+
+[basic explain]
+	`    破招傷害 +20%%
+    
+    攻擊時， 有5%%的幾率使敵人減少15%%的移動速度和攻擊速度， 效果持續20秒。`
+
+[detail explain]
+	`    破招傷害 +20%%
+    
+     攻擊時， 有5%%的幾率使敵人減少15%%的移動速度和攻擊速度， 效果持續20秒。(破招傷害加成效果取最高值）`
+
+[flavor text]
+	`    它們不僅殘忍地吃掉同族， 吃之前還不忘剝掉同族的毛皮。 這些毛皮堆積在這裏， 誰知道時間一`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	92
+
+[stuck]
+	-1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	956	855
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/priest/totem/totem.img`	107
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	40	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[equipment duration]
+		20000
+	[appendage]
+		693
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	13
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		48072	0	0	0	999	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

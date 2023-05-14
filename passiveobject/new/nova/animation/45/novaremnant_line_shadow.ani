@@ -1,0 +1,33 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/NovaRemnant/shadow.img`
+		0
+	[IMAGE POS]
+		-627	-42
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		0.8500000238418579
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-500	-250	-215	1000	500	625
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		139	3
+	[IMAGE ROTATE]
+		0.8500000238418579
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-500	-250	-215	1000	500	625

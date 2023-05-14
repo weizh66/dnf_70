@@ -1,0 +1,72 @@
+#PVF_File
+[COORD]
+	1
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Interface2/event/OnTimeEvent4RD/ontime_event.img`
+		1
+	[IMAGE POS]
+		160	-73
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+
+[FRAME001]
+	[IMAGE]
+		`Interface2/event/OnTimeEvent4RD/ontime_event.img`
+		1
+	[IMAGE POS]
+		160	-83
+	[IMAGE ROTATE]
+		0.26179900765419006
+	[INTERPOLATION]
+		1
+	[DELAY]
+		700
+
+[FRAME002]
+	[IMAGE]
+		`Interface2/event/OnTimeEvent4RD/ontime_event.img`
+		1
+	[IMAGE POS]
+		160	-83
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[INTERPOLATION]
+		1
+	[DELAY]
+		700
+
+[FRAME003]
+	[IMAGE]
+		`Interface2/event/OnTimeEvent4RD/ontime_event.img`
+		1
+	[IMAGE POS]
+		160	-83
+	[IMAGE ROTATE]
+		0.785398006439209
+	[INTERPOLATION]
+		1
+	[DELAY]
+		700
+
+[FRAME004]
+	[IMAGE]
+		`Interface2/event/OnTimeEvent4RD/ontime_event.img`
+		0
+	[IMAGE POS]
+		160	-83
+	[IMAGE ROTATE]
+		1.0471980571746826
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500

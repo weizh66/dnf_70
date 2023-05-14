@@ -1,0 +1,34 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/movingattack.ani`
+	[SOUND]
+		`R_DIFFUSION_GUNA`	2
+	[/SOUND]
+	[SPEECH]
+		`嘗嘗這個吧！！`
+			0	100
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8005
+		[PARTICLE FILENAME]
+			`../particle/bullet.ptl`
+		[LEVEL]
+			40
+		[POS]
+			83	0	50
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

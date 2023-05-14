@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20531
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680397	20	2680398	20	2680399	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680396	1
+[/reward int data]
+
+[reward selection int data]
+	39164	1	43158	1	47163	1	51153	1	55097	1
+[/reward selection int data]
+
+[name]
+	`2周年慶活動 (4/4)`
+
+[depend message]
+	`地下城與勇士2周年慶蛋糕快要完成了！ 但我總感覺缺了點什么……嗯， 這畢竟是2周年慶蛋糕， 如果能再裝飾一下， 就完美了。
+冒險家， 麻煩你再給我收集20個雞蛋、 20個白面粉和30個裝飾品吧。 這次， 我一定要弄出一個讓大家都贊嘆的蛋糕。`
+
+[condition message]
+	`    收集20個[雞蛋]、 20個[白面粉]和30個[裝飾品]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`冒險家， 多謝了。
+怎么樣？ 很漂亮吧？ 是不是都舍不得吃了？`

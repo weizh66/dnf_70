@@ -1,0 +1,202 @@
+#PVF_File
+
+[name]
+	`賢者之杖`
+
+[basic explain]
+	`  攻擊時，增加1000智力，效果持續3秒，冷卻時間5秒
+  攻擊時，增加220點魔法攻擊力，效果持續3秒，冷卻時間6秒
+  [觸發不死之身時，復活的同時立即回復50%%的HP`
+
+[flavor text]
+	`  被認可的魔法師才有資格佩戴的法杖`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	292
+
+[attack speed]
+	-100
+
+[need material]
+	3821	1600
+
+[repair price]
+	92736
+
+[value]
+	88320
+
+[creation rate]
+	200
+
+[skill levelup]
+	`[common]`	176	5
+[/skill levelup]
+
+[equipment physical attack]
+	1003	1003
+
+[equipment magical attack]
+	1267	1267
+
+[separate attack]
+	648	648
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/staff/staff.img`	117
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	14	0
+
+[layer variation]
+	2150
+	`at_staffa`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_staffd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	14	0
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`STAFF_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2400
+
+[item group name]
+	`staff`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[at mage]`	33
+	`[all]`
+	`[static]`	1
+	`+`	40
+[/skill data up]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[stat]
+		`magical attack`
+		`+`	1000
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		6000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[stat]
+		`equipment magical attack`
+		`+`	220
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600730	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

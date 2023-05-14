@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	7
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 劍神 (1/2)`
+
+[depend message]
+	`劍圣的下一個境界被稱為‘劍神’。
+所謂劍神就是心劍相合， 人劍合一。 只有達到這樣的境界， 才能夠隨心所欲地駕馭手中之劍。
+劍神所施展的招數已經不單純只是一種技巧， 而是一種生命的藝術。
+據我所知， 在這片大陸上， 只有極少數的劍圣有資格成為‘劍神’。 而現在， 你將獲得一次成為‘劍神’的機會。
+怎么樣？ 想試試嗎？ 如果對自己的劍術有信心， 就來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與G.S.D談談。`
+
+[solve message]
+	`下定決心了嗎？
+很好， 我現在就把成為劍神的方法傳授給你。`
+
+[pre required quest]
+	977
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4730
+
+[job change quest]
+	3
+
+[grow number]
+	0

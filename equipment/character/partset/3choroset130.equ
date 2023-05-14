@@ -1,0 +1,86 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[level]`	1
+		`+`	4
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[static]`	21
+		`+`	-3
+	[/skill data up]
+	[parameter basic explain]
+		`[風火燎原]發射體數量 +4個
+[風火燎原]發射集束標槍的集彈率 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	11
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[demonic lancer]`	23
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-25
+		`[demonic lancer]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	23
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[無雙槍術]屬性值 +10%%
+[三一斬月]攻擊間隔 -20%%
+[三一斬月]冷卻時間 -20%%
+[三一斬月]無色小晶塊消耗 +1
+[風火燎原]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	23
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[demonic lancer]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+	[/skill data up]
+	[parameter basic explain]
+		`[三一斬月]攻擊力 +40%%
+[三一斬月]冷卻時間 -40%%
+[風火燎原]攻擊力 +30%%
+[風火燎原]冷卻時間 -30%%
+[風火燎原]無色小晶塊消耗量 +1`
+[/piece set ability]

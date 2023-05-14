@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7852	7860	7863
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7857
+
+[name]
+	`轉職 - 藍拳圣使 (1/4) `
+
+[depend message]
+	`彷徨之中的靈魂啊， 邪惡的怨念和蠕動的暴力會玷污你純潔的信仰。 但這不是你的錯， 只要你心存信仰， 一定可以像那些以靜坐或通過發揮自身潛能的人一樣， 最終實現自己的價值。
+嗯， 或許我可以給你指引一條路， 你可以像那些被人們稱為藍拳圣使的人一樣， 通過戰斗的方式來實現自己的信仰。 怎么樣？ 想試試嗎？`
+
+[condition message]
+	`    找歌蘭蒂斯談談。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！)   `
+
+[solve message]
+	`你下定決心了嗎？`

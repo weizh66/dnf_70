@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`(舊) 七龍拱月珠`
+
+[basic explain]
+	`[落雷符]閃電間隔 -30%%
+[落雷符]每次閃電數 +2`
+
+[flavor text]
+	`    用阿拉德大陸傳說中的七龍珠制成的念珠， 相傳如果收集到了所有的龍珠， 就能實現愿望。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rosary`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2500
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/rosary.img`	35
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	479	436
+
+[equipment magical attack]
+	612	557
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[magical critical hit]
+	2
+
+[skill data up]
+	`[priest]`	40
+	`[all]`
+	`[static]`	2
+	`%`	-30
+	`[priest]`	40
+	`[all]`
+	`[level]`	2
+	`+`	2
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	40	2
+[/skill levelup]
+
+[variation]
+	4	1
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

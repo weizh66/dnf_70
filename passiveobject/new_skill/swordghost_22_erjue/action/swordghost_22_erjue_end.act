@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/TerribleKilling/VSMoveEnd_01.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND PROBABILITY]
+	[/SOUND PROBABILITY]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		34	34
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

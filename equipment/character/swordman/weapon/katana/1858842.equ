@@ -1,0 +1,336 @@
+#PVF_File
+
+[name]
+	`真 · 剎影之魂`
+
+[basic explain]
+	`[鬼斬]攻擊力 +100%%
+[鬼斬]冷卻時間 -3秒
+[鬼斬]大小 +60%%
+[噬靈鬼斬]最大蓄氣時間 -100%%
+[噬靈鬼斬]最大蓄氣時攻擊力 +80%%
+[噬靈鬼斬]卡贊力量、 智力 +10
+[噬靈鬼斬]薩亞冰凍機率 +40%%、 冰凍Lv +30
+[噬靈鬼斬]普戾蒙睡眠幾率 +40%%、 睡眠Lv +30
+[刀魂之卡贊]、 [侵蝕之普戾蒙]、 [瘟疫之羅剎]、 [冰霜之薩亞]、 [暗月降臨]冷卻時間 -30%%
+[侵蝕之普戾蒙]、 [瘟疫之羅剎]、 [冰霜之薩亞]、 [冰晶薩亞]、 [刀魂之卡贊]、 [暗月降臨]範圍 +55%%
+[刀魂之卡贊]力量、 智力 +60
+[侵蝕之普戾蒙]魔法防禦減少量 +35%%
+[瘟疫之羅剎]中毒、 失明、 出血Lv +12
+[瘟疫之羅剎]減少攻擊速度 +40
+[瘟疫之邏剎]中毒、 出血攻擊力 +10000， 失明命中率減少率 +35
+[冰霜之薩亞]攻擊力 +30%%
+[暗月降臨]自身及隊員暗屬性增加量 +10
+[暗月降臨]敵人暗屬性抗性減少值 +10`
+
+[flavor text]
+	`沒人可以挨我壹刀！ -- 影子劍士-剎影`
+
+[grade]
+	89
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	65
+
+[magical attack]
+	97
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	3260	60000
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1008	865
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	5	5
+	`[demonic swordman]`	5	5
+	`[swordman]`	142	3
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/katana.img`	75
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	23	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	23	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[skill data up]
+	`[swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	100
+	`[swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[swordman]`	5
+	`[all]`
+	`[cooltime]`	0
+	`+`	-3000
+	`[swordman]`	5
+	`[all]`
+	`[static]`	0
+	`%`	60
+	`[demonic swordman]`	5
+	`[all]`
+	`[static]`	0
+	`%`	60
+	`[swordman]`	6
+	`[all]`
+	`[static]`	1
+	`%`	-100
+	`[swordman]`	6
+	`[all]`
+	`[level]`	0
+	`%`	80
+	`[swordman]`	6
+	`[all]`
+	`[level]`	4
+	`+`	10
+	`[swordman]`	6
+	`[all]`
+	`[level]`	5
+	`+`	10
+	`[swordman]`	6
+	`[all]`
+	`[level]`	7
+	`%`	40
+	`[swordman]`	6
+	`[all]`
+	`[level]`	8
+	`+`	30
+	`[swordman]`	6
+	`[all]`
+	`[level]`	10
+	`%`	40
+	`[swordman]`	6
+	`[all]`
+	`[level]`	11
+	`+`	30
+	`[swordman]`	25
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[swordman]`	41
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[swordman]`	75
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[swordman]`	36
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[swordman]`	30
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[swordman]`	25
+	`[all]`
+	`[static]`	1
+	`%`	55
+	`[swordman]`	41
+	`[all]`
+	`[static]`	1
+	`%`	55
+	`[swordman]`	75
+	`[all]`
+	`[static]`	6
+	`%`	55
+	`[swordman]`	36
+	`[all]`
+	`[static]`	1
+	`%`	55
+	`[swordman]`	96
+	`[all]`
+	`[static]`	1
+	`%`	55
+	`[swordman]`	30
+	`[all]`
+	`[static]`	1
+	`%`	55
+	`[swordman]`	25
+	`[all]`
+	`[level]`	0
+	`+`	60
+	`[swordman]`	25
+	`[all]`
+	`[level]`	2
+	`+`	60
+	`[swordman]`	41
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	75
+	`[all]`
+	`[level]`	7
+	`+`	12
+	`[swordman]`	75
+	`[all]`
+	`[level]`	11
+	`+`	12
+	`[swordman]`	75
+	`[all]`
+	`[level]`	16
+	`+`	12
+	`[swordman]`	75
+	`[all]`
+	`[level]`	2
+	`+`	55
+	`[swordman]`	75
+	`[all]`
+	`[level]`	9
+	`+`	10000
+	`[swordman]`	75
+	`[all]`
+	`[level]`	18
+	`+`	10000
+	`[swordman]`	36
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[swordman]`	30
+	`[all]`
+	`[level]`	1
+	`+`	10
+	`[swordman]`	15
+	`[all]`
+	`[level]`	2
+	`+`	10
+[/skill data up]
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[summon monster]
+		64881	100	1
+	[summon monster]
+		64882	100	1
+	[summon monster]
+		64883	100	1
+	[summon monster]
+		64884	100	1
+	[summon monster]
+		64885	100	1
+	[summon monster]
+		64886	100	1
+	[summon monster]
+		64887	100	1
+[/then]
+
+[possible kiri protect]

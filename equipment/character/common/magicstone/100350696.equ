@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`哈尼克的血凝石`
+
+[basic explain]
+	`    裝備後， 每30秒減少自身1%%的HP， 但550px範圍內若出現出血狀態的敵人， 會增加自身8點的力量和智力、 0.9%%的攻擊速度和施放速度。 (最多可增加80點的力量和智力、 9%%的攻擊速度和施放速度
+    攻擊出血狀態的敵人時， 附加10%%的傷害。)`
+
+[detail explain]
+	`    裝備後， 每30秒減少自身1%%的HP。
+    角色550px範圍內， 每存在1個出血狀態的敵人時， 可增加自身8點的力量和智力、 0.9%%的攻擊速度和施放速度。 (最多可增加80點的力量、 智力、 9%%的攻擊速度和施放速度)
+    攻擊出血狀態的敵人時， 附加10%%的傷害。`
+
+[flavor text]
+	`    這得咬傷多少人才能凝結出這?壹大顆……`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	53
+
+[magical attack]
+	53
+
+[physical defense]
+	53
+
+[magical defense]
+	53
+
+[need material]
+	10000204	40
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	138
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		30000	1	30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-1	0
+[/then]
+
+[variable stat]
+	`physical attack`
+	`+`	8
+	`object number`
+	`enemy`	550
+	`bleeding`	10
+	`magical attack`
+	`+`	8
+	`object number`
+	`enemy`	550
+	`bleeding`	10
+	`attack speed`
+	`+`	9
+	`object number`
+	`enemy`	550
+	`bleeding`	10
+	`cast speed`
+	`+`	9
+	`object number`
+	`enemy`	550
+	`bleeding`	10
+[/variable stat]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

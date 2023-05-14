@@ -1,0 +1,18 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/NenGuard.img`
+		7
+	[IMAGE POS]
+		-130	-207
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		600

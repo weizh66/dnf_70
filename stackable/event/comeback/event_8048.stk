@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	``
+	
+
+[explain]
+	`出現小巴卡爾寵物 1個與寵物飼料 10個。
+
+小巴卡爾產包可以通過帳號金庫或郵寄方式轉移到帳號內的其他角色。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	185
+
+[stackable type]
+	`[booster]`	0
+
+[booster info]
+	[etc]
+		1	63120	1000	1
+	[/etc]
+	[etc]
+		1	24	1000	10
+	[/etc]
+[/booster info]
+
+[move wav]
+	`FOOD_TOUCH`

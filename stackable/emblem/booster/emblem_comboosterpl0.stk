@@ -1,0 +1,39 @@
+#PVF_File
+
+[name]
+	`徽章盒 (白金可合成+掉落率)`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	105
+
+[field image]
+	`Item/FieldImage.img`	23
+
+[stackable type]
+	`[booster]`	0
+
+[booster info]
+	[stackable]
+		1	2540102	1111	1	2540103	1111	1	2540104	1111	1	2540105	1111	1	2540106	1111	1	2540107	1111	1	2540118	1111	1	2540156	1111	1	2540157	1112	1	2540096	8	1	2540097	8	1	2540098	8	1	2540099	9	1	2540100	9	1	2540101	9	1
+	[/stackable]
+[/booster info]
+
+[move wav]
+	`BONE_TOUCH`

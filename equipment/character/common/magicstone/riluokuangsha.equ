@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`日落狂沙之石`
+
+[basic explain]
+	`    攻擊時，有3%%的幾率積攢一層沙塵能量。
+    當能量達到1層時，會生成沙塵暴攻擊敵人。`
+
+[detail explain]
+	`    攻擊時，有3%%的幾率積攢一層沙塵能量。
+    當能量達到1層時，會生成沙塵暴攻擊敵人。`
+
+[flavor text]
+	`    來，小鬼，使出你的全力，讓我看看你真正的水平。-沙影貝利特`
+
+[grade]
+	85
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	53
+
+[magical attack]
+	53
+
+[physical defense]
+	53
+
+[magical defense]
+	53
+
+[price]
+	108000
+
+[value]
+	86400
+
+[repair price]
+	63200
+
+[need material]
+	10000204	24
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	133
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[passive object]
+		48800	0	0	0	75	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

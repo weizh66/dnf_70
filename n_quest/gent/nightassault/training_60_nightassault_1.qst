@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5734
+[/pre required quest]
+
+[cant giveup]
+	2
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	16
+
+[int data]
+	83	-1	8875	0
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`悄無聲息`
+
+[depend message]
+	`優秀的戰士必須學會如何悄無聲息地進行潛伏。
+如果不小心發出聲音把任務搞砸， 只能說明他的訓練還不夠。
+不過對于你， 我想做進一步的考驗。 我希望你除了不吵醒敵人外， 還要給對方軍營制造一些混亂。
+呵呵~冒險家， 你有信心完成這項使命嗎？`
+
+[condition message]
+	`    通關安特貝魯峽谷的『夜間襲擊戰』， 要求不吵醒地下城中沉睡的敵人。`
+
+[solve message]
+	`哈哈~朋友， 你真了不起！`

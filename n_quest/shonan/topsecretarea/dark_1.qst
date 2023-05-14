@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	-1
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	74	99
+
+[pre required quest]
+	4230
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3042	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`兒時的記憶`
+
+[depend message]
+	`當你在極密區域旅行時，有想起什麼嗎？
+只能如此… 你從那裡來到了異次元裂縫。長時間在異次元裂縫度過，可能會丟失了部分過去的記憶，但那些記憶的碎片好像還留著…
+如果想獲得那些記憶，去找來無色晶體吧。`
+
+[condition message]
+	`為了恢復兒時的記憶，收集無色背包`
+
+[solve message]
+	`好……如果想要恢復記憶……我就幫你確認。`
+
+[quest point]
+	4

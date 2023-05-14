@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	66
+
+[complete npc index]
+	66
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	6004
+[/pre required quest]
+
+[monster reward item]
+	63006	1504	-1	4425	1	25	10	59008	1504	-1	4425	1	80	10	59005	1504	-1	4425	1	80	10	59007	1504	-1	4425	1	80	10	59006	1504	-1	4425	1	80	10	63000	1504	-1	4425	1	20	10	63001	1504	-1	4425	1	20	10	63002	1504	-1	4425	1	20	10	63003	1504	-1	4425	1	20	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4425	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+	1249	2	1250	3
+[/reward selection int data]
+
+[name]
+	`遠古 - 木質人偶`
+
+[depend message]
+	`啊……原來、 原來爺爺說的一切都是真的。 他和奶奶是不是都在那輛列車上呢？
+對了， 傳說中那些被奪去靈魂的木質人偶真的存在嗎？`
+
+[condition message]
+	`    前往海上列車的『幽靈列車』， 從木質人偶身上收集[木質人偶碎片]。`
+
+[solve message]
+	`原來是真的……
+啊！ 請等一會！ 我記得爺爺有留下一些文字資料……到底放哪兒了呢？ 等我找找……`
+
+[quest point]
+	4

@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	905
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3229	100	3187	200
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`覺醒 - 暴風眼 (4/4)`
+
+[depend message]
+	`很好， 你現在完全有資格學習‘末日風暴’了！ 不過先別急， 還得準備一些材料。`
+
+[condition message]
+	`    為了成為暴風眼， 請收集以下材料。`
+
+[solve message]
+	`看你使用末日風暴時的架勢， 已頗有‘暴風眼’的風范了！
+恭喜啊！ 你已經領悟了柔道家的奧義。 從現在開始， 你就是人們口中說的‘暴風眼’了。`

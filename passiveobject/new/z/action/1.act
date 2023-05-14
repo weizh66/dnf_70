@@ -1,0 +1,23 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/nenofbrilliance/loop/loop_body.ani`
+	[SUB ANI]
+		`../animation/nenofbrilliance/self_big_elec.ani`	0	1
+		`../animation/nenofbrilliance/magiccircle_loop_magic_circle_1.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		250	2000	250	255	0	0	0
+[/BEHAVIOR]

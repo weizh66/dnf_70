@@ -1,0 +1,43 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	42
+
+[big face]
+	`Map/Npc/NpcFace02.img`	41
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	45
+
+[field animation]
+	`Animation/boss4_0.ani`
+
+[look around]
+	0
+
+[role]
+[/role]
+
+[name]
+	`虛無的弗曼`
+
+[field name]
+	`虛無的波曼`
+
+[quest speech]
+	`我有個重要的任務需要你幫忙！`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1041>外部的能量完全被阻斷了... 要如果是這樣，我們就使不上力了...`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1041>我是虛渺的波曼... 是身為安徒恩 4人守護者的藍火花守護者。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1041>就算是這樣死去了，總有一天還是會復活的。`
+[/dialog]

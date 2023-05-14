@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`COS變裝玩具 (幽靈賽麗亞)`
+
+[explain]
+	`使用時，連續5分鐘內會變身為幽靈賽麗亞。 只能在村子裡使用，變身狀態下可移動。`
+
+[flavor text]
+	`<萬聖節活動>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	100
+
+[icon]
+	`Item/stackable/consumption.img`	336
+
+[stackable type]
+	`[disguise]`	0
+
+[cool time]
+	10000
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[string data]
+	`monster`
+[/string data]
+
+[int data]
+	61733	300
+[/int data]

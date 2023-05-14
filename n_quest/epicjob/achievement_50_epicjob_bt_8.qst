@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	1009
+
+[job]
+	`[mage]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	968
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	970
+
+[name]
+	`覺醒 - 貝亞娜斗神 (3/4)`
+
+[depend message]
+	`在弱勢的敵人面前， 總是可以很輕松地凝聚炫紋， 但是如果面對的是攻擊敏捷的強勁對手， 那么炫紋凝聚起來就不那么容易了。
+在你去挑戰阿爾伯特之前， 我有幾句話希望你能夠重視。
+無論在什么情況下， 你都要維持炫紋的穩定。 要知道一旦炫紋消失， 你就無法變身為貝亞娜了……`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`炫紋的移動方向非常奇怪……好像進入了你的身體里……
+是我的錯覺嗎？`

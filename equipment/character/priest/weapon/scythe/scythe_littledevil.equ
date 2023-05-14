@@ -1,0 +1,200 @@
+#PVF_File
+
+[name]
+	`小惡魔的狡詐戰鐮`
+
+[basic explain]
+	``
+
+[detail explain]
+	`    攻擊時， 有4%%的幾率使敵人進入失明狀態3秒； 失明狀態下， 減少90%%的視野和20%%的命中率。 (若敵人高于Lv60， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    攻擊失明狀態下的敵人時， 可以增加5%%的攻擊速度和移動速度， 效果持續20秒。
+    攻擊眩暈狀態下的敵人時， 有100%%的幾率使自身進入祝福狀態20秒； 祝福狀態下， 增加50點力量、 體力、 智力和精神。
+[回旋飛鐮]投擲距離 -20%%
+[回旋飛鐮]冷卻時間 -1秒`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`scythe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2800
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/scythe.img`	54
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	572	524
+
+[separate attack]
+	360	243
+
+[attack speed]
+	80
+
+[if]
+	[cooltime]
+		10000
+	[target active status]
+		`blind`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[target active status]
+		`stun`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[active status]
+		`bless`	60	50	50	50	50
+[/then]
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[priest]`	113
+	`[all]`
+	`[static]`	0
+	`%`	-20
+	`[priest]`	113
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	113	2
+[/skill levelup]
+
+[variation]
+	2	6
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		4
+	[active status]
+		`blind`	60	90	20
+[/then]
+
+[routing priority]
+	`priest`	3
+	`priest`	2
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	12
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	16	99
+
+[pre required quest]
+	7
+[/pre required quest]
+
+[monster reward item]
+	70	11	-1	4024	2	70	40	71	11	-1	4024	2	70	40	72	11	-1	4024	5	70	40
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4024	40
+[/int data]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26599	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`精靈守護者`
+
+[depend message]
+	`隨著魔法陣被破壞， 精靈之塵也散落到各地。 它們可是組成魔法陣的重要材料， 少了它們修補工作會變得非常困難。
+我聽說龍人之塔里有一些， 可惜我手邊還有其他事情……冒險家， 你能去幫我帶些回來嗎？`
+
+[condition message]
+	`    前往天空之城的『龍人之塔』， 收集40個[精靈之塵]。`
+
+[solve message]
+	`這么快就找到了？ 辛苦了！
+希望有了這些精靈之塵， 魔法陣會變得稍微穩定一些。`

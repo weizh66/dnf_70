@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/EnergyCircle_apper00.ani`
+	[SUB ANI]
+		`../Animation/EnergyCircle_apper01.ani`	0	1
+	[/SUB ANI]
+	[SOUND]
+		`IRISM_LIGHTSPELL_CAST`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		3	3
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			59055
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70025
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			90
+		[POS]
+			0	0	0
+		[FIX DIRECTION]
+		[RIGHT]
+		[NO EFFECT]
+		[FOLLOWING TARGET]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

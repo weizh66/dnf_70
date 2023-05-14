@@ -1,0 +1,33 @@
+#PVF_File
+
+[name]
+	`ATMage Spiral Press Ball`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[vanish on move collision]
+	0
+
+[follow parent]
+	`[parent]`
+
+[basic action]
+	`action/atspiralpressball.act`
+
+[attack info]
+	`AttackInfo/ATSpiralPressSpiral.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	257098
+[/object destroy condition]

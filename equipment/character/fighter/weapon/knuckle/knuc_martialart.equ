@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`武鬥手套`
+
+[basic explain]
+	`攻擊時以1%%的機率讓敵人陷入氣絕狀態`
+
+[detail explain]
+	`攻擊時以1%%的機率讓敵人4秒內陷入氣絕狀態。 (若敵人高於Lv35，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	35
+
+[magical attack]
+	24
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[price]
+	800000
+
+[repair price]
+	50000
+
+[value]
+	50000
+
+[equipment physical attack]
+	315	300
+
+[equipment magical attack]
+	382	363
+
+[separate attack]
+	164	109
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	29
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	20
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[medal]
+	2500
+
+[if]
+	[cooltime]
+		8000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		1
+	[active status]
+		`stun`	35
+[/then]
+
+[possible kiri protect]

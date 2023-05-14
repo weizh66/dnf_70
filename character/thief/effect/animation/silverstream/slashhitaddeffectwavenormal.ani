@@ -1,0 +1,44 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/SilverStream/NormalHitWaveNormal.img`
+		0
+	[IMAGE POS]
+		-175	-92
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[RGBA]
+		255	255	255	170
+	[DELAY]
+		110
+
+[FRAME001]
+	[IMAGE]
+		`Character/Thief/Effect/SilverStream/NormalHitWaveNormal.img`
+		0
+	[IMAGE POS]
+		-175	-92
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[RGBA]
+		255	255	255	170
+	[INTERPOLATION]
+		1
+	[DELAY]
+		90
+
+[FRAME002]
+	[IMAGE]
+		`Character/Thief/Effect/SilverStream/NormalHitWaveNormal.img`
+		0
+	[IMAGE POS]
+		-175	-92
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[RGBA]
+		255	255	255	0

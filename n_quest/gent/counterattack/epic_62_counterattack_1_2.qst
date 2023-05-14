@@ -1,0 +1,91 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5770
+[/pre required quest]
+
+[cant giveup]
+	2
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	85	2	11503	2	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	6051	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`郎克的背叛`
+
+[depend message]
+	`正因為有朗克這種叛徒存在， 所以澤丁到現在都還不能完全信任我。 哼！ 我決不饒恕他。
+真想馬上就跑去教訓那家伙……可是我現在手頭上還有很多事， 實在走不開。
+冒險家， 相信你能理解我這種無奈的心情。 唉， 你能替我出出這口惡氣嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 擊敗叛變者郎克， 要求地下城難度為王者級。`
+
+[solve message]
+	`你說那家伙像泥鰍一樣難抓？
+不管怎么樣， 謝謝你替我出了這口惡氣， 希望他這次能受到一些教訓！`
+
+[dialog]
+	0	0	13103	2	0	0	0
+	`<npc::0>該死的叛徒， 終于讓我找到你了！
+<apc::11503>你說我是叛徒？ 呵~幼稚的家伙。
+我這么做也是因為我的立場， 再說了， 人活著本來就不可能事事順心， 犯得著為這件事生氣嗎？
+而且皇都軍也做過同樣的事啊， 所以大家算扯平了嘛！
+ <npc::0>胡說！ 皇都軍怎么可能做出這種事。
+<apc::11503>呦~裝蒜的水平簡直是影帝級的嘛！ 哼~如果真想打架， 我也會奉陪到底。
+小乖乖， 出招吧！`
+[/dialog]
+
+[dialog]
+	0	0	13102	2	0	0	0
+	`<apc::26502>你……你是誰？
+<npc::0>該死， 又來了新的敵人！
+ <apc::26502>敵人？ 不、 我不是！ 我沒想過要攻擊你……只是~我大腦現在一片空白！
+ <npc::0>難道你失憶了？
+<apc::26502>這到底是怎么回事？ 我為什么會在這里……
+<apc::0>呃~事情變得有些麻煩了！ 不過不管怎樣， 我們先干掉那些敵人， 然后再慢慢想吧。`
+[/dialog]
+
+[quest point]
+	4

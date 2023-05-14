@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`超級賽亞人的變身手鐲`
+
+[basic explain]
+	`技能攻擊力 +8%%`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	39
+
+[physical defense]
+	97
+
+[move speed]
+	70
+
+[anti evil]
+	16
+
+[price]
+	134400
+
+[value]
+	107520
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	95	95
+
+[equipment magical attack]
+	95	95
+
+[equipment magical defense]
+	5136	4704
+
+[separate attack]
+	109	109
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	189
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	8
+	[stat by condition]
+		`magical attack bonus`
+		`%`	8
+	[stat by condition]
+		`separate attack`
+		`%`	8
+[/then]
+
+[possible kiri protect]

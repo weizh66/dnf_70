@@ -1,0 +1,233 @@
+#PVF_File
+
+[name]
+	`末日懲戒`
+
+[basic explain]
+	`    施放[銀彈]、 [爆炎彈]、 [冰凍彈]時， 可以增加10點力量和智力， 效果持續60秒。 (效果最多重疊10次)`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	60
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[magical attack]
+	24
+
+[equipment physical attack]
+	530	476
+
+[equipment magical attack]
+	589	529
+
+[separate attack]
+	411	278
+
+[attack speed]
+	20
+
+[elemental property]
+	`[dark element]`
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[gunner]`	1	1
+	`[gunner]`	2	1
+	`[gunner]`	30	2
+	`[at gunner]`	1	1
+	`[at gunner]`	2	1
+	`[at gunner]`	30	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	12	5
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	12	5
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[if]
+	[event use skill]
+		`gunner`	1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[appendage]
+		100
+[/then]
+
+[if]
+	[event use skill]
+		`gunner`	2
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[appendage]
+		100
+[/then]
+
+[if]
+	[event use skill]
+		`gunner`	30
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[appendage]
+		100
+[/then]
+
+[if]
+	[event use skill]
+		`at gunner`	1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[appendage]
+		100
+[/then]
+
+[if]
+	[event use skill]
+		`at gunner`	2
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[appendage]
+		100
+[/then]
+
+[if]
+	[event use skill]
+		`at gunner`	30
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[appendage]
+		100
+[/then]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

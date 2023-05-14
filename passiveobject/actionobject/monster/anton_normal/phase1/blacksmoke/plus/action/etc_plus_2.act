@@ -1,0 +1,91 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/plus_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			18626
+		[/IS INDEX]
+	[/CHECKUP]
+	[DISTANCE]
+	[<=]
+		100
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			18629
+		[/IS INDEX]
+	[/CHECKUP]
+	[DISTANCE]
+	[<=]
+		100
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			0
+	[/PARTY TARGET]
+	[CHECKUP]
+		[CHECKED NO]
+		[<]
+			1
+	[/CHECKUP]
+	[DISTANCE]
+	[<=]
+		10000
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			18628
+		[/IS INDEX]
+	[/CHECKUP]
+	[DISTANCE]
+	[<=]
+		100
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

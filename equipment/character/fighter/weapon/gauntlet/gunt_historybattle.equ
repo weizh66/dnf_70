@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`遠古逆襲之戰爭臂鎧`
+
+[basic explain]
+	`攻擊時，以3%%的機率使自身增加30點力量，效果持續30秒
+攻擊速度增加1%%`
+
+[flavor text]
+	` 蘊含遠古戰爭英雄之靈魂的稀有武器。`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	67
+
+[attack speed]
+	-70
+
+[cast speed]
+	10
+
+[move speed]
+	10
+
+[stuck]
+	-1
+
+[price]
+	94400
+
+[repair price]
+	79296
+
+[value]
+	377600
+
+[equipment physical attack]
+	610	590
+
+[equipment magical attack]
+	457	443
+
+[separate attack]
+	256	173
+
+[skill levelup]
+	`[fighter]`	22	1
+	`[fighter]`	88	1
+	`[at fighter]`	88	1
+	`[at fighter]`	22	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	39
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	22
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		3
+	[stat]
+		`physical attack`
+		`+`	30
+[/then]
+
+[possible kiri protect]

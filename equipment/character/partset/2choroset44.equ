@@ -1,0 +1,116 @@
+#PVF_File
+
+[set name]
+	`無盡之阿斯蘭  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	16
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-300
+		`[mage]`	16
+		`[dungeon type]`
+		`[static]`	5
+		`%`	-50
+		`[mage]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-300
+		`[mage]`	15
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[冰霜雪人]冷卻時間 -0.3秒
+[冰霜雪人]蓄氣時間 -50%% 
+[杰克爆彈]冷卻時間 -0.3秒
+[杰克爆彈]蓄氣時間 -50%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	57
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2100
+		`[mage]`	57
+		`[dungeon type]`
+		`[level]`	0
+		`%`	5
+		`[mage]`	56
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[烈焰衝擊]冷卻時間 -2.1秒
+[烈焰衝擊]攻擊力 +5%%
+[冰牆]冷卻時間 -4.5秒
+[冰牆]攻擊力 +10%%
+[冰牆]HP +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[mage]`	27
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[mage]`	59
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-50
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[杰克降臨]冷卻時間 -4.5秒
+[杰克降臨]蓄氣時間 -50%%
+[杰克降臨]攻擊力 +20%% 
+[極冰盛宴]冷卻時間 -9秒
+[極冰盛宴]蓄氣時間 -50%%
+[極冰盛宴]攻擊力 +20%%`
+[/piece set ability]

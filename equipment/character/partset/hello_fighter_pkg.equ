@@ -1,0 +1,131 @@
+#PVF_File
+
+[set name]
+	`賽麗亞的熱情 套裝`
+
+[piece set ability]
+	-1
+	[HP MAX]
+		100
+	[MP MAX]
+		100
+	[physical attack]
+		10
+	[physical defense]
+		10
+	[magical attack]
+		10
+	[magical defense]
+		10
+	[inventory limit]
+		3000
+	[HP regen speed]
+		10
+	[MP regen speed]
+		10
+	[move speed]
+		10
+	[attack speed]
+		10
+	[cast speed]
+		10
+	[room list move speed rate]
+		0.1
+	[parameter basic explain]
+		`    攻擊時，有3%%的幾率使自身增加20點力量和2%%的攻擊速度，持續20秒。(冷卻時間 ： 15秒)
+    施放技能時，有3%%的幾率使自身增加20點智力和2%%的施放速度，持續20秒。(冷卻時間 ： 15秒)
+“歡迎來到阿拉德大陸！”
+                      --賽麗亞·克魯敏`
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[attack success]
+			1
+		[cooltime]
+			15000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			3
+		[stat]
+			`physical attack`
+			`+`	20
+		[stat]
+			`attack speed`
+			`+`	20
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[casting]
+			1
+		[cooltime]
+			15000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			3
+		[stat]
+			`magical attack`
+			`+`	20
+		[stat]
+			`cash speed`
+			`+`	20
+	[/then]
+	[if]
+		[module]
+			`[pvp type]`
+		[/module]
+		[attack success]
+			1
+		[cooltime]
+			15000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			1
+		[stat]
+			`physical attack`
+			`+`	20
+		[stat]
+			`attack speed`
+			`+`	20
+	[/then]
+	[if]
+		[module]
+			`[pvp type]`
+		[/module]
+		[casting]
+			1
+		[cooltime]
+			15000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			1
+		[stat]
+			`magical attack`
+			`+`	20
+		[stat]
+			`cash speed`
+			`+`	20
+	[/then]
+[/piece set ability]

@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	` 玄武護魂肩甲`
+
+[basic explain]
+	`暴擊被攻擊時自己受到的傷害減少10%% `
+
+[flavor text]
+	`你這是攻擊我還是在搔癢？再狠一點啊！再狠一點啊！~ - 盧克西，暴走中`
+
+[grade]
+	35
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	30
+
+[physical attack]
+	14
+
+[physical defense]
+	13
+
+[magical attack]
+	10
+
+[price]
+	35000
+
+[repair price]
+	28000
+
+[value]
+	28000
+
+[equipment physical defense]
+	1376	1184
+
+[icon]
+	`Item/common/shoulder.img`	101
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack condition]
+		`critical`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	10
+[/then]
+
+[set item master]
+	11287
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

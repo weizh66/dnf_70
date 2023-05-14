@@ -1,0 +1,103 @@
+#PVF_File
+
+[minimum info]
+	`好奇的愛麗絲`	1	0	0	1	40	0	0	0	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	0	10000	0	0	0	0	0	0	0	10	10	10	30	30	50	150	50	30	30	60	30	30	30	30	30	30	0	30	30	30
+[/additional character status]
+
+[character status rate]
+	3	1	1	1	1	1	1	1.6	1	1.6	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+[/character status rate]
+
+[quick skill]
+	12	5	16	2	31	2	69	6	42	8	15	3
+[/quick skill]
+
+[skill]
+	46	1	35	1	29	1	7	10	8	10	5	1	181	3	182	3	184	2	172	1	179	5	187	1	190	1	169	1	170	1	188	3
+[/skill]
+
+[quick item]
+[/quick item]
+
+[equipment]
+	29069	4	0	10085	4	0	12084	4	0	14082	4	0	16069	4	0	18070	4	0	20114	4	0	22109	4	0	24115	4	0	43148	2	0	44812	2	0	45208	2	0	45987	2	0	45526	2	0
+[/equipment]
+
+[think term]
+	200
+
+[destination change term]
+	100
+
+[keep distance with target]
+	350
+
+[warlike]
+	0
+
+[vision]
+	1000
+
+[attack damage rate]
+	1.0
+
+[appearance point]
+	0
+
+[far attack reaction rate]
+	100
+
+[skill correction]
+[/skill correction]
+
+[targeting bonus]
+	50	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+	`[down]`	0	0
+	`[stun]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	`nentan`
+	`a.key`
+	`will`
+	`s.key`
+	`memory`
+	`d.key`
+	`illusion`
+	`f.key`
+	`guard`
+	`g.key`
+	`gal`
+	`h.key`
+	`combo`
+	`combo.key`
+	`jumpx`
+	`jumpx.key`
+[/key stream]
+
+[speech on situation]
+	[on attack]
+		`可能會幫不上大忙，但還是收下風之氣息吧~`	50	2
+	[on attack]
+		`哎呀~不好意思了！`	10	0
+	[on attack]
+		`好了~我不想繼續了……`	10	0
+	[on appear]
+		`這是哪里？這里的緯度和經度是多少？`	25
+	[on appear]
+		`你好~請問這是什么地方？`	25
+	[on appear]
+		`你知道我想去哪里？`	25
+	[on appear]
+		`我連自己是誰都不知道了……`	100
+[/speech on situation]

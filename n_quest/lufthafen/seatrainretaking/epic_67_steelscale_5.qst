@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	66
+
+[complete npc index]
+	1007
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	147
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1007
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找叛徒`
+
+[depend message]
+	`馬薩喬的偽裝服做好了， 現在你可以放心地潛入海賊團內部尋找叛徒嘍！
+嘻嘻~我好像看到我們的面前堆滿了好多好多金幣……
+對了， 冒險家， 你找到叛徒后一定要記得回來找我哦， 加油~~?`
+
+[condition message]
+	`    假扮成馬薩喬， 找出鐵鱗海賊團內部的叛徒。 (此任務只能獨自完成； 可以從海上列車地區進入鐵鱗海賊團的地下城。) `
+
+[solve message]
+	`<monster::61218>馬薩喬大人？！您、 您都知道了？
+嗚嗚……求求您千萬不要告訴波迪爾大人啊！ 我不是故意泄漏海賊團情報的， 都是、 是喝酒惹的禍……`
+
+[substitutive names]
+	`尋找叛徒`
+[/substitutive names]
+
+[quest point]
+	4

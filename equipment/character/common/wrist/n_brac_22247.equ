@@ -1,0 +1,82 @@
+#PVF_File
+
+[name]
+	`黃龍紋手鐲 `
+
+[basic explain]
+	`人類型的敵人攻擊時敵人7%%的附加傷害`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	30
+
+[physical defense]
+	74
+
+[need material]
+	4732	50
+
+[repair price]
+	74592
+
+[value]
+	71040
+
+[equipment magical defense]
+	3888	3648
+
+[icon]
+	`Item/common/bracelet.img`	61
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[set item master]
+	20255
+
+[if]
+	[target type]
+		`human`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	7
+[/then]
+
+[possible kiri protect]

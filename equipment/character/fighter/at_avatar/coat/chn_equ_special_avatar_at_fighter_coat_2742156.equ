@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`黃金颶風斗士胸甲`
+
+[explain]
+	`    要成為格斗之王， 除了擁有非凡的操作技術之外， 還要有廣闊的胸襟、 公正的姿態以及一顆勇敢的心。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_acoat.img`	61
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	450	0	30	0	0	990	0	0	0	0	2970	0	0	0	0	6500	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[physical defense]
+	20
+
+[HP MAX]
+	100
+
+[variation]
+	26	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set name]
+	`格斗之王 1 (男格斗)`
+
+[set item]
+	2741753	2742055	2742156	2742257	2742358	2742459
+[/set item]
+
+[set ability]
+	[HP MAX]
+		250
+	[MP MAX]
+		250
+	[physical attack]
+		10
+	[physical defense]
+		25
+	[magical attack]
+		10
+	[magical defense]
+		25
+	[move speed]
+		10
+	[attack speed]
+		10
+	[cast speed]
+		10
+	[hit recovery]
+		200
+[/set ability]
+
+[avatar func filter]
+	2

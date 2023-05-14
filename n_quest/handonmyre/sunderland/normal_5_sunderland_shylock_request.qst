@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	5	99
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	5	-1	6	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1001	3	1065	3
+[/reward int data]
+
+[reward selection int data]
+	10404	1	10004	1	10804	1
+[/reward selection int data]
+
+[name]
+	`夏洛克的托付`
+
+[depend message]
+	`冒險家， 你會不會去雷鳴廢墟呀？ 要是去的話， 能幫我教訓下那里的哥布林投擲十夫長嗎？
+呃， 它們和我有仇， 我在哥布林部落時， 它們見我長得不一樣就經常欺負我……
+我不會讓你白跑一趟的， 我一定會給你豐厚的報酬！ 呵呵， 你就相信我吧！ `
+
+[condition message]
+	`    前往格蘭之森的『雷鳴廢墟』， 殺死4個投擲十夫長。`
+
+[solve message]
+	`謝謝……謝謝！ 這些東西請你收下， 你去冒險時會需要它們的！
+啊？ 太少了？？ 小子！！ 這世上沒有免費的午餐， 有來才會有往！ You understand？`

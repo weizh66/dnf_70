@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	0
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7883
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7881
+
+[name]
+	`轉職 - 刺客 (1/3)`
+
+[depend message]
+	`你經歷的事情， 密函里都說得很清楚了。 我之前還很好奇女王陛下贊不絕口的暗精靈是什么樣的， 沒想到會是你。 我聽說你想成為刺客？
+嗯， 要想成為刺客， 必須要經過非常嚴格的訓練。 但是考慮到現在是非常時期， 我就直接教你刺客的技能吧。
+不過在此之前， 我要確認你是否真的像女王陛下說的那樣， 已經具備了刺客的才能。
+這樣吧， 你先去收集下這些物資， 記得一個都不能少！`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給米內特。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`不錯， 速度很快。
+抓緊時間， 我們繼續下一個測試吧。`

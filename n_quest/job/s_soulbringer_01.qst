@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	1
+
+[npc index]
+	7
+
+[complete npc index]
+	12
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7800	7808	7811
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7805
+
+[name]
+	`轉職 - 鬼泣 (1/4)`
+
+[depend message]
+	`你想成為鬼泣？ 成為鬼泣的首要條件是能控制左手的鬼神！ 除此之外， 還需要圓月之石。 很多人說這是一條不歸路， 如果你執意要走， 我會盡量幫你！
+首先， 你一定要得到圓月之石！ 因為它是由強大的靈魂匯聚而成的奇異物品， 它能協助鬼泣吸附左手鬼神的魔力。 我聽說西海岸的莎蘭知道它的制作方法， 你可以找她幫忙。 `
+
+[condition message]
+	`    向莎蘭詢問[圓月之石]的制作方法。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！)`
+
+[solve message]
+	`你身上有很強的黑暗氣息， 好像是……你左手上的鬼神覺醒了嗎？ 你找我應該和這件事有關吧？`

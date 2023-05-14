@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`冤鬼的指甲`
+
+[basic explain]
+	`施展狂·霸王拳時6秒內22%% 附加傷害
+狂·霸王拳無色小晶塊消耗量增加1 
+不死族類型的敵人攻擊時15%% 附加傷害`
+
+[flavor text]
+	`你們怎麼還活著？ ..一起走吧..`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[magical attack]
+	28
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	824	764
+
+[equipment magical attack]
+	824	764
+
+[separate attack]
+	504	343
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	45	2
+	`[at fighter]`	45	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/claw/claw.img`	93
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	26	1
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	27	1
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	3
+	`at fighter`	3
+[/routing priority]
+
+[if]
+	[target type]
+		`undead`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[skill]
+		`fighter`	74
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	22
+[/then]
+
+[if]
+	[skill]
+		`at fighter`	74
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	22
+[/then]
+
+[skill data up]
+	`[fighter]`	74
+	`[all]`
+	`[skill consume item]`	0
+	`+`	1
+	`[at fighter]`	74
+	`[all]`
+	`[skill consume item]`	0
+	`+`	1
+[/skill data up]
+
+[possible kiri protect]

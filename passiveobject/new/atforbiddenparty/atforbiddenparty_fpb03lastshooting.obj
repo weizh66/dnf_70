@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`ATMage Forbidden passive`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATForbiddenParty/EventHorizen/FPB03LastShootingB_Eff_01.ani`
+
+[etc motion]
+	`Animation/ATForbiddenParty/Nyarly/ForbiddenParty_Teleport_Appear_body.ani`
+	`Animation/ATForbiddenParty/Nyarly/ForbiddenParty_IntoGround_body.ani`
+	`Animation/ATForbiddenParty/MagicCircle/FPALaser_MagicCircle01.ani`
+	`Animation/ATForbiddenParty/MagicCircle/FPALaser_Loop_MagicCircle01.ani`
+	`Animation/ATForbiddenParty/MagicCircle/FPALaser_Attack_MagicCircle01.ani`
+	`Animation/ATForbiddenParty/EventHorizen/FPB02Laser_02_Laser_01.ani`
+	`Animation/ATForbiddenParty/EventHorizen/FPB02LastShooting_BG_01.ani`
+	`Animation/ATForbiddenParty/EventHorizen/FPB03LastShootingB_Eff_01.ani`
+	`Animation/ATForbiddenParty/EventHorizen/Casting/FPB01Center_BG_08.ani`
+[/etc motion]
+
+[etc attack info]
+	`AttackInfo/ATForbiddenPartySmokeAttack.atk`
+	`AttackInfo/ATForbiddenPartyLaserAttack.atk`
+	`AttackInfo/ATForbiddenPartyEventHorizenLaserAttack.atk`
+	`AttackInfo/ATForbiddenPartyEventHorizenFinishLaser.atk`
+	`AttackInfo/ATForbiddenPartyEventHorizenFinish.atk`
+[/etc attack info]

@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	910
+
+[name]
+	`覺醒 - 毒王 (1/4)`
+
+[depend message]
+	`我知道有這樣一群人， 他們可以隨心所欲地用毒， 甚至他們身體里流動的血液也可以變成致命的毒藥。 因而大家都害怕他們， 稱他們作‘毒王’。
+不要以為這只是傳聞， 只要勤加修煉， 你或許也可以達到這樣的境界。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`我之前說那些話的用意， 是希望你好好修煉。 并不是真的想讓你做什么毒王……`

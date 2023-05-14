@@ -1,0 +1,73 @@
+#PVF_File
+
+[name]
+	`格鬥天團`
+
+[explain]
+	``
+
+[flavor text]
+	`  <DNF格鬥大賽>的格鬥天王！ 這是為DNF全國格鬥大賽的優勝者特別制作的勛章， 傳言這枚勛章中融入了制作 ”永不言敗“ 的格鬥信念！它代表著格鬥界無上的榮耀，只有阿拉德大陸上最強的勇士才能擁有！`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	112
+
+[custom animation]
+	`TitleAnimation/the_best_team_player.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[stuck]
+	-3
+
+[stuck resistance]
+	30
+
+[hit recovery]
+	150
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[attack speed]
+	35
+
+[cast speed]
+	35
+
+[item aura]
+	`move speed`
+	`+`	30	300
+
+[move wav]
+	`NAME_TOUCH`

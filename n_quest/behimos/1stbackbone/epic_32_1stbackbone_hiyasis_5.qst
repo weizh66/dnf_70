@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	19
+
+[complete npc index]
+	17
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	52
+[/pre required quest]
+
+[depend give item]
+	4029	1	4030	1	4031	1	4032	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4029	1	4030	1	4031	1	4032	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`赫亞西斯的預言`
+
+[depend message]
+	`預言書說羅特斯是魔界使徒， 阿拉德大陸剛剛出現異變時， 他和怪物一起來到天帷巨獸神殿……
+不過書里沒有記載他為什么來神殿， 只說他有支配別人意志的能力， 而且還說如果要抵擋他的精神控制， 只能靠一種叫干擾發射器的特殊裝置……
+據我所知， 這種特殊的裝置只有天界的人才會制作， 你去找凱麗幫忙吧。 `
+
+[condition message]
+	`    找凱麗幫忙制作干擾發射器。`
+
+[solve message]
+	`今天的天氣真好啊！ 嗯……好久不見啦！ 有什么事需要我幫忙嗎？ `
+
+[quest point]
+	4

@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`尼爾巴斯的意志絨皮護肩`
+
+[basic explain]
+	`HP降到50%%以下時，增加2%%的攻擊速度、施放速度和移動速度。
+HP降到50%%時開始，每減少10%%的HP額外增加2%%的速度。
+最多可增加10%%的攻擊速度、施放速度和移動速度。`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	64
+
+[anti evil]
+	9
+
+[physical attack]
+	37
+
+[magical attack]
+	38
+
+[magical defense]
+	21
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[price]
+	55200
+
+[repair price]
+	48686
+
+[value]
+	44160
+
+[equipment physical defense]
+	1216	1136
+
+[icon]
+	`Item/common/shoulder.img`	139
+
+[field image]
+	`Item/FieldImage.img`	2
+
+[equipment type]
+	`[shoulder]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1100
+
+[item group name]
+	`lt shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[change status in range]
+		`hp`	50	10
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`move speed`
+		`%`	2	10
+	[apply status in range]
+		`attack speed`
+		`%`	2	10
+	[apply status in range]
+		`cast speed`
+		`%`	2	10
+[/then]
+
+[set name]
+	`尼爾巴斯家門的象徵`
+
+[set item]
+	14502	100210011	100260011
+[/set item]
+
+[set ability]
+	[light attack]
+		8
+	[all elemental resistance]
+		7
+[/set ability]
+
+[possible kiri protect]

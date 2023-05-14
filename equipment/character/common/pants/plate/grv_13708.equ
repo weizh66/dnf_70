@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`變型護腿 - 機械師吉賽爾`
+
+[basic explain]
+	`HP 50%% 以下時力量，體力，智力，精神增加5 
+HP從 50%%減少至10%%時額外增加5 
+最大 力量，體力，精神，智力增加25
+不可解體`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	65
+
+[anti evil]
+	10
+
+[physical attack]
+	36
+
+[physical defense]
+	39
+
+[magical attack]
+	36
+
+[magical defense]
+	7
+
+[hit recovery]
+	60
+
+[need material]
+	3336	265
+
+[repair price]
+	55200
+
+[value]
+	55200
+
+[equipment physical defense]
+	3800	3550
+
+[icon]
+	`Item/common/pants.img`	321
+
+[field image]
+	`Item/field_equip.img`	16
+
+[equipment type]
+	`[pants]`	20
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	4100
+
+[item group name]
+	`mt pants`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[need material]
+	3336	265
+
+[if]
+	[change status in range]
+		`hp`	50	10
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`physical attack`
+		`+`	5	25
+	[apply status in range]
+		`physical defense`
+		`+`	5	25
+	[apply status in range]
+		`magical attack`
+		`+`	5	25
+	[apply status in range]
+		`magical defense`
+		`+`	5	25
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

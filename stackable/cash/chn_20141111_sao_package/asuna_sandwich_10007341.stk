@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`??娜的三明治`
+
+[explain]
+	`     10秒?， HP和MP恢复50%%。 (冷????10秒)`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[attach type]
+	`[account]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash_japan.img`	427
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	10000
+
+[cooltime group]
+	0
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`%`	50	10000
+	`myself`
+
+[mp recovery]
+	`%`	50	10000
+	`myself`

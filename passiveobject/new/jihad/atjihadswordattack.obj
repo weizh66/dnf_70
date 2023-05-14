@@ -1,0 +1,18 @@
+#PVF_File
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/jihad3.act`
+
+[attack info]
+	`AttackInfo/ATJihadHit.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+[/object destroy condition]

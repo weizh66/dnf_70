@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	28	99
+
+[pre required quest]
+	23
+[/pre required quest]
+
+[monster reward item]
+	50011	22	1	4031	1	100	1	50011	22	2	4031	1	100	1	50011	22	3	4031	1	100	1
+[/monster reward item]
+
+[appear map]
+	22	-1	3255	100
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4031	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	18820
+[/reward int data]
+
+[reward selection int data]
+	16054	1	16453	1	16852	1	17252	1	17631	1
+[/reward selection int data]
+
+[name]
+	`預言家赫亞西斯的預言書 (2/4)`
+
+[depend message]
+	`這就是黎明之預言書？ 怎么只寫了一句話： 如果黎明和黃昏、 光和暗不能共存， 那么真理就不會顯示……
+看來只有收集全所有的預言書才能解讀這句話了， 冒險家， 請你幫我找到剩下的預言書吧， 聽說黃昏之預言書在樹精叢林的黃昏之傳道師身上。 `
+
+[condition message]
+	`    前往天帷巨獸神殿的『樹精叢林』， 從稀有怪物黃昏之傳道師身上找到[黃昏之預言書]， 要求地下城難度為冒險級以上。 `
+
+[solve message]
+	`為了我們GBL教的榮譽， 黃昏之傳道師……愿你安息！ `
+
+[quest point]
+	4

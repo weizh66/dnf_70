@@ -1,0 +1,53 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/UltimateCrossSlash/VsUltimateCrossSlashAppear_Body.ani`
+	[SUB ANI]
+		`../Animation/UltimateCrossSlash/vsultimatecrossslashendattackback_01.ani`	0	-2
+	[/SUB ANI]
+	[SOUND PROBABILITY]
+	[/SOUND PROBABILITY]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ZOOM IT]
+		800	100
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			260167	260174	260180	260181	260182	260149	261151	260189	260201
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			260166
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[DESTROY]
+[/BEHAVIOR]

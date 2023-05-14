@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`??抓取`
+
+[explain]
+	`    ??使用抓取系列技能?， 可?得攻?力加成Buff， 效果持?一定??且效果可重?。
+[可觸?Buff的技能列表]
+背摔、 ?投、 霹?肘?、 空??、 螺旋彗星落、 地???、 裂石破天、 末日?暴、 死亡??、 空???、 ???? ??, ?????, ???? ?? ???`
+
+[basic explain]
+	`    ??使用抓取系列技能?， 可增加攻?力， 效果持?一定??且效果可重?。`
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[durability decrease rate]
+	50
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	342
+	`Character/Fighter/Effect/SkillIcon.img`	343
+
+[dungeon]
+	[static data]
+		9	49	87	62	18	89	88	63	105	101	94	95	96
+	[/static data]
+	[level info]
+		3	2	4000	3	2	3900	4	3	3800	5	3	3700	6	4	3600	7	4	3500	8	5	3400	9	5	3300	10	6	3200	11	6	3100	12	7	3000	13	7	2900	14	8	2800	15	8	2700	16	9	2600	17	9	2500	18	10	2400	19	10	2300	20	11	2200	21	11	2100	22	12	2000	23	12	1900	24	13	1800	25	13	1700	26	14	1600	27	14	1500	28	15	1400	29	15	1300	30	16	1200	31	16	1100	32	17	1000	33	17	900	34	18	800	35	18	700	36	19	600	37	19	500	38	20	400	39	20	300	40	21	200	41	21	100	42	22	0	43	22	0	44	23	0	45	23	0	46	24	0	47	24	0	48	25	0	49	25	0	50	26	0	51	26	0	52
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		3	1	3000	3	1	2900	4	1	2800	5	1	2700	6	1	2600	7	1	2500	8	1	2400	9	1	2300	10	1	2200	11	1	2100	12	1	2000	13	1	1900	14	1	1800	15	1	1700	16	1	1600	17	1	1500	18	1	1400	19	1	1300	20	1	1200	21	1	1100	22	1	1000	23	1	900	24	1	800	25	1	700	26	1	600	27	1	500	28	1	400	29	1	300	30	1	200	31	1	100	32	1	100	33	1	100	34	1	100	35	1	100	36	1	100	37	1	100	38	1	100	39	1	100	40	1	100	41	1	100	42	1	100	43	1	100	44	1	100	45	1	100	46	1	100	47	1	100	48	1	100	49	1	100	50	1	100	51	1	100	52
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`攻?力增加率 : <int>%%
+Buff持??? : <float1>秒
+最高?加次? : <int>次`	-1	0	1.0	-1	1	0.001	-1	2	1.0
+[/level property]
+
+[skill preloading image]
+	`Character/Fighter/Effect/PowerUpOnDash/stem-back.img`
+	`Character/Fighter/Effect/PowerUpOnDash/stem-front.img`
+[/skill preloading image]

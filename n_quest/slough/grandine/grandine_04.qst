@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	81	99
+
+[pre required quest]
+	4589
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	15423
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魯莽的柯維的威力`
+
+[depend message]
+	`想要解決虛無的弗曼召喚出來的怪物就得「一擊」擊倒對方。
+<apc::11500>一擊？輪到我出馬的時候了嗎？
+ 很好！快點跟我來吧！我會讓你見識非常恐怖的一擊！`
+
+[condition message]
+	`在格蘭迪內發電所確認魯莽的柯維的實力`
+
+[solve message]
+	`即使只有一個，但也能用吧？`
+
+[dialog]
+	0	0	15423	0	0	0	0
+	`<apc::11517>確認一下我這比之前更強大的力量吧！
+讓你看看強大一擊！`
+[/dialog]
+
+[quest point]
+	4

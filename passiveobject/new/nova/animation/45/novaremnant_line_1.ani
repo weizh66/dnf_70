@@ -1,0 +1,94 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/NovaRemnant/line1_dodge.img`
+		0
+	[IMAGE POS]
+		-228	-61
+	[IMAGE RATE]
+		4.0	2.0
+	[IMAGE ROTATE]
+		0.8500000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[PLAY SOUND]
+		`R_NOVA_REMNANT_SWISH`
+	[ATTACK BOX]
+	-500	-250	-215	1000	500	625
+
+[FRAME001]
+	[IMAGE]
+		`Character/Thief/Effect/NovaRemnant/line1_dodge.img`
+		1
+	[IMAGE POS]
+		-228	-61
+	[IMAGE RATE]
+		4.0	2.0
+	[IMAGE ROTATE]
+		0.8500000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[SET FLAG]
+		1000
+	[ATTACK BOX]
+	-500	-250	-215	1000	500	625
+
+[FRAME002]
+	[IMAGE]
+		`Character/Thief/Effect/NovaRemnant/line1_dodge.img`
+		2
+	[IMAGE POS]
+		-228	-61
+	[IMAGE RATE]
+		4.0	2.0
+	[IMAGE ROTATE]
+		0.8500000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-500	-250	-215	1000	500	625
+
+[FRAME003]
+	[IMAGE]
+		`Character/Thief/Effect/NovaRemnant/line1_dodge.img`
+		3
+	[IMAGE POS]
+		-228	-61
+	[IMAGE RATE]
+		4.0	2.0
+	[IMAGE ROTATE]
+		0.8500000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-500	-250	-215	1000	500	625
+
+[FRAME004]
+	[IMAGE]
+		`Character/Thief/Effect/NovaRemnant/line1_dodge.img`
+		4
+	[IMAGE POS]
+		-228	-61
+	[IMAGE RATE]
+		4.0	2.0
+	[IMAGE ROTATE]
+		0.8500000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-500	-250	-215	1000	500	625

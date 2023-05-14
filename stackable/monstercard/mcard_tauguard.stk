@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`牛頭護衛  卡片`
+	
+
+[flavor text]
+	`    我們牛頭， 有韌性； 人類， 沒韌性， 我很生氣， 嗑啊啊啊！`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	3
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[waist]`
+[/string data]
+
+[int data]
+	3	14
+[/int data]
+
+[enchant]
+	[HP MAX]
+		30
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

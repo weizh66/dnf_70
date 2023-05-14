@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`復蘇之風手杖`
+
+[grade]
+	94
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	61
+
+[attack speed]
+	-100
+
+[repair price]
+	120320
+
+[value]
+	120320
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	730	690
+
+[equipment magical attack]
+	1040	982
+
+[separate attack]
+	541	368
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	5
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/thief/wand/wand.img`	171
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	59	1
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

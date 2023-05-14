@@ -1,0 +1,213 @@
+#PVF_File
+
+[name]
+	`封·異魔之源`
+
+[basic explain]
+	`    每500點MP可增加3點的武器物理攻擊力。（最多增加225點）
+    MP高於80%%時，物理暴擊率 +20%%。
+    攻擊時，有2%%的幾率使敵人進入異常狀態。`
+
+[detail explain]
+	`    每500點MP可增加3點的武器物理攻擊力。（最多增加225點）
+    MP高於80%%時，物理暴擊率 +20%%。
+    攻擊時，有2%%的幾率使敵人進入異常狀態2秒。（若敵人高於Lv86， 則減少進入異常狀態的幾率和效果；反之， 則增加幾率和效果）`
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+[/routing priority]
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	62
+
+[attack speed]
+	100
+
+[MP MAX]
+	1000
+
+[need material]
+	3821	1400
+
+[price]
+	172000
+
+[repair price]
+	137600
+
+[value]
+	137600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	953	813
+
+[equipment magical attack]
+	862	735
+
+[separate attack]
+	555	359
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/bglove/bglove.img`	78
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	20	1
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	86
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	500
+		`equipment physical attack`
+		`+`	4	300
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	500
+		`physical attack`
+		`+`	4	300
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[stat change]
+		`mp`
+		`>=`
+		`%`	50
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical critical hit`
+		`+`	20
+[/then]
+
+[possible kiri protect]

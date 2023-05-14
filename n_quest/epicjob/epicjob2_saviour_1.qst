@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	318
+
+[complete npc index]
+	-1
+
+[job]
+	`[knight]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	318
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 破曉女神 (1/4)`
+
+[depend message]
+	`你好呀， 最近過得怎么樣？ 哎呀！ 你的武器和盾牌上全是大大小小的傷痕……顯而易見， 你一定總是跑在最前面和敵人戰斗吧。
+每次見面， 你都令我驚嘆。 我很敬佩你！
+現在的你， 已經可以超越曙光， 到達‘破曉女神’的境界了。
+只有站在戰場中心以崇高心靈召喚純粹力量、 犧牲自己守護同伴、 意志堅定地消滅邪惡的曙光才能擁有這個稱號--‘破曉女神’。
+[myname]， 你擁有一顆堅定的心。 你用強大的使命感和堅定的意志武裝自己， 沒有人能輕視你， 任何人都無法摧毀你。 只要你擁有這樣的意志和信念， 祂們一定會回應你的。
+[myname]， 如果你覺得你的心意不會動搖， 請來找我。 我會和你一起祈禱， 愿你達到更高的地方。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請找雅妮絲談談。`
+
+[solve message]
+	`你來了！ 準備好面對巨大的使命了嗎？ 來， 我們一起祈禱吧。 愿光明照耀你崇高的心靈。`
+
+[pre required quest]
+	1688
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	2627
+
+[job change quest]
+	3
+
+[grow number]
+	0

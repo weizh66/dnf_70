@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 熾天使`
+
+[explain]
+	`神的使者中最高位者，天使之首熾天使，愛和想像力的精靈，做歌頌神。是神最親近的禦使，似神的物質，猶太教和基督教中，他是直接和神溝通的角色，是個純粹只有光及思考的靈體，並對熾愛產生共鳴。在天使群中甚持威嚴和名譽。
+熾天使無形無體，以赤紅的火焰為象徽。若是必須現身於人前時，是以六翼四首（亦有二首之說）之姿出現。猶太教和基督教都是形容其有六翼，手持刻有Sanctus（古猶太語曰Trisagion；聖哉，萬眾之王）贊美詞的聖扇（Flabellum，或曰火炎短劍）作指揮的旗幟。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[event use skill]
+		`priest`	84
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		130053	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	20
+	[stat by condition]
+		`magical attack bonus`
+		`%`	20
+	[stat by condition]
+		`separate attack`
+		`%`	20
+[/then]

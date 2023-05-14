@@ -1,0 +1,179 @@
+#PVF_File
+
+[name]
+	`殺戮騎士`
+
+[basic explain]
+	`[重火器拔擊]傷害 +30%%
+基本裝彈數 +1
+跳躍攻擊連射數 +2`
+
+[detail explain]
+	`[重火器拔擊]傷害 +30%%(在決斗場 +18%%)
+基本裝彈數 +1
+跳躍攻擊連射數 +2`
+
+[flavor text]
+	`    它可以像長矛一樣刺穿敵人……`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	34
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[need material]
+	3260	750
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[magical attack]
+	18
+
+[equipment physical attack]
+	374	314
+
+[equipment magical attack]
+	416	349
+
+[separate attack]
+	285	189
+
+[attack speed]
+	20
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[skill data up]
+	`[gunner]`	34
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	34
+	`[all]`
+	`[level]`	0
+	`%`	30
+[/skill data up]
+
+[skill levelup]
+	`[gunner]`	48	3
+	`[at gunner]`	48	3
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	4	1
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	4	1
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[pvp]
+	[int data]
+		8	9	-1	-1	-1	-1	-1	-1	-1	-1
+	[/int data]
+	[skill data up]
+		`[gunner]`	34
+		`[all]`
+		`[level]`	0
+		`%`	18
+		`[at gunner]`	34
+		`[all]`
+		`[level]`	0
+		`%`	18
+	[/skill data up]
+[/pvp]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

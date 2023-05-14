@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`封·暗殤絕影腰帶`
+
+[basic explain]
+	`  裝備時，可以使300px范圍內的所有敵人減少44點暗屬性抗性。`
+
+[flavor text]
+	`  好黑的腰帶，夜晚從遠處看會不會像是攔腰斬斷......`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12572
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	68
+
+[magical defense]
+	28
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	1000
+
+[price]
+	63700
+
+[repair price]
+	50960
+
+[value]
+	50960
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	408	372
+
+[dark attack]
+	10
+
+[icon]
+	`Item/new_equipment/02_cloth/belt/cloth_belt.img`	18
+
+[field image]
+	`Item/field_equip.img`	3
+
+[equipment type]
+	`[waist]`	14
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	550
+
+[item group name]
+	`cl waist`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		1000
+	[appendage]
+		266
+[/then]
+
+[possible kiri protect]

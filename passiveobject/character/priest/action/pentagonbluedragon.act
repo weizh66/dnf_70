@@ -1,0 +1,14 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/PentagonObject/BlueDragon/StartBlueDragon_02.ani`
+	[SUB ANI]
+		`../Animation/PentagonObject/BlueDragon/NotWorkBlueDragon_02.ani`	0	0
+		`../Animation/PentagonObject/BlueDragon/DisappearBlueDragon_02.ani`	0	0
+		`../Animation/PentagonObject/BlueDragon/CastWorkBlueDragon_03.ani`	0	0
+		`../Animation/PentagonObject/BlueDragon/CastWorkBlueDragon_03.ani`	0	0
+		`../Animation/PentagonObject/BlueDragon/WorkBlueDragon_02.ani`	0	0
+		`../Animation/PentagonObject/BlueDragon/EndBlueDragon_02.ani`	0	0
+	[/SUB ANI]
+[/MOTION]

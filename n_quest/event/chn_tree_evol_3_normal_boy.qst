@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	150
+
+[job change quest]
+	10
+
+[npc index]
+	36
+
+[complete npc index]
+	36
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[creature kind]
+	152
+
+[creature level]
+	15
+
+[level]
+	1	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749454	40
+[/int data]
+
+[collision quest]
+	20625	20626	20628
+[/collision quest]
+
+[reward type]
+	`[creature evolution]`
+
+[reward int data]
+	153
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`最終進化 - 綠樹精靈希爾夫`
+
+[depend message]
+	`說大聲點！ 什么？ 哦， 你看到其它樹精啦。 羨慕了？
+你的小樹精靈以后也會長大的， 不要著急。 如果你等不急， 也可以拿些藥劑來， 老太婆給你想辦法。`
+
+[condition message]
+	`    收集40個[進化藥劑]。 (完成該任務后寵物進化為綠樹精靈希爾夫)`
+
+[solve message]
+	`這就是你的寵物成熟的樣子。 怎么樣？ 喜歡嗎？`

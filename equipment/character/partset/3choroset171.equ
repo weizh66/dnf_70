@@ -1,0 +1,133 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[gun blader]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[迅步突襲]冷卻時間 -20%%
+[終極鎖定]攻擊力 +15%%
+[終極鎖定]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	8
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+		`[gun blader]`	8
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[月影秘步]組合次數 +1次
+[月影秘步]冷卻時間 -25%%
+[槍刃旋殺]攻擊力 +25%%
+[槍刃旋殺]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[gun blader]`	8
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+		`[gun blader]`	8
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[gun blader]`	13
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[月影秘步]組合次數 +1次
+[月影秘步]攻擊力 +30%%
+[槍刃旋殺]攻擊力 +30%%
+[槍刃旋殺]冷卻時間 -35%%
+[終極鎖定]攻擊力 +30%%`
+[/piece set ability]
+
+[partset specific growtype]
+	2

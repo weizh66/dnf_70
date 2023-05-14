@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	41	99
+
+[pre required quest]
+	20573
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	150000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[name]
+	`提升絕殺技 - 第2階段`
+
+[depend message]
+	`絕殺技還可以提升到第二階段哦~這一階段的攻擊力更強。 冒險家， 你想不想試試？`
+
+[condition message]
+	`    支付賽麗亞一定數額的金幣， 將絕殺技提升到第2階段。`
+
+[solve message]
+	`和之前一樣， 如果你想要使用第二階段的絕殺技， 必須在同一個地下城里， 通關六個房間。
+我相信勇士肯定沒問題的， 加油！`

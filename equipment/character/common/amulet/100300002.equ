@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`穿越時空者的項鍊`
+
+[basic explain]
+	`攻擊時會以2%%機率，讓使用的技能當中冷卻時間最短的技能的冷卻時間初始化`
+
+[detail explain]
+	`攻擊時會以2%%的機率，讓使用技能中冷卻時間最短的技能的冷卻時間初始化。
+（冷卻時間不適用60秒以上的剩餘技能）`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[magical attack]
+	31
+
+[magical defense]
+	76
+
+[MP regen speed]
+	1
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	200
+
+[equipment magical defense]
+	6640	6160
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	70
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[skill cooltime reset]
+		0
+		``	1
+	[speech on]
+		0	2000
+		`穿越時空者`
+	[/speech on]
+[/then]
+
+[set name]
+	`穿越時空者`
+
+[set item]
+	100300002	100320004	100310002
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`攻擊時會以1%%的機率，讓使用的技能中冷卻時間最長技能的冷卻時間初始化。
+施展時會以2%%的機率，讓使用的技能中冷卻時間最長技能的冷卻時間初始化。
+被擊時會以2%%的機率，讓使用的技能中冷卻時間最長技能的冷卻時間初始化。`
+	[if]
+		[attack success]
+			1
+		[cooltime]
+			60000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			1
+		[skill cooltime reset]
+			0
+			``	2
+		[speech on]
+			0	2000
+			`卓越的穿越時空者`
+		[/speech on]
+	[/then]
+	[if]
+		[casting]
+			1
+		[cooltime]
+			60000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[skill cooltime reset]
+			0
+			``	2
+		[speech on]
+			0	2000
+			`卓越的穿越時空者`
+		[/speech on]
+	[/then]
+	[if]
+		[hit]
+			1
+		[cooltime]
+			60000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[skill cooltime reset]
+			0
+			``	2
+		[speech on]
+			0	2000
+			`卓越的穿越時空者`
+		[/speech on]
+	[/then]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

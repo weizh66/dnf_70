@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	72	99
+
+[pre required quest]
+	4146
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	72	-1	61277	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找穿黑衣的女子`
+
+[depend message]
+	`現在該是向卡勒特聽取關於那女子真相的時間了。安祖?賽弗應該不會老老實實的說吧…… 
+嗯…  聽說沙影貝利特因為和安祖?賽弗的理念不同，所以退出了卡勒特。
+貝利特說不定會提供關於那名女子的線索？`
+
+[condition message]
+	`結成！在卡勒特的沙影的貝利特，詢問那女子與卡勒特的關係`
+
+[solve message]
+	`果然是不輕易開口。`
+
+[dialog]
+	1	1	72	0	1	10628	0
+	`<monster::61277>嗯…… 你叫我背叛嗎？！`
+[/dialog]
+
+[quest point]
+	4

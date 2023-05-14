@@ -1,0 +1,37 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/NuclearBomb/NuclearBomb0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900071
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			200	0	450
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900071
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			400	0	450
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

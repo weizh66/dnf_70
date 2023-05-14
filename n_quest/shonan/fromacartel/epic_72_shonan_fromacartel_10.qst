@@ -1,0 +1,88 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	72	99
+
+[pre required quest]
+	4148
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	517	-1
+[/int data]
+
+[dungeon info]
+	517	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`窺探`
+
+[depend message]
+	`跟著貝利特去這次一定要知道那女子的真相！聽到了吧？
+而且要小心別讓安祖?賽弗和其他傢伙察覺到！`
+
+[condition message]
+	`跟隨貝利特進入無法地帶，偷聽安祖?賽弗與那女子的對話`
+
+[solve message]
+	`你是說沒有看到面孔吧？可惜…… 可是還是覺得距離那女子越來越近了。`
+
+[dialog]
+	0	0	15358	0	0	0	0
+	`<npc::1034>怎麼這麼晚？
+<npc::1013>來的路上機械人出了故障，所以晚了。嘿嘿…
+<npc::1029>現在都聚齊了。
+<npc::1013>可是遇到了一個奇怪的傢伙。總覺得那個傢伙在追蹤女人。
+<npc::1029>追蹤我？怎麼會…
+<npc::1013>淨說些奇怪的話。說自己能穿越時間。
+然後拿著在其他時段的機械師吉賽爾博士處得到的這個零件，來找我了。
+<npc::1033>胡說八道！這種話也相信？！
+<npc::1013>什麼胡說八道！！無知還…！
+<npc::1029>等等。可以看看那零件嗎？…怎麼這樣啊！
+看來不對勁啊 我先躲起來。
+<monster::61277>怎麼會這樣… 你是對的…… 卡勒特已經墮落了。`
+[/dialog]
+
+[quest point]
+	4

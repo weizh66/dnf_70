@@ -1,0 +1,44 @@
+#PVF_File
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/blender_dark_ball_start.act`
+
+[last action]
+	`Action/blender_dark_ball_end.act`
+
+[etc action]
+	`Action/blender_dark_ball_loop.act`
+	`Action/blender_dark_ball_end.act`
+[/etc action]
+
+[attack info]
+	`AttackInfo/blender_dark.atk`
+
+[etc attack info]
+	``
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ENEMY]`
+	[homing velocity]
+		50.0	50.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[homing direction]
+		0
+	[sync target move]
+[/homing]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	3000
+[/object destroy condition]

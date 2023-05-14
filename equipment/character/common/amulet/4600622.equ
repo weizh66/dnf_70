@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`封·風華絕世之墜`
+
+[basic explain]
+	`  施放技能時， 有5%%的幾率使自身進入霸體狀態10秒。 (冷卻時間30秒)
+  施放技能時， 有5%%的幾率使自身增加70點智力， 效果持續15秒。 (冷卻時間30秒)
+  （解除裝備後效果消失）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12558
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	36
+
+[magical defense]
+	88
+
+[need material]
+	3821	800
+
+[price]
+	120400
+
+[repair price]
+	96320
+
+[value]
+	96320
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7760	7040
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	76
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[appendage]
+		205
+[/then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		5
+	[stat]
+		`magical attack`
+		`+`	70
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`羅特斯的精神支配項鍊`
+
+[basic explain]
+	`安裝時每30秒在3秒內讓300px範圍內最近的敵人進入混亂狀態
+不可解體`
+
+[detail explain]
+	`安裝時每30秒3秒內300px 範圍內最近的敵人進入混亂狀態。 （高於Lv39的對象得到的機率和效果減少，低於Lv39的對象則會增加。 安裝時10秒後發動。 決鬥場不適用）
+不可解體`
+
+[grade]
+	39
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	35
+
+[magical attack]
+	17
+
+[magical defense]
+	43
+
+[price]
+	46800
+
+[repair price]
+	39312
+
+[value]
+	37440
+
+[equipment magical defense]
+	3680	3280
+
+[all activestatus resistance]
+	10
+
+[icon]
+	`Item/common/necklace.img`	58
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		30000	1	10000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		3000
+	[probability]
+		100
+	[active status]
+		`confuse`	39	1
+[/then]
+
+[pvp]
+[/pvp]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

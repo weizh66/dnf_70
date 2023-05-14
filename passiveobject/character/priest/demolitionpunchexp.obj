@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`DemolitionPunchExp`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[basic motion]
+	`Animation/DemolitionPunch/DemolitionPunch_C_ShockB.ani`
+
+[attack info]
+	`AttackInfo/DemolitionPunchExp.atk`
+
+[etc motion]
+[/etc motion]

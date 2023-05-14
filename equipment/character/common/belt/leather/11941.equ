@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`戰術之王的禦敵腰帶`
+
+[basic explain]
+	`  裝備后，可以使300px范圍內的隊員暗屬性強化增加20。
+  裝備后，可以使300px范圍內的隊員光屬性強化增加20。
+  裝備后，可以使300px范圍內的隊員火屬性強化增加20。
+  裝備后，可以使300px范圍內的隊員冰屬性強化增加20。`
+
+[flavor text]
+	`  甲：腰帶也能遇敵？
+  這套衣服的褲子太松了，沒有腰帶還真挪不開手。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12574
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	23
+
+[magical attack]
+	23
+
+[magical defense]
+	25
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	900
+
+[price]
+	72800
+
+[repair price]
+	58240
+
+[value]
+	58240
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	785	785
+
+[stuck resistance]
+	10
+
+[stuck]
+	-1
+
+[icon]
+	`Item/new_equipment/03_leather/belt/leather_belt.img`	19
+
+[field image]
+	`Item/FieldImage.img`	3
+
+[equipment type]
+	`[waist]`	14
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	800
+
+[item group name]
+	`lt waist`
+
+[cool time]
+	10000
+
+[item aura]
+	`dark attack`
+	`+`	20	300
+
+[item aura]
+	`light attack`
+	`+`	20	300
+
+[item aura]
+	`fire attack`
+	`+`	20	300
+
+[item aura]
+	`water attack`
+	`+`	20	300
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600801	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	77	99
+
+[pre required quest]
+	4253
+[/pre required quest]
+
+[monster reward item]
+	61281	77	-1	4782	2	70	30	61286	77	-1	4782	2	70	30	61287	77	-1	4782	2	70	30	61288	77	-1	4782	2	70	30	61289	77	-1	4782	2	70	30	61290	77	-1	4782	2	70	30	56053	77	-1	4782	3	80	30	56054	77	-1	4782	3	80	30	62105	77	-1	4782	4	95	30
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4782	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`艾麗絲的恢復`
+
+[depend message]
+	`這個…… 糟了。但是能在時間之門開啟那個空間的，只有艾麗絲。我並不知道詳細的情形。
+但是，倘若受到預言支配的當時，艾麗絲依然存在著的話，那股邪惡的力量就一定還留存著。所以現在重要的是需要讓艾麗絲盡快恢復。
+現在艾麗絲失去了所有的魔力，呈現相當衰弱的狀態。這是因為一次失去魔力造成了對身體的極大負擔。但很意外的，似乎可以從那開啟的空間得到令艾麗絲恢復的魔力。
+我會給你能夠容納魔力的魔法球，請你將魔力填入球當中。這樣應該就可以使艾麗絲恢復了。`
+
+[condition message]
+	`在自覺，收集附有魔力的魔法球30個 `
+
+[solve message]
+	`你回來了。快點讓艾麗絲得到恢復吧。`
+
+[quest point]
+	4

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[difficulty]
+	`O`
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3208	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	690017000	1	7740	5	7741	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`黑鑽 - 艾麗絲的實驗`
+
+[depend message]
+	`我目前正在做一項魔法實驗
+但是一直缺少一種很稀少的魔法材料 : 黑礦石 
+冒險家,如果你那兒有的話,將它交給我吧,我願意用這些和你交換。`
+
+[condition message]
+	`收集20個[黑礦石]交給艾麗絲。`
+
+[solve message]
+	`這些對你應該很有用。
+我的實驗需要大量的黑礦石,如果你還能找到它們,我依然願意用這些和你交換。`
+
+[quest point]
+	0

@@ -1,0 +1,247 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	70
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-30
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	203
+		`%`	-25
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	210
+		`%`	-25
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	217
+		`%`	-25
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	200
+		`+`	12
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	207
+		`+`	12
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	214
+		`+`	12
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	6
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[魔靈召喚 : 小吸血鬼夏伊]霧化攻擊速度 +30%%
+[魔靈召喚 : 小吸血鬼夏伊]攻擊冷卻時間 -25%%
+[魔靈召喚 : 小吸血鬼夏伊]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	203
+		`%`	-25
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	210
+		`%`	-25
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	217
+		`%`	-25
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	224
+		`%`	-25
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	200
+		`+`	12
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	207
+		`+`	12
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	214
+		`+`	12
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	221
+		`+`	12
+		`[knight]`	72
+		`[dungeon type]`
+		`[level]`	1
+		`+`	4
+		`[knight]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	72
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[knight]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[knight]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-10
+		`[knight]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[魔靈召喚 : 大富翁魯邦]攻擊力 +30%%
+[魔靈召喚 : 瓦爾琪]攻擊冷卻時間 -25%%
+[魔靈召喚 : 紅心女皇艾莉莎]HP減少率 +4%%
+[魔靈召喚 : 紅心女皇艾莉莎]攻擊力 +10%%
+[魔靈召喚 : 紅心女皇艾莉莎]無色小晶塊消耗量 +1
+[魔靈召喚 : 瓦爾琪]攻擊力 +10%%
+[魔靈召喚 : 波拉斯]攻擊力 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	96
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[knight]`	96
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-20
+		`[knight]`	96
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[knight]`	96
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[knight]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	21
+		`[knight]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	21
+		`[knight]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-10
+		`[knight]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-10
+		`[knight]`	69
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	69
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[knight]`	69
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[knight]`	70
+		`[dungeon type]`
+		`[level]`	6
+		`%`	10
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[knight]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1
+		`[knight]`	61
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-2
+	[/skill data up]
+	[parameter basic explain]
+		`[午夜嘉年華]持續時間 +30%%
+[午夜嘉年華]多段攻擊間隔 -20%%
+[午夜嘉年華]能量柱攻擊力 +50%%
+[午夜嘉年華]無色小晶塊消耗量 +1
+所有魔靈法師攻擊力 +10%%
+[魔靈召喚 : 瓦爾琪]攻擊力 +10%%
+[魔靈召喚 : 波拉斯]攻擊力 -10%%`
+[/piece set ability]

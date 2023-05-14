@@ -1,0 +1,100 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4341
+[/pre required quest]
+
+[pre required quest]
+	4342
+[/pre required quest]
+
+[pre required quest]
+	4343
+[/pre required quest]
+
+[pre required quest]
+	4344
+[/pre required quest]
+
+[pre required quest]
+	4345
+[/pre required quest]
+
+[pre required quest]
+	5003
+[/pre required quest]
+
+[pre required quest]
+	4374
+[/pre required quest]
+
+[pre required quest]
+	7650
+[/pre required quest]
+
+[monster reward item]
+	61143	1501	0	4175	1	60	100	61146	1501	0	4175	1	60	100	61147	1501	0	4175	1	60	100	61143	1501	1	4175	1	65	100	61146	1501	1	4175	1	65	100	61147	1501	1	4175	1	65	100	61143	1501	2	4175	2	70	100	61146	1501	2	4175	2	70	100	61147	1501	2	4175	2	70	100	61143	1501	3	4175	2	85	100	61146	1501	3	4175	2	85	100	61147	1501	3	4175	2	85	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4175	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 消滅戮蠱`
+
+[depend message]
+	`戮蠱們又開始繁殖了， 或許是希洛克殘存的怨恨， 它們變得更粗暴了……
+在去悲鳴洞穴前， 我拜托你一件事。 戮蠱的皮膚是最好的防具材料， 如果你能收集到一些碎片， 就拿來給我吧。`
+
+[condition message]
+	`    收集100張[戮蠱皮]交給林納斯。`
+
+[solve message]
+	`呀， 收集了這么多皮膚碎片啊。 看在這些皮膚碎片的份上， 我漸漸喜歡上戮蠱了。`
+
+[quest point]
+	4

@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	1009
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	7619
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7621
+
+[name]
+	`覺醒 - 武極 (3/4)`
+
+[depend message]
+	`第二道經脈需要借由實戰才能打通。 我之前已經和阿爾伯特說好了， 他現在應該在月光修煉場等你呢。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`你的第二道經脈已經打通了。 這個經脈只有在極限狀態下或者激烈的戰斗中才能被打通， 所以這次我才會親自出馬。`

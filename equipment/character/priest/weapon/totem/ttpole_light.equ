@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`光明圖騰`
+
+[flavor text]
+	`賽格哈特的光劍上承載的光加入到圖騰中，使所有的聖職者都可以使用，是辛達的得意作品。`
+
+[grade]
+	29
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	27
+
+[physical attack]
+	29
+
+[stuck]
+	-1
+
+[price]
+	40600
+
+[repair price]
+	32480
+
+[value]
+	32480
+
+[equipment physical attack]
+	281	265
+
+[equipment magical attack]
+	241	227
+
+[separate attack]
+	134	88
+
+[icon]
+	`Item/weapon/priest/totem.img`	10
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	5
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[possible kiri protect]

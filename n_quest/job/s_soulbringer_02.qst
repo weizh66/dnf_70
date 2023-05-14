@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7804
+[/pre required quest]
+
+[collision quest]
+	7800	7808	7811
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4474	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7806
+
+[name]
+	`轉職 - 鬼泣 (2/4)`
+
+[depend message]
+	`圓月之石？ 你想成為可以控制鬼魂的鬼泣？ 嗯， 不是我不想幫你， 而是制作圓月之石需要各種材料……而那些材料只有在亡月雷鳴廢墟才有。
+那里用普通方法很難找到， 只有擁有‘亡月之鏡’才可以掌握具體的位置。
+如果你執意要去的話， 就先去收集一些小晶塊回來， 我可以幫你做一面‘亡月之鏡’。`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給莎蘭。`
+
+[solve message]
+	`材料齊了， 我現在就為你做一面‘亡月之鏡’， 請稍等。`

@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4232
+[/pre required quest]
+
+[monster reward item]
+	61629	75	-1	4770	3	40	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4770	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`稀有的螞蟻`
+
+[depend message]
+	`悲鳴螞蟻的前牙分泌出 汁液，他們會利用該汁液麻痺獵物後儲存在洞穴內。
+我一直在想，稍微調製一下汁液的成分，應該能用於鎮痛劑或醫學藥品。但是我前面說過，因為他們已經幾乎看不到，所以這項研究也沒有再進行。
+我想你應該能幫到我。讓我結束這個研究，請幫我收集悲鳴螞蟻的樣本吧。`
+
+[condition message]
+	`收集悲鳴螞蟻的汁液 100個`
+
+[solve message]
+	`謝謝你。終於可以進行這研究了。`
+
+[quest point]
+	4

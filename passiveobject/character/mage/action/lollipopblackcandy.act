@@ -1,0 +1,34 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/LollipopCrush/BlackStart_D_Start.ani`
+	[SUB ANI]
+		`../Animation/LollipopCrush/BlackLoop_Db_Body.ani`	0	0
+		`../Animation/LollipopCrush/BlackEnd_Db_BoomBack.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			265
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[blind]
+		100	140	10000	0	200	1	500
+[/BEHAVIOR]

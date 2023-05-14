@@ -1,0 +1,110 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/Jupiter/Jupiter_NormalAtk_Add.img`
+		1
+	[IMAGE POS]
+		-324	-298
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		0.5199999809265137
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/Jupiter/Jupiter_NormalAtk_Normal.img`
+		14
+	[IMAGE POS]
+		-243	-88
+	[IMAGE ROTATE]
+		2.0899999141693115
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/Jupiter/Jupiter_NormalAtk_Normal.img`
+		14
+	[IMAGE POS]
+		-248	-55
+	[IMAGE RATE]
+		1.0	-1.0
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/Jupiter/Jupiter_NormalAtk_Normal.img`
+		14
+	[IMAGE POS]
+		-205	-72
+	[IMAGE RATE]
+		1.0	-1.0
+	[IMAGE ROTATE]
+		-0.699999988079071
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Priest/Effect/Jupiter/Jupiter_NormalAtk_Normal.img`
+		14
+	[IMAGE POS]
+		-148	-145
+	[IMAGE RATE]
+		1.0	-1.0
+	[IMAGE ROTATE]
+		-1.399999976158142
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Priest/Effect/Jupiter/Jupiter_NormalAtk_Normal.img`
+		14
+	[IMAGE POS]
+		-176	-277
+	[IMAGE RATE]
+		1.0	-1.0
+	[IMAGE ROTATE]
+		-2.440000057220459
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME006]
+	[IMAGE]
+		`Character/Priest/Effect/Jupiter/Jupiter_NormalAtk_Normal.img`
+		14
+	[IMAGE POS]
+		-194	-293
+	[IMAGE RATE]
+		1.0	-1.0
+	[IMAGE ROTATE]
+		-2.619999885559082
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

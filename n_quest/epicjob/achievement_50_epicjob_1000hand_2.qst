@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	7628
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	7630
+
+[name]
+	`覺醒 - 千手羅漢 (2/4)`
+
+[depend message]
+	`如果你真的想成為千手羅漢， 與其去跟那些后巷的三流街霸學習， 不如讓我來教你。 雖然這并不是我的強項， 但是基礎的我還是可以傳授給你的。
+不過， 在這之前， 你也得先通過我的考驗。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`你的資質不錯， 這也是我為什么愿意教你的原因。`

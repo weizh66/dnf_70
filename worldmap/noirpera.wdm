@@ -1,0 +1,29 @@
+#PVF_File
+
+[map image]
+	`WorldMap/Noirpera.img`	0
+
+[ui path]
+	`WorldMap/UI/Noirpera.ui`
+
+[dungeon]
+	31	-1	32	-1	35	-1	1502	-1
+[/dungeon]
+
+[name]
+	`諾伊佩拉`
+
+[hell dungeon]
+	1
+
+[hell quest]
+	2603
+[/hell quest]
+
+[hell freepass item]
+	4152	1	2682582	1	2749501	1
+[/hell freepass item]
+
+[item condition]
+	2749501
+[/item condition]

@@ -1,0 +1,134 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-25
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[雙重散射]第一次射擊次數 +1
+[雙重散射]第一次射擊攻擊力 -25%%
+[雙重散射]冷卻時間 -25%%
+[雙重散射]射擊范圍增加 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	23
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[gun blader]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	23
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[gun blader]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[static]`	4
+		`+`	1
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-35
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[爆烈斬擊]攻擊力 +25%%
+[爆烈斬擊]冷卻時間 -20%%
+[爆烈斬擊]射擊范圍 +10%%
+[廣域散射]射擊次數 +1次
+[廣域散射]攻擊力 -35%%
+[廣域散射]射擊時后退的距離 -25%%
+[廣域散射]冷卻時間 -20%%
+[廣域散射]射擊范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[level]`	0
+		`%`	55
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[level]`	1
+		`%`	55
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[level]`	2
+		`%`	55
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-45
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[gun blader]`	36
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[奪命焰火]攻擊力 +55%%
+[奪命焰火]冷卻時間 -45%%
+[奪命焰火]射擊范圍 +30%%
+[奪命焰火]無色小晶塊消耗量 +1`
+[/piece set ability]

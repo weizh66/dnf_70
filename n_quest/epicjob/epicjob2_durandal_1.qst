@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	444
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	444
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 圣武槍魂 (1/2)`
+
+[depend message]
+	`啊啊……好無聊……哦， 冒險家！ 你來得正好， 來陪我練練……好吧， 看你滿臉疲憊， 可能不太適合開這種玩笑。 你怎么了？
+你在四處調查發生在阿拉德的異變？ 原來最近在忙這個。 我一直以為你只對修煉槍法感興趣呢。
+也是， 人生這么長， 總要換一點活法， 我想這對你來說也不錯。
+鼎鼎大名的你在阿拉德越活躍， 人們就越對魔槍士感興趣。 終有一天人們會了解魔槍士， 也會發現帝國的種種惡行！
+這么一想， 我也得幫幫你……不知你是否聽說過‘圣武槍魂’？ 他們跟你一樣， 為阿拉德收集著情報， 救助他人……
+哈， 果然你有聽說過， 那么有沒有想法加入他們？ 如果你有興趣， 我可以幫上點忙。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與萊諾談談。`
+
+[solve message]
+	`如果你成為圣武槍魂， 我也算在那里認識了一個熟人， 也是一大幸事， 請一定要成為圣武槍魂。`
+
+[pre required quest]
+	2645
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	2664
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

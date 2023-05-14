@@ -1,0 +1,31 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_normal.img`
+		5
+	[IMAGE POS]
+		-303	-266
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[INTERPOLATION]
+		1
+	[DELAY]
+		150
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_normal.img`
+		5
+	[IMAGE POS]
+		-303	-266
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		100

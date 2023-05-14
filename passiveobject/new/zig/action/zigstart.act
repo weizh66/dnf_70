@@ -1,0 +1,97 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ZigStart/ZigStart_Body.ani`
+	[SUB ANI WITH XYZ]
+		`../Animation/ZigStart/zigstartback_smoke2.ani`	0	0	0	65	0	0
+		`../Animation/ZigStart/zigstartback_smoke3.ani`	0	0	0	65	0	0
+	[/SUB ANI WITH XYZ]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			250185
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	82	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		2	2
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[CHARACTER]
+			[MONSTER]
+			[AI CHARACTER]
+		[/IS OBJECT TYPE]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PULL APPENDAGE]
+		15.0	15.0	3200
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		16	16
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			250187
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	1	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		27	27
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

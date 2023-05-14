@@ -1,0 +1,226 @@
+#PVF_File
+
+[name]
+	`武鬥之花—獨秀`
+
+[basic explain]
+	`    攻擊時附加15%%的傷害。
+    施放[天擊]、[龍牙]時， 使自身進入霸體狀態。
+    攻擊時，有5%%的幾率使自身進入霸體狀態10秒。（冷卻時間20秒）`
+
+[detail explain]
+	`    攻擊時附加15%%的傷害。
+    施放[天擊]、[龍牙]時， 使自身進入霸體狀態。
+    攻擊時，有5%%的幾率使自身進入霸體狀態10秒。（冷卻時間20秒）`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	88
+
+[stuck]
+	-1
+
+[attack speed]
+	-50
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1026	869
+
+[equipment magical attack]
+	726	615
+
+[separate attack]
+	520	336
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[mage]`	7	5
+	`[mage]`	6	5
+	`[mage]`	35	1
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/spear/spear.img`	116
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	36	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	36	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[mage]`	3
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[mage]`	3
+	`[all]`
+	`[level]`	7
+	`%`	20
+[/skill data up]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	25
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	12
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`mage`	12
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	4
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`mage`	4
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[buff]
+		`superarmor`
+[/then]
+
+[possible kiri protect]

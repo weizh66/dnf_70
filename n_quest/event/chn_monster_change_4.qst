@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20554
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680810	20
+[/int data]
+
+[reward type]
+	`[ridable]`
+
+[reward int data]
+	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	20556
+
+[name]
+	`變身 - 牛頭械王`
+
+[depend message]
+	`想不想變成更強大的怪物？ 比爾馬克帝國試驗場的牛頭械王怎么樣？ 要試一下嗎？`
+
+[condition message]
+	`    前往任意地下城， 收集[神秘的粉末]交給諾頓。 (神秘的粉末只有在變身狀態下擊殺怪物才能獲得)`
+
+[solve message]
+	`仔細看清楚我的每一個步驟哦~把這些材料混在一起……像這樣~搞定！
+感覺怎么樣？ 是不是很厲害？`
+
+[mail time]
+	1
+
+[mail title]
+	`勇士變身活動`
+
+[mail contents]
+	`    這是您參與勇士變身活動獲得的獎勵， 請收好~`
+
+[mail enclose]
+	2680811	1
+[/mail enclose]

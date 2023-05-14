@@ -1,0 +1,229 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	108
+		`[dungeon type]`
+		`[static]`	1
+		`+`	5000
+		`[thief]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[暗殺領域]范圍 +20%%
+[影遁]隱身持續時間 +5秒
+[影戮]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	112
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	3
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	4
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	5
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	6
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	7
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	8
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	9
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	10
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	11
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	12
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	13
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	14
+		`+`	5
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	15
+		`+`	5
+		`[thief]`	108
+		`[dungeon type]`
+		`[static]`	1
+		`+`	5000
+		`[thief]`	108
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[thief]`	110
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	110
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[thief]`	110
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[thief]`	110
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[暗殺領域]范圍 +30%%
+    [暗殺領域]復制[刃舞]的回旋斬擊攻擊， 增加5%%的復制攻擊力增加量。
+[影遁]持續時間 +5秒
+[影遁]冷卻時間 -20%%
+[刃舞]攻擊力 +20%%
+[刃舞]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[thief]`	112
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	2
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	3
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	4
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	5
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	6
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	7
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	8
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	9
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	10
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	11
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	12
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	13
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	14
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[level]`	15
+		`+`	10
+		`[thief]`	112
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[thief]`	113
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	113
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[thief]`	116
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[thief]`	116
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[thief]`	116
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[thief]`	116
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[thief]`	116
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[暗殺領域]分身生成間隔 -50%%
+[暗殺領域]復制攻擊力增加量 +10%%
+[暗殺領域]無色小晶塊消耗量 +1
+[瞬殺]攻擊力 +30%%
+[八荒影殺]攻擊力 +40%%
+[八荒影殺]冷卻時間 -30%%`
+[/piece set ability]

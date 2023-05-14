@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/combo3.ani`
+	[SUB ANI]
+		`../Animation/combo3_1.ani`	0	1
+		`../Animation/combo3_1e.ani`	0	2
+	[/SUB ANI]
+	[SOUND]
+		`ARDEN_GAUNTLET_TEL_02`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

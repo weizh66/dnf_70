@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`裂空鏢`
+
+[explain]
+	`投擲時， 可以對單個敵人造成217點傷害。`
+
+[flavor text]
+	`風算什麼， 我一樣能撕裂它！`
+
+[grade]
+	17
+
+[attach type]
+	`[free]`
+
+[creation rate]
+	700
+
+[rarity]
+	0
+
+[weight]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	16
+
+[icon]
+	`Item/IconMaterial2.img`	71
+
+[field image]
+	`Item/FieldImage.img`	34
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	340
+
+[value]
+	0
+
+[cool time]
+	500
+
+[move wav]
+	`IRON_TOUCH`
+
+[int data]
+	50801	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Suriken.ptl`
+[/string data]

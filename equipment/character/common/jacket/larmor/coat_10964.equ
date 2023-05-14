@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`克羅姆的生命護甲`
+
+[basic explain]
+	`攻擊時，以7%%的機率使自身與隊員恢復1500點HP。`
+
+[flavor text]
+	`咳咳咳...... 在死之前，我要將我生命的一部份裝進這裡  --克羅姆`
+
+[grade]
+	65
+
+[rarity]
+	4
+
+[anti evil]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	73
+
+[magical attack]
+	22
+
+[price]
+	78000
+
+[repair price]
+	68796
+
+[value]
+	62400
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	2628	2412
+
+[icon]
+	`Item/common/coat.img`	248
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`克羅姆的生命輕甲  套裝`
+
+[set item]
+	10964	12958	14954
+[/set item]
+
+[set ability]
+	[HP MAX]
+		666
+	[attack speed]
+		70
+	[fullset basic explain]
+		`攻擊出血狀態的敵人時，可以使自身增加100點力量和智力，效果持續20秒。`
+	[active status control info]
+		`bleeding`	0	4	0	0
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+		[cooltime]
+			30000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[stat]
+			`physical attack`
+			`+`	100
+		[stat]
+			`magical attack`
+			`+`	100
+	[/then]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

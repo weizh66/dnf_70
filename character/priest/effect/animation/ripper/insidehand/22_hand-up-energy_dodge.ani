@@ -1,0 +1,49 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		700
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/Ripper/22_hand-up-energy_dodge.img`
+		1
+	[IMAGE POS]
+		-80	-191
+	[IMAGE ROTATE]
+		-0.47123900055885315
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/Ripper/22_hand-up-energy_dodge.img`
+		1
+	[IMAGE POS]
+		205	-148
+	[IMAGE RATE]
+		0.7300000190734863	0.7300000190734863
+	[IMAGE ROTATE]
+		0.17453299462795258
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		70

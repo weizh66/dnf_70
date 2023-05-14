@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	4087
+
+[name]
+	`覺醒 - 冰凍之心 (1/4)`
+
+[depend message]
+	`天啊， 你體內的黑暗之眼正在日漸結冰。 這樣下去， 你的身體總有一天會被這股力量吞噬……
+不過幸好發現得及時， 這股力量還未擴散出去， 我們只要將波及到的心臟部分冰凍起來， 就可以防止擴散到整個身體。
+不過， 這種方法有一定的危險性， 不少人使用后反而加快了冰化的速度， 最后被徹底地冰凍起來……
+你真的愿意嘗試嗎？
+我果然沒看錯你。 我可以幫你制作一些減緩冰化的藥劑， 不過需要你去收集一些材料。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`讓我看看你體內的冰化情況。
+呼~幸好還沒有開始擴散。 現在我會用藥劑讓你體內的黑暗之眼先穩定下來。 可能會有些疼， 請忍住。`

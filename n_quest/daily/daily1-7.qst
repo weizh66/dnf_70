@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	23
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	51	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	36	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	8
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`暗黑城的無頭門衛`
+
+[depend message]
+	`公國與暗精靈的戰爭就要結束了， 在這里要感謝冒險家們。 你們一直努力疏通阿法利亞山下的密道， 試圖找到通往暗黑城的捷徑。
+現在功夫不負有心人， 你們的努力終于得到了回報， 我們已經到達暗黑城入口了！
+不過我們又遇到了一點小麻煩， 有一個強大的無頭騎士在守護暗黑城入口。 據說他和暗精靈簽了契約， 負責阻擋侵擾暗黑城的一切力量。
+現在， 我們的冒險家應該聯合起來！
+我相信只要冒險家們聯手， 就一定能把解藥送達暗黑城， 化解人類和暗精靈的誤會， 終止這場殘酷的戰爭， 迎來和平的新時代！
+另外， 請你們原諒， 我不能在布告欄上表明我的真實身份。
+但請相信我， 我會從那些完成任務的冒險家中挑選一些可靠的人， 讓他們接觸真實的我。`
+
+[condition message]
+	`    通關暗黑城的『暗黑城入口』， 然后去找阿法利亞營地的博肯， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`冒險家， 我知道你已經完成我在布告欄上發布的任務了。 請到這里來， 我已經給你準備好獎賞了。`

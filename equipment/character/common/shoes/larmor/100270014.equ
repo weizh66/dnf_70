@@ -1,0 +1,233 @@
+#PVF_File
+
+[name]
+	`傳承：神聖火神的陶瓷短靴`
+
+[grade]
+	72
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[anti evil]
+	10
+
+[physical attack]
+	27
+
+[magical attack]
+	14
+
+[move speed]
+	65
+
+[MP MAX]
+	260
+
+[price]
+	43200
+
+[repair price]
+	36288
+
+[value]
+	22800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1350	1314
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	12
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	16
+
+[sub type]
+	2
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[set name]
+	`傳承： 神聖火神的陶瓷套裝`
+
+[set item]
+	100070017	100120015	100170015	100220014	100270014
+[/set item]
+
+[piece set ability]
+	3
+	[parameter basic explain]
+		`地城入場時會以傳承的祝福攻擊速度增加7%%,施放速度增加7%%。`
+	[physical attack]
+		125
+	[magical attack]
+		100
+	[physical defense]
+		100
+	[magical defense]
+		80
+	[light resistance]
+		12
+	[HP MAX]
+		350
+	[MP MAX]
+		300
+	[move speed]
+		55
+	[attack speed]
+		55
+	[cast speed]
+		20
+	[stuck]
+		-3
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`attack speed`
+			`+`	70
+		[stat by condition]
+			`cast speed`
+			`+`	70
+	[/then]
+	[skill levelup]
+		`[fighter]`	71	1
+		`[fighter]`	70	1
+		`[at fighter]`	41	1
+		`[at fighter]`	65	1
+		`[fighter]`	63	1
+		`[fighter]`	66	1
+		`[at fighter]`	63	1
+		`[at fighter]`	115	1
+		`[swordman]`	86	1
+		`[swordman]`	91	1
+		`[thief]`	59	1
+		`[thief]`	58	1
+		`[priest]`	90	1
+		`[priest]`	87	1
+		`[swordman]`	38	1
+		`[fighter]`	37	2
+		`[at fighter]`	37	2
+		`[fighter]`	22	1
+		`[at fighter]`	22	1
+		`[priest]`	35	2
+		`[thief]`	50	2
+	[/skill levelup]
+[/piece set ability]
+
+[piece set ability]
+	5
+	[parameter basic explain]
+		`地城入場時會以傳承的祝福攻擊速度增加7%%,施放速度增加7%%。`
+	[physical attack]
+		125
+	[magical attack]
+		100
+	[physical defense]
+		100
+	[magical defense]
+		80
+	[light resistance]
+		12
+	[HP MAX]
+		350
+	[MP MAX]
+		300
+	[move speed]
+		55
+	[attack speed]
+		55
+	[cast speed]
+		20
+	[stuck]
+		-3
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`attack speed`
+			`+`	70
+		[stat by condition]
+			`cast speed`
+			`+`	70
+	[/then]
+	[skill levelup]
+		`[fighter]`	71	1
+		`[fighter]`	70	1
+		`[at fighter]`	41	1
+		`[at fighter]`	65	1
+		`[fighter]`	63	1
+		`[fighter]`	66	1
+		`[at fighter]`	63	1
+		`[at fighter]`	115	1
+		`[swordman]`	86	1
+		`[swordman]`	91	1
+		`[thief]`	59	1
+		`[thief]`	58	1
+		`[priest]`	90	1
+		`[priest]`	87	1
+		`[swordman]`	38	1
+		`[fighter]`	37	2
+		`[at fighter]`	37	2
+		`[fighter]`	22	1
+		`[at fighter]`	22	1
+		`[priest]`	35	2
+		`[thief]`	50	2
+	[/skill levelup]
+[/piece set ability]
+
+[possible kiri protect]

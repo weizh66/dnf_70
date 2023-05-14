@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`甜蜜芒果冰沙`
+
+[explain]
+	`所有攻擊力 +3%%`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	50
+
+[need material]
+	3836	500
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_blue_cn.img`	24
+
+[field image]
+	`Item/field_creature.img`	1
+
+[equipment type]
+	`[artifact blue]`	15
+
+[sub type]
+	0
+
+[creature magical attack]
+	1000
+
+[physical critical hit]
+	4
+
+[magical critical hit]
+	4
+
+[anti evil]
+	5
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	3
+	[stat by condition]
+		`magical attack bonus`
+		`%`	3
+	[stat by condition]
+		`separate attack`
+		`%`	3
+[/then]
+
+[move wav]
+	`SKIN_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

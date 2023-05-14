@@ -1,0 +1,187 @@
+#PVF_File
+
+[name]
+	`光之翼刃`
+
+[basic explain]
+	`攻擊時，以1%%的機率使敵人進入感電狀態。
+攻擊速度增加5%%`
+
+[detail explain]
+	`攻擊時以1%%的機率15秒內讓敵人呈現觸電狀態，每次擊時以115的攻擊力給予追加傷害. (高於Lv25的對象得到的機率減少，低於Lv25的對象則會增加。)
+攻擊速度+5%%`
+
+[flavor text]
+	` 2次「鬼劍士」決鬥優勝王「寶物倉庫」想要的道具。`
+
+[grade]
+	29
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	25
+
+[physical attack]
+	22
+
+[attack speed]
+	150
+
+[stuck]
+	1
+
+[HP MAX]
+	150
+
+[price]
+	46400
+
+[repair price]
+	37120
+
+[value]
+	20800
+
+[equipment physical attack]
+	279	242
+
+[equipment magical attack]
+	270	234
+
+[separate attack]
+	172	113
+
+[skill levelup]
+	`[swordman]`	38	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	3
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	4
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	4
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[if]
+	[cooltime]
+		22500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[active status]
+		`lightning`	25	115
+[/then]
+
+[possible kiri protect]

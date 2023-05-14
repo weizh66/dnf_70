@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`格拉西亞家族遺物龍骨胸甲`
+
+[basic explain]
+	`被擊時， 有50%%的幾率施放Lv25的[聖光守護]。`
+
+[detail explain]
+	`被擊時， 有50%%的幾率施放Lv25的[聖光守護]。 (冷卻時間40秒)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12536
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	45
+
+[magical attack]
+	30
+
+[need material]
+	5000	30
+
+[price]
+	108000
+
+[repair price]
+	86400
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3528	3276
+
+[light attack]
+	13
+
+[icon]
+	`item/new_equipment/04_larmor/coat/larmor_coat.img`	52
+
+[field image]
+	`Item/field_equip.img`	5
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[perform skill]
+		`priest`	22	25	0
+[/then]
+
+[possible kiri protect]

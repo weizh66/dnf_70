@@ -1,0 +1,76 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		50
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		50
+
+[FRAME004]
+	[IMAGE]
+		`Common/CommonEffect/MagicCursor_new.img`
+		1
+	[IMAGE POS]
+		-193	-98
+	[RGBA]
+		197	72	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME005]
+	[IMAGE]
+		`Common/CommonEffect/MagicCursor_new.img`
+		1
+	[IMAGE POS]
+		-193	-107
+	[RGBA]
+		197	72	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME006]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

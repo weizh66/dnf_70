@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`封·九龍闕`
+
+[basic explain]
+	`施展威爾德雷伯時，10秒內為隊員的武器附加明屬性及明屬性強化增加10`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	92
+
+[stuck]
+	-1
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	953	813
+
+[equipment magical attack]
+	816	697
+
+[separate attack]
+	555	359
+
+[skill levelup]
+	`[priest]`	13	2
+	`[priest]`	4	3
+[/skill levelup]
+
+[light attack]
+	25
+
+[icon]
+	`item/new_equipment/01_weapon/priest/totem/totem.img`	87
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	26	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[use skill]
+		`priest`	13
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		304
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[skill]
+		`priest`	4
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	20
+[/then]
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 古靈精怪 (1/6)`
+
+[depend message]
+	`莎蘭大人拜托了我一件事， 關于這事， 我想你需要跟我談談。
+我聽她說， 雖然你看起來令人頭疼， 但其實是個天才啊？ 反正從我這些天對你的觀察來看， 雖然你的思想有些四次元， 但的確是具備無窮的潛力。 你快給我過來， 跟我聊聊天。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`嗯， 找你聊天不為其它……
+你又不聽我說話， 想些什么呢？ 注意力能不能集中一點？ 果然是個令人頭痛的家伙啊。 在那兒坐好認真聽我講。
+咳咳……反正， 從我對你的觀察中發現你的內在潛力……
+把南瓜頭給我放回去！
+哎， 真是個散漫又不聽話的主。 就這樣還叫天才？ 本以為他能再提升一個階段， 所以才叫過來……看來是個朽木……
+干嘛突然兩眼冒光？ 你問我是否真的能進階？
+當然了， 所以不是把你叫來了嗎？ 你終于明白核心要點了。 有興趣嗎？ 要不要我幫你？`
+
+[target character]
+	`[mage]`	4	1
+[/target character]
+
+[relation quest]
+	6787
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,26 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ATJihad/Jihad_Summon_A.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	-90
+		[MOVE ME]
+	[/TELEPORT]
+	[SHAKING]
+		5	1000
+[/BEHAVIOR]

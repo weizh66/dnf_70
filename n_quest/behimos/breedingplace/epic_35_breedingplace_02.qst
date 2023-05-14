@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	12
+
+[complete npc index]
+	19
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	35	99
+
+[pre required quest]
+	4024
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	19
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`木本植物的樣本 (1/2)`
+
+[depend message]
+	`你還記得上次拿給我的樹精樣本嗎？ 在研究過程中， 我發現其中的木本植物非常特別。 光是從小小的樣本中， 我就感受到一股強勁的魔力。
+這到底是什么， 我也不清楚。 但是總有種不祥的感覺……
+你幫我去問一下奧菲利亞吧， 我想天帷巨獸上的生物， 她應該比較了解。`
+
+[condition message]
+	`    向奧菲利亞詢問有關木本植物樣本的情況。`
+
+[solve message]
+	`咦， 你手上的東西有股邪惡的氣息……可是這氣息是什么呢？`
+
+[quest point]
+	4

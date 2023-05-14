@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`使徒·赫爾德`
+
+[explain]
+	`裝備後， 強化費用降低10%%且強化&增幅成功率增加5%%,任務物品掉落幾率+5%。
+暴擊傷害 +10%%(在決鬥場中無效)
+    攻擊時， 附加6%%的傷害。(在決鬥場中無效)`
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade delete]`
+
+[minimum level]
+	1
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[physical defense]
+	35
+
+[magical defense]
+	35
+
+[attack speed]
+	35
+
+[move speed]
+	35
+
+[cast speed]
+	35
+
+[stuck]
+	-4.0
+
+[stuck resistance]
+	40
+
+[MP MAX rate]
+	10.0
+
+[all elemental attack]
+	10
+
+[physical critical hit]
+	5.0
+
+[magical critical hit]
+	5.0
+
+[upgrade cost discount]
+	10
+
+[upgrade prob increase]
+	200
+
+[room list move speed rate]
+	0.2
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[icon]
+	`item/creature/creature_cn.img`	54
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	10040
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[war room]`
+		`[dungeon]`
+		`[assault]`
+		`[dead tower]`
+		`[blood system]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	6
+[/then]
+
+[if]
+	[module]
+		`[war room]`
+		`[dungeon]`
+		`[assault]`
+		`[dead tower]`
+		`[blood system]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]

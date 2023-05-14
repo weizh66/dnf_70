@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	66
+
+[complete npc index]
+	66
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	6003
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3303	10	3036	40
+[/int data]
+
+[dungeon info]
+	1504	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4421	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 幽靈羅盤`
+
+[depend message]
+	`你又要去幽靈列車？
+什么~你還想去消滅惡靈？……嗯， 好吧。 不管你做什么， 我都會支持你的！！`
+
+[condition message]
+	`    收集10個[英雄的宿命]和40個[藍色小晶塊]交給小燈籠。`
+
+[solve message]
+	`給你。 冒險家， 你一定要小心啊！！`

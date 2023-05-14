@@ -1,0 +1,161 @@
+#PVF_File
+
+[minimum info]
+	`桐穀和人(SAO)`	0	1	0	1	90	0	0	1	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	100	0	0	0	0	0	0	0	0	5	5	-10	40	0	30	0	30	30	40	0	30	0	0	0	0	0	0	40	30	0
+[/additional character status]
+
+[character status rate]
+	140	50	1	1	1	1	1	0	1	0	1	1	1	1.5	1.5	1	1.5	1.4	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.4	1	1	1
+[/character status rate]
+
+[attack damage rate]
+	1.0
+
+[add equipment status from level]
+	1
+
+[armor subtype]
+	4
+
+[custom skill level]
+[/custom skill level]
+
+[far attack reaction rate]
+	100
+
+[quick skill]
+	67	1	46	0	49	1	8	0	72	0	77	0
+[/quick skill]
+
+[skill]
+	58	0	59	1	169	1	13	10	15	10	16	10	26	1	80	1	181	2	182	2	184	1	173	1	179	5	187	1	186	10	178	10	17	1	45	1	9	0	170	1	68	5	69	1	83	1	86	0	91	0	172	1	73	0	50	0	51	0	174	0
+[/skill]
+
+[quick item]
+	27711	1
+[/quick item]
+
+[equipment]
+	27142	15	0	405000	2	0	415000	2	0	425000	2	0	125013	2	0	185013	2	0	245013	2	0	305013	2	0	365013	2	0	445000	2	0	2786009	2	0	2786941	2	0	26128	2	0
+[/equipment]
+
+[add equipment status from level]
+	1
+
+[think term]
+	200
+
+[destination change term]
+	200
+
+[keep distance with target]
+	300
+
+[warlike]
+	100
+
+[vision]
+	1600
+
+[death tower item]
+[/death tower item]
+
+[skill correction]
+	49	0	169	0	9	0.5	86	0.2	50	0
+[/skill correction]
+
+[targeting bonus]
+	99	0	0	0	0	0	0	0	0	0	0	0	0	200	0	0	0	0	0	0	0
+	`[stand]`
+	`[dash]`	0	100
+	`[slow]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	`backstepcutter`
+	`backstepcutter.key`
+	`weapon_combination`
+	`weapon_combination.key`
+	`basic_combination`
+	`basic_combination.key`
+	`basic_combination_upper`
+	`basic_combination_upper.key`
+	`chargecrash`
+	`chargecrash.key`
+	`momentary_slash`
+	`momentary_slash.key`
+	`quadruple_backstepcutter`
+	`quadruple_backstepcutter.key`
+	`western_quadruple_backstepcutter`
+	`western_quadruple_backstepcutter.key`
+	`tripleslash`
+	`tripleslash.key`
+	`upperslash`
+	`upperslash.key`
+	`weapon_change`
+	`weapon_change.key`
+	`standard_combination`
+	`standard_combination.key`
+	`grab`
+	`grab.key`
+	`hundredsword`
+	`hundredsword.key`
+	`illusionslash`
+	`illusionslash.key`
+[/key stream]
+
+[speech on situation]
+	[on stand]
+		`為了亞絲娜...`	30
+	[on stand]
+		`為了艾恩葛朗特...`	70
+	[on damage]
+		`哎呀~別扯啦~`	10
+	[on damage]
+		`我說過了，我只愛亞絲娜一個人~`	20
+	[on die]
+		`啊……我也快不行了~`	50
+	[on die]
+		`哎……呀……亞絲娜，你在那裡嗎？`	50
+	[on appear]
+		`我要守護大家！`	20
+	[on appear]
+		`比起一個人活下來，還不如死掉。`	30
+	[on attack]
+		`嗯……`	20
+		`weapon_combination`
+	[on attack]
+		`疼嗎？`	20
+		`basic_combination_upper`
+	[on attack]
+		`嘿喲~`	30
+		`chargecrash`
+	[on attack]
+		`星爆氣流斬~`	40
+		`momentary_slash`
+	[on attack]
+		`這不是逃亡~`	10
+		`western_quadruple_backstepcutter`
+	[on attack]
+		`去哪裡？`	20
+		`tripleslash`
+	[on attack]
+		`二刀流！`	10
+		`grab`
+	[on attack]
+		`哎~真的要這麼做嗎？`	50
+		`hundredsword`
+	[on key]
+		`那……這就開始？`	100
+		`weapon_change`
+[/speech on situation]

@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[monster reward item]
+	61710	82	-1	4415	3	85	5
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4415	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`收集GT-203`
+
+[depend message]
+	`戰爭時期， 物資一向緊缺， 更別說是軍事材料了。 唉~要去哪里才能收集到足夠的零件呢？
+有了！ 雖然我對吉賽爾制作的機械并不看好， 但是那些簡陋的零件倒是可以勉強使用。
+你去找一種叫作GT-9600的機器， 打開它的外殼就能發現里面的GT-203， 然后把那些零件帶回來給我。 明白嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特南門』， 從領主GT-9600身上收集1個[GT-203]。`
+
+[solve message]
+	`哦？ 這么快就拿到了？
+其實這零件是我設計的。 希望吉賽爾能夠抄襲得好一些， 這樣我還能勉強拿來用用。`

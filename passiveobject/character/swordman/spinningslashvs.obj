@@ -1,0 +1,23 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`action/spinningslashvs.act`
+
+[attack info]
+	`AttackInfo/SpinningSlashVS.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

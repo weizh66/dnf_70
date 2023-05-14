@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 緋紅玫瑰 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+你現在可以光明正大地進入‘秘密花園’了。 又有誰會反對呢？ 但你千萬不能驕傲自滿。 進入秘密花園并不是結束， 而是個新的開始。 不要被名譽所迷惑， 要心懷自己的信念。
+你不能忘記自己想要成為緋紅玫瑰的初衷； 對于未能拯救皇女并因此遺憾喪生的人們， 應該保持憐憫； 繼續緬懷未能守護好皇女所遺留的痛苦； 并培養阻止這一切悲劇重新上演的覺悟。
+而如今， 你已獲得了重生。 帶著新的身份——‘緋紅玫瑰’和艷麗的外表去‘秘密花園’尋找他們吧。`
+
+[pre required quest]
+	5440
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

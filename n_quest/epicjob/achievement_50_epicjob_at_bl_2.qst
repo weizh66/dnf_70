@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5330
+
+[name]
+	`覺醒 - 沾血薔薇 (1/4)`
+
+[depend message]
+	`‘漫游槍手必須是無法地帶出身。’這種說法早就過時了！ 皇都出身的女漫游槍手美麗又優雅， 比那些整天叼著根煙、 吊兒郎當的無法地帶男漫游要受歡迎多了。
+對了， 皇都還有個叫做‘沾血薔薇’的女漫游組織， 專門負責保護皇室。 她們每個人都配有一把叫作‘雙槍極舞刃’的專用武器……
+呵呵~名字很好聽吧……咦， 難道你也想加入她們嗎？`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`啊， 原來你也是皇室出來的人啊……`

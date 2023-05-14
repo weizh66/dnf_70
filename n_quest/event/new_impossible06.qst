@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[first exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	4
+
+[int data]
+	67	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	8041	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[異界]完美挑戰 - 黑色大地`
+
+[depend message]
+	`冒險家， 雖然你之前很順利地完成了任務， 但我還是要提醒你： 可不要小瞧了這次的挑戰！
+呵呵，不過我有預感， 你這次一定也會成功的……`
+
+[condition message]
+	`    不使用復活幣通關異次元裂縫的『黑色大地』， 要求地下城難度為冒險級以上。 (此任務每天只能完成一次)`
+
+[solve message]
+	`成功了？ 我早說過， 你一定能行的。 因為你身上有著常人無法比擬的天賦！
+而這種天賦的力量， 終有一天， 會改變這個世界的命運……`

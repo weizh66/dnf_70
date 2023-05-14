@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	6
+
+[complete npc index]
+	4
+
+[job]
+	`[at mage]`
+
+[level]
+	4	99
+
+[pre required quest]
+	1800
+[/pre required quest]
+
+[pre required quest]
+	1904
+[/pre required quest]
+
+[collision quest]
+	531
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	300
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魔法師之路 - 赫頓瑪爾的辛達`
+
+[depend message]
+	`聽說赫頓瑪爾有名的鐵匠辛達正在找你呢。辛達就像他的年紀一樣有著非常豐富的學識。`
+
+[condition message]
+	`去找赫頓瑪爾的辛達`
+
+[solve message]
+	`原來你就是最近才來到赫頓瑪爾的那位冒險家吧。雖然看起來很陌生但我喜歡你的眼神。
+如果繼續維持那種眼神，就能比別人提前達到15級。`
+
+[quest point]
+	4

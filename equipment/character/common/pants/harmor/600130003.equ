@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`變異的秘技之境的斷刃綁腿改： 狂·霸王拳`
+
+[basic explain]
+	`狂·霸王拳（女） 攻擊次數增加1， 攻擊力減少5%% 
+狂·霸王拳（男） 異常狀態附加攻擊力， 攻擊範圍每 1 個增加率增加1%% `
+
+[grade]
+	62
+
+[rarity]
+	5
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[level linear ability]
+	1	60
+	[grade]
+		1	60
+	[equipment physical defense]
+		600	520	2600	2520
+	[physical attack]
+		7	27
+	[physical defense]
+		6	25
+	[magical attack]
+		5	20
+[/level linear ability]
+
+[part set index]
+	20009
+
+[repair price]
+	30240
+
+[value]
+	5220
+
+[icon]
+	`Item/common/pants.img`	233
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	19
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2900
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	74
+	`[dungeon type]`
+	`[static]`	0
+	`+`	1
+	`[fighter]`	74
+	`[dungeon type]`
+	`[level]`	0
+	`%`	-5
+	`[fighter]`	74
+	`[dungeon type]`
+	`[level]`	2
+	`%`	-5
+	`[at fighter]`	74
+	`[dungeon type]`
+	`[level]`	3
+	`+`	1
+	`[at fighter]`	74
+	`[dungeon type]`
+	`[level]`	4
+	`+`	1
+[/skill data up]
+
+[possible kiri protect]

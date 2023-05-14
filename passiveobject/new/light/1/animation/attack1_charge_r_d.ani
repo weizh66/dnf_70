@@ -1,0 +1,117 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		20
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		84
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		17
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	100
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		82
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		12
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		82
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		6
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	100
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		82
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		8
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		82
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		3
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		82
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		2
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	100
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		82
+
+[FRAME007]
+	[IMAGE]
+		`Monster/Snowman/Frenken_effect.img`
+		10
+	[IMAGE POS]
+		-180	-469
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		84

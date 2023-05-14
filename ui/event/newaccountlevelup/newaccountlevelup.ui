@@ -1,0 +1,122 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		110
+	[vertical distance]
+		0
+	[size]
+		21	18
+	[title string]
+		`新手升級活動`
+	[controls]
+		[ui controls]
+			`[text button]`
+			`0`	96	214	2
+			`Interface/WindowCommon.img`
+			`確認`	4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[board image]`
+			`1`	-1	3	1
+			`Interface/WindowCommon.img`	11	255	210	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`2`	6	6	1
+			`1. 7月5日以後，新加入的帳號中，依照創建角色的順序，將會給予最多3個角色禮物。
+2. 每當在創建角色以及達到5級時，將分發積點。
+3. 當達到10級時，將可獲得倉庫擴充券 + 成長之契約套裝
+4. 當達到20級時，將可獲得APC套裝 + 霸王之契約
+5. 當達到30級時，將可獲得時間制裝扮 + 稱號 + 達人之契約
+6。利用支付的紅利點數可以在紅利點數商店中購買各式各樣的道具。`	9	-1	242	0	0	0	0	230	200	155
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`3`	4	132	1
+			`Interface2/event/MileageShop/MileageEvent.img`	1	2
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`4`	84	132	1
+			`Interface2/event/MileageShop/MileageEvent.img`	1	2
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`5`	164	132	1
+			`Interface2/event/MileageShop/MileageEvent.img`	1	2
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`6`	4	156	1
+			`Interface2/event/MileageShop/MileageEvent.img`	1	0
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`11`	77	5	1
+			`紅利點數`	9	-1	40	2	0	0	0	221	197	147
+			[parent]
+				`6`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`7`	146	156	2
+			`Interface/WindowCommon.img`
+			`移動到紅利點數商店`	4	66	67	68	69
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`8`	15	118	1
+			`<活動套用角色 （最大3名）>`	9	-1	220	1	0	0	0	65	255	78
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`9`	15	145	1
+			`  - 非活動套用目標 -`	9	-1	220	1	0	0	0	255	50	50
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[control]`
+			`10`	0	0	0	2	200	100
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[hyperlinklabel]`
+			`100`	180	190	0	7	205	100	221	197	147	0	0
+			[parent]
+				`1`
+			[user option]
+				`url link`
+				`[前往官網]`	255	240	0
+				`http://df.nexon.com/?GO=pr|helpproject`
+			[/user option]
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`101`	164	192	1
+			`Interface2/UI/EventList/Event_window.img`	1	2
+		[/ui controls]
+	[/controls]
+[/window]

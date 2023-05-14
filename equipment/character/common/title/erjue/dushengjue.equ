@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 毒神絕`
+
+[explain]
+	`我已經想不起來當年在滿地灰塵的街頭發抖的樣子。
+為了生存，我學會了所有必要的技能，為了生存，我壹直取得了勝利。
+但是，什?時候開始我是為了勝利而生存的呢?
+其實猛毒只是為了生存而做出的壹個選擇。
+當然我也知道若不小心就會直接送命，所以更加親近了它。
+輸完卑微地活著，還不如利用猛毒幹脆地死掉。
+只是為了生存，只把生存作為活著的目標的我，什?時候開始變得如此陰險的呢。
+我發現有不少和我壹樣命運的人。
+即使暈倒在街上也不能獲得同情的那些人，實在是太多了。
+我只是為了試壹下我發明的新的猛毒才找到了那些人，做夢也沒有想到既然還會有人因禍得福而感激我。
+在這淒慘的世界上，他們最終還是死在了我的猛毒之下。
+但是，有了跟隨我的人的感覺也還好，是壹種新鮮的感覺。
+之後開始，跟隨我的人越來越多，做夢也沒想到，帶領他們竟然會成為讓我生存的動力，
+做夢也沒想到我的猛毒居然會成為讓我生存下去的理由...`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		38006	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[fighter]`	14
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[fighter]`	14
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[fighter]`	60
+	`[all]`
+	`[level]`	0
+	`%`	800
+	`[fighter]`	76
+	`[all]`
+	`[level]`	0
+	`%`	200
+	`[fighter]`	76
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[fighter]`	76
+	`[all]`
+	`[level]`	4
+	`%`	800
+	`[fighter]`	99
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[fighter]`	99
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[fighter]`	104
+	`[all]`
+	`[level]`	0
+	`%`	800
+	`[fighter]`	104
+	`[all]`
+	`[level]`	1
+	`%`	800
+	`[fighter]`	104
+	`[all]`
+	`[level]`	4
+	`%`	800
+	`[fighter]`	104
+	`[all]`
+	`[level]`	5
+	`%`	800
+	`[fighter]`	104
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[fighter]`	104
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[fighter]`	106
+	`[all]`
+	`[level]`	0
+	`%`	800
+	`[fighter]`	106
+	`[all]`
+	`[level]`	1
+	`%`	10000
+[/skill data up]

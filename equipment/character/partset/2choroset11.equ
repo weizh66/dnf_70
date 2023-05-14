@@ -1,0 +1,108 @@
+#PVF_File
+
+[set name]
+	`削肉斷骨  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[swordman]`	58
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[swordman]`	159
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[swordman]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[swordman]`	32
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[裂波斬]冷卻時間 -2秒
+[裂波斬]多段攻擊次數 +1
+[波動爆發]冷卻時間 -1.5秒
+[波動爆發]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	52
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	52
+		`[dungeon type]`
+		`[level]`	2
+		`+`	30
+		`[swordman]`	52
+		`[dungeon type]`
+		`[level]`	3
+		`+`	30
+		`[swordman]`	52
+		`[dungeon type]`
+		`[maintain mp]`	0
+		`%`	-70
+		`[swordman]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+	[/skill data up]
+	[parameter basic explain]
+		`[殺意波動]每10秒MP的消耗量 -70%%
+[殺意波動]效果范圍 +20%%
+[殺意波動]暴擊增加率 +3%%
+[波動爆發]冷卻時間 -1.5秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[swordman]`	62
+		`[dungeon type]`
+		`[static]`	1
+		`+`	30
+		`[swordman]`	62
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[swordman]`	62
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[swordman]`	53
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10
+		`[swordman]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[swordman]`	47
+		`[dungeon type]`
+		`[level]`	2
+		`+`	-2000
+	[/skill data up]
+	[parameter basic explain]
+		`[無雙波]冷卻時間 -6秒
+[無雙波]基本擴大率 +30%%
+[無雙波]物防增加量 +30%%
+[無雙波]每吸附1名敵人時傷害量 +10%%
+[挫折意志]智力增加量 +10
+[波動爆發]冷卻時間 -2秒
+[波動刻印]生成時間間隔 -2秒`
+[/piece set ability]

@@ -1,0 +1,23 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/nenofbrilliance/ready_ex1_12.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		5	300
+	[FLASH SCREEN]
+		250	100	250	180	255	255	255
+[/BEHAVIOR]

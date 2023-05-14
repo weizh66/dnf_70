@@ -1,0 +1,64 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Lorien.ani`
+
+[cutscene image]
+	`Map/CutScene/Lorien.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act1.img`
+
+[worldmap pattern info]
+	1	1
+	`WorldMap/SelectdungeonSlot/elvengard.img`	0
+
+[minimum required level]
+	1
+
+[basis level]
+	1
+
+[experience increasing point]
+	1.2
+
+[champion]
+	0	0	0	0	0
+
+[pathgate object]
+	361	362	363	364	365	366	367	368	369	370
+
+[maze info]
+
+[size]
+	2	3
+
+[greed]
+	`JJEE
+ LLMM
+ DDGG`
+
+[start map]
+	0	0	1	0
+[/start map]
+
+[boss map]
+	0	2	1	2
+[/boss map]
+
+[special passive object item]
+	0	-1	2	1000	2000	1004	2000	1	-1	0
+[/special passive object item]
+
+[event monster]
+	1	5000	61726	1	300	80	1
+[/event monster]
+
+[name]
+	`洛蘭`
+
+[explain]
+	`洛蘭！ 這個林蔭閉日、 祥和安寧的叢林， 曾是人類和精靈的樂園！ 一場不知從什麼時候開始的異變， 讓大批哥布林聚集到了這裡。 這些突然出現的下等生物將會給阿拉德大陸的居民帶來什麼？ 初級的勇士們， 您可以從這裡開啟冒險之旅。`

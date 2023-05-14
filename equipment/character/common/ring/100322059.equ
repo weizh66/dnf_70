@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`汙濁之魂戒指 - 火`
+
+[basic explain]
+	`對灼傷狀態下敵人的傷害 +15%%
+    攻擊時， 有1%%的幾率使敵人進入灼傷狀態。`
+
+[detail explain]
+	`對灼傷狀態下敵人的傷害 +15%% (傷害加成效果取最高值， 且無法疊加； 暴擊/附加傷害除外)
+    攻擊時有1%%的幾率使敵人進入灼傷狀態4秒； 灼傷狀態下的敵人， 每0.5秒受到50點傷害。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[flavor text]
+	`    快燒吧， 我最愛吃燒烤了！ `
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[move speed]
+	30
+
+[hit recovery]
+	100
+
+[need material]
+	10000204	32
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	160
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	15
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		1
+	[active status]
+		`burn`	90	400	0	1	0
+[/then]
+
+[possible kiri protect]

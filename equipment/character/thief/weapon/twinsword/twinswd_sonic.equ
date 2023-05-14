@@ -1,0 +1,145 @@
+#PVF_File
+
+[name]
+	`音速疾風刃`
+
+[basic explain]
+	`[疾風亂舞]命中敵人時， 可以使自身進入加速狀態。`
+
+[detail explain]
+	`    [疾風亂舞]命中敵人時， 可以使自身進入加速狀態15秒； 加速狀態下， 增加15%%的移動速度和攻擊速度。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`twinswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	44
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	83160
+
+[value]
+	79200
+
+[cool time]
+	10000
+
+[HP MAX]
+	370
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	543	494
+
+[equipment magical attack]
+	426	387
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-80
+
+[physical critical hit]
+	5
+
+[stuck]
+	-3
+
+[skill levelup]
+	`[thief]`	34	2
+[/skill levelup]
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[if]
+	[cooltime]
+		25000
+	[skill]
+		`thief`	34
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[active status]
+		`haste`	50	15	15
+[/then]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

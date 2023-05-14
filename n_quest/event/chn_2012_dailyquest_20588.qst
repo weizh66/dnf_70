@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	61
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	1501	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	20
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[魔王]遠古 - 再次傳來的悲鳴聲`
+
+[depend message]
+	`我說， 各位冒險家， 你們都還好吧？
+我是那個在你們成長初期和你們有過短暫接觸的艾爾文防線鐵匠林納斯。 怎么樣， 想起來了嗎？
+我之所以特地跑到赫頓瑪爾這個大城市給你們留言， 是因為艾爾文防線最近開始傳來一種令人毛骨悚然的悲鳴聲。
+那聲音就好像是20年前的……啊， 那時的我年輕而且充滿干勁……呃， 我是說， 那聲音就和當年那個悲劇之地--悲鳴洞穴里的悲鳴聲如出一轍。
+記得當年， 那些歷史上有名的大英雄阿甘左、 西嵐和巴恩， 都曾在悲鳴洞穴里血戰使徒希洛克。 而如今， 是不是該輪到你們來繼承英雄的意志了？
+你們要是有空的話， 就到艾爾文防線來幫我調查一下吧。`
+
+[condition message]
+	`    通關洛蘭地區的『悲鳴洞穴』， 然后去找艾爾文防線的林納斯， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`年輕人， 你讓我想起了當年的英雄！
+就是我年輕時遇到過的阿甘左、 西嵐、 巴恩、 布萬加……他們個個都是頂天立地的人物啊……不過我也不知道他們現在身在何處了……`
+
+[quest point]
+	0

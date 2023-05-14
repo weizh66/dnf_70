@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/darkburst_ready_body.ani`
+	[SUB ANI]
+		`../animation/darkburst_ds/1_ready/back/darkburst_ready_back.ani`	0	1
+		`../animation/darkburst_ds/1_ready/front/darkburst_ready_front.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		9	9
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			701001
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

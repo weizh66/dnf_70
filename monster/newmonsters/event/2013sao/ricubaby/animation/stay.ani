@@ -1,0 +1,18 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		14
+	[IMAGE POS]
+		-193	-330
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DELAY]
+		1000
+	[DAMAGE BOX]
+	-79	-10	-14	147	20	187

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 不知火 (1/6)`
+
+[depend message]
+	`你難道不想變得更強嗎？ 我關注你很久了， 看你潛力無窮， 力量外溢， 忍不住要跟你說幾句。
+現在的你應該是可以突破極限達到新境界的。 如果想跳躍到新境界， 不妨就在這里修煉一下吧， 你覺得怎么樣？
+作為忍者的你一定知道素喃存在的意義吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`聽說你都沒走正式流程就破例被認可為忍者了？ 忍者家族向來不知變通， 你竟然獲得了那些老頑固的認可， 真是了不起。
+你問我是怎么知道的？ 這里可是素喃啊。 我怎么可能不知道忍者家族？
+反正， 既然你正在跟我聊天， 也就是想進入下一個階段吧？ 好， 那我們開始吧。`
+
+[target character]
+	`[thief]`	3	1
+[/target character]
+
+[relation quest]
+	6835
+
+[job change quest]
+	3
+
+[grow number]
+	0

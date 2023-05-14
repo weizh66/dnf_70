@@ -1,0 +1,33 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`monster/drake/rocks.img`
+		1
+	[IMAGE POS]
+		-19	-21
+	[RGBA]
+		150	150	150	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		300
+
+[FRAME001]
+	[IMAGE]
+		`monster/drake/rocks.img`
+		1
+	[IMAGE POS]
+		-19	-21
+	[IMAGE ROTATE]
+		6.269999980926514
+	[RGBA]
+		150	150	150	255
+	[DELAY]
+		20

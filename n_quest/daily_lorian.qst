@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	10
+
+[complete npc index]
+	64
+
+[difficulty]
+	`O`
+
+[ignore quest level 4 exp]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	64
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	9607
+
+[name]
+	`羅莉安的煩惱`
+
+[depend message]
+	`我的香水快要用完了
+這一瓶是莎蘭老師給我的,用起來感覺很不錯
+可是莎蘭老師說這瓶香水是米內特調製的，我和米內特又不是很熟…………
+嗯……………………
+冒險家,你能幫幫我嘛？`
+
+[condition message]
+	`前往赫頓瑪爾後街拜訪米內特`
+
+[solve message]
+	`怎麼了？有什麼事？`
+
+[quest point]
+	0

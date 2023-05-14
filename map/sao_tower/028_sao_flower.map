@@ -1,0 +1,100 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`tile/flower_garden_tile2.til`
+	`tile/flower_garden_tile2.til`
+	`tile/flower_garden_tile2.til`
+	`tile/flower_garden_tile2.til`
+	`tile/flower_garden_tile2.til`
+	`tile/flower_garden_tile2.til`
+	`tile/flower_garden_tile2.til`
+[/tile]
+
+[pathgate pos]
+	512	1147	604	1149	540	1147	562	1153
+
+[dungeon start area]
+	775	98	147	257
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[animation]
+	`animation/flower_closewall.ani`
+	`[closeback]`	112	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	249	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	386	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	523	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	660	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	797	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	934	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	1071	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	1208	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	1344	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	1481	166	0
+	`animation/flower_closewall.ani`
+	`[closeback]`	1618	166	0
+	`animation/flower_garden_ground_N.ani`
+	`[bottom]`	1	357	0
+	`animation/flower_garden_ground_N.ani`
+	`[bottom]`	225	357	0
+	`animation/flower_garden_ground_L.ani`
+	`[bottom]`	449	357	0
+	`animation/flower_garden_ground_N.ani`
+	`[bottom]`	1344	358	0
+	`animation/flower_garden_ground_N.ani`
+	`[bottom]`	1120	358	0
+	`animation/flower_garden_ground_R.ani`
+	`[bottom]`	896	358	0
+	`animation/sao_flower_far1.ani`
+	`[distantback]`	0	-200	0
+	`animation/sao_flower_far2.ani`
+	`[distantback]`	799	-199	0
+	`animation/sao_flower_mid1.ani`
+	`[middleback]`	-1	-190	0
+	`animation/sao_flower_mid2.ani`
+	`[middleback]`	790	-190	0
+[/animation]
+
+[monster]
+[/monster]
+
+[ai character]
+	16619	621	230	0
+	`[monster]`
+	`[boss]`	2	0
+[/ai character]
+
+[event monster position]
+	596	224	0	533	309	0	456	241	0	492	308	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

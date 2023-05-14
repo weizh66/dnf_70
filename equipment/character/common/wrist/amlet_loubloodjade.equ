@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`羅烏的血玉手鐲`
+
+[basic explain]
+	`在決鬥場中，出血傷害增加10%%`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[creation rate]
+	30
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	25
+
+[physical defense]
+	62
+
+[price]
+	73200
+
+[repair price]
+	61488
+
+[value]
+	58560
+
+[need material]
+	3340	33
+
+[equipment magical defense]
+	3264	3024
+
+[icon]
+	`Item/common/bracelet.img`	18
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[active status control info]
+	`bleeding`	0	6	0	20
+
+[pvp]
+	[active status control info]
+		`bleeding`	0	6	0	10
+[/pvp]
+
+[possible kiri protect]

@@ -1,0 +1,15 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/damage1.ani`
+	[SUB ANI]
+		`../Animation/damage1_1.ani`	0	1
+		`../Animation/damage1_2.ani`	0	2
+		`../Animation/damage1_3.ani`	0	3
+	[/SUB ANI]
+	[SPEECH]
+		`高陸好痛`
+			0	5
+	[/SPEECH]
+[/MOTION]

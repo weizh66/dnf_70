@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	134
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	77	99
+
+[pre required quest]
+	4241
+[/pre required quest]
+
+[cant giveup]
+	2
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	5
+
+[int data]
+	77	-1	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`艾麗絲的自覺 1`
+
+[depend message]
+	`我大意了，萬萬沒想到她會這麼無情的用魔法攻擊。
+這樣下去，艾麗絲在完成時間之門調查後，就會去魔界。要盡快集結強力夥伴追趕艾麗絲！快！`
+
+[condition message]
+	`4人小隊以上，擊敗時間之門自覺的艾麗絲（本任務在進行地下城過程中無法放棄任務。） `
+
+[solve message]
+	`我輸了……。今後要完成的預言，該怎麼辦啊。
+<npc::126>你怎麼做了這種事啊？
+<npc::134>大家都因為預言… 呃…… 呃啊啊啊！！！！
+<npc::126>變得很奇怪啊？`
+
+[dialog]
+	1	0	77	0	1	62105	0
+	`<monster::62105>愚笨的…… 機會沒有第二次。`
+[/dialog]
+
+[quest point]
+	4

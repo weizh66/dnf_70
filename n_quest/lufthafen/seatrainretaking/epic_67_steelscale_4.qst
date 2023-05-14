@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	66
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	146
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3315	1	6056	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`目標藍影馬薩喬`
+
+[depend message]
+	`我們偽裝成哪個好呢？
+嗯……要不就馬薩喬吧！ 海賊團里面除了波迪爾就屬他最討厭了， 而且還長得那么丑！
+冒險家， 你把這個拿去對著他掃描下試試吧！`
+
+[condition message]
+	`    獨自一人前往海上列車的『奪回西部線』， 并用[SC-13 掃描機器人]掃描藍影馬薩喬。 (當馬薩喬的體力不足20%時， 可以對其進行掃描； 無法在英雄級難度下完成該任務)`
+
+[solve message]
+	`怎么樣？ 掃描成功了嗎？
+太好了！ 之前你離開的時候， 我已經研究出來怎么制作偽裝服了， 現在只要把資料輸進去就搞定了。 你等我一會兒啊！ `
+
+[quest point]
+	4

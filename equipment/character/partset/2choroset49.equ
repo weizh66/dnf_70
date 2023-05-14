@@ -1,0 +1,167 @@
+#PVF_File
+
+[set name]
+	`無限之契約  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-20
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-20
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	6
+		`%`	-20
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	7
+		`%`	-20
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	8
+		`%`	-20
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	9
+		`%`	-20
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	10
+		`%`	-20
+		`[mage]`	25
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[mage]`	80
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-20
+		`[mage]`	80
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-20
+		`[mage]`	80
+		`[dungeon type]`
+		`[level]`	6
+		`%`	-20
+		`[mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[契約召喚 : 赫德爾]和[契約召喚 : 弗利特]攻擊冷卻時間 -20%%
+[契約召喚 : 赫德爾]和[契約召喚 : 弗利特]召喚獸Lv +2`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-30
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-30
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	6
+		`%`	-30
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	7
+		`%`	-30
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	8
+		`%`	-30
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	9
+		`%`	-30
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	10
+		`%`	-30
+		`[mage]`	44
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[mage]`	45
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-30
+		`[mage]`	45
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-30
+		`[mage]`	45
+		`[dungeon type]`
+		`[level]`	6
+		`%`	-30
+		`[mage]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[mage]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2200
+	[/skill data up]
+	[parameter basic explain]
+		`[契約召喚 : 桑德爾]和[契約召喚 : 襖索]攻擊冷卻時間 -30%%
+[契約召喚 : 桑德爾]和[契約召喚 : 襖索]召喚獸Lv +2
+[契約召喚 : 襖索]冷卻時間 -2.2秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-130000
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-2
+		`[mage]`	47
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-50000
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-10
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-10
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	6
+		`%`	-10
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	7
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[契約召喚 : 路易絲]可召喚數 +1
+[契約召喚 : 路易絲]召喚持續時間 -130秒
+[契約召喚 : 路易絲]召喚獸Lv -2
+[契約召喚 : 路易絲]攻擊冷卻時間 -10%%
+[精靈召喚 : 伊伽貝拉]召喚持續時間 -50秒`
+[/piece set ability]

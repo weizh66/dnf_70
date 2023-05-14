@@ -1,0 +1,992 @@
+#PVF_File
+
+[command]
+	1
+	`System`
+	`GM 賅萄衛濛`
+	`//dhflwls`
+	`[顫 : 螃葬霞]`
+
+[command]
+	2
+	`Character`
+	`溯漣 褻薑`
+	`//lv [1~70]`
+	``
+
+[command]
+	3
+	`Character`
+	`瞪霜`
+	`//grow [type] [grow]`
+	`type(1:瞪霜, 2:陝撩), grow( 1(錚,縣葆,喧葆,溶螳,觼瑞,煎斜)   2(幗撓,漿餌,蝶,楛籀,檣,餌滄)   3(模選,寡詭,蝶醴,詭蘋,黴葆)   4(嬴熱塭,葆紫,斜,蝶) )`
+
+[command]
+	5
+	`Character`
+	`獗晦`
+	`//hide`
+	``
+
+[command]
+	6
+	`Character`
+	`爾檜晦`
+	`//show`
+	``
+
+[command]
+	7
+	`Item`
+	`嬴檜蠱 睡腦晦`
+	`//item 檣策蝶`
+	``
+
+[command]
+	8
+	`Item`
+	`檜啗曖 晦遴 濰綠 睡腦晦`
+	`//dirty 檣策蝶`
+	``
+
+[command]
+	9
+	`Item`
+	`嬴夥顫 睡腦晦`
+	`//avatar 檣策蝶 晦 棟溘纂`
+	``
+
+[command]
+	10
+	`Monster`
+	`跨蝶攪 瞪資 1`
+	`//kill`
+	`營 寞曖 跨蝶攪 瞪資`
+
+[command]
+	11
+	`Monster`
+	`跨蝶攪 瞪資 2`
+	`//allkill`
+	`擅戲煎 霞殮朝 賅萇 寞曖 跨蝶攪 瞪資`
+
+[command]
+	12
+	`Monster`
+	`跨蝶攪 瞪資 3`
+	`//kill u`
+	`螃粽薛, 爾蝶  賅萇 瞳擊 惚`
+
+[command]
+	13
+	`Monster`
+	`跨蝶攪 瞪資 4`
+	`//kill all`
+	`螃粽薛, 爾蝶  賅萇 瞳, 嬴捱 惚`
+
+[command]
+	14
+	`Quest`
+	`蠡蝶 嫡晦`
+	`//quest 檣策蝶`
+	``
+
+[command]
+	15
+	`Quest`
+	`蠡蝶 諫猿`
+	`//q 檣策蝶`
+	``
+
+[command]
+	16
+	`Creature`
+	`觼葬藥 唳纂 褻瞰`
+	`//creature exp 薑熱`
+	``
+
+[command]
+	17
+	`Creature`
+	`觼葬藥 虜犒紫`
+	`//creature fill (薑熱)`
+	``
+
+[command]
+	18
+	`Creature`
+	`觼葬藥霞`
+	`//creature evolution 1 1`
+	``
+
+[command]
+	19
+	`Creature`
+	`觼葬藥霞`
+	`//upgrade success`
+	``
+
+[command]
+	20
+	`Item`
+	`鬼 褒`
+	`//upgrade fail`
+	``
+
+[command]
+	21
+	`Town`
+	`雖羲檜翕`
+	`//move area x y`
+	`ex : 絲葆檜橫 檜翕衛 //move area 2 1`
+
+[command]
+	22
+	`Contents`
+	`蝶顫橾 熱纂 褻瞰`
+	`//style 1~100`
+	`貲滄橫 殮溘 奢問擋暮擊 鏃撿 瞳辨脾`
+
+[command]
+	23
+	`Contents`
+	`纔觼棣 熱纂 褻瞰`
+	`//technic 1~100`
+	`貲滄橫 殮溘 奢問擋暮擊 鏃撿 瞳辨脾`
+
+[command]
+	24
+	`Contents`
+	`巍爾 熱纂 褻瞰`
+	`//combo 1~100`
+	``
+
+[command]
+	25
+	`User`
+	`釭檜 撲薑`
+	`//age 1~100`
+	``
+
+[command]
+	26
+	`Character`
+	`唸癱 蛔晝 滲唳`
+	`//pvprank 0~34`
+	`0[10晝] ~ 34[癱褐]`
+
+[command]
+	27
+	`Character`
+	`楣檣 褻瞰`
+	`//luckpoint 薑熱`
+	``
+
+[command]
+	28
+	`Character`
+	`鼻鷓滲`
+	`//activestatus 0 謙盟 溯漣 衛除 等嘐雖`
+	`衛除 晦遽擎 塵葬蟾 (5蟾 -> 5000)\n//activestatus 0 stone 5 5000 500 -> 濠晦濠褐纔 5溯漣 戮蒂 5蟾翕寰 戮陛 葬賊 500等嘐雖\n//activestatus 0 haste 10 100000 10 10 -> 濠晦濠褐纔 10溯漣 檜蝶蒂 100蟾翕寰 奢樓 10% 檜樓 10% 隸陛\n鼻鷓檜鼻 謙盟 : blind,freeze,stun,slow,haste,sleep,confuse,hold,poison,lightning,bleeding,burn,bless,curse`
+
+[command]
+	29
+	`Character`
+	`HP 褻薑
+`
+	`//sethp 薑熱`
+	``
+
+[command]
+	30
+	`Character`
+	`葆擊曖 蜓賡爵檜 on`
+	`//troublemaker on`
+	``
+
+[command]
+	31
+	`Character`
+	`葆擊曖 蜓賡爵檜 off`
+	`//troublemaker off`
+	``
+
+[command]
+	32
+	`Character`
+	`嫦鐘雖熱 褻薑`
+	`//bal 薑熱`
+	``
+
+[command]
+	33
+	`Guild`
+	`望萄唳纂 鼻蝓`
+	`//guild exp 薑熱`
+	``
+
+[command]
+	34
+	`Guild`
+	`望萄 潑`
+	`//delguld`
+	`營朝 //ud 44 餌辨`
+
+[command]
+	35
+	`Contents`
+	`囀檣 模賅`
+	`//coin 模賅熱榆`
+	`//coin 10 -> 囀檣10偃蒂 模賅`
+
+[command]
+	36
+	`System`
+	`PC寞賅萄ON`
+	`//add item -1`
+	`頂睡縑憮 衛寞戲煎 虜菟熱 氈擠 晦除擎 瑞`
+
+[command]
+	37
+	`Contents`
+	`瞪僥霜機 熨溼紫 隸陛`
+	`//expert exp 薑熱`
+	``
+
+[command]
+	38
+	`Item`
+	`嬴檜蠱 熱婁 嫦翕
+`
+	`//itemeffecttest`
+	`廓 噙賊 100%嫦翕, 棻衛噙賊 錳楚渠煎 滲唳, if掘僥擊 餌辨朝 濰綠虜 瞳辨脾`
+
+[command]
+	39
+	`Skill`
+	`籐顫歜 餉薯`
+	`//nocool`
+	`餌辨衛 籐顫歜檜 橈橫颶, 葆擊煎 給嬴陞唳辦 薑鼻`
+
+[command]
+	40
+	`Contents`
+	`NPC 馬紫 熱纂 褻薑`
+	`//npcfav npc廓 馬紫熱纂`
+	`<渡NPC縑啪 廓檜塭紫 摹僭擊  褒 罹撿 >\n馬紫 0~999 : 1欽啗\n馬紫 1000~1999 : 2欽啗(爾鱔)\n馬紫 2000~2999 : 3欽啗(馬)\n馬紫 3000~3200 : 4欽啗(褐煆)\nNPC 檣策蝶 : 諼睡橾 霤褻`
+
+[command]
+	41
+	`Contents`
+	`NPC 馬紫 褐煆 嶸雖 橾熱 褻薑`
+	`//favterm npc廓 褐煆嶸雖橾濠`
+	`褐煆鼻鷓檣唳辦縑 餌辨罹撿 , 晦遽擎 擨 欽嬪`
+
+[command]
+	42
+	`Contents`
+	`雖螟 睡腦晦`
+	`//sumhell 雖螟斜瑜廓`
+	`(葆戮擊 檜辨 雖螟 殮濰, 雖螟寞 霞殮瞪縑 貲滄橫 殮溘罹撿 )\n雖螟斜瑜廓 : 諼睡橾 霤褻`
+
+[command]
+	43
+	`Guild`
+	`望萄 溯漣機`
+	`//guild level up`
+	`1溯漣噶 螢塭馬\n譆堅溯漣梱雖 螢葬朝匙檜 嬴棲賊 望萄唳纂疇戲煎 溯漣機 匙`
+
+[command]
+	44
+	`Contents`
+	`撮溘湍瞪 殮濰 陛棟`
+	`//sdale 薑熱`
+	`憮湍等橾殮濰檜 陛棟啪 腎朝 貲滄橫, 薑熱 熱纂 虜躑 偃檣 撮溘瞪 檣蒂 雖晝`
+
+[command]
+	45
+	`Contents`
+	`撮溘瞪 衛濛`
+	`//power war start`
+	``
+
+[command]
+	46
+	`Contents`
+	`撮溘瞪 謙猿`
+	`//power war end`
+	``
+
+[command]
+	47
+	`Contents`
+	`A撮溘 霤陛`
+	`//power join a`
+	``
+
+[command]
+	48
+	`Contents`
+	`B撮溘 霤陛`
+	`//power join b`
+	``
+
+[command]
+	49
+	`Contents`
+	`錶機  儅撩`
+	`//power up/down`
+	``
+
+[command]
+	50
+	`Contents`
+	`撮溘瞪 翱蝓 熱 褻瞰`
+	`//power win (熱)`
+	`撮溘瞪 翱蝓 熱 褻瞰. 營朝  //ud 43 餌辨`
+
+[command]
+	51
+	`Contents`
+	`鼠曖 薯欽 BP隸陛`
+	`//bp 1~99999`
+	``
+
+[command]
+	52
+	`Contents`
+	`葆擊藹奢 衛濛`
+	`//townatk 衛除(蟾)`
+	``
+
+[command]
+	53
+	`Contents`
+	`葆擊藹奢擊 撩奢戲煎 部頂晦`
+	`//townatk success`
+	``
+
+[command]
+	54
+	`Contents`
+	`葆擊藹奢擊 褒煎 部頂晦`
+	`//townatk fail`
+	``
+
+[command]
+	55
+	`Contents`
+	`葆擊藹奢 褒割 橈擁晦`
+	`//townatk end`
+	``
+
+[command]
+	56
+	`System`
+	`贗 璋濠 褻謙`
+	`//make hit object 璋濠`
+	``
+
+[command]
+	57
+	`Monster`
+	`跨蝶攪陛 掩擊衛 貲滄橫 1`
+	`//showmaster`
+	`營 跪婁 衛粽 螃粽薛曖 controlmaster 蒂 爾罹鄹棲棻. 廓 渦 殮溘 唳辦 餌塭餵棲棻.`
+
+[command]
+	58
+	`Monster`
+	`跨蝶攪陛 掩擊衛 貲滄橫 2`
+	`//validatemaster`
+	`縑檜蟒衛陛 噙溯晦 controlmaster 蒂 犒掘 鄹棲棻. 議葛攪陛 掩歷擊陽 僥薯蒂 霞欽 熱 氈蝗棲棻.`
+
+[command]
+	59
+	`Item`
+	`濰綠隸璽ON`
+	`//amplifywindow`
+	``
+
+[command]
+	60
+	`Item`
+	`縞綰源 撩璽 翮晦`
+	`//compound emblem`
+	``
+
+[command]
+	61
+	`Contents`
+	`議葛攪郭歜驍轎`
+	`//議葛攪郭歜驍轎`
+	``
+
+[command]
+	62
+	`Contents`
+	`嬴檜蠱郭歜驍轎`
+	`//嬴檜蠱郭歜驍轎`
+	``
+
+[command]
+	63
+	`System`
+	`衙觼煎濛撩`
+	`//rec start/end/play`
+	``
+
+[command]
+	64
+	`Character`
+	`營 議葛攪 蝶囌 爾罹輿晦`
+	`//spd`
+	`檜翕樓紫, 奢問樓紫, 議蝶 樓紫曖 褒熱纂蒂 爾罹邀, 餌辨綴紫朝 堪雖彊擠`
+
+[command]
+	65
+	`Character`
+	`蝸煎辦 賅暮 晦棟`
+	``
+	`雖縞賅萄衛\nNumpad曖 1 擊 援腦賊 樓紫陛 錳楚曖 30% 陛 腎賊憮 slow mode 陛 腎堅 Numpad曖 2蒂 援腦賊 樓紫陛 錳楚渠煎 給嬴螃貊 slow mode 陛 部釭堅 slow mode 橾 陽 楝蝶, 葆檜傘蝶 酈蒂 援腦賊 樓紫陛 5% 欽嬪煎 褻薑腌棲棻.`
+
+[command]
+	66
+	`Item`
+	`濰綠 頂掘紫 模賅 晦棟`
+	`//durable 蝸煜廓 頂掘紫熱纂`
+	`嬪纂(蝸煜廓) : 鼠晦(10),蘆(11),鼻曖(12),橫梟(13),曖(14),褐嫦(15),葬(16),跡勘檜(17),鎬(18),奩雖(19),爾褻(20),葆徹戮(21)`
+
+[command]
+	67
+	`Character`
+	`煎紫 模賅`
+	`//fatigue 薑熱`
+	`//fatigue 10 : 10虜躑 模賅`
+
+[command]
+	68
+	`Character`
+	`煎紫 撲薑`
+	`//fatigue set 薑熱`
+	`//fatigue set 10 : 陴擎 煎紫陛 10檜脾`
+
+[command]
+	69
+	`Item`
+	`嬴檜蠱 廓縑 罹楝偃 餌辨晦`
+	`//use item 襬蝸煜廓 餌辨偃熱`
+	``
+
+[command]
+	70
+	`Contents`
+	`偃檣撮溘瞪 檣`
+	`//power userpoint 熱纂`
+	``
+
+[command]
+	71
+	`Contents`
+	`望萄 撮溘瞪 檣`
+	`//power guildpoint 熱纂`
+	``
+
+[command]
+	72
+	`Item`
+	`(檣漸饜葬 賅舒 綠辦晦)`
+	`//ud 37
+//empty inven`
+	``
+
+[command]
+	73
+	`Item`
+	`(嬴夥顫 檣漸饜葬 賅舒 綠辦晦)`
+	`//ud 38
+//empty avat`
+	``
+
+[command]
+	74
+	`System`
+	`瓣犒餌`
+	`錨縞 賅萄縑憮 Ctrl+V`
+	``
+
+[command]
+	75
+	`Event`
+	`檜漸 衛濛`
+	`//startevent 檜漸廓`
+	`檜漸 衛濛衛 parameter陛 蹂 唳辦朝 棻擠婁 偽檜 餌辨衛賊 腌棲棻. //startevent 檜漸廓 塭嘐攪1 塭嘐攪2 ≦ 獄 貲滄擎 賅棲攪憮幗蒂 剪纂晦 陽僥縑, 賅棲攪諦 翱唸脹 瞪 啪歜憮幗縑 瞳辨腌棲棻.`
+
+[command]
+	76
+	`Event`
+	`檜漸 謙猿`
+	`//endevent 檜漸廓`
+	``
+
+[command]
+	77
+	`Monster`
+	`跨蝶攪 轎`
+	`//tm 跨蝶攪檣策蝶 溯漣`
+	`跨蝶攪 檣策蝶朝 衛 霤褻(Act1 ~ ETC)`
+
+[command]
+	78
+	`Contents`
+	`啗薑 璽堅 餉薯`
+	`//cargo delete`
+	`營蕾樓 蹂`
+
+[command]
+	79
+	`Contents`
+	`檜啗湍瞪 殮濰熱 蟾晦`
+	`//dimen max`
+	``
+
+[command]
+	80
+	`Contents`
+	`湍瞪 殮濰 褒`
+	`//blockloading`
+	``
+
+[command]
+	81
+	`System`
+	`贗萼萄熱纂 雪蹺晦`
+	`//cppoint 熱纂`
+	``
+
+[command]
+	82
+	`System`
+	`贗萼萄 嗥辦晦`
+	`//cpopen`
+	``
+
+[command]
+	83
+	`Item`
+	`3離 觼煎棲贗 葆睡 褒`
+	`//3chro fail`
+	``
+
+[command]
+	84
+	`Item`
+	`3離 觼煎棲贗 葆睡 撩奢`
+	`//3chro success`
+	``
+
+[command]
+	85
+	`Item`
+	`3離 觼煎棲贗 葆睡 錳楚渠煎`
+	`//3chro reset`
+	``
+
+[command]
+	86
+	`Contents`
+	`斛曖 薯欽擊 翮堅 殘朝 貲滄橫`
+	`//ud 55 0/1`
+	`0擎 close, 1擎 open`
+
+[command]
+	87
+	`Contents`
+	`斛曖 薯欽 殮濰熱 蟾晦`
+	`//ulti max`
+	``
+
+[command]
+	88
+	`System`
+	`嬴檜蠱 詭橾 爾頂晦`
+	`//mailitem 嬴檜蠱檣策蝶`
+	`殮溘 嬴檜蠱 檣策蝶曖 嬴檜蠱 1偃蒂. 模煎 輝鄹棲棻`
+
+[command]
+	89
+	`Contents`
+	`APC 睡腦晦`
+	`//testai index`
+	``
+
+[command]
+	90
+	`Contents`
+	`陛粽葬縣 模`
+	`//shopnpc 1001/1002`
+	``
+
+[command]
+	91
+	`Character`
+	`議葛攪 撮`
+	`//super 溯漣 霜機貲`
+	`溯漣擎 45~70 掘除陛棟, 霜機貲擎 霜機貲龔 霤褻`
+
+[command]
+	92
+	`System`
+	`等嘐雖 嘐攪晦`
+	`//lab`
+	`撥薑, 等嘐雖 嘐攪晦 爾檜晦`
+
+[command]
+	93
+	`Item`
+	`睡蝶攪顫殮曖 嬴檜蠱 唸婁羹觼`
+	`//checklottoitem (//cli) 嬴檜蠱檣策蝶`
+	``
+
+[command]
+	94
+	`Item`
+	`嬴檜蠱 萄奧衛酈晦`
+	`//dropitem`
+	``
+
+[command]
+	95
+	`Character`
+	`葬嘐樵(ex:啗擒盟) 雖辦晦`
+	`//premiumdelete (//pd)`
+	``
+
+[command]
+	96
+	`Creature`
+	`觼葬藥 啪檜雖 煎 瓣辦晦`
+	`//creature full`
+	``
+
+[command]
+	97
+	`Contents`
+	`瞪爵雖羲 衛濛`
+	`//startwarroom`
+	`瞪爵雖羲擊 濠憮紫 衛濛 熱 氈朝 貲滄橫`
+
+[command]
+	98
+	`Contents`
+	`瞪爵雖羲 殮濰 UI 撩`
+	`//smtw`
+	``
+
+[command]
+	99
+	`Guild`
+	`望萄轎戮 蟾晦`
+	`//guilddebug 0`
+	``
+
+[command]
+	100
+	`Guild`
+	`螃棺曖 望萄錳 蟾晦`
+	`//guilddebug 1`
+	``
+
+[command]
+	101
+	`Guild`
+	`望萄 旎擋 撮`
+	`//guildfund 旎擋`
+	``
+
+[command]
+	102
+	`Contents`
+	`奢唸嘐暮 謙盟 高 滲唳`
+	`//mission [kind] [value]`
+	`乾堅氈朝 kind曖 嘐暮曖 value蒂 滲唳 衛霾棲棻.`
+
+[command]
+	103
+	`Contents`
+	`奢唸嘐暮 螃棺曖 嘐暮 億煎 嫡晦`
+	`//newDailyMission`
+	``
+
+[command]
+	104
+	`Contents`
+	`奢唸嘐暮 嘐暮 贗葬橫`
+	`//clearMission [index]`
+	`乾堅 氈朝 嘐暮index蒂 贗葬橫 棲棻`
+
+[command]
+	105
+	`Contents`
+	`奢唸嘐暮 嘐暮謙盟 贗葬橫`
+	`//clearMissionKind [kind]`
+	`乾堅 氈朝 嘐暮 kind蒂 贗葬橫 棲棻`
+
+[command]
+	106
+	`Contents`
+	`奢唸嘐暮 嘐暮 葬蝶 蟾晦`
+	`//resetMissionList`
+	`嘐暮 葬蝶蒂 誕! 蟾晦 堅 棻衛 嫡蝗棲棻. 螃棺曖 嘐暮擎 嫡雖 彊蝗棲棻`
+
+[command]
+	107
+	`Contents`
+	`湍瞪縑憮 摹鷗 跨蝶攪 避檜晦`
+	`//dunstool`
+	`跨蝶攪蒂 贗葛, 鐘煤 贗葛(棻熱 摹鷗)罹 摹鷗  del酈蒂 援腦賊 跨蝶攪蒂 薯剪 陛棟棲棻.`
+
+[command]
+	108
+	`Contents`
+	`蠡蝶 湍瞪 爾檜晦`
+	`//showdg 0/1`
+	`蠡蝶蒂 陛雖堅氈擊陽虜 喻轎腎紫煙 虜萇 蠡蝶湍瞪檜 錨縞賅萄煎 菟橫陞 唳辦 棻 喻轎檜 腎賊憮 檣檜 薯渠煎 腎雖彊朝 鼻檜 氈橫憮, 錨縞賅萄檜渦塭紫 貲滄橫蒂 纂賊 喻轎腎雖 彊紫煙 朝 貲滄橫蒂 偃嫦蝗棲棻`
+
+[command]
+	109
+	`Contents`
+	`顫問彰嬪 羹觼`
+	`//showbox`
+	`蝶鑒 顫問彰嬪蒂 爾罹邀`
+
+[command]
+	110
+	`Contents`
+	`幗棚蝶纔檜雖 熱 褻瞰`
+	`//burningstage [熱]`
+	`幗棚 蝶纔檜雖 熱 撲薑`
+
+[command]
+	111
+	`Item`
+	`等嘐雖 熱纂 堅薑`
+	`//no random`
+	`橾薑彰嬪曖 等嘐雖 熱纂蒂 堅薑高戲煎 滲唳邀`
+
+[command]
+	112
+	`Item`
+	`楠渾褫暮嬴檜蠱 儅撩`
+	`//randitem 檣策蝶 褫暮1 褫暮1 熱纂%`
+	`褫暮檜 鬼薯煎 睡罹脹 嬴檜蠱擊 碳楝褥. 譆渠 3偃曖 褫暮 睡罹陛棟 //randitem 21002123 120 30 143 70 43 50  - 120廓 褫暮 30% 熱纂, 143廓 褫暮 70% 熱纂, 43廓 褫暮 50% 熱纂`
+
+[command]
+	113
+	`Item`
+	`蘋萄 撩 唸婁爾晦`
+	`//monstercardbind (//mcb) 蘋萄檣策蝶1 蘋萄檣策蝶2`
+	`贗塭檜樹 渦 頂縑 唸婁 橾檜 儅撩腌棲棻. ex) mcb_3605_3606.txt (纔蝶縑 餌辨脹 跨蝶攪 蘋萄曖 檣策蝶陛 腌棲棻) 輿曖餌) 殮溘朝 跨蝶攪蘋萄曖 溯橫葬陛 憮煎 偽嬴撿 棲棻.`
+
+[command]
+	114
+	`Contents`
+	`餌鱉 類檜翕`
+	`//tower 類熱`
+	`貲滄橫 殮溘  渡類 贗葬橫蒂  唳辦 貲滄橫煎 殮溘 類戲煎 檜翕`
+
+[command]
+	115
+	`System`
+	`濰綠薯濛熨溼紫 滲唳`
+	`//itemskill 熨溼紫顫殮 value`
+	`溯漣 薯 檜鼻曖 熱纂朝 瞳辨檜 寰脾.\n熨溼紫 塽 溯漣薯縑 憲蜃擎 熱纂虜 晦殮罹 餌辨 - 熨溼紫 顫殮 : 0(鼠晦), 1(繭), 2(陛避), 3(唳骨), 4(醞骨), 5(旎), 6(跡勘檜), 7(鎬), (8奩雖)`
+
+[command]
+	116
+	`Item`
+	`溯憮 營猿 廓縑 橢晦`
+	`//recipe 溯憮檣策蝶`
+	`渡 溯憮曖營猿陛 100偃噶 雖晝脾`
+
+[command]
+	117
+	`Item`
+	`嬴檜蠱 檣策蝶 爾晦`
+	`//showindex`
+	`醴憮煎 摹鷗 嬴檜蠱 塽 蠡蝶(摹 )曖 檣策蝶陛 喬儀戲煎 衛 脾`
+
+[command]
+	118
+	`Contents`
+	`瞰蜂曖 鱉 檜翕 貲滄橫`
+	`//wjfakd (類熱-1)`
+	`EX) 2類 檜翕 //wjfakd 1`
+
+[command]
+	119
+	`System`
+	`蘆磁 - 殖撩紫 褻瞰`
+	`//tb 蠡蝶檣策蝶 殖撩%`
+	`蕨 : //tb 4342 99 (4342 蠡蝶蒂 99 % 殖撩) //tb 煎 99 % 殖撩褐 僅偽擎 貲滄橫蒂 棻衛 殮溘衛賊 陴擎 偃熱縑憮 棻衛 99% 殖撩腌棲棻.`
+
+[command]
+	120
+	`System`
+	`蘆磁 - 機瞳/蘆磁 蟾晦`
+	`//ac reset`
+	``
+
+[command]
+	121
+	`System`
+	`蘆磁 - 蘆磁虜 蟾晦`
+	`//tb reset`
+	``
+
+[command]
+	122
+	`System`
+	`蘆磁 - 薑機瞳 殖撩`
+	`//ac clear [機瞳id]`
+	``
+
+[command]
+	123
+	`System`
+	`蘆磁 - 賅萇 機瞳 殖撩`
+	`//ac all`
+	``
+
+[command]
+	124
+	`Contents`
+	`奢唸 巍爾嘐暮 贗葬橫`
+	`//clearcombo`
+	``
+
+[command]
+	125
+	`Item`
+	`楠渾 嬴檜蠱 纔蝶 唸婁 羹觼`
+	`//checklottoitem(//cli) (item_id) (給萵熱)`
+	`熱陛 儅楞腎賊 10000廓 給萼 唸婁 高. 雖釭纂啪 贖 熱煎 給葬啪 腎賊 憮幗陛 楠渾嬴檜蠱 鉻朝 睡陛 觼棲 窕 蹂衛縑 餌辨 睡饕萄董棲棻`
+
+[command]
+	126
+	`Item`
+	`夥檣萄 聽粽 纔蝶`
+	`//checkbind (//cbind)`
+	``
+
+[command]
+	127
+	`Item`
+	`嬴檜蠱 罐 鱔簞煎 蹺轎 晦棟`
+	`//exportitemtext (//eit)`
+	`嬴檜蠱(蝶鷓醴綰, 濰綠, 嬴夥顫 鼠婦) 嬪縑 醴憮蒂 渠堅 嬴檜蠱 罐檜 嗤 鼻鷓煎 F4 酈蒂 援腦賊 iteminfo.txt 塭朝 橾煎 賅萇 嬴檜蠱 薑爾陛 臢蝶煎 轎溘腌棲棻`
+
+[command]
+	128
+	`System`
+	`寞歎辨 唸癱濰 籀歲 虜菟晦`
+	`//tournament on/off`
+	`貲滄橫 殮溘 唸癱濰 瓣割 霞殮`
+
+[command]
+	129
+	`Item`
+	`嬴檜蠱 蛔晝 蹺轎`
+	`//itemseed x y`
+	`x朝 嬴檜蠱 檣策蝶 y朝 randseed 貲滄橫煎 鉻擎 衛萄高擊 殮溘 輿衛賊 腌棲棻. y朝 蛔晝 -100(譆晝) ~ 0(醞晝) ~ 100(譆鼻晝) 殮棲棻`
+
+[command]
+	130
+	`System`
+	`GM 醴裔萄裘 孺紫辦 爾晦`
+	`//showcmd`
+	`雖旎 爾堅 啗衛朝 檜 璽擊 嗥辦朝 貲滄殮棲棻. 殼檜 試盪傍 殖倏檜 試盪傍?`
+
+[command]
+	131
+	`Quest`
+	`蠡蝶 濠翕 諫猿`
+	`//autopass`
+	`蠡蝶蒂 熱塊賊 //questclear2 檣策蝶蒂 殮溘 匙籀歲 濠翕戲煎 諫猿梱雖 遽棻`
+
+[command]
+	132
+	`System`
+	`機 孺紫辦 嗥辦晦`
+	`//opw 機孺紫辦檣策蝶`
+	`薑檣策蝶曖 機孺紫辦蒂 嗥鄴棲棻.IRDPopupWindow::POPUP_WINDOW_TYPE_MAX高 霤堅`
+
+[command]
+	133
+	`Creature`
+	`觼葬藥 濰雜`
+	`//setCreature 觼葬藥檣策蝶`
+	`湍瞪縑憮 渡 觼葬藥蒂 濰雜棲棻. (蛤幗斜賅萄縑憮虜 濛翕)`
+
+[command]
+	134
+	`System`
+	`檜嘐雖 唳煎 爾罹輿晦`
+	`//imgpath 1 0 傳朝 儅楞`
+	`葆辦蝶 醴憮 嬪纂縑 氈朝 檜嘐雖曖 唳煎蒂 爾罹鄹棲棻. (貲滄橫 菴縑 1擎 爾檜晦, 0擎 獗晦晦, 儅楞擎 饜旋)`
+
+[command]
+	135
+	`Quest`
+	`渡 溯漣 賅萇 縑蠡蝶 諫猿`
+	`//lvclear (溯漣1) (溯漣2)`
+	`溯漣1, 溯漣2 賅舒 儅楞 衛 議葛攪曖 營 溯漣, 溯漣2 儅楞 衛 溯漣1, 賅舒 氈擊 衛縑朝 溯漣1 ~ 溯漣2 餌檜曖 賅萇 縑蠡蝶蒂 贗葬橫棲棻. (爾鼻 橈擠)`
+
+[command]
+	136
+	`Character`
+	`蝶鑒 蹺陛`
+	`//add skill (蝶鑒檣策蝶 or all) (溯漣)`
+	`渡 蝶鑒檣策蝶釭 all曖 唳辦 渡議葛攪曖 賅萇 蝶鑒擊 殖 溯漣煎 夥習棲棻. 橈戲賊 蹺陛 鄹棲棻.`
+
+[command]
+	137
+	`Item`
+	`撮嬴檜蠱  廓縑 橢晦`
+	`//itemset 鼻曖嬴檜蠱(嬴夥顫)檣策蝶`
+	`撮 嬴檜蠱擊 貲滄橫 釭煎  廓縑 虜菟橫鄹棲棻`
+
+[command]
+	138
+	`Contents`
+	`贗葬橫 楨觼 褻瞰晦`
+	`//setrank (//sr) [熱纂(儅楞陛棟) 傳朝 off]`
+	`湍瞪 贗葬橫 衛 巍爾溯檜 熱纂蒂 堅薑鄹棲棻`
+
+[command]
+	139
+	`Contents`
+	`葆辦蝶醴憮 嬪纂 爾晦/莖晦(DEBUG)`
+	`//showpos on/off`
+	`營 葆辦蝶 醴憮 x.y嬪纂蒂 衛蝶蠱 詭撮雖璽縑 轎溘`
+
+[command]
+	140
+	`Contents`
+	`裘薑爾 爾檜晦(DEBUG)`
+	`//showmap`
+	`營 map曖 薑爾蒂 賊縑 轎溘`
+
+[command]
+	141
+	`System`
+	`瞪羹嶸盪 PC寞賅萄ON OFF`
+	`//pcroom on`
+	`頂睡縑憮 衛寞戲煎 虜菟熱 氈擠, 瞪羹嶸盪 瞳辨, off衛 營蕾樓`
+
+[command]
+	142
+	`Contents`
+	`葆橾葬雖憧 ON OFF`
+	`//showmgs , //showmileageshop`
+	`撮塭憧 葆橾葬雖憧 On/Off`

@@ -1,0 +1,37 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/WaveEye/siva_glass_part.img`
+		2
+	[IMAGE POS]
+		-309	-242
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1600
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/WaveEye/siva_glass_part.img`
+		2
+	[IMAGE POS]
+		-309	-242
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[IMAGE ROTATE]
+		6.28000020980835
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

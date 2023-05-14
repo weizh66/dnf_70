@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	12
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	121
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	13
+[/int data]
+
+[dungeon info]
+	13	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`黃金石巨人`
+
+[depend message]
+	`你說通往上層的入口被封死了， 那里還有一個巨大的黃金石巨人？
+嗯……看來那黃金石巨人就是所有石巨人的頭領， 因為黃金可是非常珍貴的魔法材料呢。 呵呵， 也許通往上層的關鍵就在那個黃金石巨人身上！
+冒險家， 如果你想對付它， 最好先了解它的構造。 你可以去找諾頓幫忙， 我會提前告訴他， 他一定會幫你的。`
+
+[condition message]
+	`    找諾頓幫忙。`
+
+[solve message]
+	`歡迎！ 聽莎蘭說你有事找我？`
+
+[quest point]
+	4

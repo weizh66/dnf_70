@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	64
+
+[complete npc index]
+	28
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	63	99
+
+[pre required quest]
+	5807
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3279	10	3278	20
+[/int data]
+
+[dungeon info]
+	52	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`真實的夢境`
+
+[depend message]
+	`你也想知道這里面裝著什么夢嗎？ 我猜應該是某個冒險家做的夢……
+艾麗絲說用一些特殊材料就能將這個夢境實體化， 如果你感興趣的話， 可以帶著材料去找她。`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 收集[神奇的夢之粉]和[死亡雪花]。`
+
+[solve message]
+	`在你來之前， 米內特已經將事情的始末告訴我了。 看來你對那個夢確實很好奇！
+呵呵~材料帶齊了嗎？`
+
+[quest point]
+	4

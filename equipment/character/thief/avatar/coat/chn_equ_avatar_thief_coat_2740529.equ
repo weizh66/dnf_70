@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`可口可樂條紋背心`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_acoat.img`	83
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[avatar func filter]
+	0
+
+[HP regen speed]
+	75
+
+[MP regen speed]
+	15
+
+[usable period]
+	30
+
+[hide equipment]
+	`[neck avatar]`
+[/hide equipment]
+
+[hide layer]
+	1900	1000	2200	600	2350	2840	2251	550	1975
+[/hide layer]
+
+[variation]
+	28	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

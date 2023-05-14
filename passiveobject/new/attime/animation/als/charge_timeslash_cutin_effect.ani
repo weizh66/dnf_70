@@ -1,0 +1,57 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_cutin.img`
+		1
+	[IMAGE POS]
+		-153	-64
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_cutin.img`
+		1
+	[IMAGE POS]
+		-153	-99
+	[IMAGE RATE]
+		2.0999999046325684	1.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_cutin.img`
+		1
+	[IMAGE POS]
+		-153	-723
+	[IMAGE RATE]
+		2.299999952316284	0.10000000149011612
+	[RGBA]
+		255	255	255	127
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	-5
+	[DELAY]
+		70

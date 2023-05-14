@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 風暴女皇 (1/6)`
+
+[depend message]
+	`真是神奇啊， 我還是第一次見到柔韌性這么好的人， 竟然連肌肉和骨頭都可以隨意移動。
+不過正好， 我想憑借你的實力一定可以達到新的高度。
+想不想突破現在的極限， 爬到更高處觀賞新的景色？ 如果想， 就和我談一談吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`聽說有一些被稱為風暴女皇的人， 據說她們不滿足于單純的力量提升， 而是追求把力量升華為藝術的境界。
+她們會從周圍人的喝彩中獲得力量， 如果你喜歡華麗的戰斗方式， 要不要考慮一下成為風暴女皇？ 如果你愿意， 我會幫助你的。`
+
+[target character]
+	`[fighter]`	4	1
+[/target character]
+
+[relation quest]
+	5385
+
+[job change quest]
+	3
+
+[grow number]
+	0

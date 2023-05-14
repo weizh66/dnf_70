@@ -1,0 +1,83 @@
+#PVF_File
+
+[set name]
+	`玩具縱火者  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`+`	3500
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`+`	3500
+		`[gunner]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2100
+		`[gunner]`	42
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[gunner]`	50
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[at gunner]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2100
+		`[at gunner]`	42
+		`[dungeon type]`
+		`[level]`	0
+		`+`	200
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`+`	19
+		`[at gunner]`	50
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+	[/skill data up]
+	[parameter basic explain]
+		`RX-78 追擊者冷卻時間減少0.5秒， 攻擊力增加20%%， 最大壽命增加3.5秒
+RX-78 追擊者冷卻時間減少0.5秒/機械引爆冷卻時間1秒減少
+神槍手(男)：嗜戰追擊者冷卻時間減少2.1秒， 再 召喚一個的機率增加10%% 
+神槍手(女)：危機的追擊者冷卻時間減少2.1秒， 被攻擊時召喚機率增加20%%`
+[/piece set ability]

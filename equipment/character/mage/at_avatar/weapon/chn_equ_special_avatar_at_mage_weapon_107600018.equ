@@ -1,0 +1,75 @@
+#PVF_File
+
+[name]
+	`惡魔吸血鬼魔杖`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/rod/rod.img`	140
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		46	0
+	[layer variation]
+		2150
+		`at_roda`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[layer variation]
+		200
+		`at_rodd`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/mage/weapon/rod/`
+[/expand ani]
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[avatar func filter]
+	0

@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`黑白境界 - 靈魂`
+
+[basic explain]
+	`火/冰/光/暗(最高值頂)屬性強化+55
+火/冰/光/暗(最高值頂)屬性抗性+55`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	57
+
+[magical attack]
+	57
+
+[physical defense]
+	57
+
+[magical defense]
+	57
+
+[price]
+	134400
+
+[value]
+	107520
+
+[creation rate]
+	125
+
+[anti evil]
+	15
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	214
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`all elemental resistance`
+		`+`	55
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`fire attack`
+		`+`	55
+	[stat by condition]
+		`water attack`
+		`+`	55
+	[stat by condition]
+		`light attack`
+		`+`	55
+	[stat by condition]
+		`dark attack`
+		`+`	55
+[/then]
+
+[possible kiri protect]

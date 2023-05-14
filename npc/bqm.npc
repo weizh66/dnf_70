@@ -1,0 +1,34 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	57
+
+[big face]
+	`Map/Npc/NpcFace02.img`	56
+
+[field animation]
+	`Animation/Npc_bq.ani`
+
+[field wav]
+	`R_NPC_BQM_AMB_LOOP`
+
+[popup wav]
+	`R_NPC_BQM_TALK`
+	`R_NPC_BQM_FAREWELL`
+
+[role]
+	`[item shop]`	21
+[/role]
+
+[name]
+	`后勤軍校將`
+
+[field name]
+	`后勤軍校將`
+
+[quest speech]
+	`我有個重要的任務需要你幫忙！ `
+
+[balloon message]
+	`即使把FP換成道具， 最后計算經驗值時也不會受到影響。`	10000
+[/balloon message]

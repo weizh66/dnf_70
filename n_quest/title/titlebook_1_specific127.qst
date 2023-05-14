@@ -1,0 +1,46 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	10
+[/check count]
+
+[limit showing msg]
+	1
+
+[limit dungeon index]
+	66
+[/limit dungeon index]
+
+[level]
+	10	99
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26737	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`在空間支配者卡烏尼斯的房間中墜落10次。`
+
+[condition data]
+	0
+	`墜落次數 : %d / %d`
+[/condition data]

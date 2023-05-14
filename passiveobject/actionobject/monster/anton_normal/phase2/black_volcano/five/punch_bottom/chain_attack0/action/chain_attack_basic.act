@@ -1,0 +1,10 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/chain_attack_basic_0.ani`
+	[SUB ANI]
+		`../Animation/chain_attack_basic_2.ani`	0	-1
+		`../Animation/chain_attack_basic_1.ani`	0	1
+	[/SUB ANI]
+[/MOTION]

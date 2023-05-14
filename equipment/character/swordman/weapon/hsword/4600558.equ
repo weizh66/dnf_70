@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`封·獨孤玄鐵劍 - 無鋒`
+
+[basic explain]
+	`攻速- 20%%
+近距離攻擊力+ 50%%`
+
+[flavor text]
+	`    重劍無鋒，大巧不工。`
+
+[grade]
+	73
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	158
+
+[physical defense]
+	100
+
+[attack speed]
+	-290
+
+[cast speed]
+	-20
+
+[move speed]
+	-100
+
+[need material]
+	3821	1200
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1026	869
+
+[equipment magical attack]
+	769	652
+
+[separate attack]
+	520	336
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/lswd/lswd.img`	118
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[attacker]
+		`character`	-1
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	50
+[/then]
+
+[routing priority]
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]

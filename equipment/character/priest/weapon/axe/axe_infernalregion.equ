@@ -1,0 +1,139 @@
+#PVF_File
+
+[name]
+	`(舊) 落星戰斧`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率附加300點傷害。
+[星落打]揮擊攻擊力 +20%%
+[星落打]增加攻擊時的浮空力`
+
+[flavor text]
+	`    蘊含有恐怖威力的戰斧， 可以瞬間把敵人打入地獄。`
+
+[grade]
+	35
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[rarity]
+	4
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`Item/weapon/priest/axe.img`	32
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	63000
+
+[value]
+	50400
+
+[cool time]
+	10000
+
+[physical attack]
+	26
+
+[equipment physical attack]
+	427	370
+
+[equipment magical attack]
+	303	262
+
+[separate attack]
+	209	138
+
+[attack speed]
+	-80
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	300
+[/then]
+
+[stuck]
+	-2
+
+[skill data up]
+	`[priest]`	41
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[priest]`	41
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[priest]`	41
+	`[all]`
+	`[level]`	3
+	`+`	150
+	`[priest]`	41
+	`[all]`
+	`[level]`	4
+	`+`	200
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	41	2
+[/skill levelup]
+
+[variation]
+	3	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

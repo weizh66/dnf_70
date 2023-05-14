@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`瓦爾基莉亞護肩`
+
+[basic explain]
+	`    攻擊時，增加3%%的物理攻擊力，持續20秒（最多疊加10次）。
+    被攻擊時，50%%的機率進入霸體狀態10秒（冷卻時間10秒）
+  紛影連環踢傷害+200%%，攻擊次數+5，冷卻時間減少15秒，僵直時間+10%%。`
+
+[flavor text]
+	`    瓦爾基莉亞被後人賦予“出現在英雄面前的夢中情人”`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	41
+
+[magical attack]
+	28
+
+[need material]
+	3500	1500
+
+[repair price]
+	320
+
+[value]
+	68000
+
+[equipment physical defense]
+	2976	2784
+
+[icon]
+	`item/new_equipment/04_larmor/neck/larmor_neck.img`	46
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	100
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[set item master]
+	11930
+
+[if]
+	[cooltime]
+		10000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[reduce duration to human armor at pvp module]
+		70
+	[probability]
+		50
+	[reduce probability to human armor at pvp module]
+		90
+	[buff]
+		`superarmor`
+[/then]
+
+[skill data up]
+	`[fighter]`	82
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-15000
+	`[fighter]`	82
+	`[dungeon type]`
+	`[static]`	2
+	`+`	5
+	`[fighter]`	82
+	`[dungeon type]`
+	`[static]`	3
+	`+`	5
+	`[fighter]`	82
+	`[dungeon type]`
+	`[static]`	10
+	`%`	10
+	`[fighter]`	82
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[fighter]`	82
+	`[dungeon type]`
+	`[level]`	1
+	`%`	200
+	`[fighter]`	82
+	`[dungeon type]`
+	`[level]`	2
+	`%`	200
+[/skill data up]
+
+[routing priority]
+	`fighter`	2
+[/routing priority]
+
+[possible kiri protect]

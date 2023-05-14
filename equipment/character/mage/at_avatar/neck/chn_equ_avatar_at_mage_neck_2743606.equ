@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`銀色街頭金屬項鏈`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	30
+
+[icon]
+	`item/avatar/atmage/mm_aneck.img`	25
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	11	0
+
+[layer variation]
+	1000
+	`neck_b`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	10
+	`[ATTACK_SPEED]`
+	`+`	40
+	`[HIT_RECOVERY]`
+	`+`	100
+[/avatar select ability]

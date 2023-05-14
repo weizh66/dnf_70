@@ -1,0 +1,76 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/hoppity_thief_walk.img`
+		0
+	[IMAGE POS]
+		-47	-81
+	[DELAY]
+		30
+	[PLAY SOUND]
+		`TF_LIGHTNING_FIN`
+	[ATTACK BOX]
+	4	-10	-8	37	20	101
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/hoppity_thief_walk.img`
+		1
+	[IMAGE POS]
+		-47	-81
+	[DELAY]
+		30
+	[LOOP START]
+	[ATTACK BOX]
+	4	-10	-8	37	20	101
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/hoppity_thief_walk.img`
+		2
+	[IMAGE POS]
+		-47	-81
+	[DELAY]
+		30
+	[ATTACK BOX]
+	4	-10	-8	37	20	101
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/hoppity_thief_walk.img`
+		3
+	[IMAGE POS]
+		-47	-81
+	[DELAY]
+		30
+	[ATTACK BOX]
+	4	-10	-8	37	20	101
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/hoppity_thief_walk.img`
+		4
+	[IMAGE POS]
+		-47	-81
+	[DELAY]
+		30
+	[ATTACK BOX]
+	4	-10	-8	37	20	101
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/hoppity_thief_walk.img`
+		5
+	[IMAGE POS]
+		-47	-81
+	[DELAY]
+		30
+	[LOOP END]
+		999
+	[ATTACK BOX]
+	4	-10	-8	37	20	101

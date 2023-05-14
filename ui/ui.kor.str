@@ -1,0 +1,894 @@
+//// 080522 ?? ??. ????, UI ?? ???? string ?? ???? ??. confirm by ??
+
+// Note : ??? ???? ??? ? ?? ?? ???? ????. ?? ??? ??? ????? - by OOJJRS
+common_01>確定
+common_02>關閉
+common_03>刪除
+common_04>載入中
+common_05>公告
+common_06>適用
+common_07>取消
+
+// ???
+zone_name_00>格蘭之森
+zone_name_01>天空之城
+zone_name_02>天帷巨獸
+zone_name_03>墮落之殿
+zone_name_04>萬年雪山
+zone_name_05>諾伊佩拉
+zone_name_06>月光酒館
+zone_name_07>陌路者要塞
+zone_name_08>安特貝魯峽谷
+zone_name_09>暗黑城
+zone_name_10>諾斯瑪爾
+zone_name_11>遠古地下城
+
+// ?????? ?? ??
+dungeon_name_zone_00_00>羅蘭
+dungeon_name_zone_00_01>羅蘭深處
+dungeon_name_zone_00_02>幽暗密林
+dungeon_name_zone_00_03>幽暗密林深處
+dungeon_name_zone_00_04>雷鳴廢墟
+dungeon_name_zone_00_05>猛毒雷鳴廢墟
+dungeon_name_zone_00_06>冰霜幽暗密林
+dungeon_name_zone_00_07>格拉卡
+dungeon_name_zone_00_08>烈焰格拉卡
+dungeon_name_zone_00_09>暗黑雷鳴廢墟
+
+
+// ???
+dungeon_name_zone_01_00>龍人之塔
+dungeon_name_zone_01_01>人偶玄關
+dungeon_name_zone_01_02>石巨人塔
+dungeon_name_zone_01_03>黑暗玄廊
+dungeon_name_zone_01_04>懸空城
+dungeon_name_zone_01_05>城主宮殿
+
+// ????
+dungeon_name_zone_02_00>神殿週邊
+dungeon_name_zone_02_01>樹精叢林
+dungeon_name_zone_02_02>煉獄
+dungeon_name_zone_02_03>極晝
+dungeon_name_zone_02_04>第一脊椎
+dungeon_name_zone_02_05>第二脊椎
+dungeon_name_zone_02_06>天帷禁地
+
+
+// ??? ??
+dungeon_name_zone_03_00>GBL教阿拉德分部
+dungeon_name_zone_03_01>GBL教研究所
+dungeon_name_zone_03_02>GBL教孵化場
+
+// ????
+dungeon_name_zone_04_00>山脊
+dungeon_name_zone_04_01>冰心少年
+dungeon_name_zone_04_02>布萬加的修煉場
+dungeon_name_zone_04_03>利庫天井
+dungeon_name_zone_04_04>白色廢墟
+dungeon_name_zone_04_05>冰雪宮殿
+dungeon_name_zone_04_06>斯卡薩之巢
+
+// ?????
+dungeon_name_zone_05_00>淺棲之地
+dungeon_name_zone_05_01>蜘蛛洞穴
+dungeon_name_zone_05_02>暗精靈墓地
+
+// ?? ??
+dungeon_name_zone_06_00>月光酒館
+
+//???? ??
+dungeon_name_zone_07_00>熱血八番街
+dungeon_name_zone_07_01>綠都格羅茲尼
+
+// ???? ??
+dungeon_name_zone_08_00>根特週邊
+dungeon_name_zone_08_01>根特東門
+dungeon_name_zone_08_02>根特南門
+
+
+// ???
+dungeon_name_zone_09_00>熔巖穴
+dungeon_name_zone_09_01>暗影迷宮
+dungeon_name_zone_09_02>暗黑城入口
+
+
+// ?????
+dungeon_name_zone_10_00>墮落的盜賊
+dungeon_name_zone_10_01>迷亂之村哈穆林
+
+
+
+// ?? ??
+dungeon_name_zone_11_00>王的遺跡
+dungeon_name_zone_11_01>比爾馬克帝國試驗場
+dungeon_name_zone_11_02>悲鳴洞穴
+
+fairpvp_lobby_basic_button_01>練習
+fairpvp_lobby_basic_button_02>決鬥戰績
+fairpvp_lobby_basic_button_03>任務
+fairpvp_lobby_basic_button_04>邀請重新競賽
+fairpvp_lobby_basic_button_05>尋找其他對象
+fairpvp_lobby_basic_button_06>進入大廳
+fairpvp_lobby_basic_button_07>招待
+fairpvp_lobby_basic_button_08>離開
+fairpvp_lobby_basic_button_09>練習
+
+fairpvp_text_01>個
+fairpvp_text_02>觀看戰績
+fairpvp_text_03>1:1 個人戰
+fairpvp_text_04>3:3 大將戰
+fairpvp_text_05>最近競賽
+fairpvp_text_06>最大連勝
+fairpvp_text_07>大將戰 2kill
+fairpvp_text_08>大將戰 all kill
+fairpvp_text_09>觀看詳細內容
+fairpvp_text_10>觀看詳細決鬥戰績的話，便會消耗1個修練的印章。
+
+pvp_channel_01>決鬥場頻道
+pvp_channel_02>公平決鬥場
+pvp_channel_03>普通決鬥場
+pvp_channel_04>1:1 分流說明在  Script/UI/UI.kor.str 修正
+pvp_channel_05>3:3 分流說明在  Script/UI/UI.kor.str 修正
+pvp_channel_06>自由決鬥場說明在  Script/UI/UI.kor.str 修正
+pvp_channel_07>因公平決鬥場更新臨時關機。
+
+mission_window_00>任務
+mission_window_01>可獲得以下獎勵
+mission_window_02>進行中
+mission_window_03>完成
+
+// OptionWindow ?? ??
+optionwindow_00>遊戲設置視窗(O)
+optionwindow_01>低
+optionwindow_02>中
+optionwindow_03>高
+optionwindow_04>自動
+optionwindow_05>在視窗模式下， 游標移至介面右下方可自由調整視窗大小。 (在地下城和決鬥場中無效)
+optionwindow_06>圖像
+optionwindow_07>聲音
+optionwindow_08>系統
+optionwindow_09>全屏狀態下才能開啟
+optionwindow_10>關閉垂直同步時， 雖然可以提高幀數， 但遊戲畫面可能會出現波紋。
+optionwindow_58>:: 顯示設定
+optionwindow_59>:: 關閉垂直同步
+optionwindow_60>:: 效果設置
+optionwindow_61>:: 開啟陰影效果
+optionwindow_62>:: 顯示轉職時裝
+optionwindow_63>:: 開啟技能插圖特效
+optionwindow_64>:: 隊員技能效果透明度
+optionwindow_65>:: 音效
+optionwindow_66>:: 背景音樂
+optionwindow_67>:: 拒絕組隊邀請
+optionwindow_68>:: 拒絕決鬥邀請
+optionwindow_69>:: 角色名顯示類型設置
+optionwindow_70>:: 顯示地下城進度資訊
+optionwindow_71>:: 使用擴展技能欄
+optionwindow_72>:: 設置視頻錄製格式
+optionwindow_73>:: 拒絕戰場邀請
+optionwindow_74>:: 關閉戰場提示對話方塊
+optionwindow_75>:: 環境音效
+optionwindow_76>:: 開啟裝備資訊對比功能
+optionwindow_77>:: 開啟光環效果
+
+optionwindow_78>:: 遊戲模式設置
+optionwindow_79>:: 拒絕聊天邀請
+optionwindow_80>:: 拒絕師徒邀請
+optionwindow_81>:: 拒絕公會邀請
+optionwindow_82>:: 拒絕交易邀請
+
+optionwindow_83>:: 遊戲提醒功能
+optionwindow_84>::   開啟聊天資訊提醒
+optionwindow_85>::   開啟邀請資訊提醒
+optionwindow_86>::   開啟其它資訊提醒
+
+optionwindow_87>:: 設置截圖格式
+
+
+// Chat ?? ??
+chat_01>系統
+chat_02>喇叭
+chat_03>普通
+chat_04>隊伍
+chat_05>公會
+chat_06>師徒
+chat_07>私聊
+
+// Guide/??? ?? ??
+guide_01>內容
+guide_02>Lv相關
+//2011 ???????? ???
+idoleFlowerPot_00>Event
+idoleFlowerPot_01>請選擇要利用愛與誠意照顧的花盆。
+idoleFlowerPot_02>選擇
+
+// CharacterInfo ?? ??
+char_tab_01>角色
+char_tab_02>時裝/寵物
+char_tab_03>好感度
+char_tab_04>競技
+char_tab_05>熟練度
+char_tab_06>專門職業
+char_tab_07>決鬥
+char_tab_08>COF指數
+char_tab_09>無法傾向
+char_tab_10>與高7級以上的玩家組隊進行地下城時會提高COF指數。 COF指數高時會有各種不利。\n（但是隊伍內相差7級的玩家是師父或隊員全部都是相同公會時除外）
+power_tab_01>競技大賽信息
+power_tab_03>目前領先的勢力
+power_tab_04>個人資訊
+power_tab_05>競技大賽點數
+power_tab_06>公會信息
+power_tab_07>公會名稱
+power_tab_08>所屬勢力
+power_tab_09>公會大廳
+power_tab_10>公會Lv
+power_tab_11>公會技能
+item_im_00>裝備道具製作熟練
+item_im_01>武器
+item_im_03>布甲
+item_im_04>皮甲
+item_im_05>輕甲
+item_im_06>重甲
+item_im_07>板甲
+item_im_09>項鍊
+item_im_10>手鐲
+item_im_11>戒指
+item_im_12>利用稀有、遺物、獨特裝備道具設計圖製作道具時可以提升製作熟練度。
+item_im_14>關閉
+item_im_15>輔助裝備
+item_im_16>魔法石
+item_im_17>::武器
+item_im_18>::防具
+item_im_19>::首飾
+item_im_20>::特殊裝備
+
+//CargoPassword ?? ??
+cargoPassword_00>金庫密碼
+cargoPassword_02>申請
+cargoPassword_03>輸入
+cargoPassword_04>變更
+cargoPassword_05>解除
+cargoPassword_06>確認
+cargoPassword_07>關閉
+cargoPassword_08>取消
+cargoPassword_09>金庫密碼告知
+cargoPassword_10>申請金庫密碼功能的話，就可以更安全地使用金庫。 要立刻申請嗎？
+cargoPassword_50>密碼   ：
+cargoPassword_51>使用混雜數字、英文的6位數
+cargoPassword_52>確認密碼:
+cargoPassword_53>密碼不一致
+cargoPassword_54>=- 點擊 右側的 虛擬 鍵盤 輸入 金庫 密碼。
+cargoPassword_55>密碼必須是混合數字與英文字母來設定的6位數。
+cargoPassword_56>=- 點擊 右側的 虛擬 鍵盤 輸入 金庫 密碼。
+cargoPassword_57>密碼必須是混合數字與英文字母來設定的6位數。
+cargoPassword_58>尋找密碼
+cargoPassword_59>=- 透過 虛擬 鍵盤 輸入 金庫 密碼。
+cargoPassword_60>=- 如果 忘記 密碼 時 請上 DNF 官網的 安全中心    重新 申請 發給 金庫 密碼。
+cargoPassword_61>目前的密碼  ：
+cargoPassword_62>新密碼   ：
+cargoPassword_63>確認新密碼:
+cargoPassword_64>=- 若持續 使用 之前 使用過的 密碼 極有, 可能被 盜取 所以 盡可能     使用 新 的 密碼。
+cargoPassword_65>=- 若 解除 金庫密碼 可能 會有 更多 危險 受到 盜取 帳號 的   損失。
+cargoPassword_100>A
+cargoPassword_101>B
+cargoPassword_102>C
+cargoPassword_103>D
+cargoPassword_104>E
+cargoPassword_105>F
+cargoPassword_106>G
+cargoPassword_107>H
+cargoPassword_108>I
+cargoPassword_109>J
+cargoPassword_110>K
+cargoPassword_111>L
+cargoPassword_112>M
+cargoPassword_113>N
+cargoPassword_114>O
+cargoPassword_115>P
+cargoPassword_116>Q
+cargoPassword_117>R
+cargoPassword_118>S
+cargoPassword_119>T
+cargoPassword_120>U
+cargoPassword_121>V
+cargoPassword_122>W
+cargoPassword_123>X
+cargoPassword_124>Y
+cargoPassword_125>Z
+cargoPassword_126>
+cargoPassword_127>1
+cargoPassword_128>2
+cargoPassword_129>3
+cargoPassword_130>4
+cargoPassword_131>5
+cargoPassword_132>6
+cargoPassword_133>7
+cargoPassword_134>8
+cargoPassword_135>9
+
+//?? ?? ??
+randomOptionUnseal_00>解除魔法封印
+randomOptionUnseal_01>解除封印
+randomOptionUnseal_02>關閉
+randomOptionUnseal_03>將利用魔法封印的道具
+randomOptionUnseal_04>放在欄位中。
+randomOptionUnseal_05>解除封印道具的能力值。
+
+//??????? ??
+reandomOptionRegeneration_00>合成封印裝備
+reandomOptionRegeneration_01>將2個魔法封印裝備合成， 會生成新的魔封裝備。
+reandomOptionRegeneration_02>無法生成Lv66以上的裝備
+reandomOptionRegeneration_03>合成
+reandomOptionRegeneration_04>關閉
+reandomOptionRegeneration_05>把解除魔法封印的裝備
+reandomOptionRegeneration_06>把解除魔法封印的稀有裝備
+reandomOptionRegeneration_07>把解除魔法封印的神器裝備
+reandomOptionRegeneration_08>放入空位欄中
+reandomOptionRegeneration_09>將合成封印裝備所需的材料放入合成欄後， 才能進行合成。
+reandomOptionRegeneration_10>選擇部位
+reandomOptionRegeneration_11>附加效果
+reandomOptionRegeneration_12>隨機
+reandomOptionRegeneration_13>不選擇
+reandomOptionRegeneration_14>若選擇指定要求進行合成， 需支付一定的手續費。
+
+// ?? ?? ??
+random_option_change_00>變換封印屬性
+random_option_change_01>變換
+random_option_change_02>可變換1個屬性
+random_option_change_03>請置入要變換屬性的魔法封印道具。
+random_option_change_04>選擇一個需要變換的屬性
+
+//?? ??
+amplify_physical_attack>異次元 力量
+amplify_physical_defense>異次元 體力
+amplify_magical_attack>異次元 智力
+amplify_magical_defense>異次元 精神
+
+// ?? ???
+skillshop_00>普通
+skillshop_01>轉職
+skillshop_02>通用
+skillshop_03>特性
+skillshop_04>技能學習欄
+
+hotkey_01>查看全部
+hotkey_02>系統
+hotkey_03>角色
+hotkey_04>技能
+hotkey_05>聊天快捷鍵
+hotkey_06>默認設置
+hotkey_07>套用
+hotkey_08>取消
+hotkey_09>關閉
+hotkey_10>您的快速鍵設置有變更。\n確定不保存就關閉窗口嗎？
+hotkey_11>返回
+hotkey_12>儲存後關閉
+
+// ??? ?? ???
+itemtool_compoundmonstercard_01>合成
+itemtool_compoundmonstercard_02>關閉
+itemtool_compoundmonstercard_03>將2張怪物卡片合成， 會生成新的卡片。
+itemtool_compoundmonstercard_04>怪物卡片合成結果
+
+// ??? ????
+messenger_invite00>邀請加入
+messenger_invite01>邀請
+messenger_invite02>取消
+messenger_invite03>全部
+messenger_invite04>好友
+messenger_invite05>公會
+
+// ???
+chatwindow_01>普通
+chatwindow_02>隊伍
+chatwindow_03>公會
+chatwindow_04>師徒
+chatwindow_05>私聊
+chatwindow_06>喇叭
+chatwindow_07>可以變更聊天視窗的位置
+chatwindow_08>聊天視窗位置變更只適用於視窗模式， 請設置視窗模式。
+chatwindow_09>切換聊天對象 (Tab)
+chatwindow_10>/p [聊天內容] : 組隊聊天資訊\n/g [聊天內容] : 公會聊天資訊\n/m [聊天內容] : 師徒聊天資訊\n/w [名字] [聊天內容] : 發送密語\n/r [聊天內容] : 回復密語\n/re : 重新發送最後的聊天內容\n/j [名字] : 組隊邀請， 加入\n/out : 退出隊伍\n/v [名字] : 決鬥邀請\n/tr [名字] : 交易\n/target [名字] : 角色子功能表窗口\n/info [名字] : 查看對方資訊\n/ignore [名字] : 添加黑名單
+
+//20110715 ??? : [????? 2.0] ?? ???? ??? 
+SecurityWarringWindow_00>保安警告通知
+SecurityWarringWindow_01>取消
+SecurityWarringWindow_02>沒有使用中的安全服務。\n您的帳號很可能被盜取。\n請立即申請安全服務。
+SecurityWarringWindow_03>1. 二級密碼\n 移動哥布林設定密碼並認證的\n 遊戲內安全交易保護系統。 
+SecurityWarringWindow_04>申請妖精護墊
+SecurityWarringWindow_05>2. 密保卡\n 透過手機認證保護遊戲內交易\n 的安全服務。
+SecurityWarringWindow_06>申請保安卡
+SecurityWarringWindow_07>3. OTP\n 使用單次性密碼的安全服務。
+SecurityWarringWindow_08>加入OTP
+
+// ???
+
+titlebook_01>普通成就
+titlebook_02>特殊成就
+titlebook_03>絕望之塔
+
+// 20110726 ??? : ?? ???
+skillrefund_01>技能返還欄
+
+//???? ????
+//?? ????
+inventory_main_tab01>物品欄
+inventory_main_tab02>時裝
+inventory_main_tab03>寵物
+//???? ?? ?? ?
+inventory_main_bottom01>重量
+inventory_main_bottom02>整理
+inventory_main_bottom03>%s 個
+inventory_main_bottom04>%d勝點
+inventory_main_bottom05>%d點券
+inventory_main_bottom06>%d金幣
+
+//??? ????
+inventory_item_tab01>裝備
+inventory_item_tab02>消耗品
+inventory_item_tab03>材料
+inventory_item_tab04>副職業
+inventory_item_tab05>任務
+
+//??? ????
+inventory_avatar_tab01>時裝
+inventory_avatar_tab02>徽章
+
+//??? ????
+inventory_creature_tab01>寵物
+inventory_creature_tab02>寵物裝備
+inventory_creature_tab03>消耗品
+
+//?? ???
+tooltip_common_feature01>負重上限\n%.3f/%.3f kg
+tooltip_common_feature02>復活幣的數量\n角色在地下城中死亡時， 可以用復活幣復活角色\n(復活幣可以在商城中購買)
+tooltip_common_feature03>勝點.在決鬥場獲勝時即可獲得
+tooltip_common_feature04>可在商城購買時裝、 復活幣或特殊道具等的貨幣
+tooltip_common_feature05>所持金幣\n金幣由地下城中的怪物掉落、 完成任務或交易物品獲得
+tooltip_common_feature06>使物品向前集中排列
+tooltip_common_feature07>進入商城
+tooltip_common_feature08>丟棄金幣\n金幣丟棄後將消失
+tooltip_common_feature09>打開商城購物籃
+
+// inventory bottom tooltip about avatar coin
+tooltip_common_feature_tw_01>標示時裝硬幣數量,可以用一個時裝硬幣進行一次時裝輪盤(可以在賽莉亞商城購買)
+// inventory bottom tooltip about cerapoint
+tooltip_common_feature_tw_02>在賽莉亞商城購買道具的D點
+
+//??? ??
+tooltip_item_category01>城鎮、 地下城、 普通決鬥場專用欄， 但稱號可通用。
+tooltip_item_category02>公平決鬥場專用欄， 但稱號可以通用。
+tooltip_item_category03>用來存放可穿戴物品的空間
+tooltip_item_category04>用來存放一次性消耗品的空間
+tooltip_item_category05>用來存放合成材料等物品的空間
+tooltip_item_category06>用來存放專門職業專用物品的空間
+tooltip_item_category07>用來存放任務物品的空間
+
+//??? ??
+tooltip_creature_category_null>null
+
+
+// ??? ???
+calendar_01>活動日曆
+
+// 20110818 ??? : ????
+partyteleport_01>組隊傳送
+
+// 20110822 ??? : ????? ??? ???
+aura_avatar_graphic_01>開啟光環效果
+
+// ????? ??
+geniueDamage_upgrade_00>武器鍛造爐
+geniueDamage_upgrade_01>鍛造武器
+geniueDamage_upgrade_02>關閉
+geniueDamage_upgrade_03>請把武器放入武器鍛造爐內
+
+// 20110920 ??? : ??? ??? ???
+time_limited_items_info_window_00>期限道具資訊欄
+time_limited_items_info_window_01>優惠
+
+// ??? ??? ???
+fairPVP_Guide_00>公平決鬥場開始小幫手
+fairPVP_Guide_01>下一頁
+fairPVP_Guide_02>上一頁
+fairPVP_Guide_03>完成
+fairPVP_Guide_10>歡迎進入公平決鬥場。
+fairPVP_Guide_11>在公平決鬥場內應使用公平決鬥場專用裝備，應利用公平決鬥場專用技能點數進行決鬥。
+fairPVP_Guide_12>請點擊[下一頁]按鍵領取公平決鬥場專用基本裝備。
+fairPVP_Guide_20>請選擇公平決鬥場的基本裝備。
+fairPVP_Guide_21>請參考符合角色職業的裝備上標示的「推薦」標誌。
+fairPVP_Guide_22>選擇的專用裝備請在裝備欄查詢。
+fairPVP_Guide_23>武器
+fairPVP_Guide_24>防具
+fairPVP_Guide_25>選擇完畢後請點擊下面的 [下一頁] 按鍵選擇「獲得技能方式」。
+fairPVP_Guide_30>請選擇公平決鬥場的獲得技能方式。
+fairPVP_Guide_31>獲得技能時以 70級持有的技能點數為基準。 根據選擇的方式可以在技能欄確認技能或技能點數。
+fairPVP_Guide_32>從各職業的決鬥場可以立即套用有效的技能樹。 推薦給決鬥場經驗少的玩家。
+fairPVP_Guide_33>為日後學習決鬥技能可免費領取遺忘之鈴鐺套裝 1個。
+fairPVP_Guide_34>選擇完畢後請點擊下面的 [下一頁] 按鍵進入下一階段。
+fairPVP_Guide_40>已完成決鬥準備。！
+fairPVP_Guide_41>關閉此視窗後使用領取的裝備，若已獲得技能點數可利用該技能點數投點技能。
+fairPVP_Guide_42>裝備可在物品欄，技能可在 技能欄確認。
+fairPVP_Guide_43>祝你好運！
+fairPVP_Guide_44>請點擊下列 [完成] 按鍵完成準備決鬥。
+
+// 20111012 ??? : ?? ??? ???
+mercenary_system_00>人偶管理
+mercenary_system_01>獲得獎勵
+
+// 20111025 ??? : ?? ??
+quick_party_00>取消
+quick_party_01>快速組隊獎勵\n* 翻牌獲得的金幣增加\n* 進入隨機深淵派對時， 出現非常困難的機率增加\n(每位隊員均在Lv60以上時)\n* 獲得隨機Buff效果\n\n快速組隊快速鍵 : Q
+quick_party_02>立刻入場
+quick_party_03>達到最少人數需求即可點擊按鍵進入。\n只有隊長才能設定立即進入。
+quick_party_04>已達到最少人數需求可立即進入。\n隊長可以設定立即進入。
+
+//????
+item_dictionary_01>Lv
+item_dictionary_02>名稱
+item_dictionary_03>Lv
+item_dictionary_04>獲得方式
+item_dictionary_05>~
+item_dictionary_06>獲得勇者、 神器、 領主神器和史詩裝備時， 顯示獲得數量。\n每個裝備只在第一次獲得時， 增加獲得數量。 通過拍賣行、 個人商店以及交易獲得的裝備， 不增加獲得數量。\n獲得裝備後， 不用隨身攜帶也可以維持獲得經驗。
+
+// 20111109 ??? : ??? ????(??? ??????)
+mail_00>信箱
+mail_01>收信
+mail_02>寄信
+mail_03>收件匣
+mail_04>選擇收件
+mail_05>選擇刪除
+mail_06>全部選取
+mail_07>送出
+mail_08>金幣
+mail_09>收件人：
+mail_10>送出金額：
+
+//20111206 ??? - ?? ???
+booster_select_00>接收全部道具
+booster_select_01>選擇一個需要的道具。
+booster_select_02>接收全部道具
+booster_select_03>確認
+
+random_box_result_01>獲得道具
+random_box_result_02>您已獲得以下道具
+
+avatar_option_change_00>時裝屬性變更券
+avatar_option_change_01>請放入需要變更屬性的時裝
+avatar_option_change_02>玩家首選屬性
+avatar_option_change_03>時裝屬性已變更！
+
+// 20111128 ??? : ??(??) ???
+social_event_00><EVENT>夥伴 - 12月 22日 ~ 1月 19日
+social_event_01>領取硬幣
+social_event_02>邀請夥伴
+social_event_03>邀請
+social_event_04>取消
+social_event_05>確認
+social_event_06>取消
+social_event_07>您確定要邀請嗎？\n（對方接受後便無法解除）
+social_event_08>您要接受嗎？\n（接受後便無法解除）
+social_event_09>角色
+social_event_10>同意夥伴邀請
+social_event_11>根據申請夥伴的玩家疲勞度消耗量\n可以領取鑄幣。 試著進行登錄。
+social_event_12>昨天上午 6點到 24點
+social_event_13>完成適當等級地城時，依照消耗的疲勞度能夠獲得的夥伴硬幣道具
+social_event_14>在賽莉亞商店中可以購買各種獎勵。
+social_event_15>夥伴們收集的硬幣
+social_event_16>同意
+social_event_17>拒絕
+social_event_18><參考網頁>
+social_event_19>確認
+social_event_20>取消
+social_event_21>夥伴邀請待機者
+social_event_22>重複
+social_event_23>若是關係圖內「重複」的帳號，\n只能在可使用的欄位內累積鑄幣。
+
+solo_teleport_01>傳送
+solo_teleport_02>可以傳送到指定NPC或隊友所在位置
+solo_teleport_03>玩家位置
+solo_teleport_04>NPC位置
+solo_teleport_05>移動
+solo_teleport_06>取消
+
+use_coin_00>按下「X」鍵，使用硬幣
+use_coin_01>復活的話，護衛 APC會登場給予幫助。
+
+// 20120117 ??? : ?? ????
+chat_imoticon_00>圖案
+chat_imoticon_01>設定
+chat_imoticon_02>儲存
+chat_imoticon_03>初始化
+chat_imoticon_04>賽羅商店
+chat_imoticon_05>在決鬥場中無法使用。
+chat_imoticon_06>警告通知
+chat_imoticon_07>使用聊天圖案。
+
+// 20120222 ????? ?? ??
+// ????
+info_tooltip_enable_000>已完成任務條件。\n點擊後開啟任務欄。
+info_tooltip_enable_001>已領取新任務。\n點擊後開啟村莊地圖。
+info_tooltip_enable_002>已領取新史詩任務。\n點擊後開啟史詩任務列表。
+info_tooltip_enable_003>點擊後開啟快速組隊畫面。
+info_tooltip_enable_004>DNF 廣播進行中。\n點擊後開啟廣播。
+info_tooltip_enable_005>DNF 廣播進行中。\n點擊後關閉廣播。
+info_tooltip_enable_007>您有尚未讀取的信件。\n點擊後開啟信箱。
+info_tooltip_enable_009>查看同校好友列表。
+info_tooltip_enable_010>要求暫停遊戲
+info_tooltip_enable_011>網咖同伴
+info_tooltip_enable_013>角色日活動
+info_tooltip_enable_016>任務自動開啟
+info_tooltip_enable_017>NPC 好感度活動
+info_tooltip_enable_018>商城限量販售活動
+info_tooltip_enable_019>勢力戰說明
+info_tooltip_enable_020>無盡的祭壇開放活動
+info_tooltip_enable_021>組隊活動
+info_tooltip_enable_022>特性技能
+info_tooltip_enable_024>復活幣活動
+info_tooltip_enable_025>[準時活動]\n2點請領取準時禮物。 只能在村莊領取禮物。
+info_tooltip_enable_026>統合決鬥場活動
+info_tooltip_enable_030>開啟稱號簿活動。\n時間：12月 29日~1月 12日
+info_tooltip_enable_032>元氣加值活動
+info_tooltip_enable_033>可以查詢目前使用中的時效性道具資訊。
+info_tooltip_enable_034>傭兵返回
+info_tooltip_enable_035>萬聖節活動
+info_tooltip_enable_036>發生緊急任務。\n點擊後開啟任務欄。
+info_tooltip_enable_038>獲得新稱號後開啟稱號簿。
+info_tooltip_enable_039>簽到活動進行中。
+info_tooltip_enable_040>愚人節活動進行中。
+info_tooltip_enable_041>黑鑽會員
+info_tooltip_enable_044>活動進行中。
+info_tooltip_enable_045>
+
+// ??? ??
+info_tooltip_disable_037>活動伺服器忙碌。\n請注意活動伺服器恢復前\n無法累積鑄幣。
+info_tooltip_disable_039>無法連接簽到活動。
+info_tooltip_disable_040>已領取上線獎勵。\n下一個活動將在 8月 18日進行。
+
+// ?? ?? ?? ??
+dungeon_enter_condition_00>完成簡單難度
+dungeon_enter_condition_01>以S排行完成冒險級難度
+dungeon_enter_condition_02>高難度時未使用復活幣\n利用SSS級，被擊次數 10次以下通關\n（遠古地下城： SS級，被擊次數 30次以下，\n異界地下城： SS排行、被擊中次數 50次以下）
+
+// ????? ??? ??
+ultimate_difficulty_notice_00>高難度時未使用復活幣\n利用%s等級，被擊次數 %d次以下通關
+
+skill_shop_00>技能視窗
+skill_shop_01>學習技能
+skill_shop_02>已有技能
+skill_shop_03>初始化
+skill_shop_04>變更指令
+skill_shop_05>學習
+skill_shop_06>操作指令： 
+skill_shop_07>連打設定
+
+// ??? ?? ??
+crane_ui_00>馬帝爾斯?奈斯曼
+crane_ui_01>時機很重要！
+crane_ui_02>啟動
+crane_ui_03>抓取
+crane_ui_04>起重機
+
+
+
+mercenary_ui_00>阿拉德冒險團
+mercenary_ui_01>基本資料
+mercenary_ui_02>支援兵
+mercenary_ui_03>傭兵
+
+// PC? ??(???????) ?? ??
+pcbang_benefit_00>網咖加成
+pcbang_benefit_01>確認
+pcbang_benefit_02>決定
+
+// ??? ??? ???
+pcbang_benefit_title00>網咖平時優惠
+pcbang_benefit_content00>1. 無虛弱模式\n2. 地下城打怪時，概率性掉落「任務物品加倍」\n3. 每日疲勞值增加 +78\n4. 地下城結算經驗值 +10%\n5. 結束地下城翻牌時，可額外獲得黑鑽會員卡
+pcbang_benefit_title01>Nexon現金 ATTACK！ (4/21~5/12)
+pcbang_benefit_content01_1>1. 每周六下午 1時～5時在網咖連線 2小時以上就可以獲得 Nexon點數！\n2. 請來領取NEXON PIN，去購買充滿魅力的商店道具，或是送禮給朋友吧。\n3. 此一活動每個帳號只能參加一次。
+pcbang_benefit_content01_2>剩餘時間
+pcbang_benefit_content01_3>活動每星期六
+pcbang_benefit_content01_4>  - 非活動套用目標 -
+pcbang_benefit_title02>租借網咖獨特裝備
+pcbang_benefit_content02>1. 在GCA網咖登入時可租用網咖連線期間可使用的強力獨特武器！\n2. 租用的武器不可交易/提鍊/強化/增幅/分解，離線時消失。\n3. 在網咖登錄的期間，隨時可以再次領取武器。
+pcbang_benefit_content03> 目前無法利用。
+
+// ?? ?? ??
+guild_skill_buy_00>公會技能購買視窗
+
+mainHud_Menu_01>選單選擇視窗
+childrenday_2012_0001>兒童節活動<期間:04.26 ~ 05.17>
+childrenday_2012_0002>達到10級的瞬間，就會自動決定性別，請慎重地使用道具！
+childrenday_2012_0003>利用皮諾可決定性別了。
+childrenday_2012_0004>利用皮諾奇亞決定性別了。
+childrenday_2012_0005>包裹已經到達了。 請確認信箱。
+childrenday_2012_0006>請安裝活動寵物。
+childrenday_2012_0007>這個帳號已經完成參加活動了。
+childrenday_2012_0008>帳號內的其他角色可以培育到寵物16級
+
+// ??? ?? ?? ??? ???(FOLDER LIST)
+event_notice_window_title>活動
+event_notice_window_common_1>確認
+event_notice_window_common_2>決定
+event_notice_window_common_3>   商城
+event_notice_window_common_4>使用
+event_notice_window_common_5>變換
+event_notice_window_common_6>交換
+
+event_notice_data_title04>小雞活動 （5/17~6/14）
+event_notice_data_text04_01>1. 附送活動期間上線就能獲得獎勵的小雞。\n2. 使用疲勞度 40 時可以追加獲得小雞一隻。\n3. 持續收集小雞達到一定數量時可以獲得獎勵。\n4. 本活動為帳號內共有。\n \n- 查看詳細活動： 
+event_notice_data_text04_02>隻
+event_notice_data_text04_03>紅利點數
+event_notice_data_text04_04>移動到紅利點數商店
+event_notice_data_text04_05>[查看頁面]
+event_notice_data_text04_06>http://df.nexon.com/?GO=pr|piyopiyo
+
+event_notice_data_title05>升級活動 （6/07~夏天改版）
+event_notice_data_text05_01>1. 在達到10/20/30/40/50/60/70級時，將可以獲得裝備\n2. 20級套裝會在轉職時獲得\n3. 30級以上的套裝會在轉職後，分別達到各等級時獲得\n4. 達到70級時，將可以獲得特別的裝備。\n5. 請把遺忘的角色有機會讓他升級吧！\n \n- 查看詳細活動： 
+event_notice_data_text05_02>http://df.nexon.com/?GO=pr|juneevent&TO=run
+
+movie_list_window_00>觀看影片
+movie_list_window_01>再生
+
+bluemarble_title>遊戲導覽
+
+event_notice_data_title06>異界地下城的四件事
+event_notice_data_title06_01>異界地下城的四件事
+event_notice_data_text06_01>1. 每天遊戲次數增加為 5次！\n2. 硬幣 8個限制 -> 限制的變更！ 在低難度可使用免費復活幣！\n3. 通關限量任務，獲得異界準備物品箱！\n\n4. 支援異界地下城裝備！\n - 查看詳細活動： 
+event_notice_data_text06_02> 目前無法利用。
+event_notice_data_text06_03>[查看頁面]
+event_notice_data_text06_04>http://df.nexon.com/?GO=pr|juneevent&TO=fourthings
+event_notice_data_text06_05> 轉職後可以使用。
+event_notice_data_text06_06>\n - 查看異界地下城攻略： 
+// 62 : ?????
+event_notice_data_text06_07>http://blog.naver.com/arkatrum81/130133422171
+// 63 : ?????
+event_notice_data_text06_08>http://blog.naver.com/arkatrum81/130134089605
+// 64 : ????? ?
+event_notice_data_text06_09>http://blog.naver.com/arkatrum81/130135684665
+// 65 : ????
+event_notice_data_text06_10>http://blog.naver.com/saogur93/30105255517
+// 66 : ??? ?
+event_notice_data_text06_11>http://blog.naver.com/saogur93/30104309610
+// 67 : ????
+event_notice_data_text06_12>http://blog.naver.com/saogur93/30104795737
+event_notice_data_text06_13>異界地下城的四件事
+event_notice_data_text06_14>1. 每天遊戲次數增加為 5次！\n2. 硬幣 8個限制 -> 限制的變更！ 在低難度可使用免費復活幣！\n3. 通關限量任務時，獲得異界準備物品箱！\n4. 異界地下城裝備支援！
+event_notice_data_text06_15>-查看異界地下城攻略： 
+
+event_notice_data_title07>70級經驗值解除 （6/21~7/26）
+event_notice_data_title07_01>解除70級經驗值
+event_notice_data_text07_01>1. 為盡快達到滿級活動期間開放70級經驗值計量。\n2. 70級以後獲得的經驗值將累積在升級膠囊機。\n3. 填滿升級膠囊機時點擊按鍵就可以製作升級膠囊。\n4. 經驗值達到 99.99%時仍然可以繼續填滿升級膠囊機。\n \n - 查看詳細活動： 
+event_notice_data_text07_02>http://df.nexon.com/?GO=pr|juneevent&TO=growingup 
+event_notice_data_text07_03>[%d/%d]
+event_notice_data_text07_04>領取
+event_notice_data_text07_05>成長膠囊機器
+event_notice_data_text07_06>1. 為盡快達到滿級活動期間開放70級經驗值計量。\n2. 70級以後獲得的經驗值將累積在升級膠囊機。\n3. 填滿升級膠囊機時點擊按鍵就可以製作升級膠囊。\n4. 就算經驗值達到99.99%，也能持續填補成長膠囊機器。
+event_notice_data_text07_07>70級以上可以參加。
+
+//twdf CBT create Dnf web link
+event_notice_data_text08_01>http://dnf.garena.tw/event/20130305_events/web/這個網頁使用彈跳視窗
+
+
+pcbang_benefit_title03>網咖支付道具導覽
+pcbang_benefit_content03_01>1. 只能在Nexon網咖使用。\n2. 詳細內容請上官網查看。\n - 詳細查看： 
+pcbang_benefit_content03_02>http://df.nexon.com/?GO=dnfpcbang&ST=dnf&PS=bnoti&BN=4
+
+// ???? ??? ???
+new_account_levelup_text_01><活動套用角色 （最大3名）>
+
+// ??? ?? ?? ???
+growth_item_text_01>使用
+growth_item_text_02>變換
+growth_item_text_03>材料道具不足
+growth_item_text_04>沙鐘的迴轉次數不足
+
+// ??? ??? ??
+event_window_common_text_1>  - 非活動套用目標 -
+event_window_common_text_2>已經完成活動參加了。 -
+event_window_common_text_3> - 利用帳號內其他角色進行遊戲中 -
+event_window_common_text_4>今日活動參加完畢。 -
+event_window_common_text_5>領取禮物
+
+//????
+avatar_color_ui_01>[選擇顏色]
+avatar_color_ui_02>價格
+avatar_color_ui_03>恢復原狀
+
+//??? ???
+change_avatar_color_ui_01>時裝染色
+change_avatar_color_ui_02>染色
+change_avatar_color_ui_03>取消
+change_avatar_color_ui_04>請將要染色的時裝放在欄位上。
+
+// ??? ?? ??
+return_user_info_00>賽莉亞的歡迎禮物
+return_user_info_01>啊！！你好。\n好久不見。\n好想你呀。??
+return_user_info_02>賽莉亞會送歸還者包給最初登錄的角色。
+
+// ??? ?? ?? ??? ???
+select_server_window_title>選擇角色形成伺服器
+
+// ??? ?? ????? ?? ???
+starter_server_info_title>開端伺服器資訊
+starter_server_move_info01>在開端伺服器中，只可以培育到50級而已。
+starter_server_move_info02>請移動到本伺服器。
+starter_server_move_info03>[移動到伺服器移動網頁]
+
+starter_notice_01>達成40級的話，免費伺服器移動
+starter_notice_02>只能夠培育到50級
+starter_notice_03>組隊進行優惠
+starter_notice_04>體驗各種轉職後進行選擇
+starter_notice_05>便利性強化
+starter_notice_06>開端伺服器的優惠會持續進行。
+
+starter_notice_01_01>達成40級的話，一般伺服器可以移動到免費伺服器。
+starter_notice_01_02>開端伺服器角色的伺服器移動網頁
+starter_notice_02_01>角色最多可升到 50級。
+starter_notice_02_02>達到50級的話，經驗值就不會再上升了。 利用一般伺服器來進行免費伺服器移動。
+starter_notice_03_01>以小隊進行遊戲時，經驗值獲得量會上升
+starter_notice_03_02>以小隊進行遊戲時，任務道具掉落率會上升
+starter_notice_04_01>可以自由轉職改變的「轉職變更之書」（開端伺服器）道具在賽羅商店中可以免費進行無限制購買。
+starter_notice_04_02>「轉職變更之書（開端伺服器）」道具只有轉職或覺醒的角色能在開端伺服器中使用。
+starter_notice_04_03>如果是進行覺醒任務的話，無法使用「轉職變更之書」道具。 唯有完成覺醒任務或放棄才可以使用。
+starter_notice_05_01>為了讓開端伺服器中，新手們能夠舒適地進行遊戲，不會提供戰鬥者的功能。
+starter_notice_05_02>無論在哪個頻道中進行，都可以獲得頻道獎勵經驗值。
+starter_notice_05_03>但是，若是進入想要入場的地城的地區頻道，就會比較容易組隊。
+
+//???? ??? ??? ???
+event_horror_package_payback_01>http://df.nexon.com/?GO=pr|twelvehorror
+event_horror_package_payback_02>1. 參加活動對象\n購買2012 消暑產包的所有角色\n\n2. 活動內容\n通關適當等級地下城 120次時獲得 12,000點\n（適當地下城通關次數由各角色個別統計。）\n\n3. 獲得獎勵點數方式\n有關獲得獎勵點數的詳細內容可上官網查詢。\n（在個人資料修正頁面填寫手機號碼或同意接受訊息時配合點數更新日期發送簡訊。）
+event_horror_package_payback_03>已參加獎勵點數活動
+event_horror_package_payback_04>確認
+event_horror_package_payback_05>2012 納涼特集包獎勵賽羅活動
+event_horror_package_payback_06>購買2012納涼特集包時可參加活動
+event_horror_package_payback_07>還不夠！！
+event_horror_package_payback_08>正式成為賽羅的奴隸吧！
+
+// ???? ???
+hellparty_release_title>告知
+
+// ?? ?? ??? ???
+event_account_reward__00>活動獎勵
+event_account_reward__01>道具
+
+// QP ?? ?
+quest_shop_title>任務商店
+
+// ?? ??? ??? (??? ??)
+event_give_creature_1>%s 形成時可參加這次的活動。
+event_give_creature_2>%s 20級以上可以交換。
+event_give_creature_3>交易完成。\n參加角色： %s
+event_give_creature_4>請開啟信箱/倉庫的 %s包。
+
+// ?? ???
+event_bingo_text_01>請依照暗號進行。
+event_bingo_text_02>答案是 00~99之間的數字。
+
+// ?? ??? ???
+jumping_character_text_01>服務器
+jumping_character_text_02>Lv
+jumping_character_text_03>角色名稱
+jumping_character_text_04>參加跳躍活動角色
+//??? ??
+cubeContract_text_00>方塊之契約
+cubeContract_text_01>請選擇道具
+cubeContract_text_02>適用
+cubeContract_text_03>剩餘數量： %d個
+cubeContract_text_04>%s
+cubeContract_text_05>儲存設定
+
+select_dualraid_channel_00>選擇入場分流
+
+dualraid_matching_01>離開
+
+//pcbang gift item select
+pcbang_benefit_title04>網咖祝福卷
+pcbang_benefit_content04>1. 一天最多可領取四次。 \n2. 領取後未使用之前,無法再領取同項物品\n3. 在地下城中無法領取。 \n4. 每日上午六點重置。
+
+// mobile restriction string
+mobile_restriction_text_01>沒有進行手機認證,無法使用該功能
+mobile_restriction_text_02>[點選進行認證 : http://dnf.garena.tw/smsauth]
+
+//140410 twdf contents advancealtar
+advancealtar_tab_01>升級
+advancealtar_tab_02>部隊設定

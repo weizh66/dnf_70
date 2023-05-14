@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gun blader]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95266
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 巔峰狂徒 (5/6)`
+
+[depend message]
+	`不要盲目使用新技術， 你先使用已掌握的技巧試著描出動作軌跡。 然后在心里想象把炸彈拋到那個軌跡上面。 明白了嗎？
+你快上臺吧。 我去觀眾席等你。`
+
+[condition message]
+	`    參加魂 · 青龍大會并獲得冠軍。`
+
+[solve message]
+	`怎么樣？ 我教你的方法能和你構想的技術結合起來嗎？`
+
+[pre required quest]
+	6915
+[/pre required quest]
+
+[relation quest]
+	6917
+
+[job change quest]
+	3
+
+[grow number]
+	0

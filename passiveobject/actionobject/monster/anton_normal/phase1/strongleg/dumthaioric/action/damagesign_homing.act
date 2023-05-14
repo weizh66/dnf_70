@@ -1,0 +1,49 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/DamageSign00.ani`
+	[SUB ANI]
+		`../Animation/DamageSign01.ani`	0	1
+		`../Animation/DamageSign01.ani`	0	2
+		`../Animation/DamageSign01.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56642
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			50
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

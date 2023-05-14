@@ -1,0 +1,44 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	2012
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	254	255
+
+[type]
+	`[hunt enemy]`
+
+[int data]
+	-1	-1	-1	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26798	1
+[/reward int data]
+
+[send postal]
+	8397	5
+	`postal_message_08`
+	`postal_message_09`
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`累計消滅2012只怪物。`
+
+[condition data]
+	0
+	`消滅數量 : %d / %d`
+[/condition data]

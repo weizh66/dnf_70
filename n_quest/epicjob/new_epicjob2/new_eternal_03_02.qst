@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95266
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 剎那永恒 (5/6)`
+
+[depend message]
+	`出發之際， 唯有一點望你謹記。
+之前我也說過， 悟出真理才是重點。 但更重要的是， 你要將悟出的東西用到真正有意義的事情上。
+否則苦心悟出的一切將化為泡影。
+那么， 接下來就去盡情展示自己吧。`
+
+[condition message]
+	`    參加魂 · 青龍大會并獲得冠軍。`
+
+[solve message]
+	`現在覺得熟練一些了嗎？ 在現在的基礎上， 你將會去逐個體驗， 就像新生的嬰兒剛接觸世界， 一切都是嶄新的開始。 這種心情會引導你走向變強的道路。`
+
+[pre required quest]
+	5574
+[/pre required quest]
+
+[relation quest]
+	5034
+
+[job change quest]
+	3
+
+[grow number]
+	0

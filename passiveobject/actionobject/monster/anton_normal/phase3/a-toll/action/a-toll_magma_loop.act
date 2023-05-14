@@ -1,0 +1,65 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/A-Toll_Magma_Loop_0.ani`
+	[SUB ANI]
+		`../Animation/A-Toll_Magma_Loop_1.ani`	0	1
+		`../Animation/A-Toll_Magma_Loop_4.ani`	0	2
+		`../Animation/A-Toll_Magma_Loop_2.ani`	0	3
+		`../Animation/A-Toll_Magma_Loop_3.ani`	0	4
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

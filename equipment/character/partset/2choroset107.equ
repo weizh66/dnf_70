@@ -1,0 +1,112 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	38
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	38
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[憤怒沖撞]攻擊力 +20%%
+[憤怒沖撞]冷卻時間 -15%%
+[守護神鹿]攻擊力 +20%%
+[守護神鹿]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	37
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[knight]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	37
+		`[dungeon type]`
+		`[level]`	1
+		`+`	6
+		`[knight]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	38
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[knight]`	38
+		`[dungeon type]`
+		`[static]`	1
+		`+`	2
+		`[knight]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[憤怒沖撞]攻擊力 +10%%
+[憤怒沖撞]范圍 +30%%
+[憤怒沖撞]眩暈Lv +6
+[憤怒沖撞]冷卻時間 -20%%
+[守護神鹿]神鹿大小比率 +30%%
+[守護神鹿]多段攻擊次數 +2
+[戰吼]攻擊力增加量 +5%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	38
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[knight]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	38
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	37
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[knight]`	38
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[knight]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[憤怒沖撞]攻擊力 +30%%
+[憤怒沖撞]范圍 +20%%
+[憤怒沖撞]冷卻時間 -25%%
+[守護神鹿]攻擊力 +25%%
+[守護神鹿]神鹿大小比率 +20%%
+[守護神鹿]冷卻時間 -25%%
+[戰吼]攻擊力增加量 +5%%`
+[/piece set ability]

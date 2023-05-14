@@ -1,0 +1,56 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`tile/sao_laby_01.til`
+	`tile/sao_laby_01.til`
+	`tile/sao_laby_01.til`
+	`tile/sao_laby_01.til`
+	`tile/sao_laby_01.til`
+	`tile/sao_laby_01.til`
+[/tile]
+
+[pathgate pos]
+	714	907	714	907	714	907	714	907
+
+[dungeon start area]
+	732	208	74	44
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[animation]
+	`animation/sao_laby_far.ani`
+	`[distantback]`	0	-200	0
+	`animation/sao_laby_far.ani`
+	`[distantback]`	671	-201	0
+[/animation]
+
+[monster]
+	64810	1	20	621	230	0	0	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[event monster position]
+	596	224	0	533	309	0	456	241	0	492	308	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

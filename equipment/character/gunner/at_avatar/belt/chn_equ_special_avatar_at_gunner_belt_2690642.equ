@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`紅色星塵勇士步槍`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/weapon/gunner/musket.img`	73
+
+[equipment type]
+	`[waist avatar]`	0
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		21	2
+	[layer variation]
+		650
+		`at_musketb`
+	[equipment ani script]
+		`equipment/character/atgunner.lay`
+	[layer variation]
+		2790
+		`at_musketc`
+	[equipment ani script]
+		`equipment/character/atgunner.lay`
+	[move wav]
+		`CLOTH_TOUCH`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/gunner/weapon/musket/`
+[/expand ani]
+
+[part set index]
+	30002
+
+[all activestatus resistance]
+	10
+
+[stuck resistance]
+	40
+
+[avatar func filter]
+	2

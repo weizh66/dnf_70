@@ -1,0 +1,74 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/UnHolyFury/StartDust.img`
+		6
+	[IMAGE POS]
+		-141	-262
+	[IMAGE RATE]
+		1.7999999523162842	1.7999999523162842
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/UnHolyFury/StartDust.img`
+		7
+	[IMAGE POS]
+		-140	-261
+	[IMAGE RATE]
+		2.200000047683716	2.200000047683716
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/UnHolyFury/StartDust.img`
+		7
+	[IMAGE POS]
+		-144	-260
+	[IMAGE RATE]
+		2.4000000953674316	2.4000000953674316
+	[INTERPOLATION]
+		1
+	[DELAY]
+		240
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/UnHolyFury/StartDust.img`
+		7
+	[IMAGE POS]
+		-150	-260
+	[IMAGE RATE]
+		2.450000047683716	2.450000047683716
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

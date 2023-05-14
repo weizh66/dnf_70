@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`暗影迷宮`
+
+[explain]
+	`通往暗黑城的路漫長而艱險！ 冒險家歷盡艱辛闖過熔巖穴後， 發現眼前又出現了一個仿佛具有生命、 每次都會自動改變路徑的洞穴--暗影迷宮！ 據說在迷宮的盡頭， 有一位強悍的人類劍士把守著出口……人類劍士為什麼會守護暗精靈的聖地？ 難道迷宮裡隱藏有玄機？ 也許我們很快就能知道答案， 因為冒險家正向暗影迷宮前進！`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	7
+	`WorldMap/SelectdungeonSlot/underfoot.img`	1
+
+[minimum required level]
+	99
+
+[basis level]
+	44
+
+[experience increasing point]
+	1.2
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	671	672	673	674	675	676	677	678	679	680
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[special passive object item]
+[/special passive object item]
+
+[event monster]
+	1	9000	61728	1	300	80	1
+[/event monster]

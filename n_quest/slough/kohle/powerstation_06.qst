@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	76
+
+[complete npc index]
+	77
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	78	99
+
+[pre required quest]
+	4512
+[/pre required quest]
+
+[monster reward item]
+	61635	101	-1	4811	1	70	50	64019	101	-1	4811	1	70	50
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4811	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`研究花崗巖`
+
+[depend message]
+	`竟然這麼輕鬆除掉了那火熱的火焰史萊姆… 果然厲害。剛剛佩勒威因博士好像在找你
+<npc::77>我來了。我想找你拜託件事情。
+我對格雷尼生物感到好奇。在這些傢伙的身體中能看到吸收能量的藍色球體。
+我覺得只要利用這種性質，就能製作強大的蓄電池。你能幫忙收集一下嗎？`
+
+[condition message]
+	`收集花崗巖50個，然後去找佩勒威因`
+
+[solve message]
+	`這些樣品已經足夠了。辛苦了！辛苦了！`
+
+[quest point]
+	4

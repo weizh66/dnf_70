@@ -1,0 +1,47 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/Attack5_Upper.ani`
+	[SOUND]
+		`DUPPER`	3
+	[/SOUND]
+	[SPEECH]
+		`嗚啊啊`
+			1	20
+		`飛得遠遠的吧！`
+			1	20
+		`讓疾病猖獗吧！`
+			1	20
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			500
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			0
+	[/SET SPEED]
+[/BEHAVIOR]

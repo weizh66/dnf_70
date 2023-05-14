@@ -1,0 +1,41 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/pu.ani`
+	[SUB ANI]
+		`../Animation/jump_jumpblood00.ani`	1	0
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+
+[CREATE PASSIVEOBJECT]
+	[INDEX]
+		660030
+	[PARTICLE FILENAME]
+		``
+	[LEVEL]
+		70
+	[POS]
+		300	-50	0
+	[USE OBJECT ZPOS]
+[/CREATE PASSIVEOBJECT]

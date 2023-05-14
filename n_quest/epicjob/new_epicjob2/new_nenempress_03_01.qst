@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 念帝 (4/6)`
+
+[depend message]
+	`你覺得念氣是什么？ 你知道為什么會使用這種力量嗎？ 念氣是把雙刃劍， 它可以用來守護重要的東西， 但過多的力量反而會打破均衡、 擾亂秩序。
+那你覺得這種念氣放到你的身上會變成什么樣？ 你承載念氣的容器足夠堅固嗎？ 有沒有覺得念氣已經溢出來了呢？ 讓身體處在自然的狀態中， 這樣你才不會倒下。
+帶著這種心態開始下一項訓練吧。 這次你要參加青龍大會， 并獲得冠軍。 但并不是拿到冠軍就可以了， 還要從其他參賽者身上學到很多知識， 比如使用念氣、 釋放和回收念氣、 凝固念氣以及使念氣爆發的方法等等， 這些你都要掌握并吸納為自己的知識。
+參賽需要‘赫侖皇帝的印章’， 你先準備這個吧。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`帶回來了嗎？ 
+我看看……很好， 做得不錯。`
+
+[pre required quest]
+	5374
+[/pre required quest]
+
+[relation quest]
+	5376
+
+[job change quest]
+	3
+
+[grow number]
+	0

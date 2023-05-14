@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 機械元首`
+
+[explain]
+	`先進的技術如果不能被人們掌握，那?也只是壹堆冰冷的數據而已，而這種數據卻會讓人們產生依賴，壹種會讓天界人滅絕的依賴， 只有真正的掌握這種技術，天界的光明才會到來。
+老師的睿智洞察了壹切，他比所有人都看得更遠，所以他選擇了離開，卻為他的學生留下了平生所學的知識和技術，期待著他曾經的研究以及機械七戰神的研究能夠真正被人們所接受。
+當沈睡許久的機器人被啟動，青年的眼淚劃過臉頰。
+被人們的依賴與懶惰化成的怪物所吞噬的老師，在最後的最後，研究出的偉業已成為驅趕天界黑暗的希望之光。
+“老師啊……您是超越了機械七戰神的人啊…….您的名字也將達到這個世界的頂點，請允許我稱頌您為........機械元首”`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		131236	0	0	0	99	0
+		``
+	[/passive object]
+[/then]

@@ -1,0 +1,18 @@
+#PVF_File
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Arad/2014_GothLoli/GothLoliAgaress/GothLoliAgaress_Dodge.img`
+		29
+	[IMAGE POS]
+		-237	-337
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		120
+	[DAMAGE BOX]
+	-30	-10	10	65	20	95
+	[DAMAGE BOX]
+	-11	-10	59	53	20	104

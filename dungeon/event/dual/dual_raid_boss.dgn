@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`DNF拉力賽`
+
+[explain]
+	`梅爾賓在根特地下實驗室製作使用念力的P-0 格鬥的機器人。 得知此事的吉傑爾，用自己製作的武器和親衛隊，入侵根特市內中心。`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/boss.ani`
+
+[cutscene image]
+	`Interface2/dualraid/DualRaid_Matching/DualRaid_Matching.img`	6
+
+[minimap image]
+	`Map/MiniMap/Act2.img`
+
+[worldmap pattern info]
+	1	4
+	`WorldMap/SelectdungeonSlot/powerstation.img`	1
+
+[minimum required level]
+	99
+
+[basis level]
+	70
+
+[experience increasing point]
+	1.0
+
+[champion]
+	3	6	9	12	9
+
+[pathgate object]
+	5825	5826	5757	5828	5829	5760	5831	5832	5833	5834
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[recommended level]
+	60	85
+
+[revision table]
+	`Dungeon/Event/Dual/table/Dual_Raid.tbl`
+
+[disable exit]
+	1

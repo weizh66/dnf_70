@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	200
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	690000187	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	690000188	1	690000189	1	690000190	1	690000191	1
+[/reward selection int data]
+
+[name]
+	`端午好 Fun 粽！`
+
+[depend message]
+	`準備好享受端午節了嗎？聽冒險家們說，可以在副本中獲得好吃的粽子呢！
+把那個清淡卻忠於原味的粽子帶來給我，我會直接幫你裝飾。
+`
+
+[condition message]
+	`請在地下城收集10個 [平凡的粽子]`
+
+[solve message]
+	`哇，粽子看起來真的好好吃喔！讓我用賽麗亞特製醬料和裝飾讓粽子的美味升級。
+冒險家最喜歡什麼味道的粽子呢？`

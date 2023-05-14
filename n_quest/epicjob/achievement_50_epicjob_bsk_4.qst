@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	989
+
+[name]
+	`覺醒 - 獄血魔神 (1/4)`
+
+[depend message]
+	`這種腥味……像是血的氣息……奇怪， 城鎮里怎么會有那么濃烈的血腥味？ 難道是……咳、 咳， 這腥味怎么越來越濃？ 難道是你？
+可憐的家伙， 你是怎么照顧自己的？ 竟然讓身體被狂暴之氣侵蝕到這種地步！ 你不知道即使你現在還活著， 不久后生命氣息也會完全消失嗎？
+還好你遇到了我。 如果你想要活命， 唯一的辦法就是覺醒成為獄血魔神。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`呼……總算暫時保住了你的性命。`

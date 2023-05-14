@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`蘭斯洛特`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	1000
+
+[over skill recovery time]
+	5000
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	0
+
+[start level]
+	1
+
+[permission level]
+	10
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[learn overskill level]
+	1
+
+[skill MP]
+	0
+
+[over skill MP]
+	60
+
+[basic motion]
+	`Animation/Berserker_Stand.ani`
+
+[walk motion]
+	`Animation/Berserker_Walk.ani`
+
+[run motion]
+	`Animation/Berserker_Run.ani`
+
+[skill motion]
+	`Animation/skill_start.ani`
+
+[over skill motion]
+	`Animation/skill_start.ani`
+
+[response motion]
+	`Animation/Berserker_Call.ani`
+
+[etc motion]
+	`Animation/skill.ani`
+	`Animation/roar_normal.ani`
+	`Animation/berserker_overskill_attackbasic.ani`
+	`Animation/floor_shockwave.ani`
+	`Animation/floor_shockwave_small_dodge.ani`
+	`Animation/berserker_skill_change_02.ani`
+	`Animation/berserker_skill_change_02.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/skill.atk`
+	`AttackInfo/overskill.atk`
+[/attack info]
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[skill string]
+	`無窮的武練`
+	`    施放後， 使周圍的敵人進入減速狀態。`
+	`騎士徒手不死`
+	`    將手中所有的東西變為武器， 摧毀敵人。`
+[/skill string]
+
+[over skill level values]
+	100	1000
+[/over skill level values]
+
+[int data]
+	-100	2000	800	300	400	300	600	1000	360	5	6
+[/int data]
+
+[string data]
+	`DESTROY_SOUND`
+[/string data]

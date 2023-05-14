@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`封·無軒之黃金念珠`
+
+[basic explain]
+	`    攻擊時， 附加16%%的傷害。
+    攻擊時， 有3%%的幾率使隊員進入無敵狀態10秒， 但需消耗5個無色小晶體。
+    攻擊時，有5%%的幾率使包括自身在的隊員增加10%%的物理攻擊力、 10%%魔法攻擊力和7%%的獨立攻擊力， 效果持續20秒。`
+
+[detail explain]
+	`    攻擊時， 附加16%%的傷害。
+    攻擊時， 有3%%的幾率使隊員進入無敵狀態10秒， 但需消耗5個無色小晶體（冷卻時間50秒）。
+    攻擊時，有5%%的幾率使包括自身在的隊員增加10%%的物理攻擊力、 10%%魔法攻擊力和7%%的獨立攻擊力， 效果持續20秒。（冷卻時間30秒； 最多重疊1次， 攻擊力加成效果包括其他裝備內最多重疊1次； 解除裝備後效果消失）`
+
+[flavor text]
+	`    傳說中的念珠，據說曾被虛祖王室收藏過。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	97
+
+[attack speed]
+	-20
+
+[cast speed]
+	80
+
+[need material]
+	3821	1600
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	950	950
+
+[equipment magical attack]
+	1214	1214
+
+[separate attack]
+	648	648
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/rosary/rosary.img`	90
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	29	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	16
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		50000
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[duration]
+		10000
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		5
+	[equipment duration]
+		20000
+	[appendage]
+		239
+[/then]
+
+[possible kiri protect]

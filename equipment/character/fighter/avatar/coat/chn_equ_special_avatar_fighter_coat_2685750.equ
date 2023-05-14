@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`金色狂襲戰士胸甲`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[usable period]
+	30
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_acoat.img`	364
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[physical defense]
+	15
+
+[HP MAX]
+	80
+
+[variation]
+	113	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30001
+
+[avatar func filter]
+	2

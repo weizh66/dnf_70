@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	64
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	5984
+[/pre required quest]
+
+[monster reward item]
+	62119	1506	1	4431	1	10	20	62125	1506	1	4431	1	6	20	56143	1506	1	4431	1	58	20	56142	1506	1	4431	1	100	20	62116	1506	1	4431	1	100	20	62118	1506	2	4431	1	3	20	56144	1506	2	4431	1	20	20	62119	1506	2	4431	1	12	20	62125	1506	2	4431	1	6	20	56143	1506	2	4431	1	58	20	56142	1506	2	4431	1	100	20	62116	1506	2	4431	1	100	20	62118	1506	3	4431	1	6	20	56144	1506	3	4431	1	58	20	62119	1506	3	4431	1	15	20	62125	1506	3	4431	1	6	20	56143	1506	3	4431	1	60	20	56142	1506	3	4431	1	100	20	62116	1506	3	4431	1	100	20
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4431	20	3305	10	3306	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4440	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5997
+
+[name]
+	`遠古 - 痛苦的滋味`
+
+[depend message]
+	`你知道痛苦是什么樣的滋味嗎？ 如果只是一味地逃避痛苦、 逃避磨難， 那么你永遠都體會不到痛苦和磨難帶給你的好處！
+我聽說你正準備去一個充滿痛苦哀傷的村子冒險， 如果你嘗到了痛苦的滋味， 并且明白了其中真正的含義， 就來找我吧。`
+
+[condition message]
+	`    前往諾斯瑪爾的『痛苦之村列瑟芬』， 收集以下材料。 (痛苦的滋味可以在冒險級以上的地下城中獲得； 地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`看你現在的樣子， 似乎和以前有很大的不同， 難道你領悟到什么了嗎？`

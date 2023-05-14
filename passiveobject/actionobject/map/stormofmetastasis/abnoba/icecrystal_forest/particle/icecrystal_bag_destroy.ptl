@@ -1,0 +1,77 @@
+#PVF_File
+
+[creation pos]
+	0	0	100
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	150	150
+
+[y axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	200	200
+
+[z axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	100	50
+
+[changing type]
+	`[keep changing]`
+
+[gravity]
+	1500
+
+[rotation angle]
+	0	90	0
+
+[life time]
+	1000
+
+[landing type]
+	`[vanish]`
+
+[creation frequency]
+	-1
+
+[maximum create number]
+	12
+
+[create area size]
+	50	20	150
+
+[create area rotation angle]
+	0	0	500
+
+[rotation angle range type]
+	`[circle]`
+
+[rotation angle variable]
+	30	0
+
+[random range]
+	30
+
+[display effect rate]
+	50	75	100
+
+[object type]
+	`[animation]`
+
+[object]
+	`Icecrystal_bag_particle.ani`	-1
+	`Icecrystal_bag_particle1.ani`	-1
+	`Icecrystal_bag_particle2.ani`	-1
+	`Icecrystal_bag_particle3.ani`	-1
+[/object]

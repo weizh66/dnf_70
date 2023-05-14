@@ -1,0 +1,174 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	85
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	136
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[一花渡江]攻擊力 +30%%
+[湮烈掌]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	85
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	136
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	85
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at swordman]`	136
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[static]`	5
+		`%`	20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[static]`	5
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[一花渡江]攻擊力 +30%%
+[一花渡江]爆炸范圍 +30%%
+[湮烈掌]冷卻時間 -20%%
+[湮烈掌]攻擊力 +25%%
+[湮烈掌]爆炸范圍 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	85
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	136
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	85
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[at swordman]`	136
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	2
+		`%`	45
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	2
+		`%`	45
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[一花渡江]冷卻時間 -20%%
+[一花渡江]攻擊力 +45%%
+[湮烈掌]冷卻時間 -20%%
+[湮烈掌]攻擊力 +45%%
+[湮烈掌]無色小晶塊消耗量 +1`
+[/piece set ability]

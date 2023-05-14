@@ -1,0 +1,69 @@
+#PVF_File
+
+[set name]
+	`777祈求者  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[mage]`	43
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[mage]`	93
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-100
+		`[mage]`	93
+		`[dungeon type]`
+		`[static]`	1
+		`+`	50
+		`[mage]`	93
+		`[dungeon type]`
+		`[static]`	2
+		`+`	50
+		`[mage]`	93
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	93
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	93
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[mage]`	101
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-7000
+		`[mage]`	101
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-120
+		`[mage]`	101
+		`[dungeon type]`
+		`[static]`	1
+		`+`	60
+		`[mage]`	101
+		`[dungeon type]`
+		`[static]`	2
+		`+`	60
+		`[mage]`	101
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3000
+		`[mage]`	101
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	101
+		`[dungeon type]`
+		`[static]`	8
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`挑釁人偶：舒露露冷卻時間減少6秒/改造舒露露 失敗率減少10%%， 成功率增加5%%， 大成功率增加5%%， 攻擊力增加10%% 大成功時爆發範圍增加20%% 
+熔巖藥瓶冷卻時間減少7秒， 失敗率減少12%%， 成功率增加6%%， 大成功率增加6%%， 持續時間增加3秒， 成功/大成功時範圍增加20%% `
+[/piece set ability]

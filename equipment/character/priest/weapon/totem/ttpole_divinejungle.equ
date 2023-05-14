@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+	`蠻荒之預言`
+
+[basic explain]
+	`近距離武器攻擊力 +25%%`
+
+[detail explain]
+	`近距離武器攻擊力 +25%% (在決斗場中 +13%%)`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/priest/totem.img`	54
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	38
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	66
+
+[equipment physical attack]
+	655	592
+
+[equipment magical attack]
+	562	508
+
+[separate attack]
+	378	255
+
+[stuck]
+	-1
+
+[variation]
+	14	3
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[if]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	25
+[/then]
+
+[pvp]
+	[if]
+		[attacker]
+			`character`	-1
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	13
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

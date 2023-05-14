@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	``
+
+[basic action]
+	`Action/Kuro_ball_Basic.act`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	59070
+	[homing velocity]
+		1000.0	200.0
+	[sync animation rotation]
+		1
+	[diff rotation]
+		360.0
+[/homing]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	3000
+[/object destroy condition]

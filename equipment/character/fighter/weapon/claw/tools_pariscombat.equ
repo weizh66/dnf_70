@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`帕麗絲的卑劣武器`
+
+[basic explain]
+	`[毒雷引爆]毒氣柱數量 -3
+[毒雷引爆]攻擊力 +300%%
+[毒雷引爆]中毒時間 -2.5秒
+[狂·霸王拳]攻擊次數 +27
+[狂·霸王拳]連擊衝擊波傷害 -70%%
+[伏虎霸王拳]攻擊力 -70%%
+[天羅地網]束縛幾率 +100%%
+[天羅地網]敵人僵直時間 +200%%
+[雙重投擲]持續時間 +200%%`
+
+[detail explain]
+	`找不到代?detail_explain_29701`
+
+[flavor text]
+	`    想贏嗎？ 那就拿著這個。  ——臭水溝公主帕麗絲`
+
+[need material]
+	3216	200
+
+[grade]
+	48
+
+[rarity]
+	5
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	42
+
+[magical attack]
+	21
+
+[price]
+	67200
+
+[repair price]
+	56448
+
+[value]
+	53760
+
+[equipment physical attack]
+	436	412
+
+[equipment magical attack]
+	436	412
+
+[separate attack]
+	236	158
+
+[physical critical hit]
+	3
+
+[icon]
+	`Item/weapon/fighter/claw.img`	43
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	76
+	`[all]`
+	`[level]`	1
+	`+`	-3
+	`[fighter]`	76
+	`[all]`
+	`[level]`	0
+	`%`	300
+	`[fighter]`	76
+	`[all]`
+	`[level]`	3
+	`+`	-2500
+	`[fighter]`	74
+	`[all]`
+	`[static]`	0
+	`+`	5
+	`[fighter]`	74
+	`[all]`
+	`[static]`	2
+	`+`	-10
+	`[fighter]`	14
+	`[all]`
+	`[level]`	0
+	`%`	-70
+	`[fighter]`	52
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[fighter]`	52
+	`[all]`
+	`[static]`	0
+	`%`	200
+	`[fighter]`	43
+	`[all]`
+	`[level]`	0
+	`%`	200
+[/skill data up]
+
+[possible kiri protect]

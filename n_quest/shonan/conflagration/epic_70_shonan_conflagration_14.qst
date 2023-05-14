@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	10
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4386
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`氣息不足`
+
+[depend message]
+	`唉唷，這就是那靈氣嗎？像傳聞一樣真的是非常厲害的魔法呀。這到底是在哪裡發現的呢？啊，總之快給我看看吧。現在就來組合吧。
+啊啊… 這。組合過程中魔法都消失掉了。這不關我的事啊？我的魔法一向都很完美。我想這一定是因為魔法的靈氣太弱了。
+可以替我轉告莎蘭需要更強大的力量嗎？`
+
+[condition message]
+	`與莎蘭對話`
+
+[solve message]
+	` 什麼！失敗了…… 可惜。`
+
+[quest point]
+	4

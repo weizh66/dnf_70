@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`封·最佳球手的反擊護具`
+
+[basic explain]
+	`  進入地下城后，被攻擊2次時，使自身進入5秒霸體狀態。（冷卻時間5秒；解除裝備后生效）
+  按左、右方向鍵+[寵物技能鍵]輸入時，可以發動狂龍之吼。（消耗5個無色小晶塊；冷卻時間30秒）`
+
+[flavor text]
+	`  剛才是讓你們，現在是時候展現我真正的技術了！ --某球手`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12578
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[magical attack]
+	25
+
+[HP MAX]
+	350
+
+[need material]
+	3821	1000
+
+[price]
+	91000
+
+[repair price]
+	72800
+
+[value]
+	72800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2448	2232
+
+[dark attack]
+	20
+
+[icon]
+	`Item/new_equipment/04_larmor/neck/larmor_neck.img`	18
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`myself`	-1
+	[passive object]
+		13037	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		800
+	[appendage]
+		260
+[/then]
+
+[if]
+	[my appendage]
+		260
+	[cooltime]
+		5000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[buff]
+		`superarmor`
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,24 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[width]
+	1	1
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Atanimation/ATBloodNChain/hit/bloodattc05.ani`
+
+[attack info]
+	`AttackInfo/Blood.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

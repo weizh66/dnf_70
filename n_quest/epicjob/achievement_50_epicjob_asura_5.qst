@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	995
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	27699	1	27100	1	27998	1	27554	1	28269	1
+[/reward selection int data]
+
+[relation quest]
+	997
+
+[name]
+	`覺醒 - 大暗黑天 (2/4)`
+
+[depend message]
+	`把手伸出來。
+然后握緊這塊石頭。 既然你正閉著眼睛， 我就不再要求你閉眼了。 呵呵……玩笑到此為止。 集中精神! 感受到石頭的波動了嗎？
+就是這樣， 所有的物質都有自己特有的波動， 而我們要做的就是區分這些波動。
+你剛才已經能感知到非生命體的波動了， 那么死亡的波動又是什么樣的呢？
+不要害怕面對死亡。 那是我們放棄雙眼， 拿起刀劍后必須接受的命運。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`哈哈哈！ 我太高興了。 你果然和我想的一樣， 即使在黑暗中也沒有迷失……`

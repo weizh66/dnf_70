@@ -1,0 +1,93 @@
+#PVF_File
+
+[set name]
+	`冰花之獄  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	3
+		`+`	2
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	5
+		`%`	65
+	[/skill data up]
+	[parameter basic explain]
+		`[破冰飛刃]冰碎片數量 +2
+[破冰飛刃]攻擊范圍 +65%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	3
+		`+`	2
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	5
+		`%`	30
+		`[at mage]`	10
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	60
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[冰凌破]冰凌數量 +30%%
+[冰凌破]冷卻時間 -30%%
+[破冰飛刃]冰碎片數量 +2
+[破冰飛刃]攻擊范圍 +30%%
+[破冰飛刃]冷卻時間 -20%%
+`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	2
+		`+`	5
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	3
+		`+`	5
+		`[at mage]`	10
+		`[dungeon type]`
+		`[static]`	5
+		`%`	300
+		`[at mage]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[破冰飛刃]冰碎片數量 +5
+[破冰飛刃]攻擊范圍變為全屏攻擊
+[千里冰封]攻擊力 +40%%
+[千里冰封]冷卻時間 -20%%`
+[/piece set ability]

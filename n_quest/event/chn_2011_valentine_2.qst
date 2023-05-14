@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[pre required quest]
+	20546
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	-1	-1	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680722	2
+[/reward int data]
+
+[name]
+	`情人節組隊活動 (2/3)`
+
+[depend message]
+	`你好呀， 勇敢的冒險家！ 呵呵， 只要你們情侶齊心協力， 就一定能打敗怪物。
+阿拉德也會因你們而變得更加美麗！ 繼續加油哦！ 我等著給你們送巧克力呢~~    `
+
+[condition message]
+	`    組成3人以上隊伍， 通關任意地下城。`
+
+[solve message]
+	`辛苦了， 冒險家！ 你們合作還愉快吧？ 呵呵， 這是我精心準備的巧克力， 請拿好哦~`

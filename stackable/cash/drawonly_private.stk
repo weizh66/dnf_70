@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`阿拉德 大陸商貿許可權`
+
+[explain]
+	`使用後，可以在城鎮開設個人商店。 個人商店最多可以陳列 7種商品，若在普通頻道進行交易，則系統將收取4%%的手續費。（ 拍賣行手續費是 3%%）`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	11
+
+[field image]
+	`Item/FieldImage.img`	22
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`PAPER_TOUCH`
+
+[npc gift disallowance]
+	1

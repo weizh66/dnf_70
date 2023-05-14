@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`S`
+
+[gold multiple]
+	110
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	4201
+[/pre required quest]
+
+[enemy reward item]
+	61800	1	80	2	4310	1	40	10
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4310	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	1025	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`維修城墻`
+
+[depend message]
+	`勇敢的冒險家， 你也看到了吧， 現在的根特已經殘破不堪了。
+尤其是那些老百姓居住的外圍， 城墻都倒塌了好幾處， 恐怕難以抵擋敵人的進攻了。
+你也知道， 根特的電力供應現在幾乎被中斷了， 城墻修補機器完全不能使用。
+唉， 如果能找到一些卡勒特改造士兵的源動力， 或許城墻修補機器就可以運轉了……
+冒險家， 你能去消滅卡勒特改造士兵并奪來一些源動力嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特外圍』， 除掉卡勒特改造士兵， 收集10個[改造士兵的源動力]， 要求地下城難度為王者級。`
+
+[solve message]
+	`啊……城墻修補機器可以使用了！
+雖然不知能用多久， 但總算可以松一口氣了。 呵呵， 謝謝你， 冒險家！`

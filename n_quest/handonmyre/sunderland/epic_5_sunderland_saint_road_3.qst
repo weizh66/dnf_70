@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	5	99
+
+[pre required quest]
+	542
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	5	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	400	35667	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神圣之路 - 第三個任務`
+
+[depend message]
+	`聽說雷鳴廢墟出現了一個奇怪的哥布林， 好像是哥布林部族傳說中一百年才會誕生的那個哥布林！
+有冒險家和它交過手， 說它能呼喚閃電， 不容易對付， 我還聽說它已經成了哥布林的首領。
+圣職者， 我知道讓你完成這個任務有點困難， 但如果我們不趁現在除掉它， 以后會有更大的麻煩的！ `
+
+[condition message]
+	`    通關格蘭之森的『雷鳴廢墟』。`
+
+[solve message]
+	`你平安回來了？ 沒受一點傷嗎？ 噢！ 一定是受到了神的眷顧！ `
+
+[quest point]
+	4

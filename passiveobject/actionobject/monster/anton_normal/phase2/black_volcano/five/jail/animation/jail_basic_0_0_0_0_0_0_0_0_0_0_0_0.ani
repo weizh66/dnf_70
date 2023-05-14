@@ -1,0 +1,71 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Map/TimeGate/epidemic/magic_circle.img`
+		0
+	[IMAGE POS]
+		-253	-103
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[DAMAGE BOX]
+	-78	-22	-17	155	42	201
+
+[FRAME001]
+	[IMAGE]
+		`Map/TimeGate/epidemic/magic_circle.img`
+		0
+	[IMAGE POS]
+		-253	-103
+	[RGBA]
+		255	255	255	149
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-78	-22	-17	155	42	201
+
+[FRAME002]
+	[IMAGE]
+		`Map/TimeGate/epidemic/magic_circle.img`
+		0
+	[IMAGE POS]
+		-253	-103
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[DAMAGE BOX]
+	-78	-22	-17	155	42	201
+
+[FRAME003]
+	[IMAGE]
+		`Map/TimeGate/epidemic/magic_circle.img`
+		0
+	[IMAGE POS]
+		-253	-103
+	[RGBA]
+		255	255	255	149
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-78	-22	-17	155	42	201

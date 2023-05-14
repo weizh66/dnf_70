@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	64	99
+
+[pre required quest]
+	5892	5895
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	53	3	62110	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5835
+
+[name]
+	`英雄 - 疑惑之村 (1/2)`
+
+[depend message]
+	`你想在疑惑之村里和更強大的敵人交手？
+我可以幫你實現這個愿望， 不過這種行為非常的危險， 你必須先向我證明你有足夠的實力。`
+
+[condition message]
+	`    通關諾斯瑪爾的『疑惑之村』5次， 要求地下城難度為地獄級。`
+
+[solve message]
+	`看來你對疑惑之村已經非常熟悉了……我知道該怎么做了。`

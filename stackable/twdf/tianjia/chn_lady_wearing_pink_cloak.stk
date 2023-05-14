@@ -1,0 +1,47 @@
+#PVF_File
+
+[name]
+	`可愛的小粉帽`
+
+[explain]
+	`    使用后， 可以召喚出可愛的小粉帽協助召喚者攻擊敵人， 可愛的小粉帽存在300秒。 (此物品只能在地下城中使用， 且可愛的小粉帽的Lv與召喚者的Lv相同)`
+
+[flavor text]
+	`<2010年勞動節特殊裝扮禮包>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption_cn.img`	59
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	300000
+
+[cooltime group]
+	100
+
+[move wav]
+	`PAPER_TOUCH`
+
+[summon apc]
+	19999	-1	-1	300000	1

@@ -1,0 +1,27 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/attepes2.act`
+
+[attack info]
+	`AttackInfo/attepesspear.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	6000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

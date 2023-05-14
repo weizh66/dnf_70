@@ -1,0 +1,95 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[槍刃亂舞]攻擊力 +30%%
+[槍刃亂舞]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	70
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[gun blader]`	70
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[gun blader]`	70
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[血光斬]攻擊范圍 +20%%
+[血光斬]攻擊力 +40%%
+[血光斬]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[gun blader]`	69
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[gun blader]`	70
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[gun blader]`	73
+		`[dungeon type]`
+		`[static]`	12
+		`+`	1
+		`[gun blader]`	73
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-20
+		`[gun blader]`	73
+		`[dungeon type]`
+		`[level]`	0
+		`%`	80
+	[/skill data up]
+	[parameter basic explain]
+		`[槍刃亂舞]攻擊力 +30%%
+[血光斬]攻擊力 +35%%
+[近敵滅殺]刪除強制控制和射擊功能
+[近敵滅殺]刺擊攻擊力 +80%%`
+[/piece set ability]

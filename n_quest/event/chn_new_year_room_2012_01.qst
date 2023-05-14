@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749051	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2749049	2	2749050	2
+[/reward selection int data]
+
+[name]
+	`春節大掃除！ (1/6)`
+
+[depend message]
+	`你好呀~冒險家， 我是賽麗亞。
+龍年就要來了， 為了迎接新年， 我想打掃一下衛生。 呵呵， 你愿意幫忙嗎？ 和冒險家一起工作一直是我的心愿哦~
+不過我需要一些附有魔法力量的紅紙~有了它， 我就可以利用魔法把旅館打掃得干干凈凈的~
+聽說那些變異的怪物身上攜帶著紅紙， 冒險家， 你能幫我帶些回來嗎？`
+
+[condition message]
+	`    前往任意地下城， 收集50個[紅紙]。`
+
+[solve message]
+	`哎呀！ 旅館變干凈了！
+這都是冒險家的功勞， 呵呵， 不知道怎么感謝你才好呢……
+呃， 這是我的一點小小心意， 請你收下。`

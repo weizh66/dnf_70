@@ -1,0 +1,215 @@
+#PVF_File
+
+[name]
+	`雙火焚天劍`
+
+[basic explain]
+	`    攻擊時， 有4%%的幾率增加3%%的攻擊速度和移動速度， 並使被擊的敵人附加5%%的火屬性傷害， 效果持續5秒。`
+
+[detail explain]
+	`    攻擊時， 有4%%的幾率增加3%%的攻擊速度和移動速度， 並使被擊的敵人附加5%%的火屬性傷害， 效果持續5秒。 (解除裝備後效果消失）`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	-80
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	929	830
+
+[equipment magical attack]
+	728	651
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/thief/twinswd/twinswd.img`	144
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		20000
+	[appendage]
+		686
+[/then]
+
+[if]
+	[my appendage]
+		686
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		20000
+	[appendage]
+		687
+[/then]
+
+[if]
+	[my appendage]
+		687
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		15
+	[equipment duration]
+		20000
+	[appendage]
+		688
+[/then]
+
+[if]
+	[my appendage]
+		686
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	4
+[/then]
+
+[if]
+	[my appendage]
+		687
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	4
+[/then]
+
+[if]
+	[my appendage]
+		688
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	4
+[/then]
+
+[possible kiri protect]

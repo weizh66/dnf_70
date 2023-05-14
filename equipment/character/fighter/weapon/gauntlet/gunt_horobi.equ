@@ -1,0 +1,226 @@
+#PVF_File
+
+[name]
+	`哀嚎之星臂鎧`
+
+[basic explain]
+	`    [崩拳]、 [肘擊]命中時， 有5%%的幾率出現隕石。`
+
+[detail explain]
+	`    [崩拳]、 [肘擊]命中時， 有5%%的幾率出現隕石。 (在決斗場中幾率為1%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`gauntlet`
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	42
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	39
+
+[price]
+	111600
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	64
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	515	472
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[fighter]`	80	2
+	`[at fighter]`	80	2
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[if]
+	[cooltime]
+		1000
+	[skill]
+		`fighter`	80
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		48121	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[skill]
+		`at fighter`	80
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		48121	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			1000
+		[skill]
+			`fighter`	80
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			1
+		[passive object]
+			48122	0	0	0	0	0
+			``
+		[/passive object]
+	[/then]
+	[if]
+		[cooltime]
+			1000
+		[skill]
+			`at fighter`	80
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			1
+		[passive object]
+			48122	0	0	0	0	0
+			``
+		[/passive object]
+	[/then]
+[/pvp]
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+[/routing priority]
+
+[possible kiri protect]

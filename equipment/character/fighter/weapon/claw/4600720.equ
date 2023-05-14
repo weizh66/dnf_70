@@ -1,0 +1,187 @@
+#PVF_File
+
+[name]
+	`封·雙子物語`
+
+[basic explain]
+	`[挑釁]效果範圍 +20%%
+    攻擊異常狀態下的敵人時， 附加25%%的傷害。
+    攻擊時， 使敵人減少5點所有異常狀態抗性， 效果持續10秒。 (最多可疊加5次； 冷卻時間1秒)`
+
+[flavor text]
+	`    兄弟如手足， 女人如衣服。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[magical attack]
+	32
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	960	824
+
+[equipment magical attack]
+	960	824
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	44	2
+	`[at fighter]`	44	2
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/claw/claw.img`	109
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	44
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[at fighter]`	44
+	`[all]`
+	`[level]`	1
+	`%`	20
+[/skill data up]
+
+[if]
+	[target active status]
+		`any`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	25
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[duration]
+		10000
+	[appendage]
+		219
+[/then]
+
+[possible kiri protect]

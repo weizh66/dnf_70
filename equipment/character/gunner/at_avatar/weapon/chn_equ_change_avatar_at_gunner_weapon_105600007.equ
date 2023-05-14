@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`粉色可愛風海豚手炮`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[icon]
+	`item/weapon/gunner/hcannon.img`	71
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		20	1
+	[layer variation]
+		2790
+		`at_hcanc`
+	[equipment ani script]
+		`equipment/character/atgunner.lay`
+	[layer variation]
+		650
+		`at_hcanb`
+	[equipment ani script]
+		`equipment/character/atgunner.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/gunner/weapon/hcannon/`
+[/expand ani]
+
+[int data]
+	654321	3	1	110	0	110	1	110	0	110	1	110	0	110	2	110	0	20	0	55	0	70
+[/int data]
+
+[string data]
+	`Common/Particle/ggsummer.ptl`
+[/string data]
+
+[avatar func filter]
+	2

@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	56
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	4204
+[/pre required quest]
+
+[enemy reward item]
+	61802	1	80	1	4308	1	100	8	61802	1	80	2	4308	1	100	8	61802	1	80	3	4308	1	100	8
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4308	8
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`卡勒特的報告文書`
+
+[depend message]
+	`看守根特外圍的士兵傳來消息， 說卡勒特打算向根特派遣情報員。
+我想， 那些情報員給卡勒特總部的機密文件中也許會有和皇女有關的線索。
+即使沒有， 為了防止根特的情報泄露， 我們也要阻止他們。
+冒險家， 拜托了。 請你去消滅那些情報員， 并把那些機密文件奪回來。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特外圍』， 除掉卡勒特情報員， 收集8張[卡勒特的報告文書]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`很遺憾， 這些機密文件里沒有和皇女相關的線索。 不過能阻止根特的情報泄漏， 已經很幸運了。
+謝謝……啊， 等等。 這是？ 這文件中好像還有什么暗號， 我先破解一下。`
+
+[quest point]
+	4

@@ -1,0 +1,31 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/divinepunishmentloop.ani`
+	[SUB ANI]
+		`../Animation/divinepunishment/loop_direct_03.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		36	36
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			800006
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

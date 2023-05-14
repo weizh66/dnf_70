@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/AdvancedDragon/AdvancedDragon_Bright/EndDragon_dragon_normal.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		17	17
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			800017
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

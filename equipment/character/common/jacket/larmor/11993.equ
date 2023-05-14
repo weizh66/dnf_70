@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`最佳球手的暴走戰衣`
+
+[basic explain]
+	`  攻擊時，有3%%的幾率使敵人進入失明狀態5秒；對失明狀態下的敵人，會減少90%%的視野和20%%的命中率。（若敵人高于Lv91，則減少進入異常狀態的幾率和效果；反之，則增加幾率和效果）
+  對失明狀態下的敵人附加20%%傷害。`
+
+[flavor text]
+	`   球技爛的話，穿什么衣服都沒用。 --某球手`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12578
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	46
+
+[magical attack]
+	31
+
+[need material]
+	3821	1000
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	3672	3348
+
+[light attack]
+	20
+
+[icon]
+	`Item/new_equipment/04_larmor/coat/larmor_coat.img`	22
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[duration]
+		5000
+	[active status]
+		`blind`	100	90	20
+[/then]
+
+[if]
+	[target active status]
+		`blind`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600785	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

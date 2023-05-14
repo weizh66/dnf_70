@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	14	99
+
+[pre required quest]
+	203
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	1000	-1	210	15	1000	-1	211	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`僵尸`
+
+[depend message]
+	`冒險家， 你等下， 我有事和你商量！ 你提過的那個辛達發現的奇怪空間， 我們煉金術師決定把它名為‘暗黑雷鳴廢墟’。
+不過那個神秘的空間很可能是和現實空間完全不同的另一種‘死后空間’， 當然投身科學事業的我們不會輕易去相信一些神神叨叨的東西……
+所以我希望你前往那個空間仔細觀察一下， 然后向我詳細描述那里的情況， 怎么樣？ 愿意幫忙嗎？`
+
+[condition message]
+	`    前往格蘭之森的『暗黑雷鳴廢墟』， 除掉15只叢林僵尸和15只饑餓僵尸。`
+
+[solve message]
+	`哦……竟然全是僵尸群？ 那簡直是地獄嘛。 好了， 我知道了， 我再研究研究……`
+
+[quest point]
+	4

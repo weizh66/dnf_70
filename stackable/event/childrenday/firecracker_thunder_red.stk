@@ -1,0 +1,44 @@
+#PVF_File
+
+[name]
+	`紅色閃電爆竹`
+
+[explain]
+	`點擊右鍵使用的話，就會落下紅色閃電。 嘩啦啦砰砰！！
+只能在城鎮中使用。`
+
+[grade]
+	1
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[cool time]
+	100
+
+[icon]
+	`Item/stackable/cash.img`	807
+
+[stackable type]
+	`[only effect]`	0
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[string data]
+	`Common/CommonEffect/Animation/Thunder_Firecracker_red.ani`
+	`ATK_LIGHTNING`
+[/string data]
+
+[shared effect]
+	1

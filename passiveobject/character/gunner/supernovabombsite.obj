@@ -1,0 +1,27 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/SuperNova/FloorLoop/FloorLoop_FloorNormal.ani`
+
+[attack info]
+	``
+
+[name]
+	`?炸?(光)`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

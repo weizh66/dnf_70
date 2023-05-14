@@ -1,0 +1,48 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	3
+[/check count]
+
+[limit showing msg]
+	1
+
+[level]
+	254	255
+
+[type]
+	`[send chatting]`
+
+[int data]
+	3	6
+[/int data]
+
+[string data]
+	`2012斥 貨秦 汗 腹撈 罐欄技夸`
+[/string data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26794	1
+[/reward int data]
+
+[send postal]
+	8393	5
+	`postal_message_08`
+	`postal_message_09`
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`在普通或者公會聊天欄中輸入‘2012年新年快樂’達到3次。`
+
+[condition data]
+	0
+	`輸入次數 : %d / %d`
+[/condition data]

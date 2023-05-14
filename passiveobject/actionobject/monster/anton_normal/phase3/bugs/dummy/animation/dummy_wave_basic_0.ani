@@ -1,0 +1,74 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/EvilEye/Quake.img`
+		0
+	[IMAGE POS]
+		-344	-371
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Monster/EvilEye/Quake.img`
+		1
+	[IMAGE POS]
+		-344	-371
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/EvilEye/Quake.img`
+		2
+	[IMAGE POS]
+		-344	-371
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/EvilEye/Quake.img`
+		3
+	[IMAGE POS]
+		-344	-371
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/EvilEye/Quake.img`
+		4
+	[IMAGE POS]
+		-344	-371
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

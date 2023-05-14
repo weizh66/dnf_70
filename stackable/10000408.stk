@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`異界氣息的清除書`
+
+[explain]
+	`只能使用在被異界的氣息污染的 55級以上稀有裝備上使用 可清除污染的氣息.`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[weight]
+	10
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	317
+
+[field image]
+	`Item/FieldImage.img`	24
+
+[stackable type]
+	`[etc]`	0
+
+[item group name]
+	`potion`
+
+[move wav]
+	`BOOK_TOUCH`
+
+[stack limit]
+	1000
+
+[need material]
+	3245	10
+
+[price]
+	1200000
+
+[value]
+	0
+
+[action type]
+	`[equipment purify]`
+[/action type]

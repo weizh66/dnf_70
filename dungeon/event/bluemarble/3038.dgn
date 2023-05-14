@@ -1,0 +1,62 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`疑惑之村`
+
+[explain]
+	`這是一個人跡罕至的礦山村， 不知從哪天開始， 這個不為人知的小村子裡開始出現一股怪異的氣息。 有人說， 在礦山附近看到了一位非常美麗的魔女……在諾斯瑪爾的深處， 冒險家們能找到村子發生混亂的原因嗎？`
+
+[minimap image]
+	`Map/MiniMap/Act6.img`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[worldmap pattern info]
+	2	6
+	`WorldMap/SelectdungeonSlot/northmaier.img`	3
+
+[minimum required level]
+	99
+
+[basis level]
+	67
+
+[experience increasing point]
+	1.2
+
+[champion]
+	3	6	9	12	9
+
+[pathgate object]
+	5610	5611	5612	5613	5614	5615	5616	5617	5618	5619
+
+[special passive object item]
+	0	-1	1	3301	4000	1	-1	1	3279	1500
+[/special passive object item]
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[event monster]
+	1	10000	61728	1	300	80	1
+[/event monster]

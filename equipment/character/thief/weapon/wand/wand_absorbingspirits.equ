@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+	`兇殘的汲魂之手`
+
+[basic explain]
+	`施放技能時， 有3%%的幾率使特定的敵人進入詛咒狀態。`
+
+[detail explain]
+	`    施放技能時， 有3%%的幾率使300px范圍內最近的敵人進入詛咒狀態12秒； 詛咒狀態下的敵人減少45點的力量、 體力、 智力和精神， 效果持續12秒。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	63
+
+[rarity]
+	5
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[magical attack]
+	46
+
+[attack speed]
+	-100
+
+[anti evil]
+	8
+
+[need material]
+	3228	60
+
+[repair price]
+	74088
+
+[value]
+	70560
+
+[equipment physical attack]
+	449	430
+
+[equipment magical attack]
+	639	612
+
+[separate attack]
+	314	212
+
+[magical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/wand.img`	60
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[thief]`
+
+[variation]
+	7	4
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		12000
+	[probability]
+		3
+	[active status]
+		`curse`	60	45	45	45	45
+	[target]
+		`myself`	-1
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 血獄君主（1/2）`
+
+[depend message]
+	`血腥味真濃啊。 你吸收的血氣也太多了吧？ 你究竟在做什么？
+……生命研究？ 你究竟在做什么研究， 為什么會有如此不祥的魔力覆蓋在你身上？ 你該不會是在做什么歪門邪道的事吧？ 請把你正在進行的研究詳詳細細地告訴我。
+不受生與死束縛的新的血族魔法……真厲害。 如果真能成功的話， 那你完全可以稱得上是‘血獄君主’了。 雖然看起來很危險， 但我相信你， 魔法師。 但是， 我也要參與你的研究。
+別擔心， 我絕對不會泄露出去的。 而且， 與其讓我懷疑你， 不如讓我來幫助你， 這樣不是更好嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和莎蘭談談。`
+
+[solve message]
+	`謝謝你同意。 那么， 我們現在就開始進行吧。 你有研究報告嗎？ 我想先讀讀看。`
+
+[pre required quest]
+	2690
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	2891
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

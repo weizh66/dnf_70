@@ -1,0 +1,254 @@
+#PVF_File
+
+[name]
+	`虛無之眼`
+
+[basic explain]
+	`    惡魔能量額外獲得量 +4
+    [惡魔之力]惡魔能量消耗量 +50%%
+    [惡魔之力]冷卻時間 -30%%
+    [惡魔之力]攻擊力 +20%%
+    [惡魔詛咒]移動速度增加量 +10%%`
+
+[detail explain]
+	`    惡魔能量額外獲得量 +4
+    [惡魔之力]惡魔能量消耗量 +50%%
+    [惡魔之力]冷卻時間 -30%%
+    [惡魔之力]攻擊力 +20%%
+    [惡魔詛咒]移動速度增加量 +10%%`
+
+[flavor text]
+	`    索侖和你什麼關係`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	62
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	911	814
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	125
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	41	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[skill data up]
+	`[priest]`	123
+	`[all]`
+	`[static]`	1
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	2
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	3
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	4
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	5
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	6
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	7
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	8
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	9
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	10
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	11
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	12
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	13
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	14
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	16
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	18
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	19
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	21
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	24
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	28
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[static]`	29
+	`+`	4
+	`[priest]`	10
+	`[all]`
+	`[level]`	2
+	`+`	4
+	`[priest]`	123
+	`[all]`
+	`[level]`	3
+	`%`	20
+	`[priest]`	123
+	`[all]`
+	`[level]`	4
+	`%`	20
+	`[priest]`	123
+	`[all]`
+	`[level]`	5
+	`%`	20
+	`[priest]`	123
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[priest]`	123
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[priest]`	123
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[priest]`	123
+	`[all]`
+	`[static]`	17
+	`%`	-30
+	`[priest]`	121
+	`[all]`
+	`[level]`	2
+	`+`	10
+[/skill data up]
+
+[possible kiri protect]

@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	4
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	16	99
+
+[pre required quest]
+	7
+[/pre required quest]
+
+[monster reward item]
+	50	-1	-1	4016	1	20	10	51	-1	-1	4016	1	20	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	4016	10
+[/int data]
+
+[dungeon info]
+	11	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	4500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`精煉炭`
+
+[depend message]
+	`你知道嗎？ 鋼鐵也有喜怒哀樂， 特別是你敲打它們的時候， 它們會哭泣呢。
+當它們哭泣的時候， 它們會變得非常脆弱。 不管你怎么敲打， 它們也不會堅固。 是不是很詭異？ 不過可不能因為它們哭泣， 就得讓我丟了飯碗啊……
+所以我師父當年想出了一個辦法， 就是用那些純度很高的木炭撫慰它們！ 呵呵， 這就是所謂的糖衣炮彈策略吧。
+冒險家， 如果你去天空之城， 就幫我收集一些精煉炭吧！ `
+
+[condition message]
+	`    前往天空之城的『龍人之塔』， 從各類翼龍身上收集10個[精煉炭]。`
+
+[solve message]
+	`嗯， 有了這個就可以撫慰那些愛哭泣的家伙了。 謝謝你， 冒險家！ `

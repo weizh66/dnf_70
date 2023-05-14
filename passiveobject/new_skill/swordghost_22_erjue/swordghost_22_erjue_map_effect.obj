@@ -1,0 +1,34 @@
+#PVF_File
+
+[name]
+	`二次覺醒——map_effect`
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/swordghost_22_erjue_map_effect.act`
+
+[etc action]
+	``
+	``
+	``
+	``
+[/etc action]
+
+[attack info]
+	`AttackInfo/windspiritvs.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

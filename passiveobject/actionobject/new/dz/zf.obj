@@ -1,0 +1,30 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/zf.act`
+
+[attack info]
+	`AttackInfo/BladePhantomSlash.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	660052
+[/object destroy condition]
+
+[name]
+	`邪光斬`

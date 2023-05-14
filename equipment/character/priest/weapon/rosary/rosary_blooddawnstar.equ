@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`(舊) 血影殺戮珠`
+
+[basic explain]
+	`魔法攻擊時， 有2%%的幾率附加444點傷害。
+魔法攻擊時， 有2%%的幾率使敵人進入出血狀態。`
+
+[detail explain]
+	`    魔法攻擊時， 有2%%的幾率附加444點傷害。
+    魔法攻擊時， 有2%%的幾率使敵人進入出血狀態10秒； 出血狀態下的敵人， 每0.5秒受到45點傷害。 (若敵人高于Lv50， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[flavor text]
+	`    殘留有濃厚血跡的念珠， 據說它由晨星之淚凝結而成， 擁有殘暴的力量。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rosary`
+
+[rarity]
+	4
+
+[weight]
+	2500
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/priest/rosary.img`	34
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	80000
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[magical attack]
+	53
+
+[equipment physical attack]
+	428	385
+
+[equipment magical attack]
+	547	492
+
+[separate attack]
+	285	189
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[if]
+	[attack type]
+		`magical`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	444
+[/then]
+
+[if]
+	[cooltime]
+		18000
+	[attack type]
+		`magical`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	45	1150
+[/then]
+
+[magical critical hit]
+	2
+
+[variation]
+	4	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

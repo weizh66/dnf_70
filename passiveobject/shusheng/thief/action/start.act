@@ -1,0 +1,29 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/BallacreAdvent/BeadStart02_Set07N.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19826157
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[FLASH SCREEN]
+		500	500	3000	2000	0	0	0
+[/BEHAVIOR]

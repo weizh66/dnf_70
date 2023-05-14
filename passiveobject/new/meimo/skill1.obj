@@ -1,0 +1,24 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/skill1.act`
+
+[attack info]
+	`AttackInfo/skill1.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	6000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

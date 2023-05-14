@@ -1,0 +1,23 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	1
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	500000000
+
+[basic action]
+	`Action/Time_stay.act`
+
+[etc action]
+	`Action/Time_attack0.act`
+	`Action/Time_attack1.act`
+	`Action/Time_attack2.act`
+	`Action/Time_destroy.act`
+[/etc action]

@@ -1,0 +1,157 @@
+#PVF_File
+
+[name]
+	`雷鳴劍 - 坎亞`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使敵人進入感電狀態。
+攻擊時， 有3%%的幾率出現閃電。`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使敵人進入感電狀態10秒； 若攻擊感電狀態下的敵人， 則每次攻擊都會附加400點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    攻擊時， 有3%%的幾率出現閃電。 `
+
+[flavor text]
+	`    難道這就是所謂的魔法劍？  --羅杰`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	39
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	658	603
+
+[separate attack]
+	360	243
+
+[cast speed]
+	20
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		22500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[active status]
+		`lightning`	60	400
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[passive object]
+		46001	0	0	0	40	0
+		``
+	[/passive object]
+[/then]
+
+[magical critical hit]
+	2
+
+[variation]
+	2	2
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[routing priority]
+	`swordman`	2
+	`swordman`	4
+[/routing priority]
+
+[need material]
+	2749095	129
+
+[possible kiri protect]

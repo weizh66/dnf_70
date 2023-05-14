@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`達人之邪能幽靈`
+
+[basic explain]
+	`攻擊時，以1%%的機率使敵人進入感電狀態
+攻擊時，以1%%的機率施放閃電
+攻擊不死族敵人時，增加20%%的攻擊力`
+
+[detail explain]
+	`攻擊時以1%%的機率15秒內讓敵人呈現觸電狀態，每次擊時以135的攻擊力給予追加傷害. (若敵人高於Lv40，則減少進入異常狀態的機率；反之，則增加機率。)
+ 攻擊時，有1%%的機率出現閃電。
+對不死族敵人的攻擊力 +20%%`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	14
+
+[magical attack]
+	21
+
+[attack speed]
+	-30
+
+[stuck]
+	1
+
+[price]
+	79200
+
+[repair price]
+	63360
+
+[value]
+	63360
+
+[equipment physical attack]
+	386	334
+
+[skill levelup]
+	`[gunner]`	39	1
+	`[at gunner]`	39	1
+[/skill levelup]
+
+[icon]
+	`item/weapon/gunner/musket.img`	29
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2600
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2600
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		22500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[active status]
+		`lightning`	40	135
+[/then]
+
+[possible kiri protect]

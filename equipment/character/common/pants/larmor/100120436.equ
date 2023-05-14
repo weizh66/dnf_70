@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`光劍洛克的綁腿`
+
+[basic explain]
+	`  裝備後， 可以增加7%%的攻擊速度和移動速度， 增加10%%的技能施放速度， 及20點暗屬性強化。
+  自身HP為70%%以下時， 增加10點的暗屬性強化、 4%%的移動速度和擊速度， 以及5%%的施放速度。`
+
+[flavor text]
+	`洛克還是克洛？`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	45
+
+[magical attack]
+	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2940	2730
+
+[icon]
+	`item/new_equipment/04_larmor/pants/larmor_pants.img`	46
+
+[field image]
+	`Item/field_equip.img`	6
+
+[equipment type]
+	`[pants]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`attack speed`
+		`+`	70
+	[stat by condition]
+		`move speed`
+		`+`	70
+	[stat by condition]
+		`cast speed`
+		`+`	100
+	[stat by condition]
+		`dark attack`
+		`+`	20
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`<`
+		`%`	70
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`attack speed`
+		`+`	40
+	[stat by condition]
+		`move speed`
+		`+`	40
+	[stat by condition]
+		`cast speed`
+		`+`	500
+	[stat by condition]
+		`dark attack`
+		`+`	10
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

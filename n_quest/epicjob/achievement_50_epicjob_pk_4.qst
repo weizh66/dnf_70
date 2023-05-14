@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	909
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	911
+
+[name]
+	`覺醒 - 毒王 (2/4)`
+
+[depend message]
+	`因為那樣實在是太痛苦了。 你想想， 全身的血液里都是劇毒， 甚至連呼吸都充滿了毒氣， 平常人根本無法想像。
+而且， 在你用毒氣擊敗敵人之前， 或許自己就已經先倒下了……說了這么多， 也是希望你能做出一個慎重的選擇。
+如果選擇和普通人一樣， 那就可以不用承受毒氣帶來的痛苦； 如果你想要成為人人敬畏的毒王， 就必須接受劇毒的考驗……選擇吧！
+想不到你依然堅持‘毒王’這條路， 那就注定你要與痛苦做斗爭了……`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`怎么樣？ 修煉的時候感覺到痛苦了嗎？
+運用毒氣和念氣一樣， 都不是一件容易的事。`

@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`atpriest big rosary`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/bigrosary.act`
+
+[attack info]
+	`AttackInfo/BigRosary.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	800153
+[/object destroy condition]

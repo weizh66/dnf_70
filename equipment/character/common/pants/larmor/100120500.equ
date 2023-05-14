@@ -1,0 +1,338 @@
+#PVF_File
+
+[name]
+	`瘟疫之源龍骨護腿`
+
+[basic explain]
+	`每1點強化/增幅數值可以使50px範圍內敵人的所有狀態異常抗性減少1。強化/增幅等級越高， 範圍和敵人的所有狀態異常抗性減少值也越大。`
+
+[detail explain]
+	`每1點強化/增幅數值可以使50px範圍內敵人的所有狀態異常抗性減少1。強化/增幅等級越高， 範圍和敵人的所有狀態異常抗性減少值也越大。 (最大適用於強化至+10)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12548
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	45
+
+[magical attack]
+	30
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2940	2730
+
+[icon]
+	`item/new_equipment/04_larmor/pants/larmor_pants.img`	52
+
+[field image]
+	`Item/field_equip.img`	6
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[pants]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[active status control info]
+	`hold`	0	0	10
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	1	0
+		`amplify`
+		`=`	1	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	50
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-1
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	2	0
+		`amplify`
+		`=`	2	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-2
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	3	0
+		`amplify`
+		`=`	3	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	150
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-3
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	4	0
+		`amplify`
+		`=`	4	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	200
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-4
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	5	0
+		`amplify`
+		`=`	5	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	250
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-5
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	6	0
+		`amplify`
+		`=`	6	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-6
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	7	0
+		`amplify`
+		`=`	7	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	350
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-7
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	8	0
+		`amplify`
+		`=`	8	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-8
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	9	0
+		`amplify`
+		`=`	9	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	450
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-9
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`>=`	10	0
+		`amplify`
+		`>=`	10	0
+	[/equipment upgrade]
+	[start cooltime]
+		500
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	-10
+[/then]
+
+[possible kiri protect]

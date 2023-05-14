@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	16	99
+
+[monster reward item]
+	50	-1	-1	4040	1	16	-1	51	-1	-1	4040	1	16	-1	52	-1	-1	4040	1	16	-1	53	-1	-1	4040	1	60	-1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4040	10
+[/int data]
+
+[dungeon info]
+	11	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1077	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`新菜單 - 德雷克香檳`
+
+[depend message]
+	`冒險家， 你想嘗嘗我的新酒嗎？ 呵呵， 我用滋養腸胃的幼龍心臟釀制了一種新酒哦， 叫德雷克香檳。 那味道……可是極品中的極品啊！
+呵呵， 不過那些幼龍的心臟太難弄到了， 冒險家， 你能不能幫幫我？ `
+
+[condition message]
+	`    前往天空之城的地下城， 從各種翼龍身上收集10個[幼龍心臟]。 (只有接受了此任務， 才能獲得任務物品)`
+
+[solve message]
+	`怎么樣？ 喝了它后是不是覺得疲勞全消失了？ `

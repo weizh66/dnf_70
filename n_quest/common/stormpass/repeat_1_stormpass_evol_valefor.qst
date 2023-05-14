@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[job change quest]
+	10
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[creature kind]
+	5
+
+[creature level]
+	36
+
+[level]
+	1	99
+
+[monster reward item]
+	50078	-1	-1	4104	1	30	3
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4104	3
+[/int data]
+
+[reward type]
+	`[creature evolution]`
+
+[reward int data]
+	6
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`進化 - 華利弗`
+
+[depend message]
+	`你有沒有聽過冰鳥華利弗的傳說……？
+傳說， 當擁有潛力的鳥吃了一種叫“冰冷的火焰”的花朵后， 就會進化成傳說中的冰鳥。
+以我多年的經驗看， 你的寵物納扎魯擁有深不可測的潛力， 你想試一試嗎？ 據說“冰冷的火焰”生長在雪山深處， 會受冰龍斯卡薩魔力的影響盛開成美麗的花朵。`
+
+[condition message]
+	`    前往萬年雪山的『山脊』， 從冰精靈史蘇克身上收集3個[冰冷的火焰]交給奧蘭。 (完成此任務后， 您的寵物將進化為華利弗)`
+
+[solve message]
+	`你居然做到了！ 真了不起！ 我們開始喂納扎魯吧， 啊！ 快看你的寵物！ `
+
+[quest point]
+	0

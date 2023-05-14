@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`破碎之命運`
+
+[basic explain]
+	`物理攻擊力 +167
+力量 +44 `
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	62
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[magical attack]
+	44
+
+[equipment physical attack]
+	749	677
+
+[equipment magical attack]
+	718	649
+
+[separate attack]
+	378	255
+
+[cast speed]
+	20
+
+[magical critical hit]
+	2
+
+[variation]
+	9	8
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[routing priority]
+	`swordman`	1
+	`swordman`	2
+	`swordman`	3
+	`swordman`	4
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

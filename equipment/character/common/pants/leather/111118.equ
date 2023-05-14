@@ -1,0 +1,139 @@
+#PVF_File
+
+[name]
+	`怒海狂鯊腿甲`
+
+[basic explain]
+	`  冰屬性攻擊時，有2%%的幾率使敵人進入中毒狀態3秒；中毒狀態下的敵人，每0.5秒會受到1083點的傷害。（若敵人Lv高于81，則減少進入異常狀態的幾率和效果；反之，則增加幾率和效果）
+  冰屬性攻擊時，有3%%的幾率使畫面內的所有敵人減少30點冰屬性抗性，效果持續7秒。（冷卻時間20秒）`
+
+[flavor text]
+	`  鯊魚皮應該比鱷魚皮值錢吧？`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12563
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[magical defense]
+	38
+
+[need material]
+	3821	800
+
+[price]
+	81000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	1840	1660
+
+[water attack]
+	12
+
+[icon]
+	`Item/new_equipment/03_leather/pants/leather_pants.img`	17
+
+[field image]
+	`Item/FieldImage.img`	1
+
+[equipment type]
+	`[pants]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	27
+
+[weight]
+	1500
+
+[item group name]
+	`lt pants`
+
+[cool time]
+	10000
+
+[if]
+	[element]
+		`water`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		3
+	[active status]
+		`poison`	81	1500
+[/then]
+
+[if]
+	[element]
+		`water`
+	[attack success]
+		1
+	[cooltime]
+		7000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[stat]
+		`water resistance`
+		`+`	-30
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600666	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

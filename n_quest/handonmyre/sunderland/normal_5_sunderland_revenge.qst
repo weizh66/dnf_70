@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	6	99
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	5	-1	5	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+	18003	1	18403	1	18803	1
+[/reward selection int data]
+
+[name]
+	`復仇的徽章`
+
+[depend message]
+	`嗚嗚！ 冒險家， 你一定要幫我報仇！ 一定要把哥布林十夫長收拾了， 要不然我死也不會瞑目的……嗚嗚…… `
+
+[condition message]
+	`    前往格蘭之森的『雷鳴廢墟』， 殺死5個十夫長。`
+
+[solve message]
+	`我的怨氣總算消一些了， 謝謝你！ `

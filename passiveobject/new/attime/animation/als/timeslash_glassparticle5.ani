@@ -1,0 +1,35 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_glassparticle.img`
+		3
+	[IMAGE POS]
+		-234	-535
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[INTERPOLATION]
+		1
+	[DELAY]
+		150
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_glassparticle.img`
+		3
+	[IMAGE POS]
+		-234	-535
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[IMAGE ROTATE]
+		4.710000038146973
+	[DELAY]
+		90
+	[DAMAGE TYPE]
+		`NORMAL`

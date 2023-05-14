@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`敏泰特製的馬奶酒`
+	
+
+[explain]
+	`    使用後， 有10%%的幾率使自身進入混亂狀態。`
+	
+
+[flavor text]
+	`呵呵！ 我不是說過嘛！ 在這酒下死， 做鬼也甘願啊！  --雷諾對冒險家說`
+	
+
+[grade]
+	40
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	235
+
+[stackable type]
+	`[waste]`	0
+
+[item group name]
+	`animal stuff`
+
+[cool time]
+	10000
+
+[cooltime group]
+	2
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`+`	1650	5000
+	`myself`
+
+[active status recovery]
+	`freeze`	-1
+	`myself`
+
+[my status]
+	`confuse`	10	5000	45

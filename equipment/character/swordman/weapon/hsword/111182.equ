@@ -1,0 +1,157 @@
+#PVF_File
+
+[name]
+	`錘王菠蘿丁的驚世寶劍`
+
+[basic explain]
+	`  攻擊時，有5%%的幾率使120px范圍內的所有敵人進入眩暈狀態2秒。
+  攻擊眩暈狀態的敵人時，增加10%%的傷害。（傷害加成效果取最高值，且無法疊加；暴擊/附加傷害除外）`
+
+[flavor text]
+	`  據說擁有這把寶劍的人便可以支配整個世界！ --遠古留下的傳說`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[need material]
+	3500	1300
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1153	1037
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	122
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[passive object]
+		60106	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`stun`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	15
+[/then]
+
+[possible kiri protect]

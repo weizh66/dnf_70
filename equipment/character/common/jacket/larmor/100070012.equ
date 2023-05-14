@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`骷髏盔甲上衣`
+
+[basic explain]
+	`被攻擊時以20%% 的機率30秒內召喚墳墓骷髏
+不可解體`
+
+[detail explain]
+	`被攻擊時以 20%% 的機率30秒內召喚墳墓骷髏（決鬥場內以 2%% 的機率發動，冷卻時間30秒）
+不可解體`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	37
+
+[magical attack]
+	25
+
+[stuck resistance]
+	20
+
+[HP MAX]
+	250
+
+[need material]
+	3338	420
+
+[repair price]
+	62160
+
+[value]
+	59200
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3888	3648
+
+[icon]
+	`Item/new_equipment/04_larmor/coat/larmor_coat.img`	12
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[if]
+	[cooltime]
+		30000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		20
+	[summon monster]
+		63032	75	1
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

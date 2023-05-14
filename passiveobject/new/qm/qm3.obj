@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`Advanced Dragon`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/qm3.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	280
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	20170344
+[/object destroy condition]

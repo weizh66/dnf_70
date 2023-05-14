@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	4066
+[/pre required quest]
+
+[collision quest]
+	4063
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[dungeon info]
+	509	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	4068
+
+[name]
+	`轉職 - 冰結師 (2/3)`
+
+[depend message]
+	`成為冰結師的先決條件， 就是與生俱來就要擁有制冰的能力， 并且要非常優秀……
+你是在酷寒的大地上出生的， 我相信你應該具備這個實力。
+<npc::0>你怎么知道？
+<npc::28>別忘了， 我是一個占卜師， 我的水晶球會告訴我一切我想知道的事。
+好了， 說回正題。 如果你想成為冰結師， 必須先去收集一些簡單的材料給我。`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給艾麗絲。`
+
+[solve message]
+	`好了， 現在我開始傳授你一些修煉冰結師的方法。`

@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[target character]
+	`[at mage]`	-1	-1
+	`[mage]`	-1	-1
+[/target character]
+
+[level]
+	5	99
+
+[pre required quest]
+	532
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	5	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	400	33376	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神奇的魔法 - 第三次冒險`
+
+[depend message]
+	`格蘭之森出現了一個能呼喚閃電的哥布林……我們也聽到消息了！
+我們魔法師公會很疑惑， 哥布林這樣低等的生物竟然會使用魔法？ 你也很疑惑吧？ 要不你幫忙調查下？ 聽說那地方非常危險……一定要小心啊。 `
+
+[condition message]
+	`    通關格蘭之森的『雷鳴廢墟』。`
+
+[solve message]
+	`你總算平安回來了！ 我好擔心啊！ 怕你不小心出了意外， 這樣的話我會很自責的！`
+
+[quest point]
+	4

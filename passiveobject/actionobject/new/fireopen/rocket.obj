@@ -1,0 +1,33 @@
+#PVF_File
+
+[name]
+	`Rocket`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	20
+
+[basic action]
+	`Action/Rocket.act`
+
+[attack info]
+	`AttackInfo/ATOperationRazeAttack5.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	900165
+[/object destroy condition]

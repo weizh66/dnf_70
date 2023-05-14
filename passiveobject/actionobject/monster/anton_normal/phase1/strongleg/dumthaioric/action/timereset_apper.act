@@ -1,0 +1,43 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/TimeReset_apper_normal.ani`
+	[SUB ANI]
+		`../Animation/TimeReset_apper_dodge.ani`	0	1
+	[/SUB ANI]
+	[SOUND]
+		`DTAIORIC_BLOOD_CAST`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		11	11
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET POSITION HP GAUGE]
+		0	0	70
+[/BEHAVIOR]

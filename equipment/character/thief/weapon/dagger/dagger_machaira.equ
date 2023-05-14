@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`瑪卡拉之焰`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使敵人進入灼傷狀態。`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使敵人進入灼傷狀態5秒； 灼傷狀態下的敵人， 每0.5秒受到160點傷害， 同時灼傷狀態敵人周圍的敵人， 每2秒受到10點傷害。 (若敵人高于Lv50， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`dagger`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/thief/dagger.img`	44
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	452	411
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	100
+
+[elemental property]
+	`[fire element]`
+
+[item aura]
+	`physical attack`
+	`+`	45	300
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		3
+	[active status]
+		`burn`	50	1600	25	1	2000
+[/then]
+
+[physical critical hit]
+	10
+
+[stuck]
+	1
+
+[variation]
+	9	1
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

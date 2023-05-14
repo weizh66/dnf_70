@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`封·黃泉之風戰靴`
+
+[basic explain]
+	`  前衝時，有1%%的幾率使自身進入為裝狀態5秒
+背擊時，使自身增加10%%的攻擊速度，效果持續10秒
+破招時，使自身增加10%%的移動速度，效果持續10秒`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12573
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	53
+
+[magical attack]
+	53
+
+[magical defense]
+	25
+
+[move speed]
+	70
+
+[need material]
+	3821	1000
+
+[price]
+	72800
+
+[repair price]
+	58240
+
+[value]
+	58240
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1224	1116
+
+[icon]
+	`item/new_equipment/03_leather/shoes/leather_shoes.img`	17
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	800
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		1
+	[buff]
+		`camoflage`
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		10
+	[stat]
+		`attack speed`
+		`+`	100
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		10
+	[stat]
+		`move speed`
+		`+`	100
+[/then]
+
+[possible kiri protect]

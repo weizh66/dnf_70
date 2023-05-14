@@ -1,0 +1,129 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/Rest.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../particle/effect_dark_move.ptl`	0	0	0
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		1
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		7	7	7	2	7	7	7	3	7	7	7	7	4	7	5	7	6	7	8	8
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`艾澤拉……我們真的無法挽回了嗎？`
+		
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`是繆繆嗎？ 啊……原來不是……你看到繆繆了嗎？`
+		
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`真懷念故鄉啊……繆繆， 你想跟我一起回去嗎？`
+		
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`太痛苦了……`
+		
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`真不該做這樣的實驗……`
+		
+[/BEHAVIOR]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+[/BEHAVIOR]

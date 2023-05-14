@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[job change quest]
+	10
+
+[npc index]
+	36
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[creature kind]
+	13
+
+[creature level]
+	35
+
+[level]
+	1	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	2110
+
+[name]
+	`進化 - 貝雷斯普特 (1/3)`
+
+[depend message]
+	`你的寵物好象生病了， 讓我這老太婆看看它好嗎？ 可愛的孩子……哪里不舒服？ 來， 和我這老太婆說說……
+嗯， 這孩子似乎要說什么， 但我聽不懂， 看來只有找賽麗亞幫忙了。`
+
+[condition message]
+	`    找賽麗亞談談。`
+
+[solve message]
+	`您好啊, 有事需要我幫忙嗎？`
+
+[quest point]
+	4

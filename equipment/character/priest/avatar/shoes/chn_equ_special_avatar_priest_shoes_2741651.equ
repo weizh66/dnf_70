@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`銀色圣光戰士戰靴`
+
+[explain]
+	`    煉就格斗之魂， 需要擁有執著的熱情與永不言敗的信念。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_ashoes.img`	280
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0	30	0	0	2200	0	0	0	0	4400	0	0	0	0	4840	2
+	`[D socket]`
+	`[D socket]`
+[/avatar type select]
+
+[variation]
+	87	1
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2689287
+
+[physical defense]
+	40
+
+[move speed]
+	50
+
+[avatar func filter]
+	2

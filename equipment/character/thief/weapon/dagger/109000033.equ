@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`旋轉漩渦`
+
+[basic explain]
+	`用螺旋穿刺攻擊敵人時，以 5%%的機率螺旋穿刺技能的目前 剩餘的冷卻時間減少10%% 
+ 用劍刃風暴攻擊 敵人時以 3%% 機率讓劍刃風暴技能的目前 剩餘的冷卻時間減少10%% `
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	700	649
+
+[equipment magical attack]
+	742	688
+
+[separate attack]
+	504	343
+
+[physical critical hit]
+	10
+
+[skill levelup]
+	`[thief]`	31	2
+	`[thief]`	33	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/thief/dagger/dagger.img`	108
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	25	1
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[if]
+	[skill]
+		`thief`	31
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[probability]
+		5
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		31
+		`%`	-10
+[/then]
+
+[if]
+	[skill]
+		`thief`	33
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[probability]
+		3
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		33
+		`%`	-10
+[/then]
+
+[possible kiri protect]

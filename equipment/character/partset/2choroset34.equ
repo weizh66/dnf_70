@@ -1,0 +1,267 @@
+#PVF_File
+
+[set name]
+	`殲滅突擊  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	73
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[gunner]`	73
+		`[dungeon type]`
+		`[static]`	0
+		`%`	60
+		`[gunner]`	73
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[gunner]`	73
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gunner]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	800
+		`[gunner]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	1000
+		`[gunner]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gunner]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at gunner]`	73
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[at gunner]`	73
+		`[dungeon type]`
+		`[static]`	0
+		`%`	60
+		`[at gunner]`	73
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[at gunner]`	73
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at gunner]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	800
+		`[at gunner]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	1000
+		`[at gunner]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at gunner]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[加農炮]冷卻時間 -1.5秒
+[加農炮]蓄氣時間 +60%%
+[加農炮]最大蓄氣時， 爆炸大小 +30%%
+[加農炮]蓄氣攻擊力 +30%%
+[M-137格林機槍]冷卻時間 +0.8秒
+[M-3噴火器]冷卻時間 +1秒
+[BBQ]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[gunner]`	45
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[gunner]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[gunner]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	75
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	75
+		`[dungeon type]`
+		`[level]`	2
+		`+`	80
+		`[at gunner]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at gunner]`	45
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[at gunner]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at gunner]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	75
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	75
+		`[dungeon type]`
+		`[level]`	2
+		`+`	80
+	[/skill data up]
+	[parameter basic explain]
+		`神槍手(男) :
+[FM-92刺彈炮]冷卻時間 -6秒
+[FM-92刺彈炮]攻擊力 +20%%
+[FM-92刺彈炮]增加浮空力
+神槍手(女) :
+[量子爆彈]冷卻時間 -6秒
+[量子爆彈]爆炸范圍 +30%%
+[FM-92 mk2榴彈]冷卻時間 -6秒
+[FM-92 mk2榴彈]攻擊力 +20%%
+[FM-92 mk2榴彈]增加浮空力`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	71
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-13500
+		`[gunner]`	71
+		`[dungeon type]`
+		`[static]`	6
+		`%`	20
+		`[gunner]`	71
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[gunner]`	71
+		`[dungeon type]`
+		`[static]`	10
+		`%`	15
+		`[gunner]`	71
+		`[dungeon type]`
+		`[static]`	12
+		`%`	15
+		`[gunner]`	71
+		`[dungeon type]`
+		`[static]`	13
+		`%`	15
+		`[gunner]`	71
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gunner]`	71
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[gunner]`	41
+		`[dungeon type]`
+		`[level]`	0
+		`+`	480
+		`[gunner]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gunner]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[gunner]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-15000
+		`[gunner]`	62
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-13500
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[static]`	6
+		`%`	20
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[static]`	10
+		`%`	15
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[static]`	12
+		`%`	15
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[static]`	13
+		`%`	15
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at gunner]`	71
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at gunner]`	41
+		`[dungeon type]`
+		`[level]`	0
+		`%`	80
+		`[at gunner]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at gunner]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[at gunner]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-15000
+		`[at gunner]`	62
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[X-1壓縮量子炮]冷卻時間 -13.5秒
+[X-1壓縮量子炮]大小 +20%%
+[X-1壓縮量子炮]吸附范圍 +15%%
+[X-1壓縮量子炮]吸附力 +20%%
+[蓄電激光炮]蓄電時間 +80%%
+[蓄電激光炮]最大蓄電時， 攻擊力增加率 +30%%
+[潛能爆發]冷卻時間 -15秒
+[潛能爆發]持續時間 -15秒
+[潛能爆發]重火器攻擊力增加率 +5%%`
+[/piece set ability]

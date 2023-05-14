@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`finalheaven_dashuppereff_a_dodge_g.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			200
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+[/BEHAVIOR]

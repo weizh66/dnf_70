@@ -1,0 +1,84 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/Grenade/Boom/bumb.img`
+		0
+	[IMAGE POS]
+		-135	-207
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-62	-6	51	140	12	40
+	[ATTACK BOX]
+	-12	-6	1	40	12	140
+	[ATTACK BOX]
+	-47	-16	16	110	32	110
+	[ATTACK BOX]
+	-29	-22	34	74	44	74
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/Grenade/Boom/bumb.img`
+		1
+	[IMAGE POS]
+		-135	-207
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-76	-7	47	168	14	48
+	[ATTACK BOX]
+	-16	-7	-13	48	14	168
+	[ATTACK BOX]
+	-58	-19	5	132	38	132
+	[ATTACK BOX]
+	-36	-26	27	88	52	88
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/Grenade/Boom/bumb.img`
+		2
+	[IMAGE POS]
+		-135	-203
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-76	-7	47	168	14	48
+	[ATTACK BOX]
+	-16	-7	-13	48	14	168
+	[ATTACK BOX]
+	-58	-19	5	132	38	132
+	[ATTACK BOX]
+	-36	-26	27	88	52	88
+
+[FRAME003]
+	[IMAGE]
+		`Character/Gunner/Effect/Grenade/Boom/bumb.img`
+		3
+	[IMAGE POS]
+		-135	-207
+	[IMAGE RATE]
+		0.949999988079071	0.949999988079071
+	[INTERPOLATION]
+		1
+	[DELAY]
+		300
+
+[FRAME004]
+	[IMAGE]
+		`Character/Gunner/Effect/Grenade/Boom/bumb.img`
+		3
+	[IMAGE POS]
+		-135	-207
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		90
+	[DAMAGE TYPE]
+		`NORMAL`

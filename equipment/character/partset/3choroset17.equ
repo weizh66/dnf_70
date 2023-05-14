@@ -1,0 +1,211 @@
+#PVF_File
+
+[set name]
+	`絕地突襲  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	80
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	80
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[肘擊]攻擊力 +30%%
+[肘擊]出拳速度增加比率 +30%%
+格斗家(女)
+[崩拳]攻擊力 +30%%
+[崩拳]出拳速度增加比率 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[fighter]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	80
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at fighter]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	80
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at fighter]`	108
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	108
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[level]`	3
+		`+`	30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-60
+		`[fighter]`	103
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-80
+		`[fighter]`	103
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-80
+		`[fighter]`	103
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-7
+		`[fighter]`	103
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-2
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[肘擊]冷卻時間 -30%%
+[肘擊]移動距離 +30%%
+[瞬步]冷卻時間 -30%%
+[瞬步]移動距離 +20%%
+[閃電之舞]移動次數 +2
+[閃電之舞]攻擊力 +30%%
+[閃電之舞]移動距離 +30%%
+[閃電之舞]冷卻時間 -20%%
+格斗家(女)
+[崩拳]冷卻時間 -30%%
+[崩拳]移動距離 +30%%
+[升龍霸]上升高度 -60%%
+[升龍霸]多段攻擊次數 -7
+[升龍霸]釋放速度 +30%%
+[升龍霸]浮空力 -30%%
+[升龍霸]MP消耗量 -80%%
+[升龍霸]無色小晶塊消耗量 -2`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	102
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[fighter]`	102
+		`[dungeon type]`
+		`[level]`	1
+		`%`	100
+		`[fighter]`	102
+		`[dungeon type]`
+		`[level]`	3
+		`%`	100
+		`[fighter]`	102
+		`[dungeon type]`
+		`[level]`	6
+		`+`	40
+		`[fighter]`	102
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[fighter]`	102
+		`[dungeon type]`
+		`[level]`	7
+		`%`	40
+		`[fighter]`	102
+		`[dungeon type]`
+		`[level]`	8
+		`%`	40
+		`[fighter]`	102
+		`[dungeon type]`
+		`[level]`	9
+		`%`	40
+		`[fighter]`	102
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	124
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at fighter]`	124
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at fighter]`	124
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[at fighter]`	124
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[at fighter]`	124
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[霹靂三重踢]冷卻時間 -40%%
+[霹靂三重踢]攻擊力 +50%%
+[霹靂三重踢]無色小晶塊消耗量 +1
+格斗家(女)
+[破碎拳]移動距離 +100%%
+[破碎拳]冷卻時間 -40%%
+[破碎拳]攻擊力 +40%%
+[破碎拳]出拳速度 +30%%
+[破碎拳]無色小晶塊消耗量 +1`
+[/piece set ability]

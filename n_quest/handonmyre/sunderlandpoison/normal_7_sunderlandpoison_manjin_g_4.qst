@@ -1,0 +1,56 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	20
+
+[complete npc index]
+	-1
+
+[target character]
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+[/target character]
+
+[level]
+	7	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	0
+
+[int data]
+	6	-1	370
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7148	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`火罐的打賭 - 猛毒雷鳴廢墟`
+
+[depend message]
+	`哈哈， 這才像打賭嘛。 等著瞧， 輸的那個人， 絕對不會是我！ `
+
+[condition message]
+	`    在6分10秒內， 通關格蘭之森的『猛毒雷鳴廢墟』。`
+
+[solve message]
+	`憑你之前的表現， 我早就知道贏不了你的！ 哈哈……`

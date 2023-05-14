@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`波塞冬之戒`
+
+[basic explain]
+	`攻擊時，附加20%%的冰屬性傷害。`
+
+[flavor text]
+	`海神波塞冬的戒指，充滿著海水的力量。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	120
+
+[magical attack]
+	120
+
+[water attack]
+	50
+
+[price]
+	74000
+
+[value]
+	59200
+
+[creation rate]
+	0
+
+[anti evil]
+	16
+
+[need material]
+	3835	1000
+
+[equipment magical defense]
+	3592	3432
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	129
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`water`
+		`%`	20
+[/then]
+
+[possible kiri protect]

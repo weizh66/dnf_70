@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`精良的冥炎絕殺刀`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入灼傷狀態。
+對灼傷狀態下敵人的傷害 +10%%
+    無法進行分解、 封裝和合成。`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入灼傷狀態12秒， 灼傷狀態下的敵人， 每0.5秒受到30點傷害， 同時使其周圍的敵人每3秒受到150點傷害。 (若敵人高于Lv62， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對灼傷狀態敵人的傷害 +10%%
+    無法進行分解、 封裝和合成。`
+
+[grade]
+	65
+
+[rarity]
+	5
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	62
+
+[physical attack]
+	46
+
+[magical attack]
+	69
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[anti evil]
+	8
+
+[price]
+	0
+
+[repair price]
+	74088
+
+[value]
+	0
+
+[equipment physical attack]
+	543	521
+
+[equipment magical attack]
+	601	575
+
+[separate attack]
+	324	219
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/katana.img`	40
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	8	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	8	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		12000
+	[probability]
+		2
+	[active status]
+		`burn`	62	950	750	1	3000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

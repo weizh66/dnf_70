@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	26
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	71	99
+
+[pre required quest]
+	4188
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	26
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`疾病的階段`
+
+[depend message]
+	`嗯，你是說這治療劑引起了副作用嗎？那麼就把你帶來的這疾病樣本與暗精靈的疾病樣本作個比較吧。之前留下的樣本在哪呢？
+啊，原來在這。讓我看看～嗯～原來是這樣！你拿來的這疾病的樣本只是發癥的初期階段而已。但是暗精靈的疾病已經接近後期了。
+由於克倫特調配的治療劑是按癥狀後期行製作的，用來治療初期疾病，藥效實在是太強了一點。把治療劑的組合稍微變更，就可以解決副作用了。
+我會寫下我的調配方法，將這個紙條轉交給克倫特。`
+
+[condition message]
+	`與克倫特對話`
+
+[solve message]
+	`原來是這樣！眼熟的疾病體，所以錯過了疾病的進行階段。`
+
+[quest point]
+	4

@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`封·血舞之牙護腿`
+
+[basic explain]
+	`  破招攻擊時，有1%%的幾率使自身進入偽裝狀態5秒
+暴擊攻擊傷害 +15%%`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12573
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	74
+
+[magical attack]
+	74
+
+[need material]
+	3821	1000
+
+[price]
+	91000
+
+[repair price]
+	72800
+
+[value]
+	72800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2040	1860
+
+[icon]
+	`Item/new_equipment/03_leather/pants/leather_pants.img`	18
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	27
+
+[weight]
+	1500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		100
+	[buff]
+		`camoflage`
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	15
+[/then]
+
+[possible kiri protect]

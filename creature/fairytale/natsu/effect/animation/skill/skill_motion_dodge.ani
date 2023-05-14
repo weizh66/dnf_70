@@ -1,0 +1,51 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_circle_dodge.img`
+		0
+	[IMAGE POS]
+		-40	-105
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_circle_dodge.img`
+		1
+	[IMAGE POS]
+		-40	-105
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_circle_dodge.img`
+		2
+	[IMAGE POS]
+		-40	-105
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_circle_dodge.img`
+		2
+	[IMAGE POS]
+		-40	-105
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

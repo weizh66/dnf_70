@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	8
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	426
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3033	30	3187	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3209	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 帝國的實驗`
+
+[depend message]
+	`噢， 忘了提醒你， 比爾馬克帝國試驗場里有一種奇怪的石頭， 叫泰拉石， 會散發讓人變成怪物的魔力。 如果你要進試驗場， 就要有能抵抗這種魔力的物品。
+我聽說諾頓能制作抵抗這種魔力的免疫膠囊， 不過需要有靈魂晶石和黑色小晶塊作材料， 你去請他幫忙吧。 `
+
+[condition message]
+	`    收集10個[靈魂晶石]和30個[黑色小晶塊]交給諾頓。`
+
+[solve message]
+	`用這個做膠囊啊……冒昧的問下， 你要用在什么地方？ `

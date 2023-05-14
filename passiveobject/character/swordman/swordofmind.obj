@@ -1,0 +1,37 @@
+#PVF_File
+
+[name]
+	`空絞錘的間接攻擊`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/SwordOfMind/newhit.ani`
+
+[etc motion]
+	`Animation/SwordOfMind/normalhit/hit1_smoke.ani`
+	`Animation/SwordOfMind/normalhit/hit2_smoke.ani`
+	`Animation/SwordOfMind/normalhit/hit3_smoke.ani`
+	`Animation/SwordOfMind/dunhit/dunhit1_hit_smoke.ani`
+	`Animation/SwordOfMind/dunhit/dunhit2_hit_smoke.ani`
+	`Animation/SwordOfMind/dunhit/dunhit3_hit_smoke.ani`
+	`Animation/SwordOfMind/last_hit.ani`
+	`Animation/SwordOfMind/dunhit/dunhit_finish_last_hit.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/SwordOfMind.atk`
+
+[etc attack info]
+	`AttackInfo/SwordOfMindExp.atk`
+[/etc attack info]

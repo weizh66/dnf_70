@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	22	99
+
+[pre required quest]
+	350
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3122	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7112	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	352
+
+[name]
+	`阿爾伯特的條件 (3/7)`
+
+[depend message]
+	`阿爾伯特想要精靈王族的糖果？ 可能有點麻煩哦， 因為精靈王族的糖果是用精靈翅膀上的閃亮粉末做的。
+嗯， 我想想……精靈的翅膀粉末可以在精靈換衣服時弄到， 我聽說精靈的衣服是用一種叫圣痕絲綢的布料做的。 如果你能給我收集一些圣痕絲綢， 我就有辦法制作精靈王族的糖果了。 `
+
+[condition message]
+	`    前往天空之城的地下城， 從各類人偶師身上收集20匹[圣痕絲綢]。`
+
+[solve message]
+	`圣痕絲綢很不好收集， 呵呵， 你一定是有事需要阿爾伯特幫忙吧， 他提的這個條件很苛刻哦。 `
+
+[quest point]
+	4

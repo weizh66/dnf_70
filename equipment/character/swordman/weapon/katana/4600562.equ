@@ -1,0 +1,184 @@
+#PVF_File
+
+[name]
+	`封·明光追影刀`
+
+[basic explain]
+	`    光屬性攻擊時， 附加20%%的傷害。
+    每10點光屬性抗性， 可以使自身增加5點光屬性強化。 (最多增加20點)`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	56
+
+[magical attack]
+	84
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	3821	1400
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	862	735
+
+[equipment magical attack]
+	953	813
+
+[separate attack]
+	555	359
+
+[physical critical hit]
+	2
+
+[light attack]
+	20
+
+[light resistance]
+	22
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	100
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	30	8
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	30	8
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`light resistance`	10
+		`light attack`
+		`+`	5	20
+[/then]
+
+[if]
+	[element]
+		`light`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[routing priority]
+	`swordman`	2
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]

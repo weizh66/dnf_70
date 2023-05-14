@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`精靈之哥布林 `
+
+[explain]
+	`變身為精靈之哥布林士兵協助戰鬥，變身效果持續30秒。變身時，會隨機選擇哥布林的變身種類。（1:哥布林護衛，2:哥布林人偶，3:哥布林突擊隊長，4:哥布林大族長）`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature.img`	33
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	34
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	5.0
+
+[magical attack]
+	23
+
+[MP regen speed]
+	12
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1

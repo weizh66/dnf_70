@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`攻??型??`
+
+[explain]
+	`    可以把特定技能的攻??型??成物理攻?或魔法攻?。 (不适用于Buff技能； 在?斗?中?效)
+适用的技能有 : [暗黑?]、 [???]、 [???]、 [回旋?]、 [泰山??]、 [升天?]、 [??]`
+
+[basic explain]
+	`    可以把特定技能的攻??型??成物理攻?或魔法攻?。
+    鼠?右???技能??即可?行??。 (不适用于Buff技能； 并且在?斗?中?效)`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	1	1	1	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[pre required skill]
+[/pre required skill]
+
+[icon]
+	`Character/Common/SkillIcon.img`	110
+	`Character/Common/SkillIcon.img`	111
+
+[physical magical change]
+	0
+
+[static data]
+	1	2	3	5	6	7	8	46
+[/static data]
+
+[pvp]
+	[static data]
+	[/static data]
+[/pvp]

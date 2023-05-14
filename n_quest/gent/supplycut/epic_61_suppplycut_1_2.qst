@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	5743
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	17020
+[/int data]
+
+[dungeon info]
+	84	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`深入敵軍補給線`
+
+[depend message]
+	`從你調查的結果來看， 那里堆積著大量的武器， 那么那里肯定就是補給基地了。
+不過你看到的應該只是其中的武器倉庫。
+你當時有再往里走嗎？
+有情報說， 基地里不僅存放了敵軍的武器， 還堆滿了大量的戰備糧食。
+既然你對那里的結構比較熟悉， 不如這次還是由你前去調查。 只要繼續向武器倉庫的深處前進， 應該不難發現那些軍糧。`
+
+[condition message]
+	`    獨自一人前往安特貝魯峽谷的『補給線阻斷戰』， 尋找糧食倉庫。`
+
+[solve message]
+	`冒險家， 在你全力的幫助下， 我們已經看到了勝利的曙光！ 這實在是太讓人激動了！`
+
+[dialog]
+	0	0	17020	0	0	0	0
+	`<monster::61018>就憑你， 也敢來本大人負責看守的軍糧倉庫搗亂？
+這些糧食， 我們自己吃都還不夠呢！ 你別想打它們的主意！`
+[/dialog]
+
+[quest point]
+	4

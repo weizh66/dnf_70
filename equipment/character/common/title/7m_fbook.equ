@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`齁勝！按「讚」 70， 000 `
+
+[explain]
+	`攻擊時有7%%7秒之間，
+力量/體力/智力/精神 +7`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/title/title_tw.img`	8
+
+[custom animation]
+	`titleanimation/tw_1128_like_7m.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	7
+
+[physical defense]
+	7
+
+[magical attack]
+	7
+
+[magical defense]
+	7
+
+[equipment physical attack]
+	7	7
+
+[equipment magical attack]
+	7	7
+
+[room list move speed rate]
+	0.07
+
+[if]
+	[cooltime]
+		77000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		7
+	[stat]
+		`physical attack`
+		`+`	7
+	[stat]
+		`physical defense`
+		`+`	7
+	[stat]
+		`magical attack`
+		`+`	7
+	[stat]
+		`magical defense`
+		`+`	7
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[usable period]
+	7777

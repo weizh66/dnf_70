@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 毒神絕 (4/6)`
+
+[depend message]
+	`一直以來， 不論對方是人是怪， 你應該都是用毒氣去傷害他們的。 當然， 你這樣做無非就是想尋一條活路， 也是不得已才會這么做。
+所以， 想要改變你一直以來的生存方式就要顛覆你的整個人生。
+換句話說， 一直以來， 你都生活在孤獨和痛苦中， 而現在我們是要把你從陰郁的人生里拯救出來。
+毒氣只有在最必要時使用才能將其作用發揮得淋漓盡致。 以后你就用這個毒氣去拯救人類怎么樣？ 這樣一來， 你也自然地拯救了自己。
+那么， 現在我們就來訓練如何才能更加準確地使用毒氣吧。 你要更加細心和犀利才能悟出如何節制地使用毒氣， 乃至掌控毒氣。
+讓我想想……啊， 有個機會非常適合你。 聽說在素喃會有一場魂·青龍大會， 你去參加大會， 利用你所掌握的毒氣去與參賽者們切磋一下吧。
+這場比賽可能與你之前參加過的魂·黃龍大會不太一樣， 一旦你讓別人感知到你身上有毒氣， 那些強者們可能就會迅速將你秒殺。 應該沒有比這個大會更適合你的修煉場了， 是不是？
+好， 那你先去收集‘赫侖皇帝的印章’吧， 聽說有了它才能報名參加。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`帶回來了嗎？ 
+我看看……很好， 做得不錯。`
+
+[pre required quest]
+	5382
+[/pre required quest]
+
+[relation quest]
+	5384
+
+[job change quest]
+	3
+
+[grow number]
+	0

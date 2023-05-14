@@ -1,0 +1,242 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以3%%的機率30秒內力量增加 60，攻擊速度增加5%%。
+ 攻擊時以 3%%的機率30秒內智力增加60，施放速度增加 5%%。
+ 施展時以 5%%的機率30秒內力量增加 60，攻擊速度增加5%%。
+ 施展時以 5%%的機率30秒內智力增加60，施放速度增加 5%%。
+前衝時以 5%%的機率30秒內移動速度增加4%%。
+跌倒時以10%%的機率5秒內進入霸體狀態狀態。 （決鬥場不發動。 ）
+ 被攻擊時以 5%%的機率恢復全體HP的3%%。 （決鬥場不發動。 ）
+ 被攻擊時以 5%%的機率恢復全體MP的3%%。 （決鬥場不發動。 )`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[inventory limit]
+	10000
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[icon]
+	`Item/Title/title.img`	169
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[custom animation]
+	`TitleAnimation/bestman_maypl.ani`
+[/custom animation]
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		3
+	[stat]
+		`physical attack`
+		`+`	60
+	[stat]
+		`attack speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		3
+	[stat]
+		`magical attack`
+		`+`	60
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		40000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`physical attack`
+		`+`	60
+	[stat]
+		`attack speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		40000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`magical attack`
+		`+`	60
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		40000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		3
+	[stat]
+		`move speed`
+		`+`	40
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[set my state]
+		1
+	[my state]
+		`down`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		10
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[restore]
+		`hp`
+		`%`	3	5000
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[restore]
+		`mp`
+		`%`	3	5000
+[/then]
+
+[room list move speed rate]
+	0.15

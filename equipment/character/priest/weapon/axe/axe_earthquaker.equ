@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`裂地戰斧`
+
+[basic explain]
+	`攻擊時，以2%%的機率出現衝擊波，並使命中的敵人進入眩暈狀態。`
+
+[detail explain]
+	`攻擊時， 有2%%的機率出現衝擊波， 並使命中的敵人進入眩暈狀態2秒。 (若敵人高於Lv45，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	47
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	45
+
+[physical attack]
+	30
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[price]
+	75200
+
+[repair price]
+	63168
+
+[value]
+	300800
+
+[equipment physical attack]
+	494	475
+
+[equipment magical attack]
+	350	337
+
+[separate attack]
+	202	135
+
+[skill levelup]
+	`[priest]`	49	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/priest/axe.img`	23
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	5
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[passive object]
+		21026	0	0	0	5	0
+		``	48051	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

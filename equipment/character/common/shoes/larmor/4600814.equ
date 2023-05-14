@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`封·天御風行戰靴`
+
+[basic explain]
+	`  攻擊時，有5%%的機率生成颶風。（冷卻時間0.5秒 ）`
+
+[detail explain]
+	`  攻擊時，有5%%的機率生成颶風攻擊400px范圍的所有敵人。（冷卻時間15秒 ）`
+
+[flavor text]
+	``
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12577
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	28
+
+[magical attack]
+	18
+
+[attack speed]
+	80
+
+[cast speed]
+	120
+
+[move speed]
+	120
+
+[need material]
+	3821	1000
+
+[price]
+	81900
+
+[repair price]
+	65520
+
+[value]
+	65520
+
+[equipment physical defense]
+	1836	1674
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	17
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	16
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		12803	0	0	0	9999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[probability]
+		5
+	[passive object]
+		12803	0	0	0	9999	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[appendage]
+		253
+	[appendage]
+		331
+[/then]
+
+[possible kiri protect]

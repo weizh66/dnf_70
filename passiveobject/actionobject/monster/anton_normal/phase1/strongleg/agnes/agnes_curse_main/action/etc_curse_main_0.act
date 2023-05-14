@@ -1,0 +1,100 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_curse_main_0_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_curse_main_0_5.ani`	0	-1
+		`../Animation/Etc_curse_main_0_4.ani`	0	1
+		`../Animation/Etc_curse_main_0_1.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		0	1	2	3
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[OFF]
+	[CASTING]
+		18000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CASTING]
+		18000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CASTING]
+		18000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CASTING]
+		18000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+	[TRIGGER]
+		0
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			9249
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		5
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+	[CUSTOM]
+		1	1
+	[ON]
+[/BEHAVIOR]

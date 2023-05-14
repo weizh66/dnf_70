@@ -1,0 +1,86 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		33
+	[IMAGE POS]
+		-252	-387
+	[IMAGE RATE]
+		-1.2000000476837158	0.4000000059604645
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`WZ_DASH_FALL`
+	[DAMAGE BOX]
+	-44	-5	-1	96	10	51
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		33
+	[IMAGE POS]
+		-251	-382
+	[IMAGE RATE]
+		-1.0	1.0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-43	-5	-6	96	10	51
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		34
+	[IMAGE POS]
+		-249	-382
+	[IMAGE RATE]
+		-1.0	1.0
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-55	-5	-7	115	10	30
+
+[FRAME003]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		54
+	[IMAGE POS]
+		-248	-378
+	[IMAGE RATE]
+		-1.2000000476837158	0.800000011920929
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-13	-5	-9	45	10	58
+
+[FRAME004]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		54
+	[IMAGE POS]
+		-248	-378
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[SET FLAG]
+		3
+	[DAMAGE BOX]
+	-13	-5	-9	45	10	58

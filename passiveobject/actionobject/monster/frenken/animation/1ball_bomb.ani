@@ -1,0 +1,130 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	9
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		0
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		280
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		0
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		1
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		2
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		1.600000023841858	1.600000023841858
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		0
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		1
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	200
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		2
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME007]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		0
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	100
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME008]
+	[IMAGE]
+		`Monster/Snowman/Ball_dodge.img`
+		1
+	[IMAGE POS]
+		-94	-96
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	50
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70

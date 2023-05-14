@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ATSpiralPress/ATSpiralPress_Spiral_00.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[CHARACTER]
+			[MONSTER]
+			[AI CHARACTER]
+		[/IS OBJECT TYPE]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		500	500	1000	2200	0	0	0
+	[CENTER MSG]
+		`風之歎息`	1000
+	[PULL APPENDAGE]
+		12.0	12.0	2200
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	100
+		[MOVE ME]
+	[/TELEPORT]
+[/BEHAVIOR]

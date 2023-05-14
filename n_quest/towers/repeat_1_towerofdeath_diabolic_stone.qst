@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[enemy reward item]
+	605	2	11000	-1	4235	3	100	-1	20600	2	11000	-1	4235	1	100	-1	20500	2	11000	-1	4235	1	100	-1	10203	2	11000	-1	4235	1	100	-1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4235	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3228	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`混沌魔石 (重復)`
+
+[depend message]
+	`你聽說過那種叫恐懼之源的東西吧？ 對， 就是在死亡之塔里發現的那種， 我聽說那里又出現了另一種特殊的‘灼熱的恐懼之源’。
+如果你能收集到15個灼熱的恐懼之源， 我愿意用混沌魔石和你交換。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 在第10層、 20層、 30層和45層收集15個[灼熱的恐懼之源]交給莎蘭。`
+
+[solve message]
+	`不錯， 果然是灼熱的恐懼之源！ 這是給你的混沌魔石， 請收好。`

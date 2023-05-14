@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`閃光彈`
+	
+
+[explain]
+	`    爆炸後， 可以減少多數敵人的視野範圍， 效果持續5秒。`
+	
+
+[flavor text]
+	`    尼爾斯！ 你應該提醒我這東西是發光的呀~眼睛都快被刺瞎了~  --尼貝爾`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/stackable/consumption.img`	594
+
+[field image]
+	`Item/field_consumption.img`	45
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	10
+
+[cool time]
+	5000
+
+[int data]
+	51330	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Gravel.ptl`
+[/string data]
+
+[move wav]
+	`BOTTLE_TOUCH`

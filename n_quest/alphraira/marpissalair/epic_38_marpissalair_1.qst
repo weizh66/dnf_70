@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	25
+
+[complete npc index]
+	24
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	38	99
+
+[monster reward item]
+	400	32	-1	4073	1	16	30	405	32	-1	4073	1	16	30	411	32	-1	4073	1	16	30
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4073	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`布萊斯的托付`
+
+[depend message]
+	`這是布萊斯的托付， 她說如果遇上實力還可以的冒險家就請他幫忙。 我雖然不太信任你的能力， 不過既然是我妹妹讓我多找幾個冒險家， 我就姑且拜托你吧。
+廢話不多說， 請你去趟暗黑城入口幫我收集一些暗精靈的遺骨交給布萊斯。 這些材料對她很重要， 我希望你無論如何都要弄到！ `
+
+[condition message]
+	`    前往諾伊佩拉地區的『蜘蛛洞穴』， 從盜尸者或冤魂身上收集30個[暗精靈的遺骨]。`
+
+[solve message]
+	`你就是姐姐提過的那位冒險家？ 看來實力還不錯阿， 辛苦了！`
+
+[quest point]
+	4

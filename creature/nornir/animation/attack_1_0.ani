@@ -1,0 +1,143 @@
+#PVF_File
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		22
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156
+
+[FRAME001]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		23
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156
+
+[FRAME002]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		24
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		250
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156
+
+[FRAME003]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		25
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156
+	[ATTACK BOX]
+	-82	-93	175	111	55	54
+	[ATTACK BOX]
+	-20	-4	9	125	56	60
+	[ATTACK BOX]
+	-87	-60	84	52	56	96
+	[ATTACK BOX]
+	-72	-31	38	58	67	62
+
+[FRAME004]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		26
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156
+	[ATTACK BOX]
+	-70	-64	164	118	56	63
+	[ATTACK BOX]
+	45	-40	31	75	70	179
+
+[FRAME005]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		27
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156
+
+[FRAME006]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		28
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156
+
+[FRAME007]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		15
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-18	-18	-5	52	40	156

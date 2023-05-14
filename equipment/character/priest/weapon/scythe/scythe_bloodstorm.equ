@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`血風鐮刀`
+
+[basic explain]
+	`攻擊時以 50%% 的機率讓敵人呈現出血狀態`
+
+[detail explain]
+	`攻擊時以50%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以65的攻擊力給予傷害。 （高於Lv55的對象得到的機率減少，低於Lv55的對象則會增加。）`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[price]
+	75600
+
+[repair price]
+	63504
+
+[value]
+	302400
+
+[equipment physical attack]
+	445	429
+
+[equipment magical attack]
+	468	452
+
+[separate attack]
+	233	156
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/priest/scythe.img`	25
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	2	6
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		50
+	[active status]
+		`bleeding`	55	1300
+[/then]
+
+[possible kiri protect]

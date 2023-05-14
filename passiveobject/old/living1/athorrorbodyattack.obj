@@ -1,0 +1,27 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATHorror/03_Attack01/Hit_01/ATHorror_Hit_01.ani`
+
+[attack info]
+	`AttackInfo/ATHorrorBodyAttack1.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	710032
+[/object destroy condition]

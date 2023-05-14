@@ -1,0 +1,42 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/FinalExtremeStrike/e/cracklarge_normal.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND]
+		``
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			201824
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			-150	-90	0
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			201825
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			150	-90	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

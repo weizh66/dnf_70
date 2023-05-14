@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	60
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	88	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	10	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[魔王]調查機械臂`
+
+[depend message]
+	`聽澤丁說， 有個人將雙臂改造成了武器。 他是怎么做到的？ 我很感興趣。
+可惜手邊的資料太少了， 你能幫我去調查一下具體情況嗎？ 如果真是改造人， 那問題就嚴重了……`
+
+[condition message]
+	`    通關安特貝魯峽谷的『根特北門』， 然后去找梅爾文·里克特， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`原來是真的……謝謝！ 看來我有必要親自去調查下……`
+
+[quest point]
+	0

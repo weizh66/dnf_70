@@ -1,0 +1,92 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	128
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[knight]`	128
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2000
+	[/skill data up]
+	[parameter basic explain]
+		`[龍翼]冷卻時間 -40%%
+[龍翼]飛行時間 +2秒`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	139
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	142
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	3
+		`%`	35
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	7
+		`+`	7
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	2
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[龍翼穿刺]冷卻時間 -25%%
+[魔龍之息]飛行時間 +35%%
+[魔龍之息]空中召喚時的多段攻擊上限 +7次
+[魔龍之息]地面召喚時攻擊力 +35%%
+[魔龍之息]冷卻時間 -30%%  `
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[knight]`	142
+		`[dungeon type]`
+		`[static]`	2
+		`%`	50
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	7
+		`+`	15
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[knight]`	142
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	142
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	2
+		`[knight]`	145
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[魔龍之息]飛行時間 +50%%
+[魔龍之息]空中移動速度 +50%%
+[魔龍之息]空中召喚時多段攻擊上限 +15次
+[魔龍之息]地面召喚時攻擊力 +50%%
+[魔龍之息]無色小晶塊消耗量 +2
+[魔龍之息]冷卻時間 -20%%
+[龍皇制裁]冷卻時間 -30%%`
+[/piece set ability]

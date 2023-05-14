@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`車輪刑`
+
+[basic explain]
+	`利用燃燒的車輪消滅前方敵人。
+從地面抽出巨大的車輪， 然後註入神焰使其滾動， 進行多段攻擊， 同時將觸碰到的敵人拖拽至車輪的中心。
+如果把[火焰精華]澆在車輪上， 可以使被攻擊到的敵人進入焚燒狀態。`
+
+[explain]
+	`利用燃燒的車輪消滅前方敵人。
+從地面抽出巨大的車輪， 然後註入神焰使其滾動， 進行多段攻擊， 同時將觸碰到的敵人拖拽至車輪的中心。
+如果把[火焰精華]澆在車輪上， 可以使被攻擊到的敵人進入焚燒狀態。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	90
+
+[required level range]
+	10
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[skill command advantage]
+	50	50
+
+[consume item]
+	3285	1	1
+[/consume item]
+
+[consume MP]
+	580	4500
+
+[cool time]
+	80000	80000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Priest/Effect/ATSkillIcon.img`	306
+	`Character/Priest/Effect/ATSkillIcon.img`	307
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[static data]
+	100
+[/static data]
+
+[level info]
+	3	68456	89412	89663	72251	92516	92666	74342	94492	95456	75414	96461	97252	76405	98425	98758
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`向上攻擊力 : <int>%%
+多段攻擊攻擊力 : <int>%% X 17次
+車輪爆炸攻擊力 : <int>%%`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

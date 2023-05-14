@@ -1,0 +1,239 @@
+#PVF_File
+
+[name]
+	`永恆守護`
+
+[basic explain]
+	`[烈焰光輝]施展時持續時間內，攻擊時附加10%%傷害
+[念獸 : 龍虎嘯]施展時持續時間內，攻擊時附加16%%光屬性傷害`
+
+[detail explain]
+	`[烈焰光輝]施展時持續時間內，攻擊時附加10%%傷害
+[念獸 : 龍虎嘯]施展時持續時間內，攻擊時附加16%%光屬性傷害`
+
+[flavor text]
+	`居善地，心善淵，與善仁，言善信。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	75
+
+[attack speed]
+	150
+
+[cast speed]
+	20
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1058	1058
+
+[equipment magical attack]
+	1280	1280
+
+[separate attack]
+	686	686
+
+[light attack]
+	45
+
+[icon]
+	`Item/wuqi.img`	8
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	48	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	50	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+[/elemental property]
+
+[if]
+	[use skill]
+		`fighter`	36
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		`skill level info`	36	0	-1
+	[appendage]
+		732
+[/then]
+
+[if]
+	[use skill]
+		`at fighter`	36
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		`skill level info`	36	0	-1
+	[appendage]
+		732
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	79
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		733
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	79
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		733
+[/then]
+
+[if]
+	[my appendage]
+		733
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	20
+[/then]
+
+[if]
+	[my appendage]
+		732
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

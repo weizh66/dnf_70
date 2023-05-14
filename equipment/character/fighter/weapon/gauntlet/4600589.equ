@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`封·鐵拳制裁臂鎧`
+
+[basic explain]
+	`背擊傷害 +22%%`
+
+[detail explain]
+	`背擊傷害 +22%%（傷害加成效果取最高值，且無法疊加；暴擊/附加傷害除外）`
+
+[flavor text]
+	`    有本事就再站起來！`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	88
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[need material]
+	3821	1200
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1026	869
+
+[equipment magical attack]
+	769	652
+
+[separate attack]
+	520	336
+
+[skill levelup]
+	`[fighter]`	9	5
+	`[at fighter]`	9	5
+	`[fighter]`	18	4
+	`[at fighter]`	18	4
+	`[fighter]`	89	4
+	`[at fighter]`	89	4
+	`[fighter]`	63	2
+	`[at fighter]`	63	2
+	`[fighter]`	50	1
+	`[at fighter]`	50	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/gauntlet/gauntlet.img`	102
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[if]
+	[attack condition]
+		`back attack`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	22
+[/then]
+
+[possible kiri protect]

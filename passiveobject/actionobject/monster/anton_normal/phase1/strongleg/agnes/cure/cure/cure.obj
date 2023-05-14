@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`暴君?古斯都的恢复品`
+
+[basic action]
+	`Action/cure_Basic.act`
+
+[last action]
+	`Action/cure_Last.act`
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	4000
+[/object destroy condition]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	56645
+	[homing velocity]
+		700.0	0.0
+	[max rotation]
+		360.0
+	[diff rotation]
+		360.0
+[/homing]

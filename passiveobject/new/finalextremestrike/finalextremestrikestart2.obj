@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`FinalExtremeStrikeHit`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/FinalExtremeStrike/a/astart2_effect.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	0
+[/object destroy condition]

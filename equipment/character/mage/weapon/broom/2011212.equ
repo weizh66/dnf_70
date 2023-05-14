@@ -1,0 +1,1327 @@
+#PVF_File
+
+[name]
+	`真·烏洛波諾斯之環`
+
+[basic explain]
+	`釋放大拍子時，可以召喚魔道學助手協助作戰。
+大幅提升魔道戰鬥力。
+技能攻擊力 +50%%。`
+
+[detail explain]
+	`釋放大拍子時，可以召喚魔道學助手協助作戰。
+大幅提升魔道戰鬥力。
+技能攻擊力 +50%%。`
+
+[flavor text]
+	`象征著宇宙的統壹和永遠，用嘴咬住自己的尾巴，構成8字形的蛇，本來是古代希臘神話中圍住整個的世界的巨蛇，它那奇妙的姿態象征著“不死”、“完全、“無限”、“世界”、“睿智”等種種意味，自身卻漸漸脫卻了客觀存在，成為象征性的存在。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	120
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[need material]
+	3850	500
+
+[price]
+	500000000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[anti evil]
+	40
+
+[equipment physical attack]
+	1660	1624
+
+[equipment magical attack]
+	1656	1606
+
+[separate attack]
+	1087	1087
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/broom/broom.img`	128
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[required skill]
+	91
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	1000
+	[duration]
+		3000
+	[aura active]
+		`equipment magical defense`
+		`%`	-90	0
+[/then]
+
+[skill data up]
+	`[mage]`	4
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	55
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	11
+	`[all]`
+	`[static]`	4
+	`%`	50
+	`[mage]`	55
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	11
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	55
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	11
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	12
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	12
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	14
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	14
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	14
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	14
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	14
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	14
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	14
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	15
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	15
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	15
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	15
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	16
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	16
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	16
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[mage]`	16
+	`[all]`
+	`[level]`	15
+	`%`	50
+	`[mage]`	17
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	17
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	17
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	17
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	18
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	18
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	18
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	18
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	20
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	20
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	15
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	15
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	16
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	17
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	18
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	19
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	20
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	21
+	`%`	50
+	`[mage]`	25
+	`[all]`
+	`[level]`	22
+	`%`	50
+	`[mage]`	26
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	26
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	27
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	27
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	27
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	31
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	31
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	55
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	55
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	56
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	57
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	58
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	58
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	58
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	58
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	59
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	59
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	61
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	62
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	63
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	64
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	74
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	74
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	74
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	74
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	111
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	111
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	111
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	111
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	111
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	113
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	22
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	22
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	22
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	22
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	21
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	21
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	24
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	24
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	23
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	23
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	44
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	44
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	44
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[mage]`	44
+	`[all]`
+	`[level]`	15
+	`%`	50
+	`[mage]`	45
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	45
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	45
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	45
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	45
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[mage]`	45
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	45
+	`[all]`
+	`[level]`	18
+	`%`	50
+	`[mage]`	46
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	46
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	46
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[mage]`	46
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	46
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	46
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[mage]`	46
+	`[all]`
+	`[level]`	19
+	`%`	50
+	`[mage]`	47
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	47
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[mage]`	47
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	47
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	51
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	51
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	51
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	52
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	53
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	54
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	76
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	76
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	76
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	76
+	`[all]`
+	`[level]`	19
+	`%`	50
+	`[mage]`	77
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	77
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	77
+	`[all]`
+	`[level]`	16
+	`%`	50
+	`[mage]`	77
+	`[all]`
+	`[level]`	22
+	`%`	50
+	`[mage]`	78
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	78
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	78
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	78
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[mage]`	79
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	79
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	79
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	79
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	80
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	80
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	80
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	82
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	82
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	82
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	82
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	82
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	119
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	119
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	119
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	119
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	120
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	120
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	122
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	122
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	121
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	121
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	15
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	16
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	17
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	19
+	`%`	50
+	`[mage]`	118
+	`[all]`
+	`[level]`	20
+	`%`	50
+	`[mage]`	5
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	5
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	5
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	6
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	6
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	6
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	7
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	7
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[mage]`	7
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	8
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	8
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	8
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	9
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	8
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	8
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	10
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	13
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	65
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	65
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	66
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	66
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	66
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	68
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	68
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	69
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	69
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	69
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[mage]`	83
+	`[all]`
+	`[level]`	15
+	`%`	50
+	`[mage]`	112
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	112
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	112
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	125
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	125
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	125
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	126
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	126
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	126
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	92
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	92
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	89
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[mage]`	90
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[mage]`	95
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	95
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	93
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[mage]`	93
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	98
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[mage]`	98
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[mage]`	99
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	99
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	99
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	99
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	100
+	`[all]`
+	`[level]`	0
+	`%`	5000
+	`[mage]`	100
+	`[all]`
+	`[level]`	1
+	`%`	5000
+	`[mage]`	100
+	`[all]`
+	`[level]`	2
+	`%`	5000
+	`[mage]`	100
+	`[all]`
+	`[level]`	3
+	`%`	5000
+	`[mage]`	101
+	`[all]`
+	`[level]`	1
+	`%`	5000
+	`[mage]`	101
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	101
+	`[all]`
+	`[level]`	7
+	`%`	5000
+	`[mage]`	106
+	`[all]`
+	`[level]`	1
+	`%`	100000
+	`[mage]`	106
+	`[all]`
+	`[level]`	2
+	`%`	100000
+	`[mage]`	106
+	`[all]`
+	`[level]`	3
+	`%`	100000
+	`[mage]`	106
+	`[all]`
+	`[level]`	4
+	`%`	100000
+	`[mage]`	106
+	`[all]`
+	`[level]`	5
+	`%`	100000
+	`[mage]`	103
+	`[all]`
+	`[level]`	0
+	`%`	100000
+	`[mage]`	103
+	`[all]`
+	`[level]`	1
+	`%`	100000
+	`[mage]`	103
+	`[all]`
+	`[level]`	2
+	`%`	100000
+	`[mage]`	103
+	`[all]`
+	`[level]`	3
+	`%`	100000
+	`[mage]`	103
+	`[all]`
+	`[level]`	4
+	`%`	100000
+	`[mage]`	104
+	`[all]`
+	`[level]`	2
+	`%`	100000
+	`[mage]`	104
+	`[all]`
+	`[level]`	3
+	`%`	100000
+	`[mage]`	104
+	`[all]`
+	`[level]`	4
+	`%`	100000
+	`[mage]`	104
+	`[all]`
+	`[level]`	5
+	`%`	100000
+	`[mage]`	104
+	`[all]`
+	`[level]`	6
+	`%`	100000
+	`[mage]`	105
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	105
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	105
+	`[all]`
+	`[level]`	4
+	`%`	10000
+	`[mage]`	105
+	`[all]`
+	`[level]`	5
+	`%`	10000
+	`[mage]`	109
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	109
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	109
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	109
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	115
+	`[all]`
+	`[level]`	0
+	`%`	5000
+	`[mage]`	115
+	`[all]`
+	`[level]`	8
+	`%`	5000
+	`[mage]`	114
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	114
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	14
+	`+`	2
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	8
+	`%`	-45
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	9
+	`%`	-45
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	10
+	`%`	-45
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	11
+	`%`	-45
+[/skill data up]
+
+[if]
+	[event use skill]
+		`mage`	115
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		100
+	[summon monster]
+		6928011	100	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	115
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		100
+	[summon monster]
+		6928012	100	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	115
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		100
+	[summon monster]
+		6928013	100	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	115
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		100
+	[summon monster]
+		6928014	100	1
+[/then]
+
+[possible kiri protect]

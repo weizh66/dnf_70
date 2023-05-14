@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`祝福寶珠[稱號]`
+
+[flavor text]
+	`願你得到維納斯的恩寵
+                      --羅莉安·科納洛`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	101
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[value]
+	1000
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[title name]`
+[/string data]
+
+[int data]
+	101	61165
+[/int data]
+
+[enchant]
+	[equipment physical attack]
+		10	10
+	[equipment magical attack]
+		10	10
+	[separate attack]
+		10	10
+	[all elemental attack]
+		8	8
+	[skill levelup]
+		`[swordman]`	38	1
+		`[swordman]`	40	1
+		`[swordman]`	84	1
+		`[swordman]`	52	1
+		`[fighter]`	37	1
+		`[fighter]`	50	1
+		`[fighter]`	30	1
+		`[fighter]`	38	1
+		`[at fighter]`	37	1
+		`[at fighter]`	50	1
+		`[at fighter]`	114	1
+		`[at fighter]`	43	1
+		`[gunner]`	60	1
+		`[gunner]`	46	1
+		`[gunner]`	62	1
+		`[gunner]`	49	1
+		`[at gunner]`	60	1
+		`[at gunner]`	46	1
+		`[at gunner]`	62	1
+		`[at gunner]`	31	1
+		`[mage]`	29	1
+		`[mage]`	48	1
+		`[mage]`	35	1
+		`[mage]`	36	1
+		`[mage]`	41	1
+		`[at mage]`	28	1
+		`[at mage]`	31	1
+		`[priest]`	45	1
+		`[priest]`	35	1
+		`[priest]`	48	1
+		`[priest]`	47	1
+		`[priest]`	131	1
+		`[thief]`	29	1
+		`[thief]`	30	1
+		`[thief]`	50	1
+		`[demonic swordman]`	44	1
+	[/skill levelup]
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

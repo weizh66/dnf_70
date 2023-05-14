@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	8
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	428
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	1500	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 不能倒流的時光`
+
+[depend message]
+	`如果帝國不建造試驗場， 我相信這地方也會像格蘭之森和艾爾文防線那樣繁榮安寧……但時光不能倒流， 我們只有盡快消滅試驗場里的怪物和回收多一些泰拉石， 才能讓這里最快恢復安寧！`
+
+[condition message]
+	`    通關洛蘭地區的『比爾馬克帝國試驗場』。`
+
+[solve message]
+	`運氣真好！ 這樣的日子， 或許你該試試手氣哦！ `
+
+[quest point]
+	4

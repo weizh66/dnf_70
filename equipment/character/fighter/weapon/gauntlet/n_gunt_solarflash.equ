@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`(舊) 耀日雷旋臂鎧`
+
+[basic explain]
+	`攻擊敵人出現Miss時， 有30%%的幾率施放[雷旋]。 (未實現)`
+
+[flavor text]
+	`    不能領悟念氣之力的人， 將會被傷感淹沒、 耗盡精力……  --素喃的至恩`
+
+[grade]
+	45
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`gauntlet`
+
+[rarity]
+	4
+
+[weight]
+	2900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	33
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	39
+
+[price]
+	81000
+
+[value]
+	64800
+
+[cool time]
+	10000
+
+[physical attack]
+	48
+
+[equipment physical attack]
+	523	466
+
+[equipment magical attack]
+	392	349
+
+[separate attack]
+	259	173
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[fighter]`	12	2
+	`[at fighter]`	12	2
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

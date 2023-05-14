@@ -1,0 +1,193 @@
+#PVF_File
+
+[name]
+	`封·潛龍淵`
+
+[basic explain]
+	`[劍刃風暴]冷卻時間 -30%%
+[螺旋穿刺]冷卻時間 -30%%
+[隕落螺旋刺]冷卻時間 -30%%
+    [劍刃風暴]技能攻擊時， 附加15%%的傷害。
+    [螺旋穿刺]技能攻擊時， 附加15%%的傷害。
+    [隕落螺旋刺]技能攻擊時， 附加20%%的傷害。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	62
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3821	2100
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	817	697
+
+[equipment magical attack]
+	816	697
+
+[separate attack]
+	555	359
+
+[physical critical hit]
+	10
+
+[skill levelup]
+	`[thief]`	31	3
+	`[thief]`	33	3
+	`[thief]`	75	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/thief/dagger/dagger.img`	108
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	25	1
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[thief]`	31
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[thief]`	33
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[thief]`	75
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+[/skill data up]
+
+[if]
+	[skill]
+		`thief`	31
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[skill]
+		`thief`	33
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[skill]
+		`thief`	75
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

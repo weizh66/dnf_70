@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	``
+	
+
+[explain]
+	`使用時，連續1小時內，力量、體力、智能、精神力屬性會增加+20%%。 體力變更、角色選擇、遊戲結束時，道具效果會消失。`
+	
+
+[flavor text]
+	`<萬聖節活動>`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	100
+
+[icon]
+	`Item/stackable/consumption.img`	332
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	3600000
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[effect maintenance]
+	1	1	0	0
+
+[stat change duration]
+	3600000
+	`myself`
+
+[expiration date]
+	1259506800

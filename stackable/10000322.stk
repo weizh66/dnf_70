@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`單次用強化機（1~40級裝備/+11以上）`
+	
+
+[explain]
+	`可以利用單次性強化器進行強化。
+未消耗無色小晶塊與金幣。
+可使用於1～40 級裝備的11階以上強化。`
+	
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[icon]
+	`Item/stackable/cash.img`	881
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[town and dungeon]`	0
+
+[move wav]
+	`IRON_TOUCH`
+
+[stack limit]
+	1000
+
+[action type]
+	`[portable upgrade]`	10	20
+[/action type]
+
+[check usable itemlevel]
+	1	40
+
+[action usable place]
+	`[village]`
+	`[seria room]`
+[/action usable place]

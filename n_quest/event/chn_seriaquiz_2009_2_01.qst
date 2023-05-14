@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	2
+
+[complete npc index]
+	18
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	18
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`賽麗亞的第二個謎題`
+
+[depend message]
+	`您好~今天又見面了。
+我叫賽麗亞， 我一直想給冒險家們提供一個休息和放松的空間。 因此， 我這次特地給冒險家提出了非常簡單而且對冒險之旅很有幫助的謎題。
+謎題是 : 能幫助冒險家創建公會和管理公會的人是誰？
+我給您一些提示吧， 他經常站在赫頓瑪爾市政廳前， 而且平常都是戴著面具。
+解謎方法非常簡單， 就是您只要去找謎題中的那個人談話就可以了。`
+
+[condition message]
+	`    在赫頓瑪爾市政廳前， 找到戴著面具的男子。 (按<N>鍵就能更容易找到)`
+
+[solve message]
+	`你好， 我的真實身份無法立刻告訴你， 請原諒。
+如果你需要創建公會或管理公會， 就來這里找我吧。`

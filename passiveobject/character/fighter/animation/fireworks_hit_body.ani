@@ -1,0 +1,56 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATBlackMirror/glow.img`
+		0
+	[IMAGE POS]
+		-102	-162
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		70	211	255	153
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		480
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	8	-35	0	177	70	158
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATBlackMirror/glow.img`
+		0
+	[IMAGE POS]
+		-114	-163
+	[IMAGE RATE]
+		4.0	4.0
+	[RGBA]
+		70	211	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[PLAY SOUND]
+		`MF_PFIREWORKS_FIN`
+	[ATTACK BOX]
+	6	-35	-1	185	70	161
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		48	-37
+	[DELAY]
+		80

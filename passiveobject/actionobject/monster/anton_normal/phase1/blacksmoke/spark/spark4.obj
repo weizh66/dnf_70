@@ -1,0 +1,16 @@
+#PVF_File
+
+[basic action]
+	`Action/spark4_Basic.act`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	65629
+	[homing velocity]
+		100.0	150.0
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]

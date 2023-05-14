@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_curse_main_0_0_4.ani`
+	[SUB ANI]
+		`../Animation/Etc_curse_main_0_3_0.ani`	0	-1
+		`../Animation/Etc_curse_main_0_1_1.ani`	0	1
+		`../Animation/Etc_curse_main_0_2_0.ani`	0	2
+		`../Animation/Etc_curse_main_0_1_0.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

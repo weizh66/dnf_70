@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	40	99
+
+[enemy reward item]
+	711	1	33	-1	4798	1	80	15	760	1	34	-1	4798	1	50	15	762	1	34	-1	4798	1	50	15	761	1	34	-1	4798	1	50	15	1081	1	36	-1	4798	1	80	15	1301	2	37	-1	4798	1	80	15
+[/enemy reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4798	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 暗黑城`
+
+[depend message]
+	`使徒狄瑞吉用疾病的力量讓暗黑城變成荒涼之地。真是具有強大力量的魔物…
+暗黑城強大的敵人具有這裡的時間碎片。必須擊敗他們，收集時間碎片。
+可能還有狄瑞吉的疾病氣息，要小心為佳。`
+
+[condition message]
+	`解決暗黑城的頭目，收集時間碎片交給最後的先知者`
+
+[solve message]
+	`幸虧時間碎片中並未散發任何疾病的力量。`
+
+[quest point]
+	4

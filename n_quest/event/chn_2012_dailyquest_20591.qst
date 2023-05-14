@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[special daily]`
+	`[schedule]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[monster reward item]
+	61143	1501	1	4350	1	50	25	56117	1501	1	4350	1	50	25	56113	1501	1	4350	1	50	25	56112	1501	1	4350	1	50	25	56115	1501	1	4350	1	50	25	56116	1501	1	4350	1	50	25	61143	1501	2	4350	1	65	25	56117	1501	2	4350	1	65	25	56113	1501	2	4350	1	65	25	56112	1501	2	4350	1	65	25	56115	1501	2	4350	1	65	25	56116	1501	2	4350	1	65	25	61143	1501	3	4350	1	80	25	56117	1501	3	4350	1	80	25	56113	1501	3	4350	1	80	25	56112	1501	3	4350	1	80	25	56115	1501	3	4350	1	80	25	56116	1501	3	4350	1	80	25
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4350	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4351	8
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[pre required quest]
+	4462
+[/pre required quest]
+
+[name]
+	`[限時]記憶中的往事`
+
+[depend message]
+	`其實……我現在還在做噩夢。 呃， 也沒什么……大不了的。`
+
+[condition message]
+	`    前往洛蘭地區的『悲鳴洞穴』， 收集[無法忘卻的噩夢真相]， 要求地下城難度為冒險級以上。 (此任務每天只能完成一次， 且地下城的難度越高， 越容易獲得任務物品) (即使持有[老朋友]任務， 也可以在悲鳴洞穴獲得無法忘卻的噩夢真相)`
+
+[solve message]
+	`我又想起那個關于悲鳴洞穴的噩夢了， 自從希洛克被轉移到悲鳴洞穴后， 卡贊瘟疫也開始變得嚴重了……我的朋友也……`
+
+[schedule]
+	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`ALL`
+	`18:10:00`
+	`19:39:59`
+[/schedule]

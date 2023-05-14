@@ -1,0 +1,33 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Blood_An/Agaress/magic.img`
+		0
+	[IMAGE POS]
+		-171	-268
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1200
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Blood_An/Agaress/magic.img`
+		0
+	[IMAGE POS]
+		-171	-268
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200

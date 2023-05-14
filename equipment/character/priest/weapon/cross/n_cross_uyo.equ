@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`無軒之凈魄`
+
+[basic explain]
+	`施放技能時， 有5%%的幾率使所有隊員進入無敵狀態。 (在決斗場中持續5秒)`
+
+[detail explain]
+	`    施放技能時， 有5%%的幾率使所有隊員進入無敵狀態， 效果持續10秒； 但在決斗場中， 只能持續5秒。 (消耗5個無色小晶塊)`
+
+[flavor text]
+	`    傳言無軒是統治過半個宇宙的強大異界星， ‘凈魄’是它的五大史詩武器之一， 但不知為何落到異面生物手里， 難道又是異變引起的？`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[creation rate]
+	125
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/priest/cross.img`	34
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical defense]
+	55
+
+[magical attack]
+	44
+
+[magical defense]
+	55
+
+[equipment physical attack]
+	624	564
+
+[equipment physical defense]
+	650	640
+
+[equipment magical attack]
+	593	536
+
+[equipment magical defense]
+	650	640
+
+[separate attack]
+	378	255
+
+[move speed]
+	20
+
+[cast speed]
+	20
+
+[variation]
+	4	2
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[if]
+	[module]
+		`[dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		5000
+	[probability]
+		5
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[assault]`
+	[/module]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		3000
+	[probability]
+		5
+	[buff]
+		`unbreakable`
+[/then]
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[possible kiri protect]

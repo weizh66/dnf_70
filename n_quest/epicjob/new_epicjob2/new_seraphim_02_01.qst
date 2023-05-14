@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 熾天使 (2/6)`
+
+[depend message]
+	`想要成為圣職者們的權力中心， 就要成為‘熾天使’——即下凡到人間的神明使者。
+只要能夠成為圣職者們崇拜的存在引導他們， 大多數圣職者都會選擇留在教團的。
+而且這也會成為拯救更多人的出發點。 這不就是你想要的嗎？
+想要成為這個角色， 肯定是要先提升自己的力量， 對吧？
+你先去參加魂·黃龍大會吧， 在那里， 你要通過與強者們的對戰， 樹立更加堅定的信念， 因為這種信念就是你獲得力量的源泉。
+想要參加大會需要擁有‘斯卡迪女王的印章’， 別忘了提前準備。 那你快去吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5079
+[/pre required quest]
+
+[relation quest]
+	6812
+
+[job change quest]
+	3
+
+[grow number]
+	0

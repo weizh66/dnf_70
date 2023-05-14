@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`銀騎士`
+
+[basic explain]
+	`月輪舞持續時間增加10秒
+月輪舞中終結追擊 使用時剩餘的連擊點數增加1 `
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	50
+
+[attack speed]
+	-80
+
+[need material]
+	3285	2100
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	738	677
+
+[equipment magical attack]
+	579	531
+
+[separate attack]
+	441	298
+
+[physical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/thief/twinswd/twinswd.img`	100
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[skill data up]
+	`[thief]`	57
+	`[all]`
+	`[level]`	0
+	`+`	10000
+	`[thief]`	57
+	`[all]`
+	`[static]`	43
+	`+`	1
+[/skill data up]
+
+[possible kiri protect]

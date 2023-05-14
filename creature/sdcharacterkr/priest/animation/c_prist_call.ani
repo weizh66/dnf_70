@@ -1,0 +1,34 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Creature\SDCharacter\Priest\C_prist.img`
+		33
+	[IMAGE POS]
+		-86	-146
+	[DELAY]
+		100
+	[PLAY SOUND]
+		`SD_CREATURE_CAST`
+	[PLAY SOUND]
+		`SD_PR_VOICE`
+
+[FRAME001]
+	[IMAGE]
+		`Creature\SDCharacter\Priest\C_prist.img`
+		34
+	[IMAGE POS]
+		-86	-146
+	[DELAY]
+		400
+
+[FRAME002]
+	[IMAGE]
+		`Creature\SDCharacter\Priest\C_prist.img`
+		35
+	[IMAGE POS]
+		-86	-146
+	[DELAY]
+		500

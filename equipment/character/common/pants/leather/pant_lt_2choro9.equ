@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`殘忍之弒獸皮綁腿 : [冰凍彈]`
+
+[basic explain]
+	`[冰凍彈]冷卻時間 -7%%
+[冰凍彈]MP消耗量 -7%%`
+
+[flavor text]
+	`    收集[惡魔結晶]可以對2期勇者裝備進行改造， 提升裝備的基本攻擊力、 防御力和基本屬性； Lv70以上的角色可以穿戴。 (需消耗杜羅西處出售的勇者裝備改造券)`
+
+[grade]
+	58
+
+[rarity]
+	5
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	30
+
+[magical attack]
+	30
+
+[magical defense]
+	28
+
+[attack speed]
+	15
+
+[HP MAX]
+	38
+
+[MP MAX]
+	41
+
+[MP regen speed]
+	2
+
+[hit recovery]
+	8
+
+[anti evil]
+	12
+
+[repair price]
+	40924
+
+[value]
+	4060
+
+[equipment physical defense]
+	1260	1200
+
+[icon]
+	`Item/common/pants.img`	142
+
+[field image]
+	`Item/FieldImage.img`	1
+
+[equipment type]
+	`[pants]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	27
+
+[weight]
+	1500
+
+[item group name]
+	`lt pants`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	2
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-7
+	`[gunner]`	2
+	`[dungeon type]`
+	`[mp]`	0
+	`%`	-7
+	`[at gunner]`	2
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-7
+	`[at gunner]`	2
+	`[dungeon type]`
+	`[mp]`	0
+	`%`	-7
+[/skill data up]
+
+[emancipate]
+	[input]
+		3290	25
+	[/input]
+	[output]
+		170155	1
+	[/output]
+	[emancipate explain]
+		`物防小幅增加
+屬性小幅提升
+提升HP、 MP最大值`
+[/emancipate]
+
+[possible kiri protect]

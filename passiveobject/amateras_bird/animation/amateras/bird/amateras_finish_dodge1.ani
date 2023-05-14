@@ -1,0 +1,25 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/bird_dodge.img`
+		0
+	[IMAGE POS]
+		-279	-292
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

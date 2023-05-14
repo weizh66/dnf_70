@@ -1,0 +1,25 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_fire_back.img`
+		7
+	[IMAGE POS]
+		-238	-534
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		102
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-1	0
+	[DELAY]
+		102

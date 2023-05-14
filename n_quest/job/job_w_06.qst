@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	18	99
+
+[pre required quest]
+	7870
+[/pre required quest]
+
+[pre required quest]
+	7873
+[/pre required quest]
+
+[pre required quest]
+	7876
+[/pre required quest]
+
+[pre required quest]
+	7879
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	35058	1	31695	1	33962	1	27997	1	29996	1
+[/reward selection int data]
+
+[name]
+	`恭喜你轉職了！`
+
+[depend message]
+	`現在該使用符合職業的槍了… 你就先使用這個提升對槍的理解吧。`
+
+[condition message]
+	`與凱莉對話`
+
+[solve message]
+	`這是最適合你的武器。`

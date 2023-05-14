@@ -1,0 +1,251 @@
+#PVF_File
+
+[name]
+	`[巨龍]納特拉的龍鬚掃把`
+
+[basic explain]
+	``
+
+[detail explain]
+	``
+
+[flavor text]
+	`    這下可以把房間打掃得更幹凈啦！`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[attack speed]
+	60
+
+[cast speed]
+	40
+
+[move speed]
+	50
+
+[MP MAX]
+	200
+
+[price]
+	151200
+
+[repair price]
+	127008
+
+[value]
+	5
+
+[need material]
+	9999	30
+
+[equipment physical attack]
+	804	754
+
+[equipment magical attack]
+	884	829
+
+[separate attack]
+	481	327
+
+[icon]
+	`Item/common/chn_Dragon_Weapon.img`	15
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	1	6
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	1	6
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	6
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[required skill]
+	91
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		48677	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[spectrum]
+	250	130	0	200	500
+
+[possible kiri protect]

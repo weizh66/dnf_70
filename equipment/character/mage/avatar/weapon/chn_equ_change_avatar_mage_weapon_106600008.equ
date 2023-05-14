@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`小紅帽的面包籃`
+
+[explain]
+	`2010年勞動節禮包`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/mage/rod.img`	46
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		9	0
+	[layer variation]
+		2600
+		`rodc`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[layer variation]
+		200
+		`rodd`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[custom wav]
+		`SUPPER_01`
+		`R_GOURD_HIT`
+	[/custom wav]
+	[expand path]
+		`equipment/character/mage/weapon/rod/`
+[/expand ani]
+
+[int data]
+	654321	3	3	80	0	70	3	80	0	70	3	80	0	70	3	80	0	70	3	80	0	70
+[/int data]
+
+[string data]
+	`Common/Particle/childrenday_mg.ptl`
+[/string data]
+
+[avatar func filter]
+	2

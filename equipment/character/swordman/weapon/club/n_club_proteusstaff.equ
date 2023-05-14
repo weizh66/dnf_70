@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`修羅吞靈槌`
+
+[basic explain]
+	`[修羅邪光斬]最大蓄氣時的劍氣大小 +20%%
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`[修羅邪光斬]最大蓄氣時的劍氣大小 +20%%
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒； 但在決斗場中， 只能持續1秒。 (若敵人高于Lv55， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[flavor text]
+	`    現在讓你見識下開天辟海的無上劍氣！ 修！ 羅！ 邪！ 光！ 斬！`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`club`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3400
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/club.img`	38
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	35
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	59
+
+[magical attack]
+	15
+
+[equipment physical attack]
+	585	532
+
+[equipment magical attack]
+	533	472
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[skill data up]
+	`[swordman]`	51
+	`[all]`
+	`[static]`	1
+	`%`	20
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	50	2
+	`[swordman]`	51	2
+[/skill levelup]
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`STICK_TOUCH`
+
+[routing priority]
+	`swordman`	4
+[/routing priority]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	55
+[/then]
+
+[possible kiri protect]

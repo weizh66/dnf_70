@@ -1,0 +1,49 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Agnes/Eye.img`
+		4
+	[IMAGE POS]
+		-52	-45
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		160
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Agnes/Eye.img`
+		4
+	[IMAGE POS]
+		-52	-45
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Agnes/Eye.img`
+		6
+	[IMAGE POS]
+		-52	-45
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Agnes/Eye.img`
+		6
+	[IMAGE POS]
+		-52	-45
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

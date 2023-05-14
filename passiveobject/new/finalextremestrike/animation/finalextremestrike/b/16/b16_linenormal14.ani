@@ -1,0 +1,44 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATFinalExtremeStrike/MovingNormal.img`
+		5
+	[IMAGE POS]
+		-358	-264
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[IMAGE ROTATE]
+		0.9599999785423279
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/ATFinalExtremeStrike/MovingNormal.img`
+		6
+	[IMAGE POS]
+		-358	-264
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[IMAGE ROTATE]
+		0.9599999785423279
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		20

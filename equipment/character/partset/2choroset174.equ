@@ -1,0 +1,107 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	334
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[mage]`	334
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	333
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[瘋熊守護]可施放距離 +30%%
+[瘋熊守護]攻擊力 +15%%
+[薔薇藤鞭]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	334
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[mage]`	334
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[mage]`	334
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[mage]`	336
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[mage]`	338
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	338
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	338
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[瘋熊守護]攻擊力 +25%%
+[瘋熊守護]冷卻時間 -25%%
+[瘋熊守護]可破壞地圖場景
+[瘋瘋熊墜擊]冷卻時間 -30%%
+[薔薇囚獄]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	334
+		`[dungeon type]`
+		`[static]`	2
+		`%`	50
+		`[mage]`	334
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[mage]`	336
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	336
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[mage]`	336
+		`[dungeon type]`
+		`[static]`	3
+		`%`	50
+		`[mage]`	336
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+		`[mage]`	338
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[瘋熊守護]攻擊范圍 +50%%
+[瘋瘋熊墜擊]攻擊力 +30%%
+[瘋瘋熊墜擊]冷卻時間 -30%%
+[瘋瘋熊墜擊]沖擊波范圍 +50%%
+[瘋瘋熊墜擊]墜落時間 -50%%
+[薔薇囚獄]冷卻時間 -35%%`
+[/piece set ability]
+
+[partset specific growtype]
+	5

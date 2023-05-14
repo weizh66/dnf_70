@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 剎那永恒 (4/6)`
+
+[depend message]
+	`雖然你找回了情感， 但現在只能感受到一種情緒， 那就是悲傷。 如果這種狀態持續下去， 好不容易融化的心臟會重新凍結。
+既然好不容易找回情感， 我們絕對不能讓這種悲劇再次發生。 不過倒也不會一下子就凍回去， 所以你也不必太擔心。
+嗯……有了， 我想到一個好方法了。
+你去挑戰一下魂·青龍大會， 怎么樣？ 去看看參賽者們都有著什么樣的情感， 具備著怎樣的思想， 通過對他人的切身感受， 或許可以逐漸找回其他情感。
+既然想到了， 就趕緊付諸行動吧。 首先， 你需要獲得赫侖皇帝的印章， 聽說有了它才能參加大會。
+去收集這個東西吧， 我等你的好消息。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5573
+[/pre required quest]
+
+[relation quest]
+	5575
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,23 @@
+#PVF_File
+
+[piercing power]
+	50000
+
+[basic action]
+	`Action/fire_Basic.act`
+
+[etc action]
+	`Action/Etc_fire_0.act`
+	`Action/Etc_fire_1.act`
+[/etc action]
+
+[vanish on move collision]
+	0
+
+[attack info]
+	`attackinfo/fire_Basic.atk`
+
+[etc attack info]
+	``
+	``
+[/etc attack info]

@@ -1,0 +1,136 @@
+#PVF_File
+
+[name]
+	`遠古逆襲之斬首斧`
+
+[basic explain]
+	`攻擊時，以3%%的機率使自身增加30點力量，效果持續30秒
+攻擊速度增加1%%`
+
+[flavor text]
+	` 蘊含遠古戰爭英雄之靈魂的稀有武器。`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	44
+
+[attack speed]
+	-70
+
+[cast speed]
+	10
+
+[move speed]
+	10
+
+[stuck]
+	-2
+
+[price]
+	94400
+
+[repair price]
+	79296
+
+[value]
+	377600
+
+[equipment physical attack]
+	610	590
+
+[equipment magical attack]
+	432	418
+
+[separate attack]
+	256	173
+
+[skill levelup]
+	`[priest]`	47	1
+	`[priest]`	5	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/axe.img`	39
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	7	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	22
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		3
+	[stat]
+		`physical attack`
+		`+`	30
+[/then]
+
+[possible kiri protect]

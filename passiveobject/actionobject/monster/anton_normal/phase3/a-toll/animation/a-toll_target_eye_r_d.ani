@@ -1,0 +1,79 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPredatorGaloa/G_eater_ball_a.img`
+		22
+	[IMAGE POS]
+		-447	-254
+	[IMAGE RATE]
+		-0.5	0.5
+	[IMAGE ROTATE]
+		-1.5700000524520874
+	[RGBA]
+		255	255	5	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPredatorGaloa/G_eater_ball_a.img`
+		23
+	[IMAGE POS]
+		-447	-254
+	[IMAGE RATE]
+		-0.5	0.5
+	[IMAGE ROTATE]
+		-1.5700000524520874
+	[RGBA]
+		255	255	5	150
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPredatorGaloa/G_eater_ball_a.img`
+		24
+	[IMAGE POS]
+		-447	-254
+	[IMAGE RATE]
+		-0.5	0.5
+	[IMAGE ROTATE]
+		-1.5700000524520874
+	[RGBA]
+		255	255	5	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPredatorGaloa/G_eater_ball_a.img`
+		24
+	[IMAGE POS]
+		-447	-254
+	[IMAGE RATE]
+		-0.5	0.5
+	[IMAGE ROTATE]
+		-1.5700000524520874
+	[RGBA]
+		255	255	5	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300

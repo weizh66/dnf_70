@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`雷鳴`
+
+[basic explain]
+	`釋放一道強有力的雷擊，擊穿敵人的護甲。`
+
+[explain]
+	`釋放一道強有力的雷擊，擊穿敵人的護甲。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	90
+
+[required level range]
+	20
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[skill command advantage]
+	50	50
+
+[consume item]
+	3285	2	2
+[/consume item]
+
+[consume MP]
+	580	4500
+
+[cool time]
+	80000	80000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Priest/Effect/ATSkillIcon.img`	134
+	`Character/Priest/Effect/ATSkillIcon.img`	135
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[static data]
+	100
+[/static data]
+
+[level info]
+	3	68456	89412	89663	72251	92516	92666	74342	94492	95456	75414	96461	97252	76405	98425	98758
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`無視防禦雷電攻擊力 : 52863%%`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

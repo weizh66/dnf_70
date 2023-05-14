@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	12
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20642
+[/pre required quest]
+
+[depend give item]
+	2749656	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749656	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`解除變異藥劑`
+
+[depend message]
+	`藥制作好了。 冒險家， 你趕緊拿去給賽麗亞試試吧！ 我想應該可以恢復了。`
+
+[condition message]
+	`    把[解除變異藥劑]帶給賽麗亞。`
+
+[solve message]
+	`冒險家， 你終于回來了！ 賽麗亞真是太不好意思了， 讓你為我跑來跑去的~辛苦了！
+這是莎蘭研制的藥劑嗎？ 嗯， 我這就試試……咕嚕咕嚕咕嚕……(變成怪物的賽麗亞喝起藥來也特別豪放)`

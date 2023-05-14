@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	18
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	48	99
+
+[pre required quest]
+	55
+[/pre required quest]
+
+[monster reward item]
+	1072	50	0	4153	1	30	1	1072	50	1	4153	1	45	1	1072	50	2	4153	1	52	1	1072	50	3	4153	1	60	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4153	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`盜賊團頭目`
+
+[depend message]
+	`只有除掉瘋狂盜賊團頭目， 我們才能完全瓦解瘋狂盜賊團的勢力。 而瘋狂盜賊團現在正因哈多被殺陷入混亂， 是我們除掉犬使摩震的好時機！
+勇士！ 如果你有勇氣， 就殺死摩震并把它的面具拿給我吧， 我會向大家宣布你是最勇敢的冒險家！ `
+
+[condition message]
+	`    前往諾斯瑪爾的『墮落的盜賊』， 從領主犬使摩震身上找到[摩震的面具]。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`噢！ 你除掉它了？ 我們……我們總算成功了！ 勇士！ 我代表公國女王再次向你表示感謝！ `
+
+[quest point]
+	4

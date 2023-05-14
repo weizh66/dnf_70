@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`克羅姆的生命護肩`
+
+[basic explain]
+	`攻擊時，以15%%的機率使敵人進入出血狀態。`
+
+[detail explain]
+	`攻擊時以15%%的機率4秒內讓敵人呈現出血狀態，每0.5秒以1000的攻擊力給予傷害。 (若敵人高於Lv65，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[flavor text]
+	`紅色...... 沒有比這個更美的顏色了  --克羅姆`
+
+[grade]
+	65
+
+[rarity]
+	4
+
+[anti evil]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	27
+
+[physical defense]
+	52
+
+[magical attack]
+	18
+
+[HP regen speed]
+	30
+
+[need material]
+	3285	1500
+
+[repair price]
+	51597
+
+[value]
+	46800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	1752	1608
+
+[icon]
+	`Item/common/shoulder.img`	236
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[set item master]
+	10964
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		15
+	[active status]
+		`bleeding`	65	8000
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		3
+	[active status]
+		`bleeding`	65	3000
+[/then]
+
+[if]
+	[module]
+		`[assault]`
+		`[war room]`
+	[/module]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		3
+	[active status]
+		`bleeding`	65	1500
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

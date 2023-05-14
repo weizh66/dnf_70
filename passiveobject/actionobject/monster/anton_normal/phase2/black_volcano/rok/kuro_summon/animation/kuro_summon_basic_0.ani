@@ -1,0 +1,31 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Knight/Effect/ElementalCircle/ElementalCircle_Dark_01.img`
+		0
+	[IMAGE POS]
+		-150	-150
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		550
+
+[FRAME001]
+	[IMAGE]
+		`Character/Knight/Effect/ElementalCircle/ElementalCircle_Dark_01.img`
+		0
+	[IMAGE POS]
+		-150	-150
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

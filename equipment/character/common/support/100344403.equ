@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	`斷腸絕傷勛章`
+
+[basic explain]
+	`隊伍中有4名隊員時， 攻擊稀有怪物時附加6%%的傷害。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	11372
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[physical defense]
+	35
+
+[magical defense]
+	35
+
+[need material]
+	3824	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[icon]
+	`item/new_equipment/10_support/support.img`	214
+
+[field image]
+	`Item/field_equip.img`	22
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[support]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[dynamic part set index]
+	11227	11620	11489	11372	11750
+[/dynamic part set index]
+
+[if]
+	[attack success]
+		1
+	[target grade]
+		`champion`
+	[party count]
+		`=`	4
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	6
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target grade]
+		`named`
+	[party count]
+		`=`	4
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	6
+[/then]
+
+[possible kiri protect]

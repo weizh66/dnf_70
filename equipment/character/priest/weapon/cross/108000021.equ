@@ -1,0 +1,194 @@
+#PVF_File
+
+[name]
+	`絕望的時鐘發條`
+
+[basic explain]
+	`空中，倒地的敵人攻擊時30秒內體力增加80 
+前衝時20秒移動速度增加5%%，施放速度增加10%% `
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical defense]
+	63
+
+[magical attack]
+	50
+
+[magical defense]
+	63
+
+[cast speed]
+	20
+
+[need material]
+	3285	2100
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	724	664
+
+[equipment magical attack]
+	688	631
+
+[equipment physical defense]
+	750	750
+
+[separate attack]
+	441	298
+
+[skill levelup]
+	`[priest]`	45	3
+	`[priest]`	73	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/priest/cross/cross.img`	79
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	22	1
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[if]
+	[target state]
+		`down`
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[duration]
+		30000
+	[target]
+		`myself`	-1
+	[appendage]
+		148
+[/then]
+
+[if]
+	[target state]
+		`jump`
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[duration]
+		30000
+	[target]
+		`myself`	-1
+	[appendage]
+		148
+[/then]
+
+[if]
+	[target state]
+		`jump attack`
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[duration]
+		30000
+	[target]
+		`myself`	-1
+	[appendage]
+		148
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`dash`
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[duration]
+		20000
+	[target]
+		`myself`	-1
+	[stat]
+		`move speed`
+		`+`	50
+	[stat]
+		`cast speed`
+		`+`	100
+[/then]
+
+[possible kiri protect]

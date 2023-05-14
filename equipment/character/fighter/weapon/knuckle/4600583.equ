@@ -1,0 +1,185 @@
+#PVF_File
+
+[name]
+	`封·異魔之主`
+
+[basic explain]
+	`    每500點MP可增加3點的武器魔法攻擊力。（最多增加225點）
+    MP高於80%%時， 魔法暴擊率增加20%%。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	62
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[MP MAX]
+	1000
+
+[need material]
+	3821	1400
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	862	735
+
+[equipment magical attack]
+	1043	890
+
+[separate attack]
+	555	359
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	98
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	1
+	`at fighter`	1
+[/routing priority]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	500
+		`equipment magical attack`
+		`+`	4	300
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	500
+		`equipment magical attack`
+		`+`	4	300
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[stat change]
+		`mp`
+		`>=`
+		`%`	50
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical critical hit`
+		`+`	20
+[/then]
+
+[possible kiri protect]

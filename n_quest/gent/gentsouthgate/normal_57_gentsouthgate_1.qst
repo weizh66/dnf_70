@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	57	99
+
+[pre required quest]
+	4366
+[/pre required quest]
+
+[enemy reward item]
+	61493	1	82	2	4309	1	10	1	61710	1	82	2	4309	1	10	1	61495	1	82	2	4309	1	10	1	61803	1	82	2	4309	1	10	1	61801	1	82	2	4309	1	10	1	61333	1	82	2	4309	1	10	1	56714	1	82	2	4309	1	10	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4309	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	3035	10	3033	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`制作兵器`
+
+[depend message]
+	`嗨~奇怪的家伙， 你來了。
+我今天心情好， 想做一個能與吉賽爾的機動兵器抗衡的新兵器。 不過， 我需要吉賽爾制作機動兵器的詳細資料。
+雖然我可以按照以前的記憶做一個， 但要做就要做得完美， 不是嗎？ 因此只好麻煩你去幫我收集相關的資料了。
+你去南門看看吧， 那些資料應該不難找到。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特南門』， 除掉敵人并找到[GT-9600的設計圖]， 要求地下城難度為王者級。`
+
+[solve message]
+	`很好， 我本來也沒抱太大希望， 沒想到你連設計圖都找來了， 運氣不錯啊！
+嗯， 有了這些東西， 不出三天我就能做出新的兵器了。
+不過材料可能有點不夠……雖然得花些工夫， 但要做就要盡力做好！ 嘖……真麻煩……啊， 對了， 謝啦。`

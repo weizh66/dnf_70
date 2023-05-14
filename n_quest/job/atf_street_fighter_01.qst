@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7887	7890	7896
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7894
+
+[name]
+	`轉職 - 街霸 (1/3)`
+
+[depend message]
+	`你說你想成為街霸？……那可不是什么光彩的職業！
+街霸們每天不是無所事事， 就是聚在一些小巷子里進行地下搏斗。 他們為了勝利甚至可以不擇手段， 很難稱得上是真正的武道家。
+你為什么要選擇一條這么艱難的路？
+絕對不行， 你快回去吧， 這可不是開玩笑的！`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給風振。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`沒想到你這么堅持……我想就算是我不教你， 你也會自己去探索街霸之路吧？`

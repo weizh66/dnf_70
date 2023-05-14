@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`封·亡靈之帳腰帶`
+
+[basic explain]
+	`  破招攻擊時，有50%%的機率使自身進入為裝狀態5秒
+  對倒地的敵人傷害+20%%`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12573
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	53
+
+[magical attack]
+	53
+
+[magical defense]
+	23
+
+[inventory limit]
+	3000
+
+[price]
+	72800
+
+[repair price]
+	58240
+
+[value]
+	58240
+
+[need material]
+	3821	1000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	758	900
+
+[icon]
+	`Item/new_equipment/03_leather/belt/leather_belt.img`	18
+
+[field image]
+	`Item/field_equip.img`	3
+
+[equipment type]
+	`[waist]`	16
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	800
+
+[item group name]
+	`cl waist`
+
+[cool time]
+	10000
+
+[if]
+	[target state]
+		`down`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		50
+	[buff]
+		`camoflage`
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Sacrifice_Circle_1.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../Particle/Sacrifice_Cirecle_Pop.ptl`	0	0	50
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

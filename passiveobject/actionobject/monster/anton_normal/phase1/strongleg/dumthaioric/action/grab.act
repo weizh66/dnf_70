@@ -1,0 +1,164 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Grab00.ani`
+	[SUB ANI]
+		`../animation/Grab01.ani`	0	-1
+	[/SUB ANI]
+	[SOUND]
+		`DTAIORIC_INHALE_LOOP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`time`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[IF]
+		`time`
+		[+]
+			2000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+	[TRIGGER]
+		2
+	[ON]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56642
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[STAND]
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[DO BEHAVIOR]
+	[LAST ATTACKSUCCESSES]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+	[DIM]
+		`time1`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[GRAB ON]
+		[Z OFFSET]
+			-20
+		[ROTATE]
+			0
+	[/GRAB ON]
+	[TRIGGER]
+		4
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[IF]
+		`time1`
+		[+]
+			2000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[LAST ATTACKSUCCESSES]
+		4
+	[DO BEHAVIOR]
+	[ME]
+		5
+[/TRIGGER]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		4
+	[OFF]
+	[TRIGGER]
+		5
+	[ON]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56642
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		2
+	[NOW]
+[/BEHAVIOR]

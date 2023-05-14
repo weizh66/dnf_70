@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	4039
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	92	-1	56033	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`不幸之門`
+
+[depend message]
+	`通向霧都赫伊斯的卡勒特本部只有一條路， 而那條路的入口處有一道門， 被稱為‘不幸之門’。
+因為是唯一的通道， 卡勒特自然會派重兵把守。 聽說其中一個門衛是‘守望者’派普·喬， 那可是個難纏的家伙……
+他身上裝的生命維持裝置， 使他擁有近乎不死的生命力， 所以一定要小心。
+而且我還聽說， 如果他沒能守好門的話， 會受到極其殘酷的刑罰……`
+
+[condition message]
+	`    獨自一人前往海上列車的『霧都赫伊斯』， 除掉派普·喬后， 然后向澤丁·施奈德回復。 (此任務在地下城中不可放棄)`
+
+[solve message]
+	`現在可以進入赫伊斯的中心地帶了， 我想在那里應該可以找到皇女的蹤跡。`
+
+[dialog]
+	0	0	15266	0	0	0	0
+	`<monster::56030>看到爺還不嚇得雙腿發軟？ 想從這里過只有一個辦法， 就是變成爺手下的肉醬！ 哈哈哈~`
+[/dialog]
+
+[dialog]
+	0	1	15266	0	0	0	0
+	`<monster::61266>哼， 沒用的家伙……連個門都守不了！
+不要以為打贏了他就結束了。 我勸你們現在最好趕緊離開， 否則下場會和那廢物一樣！`
+[/dialog]
+
+[quest point]
+	4

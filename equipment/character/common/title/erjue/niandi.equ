@@ -1,0 +1,137 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 念帝`
+
+[explain]
+	`“念是什麼呢？”
+“利用如此軟弱的身軀，毀滅泰山的力量又是什?呢？”
+“如果這叫‘強大的力量’，那?這又是為了什?而存在的呢？”
+對於如此無語的疑問，我感到有些驚慌，雖然聽過無數次德高望重的高人底下腰向凡人請求知識的故事，但是自己能成為故事的主人公是萬萬沒想到的。
+“不是為了守護心愛的人嗎？”
+“妳是說，如果是為了守護，即使是異常強大的力量也可以允許使用嗎？”
+“額……我不太清楚……”
+雖然只是壹句簡單的反問，但是弄得我無地自容。
+最終，望著那無法直視的武人，雖然聽見了撕裂肺腑的絕叫聲，我還是無情地回了腳步……
+不知道後來他怎?樣了，死了還是活著……
+希望能得到心中滿意的答案過上幸福的生活，但是又有誰能給出合理的答案呢？
+今天也像那天壹樣，上空掛著壹個明亮的月亮，當然那個月亮也不知道答案是什?……
+想見嗎？找起來可能會有點困難，但是認出他應該不會太難。
+如果妳有壹雙可以看出凈月之美的眼睛，還有，如果念帝還活在世上……`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		19826236	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[fighter]`	16
+	`[all]`
+	`[level]`	0
+	`%`	800
+	`[fighter]`	12
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[fighter]`	67
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[fighter]`	100
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[fighter]`	16
+	`[all]`
+	`[level]`	4
+	`%`	50
+[/skill data up]

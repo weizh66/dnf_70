@@ -1,0 +1,71 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/attack.ani`
+	[SUB ANI]
+		`../animation/attack_w.ani`	0	1
+		`../animation/attack_w1.ani`	0	2
+	[/SUB ANI]
+	[SPEECH]
+		`毫無意義的動作太多了！`
+			2	8
+		`哼...... 都是騙人的幌子！`
+			2	8
+	[/SPEECH]
+	[SOUND]
+		`ENJO_SWISH_01`	0
+		`R_ENJO_ATK_01`	3
+		`ENJO_SWISH_02`	4
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`throw1`
+		[=]
+			0
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`throw1`
+		[=]
+			1
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[IF]
+		`throw1`
+		[>=]
+			1
+	[/IF]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		1
+	[END]
+[/BEHAVIOR]

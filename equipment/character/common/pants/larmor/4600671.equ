@@ -1,0 +1,141 @@
+#PVF_File
+
+[name]
+	`封·深海熔巖護腿`
+
+[basic explain]
+	`  被攻擊時， 若總HP一次性減少10%以上， 則使自身增加30點火屬性強化， 效果持續30秒。 （冷卻時間30秒； 解除裝備后效果消失）
+  每10點火屬性傷害， 使自身增加5點力量和智力。 （最多疊加100點）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12568
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	94
+
+[magical attack]
+	79
+
+[need material]
+	3821	900
+
+[price]
+	103200
+
+[repair price]
+	82560
+
+[value]
+	82560
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2910	2640
+
+[water resistance]
+	12
+
+[icon]
+	`item/new_equipment/04_larmor/pants/larmor_pants.img`	10
+
+[field image]
+	`Item/field_equip.img`	6
+
+[equipment type]
+	`[pants]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			70
+		[upper bound level]
+			70
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[check damage]
+		`%`	10
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[stat]
+		`fire attack`
+		`+`	30
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`fire attack`	10
+		`magical attack`
+		`+`	5	100
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,146 @@
+#PVF_File
+
+[name]
+	`封·混元武士的咒蘊短靴`
+
+[basic explain]
+	`  裝備後， 每30秒會使自身進入詛咒狀態。
+ 裝備時， 會增加自身10%%的移動速度、 65點物理攻擊力和魔法攻擊力， 以及90點獨立攻擊力。
+  移動速度 +10%%
+  物理攻擊力 +65
+  魔法攻擊力 +65
+  獨立攻擊力 +90（裝備10秒後生效）`
+
+[detail explain]
+	`  每30秒使自身進入詛咒狀態30秒； 詛咒狀態下， 將減少44點力量、 體力、 智力和精神。 (若敵人高於Lv100， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 裝備1秒後生效)
+  移動速度 +10%%
+  物理攻擊力 +65
+  魔法攻擊力 +65
+  獨立攻擊力 +90（裝備10秒後生效）`
+
+[flavor text]
+	`  我的愛情壹定被詛咒了！`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12567
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	55
+
+[magical attack]
+	47
+
+[move speed]
+	60
+
+[HP MAX]
+	200
+
+[MP MAX]
+	200
+
+[need material]
+	3821	800
+
+[price]
+	72900
+
+[repair price]
+	58320
+
+[value]
+	58320
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1656	1494
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	16
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	16
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[start cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`equipment physical attack`
+		`+`	65
+	[stat by condition]
+		`equipment magical attack`
+		`+`	65
+	[stat by condition]
+		`separate attack`
+		`+`	90
+	[stat by condition]
+		`move speed`
+		`+`	100
+[/then]
+
+[if]
+	[time]
+		100	1	100
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[active status]
+		`curse`	100	44	44	44	44
+[/then]
+
+[possible kiri protect]

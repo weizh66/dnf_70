@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`冰雪精靈的紅色短裙`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	15
+
+[icon]
+	`item/avatar/mage/mg_apants.img`	201
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[variation]
+	64	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[HP MAX]
+	50
+
+[equipment physical defense]
+	300	300
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar func filter]
+	0

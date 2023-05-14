@@ -1,0 +1,214 @@
+#PVF_File
+
+[name]
+	`鉆石豪門VIP`
+
+[basic explain]
+	`    可以減少30%%的強化費用。
+    增加10%%的強化成功幾率。
+    攻擊時， 使250px範圍內的敵人進入破甲狀態3秒。(決鬥場中無效)
+     攻擊時， 有3%%的幾率消減敵人30%%的HP。
+    攻擊時， 有3%%的幾率增加自身8%%的攻擊速度， 效果持續40秒。
+  施放時， 有3%%的幾率增加自身8%%的施放速度， 效果持續40秒。
+  前沖時， 有8%%的幾率增加自身8%%的移動速度， 效果持續40秒。`
+
+[detail explain]
+	`    可以減少30%%的強化費用。
+    增加10%%的強化成功幾率。
+    攻擊時， 使250px範圍內的敵人進入破甲狀態3秒； 破甲狀態的敵人，暫時無法使用護甲且護甲的耐久度消耗增加30倍。(決鬥場中無效)
+     攻擊時， 有3%%的幾率消減敵人30%%的HP。
+    攻擊時， 有3%%的幾率增加自身8%%的攻擊速度， 效果持續40秒。
+  施放時， 有3%%的幾率增加自身8%%的施放速度， 效果持續40秒。
+  前沖時， 有8%%的幾率增加自身8%%的移動速度， 效果持續40秒。`
+
+[flavor text]
+	`    什么是豪門？ 豪門就是壹切追求頂尖， 從來不怕花錢 ！`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	50
+
+[physical defense]
+	50
+
+[magical attack]
+	50
+
+[magical defense]
+	50
+
+[attack speed]
+	35
+
+[move speed]
+	35
+
+[cast speed]
+	35
+
+[HP MAX]
+	550
+
+[MP MAX]
+	550
+
+[stuck]
+	-4
+
+[stuck resistance]
+	40
+
+[physical critical hit]
+	12
+
+[magical critical hit]
+	12
+
+[hit recovery]
+	200
+
+[equipment physical attack]
+	30	30
+
+[equipment magical attack]
+	30	30
+
+[separate attack]
+	50	50
+
+[all elemental attack]
+	25
+
+[room list move speed rate]
+	0.25
+
+[upgrade prob increase]
+	10000
+
+[upgrade cost discount]
+	30.0
+
+[icon]
+	`Item/Title/title_cn.img`	125
+
+[custom animation]
+	`TitleAnimation/vip_club.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[usable period]
+	7
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	250
+	[duration]
+		3000
+	[reduce probability to human armor at pvp module]
+		100
+	[active status]
+		`armor break`	120	30
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[weakness]
+		30
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		3
+	[stat]
+		`attack speed`
+		`+`	80
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		3
+	[stat]
+		`cast speed`
+		`+`	80
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		4
+	[stat]
+		`move speed`
+		`+`	80
+[/then]

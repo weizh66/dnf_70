@@ -1,0 +1,172 @@
+#PVF_File
+
+[name]
+	`羅斯韋森手槍`
+
+[basic explain]
+	`攻擊速度增加2%%
+施放技能時，以3%%的機率使敵人進入出血狀態。
+`
+
+[detail explain]
+	`攻擊速度 +2%%
+攻擊時，有3%%的機率使300px範圍內最近的敵人進入出血狀態6秒；出血狀態下的敵人，每0.5秒受到137點傷害。  (高於Lv60的對象得到的機率減少，低於Lv60的對象則會增加。)`
+
+[grade]
+	62
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[magical attack]
+	39
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[stuck]
+	1
+
+[price]
+	86800
+
+[repair price]
+	72912
+
+[value]
+	24700
+
+[equipment physical attack]
+	357	342
+
+[equipment magical attack]
+	523	502
+
+[separate attack]
+	270	182
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/weapon/gunner/automatic.img`	53
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		9000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	60	1650
+[/then]
+
+[if]
+	[cooltime]
+		9000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		6000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	60	1650
+[/then]
+
+[possible kiri protect]

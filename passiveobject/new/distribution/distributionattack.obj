@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`Distribution`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/Distribution/Distribution_AttackLoop_A01.ani`
+
+[etc motion]
+	`Animation/Distribution/Distribution_AttackLoop_A01.ani`
+	`Animation/Distribution/Distribution_AttackLoop_B01.ani`
+	`Animation/Distribution/Distribution_AttackLoop_C01.ani`
+	`Animation/Distribution/Distribution_AttackLoop_D01.ani`
+	`Animation/Distribution/Distribution_AttackLoop_E01.ani`
+	`Animation/Distribution/Distribution_AttackLoop_F01.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/DistributionStart.atk`
+
+[etc attack info]
+	`AttackInfo/DistributionStart.atk`
+	`AttackInfo/DistributionLoopAtk.atk`
+[/etc attack info]

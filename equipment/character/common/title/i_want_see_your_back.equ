@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`影子殺手`
+
+[explain]
+	`背擊攻擊時，有7%%的機率使自身增加3%%的攻擊速度和5%%的施放速度，效果持續15秒。`
+
+[flavor text]
+	`在掉落的肥皂之間，尷尬的微笑著 誰先撿肥皂呢？`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_tw.img`	1
+
+[custom animation]
+	`TitleAnimation/i_want_see_your_back.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	13
+
+[magical attack]
+	13
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[cooltime]
+		25000
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		7
+	[stat]
+		`attack speed`
+		`+`	30
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]

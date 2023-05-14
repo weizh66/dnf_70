@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/nen_Basic_0_0_0.ani`
+	[SUB ANI]
+		`../Animation/nen_Basic_1_0_0.ani`	0	1
+		`../Animation/nen_Basic_2_0_0.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

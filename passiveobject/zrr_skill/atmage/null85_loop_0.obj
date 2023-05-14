@@ -1,0 +1,37 @@
+#PVF_File
+
+[name]
+	`win85`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[attack info]
+	`attackinfo/null85/atforbiddenpartylaserattack.atk`
+
+[basic motion]
+	`animation/atforbiddenparty/magiccircle/fpalaser_attack_magiccircle01.ani`
+
+[etc motion]
+	`animation/atforbiddenparty/eventhorizen/fpb02laser_02_laser_01.ani`
+	`animation/atforbiddenparty/eventhorizen/fpb02lastshooting_bg_01.ani`
+	`animation/athorror/02_breakout/athorror_breakout.ani`
+	`animation/athorror/03_attack01/attack_01/athorror_attack_01.ani`
+	`animation/athorror/04_attack02/attack_02/athorror_attack_02.ani`
+	`animation/athorror/05_attack03/attack_03/athorror_attack_03.ani`
+	`animation/athorror/06_finish/front_finish01/athorror_front_finish01.ani`
+	`animation/timetape/move/move_loop_front.ani`
+[/etc motion]
+
+[etc attack info]
+	`attackinfo/null50last.atk`
+[/etc attack info]

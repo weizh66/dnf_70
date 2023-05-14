@@ -1,0 +1,54 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/BusterMode/buster_back_light1.img`
+		0
+	[IMAGE POS]
+		-260	-201
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME001]
+	[IMAGE]
+		`Character/Common/BusterMode/buster_back_light1.img`
+		0
+	[IMAGE POS]
+		-260	-201
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[IMAGE ROTATE]
+		0.17453299462795258
+	[RGBA]
+		255	135	228	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		350
+
+[FRAME002]
+	[IMAGE]
+		`Character/Common/BusterMode/buster_back_light1.img`
+		0
+	[IMAGE POS]
+		-260	-201
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[IMAGE ROTATE]
+		0.2094389945268631
+	[RGBA]
+		255	0	163	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50

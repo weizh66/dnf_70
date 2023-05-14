@@ -1,0 +1,130 @@
+#PVF_File
+
+[set name]
+	`困獸之怒  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	17
+		`[gunner]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[gunner]`	7
+		`[dungeon type]`
+		`[level]`	6
+		`%`	15
+		`[gunner]`	7
+		`[dungeon type]`
+		`[level]`	5
+		`%`	8
+		`[at gunner]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	17
+		`[at gunner]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at gunner]`	7
+		`[dungeon type]`
+		`[level]`	6
+		`%`	15
+		`[at gunner]`	7
+		`[dungeon type]`
+		`[level]`	5
+		`%`	8
+	[/skill data up]
+	[parameter basic explain]
+		`[爆頭一擊]攻擊力 +17%%
+神槍手(男)
+[瞬踢]攻擊力 +15%%
+[瞬踢]擊退時間增加比率 +8%%
+神槍手(女)
+[刺踢] +15%%
+[刺踢]擊退時間增加比率 +8%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	72
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[gunner]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[at gunner]`	72
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[at gunner]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[死亡左輪]暴擊傷害 +10%%
+[多重爆頭]攻擊力 +20%%
+[多重爆頭]準備時間 -30%%
+神槍手(男)
+[亂射]攻擊力 +20%%
+神槍手(女)
+[槍舞]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	101
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-60
+		`[gunner]`	101
+		`[dungeon type]`
+		`[level]`	4
+		`+`	1
+		`[gunner]`	101
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1
+		`[at gunner]`	101
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-60
+		`[at gunner]`	101
+		`[dungeon type]`
+		`[level]`	4
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`神槍手(男)
+[回旋劫擊]冷卻時間 -60%%
+[回旋劫擊]攻擊次數 +1
+[回旋劫擊]空中回旋踢攻擊次數 +1
+神槍手(女)
+[熾焰劫擊]冷卻時間 -65%%
+[熾焰劫擊]攻擊次數 +2`
+[/piece set ability]

@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gun blader]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 未來開拓者 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。 但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意用你新的力量來幫助我們嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+當初你來找我幫你修煉的時候， 說實話我很驚訝。 但是， 后來聽你說完自己的想法， 我就能理解你的心情了。
+看到你不過于依賴于強威力的武器， 堅持修煉讓自己變強， 我感觸很深， 所以才會決定助你一臂之力。
+現在你已經可以使用新武器了。 不過， 希望你繼續堅持修煉。
+身體跟武器不同， 如果不堅持修煉， 身體機能就會退化， 力量也會變弱。 到時候， 別說更強的武器， 恐怕連現在的武器都用不了了。
+你該走了。 現在你的力量已經進階到新的境界， 該怎么稱呼你好呢。
+什么？ 你讓我稱你為‘未來開拓者’？ 好， 知道了。
+從現在起你就是未來開拓者。 希望你堅持現在的步伐， 繼續開拓未來。`
+
+[pre required quest]
+	6922
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

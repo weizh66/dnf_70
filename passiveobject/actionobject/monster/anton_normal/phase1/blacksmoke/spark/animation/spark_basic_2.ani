@@ -1,0 +1,47 @@
+#PVF_File
+[SHADOW]
+	0
+[SPECTRUM]
+	1
+	[SPECTRUM TERM]
+		50
+	[SPECTRUM LIFE TIME]
+		150
+	[SPECTRUM COLOR]
+		255	255	255	255
+	[SPECTRUM EFFECT]
+		`NONE`
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/marble_red.img`
+		5
+	[IMAGE POS]
+		-225	-259
+	[IMAGE RATE]
+		0.5	0.5
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/marble_red.img`
+		5
+	[IMAGE POS]
+		-225	-259
+	[IMAGE RATE]
+		0.5	0.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

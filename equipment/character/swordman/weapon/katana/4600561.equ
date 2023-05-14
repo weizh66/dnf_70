@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	`封·赫格尼之劍`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態。
+    攻擊出血狀態的敵人時， 增加40%%的暴擊傷害。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態7秒； 出血狀態下的敵人， 每0.5秒會受到1000點傷害。 (若敵人高於Lv81， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間2秒)
+  攻擊出血狀態的敵人時， 增加40%%的暴擊傷害。（增加暴擊傷害類屬性僅適用於最高數值，且無法疊加）`
+
+[flavor text]
+	`    傳說此劍帶有巨大的詛咒， 可以給持有者帶去無窮的厄運和災難。`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	58
+
+[magical attack]
+	88
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	3821	1200
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	812	688
+
+[equipment magical attack]
+	897	760
+
+[separate attack]
+	520	336
+
+[physical critical hit]
+	15
+
+[magical critical hit]
+	15
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/katana/katana.img`	115
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	43	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	43	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		20
+	[duration]
+		7000
+	[active status]
+		`bleeding`	120	14000
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	40
+[/then]
+
+[possible kiri protect]

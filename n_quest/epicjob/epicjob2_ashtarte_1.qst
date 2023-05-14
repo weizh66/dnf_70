@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 伊斯塔戰靈(1/2)`
+
+[depend message]
+	`強大的戰斗法師啊， 至今為止我一直關注你的一舉一動。 擁有如此纖弱的身軀， 卻能那樣敏捷的身手真的非常了不起。
+但你是否覺得自己對魔法的研究疏忽了很多呢？ 我擔心沉浸在炫紋和貝亞娜力量的你會漸漸疏遠對元素的探究。
+很久很久以前一些人發現了一個未知的力量。 這個力量強大到能夠超越自己的界限。
+但因為對這種力量的理解非常匱乏， 所以駕馭不住力量的他們全部丟掉了性命。 如果成功的話， 他們一定會被稱作‘伊斯塔戰靈’并被萬人所擁戴。
+想知道那個未知力量是什么嗎？ 我可以告訴你， 但以你目前對魔法的理解， 就算知曉也沒有任何用處， 反而會讓自己身陷險境。
+想惡補落下的修煉會非常痛苦。 但如果下定決心， 我也可以幫助你。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和莎蘭談談。`
+
+[solve message]
+	`準備好了嗎？`
+
+[pre required quest]
+	970
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12838
+
+[job change quest]
+	3
+
+[grow number]
+	0

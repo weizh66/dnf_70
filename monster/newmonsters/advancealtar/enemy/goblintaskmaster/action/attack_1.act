@@ -1,0 +1,85 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack_1_0.ani`
+	[SUB ANI]
+		`../Animation/Attack_1_4.ani`	0	-3
+		`../Animation/Attack_1_5.ani`	0	-2
+		`../Animation/Attack_1_6.ani`	0	-1
+		`../Animation/Attack_1_1.ani`	0	1
+		`../Animation/Attack_1_3.ani`	0	2
+		`../Animation/Attack_1_2.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8192
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-300	300
+		[RANDOM]
+			-150	150
+		[RANDOM]
+			400	500
+		[WARNING MARK]
+			0	0	100	1
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CASTING]
+		1100	2
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		1
+[/BEHAVIOR]

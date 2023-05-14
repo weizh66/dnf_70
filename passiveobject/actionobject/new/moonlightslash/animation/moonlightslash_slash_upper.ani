@@ -1,0 +1,104 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/queen.img`
+		47
+	[IMAGE POS]
+		-225	-342
+	[IMAGE ROTATE]
+		0.3499999940395355
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+	[PLAY SOUND]
+		`MOON_LIGHT_SLASH_UPPER`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/queen.img`
+		178
+	[IMAGE POS]
+		-218	-364
+	[IMAGE ROTATE]
+		1.2200000286102295
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-250	-60	-11	500	120	310
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/queen.img`
+		179
+	[IMAGE POS]
+		-223	-372
+	[IMAGE ROTATE]
+		1.1299999952316284
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-250	-60	-11	500	120	310
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/queen.img`
+		98
+	[IMAGE POS]
+		-297	-373
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		-0.7900000214576721
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-250	-60	-11	500	120	310
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/queen.img`
+		181
+	[IMAGE POS]
+		-300	-386
+	[IMAGE ROTATE]
+		0.17000000178813934
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/queen.img`
+		182
+	[IMAGE POS]
+		-312	-384
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[SET FLAG]
+		0
+
+[FRAME006]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/queen.img`
+		183
+	[IMAGE POS]
+		-312	-384
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`

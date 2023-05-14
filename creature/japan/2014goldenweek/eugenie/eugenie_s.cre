@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`騎士貞德`
+
+[width]
+	30	20
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	45000
+
+[over skill recovery time]
+	0
+
+[learn overskill level]
+	100
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation_S/Stand/01_stand.ani`
+
+[walk motion]
+	`Animation_S/Walk/02_walk.ani`
+
+[run motion]
+	`Animation_S/Run/03_run.ani`
+
+[response motion]
+	`Animation_S/Call/07_call.ani`
+
+[skill motion]
+	`Animation_S/Skill/skill.ani`
+
+[over skill motion]
+	``
+
+[random motion]
+	`Animation_S/Random1/04_random.ani`
+	`Animation_S/Random2/05_random.ani`
+	`Animation_S/Random3/06_random.ani`
+[/random motion]
+
+[default random motion rate]
+	50
+
+[etc motion]
+[/etc motion]
+
+[attack info]
+	`AttackInfo/Skill.atk`
+[/attack info]
+
+[revision x]
+	0
+
+[revision y]
+	30
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[skill string]
+	`火焰突刺`
+	`    使用火焰劍術， 向前方突進攻擊敵人。`
+[/skill string]
+
+[int data]
+	400
+[/int data]

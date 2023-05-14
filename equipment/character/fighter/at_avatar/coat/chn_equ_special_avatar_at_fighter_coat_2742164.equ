@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`金色烈風勇士胸甲`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_acoat.img`	86
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[sub type]
+	0
+
+[variation]
+	30	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[physical defense]
+	10
+
+[HP MAX]
+	60
+
+[part set index]
+	30002
+
+[avatar func filter]
+	2

@@ -1,0 +1,200 @@
+#PVF_File
+
+[name]
+	`疾病之核`
+
+[basic explain]
+	`攻擊時以 3%%的機率讓敵人陷入中毒狀態
+攻擊時以 3%% 的機率讓敵人陷入出血狀態
+攻擊時以 3%%的機率讓敵人陷入失明狀態
+攻擊時以3%%的機率讓敵人陷入減速狀態
+攻擊時以3%% 的機率讓敵人陷入眩暈狀態
+攻擊時以 3%%的機率讓敵人陷入混亂狀態`
+
+[detail explain]
+	`攻擊時以3%%的機率2秒內讓敵人呈現中毒狀態，每0.5秒以1000的攻擊力給予傷害。 （高於Lv89的對象得到的機率減少，低於Lv89的對象則會增加。）
+攻擊時以 3%% 的機率2秒內讓敵人呈現出血狀態，每0.5秒以 1000的攻擊力給予傷害。 （高於Lv89的對象得到的機率減少，低於Lv89的對象則會增加。）
+攻擊時以3%%的機率 2秒內讓敵人進入失明狀態，視線減少 80%%，命中率減少20%%。 （高於Lv89的對象得到的機率和效果減少，低於Lv89的對象則會增加。）
+攻擊時以3%% 的機率2秒內讓敵人進入減速狀態，移動速度減少15%%，攻擊速度減少15%%。 （高於Lv89的對象得到的機率減少，低於Lv89的對象則會增加。）
+攻擊時以3%%的機率2秒內讓敵人陷入眩暈狀態攻擊。 （高於Lv89的對象得到的機率和效果減少，低於Lv89的對象則會增加。）
+攻擊時以 2%% 的機率2秒內讓敵人進入混亂狀態。 （高於Lv89的對象得到的機率和效果減少，低於Lv89的對象則會增加。）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	51
+
+[physical defense]
+	51
+
+[magical defense]
+	51
+
+[price]
+	89000
+
+[value]
+	71200
+
+[creation rate]
+	0
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	88
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[magical attack]
+	51
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`poison`	89	4000
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	89	4000
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	89
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`blind`	89	80	20
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`slow`	89	15	15
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	89	1
+[/then]
+
+[possible kiri protect]

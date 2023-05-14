@@ -1,0 +1,88 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`抉擇之沼`
+
+[explain]
+	`    勇敢的挑戰者， 迎接你的命運吧！`
+
+[entering title]
+	`Title/chn_event_01.ani`
+
+[cutscene image]
+	`Map/CutScene/CutScene_cn.img`	2
+
+[minimap image]
+	`Map/MiniMap/Act1.img`
+
+[worldmap pattern info]
+	1	8
+	`WorldMap/SelectdungeonSlot/cn_dungeonslot.img`	2
+
+[required item]
+	10005005	1	1
+[/required item]
+
+[event dungeon]
+	1
+
+[clear reward item]
+	10005018	1	10005004	1
+[/clear reward item]
+
+[minimum required level]
+	99
+
+[basis level]
+	41
+
+[champion]
+	0	0	0	0	0
+
+[recommended level]
+	28	50
+
+[pathgate object]
+	431	432	12010	433	434	12011	435	436	437	438
+
+[maze info]
+
+[size]
+	3	2
+
+[greed]
+	`BBNNEE
+ AACCAA`
+
+[start map]
+	1	0
+[/start map]
+
+[boss map]
+	1	1	0	0	2	0
+[/boss map]
+
+[designate dungeon difficulty]
+	0
+
+[special passive object item]
+	0	-1	1	690001151	2000	1	-1	1	690001152	2000	2	-1	1	690001153	2000	3	-1	0
+[/special passive object item]
+
+[schedule]
+	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`ALL`
+	`00:00:00`
+	`23:59:59`
+[/schedule]
+
+[limit party count]
+	1
+
+[prohibit practice]
+	1

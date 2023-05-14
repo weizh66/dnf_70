@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	5
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	7650
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	5
+[/int data]
+
+[dungeon info]
+	1501	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 強大的支援者`
+
+[depend message]
+	`呃， 悲鳴洞穴里的情況怎么樣？ 怪物很多吧？
+<npc::0>不是一般的多， 那些蟲子惡心死了。 還有一只超級大的蟲子……
+<npc::1>巨大的蟲子？ 奇怪， 我怎么覺得你說的那只蟲子像戮蠱呢， 不過它早就被希洛克殺死了呀？
+呃， 要是那蟲子真的是戮蠱， 你一個人肯定對付不了， 要找個人幫你才行。
+<npc::0>切！ 那種蟲子再來一百只， 我也能對付！
+<npc::1>是嗎？ 反正能幫你的那個人在月光酒館， 你要是想找他就先去找索西雅。 該說的我都說了， 找不找隨你。`
+
+[condition message]
+	`    前往月光酒館找索西雅談談。`
+
+[solve message]
+	`歡迎歡迎， 你看起來很疲倦， 休息一下再走吧。`
+
+[quest point]
+	4

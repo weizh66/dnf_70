@@ -1,0 +1,49 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/flash.img`
+		0
+	[IMAGE POS]
+		-455	-353
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		360
+
+[FRAME001]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/flash.img`
+		0
+	[IMAGE POS]
+		-455	-353
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		180
+
+[FRAME002]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/flash.img`
+		1
+	[IMAGE POS]
+		-455	-353
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		180
+
+[FRAME003]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/flash.img`
+		2
+	[IMAGE POS]
+		-455	-353
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		180

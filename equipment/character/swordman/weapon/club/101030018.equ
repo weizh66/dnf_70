@@ -1,0 +1,266 @@
+#PVF_File
+
+[name]
+	`心臟粉碎機`
+
+[basic explain]
+	`HP 80%% 以上的敵人攻擊時敵人5%% 附加傷害
+HP 60%% 以上80%%以下的敵人 攻擊時敵人8%% 附加傷害
+HP 40%% 以上 60%%以下的敵人攻擊時敵人12%%附加傷害
+HP 20%% 以上 40%% 以下的敵人攻擊時敵人18%% 附加傷害
+HP 20%% 以下的敵人攻擊時敵人 30%% 附加傷害
+攻擊時以 2%% 的機率讓敵人陷入眩暈狀態`
+
+[detail explain]
+	`HP 80%% 以上的敵人攻擊時敵人5%% 附加傷害
+HP 60%%以上80%%以下的敵人攻擊時敵人 8%% 附加傷害
+HP 40%% 以上60%%以下的敵人攻擊時敵人12%% 附加傷害
+HP 20%%以上40%% 以下的敵人攻擊時敵人 18%% 附加傷害
+HP 20%% 以下的敵人 攻擊時敵人30%% 附加傷害
+攻擊時以2%%的機率2秒內讓敵人陷入眩暈狀態攻擊。 （比Lv75高的目標陷入狀態的機率較低，比 Lv75低的目標則陷入狀態機率較高。決鬥場修正為 1秒）`
+
+[flavor text]
+	`傷口越深就越痛。`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	75
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[need material]
+	3285	2100
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	796	730
+
+[equipment magical attack]
+	688	631
+
+[separate attack]
+	441	298
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/club/club.img`	81
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[routing priority]
+	`swordman`	1
+	`swordman`	2
+	`swordman`	3
+	`swordman`	4
+	`demonic swordman`	0
+[/routing priority]
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`>=`
+		`%`	80
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`>=`
+		`%`	60
+	[target stat]
+		`hp`
+		`<`
+		`%`	80
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	8
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`>=`
+		`%`	40
+	[target stat]
+		`hp`
+		`<`
+		`%`	60
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	12
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`>=`
+		`%`	20
+	[target stat]
+		`hp`
+		`<`
+		`%`	40
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	18
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`<`
+		`%`	20
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	75
+[/then]
+
+[possible kiri protect]

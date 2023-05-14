@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5157
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	62	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5191
+
+[name]
+	`勇者 - 絕世武器的主人`
+
+[depend message]
+	`好久不見， 你這么匆匆忙忙地是要去哪兒啊？
+哈哈， 我知道你對探險很熱衷， 但阿拉德大陸那么大， 新奇的東西那么多， 一時半會是探不完的！
+噢， 對了， 我聽說你發現了‘異次元裂縫’。
+我這次找你也沒什么特別的事， 就是對你以前積極探索的樣子印象深刻。 為此， 我還特地為你準備了一些禮物。
+不過在給你禮物之前， 我有件事非搞清楚不可。 呃， 我要聲明， 這不是因為我母親很好奇才讓我問你的。
+我聽說哥布林王高格是個很厲害的角色， 我想知道它是值得較量的對手嗎。 萬一連你都打不過它， 那我只好親自出馬了。
+怎么樣， 有興趣嗎？ 反正你正好要去那里， 就順便幫我個忙吧， 怎么樣？`
+
+[condition message]
+	`    通關異次元裂縫的『哥布林王國』。 (只有完成第1期勇者任務的角色才能接收此任務以及后續任務)`
+
+[solve message]
+	`喲， 怎么樣？ 沒問題吧？`
+
+[quest point]
+	4

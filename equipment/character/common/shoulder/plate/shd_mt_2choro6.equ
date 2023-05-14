@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`殘忍之弒矽鋼護肩 : [不動明王陣]`
+
+[basic explain]
+	`[不動明王陣]冷卻時間 -6%%
+[不動明王陣]MP消耗量 -6%%`
+
+[flavor text]
+	`    收集[惡魔結晶]可以對2期勇者裝備進行改造， 提升裝備的基本攻擊力、 防御力和基本屬性； Lv70以上的角色可以穿戴。 (需消耗杜羅西處出售的勇者裝備改造券)`
+
+[grade]
+	53
+
+[rarity]
+	5
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	23
+
+[physical defense]
+	20
+
+[magical attack]
+	23
+
+[stuck]
+	-1
+
+[HP MAX]
+	40
+
+[MP MAX]
+	53
+
+[MP regen speed]
+	2
+
+[hit recovery]
+	13
+
+[anti evil]
+	11
+
+[repair price]
+	48081
+
+[value]
+	4772
+
+[equipment physical defense]
+	2320	2200
+
+[icon]
+	`Item/common/shoulder.img`	137
+
+[field image]
+	`Item/field_equip.img`	17
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3200
+
+[item group name]
+	`mt shoulder`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	74
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-6
+	`[swordman]`	74
+	`[dungeon type]`
+	`[mp]`	0
+	`%`	-6
+[/skill data up]
+
+[emancipate]
+	[input]
+		3290	25
+	[/input]
+	[output]
+		260081	1
+	[/output]
+	[emancipate explain]
+		`物防小幅增加
+屬性小幅提升
+提升HP、 MP最大值`
+[/emancipate]
+
+[possible kiri protect]

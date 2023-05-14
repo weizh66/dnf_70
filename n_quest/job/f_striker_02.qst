@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7818
+[/pre required quest]
+
+[collision quest]
+	7815	7821	7825
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	11001	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7820
+
+[name]
+	`轉職 - 散打 (2/3)`
+
+[depend message]
+	`這個考驗是測試你的爆發力和速度！ 如果你想成為一名優秀的散打， 就一定要記住速度和力量是散打制勝的關鍵。
+特別是與敵人對決時， 如果缺了其一， 散打就會出現致命的缺陷！`
+
+[condition message]
+	`    通關亡者峽谷的『迷妄之塔』。`
+
+[solve message]
+	`哈哈， 了不起！ 沒想到你這么快就通過這項考驗。`

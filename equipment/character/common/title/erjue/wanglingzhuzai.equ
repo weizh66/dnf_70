@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 亡魂主宰`
+
+[explain]
+	`想要學習死靈術的人們，我贊賞妳們的蠻勇，蔑視妳們的無知。
+我不知道妳們背負著什?，但妳們所選擇的道路絕對是死路壹條。
+這就像為了修復屋頂而打碎柱子般可笑，妳們只要有壹絲的理智，就立馬放棄吧。
+還有那些貪婪地探索死靈術的人們，祝賀妳們，妳們將擁有慘痛的結局。
+可悲可憐的人啊！
+絕對不要喚醒超越自身力量的靈魂！
+死靈術是召喚留在世上的能量，用施咒者的力量把能量具象化的咒術，而不是把死者喚回這個世上的禁術。
+有些愚蠢的人們把讓惡靈現身也放入死靈術的範疇，但他們要怎?才能支使保留著生前意誌的強大靈魂？
+不要因為妳們的愚蠢，而打破禁忌。
+如果不想被奴役，讓自己被折磨得痛苦不堪，不成人形……
+如果不想因想逃避死亡卻被死亡的魔爪越攥越緊，最好還是放棄那可笑的貪欲吧。
+如果有幸運的家夥出現，那就來找我吧，我倒想看看無視我這誠懇建議的人長什?模樣。
+當然，前提是我的理智能保持到那時候。
+——摘自最初的亡魂主宰：克勞林德留下的著作殘卷.`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		19826160	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]

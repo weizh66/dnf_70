@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 風暴騎兵 (1/2)`
+
+[depend message]
+	`這是什么風把你吹來了？ 這么氣喘吁吁的…… 看來你好像很苦惱啊！
+哈哈， 原來你是認為得到的重火器功率不夠啊！ 這么強力的武器竟然也沒法讓你滿足！
+不過司令部也不可能一直為你提供最強大的武器。 只要想到重火器那強大的破壞力， 就能理解司令部的擔憂了吧。
+看來你還是有點不服氣啊， 哈哈！ 那么你要不要考慮加入‘風暴騎兵’？ 你渴求的那種新式武器一旦被開發出來了， 就會馬上配備給“風暴騎兵”的成員使用。
+但是‘戰爭核心工坊’生產出來的武器十分強力， 使用者需要像機器一樣精確地進行判斷， 才能避免造成災難。 你需要更沉著冷靜， 在最適當的時間做出最正確的選擇。
+崇尚華麗爆炸的你， 能像狙擊手一樣處于任何環境都波瀾不驚嗎？ 如果可以做到， 那就來找我吧。 我這里有一份訓練清單， 可以讓你參考參考。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和凱麗談談。`
+
+[solve message]
+	`說實話， 我還是有些擔心……不知道你能不能成為完美的風暴騎兵， 像風暴般冷酷地席卷敵人， 把他們粉碎為塵埃！`
+
+[pre required quest]
+	5336
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12863
+
+[job change quest]
+	3
+
+[grow number]
+	0

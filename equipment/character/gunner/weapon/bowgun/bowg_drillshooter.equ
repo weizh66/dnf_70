@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`雷神閃影弩`
+
+[basic explain]
+	`普通攻擊時， 有3%%的幾率使敵人進入出血狀態。
+穿刺力 +50%%`
+
+[detail explain]
+	`    普通攻擊時， 有3%%的幾率使敵人進入出血狀態10秒； 出血狀態下的敵人， 每0.5秒受到75點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+穿刺力 +50%%`
+
+[flavor text]
+	`    我的箭頭會像鉆孔機一樣把你瞬間穿透。  --范弗拉丁`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	32
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	21
+
+[equipment physical attack]
+	450	384
+
+[equipment magical attack]
+	500	427
+
+[separate attack]
+	360	243
+
+[attack speed]
+	20
+
+[if]
+	[cooltime]
+		1000
+	[my state]
+		`attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[active status]
+		`bleeding`	60	1500
+[/then]
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[int data]
+	7	-1	-1	-1	-1	-1	-1	-1	65	-1
+[/int data]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

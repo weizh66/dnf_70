@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`極·神劍術`
+
+[basic explain]
+	`劍術學習達到極致，可以將其他知名劍士的技能融會貫通。
+施放[後跳斬]時可發動西嵐的劍氣。
+施放[猛龍斷空斬]時，發動巴恩的颶風。
+為隊友提供額外的暴擊傷害。`
+
+[explain]
+	`劍術學習達到極致，可以將其他知名劍士的技能融會貫通。
+施放[後跳斬]時可發動西嵐的劍氣。
+施放[猛龍斷空斬]時，發動巴恩的颶風。
+為隊友提供額外的暴擊傷害。`
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	50
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	1	0	0	0	30
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	428
+	`Character/Swordman/Effect/SkillIcon.img`	429
+
+[dungeon]
+	[static data]
+		100
+	[/static data]
+	[level info]
+		1	110	110
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`西嵐的劍氣攻擊力:1564%
+猛龍斷空斬颶風攻擊力:1536%
+隊友暴擊傷害額外增加:25%%`	-1	0	1.0	-1	1	1.0
+[/level property]

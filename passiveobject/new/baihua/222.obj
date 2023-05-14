@@ -1,0 +1,21 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/222.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	500
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	19826240
+[/object destroy condition]

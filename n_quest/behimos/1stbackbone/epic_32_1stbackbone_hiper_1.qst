@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	27
+[/pre required quest]
+
+[monster reward item]
+	250	25	1	4033	5	25	50	251	25	1	4033	5	100	50	252	25	1	4033	5	25	50	253	25	1	4033	5	25	50	250	25	2	4033	5	25	50	251	25	2	4033	5	100	50	252	25	2	4033	5	25	50	253	25	2	4033	5	25	50	250	25	3	4033	5	25	50	251	25	3	4033	5	100	50	252	25	3	4033	5	25	50	253	25	3	4033	5	25	50
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4033	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	20000
+[/reward int data]
+
+[reward selection int data]
+	27516	1	29961	1	31659	1	33017	1	36215	1
+[/reward selection int data]
+
+[name]
+	`制作干擾發射器 (1/7)`
+
+[depend message]
+	`赫亞西斯的預言書？ 讓我看看！……魔界使徒把GBL教夷為平地……竟然有這樣的事， 太可惡了！
+預言書上說只有干擾發射器才能對付他的精神控制， 這個不難， 我知道它的制作方法， 只是材料比較復雜……
+嗯， 首先， 我需要知道羅特斯精神波的頻率。 嗯， 讓我想想……GBL教神殿里的章魚怪被稱為羅特斯的分身， 只要你能弄些章魚怪的標本給我， 我就可以知道羅特斯精神波的頻率了。 `
+
+[condition message]
+	`    前往天帷巨獸神殿的『第一脊椎』， 從章魚類怪物身上收集50個[章魚怪的標本]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`呵呵， 才一轉身的功夫， 你就找來這么多標本了？ 看來很快就能制作干擾發射器啦！`
+
+[quest point]
+	4

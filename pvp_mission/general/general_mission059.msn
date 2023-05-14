@@ -1,0 +1,36 @@
+#PVF_File
+
+[kind]
+	30
+
+[grade]
+	`[rank up]`
+
+[rank range]
+	6	10
+
+[rate range]
+	-1	-1
+
+[prev mission]
+	58
+
+[next mission]
+	-1
+
+[name_text]
+	`進入上位頻道`
+	
+
+[cond_text]
+	`進入公正的決鬥場下級頻道（獲得新的技能）`
+	
+
+[condition]
+	`[move_channel_total]`	-1	1	-1
+[/condition]
+
+[difficulty_ratio]
+	0
+
+[reward skill]

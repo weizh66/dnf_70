@@ -1,0 +1,11 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/FM-31Bullet/02_bullet_normal1.ani`
+	[SUB ANI]
+		`../Animation/FM-31Bullet/03_bullet_dodge.ani`	0	1
+		`../Animation/FM-31Bullet/01_bullet_normal1.ani`	0	1
+		`../Animation/FM-31Bullet/01_bullet_normal2.ani`
+	[/SUB ANI]
+[/MOTION]

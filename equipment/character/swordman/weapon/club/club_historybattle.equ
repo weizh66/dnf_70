@@ -1,0 +1,183 @@
+#PVF_File
+
+[name]
+	`遠古逆襲之金碎棒`
+
+[basic explain]
+	``
+
+[detail explain]
+	`攻擊速度 +1%%
+攻擊時以2%%的機率2秒內讓敵人陷入眩暈狀態。 （比Lv55高的目標陷入狀態機率較低，比 Lv55低的目標陷入狀態機率較高。決鬥場修正為 1秒）`
+
+[flavor text]
+	` 蘊含遠古戰爭英雄之靈魂的稀有武器。`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	67
+
+[attack speed]
+	-20
+
+[cast speed]
+	10
+
+[move speed]
+	10
+
+[stuck]
+	-1
+
+[price]
+	82600
+
+[repair price]
+	69384
+
+[value]
+	330400
+
+[equipment physical attack]
+	559	541
+
+[equipment magical attack]
+	483	467
+
+[separate attack]
+	256	173
+
+[skill levelup]
+	`[swordman]`	15	1
+	`[swordman]`	73	1
+	`[demonic swordman]`	15	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/club.img`	44
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	8	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	8	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	22
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`physical attack`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	55
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,179 @@
+#PVF_File
+
+[name]
+	`魂.黑色瘟疫之枯骨胸甲`
+
+[basic explain]
+	`  裝備時，使500px範圍內的敵人防禦減少30%%。
+  每個中毒的敵人會增加自身2%%的攻擊速度，2%%的移動速度和2%%的釋放速度。`
+
+[detail explain]
+	`  裝備時，使500px範圍內的敵人防禦減少30%%。
+  每個中毒的敵人會增加自身2%%的攻擊速度，2%%的移動速度和2%%的釋放速度。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[anti evil]
+	10
+
+[minimum level]
+	90
+
+[physical attack]
+	280
+
+[magical attack]
+	280
+
+[price]
+	1600000
+
+[need material]
+	3500	1200
+
+[repair price]
+	63000
+
+[value]
+	60000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2952	2772
+
+[icon]
+	`Item/common/coat.img`	370
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[if]
+	[start cooltime]
+		3000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[stat by condition]
+		`equipment physical defense`
+		`%`	-30
+	[stat by condition]
+		`equipment magical defense`
+		`%`	-30
+[/then]
+
+[variable stat]
+	`move speed`
+	`+`	20
+	`object number`
+	`enemy`	500
+	`poison`	100
+	`attack speed`
+	`+`	20
+	`object number`
+	`enemy`	500
+	`poison`	100
+	`cast speed`
+	`+`	20
+	`object number`
+	`enemy`	500
+	`poison`	100
+[/variable stat]
+
+[set name]
+	`魂.黑色瘟疫之枯骨套裝`
+
+[set item]
+	11500	11501	11502	11503	11504
+[/set item]
+
+[piece set ability]
+	3
+	[if]
+		[cooltime]
+			30000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			30000
+		[probability]
+			30
+		[reduce probability to human armor at pvp module]
+			100
+		[stat]
+			`equipment physical defense`
+			`%`	200
+	[/then]
+	[parameter basic explain]
+		`攻擊時有機率增加200%%的防禦`
+[/piece set ability]
+
+[piece set ability]
+	5
+	[if]
+		[cooltime]
+			15000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`all enemy`	500
+		[duration]
+			10000
+		[probability]
+			15
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`poison`	200	50750000
+	[/then]
+	[parameter basic explain]
+		`攻擊時會給敵人造成大量毒傷`
+[/piece set ability]
+
+[possible kiri protect]

@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Big_dent_floor.ani`
+	[SUB ANI]
+		`../Animation/dent_floorbottom.ani`	0	-1
+		`../Animation/dent_smog.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

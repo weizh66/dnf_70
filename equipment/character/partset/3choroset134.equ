@@ -1,0 +1,108 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	116
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at mage]`	116
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	116
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	118
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[血翼突擊]冷卻時間 -15%%
+[血翼突擊]攻擊力 +20%%
+[血腥狩獵]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	118
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	121
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at mage]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	122
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[血腥狩獵]攻擊力 +20%%
+[鮮血長槍]冷卻時間 -25%%
+[鮮血長槍]攻擊力 +10%%
+[獄血之牙]冷卻時間 -25%%
+[獄血之牙]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	117
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	117
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at mage]`	117
+		`[dungeon type]`
+		`[static]`	11
+		`%`	30
+		`[at mage]`	118
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	118
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at mage]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	122
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[血蝠之舞]冷卻時間 -30%%
+[血蝠之舞]持續時間 +30%%
+[血腥狩獵]冷卻時間 -20%%
+[血腥狩獵]攻擊力 +10%%
+[獄血之牙]冷卻時間 -30%%
+[獄血之牙]攻擊力 +30%%`
+[/piece set ability]

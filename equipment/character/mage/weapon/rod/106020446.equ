@@ -1,0 +1,201 @@
+#PVF_File
+
+[name]
+	`孤泣之魂`
+
+[basic explain]
+	`    [精靈召喚 : 瑟冥特克]攻擊力 +20%%
+    [精靈召喚 : 瑟冥特克]召喚時間 +10秒
+    [精靈召喚 : 亡魂默克爾]犧牲低級精靈數 +1
+    [精靈召喚 : 亡魂默克爾]召喚數上限 +1
+    [獻祭攻擊 : 瑟冥特克]基本召喚數 +1`
+
+[detail explain]
+	`    [精靈召喚 : 瑟冥特克]攻擊力 +20%%
+    [精靈召喚 : 瑟冥特克]召喚時間 +10秒
+    [精靈召喚 : 亡魂默克爾]犧牲低級精靈數 +1
+    [精靈召喚 : 亡魂默克爾]召喚數上限 +1
+    [獻祭攻擊 : 瑟冥特克]基本召喚數 +1`
+
+[flavor text]
+	`    他死了， 哈哈哈！ 他死了？ 他真的死了……  --薩亞抱著死去的喬恩`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	92
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	819	733
+
+[equipment magical attack]
+	1002	895
+
+[separate attack]
+	552	363
+
+[skill levelup]
+	`[mage]`	23	2
+	`[mage]`	76	2
+	`[mage]`	121	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/mage/rod/rod.img`	109
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[item aura]
+	`dark attack`
+	`+`	20	300
+
+[skill data up]
+	`[mage]`	23
+	`[all]`
+	`[level]`	5
+	`%`	20
+	`[mage]`	23
+	`[all]`
+	`[level]`	6
+	`%`	20
+	`[mage]`	23
+	`[all]`
+	`[level]`	3
+	`+`	10000
+	`[mage]`	23
+	`[all]`
+	`[static]`	11
+	`+`	1
+	`[mage]`	76
+	`[all]`
+	`[level]`	2
+	`+`	1
+	`[at gunner]`	76
+	`[all]`
+	`[static]`	7
+	`+`	1
+[/skill data up]
+
+[possible kiri protect]

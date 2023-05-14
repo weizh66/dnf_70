@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`封·游龍之魂戰袍`
+
+[basic explain]
+	`  背擊物理攻擊時，使敵人減少2000點物理防御力。（最多重疊4次）
+  背擊魔法攻擊時，使敵人減少2000點物理防御力。（最多疊加4次）
+  背擊魔法攻擊力時，增加10%%的傷害。（傷害加成效果取最高值，且無法疊加；暴擊/附加傷害除外）`
+
+[grade]
+	86
+
+[rarity]
+	4
+
+[part set index]
+	12564
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	37
+
+[magical attack]
+	37
+
+[magical defense]
+	40
+
+[need material]
+	3821	900
+
+[repair price]
+	82560
+
+[value]
+	82560
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2328	2112
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[icon]
+	`item/new_equipment/03_leather/coat/leather_coat.img`	10
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[if]
+	[attack condition]
+		`back attack`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[if]
+	[attack type]
+		`magical`
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[appendage]
+		171
+[/then]
+
+[if]
+	[attack type]
+		`physical`
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[appendage]
+		170
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

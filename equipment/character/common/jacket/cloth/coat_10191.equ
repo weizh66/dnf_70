@@ -1,0 +1,164 @@
+#PVF_File
+
+[name]
+	`憤怒魔女的炙焰長袍`
+
+[basic explain]
+	`爆擊傷害增加 10%% `
+
+[flavor text]
+	`這麼漂亮的衣服，竟然被撕爛...... 啊，真不爽！！！整個火大了......！！！！`
+
+[grade]
+	65
+
+[rarity]
+	4
+
+[anti evil]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[magical attack]
+	33
+
+[magical defense]
+	33
+
+[move speed]
+	20
+
+[price]
+	58500
+
+[repair price]
+	51597
+
+[value]
+	46800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	876	804
+
+[icon]
+	`Item/common/coat.img`	246
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[set name]
+	`憤怒魔女的炙焰戰袍  套裝`
+
+[set item]
+	10191	12188	14172
+[/set item]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[set ability]
+	[fullset basic explain]
+		`攻擊時，有20%%的幾率使自身和隊員的武器屬性變成火屬性，效果持續30秒。
+ 施放時，有20%%的幾率使250px範圍內的所有敵人進入灼傷狀態3秒；灼傷狀態下的敵人，每0.5秒受到1500點傷害。 (若敵人高於Lv65，則減少進入異常狀態的機率；反之，則增加機率)`
+	[fire attack]
+		18
+	[if]
+		[cooltime]
+			10000
+		[casting]
+			1
+	[/if]
+	[then]
+		[target]
+			`all enemy`	250
+		[duration]
+			3000
+		[probability]
+			20
+		[reduce probability to human armor at pvp module]
+			100
+		[active status]
+			`burn`	65	9000	0	1	0
+	[/then]
+	[if]
+		[attack success]
+			1
+		[cooltime]
+			45000
+	[/if]
+	[then]
+		[duration]
+			30000
+		[target]
+			`party`	-1
+		[elemental weapon]
+			`fire`
+	[/then]
+	[pvp]
+		[if]
+			[attack success]
+				1
+			[cooltime]
+				45000
+		[/if]
+		[then]
+			[duration]
+				30000
+			[probability]
+				20
+			[reduce probability to human armor at pvp module]
+				80
+			[target]
+				`party`	-1
+			[elemental weapon]
+				`fire`
+		[/then]
+	[/pvp]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

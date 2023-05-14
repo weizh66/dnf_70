@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	156
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	35060	1	35357	1	35657	1	36256	1	35943	1
+[/reward selection int data]
+
+[relation quest]
+	158
+
+[name]
+	`覺醒 - 末日審判者 (2/4)`
+
+[depend message]
+	`我說的這個方法就是成為‘末日審判者’。 是不是覺得這個名字很神秘？
+其實‘末日審判者’也是‘偽裝者’， 兩者在外貌和能力上是一模一樣的。 唯一的區別只是在‘末日審判者’還保留著原來的意識， 雖然他們的外形已經惡魔化， 可內心卻不是。
+不過這個方法要承擔的風險實在太大， 所以教團里一直嚴禁使用。 一旦是意志力薄弱的人學會， 很容易被奧茲瑪誘惑， 成為他的傀儡。 你能證明自己不是那種人嗎？`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`我果然沒看錯人， 以你非凡的意志力， 應該可以抵擋住奧茲瑪的誘惑， 成為真正的‘末日審判者’。`

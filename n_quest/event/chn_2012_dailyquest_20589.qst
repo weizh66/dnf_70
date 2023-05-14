@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	61
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	89	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	10	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[魔王]根特防御戰`
+
+[depend message]
+	`前方傳來情報， 說有部分敵人正從根特外圍入侵。 不過眼下我們正準備進攻， 沒有多余的兵力用于防守。
+冒險家， 能否請你幫我們抵擋一下， 只要堅持一陣就好。 我們會盡快調派防御部隊來接替你的。 `
+
+[condition message]
+	`    通關安特貝魯峽谷的『根特防御戰』， 然后向澤丁·施奈德回復， 要求地下城難度為王者級。`
+
+[solve message]
+	`謝謝！ 我想敵人暫時不會再進攻了。`

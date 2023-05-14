@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 裁決女神 (1/6)`
+
+[depend message]
+	`我不知道跟你提這種建議是否合適……不過， 我想問你有沒有興趣變得更強？
+我覺得你很有可能在未來的某一天與阿拉德站在對立面， 所以， 之前一直在糾結要不要培養你。
+不過那也是很久之后的事， 眼下我們還要準備迎來一場大戰， 需要你這種具備強大實力的人與我們一同備戰。
+等你考慮好了， 隨時可以來找我， 到時候我會幫你提升自己， 達到更高的境界。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`好， 我們來聊聊。 你是說想再進一階是嗎……
+什么？ 你剛剛是說你想成為裁決女神嗎？
+……好吧……
+……原來你是這么想的？
+很好， 如果你能成為裁決女神， 對我來說當然是件好事。 但說實在的， 我覺得如果把你培養成更加強大的人物， 將來會給你帶來很大的麻煩。 不過， 這也就是假設你一直處在暗殿騎士的水平上才會有的擔憂。
+如果你能夠成為裁決女神， 成為暗殿騎士的領袖， 就不一樣了。
+你會在我的幫助下登上裁決女神的位置， 同時也會欠我一份人情。
+這樣一來， 如果以后我這邊有麻煩， 還能通過你跟奧西里斯教團進行交涉。 好， 現在作出選擇吧。 你有興趣接受嗎？`
+
+[target character]
+	`[at swordman]`	2	1
+[/target character]
+
+[relation quest]
+	5349
+
+[job change quest]
+	3
+
+[grow number]
+	0

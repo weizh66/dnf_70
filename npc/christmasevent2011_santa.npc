@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`name_4331`
+
+[field name]
+	`field_name_4331`
+
+[field animation]
+	`Animation/ChrismasEvent2011/Santa/ChristmasSanta_Normal.ani`
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	23
+
+[field wav]
+	`SANTA_TK_01`
+
+[popup wav]
+	`SANTA_TK_02`
+	``
+
+[role]
+	`[exchange item shop]`	56
+[/role]
+
+[look around]
+	0
+
+[random message balloon]
+	`[random message animation]`
+	`Animation/ChrismasEvent2011/Santa/ChristmasSanta_Random.ani`
+	`[random message probability]`	20
+	`[random message list]`	4
+	`random_message_1`
+	`random_message_2`
+	`random_message_3`
+	`random_message_4`
+[/random message balloon]

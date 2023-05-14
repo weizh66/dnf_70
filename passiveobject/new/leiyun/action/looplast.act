@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/last.ani`
+	[SUB ANI WITH XYZ]
+		`../Animation/last.ani`	1	0	0	0	400
+	[/SUB ANI WITH XYZ]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			250110
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	400
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

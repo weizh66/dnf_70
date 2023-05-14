@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`可口可樂超短褲`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_apants.img`	94
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[avatar func filter]
+	0
+
+[usable period]
+	30
+
+[jump power]
+	20
+
+[room list move speed rate]
+	0.1
+
+[variation]
+	20	0
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

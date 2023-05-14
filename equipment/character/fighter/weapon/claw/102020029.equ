@@ -1,0 +1,179 @@
+#PVF_File
+
+[name]
+	`砍擊風暴[活動]`
+
+[basic explain]
+	`以3%% 機率陷入出血狀態
+攻擊時以 5%%的機率發射阿特拉斯的天羅地網
+不可解體，不可合成`
+
+[detail explain]
+	`以3%%的機率呈現出血狀態，每0.5秒以183的攻擊力給予傷害. （高於Lv60的對象得到的機率減少，低於Lv60的對象則會增加。）
+攻擊時以5%% 的機率發射阿特拉斯的天羅地網。`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	41
+
+[magical attack]
+	21
+
+[price]
+	97600
+
+[repair price]
+	81984
+
+[value]
+	78080
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	556	516
+
+[equipment magical attack]
+	556	516
+
+[separate attack]
+	341	230
+
+[physical critical hit]
+	3
+
+[icon]
+	`Item/weapon/fighter/claw.img`	41
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[passive object]
+		48076	120	0	60	25	0
+		`DragonHeadEnergyBall.ptl`
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		3
+	[active status]
+		`bleeding`	60	1100
+[/then]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

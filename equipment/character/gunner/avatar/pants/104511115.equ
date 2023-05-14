@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`白金蒼穹戾獸脛甲`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_apants.img`	390
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0	30	0	0	3000	0	0	0	0	6000	0	0	0	0	6500	3
+	`[S socket]`
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	56	2
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30014
+
+[avatar func filter]
+	2
+
+[equipment physical defense]
+	1500	1500
+
+[MP MAX]
+	500

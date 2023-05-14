@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`戰慄的馬克多諾戒指`
+
+[basic explain]
+	`光屬性被攻擊時HP恢復200 
+攻擊時以 3%%的機率讓敵人陷入感電狀態
+不可解體`
+
+[detail explain]
+	`被光屬性 攻擊擊中時HP恢復 200。
+攻擊時以3%% 的機率3秒內讓敵人進入感電狀態，每次攻擊時以 800的攻擊力給予附加傷害。 （高於Lv84的對象得到的機率減少，低於Lv84的對象則會增加。）
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	50
+
+[magical attack]
+	50
+
+[need material]
+	3339	525
+
+[value]
+	67200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	2912	2752
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	107
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		4500
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		90
+	[active status]
+		`lightning`	84	400
+[/then]
+
+[if]
+	[cooltime]
+		2000
+	[element]
+		`light`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`+`	200	1000
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	`ATRagnarokFloorAttack passive object`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[layer]
+	`[cover]`
+
+[basic action]
+	`Action/Start.act`
+
+[etc action]
+	`Action/bloodBoom.act`
+[/etc action]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

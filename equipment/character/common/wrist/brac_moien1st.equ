@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	` 摩恩之珠 - 等活地獄`
+
+[basic explain]
+	`被攻擊時，以10%%的機率施展火焰爆炸，使自身進入詛咒狀態。`
+
+[detail explain]
+	`被攻擊時，有10%%的機率出現火焰爆炸，並使自身進入詛咒狀態20秒；詛咒狀態下，自身將減少15點力量、體力、智力和精神，效果持續20秒。 (高於Lv38的對象得到的機率減少，低於Lv38的對象則會增加。)`
+
+[grade]
+	42
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	38
+
+[physical attack]
+	18
+
+[physical defense]
+	45
+
+[price]
+	50400
+
+[repair price]
+	40320
+
+[value]
+	40320
+
+[equipment magical defense]
+	2352	2112
+
+[fire resistance]
+	10
+
+[bleeding resistance]
+	20
+
+[icon]
+	`Item/IconAcc.img`	13
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[passive object]
+		48060	0	0	70	33	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[active status]
+		`curse`	38	22	22	22	22
+[/then]
+
+[possible kiri protect]

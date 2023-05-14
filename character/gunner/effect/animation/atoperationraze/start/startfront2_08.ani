@@ -1,0 +1,67 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATDestroyEarthSkyDrop/finish_exp_front_dodge.img`
+		6
+	[IMAGE POS]
+		-238	-241
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		10	201	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/ATDestroyEarthSkyDrop/finish_exp_front_dodge.img`
+		6
+	[IMAGE POS]
+		-238	-241
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[RGBA]
+		10	201	255	204
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		350
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/ATDestroyEarthSkyDrop/finish_exp_front_dodge.img`
+		6
+	[IMAGE POS]
+		-238	-241
+	[IMAGE RATE]
+		1.25	1.25
+	[RGBA]
+		10	201	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

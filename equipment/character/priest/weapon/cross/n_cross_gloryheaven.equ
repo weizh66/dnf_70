@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`蒼天圣芒十字架`
+
+[basic explain]
+	`使武器的數值隨角色Lv的增加而增加。 (每提升Lv1， 增加2點物攻和魔攻， 以及3點物防和魔防)`
+
+[flavor text]
+	`    最先出現啟示的地方特有的十字架， 據說它伴著一道光芒從空中降落。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/cross.img`	31
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical defense]
+	49
+
+[magical attack]
+	39
+
+[magical defense]
+	49
+
+[equipment physical attack]
+	532	484
+
+[equipment physical defense]
+	570	560
+
+[equipment magical attack]
+	505	460
+
+[equipment magical defense]
+	570	560
+
+[separate attack]
+	328	220
+
+[cast speed]
+	20
+
+[variation]
+	3	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	3
+
+[npc index]
+	7
+
+[complete npc index]
+	13
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7800	7804	7808
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7812
+
+[name]
+	`轉職 - 阿修羅 (1/4)`
+
+[depend message]
+	`成為阿修羅需要付出很大的代價， 你真的不在乎嗎？
+既然你無所謂， 那我還擔心什么。 你先去找心眼秘藥吧。
+噢！ 對了， 你可以找諾頓幫忙。 `
+
+[condition message]
+	`    向諾頓打聽[心眼秘藥]。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！)`
+
+[solve message]
+	`怎么又是你啊， 找我什么事？ `

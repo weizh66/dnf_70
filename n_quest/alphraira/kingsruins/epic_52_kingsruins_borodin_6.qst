@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	2
+
+[complete npc index]
+	12
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	52	99
+
+[pre required quest]
+	392
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 曾經輝煌的王國`
+
+[depend message]
+	`如果我的判斷沒錯， 這些冤魂是傳說中的波羅丁王國的冤魂， 是這場悲劇的戰爭喚醒了他們！
+波羅丁王國的傳說是千年前的一個悲劇， 傳說擁有百萬騎士和廣闊領土的波羅丁王費盡心血建造了一個燦爛文明的帝國， 但皇室一直內亂不斷， 一些領主也明目張膽的覬覦王位。
+波羅丁王為了讓他的王國永遠繁榮昌盛， 便讓宮中的魔法師把整個王國埋在了地底深處……
+如果王國的冤魂和波羅丁的騎士團蘇醒， 阿法利亞營地就會很危險！ 你快把這事告訴莎蘭吧， 讓她想辦法阻止波羅丁騎士團蘇醒！ `
+
+[condition message]
+	`    把王國的傳說轉告給莎蘭。`
+
+[solve message]
+	`呵呵， 賽麗亞把波羅丁王國的傳說和那些冤魂的事都告訴你了？  `
+
+[quest point]
+	4

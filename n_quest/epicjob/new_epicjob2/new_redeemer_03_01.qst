@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 救世主 (4/6)`
+
+[depend message]
+	`痛苦嗎？ 可能會覺得全身像被撕裂一般痛不欲生。
+你要承受的罪孽的確會伴隨著這種巨大的痛苦， 但這也是你自己選擇的道路， 既然你已經下定決心， 就要承受到底。
+如果你現在放棄， 體內積累的所有原罪將會傳遍整個世界， 屆時這個世界將會陷入一片混亂。
+雖然很難， 但再忍一忍吧。 既然已經開始了， 肯定是要獲得最圓滿的結局啊， 對不對？
+那么， 這一次我們會進行新的修煉， 去參加魂·青龍大會。 你要去那里與強者們切磋武藝， 并在這個過程中把體內的原罪一件件釋放出來， 并用你的力量使其具體化。
+聽說想要參加大會首先要獲得‘赫侖皇帝的印章’。 你先去把它帶回來吧。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6824
+[/pre required quest]
+
+[relation quest]
+	6826
+
+[job change quest]
+	3
+
+[grow number]
+	0

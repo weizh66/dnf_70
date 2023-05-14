@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	62
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5151
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	62	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	7500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`封印之地`
+
+[depend message]
+	`我是帝國派來的管理校將杜羅西， 我負責看管神秘的異次元裂縫。
+原先我也以為異次元裂縫只是一個傳說， 沒想到它竟然出現了， 而且還向我們張開了它扭曲的入口。
+關于異次元裂縫， 我只知道進入異次元裂縫就能前往異界， 而且我們現實世界中的時間和空間的概念在異界都會失效……就這些！
+噢， 有傳聞說在異界可以獲得具有無限潛力的裝備， 你是沖著這個來的吧……
+我勸你還是趁早死心吧， 就算真的存在那些裝備， 也不可能讓你輕松拿到。
+如果你執意要進入異次元裂縫， 我建議你還是和強大的伙伴們一起去。
+據我所知， 還沒有人能活著從那里回來， 但愿你是第一個……`
+
+[condition message]
+	`    通關異次元裂縫的『哥布林王國』， 然后向杜羅西回復。 (只有3人以上組隊才能進入異界地下城)`
+
+[solve message]
+	`你……真的去了異次元裂縫？ 你活著回來了？！`
+
+[quest point]
+	4

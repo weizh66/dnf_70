@@ -1,0 +1,172 @@
+#PVF_File
+
+[name]
+	`炸彈和炸彈`
+
+[basic explain]
+	`槍手（男）：反坦克炮爆發次數增加2次，彈爆發時間減少50%%，爆發物理攻擊力減少50%% 
+神槍手（女）：Steyr 爆發回收減少2次，彈爆發時間增加0.5秒，爆發尺寸比例增加50%%，爆發物理攻擊力增加350%% `
+
+[routing priority]
+	`gunner`	2
+	`at gunner`	2
+[/routing priority]
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	84
+
+[price]
+	153000
+
+[repair price]
+	128520
+
+[value]
+	122400
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	901	814
+
+[equipment magical attack]
+	540	488
+
+[separate attack]
+	504	343
+
+[fire attack]
+	12
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	87
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	24	1
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	24	1
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[skill data up]
+	`[gunner]`	40
+	`[all]`
+	`[static]`	6
+	`+`	2
+	`[gunner]`	40
+	`[all]`
+	`[static]`	4
+	`%`	-50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	-50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	-50
+	`[at gunner]`	40
+	`[all]`
+	`[static]`	6
+	`+`	-2
+	`[at gunner]`	40
+	`[all]`
+	`[static]`	4
+	`+`	500
+	`[at gunner]`	40
+	`[all]`
+	`[static]`	3
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	350
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	350
+[/skill data up]
+
+[possible kiri protect]

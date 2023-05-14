@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	1
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	8406	1	8407	1	8408	1	8409	1	8410	1	8411	1	8412	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	8413	1	8416	1	8417	1
+[/reward selection int data]
+
+[name]
+	`12_newyear_name`
+
+[depend message]
+	`12_newyear_depend`
+
+[condition message]
+	`12_newyear_condition`
+
+[solve message]
+	`12_newyear_solve`

@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	1011
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4171
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	75	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`短暫的同行`
+
+[depend message]
+	`當希洛克倒下後，我被捲入時間之門對之後發生的事情記不是很清楚。阿甘左繼續留在悲鳴洞穴，所以應該有看到那魔法師才是…… 
+沒辦法。我親自去見阿甘左吧。暫時進去一下應該沒關係吧。`
+
+[condition message]
+	`與西嵐一起見古悲鳴洞穴的阿甘左（該任務只能單獨進行，而且進行地下城時不可放棄的任務。）`
+
+[solve message]
+	`你是西嵐嗎？怎麼有點怪怪的…… 面孔和服裝也不同。`
+
+[dialog]
+	0	0	15401	0	0	0	0
+	`<npc::126>她的事情很遺憾。你趕快打起精神吧。
+<npc::1011>西嵐？不…… 感覺不太對。`
+[/dialog]
+
+[quest point]
+	4

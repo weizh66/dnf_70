@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	5982
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3303	10	3034	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4430	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 赫爾德的庇佑`
+
+[depend message]
+	`其實， 我在去找博肯之前， 已經把狄瑞吉可能藏身在那里的事情告訴了赫爾德大人。 也多虧赫爾德大人的提醒， 我才想到要去找你。
+赫爾德大人擔心， 以你現在的實力還無法抵擋狄瑞吉的邪惡氣息， 所以特意傳授了我一個解決的方法。
+你現在先去收集一些材料， 我會按照方法上的指示， 為你制作一個能夠保護你的東西。`
+
+[condition message]
+	`    收集10個[英雄的宿命]和40個[白色小晶塊]交給艾麗絲。`
+
+[solve message]
+	`現在狄瑞吉身上散發出的邪惡氣息， 已經威脅不到你了。
+不過， 這層庇佑是有時間限制的， 不可能長時間地保護你。 如果你想再進入痛苦之村的話， 就要到我這里重新領取赫爾德大人的庇佑。`
+
+[quest point]
+	4

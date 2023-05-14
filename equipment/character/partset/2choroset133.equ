@@ -1,0 +1,114 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	6
+		`[dungeon type]`
+		`[level]`	1
+		`+`	8
+		`[at priest]`	6
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	3
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at priest]`	3
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[凈化]冷卻時間 -20%%
+[凈化]異常狀態消除Lv +8
+[治愈祈禱]HP恢復量 +10%%
+[治愈祈禱]效果范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at priest]`	23
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at priest]`	23
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at priest]`	23
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[at priest]`	3
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[圣光守護]持續時間 +50%%
+[圣光守護]爆炸范圍 +30%%
+[圣光守護]隊員傷害減少率 +20%%
+[治愈祈禱]效果范圍 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	23
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at priest]`	23
+		`[dungeon type]`
+		`[static]`	4
+		`+`	5
+		`[at priest]`	23
+		`[dungeon type]`
+		`[static]`	5
+		`+`	5
+		`[at priest]`	23
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[at priest]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at priest]`	28
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2000
+		`[at priest]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[at priest]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	1
+		`%`	100
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	2
+		`%`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[圣光守護]效果范圍 +20%%
+[圣光守護]冷卻時間 -15%%
+[守護祝福]Buff效果增幅率 +5%%
+[守護祝福]爆炸范圍 +30%%
+[神之教誨]移動速度增加量 +10%%
+[神之教誨]持續時間 +2秒
+[新生圣歌]冷卻時間 -30%%
+[新生圣歌]移動速度 +100%%`
+[/piece set ability]

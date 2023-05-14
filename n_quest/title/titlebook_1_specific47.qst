@@ -1,0 +1,42 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	200
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	10	99
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26670	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`    前往異次元裂縫的『黑色大地』， 在變身為怪物的狀態下， 攻擊混沌之奧茲瑪200次。 (隊員攻擊也包括在內)`
+
+[condition data]
+	0
+	`攻擊次數 : %d / %d`
+[/condition data]

@@ -1,0 +1,111 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[thief]`	107
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	107
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[thief]`	106
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[穿心]攻擊力 +30%%
+[奪魂]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[thief]`	113
+		`[dungeon type]`
+		`[static]`	31
+		`+`	1
+		`[thief]`	113
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	113
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[thief]`	113
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[thief]`	106
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[thief]`	106
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`    [瞬殺]攻擊延遲減少， 攻擊力增加30%%， 冷卻時間減少25%%。
+[奪魂]僵直時間 +30%%
+[奪魂]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[thief]`	113
+		`[dungeon type]`
+		`[static]`	32
+		`+`	1
+		`[thief]`	113
+		`[dungeon type]`
+		`[static]`	33
+		`+`	1
+		`[thief]`	113
+		`[dungeon type]`
+		`[level]`	2
+		`%`	45
+		`[thief]`	113
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	113
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[thief]`	101
+		`[dungeon type]`
+		`[level]`	0
+		`+`	50
+		`[thief]`	101
+		`[dungeon type]`
+		`[level]`	1
+		`+`	50
+		`[thief]`	107
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	107
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[thief]`	107
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`解除[瞬殺]施放后的動作延遲
+[瞬殺]背后攻擊力 +45%%
+[瞬殺]冷卻時間 -30%%
+[瞬殺]無色小晶塊消耗量 +1
+[暗殺信條]暴擊幾率增加量 +5%%
+[暗殺信條]暴擊攻擊力增加量 +5%%
+[穿心]攻擊力 +20%%
+[穿心]冷卻時間 -20%%`
+[/piece set ability]

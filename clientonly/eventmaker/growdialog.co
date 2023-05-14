@@ -1,0 +1,543 @@
+#PVF_File
+
+[trigger]
+	[name]
+		`tr_intown_swordman`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[swordman]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_swordman`
+	[raise_event]
+		`goguide_swordman`
+	[ignore_trigger]
+		`tr_indungeon_swordman`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_fighter`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[fighter]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_fighter`
+	[raise_event]
+		`goguide_fighter`
+	[ignore_trigger]
+		`tr_indungeon_fighter`
+	[ignore_trigger]
+		`tr_indungeon_at_fighter`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_at_fighter`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[at fighter]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_fighter`
+	[raise_event]
+		`goguide_fighter`
+	[ignore_trigger]
+		`tr_indungeon_fighter`
+	[ignore_trigger]
+		`tr_indungeon_at_fighter`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_gunner`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[gunner]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_gunner`
+	[raise_event]
+		`goguide_gunner`
+	[ignore_trigger]
+		`tr_indungeon_gunner`
+	[ignore_trigger]
+		`tr_indungeon_at_gunner`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_at_gunner`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[at gunner]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_gunner`
+	[raise_event]
+		`goguide_gunner`
+	[ignore_trigger]
+		`tr_indungeon_gunner`
+	[ignore_trigger]
+		`tr_indungeon_at_gunner`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_mage`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[mage]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_mage`
+	[raise_event]
+		`goguide_mage`
+	[ignore_trigger]
+		`tr_indungeon_mage`
+	[ignore_trigger]
+		`tr_indungeon_at_mage`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_at_mage`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[at mage]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_at_mage`
+	[raise_event]
+		`goguide_at_mage`
+	[ignore_trigger]
+		`tr_indungeon_mage`
+	[ignore_trigger]
+		`tr_indungeon_at_mage`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_at_priest`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[priest]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_priest`
+	[raise_event]
+		`goguide_priest`
+	[ignore_trigger]
+		`tr_indungeon_priest`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_intown_thief`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[thief]`
+		[where]
+			`town only`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_thief`
+	[raise_event]
+		`goguide_thief`
+	[ignore_trigger]
+		`tr_indungeon_thief`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_swordman`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[swordman]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_swordman`
+	[raise_event]
+		`goguide_swordman`
+	[ignore_trigger]
+		`tr_intown_swordman`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_fighter`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[fighter]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_fighter`
+	[raise_event]
+		`goguide_fighter`
+	[ignore_trigger]
+		`tr_intown_fighter`
+	[ignore_trigger]
+		`tr_intown_at_fighter`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_at_fighter`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[at fighter]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_fighter`
+	[raise_event]
+		`goguide_fighter`
+	[ignore_trigger]
+		`tr_intown_fighter`
+	[ignore_trigger]
+		`tr_intown_at_fighter`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_gunner`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[gunner]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_gunner`
+	[raise_event]
+		`goguide_gunner`
+	[ignore_trigger]
+		`tr_intown_gunner`
+	[ignore_trigger]
+		`tr_intown_at_gunner`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_at_gunner`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[at gunner]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_gunner`
+	[raise_event]
+		`goguide_gunner`
+	[ignore_trigger]
+		`tr_intown_gunner`
+	[ignore_trigger]
+		`tr_intown_at_gunner`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_mage`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[mage]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_mage`
+	[raise_event]
+		`goguide_mage`
+	[ignore_trigger]
+		`tr_intown_mage`
+	[ignore_trigger]
+		`tr_intown_at_mage`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_at_mage`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[at mage]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_at_mage`
+	[raise_event]
+		`goguide_at_mage`
+	[ignore_trigger]
+		`tr_intown_mage`
+	[ignore_trigger]
+		`tr_intown_at_mage`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_priest`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[priest]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_priest`
+	[raise_event]
+		`goguide_priest`
+	[ignore_trigger]
+		`tr_intown_priest`
+[/trigger]
+
+[trigger]
+	[name]
+		`tr_indungeon_thief`
+	[condition]
+		[levelup]
+			15
+		[job]
+			`[thief]`
+		[when]
+			`dungeon clear`
+		[repeat_count]
+			1
+	[/condition]
+	[raise_event]
+		`show_dialog_thief`
+	[raise_event]
+		`goguide_thief`
+	[ignore_trigger]
+		`tr_intown_thief`
+[/trigger]
+
+[event]
+	[name]
+		`show_dialog_swordman`
+	[show_dialog]
+		[npc]
+			7
+		[speech]
+			`曾經是菜鳥冒險家的你竟然已經成長這麼多啦…現在馬上來找我吧。你現在要透過轉職，獲得更強大的力量了。`
+	[/show_dialog]
+[/event]
+
+[event]
+	[name]
+		`show_dialog_fighter`
+	[show_dialog]
+		[npc]
+			6
+		[speech]
+			`你現在似乎是要透過轉職獲得新的力量的時候了，現在請馬上來找我吧，我會盡力幫助你的。`
+	[/show_dialog]
+[/event]
+
+[event]
+	[name]
+		`show_dialog_gunner`
+	[show_dialog]
+		[npc]
+			17
+		[speech]
+			`你身上似乎有天界人的驕傲和力量呢，現在馬上來找我吧。同樣身為天界人，就給你一個轉職的機會吧。`
+	[/show_dialog]
+[/event]
+
+[event]
+	[name]
+		`show_dialog_mage`
+	[show_dialog]
+		[npc]
+			12
+		[speech]
+			`你的魔法力量正漸漸甦醒呢。好吧，我就幫助你透過轉職啟發你真正的魔法力量吧。現在馬上來到我這吧。`
+	[/show_dialog]
+[/event]
+
+[event]
+	[name]
+		`show_dialog_at_mage`
+	[show_dialog]
+		[npc]
+			28
+		[speech]
+			`你的魔法力量正漸漸甦醒呢。好吧，我就幫助你透過轉職啟發你真正的魔法力量吧。現在馬上來到我這吧。`
+	[/show_dialog]
+[/event]
+
+[event]
+	[name]
+		`show_dialog_priest`
+	[show_dialog]
+		[npc]
+			45
+		[speech]
+			`現在該是透過轉職，引導出你身上聖職者的力量的時候了。馬上來找我吧，我會以神之名幫助你的。`
+	[/show_dialog]
+[/event]
+
+[event]
+	[name]
+		`show_dialog_thief`
+	[show_dialog]
+		[npc]
+			64
+		[speech]
+			`現在似乎能交付給你更重要的任務了，但是轉職後可得變得更強才行啊。快來找我吧。`
+	[/show_dialog]
+[/event]
+
+[event]
+	[name]
+		`goguide_swordman`
+	[goguide]
+		[quest]
+			7803
+	[/goguide]
+[/event]
+
+[event]
+	[name]
+		`goguide_fighter`
+	[goguide]
+		[quest]
+			7817
+	[/goguide]
+[/event]
+
+[event]
+	[name]
+		`goguide_gunner`
+	[goguide]
+		[quest]
+			7831
+	[/goguide]
+[/event]
+
+[event]
+	[name]
+		`goguide_mage`
+	[goguide]
+		[quest]
+			7851
+	[/goguide]
+[/event]
+
+[event]
+	[name]
+		`goguide_at_mage`
+	[goguide]
+		[quest]
+			4065
+	[/goguide]
+[/event]
+
+[event]
+	[name]
+		`goguide_priest`
+	[goguide]
+		[quest]
+			7855
+	[/goguide]
+[/event]
+
+[event]
+	[name]
+		`goguide_thief`
+	[goguide]
+		[quest]
+			7882
+	[/goguide]
+[/event]

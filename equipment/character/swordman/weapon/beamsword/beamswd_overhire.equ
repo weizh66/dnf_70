@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`聚光劍 - 破幻者`
+
+[flavor text]
+	`    你的一切閃避技巧， 在破幻者面前都是可笑的擺弄……`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`beamswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	38
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	5
+
+[durability]
+	53
+
+[need material]
+	3260	900
+
+[repair price]
+	83160
+
+[value]
+	79200
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	495	450
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	100
+
+[stuck]
+	-100
+
+[skill levelup]
+	`[swordman]`	4	1
+[/skill levelup]
+
+[variation]
+	4	2
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[routing priority]
+	`swordman`	1
+[/routing priority]
+
+[possible kiri protect]

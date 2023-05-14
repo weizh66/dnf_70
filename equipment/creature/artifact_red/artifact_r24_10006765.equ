@@ -1,0 +1,70 @@
+#PVF_File
+
+[name]
+	`淬火炎魂劍鞘`
+
+[explain]
+	`攻擊時， 附加6.5%%的傷害。
+    只有裝備寵物後， 寵物裝備附帶的屬性才能生效。`
+
+[grade]
+	99
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[icon]
+	`Item/creature/artifact_red_cn.img`	34
+
+[field image]
+	`Item/field_creature.img`	0
+
+[equipment type]
+	`[artifact red]`	15
+
+[sub type]
+	0
+
+[creature physical attack]
+	1000
+
+[move wav]
+	`BONE_TOUCH`
+
+[weight]
+	50
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+		`[assault]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	6.5
+[/then]
+
+[item category]
+	`no random`
+[/item category]

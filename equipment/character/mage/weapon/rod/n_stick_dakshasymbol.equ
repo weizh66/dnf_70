@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`賢者屠魔棍`
+
+[basic explain]
+	`攻擊時， 附加20%%的傷害。`
+
+[flavor text]
+	`    坦拉庫沓的賢者達克夏使用的棍。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`pole`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2400
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/mage/pole.img`	41
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	575	523
+
+[equipment magical attack]
+	479	436
+
+[attack speed]
+	50
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	100
+	[/then]
+[/pvp]
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[variation]
+	3	1
+
+[layer variation]
+	2600
+	`dakshac`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`dakshad`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[move wav]
+	`POLE_TOUCH`
+
+[possible kiri protect]

@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`憶古昔 - 平亂訣`
+
+[basic explain]
+	`    被攻擊時， 有20%%的幾率使周圍500px範圍內的所有敵人減少10%%的魔法防禦力， 效果持續10秒。`
+
+[detail explain]
+	`    被攻擊時， 有20%%的幾率使周圍500px範圍內的所有敵人減少10%%的魔法防禦力， 效果持續10秒。 (冷卻時間10秒)`
+
+[flavor text]
+	`    某個制度的建立時間久了， 難免會因為腐朽而被廢除， 這就跟老樹的樹皮壹樣， 該換新皮了。 --某個古老留下的史載`
+
+[grade]
+	55
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[stuck]
+	-2.5
+
+[need material]
+	10000204	16
+
+[price]
+	66000
+
+[value]
+	52800
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	2048	1824
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	196
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[probability]
+		20
+	[duration]
+		10000
+	[stat]
+		`equipment magical defense`
+		`%`	-10
+[/then]
+
+[possible kiri protect]

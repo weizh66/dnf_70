@@ -1,0 +1,100 @@
+#PVF_File
+
+[set name]
+	`冰天雪隱  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at mage]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[極冰綻放]攻擊力 +25%%
+[極冰綻放]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at mage]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	32
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at mage]`	15
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	15
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[極冰綻放]攻擊力 +30%%
+[極冰綻放]冷卻時間 -20%%
+[極冰綻放]魔法陣移動速度 +30%%
+[旋冰穿刺]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-10000
+		`[at mage]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	13
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	13
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-20
+		`[at mage]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[at mage]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[冰龍旋舞]冷卻時間 -10秒
+[冰龍旋舞]魔法陣范圍 -20%%
+[冰龍旋舞]攻擊力 +30%%
+[寒冰之境]敵人冰屬性抗性減少值 +10
+[寒冰之境]自身冰屬性強化值 +5`
+[/piece set ability]

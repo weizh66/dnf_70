@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`(舊) 卡拉斯 - 逐龍`
+
+[basic explain]
+	`[式神 : 白虎]冷卻時間 -1秒
+[式神 : 白虎]攻擊延遲 -50%%`
+
+[flavor text]
+	`    虛祖著名破戒僧卡拉斯的念珠， 卡拉斯與摩恩并列為虛祖兩大惡名遠揚的瘋癲僧侶。`
+
+[grade]
+	45
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rosary`
+
+[rarity]
+	4
+
+[weight]
+	2500
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/weapon/priest/rosary.img`	33
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	72000
+
+[value]
+	57600
+
+[cool time]
+	10000
+
+[magical attack]
+	48
+
+[equipment physical attack]
+	392	349
+
+[equipment magical attack]
+	501	446
+
+[separate attack]
+	259	173
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[magical critical hit]
+	2
+
+[skill data up]
+	`[priest]`	70
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[priest]`	70
+	`[all]`
+	`[static]`	10
+	`%`	-50
+	`[priest]`	70
+	`[all]`
+	`[static]`	11
+	`%`	-50
+	`[priest]`	70
+	`[all]`
+	`[static]`	12
+	`%`	-50
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	70	1
+[/skill levelup]
+
+[variation]
+	3	2
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

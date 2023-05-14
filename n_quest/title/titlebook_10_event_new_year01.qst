@@ -1,0 +1,44 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	12
+[/check count]
+
+[limit showing msg]
+	1
+
+[level]
+	254	255
+
+[type]
+	`[use item]`
+
+[int data]
+	1	8394	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26795	1
+[/reward int data]
+
+[send postal]
+	8394	5
+	`postal_message_08`
+	`postal_message_09`
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`使用[活力小狗]12個。 (活力小狗可以在地下城的怪物身上獲得)`
+
+[condition data]
+	0
+	`破招次數 : %d / %d`
+[/condition data]

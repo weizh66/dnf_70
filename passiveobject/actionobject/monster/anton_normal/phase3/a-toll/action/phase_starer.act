@@ -1,0 +1,384 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Dummy.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			1
+	[/PARTY TARGET]
+	[DO PROC BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			2
+	[/PARTY TARGET]
+	[DO PROC BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			3
+	[/PARTY TARGET]
+	[DO PROC BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			0
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			1360	435	0
+		[MOVE TARGET]
+		[USE MAP POS]
+		[USE EFFECT]
+	[/TELEPORT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count`
+		[=]
+			0
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70341
+		[/IS INDEX]
+		[CHECKED NO]
+		[=>]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		5
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		5
+	[OFF]
+	[TRIGGER]
+		6
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70341
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count`
+		[=]
+			`count`
+		[+]
+			1
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70342
+		[/IS INDEX]
+		[CHECKED NO]
+		[=>]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		7
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		7
+	[OFF]
+	[TRIGGER]
+		8
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70342
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		8
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count`
+		[=]
+			`count`
+		[+]
+			1
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70343
+		[/IS INDEX]
+		[CHECKED NO]
+		[=>]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		9
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		9
+	[OFF]
+	[TRIGGER]
+		10
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70343
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		10
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count`
+		[=]
+			`count`
+		[+]
+			1
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[CHECK TIME]
+		500
+	[IF]
+		`count`
+		[=]
+			1
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		11
+[/TRIGGER]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[CHECK TIME]
+		500
+	[IF]
+		`count`
+		[=]
+			2
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		12
+[/TRIGGER]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[CHECK TIME]
+		500
+	[IF]
+		`count`
+		[=]
+			3
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		13
+[/TRIGGER]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70348
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		14
+[/TRIGGER]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69310
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		14
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56660
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		15
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

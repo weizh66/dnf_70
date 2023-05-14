@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`召喚龍王空空`
+	
+
+[explain]
+	`使用時，連續60秒內，會召喚一隻龍王空空。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	726
+
+[stackable type]
+	`[waste]`	1
+
+[cool time]
+	60000
+
+[cooltime group]
+	100
+
+[move wav]
+	`JEWEL_TOUCH`
+
+[monster summons]
+	56020	50	60	60000	5
+
+[expiration date]
+	1301583600

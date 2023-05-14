@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	3604
+[/pre required quest]
+
+[enemy reward item]
+	10504	2	11000	-1	4229	2	15	-1	20500	2	11000	-1	4229	2	15	-1	10301	2	11000	-1	4229	2	20	-1	5305	2	11000	-1	4229	2	20	-1	20601	2	11000	-1	4229	2	25	-1	500	2	11000	-1	4229	2	25	-1	5303	2	11000	-1	4229	2	25	-1	5304	2	11000	-1	4229	2	25	-1	15205	2	11000	-1	4229	2	30	-1	5003	2	11000	-1	4229	2	30	-1	15502	2	11000	-1	4229	2	30	-1	10202	2	11000	-1	4229	2	35	-1	20501	2	11000	-1	4229	2	35	-1	20603	2	11000	-1	4229	2	35	-1	5309	2	11000	-1	4229	2	35	-1	20401	2	11000	-1	4229	2	35	-1	10203	2	11000	-1	4229	3	35	-1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	4229	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7114	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`死亡之塔 - 死神的氣息 (1/2)`
+
+[depend message]
+	`這種物質叫作‘死神的氣息’， 應該是死神作為收集靈魂的獎賞賜予巴頓的。
+如果這種物質真的含有強大的力量， 那么我們就可以把這種力量運用到拆毀死亡之塔上！
+為了鞏固次元之墻， 請您前往死亡之塔， 收集死神的氣息吧。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 收集50個[死神的氣息]交給莎蘭。`
+
+[solve message]
+	`它果然蘊含著強大的力量， 但……這種力量非常邪惡。`
+
+[quest point]
+	4

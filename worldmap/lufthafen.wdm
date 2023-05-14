@@ -1,0 +1,41 @@
+#PVF_File
+
+[map image]
+	`WorldMap/LuftHafen.img`	0
+
+[ui path]
+	`WorldMap/UI/LuftHafen.ui`
+
+[dungeon]
+	86	-1	87	-1	92	4039	93	4039	1504	6003	502
+	[in progress]
+		148	501
+	[in progress]
+		149	501
+	[in progress]
+		150	501
+	[in progress]
+		4033	501
+	[in progress]
+		4035	501
+	[in progress]
+		4036
+[/dungeon]
+
+[name]
+	`海上列車`
+
+[hell dungeon]
+	1
+
+[hell quest]
+	2622
+[/hell quest]
+
+[hell freepass item]
+	4394	1	2682582	1	2749501	1
+[/hell freepass item]
+
+[item condition]
+	2749501
+[/item condition]

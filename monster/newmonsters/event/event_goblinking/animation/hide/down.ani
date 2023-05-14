@@ -1,0 +1,58 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Goblin/Golgo/Golgo2.img`
+		5
+	[IMAGE POS]
+		-96	-151
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-20	-10	-4	40	20	72
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Goblin/Golgo/Golgo2.img`
+		6
+	[IMAGE POS]
+		-96	-151
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-36	-10	-4	40	20	72
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Goblin/Golgo/Golgo2.img`
+		7
+	[IMAGE POS]
+		-96	-151
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-50	-10	-4	70	20	31
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Goblin/Golgo/Golgo2.img`
+		8
+	[IMAGE POS]
+		-96	-151
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-50	-10	-4	70	20	27
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Goblin/Golgo/Golgo2.img`
+		9
+	[IMAGE POS]
+		-96	-151
+	[DELAY]
+		600
+	[DAMAGE BOX]
+	-49	-10	-4	70	20	8

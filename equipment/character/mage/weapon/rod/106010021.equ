@@ -1,0 +1,229 @@
+#PVF_File
+
+[name]
+	`雷利雷比`
+
+[basic explain]
+	`攻擊時以 10%% 的機率落下閃電
+施展時以10%% 的機率15秒內所有屬性強化增加10 
+攻擊時以 4%% 的機率20秒內武器魔法攻擊力增加7%% `
+
+[detail explain]
+	`攻擊時以 10%% 的機率閃電墜落，受到 2000的傷害。（決鬥場內修正為 2%% 機率）
+施展時以 10%% 的機率15秒內所有 屬性強化增加10 
+攻擊時以 4%% 的機率20秒內魔法武器攻擊力增加7%%`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[magical attack]
+	75
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[need material]
+	3285	2100
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	652	598
+
+[equipment magical attack]
+	796	730
+
+[separate attack]
+	441	298
+
+[skill levelup]
+	`[mage]`	176	3
+	`[at mage]`	176	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/mage/rod/rod.img`	90
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	28	1
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	28	1
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	28	1
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	1
+	`mage`	2
+	`at mage`	2
+[/routing priority]
+
+[if]
+	[event attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[probability]
+		10
+	[target]
+		`enemy`	-1
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48503	0	0	0	0	0
+		``	48506	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		25000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		10
+	[appendage]
+		19
+	[appendage]
+		20
+	[appendage]
+		21
+	[appendage]
+		22
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[probability]
+		4
+	[duration]
+		20000
+	[target]
+		`myself`	-1
+	[stat]
+		`equipment magical attack`
+		`%`	7
+[/then]
+
+[possible kiri protect]

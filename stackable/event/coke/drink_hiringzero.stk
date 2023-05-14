@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`恢復飲料 - 零`
+	
+
+[explain]
+	`<活動>  使用後， 可以恢復所有異常狀態並使自身的命中率變為100%%， 效果持續30秒。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/stackable/consumption.img`	72
+
+[field image]
+	`Item/FieldImage.img`	30
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[cool time]
+	10000
+
+[move wav]
+	`SCRAP_TOUCH`

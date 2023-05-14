@@ -1,0 +1,23 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/ZIGstart.act`
+
+[etc action]
+	`Action/ZIGfinish.act`
+[/etc action]
+
+[attack info]
+	`AttackInfo/zigliberationattack.atk`

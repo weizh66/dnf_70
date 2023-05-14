@@ -1,0 +1,85 @@
+#PVF_File
+
+[name]
+	`FIGHT達人`
+
+[explain]
+	`  被擊時， 有2%%的幾率增加自身3%%的移動速度， 效果持續30秒。`
+
+[flavor text]
+	`  第七屆全國格鬥大賽個人和團隊項目周賽冠軍的專屬稱號！ 妳的名字已被世人所記住！ 無須畏懼、 勇往直前， 向更高的榮耀發起挑戰吧！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	145
+
+[custom animation]
+	`TitleAnimation/2014_pvp_championship_spring_02_weekchamp.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	200
+
+[MP MAX]
+	200
+
+[move speed]
+	25
+
+[attack speed]
+	25
+
+[cast speed]
+	25
+
+[stuck resistance]
+	20
+
+[stuck]
+	-2
+
+[hit recovery]
+	50
+
+[if]
+	[cooltime]
+		60000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`move speed`
+		`+`	30
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

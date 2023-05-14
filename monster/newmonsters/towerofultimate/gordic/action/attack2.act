@@ -1,0 +1,44 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/attack2.ani`
+	[SPEECH]
+		`為了發出猛烈一擊，我必須先忍受住巨大的痛苦！`
+			0	100
+	[/SPEECH]
+	[SUB ANI]
+		`../animation/EF_EarthQuakeStrong1.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CASTING]
+		2000	1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		1
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		1	1000
+[/BEHAVIOR]

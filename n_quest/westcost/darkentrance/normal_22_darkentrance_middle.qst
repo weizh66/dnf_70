@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	4
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	22	99
+
+[pre required quest]
+	7
+[/pre required quest]
+
+[monster reward item]
+	700	14	1	4018	1	30	10	701	14	1	4018	1	30	10	700	14	2	4018	1	30	10	701	14	2	4018	1	30	10	700	14	3	4018	1	30	10	701	14	3	4018	1	30	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	4018	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`天空之海的純凈水`
+
+[depend message]
+	`唉， 不知道怎么回事， 這些鋼鐵的情緒波動很大， 一直不停的哭泣……嗯， 雖然不能慣著它們， 但是偶爾送點糖衣炮彈還是有作用的。
+冒險家， 你幫我收集些天空之海的純凈水吧， 那東西可以提升鋼鐵的忠誠度， 哈哈。 `
+
+[condition message]
+	`    前往天空之城的『黑暗玄廊』， 從各類驅逐者身上收集10個[天空之海的純凈水]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`噢！ 謝謝了！ 你的能力很好， 以后我有事都可以叫你幫忙了。 哈哈， 總算找到幫手了。`

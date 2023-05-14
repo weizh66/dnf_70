@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5840
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3294	100	3299	5
+[/int data]
+
+[dungeon info]
+	86	-1	87	-1
+[/dungeon info]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26624	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`挑戰鐵鱗海賊團`
+
+[depend message]
+	`你想知道如何才能成為鐵鱗海賊團的成員！ 哈哈， 我還是第一次聽到這么奇怪的問題。 你不會也想去當海賊吧！
+嘿嘿！ 組織一批人一起去干海賊的勾當， 不就成了海賊團了嗎？ 哪還用什么方法， 是吧……
+呃， 你不像是在開玩笑……？ 這個、 這個嘛……
+鐵鱗海賊團其實有自己的規矩。
+如果你想成為船員， 那么就去打敗船員； 如果你想成為副船長， 那么就去打敗副船長， 以此類推。
+聽起來很簡單吧！ 不過那些海賊可不好對付啊！`
+
+[condition message]
+	`    前往海上列車的地下城， 從普通船員身上收集[海賊團員戒指]和[虛空魔石]。`
+
+[solve message]
+	`哈~好！ 我現在就任命你為鐵鱗海賊團的團員……滿意了吧！`

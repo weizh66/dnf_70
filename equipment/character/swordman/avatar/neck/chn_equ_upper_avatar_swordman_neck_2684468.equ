@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`火罐的斗篷 (鬼劍士)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	30
+
+[icon]
+	`item/avatar/swordman/sm_aneck.img`	150
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar func filter]
+	0
+
+[sub type]
+	0
+
+[cast speed]
+	25
+
+[attack speed]
+	25
+
+[variation]
+	50	0
+
+[layer variation]
+	1975
+	`neck_x`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1000
+	`neck_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[part set index]
+	2

@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	120
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`石巨人塔`
+
+[depend message]
+	`辛苦了， 天空之城崩塌的危機總算解除了， 不過人偶師的行為有很多疑點， 難道它們是因為在漫長的歲月里沒有主人才發瘋的？ 真是奇怪！
+你還想去更高的地方冒險吧？ 據我所知， 人偶師的上層就是魔法生命體‘石巨人’的領地。
+在巴卡爾統治時， 石巨人主要負責搬運和警備， 人偶師主要負責制造石巨人， 它們是孟不離焦的關系。
+那些石巨人的智力可以忽略不計， 因為不管是一百年還是一千年， 它們只會服從于主人下達的命令。 你覺得它們接受的最后任務是什么呢？ 我想一定是‘消滅所有入侵者’吧……所以你一定要多加小心啊！`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』。`
+
+[solve message]
+	`呃？ 那些石巨人沒有為難你嗎？ 你看起來安然無恙啊？！`
+
+[quest point]
+	4

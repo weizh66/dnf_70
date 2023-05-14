@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`??守?`
+
+[basic action]
+	`Action/liting_gard_Basic.act`
+
+[last action]
+	`Action/liting_gard_Last.act`
+
+[etc action]
+	`Action/Etc_liting_gard_0.act`
+[/etc action]
+
+[piercing power]
+	1000
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[int data]
+	40000	1200000	200
+[/int data]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+[/object destroy condition]

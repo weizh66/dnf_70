@@ -1,0 +1,54 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Ready.ani`
+	[SPEECH]
+		`哈!`
+			1	15
+		`嗯!`
+			1	15
+		`啊呀!`
+			1	15
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[ZPOS]
+		[<]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[ZPOS]
+		[>]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		8
+	[NOW]
+[/BEHAVIOR]

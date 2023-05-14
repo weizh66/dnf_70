@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	18
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	63	99
+
+[pre required quest]
+	5802
+[/pre required quest]
+
+[monster reward item]
+	62012	52	2	4390	1	50	30	62012	52	3	4390	1	50	30	62012	52	4	4390	1	50	30
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4390	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`諾絲克爾的毒刺`
+
+[depend message]
+	`我認為沙漠中那些巨大的昆蟲可能以人為食， 不過‘食人’這個詞也不太準確……
+這么解釋吧， 那些昆蟲通過吸收人類的精神能量和細胞能量， 提升自身的智力、 加快體內的細胞分裂。
+如果繼續這樣下去， 這些昆蟲必將變成整個世界的統治者！
+當然并不是沒有辦法瓦解它們。 只要它們身上還殘留著蟲子的本能， 就肯定會有一個首領。
+嗯， 不錯！ 我說的就是蜂后。`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 收集[諾絲克爾的毒刺]， 要求地下城難度為王者級。`
+
+[solve message]
+	`這……這根……蜂刺也太巨型了吧！ 我的天吶！`
+
+[dialog]
+	1	0	52	2	1	0	0
+	`<monster::62012>上次我那么熱情地招待你， 還是被你拒絕了……這次我可不會輕易讓你走的！
+呵呵~別再拒絕我的好意啦， 快來我這兒休息休息吧~~`
+[/dialog]
+
+[quest point]
+	4

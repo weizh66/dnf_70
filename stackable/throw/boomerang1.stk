@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`迴旋鏢`
+
+[explain]
+	`投擲時， 可以穿刺多個敵人， 並對每個敵人造成65點傷害。`
+
+[flavor text]
+	`咻！ 咻咻！ 瞧見沒? 只要能掌握好距離， 形成多段攻擊易如反掌！`
+
+[grade]
+	5
+
+[attach type]
+	`[free]`
+
+[creation rate]
+	900
+
+[rarity]
+	0
+
+[weight]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	5
+
+[icon]
+	`Item/IconMaterial.img`	38
+
+[field image]
+	`Item/FieldImage.img`	34
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	100
+
+[value]
+	0
+
+[cool time]
+	2000
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50300	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Boomerang.ptl`
+[/string data]

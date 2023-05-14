@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以 1%% 的機率30秒內力量增加 30，體力增加30，智力增加30，精神增加30。
+攻擊時以5%% 機率30秒內攻擊速度，施放速度，移動速度增加5%%。
+反擊攻擊時以 10%% 的機率HP，MP恢復2%%。（決鬥場內不適用 )`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	410
+
+[custom animation]
+	`TitleAnimation/descendant_of_apostle.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	200
+
+[MP MAX]
+	200
+
+[physical attack]
+	30
+
+[physical defense]
+	30
+
+[magical attack]
+	30
+
+[magical defense]
+	30
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`physical defense`
+		`+`	30
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`magical defense`
+		`+`	30
+[/then]
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[stuck]
+	-2
+
+[move wav]
+	`NAME_TOUCH`
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`cast speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[attack condition]
+		`counter`
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[restore]
+		`hp`
+		`%`	2	0
+	[restore]
+		`mp`
+		`%`	2	0
+[/then]

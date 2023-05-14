@@ -1,0 +1,54 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Cast.ani`
+	[SOUND]
+		`DOLL_CAST`	0
+	[/SOUND]
+	[SPEECH]
+		`無法清醒的`
+			0	25
+		`腦部手術`
+			0	75
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8085
+		[PARTICLE FILENAME]
+			`../particle/right.ptl`
+		[LEVEL]
+			60
+		[POS]
+			0	0	90
+		[USE MY DIRECTION]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8085
+		[PARTICLE FILENAME]
+			`../particle/left.ptl`
+		[LEVEL]
+			60
+		[POS]
+			0	0	90
+		[USE MY DIRECTION]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

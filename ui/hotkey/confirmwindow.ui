@@ -1,0 +1,41 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`center`
+	[vertical alignment]
+		`middle`
+	[tile type]
+		0
+	[size]
+		16	6
+	[controls]
+		[ui controls]
+			`[text]`
+			`-1`	12	13	1
+			`您的快速鍵設置有變更。
+確定不保存就關閉窗口嗎？`
+				9	0	200	1	0	0	0	255	255	255
+		[/ui controls]
+		[ui controls]
+			`[custom button]`
+			`0`	5	55	1
+			`返回`
+				1	56
+		[/ui controls]
+		[ui controls]
+			`[custom button]`
+			`1`	62	55	1
+			`關閉`
+				1	56
+		[/ui controls]
+		[ui controls]
+			`[custom button]`
+			`2`	119	55	1
+			`儲存後關閉`
+				1	66
+		[/ui controls]
+	[/controls]
+[/window]

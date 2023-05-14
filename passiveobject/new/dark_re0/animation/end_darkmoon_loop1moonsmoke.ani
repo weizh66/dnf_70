@@ -1,0 +1,25 @@
+#PVF_File
+[LOOP]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/DarkMoon/LoopMoonSmoke.img`
+		0
+	[IMAGE POS]
+		-58	-58
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		400
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0

@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`海神謎咒之異靈胸甲`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使自身增加80點力量和智力， 效果持續15秒。 (冷卻時間15秒)`
+
+[flavor text]
+	`漁夫問 : “在這裏會有寶貝嗎？”`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[physical defense]
+	41
+
+[need material]
+	3824	30
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	5880	5460
+
+[water attack]
+	6
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/06_plate/coat/plate_coat.img`	40
+
+[field image]
+	`Item/field_equip.img`	15
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[duration]
+		15000
+	[stat]
+		`physical attack`
+		`+`	80
+	[stat]
+		`magical attack`
+		`+`	80
+[/then]
+
+[possible kiri protect]

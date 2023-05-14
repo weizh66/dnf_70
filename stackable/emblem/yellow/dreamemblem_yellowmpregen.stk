@@ -1,0 +1,45 @@
+#PVF_File
+
+[name]
+	`黃色光夢幻勇士徽章[MP恢復]`
+	
+
+[grade]
+	2
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/emblem/emblem_yellow.img`	18
+
+[icon mark]
+	`Item/IconMark.img`	24
+
+[field image]
+	`Item/field_emblem.img`	1
+
+[stackable type]
+	`[avatar emblem]`	0
+
+[avatar emblem target type]
+	`[B socket]`
+[/avatar emblem target type]
+
+[enchant]
+	[MP regen speed]
+		9
+[/enchant]
+
+[move wav]
+	`JEWEL_TOUCH`

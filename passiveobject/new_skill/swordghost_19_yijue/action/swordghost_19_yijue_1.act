@@ -1,0 +1,54 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/UltimateCrossSlash/vsultimatecrossslashendattack_body.ani`
+	[SUB ANI]
+		`../Animation/UltimateCrossSlash/vsultimatecrossslashappearback_01.ani`	0	-2
+		`../Animation/UltimateCrossSlash/vsultimatecrossslashendattackfront_02.ani`	0	1
+		`../Animation/UltimateCrossSlash/vsendattacktrace_01.ani`	1	2
+		`../Animation/UltimateCrossSlash/vsendattack_01.ani`	1	3
+	[/SUB ANI]
+	[SOUND PROBABILITY]
+	[/SOUND PROBABILITY]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			-165	-2	0
+		[USE MY BASEPOS]
+		[NOT USE OBJECT ZPOS]
+		[USE MY DIRECTION]
+	[/TELEPORT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		27	27
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			260166
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[DESTROY]
+[/BEHAVIOR]

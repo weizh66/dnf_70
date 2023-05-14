@@ -1,0 +1,27 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/FireShell3.act`
+
+[attack info]
+	`AttackInfo/FireShellGround.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	800
+[/object destroy condition]
+
+[name]
+	`FireShell3`

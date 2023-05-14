@@ -1,0 +1,91 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	73
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	73
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	73
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[回風斬]攻擊力 +30%%
+[回風斬]冷卻時間 -20%%
+[回風斬]攻擊范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	73
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	78
+		`[dungeon type]`
+		`[static]`	3
+		`%`	10
+		`[at mage]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[回風斬]攻擊力 +25%%
+[雙翼風刃]攻擊力 +25%%
+[雙翼風刃]冷卻時間 -30%%
+[雙翼風刃]范圍 +10%%
+[真空旋風破]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[at mage]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at mage]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	45
+		`[at mage]`	79
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[風暴之眼]攻擊力 +45%%
+[雙翼風刃]攻擊力 +35%%
+[真空旋風破]攻擊力 +45%%
+[真空旋風破]冷卻時間 -20%%
+[真空旋風破]旋風大小 +10%%`
+[/piece set ability]

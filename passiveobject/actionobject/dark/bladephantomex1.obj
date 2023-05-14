@@ -1,0 +1,26 @@
+#PVF_File
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/bladephantomex_1.act`
+
+[attack info]
+	`AttackInfo/BladePhantomEx_Crack_Hold_1.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

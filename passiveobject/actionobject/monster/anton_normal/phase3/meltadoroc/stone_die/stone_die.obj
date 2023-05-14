@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`石化食虫`
+
+[layer]
+	`[bottom]`
+
+[basic action]
+	`Action/stone_die_Basic_0.act`
+
+[etc action]
+	`Action/Etc_stone_die_0.act`
+	`Action/Etc_stone_die_1_0.act`
+	`Action/Etc_stone_die_2.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/stone_die_Basic_0.atk`
+
+[etc attack info]
+	``
+	``
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	58027
+	[homing velocity]
+		50.0	1.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[sync target move]
+[/homing]
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	5000000
+
+[vanish on move collision]
+	0

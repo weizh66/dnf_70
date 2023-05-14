@@ -1,0 +1,71 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/LollipopCrush/BoseStart_Start.ani`
+	[SUB ANI]
+		`../Animation/LollipopCrush/BoseLoop_Body.ani`	0	0
+		`../Animation/LollipopCrush/BoseEnd_Back.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		80	2
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			265
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[confuse]
+		100	140	10000	0	200	1	500
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			265
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[curse]
+		100	140	10000	0	200	1	500
+[/BEHAVIOR]

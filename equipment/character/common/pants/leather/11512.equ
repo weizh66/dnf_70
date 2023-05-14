@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`魂.黑色瘟疫之暗血護腿`
+
+[basic explain]
+	`  被擊時，傷害減少40%%。
+  攻擊時，使300px範圍內的敵人的抗性降低50點。`
+
+[detail explain]
+	`  被擊時，傷害減少40%%。
+  攻擊時，使300px範圍內的敵人的抗性降低50點。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[anti evil]
+	10
+
+[minimum level]
+	90
+
+[physical attack]
+	280
+
+[magical attack]
+	280
+
+[price]
+	1600000
+
+[need material]
+	3500	1200
+
+[repair price]
+	56700
+
+[value]
+	54000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1640	1540
+
+[icon]
+	`Item/common/pants.img`	360
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	40
+[/then]
+
+[set name]
+	`魂.黑色瘟疫之暗血套裝`
+
+[set item]
+	11510	11511	11512	11513	11514
+[/set item]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		5000
+	[stat]
+		`all elemental resistance`
+		`+`	-50
+[/then]
+
+[if]
+	[cooltime]
+		10000
+
+	[if]
+		[hit]
+			1
+	[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	40
+[/then]
+
+[piece set ability]
+	3
+	[if]
+		[cooltime]
+			60000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			30000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			100
+		[stat]
+			`equipment physical defense`
+			`%`	100
+	[/then]
+	[parameter basic explain]
+		`攻擊時有機率增加200%%的防禦`
+[/piece set ability]
+
+[piece set ability]
+	5
+	[parameter basic explain]
+		`攻擊時會給敵人造成大量毒傷`
+[/piece set ability]
+
+[possible kiri protect]

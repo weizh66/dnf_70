@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	949
+
+[name]
+	`覺醒 - 大魔導師 (1/4)`
+
+[depend message]
+	`元素魔法的最大缺點之一就是相斥力。 元素的力量越強， 那么相斥屬性的元素力量就會被減弱。
+比如說， 火屬性元素越強， 冰屬性元素就會越弱……這也是長久以來困擾元素師的難題。
+如果魔界的魔法師可以解決這個千古難題， 那么也許就可以隨心所欲地支配元素， 成為傳說中的‘大魔導師’。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`怎么樣， 有想出什么好主意嗎？`

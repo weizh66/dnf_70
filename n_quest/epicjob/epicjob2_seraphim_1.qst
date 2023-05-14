@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 熾天使  (1/2)`
+
+[depend message]
+	`看得出你的心情非常沉重。 是不是努力禱告也沒有得到自己想要的答案？ 不知道你向神靈祈求了什么？
+你是不是認為因為自己的信仰不夠堅定， 所以無法拯救戰場上的所有人？ 你要知道， 這個權能只屬于神， 而你的渴望是一種傲慢……但是誰又有資格責難你呢。
+……
+你也知道， 自從教團決定尊使徒米歇爾為圣， 很多圣職者與教團斷絕了關系。 我可以理解他們的心情， 但是在目前這個混亂時期， 我們必須確保教團的穩定。
+因為你果斷的留了下來， 所以想對你提出一個請求。 你能否獲得以神使身份降臨人間的‘熾天使’稱號， 為圣職者們樹立一個榜樣？
+如果有人在你的影響下選擇留在教團， 那么就會有更多人向那些無辜的犧牲者伸出救援之手。 你一個人不能拯救所有人， 但是可以和志同道合的同志們一起拯救更多人。
+我知道這不是容易的決定。 請仔細考慮后告訴我答案。`
+
+[condition message]
+	`    如果要進行二次覺醒并做好了準備， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`你做出了艱難的決定， 我很感謝你！`
+
+[pre required quest]
+	2916
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12845
+
+[job change quest]
+	3
+
+[grow number]
+	0

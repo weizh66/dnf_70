@@ -1,0 +1,202 @@
+#PVF_File
+
+[name]
+	`滾動戰鬥槍`
+
+[basic explain]
+	`施展時以 20%% 的機率讓300px 範圍內的敵人陷入感電狀態
+HP 30%% 以下時HP 恢復率增加500（冷卻時間40秒）
+神槍手（男）：G-2旋雷者，G-3 捕食者的改裝時延長持續時間增加3秒，G-3 捕食者捕食者可攻擊範圍增加 150px 
+神槍手（女）：RX-78追擊者冷卻時間減少0.4秒，Ez-8倒數冷卻時間減少0.6秒`
+
+[detail explain]
+	`施展時以20%%的機率讓300px範圍內的敵人2秒內陷入觸電狀態，每次攻擊時以1000的攻擊力給予追加傷害.（高於Lv75的對象得到的機率減少，低於Lv75的對象則會增加。 決鬥場內修正為 4%% 機率）
+HP 30%%以下時，HP 恢復率增加500（冷卻時間40秒）
+神槍手（男）：G-2旋雷者，G-3 捕食者的改裝時延長持續時間增加3秒，G-3 捕食者捕食者可攻擊範圍增加 150px 
+神槍手（女）：RX-78追擊者冷卻時間減少0.4秒，Ez-8倒數冷卻時間減少0.6秒`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[magical attack]
+	50
+
+[stuck]
+	1
+
+[need material]
+	3285	2100
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	475	427
+
+[equipment magical attack]
+	696	627
+
+[separate attack]
+	441	298
+
+[skill levelup]
+	`[gunner]`	46	3
+	`[at gunner]`	46	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/automatic/automatic.img`	85
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	10000
+
+[routing priority]
+	`gunner`	3
+	`at gunner`	3
+[/routing priority]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[probability]
+		20
+	[reduce probability to human armor at pvp module]
+		80
+	[duration]
+		2000
+	[active status]
+		`lightning`	75	1000
+[/then]
+
+[if]
+	[cooltime]
+		40000
+	[change status]
+		`hp`
+		`<`
+		`%`	31
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[stat]
+		`hp regen rate`
+		`+`	834
+[/then]
+
+[skill data up]
+	`[gunner]`	80
+	`[all]`
+	`[static]`	2
+	`+`	3000
+	`[gunner]`	81
+	`[all]`
+	`[static]`	2
+	`+`	3000
+	`[gunner]`	81
+	`[all]`
+	`[static]`	4
+	`+`	150
+	`[at gunner]`	27
+	`[all]`
+	`[cooltime]`	0
+	`+`	-400
+	`[at gunner]`	28
+	`[all]`
+	`[cooltime]`	0
+	`+`	-600
+[/skill data up]
+
+[possible kiri protect]

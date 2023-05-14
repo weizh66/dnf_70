@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`冰龍魔杖`
+
+[basic explain]
+	`[契約召喚 : 弗利特]召喚數 +1
+    施放技能時， 有3%%的幾率使召喚獸進入霸體狀態。
+    施放技能時， 有10%%的幾率使敵人進入冰凍狀態。
+[寒冰連槍]多段攻擊次數 +2`
+
+[detail explain]
+	`[契約召喚 : 弗利特]召喚數 +1
+    施放技能時， 有3%%的幾率使召喚獸進入霸體狀態8秒。
+    施放技能時， 有10%%的幾率使300px范圍內最近的敵人進入冰凍狀態1秒。 (若敵人高于Lv70， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rod`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/mage/rod.img`	71
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	24
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[magical attack]
+	71
+
+[equipment physical attack]
+	607	553
+
+[equipment magical attack]
+	741	675
+
+[separate attack]
+	411	278
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[skill data up]
+	`[at mage]`	21
+	`[all]`
+	`[level]`	1
+	`+`	2
+[/skill data up]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	15	2
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	15	2
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`ROD_TOUCH`
+
+[skill data up]
+	`[mage]`	80
+	`[all]`
+	`[level]`	2
+	`+`	1
+[/skill data up]
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		8000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[aura]
+		2
+[/then]
+
+[if]
+	[cooltime]
+		5000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	100
+	[duration]
+		1000
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`freeze`	70
+[/then]
+
+[routing priority]
+	`mage`	2
+	`at mage`	2
+[/routing priority]
+
+[possible kiri protect]

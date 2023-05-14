@@ -1,0 +1,153 @@
+#PVF_File
+
+[name]
+	`深淵催眠曲[黑鑽]`
+
+[basic explain]
+	`攻擊時以 2%% 的機率讓敵人進入睡眠狀態
+攻擊速度 +2%%
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[detail explain]
+	`攻擊時，以2%%機率 5秒內使敵人陷入睡眠狀態。 （高於Lv50的對象得到的機率和效果減少，低於Lv50的對象則會增加。）
+攻擊速度 +2%%
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[magical attack]
+	38
+
+[attack speed]
+	-80
+
+[cast speed]
+	20
+
+[MP MAX]
+	255
+
+[price]
+	89600
+
+[repair price]
+	75264
+
+[value]
+	71680
+
+[equipment physical attack]
+	417	384
+
+[equipment magical attack]
+	593	547
+
+[separate attack]
+	311	208
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	37	2
+[/skill levelup]
+
+[sleep resistance]
+	15
+
+[icon]
+	`Item/weapon/thief/wand.img`	39
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[active status]
+		`sleep`	50
+[/then]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+	`charac cargo`
+[/impossible contents]
+
+[possible kiri protect]

@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`魔力之語藥水`
+
+[flavor text]
+	`    別以為我老粗不懂， 魔法攻擊力和自然親和度那關係杠杠的……  --西嵐`
+
+[grade]
+	20
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	20
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	18
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/IconMaterial2.img`	16
+
+[field image]
+	`Item/FieldImage.img`	20
+
+[stackable type]
+	`[waste]`	4
+
+[appendage group]
+	4
+
+[item group name]
+	`potion`
+
+[price]
+	4000
+
+[value]
+	80
+
+[cool time]
+	10000
+
+[cooltime group]
+	10
+
+[move wav]
+	`FLASK_TOUCH`
+
+[stat change]
+	`+`	23
+	`magical attack`
+[/stat change]
+
+[stat change duration]
+	60000
+	`party`

@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	` 復仇靈魂之刀`
+
+[basic explain]
+	`攻擊時以3%%的機率讓敵人陷入眩暈狀態`
+
+[detail explain]
+	`攻擊時以3%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少9，體力減少9，智能減少9，精神力減少9。 （高於Lv18的對象得到的機率減少，低於Lv18的對象則會增加。）`
+
+[flavor text]
+	` 用除掉盜屍者骨獄息出現的復仇靈魂石鑄造的刀。`
+
+[grade]
+	20
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	18
+
+[physical attack]
+	14
+
+[magical attack]
+	21
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	28000
+
+[repair price]
+	22400
+
+[value]
+	22400
+
+[equipment physical attack]
+	186	171
+
+[equipment magical attack]
+	206	189
+
+[separate attack]
+	100	65
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	25	1
+[/skill levelup]
+
+[curse resistance]
+	-20
+
+[icon]
+	`Item/weapon/swordman/katana.img`	7
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	7
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	7
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		32000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`curse`	18	9	9	9	9
+[/then]
+
+[possible kiri protect]

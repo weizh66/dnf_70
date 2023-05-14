@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`怒火攻心護腿`
+
+[basic explain]
+	`    HP低於80%%時， 可以增加3%%的施放速度、 1%%的移動速度和4%%的魔法暴擊率。
+    HP從80%%起， 每減少5%%的HP都會增加2%%的速度。
+    HP低於30%%時， 每3秒會向300px範圍內的所有敵人施放火焰爆炸。`
+
+[detail explain]
+	`    HP低於80%%時， 使自身增加3%%的施放速度、 1%%的移動速度和4%%的魔法暴擊率。
+    HP從80%%起每減少5%%時， 額外增加2%%。(最多增加30%%的移動速度、15%%的移動速度&15%%的魔法暴擊）`
+
+[flavor text]
+	`    怒火攻心`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	45
+
+[magical defense]
+	45
+
+[move speed]
+	30
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	990	920
+
+[magical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/02_cloth/pants/cloth_pants.img`	22
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[if]
+	[change status in range]
+		`hp`	80	5
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`move speed`
+		`+`	10	150
+	[apply status in range]
+		`magical critical hit`
+		`+`	4	15
+	[apply status in range]
+		`cast speed`
+		`+`	30	300
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	30
+	[time]
+		500	1	500
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[passive object]
+		23016	0	0	0	999	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

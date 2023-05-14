@@ -1,0 +1,54 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/dodge.img`
+		0
+	[IMAGE POS]
+		-191	-201
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-105	-88	-73	208	185	475
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/dodge.img`
+		0
+	[IMAGE POS]
+		-191	-201
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-105	-88	-73	208	185	475
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/dodge.img`
+		0
+	[IMAGE POS]
+		-191	-201
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-105	-88	-73	208	185	475

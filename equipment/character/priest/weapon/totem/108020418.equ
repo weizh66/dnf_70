@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`復蘇之風圖騰`
+
+[grade]
+	94
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	92
+
+[stuck]
+	-1
+
+[repair price]
+	120320
+
+[value]
+	120320
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	949	897
+
+[equipment magical attack]
+	814	769
+
+[separate attack]
+	541	368
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/priest/totem/totem.img`	152
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	56	1
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

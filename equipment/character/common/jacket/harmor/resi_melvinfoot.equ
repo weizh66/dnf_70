@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`梅爾文的隨心胸甲`
+
+[flavor text]
+	`天界的重炮手們託付梅爾文·裡克特製作的重甲套裝。雖然性能不錯，但感覺好像是隨便做做的。`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	26
+
+[physical defense]
+	24
+
+[magical attack]
+	19
+
+[price]
+	59000
+
+[repair price]
+	52038
+
+[value]
+	47200
+
+[equipment physical defense]
+	2976	2880
+
+[skill levelup]
+	`[gunner]`	36	1
+	`[at gunner]`	36	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	600
+
+[icon]
+	`Item/common/coat.img`	49
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[set name]
+	`梅爾文的隨心之作  套裝`
+
+[set item]
+	11311	13310	15300	19304	17298
+[/set item]
+
+[set ability]
+	[physical attack]
+		45
+	[physical defense]
+		23
+	[magical attack]
+		18
+	[attack speed]
+		10
+	[physical critical hit]
+		2
+	[stuck]
+		-1
+	[skill levelup]
+		`[gunner]`	39	1
+		`[gunner]`	71	1
+		`[at gunner]`	39	1
+		`[at gunner]`	71	1
+	[/skill levelup]
+[/set ability]
+
+[possible kiri protect]

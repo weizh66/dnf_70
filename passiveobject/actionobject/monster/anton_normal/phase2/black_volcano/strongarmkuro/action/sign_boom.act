@@ -1,0 +1,98 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Blast1.ani`
+	[SUB ANI]
+		`../Animation/Blast2.ani`	0	1
+		`../Animation/Blast3.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[ON SET ACTION]
+	[WHICH]
+	[PLAYER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			5
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[ON SET ACTION]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			59063
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			5
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		-30
+	[%]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		-1
+	[%]
+	[SET ACTION]
+	[ATTACK]
+		16
+	[NOW]
+	[SAY SPEECH]
+		`黑色?光！`	0	0
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			11448
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			5
+	[/CHECKUP]
+	[CHECKED NO]
+	[>]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

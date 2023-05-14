@@ -1,0 +1,71 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	18
+
+[big face]
+	`Map/Npc/NpcFace03.img`	28
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	18
+
+[field animation]
+	`Animation/Npc_Woo.ani`
+
+[field wav]
+	`R_NPC_WOO_AMB_02`
+
+[popup wav]
+	`R_NPC_WOO_TK`
+	`R_NPC_WOO_FW`
+
+[role]
+	`[move town]`	123
+[/role]
+
+[look around]
+	0
+
+[move town limit str]
+	`需要Lv3以上， 才能乘坐前往阿拉德大陸的護送馬車。`
+
+[move town confirm str]
+	`您要乘坐前往赫頓瑪爾的護送馬車嗎？`
+
+[name]
+	`諾羽`
+
+[field name]
+	`外交使節 諾羽`
+
+[quest speech]
+	`找不到代碼quest_speech_4327`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::122>我是來自虛祖的外交使節諾羽， 你可以叫我羽姐姐。
+我曾在西嵐門下修習劍術， 不過現在效忠于王室， 這次是被派到這里來宣傳我們虛祖。
+有空的時候， 我喜歡吟詩作畫。 對了！ 我最喜歡喝產自雪山的茶。 有空我們一起品嘗吧？`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::122>虛祖現在正迎來了前所未有的繁榮， 這都是托國王素喃·阿斯卡的福。
+以前的賢安王實行閉關鎖國政策， 使我們與世隔絕， 但阿斯卡繼任之后卻改變了這種做法， 不僅施行對外開放， 還從國外引進了魔法和科學。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::122>因為從小就跟隨西嵐師父在世界各國游歷， 所以我的方言口音沒有師父那么重。
+其實和我那位師父一起旅行實在是一種折磨啊~不過我師父確實是一位偉大的天才， 只是教學的技巧比較生疏……
+現在想想， 我好像真的什么都沒學到啊……`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	1	0
+	`<npc::122>對你來說， 現在參加武斗大會還有些勉強……勤加修煉吧！ 所謂‘笨鳥先飛’嘛~
+不過別指望從西嵐那里學到什么速成的方法， 他不會傳授你任何東西的。`
+[/dialog]
+
+[name]
+	`諾羽`

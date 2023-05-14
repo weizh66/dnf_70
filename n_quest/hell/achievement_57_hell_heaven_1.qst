@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	57	99
+
+[monster reward item]
+	61709	80	2	690017037	1	100	1	61709	80	3	690017037	1	100	1	61112	81	2	690017039	1	100	1	61112	81	3	690017039	1	100	1	61710	82	2	690017038	1	100	1	61710	82	3	690017038	1	100	1
+[/monster reward item]
+
+[pre required quest]
+	2610
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	690017037	1	690017039	1	690017038	1
+[/int data]
+
+[reward type]
+	`[hell challenge]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`深淵派對Ep3 - 烏雲籠罩的天空`
+
+[depend message]
+	` 異次元的封印正在慢慢崩塌， 
+ 職者教團已經沒有辦法阻止那些異界生命體逃出異次元。
+ 當務之急，就是儘量阻止他們入侵新的地區。 
+ 目前我最擔心的是天界， 希望那些異界生命體還沒有把他們的黑手伸向天界……`
+
+[condition message]
+	`為了挑戰天界地區的深淵派對，需先證明自己的實力！ 請前往地下城打敗強者，獲得以下道具，需要地下城難度在王者級以上。`
+
+[solve message]
+	`啊… 唉，連天界也出現異次元裂縫了……`
+
+[quest point]
+	4

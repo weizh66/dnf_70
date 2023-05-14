@@ -1,0 +1,65 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/WillDriver/floor_d.img`
+		0
+	[IMAGE POS]
+		-468	-351
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1000
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/WillDriver/floor_d.img`
+		0
+	[IMAGE POS]
+		-468	-351
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		250
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/WillDriver/floor_d.img`
+		0
+	[IMAGE POS]
+		-468	-351
+	[IMAGE RATE]
+		0.949999988079071	0.949999988079071
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		250
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/WillDriver/floor_d.img`
+		0
+	[IMAGE POS]
+		-468	-351
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`

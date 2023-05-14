@@ -1,0 +1,359 @@
+#PVF_File
+
+[name]
+	`封·電光火石之拳`
+
+[basic explain]
+	`攻擊速度 +5%%
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。
+    施放[鐵山靠]時， 有25%%的幾率不受冷卻時間影響。 
+    施放[閃電之舞]時， 有25%%的幾率不受冷卻時間影響。
+    ↑↓+[寵物技能鍵]輸入時， 可以減少[閃電之舞]90%%的冷卻時間和50%%的攻擊力。 (消耗1個白色小晶塊)`
+
+[detail explain]
+	`攻擊速度 +5%%
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒。 (若敵人高於Lv81， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    施放[鐵山靠]時， 有25%%的幾率不受冷卻時間影響。 
+    施放[閃電之舞]時， 有25%%的幾率不受冷卻時間影響。
+    ↑↓+[寵物技能鍵]輸入時， 可以減少[閃電之舞]90%%的冷卻時間和50%%的攻擊力， 效果持續10秒。 (消耗1個白色小晶塊； 冷卻時間60秒； 發動後立即重置[閃電之舞]的剩余冷卻時間)`
+
+[flavor text]
+	`    更高、 更快、 更強！`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	58
+
+[attack speed]
+	150
+
+[move speed]
+	50
+
+[stuck]
+	-2
+
+[need material]
+	3821	1200
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	897	760
+
+[equipment magical attack]
+	812	688
+
+[separate attack]
+	520	336
+
+[skill levelup]
+	`[fighter]`	91	2
+	`[at fighter]`	91	2
+	`[fighter]`	1	4
+	`[at fighter]`	1	4
+	`[fighter]`	68	4
+	`[at fighter]`	68	4
+	`[fighter]`	37	2
+	`[at fighter]`	37	2
+[/skill levelup]
+
+[light attack]
+	15
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/bglove/bglove.img`	92
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability at pvp module]
+		80
+	[active status]
+		`stun`	120
+[/then]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[consume item]
+		3034	2
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		247
+[/then]
+
+[if]
+	[my appendage]
+		247
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[character]
+		`fighter`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		68
+		`%`	-100
+[/then]
+
+[if]
+	[my appendage]
+		247
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[character]
+		`at fighter`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		68
+		`%`	-100
+[/then]
+
+[if]
+	[my appendage]
+		247
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		248
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[skill data up]
+		`[fighter]`	1
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	68
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[skill data up]
+		`[fighter]`	68
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[skill data up]
+		`[at fighter]`	1
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	68
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[skill data up]
+		`[at fighter]`	68
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,40 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/light_destroy.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[FRONTSIDE]
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[stun]
+		100	99	8000
+[/BEHAVIOR]

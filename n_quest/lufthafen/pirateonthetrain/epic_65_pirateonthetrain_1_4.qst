@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5838
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	86	2	61192	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`擊敗海賊船長`
+
+[depend message]
+	`太好了！ 不過你能打敗海賊船長嗎？
+我知道你身手不錯， 但還沒強大到那個境界吧？ 可別白白丟了性命。
+呃， 你說已經打敗他好幾次了？ 嘖嘖， 真會吹牛！`
+
+[condition message]
+	`    前往海上列車的『列車上的海賊』, 擊敗黑鱗莫貝尼， 要求地下城難度為王者級。`
+
+[solve message]
+	`我……我只是開個玩笑而已。 難道你真的把船長干掉了？`
+
+[dialog]
+	0	0	15025	2	0	0	0
+	`<monster::61192>哪個家伙膽敢在我的列車上搗亂？ 是你嗎？
+哼， 這次就由我這鐵鱗海賊團的船長親自出馬， 好好教育教育你~`
+[/dialog]
+
+[dialog]
+	0	0	15026	2	0	0	0
+	`<monster::61192>哪個家伙膽敢在我的列車上搗亂？ 是你嗎？
+哼， 這次就由我這鐵鱗海賊團的船長親自出馬， 好好教育教育你~`
+[/dialog]
+
+[quest point]
+	4

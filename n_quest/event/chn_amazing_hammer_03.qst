@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20559
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	201	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2681917	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魔錘補償禮物 (3/3)`
+
+[depend message]
+	`咦？ 還有啊！
+沒想到你之前買了這么多魔錘， 不過還好沒有浪費。`
+
+[condition message]
+	`    收集1個[魔錘]交給賽麗亞。`
+
+[solve message]
+	`感謝你的理解和配合， 祝你好運！`

@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	1
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7841	7846	7849
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7844
+
+[name]
+	`轉職 - 召喚師 (1/3)`
+
+[depend message]
+	`據我所知， 想走召喚師之路的人都有和怪物溝通的能力。
+我聽說亡月雷鳴廢墟中有一些召喚獸還沒有主人， 可能是因為被黑暗力量侵蝕的緣故， 它們還會攻擊無辜的冒險家。
+如果你能征服它們， 就能和它們簽訂契約。
+不過， 再去那里之前， 你還要做一些準備。`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給莎蘭。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`有了這些材料就可以做出亡月之鏡了， 請稍等……
+做好了， 現在你可以進入亡月雷鳴廢墟了。`

@@ -1,0 +1,179 @@
+#PVF_File
+
+[name]
+	`思食怪劍`
+
+[basic explain]
+	`攻擊時以 2%%的機率對500px內的所有 敵人施展驅散效果
+得到驅散效果時5秒內進入出血狀態
+出血狀態的敵人攻擊時以30%% 的機率20%% 附加傷害
+不可解體`
+
+[detail explain]
+	`攻擊時以2%%機率向 500px內的所有敵人施展解體且被施加解體的敵人5秒內出現出血狀態每0.5秒以1000的攻擊力給予傷害。 （高於Lv79的對象得到的機率和效果減少，低於Lv79的對象則會增加）
+出血狀態的敵人 攻擊時以 30%% 的機率給予20%% 附加傷害
+不可解體`
+
+[grade]
+	79
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	52
+
+[cast speed]
+	20
+
+[need material]
+	3338	840
+
+[repair price]
+	106176
+
+[value]
+	101120
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	716	669
+
+[equipment magical attack]
+	867	810
+
+[separate attack]
+	450	305
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	94
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	23	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	23	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[routing priority]
+	`swordman`	4
+	`demonic swordman`	0
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[probability]
+		2
+	[disenchant]
+		1
+	[duration]
+		5000
+	[active status]
+		`bleeding`	79	10000
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		30
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

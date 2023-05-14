@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`風之女神`
+
+[basic explain]
+	`地下城內移動速度增加10%%`
+
+[grade]
+	72
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	68
+
+[anti evil]
+	10
+
+[magical attack]
+	29
+
+[magical defense]
+	72
+
+[attack speed]
+	30
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[need material]
+	3340	50
+
+[equipment magical defense]
+	6320	5920
+
+[icon]
+	`Item/common/necklace.img`	40
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`move speed`
+		`+`	100
+[/then]
+
+[possible kiri protect]

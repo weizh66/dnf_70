@@ -1,0 +1,79 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Nugol/bugboss.img`
+		27
+	[IMAGE POS]
+		-217	-270
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Nugol/bugboss.img`
+		27
+	[IMAGE POS]
+		-217	-270
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+	[ATTACK BOX]
+	-67	-30	-5	126	62	25
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Nugol/bugboss.img`
+		27
+	[IMAGE POS]
+		-217	-270
+	[IMAGE RATE]
+		1.5	1.5
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-67	-30	-5	126	62	25
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Nugol/bugboss.img`
+		27
+	[IMAGE POS]
+		-217	-270
+	[IMAGE RATE]
+		1.5	1.5
+	[DELAY]
+		2900
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Nugol/bugboss.img`
+		27
+	[IMAGE POS]
+		-215	-274
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Nugol/bugboss.img`
+		27
+	[IMAGE POS]
+		-215	-274
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		200

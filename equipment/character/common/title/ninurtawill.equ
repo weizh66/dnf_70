@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`尼努爾塔神的意誌`
+
+[basic explain]
+	`  暴擊時， 增加8%%的傷害。
+  裝備後， 增加5%%的物理暴擊、 魔法暴擊以及3%%的攻擊速度、 施放速度和移動速度， 效果持續30秒。`
+
+[detail explain]
+	`  暴擊時， 增加8%%的傷害。 (在決鬥場效果減半)
+  裝備後， 增加5%%的物理暴擊、 魔法暴擊以及3%%的攻擊速度、 施放速度和移動速度， 效果持續30秒。 (冷卻時間為40秒)`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[sub type]
+	0
+
+[equipment physical attack]
+	30	30
+
+[equipment magical attack]
+	30	30
+
+[separate attack]
+	56	56
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[stuck]
+	-2
+
+[stuck resistance]
+	20
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[HP regen speed]
+	40
+
+[MP regen speed]
+	8
+
+[physical critical hit]
+	8.0
+
+[magical critical hit]
+	8.0
+
+[all elemental attack]
+	12
+
+[room list move speed rate]
+	0.2
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	8
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	4
+	[/then]
+[/pvp]
+
+[if]
+	[time]
+		40000	1	40000
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		100
+	[stat]
+		`physical critical hit`
+		`+`	5
+	[stat]
+		`magical critical hit`
+		`+`	5
+	[stat]
+		`attack speed`
+		`+`	30
+	[stat]
+		`cast speed`
+		`+`	30
+	[stat]
+		`move speed`
+		`+`	30
+[/then]
+
+[icon]
+	`Item/Title/title.img`	118
+
+[custom animation]
+	`TitleAnimation/ninurtawill.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1

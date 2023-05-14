@@ -1,0 +1,31 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/distance_smell_Basic_0.ani`
+	[SOUND]
+		`MELTADOROC_MARBLE_GAS`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			50
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	11
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	0
+
+[int data]
+	11006	-1	1800
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`挑戰無盡的祭壇`
+
+[depend message]
+	`喂！ 你知道無盡的祭壇嗎？ 聽說那里每天都會發生激烈的戰斗。
+我不認識什么死神啊那些亂七八糟的東西， 但是聽到有人打架， 我就不由自主地熱血沸騰了。
+身為冒險家， 你是不是也應該去看看？
+雖然去那悠閑地逛逛也不錯， 但既然都去了那里， 不攪個天翻地覆不是太可惜了嗎？
+還有最好再限制下時間， 那樣我覺得會更刺激！ 怎么樣， 敢不敢試試？`
+
+[condition message]
+	`    在30分鐘內， 通關亡者峽谷的『無盡的祭壇』。`
+
+[solve message]
+	`我看人的眼光一向很準， 你的確是一個實力不錯的戰斗高手！`

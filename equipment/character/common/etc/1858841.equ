@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`元素之魂效果`
+
+[explain]
+	`每30秒消耗[元素粒子]*3，增加25%%的武器物理攻擊力、 魔法攻擊力和獨立攻擊力， 效果持續30秒。`
+
+[grade]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`Item/stackable/consumption.img`	1311
+
+[equipment type]
+	`[coat]`	14
+
+[cool time]
+	30000
+
+[if]
+	[time]
+		30000	1	1000
+	[module]
+		`[dungeon type]`
+	[/module]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3989402	3
+	[duration]
+		30000
+	[stat]
+		`equipment physical attack`
+		`%`	20
+	[stat]
+		`equipment magical attack`
+		`%`	20
+	[stat]
+		`separate attack`
+		`%`	20
+	[speech on]
+		0	2000
+		`開始注入元素之力！`
+	[/speech on]
+	[appendage]
+		372
+[/then]

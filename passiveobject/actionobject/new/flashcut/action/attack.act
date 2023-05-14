@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/flashcutatk_body.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700058
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	81
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

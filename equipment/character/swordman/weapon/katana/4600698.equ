@@ -1,0 +1,242 @@
+#PVF_File
+
+[name]
+	`封·三一真神`
+
+[basic explain]
+	`    攻擊時， 有33%%的幾率附加33%%的傷害。
+    攻擊時， 有3%%的幾率附加333%%的傷害。
+    攻擊時， 有33%%的幾率使自身增加3%%的攻擊速度、 3%%的移動速度和3.3%%的施放速度， 效果持續33秒。
+    施放技能時， 有33%%的幾率使冷卻時間最長的技能的冷卻時間初始化。
+    HP為33%%以上時， 被攻擊時有33%%的幾率向敵人返還3333%%的傷害。`
+
+[detail explain]
+	`    攻擊時， 有33%%的幾率附加33%%的傷害。
+    攻擊時， 有3%%的幾率附加333%%的傷害。
+    攻擊時， 有33%%的幾率使自身增加3%%的攻擊速度、 3%%的移動速度和3.3%%的施放速度， 效果持續33秒。 （冷卻時間33秒； 最多重疊3次； 解除裝備後效果消失）
+    施放技能時， 有33%%的幾率使冷卻時間最長的技能的冷卻時間初始化。 （冷卻時間33秒）
+    HP為33%%以上時， 被攻擊時有33%%的幾率向敵人返還3333%%的傷害。 （冷卻時間33秒）`
+
+[flavor text]
+	`    強化的時候拜什麼神明都沒用，只有信凱利才會得到永生——某位裝備已連碎幾次的冒險家`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[magical attack]
+	97
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	957	825
+
+[equipment magical attack]
+	1058	915
+
+[separate attack]
+	618	411
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/katana/katana.img`	116
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	44	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	44	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		33
+	[add absolute damage]
+		`all`
+		`%`	33
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		300
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[add absolute damage]
+		`all`
+		`%`	333
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		33
+	[equipment duration]
+		33000
+	[appendage]
+		337
+[/then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		33000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		33
+	[skill cooltime reset]
+		0
+		``	2
+[/then]
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		3000
+	[hit]
+		1
+	[stat change]
+		`hp`
+		`>`
+		`%`	33
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		33
+	[thorn]
+		3333
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`神之怒擊矽鋼胸甲 : [疾空旋風破]`
+
+[basic explain]
+	`[疾空旋風破]攻擊力 +7%%`
+
+[flavor text]
+	`    收集[惡魔結晶]可以對2期勇者裝備進行改造， 提升裝備的基本攻擊力、 防御力和基本屬性； Lv70以上的角色可以穿戴。 (需消耗杜羅西處出售的勇者裝備改造券)`
+
+[grade]
+	58
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ha coat`
+
+[rarity]
+	5
+
+[anti evil]
+	33
+
+[weight]
+	3600
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/common/coat.img`	149
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	3
+
+[durability]
+	40
+
+[repair price]
+	58464
+
+[value]
+	5800
+
+[cool time]
+	10000
+
+[HP MAX]
+	84
+
+[MP MAX]
+	38
+
+[physical attack]
+	33
+
+[physical defense]
+	25
+
+[magical attack]
+	20
+
+[equipment physical defense]
+	3024	2880
+
+[MP regen speed]
+	2
+
+[attack speed]
+	15
+
+[hit recovery]
+	12
+
+[skill data up]
+	`[priest]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	7
+	`[priest]`	5
+	`[dungeon type]`
+	`[level]`	1
+	`%`	7
+[/skill data up]
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[emancipate]
+	[input]
+		3290	25
+	[/input]
+	[output]
+		130133	1
+	[/output]
+	[emancipate explain]
+		`物防小幅增加
+屬性小幅提升
+提升HP、 MP最大值`
+[/emancipate]
+
+[possible kiri protect]

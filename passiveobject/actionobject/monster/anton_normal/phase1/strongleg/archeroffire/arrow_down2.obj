@@ -1,0 +1,23 @@
+#PVF_File
+
+[name]
+	`狙?手的箭矢`
+
+[basic action]
+	`Action/arrow_Basic_down2.act`
+
+[etc action]
+	`Action/arrow_Basic_0.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/arrow_Basic.atk`
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+[/object destroy condition]

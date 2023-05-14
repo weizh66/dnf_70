@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`傳承 : 智慧女神的蒔芽胸甲`
+
+[grade]
+	7
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	5
+
+[physical attack]
+	7
+
+[magical attack]
+	4
+
+[HP MAX]
+	35
+
+[price]
+	6300
+
+[repair price]
+	5040
+
+[value]
+	5040
+
+[equipment physical defense]
+	360	288
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/IconArmor.img`	7
+
+[field image]
+	`Item/field_equip.img`	5
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`傳承 : 智慧女神的蒔芽輕甲  套裝`
+
+[set item]
+	10877	12877
+[/set item]
+
+[set ability]
+	[HP MAX]
+		75
+	[physical attack]
+		8
+	[magical attack]
+		8
+	[physical defense]
+		7
+	[magical defense]
+		7
+	[fullset basic explain]
+		`    進入地下城時， 因傳承的祝福可以使自身增加3%%的移動速度。`
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`move speed`
+			`+`	30
+	[/then]
+[/set ability]
+
+[possible kiri protect]

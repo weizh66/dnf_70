@@ -1,0 +1,125 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	50
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gun blader]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gun blader]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[gun blader]`	60
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[穿透射擊]攻擊力 +10%%
+[劍刃突刺]攻擊力 +10%%
+[掩護射擊]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	59
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[gun blader]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gun blader]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[gun blader]`	63
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[gun blader]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	61
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[gun blader]`	61
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[gun blader]`	61
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[gun blader]`	61
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[掩護射擊]攻擊力 +15%%
+[利刃旋斬]攻擊力 +10%%
+[利刃旋斬]冷卻時間 -20%%
+[輪盤連射]攻擊力 +15%%
+[輪盤連射]冷卻時間 -20%%
+[戰術指示]技能攻擊力增加量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	60
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-4
+		`[gun blader]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[gun blader]`	60
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[gun blader]`	67
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	67
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+		`[gun blader]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	68
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+	[/skill data up]
+	[parameter basic explain]
+		`[劍刃突刺]刪除突刺攻擊
+[劍刃突刺]最后橫斬和射擊攻擊力 +50%%
+[全方位射擊]冷卻時間 -30%%
+[全方位射擊]無色小晶塊消耗量 -1
+[回旋飛劍]冷卻時間 -30%%
+[回旋飛劍]無色小晶塊消耗量 -1`
+[/piece set ability]

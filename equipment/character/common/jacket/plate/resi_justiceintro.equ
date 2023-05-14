@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	`正義守護胸甲`
+
+[grade]
+	32
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[creation rate]
+	200
+
+[physical attack]
+	14
+
+[physical defense]
+	15
+
+[magical attack]
+	14
+
+[price]
+	38400
+
+[repair price]
+	30720
+
+[value]
+	30720
+
+[equipment physical defense]
+	2100	1980
+
+[skill levelup]
+	`[priest]`	41	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	138
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`正義守護戰甲  套裝`
+
+[set item]
+	11293	13293	15283	19287	17281
+[/set item]
+
+[set ability]
+	[physical defense]
+		8
+	[attack speed]
+		10
+	[if]
+		[cooltime]
+			32000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			20000
+		[probability]
+			1
+		[active status]
+			`curse`	33	30	30	30	30
+	[/then]
+	[fullset basic explain]
+		`攻擊時以1%%的機率讓敵人陷入眩暈狀態`
+	[fullset detail explain]
+		`攻擊時以1%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少30，體力減少30，智能減少30，精神力減少30。(若敵人高於Lv33，則減少進入異常狀態的機率和效果；反之，則增加機率和效果。)`
+[/set ability]
+
+[possible kiri protect]

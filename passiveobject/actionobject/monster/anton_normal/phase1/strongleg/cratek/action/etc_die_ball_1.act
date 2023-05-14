@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_die_ball_1_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_die_ball_1_2.ani`	0	-1
+		`../Animation/Etc_die_ball_1_1.ani`	0	1
+	[/SUB ANI]
+	[SOUND]
+		`KRATECK_SPHERE_LOOP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET USE HOMING]
+		1
+	[SET POSITION HP GAUGE]
+		0	0	370
+[/BEHAVIOR]

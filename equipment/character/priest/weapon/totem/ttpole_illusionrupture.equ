@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`破裂幻影圖騰`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入減速狀態。
+攻擊速度增加2%%`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人10秒內呈現鈍化狀態，移動速度減少14%%，攻擊速度減少14%%。 (若敵人高於Lv55，則減少進入異常狀態的機率；反之，則增加機率。)
+攻擊速度 +2%%`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	56
+
+[attack speed]
+	20
+
+[stuck]
+	-2
+
+[price]
+	82600
+
+[repair price]
+	69384
+
+[value]
+	330400
+
+[equipment physical attack]
+	533	517
+
+[equipment magical attack]
+	457	443
+
+[separate attack]
+	256	173
+
+[skill levelup]
+	`[priest]`	78	1
+	`[priest]`	35	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/priest/totem.img`	40
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	8	2
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`slow`	55	14	14
+[/then]
+
+[possible kiri protect]

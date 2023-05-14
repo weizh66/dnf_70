@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`封印的大魔法師武器寶箱`
+	
+
+[explain]
+	`40等級的+10武器正沉睡著。角色等級40時，可用成長的武器獻祭並喚醒+10武器。`
+	
+
+[flavor text]
+	`男魔法師上市活動`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/stackable/consumption_tw.img`	40
+
+[stackable type]
+	`[upgrade limit cube]`	0
+
+[upgrade limit cube info]
+	[A condition item]
+		606010002	1	606030002	1	606010002	1
+	[/A condition item]
+	[B condition item]
+		3037	1
+	[result item]
+		690000278	1	5000
+	[/result item]
+[/upgrade limit cube info]
+
+[move wav]
+	`BONE_TOUCH`
+
+[string data]
+	`該道具無法使用，請放入成長的武器。`
+	
+[/string data]
+
+[expiration date]
+	1372305600

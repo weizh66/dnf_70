@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`銀色武斗勇士頭冠`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_ahair.img`	342
+
+[equipment type]
+	`[hair avatar]`	0
+
+[variation]
+	102	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30002
+
+[cast speed]
+	120
+
+[physical defense]
+	10
+
+[avatar func filter]
+	2

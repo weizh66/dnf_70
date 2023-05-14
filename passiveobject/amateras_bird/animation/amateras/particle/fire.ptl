@@ -1,0 +1,37 @@
+#PVF_File
+
+[x axis]
+
+[move type]
+	`[sin]`
+
+[move variable 1]
+	6	0
+
+[move variable 2]
+	1500	0
+
+[random range]
+	100
+
+[gravity]
+	-50
+
+[create area size]
+	400	10	230
+
+[creation frequency]
+	-1
+
+[maximum create number]
+	30
+
+[life time]
+	1500
+
+[object type]
+	`[animation]`
+
+[object]
+	`Amateras_particle_dodge.ani`	-1
+[/object]

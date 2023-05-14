@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	13
+
+[complete npc index]
+	9
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20517
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	9
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680365	1
+[/reward int data]
+
+[name]
+	`新年快樂 <3/5>`
+
+[depend message]
+	`冒險家， 還有一個人等你拜年呢。
+聽說他在后巷做生意……`
+
+[condition message]
+	`    找赫頓瑪爾的夏洛克拜年。`
+
+[solve message]
+	`嘿嘿嘿……冒險家， 恭喜發財~還有新年到了， 要多光顧我的店鋪哦~嘿嘿……`

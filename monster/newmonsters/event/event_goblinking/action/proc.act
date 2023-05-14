@@ -1,0 +1,14 @@
+#PVF_File
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[DO PROC BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DAMAGE BOX]
+	[OFF]
+[/BEHAVIOR]

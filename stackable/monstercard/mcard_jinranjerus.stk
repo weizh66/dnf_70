@@ -1,0 +1,82 @@
+#PVF_File
+
+[name]
+	`真： 蘭蒂盧斯卡片`
+	
+
+[flavor text]
+	`向前突擊！`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	172
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[support]`
+[/string data]
+
+[int data]
+	172	61780
+[/int data]
+
+[enchant]
+	[if]
+		[cooltime]
+			90000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			30000
+		[probability]
+			1
+		[active status]
+			`bless`	1	300	300	300	300
+	[/then]
+[/enchant]
+
+[stat desc]
+	`攻擊時以1%%的機率使自身進入祝福狀態30秒（力量/體力/智力/精神 + 300，冷卻時間 90秒）`
+	
+
+[item category]
+	`monster card`
+[/item category]

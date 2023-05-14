@@ -1,0 +1,65 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-247	-53
+	[RGBA]
+		24	200	120	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME001]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Meltdown/Old_town/Sonic_Wolfnetsyu/SummonArea.img`
+		0
+	[IMAGE POS]
+		-247	-53
+	[RGBA]
+		24	200	120	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+
+[FRAME002]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Meltdown/Old_town/Sonic_Wolfnetsyu/SummonArea.img`
+		1
+	[IMAGE POS]
+		-247	-53
+	[RGBA]
+		24	200	120	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Meltdown/Old_town/Sonic_Wolfnetsyu/SummonArea.img`
+		2
+	[IMAGE POS]
+		-247	-53
+	[RGBA]
+		24	200	120	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

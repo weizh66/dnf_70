@@ -1,0 +1,137 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[knight]`	135
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[龍拳]攻擊力 +20%%
+[龍拳]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[knight]`	135
+		`[dungeon type]`
+		`[static]`	29
+		`%`	40
+		`[knight]`	138
+		`[dungeon type]`
+		`[static]`	18
+		`+`	1
+		`[knight]`	138
+		`[dungeon type]`
+		`[level]`	2
+		`%`	100
+		`[knight]`	138
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[龍拳]攻擊力 +30%%
+[龍拳]空中使用時的沖擊波范圍 +40%%
+[飛龍斬]刪除上斬， 上斬攻擊力 +100%%， 冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	138
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[knight]`	138
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	4
+		`%`	50
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	7
+		`%`	50
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	8
+		`%`	50
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	9
+		`%`	50
+		`[knight]`	145
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1000
+		`[knight]`	145
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1000
+		`[knight]`	145
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[飛龍斬]上斬攻擊力 +30%%
+[飛龍斬]冷卻時間 -15%%
+[龍皇制裁]攻擊力 +50%%
+[龍皇制裁]冷卻時間 -30%%
+[龍皇制裁]對不可抓取敵人的束縛時間 +1秒
+[龍皇制裁]無色小晶塊消耗量 +1`
+[/piece set ability]

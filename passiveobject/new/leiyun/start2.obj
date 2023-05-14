@@ -1,0 +1,25 @@
+#PVF_File
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/loopmove.act`
+
+[etc action]
+	`action/LOOP2.act`
+[/etc action]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	3000
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	250114
+[/object destroy condition]

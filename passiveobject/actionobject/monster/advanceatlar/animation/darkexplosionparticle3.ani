@@ -1,0 +1,48 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Common/CommonEffect/FireExplosion.img`
+		3
+	[IMAGE POS]
+		-53	-47
+	[IMAGE RATE]
+		0.30000001192092896	0.30000001192092896
+	[RGBA]
+		200	10	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		300
+
+[FRAME001]
+	[IMAGE]
+		`Common/CommonEffect/FireExplosion.img`
+		3
+	[IMAGE POS]
+		-53	-47
+	[IMAGE ROTATE]
+		0.20000000298023224
+	[RGBA]
+		0	0	0	120
+	[INTERPOLATION]
+		1
+	[DELAY]
+		400
+
+[FRAME002]
+	[IMAGE]
+		`Common/CommonEffect/FireExplosion.img`
+		3
+	[IMAGE POS]
+		-53	-47
+	[IMAGE ROTATE]
+		0.30000001192092896
+	[RGBA]
+		0	0	0	0
+	[INTERPOLATION]
+		1

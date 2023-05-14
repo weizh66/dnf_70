@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`動物王國 （獨角獸）`
+
+[explain]
+	`    攻擊或施放技能時， 有1%%的幾率附加冰屬性， 效果持續40秒。`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	252
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/animalworld_unicorn.ani`
+[/custom animation]
+
+[HP MAX]
+	200
+
+[physical attack]
+	18
+
+[magical attack]
+	18
+
+[all elemental resistance]
+	10
+
+[all activestatus resistance]
+	10
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		1
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		1
+	[elemental weapon]
+		`water`
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[fire attack]
+	8
+
+[water attack]
+	8
+
+[light attack]
+	8
+
+[dark attack]
+	8

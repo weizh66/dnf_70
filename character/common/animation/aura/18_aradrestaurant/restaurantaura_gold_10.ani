@@ -1,0 +1,41 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character\Common\Aura\18_aradrestaunt/SpinFloor.img`
+		0
+	[IMAGE POS]
+		-172	-176
+	[IMAGE RATE]
+		1.0	0.30000001192092896
+	[RGBA]
+		255	190	10	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		2400
+
+[FRAME001]
+	[IMAGE]
+		`Character\Common\Aura\18_aradrestaunt/SpinFloor.img`
+		0
+	[IMAGE POS]
+		-172	-176
+	[IMAGE RATE]
+		1.0	0.30000001192092896
+	[IMAGE ROTATE]
+		1.2400000095367432
+	[RGBA]
+		255	190	10	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DAMAGE TYPE]
+		`NORMAL`

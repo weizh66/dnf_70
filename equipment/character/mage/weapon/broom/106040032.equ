@@ -1,0 +1,200 @@
+#PVF_File
+
+[name]
+	`手工掃把`
+
+[basic explain]
+	`蒼蠅拍，超級蒼蠅拍技能的失敗率減少10%%，大成功率增加10%% 
+攻擊時以 1%%的機率15秒內隕石墜落，冰雪板，風暴消耗量減少30%% 
+攻擊時敵人 10%% 附加傷害`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[magical attack]
+	56
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[price]
+	153000
+
+[repair price]
+	128520
+
+[value]
+	122400
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	824	764
+
+[equipment magical attack]
+	906	840
+
+[separate attack]
+	504	343
+
+[skill levelup]
+	`[mage]`	95	2
+	`[mage]`	115	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/mage/broom/broom.img`	78
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	27	1
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	27	1
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	4
+[/routing priority]
+
+[required skill]
+	91
+
+[skill data up]
+	`[mage]`	95
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	95
+	`[all]`
+	`[static]`	2
+	`+`	100
+	`[mage]`	115
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	115
+	`[all]`
+	`[static]`	2
+	`+`	100
+[/skill data up]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		1
+	[duration]
+		10000
+	[skill data up]
+		`[creator mage]`	133
+		`[all]`
+		`[static]`	2
+		`%`	-30
+		`[creator mage]`	136
+		`[all]`
+		`[static]`	1
+		`%`	-30
+		`[creator mage]`	249
+		`[all]`
+		`[static]`	2
+		`%`	-30
+	[/skill data up]
+[/then]
+
+[possible kiri protect]

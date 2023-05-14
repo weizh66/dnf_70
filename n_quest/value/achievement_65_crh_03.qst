@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	7654
+[/pre required quest]
+
+[enemy reward item]
+	61192	1	86	2	4462	1	15	1
+[/enemy reward item]
+
+[quest point]
+	4
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4462	1	3299	16	3166	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	22182	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7656
+
+[name]
+	`勇者 - 決戰使徒前的準備 (手鐲)`
+
+[depend message]
+	`沒想到空空伊身上的戒指這么神奇！
+如果你還想給其它部位的勇者裝備加注抗魔力的話， 可以按照同樣的方法制作。
+聽說列車上的海賊船長莫貝尼藏有一個閃閃發亮的手鐲……我覺得我們可以‘借’來用用。`
+
+[condition message]
+	`    前往海上列車的『列車上的海賊』， 收集[莫貝尼的手鐲]和以下材料， 要求地下城難度為王者級。 (莫貝尼的手鐲可以從莫貝尼身上獲得)`
+
+[solve message]
+	`果然是個不錯的手鐲。 請稍等一下……看來， 它已經擁有了強大的抗魔能力。`

@@ -1,0 +1,43 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Shock_Bottom/Shock_Bottom.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		-299999999
+	[POINT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

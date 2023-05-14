@@ -1,0 +1,92 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	12
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	12
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[幻劍術]物理攻擊力 +20%%
+[幻劍術]沖擊波攻擊力 +20%%
+[雷鳴千軍破]斬擊物理攻擊力 +20%%
+[雷鳴千軍破]爆炸攻擊力 +20%%
+[雷鳴千軍破]沖擊波攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`+`	-2
+		`[at swordman]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-70
+		`[at swordman]`	12
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[static]`	4
+		`+`	8
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[幻劍術]攻擊次數 -2
+[幻劍術]冷卻時間 -70%%
+[幻劍術]沖擊波攻擊力 +10%%
+[雷鳴千軍破]從地面召喚的巨劍數量 +8
+[雷鳴千軍破]無色小晶塊消耗量 +1
+[雷鳴千軍破]沖擊波攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2
+		`[at swordman]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[幻劍術]斬擊次數 +2
+[幻劍術]冷卻時間 -50%%
+[雷鳴千軍破]冷卻時間 -30%%`
+[/piece set ability]

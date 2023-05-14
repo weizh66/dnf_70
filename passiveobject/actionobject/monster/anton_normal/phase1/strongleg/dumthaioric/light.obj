@@ -1,0 +1,21 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	1
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	500000000
+
+[basic action]
+	`Action/light_start.act`
+
+[etc action]
+	`Action/light_loop.act`
+	`Action/light_destroy.act`
+[/etc action]

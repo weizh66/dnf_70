@@ -1,0 +1,24 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATHorror/04_Attack02/Attack_02/AtHorror_Attack_02.ani`
+
+[attack info]
+	`AttackInfo/ATPositronCrack.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	710028
+[/object destroy condition]

@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`混沌王牌 : 麥瑟·莫納亨`
+
+[explain]
+	`    使用後， 會消耗1個白色小晶塊和1個無色小晶塊並召喚出Lv49的麥瑟·莫納亨協助自身戰鬥， 麥瑟·莫納亨存在60秒。 (即使回到城鎮， 也不會初始化該道具的冷卻時間)`
+
+[flavor text]
+	`    “這是用我自己的魔雷之力做出的牌， 在這裡簽字後， 你無論在哪裡都可以跟我聊天了。 呃， 但感覺還是有點問題……”  --麥瑟·莫納亨`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	241
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	360000
+
+[cooltime group]
+	101
+
+[cooltime maintenance]
+	1	1	1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[consume item]
+	3037	10	3034	1
+[/consume item]
+
+[monster summons]
+	61335	49	49	60000	1

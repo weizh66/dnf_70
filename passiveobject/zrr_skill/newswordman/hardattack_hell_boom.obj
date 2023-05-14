@@ -1,0 +1,18 @@
+#PVF_File
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[layer]
+	`[normal]`
+
+[basic motion]
+	`animation/slashofhell/slashofhell_boom_dodge.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

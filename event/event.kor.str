@@ -1,0 +1,871 @@
+// ??????? ??? ??? ??
+
+// ??? ??? ???
+event_id_1_start>疲勞度無限活動開始。
+event_id_1_ing>疲勞度無限活動進行中。
+event_id_1_end>疲勞度無限活動結束。
+
+event_id_2_start>最高疲勞度活動開始。
+event_id_2_ing>最高疲勞度活動進行中。
+event_id_2_end>最高疲勞度活動結束。
+
+event_id_3_start>經驗值加倍活動開始。
+event_id_3_ing>經驗值加倍活動進行中。- 成長秘藥類道具使用效果結束，活動進行中無法使用成長秘藥類道具。
+event_id_3_end>經驗值加倍活動結束。
+
+event_id_4_start>LEVEL UP！ 等級支援活動開始。
+event_id_4_ing>LEVEL UP！ 等級支援活動進行中。
+event_id_4_end>LEVEL UP！ 等級支援活動結束。
+
+event_id_5_start>DNF好友團大募集開始。
+event_id_5_ing>DNF好友團大募集進行中。
+event_id_5_end>DNF好友團大募集結束。
+
+event_id_6_start>DNF創世紀活動開始。
+event_id_6_ing>DNF創世紀活動進行中。
+event_id_6_end>DNF創世紀活動結束。
+
+event_id_7_start>掉寶率加倍活動開始。
+event_id_7_ing>掉寶率加倍活動進行中。
+event_id_7_end>掉寶率加倍活動結束。
+
+event_id_8_start>網咖燃燒時間活動開始。
+event_id_8_ing>網咖燃燒時間活動進行中。- 成長秘藥類道具使用效果結束，活動進行中無法使用成長秘藥類道具。
+event_id_8_end>網咖燃燒時間活動結束。
+
+event_id_9_start>公會戰活動開始。
+event_id_9_ing>公會戰活動進行中。
+event_id_9_end>公會戰活動結束。
+
+event_id_10_start>網咖疲勞度無限活動開始。
+event_id_10_ing>網咖疲勞度無限活動進行中。
+event_id_10_end>網咖疲勞度無限活動結束。
+
+event_id_12_start>土罐改版活動開始。
+event_id_12_ing>土罐改版活動進行中。
+event_id_12_end>土罐改版活動結束。
+
+event_id_13_start>貨幣充值活動開始。
+event_id_13_ing>貨幣充值活動進行中。
+event_id_13_end>貨幣充值活動結束。
+
+event_id_15_start>燃燒疲勞度活動開始了。
+event_id_15_ing>燃燒疲勞度活動進行中。- 成長秘藥類道具使用效果結束，活動進行中無法使用成長秘藥類道具。
+event_id_15_end>燃燒疲勞度活動結束。
+
+event_id_16_start>金幣卡多一張活動開始。
+event_id_16_ing>金幣卡多一張活動進行中。
+event_id_16_end>金幣卡多一張活動結束了。
+
+event_id_17_start>塞拉商店獎勵活動開始。
+event_id_17_ing>塞拉商店獎勵活動進行中。
+event_id_17_end>塞拉商店獎勵活動結束。
+
+event_id_19_start>金幣卡活動開始。
+event_id_19_ing>金幣卡活動進行中。
+event_id_19_end>金幣卡活動結束。
+
+event_id_22_start>網咖禮卷活動開始。
+event_id_22_ing>網咖禮卷活動進行中。
+event_id_22_end>網咖禮卷活動結束。
+
+event_id_24_start>隊伍經驗值獎勵活動開始。
+event_id_24_ing>隊伍經驗值獎勵活動進行中。
+event_id_24_end>隊伍經驗值獎勵活動結束。
+
+event_id_26_start>角色熱戰獎勵活動開始。
+event_id_26_ing>角色熱戰獎勵活動進行中。
+event_id_26_end>角色熱戰獎勵活動結束。
+
+event_id_29_start>網咖結果卡活動開始。
+event_id_29_ing>網咖結果卡活動進行中。
+event_id_29_end>網咖結果卡活動結束。
+
+event_id_30_start>勢力戰開始。
+event_id_30_ing>勢力戰進行中。
+event_id_30_end>勢力戰結束。
+
+event_id_36_start>布林好 Fun 送！活動開始。
+event_id_36_ing>布林好 Fun 送！活動進行中。
+event_id_36_end>布林好 Fun 送！活動結束。
+
+event_id_38_start>免費創建公會活動開始。
+event_id_38_ing>免費創建公會活動進行中。
+event_id_38_end>免費創建公會活動結束。
+
+event_id_39_start>死亡之塔、未亡之塔點數 2倍活動開始。
+event_id_39_ing>死亡之塔、未亡之塔點數 2倍活動進行中。
+event_id_39_end>死亡之塔、未亡之塔點數 2倍活動結束。
+
+event_id_40_start>巴爾肯指數自由活動開始。
+event_id_40_ing>巴爾肯指數自由活動進行中。
+event_id_40_end>巴爾肯指數自由活動結束。
+
+event_id_41_start>角色日活動開始。
+event_id_41_ing>角色日活動進行中。
+event_id_41_end>角色日活動結束。
+
+event_id_42_start>禁止戰鬥活動開始。
+event_id_42_ing>禁止戰鬥活動進行中。
+event_id_42_end>禁止戰鬥活動結束。
+
+event_id_43_start>神蹟降臨 ~ 勇者實力倍增 ！開始了。
+event_id_43_ing>神蹟降臨 ~ 勇者實力倍增 ！進行中。
+event_id_43_end>神蹟降臨 ~ 勇者實力倍增 ！結束了。
+
+event_id_45_start>無限祭壇活動開始。
+event_id_45_ing>無限祭壇活動進行中。
+event_id_45_end>無限祭壇活動結束。
+
+event_id_48_start>新學期活動第二彈開始。- 網咖專用活動
+event_id_48_ing>新學期活動第二彈進行中。- 網咖專用活動
+event_id_48_end>新學期活動第二彈結束。
+
+event_id_49_start>限制創角活動開始。
+event_id_49_ing>限制創角活動進行中。
+event_id_49_end>限制創角活動結束。
+
+event_id_50_start>強化費用優惠活動開始。
+event_id_50_ing>強化費用優惠活動進行中。
+event_id_50_end>強化費用優惠活動結束。
+
+event_id_51_start>準時活動開始。
+event_id_51_ing>準時活動進行中。
+event_id_51_end>準時活動結束。
+
+event_id_53_start>勢力戰勝利勢力獲得隨機增益已啟動。
+event_id_53_ing>勢力戰勝利勢力獲得隨機增益進行中。
+event_id_53_end>勢力戰勝利勢力獲得隨機增益結束。
+
+event_id_54_start>決鬥場經驗值懲罰活動開始。
+event_id_54_ing>決鬥場經驗值懲罰活動進行中。
+event_id_54_end>決鬥場經驗值懲罰活動結束。
+
+event_id_55_start>整合決鬥場 LIVE活動開始。
+event_id_55_ing>整合決鬥場 LIVE活動進行中。
+event_id_55_end>整合決鬥場 LIVE活動結束。
+
+event_id_57_start>DNF聯賽線上預選系統開始。
+event_id_57_ing>DNF聯賽線上預選系統進行中。
+event_id_57_end>DNF聯賽線上預選系統結束。
+
+event_id_58_start>秘密商店活動開始。
+event_id_58_ing>秘密商店活動進行中。
+event_id_58_end>秘密商店活動結束。
+
+event_id_59_start>大海的勇者活動開始。
+event_id_59_ing>大海的勇者活動進行中。
+event_id_59_end>大海的勇者活動結束。
+
+event_id_60_start>任務自動完成活動開始。
+event_id_60_ing>任務自動完成活動進行中。
+event_id_60_end>任務自動完成活動結束。
+
+event_id_61_start>DNF聯賽宣傳活動開始。
+event_id_61_ing>DNF聯賽宣傳活動進行中。
+event_id_61_end>DNF聯賽宣傳活動結束。
+
+event_id_64_start>金幣卡 2倍活動開始。
+event_id_64_ing>金幣卡 2倍活動進行中。
+event_id_64_end>金幣卡 2倍活動結束。
+
+event_id_65_start>附加金幣卡活動開始。與歸還者組隊時隨機出現。
+event_id_65_ing>附加金幣卡活動進行中。與歸還者組隊時隨機出現。
+event_id_65_end>附加金幣卡活動結束。與歸還者組隊時隨機出現。
+
+event_id_66_start>秘密商店活動開始。
+event_id_66_ing>秘密商店活動進行中。
+event_id_66_end>秘密商店活動結束。
+
+event_id_68_start>男格鬥家 12強兌換活動開始。
+event_id_68_ing>男格鬥家 12強兌換活動進行中。
+event_id_68_end>男格鬥家 12強兌換活動結束。
+
+event_id_86_start>出席紀錄活動開始。
+event_id_86_ing>出席紀錄活動進行中。
+event_id_86_end>出席紀錄活動結束。
+
+event_id_92_start>網咖夏日商城兌換活動開始。- 網咖專用活動
+event_id_92_ing>網咖夏日商城兌換活動進行中。- 網咖專用活動
+event_id_92_end>網咖夏日商城兌換活動結束。
+
+event_id_93_start>升級活動開始。
+event_id_93_ing>升級活動進行中。
+event_id_93_end>升級活動結束。
+
+event_id_94_start>異界地下城的四件事活動開始。
+event_id_94_ing>異界地下城的四件事活動進行中。
+event_id_94_end>異界地下城的四件事活動結束。
+
+event_id_95_start>龍魔杖活動開始。
+event_id_95_ing>龍魔杖活動進行中。
+event_id_95_end>龍魔杖活動結束。
+
+event_id_96_start>潘朵拉魔盒活動開始了。
+event_id_96_ing>潘朵拉魔盒活動正在進行中。
+event_id_96_end>潘朵拉魔盒活動結束了。
+
+event_id_97_start>解除70級經驗值活動開始。
+event_id_97_ing>解除70級經驗值活動進行中。
+event_id_97_end>解除70級經驗值活動結束。
+
+event_id_98_start>準時活動第二季開始。
+event_id_98_ing>準時活動第二季進行中。
+event_id_98_end>準時活動第二季結束。
+
+event_id_99_start>新手活動開始。
+event_id_99_ing>新手活動進行中。
+event_id_99_end>新手活動結束。
+
+event_id_100_start>突破黑暗的成長活動開始了。
+event_id_100_ing>突破黑暗的成長活動進行中。
+event_id_100_end>突破黑暗的成長活動結束了。
+
+//event_id_101_start>網咖疲勞度消耗活動開始。- 網咖專用活動
+//event_id_101_ing>網咖疲勞度消耗活動進行中。- 網咖專用活動
+//event_id_101_end>網咖疲勞度消耗活動結束了。
+
+event_id_101_start>男魔法師上市活動開始。
+event_id_101_ing>男魔法師上市活動進行中。
+event_id_101_end>男魔法師上市活動結束了。
+
+event_id_104_start>創建外傳角色活動開始。
+event_id_104_ing>創建外傳角色活動進行中。
+event_id_104_end>創建外傳角色活動結束。
+
+event_id_105_start>LUCKY?DNF 7th活動開始。
+event_id_105_ing>LUCKY?DNF 7th活動進行中。
+event_id_105_end>LUCKY?DNF 7th活動結束。
+
+event_id_106_start>DNF開學季賓果活動開始了。
+event_id_106_ing>DNF開學季賓果活動正在進行中。
+event_id_106_end>DNF開學季賓果活動結束了。
+
+event_id_107_start>下課後的On Time活動開始了。
+event_id_107_ing>下課後的On Time活動正在進行中。
+event_id_107_end>下課後的On Time活動結束了。
+
+event_id_108_start>跳躍角色活動開始了。
+event_id_108_ing>跳躍角色活動正在進行中。
+event_id_108_end>跳躍角色活動結束了。
+
+event_id_109_start>DNF中秋節活動開始了。
+event_id_109_ing>DNF中秋節活動正在進行中。
+event_id_109_end>DNF中秋節活動結束了。
+
+event_id_110_start>新生的DNF活動開始了。
+event_id_110_ing>新生的DNF活動進行中。
+event_id_110_end>新生的DNF活動結束了。
+
+//event_id_111_start>突破黑暗的成長活動開始了。
+//event_id_111_ing>突破黑暗的成長活動進行中。
+//event_id_111_end>突破黑暗的成長活動結束了。
+
+event_id_112_start>開啟黑騎士的秘密活動開始了。
+event_id_112_ing>開啟黑騎士的秘密活動進行中。
+event_id_112_end>開啟黑騎士的秘密活動結束了。
+
+event_id_113_start>完成每日任務-勇闖地下城活動開始了。
+event_id_113_ing>完成每日任務-勇闖地下城活動進行中。
+event_id_113_end>完成每日任務-勇闖地下城活動結束了。
+
+event_id_165_start>揭發魔法的秘密寶箱活動開始了。
+event_id_165_ing>揭發魔法的秘密寶箱活動進行中。
+event_id_165_end>揭發魔法的秘密寶箱活動結束了。
+
+event_id_164_start>2013夏日最強勇者！開始了。
+event_id_164_ing>2013夏日最強勇者！進行中。
+event_id_164_end>2013夏日最強勇者！結束了。
+
+event_id_400_start>50級稀有武器道具兌換活動開始。
+event_id_400_ing>50級稀有武器道具兌換活動進行中。
+event_id_400_end>50級稀有武器道具兌換活動結束。
+
+event_id_401_start>勇者歸來優惠強化了。
+event_id_401_ing>勇者歸來優惠強化了。
+event_id_401_end>勇者歸來優惠強化了。
+
+event_id_402_start>復仇者升級活動開始。
+event_id_402_ing>復仇者升級活動進行中。
+event_id_402_end>復仇者升級活動結束。
+
+event_id_403_start>驚奇網咖 - 疲勞度累積活動開始。
+event_id_403_ing>驚奇網咖 - 疲勞度累積活動進行中。
+event_id_403_end>驚奇網咖 - 疲勞度累積活動結束。
+
+event_id_404_start>6週年稱號書活動開始。
+event_id_404_ing>6週年稱號書活動進行中。
+event_id_404_end>6週年稱號書活動結束。
+
+event_id_405_start>網咖適當等級地下城完成活動開始。
+event_id_405_ing>網咖適當等級地下城完成活動進行中。
+event_id_405_end>網咖適當等級地下城完成活動結束。
+
+event_id_406_start>中秋節活動開始。
+event_id_406_ing>中秋節活動進行中。
+event_id_406_end>中秋節活動結束。
+
+event_id_407_start>充值元氣活動開始。
+event_id_407_ing>充值元氣活動進行中。
+event_id_407_end>充值元氣活動結束。
+
+event_id_408_start>適當等級地下城完成活動開始。
+event_id_408_ing>適當等級地下城完成活動進行中。
+event_id_408_end>適當等級地下城完成活動結束。
+
+event_id_409_start>萬聖節活動開始。
+event_id_409_ing>萬聖節活動進行中。
+event_id_409_end>萬聖節活動結束。
+
+event_id_410_start>快速隊伍專用適當等級地下城完成活動開始。
+event_id_410_ing>快速隊伍專用適當等級地下城完成活動進行中。
+event_id_410_end>快速隊伍專用適當等級地下城完成活動結束。
+
+event_id_411_start>春節活動 - 龍的祝福活動開始。
+event_id_411_ing>春節活動 - 龍的祝福活動進行中。
+event_id_411_end>春節活動 - 龍的祝福活動結束。
+
+event_id_412_start>就是魔法師（男）活動開始。
+event_id_412_ing>就是魔法師（男）活動進行中。
+event_id_412_end>就是魔法師（男）活動結束。
+
+event_id_413_start>魔法師（男）首創紀念活動開始。
+event_id_413_ing>魔法師（男）首創紀念活動進行中。
+event_id_413_end>魔法師（男）首創紀念活動結束。
+
+event_id_414_start>立即開啟寶箱活動開始。
+event_id_414_ing>立即開啟寶箱活動進行中。
+event_id_414_end>立即開啟寶箱活動結束。
+
+event_id_415_start>摯友第二彈活動開始。
+event_id_415_ing>摯友第二彈活動進行中。
+event_id_415_end>摯友第二彈活動結束。
+
+event_id_416_start>網咖擲出哥布林活動開始。
+event_id_416_ing>網咖擲出哥布林活動進行中。
+event_id_416_end>網咖擲出哥布林活動結束。
+
+event_id_417_start>聖誕活動開始。
+event_id_417_ing>聖誕活動進行中。
+event_id_417_end>聖誕活動結束。
+
+event_id_418_start>迎新年稱號書活動開始。
+event_id_418_ing>迎新年稱號書活動進行中。
+event_id_418_end>迎新年稱號書活動結束。
+
+event_id_419_start>香甜的DNF幸運餅乾活動開始。
+event_id_419_ing>香甜的DNF幸運餅乾活動進行中。
+event_id_419_end>香甜的DNF幸運餅乾活動結束。
+
+event_id_420_start>愚人節活動開始。
+event_id_420_ing>愚人節活動進行中。
+event_id_420_end>愚人節活動結束。
+
+event_id_421_start>小雞活動開始。
+event_id_421_ing>小雞活動進行中。
+event_id_421_end>小雞活動結束。
+
+event_id_422_start>稀有 ATTACK！ 活動開始。- 網咖專用活動
+event_id_422_ing>稀有 ATTACK！ 活動進行中。- 網咖專用活動
+event_id_422_end>稀有 ATTACK！ 活動結束。
+
+event_id_423_start>2012清涼特級產包獎勵塞拉活動開始。
+event_id_423_ing>2012清涼特級產包獎勵塞拉活動進行中。
+event_id_423_end>2012清涼特級產包獎勵塞拉活動結束。
+
+event_id_424_start>創建黑暗騎士活動開始。
+event_id_424_ing>創建黑暗騎士活動進行中。
+event_id_424_end>創建黑暗騎士活動結束。
+
+event_id_425_start>創建創造者活動開始。
+event_id_425_ing>創建創造者活動進行中。
+event_id_425_end>創建創造者活動結束。
+
+event_id_426_start>拯救小貝貝活動開始了。
+event_id_426_ing>拯救小貝貝活動正在進行中。
+event_id_426_end>拯救小貝貝活動結束了。
+
+event_id_427_start>雙重突襲活動開始了。
+event_id_427_ing>雙重突襲活動正在進行中。
+event_id_427_end>雙重突襲活動結束了。
+
+event_id_428_start>DNF賽跑地下城活動開始了。
+event_id_428_ing>DNF賽跑地下城活動正在進行中。
+event_id_428_end>DNF賽跑地下城活動結束了。
+
+event_id_429_start>從今天起，DNF賽跑活動開始了。
+event_id_429_ing>從今天起，DNF賽跑活動正在進行中。
+event_id_429_end>從今天起，DNF賽跑活動結束了。
+
+event_id_430_start>中秋送禮活動開始了。
+event_id_430_ing>中秋送禮活動正在進行中。
+event_id_430_end>中秋送禮活動結束了。
+
+event_id_431_start>卡妮娜的中秋成長活動開始了。
+event_id_431_ing>卡妮娜的中秋成長活動正在進行中。
+event_id_431_end>卡妮娜的中秋成長活動結束了。
+
+event_id_432_start>兩倍！三倍！四倍！ 活動開始了。
+event_id_432_ing>兩倍！三倍！四倍！ 活動正在進行中。
+event_id_432_end>兩倍！三倍！四倍！ 活動結束。
+
+event_id_433_start>阿加雷斯的無限挑戰活動開始了。
+event_id_433_ing>阿加雷斯的無限挑戰活動正在進行中。
+event_id_433_end>阿加雷斯的無限挑戰活動結束。
+
+event_id_434_start>端午好 Fun 粽！活動開始了。
+event_id_434_ing>端午好 Fun 粽！活動正在進行中。
+event_id_434_end>端午好 Fun 粽！活動結束。
+
+
+event_id_435_start>邁向勇者成長之路開始了。
+event_id_435_ing>邁向勇者成長之路進行中。
+event_id_435_end>邁向勇者成長之路結束。
+
+event_id_436_start>新勇者誕生 ~ 一起築夢吧 ! 開始了。
+event_id_436_ing>新勇者誕生 ~ 一起築夢吧 ! 進行中。
+event_id_436_end>新勇者誕生 ~ 一起築夢吧 ! 結束。
+
+
+// ServerEventInfo.evt ?? ???? ???
+event_first>在第一伺服器活動中。
+event_cain>卡恩伺服器中正在進行活動。
+event_diregie>狄瑞吉伺服器中正在進行活動。
+event_siroco>希洛克伺服器中正在進行活動。
+event_prey>普雷伺服器中正在進行活動。
+event_casillas>凱西利亞斯伺服器中正在進行活動。
+event_hilder>赫爾德伺服器中正在進行活動。
+event_ruke>盧克伺服器中正在進行活動。
+event_seria>賽麗亞伺服器中正在進行活動。
+event_anton>安徒恩伺服器中正在進行活動。
+event_roxy>盧克西伺服器中正在進行活動。
+event_bakal>巴卡爾伺服器中正在進行活動。
+event_ozma>奧茲瑪伺服器中正在進行活動。
+event_khazan>卡贊伺服器活動中。
+
+
+// ??? ???
+calendar_name_1>新學期出席活動
+calendar_explain_1>在消耗疲勞值30後，請點按確認出席按鈕！\n活動期間內，如每天都有進行確認出席，將可以獲得更特別的禮物！
+calendar_btn_over_1>如疲勞值消耗到 30以上時，將可進行出席確認\n。
+
+// ?? ???
+ridable_name1>哥布林弓手
+ridable_english_name1>Goblin Shooter
+ridable_explain1>    變身為哥布林弓手。\n    可以使用弓箭連射、 弓箭散射、 強力穿射、 火焰雨等技能。\n\n    變身狀態下死亡或者返回城鎮時， 將解除變身效果。
+ridable_quest1>您需要先完成[變身 - 哥布林弓手]任務。
+
+ridable_name2>RTX-1多尼爾
+ridable_english_name2>Dornier RTX-1
+ridable_explain2>    變身為RTX-1多尼爾。\n    可以使用疾星墜、 投擲汽油瓶、 投擲燃燒瓶、 飛艇升空、 投擲爆彈瓶等技能。\n\n    變身狀態下死亡或者返回城鎮時， 將解除變身效果。
+ridable_quest2>您需要先完成[變身 - RTX-1多尼爾]任務。
+
+ridable_name3>拉米姐姐
+ridable_english_name3>Sister Rami
+ridable_explain3>    變身為拉米姐姐。\n    可以使用召喚拉米鳥、 空間移動、 審判之刃、 衰弱之源、 速度風暴、 速度牽制等技能。\n\n    變身狀態下死亡或者返回城鎮時， 將解除變身效果。
+ridable_quest3>您需要先完成[變身 - 拉米姐姐]任務。
+
+ridable_name4>牛頭械王
+ridable_english_name4>MechaTau
+ridable_explain4>    變身為牛頭械王。\n    可以使用巨斧重擊、 眩暈火焰、 火焰護甲、 召喚同伴、 雷電之斧等技能。\n\n    變身狀態下死亡或者返回城鎮時， 將解除變身效果。
+ridable_quest4>您需要先完成[變身 - 牛頭械王]任務。
+
+ridable_name5>藍影馬薩喬
+ridable_english_name5>Masaccio
+ridable_explain5>    變身為藍影馬薩喬。\n    可以使用投擲標槍、 藍影標槍、 召喚同伴、 瞬移襲擊、 冰暴噴射、 影子投擲等技能。\n\n    變身狀態下死亡或者返回城鎮時， 將解除變身效果。
+ridable_quest5>您需要先完成[變身 - 藍影馬薩喬]任務。
+
+// PC? ???? 1?
+pc_room_play_time_name>網咖優惠強化第一次
+pc_room_play_time_explain>網咖優惠強化第一次
+
+
+// ??? ??? - ???NPC ????? ???
+levelup_event_seriabless_title_default>賽麗亞的呼召
+levelup_event_seriabless_explain_default>聽說村莊的賽麗亞急著找你？？好像要給你什麼好東西，快去看看吧~
+
+levelup_event_seriabless_title_00>賽麗亞的祝福
+levelup_event_seriabless_explain_00>我會為了最近成長許多的冒險家進行祈禱的。雖然只是暫時，但對冒險家會有幫助。不要忘記我一直為你加油。總有一天我們還會見面！
+
+levelup_event_seriabless_title_01>賽麗亞的祝福
+levelup_event_seriabless_explain_01>我會為了最近成長許多的冒險家進行祈禱的。雖然只是暫時，但對冒險家會有幫助。不要忘記我一直為你加油。總有一天我們還會見面！
+
+levelup_event_seriabless_title_02>賽麗亞的祝福
+levelup_event_seriabless_explain_02>我會為了最近成長許多的冒險家進行祈禱的。雖然只是暫時，但對冒險家會有幫助。不要忘記我一直為你加油。總有一天我們還會見面！
+
+levelup_event_seriabless_title_03>賽麗亞的祝福
+levelup_event_seriabless_explain_03>我會為了最近成長許多的冒險家進行祈禱的。雖然只是暫時，但對冒險家會有幫助。不要忘記我一直為你加油。總有一天我們還會見面！
+
+levelup_event_seriabless_title_04>賽麗亞的祝福
+levelup_event_seriabless_explain_04>我會為了最近成長許多的冒險家進行祈禱的。雖然只是暫時，但對冒險家會有幫助。不要忘記我一直為你加油。總有一天我們還會見面！
+
+levelup_event_seriabless_title_05>賽麗亞的祝福
+levelup_event_seriabless_explain_05>我會為了最近成長許多的冒險家進行祈禱的。雖然只是暫時，但對冒險家會有幫助。不要忘記我一直為你加油。總有一天我們還會見面！
+
+// ???? ??? ???
+dimension_event_button_tooltip_01>65級以上轉職的角色可以參加。
+
+// ??? ??? ??? ?? ??
+// common
+event_list_common_text_01>[前往官網]
+
+// ??? ???
+event_list_levelup_title_01>levelup event
+event_list_levelup_title_02>升級活動
+event_list_levelup_text_01>1. 在達到10/20/30/40/50/60/70級時，將可以獲得裝備\n2. 20級套裝會在轉職時獲得\n3. 30級以上的套裝會在轉職後，分別達到各等級時獲得\n4. 達到70級時，將可以獲得特別的裝備。\n5. 請讓過去被遺忘的角色升級！
+event_list_levelup_text_02>http://df.nexon.com/?GO=pr|juneevent&TO=run
+
+// ???? ??? ???
+event_list_dimension_title_01>dimension activation event
+event_list_dimension_title_02>異界地下城的四件事
+event_list_dimension_text_04>http://df.nexon.com/?GO=pr|juneevent&TO=fourthings
+// 62 : ?????
+event_list_dimension_text_07>http://blog.naver.com/arkatrum81/130133422171
+// 63 : ?????
+event_list_dimension_text_08>http://blog.naver.com/arkatrum81/130134089605
+// 64 : ????? ?
+event_list_dimension_text_09>http://blog.naver.com/arkatrum81/130135684665
+// 65 : ????
+event_list_dimension_text_10>http://blog.naver.com/saogur93/30105255517
+// 66 : ??? ?
+event_list_dimension_text_11>http://blog.naver.com/saogur93/30104309610
+// 67 : ????
+event_list_dimension_text_12>http://blog.naver.com/saogur93/30104795737
+
+// 70?? ??? ?? (?? ?? ???)
+event_list_growcapsule_title_01>growcapsule event
+event_list_growcapsule_title_02>解除70級經驗值
+event_list_growcapsule_text_02>http://df.nexon.com/?GO=pr|juneevent&TO=growingup 
+
+// ?? PC? ????
+event_list_pcroom_benefit2_title_01>pcroom_benefit2 event
+event_list_pcroom_benefit2_title_02>網咖夏日商城兌換
+event_list_pcroom_benefit2_text_01>1. 每周星期六下午 1~4點，於網咖連線遊戲1小時以上時，將可以獲得NEXON CASH！\n2. 請來領取NEXON PIN，去購買充滿魅力的商店道具，或是送禮給朋友吧。\n3. 此一活動每個帳號只能參加一次。
+event_list_pcroom_benefit2_text_02>http://df.nexon.com/?GO=pr|summertogether&TO=pcbang
+
+// ????? ???
+event_list_dragon_road_title_01>Dragon Road Event!
+event_list_dragon_road_title_02>龍魔杖活動！
+event_list_dragon_road_text_01>1. 入場等級 : Lv.41 ~ Lv.70 \n2. 入場條件 : 1天 10次（不會消耗疲勞度）\n3. 入場方法 : 活動頻道>賽麗亞房>骰子>入場\n4. 獎勵      : 神器, BOSS神器,活動披風\n5. 遊戲方法 : 3人入場時，會自動開始。擲骰子，先到達 END地點就獲勝~！
+event_list_dragon_road_text_02>http://df.nexon.com/?GO=pr|dragondungeon
+
+// ??? ???
+event_list_pandora_title_01>Pandora Event
+event_list_pandora_title_02>潘朵拉魔盒活動
+event_list_pandora_text_01>1. 只要連線，就可以獲得「無限的潘朵拉魔盒」。\n2. 每天每個帳號只可以獲得1次。\n3. 從「無限的潘朵拉魔盒」中，可以獲得各種道具，同時也有可能會隨機獲得NEW I PAD喔！
+event_list_pandora_text_02>http://df.nexon.com/?GO=pr|rejumping&TO=pandora
+event_list_pandora_text_03>1. 只要連線，就可以獲得「無限的潘朵拉魔盒」。\n2. 每天每個帳號只能夠領取1次。\n3. 從「無限的潘朵拉魔盒」中，除了可以獲得各種道具以外，還有機位隨機出現古代裝扮合成器和NEW I PAD！
+
+// ??? ??? ??2
+event_list_ontime_season2_title_01>ontime event season 2
+event_list_ontime_season2_title_02>準時season 2
+event_list_ontime_season2_text_01>1. 第一次： 2012年07月21日下午 2點 ~ 3點\n2. 第2次： 2012年08月04日下午 2點 ~ 3點\n3. 第3次： 2012年08月18日下午 2點 ~ 3點\n4. 第4次： 2012年09月01日下午 2點 ~ 3點\n5. 在On Time活動進行的1小時內，只要隨時連線，都可以獲得驚人的禮物！\n6。期間內，也會同時進行經驗值 2倍活動。
+event_list_ontime_season2_text_02>http://df.nexon.com/?GO=pr|summertogether&TO=ontimes2
+
+// ?? ??? ???
+event_list_new_account_levelup_title_01>new account levelup event
+event_list_new_account_levelup_title_02>新手升級活動
+event_list_new_account_levelup_text_01>1. 7月5日以後，新加入的帳號中，依照創建角色的順序，將會給予最多3個角色禮物。\n2. 每當在創建角色以及達到5級時，將分發積點。\n3. 當達到10級時，將可獲得倉庫擴充券 + 成長之契約套裝\n4. 當達到20級時，將可獲得APC套裝 + 霸王之契約\n5. 當達到30級時，將可獲得時間制時裝 + 稱號 + 達人之契約\n6。利用支付的紅利點數可以在紅利點數商店中購買各式各樣的道具。
+event_list_new_account_levelup_text_02>http://df.nexon.com/?GO=pr|helpproject
+
+// ??? ?? ???
+event_list_exp_multiple_title_01>exp_multiple event
+event_list_exp_multiple_title_02>EXP burning經驗值5倍活動
+event_list_exp_multiple_text_01>http://df.nexon.com/?GO=pr|summertogether&TO=ontimes2
+event_list_exp_multiple_text_02>- 完成地下城, 獲得5倍經驗值的優惠。\n-參加CCB期間舉辦的經驗值加倍活動,讓等級快速上升。
+
+// PC? ??? ?? ???
+event_list_pcroom_playtime_title_01>pcroom playtime event
+event_list_pcroom_playtime_title_02>網咖疲勞度消耗活動
+event_list_pcroom_playtime_text_01>http://df.nexon.com/?GO=pr|summertogether&TO=pcbang
+event_list_pcroom_playtime_text_02>1. 每當在網咖消耗疲勞度 30時，將可以獲地獄組隊網咖箱子。\n2. 在地獄組隊網咖箱子中，可以隨機獲得1張到最多10張的挑戰書和邀請函。\n3. 本活動依照帳號計算疲勞度。
+
+// ?? ?? ???
+event_list_conditrion_title_01>conditon event
+event_list_conditrion_title_02>完成每日任務-勇闖地下城
+event_list_conditrion_text_01>http://df.nexon.com/?GO=pr|summertogether&TO=clear
+
+// 2012 ???? ??? ??? ?? ???
+event_list_horror_package_payback_01>bonus cera event
+event_list_horror_package_payback_02>獎勵塞拉活動
+event_list_horror_package_payback_03>http://df.nexon.com/?GO=pr|twelvehorror
+
+// ??? ?? ?? ???
+event_list_growthitem_title_01>growth weapon event
+event_list_growthitem_title_02>突破黑暗的成長活動
+event_list_growthitem_text_01>http://df.nexon.com/?GO=pr|summertogether&TO=weapon
+event_list_growthitem_text_02>1. 請在地下城收集並使用成長的碎片。\n2. 每當使用成長的碎片時， 沙漏會稍微轉動。\n3. 當沙漏轉動11次之後，武器上的魔法會被解除，變換為無限制武器。\n4. 變換為無限制之後，武器會繼續成長。\n5. 從50等級開始可以進行強化。\n
+
+// ?? ??? ???
+event_list_gold_jar_title_01>gold_jar event
+event_list_gold_jar_title_02>黃金缸活動
+event_list_gold_jar_01>http://df.nexon.com/?GO=news|event&position=1&mode=view&no=6963
+event_list_gold_jar_02>1. 罐子兄弟的老么火罐在販賣黃金罐。\n2. 出現傳承和神器道具的機率是一般罐子的3倍！\n3. 請馬上與火罐連絡~
+
+// ??? ??? ?? ???(????????)
+event_list_givegrowcreature_title_01>give grow creature event
+event_list_givegrowcreature_title_02>創建黑暗騎士活動
+
+event_list_givegrowcreature_title_03>give grow creature event
+event_list_givegrowcreature_title_04>創建創造者活動
+
+event_list_givegrowcreature_title_05>give grow creature event
+event_list_givegrowcreature_title_06>創建外傳角色活動
+
+event_list_givegrowcreature_text_01>http://df.nexon.com/?GO=pr|darkcre&TO=darkknight
+event_list_givegrowcreature_text_02>1. 請試著養育在寄送到郵筒裡的%s。\n2. 使用疲勞度時，如使用獲得的%s，%s的經驗值將會提升。
+event_list_givegrowcreature_text_03>3. 如%s達到20級，將可以交換成無限制寵物。\n4. 無限制寵物的交換依照寵物的種類，每個帳號只能進行1次，交換時要多加注意。
+event_list_givegrowcreature_text_04>5. 在達到20級時，必須要點按交換按鈕，才可以交換無限制寵物。
+
+event_list_givegrowcreature_text_06>http://df.nexon.com/?GO=pr|darkcre&TO=creator
+event_list_givegrowcreature_text_07>http://df.nexon.com/?GO=pr|darkcre&TO=all
+event_list_givegrowcreature_text_08>1. 為紀念黑騎士和創造者的更新，將舉行外傳角色創建活動。\n2. 每當黑騎士和創造者達到50級、70級時，將可以獲得達成等級的恭喜禮物！\n3. 在等級達成祝賀禮物中，可以獲得協助角色進行遊戲的各種具有價值的禮物。\n4. 黑暗騎士 1次 + 創造者 1次，每個帳號總共可以參加 2次
+
+// 7?? ???? ???
+event_list_7thbirthday_title_01>LUCKY?DNF 7th event
+event_list_7thbirthday_title_02>LUCKY?DNF 7th 活動
+
+event_list_7thbirthday_text_03>http://df.nexon.com/?GO=pr|luckyseventh&TO=cakehat
+event_list_7thbirthday_text_04>1. 只要連線，就可以獲得"LUCKY?DNF"。\n2. 在賽麗亞房裡，如使用"LUCKY?DNF"，將會出現紀念7週年的裝飾物。\n3. 收集所有9種裝飾物品可以兌換特別禮物！
+
+// ?? ???
+event_list_bingo_title_01>DNF bingo event
+event_list_bingo_title_02>DNF開學季賓果活動
+
+event_list_bingo_text_01>http://df.nexon.com/?GO=pr|afterschooldf&TO=bingo
+event_list_bingo_text_02>1. 收集在地下城中掉落的賓果蛋，以填滿賓果列（5格）。\n2. 請點按賓果盤正中央的賓果格，以解開密碼。\n3. 賓果列如果填滿3行，將可以獲得特別的禮物。\n4. 賓果盤和今日密碼每天都會變更初始化。
+
+// ??? ??? ???
+event_list_afterschool_title_01>Afterschool ontime event
+event_list_afterschool_title_02>下課後的On Time活動
+
+event_list_afterschool_text_03>http://df.nexon.com/?GO=pr|afterschooldf&TO=ontime
+event_list_afterschool_text_04>1. 平日下午 9點開始，將舉行下課後的On Time活動。\n2. 在活動進行的1個小時內，只要連線遊戲，就可以獲得禮物！\n3. 在On Time的罐子裡，可以獲得多樣的道具和最大的克隆稀有時裝整套。\n4. 在On Time強化券罐子裡，將有機會出現最高+12的強化券。
+
+// ?? ??? ???
+event_list_jumping_title_01>Jumping character event
+event_list_jumping_title_02>跳躍角色活動
+
+event_list_jumping_text_03>http://df.nexon.com/?GO=pr|rejumping
+event_list_jumping_text_04>1. 能夠讓角色快速成長的跳躍活動，可以套用到帳號內的1個角色上。\n2. 獎賞 – 20、40、60級： 各等級 10強神器武器\n         - 30級： 傳承防具套裝 \n         - 50級： 跳躍、牛頭稱號\n         - 70級： 3次勇者飾品 3種\n         - 22、32、42、52、 62級： 跳躍隨機箱\n         -活動期間結束後，除了跳躍隨機箱以外\n         其他的所有獎品都可以獲得。\n3. 跳躍角色活動無法套用在黑騎士和創造者身上。
+
+// ??? ?? ???
+event_list_webcoin_title_01>web coin event
+event_list_webcoin_title_02>拯救小貝貝活動
+
+event_list_webcoin_text_03>http://df.nexon.com/?GO=pr|bebegame
+event_list_webcoin_text_04>1. 在遊戲中收集金幣，參加網頁活動吧。\n2. 達到最高紀錄的50名玩家，將可以獲得CGV電影票2張。\n3. 拯救小貝貝，同時也來獲得各種獎品吧！
+
+// ?? ??? ?? ??! ???
+event_list_exam_title_01>exam event
+event_list_exam_title_02>考試期間享受短暫的樂趣！ 活動
+
+event_list_exam_text_03>http://df.nexon.com/?GO=news|event&TO=&mode=view&no=7064
+event_list_exam_text_04>1. 在考試期間，請享受短暫的休息時光！\n2. 疲勞度使用 10： 力量/體力/智能/精神提升 +48 (1階段)\n3. 疲勞度使用 30： 力量/體力/智能/精神提升 +60 (2階段)\n4. 疲勞度使用 70： 力量/體力/智能/精神維持 +60 \n5. 疲勞度使用 71： 無屬性BONUS！ 從現在起開啟努力讀書模式！\n6。在決鬥場中，不會套用屬性BONUS。
+
+// ?? ??? ???
+event_list_2012hangawi_title_01>2012 hangawi event
+event_list_2012hangawi_title_02>DNF中秋節活動
+
+event_list_2012hangawi_text_03>http://df.nexon.com/?GO=pr|hangawi
+event_list_2012hangawi_text_04>1. 接受羅傑·萊文的「被小偷偷走的物品」任務，並且消滅「小偷稻草人」！\n2. 收集被小偷偷走的小麥/米粒/黃金米粒各10個，然後去與羅傑·萊文交換小麥/米粒/黃金米粒布袋。\n3. 交換的小麥/米粒/黃金米粒布袋，可以向羅傑·萊文購買道具。\n4. 羅傑·萊文販賣的道具會在每天早上6點補貨。\n5. 準備有帳號綁定的2次勇者套裝箱子和異界氣息消滅書等多樣的道具。
+
+// ?? ?? ???
+event_list_hangawiweb_title_01>hangawiweb event
+event_list_hangawiweb_title_02>中秋送禮活動
+
+event_list_hangawiweb_text_03>http://df.nexon.com/?GO=news|event&TO=&mode=view&no=7098
+event_list_hangawiweb_text_04>1. 為配合中秋節的到來，DNF準備了禮物要送給大家。\n2. 請在網頁上輸入要收領感謝信和禮物的E-mail住址和手機號碼。\n3. 第1次： 2012年9月27日～10月11日\n4. 第1次獎賞： 解放之鑰 2個 + 成長之契約 3天\n5. 第2次： 2012年10月18日～11月1日\n6。第2次獎賞\n- 各種契約中隨機獲得1種 3天\n- 時間制稀有時裝和地獄組隊自由通行證\n- 神秘復活幣袋以及神靈的庇佑
+
+// ?? ??? ???
+event_list_twin_raid_title_01>twin raid event
+event_list_twin_raid_title_02>雙重突襲活動
+
+event_list_twin_raid_text_03>http://df.nexon.com/?GO=pr|twinraid
+event_list_twin_raid_text_04>1. 入場等級 : Lv.60 ~ Lv.85 \n2. 入場條件 : 每入場1次會消耗疲勞度 10\n3. 入場方法 : 透過肯特皇宮的御前護衛隊長潘入場\n4. 遊戲方法 : 當兩隊6名成員全部入場後，將會自動開始。率先消滅P-0雙重的隊伍將可獲得勝利！\n5. 每當突襲結束時，獲得的費倫之魂將可以拿來交換各種獎品。
+
+// ?? ??? ?? ???
+event_list_racing_title_01>racing event
+event_list_racing_title_02>DNF賽跑地下城活動
+
+event_list_racing_text_03>http://df.nexon.com/?GO=pr|speedracing&TO=racing
+event_list_racing_text_04>1. 入場等級 : Lv 10 ~ Lv 85 \n2. 入場方法 : 透過赫頓瑪爾廣場中的亞蒙下層入場\n3. 遊戲方法 : 3人入場時，會自動開始。請破壞障礙物或是躲避障礙物，在競賽中活用出現的隨機箱子，只要最先抵達終點，就可以獲得勝利了～！\n4. 每當在競賽結束後，可用獲得的跑步鞋交換神器道具和稱號。
+
+// ???? ????? ???
+event_list_dnfrider_title_01>dnfrider event
+event_list_dnfrider_title_02>從今天起，DNF賽跑活動
+
+event_list_dnfrider_text_03>http://df.nexon.com/?GO=pr|speedracing&TO=withkart
+event_list_dnfrider_text_04>1. 享受賽跑地下城的樂趣，同時不要忘了領取禮物喔！\n2. 由3階段條件組成，每個階段都可以獲得解放之鑰等豐富的禮物。\n3. 如達成所有的條件，將可以獲得卡丁車道具。\n4. 領取道具可在網頁上進行。\n5. 該活動只有NEXON帳號可以使用。
+
+// ??? ???? ???
+event_list_kannahangawi_title_01>kannahangawi event
+event_list_kannahangawi_title_02>卡妮娜的中秋成長活動
+
+event_list_kannahangawi_text_03>http://df.nexon.com/?GO=news%7cevent&TO=&mode=view&no=7100
+event_list_kannahangawi_text_04>1. 從封印之鎖中獲得的卡妮娜彩虹松餅，請再次拿去給卡妮娜。\n2. 生氣的卡妮娜邀請冒險家參加地獄組隊。\n3. 交給卡妮娜最多松餅的的前100名玩家，將可以獲得豐富的中秋獎品！
+
+// ????? ??? ???
+event_list_dreamdtq_title_01>levelup support event
+event_list_dreamdtq_title_02>LEVEL UP！ 等級支援活動
+
+event_list_dreamdtq_text_03>http://df.nexon.com/?GO=pr|dreamfighter12
+event_list_dreamdtq_text_04>1.活動參加辦法\n購買2012夢幻勇士套裝，以及在「送禮」時，將會自動參加活動\n\n2. 活動內容\n1) 購買套裝2個時，將會額外發送1個「2012夢幻勇士稱號箱子」\n2) 購買套裝3個時，將會額外發送1個「SD角色寵物蛋」\n3) 購買套裝4個時，將會額外發送「2008夢幻勇士時裝推進器」1個\n(額外分發的BONUS道具全為帳號綁定裝備。)
+
+// ??? ??? ??? ?? ?
+
+
+//twdf cb launching title event
+event_list_tw_130321launching_title_01>cb launching title event
+event_list_tw_130321launching_title_02>開國元老稱號活動
+event_list_tw_130321launching_title_03>開國元老稱號活動
+event_list_tw_130321launching_text_04>- 為了感謝參加 DNF Close Beta的冒險家們， 特別準備的上市紀念稱號。\n- 贈送給帳號內首創角色的開國元老稱號。\n- 裝著開國元老稱號的禮物盒，可以利用帳號金庫轉移給同帳號內的其它角色。\n- 提醒，帳號金庫是角色等級60之後才可以使用喔。
+
+
+//twdf cb drop rate event 
+event_list_tw_130321drop_title_01>cb drop rate event
+event_list_tw_130321drop_title_02>FIGHT！ 掉寶加倍活動
+event_list_tw_130321drop_title_03>FIGHT！ 掉寶加倍活動
+event_list_tw_130321drop_text_04>- 4月6日晚上8點~11點、4月7日晚上8點~11點，\n4月13日晚上8點~11點、4月14日晚上8點~11點，\n4月20日晚上8點~11點、4月21日晚上8點~11點， \n會進行FIGHT！ 掉寶加倍活動，活動期間地下城掉寶率200%！請踴躍參加唷！\n- 特別的週末假期， 千萬不要錯過
+
+
+//twdf cb arad adventure event
+event_list_tw_130321arad_title_01>arad adventure event
+event_list_tw_130321arad_title_02>DNF好友團大募集
+event_list_tw_130321arad_title_03>DNF好友團大募集
+event_list_tw_130321arad_text_04>- 馬上向自己的朋友推薦DNF吧！\n- 被推薦的朋友登入遊戲，即可獲得獎勵。\n- 每當被推薦的朋友達到目標等級， 隨即依照被推薦的朋友人數贈送獎勵。\n- 一起同樂會更加好玩的DNF！ 向朋友推薦DNF又可以獲得貴重的獎勵。\n- 詳細內容請參考官網。
+
+
+//twdf cb coin event
+event_list_tw_130221coin_title_01>test
+event_list_tw_130221coin_title_02>免費復活幣 refill活動
+event_list_tw_130221coin_title_03>免費復活幣 refill活動
+event_list_tw_130221coin_text_04>- 需要在副本中復活所需的復活幣嗎？ \n- 在DNF裡面每天都會贈送1個復活幣給冒險家。 \n- 請到賽莉亞商城領取復活幣~ \n- 若是持有1個以上的復活幣則不會配發。
+
+
+//twdf cb together fight event
+event_list_tw_130321fight_title_01>together fight event
+event_list_tw_130321fight_title_02>Garena會員專屬活動
+event_list_tw_130321fight_title_03>Garena會員專屬活動
+event_list_tw_130321fight_text_04> - 登入過Garena其它遊戲的冒險家，登入DNF並完成創角即可獲得獎勵。 \n- 拿到裝有實用材料和消耗道具的DNF新手禮包，可以更快速的成長更有趣的進行遊戲。 \n- 詳細內容請參閱官網。
+
+
+//twdf cb creat dnf event
+event_list_tw_130321create_title_01>dnf create event
+event_list_tw_130321create_title_02>DNF創世紀活動
+event_list_tw_130321create_title_03>DNF創世紀活動
+event_list_tw_130321create_text_04>- 與冒險家們一起完成的DNF 6天! 每天都請盡全力達成交付的任務,領取獎勵吧。\n- 任務達成時間:每天0點~19點! \n- 任務達成時:每天19點~24點5個小時內會配發當天的獎勵！\n- 第1天(4/2)： 今日角色創立總數達1萬個 \n- 第2天(4/3)： 今日總消耗疲勞度達100萬 \n- 第3天(4/4)： 今日一般副本總入場數達1萬次 \n- 第4天(4/5)： 今日總組隊遊戲次數達4千次 \n- 第5天(4/6)： 今日打怪總數達5萬次 \n- 第6天(4/7)： lucky 7 DAY！ 晚上7點後上線就可領取獎勵
+event_list_tw_130321create_text_05>-   今 日 獎 勵   -
+
+
+
+
+
+//twdf cb levelup event
+event_list_tw_130321levelup_title_01>levelup support event
+event_list_tw_130321levelup_title_02>LEVEL UP！ 等級支援活動
+event_list_tw_130321levelup_title_03>LEVEL UP！ 等級支援活動
+event_list_tw_130321levelup_text_04>- 達成等級1、等級10、等級20、等級30 會贈送達成等級的特別禮盒，達到該等級後再打開活動視窗。 \n- 達成各等級就可以獲得的禮物盒， 盒內有各種消耗品還有裝備。\n- 開心升級又可以獲得獎勵喔。
+event_list_tw_130321levelup_text_05>-   今 日 獎 勵   -
+
+
+//twdf obt Cera shop open event
+event_list_tw_130409shopopen_title_01>商城開放紀念活動！
+event_list_tw_130409shopopen_title_02>商城開放紀念活動！
+event_list_tw_130409shopopen_title_03>商城開放紀念活動！
+event_list_tw_130409shopopen_text_04>- 只要使用手機認證，將會無條件送給您88D點。\n- D點和D幣一樣可以在商城中進行消費。\n- 手機認證後15天內若未領取，郵件將會消失。請務必記得領取。\n- 請注意D點無法和D幣一起使用。
+
+
+//twdf DNF Begining event
+event_list_tw_130409DNF_title_01>新生的DNF活動
+event_list_tw_130409DNF_title_02>新生的DNF活動
+event_list_tw_130409DNF_title_03>新生的DNF活動
+event_list_tw_130409DNF_text_04>- 請把在地下城獲得的 [新生的氣焰] 拿給 NPC 賽莉亞!\n- 她會以實用的恢復藥水報答你。
+
+//twdf 0425 DarkNight event
+event_list_tw_130425Dark_title_01>開啟黑騎士的秘密
+event_list_tw_130425Dark_title_02>開啟黑騎士的秘密
+event_list_tw_130425Dark_title_03>開啟黑騎士的秘密
+event_list_tw_130425Dark_text_04>-活動期間若創立黑騎士角色，會用郵件發送給冒險家時空袖珍罐。\n - 時空袖珍罐在 5， 10， 20， 30， 40， 50 等級時可以打開。\n- 時空袖珍罐裡有符合各等級的魔法封印裝備箱子 。\n - 還可以獲得在等級提升時有幫助的裝備，請盡情的體驗黑騎士吧！\n
+
+//twdf 0425 Growth Weapon event
+event_list_tw_130425mugi_title_01>突破黑暗的成長
+event_list_tw_130425mugi_title_02>突破黑暗的成長
+event_list_tw_130425mugi_title_03>突破黑暗的成長
+event_list_tw_130425mugi_text_04>1. 請在地下城收集並使用成長的碎片。\n 2. 每當使用成長的碎片時， 沙漏會稍微轉動。\n 3. 當沙漏轉動11次之後，武器上的魔法會被解除，變換為無限制武器。\n 4. 變換為無限制之後，武器會繼續成長。\n 5. 從50等級開始可以進行強化。\n
+
+//twdf 0425 DarkNight Party event
+event_list_tw_130425Party_title_01>召喚黑騎士
+event_list_tw_130425Party_title_02>召喚黑騎士
+event_list_tw_130425Party_title_03>召喚黑騎士
+event_list_tw_130425Party_text_04>- 活動期間若和黑騎士進行組隊，可以獲得華麗的獎勵！\n - 隊伍中如果有黑騎士成員，\n        經驗值成長 20%！\n        通關後可多翻一張金幣卡片！
+
+
+
+//twdf 130516 Agares Treasure event
+event_list_tw_130516Agares_title_01>agares treasure event
+event_list_tw_130516Agares_title_02>阿加雷斯的寶物活動
+event_list_tw_130516Agares_title_03>阿加雷斯的寶物活動
+event_list_tw_130516Agares_text_04>- 請從副本中掉落的袋子或自無限祭壇魔王阿加雷斯獲得[阿加雷斯的復活幣]。\n - 拿著這個[阿加雷斯的復活幣]可以到城鎮廣場進行阿加雷斯的寶箱。\n - 阿加雷斯的寶箱中將出現非常珍貴的道具或是神秘的強化券！
+
+
+//twdf 130530 DanO event
+event_list_tw_130530DanO_title_01>DanO event
+event_list_tw_130530DanO_title_02>端午好 Fun 粽！活動
+event_list_tw_130530DanO_title_03>端午好 Fun 粽！活動
+event_list_tw_130530DanO_text_04>- 為了迎接端午節，地下城裡開始掉落\n[平凡的粽子]！\n- 獲得[平凡的粽子]時，可收集10個後，\n去找賽莉亞。\n- 可換成豐富的味道及獨特的效果的特別粽子。
+
+//twdf 130530 Gold Goblin event
+event_list_tw_130530Goblin_title_01>Gold Goblin event
+event_list_tw_130530Goblin_title_02>布林好 Fun 送！活動
+event_list_tw_130530Goblin_title_03>布林好 Fun 送！活動
+event_list_tw_130530Goblin_text_04>- 有聽過擁有巨額金銀財寶的黃金哥布林傳說嗎？\n- 黃金哥布林是6/1、6/2、6/8、6/9從晚上8點到10點會在地下城隨機出現！\n- 黃金哥布林的寶物罐子裡有稀有以上等級的飾品，或是各種D幣道具、珍貴的黃金罐子、帽子時裝等，千萬不要錯過好時機！
+
+
+
+//twdf 130613 give me box event
+event_list_tw_130613box_title_01>give me box event
+event_list_tw_130613box_title_02>揭發魔法的秘密寶箱
+event_list_tw_130613box_title_03>揭發魔法的秘密寶箱
+event_list_tw_130613box_text_04>- 對不斷考試感到厭煩的你，DNF可以成為你喘息的空間！ \n活動時間內，每日登入的第一個遊戲角色，即可獲得「Give Me Box」 1 個，且完成符合等級的地下城 1 回，將再贈送「推進力爆發! 」 1 個。
+
+//twdf 130613 male mage event
+event_list_tw_130613mmage3_title_01>male mage event
+event_list_tw_130613mmage3_title_02>開啟魔法的成長力量
+event_list_tw_130613mmage3_title_03>開啟魔法的成長力量
+event_list_tw_130613mmage3_text_04>- 時裝體驗版寶箱：\n創立男魔法師，即可立即獲得「時裝體驗版寶箱」 1 個，寶箱內含 14 日期限的腰部時裝2種，此腰部時裝無法交易、分解和合成。\n\n- 時裝正品寶箱：\n角色達 15 級時，每日疲勞值消耗 30，可透過包裹獲得「深淵的碎片」 1 個，集滿 10 個，可與 NPC 莎蘭領取「時裝正品寶箱」，開啟後，可選擇永久腰部時裝中的其中一種。
+
+event_list_tw_130613mmage_title_01>male mage event
+event_list_tw_130613mmage_title_02>開啟魔法的成長力量 2
+event_list_tw_130613mmage_title_03>開啟魔法的成長力量 2
+event_list_tw_130613mmage_text_04>-活動期間創建男魔法師的話，可以租借有助於成長的武器!\n- 活動期間內，創立男魔法師，可獲得 1 次成長的武器寶箱包裹。開啟後，可選擇獲得法杖或魔杖。該武器至 40 級後，可放入「封印的大魔法師武器寶箱」製作出永久武器。
+event_list_tw_130613mmage2_title_01>male mage event
+event_list_tw_130613mmage2_title_02>開啟魔法的成長力量 3
+event_list_tw_130613mmage2_title_03>開啟魔法的成長力量 3
+event_list_tw_130613mmage2_text_04>-封印的大魔法師武器寶箱說明：\n活動期間內創立男魔法師角色，可獲得 1 次「封印的大魔法師武器寶箱」包裹。\n\n角色達 40 級，使用「成長的武器寶箱子」中的法杖或魔杖與無色小晶塊 1 個進行「封印的大魔法師武器寶箱」開啟封印。開啟後，可獲得已強化 +10 的「誕生的冰靈魔杖」與「誕生的邪念法杖」各 1 個。
+
+
+//twdf 130627 newbie event
+event_list_tw_130627newbie_title_01>newbie event
+event_list_tw_130627newbie_title_02>你好呀勇士 ~ 一起築夢吧 ! 
+event_list_tw_130627newbie_title_03>你好呀勇士 ~ 一起築夢吧 ! 
+event_list_tw_130627newbie_text_04>- 你好呀勇士 ! \n- 活動期間新到DNF的冒險家達到 Lv2 即可獲得歡迎禮物。\n- 轉職以後，每提升 Lv1 都會有各種驚喜獎勵等著你哦。\n- 請享受DNF的樂趣吧！
+
+//twdf 130627 growth capsule event
+event_list_tw_130627capsule_title_01>growth capsule event
+event_list_tw_130627capsule_title_02>邁向勇者成長之路
+event_list_tw_130627capsule_title_03>邁向勇者成長之路
+event_list_tw_130627capsule_text_04>- 更快速升級的「成長處方箋」出現了！\n- 在活動期間內，地下城會掉落「成長處方箋」。\n-「成長處方箋」開啟後，有機率可獲得內含不同經驗值的「成長膠囊」。\n- 另外「成長處方箋」也有機率獲得地下城結算經驗值2倍的「成長的秘藥」、「迷你成長的秘藥」。\n- Lv. 60 ~ 69 的高等冒險家升級時，郵件會發送額外的獎勵「地獄小隊邀請函」，將助你深淵道路上的一臂之力。
+
+//twdf 130627 more u play event
+event_list_tw_130627more_title_01>more u play event
+event_list_tw_130627more_title_02>神蹟降臨 ~ 勇者實力倍增 ！
+event_list_tw_130627more_title_03>神蹟降臨 ~ 勇者實力倍增 ！
+event_list_tw_130627more_text_04>- 來見識看看隨著刷越多次副本、玩越多次遊戲而越來越強大的角色吧！\n- 活動期間周末消耗疲勞值即可獲得Buff與獎勵。\n消耗20： 力量、智能、體力、 精神 +12\n消耗40： 力量、智能、體力、 精神 +24\n消耗60： 力量、智能、體力、 精神 +36\n消耗80： 力量、智能、體力、 精神 +48\n消耗100： 神奇紅果醬 x 10個\n消耗110： 力量、 智能、 體力、精神 +60\n消耗150： 神奇紅果醬 x 20個\n- 6月29日、 6月30日 / 7月6日、7月7日 / \n7月13日、 7月14日一整天！
+
+//twdf 130627 summer event
+event_list_tw_130627summer_title_01>summer event
+event_list_tw_130627summer_title_02>2013夏日最強勇者！
+event_list_tw_130627summer_title_03>2013夏日最強勇者！
+event_list_tw_130627summer_text_04>- 2013夏天，DNF主角就是你!\n- 挑選夏季絕對強者的任務正在等著你。\n- 各種難度的任務以及豐富的獎勵已經準備好了。\n- 請嘗試挑戰只有活動期間內購買任何一個時裝禮包才能參與的特別任務吧！\n- 若您能完成所有任務，絕對不要錯過華麗的最終獎品！
+

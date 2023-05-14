@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`藍色天星戰士長靴`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[usable period]
+	30
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atgunner/gg_ashoes.img`	190
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[sub type]
+	0
+
+[variation]
+	57	3
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30001
+
+[physical defense]
+	30
+
+[move speed]
+	50
+
+[avatar func filter]
+	2

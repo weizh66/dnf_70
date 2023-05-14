@@ -1,0 +1,136 @@
+#PVF_File
+
+[set name]
+	`絕界之主  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	99
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[mage]`	99
+		`[dungeon type]`
+		`[static]`	13
+		`%`	-10
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[mage]`	92
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+	[/skill data up]
+	[parameter basic explain]
+		`[暗影斗篷]冷卻時間 -1秒
+[魔道酸雨云]冷卻時間 -3秒
+[魔道酸雨云]攻擊力 +10%%
+[魔道酸雨云]酸雨攻擊間隔 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	95
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	95
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[mage]`	89
+		`[dungeon type]`
+		`[static]`	0
+		`%`	15
+		`[mage]`	41
+		`[dungeon type]`
+		`[level]`	3
+		`%`	12
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2500
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[static]`	26
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[遠古魔法書]智力 +12%%
+[寒冰粉]攻擊力 +15%%
+[變異蒼蠅拍]攻擊力 +20%%
+[冰霜鑽孔車]成功時， 衝擊波范圍 +55%%
+[冰霜鑽孔車]攻擊力 +30%%
+[冰霜鑽孔車]HP +50%%
+[冰霜鑽孔車]持續時間 +2.5秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	115
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[mage]`	115
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	115
+		`[dungeon type]`
+		`[level]`	8
+		`%`	10
+		`[mage]`	115
+		`[dungeon type]`
+		`[static]`	2
+		`+`	30
+		`[mage]`	115
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[超級蒼蠅拍]冷卻時間 -50%%
+[超級蒼蠅拍]攻擊力 +10%%
+[超級蒼蠅拍]大成功率 +3%%
+[超級蒼蠅拍]失敗率 -3%%`
+[/piece set ability]

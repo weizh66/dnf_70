@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`封霜雪影長袍`
+
+[basic explain]
+	`  裝備時，可以使300px范圍的的所有敵人減少44點的冰屬性抗性。`
+
+[flavor text]
+	`  我要冰封這里的一切！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12572
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	46
+
+[magical defense]
+	46
+
+[need material]
+	3821	1000
+
+[price]
+	91000
+
+[repair price]
+	72800
+
+[value]
+	72800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	1224	1116
+
+[magical critical hit]
+	5
+
+[water attack]
+	10
+
+[icon]
+	`Item/new_equipment/02_cloth/coat/cloth_coat.img`	22
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		1000
+	[appendage]
+		263
+[/then]
+
+[variable stat]
+	`fire attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`all`	1
+	`dark attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`all`	1
+	`light attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`all`	1
+	`water attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`all`	1
+	`magical attack`
+	`+`	400
+	`object number`
+	`enemy`	400
+	`all`	1
+	`equipment physical defense`
+	`%`	20
+	`object number`
+	`enemy`	300
+	`all`	1
+[/variable stat]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600779	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

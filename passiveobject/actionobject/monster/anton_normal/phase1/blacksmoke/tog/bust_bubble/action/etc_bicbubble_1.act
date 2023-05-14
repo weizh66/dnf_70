@@ -1,0 +1,48 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/bicbubble_Basic_0_2.ani`
+	[SUB ANI]
+		`../Animation/bicbubble_Basic_1_2.ani`	0	1
+		`../Animation/bicbubble_Basic_2_2.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`time`
+		[=]
+		[GET TIME]
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[IF]
+		`time`
+		[+]
+			3000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]

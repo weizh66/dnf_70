@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`海神謎咒項鏈`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率對敵人施放海神的憤怒。`
+
+[detail explain]
+	`攻擊時，有3%%的幾率對敵人施放海神的憤怒。(冷卻時間1秒)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	90
+
+[need material]
+	3824	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7920	7360
+
+[water attack]
+	10
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	181
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[probability]
+		3
+	[target]
+		`enemy`	-1
+	[passive object]
+		140172	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[passive object]
+		140172	0	0	0	0	0
+		` `
+	[/passive object]
+[/then]
+
+[dynamic part set index]
+	12400	12426	12417	12409	12434
+[/dynamic part set index]
+
+[possible kiri protect]

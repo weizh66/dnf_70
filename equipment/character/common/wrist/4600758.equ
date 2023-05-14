@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`封·被囚者的染血手銬`
+
+[basic explain]
+	`  每存在1個束縛狀態的敵人， 可增加自身10%%的物理暴擊率和魔法暴擊率。
+  攻擊敵人時，有5%%的幾率使200px範圍內的所有敵人進入束縛狀態， 效果持續4秒。
+被攻擊時，使500px範圍內的所有敵人進入束縛狀態， 效果持續5秒。`
+
+[detail explain]
+	`找不到代?detail_explain_11578`
+
+[flavor text]
+	`  為了不讓妳離開我，我只能這樣了……——瘋狂的戀人A`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[physical defense]
+	93
+
+[need material]
+	3821	1000
+
+[repair price]
+	81600
+
+[price]
+	127400
+
+[value]
+	101920
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4800	4112
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	96
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[variable stat]
+	`physical critical hit`
+	`+`	10
+	`object number`
+	`enemy`	500
+	`hold`	5
+	`magical critical hit`
+	`+`	10
+	`object number`
+	`enemy`	500
+	`hold`	5
+[/variable stat]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		5000
+	[probability]
+		100
+	[active status]
+		`hold`	120
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		7000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		48076	120	0	60	120	0
+		`DragonHeadEnergyBall.ptl`
+	[/passive object]
+[/then]
+
+[possible kiri protect]

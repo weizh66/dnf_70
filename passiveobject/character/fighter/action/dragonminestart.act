@@ -1,0 +1,33 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/dragonmine/EX/dragonminestart.ani`
+	[SUB ANI]
+		`../animation/dragonmine/EX/dragonminejumpspin.ani`	0	0
+		`../animation/dragonmine/EX/Dragonmineimpact.ani`	0	0
+		`../animation/dragonmine/EX/dragonminedrop.ani`	0	0
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	0
+		[MOVE ME]
+	[/TELEPORT]
+	[FOLLOWING TARGET AND DIRECTION]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

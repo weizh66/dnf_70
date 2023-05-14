@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	`死亡之珠`
+
+[layer]
+	`[normal]`
+
+[basic action]
+	`Action/Sacrifice_Cirecle_Light.act`
+
+[etc action]
+	`Action/Sacrifice_Cirecle_Light_0.act`
+	`Action/Sacrifice_Cirecle_Light_1.act`
+[/etc action]
+
+[hp max]
+	30000000
+
+[hp destroy]
+	1
+
+[int data]
+	60000	9000000	140
+[/int data]

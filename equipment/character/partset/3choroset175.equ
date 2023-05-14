@@ -1,0 +1,103 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	53
+		`[dungeon type]`
+		`[level]`	0
+		`%`	100
+		`[gun blader]`	53
+		`[dungeon type]`
+		`[level]`	2
+		`+`	-4
+		`[gun blader]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-100
+		`[gun blader]`	53
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[gun blader]`	53
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[源光斬]攻擊力 +100%%
+[源光斬]刪除能量多段攻擊
+[源光斬]冷卻時間 -15%%
+[源光斬]攻擊范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	85
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[gun blader]`	85
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[gun blader]`	85
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[gun blader]`	85
+		`[dungeon type]`
+		`[static]`	2
+		`+`	30
+		`[gun blader]`	90
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gun blader]`	90
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[源能波刃]攻擊力 +35%%
+[源能波刃]冷卻時間 -25%%
+[源能波刃]使用[源能提煉]時攻擊范圍增加率 +30%%
+[引力源光彈]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	90
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	90
+		`[dungeon type]`
+		`[static]`	2
+		`%`	35
+		`[gun blader]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[gun blader]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[gun blader]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[gun blader]`	89
+		`[dungeon type]`
+		`[static]`	3
+		`+`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[引力源光彈]冷卻時間 -30%%
+[引力源光彈]吸附敵人范圍 +35%%
+[光裂斬]攻擊力 +40%%
+[光裂斬]冷卻時間 -35%%
+[光裂斬]攻擊范圍 +30%%`
+[/piece set ability]

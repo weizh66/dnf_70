@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	4
+
+[complete npc index]
+	-1
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	7	99
+
+[pre required quest]
+	4470
+[/pre required quest]
+
+[monster reward item]
+	5004	6	-1	4186	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4186	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	4808	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找時間碎片2`
+
+[depend message]
+	`我的確撿到一個閃亮的碎片它讓我非常滿意……。所以我也捨不得就這樣交給你……。這樣如何？
+只要幫我一個忙，就把當時撿到的閃光的碎片交給你。
+本來去猛毒雷鳴廢墟也是為了尋找毒貓王的心臟採取的。如果你幫我收集潘里爾的心臟我就把這碎片交給你吧。`
+
+[condition message]
+	`在猛毒雷鳴廢墟蒐集潘里爾的心臟交給辛達`
+
+[solve message]
+	`嗯~太好了。就把這碎片交給你嚕。`
+
+[quest point]
+	4

@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`清泉流響`
+
+[basic explain]
+	`增加13%%的物理攻擊力、 魔法攻擊力和獨立攻擊力。`
+
+[detail explain]
+	`增加13%%的物理攻擊力、 魔法攻擊力和獨立攻擊力。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12594
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	58
+
+[magical attack]
+	58
+
+[attack speed]
+	50
+
+[cast speed]
+	80
+
+[move speed]
+	50
+
+[anti evil]
+	16
+
+[price]
+	134400
+
+[value]
+	107520
+
+[need material]
+	3826	1000
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	3424	3136
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	243
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	13
+	[stat by condition]
+		`magical attack bonus`
+		`%`	13
+	[stat by condition]
+		`separate attack`
+		`%`	13
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`奶白色俊秀皮膚`
+
+[explain]
+	`夏日風情  套裝1 (鬼劍士)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[icon]
+	`item/avatar/swordman/sm_abody.img`	11
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0
+[/avatar type select]
+
+[avatar func filter]
+	2
+
+[sub type]
+	0
+
+[hit recovery]
+	90
+
+[variation]
+	0	13
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	40909
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+[/avatar select ability]

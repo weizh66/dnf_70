@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`格拉西亞家族遺物龍骨腰帶`
+
+[basic explain]
+	`攻擊時，有5%%的幾率增加80點力量和智力，以及5點光屬性強化，效果持續15秒。`
+
+[detail explain]
+	`攻擊時，有5%%的幾率增加80點力量和智力，以及5點光屬性強化，效果持續15秒。(冷卻時間20秒，最大重疊3次；該效果與格拉西亞家族遺物的肩甲、腰帶鞋子共享；裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12536
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	27
+
+[magical attack]
+	18
+
+[inventory limit]
+	3000
+
+[need material]
+	5000	30
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1176	1092
+
+[light attack]
+	8
+
+[icon]
+	`item/new_equipment/04_larmor/belt/larmor_belt.img`	48
+
+[field image]
+	`Item/field_equip.img`	8
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[waist]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1200
+
+[item group name]
+	`la waist`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		15000
+	[appendage]
+		799
+[/then]
+
+[possible kiri protect]

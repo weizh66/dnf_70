@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`(舊)土罐的高級袖珍罐 (首飾)`
+
+[explain]
+	`    從袖珍罐中隨機抽取一件Lv50~55的首飾， 有一定幾率獲得袖珍罐里特有的傳承裝備或帽子裝扮。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[value]
+	5
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	274
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[upgradable legacy]`	1
+
+[price]
+	78000
+
+[int data]
+	20086	1	20084	9611	1	20085	6666	1	20103	16	1	20092	66	1	20093	3	1	20087	6666	1	20127	16	1	22092	3	1	22084	9611	1	22085	6666	1	22122	16	1	22082	9611	1	22083	6666	1	22102	16	1	22091	66	1	24084	9611	1	24085	6666	1	24104	16	1	24093	66	1	24094	3	1	24086	9611	1	24087	6666	1	24131	16	1	20136	3	1	20137	3	1	22130	3	1	22131	3	1	24139	3	1	24140	3	1
+[/int data]
+
+[move wav]
+	`BONE_TOUCH`

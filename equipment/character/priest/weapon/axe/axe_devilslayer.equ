@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`惡魔戰斧`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入出血狀態。
+攻擊速度增加+2%%`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以97的攻擊力給予傷害。 ((若敵人高於Lv50，則減少進入異常狀態的機率；反之，則增加機率)
+攻擊速度+2%%`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[physical attack]
+	35
+
+[attack speed]
+	-60
+
+[stuck]
+	-2
+
+[price]
+	86400
+
+[repair price]
+	72576
+
+[value]
+	345600
+
+[equipment physical attack]
+	562	542
+
+[equipment magical attack]
+	398	384
+
+[separate attack]
+	233	156
+
+[skill levelup]
+	`[priest]`	50	1
+	`[priest]`	85	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/priest/axe.img`	24
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	2	7
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	50	1950
+[/then]
+
+[possible kiri protect]

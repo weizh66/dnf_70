@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	24
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	38	99
+
+[pre required quest]
+	42
+[/pre required quest]
+
+[depend give item]
+	4073	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4073	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找線索`
+
+[depend message]
+	`暗精靈一直認為傳染病是人類引發的， 因為有個叫艾麗絲的女魔法師占卜說人類是傳染病的根源。
+我聽說這些骸骨里有能證明我們人類和傳染病沒有關系的證據， 但我找了很久還是沒有找到， 看來只能向赫頓瑪爾的煉金大師諾頓求助了。`
+
+[condition message]
+	`    拿著[暗精靈的遺骨]找諾頓幫忙。`
+
+[solve message]
+	`天呀， 什么味道啊！ 真是的！ 不給我研究經費就算了， 還盡找一些惡心的活要我做……`
+
+[quest point]
+	4

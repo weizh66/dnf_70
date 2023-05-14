@@ -1,0 +1,254 @@
+#PVF_File
+
+[name]
+	`冰龍的憤怒`
+
+[basic explain]
+	`猛龍斷空斬斬擊數增加1
+快速 行動攻擊力增加25%% 
+攻擊時以3%% 的機率讓敵人陷入冰凍狀態
+猛龍斷空斬，快速行動攻擊時以 10%%的機率讓敵人陷入冰凍狀態。`
+
+[detail explain]
+	`猛龍斷空斬斬擊數增加1 
+快速 行動攻擊力增加2 5%%
+攻擊時以 3%%的機率讓敵人在2秒內進入冰凍狀態。（高於Lv75的對象得到的機率和效果減少，低於Lv75的對象則會增加）
+猛龍斷空斬，快速 行動攻擊時以10%%的機率2秒內讓敵人陷入冰凍狀態。（高於Lv75的對象得到的機率和效果減少，低於Lv75的對象則會增加 決鬥場機率修正為1%%）`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	50
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3285	2100
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	659	603
+
+[equipment magical attack]
+	652	598
+
+[separate attack]
+	441	298
+
+[skill levelup]
+	`[swordman]`	72	2
+	`[demonic swordman]`	72	2
+[/skill levelup]
+
+[water attack]
+	13
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	78
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[routing priority]
+	`swordman`	1
+	`demonic swordman`	0
+[/routing priority]
+
+[required skill]
+	33
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[duration]
+		2000
+	[active status]
+		`freeze`	75
+[/then]
+
+[skill data up]
+	`[swordman]`	72
+	`[all]`
+	`[static]`	0
+	`+`	1
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	25
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	1
+	`%`	25
+[/skill data up]
+
+[if]
+	[skill]
+		`swordman`	72
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		90
+	[duration]
+		2000
+	[active status]
+		`freeze`	75
+[/then]
+
+[if]
+	[skill]
+		`demonic swordman`	72
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		90
+	[duration]
+		2000
+	[active status]
+		`freeze`	75
+[/then]
+
+[possible kiri protect]

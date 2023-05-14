@@ -1,0 +1,236 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`GBL教阿拉德分部`
+	
+
+[explain]
+	`一直以來， 很多人都認為GBL教只生活在天帷巨獸的神殿中。 但最近， 有人發現GBL教在阿拉德大陸設了分部。 在GBL教的阿拉德分部裡， 冒險家們不僅發現那些崇尚古代知識的GBL教信徒身上出現了一些奇怪的卵， 而且還發現了一個被鎖著的門……門後面到底是什麼呢？ 這是否預示著新一場的災難即將來臨？ 看來只有找到鑰匙打開那個門， 才能找到答案。`
+	
+
+[entering title]
+	`Title/AradBranchofGBL.ani`
+
+[cutscene image]
+	`Map/CutScene/Village.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	1
+	`WorldMap/SelectdungeonSlot/gbl.img`	0
+
+[minimum required level]
+	46
+
+[basis level]
+	49
+
+[experience increasing point]
+	1.1
+
+[champion]
+	3	6	9	12	14
+
+[pathgate object]
+	5500	5501	5502	5503	5504	5505	5506	5507	5508	5509
+
+[special passive object item]
+	0	-1	3	1068	1000	1069	1000	1070	1500	1	-1	0
+[/special passive object item]
+
+[maze info]
+
+[size]
+	4	4
+
+[greed]
+	`BBNNFFMM
+ AALLMMCC
+ AAKKKKAA
+ BBHHHHEE`
+
+[map specification]
+	0	0	13005
+[/map specification]
+
+[map specification]
+	1	0	13004
+[/map specification]
+
+[map specification]
+	2	0	13003
+[/map specification]
+
+[map specification]
+	3	0	13002
+[/map specification]
+
+[map specification]
+	1	1	13006
+[/map specification]
+
+[map specification]
+	2	1	13008
+[/map specification]
+
+[map specification]
+	1	2	13007
+[/map specification]
+
+[map specification]
+	0	3	13010
+[/map specification]
+
+[map specification]
+	1	3	13009
+[/map specification]
+
+[map specification]
+	2	3	13011
+[/map specification]
+
+[map specification]
+	3	3	13012
+[/map specification]
+
+[start map]
+	3	1
+[/start map]
+
+[boss map]
+	2	2
+[/boss map]
+
+[seal door map index]
+	60040
+
+[seal door pos]
+	1	0
+
+[maze info]
+
+[quest connection]
+	0	3802	-1
+
+[clear condition]
+	[destroy object]
+		8500	4
+[/clear condition]
+
+[size]
+	2	1
+
+[greed]
+	`BBEE`
+
+[boss map specification]
+	0	0	13059
+[/boss map specification]
+
+[start map]
+	1	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[escape hell]
+	1
+
+[maze info]
+
+[quest connection]
+	0	3803	-1
+
+[size]
+	4	4
+
+[greed]
+	`BBNNFFMM
+ AALLMMCC
+ AAKKKKAA
+ BBHHHHEE`
+
+[map specification]
+	0	0	13005
+[/map specification]
+
+[map specification]
+	1	0	13004
+[/map specification]
+
+[map specification]
+	2	0	13003
+[/map specification]
+
+[map specification]
+	3	0	13002
+[/map specification]
+
+[map specification]
+	1	1	13006
+[/map specification]
+
+[map specification]
+	2	1	13008
+[/map specification]
+
+[map specification]
+	1	2	13007
+[/map specification]
+
+[map specification]
+	2	2	13060
+[/map specification]
+
+[map specification]
+	0	3	13010
+[/map specification]
+
+[map specification]
+	1	3	13009
+[/map specification]
+
+[map specification]
+	2	3	13011
+[/map specification]
+
+[boss map specification]
+	3	3	13058
+[/boss map specification]
+
+[start map]
+	3	1
+[/start map]
+
+[boss map]
+	3	3
+[/boss map]
+
+[seal door map index]
+	60040
+
+[seal door pos]
+	1	0
+
+[escape hell]
+	1
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[event monster]
+	1	1300	62502	1	300	80	1
+[/event monster]

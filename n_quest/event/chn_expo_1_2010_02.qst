@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	3
+
+[complete npc index]
+	3
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680381	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680384	2
+[/reward int data]
+
+[name]
+	`幸福之心`
+
+[depend message]
+	`你怎么才來呀？ 賽麗亞已經跟你說了吧？ 你給我收集干電池就可以了~
+我相信你和我一樣， 都希望這難聞的臭味盡快消失。 `
+
+[condition message]
+	`    收集10個[干電池]交給卡妮娜。`
+
+[solve message]
+	`謝謝啦~祝你每天都過得幸福哦~`

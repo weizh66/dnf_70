@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`羅莉安的入門MP藥劑`
+	
+
+[explain]
+	`    可以向諾頓、 賽麗亞、 林納斯或羅莉安購買。`
+	
+
+[flavor text]
+	`    專為有收集愛好的冒險家準備的珍貴藥劑， 可以補充HP。`
+	
+
+[grade]
+	10
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	20
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	6
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	151
+
+[field image]
+	`Item/field_consumption.img`	10
+
+[stackable type]
+	`[waste]`	4
+
+[item group name]
+	`potion`
+
+[price]
+	200
+
+[cool time]
+	10000
+
+[cooltime group]
+	1
+
+[move wav]
+	`POTION_TOUCH`
+
+[mp recovery]
+	`+`	150	1000
+	`myself`

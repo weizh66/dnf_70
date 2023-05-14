@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`S`
+
+[gold multiple]
+	110
+
+[npc index]
+	15
+
+[complete npc index]
+	18
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	30	99
+
+[enemy reward item]
+	6400	2	24	1	4204	1	50	1	6400	2	24	2	4204	1	60	1	6400	2	24	3	4204	1	70	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4204	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	50000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`懸賞令 : 寶藏獵人扎卡魯塔`
+
+[depend message]
+	`公告！
+致公國境內的所有冒險家 : 最近， 國內發生了一起嚴重的偷竊案件！ 公國金庫的鑰匙被一個自稱為寶藏獵人扎卡魯塔的女盜賊盜取， 如果不能及時將此人抓捕歸案， 追回失竊的鑰匙， 公國將會面臨重大的損失。
+公國懸賞， 無論是誰， 只要能從扎卡魯塔手中奪回公國金庫鑰匙就能獲得50000金幣獎勵。 公國懇請有意為公國效力的冒險家前往此盜賊的藏身之處--極晝一探究竟。`
+
+[condition message]
+	`    前往天帷巨獸神殿的『極晝』， 從扎卡魯塔手中奪回[公國的金庫鑰匙]交給博肯， 要求地下城難度為冒險級以上。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`啊……能找回鑰匙真是萬幸啊。 呵呵， 這個是我準備好的懸賞金， 請你收下！`

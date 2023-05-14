@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`封·深海熔巖胸甲`
+
+[basic explain]
+	`  每12點火屬性強化， 使自身減少1點冰屬性抗性。 （最多減少20點）
+  每12點火屬性強化， 使自身增加5點物理攻擊力和魔法攻擊力。 （最多增加100點）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12568
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	94
+
+[magical attack]
+	79
+
+[HP MAX]
+	350
+
+[need material]
+	3821	900
+
+[repair price]
+	96320
+
+[value]
+	96320
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3492	3168
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[water resistance]
+	12
+
+[icon]
+	`item/new_equipment/04_larmor/coat/larmor_coat.img`	10
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`fire attack`	12
+		`water resistance`
+		`+`	-1	20
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`fire attack`	12
+		`equipment magical attack`
+		`+`	5	100
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

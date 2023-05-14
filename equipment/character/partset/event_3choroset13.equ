@@ -1,0 +1,133 @@
+#PVF_File
+
+[set name]
+	`赤焰御影  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[gunner]`	40
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[gunner]`	40
+		`[dungeon type]`
+		`[level]`	5
+		`%`	15
+		`[gunner]`	40
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	40
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	40
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[gunner]`	40
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[gunner]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gunner]`	13
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[at gunner]`	40
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[at gunner]`	40
+		`[dungeon type]`
+		`[static]`	3
+		`%`	15
+		`[at gunner]`	40
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	40
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	40
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at gunner]`	40
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at gunner]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at gunner]`	13
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[gunner]`	36
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[gunner]`	36
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[gunner]`	36
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gunner]`	36
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[gunner]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[gunner]`	21
+		`[dungeon type]`
+		`[static]`	13
+		`+`	1500
+		`[at gunner]`	36
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at gunner]`	36
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[at gunner]`	36
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at gunner]`	36
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[at gunner]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at gunner]`	21
+		`[dungeon type]`
+		`[static]`	13
+		`+`	1500
+	[/skill data up]
+	[parameter basic explain]
+		`反坦克炮冷卻時間減少1秒， 攻擊力增加20%%， 爆發大小增加1 5%% / M-3噴火器攻擊力增加10%% 
+聚焦噴火器冷卻時間減少2秒， 攻擊力增加10%%， 延遲減少30%% / 蓄電鐳射炮攻擊力增加20%% / 量子爆彈冷卻時間減少2 5%% /重火器精通攻擊力上升 持續時間增加1.5秒`
+[/piece set ability]

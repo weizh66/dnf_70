@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`灼灼其華之戒`
+
+[basic explain]
+	`    被攻擊時， 對300px範圍內最近的敵人發動較強的火焰爆炸。`
+
+[detail explain]
+	`    被攻擊時， 對300px範圍內最近的敵人發動較強的火焰爆炸。 (冷卻時間1秒)`
+
+[flavor text]
+	`    她的美麗， 就像燃燒的火焰壹樣， 可惜終究只是壹時。`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[need material]
+	10000204	32
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[fire attack]
+	22
+
+[burn resistance]
+	20
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	150
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	200
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[passive object]
+		140109	0	0	70	2	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

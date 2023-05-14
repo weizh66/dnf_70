@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`魔界抗疲勞秘藥 (1點)`
+
+[explain]
+	`    使用后， 恢復1點疲勞值。 (疲勞值低于155時， 才能使用該秘藥)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	355
+
+[stackable type]
+	`[expert town potion]`	0
+
+[item group name]
+	`potion`
+
+[cool time]
+	60000
+
+[use action packet]
+	1
+
+[action type]
+	`[add fatigue]`	1
+[/action type]
+
+[move wav]
+	`POTION_TOUCH`
+
+[cooltime maintenance]
+	1	1	1
+
+[daily delete item]
+	1

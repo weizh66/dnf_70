@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`橙色簡便創可貼`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_aface.img`	251
+
+[equipment type]
+	`[face avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	80	1
+
+[layer variation]
+	100
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	10
+	`[ATTACK_SPEED]`
+	`+`	40
+	`[HIT_RECOVERY]`
+	`+`	100
+[/avatar select ability]

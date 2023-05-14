@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`貴族之耀光環`
+
+[flavor text]
+	`<2016勞動節禮包>`
+
+[grade]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	23
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	41
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[equipment physical attack]
+	20	20
+
+[separate attack]
+	30	30
+
+[physical critical hit]
+	2
+
+[all elemental attack]
+	5
+
+[aurora graphic effects]
+	5	1
+	`Character/Common/Animation/Aura/red_front.ani`	1
+	`Character/Common/Animation/Aura/red_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/red_back.ani`	0
+	`Character/Common/Animation/Aura/red_back_dodge.ani`	0
+	`Character/Common/Animation/Aura/red_halo.ani`
+
+[aura ability]
+	`[solo teleport]`	600
+[/aura ability]
+
+[aura pos datas]
+	4
+	`[swordman]`	0	0	4
+	`[fighter]`	2	11	4
+	`[gunner]`	-2	-17	4
+	`[mage]`	-2	25	4
+	`[priest]`	-5	-11	4
+	`[at gunner]`	0	-5	4
+	`[thief]`	0	-3	4
+	`[at fighter]`	-2	-6	4
+	`[at mage]`	0	10	4
+	`[demonic swordman]`	0	0	4
+	`[creator mage]`	-2	25	4
+	`[at swordman]`	0	3	4
+	`[knight]`	0	14
+[/aura pos datas]

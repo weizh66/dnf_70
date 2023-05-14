@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	1
+
+[npc index]
+	6
+
+[complete npc index]
+	6
+
+[exposed by npc]
+	1
+
+[first exposed by npc]
+	1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7887	7893	7896
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7891
+
+[name]
+	`轉職 - 散打 (1/3)`
+
+[depend message]
+	`你知道嗎？ 男散打的攻擊是從腳開始， 也是用腳結束。
+很多人把男散打比作舞動的火焰， 就是因為他們絢麗的腳下技能。
+你想了解散打的精髓嗎？ 那就先讓我看看你的誠意！`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給風振。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`我說的誠意不是指送禮……呃， 不過既然都拿來了， 就不要浪費了……`

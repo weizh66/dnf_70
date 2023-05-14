@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/combo_Axe_dummy.ani`
+[/MOTION]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11527
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			110
+		[POS]
+			0	0	0
+		[USE ANGLE]
+			45	350	1500	2
+		[MOVABLE POS ONLY]
+		[WARNING MARK]
+			0	0	280	2
+	[/CREATE PASSIVEOBJECT]
+	[DESTROY]
+[/BEHAVIOR]

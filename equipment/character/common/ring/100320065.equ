@@ -1,0 +1,162 @@
+#PVF_File
+
+[name]
+	`精湛的領導力`
+
+[basic explain]
+	`攻擊時2%%以機率在20秒內召喚1隻小槍手空空伊
+攻擊時以 2%% 的機率在 20秒內召喚神槍手哥布林
+（決鬥場內10秒內召喚）
+不可解體`
+
+[detail explain]
+	`攻擊時以2%%的機率在20秒內召喚1隻Lv75小槍手空空，攻擊敵人。 （召喚的怪物最大可同時存在 1隻，受到許多傷害時，和召喚時間無關就會消失。）
+攻擊時以 2%% 的機率20秒內召喚1隻Lv75 神槍手哥布林，攻擊敵人。 （召喚的怪物最大可同時存在 1隻，受到許多傷害時，和召喚時間無關就會消失。）
+（決鬥場內10秒內召喚）
+不可解體`
+
+[flavor text]
+	`託你的服召集了許多惡徒。偉大的領導力-史基福`
+
+[grade]
+	79
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	47
+
+[magical attack]
+	47
+
+[need material]
+	3338	440
+
+[value]
+	63200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	2752	2592
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	100
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[summon monster]
+		65500	75	1
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[summon monster]
+		65013	75	1
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			60000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[probability]
+			2
+		[summon monster]
+			65500	75	1
+	[/then]
+	[if]
+		[cooltime]
+			60000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[probability]
+			2
+		[summon monster]
+			65013	75	1
+	[/then]
+[/pvp]
+
+[possible kiri protect]

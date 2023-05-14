@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`寂魂祈日長袍`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[creation rate]
+	200
+
+[magical attack]
+	26
+
+[magical defense]
+	26
+
+[price]
+	37800
+
+[repair price]
+	33339
+
+[value]
+	151200
+
+[equipment physical defense]
+	684	660
+
+[skill levelup]
+	`[fighter]`	30	1
+	`[at fighter]`	112	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	74
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[set name]
+	`寂魂祈日戰袍  套裝`
+
+[set item]
+	10098	12096	14094	18081	16080
+[/set item]
+
+[set ability]
+	[magical attack]
+		30
+	[magical defense]
+		15
+	[cast speed]
+		50
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			15000
+		[probability]
+			2
+		[reduce probability to human armor at pvp module]
+			70
+		[active status]
+			`lightning`	50	210
+	[/then]
+	[skill levelup]
+		`[fighter]`	90	1
+		`[fighter]`	16	1
+		`[at fighter]`	90	1
+		`[at fighter]`	16	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時以 2%%的機率讓敵人進入感電狀態`
+	[fullset detail explain]
+		`被攻擊時以 2%%的機率15秒內讓敵人進入感電狀態，每次攻擊時以210的攻擊力給予附加傷害。(若敵人高於Lv50，則減少進入異常狀態的機率；反之，則增加機率)`
+[/set ability]
+
+[possible kiri protect]

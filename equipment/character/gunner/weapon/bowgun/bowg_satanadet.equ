@@ -1,0 +1,228 @@
+#PVF_File
+
+[name]
+	`撒旦之誘惑`
+
+[basic explain]
+	`攻擊速度 +2.5%%
+攻擊時， 有3%%的幾率使敵人進入詛咒狀態。
+對詛咒狀態下敵人的傷害 +10%%`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使敵人進入詛咒狀態5秒； 但在決斗場中， 只能持續2.5秒； 詛咒狀態下， 減少30點力量、 體力、 智力和精神。 (若敵人高于Lv65， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對詛咒狀態下敵人的傷害 +10%% (在決斗場中 +5%%)
+攻擊速度 +2.5%%`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	55
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[magical attack]
+	22
+
+[equipment physical attack]
+	491	440
+
+[equipment magical attack]
+	546	489
+
+[separate attack]
+	378	255
+
+[stuck resistance]
+	10
+
+[attack speed]
+	45
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`curse`	65	30	30	30	30
+[/then]
+
+[if]
+	[target active status]
+		`curse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[gunner]`	49	2
+	`[at gunner]`	49	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	10	6
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	10	6
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			7500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			5000
+		[reduce duration to human armor at pvp module]
+			50
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`curse`	65	30	30	30	30
+	[/then]
+	[if]
+		[target active status]
+			`curse`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

@@ -1,0 +1,33 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/timegate/TopSecretArea/effect/ice_glow.img`
+		0
+	[IMAGE POS]
+		-30	-84
+	[IMAGE RATE]
+		0.9300000071525574	0.46000099182128906
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		20
+
+[FRAME001]
+	[IMAGE]
+		`Monster/timegate/TopSecretArea/effect/ice_glow.img`
+		1
+	[IMAGE POS]
+		-38	-67
+	[IMAGE RATE]
+		0.8077309727668762	0.35893601179122925
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		20

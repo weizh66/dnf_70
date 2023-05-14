@@ -1,0 +1,78 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/nemer/h_move.img`
+		0
+	[IMAGE POS]
+		-44	-50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/nemer/h_move.img`
+		0
+	[IMAGE POS]
+		-44	-50
+	[RGBA]
+		255	255	255	200
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/nemer/h_move.img`
+		0
+	[IMAGE POS]
+		-44	-50
+	[RGBA]
+		255	255	255	149
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/nemer/h_move.img`
+		0
+	[IMAGE POS]
+		-44	-50
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/nemer/h_move.img`
+		0
+	[IMAGE POS]
+		-44	-50
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150

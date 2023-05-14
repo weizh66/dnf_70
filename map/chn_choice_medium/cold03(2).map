@@ -1,0 +1,110 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3501
+[/dungeon]
+
+[type]
+	`[boss]`
+
+[greed]
+	`CC CC`
+
+[tile]
+	`Tile/emptytile.til`
+	`Tile/emptytile.til`
+	`Tile/emptytile.til`
+	`Tile/emptytile.til`
+	`Tile/emptytile.til`
+[/tile]
+
+[extended tile]
+	`Tile/rc06_1.til`
+	`Tile/rc06.til`
+	`Tile/rc06_1.til`
+	`Tile/rc06.til`
+	`Tile/rc06.til`
+	`Tile/rc01.til`
+	`Tile/rc01_1.til`
+	`Tile/rc01_1.til`
+	`Tile/rc01.til`
+	`Tile/rc01.til`
+	`Tile/rc03_1.til`
+	`Tile/rc04_1.til`
+	`Tile/rc01_1.til`
+	`Tile/rc01_1.til`
+	`Tile/rc01_1.til`
+	`Tile/rc16.til`
+	`Tile/rc08.til`
+	`Tile/rc03.til`
+	`Tile/rc04.til`
+	`Tile/rc01_1.til`
+	`Tile/rc10.til`
+	`Tile/rc17_flip.til`
+	`Tile/rc10.til`
+	`Tile/rc08.til`
+	`Tile/rc03_flip.til`
+[/extended tile]
+
+[far sight scroll]
+	56
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/mid01.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`../CommonAnimation/fogSub.ani`
+		[layer]
+			`[close]`
+		[order]
+			`[upper]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	177	714	332	705	399	291	379	749
+
+[sound]
+	`M_RIKU_CAVE`
+	`RIKU_AMB`
+[/sound]
+
+[passive object]
+	739	2362	278	0	845	1442	279	0	8111	177	286	0	743	1911	302	0	742	1955	302	0	8111	830	312	0	8107	972	315	0	8018	649	315	0	8018	696	319	0	845	1757	324	0	845	2241	331	0	8107	953	349	0	845	1644	387	0	8107	984	392	0	30303	923	406	0	8038	1235	416	0	30303	940	423	0	30303	485	443	0	955	1742	446	0	8107	104	460	0	30303	438	462	0	30303	466	462	0	955	1773	463	0	8111	644	472	0	846	2149	475	0	8107	110	479	0	743	2197	468	0	48047	0	0	0	846	2173	483	0	8107	64	484	0	744	2074	491	0	845	2122	491	0	8111	612	494	0	8107	57	504	0	30303	783	505	0	8153	971	508	0	8153	1010	509	0	8153	928	509	0	8153	1049	510	0	8107	104	512	0	8107	731	521	0	8153	894	523	0	8018	486	533	0	8107	715	539	0	8018	386	541	0	8153	1050	542	0	8153	869	542	0	8038	500	568	0	8038	583	577	0	8038	729	592	0	8018	757	633	0	8018	824	638	0	8107	752	665	0	8018	840	666	0	8111	1203	733	0
+[/passive object]
+
+[monster]
+	64510	1	0	972	588	0	1	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+[/monster specific AI]
+
+[event monster position]
+	288	384	0	290	433	0	305	318	0	850	518	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

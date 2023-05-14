@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`波動之魅`
+
+[flavor text]
+	`設計成可增強體內波動的神祕的項鍊。`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[magical attack]
+	26
+
+[magical defense]
+	64
+
+[price]
+	74400
+
+[repair price]
+	62496
+
+[value]
+	59520
+
+[equipment magical defense]
+	5600	5120
+
+[skill levelup]
+	`[swordman]`	47	1
+[/skill levelup]
+
+[icon]
+	`Item/common/necklace.img`	10
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[set name]
+	`波動增幅首飾`
+
+[set item]
+	20108	22105
+[/set item]
+
+[routing priority]
+	`swordman`	4
+[/routing priority]
+
+[set ability]
+	[skill data up]
+		`[swordman]`	52
+		`[all]`
+		`[level]`	1
+		`+`	30
+	[/skill data up]
+	[skill levelup]
+		`[swordman]`	52	1
+		`[swordman]`	21	1
+		`[swordman]`	22	1
+	[/skill levelup]
+	[fullset basic explain]
+		`殺意波動範圍增加10%% `
+[/set ability]
+
+[possible kiri protect]

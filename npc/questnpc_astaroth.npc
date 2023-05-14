@@ -1,0 +1,43 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	29
+
+[big face]
+	`Map/Npc/NpcFace04.img`	12
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	29
+
+[field animation]
+	`Animation/QuestNpc_astaroth.ani`
+
+[popup wav]
+	`ASTAROTH_SKILL_04_1`
+	`ASTAROTH_SKILL_03_3`
+
+[look around]
+	0
+
+[name]
+	`恐怖之阿斯特羅斯`
+
+[field name]
+	`恐怖的阿斯塔羅斯`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1014>寄託奧茲瑪大人。包括身心......。連本能也！
+那麼就用敵人的血來沾濕你的身體吧！`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1014>目前為止奧茲瑪大人的力量尚未完成。但是足以殺戮聖職者！！`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1014>圣者米歇?......。難怪和奧茲瑪的氣味相同。
+那還真是奇怪的事情，對吧？哈哈哈。`
+[/dialog]

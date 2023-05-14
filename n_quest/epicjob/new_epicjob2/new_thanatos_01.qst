@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 亡魂主宰 (1/6)`
+
+[depend message]
+	`你現在的狀態非常危險， 一不小心就會面臨生命危險。 你還是跟我好好談談吧。
+我到處打聽， 終于找到了拯救你的方法。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`你快過來讓我看看。
+……嗯， 比我想象得還要嚴重。 你最好老實回答我的問題。 莫非你犯了死靈術士的禁忌？
+哎……即使再想變得強大也不能違反規矩啊。 你這么不擇手段地去提升力量， 究竟是為了什么？
+……不想說是吧？ 也是， 反正你說什么都已經晚了， 我也不問了。
+但我還是不得不管管你。 以后你要做的事情還有很多， 我可不能就這么放任你不管。 就算是為了不久之后將要迎來的大戰， 我也要救你。 別想逃跑。 否則你只會更快面對死亡。`
+
+[target character]
+	`[thief]`	2	1
+[/target character]
+
+[relation quest]
+	6831
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`匹諾曹的藤蔓手槍`
+
+[explain]
+	`2010年勞動節禮包`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/gunner/revolver.img`	35
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		7	0
+	[layer variation]
+		2600
+		`revc`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[layer variation]
+		650
+		`revb`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/gunner/weapon/revolver/`
+[/expand ani]
+
+[int data]
+	654321	3	1	110	0	90	1	110	0	90	1	110	0	90	2	110	0	20	0	55	0	70
+[/int data]
+
+[string data]
+	`Common/Particle/childrenday_gn.ptl`
+[/string data]
+
+[avatar func filter]
+	2

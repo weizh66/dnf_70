@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`逆龍之戰強襲肩甲`
+
+[basic explain]
+	`  攻擊HP為50%%以上的敵人時，增加10%%的傷害。`
+
+[detail explain]
+	`  攻擊HP為50%%以上的敵人時，增加10%%的傷害。`
+
+[flavor text]
+	`  哎，這裡為什麼就我一個神族呢····--露德米拉`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12565
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	31
+
+[magical attack]
+	22
+
+[physical defense]
+	28
+
+[attack speed]
+	100
+
+[cast speed]
+	150
+
+[need material]
+	3821	800
+
+[price]
+	97200
+
+[repair price]
+	77760
+
+[value]
+	77760
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	2944	2656
+
+[physical critical hit]
+	7
+
+[magical critical hit]
+	7
+
+[icon]
+	`item/new_equipment/05_harmor/neck/harmor_neck.img`	17
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`>`
+		`%`	50
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600648	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

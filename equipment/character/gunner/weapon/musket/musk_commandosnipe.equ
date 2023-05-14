@@ -1,0 +1,219 @@
+#PVF_File
+
+[name]
+	`狙擊之眼`
+
+[basic explain]
+	`基本裝彈數 -1
+[尼爾狙擊]命中敵人時， 有30%%的幾率使敵人進入減速狀態， 效果持續2秒。
+對減速狀態下敵人的傷害 +30%%`
+
+[detail explain]
+	`    [尼爾狙擊]命中敵人時， 有30%%的幾率使敵人進入減速狀態2秒； 減速狀態下， 減少30%%的移動速度和攻擊速度。 (若敵人高于Lv60， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+對減速狀態下敵人的傷害 +30%% (在決斗場中 +15%%)
+基本裝彈數 -1`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`musket`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2100
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`item/weapon/gunner/musket.img`	58
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	2
+
+[durability]
+	30
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	64
+
+[equipment physical attack]
+	575	490
+
+[equipment magical attack]
+	500	427
+
+[separate attack]
+	360	243
+
+[skill levelup]
+	`[gunner]`	78	2
+	`[at gunner]`	78	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	10	4
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	10	4
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[int data]
+	2	-1	-1	-1	-1	-1	-1	-1	-1	-1
+[/int data]
+
+[if]
+	[skill]
+		`gunner`	78
+		`at gunner`	78
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		30
+	[active status]
+		`slow`	60	30	30
+[/then]
+
+[if]
+	[target active status]
+		`slow`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[pvp]
+	[int data]
+		2	-1	-1	-1	-1	-1	-1	-1	-1	-1
+	[/int data]
+	[if]
+		[skill]
+			`gunner`	78
+			`at gunner`	78
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			2000
+		[probability]
+			30
+		[active status]
+			`slow`	60	30	30
+	[/then]
+	[if]
+		[target active status]
+			`slow`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

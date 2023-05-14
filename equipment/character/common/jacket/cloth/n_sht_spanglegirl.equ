@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	` 銀月少女T恤衫`
+
+[basic explain]
+	`角色的等級越高裝備防禦力增加（每等級 物理防禦力增加6）`
+
+[flavor text]
+	`男人要是穿了這個，就會被人看成是心理變態。`
+
+[grade]
+	15
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	10
+
+[magical attack]
+	11
+
+[magical defense]
+	11
+
+[price]
+	13500
+
+[repair price]
+	10800
+
+[value]
+	10800
+
+[equipment physical defense]
+	276	204
+
+[icon]
+	`Item/common/coat.img`	115
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[set name]
+	`銀月少女的時尚裝束  套裝`
+
+[set item]
+	10114	12112	14102	18093	16088
+[/set item]
+
+[set ability]
+	[all activestatus resistance]
+		10
+	[if]
+		[cooltime]
+			100000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			100000
+		[reduce duration at pvp module]
+			75
+		[probability]
+			2
+		[summon monster]
+			60104	30	1
+	[/then]
+	[fullset basic explain]
+		`被攻擊時，以2%%的機率召喚出1只克拉赫。`
+	[fullset detail explain]
+		`被攻擊時，有2%%的幾率召喚出1隻Lv30的克拉赫協助召喚者攻擊敵人，克拉赫存在100秒 （召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

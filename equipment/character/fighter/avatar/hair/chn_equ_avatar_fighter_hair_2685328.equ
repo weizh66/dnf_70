@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`褐色動感馬尾辮`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_ahair.img`	303
+
+[equipment type]
+	`[hair avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0
+[/avatar type select]
+
+[variation]
+	87	0
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	800
+	`hair_b`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`
+	`+`	20
+	`[MAGICAL_DEFENSE]`
+	`+`	20
+	`[HP_REGENRATE]`
+	`+`	30
+	`[MP_REGENRATE]`
+	`+`	8
+	`[CAST_SPEED]`
+	`+`	100
+[/avatar select ability]

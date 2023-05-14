@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7867	7874	7877
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7872
+
+[name]
+	`轉職 - 槍炮師 (1/3)`
+
+[depend message]
+	`槍炮師？！ 你這么瘦弱， 能拿得動重武器嗎？
+唔……不過你接受過皇都的精英教育， 應該沒問題吧……
+還是有點擔心吶……如果中途放棄的話， 還不如不要開始呢……
+怎么樣， 你下定決心了嗎？`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`咦？ 這么快就回來了？`

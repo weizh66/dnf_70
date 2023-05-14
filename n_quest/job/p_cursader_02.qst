@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	12
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7852
+[/pre required quest]
+
+[collision quest]
+	7856	7860	7863
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7854
+
+[name]
+	`轉職 - 圣騎士 (2/4)`
+
+[depend message]
+	`圣職者是受神保護的人， 尤其是圣騎士， 他是由諸神挑選出來守護眾生的神使。 只要你懷著堅定的信念掃除世間的一切黑暗， 總有一天會獲得神的啟示。
+我聽說有人在亡月雷鳴廢墟里得到了神的啟示， 不如你也去試試吧？
+但是聽說那里位置很隱蔽， 可能很難找到入口……不如你去找魔法公會的莎蘭問問吧， 她應該知道。`
+
+[condition message]
+	`    找莎蘭談談。`
+
+[solve message]
+	`你好， 你來魔法公會有什么事嗎？`

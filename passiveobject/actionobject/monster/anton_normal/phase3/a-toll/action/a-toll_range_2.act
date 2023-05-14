@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/A-Toll_Range_2.ani`
+	[SUB ANI]
+		`../Animation/A-Toll_Range_2_in.ani`	0	1
+		`../Animation/A-Toll_Range_2_0.ani`	0	2
+		`../Animation/A-Toll_Range_2_in_0.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`ATOLL_LINE_LOOP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		99	99
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[STAND]
+	[NOW]
+[/BEHAVIOR]

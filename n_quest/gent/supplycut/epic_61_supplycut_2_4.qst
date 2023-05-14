@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	5750
+[/pre required quest]
+
+[enemy reward item]
+	61013	1	84	2	4396	1	100	1	61013	1	84	3	4396	1	100	1
+[/enemy reward item]
+
+[quest point]
+	10
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4396	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	7774	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`終極實驗體`
+
+[depend message]
+	`我知道你花了很大功夫才拿到布萊斯托的樣本， 但是很抱歉， 這里面包含的實驗數據實在是太少了， 無法做出精確的分析。
+我需要更接近完整體的樣本。
+聽說敵軍的基地內有個叫‘終結者’的怪物非常厲害， 嗯， 說不定它就是吉賽爾改造的實驗體的最終形態……
+如果能收集到它的樣本， 或許就能從中提取出充分的數據……`
+
+[condition message]
+	`    前往安特貝魯峽谷的『補給線阻斷戰』， 擊敗UM-0 終結者并找到[實驗體的DNA樣本]， 要求地下城難度為王者級。`
+
+[solve message]
+	`非常感謝！ 我現在馬上開始研究。
+我保證這次一定能找出實驗的真相。
+該死的吉賽爾， 我不會再讓他繼續用科學的力量危害人類。`

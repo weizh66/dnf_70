@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`九域玄天腰帶`
+
+[basic explain]
+	`  被擊時，有10%%的幾率在360px范圍內隨即發動火焰爆炸，效果持續2秒.（冷卻時間20秒）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[physical defense]
+	25
+
+[HP MAX]
+	450
+
+[inventory limit]
+	3000
+
+[need material]
+	3500	1000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	1960	1820
+
+[fire attack]
+	18
+
+[icon]
+	`item/new_equipment/06_plate/belt/plate_belt.img`	40
+
+[field image]
+	`Item/field_equip.img`	18
+
+[equipment type]
+	`[waist]`	20
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2000
+
+[item group name]
+	`mt waist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		60102	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

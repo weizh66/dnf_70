@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	26
+
+[complete npc index]
+	26
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	48
+[/pre required quest]
+
+[monster reward item]
+	50030	34	1	4085	6	80	100	50031	34	1	4085	6	80	100	50032	34	1	4085	6	80	100	760	34	1	4085	8	80	100	761	34	1	4085	8	80	100	762	34	1	4085	8	80	100	50030	34	2	4085	6	80	100	50031	34	2	4085	6	80	100	50032	34	2	4085	6	80	100	760	34	2	4085	8	80	100	761	34	2	4085	8	80	100	762	34	2	4085	8	80	100	50030	34	3	4085	6	80	100	50031	34	3	4085	6	80	100	50032	34	3	4085	6	80	100	760	34	3	4085	8	80	100	761	34	3	4085	8	80	100	762	34	3	4085	8	80	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4085	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	30000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`強悍的證明`
+
+[depend message]
+	`恕我直言， 你還不知道吧？ 大多數暗精靈根本不把其他種族放在眼里， 除非你能改變他們的想法。
+根據我對暗精靈的了解， 如果你能殺死他們信賴的怪物， 例如熔巖穴里的殘缺的巨人， 或許能改變他們的想法， 你想去試試嗎？`
+
+[condition message]
+	`    前往暗黑城的『熔巖穴』， 從阿特拉斯、 泰坦、 歌利亞身上收集100個[巨人的碎布線]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`呵呵， 有了這些證據， 他們一定不敢小瞧你的！`
+
+[quest point]
+	4

@@ -1,0 +1,136 @@
+#PVF_File
+
+[name]
+	`封·暗殺者的鋒芒戒指`
+
+[basic explain]
+	`  攻擊HP為70%%以上的敵人時， 增加10%%的暴擊傷害。
+  攻擊HP為20%%以上70%%以下的敵人時， 增加20%%的暴擊傷害。
+  攻擊HP為20%%以下的敵人時， 增加30%%的暴擊傷害。`
+
+[flavor text]
+	`  殺戮，殺戮，無休止的殺戮——根本停不下來。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	56
+
+[magical attack]
+	56
+
+[need material]
+	3821	1000
+
+[price]
+	127400
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3264	2976
+
+[physical critical hit]
+	7
+
+[magical critical hit]
+	7
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	145
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`>=`
+		`%`	70
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`<`
+		`%`	70
+	[target stat]
+		`hp`
+		`>=`
+		`%`	20
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	20
+[/then]
+
+[if]
+	[event attack success]
+		1
+	[target stat]
+		`hp`
+		`<`
+		`%`	20
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	30
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

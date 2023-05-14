@@ -1,0 +1,261 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	4123
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`MM MM`
+
+[tile]
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+[/tile]
+
+[far sight scroll]
+	42
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/far_forest.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/mid_forest.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	10	214	936	473	557	489	858	320
+
+[sound]
+	`AMB_FOREST_01`
+	`M_LARGUS_01`
+[/sound]
+
+[animation]
+	`Animation/StoneHead.ani`
+	`[closeback]`	70	138	0
+	`Animation/StonePillar0.ani`
+	`[closeback]`	420	136	0
+	`Animation/StonePillar0.ani`
+	`[closeback]`	1295	135	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	91	328	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	565	214	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	1112	340	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	761	-50	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	514	-52	0
+	`Animation/chn_tree01_00.ani`
+	`[close]`	694	319	0
+	`Animation/chn_tree01_00.ani`
+	`[close]`	1222	311	0
+	`Animation/chn_tree01_00.ani`
+	`[close]`	8	278	0
+	`Animation/Tree4.ani`
+	`[closeback]`	189	116	0
+	`Animation/Tree4.ani`
+	`[middleback]`	599	119	0
+	`Animation/Tree4.ani`
+	`[closeback]`	841	122	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	353	-55	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	291	31	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	387	69	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	694	61	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1005	70	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1147	-3	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	930	-10	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1052	9	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1261	-9	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1186	-10	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	1197	-59	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	1113	-63	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	1021	-58	0
+	`Animation/Tree4.ani`
+	`[closeback]`	1168	112	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	68	-3	0
+	`Animation/Grass2.ani`
+	`[bottom]`	256	358	0
+	`Animation/Grass2.ani`
+	`[bottom]`	390	188	0
+	`Animation/Grass2.ani`
+	`[bottom]`	546	191	0
+	`Animation/Grass2.ani`
+	`[bottom]`	747	362	0
+	`Animation/Grass2.ani`
+	`[bottom]`	987	370	0
+	`Animation/Grass2.ani`
+	`[bottom]`	1223	177	0
+	`Animation/Grass2.ani`
+	`[bottom]`	1316	358	0
+	`Animation/Grass2.ani`
+	`[bottom]`	920	173	0
+	`Animation/Grass2.ani`
+	`[bottom]`	30	188	0
+	`Animation/chn_dragon_zone_light_left.ani`
+	`[normal]`	-66	-273	0
+	`Animation/Flower0.ani`
+	`[bottom]`	243	162	0
+	`Animation/Flower0.ani`
+	`[bottom]`	214	159	0
+	`Animation/Flower0.ani`
+	`[bottom]`	201	175	0
+	`Animation/Flower0.ani`
+	`[bottom]`	238	180	0
+	`Animation/Flower0.ani`
+	`[bottom]`	580	346	0
+	`Animation/Flower0.ani`
+	`[bottom]`	557	340	0
+	`Animation/Flower0.ani`
+	`[bottom]`	600	336	0
+	`Animation/Flower0.ani`
+	`[bottom]`	590	360	0
+	`Animation/Flower0.ani`
+	`[bottom]`	1073	202	0
+	`Animation/Flower0.ani`
+	`[bottom]`	1080	212	0
+	`Animation/Flower0.ani`
+	`[bottom]`	1234	361	0
+	`Animation/Flower0.ani`
+	`[bottom]`	1203	356	0
+	`Animation/Flower0.ani`
+	`[bottom]`	507	319	0
+	`Animation/Flower0.ani`
+	`[bottom]`	1223	361	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1127	146	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1140	167	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1325	319	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1304	329	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1281	327	0
+	`Animation/Flower1.ani`
+	`[bottom]`	721	322	0
+	`Animation/Flower1.ani`
+	`[bottom]`	528	155	0
+	`Animation/Flower1.ani`
+	`[bottom]`	425	149	0
+	`Animation/Flower1.ani`
+	`[bottom]`	380	140	0
+	`Animation/Flower1.ani`
+	`[bottom]`	358	289	0
+	`Animation/Flower1.ani`
+	`[bottom]`	337	307	0
+	`Animation/Flower1.ani`
+	`[bottom]`	77	300	0
+	`Animation/Flower1.ani`
+	`[bottom]`	116	327	0
+	`Animation/Flower1.ani`
+	`[bottom]`	244	333	0
+	`Animation/Grass2.ani`
+	`[bottom]`	1064	173	0
+	`Animation/Grass2.ani`
+	`[bottom]`	264	169	0
+	`Animation/Grass2.ani`
+	`[bottom]`	619	163	0
+	`Animation/chn_dragon_zone_light.ani`
+	`[close]`	786	-272	0
+[/animation]
+
+[passive object]
+	243	560	241	0	243	959	254	0	243	560	241	0	243	535	372	0	243	1015	284	0	243	966	195	0	243	935	192	0	243	950	199	0	243	768	142	0	243	202	286	0	243	146	171	0	243	1269	292	0	243	1168	159	0	243	1089	175	0	243	744	352	0
+[/passive object]
+
+[monster]
+	110265	1	0	631	173	0	1	1
+	`[fixed]`
+	`[normal]`	110265	1	0	642	305	0	1	1
+	`[fixed]`
+	`[normal]`	110265	1	0	741	248	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	535	286	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	507	221	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	422	316	0	1	1
+	`[fixed]`
+	`[normal]`	110265	1	0	813	205	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	418	234	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	845	290	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	662	226	0	1	1
+	`[fixed]`
+	`[normal]`	110911	1	0	954	206	0	1	1
+	`[fixed]`
+	`[normal]`	110912	1	0	990	301	0	1	1
+	`[fixed]`
+	`[normal]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+[/monster specific AI]
+
+[event monster position]
+	970	221	0	1047	215	0	1059	304	0	1153	228	0
+[/event monster position]
+
+[map name]
+	`PVP無名`

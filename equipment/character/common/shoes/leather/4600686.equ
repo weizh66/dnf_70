@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`封·怒海狂鯊短靴`
+
+[basic explain]
+	`  被攻擊時，有20%%的幾率對500px內的所有敵人賦予冰屬性，效果持續5秒。`
+
+[flavor text]
+	`  有次我穿著這鞋子去海邊，引來了一群雄鯊魚......我猜這皮肯定是雌鯊魚的。 -某個冒險家`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12563
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	21
+
+[magical attack]
+	21
+
+[magical defense]
+	23
+
+[move speed]
+	60
+
+[need material]
+	3821	800
+
+[price]
+	64800
+
+[repair price]
+	51840
+
+[value]
+	51840
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1104	996
+
+[water attack]
+	10
+
+[water resistance]
+	30
+
+[icon]
+	`Item/new_equipment/03_leather/shoes/leather_shoes.img`	16
+
+[field image]
+	`Item/FieldImage.img`	4
+
+[equipment type]
+	`[shoes]`	15
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	900
+
+[item group name]
+	`lt shoes`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[probability]
+		20
+	[equipment duration]
+		5000
+	[elemental weapon]
+		`water`
+[/then]
+
+[possible kiri protect]

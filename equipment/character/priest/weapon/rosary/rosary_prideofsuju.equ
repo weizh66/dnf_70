@@ -1,0 +1,131 @@
+#PVF_File
+
+[name]
+	`(舊) 虛祖的驅魔珠`
+
+[basic explain]
+	`施放技能時， 有3%%的幾率使自身增加10%%的移動速度和施放速度， 效果持續60秒。`
+
+[flavor text]
+	`    授予虛祖實力最強的驅魔師的念珠。`
+
+[grade]
+	30
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rosary`
+
+[rarity]
+	4
+
+[weight]
+	2500
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	25
+
+[icon]
+	`Item/weapon/priest/rosary.img`	31
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	48000
+
+[value]
+	38400
+
+[cool time]
+	10000
+
+[MP MAX]
+	320
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	284	241
+
+[equipment magical attack]
+	363	308
+
+[separate attack]
+	184	121
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		3
+	[stat]
+		`cast speed`
+		`+`	100
+	[stat]
+		`move speed`
+		`+`	100
+[/then]
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[priest]`	48	2
+[/skill levelup]
+
+[variation]
+	3	1
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

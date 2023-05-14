@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`幻鬼 : 一閃`
+
+[explain]
+	`幻鬼快速向前方突進， 攻擊路徑上的敵人。
+    施放劍術技能過程中使用該技能時， 可以無施放動作立即出現幻鬼攻擊敵人。`
+
+[basic explain]
+	`幻鬼快速向前方突進， 攻擊路徑上的敵人。`
+
+[purchase cost]
+	300
+[/purchase cost]
+
+[skill class]
+	0
+
+[maximum level]
+	70
+
+[type]
+	`[active]`
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[consume MP]
+	1130	1280
+
+[cool time]
+	12000	12000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	580
+	`Character/Swordman/Effect/SkillIcon.img`	581
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↑→ + Z`
+
+[static data]
+	1000
+[/static data]
+
+[level info]
+	1	42030	42236	42441	42647	42853	43059	43265	43471	43677	43883	44089	44295	44501	44707	44913	45119	45325	45531	45737	45943	6149	6354	6560	6766	6972	7178	7384	7590	7796	8002	8208	8414	8620	8826	9032	9238	9444	9650	9856	10062	10267	10473	10679	10885	11091	11297	11503	11709	11915	12121	12327	12533	12739	12945	13151	13357	13563	13769	13975	14180	14386	14592	14798	15004	15210	15416	15622	15828	16034	16240
+[/level info]
+
+[pvp]
+	[level info]
+		1	2030	2236	2441	2647	2853	3059	3265	3471	3677	3883	4089	4295	4501	4707	4913	5119	5325	5531	5737	5943	6149	6354	6560	6766	6972	7178	7384	7590	7796	8002	8208	8414	8620	8826	9032	9238	9444	9650	9856	10062	10267	10473	10679	10885	11091	11297	11503	11709	11915	12121	12327	12533	12739	12945	13151	13357	13563	13769	13975	14180	14386	14592	14798	15004	15210	15416	15622	15828	16034	16240
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`一閃攻擊力 : 42632%%`	-1	0	1.0
+[/level property]

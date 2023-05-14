@@ -1,0 +1,21 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/DangerClose/DangerBoom_01.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		200	3
+[/BEHAVIOR]

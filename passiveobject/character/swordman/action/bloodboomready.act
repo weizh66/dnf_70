@@ -1,0 +1,31 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/bloodboom/finish_bloodboom_finish_floorblood.ani`
+	[SUB ANI]
+		`../animation/bloodboom/finish_bloodboom_finish_floorblood2.ani`	0	0.0	0	0.0
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	0
+		[MOVE ME]
+	[/TELEPORT]
+	[FOLLOWING TARGET AND DIRECTION]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

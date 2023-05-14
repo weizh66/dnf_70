@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`愈合星火`
+
+[basic action]
+	`Action/Hspark_Basic.act`
+
+[last action]
+	`Action/Hspark_Last.act`
+
+[etc action]
+	`Action/Etc_Hspark_0.act`
+[/etc action]
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	65664
+	[homing velocity]
+		100.0	0
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]
+
+[hp max]
+	1000
+
+[hp destroy]
+	1

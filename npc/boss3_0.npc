@@ -1,0 +1,33 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	42
+
+[big face]
+	`Map/Npc/NpcFace02.img`	41
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	44
+
+[field animation]
+	`Animation/boss3_0.ani`
+
+[look around]
+	0
+
+[role]
+[/role]
+
+[name]
+	`顫慄的帕特里斯`
+
+[field name]
+	`戰慄的巴特里斯`
+
+[quest speech]
+	`我有個重要的任務需要你幫忙！`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1040>做... 你這是在做什麼？我不會原諒你的！`
+[/dialog]

@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+	`臨界玄鐵上衣`
+
+[basic explain]
+	`  被擊時， 隨機觸發以下效果中的任意1種， 效果持續5秒。 (解除裝備後效果消失； 冷卻時間20秒)
+- 物理防禦力 +30%%
+- 魔法防禦力 +30%%
+- 物理和魔法防禦力 +30%%
+  受到光屬性攻擊時， 免疫感電狀態， 效果持續5秒。 (解除裝備後效果消失； 冷卻時間20秒)`
+
+[flavor text]
+	`好大一塊鐵`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[physical defense]
+	41
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	5880	5460
+
+[icon]
+	`Item/new_equipment/06_plate/coat/plate_coat.img`	48
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	23
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[equipment duration]
+			5000
+		[appendage]
+			438
+		[appendage]
+			439
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[equipment duration]
+			5000
+		[appendage]
+			438
+		[appendage]
+			440
+		[then probability]
+			34.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[equipment duration]
+			5000
+		[appendage]
+			438
+		[appendage]
+			441
+		[then probability]
+			33.0
+	[/then]
+[/multiple then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

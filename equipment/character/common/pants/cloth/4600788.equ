@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`封·逝魔之暴烈長褲`
+
+[basic explain]
+	`  釋放技能時，消耗1%%的MP，增加自身15%%的暴擊傷害，效果持續30秒。（冷卻時間30秒）`
+
+[detail explain]
+	`  釋放技能時，消耗1%%的MP，增加自身15%%的暴擊傷害，效果持續30秒。（冷卻時間30秒）`
+
+[flavor text]
+	`  毀滅紀爆發時，兇殘的怪物殺害了摩恩心愛的弟子，自此他變得非常偏激，只要看見邪惡的生物都會毫不留情的剷除。`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[part set index]
+	12571
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	46
+
+[magical defense]
+	46
+
+[need material]
+	3821	1000
+
+[price]
+	81900
+
+[repair price]
+	65520
+
+[value]
+	65520
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1020	930
+
+[icon]
+	`Item/new_equipment/02_cloth/pants/cloth_pants.img`	19
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		30000
+	[increase critical damage]
+		`%`	15
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

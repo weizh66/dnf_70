@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	``
+	
+
+[explain]
+	`使用時，連續5分鐘變身為牛頭王薩烏塔。 只能在村子裡使用，變身狀態下可移動。`
+	
+
+[flavor text]
+	``
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	360
+
+[stackable type]
+	`[disguise]`	0
+
+[cool time]
+	10000
+
+[move wav]
+	`FOOD_TOUCH`
+
+[string data]
+	`monster`
+[/string data]
+
+[int data]
+	15	300
+[/int data]

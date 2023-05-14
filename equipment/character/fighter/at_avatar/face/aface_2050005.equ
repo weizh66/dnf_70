@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`稀有克隆裝扮臉部`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	11
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0	30	0	0	2000	0	0	0	0	4000	0	0	0	0	4500	2
+	`[B socket]`
+	`[B socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	18
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	2
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	3
+
+[explain]
+	`  直接穿戴不顯示外觀；可以複製穿戴中的同部位裝扮款式，但屬性值保留克隆裝扮原屬性。
+  如被複製的裝扮消失，則外觀恢復透明，反之則維持複製款式。（拖動或右鍵點擊穿戴裝扮圖標，可以解除克隆）`

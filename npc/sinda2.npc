@@ -1,0 +1,56 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace01.img`	15
+
+[big face]
+	`Map/Npc/NpcFace01.img`	14
+
+[popup face]
+	`Map/Npc/NpcFace01.img`	16
+
+[field animation]
+	`Animation/Npc_sin.ani`
+
+[field wav]
+	`R_NPC_SINDA_AMB_LOOP`
+
+[popup wav]
+	`R_NPC_SINDA_TALK`
+	`R_NPC_SINDA_FAREWELL`
+
+[role]
+	`[item shop]`	3
+[/role]
+
+[look around]
+	0
+
+[name]
+	`辛達`
+
+[field name]
+	`辛達`
+
+[quest speech]
+	`「在我人生當中，要是能夠打造出一把劍，那我就滿足了。」`
+
+[dialog]
+	1	1	99	-1	0	0
+	` <npc::4>我？要是提到我，在赫頓瑪爾沒有人比我還會打鐵了！
+ 如果你有故障的裝備，就請拿來給我吧！ 我會全～部替你修理的。
+ 你說你不相信？不相信我手藝的傢伙，就快給我閃開！ 聽到那種話，我連生意都不想和你做了！ 嗯嗯！`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::4>你說你不知道該穿些什麼？唉咿.. 你是新手菜鳥啊。讓我來告訴你。
+ 只要仔細查看技能視窗的一般技能，就會看到有名叫XX 精通的技能吧？在精通技能中，XX是精通布甲、皮甲、輕甲、重甲、板甲的技能，也被稱之為防具精通技能。
+ 在防具中，如果穿上了有關該精通的防具，那麼就可以獲得防具的BONUS。
+ 如果你是位鬼劍士，那麼就可以學習重甲精通了。那麼，也就是說你只要穿上重甲就可以了。雖然你也可以穿上其他種類的防具，但是就無法獲得防具獎勵了，所以這點你就得好好思考一下了。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	1	0
+	` <npc::4>看來你是受了怪物相當大的打擊啊... 那就穿上我所製作的裝備看看吧。說不定你就不用害怕那些怪物了。`
+[/dialog]

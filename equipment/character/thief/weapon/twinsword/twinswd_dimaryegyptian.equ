@@ -1,0 +1,137 @@
+#PVF_File
+
+[name]
+	`古埃及迪瑪爾雙劍`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入出血狀態。
+攻擊速度增加1%%`
+
+[detail explain]
+	`攻擊時以2%%的機率6秒內讓敵人呈現出血狀態，每0.5秒以329的攻擊力給予傷害。 ((若敵人高於Lv65，則減少進入異常狀態的機率；反之，則增加機率)
+攻擊速度+1%%`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	42
+
+[attack speed]
+	-70
+
+[move speed]
+	10
+
+[price]
+	107200
+
+[repair price]
+	90048
+
+[value]
+	428800
+
+[equipment physical attack]
+	606	585
+
+[equipment magical attack]
+	475	459
+
+[separate attack]
+	293	199
+
+[physical critical hit]
+	5
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	69
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	11	5
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	65	3950
+[/then]
+
+[possible kiri protect]

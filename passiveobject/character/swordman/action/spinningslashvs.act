@@ -1,0 +1,48 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/SpinningSlashVS/VSSpinningSlashAtt1_body.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		13	13
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			36477
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			36474
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			150	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

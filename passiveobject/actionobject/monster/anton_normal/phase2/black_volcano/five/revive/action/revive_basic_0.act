@@ -1,0 +1,99 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/revive_Basic_0_0.ani`
+	[SUB ANI]
+		`../Animation/revive_Basic_0_2.ani`	0	1
+		`../Animation/revive_Basic_1_0.ani`	0	2
+		`../Animation/revive_Basic_0_1.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`time_revive`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		0
+	[OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[IF]
+		`time_revive`
+		[+]
+			12500
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+	[DIM]
+		`time_revive`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		0
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON DAMAGE]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69370
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SEND DAMAGE]
+	[SET CURRENT HIT OBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69370
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

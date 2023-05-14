@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[pre required quest]
+	545
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	7	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	35668	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神圣之路 - 第六個任務`
+
+[depend message]
+	`我們接到消息說你之前見過的那些牛頭怪更加狂暴了， 我們圣職者教團打算先打敗牛頭王， 讓那些牛頭怪措手不及陷入混亂， 然后再一舉殲滅它們。
+我已經推薦你為這次行動的主要人選， 你不會讓我失望吧？ `
+
+[condition message]
+	`    通關格蘭之森的『格拉卡』， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`呵呵， 果然是優秀的圣職者， 教團正在稱頌你的英勇事跡呢！`
+
+[quest point]
+	4

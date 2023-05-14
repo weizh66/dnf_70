@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`魔力硬幣`
+	
+
+[explain]
+	`    使用後， 有50%%的機率使自身增加20%%的MP最大值或減少15%%的MP最大值。`
+	
+
+[flavor text]
+	`    來~看看你的運氣如何！`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	65
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	600
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	3600000
+
+[cooltime group]
+	101
+
+[move wav]
+	`PAPER_TOUCH`
+
+[consume item]
+	3037	10
+[/consume item]
+
+[monster summons]
+	56123	56	56	900000	1

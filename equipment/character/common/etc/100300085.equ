@@ -1,0 +1,45 @@
+#PVF_File
+
+[name]
+	`藍色小晶塊效果`
+
+[explain]
+	`消耗10個藍色小晶塊，30秒內賦予武器冰屬性 `
+
+[grade]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`Item/IconMaterial.img`	12
+
+[equipment type]
+	`[coat]`	14
+
+[cool time]
+	30000
+
+[if]
+	[time]
+		30000	1	1000
+	[module]
+		`[dungeon type]`
+	[/module]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3036	10
+	[duration]
+		30000
+	[elemental weapon]
+		`water`
+[/then]

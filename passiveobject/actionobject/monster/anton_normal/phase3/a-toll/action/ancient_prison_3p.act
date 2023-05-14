@@ -1,0 +1,118 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/FrostSeals_Ground.ani`
+	[SUB ANI]
+		`../Animation/FrostSeals_D.ani`	0	-1
+		`../Animation/FrostSeals_Ice.ani`	0	1
+		`../Animation/FrostSeals_Ice_Effect.ani`	0	2
+		`../Animation/FrostSeals_Ice_Effect2.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			2
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			80	445	0
+		[MOVE TARGET]
+		[USE MAP POS]
+	[/TELEPORT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			2
+	[/PARTY TARGET]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			105
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DAMAGE BOX]
+	[OFF]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56660
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			170
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			0
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[TRIGGER]
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			0
+	[/PARTY TARGET]
+	[CHECKUP]
+		[ON REBIRTH]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FOCUS CAMERA]
+	[ON]
+		2	0
+[/BEHAVIOR]

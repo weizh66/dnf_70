@@ -1,0 +1,157 @@
+#PVF_File
+
+[name]
+	`泯滅之領域`
+
+[basic explain]
+	`    若自身周圍650px範圍記憶體在敵人， 則增加65點的智力。
+    若自身周圍550px範圍記憶體在敵人， 則增加5%%的魔法暴擊率。
+    若自身周圍400px範圍記憶體在敵人， 則增加15點的火屬性強化和光屬性強化。
+    若自身周圍250px範圍記憶體在敵人， 則增加10%%的魔法攻擊力。`
+
+[flavor text]
+	`    這是我的結界`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[stuck]
+	1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	597	519
+
+[equipment magical attack]
+	876	761
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/automatic/automatic.img`	135
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	10000
+
+[variable stat]
+	`magical attack`
+	`+`	65
+	`object number`
+	`enemy`	650
+	`all`	1
+	`magical critical hit`
+	`+`	5
+	`object number`
+	`enemy`	550
+	`all`	1
+	`fire attack`
+	`+`	15
+	`object number`
+	`enemy`	400
+	`all`	1
+	`light attack`
+	`+`	15
+	`object number`
+	`enemy`	400
+	`all`	1
+	`equipment magical attack`
+	`%`	10
+	`object number`
+	`enemy`	250
+	`all`	1
+[/variable stat]
+
+[possible kiri protect]

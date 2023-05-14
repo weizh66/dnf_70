@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`小王子的佩劍`
+
+[explain]
+	`2010年勞動節禮包`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/swordman/katana.img`	41
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[sub type]
+	0
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		9	0
+	[layer variation]
+		2600
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[string data]
+	`Common/Particle/childrenday_sw.ptl`
+[/string data]
+
+[avatar func filter]
+	2

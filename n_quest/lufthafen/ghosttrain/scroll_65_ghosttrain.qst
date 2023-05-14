@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	65
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[quest point]
+	4
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	1504	2	61491	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	141
+
+[name]
+	`通緝令 - 巨靈布魯 (1/2)`
+
+[depend message]
+	`巨靈布魯占據著被詛咒的幽靈列車， 并且嚴重地破壞了附近的海域。 除掉它的冒險家可以在貝倫·博內哥特那里領取獎賞。`
+
+[condition message]
+	`    前往海上列車的『幽靈列車』， 擊敗巨靈布魯5次， 要求地下城難度為王者級。 `
+
+[solve message]
+	`幽靈列車恢復平靜了嗎？ `
+
+[reward int data]
+	0	100
+[/reward int data]

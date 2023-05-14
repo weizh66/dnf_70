@@ -1,0 +1,206 @@
+#PVF_File
+
+[name]
+	`暴風行者`
+
+[basic explain]
+	`[銀彈]、 [冰凍彈]、 [爆炎彈]、 [破甲彈]填裝數 +2
+[尼爾狙擊]冷卻時間 -0.4秒
+    施放[尼爾狙擊]時， 可以使隊員增加15%%的物理暴擊率， 效果持續10秒。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`musket`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2100
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`item/weapon/gunner/musket.img`	70
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	2
+
+[durability]
+	30
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	64
+
+[equipment physical attack]
+	575	490
+
+[equipment magical attack]
+	500	427
+
+[separate attack]
+	360	243
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[skill data up]
+	`[gunner]`	30
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[at gunner]`	30
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[gunner]`	1
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[at gunner]`	1
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[gunner]`	2
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[at gunner]`	2
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[gunner]`	52
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[at gunner]`	52
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[gunner]`	78
+	`[all]`
+	`[static]`	2
+	`+`	-400
+	`[at gunner]`	78
+	`[all]`
+	`[static]`	2
+	`+`	-400
+[/skill data up]
+
+[if]
+	[use skill]
+		`gunner`	78
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[stat]
+		`physical critical hit rate`
+		`+`	15
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	78
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[stat]
+		`physical critical hit rate`
+		`+`	15
+[/then]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

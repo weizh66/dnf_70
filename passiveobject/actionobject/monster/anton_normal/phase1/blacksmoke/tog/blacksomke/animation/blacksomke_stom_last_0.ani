@@ -1,0 +1,59 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Special/Powerstation/smoke.img`
+		0
+	[IMAGE POS]
+		-307	-353
+	[INTERPOLATION]
+		1
+	[DELAY]
+		180
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Special/Powerstation/smoke.img`
+		1
+	[IMAGE POS]
+		-307	-353
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		255	255	255	200
+	[INTERPOLATION]
+		1
+	[DELAY]
+		180
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Special/Powerstation/smoke.img`
+		2
+	[IMAGE POS]
+		-307	-353
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		180
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Special/Powerstation/smoke.img`
+		3
+	[IMAGE POS]
+		-307	-353
+	[IMAGE RATE]
+		1.2999999523162842	1.2999999523162842
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		180

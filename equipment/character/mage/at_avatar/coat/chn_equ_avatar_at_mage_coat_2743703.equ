@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`黑色狂野兔毛夾克`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atmage/mm_acoat.img`	22
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	8	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[SKILL_LEVEL]`
+	`[at mage]`	1	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	26	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	25	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	17	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	9	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	27	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	18	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	8	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	175	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	176	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	177	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	180	1
+	`[SKILL_LEVEL]`
+	`[at mage]`	190	1
+[/avatar select ability]

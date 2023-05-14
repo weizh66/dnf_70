@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`死亡之珠`
+
+[hp gage]
+	1
+
+[basic action]
+	`Action/die_ball_Basic.act`
+
+[etc action]
+	`Action/Etc_die_ball_0.act`
+	`Action/Etc_die_ball_1.act`
+[/etc action]
+
+[etc attack info]
+	``
+	``
+[/etc attack info]
+
+[hp max]
+	40000000
+
+[hp destroy]
+	1
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	56644
+	[homing velocity]
+		100.0	10.0
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]

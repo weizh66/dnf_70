@@ -1,0 +1,146 @@
+#PVF_File
+
+[name]
+	`巫師的詛咒`
+
+[basic explain]
+	` 暗屬性攻擊時，以3%%的機率使敵人進入失明狀態。`
+
+[detail explain]
+	`暗屬性攻擊時，有3%%的機率使敵人進入失明狀態3秒；失明狀態下，減少90%%視野和20%%命中率。 （高於Lv72的對象得到的機率和效果減少，低於Lv72的對象則會增加。）`
+
+[grade]
+	75
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	68
+
+[anti evil]
+	10
+
+[magical attack]
+	50
+
+[attack speed]
+	-100
+
+[price]
+	120000
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	0
+
+[need material]
+	3340	188
+
+[equipment physical attack]
+	577	536
+
+[equipment magical attack]
+	821	764
+
+[separate attack]
+	425	288
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	37	2
+	`[thief]`	40	2
+[/skill levelup]
+
+[dark attack]
+	12
+
+[icon]
+	`Item/weapon/thief/wand.img`	78
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	13	3
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2100
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`blind`	72	90	20
+[/then]
+
+[possible kiri protect]

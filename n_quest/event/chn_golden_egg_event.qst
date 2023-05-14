@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	-1	-1	64700	1	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749133	1
+[/reward int data]
+
+[name]
+	`幸福黃金蛋 (重復)`
+
+[depend message]
+	`冒險家， 你有砸到金蛋嗎？ 你在地下城中都沒看到嗎？
+聽說砸金蛋可以帶來好運的， 你快去試試吧！`
+
+[condition message]
+	`冒險家， 你砸到了？ 有什么驚喜嗎？
+嗯~你說奇怪不？ 為什么只有金蛋， 沒有銀蛋、 銅蛋呢……`
+
+[solve message]
+	`    前往地下城中， 砸10顆[金蛋]。 (金蛋會在Lv不低于天空之城的地下城中隨機出現)`

@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`破魔符`
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5500
+[/object destroy condition]
+
+[basic action]
+	`Action/Pentagon.act`
+
+[attack info]
+	`AttackInfo/PentagonBarrierGather.atk`
+
+[etc motion]
+[/etc motion]

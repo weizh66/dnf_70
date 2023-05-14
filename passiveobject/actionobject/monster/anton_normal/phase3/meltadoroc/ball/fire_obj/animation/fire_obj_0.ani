@@ -1,0 +1,62 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Power_Station/Furz_Station/granite_magma_ST.img`
+		0
+	[IMAGE POS]
+		-37	-39
+	[IMAGE ROTATE]
+		-0.699999988079071
+	[RGBA]
+		150	255	150	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[ATTACK BOX]
+	-22	-10	-20	51	20	55
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Power_Station/Furz_Station/granite_magma_ST.img`
+		0
+	[IMAGE POS]
+		-37	-39
+	[IMAGE ROTATE]
+		-0.699999988079071
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[ATTACK BOX]
+	-22	-10	-20	51	20	55
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Power_Station/Furz_Station/granite_magma_ST.img`
+		0
+	[IMAGE POS]
+		-37	-39
+	[IMAGE ROTATE]
+		-0.699999988079071
+	[RGBA]
+		150	255	150	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[ATTACK BOX]
+	-22	-10	-20	51	20	55

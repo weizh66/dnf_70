@@ -1,0 +1,31 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/YamataOrochiFloor2.act`
+
+[attack info]
+	`AttackInfo/Floor2.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	900303
+[/object destroy condition]
+
+[name]
+	`YamataOrochiFloor2`

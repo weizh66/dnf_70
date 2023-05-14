@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`水晶之光`
+
+[explain]
+	`使用後，強化成功率新增10%%，效果持續30秒。（冷卻時間為60秒）`
+
+[flavor text]
+	`<SAO遇見DNF>`
+
+[grade]
+	1
+
+[attach type]
+	`[account]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/cash_japan.img`	431
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[expert town potion]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	60000
+
+[move wav]
+	`POTION_TOUCH`
+
+[cooltime maintenance]
+	1	1	1
+
+[effect maintenance]
+	1	1	1	0
+
+[stat change duration]
+	30000
+	`myself`

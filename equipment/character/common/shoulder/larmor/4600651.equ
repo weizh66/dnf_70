@@ -1,0 +1,153 @@
+#PVF_File
+
+[name]
+	`封·深海熔巖肩甲`
+
+[basic explain]
+	`  每12點火屬性， 使自身增加1%的物理、 魔法暴擊率。（最多增加20%）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12568
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	68
+
+[magical attack]
+	53
+
+[attack speed]
+	50
+
+[cast speed]
+	70
+
+[HP MAX]
+	350
+
+[MP MAX]
+	350
+
+[need material]
+	3821	900
+
+[price]
+	86000
+
+[repair price]
+	68800
+
+[value]
+	68800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2328	2112
+
+[water resistance]
+	12
+
+[icon]
+	`item/new_equipment/04_larmor/neck/larmor_neck.img`	10
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			45
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`fire attack`	12
+		`physical critical hit rate`
+		`+`	1	20
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`fire attack`	12
+		`magical critical hit rate`
+		`+`	1	20
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

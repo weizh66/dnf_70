@@ -1,0 +1,201 @@
+#PVF_File
+
+[set name]
+	`吞噬星云  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	50
+		`[dungeon type]`
+		`[level]`	1
+		`+`	7
+		`[fighter]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[fighter]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at fighter]`	50
+		`[dungeon type]`
+		`[level]`	1
+		`+`	7
+		`[at fighter]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at fighter]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[暴力抓取]抓取成功率 +7%%
+[滑行抓取]衝刺速度 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	54
+		`[dungeon type]`
+		`[static]`	0
+		`%`	50
+		`[fighter]`	54
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[fighter]`	54
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[fighter]`	54
+		`[dungeon type]`
+		`[static]`	3
+		`%`	50
+		`[fighter]`	54
+		`[dungeon type]`
+		`[static]`	4
+		`%`	50
+		`[fighter]`	54
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	22
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[fighter]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[static]`	0
+		`%`	50
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[static]`	3
+		`%`	50
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[static]`	4
+		`%`	50
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	22
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[at fighter]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[野蠻衝撞]蓄氣時間上限 +50%%
+[野蠻衝撞]達到蓄氣上限時， 攻擊力 +50%%
+[野蠻衝撞]移動距離 +50%%
+[野蠻衝撞]冷卻時間 -20%%
+[摔技強化]攻擊范圍 +10%%
+[摔技強化]間接攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[fighter]`	105
+		`[dungeon type]`
+		`[static]`	10
+		`%`	-99
+		`[fighter]`	105
+		`[dungeon type]`
+		`[static]`	7
+		`%`	50
+		`[fighter]`	105
+		`[dungeon type]`
+		`[static]`	9
+		`%`	-50
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	6
+		`%`	50
+		`[fighter]`	105
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[fighter]`	105
+		`[dungeon type]`
+		`[level]`	10
+		`%`	30
+		`[at fighter]`	118
+		`[dungeon type]`
+		`[level]`	0
+		`%`	80
+		`[at fighter]`	118
+		`[dungeon type]`
+		`[level]`	1
+		`%`	80
+		`[at fighter]`	118
+		`[dungeon type]`
+		`[static]`	0
+		`%`	50
+		`[at fighter]`	118
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[彗星衝擊]蓄氣上限 +50%%
+[彗星衝擊]攻擊力 +80%%
+[彗星衝擊]無色小晶塊消耗量 +1
+格斗家(女)
+[死亡搖籃]施放技能時， 增加騰空高度， 然后更快砸向地面的同時， 再向敵人踢出強威力的一腳。
+[死亡搖籃]跳躍力 +50%%
+[死亡搖籃]砸向地面的時間 -50%%
+[死亡搖籃]旋轉時， 衝擊波范圍 +50%%
+[死亡搖籃]冷卻時間 -50%%
+[死亡搖籃]攻擊力 +30%%
+[死亡搖籃]無色小晶塊消耗量 +1`
+[/piece set ability]

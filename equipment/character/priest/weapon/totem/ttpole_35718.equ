@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`大陸的精靈圖騰[黑鑽]`
+
+[basic explain]
+	`攻擊時以8%% 機率 敵人200附加傷害
+攻擊速度 +2%%
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[grade]
+	34
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	30
+
+[physical attack]
+	38
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[price]
+	54400
+
+[repair price]
+	43520
+
+[value]
+	43520
+
+[equipment physical attack]
+	357	315
+
+[equipment magical attack]
+	306	270
+
+[separate attack]
+	196	130
+
+[skill levelup]
+	`[priest]`	31	1
+	`[priest]`	56	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/totem.img`	20
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	2	2
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[probability]
+		8
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	200
+[/then]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+	`charac cargo`
+[/impossible contents]
+
+[possible kiri protect]

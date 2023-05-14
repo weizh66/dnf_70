@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`塵封的悲鳴往事`
+
+[flavor text]
+	`即使塵封內心深處， 記憶也不會消失……`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12544
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[physical defense]
+	35
+
+[magical defense]
+	35
+
+[equipment physical attack]
+	52	46
+
+[equipment magical attack]
+	52	46
+
+[separate attack]
+	79	77
+
+[need material]
+	3824	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[icon]
+	`Item/new_equipment/10_support/support.img`	179
+
+[field image]
+	`Item/field_equip.img`	22
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			40
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[equipment type]
+	`[support]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[dynamic part set index]
+	11858	12542	12543	12544	12545
+[/dynamic part set index]
+
+[possible kiri protect]

@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	126
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	15	-1	3000	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	20066	1	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`光之城主 - 賽格哈特`
+
+[depend message]
+	`接下來是光之城主賽格哈特……這家伙最令人頭疼了。
+呵呵， 你還不大了解他吧？ 他是爆龍王巴卡爾的忠仆， 也是巴卡爾用來阻斷天界和阿拉德大陸交流的重要棋子。 雖然巴卡爾已經死了， 但是他依然留守在天空之城并忠實地執行著昔日的任務……
+據我所知， 天界和阿拉德大陸的交流中斷后， 天族多次嘗試開啟天界通向阿拉德大陸的大門， 但都失敗了， 最后不得不放棄。
+但！ 是！ 身為冒險家， 你肯定無法抑制內心的好奇吧？ 呵呵， 我知道賽格哈特在哪， 他就在天空之城的城主宮殿里！ 你想去找他就要小心點， 祝你成功啊。`
+
+[condition message]
+	`    前往天空之城的『城主宮殿』， 打敗領主光之城主賽格哈特。`
+
+[solve message]
+	`哦？ 你打敗強大的光之城主了？ 但你的表情為什么這么奇怪啊？`
+
+[dialog]
+	0	0	2408	0	0	0	0
+	` <monster::3000>一千年了， 沒人敢來這里撒野……
+我以我主人巴卡爾的名譽發誓， 你們將永遠走不出這里！
+你們都將變成光消失， 剩下的只有你們那可憐的勇氣！`
+[/dialog]
+
+[quest point]
+	4

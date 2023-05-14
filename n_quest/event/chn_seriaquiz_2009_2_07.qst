@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4975
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	615	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	42	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`賽麗亞的另一個委托`
+
+[depend message]
+	`冒險家， 其實我還有一件事想委托給您。
+是這樣的， 我為那些不熟悉阿拉德大陸的冒險家們寫了一個指引， 但是那個指引突然不見了……
+您可以幫忙找一下嗎？`
+
+[condition message]
+	`    前往任意地下城， 找來10張[給冒險家的指引]交給賽麗亞。 (任意怪物都可以掉落該物品)`
+
+[solve message]
+	`真的太感謝您了， 呵呵， 希望我的魔法物品能對您的阿拉德冒險之旅有幫助。`

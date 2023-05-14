@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`銳眼藥水`
+	
+
+[explain]
+	`    使用後， 可以使自身及周圍隊員增加50%%的暴擊率， 效果持續20秒。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/IconMaterial.img`	25
+
+[field image]
+	`Item/FieldImage.img`	20
+
+[stackable type]
+	`[waste]`	1
+
+[cool time]
+	10000
+
+[cooltime group]
+	10
+
+[move wav]
+	`FLASK_TOUCH`

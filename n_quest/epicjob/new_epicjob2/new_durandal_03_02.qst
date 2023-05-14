@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95266
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 圣武槍魂 (5/6)`
+
+[depend message]
+	`出發之際， 唯有一點望你謹記。
+之前我也說過， 悟出真理才是重點。 但更重要的是， 你要將悟出的東西用到真正有意義的事情上。
+否則苦心悟出的一切將化為泡影。
+那么， 接下來就去盡情展示自己吧。`
+
+[condition message]
+	`    參加魂 · 青龍大會并獲得冠軍。`
+
+[solve message]
+	`掌控這門技藝了嗎？ 訓練期間總在要求你高度集中注意力， 真是辛苦你了。`
+
+[pre required quest]
+	6865
+[/pre required quest]
+
+[relation quest]
+	5134
+
+[job change quest]
+	3
+
+[grow number]
+	0

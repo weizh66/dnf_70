@@ -1,0 +1,27 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/SwordAura_Earthquake.img`
+		7
+	[IMAGE POS]
+		-109	-37
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/SwordAura_Earthquake.img`
+		7
+	[IMAGE POS]
+		-109	-37
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80

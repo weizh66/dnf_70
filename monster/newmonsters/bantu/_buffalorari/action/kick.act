@@ -1,0 +1,49 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/kick.ani`
+	[SOUND]
+		`R_RARI_ATK`	0
+		`TRIPKICK_SWING`	2
+	[/SOUND]
+	[SUB ANI]
+		`../Animation/Kick_Effect.ani`	0	0
+	[/SUB ANI]
+	[SPEECH]
+		`剪刀腳踢擊!`
+			0	80
+		`擊倒`
+			0	20
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			100
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			0
+	[/SET SPEED]
+[/BEHAVIOR]

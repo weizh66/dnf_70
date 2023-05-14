@@ -1,0 +1,50 @@
+//---------------------  110607_����  ---------------------
+[grade] `[training]`
+[difficulty] `E`
+[gold multiple] 40
+[npc index] 59	//��� ������
+[complete npc index] -1	//����npc�� ����
+
+
+[job] `[all]`
+[grow type] -1
+
+[level] 61 99
+[pre required quest]
+5751
+
+[/pre required quest]
+
+[enemy reward item]
+61013 1 84 3 4396 1 100 5
+61013 1 84 4 4396 1 100 5
+[/enemy reward item]
+
+
+
+
+
+[type] `[seeking]`
+[sub type] -1
+[int data]
+4396 5
+
+[/int data]
+[reward type] `[item]`
+[reward int data]
+3300 8
+4420 1
+
+[/reward int data]
+[reward selection int data]
+[/reward selection int data]
+
+
+[name] <11::ICTraning_name_2>	//���� Ȯ��
+[depend message]
+<11::ICTraning_depend_2>
+[condition message]
+<11::ICTraning_condition_2>
+[solve message] 
+<11::ICTraning_solve_2>
+

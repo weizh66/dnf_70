@@ -1,0 +1,257 @@
+#PVF_File
+
+[name]
+	`超光速之刃`
+
+[basic explain]
+	`攻擊速度 +5%%
+    施放[疾風亂舞]時， 有25%%的幾率不受冷卻時間影響。
+    施放[雷光刃影]時， 有25%%的幾率不受冷卻時間影響。
+    ↑↓+[寵物技能鍵]輸入時， 可以減少[疾風亂舞]90%%的冷卻時間、 50%%的攻擊力， 效果持續10秒。 (消耗1個白色小晶塊； 冷卻時間60秒； 動後立即重置[疾風亂舞]的剩余冷卻時間)`
+
+[flavor text]
+	`    真是越來越瘋狂了， 這個世界到底怎么了？`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	58
+
+[attack speed]
+	-80
+
+[attack speed]
+	50
+
+[move speed]
+	50
+
+[stuck]
+	-2
+
+[need material]
+	3821	1800
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	872	738
+
+[equipment magical attack]
+	684	579
+
+[separate attack]
+	520	336
+
+[physical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	34	4
+	`[thief]`	45	4
+	`[thief]`	9	2
+[/skill levelup]
+
+[light attack]
+	15
+
+[icon]
+	`item/new_equipment/01_weapon/thief/twinswd/twinswd.img`	115
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[thief]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[consume item]
+		3034	1
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		315
+[/then]
+
+[if]
+	[my appendage]
+		315
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[character]
+		`thief`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		34
+		`%`	-100
+[/then]
+
+[if]
+	[my appendage]
+		315
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		316
+[/then]
+
+[if]
+	[event use skill]
+		`thief`	34
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[skill data up]
+		`[thief]`	34
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`thief`	45
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[skill data up]
+		`[thief]`	45
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600617	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 暗街之王 (2/6)`
+
+[depend message]
+	`迄今為止， 你可能只打倒過看得見的敵人。
+但如果要打倒那些試圖成為支配者的人， 絕對不能按照你的方式去戰斗， 否則你會直接被推入萬丈深淵， 可能再也無法重見天日。
+你要先把真實的想法藏在心里， 接近你的敵人， 想方設法讓敵人對你坦誠， 從而達到利用他們的目的。 也就是說， 你要變得更加機靈、 狡猾。
+那接下來就去提升自己的能力吧。 這次的目標是魂·黃龍大會。 那些從世界各地來到素喃的強者們會在大會上一較高下。
+雖然這是個考驗純粹力量的舞臺， 但在它的背后卻掩藏著波濤洶涌的混沌情感。
+從現在起， 你要讀懂他們的情感， 看穿他們的陰謀詭計， 從而去打倒他們。 對于現在的你來說， 想必沒有比這更好的修煉了。
+那你先去收集‘斯卡迪女王的印章’吧， 它會成為你獲得王室推薦的證明， 聽說有了它才能參加大會。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4966
+[/pre required quest]
+
+[relation quest]
+	5366
+
+[job change quest]
+	3
+
+[grow number]
+	0

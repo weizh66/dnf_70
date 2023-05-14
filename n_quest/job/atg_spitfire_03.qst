@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7878
+[/pre required quest]
+
+[collision quest]
+	7867	7871	7874
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	11001	-1
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	4
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 彈藥專家 (3/3)`
+
+[depend message]
+	`多去積累一些實戰經驗， 通過和不同敵人的戰斗， 你會學到很多， 這些都是我無法教給你的。`
+
+[condition message]
+	`    通關亡者峽谷的『迷妄之塔』。`
+
+[solve message]
+	`恭喜你成為彈藥專家！ 不愧是皇都出身， 這么快就能掌握各種戰術技巧。
+我相信這樣下去的話， 總有一天你會成為統領皇都軍的指揮官。`

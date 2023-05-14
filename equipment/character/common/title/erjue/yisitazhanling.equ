@@ -1,0 +1,223 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 伊斯塔戰靈`
+
+[explain]
+	`炫紋是什麼？貝亞娜又是什麼？
+想要了解這些，我們必須先要了解那段被遺忘的神話故事——壹段連《泰拉創世紀》都沒有記載的傳說。
+那是在泰拉星依然完整的太古時代，魔法力量還沒有被發明出來，以先進的科學技術為基礎，十二個“貝亞娜”被創造出來了。
+閃耀著金色光芒的貝亞娜，擁有著賢者的智慧和戰神的力量。她們光輝的形象受到所有泰拉人的崇拜，每壹個泰拉人最大的夢想就是成為貝亞娜壹般的存在。
+盡管這種力量滲透出來的黑暗與邪惡讓人感到恐懼，但對於強大力量的渴望在這時已經壓制了我心中所有的壹切，前所未有的興奮感讓我全身顫栗。我能將這種力量收為己用嗎？
+成敗已經不重要了，這種刺激的挑戰已經足以讓我不顧壹切。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		25673	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	112
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		25677	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[mage]`	83
+	`[all]`
+	`[static]`	0
+	`+`	-4
+	`[mage]`	83
+	`[all]`
+	`[cooltime]`	0
+	`%`	-30
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	1
+	`%`	500
+	`[mage]`	66
+	`[dungeon type]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	66
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[mage]`	66
+	`[dungeon type]`
+	`[level]`	1
+	`%`	300
+	`[mage]`	66
+	`[dungeon type]`
+	`[level]`	2
+	`%`	300
+	`[mage]`	112
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[mage]`	112
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[mage]`	13
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[mage]`	117
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[mage]`	68
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[mage]`	68
+	`[dungeon type]`
+	`[level]`	1
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	6
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	7
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	8
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	9
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	10
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	11
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	12
+	`%`	200
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	14
+	`%`	500
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	15
+	`%`	500
+	`[mage]`	69
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500	69
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500	69
+	`[dungeon type]`
+	`[level]`	4
+	`%`	500
+[/skill data up]

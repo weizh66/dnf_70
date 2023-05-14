@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 正義仲裁者`
+
+[explain]
+	`‘神之手’——他們代神來懲戒邪惡，壹生都致力於消滅偽裝者。
+他們為了堅定自己的信念，不斷鞭策自己遵循神的意誌，殘酷地消滅那些偽裝者。但是隨著死去的偽裝者越來越多，他們卻越來越感到迷茫。
+‘他們最初也是跟我們壹樣的存在……真的只有趕盡殺絕這壹條路嗎？現在只會殺戮的我們跟他們又有什?區別……？’
+壹直以來，他們都把偽裝者們當做必須消滅的對象，從沒有過壹絲的懷疑。但現在，他們開始動搖，開始驚慌。經過壹番苦惱和仿徨，他們決定去尋找答案，希望能夠解決心中的疑惑。
+有些人不想懷疑壹直以來堅信的信念，所以更加熱衷於屠殺那些偽裝者；有些人看到偽裝者們的爪印，心中的憎惡越來越多；有些人通過不斷地修煉和冥想來鞭策自己；有些人去尋找神的蹤跡，進行洗禮，只為找到神的真義。
+經過壹番漫長而痛苦的探索後，‘神之手’中終於有壹些人找到了答案，結束了內心的仿徨。
+我們無法知道他們具體去了哪裏，看到了什?。但是他們說：“我終於明白了神的真意，這就是我的正義。”`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		130041	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]

@@ -1,0 +1,33 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/kong.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			56853
+		[LEVEL]
+			120
+		[POS]
+			80	0	0
+		[NO EFFECT]
+		[SUMMON TIME]
+			60000
+		[SUMMON MARK]
+			0
+		[TEAM]
+			0
+		[FOLLOW SUMMONER]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]

@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[target character]
+	`[at mage]`	-1	-1
+	`[mage]`	-1	-1
+[/target character]
+
+[level]
+	59	99
+
+[pre required quest]
+	4340
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	1501	-1	1088	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 探索悲鳴洞穴`
+
+[depend message]
+	`嗯， 打聽到悲鳴洞穴相關的信息了嗎？
+ <npc::0>嘻嘻~大叔， 你看這個！ 只要有這個就萬事OK！
+ <npc::1>哦……是嗎？ 那快點去探查一下悲鳴洞穴吧？
+ <npc::0>呃！ 被無視了！ 林納斯大叔， 你太不懂啦。
+這個是悲鳴洞穴冒險中的必需品--生生的刀刃~
+ <npc::1>不是叫神圣的刀刃嗎？ (汗)
+ <npc::0>……
+總之……我現在就出發~
+ <npc::1>你到悲鳴洞穴后， 先除掉那些罪惡布法羅的惡徒！ 這樣， 我們才能控制事態不再往壞處發展啊。`
+
+[condition message]
+	`    前往洛蘭地區的『悲鳴洞穴』， 打敗10只罪惡布法羅挖掘者， 然后向林納斯回復。`
+
+[solve message]
+	`你去悲鳴洞穴了嗎?`
+
+[quest point]
+	4

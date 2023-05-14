@@ -1,0 +1,143 @@
+#PVF_File
+
+[name]
+	`(舊) 魯爾的天目爪`
+
+[basic explain]
+	`[拋沙]投擲準備時間 -20%%`
+
+[flavor text]
+	`    這些來自異面星的生物太可怕了……竟然把園丁魯爾的爪改造成這樣恐怖的武器……`
+
+[grade]
+	40
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[rarity]
+	4
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	35
+
+[icon]
+	`Item/weapon/fighter/claw.img`	36
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	64000
+
+[value]
+	51200
+
+[cool time]
+	10000
+
+[physical attack]
+	29
+
+[equipment physical attack]
+	396	348
+
+[equipment magical attack]
+	396	348
+
+[separate attack]
+	234	156
+
+[physical critical hit]
+	3
+
+[skill data up]
+	`[fighter]`	13
+	`[all]`
+	`[static]`	0
+	`%`	-20
+	`[at fighter]`	13
+	`[all]`
+	`[static]`	0
+	`%`	-20
+[/skill data up]
+
+[skill levelup]
+	`[fighter]`	13	2
+	`[at fighter]`	13	2
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

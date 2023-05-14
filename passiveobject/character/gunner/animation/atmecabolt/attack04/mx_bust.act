@@ -1,0 +1,21 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`MX_Bust.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		9
+	[NOW]
+[/BEHAVIOR]

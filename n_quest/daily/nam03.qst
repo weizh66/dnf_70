@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	60
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	34	99
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	26	2	11400	2	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`彷徨的天族人`
+
+[depend message]
+	`我們收到卡勒特組織出現在阿拉德大陸的情報， 不過可能是出現了失誤， 卡勒特組織的人落到天帷巨獸背上了。
+冒險家， 我們不能讓天界的悲劇在阿拉德大陸重演， 所以請你去第二脊椎趕走彷徨的天族人瑪格尼吧。`
+
+[condition message]
+	`    前往天帷巨獸神殿的『第二脊椎』， 擊敗彷徨的天族人瑪格尼2次， 然后向馬琳回復， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`冒險家， 你把那家伙趕走了嗎?`
+
+[substitutive names]
+	`擊敗瑪格尼`
+[/substitutive names]
+
+[reward int data]
+	0	100
+[/reward int data]

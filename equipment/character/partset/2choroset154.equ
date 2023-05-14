@@ -1,0 +1,104 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	90
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	90
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[demonic lancer]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[雙重投射]攻擊力 +20%%
+[雙重投射]冷卻時間 -10%% 
+[侵蝕之矛]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	92
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[demonic lancer]`	92
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[demonic lancer]`	94
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[暗矛投射]攻擊力 +15%%
+[暗矛投射]多段攻擊次數 +1
+[暗矛貫穿]攻擊力 +20%%
+[暗矛貫穿]冷卻時間 -15%%
+[黑暗化身]暴擊傷害增加率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[demonic lancer]`	96
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	96
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[暗矛貫穿]攻擊力 +30%%
+[暗矛貫穿]冷卻時間 -25%%
+[暗矛貫穿]吸附敵人范圍 +30%%
+[黑暗槍雨]攻擊力 +30%%
+[黑暗槍雨]冷卻時間 -25%%
+[暗蝕螺旋槍]攻擊力 +25%%`
+[/piece set ability]

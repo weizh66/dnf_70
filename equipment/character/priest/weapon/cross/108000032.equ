@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`高爾寇達`
+
+[basic explain]
+	`安裝時每3秒500px 範圍內最近的敵人 2秒內進入詛咒狀態
+詛咒狀態的敵人攻擊時10%% 附加傷害`
+
+[detail explain]
+	`裝備時，每 3秒使500px 範圍內最近的敵人2秒內陷入詛咒狀態，減少力量70、體力 70、智能 70、精神 70 。 （高於Lv84的對象得到的機率減少，低於Lv84的對象則會增加。）
+詛咒狀態的敵人攻擊時10%% 附加傷害（決鬥場內5%% 附加傷害）`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical defense]
+	69
+
+[magical attack]
+	55
+
+[magical defense]
+	69
+
+[cast speed]
+	20
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	804	754
+
+[equipment magical attack]
+	764	716
+
+[equipment physical defense]
+	840	840
+
+[equipment magical defense]
+	840	840
+
+[separate attack]
+	481	327
+
+[icon]
+	`item/new_equipment/01_weapon/priest/cross/cross.img`	83
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	24	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[target active status]
+		`curse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[target active status]
+		`curse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[time]
+		3000	1	500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		2000
+	[active status]
+		`curse`	84	70	70	70	70
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,33 @@
+#PVF_File
+
+[width]
+	1	1
+
+[floating height]
+	0
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/nenofbrilliance.act`
+
+[attack info]
+	`AttackInfo/RoarStun.atk`
+
+[name]
+	`獅子吼`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	38004
+[/object destroy condition]

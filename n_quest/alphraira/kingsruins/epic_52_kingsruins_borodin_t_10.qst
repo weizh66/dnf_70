@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[pre required quest]
+	646
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	33	-1	711	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3038	5	3039	5	3040	5	3041	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 偉大的波羅丁王`
+
+[depend message]
+	`據古書記載， 波羅丁王為了讓王國永遠繁榮， 他用意志禁錮了那些冤死的百姓魂魄并讓他們永遠不能安息。
+為了解救那些可憐的百姓， 你要先削弱波羅丁王的力量。 不過一定要小心， 波羅丁王擁有不滅的靈魂， 他只能被暫時消滅， 你最好和伙伴一起去！ `
+
+[condition message]
+	`    前往暗黑城的『王的遺跡』， 除掉錘王波羅丁。`
+
+[solve message]
+	`那些可憐的百姓啊……愿你們的靈魂從此擺脫波羅丁王的控制！ `
+
+[quest point]
+	4

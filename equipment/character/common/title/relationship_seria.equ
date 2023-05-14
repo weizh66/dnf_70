@@ -1,0 +1,233 @@
+#PVF_File
+
+[name]
+	`賽麗亞的輕語`
+
+[basic explain]
+	`    攻擊時，附加4%%的傷害。
+ 
+    攻擊時，有3%%的幾率使自身增加5%%的物理暴擊，持續15秒。
+    施放技能時，有3%%的幾率使自身增加5%%的魔法暴擊，持續15秒。`
+
+[detail explain]
+	`    攻擊時，附加4%%的傷害。
+(決鬥場中效果減半)
+ 
+    攻擊時，有3%%的幾率使自身增加5%%的物理暴擊，持續15秒。(冷卻時間 ： 20秒)
+    施放技能時，有3%%的幾率使自身增加5%%的魔法暴擊，持續15秒。(冷卻時間 ： 20秒)`
+
+[flavor text]
+	`“我會一直陪在您身邊。”
+                      --賽麗亞·克魯敏`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[cool time]
+	10000
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/Title/title.img`	193
+
+[custom animation]
+	`TitleAnimation/relationship_seria.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[equipment physical attack]
+	20	5
+
+[equipment magical attack]
+	20	5
+
+[separate attack]
+	20	5
+
+[physical attack]
+	35
+
+[physical defense]
+	35
+
+[magical attack]
+	35
+
+[magical defense]
+	35
+
+[HP MAX]
+	150
+
+[HP regen speed]
+	20
+
+[MP MAX]
+	150
+
+[MP regen speed]
+	20
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[all elemental attack]
+	8
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[stuck]
+	-1
+
+[room list move speed rate]
+	0.1
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	4
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	2
+	[/then]
+[/pvp]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		3
+	[stat]
+		`physical critical hit`
+		`+`	5
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[casting]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		3
+	[stat]
+		`magical critical hit`
+		`+`	5
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[stat]
+		`physical critical hit`
+		`+`	2.5
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[casting]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[stat]
+		`magical critical hit`
+		`+`	2.5
+[/then]
+
+[pvp]
+	[all elemental attack]
+		3
+[/pvp]
+
+[move wav]
+	`NAME_TOUCH`

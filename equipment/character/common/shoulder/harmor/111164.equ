@@ -1,0 +1,391 @@
+#PVF_File
+
+[name]
+	`異世魂鈴肩甲`
+
+[basic explain]
+	`    被攻擊時，有20%%的幾率召喚自身在異次元的靈魂分身吸收傷害，效果持續20秒。（冷卻時間60秒）
+    被攻擊時，有5%%的幾率進入無敵狀態，效果持續2秒。（解除裝備后效果消失；冷卻時間10秒）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	33
+
+[magical attack]
+	24
+
+[physical defense]
+	30
+
+[magical defense]
+	70
+
+[need material]
+	3500	1000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	3136	2912
+
+[icon]
+	`item/new_equipment/05_harmor/neck/harmor_neck.img`	42
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	2500
+		`magical attack`
+		`+`	10	100
+[/then]
+
+[if]
+	[character]
+		`swordman`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60073	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`demonic swordman`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60073	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`fighter`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60069	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`at fighter`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60066	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`gunner`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60070	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`at gunner`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60067	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`mage`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60071	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`at mage`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60068	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`priest`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60072	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`thief`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60074	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[character]
+		`thief`
+	[hit]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`stuck resistance`
+		`+`	1000
+	[passive object]
+		60074	-80	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[equipment duration]
+		2000
+	[buff]
+		`unbreakable`
+[/then]
+
+[possible kiri protect]

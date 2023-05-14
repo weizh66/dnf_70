@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`紅色烈風勇士利爪`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/weapon/fighter/claw.img`	80
+
+[equipment type]
+	`[waist avatar]`	0
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		23	2
+	[layer variation]
+		2150
+		`at_clawa`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[layer variation]
+		2600
+		`at_clawc`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[layer variation]
+		1350
+		`at_clawx`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[move wav]
+		`CLOTH_TOUCH`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/fighter/weapon/claw/`
+[/expand ani]
+
+[part set index]
+	30002
+
+[all activestatus resistance]
+	10
+
+[stuck resistance]
+	40
+
+[avatar func filter]
+	2

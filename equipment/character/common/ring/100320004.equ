@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`穿越時空者的戒指`
+
+[basic explain]
+	`被擊時以5%%的機率讓使用技能中冷卻時間最短技能的冷卻時間初始化`
+
+[detail explain]
+	`被擊時以5%%的機率讓使用技能中冷卻時間最短技能的冷卻時間初始化。（冷卻時間剩餘60秒以上的技能不適用。）`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	45
+
+[magical attack]
+	45
+
+[price]
+	90000
+
+[value]
+	72000
+
+[creation rate]
+	200
+
+[equipment magical defense]
+	2656	2464
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	86
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[skill cooltime reset]
+		0
+		``	1
+	[speech on]
+		0	2000
+		`穿越時空者`
+	[/speech on]
+[/then]
+
+[set item master]
+	100300002
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

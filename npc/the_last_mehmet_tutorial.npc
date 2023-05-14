@@ -1,0 +1,49 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	25
+
+[big face]
+	`Map/Npc/NpcFace04.img`	6
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	25
+
+[field animation]
+	`Animation/mehmet.ani`
+
+[look around]
+	0
+
+[field wav]
+	`R_NPC_MEHMET_AMB`
+
+[popup wav]
+	`R_NPC_MEHMET_TK`
+	`R_NPC_MEHMET_FW`
+
+[role]
+[/role]
+
+[dialog]
+	1	1	99	-1	0	0
+	` 到目前為止做得很好。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` 就這樣對戰鬥感到疲憊了，看來你的力量還不夠。
+在你恢復以前，請帶著這個藥水吧。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	` 如喝下這個藥水，就會恢復HP的，請你喝喝看吧。
+ 使用方法是點按藥水右鍵，或是放在快捷欄裡，點按快捷鍵就可以了。`
+[/dialog]
+
+[name]
+	`最後的先知者`
+
+[field name]
+	`最後的先知者`

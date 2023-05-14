@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	7655
+[/pre required quest]
+
+[enemy reward item]
+	62134	1	11007	-1	4463	1	30	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4463	1	3299	16	3166	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	20191	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7657
+
+[name]
+	`勇者 - 決戰使徒前的準備 (項鏈)`
+
+[depend message]
+	`你去過‘極限的祭壇’嗎？ 那你一定見過那里的領主阿伽門農吧。 我了解到他身上有一條特殊的項鏈。
+如果你想做勇者裝備的話， 這會是一件不錯的材料。`
+
+[condition message]
+	`    前往亡者峽谷的『極限的祭壇』， 收集[阿伽門農的項鏈]和以下材料。 (阿伽門農的項鏈可以從阿伽門農身上獲得)`
+
+[solve message]
+	`好了， 項鏈也制作完成了。`
+
+[quest point]
+	4

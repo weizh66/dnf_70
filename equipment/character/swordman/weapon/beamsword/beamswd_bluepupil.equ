@@ -1,0 +1,219 @@
+#PVF_File
+
+[name]
+	`藍色惡魔之眼`
+
+[basic explain]
+	`施放[三段斬]、[迅捷之切]時，使敵人進入感電狀態。`
+
+[detail explain]
+	`施放[三段斬]時，使敵人進入感電狀態1秒；若攻擊感電狀態的敵人，則每次攻擊都會附加200點傷害。 (比Lv64高的目標陷入狀態機率比較低，比 Lv64低的目標陷入狀態機率比較高。)`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[creation rate]
+	50
+
+[physical attack]
+	43
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	115200
+
+[repair price]
+	96768
+
+[value]
+	92160
+
+[equipment physical attack]
+	562	515
+
+[equipment magical attack]
+	544	499
+
+[separate attack]
+	360	242
+
+[skill levelup]
+	`[swordman]`	4	1
+	`[swordman]`	8	2
+	`[demonic swordman]`	8	2
+	`[demonic swordman]`	4	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	56
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	9	3
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	9	3
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[skill]
+		`swordman`	8
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[active status]
+		`lightning`	64	200
+[/then]
+
+[if]
+	[skill]
+		`demonic swordman`	8
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[active status]
+		`lightning`	64	200
+[/then]
+
+[pvp]
+	[if]
+		[skill]
+			`swordman`	8
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			1000
+		[active status]
+			`lightning`	64	100
+	[/then]
+[/pvp]
+
+[possible kiri protect]

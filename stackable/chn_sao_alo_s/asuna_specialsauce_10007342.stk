@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`亞絲娜的秘制醬汁`
+
+[explain]
+	`使用後，可以解除自身異常狀態；且力量和智力各加100點、攻擊速度和釋放速度各新增20%%，效果持續30秒。(冷卻時間為30秒)`
+
+[flavor text]
+	`<SAO遇見DNF>`
+
+[grade]
+	1
+
+[attach type]
+	`[account]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/cash_japan.img`	428
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	30000
+
+[move wav]
+	`FOOD_TOUCH`
+
+[stat change]
+	`+`	100
+	`physical attack`
+	`+`	100
+	`magical attack`
+	`+`	200
+	`attack speed`
+	`+`	200
+	`cast speed`
+[/stat change]
+
+[active status recovery]
+	`any`	999
+	`myself`
+
+[stat change duration]
+	30000
+	`myself`

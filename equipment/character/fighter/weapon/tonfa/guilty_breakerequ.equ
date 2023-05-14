@@ -1,0 +1,186 @@
+#PVF_File
+
+[name]
+	`罪孽破壞者`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入束縛狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率6秒內讓敵人陷入束縛狀態。 （比Lv55高的目標陷入狀態機率較低，比 Lv55低的目標陷入狀態機率較高。決鬥場修正為 1.5秒）`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	38
+
+[magical attack]
+	56
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[price]
+	82600
+
+[repair price]
+	69384
+
+[value]
+	330400
+
+[equipment physical attack]
+	483	467
+
+[equipment magical attack]
+	508	492
+
+[equipment physical defense]
+	590	590
+
+[separate attack]
+	256	173
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[fighter]`	79	1
+	`[fighter]`	19	1
+	`[fighter]`	74	1
+	`[fighter]`	18	1
+	`[at fighter]`	79	1
+	`[at fighter]`	19	1
+	`[at fighter]`	74	1
+	`[at fighter]`	18	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	40
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	7	2
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	7	2
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10800
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[reduce duration to human armor at pvp module]
+		75
+	[probability]
+		2
+	[active status]
+		`hold`	55
+[/then]
+
+[possible kiri protect]

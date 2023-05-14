@@ -1,0 +1,27 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[width]
+	1	1
+
+[floating height]
+	0
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Animation/BursterBeamNew/BB2ndFloorExplB_Light_A.act`
+
+[attack info]
+	`Attackinfo/BursterBeamNewExp.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

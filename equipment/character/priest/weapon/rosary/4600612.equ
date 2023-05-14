@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`封·雲夢浮生珠`
+
+[basic explain]
+	`落雷符一次落下的閃電最大數增加2
+落雷符 施展時20秒內隊員的光屬性強化增加12`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	92
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	816	697
+
+[equipment magical attack]
+	1043	890
+
+[separate attack]
+	555	359
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[priest]`	40	3
+[/skill levelup]
+
+[light attack]
+	25
+
+[icon]
+	`item/new_equipment/01_weapon/priest/rosary/rosary.img`	81
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	24	1
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`priest`	40
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[equipment duration]
+		40000
+	[elemental weapon]
+		`light`
+	[appendage]
+		306
+[/then]
+
+[skill data up]
+	`[priest]`	40
+	`[all]`
+	`[level]`	2
+	`+`	2
+	`[priest]`	40
+	`[all]`
+	`[level]`	0
+	`%`	15
+[/skill data up]
+
+[possible kiri protect]

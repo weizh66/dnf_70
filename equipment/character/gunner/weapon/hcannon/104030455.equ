@@ -1,0 +1,198 @@
+#PVF_File
+
+[name]
+	`卡勒特的空氣炮`
+
+[basic explain]
+	`    [M-137格林機槍]每秒發射數 +2
+    [M-137格林機槍]發射時間上限 +1秒
+    [反坦克炮]攻擊力 +20%%
+    [FM-31榴彈發射器]發射間隔 -30%%
+    [FM-31榴彈發射器]榴彈發射數 +2`
+
+[detail explain]
+	`    [M-137格林機槍]每秒發射數 +2
+    [M-137格林機槍]發射時間上限 +1秒
+    [反坦克炮]攻擊力 +20%%
+    [FM-31榴彈發射器]發射間隔 -30%%
+    [FM-31榴彈發射器]榴彈發射數 +2`
+
+[flavor text]
+	`    看我一口氣`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	132
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	995	865
+
+[equipment magical attack]
+	597	519
+
+[separate attack]
+	552	363
+
+[skill levelup]
+	`[gunner]`	62	2
+	`[at gunner]`	62	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	106
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	36	0
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	12
+	`[all]`
+	`[static]`	0
+	`+`	2
+	`[gunner]`	12
+	`[all]`
+	`[level]`	2
+	`+`	1000
+	`[gunner]`	40
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[gunner]`	40
+	`[all]`
+	`[level]`	3
+	`%`	20
+	`[gunner]`	38
+	`[all]`
+	`[static]`	2
+	`%`	-30
+	`[gunner]`	38
+	`[all]`
+	`[level]`	0
+	`+`	2
+	`[at gunner]`	12
+	`[all]`
+	`[static]`	0
+	`+`	2
+	`[at gunner]`	12
+	`[all]`
+	`[level]`	2
+	`+`	1000
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	3
+	`%`	20
+	`[at gunner]`	38
+	`[all]`
+	`[static]`	2
+	`%`	-30
+	`[at gunner]`	38
+	`[all]`
+	`[level]`	0
+	`+`	2
+[/skill data up]
+
+[possible kiri protect]

@@ -1,0 +1,172 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`龍人之塔`
+
+[explain]
+	`    冒險家終于登上了傳說中的天空之城--這個阿拉德大陸通向天界的神跡！ 不過冒險家進入天空之城后， 卻不斷地遭遇強敵！ 原來天空之海的魔力可以影響一切生命體， 那些龍族早已進化成為具有人類形態的龍人！ 龍人以堅守自己的領地作為生存的唯一目標， 它們盲目的阻擋冒險家前進的步伐。 面對這些龍人， 一切文明的溝通都是徒勞的……`
+
+[entering title]
+	`Title/sky_dragoner'stower.ani`
+
+[cutscene image]
+	`Map/CutScene/SkyCastle.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act2.img`
+
+[worldmap pattern info]
+	2	1
+	`WorldMap/SelectdungeonSlot/skycastle.img`	0
+
+[minimum required level]
+	16
+
+[basis level]
+	19
+
+[experience increasing point]
+	0.6
+
+[champion]
+	4	8	12	16	18
+
+[special passive object item]
+	0	-1	4	3123	800	3124	800	3125	800	3128	800	1	-1	4	1048	800	1049	800	1059	800	1061	800
+[/special passive object item]
+
+[pathgate object]
+	401	402	403	404	405	406	407	408	409	410
+
+[maze info]
+
+[size]
+	4	5
+
+[greed]
+	`AAJJEEAA
+ AADDMMAA
+ BBFFPPEE
+ AAJJGGAA
+ AADDEEAA`
+
+[map specification]
+	1	0	1602
+[/map specification]
+
+[map specification]
+	1	1	1603
+[/map specification]
+
+[map specification]
+	2	1	1609
+[/map specification]
+
+[map specification]
+	1	2	1604
+[/map specification]
+
+[map specification]
+	2	2	1610
+[/map specification]
+
+[map specification]
+	1	3	1605
+[/map specification]
+
+[map specification]
+	2	3	1611
+[/map specification]
+
+[map specification]
+	1	4	1606
+[/map specification]
+
+[start map]
+	2	0	2	4
+[/start map]
+
+[boss map]
+	0	2	3	2
+[/boss map]
+
+[seal door map index]
+	50055
+
+[seal door pos]
+	1	2
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[maze info]
+
+[quest connection]
+	0	4307	2
+
+[size]
+	4	5
+
+[greed]
+	`JJNNEEAA
+ CCDDMMAA
+ BBFFPPEE
+ AAJJGGAA
+ AADDEEAA`
+
+[map specification]
+	1	0	1620
+[/map specification]
+
+[map specification]
+	1	1	1603
+[/map specification]
+
+[map specification]
+	2	1	1609
+[/map specification]
+
+[boss map specification]
+	0	2	1619
+[/boss map specification]
+
+[map specification]
+	1	2	1604
+[/map specification]
+
+[map specification]
+	2	2	1610
+[/map specification]
+
+[map specification]
+	1	3	1605
+[/map specification]
+
+[map specification]
+	2	3	1611
+[/map specification]
+
+[map specification]
+	1	4	1606
+[/map specification]
+
+[start map]
+	0	1
+[/start map]
+
+[boss map]
+	0	2
+[/boss map]
+
+[event monster]
+	1	10000	61726	1	300	80	1
+[/event monster]

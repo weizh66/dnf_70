@@ -1,0 +1,109 @@
+#PVF_File
+
+[minimum info]
+	`找不到代?ai_Arad_Eco_gmnana`	3	4	0	1	70	0	0	10	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	0	3000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+[/additional character status]
+
+[character status rate]
+	500	130	1	1	1	1	1	1	1	1	1	1	10	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.3	1	1	1
+[/character status rate]
+
+[attack damage rate]
+	0.08
+
+[add equipment status from level]
+	1
+
+[armor subtype]
+	4
+
+[custom skill level]
+[/custom skill level]
+
+[quick skill]
+	99	0	103	0	105	0	106	0	100	1
+[/quick skill]
+
+[skill]
+[/skill]
+
+[quick item]
+	8	1
+[/quick item]
+
+[equipment]
+	34246	4	0	10458	1	0	14458	1	0	12458	3	0	18459	2	0	16458	1	0	20072	2	0	22070	1	0	24072	0	0	51598	2	0	51016	2	0	52383	2	0	52637	2	0	53416	2	0	53037	2	0	53836	2	0
+[/equipment]
+
+[think term]
+	500
+
+[destination change term]
+	500
+
+[keep distance with target]
+	500
+
+[keep range distance with target]
+	300	300	250	250
+
+[warlike]
+	0
+
+[vision]
+	1000
+
+[death tower item]
+[/death tower item]
+
+[targeting bonus]
+	100	50	0	0	0	0	0	0	0	0	0	0	0	0	99	0	0	0	0	0	0
+	`[stand]`
+	`[dash]`	0	0
+	`[slow]`
+	`[confuse]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	`acid`
+	`acid.key`
+	`anti_gravity`
+	`anti_gravity.key`
+	`flore`
+	`flore.key`
+	`angry_flame`
+	`angry_flame.key`
+	`talk`
+	`talk.key`
+	`remi`
+	`remi.key`
+	`magic`
+	`magic.key`
+[/key stream]
+
+[speech on situation]
+	[on stand]
+		`找不到代?ai_econana_speech_stand`	40
+	[on damage]
+		`找不到代?ai_econana_speech_damage`	40
+	[on damage]
+		`找不到代?ai_econana_speech_damage1`	40
+	[on die]
+		`找不到代?ai_econana_speech_die`	40
+	[on appear]
+		`找不到代?ai_econana_speech_appear`	40
+	[on attack]
+		`找不到代?ai_econana_speech_1`	40	3
+	[on attack]
+		`找不到代?ai_econana_speech_2`	40	3
+[/speech on situation]

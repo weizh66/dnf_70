@@ -1,0 +1,205 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以 1%%的機率消耗1個無色小晶塊，30秒內30秒內智力增加30，精神增加20，施放速度增加5%%，移動速度增加 5%%。
+施展時以1%%的機率消耗1個無色小晶塊，30秒內智力增加30，精神增加20，施放速度增加5%%，移動速度增加 5%%。（決鬥場內持續時間適用15秒,冷卻時間適用60秒。)`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	184
+
+[custom animation]
+	`TitleAnimation/empire_blue.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	30
+
+[HP MAX]
+	200
+
+[magical attack]
+	30
+
+[magical defense]
+	20
+
+[MP regen speed]
+	15
+
+[move speed]
+	30
+
+[attack speed]
+	10
+
+[cast speed]
+	30
+
+[fire attack]
+	3
+
+[water attack]
+	3
+
+[light attack]
+	3
+
+[dark attack]
+	3
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`magical defense`
+		`+`	20
+	[stat]
+		`cast speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		45000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`magical defense`
+		`+`	20
+	[stat]
+		`cast speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`magical defense`
+		`+`	20
+	[stat]
+		`cast speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`magical defense`
+		`+`	20
+	[stat]
+		`cast speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[magical critical hit]
+	3
+
+[move wav]
+	`NAME_TOUCH`

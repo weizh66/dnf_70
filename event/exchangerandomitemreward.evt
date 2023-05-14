@@ -1,0 +1,25 @@
+#PVF_File
+
+[event]
+	[title]
+		`新學期出席活動`
+	[explain]
+		`在消耗疲勞值30後，請點按確認出席按鈕！
+活動期間內，如每天都有進行確認出席，將可以獲得更特別的禮物！`
+	[material]
+		[exchange rule]
+			0	8273	1	8274	1	8275	1	8276	1	8277	1
+	[/material]
+	[random reward item]
+		8287
+	[/random reward item]
+	[send mail]
+		[inven]
+			1
+		[detail]
+			0	0	0	0
+			`game_server_msg_231`
+			`game_server_msg_232`
+		[/detail]
+	[/send mail]
+[/event]

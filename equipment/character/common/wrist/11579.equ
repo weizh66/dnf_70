@@ -1,0 +1,179 @@
+#PVF_File
+
+[name]
+	`焚天祭手環`
+
+[basic explain]
+	`  攻擊時，有5%%的機率使被擊敵人周圍200px範圍內的敵人進入束縛狀態。
+  攻擊時，有5%%的機率使被擊敵人周圍250px範圍內的敵人進入灼燒狀態。
+  500px範圍內每一個被束縛的敵人會增加自身50點力量和智力。
+  500px範圍內每一個灼燒的敵人會增加自身3%%的暴擊率。
+  對束縛的敵人傷害+20%%。
+  對灼燒的敵人傷害+20%%。`
+
+[flavor text]
+	`  據說它的原主人含冤獲罪，被執行火刑。熊熊烈火中，一切都燒成了灰燼，唯有這手環毫發無損。。。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[physical defense]
+	93
+
+[need material]
+	3821	1000
+
+[repair price]
+	101920
+
+[price]
+	127400
+
+[value]
+	101920
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	4896	4464
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	98
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[variable stat]
+	`physical attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`hold`	5
+	`magical attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`hold`	5
+[/variable stat]
+
+[variable stat]
+	`physical critical hit rate`
+	`+`	3
+	`object number`
+	`enemy`	500
+	`burn`	5
+	`magical critical hit rate`
+	`+`	3
+	`object number`
+	`enemy`	500
+	`burn`	5
+[/variable stat]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	200
+	[probability]
+		2
+	[duration]
+		4000
+	[active status]
+		`hold`	120
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	250
+	[probability]
+		2
+	[duration]
+		4000
+	[active status]
+		`burn`	120	14000	750	1	3000
+[/then]
+
+[if]
+	[target active status]
+		`hold`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600761	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

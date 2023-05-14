@@ -1,0 +1,189 @@
+#PVF_File
+
+[name]
+	`斯卡薩的冰槍`
+
+[basic explain]
+	`普通攻擊時12%% 機率施展斯卡薩的冰之氣息
+不可解體`
+
+[detail explain]
+	`普通攻擊時以12%%的機率施展斯卡薩的冰息（決鬥場內1.2%% 機率修正）
+不可解體`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[anti evil]
+	11
+
+[physical attack]
+	65
+
+[attack speed]
+	-50
+
+[stuck]
+	-1
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[equipment physical attack]
+	725	665
+
+[equipment magical attack]
+	513	471
+
+[separate attack]
+	320	215
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/weapon/mage/spear.img`	83
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[cooltime]
+		500
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		12
+	[reduce probability to human armor at pvp module]
+		90
+	[passive object]
+		48159	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

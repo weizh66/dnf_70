@@ -1,0 +1,21 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/hupsusmoke_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		13	13
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

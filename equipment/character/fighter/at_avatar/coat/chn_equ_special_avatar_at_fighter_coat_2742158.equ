@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`紅色烈風勇士胸甲`
+
+[explain]
+	`    作為格斗界的新星， 你的未來無限光明！  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_acoat.img`	63
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	450	0	30	0	0	990	0	0	0	0	2970	0	0	0	0	6500	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[physical defense]
+	10
+
+[HP MAX]
+	80
+
+[variation]
+	26	2
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set name]
+	`格斗之星 3 (男格斗)`
+
+[set item]
+	2741755	2742057	2742158	2742259	2742360	2742461
+[/set item]
+
+[set ability]
+	[HP MAX]
+		250
+	[MP MAX]
+		250
+	[physical attack]
+		10
+	[physical defense]
+		25
+	[magical attack]
+		10
+	[magical defense]
+		25
+	[move speed]
+		10
+	[attack speed]
+		10
+	[cast speed]
+		10
+	[hit recovery]
+		200
+[/set ability]
+
+[avatar func filter]
+	2

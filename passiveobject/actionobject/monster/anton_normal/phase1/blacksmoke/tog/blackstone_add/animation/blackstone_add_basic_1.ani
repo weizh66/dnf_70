@@ -1,0 +1,29 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`map/anton/mouth/bottom_deco.img`
+		0
+	[IMAGE POS]
+		-120	-40
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		3000
+
+[FRAME001]
+	[IMAGE]
+		`map/anton/mouth/bottom_deco.img`
+		0
+	[IMAGE POS]
+		-120	-40
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		3000

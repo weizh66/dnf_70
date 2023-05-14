@@ -1,0 +1,83 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/A-Toll_Range_1.ani`
+	[SUB ANI]
+		`../Animation/A-Toll_Range_1_in.ani`	0	1
+		`../Animation/A-Toll_Range_1_0.ani`	0	2
+		`../Animation/A-Toll_Range_1_in_0.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`ATOLL_LINE_NARROW`	0
+		`ATOLL_LINE_WIDE`	1
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70344	70355
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			100000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SHAKING]
+		5	250
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			1
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			1
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]

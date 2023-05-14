@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`灰?！`
+
+[basic action]
+	`Action/dust04_Basic.act`
+
+[etc action]
+	`Action/Etc_dust04_0.act`
+	`Action/Etc_dust04_1.act`
+	`Action/Etc_dust04_2.act`
+[/etc action]
+
+[etc attack info]
+	``
+	``
+	``
+[/etc attack info]
+
+[team]
+	100
+
+[hp destroy]
+	0
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	30000
+[/object destroy condition]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[PASSIVE]`	19815
+	[homing velocity]
+		25.0	25.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[homing time]
+		100
+	[sync target move]
+[/homing]

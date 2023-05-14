@@ -1,0 +1,29 @@
+#PVF_File
+
+[map image]
+	`WorldMap/NorthMyre.img`	0
+
+[ui path]
+	`WorldMap/UI/NorthMyre.ui`
+
+[dungeon]
+	50	-1	51	66	52	-1	53	-1	1506	-1
+[/dungeon]
+
+[name]
+	`諾斯瑪爾`
+
+[hell dungeon]
+	1
+
+[hell quest]
+	2610
+[/hell quest]
+
+[hell freepass item]
+	4393	1	2682582	1	2749501	1
+[/hell freepass item]
+
+[item condition]
+	2749501
+[/item condition]

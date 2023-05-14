@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gun blader]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 鐵血統帥 (4/6)`
+
+[depend message]
+	`看你的表情， 獲得想要的答案之后好像也并不滿足。 是因為槍嗎？
+劍術得到提升之后， 你還想把射擊術也相應提高， 是嗎？ 可惜我并不太懂射擊術， 所以我沒辦法教你新的技術或幫你改造槍支。
+但我可以教你其他的東西， 比如如何提升專注力和命中率， 快速拔出武器一口氣制服敵人。 如果你能將這招用到射擊上， 應該會有一些幫助吧？
+如果你有興趣嘗試， 就去準備赫侖皇帝的印章吧。 我想你應該也猜到了， 這次的修行場所依然是武斗大會。 但這次大會的參賽者實力與此前的魂·黃龍大會相比完全不是一個境界， 這次你要參加叫魂·青龍大會。
+我就在這里等你的答復， 你考慮好之后再來吧。 明白了嗎？`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`華麗的技術和強力的武器固然重要， 更重要的是基本功。 好， 接下來開始修行吧。`
+
+[pre required quest]
+	6902
+[/pre required quest]
+
+[relation quest]
+	6904
+
+[job change quest]
+	3
+
+[grow number]
+	0

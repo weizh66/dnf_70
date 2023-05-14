@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	` 樹魔的野熊頭盔`
+
+[basic explain]
+	`被攻擊時以 5%% 的機率將受到傷害的30%%還給敵人。`
+
+[flavor text]
+	`我用力的被揍，沒多久發現敵人也被打到失神。- 奧爾卡吹噓自己的體魄`
+
+[grade]
+	40
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	35
+
+[physical attack]
+	16
+
+[physical defense]
+	15
+
+[magical attack]
+	12
+
+[price]
+	40000
+
+[repair price]
+	32000
+
+[value]
+	32000
+
+[equipment physical defense]
+	1536	1344
+
+[icon]
+	`Item/common/shoulder.img`	111
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[thorn]
+		30
+[/then]
+
+[set item master]
+	11290
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

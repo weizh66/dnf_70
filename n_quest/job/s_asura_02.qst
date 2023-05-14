@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7811
+[/pre required quest]
+
+[collision quest]
+	7800	7804	7808
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4053	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7813
+
+[name]
+	`轉職 - 阿修羅 (2/4)`
+
+[depend message]
+	`心眼秘藥？ 是G.S.D交代的吧？ 如果有材料的話， 我可以給你制作。 `
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給諾頓。`
+
+[solve message]
+	`你要心眼秘藥做什么？ 不會是……總之你自己想好了， 千萬別一時沖動。`

@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	5
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 冥月女神 (2/6)`
+
+[depend message]
+	`每當人們指著你的鼻子嫌棄你用黑魔法， 說你不吉利的時候， 你是什么感覺？ 一開始我也對黑魔法有偏見， 但見到你之后改觀很多。
+我從你身上發現， 詛咒的力量不只是用來折磨人類的， 還可以用來拯救人類， 這也讓我再一次意識到， 不論是什么力量， 關鍵還是要看由誰用和怎么使用。
+所以現在我要幫你變得更加強大。
+一聽到能變強， 你這兩眼都開始放光了。 變強了之后， 你可能會遭遇更大的危機和困難。 你做好心理準備了嗎？
+好吧， 啥都不用說了， 去收集‘斯卡迪女王的印章’吧， 這樣你就能去參加‘魂 · 黃龍大會’了。 快去。 `
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`好， 這些就夠了。 `
+
+[pre required quest]
+	5167
+[/pre required quest]
+
+[relation quest]
+	5169
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,39 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/distance_smell_Basic_0_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56647	56648	69369	64076
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[stun]
+		100	200	8000
+[/BEHAVIOR]

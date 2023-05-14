@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`變身賽麗亞`
+
+[explain]
+	`變身為賽麗亞進行戰鬥，等級傷害以自身而定。`
+
+[flavor text]
+	`怪物 :  妳是誰？
+勇士 :  賽麗亞。
+怪物 :  女裝大佬！
+勇士 :  今天又是充滿希望的一天。
+怪物 :  呵呵呵
+勇士 :  呵呵
+怪物 :  不管三七二十一，先擄走回家吧！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	100
+
+[icon]
+	`Item/Title/title.img`	329
+
+[icon mark]
+	`item/IconMark.img`	34
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	1
+
+[cooltime group]
+	1044
+
+[move wav]
+	`FOOD_TOUCH`
+
+[monster summons]
+	61736	-1	-1	900000	1
+
+[price]
+	10000
+
+[value]
+	5
+
+[cooltime maintenance]
+	1	1	1

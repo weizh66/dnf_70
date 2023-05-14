@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		``
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CUT SCENE]
+		[FLIP TYPE]
+			1
+		[START POSITION]
+			0	0
+		[ANI FILE]
+			`etc/ultimateskillani/atsword_majesty.ani`
+		[MOVE DIR]
+			0	0	2000
+		[/MOVE DIR]
+	[/CUT SCENE]
+[/BEHAVIOR]

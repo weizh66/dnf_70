@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	24
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	38	99
+
+[pre required quest]
+	4407
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	4421	411
+[/int data]
+
+[dungeon info]
+	32	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100	7588	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`新手冒險家`
+
+[depend message]
+	`因為你最近常去蜘蛛洞穴， 所以想要跟你去那里冒險的新手越來越多， 真頭痛啊。
+昨天有個很自信的鬼劍士說要去蜘蛛洞穴冒險， 但他到現在都還沒有回來， 不知道是不是成蜘蛛的點心了?`
+
+[condition message]
+	`    前往諾伊佩拉地區的『蜘蛛洞穴』， 找到徘徊在那里的無謀的劍士， 并與其一起通關地下城， 要求地下城難度為冒險級以上。 (若通關時無謀的劍士沒有生存下來， 則無法完成任務)`
+
+[solve message]
+	`哈哈， 新手救了新手啊。 真是棒極了， 我會記住你的。`
+
+[quest point]
+	4

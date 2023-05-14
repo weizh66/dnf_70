@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`海神謎咒之巨靈肩甲`
+
+[basic explain]
+	`攻擊時，有5%%的幾率使敵人進入詛咒狀態。`
+
+[detail explain]
+	`攻擊時，有5%%的幾率使敵人進入詛咒狀態5秒；詛咒狀態下的敵人，將減少50點力量、體力、智力和精神。(若敵人高於Lv90，則減少進入異常狀態的幾率和效果；反之則增加幾率和效果)`
+
+[flavor text]
+	`漁夫不放心老三自己一個人出行，便在後面偷偷跟隨。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	33
+
+[magical attack]
+	24
+
+[physical defense]
+	30
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3136	2912
+
+[water attack]
+	6
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/05_harmor/neck/harmor_neck.img`	36
+
+[field image]
+	`Item/field_equip.img`	12
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[duration]
+		5000
+	[active status]
+		`curse`	90	50	50	50	50
+[/then]
+
+[possible kiri protect]

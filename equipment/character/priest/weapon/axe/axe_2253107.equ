@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`粗刃的雙刃斧`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	35
+
+[physical attack]
+	24
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[price]
+	59200
+
+[repair price]
+	236800
+
+[value]
+	236800
+
+[equipment physical attack]
+	398	379
+
+[equipment magical attack]
+	282	269
+
+[separate attack]
+	164	109
+
+[random option]
+	1
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/priest/axe.img`	18
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	3
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	45
+
+[possible kiri protect]

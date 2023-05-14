@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	56	99
+
+[pre required quest]
+	4218
+[/pre required quest]
+
+[quest point]
+	8
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	81	2	61112	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	7124	1	7134	1	7137	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`疾風之蘇雷德`
+
+[depend message]
+	`冒險家， 多虧你的幫忙， 戰況對我們越來越有利了。
+現在， 只要擊退機動隊的隊長蘇雷德， 我們就能松一口氣了。
+冒險家， 我們會堅守崗位， 堅持戰斗的， 所以請你去消滅他吧。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特東門』， 除掉領主機動隊長蘇雷德， 要求地下城難度為王者級。`
+
+[solve message]
+	`沒想到你真的辦到了， 太了不起了！ 不過我們現在還不能掉以輕心， 敵人隨時還會再攻擊我們。`
+
+[dialog]
+	0	0	10003	0	0	0	0
+	` <monster::61112>發現敵人！ 機動隊， 包圍敵人！
+……嗯！ 這次的敵人實力不錯。
+不過我會讓你們知道， 我的維利和其他的機動裝置有什么不同！
+維利~~GO！！`
+[/dialog]

@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`萊亞諾瓦之咒`
+
+[basic explain]
+	`攻擊時以2%%的機率讓敵人陷入眩暈狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少28，體力減少28，智能減少28，精神力減少28。 (若敵人高於Lv20，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	24
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	20
+
+[physical attack]
+	27
+
+[attack speed]
+	100
+
+[stuck]
+	-1
+
+[price]
+	38400
+
+[repair price]
+	30720
+
+[value]
+	20800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	221	187
+
+[equipment magical attack]
+	234	198
+
+[separate attack]
+	148	96
+
+[physical critical hit]
+	10
+
+[skill levelup]
+	`[thief]`	3	2
+[/skill levelup]
+
+[curse resistance]
+	15
+
+[icon]
+	`Item/weapon/thief/dagger.img`	37
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	1	3
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[active status]
+		`curse`	20	28	28	28	28
+[/then]
+
+[possible kiri protect]

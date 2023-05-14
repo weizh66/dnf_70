@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	80	99
+
+[pre required quest]
+	4580
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	103	-1	15087	3	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`停止特隆貝發電所的功能`
+
+[depend message]
+	`能源中心總負責人泰拉斯特也在那裡？
+也不是軍人… 竟然冒著危險對抗安徒恩，真是厲害。他們比誰都瞭解發電站。
+ 如果是他們，肯定能停止堅固的特隆貝發電所功能。
+支配著特隆貝發電所的戰慄的帕特里斯，是吃靜電的怪物… 停止發電的話，它的力量會急劇下降的。`
+
+[condition message]
+	`讓特隆貝發電所的功能停止（特隆站發電所的發電機可以由發電所總負責人泰拉斯特破壞。）`
+
+[solve message]
+	`死篩查發電所估計很難… 沒辦法。`
+
+[substitutive names]
+	`破壞發電機`
+[/substitutive names]
+
+[quest point]
+	4

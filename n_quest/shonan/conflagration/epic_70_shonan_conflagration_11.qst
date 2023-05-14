@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	126
+
+[complete npc index]
+	5
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4130
+[/pre required quest]
+
+[depend give item]
+	4775	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4775	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`秘密`
+
+[depend message]
+	`事情的經過原來是這樣…… 這個時間點是我從來沒來過的新時間點，果然這對時間帶了相當大的變化呢。
+<npc::5>等一下！我會負責照顧那個孩子，
+<npc::126>妳是！？
+<npc::5>天啊… 我還是一聽說發生大火災後就馬上趕來的…… 森林變成一片廢墟，妖精們全都消失了，連賽麗亞也…
+真是太悲慘了… 全世界竟然只剩下兩個妖精…
+<npc::126>妳打算帶那孩子去哪裡呢？
+<npc::5>這個嘛… 應該是讓她平安無事的某個地方吧。可以將賽麗亞的身世保密嗎？
+她已經失去記憶，而且現在外表和人類沒有兩樣… 以人類的身份生存下去也不是壞事。
+<npc::126>對了！最後請幫我看看這個吧？你認識這個裝飾的主人嗎？
+<npc::5>這是頭飾嗎？還是胸墜呢？
+嗯… 我想不到有什麼特別可疑的人。之後若是有任何消息，我會告訴你的！
+<npc::126>我知道了。過些時候我再去找妳。
+你現在立刻回到現在去找索西雅，既然已經過了這麼久了，她應該也會想到些什麼吧？還有現在我們與索西雅的見面不是發生在現在。所以她不會記得我們。`
+
+[condition message]
+	`回到現在的索西雅詢問關於裝飾的主人`
+
+[solve message]
+	`你好 冒險家～。嗯這裝飾好像在哪裡見過。水滴造型的裝飾…… 感覺很親切。
+如果能把裝飾給我，我就能去調查一下了…`
+
+[quest point]
+	4

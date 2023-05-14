@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`歐曼的詛咒`
+
+[basic explain]
+	`決鬥場內出血、中毒、閃電傷害增加23%%`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	30
+
+[physical defense]
+	30
+
+[magical attack]
+	30
+
+[magical defense]
+	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	30
+
+[icon]
+	`Item/new_equipment/10_support/support.img`	94
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[active status control info]
+	`bleeding`	0	6	0	45
+
+[active status control info]
+	`poison`	0	6	0	45
+
+[active status control info]
+	`lightning`	0	6	0	45
+
+[pvp]
+	[active status control info]
+		`bleeding`	0	6	0	23
+	[active status control info]
+		`poison`	0	6	0	23
+	[active status control info]
+		`lightning`	0	6	0	23
+[/pvp]
+
+[possible kiri protect]

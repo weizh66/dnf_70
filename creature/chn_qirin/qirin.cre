@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`?潪茆`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[character span]
+	-125
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation/Stay.ani`
+
+[walk motion]
+	`Animation/Walk.ani`
+
+[run motion]
+	`Animation/Run.ani`
+
+[response motion]
+	`Animation/Response.ani`
+
+[basic over effect]
+	`Effect/Animation/StayEffect.ani`
+
+[walk over effect]
+	`Effect/Animation/WalkEffect.ani`
+
+[run over effect]
+	`Effect/Animation/RunEffect.ani`
+
+[response over effect]
+	`Effect/Animation/ResponseEffect.ani`
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[revision x]
+	-50
+
+[revision y]
+	10
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[skill list]
+	[skill node]
+		0
+		[skill type]
+			`general skill`
+		[skill name]
+			`閃耀龍的吶喊`
+		[skill explain]
+			`機械手臂的封印被解開時，發射龍的吶喊而給予傷害。`
+		[skill recovery time]
+			20000
+		[learn skill level]
+			1
+		[skill mp]
+			10
+		[skill motion]
+			`Animation/Skill.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			``
+		[skill info]
+			`skill/normal.skl`
+		[attack info]
+			`AttackInfo/normal.atk`
+		[preload Passive Index]
+			2	12792	12793
+	[/skill node]
+	[skill node]
+		0
+		[skill type]
+			`over skill`
+		[skill name]
+			`閃耀龍的回歸`
+		[skill explain]
+			`機械手臂的封印被解開時，發射龍的吶喊而給予傷害。`
+		[skill recovery time]
+			20000
+		[learn skill level]
+			1
+		[skill mp]
+			10
+		[skill motion]
+			`Animation/OverSkill.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			``
+		[skill info]
+			`skill/over.skl`
+		[attack info]
+			`AttackInfo/normal.atk`
+		[preload Passive Index]
+			2	12792	12793
+	[/skill node]
+[/skill list]

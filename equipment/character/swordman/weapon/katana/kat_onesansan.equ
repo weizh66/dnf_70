@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`十字斬刀 - 閃`
+
+[basic explain]
+	`[拔刀斬]、 [猛龍斷空斬]、 [噬靈鬼斬]、 [鬼影閃]攻擊力 +40%%`
+
+[detail explain]
+	`[拔刀斬]， [猛龍斷空斬]， [噬靈鬼斬]， [鬼影閃]攻擊力 +40%% (在決斗場中 +20%%)`
+
+[flavor text]
+	`    真正的劍士， 用一把劍就可以斬斷所有阻礙！  --短劍達人巴恩領悟了劍之奧義后說`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/katana.img`	33
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	63
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	601	550
+
+[separate attack]
+	360	243
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[physical critical hit]
+	2
+
+[stuck]
+	1
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[skill data up]
+	`[swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	40
+	`[swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	40
+	`[swordman]`	72
+	`[all]`
+	`[level]`	1
+	`%`	40
+	`[swordman]`	6
+	`[all]`
+	`[level]`	0
+	`%`	40
+	`[swordman]`	6
+	`[all]`
+	`[level]`	1
+	`%`	40
+	`[swordman]`	6
+	`[all]`
+	`[level]`	2
+	`%`	40
+	`[swordman]`	6
+	`[all]`
+	`[level]`	3
+	`%`	40
+	`[swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	40
+[/skill data up]
+
+[pvp]
+	[skill data up]
+		`[swordman]`	9
+		`[all]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	72
+		`[all]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	72
+		`[all]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	6
+		`[all]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	6
+		`[all]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	6
+		`[all]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	6
+		`[all]`
+		`[level]`	3
+		`%`	20
+		`[swordman]`	60
+		`[all]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+[/pvp]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	2
+	`swordman`	3
+	`swordman`	4
+[/routing priority]
+
+[possible kiri protect]

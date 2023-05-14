@@ -1,0 +1,85 @@
+#PVF_File
+
+[exposed by npc]
+	0
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	45
+
+[complete npc index]
+	124
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	12845
+[/pre required quest]
+
+[pre required quest]
+	12847
+[/pre required quest]
+
+[pre required quest]
+	12849
+[/pre required quest]
+
+[pre required quest]
+	12851
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	124
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	12853
+
+[name]
+	`二次覺醒 - 龍躍武器 (1/3)`
+
+[depend message]
+	`親愛的教友， 恭喜你成功完成二次覺醒！
+為此， 我特別準備了龍躍武器作為禮物。 這件裝備不同于你之前見過的任何武器， 它可以伴隨你的冒險歷程不斷成長， 是我之前拜托素喃的小鐵柱做的。
+現在應該做好了， 你可以去找他問問。`
+
+[condition message]
+	`    找素喃地區的小鐵柱談談。`
+
+[solve message]
+	`原來是大叔你啊！
+沒想到你就是歌蘭蒂斯姐姐說的那位冒險家， 哈哈， 俺之前還以為是陌生人呢！`

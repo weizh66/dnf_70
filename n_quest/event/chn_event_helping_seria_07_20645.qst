@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	12
+
+[complete npc index]
+	12
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20644
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	1089	5	1090	5	2749681	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`重新制作藥劑`
+
+[depend message]
+	`看來光靠那個果實藥量不夠， 所以效果沒有發揮出來。 我需要重新制作更強力的藥劑， 你能再幫我收集些其它材料嗎？`
+
+[condition message]
+	`    在地下城中， 收集以下材料。`
+
+[solve message]
+	`嗯， 我再去試試。 稍等……`

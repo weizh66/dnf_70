@@ -1,0 +1,89 @@
+#PVF_File
+
+[set name]
+	`墮落之翼  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	113
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[priest]`	124
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[priest]`	118
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[死亡切割]冷卻時間 -10%%
+[裂地錘]冷卻時間 -15%%
+[回旋飛鐮]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	116
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[priest]`	116
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	115
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[priest]`	115
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[復仇之刺]攻擊力 +10%%
+[復仇之刺]冷卻時間 -20%%
+[厄運之輪]攻擊力 +10%%
+[厄運之輪]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	115
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[priest]`	115
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[priest]`	115
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[priest]`	115
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[priest]`	115
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[priest]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`+`	6
+	[/skill data up]
+	[parameter basic explain]
+		`[厄運之輪]攻擊力 +40%%
+[厄運之輪]移動距離 +30%%
+[厄運之輪]移動速度 +20%%
+[厄運之輪]變身時間 -30%%
+[黑暗權能]黑暗晶體數量 +6`
+[/piece set ability]

@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`墮落騎士十字架`
+
+[basic explain]
+	`施放技能時， 有4%%的幾率向所有敵人發動火焰爆炸。
+施放技能時， 有4%%的幾率向所有敵人發動暗之閃電。`
+
+[flavor text]
+	`    傳說它是斬殺惡魔的墮落騎士的十字架。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/cross.img`	32
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical defense]
+	49
+
+[magical attack]
+	53
+
+[magical defense]
+	49
+
+[equipment physical attack]
+	532	484
+
+[equipment physical defense]
+	570	560
+
+[equipment magical attack]
+	505	460
+
+[equipment magical defense]
+	570	560
+
+[separate attack]
+	328	220
+
+[cast speed]
+	20
+
+[if]
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		4
+	[passive object]
+		23016	0	0	70	25	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		4
+	[passive object]
+		44002	0	0	0	25	0
+		``
+	[/passive object]
+[/then]
+
+[skill levelup]
+	`[priest]`	74	3
+	`[priest]`	81	3
+	`[priest]`	117	2
+[/skill levelup]
+
+[variation]
+	4	1
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[routing priority]
+	`priest`	1
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

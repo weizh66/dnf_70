@@ -1,0 +1,35 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/warning_Basic_0_0_0_0_2.ani`
+	[SUB ANI]
+		`../Animation/warning_Basic_0_0_2_0_1.ani`	0	1
+		`../Animation/warning_Basic_0_0_3_0_1.ani`	0	2
+		`../Animation/warning_Basic_0_0_0_1_0.ani`	0	0
+		`../Animation/warning_Basic_0_0_0_1_1.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			15404
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		5
+	[NOW]
+[/BEHAVIOR]

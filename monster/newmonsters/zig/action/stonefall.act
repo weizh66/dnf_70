@@ -1,0 +1,249 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/StoneFall.ani`
+	[SUB ANI]
+		`../animation/effect/StoneFall_backdodge.ani`	0	-1
+		`../animation/effect/StoneFall_dodge.ani`	0	1
+		`../animation/effect/StoneFall_Casting_Effect.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CASTING]
+		300	1
+	[/CASTING]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[DO BEHAVIOR]
+	[ME]
+		2
+	[DELAY DO BEHAVIOR]
+	[ME]
+		3	100
+	[DELAY DO BEHAVIOR]
+	[ME]
+		4	200
+	[DELAY DO BEHAVIOR]
+	[ME]
+		5	300
+	[DELAY DO BEHAVIOR]
+	[ME]
+		6	400
+	[DELAY DO BEHAVIOR]
+	[ME]
+		7	500
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11291
+		[PARTICLE FILENAME]
+			`../Particle/StoneFall.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-250	250
+		[RANDOM]
+			-70	70
+		[RANDOM]
+			450	500
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	13
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	47	99
+
+[pre required quest]
+	3815
+[/pre required quest]
+
+[monster reward item]
+	61805	112	0	4302	1	50	8	61805	112	1	4302	1	60	8	61805	112	2	4302	1	70	8	61805	112	3	4302	1	80	8
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4302	8
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4303	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`裝胃液的容器`
+
+[depend message]
+	`嗯……就算它的外殼再堅硬， 碰到天帷巨獸的胃液也一樣融化， 不過要弄到能裝天帷巨獸胃液的容器也不容易。
+這樣吧， 如果你能拿到合體章魚怪的體液， 我就給你制造能裝天帷巨獸胃液的容器。`
+
+[condition message]
+	`    從合體型章魚怪身上收集8個[粘稠的液體]。`
+
+[solve message]
+	`喏~這個就是你要的容器， 拿好了。`
+
+[quest point]
+	4

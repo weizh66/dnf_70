@@ -1,0 +1,131 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	67
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[不動珠箔陣]冷卻時間 -20%%
+[奪命大念陣]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	8
+		`%`	-15
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[龍魂之怒]冷卻時間 -20%%
+[不動珠箔陣]攻擊力 +25%%
+[奪命大念陣]攻擊力 +30%%
+[因果業火符]攻擊力 +25%%
+[因果業火符]攻擊時爆炸間隔 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	63
+		`[dungeon type]`
+		`[static]`	1
+		`%`	15
+		`[at priest]`	63
+		`[dungeon type]`
+		`[static]`	2
+		`%`	15
+		`[at priest]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	75
+		`[at priest]`	61
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-15
+		`[at priest]`	61
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	8
+		`%`	-15
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at priest]`	60
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at priest]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	67
+		`[dungeon type]`
+		`[static]`	8
+		`%`	20
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[不動珠箔陣]終結一擊攻擊力 +75%%
+[不動珠箔陣]念珠旋轉速度 +15%%
+[百八念珠]攻擊力 +30%%
+[百八念珠]生成速度 +15%%
+[因果業火符]攻擊力 +30%%
+[因果業火符]攻擊時爆炸間隔 -15%%
+[龍魂之怒]攻擊力 +25%%
+[龍魂之怒]施放速度 +30%%
+[奪命大念陣]攻擊力 +25%%
+[奪命大念陣]攻擊速度 +20%%`
+[/piece set ability]

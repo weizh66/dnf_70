@@ -1,0 +1,133 @@
+#PVF_File
+
+[name]
+	`神秘的古樹圖騰`
+
+[basic explain]
+	`攻擊速度增加+2.5%%
+攻擊時，以2%%的機率使敵人進入眩暈狀態。
+`
+
+[detail explain]
+	`攻擊速度 +2.5%%
+攻擊時以2%%的機率4秒內讓敵人陷入眩暈狀態。 （比Lv65高的目標陷入狀態機率較低，比 Lv65低的目標陷入狀態機率較高。決鬥場修正為 2秒）`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	64
+
+[attack speed]
+	25
+
+[stuck]
+	-1
+
+[price]
+	93800
+
+[repair price]
+	78792
+
+[value]
+	375200
+
+[equipment physical attack]
+	624	603
+
+[equipment magical attack]
+	535	517
+
+[separate attack]
+	293	199
+
+[physical critical hit]
+	3
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/priest/totem.img`	50
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	12	10
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		6000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	65
+[/then]
+
+[possible kiri protect]

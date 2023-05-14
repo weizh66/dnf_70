@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`冥獄鎖魂項鏈`
+
+[basic explain]
+	`根據連擊數發動Buff
+-
+ 達成10連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+  達成20連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+ 達成30連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+ 達成40連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+ 達成50連擊時， 所有攻擊力增加4%%， 效果持續60秒。`
+
+[detail explain]
+	`根據連擊數發動Buff (各階段冷卻時間為10秒； 最多疊加5次；解除裝備後效果消失)
+-
+ 達成10連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+  達成20連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+ 達成30連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+ 達成40連擊時， 所有攻擊力增加4%%， 效果持續60秒。
+-
+ 達成50連擊時， 所有攻擊力增加4%%， 效果持續60秒。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	39
+
+[magical defense]
+	97
+
+[anti evil]
+	16
+
+[price]
+	134400
+
+[value]
+	107520
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	8560	7840
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	197
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[equipment duration]
+		60000
+	[stat by condition]
+		`physical attack bonus`
+		`%`	20
+	[stat by condition]
+		`magical attack bonus`
+		`%`	20
+	[stat by condition]
+		`separate attack`
+		`%`	20
+[/then]
+
+[possible kiri protect]

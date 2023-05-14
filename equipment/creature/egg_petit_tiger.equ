@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`小老虎的蛋`
+
+[explain]
+	`60秒內變身為冰虎戰鬥。變身怪物的等級與寵物等級相同。`
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature_egg.img`	19
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[need material]
+	3340	68
+
+[sub type]
+	1
+
+[creature species]
+	25
+
+[output index]
+	63040
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	5.0
+
+[physical critical hit]
+	4.0
+
+[magical critical hit]
+	4.0
+
+[move wav]
+	`CREATURE_EGG_TOUCH`
+
+[set item master]
+	-1

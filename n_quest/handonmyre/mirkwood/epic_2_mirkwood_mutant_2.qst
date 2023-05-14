@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	3	99
+
+[pre required quest]
+	104
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	3	-1	12	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	10050	1	22001	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`狂暴的牛頭巨獸`
+
+[depend message]
+	`格蘭之森原本是精靈的叢林， 自從那場大火災過后， 叢林里的動植物就開始變得瘋狂了， 而且還出現了不知名的奇怪生命體。
+更讓人疑惑的是那些原本和我們非常友好的牛頭怪， 不知為什么突然轉了性子， 常常偷襲在叢林中穿行的赫頓瑪爾居民。
+眼看越來越多的人被它們傷害， 我們不能再任由它們這樣瘋狂下去！ 所以冒險家， 拜托你了！`
+
+[condition message]
+	`    前往格蘭之森的『幽暗密林』， 殺死領主牛頭巨獸。 (沿著風振的左側走就可以進入格蘭之森地下城)`
+
+[solve message]
+	`你進入格蘭之森的叢林了？ 那里的情況怎么樣了？`
+
+[quest point]
+	4

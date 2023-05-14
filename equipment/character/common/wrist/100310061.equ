@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`含有雷鳴之歌的手環`
+
+[basic explain]
+	`施展時消耗1個無色小晶塊，施展念獸：龍虎嘯的屏障
+被念獸：龍虎嘯的屏障擊中，5秒內敵人陷入感電狀態
+不可解體`
+
+[detail explain]
+	`施展時消耗1個無色晶體，施展雷鳴的帳幕。 
+被念獸：龍虎嘯的屏障擊中時，5秒內敵人進入感電狀態，每次攻擊時以 15的攻擊力給予傷害。 高於Lv84的對象得到的機率減少，低於Lv84的對象則會增加。 冷卻時間30秒）
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	33
+
+[physical defense]
+	83
+
+[need material]
+	3338	525
+
+[value]
+	67200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4368	4128
+
+[light attack]
+	3
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	78
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		48221	0	0	0	84	0
+		``
+	[/passive object]
+	[consume item]
+		3037	1
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`狂暴藍眼鯊魚手炮`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[icon]
+	`item/weapon/gunner/hcannon.img`	72
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		20	0
+	[layer variation]
+		2790
+		`hcanc`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[layer variation]
+		650
+		`hcanb`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/gunner/weapon/hcannon/`
+[/expand ani]
+
+[int data]
+	654321	3	1	110	0	125	1	110	0	125	1	110	0	125	2	110	0	20	0	55	0	70
+[/int data]
+
+[string data]
+	`Common/Particle/gnsummer.ptl`
+[/string data]
+
+[avatar func filter]
+	2

@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 帝血弒天 (1/6)`
+
+[depend message]
+	`我聽說你為了變得更強正在四處尋找答案？
+你來的正好， 我本來還想叫你來幫忙呢。
+如果真想變強， 隨時來找我吧。 我會幫你提升自己的。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`哎喲， 到處都是血的味道啊。 看你之前一直都在說想變得更強， 如今倒好， 渾身都被血氣浸染了。 你就那么想變強嗎？
+嘖嘖……好吧， 說來也正是這種渴望造就了如今的你吧。 但你用錯了方法。 如果以這種狀態繼續強行修煉下去， 你一定會被血魔幻象吞噬掉的， 而且還會以非常痛苦的方式死去。
+這你都不知道啊？ 嘖嘖……
+你跟我來。 我會教你怎樣才能不被血魔幻象吞噬， 不僅如此， 我還會教你打倒它。`
+
+[target character]
+	`[swordman]`	3	1
+[/target character]
+
+[relation quest]
+	5301
+
+[job change quest]
+	3
+
+[grow number]
+	0

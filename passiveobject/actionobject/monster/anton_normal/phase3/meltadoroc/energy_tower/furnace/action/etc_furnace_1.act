@@ -1,0 +1,70 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_furnace_1_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_furnace_1_4.ani`	0	-1
+		`../Animation/Etc_furnace_1_1.ani`	0	1
+		`../Animation/Etc_furnace_1_2.ani`	0	2
+		`../Animation/Etc_furnace_1_3.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`BLOODSEAL_READY`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE LAYER]
+		`[normal]`
+	[TRIGGER]
+	[CUSTOM]
+		2	3
+	[ON]
+	[TRIGGER]
+	[CUSTOM]
+		0	3
+	[RESET]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70215
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			200
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`LV.70飛升禮盒`
+
+[explain]
+	`使用後，會獲得直升LV.70的道具、轉職及覺醒完成券、300萬金幣、特殊任務材料包（直接完成左右槽/所有深淵任務）以及1000個無色小晶塊。（紫裝售賣詳見活動清單--NPC功能）`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	930
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster info]
+	[etc]
+		1	690000095	100000	1
+	[/etc]
+	[etc]
+		1	690017016	100000	1
+	[/etc]
+	[etc]
+		1	690017032	100000	1
+	[/etc]
+	[etc]
+		1	690017047	100000	1
+	[/etc]
+	[etc]
+		1	3037	100000	1000
+	[/etc]
+[/booster info]
+
+[need material]
+	3119	80

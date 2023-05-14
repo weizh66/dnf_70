@@ -1,0 +1,139 @@
+#PVF_File
+
+[name]
+	`魔女幻想`
+
+[explain]
+	`  暴擊攻擊時，增加15%%的傷害。
+  裝備時，物理和魔法暴擊率增加10%%，攻擊速度、釋放速度和移動速度增加3%%，效果持續30秒。（進入地下城40秒後發動該效果，冷卻時間40秒）`
+
+[flavor text]
+	`<2014年國慶禮包>`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[physical attack]
+	50
+
+[physical defense]
+	50
+
+[magical attack]
+	50
+
+[magical defense]
+	50
+
+[move speed]
+	50
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[HP MAX]
+	500
+
+[MP MAX]
+	500
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[all elemental attack]
+	20
+
+[room list move speed rate]
+	0.2
+
+[icon]
+	`Item/Title/title_cn.img`	289
+
+[custom animation]
+	`TitleAnimation/2014nationalday_special.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[time]
+		40000	1	30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[stat]
+		`move speed`
+		`+`	30
+	[stat]
+		`cast speed`
+		`+`	30
+	[stat]
+		`attack speed`
+		`+`	30
+	[stat]
+		`physical critical hit`
+		`+`	10
+	[stat]
+		`magical critical hit`
+		`+`	10
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	15
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`haste`	5	5	5
+[/then]

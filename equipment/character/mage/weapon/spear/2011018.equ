@@ -1,0 +1,190 @@
+#PVF_File
+
+[name]
+	`輝煌耀世`
+
+[basic explain]
+	`攻擊時，附加25%%傷害
+暴擊攻擊時，額外增加30%%的傷害增加量。`
+
+[detail explain]
+	`攻擊時，附加25%%傷害
+暴擊攻擊時，額外增加30%%的傷害增加量。`
+
+[flavor text]
+	`光華奪目的榮譽屬於妳`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	112
+
+[attack speed]
+	-50
+
+[stuck]
+	-1
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1337	1337
+
+[equipment magical attack]
+	946	946
+
+[separate attack]
+	686	686
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[mage]`	83	2
+[/skill levelup]
+
+[icon]
+	`Item/wuqi.img`	18
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	57	0
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	40
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	25
+[/then]
+
+[possible kiri protect]

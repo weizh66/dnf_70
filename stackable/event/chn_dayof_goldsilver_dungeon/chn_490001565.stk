@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`復活幣`
+
+[explain]
+	`    使用后， 可以獲得1個復活幣。`
+
+[flavor text]
+	`[周常活動地下城]新·金角銀角`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	0
+
+[weight]
+	1
+
+[cool time]
+	1000
+
+[icon]
+	`Item/IconStackable.img`	5
+
+[icon mark]
+	`Item/IconMark.img`	34
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[stack limit]
+	100
+
+[booster info]
+	[etc]
+		1	42	1000	1
+	[/etc]
+[/booster info]
+
+[need material]
+	490001570	1
+[/need material]

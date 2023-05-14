@@ -1,0 +1,23 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/smoll_strom_Basic_0.ani`
+	[SOUND]
+		`NELEUBE_THUNDERBOLT`	0
+		`CHASER_LIGHT_HIT`	0
+		`CHASER_LIGHT_HIT`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

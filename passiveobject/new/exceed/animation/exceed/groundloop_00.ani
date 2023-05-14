@@ -1,0 +1,20 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Character/GunBlader/Effect/Exceed/GroundRedGlow.img`
+		0
+	[IMAGE POS]
+		-348	-271
+	[RGBA]
+		255	255	255	127
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1280

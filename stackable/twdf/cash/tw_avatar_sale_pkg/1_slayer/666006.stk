@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+	`格鬥家武器裝扮禮盒`
+
+[explain]
+	`開啟禮盒可以在多款武器裝扮中選擇壹個作為獎勵。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash_cn.img`	582
+
+[stackable type]
+	`[booster selection]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster category num]
+	1	1
+
+[booster selection num]
+	1
+
+[booster select category]
+	0	0
+	[avatar]
+		102600009	1	4	0	102600010	1	4	0	102600011	1	4	0	102600023	1	4	0	102600008	1	4	0	102600020	1	4	0	102600022	1	4	0	102600019	1	4	0	102600015	1	4	0	102600001	1	4	0	102600203	1	4	0	102600204	1	4	0	602600000	1	4	0	602600001	1	4	0
+	[/avatar]
+[/booster select category]
+
+[booster category name]
+	`請選擇職業`
+	`女格鬥`
+[/booster category name]

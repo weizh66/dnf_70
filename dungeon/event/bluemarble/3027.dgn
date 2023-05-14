@@ -1,0 +1,76 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`綠都格羅茲尼`
+
+[explain]
+	`經過多方調查， 冒險家們發現襲擊帝國城鎮的那些怪異群體其實是天界無法地帶的卡勒特組織！ 卡勒特組織卑鄙地利用了魔雷者麥瑟·莫納亨和她的異能朋友們， 並把格羅茲尼變成了綠色都市……現在， 一場冒險家和異能者之間的激烈戰鬥在綠都格羅茲尼發生！`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	6
+	`WorldMap/SelectdungeonSlot/cartel.img`	1
+
+[minimum required level]
+	99
+
+[basis level]
+	56
+
+[experience increasing point]
+	1.1
+
+[champion]
+	4	8	12	16	18
+
+[pathgate object]
+	5510	5511	5512	5513	5514	5515	5516	5517	5518	5519
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[seal door map index]
+	60043
+
+[seal door pos]
+	1	0
+
+[escape hell]
+	1
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[event monster]
+	1	6000	61728	1	300	80	1
+[/event monster]

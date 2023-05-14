@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`施展時以2%%的機率10秒內呈現超級盔甲狀態。 （決鬥場內持續3秒）`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[magical attack]
+	27
+
+[magical defense]
+	18
+
+[attack speed]
+	20
+
+[cast speed]
+	30
+
+[move speed]
+	20
+
+[stuck resistance]
+	20
+
+[HP MAX]
+	100
+
+[MP MAX]
+	100
+
+[magical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	42	1
+	`[fighter]`	37	1
+	`[fighter]`	45	1
+	`[fighter]`	22	1
+	`[at fighter]`	42	1
+	`[at fighter]`	37	1
+	`[at fighter]`	45	1
+	`[at fighter]`	22	1
+[/skill levelup]
+
+[icon]
+	`Item/Title/title.img`	143
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[custom animation]
+	`TitleAnimation/prayer_greatsuccess2009azure.ani`
+[/custom animation]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[reduce duration at pvp module]
+		70
+	[buff]
+		`superarmor`
+[/then]

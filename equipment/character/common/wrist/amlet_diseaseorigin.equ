@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`幻影之靈`
+
+[basic explain]
+	`攻擊時，以5%%的機率增加智力。`
+
+[detail explain]
+	` 攻擊時，以5%%的機率使400px範圍內的所有隊員增加36點智力，效果持續20秒。`
+
+[grade]
+	68
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	64
+
+[anti evil]
+	9
+
+[physical attack]
+	28
+
+[physical defense]
+	69
+
+[magical attack]
+	45
+
+[price]
+	81600
+
+[repair price]
+	68544
+
+[value]
+	65280
+
+[need material]
+	3340	250
+
+[equipment magical defense]
+	3600	3360
+
+[icon]
+	`Item/common/bracelet.img`	22
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[aura active]
+		`magical attack`
+		`+`	36	400
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`CB紀念恢復的秘藥`
+	
+
+[explain]
+	`使用時,疲勞值將會恢復。`
+	
+
+[flavor text]
+	`<DNF創世紀活動>`
+	
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[cool time]
+	36000000
+
+[icon]
+	`Item/stackable/consumption.img`	355
+
+[stackable type]
+	`[expert town potion]`	0
+
+[move wav]
+	`POTION_TOUCH`
+
+[stack limit]
+	100
+
+[action type]
+	`[add fatigue]`	30
+[/action type]
+
+[cooltime maintenance]
+	1	1	1
+
+[action usable place]
+	`[village]`
+[/action usable place]
+
+[expiration date]
+	1367337600
+
+[use action packet]
+	1

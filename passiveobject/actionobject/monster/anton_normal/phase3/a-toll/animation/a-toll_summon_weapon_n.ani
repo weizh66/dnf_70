@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/AcientGuardian/A-Toll_Weapon.img`
+		0
+	[IMAGE POS]
+		-242	-349
+	[INTERPOLATION]
+		1
+	[DELAY]
+		300
+	[CLIP]
+		-51	-217	105	223
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/AcientGuardian/A-Toll_Weapon.img`
+		0
+	[IMAGE POS]
+		-242	-349
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		1100
+	[CLIP]
+		-51	-217	105	223

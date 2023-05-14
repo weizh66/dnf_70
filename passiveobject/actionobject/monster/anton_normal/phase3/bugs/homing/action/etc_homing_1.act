@@ -1,0 +1,126 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_Homing_1_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count1`
+		[=]
+			0
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count1`
+		[=]
+			`count1`
+		[+]
+			1
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		1	1
+	[IF]
+		`count1`
+		[>=]
+			3
+	[/IF]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56657
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		9
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70573
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count1`
+		[=]
+			`count1`
+		[+]
+			3
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		5
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET USE HOMING]
+		1
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`末日浩劫之鐮`
+
+[basic explain]
+	`攻擊時以3%%的機率讓敵人陷入眩暈狀態`
+
+[detail explain]
+	`攻擊時以3%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少61，體力減少61，智能減少61，精神力減少61。 (若敵人高於Lv45，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	49
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	45
+
+[physical attack]
+	44
+
+[magical attack]
+	44
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[price]
+	78400
+
+[repair price]
+	65856
+
+[value]
+	62720
+
+[equipment physical attack]
+	429	398
+
+[equipment magical attack]
+	452	320
+
+[separate attack]
+	269	180
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[priest]`	17	2
+	`[priest]`	82	2
+	`[priest]`	88	1
+	`[priest]`	37	1
+	`[priest]`	114	2
+	`[priest]`	115	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/scythe.img`	28
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	9
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`curse`	45	61	61	61	61
+[/then]
+
+[possible kiri protect]

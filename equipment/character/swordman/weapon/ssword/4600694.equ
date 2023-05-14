@@ -1,0 +1,216 @@
+#PVF_File
+
+[name]
+	`封·天叢云`
+
+[basic explain]
+	`    攻擊時， 3%%的機率使自身進入霸體狀態， 效果持續10秒。
+[修羅邪光斬]最大蓄氣時攻擊力增加率增加30%% 
+[修羅邪光斬]大小增加30%% 
+[修羅邪光斬]發射速度增加25%%
+[邪光斬]冷卻時間減少3秒
+    攻擊時， 附加20%%傷害。`
+
+[flavor text]
+	`    某國流傳下來的三大神器之一。`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[cast speed]
+	20
+
+[stuck resistance]
+	50
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1104	948
+
+[separate attack]
+	589	382
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/sswd/sswd.img`	107
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[swordman]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			20
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[buff]
+		`unbreakable`
+[/then]
+
+[skill data up]
+	`[swordman]`	51
+	`[all]`
+	`[level]`	0
+	`+`	30
+	`[swordman]`	51
+	`[all]`
+	`[static]`	1
+	`+`	30
+	`[swordman]`	51
+	`[all]`
+	`[static]`	2
+	`+`	25
+	`[swordman]`	50
+	`[all]`
+	`[cooltime]`	0
+	`+`	-3000
+[/skill data up]
+
+[if]
+	[attack success]
+		1
+	[character]
+		`swordman`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[possible kiri protect]

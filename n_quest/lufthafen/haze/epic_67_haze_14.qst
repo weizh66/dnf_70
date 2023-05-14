@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	58
+
+[complete npc index]
+	59
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	4041
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	59
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`真話的代價`
+
+[depend message]
+	`赫伊斯目前歸卡勒特的范·弗拉丁管轄， 或許他會知道皇女大人的下落。 不過， 敵人是不可能乖乖地告訴我們皇女大人的位置的……
+我聽說梅爾文前不久研發了一種測謊硬幣， 如果能對范·弗拉丁使用的話， 說不定能打探到確切的消息。`
+
+[condition message]
+	`    向梅爾文·里克特詢問有關測謊硬幣的事。`
+
+[solve message]
+	`你想要測謊硬幣？
+真不巧， 前不久因為一些私人原因……我把它們全部用光了。 現在我手上也沒有存貨了……`
+
+[quest point]
+	4

@@ -1,0 +1,27 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[level]
+	10	99
+
+[type]
+	`[check time]`
+
+[int data]
+	1	-1	18000000	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26704	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`讓一個角色在城鎮中連續呆5個小時以上。 (切換服務器、 頻道或者進入角色選擇界面時， 計時取消)`

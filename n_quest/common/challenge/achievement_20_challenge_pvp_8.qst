@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	1707
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	2	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1709
+
+[name]
+	`身體修煉之路 (實戰篇)`
+
+[depend message]
+	`不知道這期間的修煉對你有用嗎？ 如果你能給我拿來100點決斗勝點， 我才會覺得沒有白白浪費時間教你！ `
+
+[condition message]
+	`    將決斗勝點100點交給阿爾伯特。 (決斗勝點可以在決斗場、 死亡之塔或迷妄之塔中獲得)`
+
+[solve message]
+	`老實說我沒想到你能做到， 嗯， 你讓我印象深刻……`
+
+[quest point]
+	4

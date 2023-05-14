@@ -1,0 +1,89 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	149
+
+[complete npc index]
+	-1
+
+[job]
+	`[at swordman]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	149
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 裁決女神 (1/2)`
+
+[depend message]
+	`現在到處都插滿了眼線， 你竟然還這么悠閑地出現在暗黑城， 膽子真大。
+煽動文我也看過了。 看來暗殿騎士們要全面向阿拉德展露憤怒的獠牙了。 我也明白鎮壓的歷史非常悠久……說實話， 我也擔心阿拉德會陷入混亂。
+聽說你們的領導者被稱為‘裁決女神’是嗎？ 以律法的代言者之名……這是要用你們的準則重新裁定阿拉德一切， 翻覆目前局面的意思嗎？
+……好吧， 我曾經也是施行鎮壓的一方， 就不對被鎮壓者的憤怒和復仇說三道四了。 但是還是要拜托你們， 你們的報復請不要波及無辜者， 讓他們對你們產生憤怒， 對你們做你們正在做的事。
+話說回來， 專程來找我有什么事嗎？ 你現在不應該是正忙于追隨裁決女神的指示嗎……
+你是說你自己想成為裁決女神？ 所以來找我尋求建議？ 你能來找我咨詢， 我感到很榮幸， 但我不是烏希爾的信徒， 沒關系嗎？
+好吧， 我可以幫助你， 但前提是你必須保證萬一戰況變得太過激烈， 你必須控制住事態發展。 如果你不能履行這個承諾， 恕我無法給你提供任何幫助。
+準備好賭上烏希爾的騎士之榮譽來滿足我提出的條件的話， 到時候再來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與騎士洛巴赫談談。`
+
+[solve message]
+	`你說只進行正當而純粹的復仇， 絕不傷害無辜的人， 我相信你的承諾。`
+
+[pre required quest]
+	13106
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3304
+
+[relation quest]
+	3304
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

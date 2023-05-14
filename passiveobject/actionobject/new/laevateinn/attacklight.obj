@@ -1,0 +1,23 @@
+#PVF_File
+
+[name]
+	`AttackLight`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[width]
+	30	0
+
+[basic action]
+	`Action/3.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

@@ -1,0 +1,255 @@
+#PVF_File
+
+[name]
+	`冒煙的喬[活動]`
+
+[basic explain]
+	`反擊攻擊  
+施展寸拳，衝膝，閃電之舞，紛影連環踢，瞬影連環踢時以50%%的機率施展技能Lv+5（不超過該技能的限制等級）
+不可解體，不可合成`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人2秒內陷入氣絕狀態。 （高於Lv55的對象得到的機率和效果減少，低於Lv55的對象則會增加。）
+施展寸拳，衝膝，閃電之舞，紛影連環踢，瞬影連環踢時以50%% 的機率施展技能Lv+5。 （不超過該技能的的限制等級）`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	41
+
+[attack speed]
+	100
+
+[price]
+	109800
+
+[repair price]
+	92232
+
+[value]
+	87840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	584	542
+
+[equipment magical attack]
+	528	490
+
+[separate attack]
+	341	230
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	28
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	55
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	19
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`fighter`	19	5
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	68
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`fighter`	68	5
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	82
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`fighter`	82	5
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	19
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`at fighter`	19	5
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	68
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`at fighter`	68	5
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	82
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`at fighter`	82	5
+	[/skill levelup]
+[/then]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

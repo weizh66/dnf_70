@@ -1,0 +1,82 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/HitEffect/SuddenDeath/centerLight.img`
+		0
+	[IMAGE POS]
+		-109	-126
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/HitEffect/SuddenDeath/centerLight.img`
+		0
+	[IMAGE POS]
+		-109	-126
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/HitEffect/SuddenDeath/centerLight.img`
+		0
+	[IMAGE POS]
+		-109	-126
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME003]
+	[IMAGE]
+		`Character/Gunner/Effect/HitEffect/SuddenDeath/centerLight.img`
+		0
+	[IMAGE POS]
+		-109	-126
+	[IMAGE RATE]
+		0.20000000298023224	0.20000000298023224
+	[RGBA]
+		255	255	255	178
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME004]
+	[IMAGE]
+		`Character/Gunner/Effect/HitEffect/SuddenDeath/centerLight.img`
+		0
+	[IMAGE POS]
+		-109	-126
+	[IMAGE RATE]
+		0.10000000149011612	0.10000000149011612
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70

@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`GBL教孵化場`
+
+[explain]
+	`冒險家們逐漸揭開了那些困擾了大家很長時間的謎團……在阿拉德大陸隱秘建立的GBL教阿拉德分部和GBL教正在進行的那些不為人知的研究， 其目的竟然都是為了復活羅特斯！ 儘管GBL教的血腥淨化組織誓死抵抗羅特斯的精神攻擊， 但還是逃脫不了被羅特斯的意志侵蝕的命運， 最終他們不得不違背信念和冒險家們開戰……`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	3
+	`WorldMap/SelectdungeonSlot/gbl.img`	2
+
+[minimum required level]
+	99
+
+[basis level]
+	50
+
+[experience increasing point]
+	1.0
+
+[champion]
+	3	6	9	12	14
+
+[pathgate object]
+	5500	5501	5502	5503	5504	5505	5506	5507	5508	5509
+
+[special passive object item]
+	0	-1	3	1072	1500	1069	1000	1068	1000	1	-1	0
+[/special passive object item]
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[seal door map index]
+	60042
+
+[seal door pos]
+	1	1
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[event monster]
+	1	10000	61728	1	300	80	1
+[/event monster]

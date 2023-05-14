@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`聖遺物-天堂之門`
+
+[basic explain]
+	`接過這把武器，天界將由妳來守護！
+——阿薩`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	90
+
+[physical defense]
+	80
+
+[magical attack]
+	80
+
+[magical defense]
+	80
+
+[cast speed]
+	20
+
+[light attack]
+	120
+
+[anti evil]
+	40
+
+[price]
+	108800
+
+[repair price]
+	91392
+
+[value]
+	87040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1244	1294
+
+[equipment magical attack]
+	1312	1364
+
+[equipment physical defense]
+	1380	1370
+
+[equipment magical defense]
+	1280	1270
+
+[separate attack]
+	984	960
+
+[icon]
+	`Item/weapon/priest/cross.img`	41
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	5	1
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[priest]`	28
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[priest]`	28
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[priest]`	27
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[priest]`	109
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[priest]`	109
+	`[all]`
+	`[level]`	3
+	`%`	500
+	`[priest]`	108
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[priest]`	108
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[priest]`	108
+	`[all]`
+	`[level]`	5
+	`%`	500
+	`[priest]`	19
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[priest]`	19
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[priest]`	20
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[priest]`	45
+	`[all]`
+	`[level]`	0
+	`%`	500
+[/skill data up]
+
+[possible kiri protect]

@@ -1,0 +1,156 @@
+#PVF_File
+
+[name]
+	`布魯之怨靈印章`
+
+[basic explain]
+	` 被攻擊時，以5%%的機率使敵人進入詛咒狀態30秒。
+ 攻擊時，以3%%的機率使敵人減少20%%的物防和魔防，效果持續20秒。`
+
+[detail explain]
+	`被擊時，有5%%機率使敵人進入詛咒狀態30秒；詛咒狀態下，減少70點力量、體力、智力和精神。 （若敵人高於Lv69，則減少進入異常狀態的機率；反之，則增加機率）
+攻擊詛咒狀態的敵人時，可以增加自身72點力量和3%%的物理暴擊率，效果持續20秒。`
+
+[grade]
+	72
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	64
+
+[anti evil]
+	10
+
+[physical attack]
+	28
+
+[physical defense]
+	28
+
+[magical attack]
+	28
+
+[magical defense]
+	28
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[need material]
+	3340	50
+
+[icon]
+	`Item/common/support.img`	40
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[active status]
+		`curse`	69	70	70	70	70
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[stat]
+		`equipment physical defense`
+		`%`	-20
+	[stat]
+		`equipment magical defense`
+		`%`	-20
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			20000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			20000
+		[probability]
+			3
+		[stat]
+			`equipment physical defense`
+			`%`	-10
+		[stat]
+			`equipment magical defense`
+			`%`	-10
+	[/then]
+	[if]
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			30000
+		[probability]
+			1
+		[active status]
+			`curse`	69	70	70	70	70
+	[/then]
+[/pvp]
+
+[possible kiri protect]

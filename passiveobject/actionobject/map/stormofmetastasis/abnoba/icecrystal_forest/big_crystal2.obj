@@ -1,0 +1,35 @@
+#PVF_File
+
+[width]
+	10	10
+
+[is hp by difficulty]
+	1
+
+[pass type]
+	`[do not pass]`
+
+[basic action]
+	`Action/big_crystal3_Basic.act`
+
+[last action]
+	`Action/big_crystal3_destroy.act`
+
+[team]
+	100
+
+[destroy particle]
+	`Particle/big_crystal1_destroy2.ptl`
+
+[hp destroy]
+	1
+
+[hp max]
+	20
+
+[sound category]
+	`[on damage]`
+	`R_ICE_HIT`	15234
+	`[on destroyobject]`
+	`FROZEN_DIE`	15234
+[/sound category]

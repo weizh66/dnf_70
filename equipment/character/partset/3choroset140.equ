@@ -1,0 +1,139 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	109
+		`[dungeon type]`
+		`[static]`	2
+		`+`	18
+		`[at mage]`	109
+		`[dungeon type]`
+		`[static]`	3
+		`+`	18
+		`[at mage]`	109
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at mage]`	100
+		`[dungeon type]`
+		`[static]`	5
+		`%`	30
+		`[at mage]`	100
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[at mage]`	86
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+		`[at mage]`	86
+		`[dungeon type]`
+		`[static]`	8
+		`%`	30
+		`[at mage]`	86
+		`[dungeon type]`
+		`[static]`	9
+		`%`	30
+		`[at mage]`	86
+		`[dungeon type]`
+		`[static]`	10
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[次元 : 時空磁場]范圍 +20%%
+[次元 : 時空磁場]冷卻時間 -15%%
+[次元 : 粒子風暴]范圍 +30%%
+[次元 : 墜落]吸附范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	109
+		`[dungeon type]`
+		`[static]`	2
+		`+`	18
+		`[at mage]`	109
+		`[dungeon type]`
+		`[static]`	3
+		`+`	18
+		`[at mage]`	109
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	109
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	109
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	109
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	100
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	100
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	100
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[次元 : 時空磁場]攻擊力 +30%%
+[次元 : 時空磁場]冷卻時間 -20%%
+[次元 : 時空磁場]范圍 +20%%
+[次元 : 粒子風暴]攻擊力 +20%%
+[次元 : 粒子風暴]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	109
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at mage]`	109
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at mage]`	109
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[at mage]`	103
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	103
+		`[dungeon type]`
+		`[static]`	3
+		`%`	40
+		`[at mage]`	103
+		`[dungeon type]`
+		`[static]`	4
+		`%`	40
+		`[at mage]`	103
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	103
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[次元 : 時空磁場]攻擊力 +50%%
+[次元 : 思維聚爆]攻擊力 +30%%
+[次元 : 思維聚爆]冷卻時間 -30%%
+[次元 : 思維聚爆]范圍 +40%%,`
+[/piece set ability]

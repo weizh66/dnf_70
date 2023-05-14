@@ -1,0 +1,140 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		110
+	[vertical distance]
+		0
+	[size]
+		20	18
+	[title string]
+		`異界地下城的四件事`
+		
+	[controls]
+		[ui controls]
+			`[text button]`
+			`2`	96	214	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[board image]`
+			`300`	-1	3	1
+			`Interface/WindowCommon.img`	11	241	210	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`1`	6	6	1
+			`1. 每天遊戲次數增加為 5次！
+2. 硬幣 8個限制 -> 限制的變更！ 在低難度可使用免費復活幣！
+3. 通關限量任務時，獲得異界準備物品箱！
+4. 異界地下城裝備支援！`
+				9	-1	235	0	0	0	0	230	200	155
+			[parent]
+				`300`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`310`	5	135	1
+			` 目前無法利用。`
+				9	-1	220	1	0	0	0	255	50	50
+			[parent]
+				`300`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`311`	5	118	1
+			` 轉職後可以使用。`
+				9	-1	220	1	0	0	0	255	50	50
+			[parent]
+				`300`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`305`	8	104	1
+			`Interface2/event/RentalService/Event_pc.img`	1	3
+			[parent]
+				`300`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`303`	8	144	1
+			`Interface2/event/Event_pc.img`	1	2
+			[parent]
+				`300`
+		[/ui controls]
+		[ui controls]
+			`[control]`
+			`302`	17	4	0	2	0	0
+			[parent]
+				`303`
+		[/ui controls]
+		[ui controls]
+			`[control]`
+			`306`	42	4	0	2	0	0
+			[parent]
+				`305`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`304`	175	8	2
+			`Interface/WindowCommon.img`
+			`決定`
+				4	12	13	14	15
+			[parent]
+				`303`
+		[/ui controls]
+		[ui controls]
+			`[tooltips]`
+			`307`	-90	0	2
+			`304`
+			`65級以上轉職的角色可以參加。`
+				4	0	180	0	0
+		[/ui controls]
+		[ui controls]
+			`[button]`
+			`308`	22	5	1
+			`Interface2/event/RentalService/Event_pc.img`	4	4	5	6	7
+			[parent]
+				`305`
+		[/ui controls]
+		[ui controls]
+			`[button]`
+			`309`	207	5	1
+			`Interface2/event/RentalService/Event_pc.img`	4	8	9	10	11
+			[parent]
+				`305`
+		[/ui controls]
+		[ui controls]
+			`[hyperlinklabel]`
+			`301`	167	190	0	7	200	20	230	200	155	0	0
+			[user option]
+				`url link`
+				`[前往官網]`
+					255	240	0
+				`http://df.nexon.com/?GO=pr|juneevent&TO=fourthings`
+				
+			[/user option]
+			[parent]
+				`300`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`312`	151	192	1
+			`Interface2/UI/EventList/Event_window.img`	1	2
+		[/ui controls]
+		[ui controls]
+			`[hyperlinklabel]`
+			`313`	6	80	0	7	200	20	230	200	155	0	0
+			[parent]
+				`300`
+		[/ui controls]
+	[/controls]
+[/window]

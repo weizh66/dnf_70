@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 戰場統治者 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+在戰場上， 指揮官的一個小念頭都有可能改變整個大局， 瞬間作出的判斷， 可能會直接決定數以百計的人的生死存亡。 再回想一下過去的你， 當時的你是什么樣子呢？ 因為你無權干涉， 只能站在遠處看著戰友死去， 不斷自責， 對不對？
+現在呢？ 你在戰場上有著絕對的力量， 因此也不會再有戰友遺憾喪生了。 成長總會伴隨痛苦， 現在的你亦是如此。 讓自己變強吧。 你還可以變得更強。
+那么， 現在就回到戰場上， 帶著你的戰友們為勝利而戰吧。 從今日起你就是帶領大家征服戰場的‘戰場統治者’。`
+
+[pre required quest]
+	5436
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,49 @@
+#PVF_File
+[LOOP]
+	0
+[SHADOW]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/IceTiger/IceTigerBiteLayer.img`
+		19
+	[IMAGE POS]
+		-272	-234
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		150
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/IceTiger/IceTigerBiteLayer.img`
+		20
+	[IMAGE POS]
+		-272	-234
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		150
+	[DAMAGE TYPE]
+		`NORMAL`

@@ -1,0 +1,75 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/A-Toll_Summon_MagicCircle_0.ani`
+	[SUB ANI]
+		`../Animation/A-Toll_Summon_Blast2.ani`	0	-3
+		`../Animation/A-Toll_Summon_Weapon_D.ani`	0	-2
+		`../Animation/A-Toll_Summon_Weapon_N.ani`	0	-1
+		`../Animation/A-Toll_Summon_Blast1.ani`	0	1
+		`../Animation/A-Toll_Stay.ani`	0	2
+		`../Animation/A-Toll_Light.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`ATOLL_SHINE`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CENTER MSG]
+		`被?忘的?古守?者?`	3000
+	[SUMMON MONSTER]
+		[INDEX]
+			56660
+		[LEVEL]
+			100
+		[POS]
+			0	0	0
+		[MAGIC CIRCLE]
+		[SUMMON MARK]
+			0
+	[/SUMMON MONSTER]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			1
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]

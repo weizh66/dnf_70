@@ -1,0 +1,24 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[do not pass]`
+
+[piercing power]
+	0
+
+[basic action]
+	`Action/Brave_Saelman_FireBall_basic.act`
+
+[attack info]
+	`Attackinfo/damage.atk`
+
+[vanish on move collision]
+	1
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	4000
+[/object destroy condition]

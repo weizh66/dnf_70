@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	`牛頭械王的電鑽手槍`
+
+[basic explain]
+	`    鬥志之歌]冷卻時間 -20%%
+    [G系擴張]效果重疊次數上限 +1`
+
+[detail explain]
+	`    鬥志之歌]冷卻時間 -20%%
+    [G系擴張]效果重疊次數上限 +1`
+
+[flavor text]
+	`    即是電鑽又是手槍`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[stuck]
+	1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	597	519
+
+[equipment magical attack]
+	876	761
+
+[separate attack]
+	552	363
+
+[skill levelup]
+	`[gunner]`	46	4
+	`[at gunner]`	46	4
+	`[gunner]`	27	4
+	`[at gunner]`	27	4
+	`[gunner]`	29	2
+	`[at gunner]`	29	2
+	`[gunner]`	63	2
+	`[at gunner]`	63	2
+	`[gunner]`	59	2
+	`[at gunner]`	59	2
+	`[gunner]`	105	2
+	`[at gunner]`	105	2
+	`[gunner]`	106	2
+	`[at gunner]`	106	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/automatic/automatic.img`	109
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	68
+	`[all]`
+	`[cooltime]`	0
+	`%`	-20
+	`[at gunner]`	95
+	`[all]`
+	`[static]`	0
+	`+`	1
+[/skill data up]
+
+[possible kiri protect]

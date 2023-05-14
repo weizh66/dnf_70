@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`綠色圣職訓練外套`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_acoat.img`	128
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	43	2
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[SKILL_LEVEL]`
+	`[priest]`	1	1
+	`[SKILL_LEVEL]`
+	`[priest]`	51	1
+	`[SKILL_LEVEL]`
+	`[priest]`	61	1
+	`[SKILL_LEVEL]`
+	`[priest]`	7	1
+	`[SKILL_LEVEL]`
+	`[priest]`	8	1
+	`[SKILL_LEVEL]`
+	`[priest]`	52	1
+	`[SKILL_LEVEL]`
+	`[priest]`	64	1
+	`[SKILL_LEVEL]`
+	`[priest]`	63	1
+	`[SKILL_LEVEL]`
+	`[priest]`	53	1
+	`[SKILL_LEVEL]`
+	`[priest]`	11	1
+	`[SKILL_LEVEL]`
+	`[priest]`	10	1
+	`[SKILL_LEVEL]`
+	`[common]`	177	1
+	`[SKILL_LEVEL]`
+	`[common]`	175	1
+	`[SKILL_LEVEL]`
+	`[common]`	176	1
+	`[SKILL_LEVEL]`
+	`[common]`	180	1
+	`[SKILL_LEVEL]`
+	`[common]`	190	1
+[/avatar select ability]
+
+[image packs]
+	`Character/Priest/Equipment/Avatar/coat/pr_coat0202a.img`
+[/image packs]

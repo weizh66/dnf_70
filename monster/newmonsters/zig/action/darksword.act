@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/darksword.ani`
+	[SUB ANI]
+		`../animation/effect/darksword_backdodge.ani`	0	-1
+		`../animation/effect/darksword_dodge.ani`	0	1
+		`../animation/effect/darksword_sword_normal.ani`	0	2
+		`../animation/effect/darksword_sword_dodge.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[CHARACTER]
+	[GET TARGET]
+		1
+	[RANDOM]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+	[POS]
+		0	0	0
+	[MOVE ME]
+[/BEHAVIOR]

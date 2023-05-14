@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`黃金星云斗士短裙`
+
+[explain]
+	`    要成為格斗之王， 除了擁有非凡的操作技術之外， 還要有廣闊的胸襟、 公正的姿態以及一顆勇敢的心。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atgunner/gg_apants.img`	171
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	55	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2690376
+
+[HP MAX]
+	300
+
+[avatar func filter]
+	2

@@ -1,0 +1,55 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Earth_Wave_f.ani`
+	[SUB ANI]
+		`../Animation/Earth_Wave_b.ani`	0	-1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			700
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../Particle/Earth_Wave.ptl`	0	0	10
+	[PARTICLE]
+		`../Particle/Earth_Wave2.ptl`	0	0	10
+[/BEHAVIOR]

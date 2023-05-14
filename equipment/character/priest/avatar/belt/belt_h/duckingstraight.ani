@@ -1,0 +1,90 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		60
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		30
+	[DAMAGE BOX]
+	-13	-7	0	59	14	84
+
+[FRAME001]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		61
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		30
+	[DAMAGE BOX]
+	-13	-7	0	59	14	84
+	[ATTACK BOX]
+	-7	-16	31	62	32	44
+
+[FRAME002]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		11
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		30
+	[DAMAGE BOX]
+	-8	-7	0	54	14	84
+	[ATTACK BOX]
+	1	-16	39	58	32	44
+
+[FRAME003]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		12
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE BOX]
+	11	-7	0	55	14	84
+	[ATTACK BOX]
+	49	-16	39	82	32	50
+
+[FRAME004]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		13
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE BOX]
+	12	-7	-1	59	14	84
+	[ATTACK BOX]
+	49	-16	39	82	32	50
+
+[FRAME005]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		14
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	16	-7	1	59	14	84
+	[ATTACK BOX]
+	49	-16	39	82	32	50
+
+[FRAME006]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		15
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-8	-7	0	59	14	84

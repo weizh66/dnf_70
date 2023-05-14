@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`白色魯夫`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atgunner/gg_aura_cn.img`	8
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[aura hud icon]
+	34
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[equipment physical attack]
+	10	10
+
+[equipment magical attack]
+	10	10
+
+[separate attack]
+	15	15
+
+[aura ability]
+	`[party teleport]`	600
+[/aura ability]
+
+[aurora graphic effects]
+	3	1
+	`Character/Common/Animation/Aura/jp/aura07_magi_white_front.ani`	1
+	`Character/Common/Animation/Aura/jp/aura07_magi_white_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/jp/aura07_magi_white_back_dodge.ani`

@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2495
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680351	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680348	2	2680347	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`卡妮娜的欲望 <3/5>`
+
+[depend message]
+	`呀， 這些都是你和卡妮娜制作的？ 呵呵， 你們都這么熱心幫我， 我好幸福啊。
+ (卡妮娜) 嗯， 總覺得賽麗亞姐姐的旅館缺了點什么。
+冒險家， 如果你能多收集一些材料， 我就可以把旅館裝飾得更漂亮……`
+
+[condition message]
+	`    前往任意地下城， 從怪物身上收集12個圣誕節禮盒交給賽麗亞。`
+
+[solve message]
+	`又給我準備了什么嗎？ 太感謝了， 可是……
+ (卡妮娜) 哎喲~就知道賽麗亞姐姐會這樣想。 姐姐， 開心的日子要開心過， 擔憂什么的先放一邊嘛。
+ (賽麗亞) 可是……`

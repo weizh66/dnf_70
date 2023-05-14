@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	10
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4388
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魔法陣強化`
+
+[depend message]
+	`讓我看看，這種程度的強力氣息應該就可以了。好，開始組合！
+啊~果然沒錯！太完美了！感受到這完美的魔法陣的靈氣嗎？
+轉告莎蘭事情已經完美處理好了~~`
+
+[condition message]
+	`與莎蘭對話`
+
+[solve message]
+	`哈哈，原來如此。羅莉安一定處理的很完美。辛苦了。`
+
+[quest point]
+	4

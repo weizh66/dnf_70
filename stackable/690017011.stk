@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+	`梅爾文的維修包`
+
+[explain]
+	`裝有1個機用潤滑油和2個小鐵釘。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	1313
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[need material]
+	3119	2
+
+[booster info]
+	[etc]
+		1	3127	100000	1
+	[/etc]
+	[etc]
+		1	3026	100000	2
+	[/etc]
+[/booster info]

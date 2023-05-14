@@ -1,0 +1,55 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/FireMark_2_Hide.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56643
+		[/IS INDEX]
+		[CHECKED NO]
+		[=>]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[STAND]
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[CHECK TIME]
+		500
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56643
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		3
+	[NOW]
+[/BEHAVIOR]

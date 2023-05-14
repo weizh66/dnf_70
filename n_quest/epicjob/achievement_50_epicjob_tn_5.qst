@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	1009
+
+[job]
+	`[fighter]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	904
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	906
+
+[name]
+	`覺醒 - 暴風眼 (3/4)`
+
+[depend message]
+	`太完美了！ 這就是最理想的身體條件。 我實在很好奇， 你的肌肉究竟能柔韌到怎樣的程度……
+不如這樣， 我給你介紹一位格斗高手， 你可以在與他的對決中檢驗一下。 有信心挑戰嗎？`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`技術還可以， 看樣子你沒少下苦功嘛……`

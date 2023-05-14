@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`海神謎咒之惡靈長袍`
+
+[basic explain]
+	`攻擊時，有5%%的幾率使自身增加80點力量和智力，效果持續15秒。(冷卻時間15秒)`
+
+[flavor text]
+	`從前，在某個美麗的海邊生活著漁夫一家。漁夫的捕魚技術精湛被周圍的人稱為"漁王"。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[magical defense]
+	41
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2352	2184
+
+[water attack]
+	6
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/03_leather/coat/leather_coat.img`	41
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[duration]
+		15000
+	[stat]
+		`physical attack`
+		`+`	80
+	[stat]
+		`magical attack`
+		`+`	80
+[/then]
+
+[possible kiri protect]

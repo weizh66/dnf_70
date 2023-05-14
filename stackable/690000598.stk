@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`每日登陸禮盒`
+
+[explain]
+	`可選擇獲得一個每日驚喜禮盒或500代幣券禮盒。`
+
+[flavor text]
+	`<每日登陸活動>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[cool time]
+	43200000
+
+[cooltime maintenance]
+	1	1	1
+
+[icon]
+	`Item/stackable/consumption.img`	1425
+
+[stackable type]
+	`[booster selection]`	0
+
+[booster category num]
+	1	2
+
+[booster selection num]
+	0
+
+[booster select category]
+	0	0
+	[stackable]
+		690000597	1	690017053	1	690017054	1	10000136	1	690000598	1
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[stackable]
+		690000599	1	690017053	1	690017054	1	10000136	1	690000598	1
+	[/stackable]
+[/booster select category]
+
+[booster category name]
+	`請選擇禮盒`
+	`每日驚喜禮盒`
+	`500代幣券禮盒`
+[/booster category name]
+
+[move wav]
+	`BONE_TOUCH`

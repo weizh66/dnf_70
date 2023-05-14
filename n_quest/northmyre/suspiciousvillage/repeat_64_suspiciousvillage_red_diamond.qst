@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	64	99
+
+[pre required quest]
+	5899
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3301	15
+[/int data]
+
+[dungeon info]
+	53	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7748	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`紅色鉆石 (重復)`
+
+[depend message]
+	`請問……你有紅色鉆石嗎？ 嘿嘿！
+不要藏著掖著啦， 都賣給我吧！ 這樣你還可以換取一些對你有用的物品。`
+
+[condition message]
+	`    前往諾斯瑪爾的『疑惑之村』， 收集[紅色鉆石] 。 (紅色鉆石可以從盜墓者盧瑟所在房間中的某個寶箱中獲得)`
+
+[solve message]
+	`閃發光閃的紅色鉆石， 哈哈！ 不錯，不錯~`

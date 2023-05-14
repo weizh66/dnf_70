@@ -1,0 +1,479 @@
+#PVF_File
+
+[name]
+	`火舞流炎`
+
+[basic explain]
+	`天生麗質血凝成，
+四射清香泌九重。
+芒刺護身多傲骨，
+自尊神貴亦雍容。`
+
+[flavor text]
+	`如血的紅玫瑰熱烈似火，
+閃爍著火焰般熾熱的色彩；
+玫瑰亂舞，
+勾勒出你的身形，你的容貌。
+ ——蘇祈`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	0
+
+[minimum level]
+	90
+
+[physical attack]
+	160
+
+[physical defense]
+	96
+
+[magical attack]
+	130
+
+[attack speed]
+	60
+
+[cast speed]
+	10
+
+[stuck]
+	-1
+
+[anti evil]
+	40
+
+[price]
+	1000000000
+
+[repair price]
+	17920
+
+[value]
+	17920
+
+[upgrade prob increase]
+	100
+
+[equipment physical attack]
+	1576	1370
+
+[equipment magical attack]
+	1329	1208
+
+[separate attack]
+	907	798
+
+[skill levelup]
+	`[mage]`	13	5
+	`[mage]`	65	5
+[/skill levelup]
+
+[icon]
+	`Item/weapon/mage/pole.img`	22
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`POLE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2400
+
+[item group name]
+	`pole`
+
+[cool time]
+	10000
+
+[fire attack]
+	150
+
+[elemental property]
+	`[fire element]`
+
+[spectrum]
+	238	128	221	200	500
+
+[skill data up]
+	`[mage]`	13
+	`[dungeon type]`
+	`[level]`	0
+	`%`	2000
+	`[mage]`	13
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-30
+	`[mage]`	10
+	`[dungeon type]`
+	`[static]`	0
+	`%`	500
+	`[mage]`	10
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[mage]`	65
+	`[dungeon type]`
+	`[static]`	1
+	`+`	2
+	`[mage]`	65
+	`[dungeon type]`
+	`[level]`	0
+	`%`	2000
+	`[mage]`	65
+	`[dungeon type]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	65
+	`[dungeon type]`
+	`[level]`	3
+	`%`	10000
+	`[mage]`	66
+	`[dungeon type]`
+	`[static]`	3
+	`+`	15
+	`[mage]`	66
+	`[dungeon type]`
+	`[static]`	4
+	`+`	15
+	`[mage]`	66
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[mage]`	66
+	`[dungeon type]`
+	`[level]`	1
+	`%`	500
+	`[mage]`	66
+	`[dungeon type]`
+	`[level]`	2
+	`%`	500
+	`[mage]`	69
+	`[dungeon type]`
+	`[static]`	0
+	`%`	900
+	`[mage]`	69
+	`[dungeon type]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	69
+	`[dungeon type]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	69
+	`[dungeon type]`
+	`[level]`	2
+	`%`	500
+	`[mage]`	69
+	`[dungeon type]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	69
+	`[dungeon type]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	69
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-20
+	`[mage]`	40
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-100
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	83
+	`[dungeon type]`
+	`[level]`	9
+	`%`	1000
+[/skill data up]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	10	450
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	17
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[after attack]
+		1
+	[combo]
+		20
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[equipment duration]
+		60000
+	[appendage]
+		620
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[after attack]
+		1
+	[combo]
+		40
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[equipment duration]
+		60000
+	[appendage]
+		621
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[after attack]
+		1
+	[combo]
+		60
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[equipment duration]
+		60000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[after attack]
+		1
+	[combo]
+		80
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[equipment duration]
+		60000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[if]
+	[my appendage]
+		620
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+	[time]
+		500	1	500
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[stat]
+		`physical attack bonus`
+		`%`	10
+	[stat]
+		`magical attack bonus`
+		`%`	10
+	[stat]
+		`separate attack`
+		`%`	10
+[/then]
+
+[if]
+	[my appendage]
+		621
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+	[time]
+		500	1	500
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[stat]
+		`physical attack bonus`
+		`%`	10
+	[stat]
+		`magical attack bonus`
+		`%`	10
+	[stat]
+		`separate attack`
+		`%`	10
+[/then]
+
+[possible kiri protect]

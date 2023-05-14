@@ -1,0 +1,122 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	121
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	121
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[鮮血長槍]冷卻時間 -20%%
+[鮮血長槍]持續時間 +30%%
+[鮮血長槍]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	120
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	120
+		`[dungeon type]`
+		`[static]`	13
+		`%`	30
+		`[at mage]`	120
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	120
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	119
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[獄血之犬]冷卻時間 -20%%
+[獄血之犬]持續時間 +30%%
+[獄血之犬]攻擊力 +30%%
+[鮮血燃燒]技能攻擊力增加率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	121
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at mage]`	120
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	120
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	125
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	125
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[at mage]`	125
+		`[dungeon type]`
+		`[static]`	35
+		`+`	1
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-25
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-25
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-25
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	3
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[鮮血長槍]攻擊力 +20%%
+[獄血之犬]攻擊力 +30%%
+[獄血之噬]冷卻時間 -30%%
+[獄血之噬]吸血次數 +1
+[獄血之噬]攻擊力 -25%%`
+[/piece set ability]

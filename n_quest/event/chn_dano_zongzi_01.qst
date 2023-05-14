@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	3
+
+[complete npc index]
+	3
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	616	10	617	10	618	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	623	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`請收集粽子材料`
+
+[depend message]
+	`這位冒險家， 您見過叫做粽子的食物嗎？
+沒見過是吧？ 嘻嘻， 告訴您一個好消息， 最近赫頓瑪爾城鎮里出現了一個粽子販賣機哦~
+不過您想品嘗美味的粽子， 就得先收集制作粽子的材料。 放心！ 只要您收集好制作粽子的材料，我一定會把粽幣給您的， 然后您把粽幣投到粽子販賣機里就能得到美味的粽子了~嘻嘻嘻~`
+
+[condition message]
+	`    前往地下城， 收集10個[粽葉]、 10個[糯米]、 10個[佐料]交給卡妮娜換取[粽幣]。`
+
+[solve message]
+	`好啦， 請您拿好這個粽幣。 至于這些制作粽子的材料， 我會把它放到粽子販賣機里的， 嘻嘻~~`

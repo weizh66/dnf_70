@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`封·聖堂騎士的赦令胸甲`
+
+[basic explain]
+	`  攻擊時，有1%%的幾率使自身進入霸體狀態7秒。（冷卻時間20秒）
+  該裝備的霸體效果發動后，被攻擊時，有50%%的幾率免疫所有傷害。（解除裝備后效果消失）`
+
+[flavor text]
+	`  再用點力啊，你這是在給我撓癢癢嗎？`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12569
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[physical defense]
+	38
+
+[need material]
+	3821	800
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	5520	4980
+
+[icon]
+	`Item/new_equipment/06_plate/coat/plate_coat.img`	20
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		1
+	[equipment duration]
+		7000
+	[buff]
+		`superarmor`
+	[appendage]
+		284
+[/then]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[equipment duration]
+		5000
+	[buff]
+		`superarmor`
+	[appendage]
+		284
+[/then]
+
+[if]
+	[my appendage]
+		284
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[add absolute defense percent]
+		`all`	100
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`阿拉德武尊`
+
+[explain]
+	`  攻擊時， 有2%%的幾率增加自身3%%的攻擊速度， 效果持續30秒。
+  施放時， 有2%%的幾率增加自身5%%的施放速度， 效果持續30秒。`
+
+[flavor text]
+	`  第八屆全國格鬥大賽區域賽參賽玩家專屬稱號！勇士，還差壹點！`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical defense]
+	30
+
+[magical defense]
+	30
+
+[move speed]
+	35
+
+[attack speed]
+	35
+
+[cast speed]
+	35
+
+[HP MAX]
+	400
+
+[MP MAX]
+	400
+
+[stuck]
+	-3.5
+
+[stuck resistance]
+	35
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[hit recovery]
+	150
+
+[icon]
+	`Item/Title/title_cn.img`	312
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_04_regionchamp_120days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`attack speed`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[usable period]
+	120

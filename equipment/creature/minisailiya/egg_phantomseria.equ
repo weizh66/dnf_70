@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`寵物蛋 (迷你賽麗亞)`
+
+[basic explain]
+	`攻擊時 ， 有3%%的機率減少敵人當前HP的10%%， 面對強大敵人時效果有所衰減。`
+
+[detail explain]
+	`攻擊時 ， 有3%%的機率減少敵人當前HP的10%%。(攻擊精英怪物時效果縮減為原來的1/3、對領主和深淵怪物的效果則縮減為1/6)
+（決斗場中無效）`
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`item/creature/creature_egg_jp.img`	3
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	1
+
+[creature species]
+	218
+
+[output index]
+	690013001
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	15.0
+
+[MP regen speed]
+	10
+
+[physical attack]
+	25
+
+[magical attack]
+	25
+
+[move speed]
+	30
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[room list move speed rate]
+	0.2
+
+[anti evil]
+	5
+
+[need material]
+	3340	68
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`

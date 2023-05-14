@@ -1,0 +1,44 @@
+#PVF_File
+
+[name]
+	`精製的裝備合成器`
+	
+
+[explain]
+	`    使用後， 可以將兩件封裝的稀有裝備進行合成， 並獲得全新的裝備。
+
+    若合出稀有裝備， 則稀有裝備的適用Lv以原有兩個裝備的平均Lv為基準， 最高可增加Lv10； 傳承或神器裝備最高可增加Lv5； 最高只能合出Lv65裝備。
+
+    稱號、 綁定裝備以及蘊含有異界氣息的裝備無法進行合成。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	677
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`POTION_TOUCH`

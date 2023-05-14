@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 狂暴者`
+
+[explain]
+	`無休無止的戰鬥，殘破汙濁的焦土，隨時遠去的生命，充斥在每壹個士兵眼中。許多士兵都已經傷痕累累，我們的士氣極度低迷。
+但我無暇顧及自己的傷勢，只是把傷口簡單包紮壹下就再次拿起了武器進行戰鬥，軍人的天職要求我在任何時候都不能放棄。
+盡管，死亡會隨時降臨。
+值得慶幸的是，皇都軍指揮部並沒有放棄希望。他們認為只有應用更強力的新兵器才能夠快速打開戰爭局面。
+但想要掌控這些新兵器似乎並不是壹件簡單的事情。所以，皇都軍不得不從狂暴者中挑選出最精通戰鬥的人加以秘密訓練，以期能夠在在最短時間內取得突破性的成果。
+不難想象，這種訓練是多?的嚴格與殘酷。據說，他們的訓練過程連資歷最深的教官看到都忍不住落淚。但為了徹底解除卡勒特對天界的封鎖，沒有壹個狂暴者選擇放棄。
+皇都軍的努力終於得到了回報，在最後的防線即將被摧毀時，他們終於出現了，此時此刻的他們已經擺脫了“狂暴者”的束縛，成為了真正的“狂暴者”。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		125011	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[gunner]`	36
+	`[all]`
+	`[level]`	4
+	`%`	800
+	`[gunner]`	107
+	`[all]`
+	`[level]`	4
+	`%`	800
+	`[gunner]`	40
+	`[all]`
+	`[level]`	3
+	`%`	800
+	`[gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	800
+	`[gunner]`	71
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[gunner]`	71
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[gunner]`	45
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[gunner]`	45
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[gunner]`	38
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[gunner]`	75
+	`[all]`
+	`[level]`	0
+	`%`	300
+	`[gunner]`	108
+	`[all]`
+	`[level]`	0
+	`%`	200
+	`[gunner]`	39
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[gunner]`	54
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[gunner]`	54
+	`[all]`
+	`[level]`	1
+	`%`	1000
+[/skill data up]

@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`毒雷引爆的爆炸`
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	8000
+[/object destroy condition]
+
+[basic action]
+	`Action/Dragonminepoision.act`
+
+[attack info]
+	`AttackInfo/DragonMinePoision.atk`
+
+[etc motion]
+[/etc motion]
+
+[name]
+	`天帷巨獸的消化液水坑`

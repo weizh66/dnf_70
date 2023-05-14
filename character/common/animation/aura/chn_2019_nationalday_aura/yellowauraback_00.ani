@@ -1,0 +1,91 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		5	40
+	[INTERPOLATION]
+		1
+	[DELAY]
+		150
+
+[FRAME001]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-242	-330
+	[IMAGE RATE]
+		0.5	0.699999988079071
+	[RGBA]
+		88	9	9	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		4400
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-242	-330
+	[IMAGE RATE]
+		0.5	0.699999988079071
+	[RGBA]
+		88	9	9	153
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-242	-330
+	[IMAGE RATE]
+		0.5	0.699999988079071
+	[RGBA]
+		88	9	9	153
+	[INTERPOLATION]
+		1
+	[DELAY]
+		7000
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-242	-330
+	[IMAGE RATE]
+		0.5	0.699999988079071
+	[RGBA]
+		88	9	9	0
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		5	40
+	[DELAY]
+		30

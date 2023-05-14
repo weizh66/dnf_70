@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	`精良的迅擊天棍`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入減速狀態， 并增加自身的攻擊速度。
+    無法進行分解、 封裝和合成。`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入減速狀態12秒， 減速狀態下減少15%%的移動速度和攻擊速度； 并且還會使自身增加5%%的攻擊速度， 效果持續12秒。 (若敵人高于Lv62， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    無法進行分解、 封裝和合成。`
+
+[grade]
+	65
+
+[rarity]
+	5
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	62
+
+[physical attack]
+	46
+
+[magical attack]
+	69
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[anti evil]
+	8
+
+[price]
+	0
+
+[repair price]
+	74088
+
+[value]
+	0
+
+[equipment physical attack]
+	543	521
+
+[equipment magical attack]
+	572	548
+
+[equipment physical defense]
+	650	640
+
+[separate attack]
+	324	219
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	39
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		12000
+	[probability]
+		2
+	[active status]
+		`slow`	62	15	15
+	[target]
+		`myself`	-1
+	[stat]
+		`attack speed`
+		`+`	50
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

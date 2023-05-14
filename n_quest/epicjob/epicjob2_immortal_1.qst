@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 永生者 (1/2)`
+
+[depend message]
+	`被所救之人背棄而受傷的朋友， 你拖著這疲憊不堪的身軀要去往哪里？
+我知道戰勝黑暗之力的你， 才是最神圣和最純潔的圣職者。 即使被惡魔之力侵蝕而變異成偽裝者的模樣， 但你做出的犧牲和貢獻在教團內無人能及。
+我想教團眼下之所以會遇到這樣的危機， 或許其中一個原因就是因為不相信你們這些擁有強大信仰和實力的圣職者， 甚至還遠離了你們。
+危機或許就是神給教團的懲罰吧。 我代表教團對你們表示真摯的道歉和懺悔。
+另外， 我也知道你們一直以來深受奧茲瑪幻聽的困擾， 希望這點上我們能夠幫你們減輕些痛苦。
+除此之外， 教團打算賜予你‘永生者’的名號， 以示眾人教團與你的關系永生不滅。 我想那些曾欺壓或污蔑你的人也會看在教團的面子上不會再輕易對你動手的。
+朋友， 我知道當初被教團驅逐導致你受了不少苦， 但希望你不要太記恨， 并且能給我們一個彌補的機會， 我會在這里等著你的答復。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`謝謝~我馬上向教團轉達你的意思。`
+
+[pre required quest]
+	159
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12851
+
+[job change quest]
+	3
+
+[grow number]
+	0

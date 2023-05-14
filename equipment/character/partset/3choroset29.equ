@@ -1,0 +1,106 @@
+#PVF_File
+
+[set name]
+	`蜘蛛之王  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[theif]`	55
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[吸魂暗勁波]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[theif]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[theif]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[theif]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[theif]`	77
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[theif]`	77
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[theif]`	52
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[釋魂暗勁波]冷卻時間 -30%%
+[釋魂暗勁波]攻擊力 +30%%
+[驅使僵尸]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[theif]`	53
+		`[dungeon type]`
+		`[level]`	4
+		`+`	5000
+		`[theif]`	53
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[theif]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[theif]`	51
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-20
+		`[theif]`	51
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-20
+		`[theif]`	51
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[theif]`	51
+		`[dungeon type]`
+		`[level]`	5
+		`%`	50
+		`[theif]`	51
+		`[dungeon type]`
+		`[level]`	6
+		`%`	50
+		`[theif]`	51
+		`[dungeon type]`
+		`[level]`	7
+		`%`	50
+		`[theif]`	51
+		`[dungeon type]`
+		`[level]`	8
+		`%`	50
+		`[theif]`	51
+		`[dungeon type]`
+		`[level]`	9
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[降臨 : 尼古拉斯]攻擊力 +50%%
+[降臨 : 尼古拉斯]攻擊間隔 -20%%
+[暗影蛛絲陣]持續時間 +5秒
+[暗影蛛絲陣]范圍 +30%%
+[暗影蛛絲陣]暗屬性強化 +10`
+[/piece set ability]

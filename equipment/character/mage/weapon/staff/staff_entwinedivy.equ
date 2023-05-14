@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`常春藤之纏繞法杖`
+
+[basic explain]
+	` 施放技能時，以2%%的機率使敵人進入束縛狀態。`
+
+[detail explain]
+	`施放技能時，有2%%的機率使300px範圍內最近的敵人進入束縛狀態5秒。 （比Lv65高的目標陷入狀態機率較低，比 Lv65低的目標陷入狀態機率較高。決鬥場修正為 2.5秒）`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[magical attack]
+	42
+
+[attack speed]
+	-100
+
+[cast speed]
+	30
+
+[price]
+	93800
+
+[repair price]
+	78792
+
+[value]
+	375200
+
+[equipment physical attack]
+	564	545
+
+[equipment magical attack]
+	713	689
+
+[separate attack]
+	293	199
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[mage]`	55	1
+	`[at mage]`	28	1
+[/skill levelup]
+
+[light attack]
+	4
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/mage/staff.img`	66
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[mage]`
+
+[variation]
+	15	8
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	15	8
+
+[layer variation]
+	2150
+	`at_staffa`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_staffd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	15	8
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`STAFF_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2400
+
+[item group name]
+	`staff`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`hold`	65
+[/then]
+
+[possible kiri protect]

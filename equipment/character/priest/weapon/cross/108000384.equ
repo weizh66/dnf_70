@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`格拉西亞家族遺物 - 十字架`
+
+[flavor text]
+	`靈魂越是高貴。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[physical defense]
+	75
+
+[magical defense]
+	75
+
+[cast speed]
+	20
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[need material]
+	5000	30
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	911	814
+
+[equipment magical attack]
+	865	773
+
+[equipment physical defense]
+	900	900
+
+[equipment magical defense]
+	900	900
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[light attack]
+	20
+
+[icon]
+	`item/new_equipment/01_weapon/priest/cross/cross.img`	117
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	37	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[elemental property]
+	`[light element]`
+
+[possible kiri protect]

@@ -1,0 +1,130 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at swordman]`	124
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at swordman]`	65
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-150
+		`[at swordman]`	124
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-150
+		`[at swordman]`	126
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at swordman]`	66
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[汲魂之力]汲魂量上限 +40%%
+[汲魂之力]擊殺敵人時立即吸收靈魂
+[釋魂飛彈]攻擊量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	124
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	65
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at swordman]`	124
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at swordman]`	66
+		`[dungeon type]`
+		`[static]`	13
+		`%`	51
+		`[at swordman]`	126
+		`[dungeon type]`
+		`[static]`	13
+		`%`	51
+		`[at swordman]`	126
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at swordman]`	66
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[汲魂之力]汲魂率 +25%%
+[汲魂之力]汲魂量上限 +30%%
+[釋魂飛彈]攻擊量 +10%%
+[釋魂飛彈]每個敵人所承受的飛彈數上限 +50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	65
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	124
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	124
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	66
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	66
+		`[dungeon type]`
+		`[static]`	13
+		`%`	51
+		`[at swordman]`	126
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	126
+		`[dungeon type]`
+		`[static]`	13
+		`%`	51
+		`[at swordman]`	66
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at swordman]`	126
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[汲魂之力]汲魂率 +20%%
+[汲魂之力]汲魂量上限 +20%%
+[釋魂飛彈]冷卻時間 -30%%
+[釋魂飛彈]發射數量上限 +50%%
+[釋魂飛彈]每個敵人所承受的飛彈數上限 +50%%`
+[/piece set ability]

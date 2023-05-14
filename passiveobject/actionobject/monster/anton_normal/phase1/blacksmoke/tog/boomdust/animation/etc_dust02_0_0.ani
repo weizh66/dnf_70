@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Blob_Blue.img`
+		0
+	[IMAGE POS]
+		-22	-23
+	[IMAGE RATE]
+		2.0	2.0
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-20	-28	-20	40	52	40
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Blob_Blue.img`
+		0
+	[IMAGE POS]
+		-22	-23
+	[IMAGE RATE]
+		2.0	2.0
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-20	-28	-20	40	52	40

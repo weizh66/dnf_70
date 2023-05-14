@@ -1,0 +1,61 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/combo1.ani`
+	[SUB ANI]
+		`../Animation/teleportend_normal.ani`	0	-3
+		`../Animation/teleportend_circle01.ani`	0	-2
+		`../Animation/teleportend_circle02.ani`	0	-1
+		`../Animation/combo1_1.ani`	0	1
+		`../Animation/combo1_1e.ani`	0	2
+		`../Animation/teleportend_circle03.ani`	0	3
+		`../Animation/teleportend_light01.ani`	0	4
+		`../Animation/teleportend_light02.ani`	0	5
+	[/SUB ANI]
+	[SOUND]
+		`ARDEN_GAUNTLET_TEL_02`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			11526
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[REVERSE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[MY OPPOSITE DIRECTION]
+[/BEHAVIOR]

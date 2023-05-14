@@ -1,0 +1,21 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/last.act`
+
+[attack info]
+	`AttackInfo/vajrasmallswordfinishbreak.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

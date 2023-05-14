@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	1018
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	76	99
+
+[pre required quest]
+	4179
+[/pre required quest]
+
+[monster reward item]
+	62112	76	-1	4774	1	30	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4774	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`巴卡爾的好奇心`
+
+[depend message]
+	`我明明確認過孩子們的死活。這的確是我的孩子們一部份東西沒有錯。除非它是精巧偽造的假貨…。
+或許也能夠在某處撿到鱗片之類的東西。如果你能穿越時間，能不能把我的孩子成長的證據拿給我呢？
+哈哈哈！越來越有趣了！`
+
+[condition message]
+	`把年輕斯卡薩的心臟交給巴卡爾`
+
+[solve message]
+	`怎麼會… `
+
+[dialog]
+	1	0	76	0	1	62112	0
+	`<monster::62112>愚昧的人類呀！在我面前屈膝吧！`
+[/dialog]
+
+[quest point]
+	4

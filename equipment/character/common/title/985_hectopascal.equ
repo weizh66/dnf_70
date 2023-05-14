@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`985瞬影連環踢`
+
+[explain]
+	`攻擊時有 4%% 的機率使敵人追加傷害 985 。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	290
+
+[custom animation]
+	`TitleAnimation/985_hectopascal.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		4
+	[add absolute damage]
+		`all`
+		`+`	985
+[/then]

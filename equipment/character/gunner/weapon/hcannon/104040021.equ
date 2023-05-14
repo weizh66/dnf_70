@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`翼彈手持加農炮`
+
+[basic explain]
+	`鐳射炮的蓄氣時間上限減少50%%，冷卻時間減少1秒
+暴擊傷害增加17%% `
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	75
+
+[need material]
+	3285	2100
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	791	712
+
+[equipment magical attack]
+	475	427
+
+[separate attack]
+	441	298
+
+[fire attack]
+	8
+
+[light attack]
+	8
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	82
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[routing priority]
+	`gunner`	2
+	`at gunner`	2
+[/routing priority]
+
+[skill data up]
+	`[gunner]`	39
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[gunner]`	41
+	`[all]`
+	`[level]`	0
+	`%`	-50
+	`[at gunner]`	39
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[at gunner]`	41
+	`[all]`
+	`[level]`	0
+	`%`	-50
+[/skill data up]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	17
+[/then]
+
+[possible kiri protect]

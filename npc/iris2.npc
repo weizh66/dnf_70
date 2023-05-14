@@ -1,0 +1,58 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	42
+
+[big face]
+	`Map/Npc/NpcFace02.img`	41
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	43
+
+[field animation]
+	`Animation/Npc_ir.ani`
+
+[field wav]
+	`R_NPC_IRIS_AMB_01`
+
+[popup wav]
+	`R_NPC_IRIS_TK_01`
+	`R_NPC_IRIS_FW_01`
+
+[role]
+	`[item shop]`	63
+	`[play quest movie]`	0
+[/role]
+
+[name]
+	`艾麗絲`
+
+[field name]
+	`吟游詩人艾麗絲`
+
+[quest speech]
+	`我有個重要的任務需要你幫忙！`
+
+[dialog]
+	1	1	99	-1	0	0
+	` <npc::28>只有鳳頭琴安慰我的靈魂。我能夠這樣唱歌，也都是因為這孩子的關係。
+這孩子也很害怕要離開我。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::28>身為人偶的我，竟然能夠像人類一樣說話、大笑...
+看來赫爾德的力量真的是很無窮無盡的。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	` <npc::28>赫爾德偶爾對我的微笑難道都是假的嗎？
+我以為我們是朋友，也是同伴的... 原來我只是魁儡而已。`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	0	0
+	` <npc::28>這裡一點風都沒有。太好了。
+不管是什麼話，我都沒有聽到。`
+[/dialog]

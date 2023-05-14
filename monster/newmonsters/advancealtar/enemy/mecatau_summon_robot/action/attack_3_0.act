@@ -1,0 +1,39 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack_3_0_0.ani`
+	[SUB ANI]
+		`../Animation/Attack_3_0_2.ani`	0	1
+		`../Animation/Attack_3_0_1.ani`	0	2
+		`../Animation/Attack_3_0_1_1.ani`	0	3
+		`../Animation/Attack_3_0_1_2.ani`	0	4
+		`../Animation/Attack_3_0_1_3.ani`	0	5
+		`../Animation/Attack_3_0_1_4.ani`	0	6
+	[/SUB ANI]
+	[SOUND]
+		`BURN_VINE`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CASTING]
+		1000	1
+		[DISPLAY ME]
+		[DO ME]
+	[/CASTING]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		5
+	[NOW]
+[/BEHAVIOR]

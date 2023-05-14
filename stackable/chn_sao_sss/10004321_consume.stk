@@ -1,0 +1,44 @@
+#PVF_File
+
+[name]
+	`亞絲娜的緊急復活幣`
+
+[explain]
+	`開啟后， 隨機獲得1~3個復活幣。`
+
+[flavor text]
+	`啊， 緊急資金不得不用了……  --亞絲娜`
+
+[grade]
+	8
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption_jp.img`	463
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[booster info]
+	[stackable]
+		1	42	20000	1	42	50000	2	42	30000	3
+	[/stackable]
+[/booster info]

@@ -1,0 +1,57 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Luke_raid/Haboob/meltarea.img`
+		24
+	[IMAGE POS]
+		-178	-88
+	[IMAGE RATE]
+		0.10000000149011612	0.10000000149011612
+	[RGBA]
+		255	255	255	51
+	[DELAY]
+		120
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Luke_raid/Haboob/meltarea.img`
+		24
+	[IMAGE POS]
+		-178	-88
+	[IMAGE RATE]
+		0.20000000298023224	0.20000000298023224
+	[RGBA]
+		255	255	255	127
+	[DELAY]
+		120
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Luke_raid/Haboob/meltarea.img`
+		24
+	[IMAGE POS]
+		-178	-88
+	[IMAGE RATE]
+		0.30000001192092896	0.30000001192092896
+	[RGBA]
+		255	255	255	204
+	[DELAY]
+		120
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		0.5	0.5
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		80

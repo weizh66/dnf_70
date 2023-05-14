@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`未知的黑洞下衣`
+
+[basic explain]
+	`被擊時以10%%的機率在200px範圍內讓全體敵人陷入暗黑狀態`
+
+[detail explain]
+	`受到攻擊時以10%%的機率3秒內讓200px範圍內的全體敵人陷入暗黑狀態，視野減少90%%,命中率減少20%%。 （高於Lv85的對象得到的機率和效果減少，低於Lv85的對象則會增加。）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	39
+
+[physical defense]
+	35
+
+[magical attack]
+	28
+
+[price]
+	102000
+
+[repair price]
+	85680
+
+[value]
+	81600
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	3720	3480
+
+[skill levelup]
+	`[gunner]`	71	3
+	`[at gunner]`	71	3
+	`[fighter]`	99	2
+	`[at fighter]`	119	2
+	`[swordman]`	79	3
+	`[priest]`	125	3
+	`[demonic swordman]`	79	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/05_harmor/pants/harmor_pants.img`	10
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2900
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	200
+	[duration]
+		3000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`blind`	85	90	20
+[/then]
+
+[set item master]
+	100080009
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3276	20
+[/int data]
+
+[dungeon info]
+	85	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	6051	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`戰斗準備`
+
+[depend message]
+	`敵人正在撤退……現在是徹底解決皇都危機的最佳時機。
+可是由于戰斗物資嚴重匱乏， 我們無法進行大規模地調遣。
+之前因為用了敵軍補給基地內的軍火， 所以暫時緩解了我軍武器彈藥不足的情況。
+可是我們仍然缺少制作防彈衣的材料。 沒有了防彈衣， 守備隊的戰士就多了一份危險。
+冒險家， 你能幫我收集一些制作防彈衣的金屬碎片嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 收集[防彈金屬碎片]。`
+
+[solve message]
+	`我現在馬上命令他們加緊制作防彈衣。
+有了防彈衣， 皇都軍的安全就多了一層保障。 謝謝你！`

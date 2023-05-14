@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2482
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680345	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680346	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`萬圣節派對 - 2`
+
+[depend message]
+	`冒險家， 您先嘗一下這個， 這些都是從那些南瓜里挖出來的南瓜芯呢。
+唉， 這次弄的南瓜燈太多了， 估計這段時間我要一直吃南瓜了……我做的東西好吃嗎？
+幸好您說好吃呢~哦， 您原來就很喜歡吃呀？ 真是太好了~因為， 我還需要更多的南瓜呢~`
+
+[condition message]
+	`前往任意地下城， 收集25個[萬圣節派對用品]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`好像……皮膚變得更好了！ 羅莉安說南瓜對皮膚很好， 看來是真的呢。
+冒險家， 辛苦了， 這些南瓜糖是送給您的。`

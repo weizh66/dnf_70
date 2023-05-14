@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`粉色可愛拖鞋`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/mage/mg_ashoes.img`	314
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	89	3
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[PHYSICAL_ATTACK]`
+	`+`	20
+	`[PHYSICAL_DEFENSE]`
+	`+`	20
+	`[MOVE_SPEED]`
+	`+`	40
+	`[JUMP_POWER]`
+	`+`	30
+[/avatar select ability]

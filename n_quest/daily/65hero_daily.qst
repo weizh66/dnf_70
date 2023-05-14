@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5840	5844
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	86	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	15	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`登上海上列車`
+
+[depend message]
+	`冒險家們請注意， 一定要站成兩排啊！
+哎呀~我都說了好幾次了， 不允許單獨乘坐列車， 怎么都不聽呢？
+之前就有一些冒險家不聽我的勸告， 堅持一個人搭乘， 結果慘敗而歸， 后來他們竟然還好意思來向我要精神損失費， 真是……真是氣死我了！`
+
+[condition message]
+	`    通關海上列車地區的『列車上的海賊』， 要求地下城難度為王者級。`
+
+[solve message]
+	`你不會也是來要求賠償損失的吧？
+還好還好……對了， 你剛說你成功了？ 哈哈~我就說嘛， 有朋友的幫忙就是不一樣！`

@@ -1,0 +1,245 @@
+#PVF_File
+
+[name]
+	`逆天命 - 無歸`
+
+[basic explain]
+	`    自身HP為60%%以上100%%以下時， 攻擊時附加10%%的傷害。
+    自身HP為40%%以上60%%以下時， 攻擊時附加25%%的傷害。
+    自身HP為5%%以上40%%以下時， 攻擊時附加35%%的傷害。
+    自身HP低於5%%時， 攻擊時附加40%%的傷害。
+    裝備時， 每3秒消減自身1%%的HP。
+    裝備時， 每20秒消減自身1%%的MP。`
+
+[detail explain]
+	`    自身HP為60%%以上100%%以下時， 攻擊時附加10%%的傷害。
+    自身HP為40%%以上60%%以下時， 攻擊時附加25%%的傷害。
+    自身HP為5%%以上40%%以下時， 攻擊時附加35%%的傷害。
+    自身HP低於5%%時， 攻擊時附加40%%的傷害。
+    裝備時， 每3秒消減自身1%%的HP。(裝備1秒後發動效果)
+    裝備時， 每20秒消減自身1%%的MP。(裝備1秒後發動效果)`
+
+[flavor text]
+	`    即使命運再怎么折磨我， 我也不會屈服。 我知道， 變得更強是我唯壹的出路！ --某位刺客`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	-80
+
+[need material]
+	3821	1200
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	979	840
+
+[equipment magical attack]
+	768	659
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	5
+
+[icon]
+	`Item/new_equipment/01_weapon/thief/twinswd/twinswd.img`	118
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[thief]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[stat change]
+		`hp`
+		`>=`
+		`%`	60
+	[stat change]
+		`hp`
+		`<`
+		`%`	100
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`>=`
+		`%`	40
+	[stat change]
+		`hp`
+		`<`
+		`%`	60
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	25
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`>=`
+		`%`	5
+	[stat change]
+		`hp`
+		`<`
+		`%`	40
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	35
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	5
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	40
+[/then]
+
+[if]
+	[time]
+		3000	1	1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-1	0
+[/then]
+
+[if]
+	[time]
+		20000	1	1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`mp`
+		`%`	-1	0
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600751	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

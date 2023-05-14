@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`氣絕刃 - 托斯納羅根`
+
+[basic explain]
+	`背擊攻擊時， 有10%%的幾率使敵人進入眩暈狀態。
+對眩暈狀態下敵人的傷害 +15%%
+攻擊速度 +1%%`
+
+[detail explain]
+	`    背擊攻擊時， 有10%%的幾率使敵人進入眩暈狀態2秒。 (若敵人高于Lv45， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+對眩暈狀態敵人的傷害 +15%% (在決斗場中 +8%%)
+攻擊速度 +1%%`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`dagger`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/thief/dagger.img`	43
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3260	750
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[equipment physical attack]
+	405	364
+
+[equipment magical attack]
+	428	385
+
+[separate attack]
+	285	189
+
+[attack speed]
+	110
+
+[if]
+	[cooltime]
+		3000
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		10
+	[active status]
+		`stun`	45
+[/then]
+
+[if]
+	[target active status]
+		`stun`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[physical critical hit]
+	10
+
+[stuck]
+	1
+
+[skill levelup]
+	`[thief]`	29	2
+[/skill levelup]
+
+[variation]
+	9	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			3000
+		[attack condition]
+			`back attack`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			2000
+		[probability]
+			10
+		[active status]
+			`stun`	45
+	[/then]
+	[if]
+		[target active status]
+			`stun`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	8
+	[/then]
+[/pvp]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

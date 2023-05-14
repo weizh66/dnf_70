@@ -1,0 +1,82 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/WildCannonSpike/light_line.img`
+		0
+	[IMAGE POS]
+		-127	-552
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		270
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/WildCannonSpike/light_line.img`
+		1
+	[IMAGE POS]
+		-127	-552
+	[IMAGE ROTATE]
+		0.03002000041306019
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/WildCannonSpike/light_line.img`
+		2
+	[IMAGE POS]
+		-127	-552
+	[IMAGE ROTATE]
+		0.06003899872303009
+	[RGBA]
+		255	255	255	200
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/Effect/WildCannonSpike/light_line.img`
+		3
+	[IMAGE POS]
+		-127	-552
+	[IMAGE ROTATE]
+		0.09005899727344513
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-127	-552
+	[IMAGE ROTATE]
+		0.11999999731779099
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`

@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	1
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7880
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7884
+
+[name]
+	`轉職 - 死靈術士 (1/4)`
+
+[depend message]
+	`你就是想為元老院效力的暗夜使者？ 我已經從夏普倫那兒聽說了你的事。
+不過， 死靈術是一種非常危險的咒術， 不能隨便傳授。
+你可以設想一下， 時時刻刻都要面對死靈的日子， 那是怎樣一種煎熬？
+如果你執意要學的話， 就證明給我看看你的決心！`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給米內特。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`看來你心意已決。`

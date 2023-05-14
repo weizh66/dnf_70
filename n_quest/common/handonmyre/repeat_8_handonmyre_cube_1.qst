@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	8	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3015	10
+[/int data]
+
+[dungeon info]
+	1	-1	5	-1	6	-1	3	-1	8	-1	7	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	3035	5	3034	5
+[/reward selection int data]
+
+[name]
+	`神秘的晶體 (1/2)`
+
+[depend message]
+	`冒險家， 你知道一種叫晶體的特殊物質嗎？ 這種物質似乎是伴隨阿拉德大陸的怪異現象一起出現的。 雖然到現在我還弄不清它出現的原因， 但是經過我們煉金術師研究， 發現這種晶體可以用人工的方法大量制造。
+呵呵， 還是言歸正傳吧。 我現在急需一些研究材料， 如果你能幫我收集研究材料， 我就送你一些晶體作為報酬。
+你別小看這些晶體， 它們可是受到越來越多的人歡迎了， 而且裝備制造和藥品制造也需要它們呢……總之， 你多收集一些晶體絕不會吃虧， 怎么樣？ 要不要幫我?`
+
+[condition message]
+	`    收集10個[哥布林手骨]。`
+
+[solve message]
+	`哦！ 拿來了啊。 來， 這些晶體給你。 好好使用吧……
+嗯？ 你問我怎么使用？ ……我怎么知道？ 你自己看著辦吧！ 走好啊， 拜拜！`

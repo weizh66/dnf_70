@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	`ATMage Forbidden passive`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATForbiddenParty/MagicCircle/FPALaser_MagicCircle01.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	711104
+[/object destroy condition]

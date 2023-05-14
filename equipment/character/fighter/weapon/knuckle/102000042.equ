@@ -1,0 +1,247 @@
+#PVF_File
+
+[name]
+	`祝福佳伊亞`
+
+[basic explain]
+	`HP75%% 以上時施展以 5%%的機率10秒內智力增加50，魔法暴擊增加5%%，移動速度增加3%%，施放速度增加3%% 
+HP 50%% 以上 75%% 以下施展時以 5%% 的機率10秒內智力增加30，魔法暴擊增加3%% 
+格鬥家（女）：念力守護施展時念力守護持續時間內隊員的力量，增加智力40 
+格鬥家（男）：施展念氣罩時念氣罩持續時間內隊員的力量、智能增加80（念氣罩被擊，即使消失增益在念氣罩持續時間內也能維持）`
+
+[flavor text]
+	`不好好珍惜生命的傢伙沒有資格得到幫助。`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[move speed]
+	20
+
+[MP MAX]
+	200
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	764	716
+
+[equipment magical attack]
+	925	867
+
+[separate attack]
+	481	327
+
+[skill levelup]
+	`[fighter]`	42	2
+	`[at fighter]`	42	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	97
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	21	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[if]
+	[stat change]
+		`hp`
+		`>`
+		`%`	75
+	[casting]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[stat]
+		`magical attack`
+		`+`	50
+	[stat]
+		`magical critical hit rate`
+		`+`	5
+	[stat]
+		`cast speed`
+		`+`	30
+	[stat]
+		`move speed`
+		`+`	30
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	75
+	[stat change]
+		`hp`
+		`>=`
+		`%`	50
+	[casting]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`magical critical hit rate`
+		`+`	3
+[/then]
+
+[if]
+	[use skill]
+		`fighter`	42
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		`skill level info`	42	0	-1
+	[stat]
+		`physical attack`
+		`+`	40
+	[stat]
+		`magical attack`
+		`+`	40
+[/then]
+
+[if]
+	[use skill]
+		`at fighter`	42
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		`skill level info`	42	0	-1
+	[stat]
+		`physical attack`
+		`+`	80
+	[stat]
+		`magical attack`
+		`+`	80
+[/then]
+
+[possible kiri protect]

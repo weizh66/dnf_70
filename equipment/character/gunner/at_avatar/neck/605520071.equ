@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`皇家阿拉德高校蝴蝶領結[CType]`
+
+[explain]
+	`皇族阿拉德高校禮包`
+
+[grade]
+	2
+
+[part set index]
+	20013
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atgunner/gg_aneck.img`	284
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	15
+	`[ATTACK_SPEED]`
+	`+`	50
+	`[HIT_RECOVERY]`
+	`+`	160
+[/avatar select ability]
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	89	2
+
+[layer variation]
+	1900
+	`neck_a`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[equipment type]
+	`[breast avatar]`	0

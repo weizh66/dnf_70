@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	25
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	38	99
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	0
+
+[int data]
+	32	-1	818	3	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`冒險的妨礙者`
+
+[depend message]
+	`這段時間去蜘蛛洞穴冒險的人很多， 死得人也很多， 尸骨都快堆成骷髏山了。
+如果你去蜘蛛洞穴的話， 就把那些能看見的尸骨收拾一下吧。 這可不是雜活， 我是信任你， 才拜托你的。`
+
+[condition message]
+	`    前往諾伊佩拉地區的『蜘蛛洞穴』， 破壞10個骷髏堆。`
+
+[solve message]
+	`你回來了？ 那里的情況怎么樣？`

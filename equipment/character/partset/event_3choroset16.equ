@@ -1,0 +1,25 @@
+#PVF_File
+
+[set name]
+	`遺忘者的遠古  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[swordman]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	44
+		`[dungeon type]`
+		`[level]`	2
+		`+`	16
+		`[swordman]`	44
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`死亡墓碑冷卻時間減少30%% 
+死亡墓碑 墜落時間減少50%%， 每秒墜落數增加16 `
+[/piece set ability]

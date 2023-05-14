@@ -1,0 +1,89 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	1014
+
+[complete npc index]
+	1015
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4154
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[show click on complete npc]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1015
+[/int data]
+
+[dungeon info]
+	73	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`請託暗殺`
+
+[depend message]
+	`心情如何？你已經將身體託付給血之詛咒了，應該覺得很舒服吧？
+你內心中的邪惡正在高漲著的那股感覺… 那無法言喻的快感，
+那我就提出一個對你更不錯的意見。你應該有聽說過，率領聖職者的守將中，有一位叫做「夏皮羅?格拉西亞」的傢伙。那小子就如同是我們的眼中釘，
+我很想立刻將他大卸八塊，不過週圍太多聖職者與守護陣的關係，根本就難以接近他。但是你還擁有人類的模樣…… 
+以這種狀態能夠輕易就接近夏皮羅。只要有幫忙接近夏皮羅，其他的我自己會處理。哈哈哈……`
+
+[condition message]
+	`去找夏皮羅?哥拉西亞（該任務只能單獨進行，而且進行地下城時不可放棄的任務。）`
+
+[solve message]
+	`雖然想現在就擊碎你的腦袋，阻擋你成為偽裝者…… 但是利用簡單的儀式似乎能把你治好，所以就給你一次機會吧。`
+
+[dialog]
+	0	0	15374	0	0	0	0
+	`<npc::1015>嗯…… 感覺到了邪惡氣息！我要懲罰你！`
+[/dialog]
+
+[dialog]
+	0	1	15374	0	0	0	0
+	`<npc::1014>呃…… 咳呃。我不會忘記這個恥辱的。
+<npc::1015>真是可憐！惡魔…… 難道你不知道無法抵擋黑暗的光嗎？`
+[/dialog]
+
+[quest point]
+	4

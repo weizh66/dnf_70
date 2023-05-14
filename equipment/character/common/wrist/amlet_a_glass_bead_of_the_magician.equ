@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`巫師的靈珠`
+
+[basic explain]
+	` 施放技能時，以10%%的機率在10秒內施展霸體狀態。`
+
+[detail explain]
+	` 施放技能時，有10%%的機率使自身進入霸體狀態10秒。(在決鬥場中機率為1%%，持續時間為3秒)`
+
+[grade]
+	75
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	68
+
+[anti evil]
+	10
+
+[physical attack]
+	30
+
+[physical defense]
+	75
+
+[cast speed]
+	50
+
+[price]
+	75000
+
+[repair price]
+	60000
+
+[value]
+	60000
+
+[creation rate]
+	0
+
+[need material]
+	3340	25
+
+[equipment magical defense]
+	3936	3696
+
+[skill levelup]
+	`[mage]`	48	2
+[/skill levelup]
+
+[icon]
+	`Item/common/bracelet.img`	37
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		10
+	[buff]
+		`superarmor`
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			20000
+		[casting]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			3000
+		[probability]
+			1
+		[buff]
+			`superarmor`
+	[/then]
+[/pvp]
+
+[possible kiri protect]

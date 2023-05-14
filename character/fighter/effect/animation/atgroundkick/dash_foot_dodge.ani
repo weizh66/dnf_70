@@ -1,0 +1,20 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATGroundKick/light_dodge.img`
+		0
+	[IMAGE POS]
+		-215	-181
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		120

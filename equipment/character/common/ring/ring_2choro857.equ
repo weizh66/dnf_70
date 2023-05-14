@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`精·加持的禁錮之限戒指 : [尼爾狙擊]`
+
+[basic explain]
+	`[尼爾狙擊]狙擊次數 +1
+[尼爾狙擊]攻擊力 -6%%
+[尼爾狙擊]狙擊限制時間 +0.5秒
+[尼爾狙擊]減少狙擊冷卻時間`
+
+[grade]
+	72
+
+[rarity]
+	5
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	47
+
+[magical attack]
+	54
+
+[MP regen speed]
+	1
+
+[anti evil]
+	11
+
+[repair price]
+	55680
+
+[value]
+	5800
+
+[equipment magical defense]
+	2464	2368
+
+[physical critical hit]
+	1
+
+[magical critical hit]
+	1
+
+[icon]
+	`Item/common/ring.img`	43
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	78
+	`[dungeon type]`
+	`[static]`	1
+	`+`	1
+	`[gunner]`	78
+	`[dungeon type]`
+	`[static]`	2
+	`+`	-20
+	`[gunner]`	78
+	`[dungeon type]`
+	`[static]`	3
+	`+`	500
+	`[gunner]`	78
+	`[dungeon type]`
+	`[level]`	0
+	`%`	-6
+	`[at gunner]`	78
+	`[dungeon type]`
+	`[static]`	1
+	`+`	1
+	`[at gunner]`	78
+	`[dungeon type]`
+	`[static]`	2
+	`+`	-20
+	`[at gunner]`	78
+	`[dungeon type]`
+	`[static]`	3
+	`+`	500
+	`[at gunner]`	78
+	`[dungeon type]`
+	`[level]`	0
+	`%`	-6
+[/skill data up]
+
+[possible kiri protect]

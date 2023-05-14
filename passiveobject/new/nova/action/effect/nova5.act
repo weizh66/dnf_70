@@ -1,0 +1,36 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../../Animation/effect/novaremnant_hitend_he_spin_eff.ani`
+	[SUB ANI]
+		`../../Animation/effect/novaremnant_hitend_linkedblastup.ani`	0	1
+		`../../Animation/effect/novaremnant_hitend_dust_front_normal1.ani`	0	1
+		`../../Animation/effect/novaremnant_hitend_dust_front_normal2.ani`	0	1
+		`../../Animation/effect/novaremnant_hitend_dust_back_normal2.ani`	0	1
+		`../../Animation/effect/novaremnant_hitend_dust_back_normal1.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		3	800
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			20170201
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			30	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

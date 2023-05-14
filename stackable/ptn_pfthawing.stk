@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`專家冰凍恢復劑`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	35
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	290
+
+[stackable type]
+	`[waste]`	0
+
+[item group name]
+	`potion`
+
+[price]
+	3000
+
+[cool time]
+	10000
+
+[cooltime group]
+	10
+
+[move wav]
+	`POTION_TOUCH`
+
+[active status recovery]
+	`freeze`	75
+	`myself`

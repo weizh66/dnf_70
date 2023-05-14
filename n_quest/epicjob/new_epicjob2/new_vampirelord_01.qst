@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 血獄君主(1/6)`
+
+[depend message]
+	`最近聽說了關于你的一些傳聞， 真不知道你都在做些什么， 總之現在流傳著一些奇怪的傳聞。
+上次見到你的時候就覺得你不太對勁……你給我過來， 別想逃跑。 你不過來我就過去抓你了？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`你這樣滿身血腥味， 未免也太夸張了吧？ 你到底都做了什么？
+莫非吸人血了？ 如果是這樣， 我拼了老命也要阻止你。
+什么？ 不是？ 在做生命研究嗎？ 研究對象都是怪物？ 嗯……也就是說并不會害人？
+既然你都這么說了， 應該沒問題吧。 畢竟你這個人從不會說謊話……
+好吧， 看來是時候放心給你提新建議了。 雖然不知道你所說的‘生命研究’具體是做什么的， 但至少能感覺到現在你體內有足夠的血氣和超強的力量。
+目前這個狀態應該是可以去獲得新的力量了。 有興趣挑戰一下嗎？`
+
+[target character]
+	`[at mage]`	3	1
+[/target character]
+
+[relation quest]
+	5576
+
+[job change quest]
+	3
+
+[grow number]
+	0

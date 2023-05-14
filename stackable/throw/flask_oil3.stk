@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`燃燒瓶 3`
+	
+
+[explain]
+	`裝有油的瓶子， 爆炸時可以對敵人造成742點傷害。`
+	
+
+[grade]
+	29
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	28
+
+[icon]
+	`Item/IconMaterial.img`	41
+
+[field image]
+	`Item/FieldImage.img`	20
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	580
+
+[cool time]
+	2000
+
+[move wav]
+	`BOTTLE_TOUCH`
+
+[int data]
+	50702	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/RedOilFlask.ptl`
+[/string data]

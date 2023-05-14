@@ -1,0 +1,76 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/03Sword.img`
+		0
+	[IMAGE POS]
+		-276	-147
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-50	-50	-50	100	100	100
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/03Sword.img`
+		1
+	[IMAGE POS]
+		-302	-147
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-50	-50	-50	100	100	100
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/03Sword.img`
+		2
+	[IMAGE POS]
+		-342	-147
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-50	-50	-50	100	100	100
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/03Sword.img`
+		3
+	[IMAGE POS]
+		-342	-147
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-50	-50	-50	100	100	100
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-142	53
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40

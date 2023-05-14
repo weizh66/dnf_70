@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	5657	5653
+[/pre required quest]
+
+[enemy reward item]
+	61165	1	-1	-1	4365	2	50	-1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4365	3
+[/int data]
+
+[dungeon info]
+	11006	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+	7619	1	7620	1	7621	1
+[/reward selection int data]
+
+[name]
+	`無盡的研究`
+
+[depend message]
+	`上次的實驗可能是我弄錯了材料的比例。
+煉金術本來就是非常細致的工作， 更何況是這種終極的研究， 就算是0.1%的誤差， 都會得到截然不同的結果。
+因此一兩次的失敗并不代表什么， 我需要更多的嘗試。
+冒險家， 拜托你再幫我收集一些材料吧！ 要越多越好， 報酬方面不用擔心……
+呃， 我再強調一遍， 我的研究真的沒有半點私心， 你可千萬別誤會了！`
+
+[condition message]
+	`    前往亡者峽谷的『無盡的祭壇』， 從怪物身上收集以下物品。`
+
+[solve message]
+	`噢噢， 終于等來了！ 我可以繼續進行研究了。
+咦？ 你怎么還沒走？ 這個給你， 拜托你快點走， 別在這里妨礙我！`

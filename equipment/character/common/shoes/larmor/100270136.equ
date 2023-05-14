@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`戮蠱的絕地戰靴`
+
+[basic explain]
+	`  被攻擊時， 若單次傷害導致角色被消減HP上限的10%%以上， 則會受到岩石保護， HP恢復10%%並進入無敵狀態和石化狀態， 效果持續5秒； 石化解除時自身會受到3000點傷害。 (若敵人高於Lv100， 則減少進入異常狀態的幾率； 反之則增加幾率； 冷卻時間20秒)
+  自身進入石化狀態時， 可以使500px範圍內的所有敵人進入石化狀態3秒； 石化狀態解除時， 敵人受到12000點傷害。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間20秒)`
+
+[flavor text]
+	`  穿著一`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	27
+
+[magical attack]
+	18
+
+[physical defense]
+	30
+
+[move speed]
+	20
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2864	2438
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	19
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[if]
+	[check damage]
+		`%`	10
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[active status]
+		`stone`	100	947
+	[restore]
+		`hp`
+		`%`	10	5000
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[my active status]
+		`stone`
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		3000
+	[active status]
+		`stone`	90	107087
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

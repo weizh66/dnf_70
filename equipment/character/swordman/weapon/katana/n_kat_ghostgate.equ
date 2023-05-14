@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`(舊) 鬼印殺`
+
+[basic explain]
+	`增加[鬼印珠]的判定時間。
+[鬼斬]冷卻時間 -2秒`
+
+[flavor text]
+	`    它能借助鬼神的力量， 給予敵人強力一擊。`
+
+[grade]
+	35
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[rarity]
+	4
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`Item/weapon/swordman/katana.img`	36
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	56000
+
+[value]
+	44800
+
+[cool time]
+	10000
+
+[physical attack]
+	26
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	338	293
+
+[equipment magical attack]
+	374	323
+
+[separate attack]
+	209	138
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[physical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[swordman]`	2
+	`[all]`
+	`[static]`	0
+	`+`	100
+	`[swordman]`	5
+	`[all]`
+	`[cooltime]`	0
+	`+`	-2000
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	5	2
+[/skill levelup]
+
+[variation]
+	6	2
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

@@ -1,0 +1,167 @@
+#PVF_File
+
+[set name]
+	`野馬哈格勒  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	56
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	500
+		`[priest]`	56
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	57
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[俯衝直拳]攻擊力 +30%%
+[俯衝直拳]冷卻時間 +0.5秒
+[俯衝腹拳]攻擊力 +20%%
+[圣拳連擊]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-600
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[priest]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	700
+		`[priest]`	33
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	400
+		`[priest]`	33
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[priest]`	33
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[圣拳連擊]攻擊力 +25%%
+[圣拳連擊]冷卻時間 -0.3秒
+[破碎之錘]攻擊力 +35%%
+[破碎之錘]冷卻時間 +0.4秒
+[刺拳猛擊]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[priest]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[priest]`	75
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[priest]`	75
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[priest]`	14
+		`[dungeon type]`
+		`[level]`	10
+		`%`	20
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	3
+		`+`	100
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	4
+		`+`	100
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	5
+		`+`	100
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	6
+		`+`	150
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	7
+		`+`	150
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	8
+		`+`	150
+		`[priest]`	16
+		`[dungeon type]`
+		`[level]`	9
+		`+`	150
+	[/skill data up]
+	[parameter basic explain]
+		`[神圣組合拳]冷卻時間 -6秒
+[神圣組合拳]攻擊力 +40%% 
+[硬拳精通]的[俯衝腹拳]、 [破碎之錘]、 [神圣組合拳]霸體時間 +0.1秒
+[硬拳精通]的[俯衝腹拳]、 [破碎之錘]、 [神圣組合拳]暴擊增加率 +15%%
+[技巧精通]的[神圣反擊]自主發動攻擊力比率 +20%%`
+[/piece set ability]

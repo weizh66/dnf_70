@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`封·星雲迷蹤戰靴`
+
+[basic explain]
+	`  攻擊時， 有5%%的幾率使自身進入失明狀態10秒； 同時，使自身增加10%%的攻擊速度、 移動速度、 15%%的施放速度， 50點力量和50點智力。 （裝備解除時效果消失）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12566
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	24
+
+[physical defense]
+	22
+
+[magical attack]
+	18
+
+[move speed]
+	60
+
+[need material]
+	3821	900
+
+[price]
+	86000
+
+[repair price]
+	68800
+
+[value]
+	68800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2328	2112
+
+[icon]
+	`item/new_equipment/05_harmor/shoes/harmor_shoes.img`	10
+
+[field image]
+	`Item/field_equip.img`	14
+
+[equipment type]
+	`[shoes]`	19
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	1600
+
+[item group name]
+	`ha shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[active status]
+		`blind`	100	80	10
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`move speed`
+		`+`	100
+	[stat]
+		`cast speed`
+		`+`	150
+	[stat]
+		`physical attack`
+		`+`	50
+	[stat]
+		`magical attack`
+		`+`	50
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

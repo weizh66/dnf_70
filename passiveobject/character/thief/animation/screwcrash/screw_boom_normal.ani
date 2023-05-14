@@ -1,0 +1,50 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Doubleshadow/Effect/ScrewCrash/screw_boom_normal.img`
+		0
+	[IMAGE POS]
+		-385	-446
+	[INTERPOLATION]
+		1
+	[DELAY]
+		50
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Doubleshadow/Effect/ScrewCrash/screw_boom_normal.img`
+		0
+	[IMAGE POS]
+		-385	-441
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		255	255	255	229
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Doubleshadow/Effect/ScrewCrash/screw_boom_normal.img`
+		0
+	[IMAGE POS]
+		-385	-439
+	[IMAGE RATE]
+		1.149999976158142	1.149999976158142
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		50
+	[FLIP TYPE]
+		`HORIZON`

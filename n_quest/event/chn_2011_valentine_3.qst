@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[pre required quest]
+	20547
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	-1	-1	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680722	3
+[/reward int data]
+
+[name]
+	`情人節組隊活動 (3/3)`
+
+[depend message]
+	`呵呵， 我最近聽到很多關于你們的傳聞。 他們說你們太勇猛了， 成功擊退了很多怪物！ 呵呵， 我很高興！
+我會繼續等你們的好消息的， 加油吧！！`
+
+[condition message]
+	`    組成4人隊伍， 通關任意地下城。`
+
+[solve message]
+	`真心的感謝你們， 祝你們永遠開心！`

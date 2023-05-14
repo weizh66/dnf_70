@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	12
+
+[complete npc index]
+	12
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20640
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[int data]
+	-1	-1	-1	1	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[substitutive names]
+	`擊敗次數`
+[/substitutive names]
+
+[name]
+	`莎蘭的請求 - 偵查敵情`
+
+[depend message]
+	`原來是這樣。 讓我想想……
+嗯， 現在我們唯一的線索， 就是賽麗亞變成了怪物， 所以我們可以先從怪物這方面著手。
+你到地下城里打探下怪物們的情況， 看看它們最近有沒有在謀劃什么， 我在這里找找其它的解決辦法。`
+
+[condition message]
+	`    在地下城中， 抓50只怪物。`
+
+[solve message]
+	`怎么樣？ 怪物們有什么異常的舉動嗎？`
+
+[condition data]
+	0
+	`擊敗次數 : %d / %d`
+[/condition data]

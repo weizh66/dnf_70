@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	6
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	3	99
+
+[pre required quest]
+	104
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`第二個時間碎片`
+
+[depend message]
+	`時間碎片似乎散落在這世界的各個角落。在格蘭之森的地方，也感覺到了時間氣息
+找來那些碎片，還我力量吧！這樣才能回到最後的時間…
+但是目前用你的力量無法探險時間碎片所在的地方。只能慢慢訓練…
+那個叫 風振的人非常瞭解這個地方，去找他幫忙也不錯。`
+
+[condition message]
+	`詢問風振關於時間碎片`
+
+[solve message]
+	`時間碎片嗎……我第一次聽到。但是不久錢很多人都說目擊到格蘭之森方向有某種光芒掉落。
+可能就是那個時間碎片。`
+
+[quest point]
+	4

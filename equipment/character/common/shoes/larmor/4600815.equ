@@ -1,0 +1,361 @@
+#PVF_File
+
+[name]
+	`封·最佳球手的逆襲跑鞋`
+
+[basic explain]
+	`  施放[受身蹲伏]時，使自身進入霸體狀態，并增加50%的移動速度，前沖攻擊時第一次傷害增加600%%，效果持續5秒。（增加傷害類屬性僅適用于最高數值，且無法疊加；暴擊/附加傷害除外；解除裝備后生效消失）`
+
+[flavor text]
+	`  那家伙，溜得比誰都快！ --某球手`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12578
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	28
+
+[magical attack]
+	18
+
+[move speed]
+	60
+
+[need material]
+	3821	1000
+
+[price]
+	81900
+
+[repair price]
+	65520
+
+[value]
+	65520
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1836	1674
+
+[icon]
+	`Item/new_equipment/04_larmor/shoes/larmor_shoes.img`	18
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	16
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`swordman`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`demonic swordman`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`fighter`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`at fighter`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`mage`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`at mage`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`priest`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`thief`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[use skill]
+		`creator mage`	190
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`move speed`
+		`+`	500
+	[buff]
+		`superarmor`
+	[appendage]
+		259
+[/then]
+
+[if]
+	[my appendage]
+		259
+	[my state]
+		`dash attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	600
+[/then]
+
+[if]
+	[my appendage]
+		259
+	[my state]
+		`dash attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-5000
+	[appendage]
+		259
+[/then]
+
+[possible kiri protect]

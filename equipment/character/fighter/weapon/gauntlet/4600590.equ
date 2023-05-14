@@ -1,0 +1,219 @@
+#PVF_File
+
+[name]
+	`封·墮落的惡魔之手`
+
+[basic explain]
+	`對敵人的傷害 +12%%
+    攻擊惡魔族敵人時， 附加的23%%的傷害
+    擊殺惡魔族敵人時， 可以恢復自身2%%的HP。
+    消滅敵人時， 使自身增加3點暗屬性強化。`
+
+[detail explain]
+	`    攻擊時， 增加12%%的傷害。 (傷害加成效果取最高值， 且無法疊加； 暴擊/附加傷害除外）
+    攻擊惡魔族敵人時， 附加的23%%的傷害
+    擊殺惡魔族敵人時， 可以恢復自身2%%的HP。
+    消滅敵人時， 使自身增加3點暗屬性強化。（最多重疊5次； 解除裝備後效果消失）`
+
+[flavor text]
+	`    想要戰勝妳的對手， 成為人人敬仰的英雄嗎？ 我可以幫妳， 不過， 有壹個條件。·`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	92
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[HP regen speed]
+	-300
+
+[need material]
+	3821	1400
+
+[price]
+	172000
+
+[repair price]
+	137600
+
+[value]
+	137600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1089	929
+
+[equipment magical attack]
+	816	697
+
+[separate attack]
+	555	359
+
+[dark attack]
+	18
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/gauntlet/gauntlet.img`	90
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	23	1
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	12
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target type]
+		`devil`
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	2	0
+[/then]
+
+[if]
+	[target type]
+		`devil`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	23
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		291
+[/then]
+
+[possible kiri protect]

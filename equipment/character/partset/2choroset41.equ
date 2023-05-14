@@ -1,0 +1,189 @@
+#PVF_File
+
+[set name]
+	`魔之掌控者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gunner]`	29
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[gunner]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[gunner]`	29
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[gunner]`	29
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-300
+		`[gunner]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`+`	3000
+		`[gunner]`	46
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[at gunner]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at gunner]`	29
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[at gunner]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at gunner]`	29
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[at gunner]`	29
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-300
+		`[at gunner]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`+`	3000
+		`[at gunner]`	46
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+	[/skill data up]
+	[parameter basic explain]
+		`[Ex-S毒蛇炮]冷卻時間 -9秒
+[Ex-S毒蛇炮]每秒子彈發射數 +1
+[Ex-S毒蛇炮]發射子彈后的冷卻時間 -0.3秒
+[Ex-S毒蛇炮]存在時間 +3秒
+[機械改良]冷卻時間 -5秒`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-12000
+		`[gunner]`	59
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[gunner]`	59
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[gunner]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10000
+		`[at gunner]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-12000
+		`[at gunner]`	59
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[at gunner]`	59
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at gunner]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10000
+	[/skill data up]
+	[parameter basic explain]
+		`[空投支援]冷卻時間 -12秒
+[空投支援]攻擊力 +30%%
+[機械改良]持續時間 +10秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[gunner]`	63
+		`[dungeon type]`
+		`[static]`	5
+		`%`	-30
+		`[gunner]`	63
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[gunner]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-16500
+		`[gunner]`	83
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[gunner]`	83
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[gunner]`	83
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[at gunner]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[at gunner]`	63
+		`[dungeon type]`
+		`[static]`	5
+		`%`	-30
+		`[at gunner]`	63
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[at gunner]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-16500
+		`[at gunner]`	83
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[at gunner]`	83
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[at gunner]`	83
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`神槍手(男) :
+[攔截機工廠]冷卻時間 -16.5秒
+[攔截機工廠]攻擊力 +40%%
+[空戰機械 : 風暴]冷卻時間 -9秒
+[空戰機械 : 風暴]發射導彈冷卻時間 -30%%
+[空戰機械 : 風暴]連續發射數 +1
+神槍手(女) :
+[攔截機工廠]冷卻時間 -16.5秒
+[攔截機工廠]攻擊力 +40%%
+[空戰機械 : 狂風]冷卻時間 -9秒
+[空戰機械 : 狂風]發射導彈冷卻時間 -30%%
+[空戰機械 : 狂風]連續發射數 +1`
+[/piece set ability]

@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	5752
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3271	20
+[/int data]
+
+[dungeon info]
+	84	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	1234	3	1235	3
+[/reward selection int data]
+
+[name]
+	`彈藥改造專家`
+
+[depend message]
+	`謝謝你上次拿來的那些彈藥， 我和梅爾文博士已經把它們都加工成加強型子彈了。
+不過子彈畢竟是消耗品， 上次提取的火藥都已經用光了。
+冒險家， 你能再幫我們收集一些彈藥嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『補給線阻斷戰』， 收集[彈藥包]。`
+
+[solve message]
+	`本來想好好謝謝你的， 不過現在前線告急， 我必須馬上去制作彈藥了……`

@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[first exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	8041	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	26518	1	26519	1	26520	1
+[/reward selection int data]
+
+[name]
+	`[異界]異界之痕`
+
+[depend message]
+	`你現在已經擁有了可以隨意進出異界的能力，　不過要想變得更強大還要……放心， 我會幫助你的。
+呵呵，　我為你準備了一些有用的東西， 但這不是白送的。 在你得到它們之前， 還得麻煩你替我找來‘異界之痕’。`
+
+[condition message]
+	`    請收集30個[異界之痕]交給艾麗絲。`
+
+[solve message]
+	`很好， 這確實就是我想要的東西……請收下這個禮物吧， 希望能帶給你新的力量。`

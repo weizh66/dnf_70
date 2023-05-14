@@ -1,0 +1,146 @@
+#PVF_File
+
+[name]
+	`霜天鶴唳`
+
+[basic explain]
+	`[無雙擊]范圍 +15%%
+    HP高于90%%時， 可以使自身增加8%%的攻擊速度和10%%的物理暴擊率。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/axe.img`	72
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	486	445
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-80
+
+[elemental property]
+	`[water element]`
+
+[stuck]
+	-2
+
+[skill data up]
+	`[priest]`	88
+	`[all]`
+	`[static]`	0
+	`%`	15
+	`[priest]`	88
+	`[all]`
+	`[static]`	1
+	`%`	15
+[/skill data up]
+
+[variation]
+	4	3
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[water attack]
+	10
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	90
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by conidtion]
+		`attack speed`
+		`+`	80
+	[stat by conidtion]
+		`physical critical hit rate`
+		`+`	10
+[/then]
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

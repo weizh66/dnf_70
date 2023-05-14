@@ -1,0 +1,33 @@
+#PVF_File
+
+[name]
+	`怖拉修`
+
+[floating height]
+	0
+
+[width]
+	1	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/saintillusionmoveillusion1.act`
+
+[attack info]
+	`AttackInfo/SaintIllusionMove.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	50000
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	25864
+[/object destroy condition]

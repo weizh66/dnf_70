@@ -1,0 +1,68 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Character/DemonicSwordsman/Effect/ChargeExplosion/explosion02.img`
+		0
+	[IMAGE POS]
+		-401	-292
+	[IMAGE RATE]
+		0.8100000023841858	0.8999999761581421
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/DemonicSwordsman/Effect/ChargeExplosion/explosion02.img`
+		0
+	[IMAGE POS]
+		-401	-290
+	[IMAGE RATE]
+		0.9900000095367432	1.100000023841858
+	[INTERPOLATION]
+		1
+	[DELAY]
+		320
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/DemonicSwordsman/Effect/ChargeExplosion/explosion02.img`
+		0
+	[IMAGE POS]
+		-401	-289
+	[IMAGE RATE]
+		1.1699999570846558	1.2999999523162842
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

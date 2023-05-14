@@ -1,0 +1,27 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/Fire_turtle.img`
+		0
+	[IMAGE POS]
+		-227	-324
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/Fire_turtle.img`
+		1
+	[IMAGE POS]
+		-227	-324
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80

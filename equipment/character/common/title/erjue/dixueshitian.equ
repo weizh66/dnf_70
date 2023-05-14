@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 帝血弒天`
+
+[explain]
+	`巨大的血氣之力不但會溢滿整個身體，還將侵蝕他們的精神。從煉獄而出的血魔幻象會在他們的腦海中不斷肆虐，甚至會撕裂吞噬他們的意念，直到狂戰士們使用他們強大的意志融合這血魔幻象，才算終止。
+這期間的過程足以摧毀任何一個人那弱小的生命。
+所以，只有“血焚”成功的狂戰士才能夠隨意操控那巨大的血氣之力化身血魔，從而進階到獄血魔神的更高層次。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[event use skill]
+		`swordman`	23
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		900083	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	23
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[buff]
+		`superarmor`
+[/then]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		660031	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	101
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990236	0	0	0	99	0
+		``
+	[/passive object]
+[/then]

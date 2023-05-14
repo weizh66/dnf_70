@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`封·霸域英豪胸甲`
+
+[basic explain]
+	`  攻擊時50%%幾率使自身進入霸體狀態5秒，冷卻10秒。`
+
+[flavor text]
+	`  想打到我？換把沒生銹的武器先！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12580
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	43
+
+[physical defense]
+	47
+
+[magical attack]
+	43
+
+[need material]
+	3821	1000
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	6962	6732
+
+[icon]
+	`Item/new_equipment/06_plate/coat/plate_coat.img`	22
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		50
+	[appendage]
+		205
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

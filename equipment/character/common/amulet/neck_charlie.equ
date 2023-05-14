@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`查理的石晶項鍊`
+
+[basic explain]
+	`被攻擊時，以1%%的機率召喚1隻狂暴之玩具士兵。
+(在決鬥場中無效)`
+
+[detail explain]
+	`被攻擊時，有1%%的幾率召喚出1隻Lv35的狂暴之玩具士兵協助召喚者攻擊敵人，狂暴之玩具士兵存在60秒。 (召喚的怪物只能同時存在1隻，若召喚的怪物受到較大傷害，則召喚時間結束前就會消失)
+(在決鬥場中無效)`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	35
+
+[physical attack]
+	5
+
+[magical attack]
+	20
+
+[magical defense]
+	37
+
+[MP MAX]
+	50
+
+[price]
+	29600
+
+[repair price]
+	23680
+
+[value]
+	23680
+
+[equipment magical defense]
+	3200	3040
+
+[icon]
+	`Item/common/necklace.img`	6
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	18
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		60000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[reduce duration at pvp module]
+		75
+	[probability]
+		1
+	[summon monster]
+		50080	35	1
+[/then]
+
+[pvp]
+[/pvp]
+
+[possible kiri protect]

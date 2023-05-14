@@ -1,0 +1,78 @@
+#PVF_File
+
+[set name]
+	`暗之血跡  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	79
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[嗜魂封魔斬]最高攻擊力需吸附的敵人數 -50%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	24
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[swordman]`	24
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4000
+		`[swordman]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	81
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[swordman]`	81
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[swordman]`	81
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-10000
+	[/skill data up]
+	[parameter basic explain]
+		`[怒氣爆發]冷卻時間 -4秒
+[怒氣爆發]攻擊力 +25%%
+[崩山裂地斬]冷卻時間 -10秒
+[崩山裂地斬]攻擊力 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+
+[skill data up]
+	`[swordman]`	101
+	`[dungeon type]`
+	`[static]`	5
+	`%`	-40
+	`[swordman]`	101
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-30
+	`[swordman]`	101
+	`[dungeon type]`
+	`[skill consume item]`	0
+	`+`	1
+[/skill data up]
+
+[parameter basic explain]
+	`[血氣爆發]多段攻擊間隔 -40%%
+[血氣爆發]冷卻時間 -30%%
+[血氣爆發]無色小晶塊消耗量 +1`

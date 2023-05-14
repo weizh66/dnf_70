@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4259
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3309	5
+[/int data]
+
+[dungeon info]
+	88	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`卡勒特的指令書`
+
+[depend message]
+	`有消息說， 北方聚集了卡勒特的一批軍隊。 你之前去的時候， 有注意到嗎？
+如果消息屬實， 應該是敵人在謀劃什么。 只是具體情況我們都不太清楚， 所以無法制定可行的戰略。
+冒險家， 我希望你能去一趟根特北門， 從那里的卡勒特指揮官身上收集一些有用的信息……最好是指令書一類的文件。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特北門』， 從稀有怪物和領主身上收集5張[卡勒特指令書]， 要求地下城難度為冒險級以上。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`拿到了？ 我看看……
+這……可不是一個好消息。`
+
+[quest point]
+	4

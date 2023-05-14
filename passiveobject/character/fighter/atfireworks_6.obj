@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`at fighter fire works explosion`
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic motion]
+	`Animation/fireworks_hit_body.ani`
+
+[attack info]
+	`AttackInfo/ATFireWorksExplosion.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	130026
+[/object destroy condition]

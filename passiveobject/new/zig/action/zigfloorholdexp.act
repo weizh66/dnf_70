@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ZigFinish/handgrapexplosion/explosinback_1.ani`
+	[SUB ANI]
+		`../Animation/ZigFinish/HandGrapExplosion/ExplosinFront_1.ani`	0	0
+		`../Animation/ZigFinish/handgrapexplosion/explosinfront_1.ani`	0	0
+		`../Animation/ZigFinish/Body/zigfinishbodyback_1.ani`	0	0
+		`../Animation/ZigFinish/Body/zigfinishbodyfront_1.ani`	0	0
+		`../Animation/ZigFinish/zigfinish_body.ani`	0	0
+		`../Animation/ZigFinish/zigfinishback_1.ani`	0	0
+		`../Animation/ZigFinish/zigfinishfront_1.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		5	100
+[/BEHAVIOR]

@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`貓妖  卡片`
+	
+
+[flavor text]
+	`    生活在格蘭之森的貓科類動物， 疑似擁有智慧， 有些還帶著面具。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	2
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[shoes]`
+[/string data]
+
+[int data]
+	2	5001
+[/int data]
+
+[enchant]
+	[jump power]
+		5
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

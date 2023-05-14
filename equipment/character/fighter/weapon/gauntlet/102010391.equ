@@ -1,0 +1,221 @@
+#PVF_File
+
+[name]
+	`蠻力暴走臂鎧`
+
+[basic explain]
+	`    保持站立或行走狀態2秒時， 使自身進入霸體狀態15秒。 (冷卻時間25秒)
+    當觸發武器的霸體效果後， 可增加10%%的物理攻擊力、 魔法攻擊力和獨立攻擊力， 並增加10%%的移動速度。
+    
+    [寸拳]衝擊波大小 +20%%
+    [沖膝]衝擊波大小 +20%%
+    [伏虎霸王拳]衝擊波大小 +25%%
+    [摔技強化]間接攻擊增加率 +35%%`
+
+[detail explain]
+	`    站立或保持行走狀態2秒後， 可進入霸體狀態15秒。 (解除裝備後效果消失； 冷卻時間25秒)
+   當觸發武器的霸體效果後， 可增加10%%的物理攻擊力、 魔法攻擊力和獨立攻擊力， 並增加10%%的移動速度。
+    
+    [寸拳]衝擊波大小 +20%%
+    [沖膝]衝擊波大小 +20%%
+    [伏虎霸王拳]衝擊波大小 +25%%
+    [摔技強化]間接攻擊增加率 +35%%`
+
+[flavor text]
+	`    這麼華麗的首飾是用來做嫁妝的嗎？`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	92
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1093	977
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/gauntlet/gauntlet.img`	133
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`armc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`armb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2150
+	`at_arma`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_armb`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_armc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_armx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	19
+	`[all]`
+	`[static]`	0
+	`%`	20
+	`[fighter]`	14
+	`[all]`
+	`[level]`	4
+	`%`	25
+	`[fighter]`	22
+	`[all]`
+	`[level]`	0
+	`+`	50
+	`[fighter]`	22
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[at fighter]`	19
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[at fighter]`	14
+	`[all]`
+	`[level]`	2
+	`%`	25
+	`[at fighter]`	22
+	`[all]`
+	`[level]`	0
+	`+`	25
+	`[at fighter]`	22
+	`[all]`
+	`[level]`	1
+	`+`	35
+[/skill data up]
+
+[if]
+	[keep my state]
+		`stand`	2000
+	[cooltime]
+		25000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		15000
+	[buff]
+		`superarmor`
+	[stat]
+		`equipment physical attack`
+		`%`	10
+	[stat]
+		`equipment magical attack`
+		`%`	10
+	[stat]
+		`separate attack`
+		`%`	10
+	[stat]
+		`move speed`
+		`+`	100
+[/then]
+
+[possible kiri protect]

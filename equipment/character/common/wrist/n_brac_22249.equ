@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`精緻的黃龍紋手鐲 `
+
+[basic explain]
+	`攻擊時以1%%的機率20秒內攻擊速度增加7%%`
+
+[detail explain]
+	`攻擊時以 1%% 的機率20秒內攻擊速度增加7%%（安裝解除時選項解除。）`
+
+[grade]
+	42
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`wrist`
+
+[rarity]
+	3
+
+[weight]
+	400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	38
+
+[icon]
+	`Item/common/bracelet.img`	61
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[value]
+	40320
+
+[cool time]
+	10000
+
+[physical attack]
+	18
+
+[physical defense]
+	45
+
+[equipment magical defense]
+	2352	2112
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[set item master]
+	20257
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	70
+[/then]
+
+[possible kiri protect]

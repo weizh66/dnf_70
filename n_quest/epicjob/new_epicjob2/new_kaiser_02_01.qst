@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 極武圣 (2/6)`
+
+[depend message]
+	`一直以來， 你沒有被任何東西束縛， 勇往直前地爬到了現在的高度。 正因如此， 你也成功變強了。 擁有不被任何東西拘束的、 自由的力量， 那就是現在的你。
+然而， 如今自由本身又成為了一個新枷鎖， 正在阻礙你繼續前進的步伐。
+也就是說， 你總會覺得‘一直以來我都做得不錯’， 而這個想法卻吞噬了你前進的意志， 限制了你。
+拋開一切， 你首先必須打破現在的局限。 去挑戰強者， 在實戰中打破自己的極限吧。
+你問我是什么意思？ 我這是讓你去參加黃龍大會， 把冠軍奪回來。 推薦書我已經寫好送過去了， 你不需要為了拿到黃龍入選資格而那么辛苦。
+別擺出一副驚訝的表情， 趕緊去吧。 我會重點關注你是否能夠突破自己的極限。 那先去收集‘斯卡迪女王的印章’， 一會兒再見吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4978
+[/pre required quest]
+
+[relation quest]
+	5378
+
+[job change quest]
+	3
+
+[grow number]
+	0

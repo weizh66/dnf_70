@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`延基的手臂`
+
+[flavor text]
+	`    雖然是臂鎧， 但又不是臂鎧。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`gauntlet`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	50
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	39
+
+[price]
+	102600
+
+[repair price]
+	86184
+
+[value]
+	82080
+
+[cool time]
+	10000
+
+[physical attack]
+	59
+
+[equipment physical attack]
+	638	581
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	100
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[fighter]`	49	3
+	`[at fighter]`	49	3
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	4
+
+[layer variation]
+	2790
+	`yangyangic`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`yangyangib`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	4
+
+[layer variation]
+	2150
+	`at_glovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_glovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_glovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[routing priority]
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[possible kiri protect]

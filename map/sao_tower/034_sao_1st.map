@@ -1,0 +1,108 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_03.til`
+	`tile/sao_1st_04.til`
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_04.til`
+[/tile]
+
+[background animation]
+	[ani info]
+		[filename]
+			`animation/far_sao_1st.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	475	1315	563	1310	447	1370	523	1370
+
+[dungeon start area]
+	617	198	74	44
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[animation]
+	`animation/door_sao_1st_l.ani`
+	`[normal]`	-51	-114	0
+	`animation/door_sao_1st_r.ani`
+	`[normal]`	1387	-117	0
+	`animation/bottom_sao_1st_01.ani`
+	`[bottom]`	-41	260	0
+	`animation/bottom_sao_1st_02.ani`
+	`[bottom]`	648	260	0
+	`animation/bottom_sao_1st_03.ani`
+	`[bottom]`	1337	260	0
+	`animation/bottom_sao_1st_01.ani`
+	`[bottom]`	189	260	0
+	`animation/bottom_sao_1st_03.ani`
+	`[bottom]`	878	260	0
+	`animation/bottom_sao_1st_03.ani`
+	`[bottom]`	1108	260	0
+	`animation/bottom_sao_1st_01.ani`
+	`[bottom]`	419	260	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	84	-214	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	309	-212	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	530	-212	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	758	-213	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	981	-214	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	1206	-214	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	1430	-215	0
+	`animation/sao_1st_leftdoor.ani`
+	`[normal]`	10	-32	0
+	`animation/sao_1st_leftdoor_fire.ani`
+	`[normal]`	12	-32	0
+	`animation/sao_1st_rightdoor.ani`
+	`[normal]`	1365	-35	0
+	`animation/sao_1st_rightdoor_fire.ani`
+	`[normal]`	1363	-35	0
+[/animation]
+
+[ai character]
+	5809	621	230	0
+	`[monster]`
+	`[boss]`	2	0	5811	621	230	0
+	`[monster]`
+	`[boss]`	2	0	5812	621	230	0
+	`[monster]`
+	`[boss]`	2	0
+[/ai character]
+
+[event monster position]
+	596	224	0	533	309	0	456	241	0	492	308	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

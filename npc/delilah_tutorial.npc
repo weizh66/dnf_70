@@ -1,0 +1,48 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace01.img`	6
+
+[big face]
+	`Map/Npc/NpcFace01.img`	5
+
+[popup face]
+	`Map/Npc/NpcFace01.img`	7
+
+[field animation]
+	`Animation/Delilah.ani`
+
+[field wav]
+	`R_NPC_DERILLA_AMB_LOOP`
+
+[popup wav]
+	`R_NPC_DERILLA_TALK`
+	`R_NPC_DERILLA_FAREWELL`
+
+[look around]
+	0
+
+[name]
+	`修理商德利拉`
+
+[field name]
+	`修理商德利拉`
+
+[dialog]
+	1	1	99	-1	0	0
+	` 你好，冒險家！我叫做德利拉。
+ 謝謝你去教訓了那些可惡的哥布林。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` 你失去了不少HP啊！
+ 在前往哥布林BOSS房之前，請帶著這個藥水吧。
+`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	` 如吃下這個藥水，HP就會恢復的，所以請以收下吧！
+ 使用的方法是點按藥水右鍵，或是放在快捷欄裡，點按快捷鍵就可以了。`
+[/dialog]

@@ -1,0 +1,46 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	10
+[/check count]
+
+[limit showing msg]
+	1
+
+[limit dungeon index]
+	67
+[/limit dungeon index]
+
+[level]
+	10	99
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26736	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`自身或隊友協助下， 被絕望之泰瑪特的絕望披風技能束縛的隊員不死。`
+
+[condition data]
+	0
+	`成功次數 : %d / %d`
+[/condition data]

@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`阿拉德 BHC`
+
+[explain]
+	` 被攻擊時，以2%%的機率使自身恢復5%%的HP最大值。`
+
+[flavor text]
+	`<活動>  與DNF同在的BHC！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	88
+
+[custom animation]
+	`TitleAnimation/dnf_bhc.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	30
+
+[HP MAX]
+	100
+
+[physical attack]
+	8
+
+[physical defense]
+	5
+
+[magical attack]
+	8
+
+[magical defense]
+	5
+
+[HP regen speed]
+	45
+
+[move speed]
+	20
+
+[if]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[restore]
+		`HP`
+		`%`	5	5000
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

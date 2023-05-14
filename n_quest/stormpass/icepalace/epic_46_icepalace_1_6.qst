@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	42
+
+[complete npc index]
+	42
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	46	99
+
+[pre required quest]
+	4546
+[/pre required quest]
+
+[monster reward item]
+	61704	44	1	4289	2	100	5	61704	44	2	4289	3	100	5	61704	44	3	4289	3	100	5
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4289	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	15000	1138	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`發現線索`
+
+[depend message]
+	`既然事情到現在這份上， 就算發現的是根稻草， 我們也得抓住呀。 仔細想想， 敏泰口中的那些碎片， 很可能就是那些被撕掉的書頁……
+嗯， 那些被撕掉的書頁會不會就藏在那個峽谷的某處呢？ 你能不能再去一趟雪霧峽谷看看？
+呵呵， 我覺得越不了解這段傳說的人去那就越安全， 所以才會拜托你的。`
+
+[condition message]
+	`    前往萬年雪山的『冰雪宮殿』， 收集5張[被撕掉的牛皮書]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`這真的太令人吃驚了， 以我現有的經歷和認知告訴我這件事絕對不可能發生， 但……`
+
+[quest point]
+	4

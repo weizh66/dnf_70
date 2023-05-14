@@ -1,0 +1,213 @@
+#PVF_File
+
+[name]
+	`火焰刃 - 布蘭茲`
+
+[basic explain]
+	`施放[拔刀斬]時， 可以使命中的敵人進入灼傷狀態。
+對灼傷狀態下敵人的傷害 +20%%`
+
+[detail explain]
+	`    施放[拔刀斬]時， 可以使命中的敵人進入灼傷狀態7秒； 灼傷狀態下的敵人， 每0.5秒受到400點傷害。 (若敵人高于Lv70， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對灼傷狀態下敵人的傷害 +20%% (在決斗場中 +10%%)`
+
+[flavor text]
+	`    是否讓火焰吞噬這一切？ 我的力量， 由你來決定。  --布蘭茲`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`beamswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	65
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	59
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	5
+
+[durability]
+	38
+
+[price]
+	126000
+
+[repair price]
+	105840
+
+[value]
+	100800
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[equipment physical attack]
+	627	571
+
+[equipment magical attack]
+	607	553
+
+[separate attack]
+	411	278
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[variation]
+	12	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[skill]
+		`swordman`	9
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[active status]
+		`burn`	69	5600	0	1	3000
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[fair pvp]`
+		`[assault]`
+	[/module]
+	[skill]
+		`swordman`	9
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[active status]
+		`burn`	69	560	0	1	3000
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[fair pvp]`
+		`[assault]`
+	[/module]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[routing priority]
+	`swordman`	1
+[/routing priority]
+
+[possible kiri protect]

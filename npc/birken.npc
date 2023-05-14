@@ -1,0 +1,64 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	27
+
+[big face]
+	`Map/Npc/NpcFace02.img`	26
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	28
+
+[field animation]
+	`Animation/Npc_bk.ani`
+
+[field wav]
+	``
+
+[popup wav]
+	`R_NPC_BIRKEN02_TALK`
+	`R_NPC_BIRKEN02_FAREWELL`
+
+[role]
+	`[guild]`	0
+	`[power war]`	1
+	`[create guild agit]`	0
+	`[delete guild agit]`	0
+	`[item shop]`	37
+[/role]
+
+[look around]
+	0
+
+[skill]
+	`[common]`	200	201
+[/skill]
+
+[name]
+	`博肯`
+
+[field name]
+	`博肯`
+
+[quest speech]
+	`噓！ 小點聲， 我有個緊急任務需要你幫忙。`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::18>我不會輕易透露我的身份， 不過你放心， 到了該讓你知道的時候我會告訴你的。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::18>想了解怪物的弱點？ 這不是件容易的事， 通常需要和它們戰斗并不斷積累經驗。 如果你要嘗試， 就多和它們較量并找出它們的弱點吧！`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	1	0
+	`<npc::18>與強者對決， 即使失敗了， 也不要氣餒。 因為失敗帶來的痛苦， 會讓你更加堅強！`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	2	0
+	`<npc::23>我要向帝國建議重新評估你們的實力。`
+[/dialog]

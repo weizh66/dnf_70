@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`瑪爾的天權胸甲`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[creation rate]
+	200
+
+[physical attack]
+	21
+
+[magical attack]
+	14
+
+[price]
+	37800
+
+[repair price]
+	151200
+
+[value]
+	151200
+
+[equipment physical defense]
+	1620	1548
+
+[skill levelup]
+	`[swordman]`	4	1
+	`[demonic swordman]`	4	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	36
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`瑪爾的天權輕甲  套裝`
+
+[set item]
+	10868	12868	14867	18868	16867
+[/set item]
+
+[set ability]
+	[if]
+		[cooltime]
+			32000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			2
+		[active status]
+			`bless`	40	13	13	13	13
+	[/then]
+	[stuck]
+		-3
+	[skill levelup]
+		`[swordman]`	9	1
+		`[swordman]`	68	1
+		`[demonic swordman]`	9	1
+		`[demonic swordman]`	68	1
+	[/skill levelup]
+	[fullset basic explain]
+		`攻擊時以2%%的機率讓自己陷入祝福狀態`
+	[fullset detail explain]
+		`攻擊時以2%%的機率20秒內讓自己陷入祝福狀態，力量增加13，體力增加13，智能增加13，精神力增加13。`
+[/set ability]
+
+[possible kiri protect]

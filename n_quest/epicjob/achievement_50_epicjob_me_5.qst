@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	958
+
+[name]
+	`覺醒 - 月之女皇 (1/4)`
+
+[depend message]
+	`你已經知道， 在召喚之前， 必須先和召喚獸締結契約。 像召喚師凱蒂與使徒卡西利亞斯簽訂契約后， 就可以隨時召喚他。
+那如果有些召喚師找不到合適的召喚獸要怎么辦？
+呵呵~這時候就可以用到‘契約共享’法則， 這個法則規定了相互信賴的召喚師之間可以共享召喚獸。
+但是并不是所有人都遵循這個法則。 目前只有兩個召喚師組織這樣做， 其中一個就是繼承‘第二個真相’的‘月之女皇’。
+據說月之女皇的領袖， 也就是凱蒂正在尋找可以共享召喚術的人才。 只是條件有些嚴苛哦！`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`你真的想要加入月之女皇？`

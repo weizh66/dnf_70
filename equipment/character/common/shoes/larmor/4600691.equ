@@ -1,0 +1,131 @@
+#PVF_File
+
+[name]
+	`封·深海熔巖戰靴`
+
+[basic explain]
+	`  擊殺敵人時， 使自身增加1點火屬性強化。 （最多疊加15次）
+  被攻擊時， 使自身增加1點火屬性強化。 （最多疊加5次）
+  （解除裝備后效果消失）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12568
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	56
+
+[magical attack]
+	38
+
+[move speed]
+	70
+
+[stuck resistance]
+	30
+
+[HP MAX]
+	200
+
+[MP MAX]
+	200
+
+[need material]
+	3821	900
+
+[price]
+	77400
+
+[repair price]
+	61920
+
+[value]
+	61920
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1746	1584
+
+[water resistance]
+	12
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	10
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		200
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		261
+[/then]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		262
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

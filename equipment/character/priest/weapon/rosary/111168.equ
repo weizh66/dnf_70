@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`卡勒特的黑鐵念珠`
+
+[basic explain]
+	`  施放技能時，有3%%的幾率發動警衛隊長庫爾基普的EMP爆炸攻擊。（冷卻時間10秒）
+  被EMP爆炸命中的敵人，會進入眩暈狀態2秒。
+  被EMP爆炸命中的敵人，會進入感電狀態3秒；若攻擊感電狀態的敵人，則每次攻擊會附加2000點的傷害。
+  角色400px范圍內，每存在1個眩暈狀態的敵人，即可增加自身3%%的魔法暴擊率（最多重疊5次）
+  角色400px范圍內，每存在1個感電狀態的敵人，即可增加自身40點的智力（最多重疊5次）
+  （上述所有異常狀態，若敵人高于Lv87，則減少進入異常狀態的幾率和效果；反之，則增加幾率和效果）`
+
+[flavor text]
+	`  據說這種金屬的導電效果是最好的，可以給那些動不動就發毒誓“什么五雷轟頂”的人用。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	92
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[need material]
+	3500	1300
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	819	733
+
+[equipment magical attack]
+	1047	936
+
+[separate attack]
+	552	363
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/priest/rosary/rosary.img`	94
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	33	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[if]
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[passive object]
+		60094	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[variable stat]
+	`magical critical hit`
+	`+`	3
+	`object number`
+	`enemy`	400
+	`stun`	5
+	`magical attack`
+	`+`	40
+	`object number`
+	`enemy`	400
+	`lightning`	5
+[/variable stat]
+
+[possible kiri protect]

@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 救世主 (1/6)`
+
+[depend message]
+	`你現在的身體狀態很糟糕， 不知你注意到沒有？ 如果以后想要繼續戰斗下去， 必須得采取一些措施了， 是不是？
+過來看看， 看來我得好好檢查一下你的身體了。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`你身上背負的罪孽正在試圖壓垮你， 這樣下去身體早晚會吃不消的。
+雖然你有圣痕， 但憑這種身體狀態是不能再這么打下去了。 現在你們教團本來就已經被使徒米歇爾搞得支離破碎， 萬一你在這時候發生了意外， 那可怎么辦？ 要不就到此為止吧， 怎么樣？
+……哎， 如果你執意要那么做， 我也沒辦法。 既然如此， 干脆就去挑戰你的極限， 獲得‘救世主’的資格吧， 你覺得如何？ 這樣一來， 你既能獲得新的力量， 又能駕馭壓在你身上的原罪了。`
+
+[target character]
+	`[at priest]`	4	1
+[/target character]
+
+[relation quest]
+	6823
+
+[job change quest]
+	3
+
+[grow number]
+	0

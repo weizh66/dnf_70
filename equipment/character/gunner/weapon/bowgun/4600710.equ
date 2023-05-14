@@ -1,0 +1,246 @@
+#PVF_File
+
+[name]
+	`封·冰火之蓮`
+
+[basic explain]
+	`    ↑↓+[寵物技能鍵]輸入時， 攻擊時發動灼傷、 冰凍Buff， 效果持續60秒。
+    冰凍Buff狀態下攻擊時， 有30%%的幾率使敵人進入冰凍狀態2秒。
+    灼傷Buff狀態下攻擊時， 有5%%的幾率使敵人進入灼傷狀態3秒。灼傷Buff狀態下攻擊時， 有30%%的幾率使敵人進入灼傷狀態3秒。
+    冰屬性攻擊時， 附加15%%的傷害。
+    火屬性攻擊時， 附加15%%的傷害。`
+
+[detail explain]
+	`    ↑↓+[寵物技能鍵]輸入時， 攻擊時發動灼傷、 冰凍Buff， 效果持續60秒。 (冷卻時間60秒； 解除裝備後效果消失)
+    冰凍Buff狀態下攻擊時， 有5%%的幾率使敵人進入冰凍狀態2秒。
+    灼傷Buff狀態下攻擊時， 有5%%的幾率使敵人進入灼傷狀態3秒； 灼傷狀態下的敵人， 每0.5秒受到1000點傷害。
+    冰屬性攻擊時， 附加15%%的傷害。
+    火屬性攻擊時， 附加15%%的傷害。(若敵人高於Lv91， 則減少該裝備所有異常狀態的發動幾率和效果； 反之， 則增加幾率和效果)`
+
+[flavor text]
+	`    女人果然都是善變的， 壹會對妳熱情如火，壹會又冷若冰霜……  --卡坤`
+
+[grade]
+	82
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[magical attack]
+	32
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	755	630
+
+[equipment magical attack]
+	839	700
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	3
+
+[water attack]
+	35
+
+[fire attack]
+	35
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/bowgun/bowgun.img`	121
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+[/elemental property]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[cooltime]
+		60000
+	[use command]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		218
+[/then]
+
+[if]
+	[my appendage]
+		218
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		30
+	[active status]
+		`freeze`	100
+[/then]
+
+[if]
+	[my appendage]
+		218
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		30
+	[active status]
+		`burn`	100	120000	0	1	0
+[/then]
+
+[if]
+	[element]
+		`water`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[element]
+		`fire`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[possible kiri protect]

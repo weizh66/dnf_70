@@ -1,0 +1,104 @@
+#PVF_File
+
+[set name]
+	`永恒的戰斗  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	12
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	12
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[mage]`	4
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	4
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[天擊]攻擊力 +10%%
+[龍牙]攻擊力 +15%%
+[雙重錘擊]攻擊力 +20%%
+[魔法護盾]HP與MP的變換比率 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	40
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	40
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	123
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	123
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	123
+		`[dungeon type]`
+		`[static]`	11
+		`%`	-50
+		`[mage]`	117
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[炫紋融合]攻擊力 +30%%
+[炫紋融合]蓄氣時間上限 -50%%
+[自動炫紋]超大炫紋生成幾率 +20%%
+[炫紋碎霸]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	69
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-60
+		`[mage]`	69
+		`[dungeon type]`
+		`[static]`	0
+		`+`	3
+		`[mage]`	69
+		`[dungeon type]`
+		`[level]`	2
+		`%`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[煌龍偃月]冷卻時間 -60%%
+[煌龍偃月]龍之炫紋數量 +3
+[煌龍偃月]刺擊速度 +100%%`
+[/piece set ability]

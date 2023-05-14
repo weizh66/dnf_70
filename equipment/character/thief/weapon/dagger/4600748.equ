@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`封·銀魂`
+
+[basic explain]
+	`[月弧]發動幾率 +16.7
+[月輪舞]持續時間 +60秒
+[月輪舞]冷卻時間 -30%%
+[月輪舞]終結追擊時剩余的連擊點數 +1
+    釋放[月輪舞]時，在冷卻時間內使自身增加15%%的攻擊速度、 15%%的移動速度、 200點力量和15點物理攻擊力。
+(解除裝備後消失)`
+
+[flavor text]
+	`    不叫銀魂，難道妳們喜歡銀靈嗎？`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3821	1200
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	742
+
+[equipment magical attack]
+	864	742
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	10
+
+[skill levelup]
+	`[thief]`	57	2
+	`[thief]`	9	2
+	`[thief]`	56	1
+[/skill levelup]
+
+[light attack]
+	30
+
+[icon]
+	`Item/new_equipment/01_weapon/thief/dagger/dagger.img`	122
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[skill data up]
+	`[thief]`	56
+	`[all]`
+	`[level]`	0
+	`+`	167
+	`[thief]`	57
+	`[cooltime]`	0
+	`%`	-30
+	`[thief]`	57
+	`[all]`
+	`[level]`	0
+	`+`	60000
+	`[thief]`	57
+	`[all]`
+	`[static]`	43
+	`+`	1
+[/skill data up]
+
+[if]
+	[use skill]
+		`thief`	57
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		`skill level info`	57	0	-1
+	[appendage]
+		236
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,161 @@
+#PVF_File
+
+[name]
+	``
+
+[basic explain]
+	`    攻擊時，增加5%%的傷害。
+ 
+  在地下城中，當HP為15%%以下時，大幅提高角色屬性。`
+
+[detail explain]
+	`    攻擊時，增加5%%的傷害。
+(決鬥場中效果減半)
+ 
+  在地下城中，當HP為15%%以下時：
+- 力量和智力各增加50點
+- 移動、攻擊、施放速度各增加5%%
+- 攻擊時,額外附加5%%的傷害`
+
+[flavor text]
+	`    給點陽光就燦爛， 給點洪水就泛濫； 破鍋自有破鍋蓋， 醜鬼自有醜女愛； 只要情深意似海， 麻子也能放光彩！
+    祝大家情人節快樂！
+      --一個失戀多次但不氣餒的青年`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	7
+
+[custom animation]
+	`TitleAnimation/valentine.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	50
+
+[MP MAX]
+	100
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[HP regen speed]
+	10
+
+[MP regen speed]
+	20
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[hit recovery]
+	30
+
+[room list move speed rate]
+	0.1
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	5
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	2
+	[/then]
+[/pvp]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[change status]
+		`hp`
+		`<`
+		`%`	15
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`move speed`
+		`+`	50
+	[stat by condition]
+		`attack speed`
+		`+`	50
+	[stat by condition]
+		`cast speed`
+		`+`	50
+	[appendage]
+		337
+[/then]
+
+[if]
+	[my appendage]
+		337
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

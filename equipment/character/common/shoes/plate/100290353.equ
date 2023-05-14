@@ -1,0 +1,123 @@
+#PVF_File
+
+[name]
+	`星辰之命運戰靴`
+
+[basic explain]
+	``
+
+[detail explain]
+	``
+
+[flavor text]
+	`該裝備可以通過合成進行升級。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12587
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[magical attack]
+	140
+
+[physical defense]
+	140
+
+[magical defense]
+	110
+
+[need material]
+	3826	1000
+
+[move speed]
+	40
+
+[price]
+	115200
+
+[repair price]
+	92160
+
+[value]
+	92160
+
+[creation rate]
+	125
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	3180	2910
+
+[physical critical hit]
+	7
+
+[magical critical hit]
+	7
+
+[icon]
+	`item/new_equipment/06_plate/shoes/plate_shoes.img`	61
+
+[field image]
+	`Item/field_equip.img`	19
+
+[equipment type]
+	`[shoes]`	20
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2200
+
+[item group name]
+	`mt shoes`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			20
+		[upper bound level]
+			30
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

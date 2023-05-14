@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	981
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	27699	1	27100	1	27998	1	27554	1	28269	1
+[/reward selection int data]
+
+[relation quest]
+	983
+
+[name]
+	`覺醒 - 弒魂 (2/4)`
+
+[depend message]
+	`‘踏進禁斷之領域的人啊， 邪神之怖拉修降臨的代價就是絕命。’這就是古書后面的那句話。
+我想吉格就是因為召喚了怖拉修卻無法控制， 最終才反而被鬼神拖入了冥界。 像吉格這樣優秀的鬼泣， 都會因為一時的疏忽而喪失了性命……
+所以， 你更加要格外小心。 一定要守住自己的身和心， 才不會被鬼神有機可乘。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`你身上的鬼神氣息好像比以前穩定了……
+沒想到在這么短的時間里， 你就能有如此大的進步， 真是令人吃驚！`

@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 永生者 (1/6)`
+
+[depend message]
+	`孤獨的信念守護得如何？ 雖然你有如此高尚的信念， 卻被全世界鄙夷， 此刻心里一定是孤獨、 痛苦的吧。
+但恰恰是這種孤獨的信念造就了如今的你。
+沒錯， 憑借你現在的實力一定可以提升自己、 完成進階。 如果有興趣就跟我談談吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`雖然變異成了偽裝者， 但你們‘復仇者’比任何人都真誠高貴。
+為了實現神的旨意使用神圣的力量固然可以， 但有時候打倒神的敵人不得不沾上血跡。
+信仰神明的人又有誰愿意讓自己的雙手沾上血跡呢？ 但你們卻做到了。 雖然在惡魔力量的影響下變成了偽裝者的樣子， 但你們堅守了信仰并為此付出了一切。
+既然具備了如此深厚的信仰， 相信很快就能達到更高的境界， 并能夠以此來抗拒奧茲瑪的幻聽。
+在苦難中你成功守護了自己， 這就是我能給你的一件小小的禮物。 你愿意接受嗎？`
+
+[target character]
+	`[priest]`	4	1
+[/target character]
+
+[relation quest]
+	6807
+
+[job change quest]
+	3
+
+[grow number]
+	0

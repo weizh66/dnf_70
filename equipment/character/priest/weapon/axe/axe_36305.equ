@@ -1,0 +1,200 @@
+#PVF_File
+
+[name]
+	`蘇雷德的摩托車前輪`
+
+[basic explain]
+	`近身攻擊時多段攻擊增加2次 
+近身攻擊時以 3%% 的機率讓敵人呈現出血狀態
+不可解體`
+
+[detail explain]
+	`近身攻擊時多段攻擊增加2次（多段攻擊攻擊力每1次5%% 附加傷害，決鬥場內每1次3%% 附加傷害）
+近身攻擊時以 3%% 的機率1秒內讓敵人進入出血狀態，每 0.5秒以100的攻擊力給予傷害。 （高於Lv69的對象得到的機率和效果減少，低於Lv69的對象則會增加。）
+不可解體`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[anti evil]
+	11
+
+[physical attack]
+	43
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[need material]
+	3336	370
+
+[repair price]
+	96768
+
+[value]
+	92160
+
+[equipment physical attack]
+	725	665
+
+[equipment magical attack]
+	513	471
+
+[separate attack]
+	360	242
+
+[icon]
+	`Item/weapon/priest/axe.img`	71
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	20	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[if]
+	[attacker]
+		`character`	-1
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[attacker]
+		`character`	-1
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	64	200
+[/then]
+
+[pvp]
+	[if]
+		[attacker]
+			`character`	-1
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	3
+		[add absolute damage]
+			`all`
+			`%`	3
+	[/then]
+	[if]
+		[attacker]
+			`character`	-1
+		[cooltime]
+			1000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			1000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`bleeding`	64	200
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

@@ -1,0 +1,182 @@
+#PVF_File
+
+[name]
+	` 玄光聖劍`
+
+[basic explain]
+	`攻擊時以5%%的機率讓自己陷入祝福狀態`
+
+[detail explain]
+	`攻擊時以5%%的機率20秒內讓自己陷入祝福狀態，力量增加39，體力增加39，智能增加39，精神力增加39。`
+
+[flavor text]
+	`哼！太可笑。沒可能活下來了。活該你小看了不該小看的人，破滅之火就是你的報應。--虛祖抗魔團`
+
+[grade]
+	42
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	38
+
+[physical attack]
+	30
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	75600
+
+[repair price]
+	302400
+
+[value]
+	302400
+
+[equipment physical attack]
+	376	339
+
+[equipment magical attack]
+	364	328
+
+[separate attack]
+	235	157
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	9
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[elemental property]
+	`[light element]`
+
+[item aura]
+	`equipment physical defense`
+	`+`	50	300
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[active status]
+		`bless`	38	39	39	39	39
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,41 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Poison_bottom_Basic_0.ani`
+	[SOUND]
+		`YUNG_LIQUID_MOVE`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		14	14
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		1	2
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[LEFT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[RIGHT]
+[/BEHAVIOR]

@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	5
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	59	99
+
+[pre required quest]
+	4493
+[/pre required quest]
+
+[job message]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	5
+[/int data]
+
+[dungeon info]
+	1501	-1
+[/dungeon info]
+
+[exception quest]
+	`[urgent]`
+[/exception quest]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[遠古地下城] 強大的支援者`
+
+[depend message]
+	`好。 悲鳴洞穴的狀態怎麼樣呢？ 怪物們喧鬧成一團了嗎？  
+ <npc::0>我不敢一個人去找她！ 是一般的多，那些蟲子噁心死了。 還有一隻超級大的蟲子…… 我不去了！ 絕對不要一個獨自前往！  
+ <npc::1> 巨大的蟲子？ 那大概是說戮蠱吧。 
+ 我本來以為那些蟲子早就因為希洛克而滅亡了… 
+ 若是不想自己去的話，我知道能夠幫忙你的人。 
+ <npc::0> 嗯？ 是誰呢？ 是非常厲害又有正義感的人？ (可以拯救魔界的勇士又多了一位了！ 哈哈哈) 
+ <npc::1>你應該知道那個人是誰！ 去找月光酒館的索西雅。`
+
+[condition message]
+	`前往月光酒館找索西雅談談。`
+
+[solve message]
+	`呃，你不像是來喝酒的，有什麼事嗎？`
+
+[quest point]
+	4

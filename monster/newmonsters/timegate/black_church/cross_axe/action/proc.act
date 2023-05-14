@@ -1,0 +1,40 @@
+#PVF_File
+
+[TRIGGER]
+	[WHICH]
+	[PLAYER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			8000
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[WHICH]
+	[AI CHARACTER]
+	[CHECKUP]
+		[IS INDEX]
+			20435
+		[/IS INDEX]
+		[HP]
+		[>=]
+			21
+		[%]
+		[DISTANCE]
+		[<=]
+			8000
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		1
+	[DO PROC BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`我要用你們的鮮血作為祭奠！`
+			0	0	10
+[/BEHAVIOR]

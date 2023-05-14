@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	1705
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	14	3	702	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1023	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1707
+
+[name]
+	`身體修煉之路 (中級篇)`
+
+[depend message]
+	`這次的任務是去黑暗玄廊處置天之驅逐者， 我丑話說在前頭， 如果你挑戰的地下城難度太低， 我是不會認可的。
+總之， 你自己看著辦吧！ 反正在我眼里， 挑戰難度低的地下城對自身的極限鍛煉沒一點好處！ `
+
+[condition message]
+	`    前往天空之城的『黑暗玄廊』， 處置領主天之驅逐者3次， 要求地下城難度為王者級。 `
+
+[solve message]
+	`做得不錯， 但要想成為武斗家， 這點還遠遠不夠。 `
+
+[quest point]
+	4

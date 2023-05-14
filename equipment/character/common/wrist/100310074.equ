@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`諾比斯的精神支配手鐲 `
+
+[basic explain]
+	`攻擊時以 5%% 的機率3秒內讓敵人陷入混亂狀態
+施展時以 10%% 的機率讓300px 範圍內的所有敵人在3秒內陷入混亂狀態`
+
+[detail explain]
+	`攻擊時以 5%% 的機率，3秒內讓敵人進入混亂狀態。 （高於Lv89的對象得到的機率和效果減少，低於Lv89的對象則會增加。 決鬥場內修正為 1%% 機率）
+施展時以 10%% 的機率讓300px 範圍內的所有敵人 3秒內進入混亂狀態。（高於Lv89的對象得到的機率和效果減少，低於Lv89的對象則會增加。 決鬥場機率修正為2%%）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	35
+
+[physical defense]
+	87
+
+[price]
+	89000
+
+[value]
+	71200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4608	4368
+
+[all activestatus resistance]
+	5
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	82
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	89	1
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		3000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	89	1
+[/then]
+
+[possible kiri protect]

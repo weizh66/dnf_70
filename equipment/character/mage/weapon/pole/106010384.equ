@@ -1,0 +1,285 @@
+#PVF_File
+
+[name]
+	`卡勒特雙頭鷹戰棍`
+
+[basic explain]
+	`    炫紋Buff增加率 +20%%
+    [炫紋融合]Buff增加率 +20%%
+    炫紋攻擊力 +15%%
+    [炫紋融合]攻擊力 +15%%`
+
+[detail explain]
+	`    [炫紋 : 無屬性]Buff增加率 +20%%
+    [炫紋 : 光屬性]Buff增加率 +20%%
+    [炫紋 : 冰屬性]Buff增加率 +20%%
+    [炫紋 : 火屬性]Buff增加率 +20%%
+    [炫紋 : 暗屬性]Buff增加率 +20%%
+    
+    [炫紋融合]Buff增加率 +20%%
+    [炫紋 : 無屬性]攻擊力 +15%%
+    [炫紋 : 光屬性]攻擊力 +15%%
+    [炫紋 : 水屬性]攻擊力 +15%%
+   [炫紋 : 火屬性]攻擊力 +15%% 
+    [炫紋 : 暗屬性]攻擊力 +15%%
+    [炫紋融合]攻擊力 +15%%`
+
+[flavor text]
+	`    聽說有個神槍手差點因為敵軍的詭計而喪命， 好在他的朋友救了他， 不過自己卻身受重傷， 不治身亡……神槍手將撕咬朋友屍體的老鷹頭顱擊落， 然後至此一去不復返`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	117
+
+[attack speed]
+	50
+
+[stuck]
+	-1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	983	879
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/mage/pole/pole.img`	109
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`POLE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2400
+
+[item group name]
+	`pole`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[skill data up]
+	`[mage]`	5
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[mage]`	6
+	`[all]`
+	`[level]`	4
+	`%`	20
+	`[mage]`	6
+	`[all]`
+	`[level]`	11
+	`%`	20
+	`[mage]`	7
+	`[all]`
+	`[level]`	7
+	`%`	20
+	`[mage]`	8
+	`[all]`
+	`[level]`	4
+	`%`	20
+	`[mage]`	8
+	`[all]`
+	`[level]`	11
+	`%`	20
+	`[mage]`	9
+	`[all]`
+	`[level]`	4
+	`%`	20
+	`[mage]`	123
+	`[all]`
+	`[level]`	0
+	`%`	15
+	`[mage]`	123
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[mage]`	123
+	`[all]`
+	`[level]`	2
+	`%`	15
+	`[mage]`	123
+	`[all]`
+	`[level]`	4
+	`%`	15
+	`[mage]`	5
+	`[all]`
+	`[level]`	1
+	`%`	15
+	`[mage]`	6
+	`[all]`
+	`[level]`	1
+	`%`	15
+	`[mage]`	7
+	`[all]`
+	`[level]`	1
+	`%`	15
+	`[mage]`	8
+	`[all]`
+	`[level]`	1
+	`%`	15
+	`[mage]`	9
+	`[all]`
+	`[level]`	1
+	`%`	15
+	`[mage]`	5
+	`[all]`
+	`[level]`	6
+	`%`	15
+	`[mage]`	6
+	`[all]`
+	`[level]`	8
+	`%`	15
+	`[mage]`	7
+	`[all]`
+	`[level]`	11
+	`%`	15
+	`[mage]`	8
+	`[all]`
+	`[level]`	8
+	`%`	15
+	`[mage]`	9
+	`[all]`
+	`[level]`	8
+	`%`	15
+	`[mage]`	5
+	`[all]`
+	`[level]`	8
+	`%`	15
+	`[mage]`	6
+	`[all]`
+	`[level]`	10
+	`%`	15
+	`[mage]`	6
+	`[all]`
+	`[level]`	10
+	`%`	15
+	`[mage]`	7
+	`[all]`
+	`[level]`	13
+	`%`	15
+	`[mage]`	8
+	`[all]`
+	`[level]`	10
+	`%`	15
+	`[mage]`	9
+	`[all]`
+	`[level]`	10
+	`%`	15
+[/skill data up]
+
+[possible kiri protect]

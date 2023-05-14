@@ -1,0 +1,18 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_fire.img`
+		0
+	[IMAGE POS]
+		-90	-279
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

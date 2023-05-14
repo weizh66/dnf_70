@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	70	99
+
+[monster reward item]
+	63024	70	-1	4805	1	50	50	63031	71	-1	4805	1	50	50	61277	72	-1	4805	1	50	50	61615	73	-1	4805	1	50	50	61742	74	-1	4805	1	50	50	61614	75	-1	4805	1	50	50	62112	76	-1	4805	1	50	50	62105	77	-1	4805	1	50	50
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4805	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 時間之門`
+
+[depend message]
+	`真是太奇怪了…… 為什麼時間碎片流入了時間之門…
+這也是因為受到了西嵐的影響嗎… 必須進入西嵐開啟的時間之門，找回時間的碎片。`
+
+[condition message]
+	`擊敗時間之門地區的頭目，收集時間碎片交給最後的先知者`
+
+[solve message]
+	`這樣就找回部分的時間力量了……但是現在還差得遠。`
+
+[quest point]
+	4

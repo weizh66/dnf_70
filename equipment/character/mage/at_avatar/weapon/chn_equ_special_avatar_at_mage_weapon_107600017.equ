@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`神圣燭臺`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/spear/spear.img`	114
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		38	0
+	[layer variation]
+		2150
+		`at_speara`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[layer variation]
+		200
+		`at_speard`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/mage/weapon/spear/`
+[/expand ani]
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[int data]
+	654321	4	1	100	0	70	2	100	0	70	2	100	0	70	3	100	0	70	4	50	0	80	2	100	0	0
+[/int data]
+
+[string data]
+	`Common/Particle/09childrenday_pr.ptl`
+[/string data]
+
+[avatar func filter]
+	2

@@ -1,0 +1,226 @@
+#PVF_File
+
+[name]
+	`虛祖寶具 - 念氣之源`
+
+[basic explain]
+	`所有攻擊力 +45%%
+裝備時，使1000PX範圍內的敵人光屬性抗性降低60點。
+強化蓄念炮，念氣波，念氣罩，究極念氣罩，光之兵刃的效果。
+`
+
+[detail explain]
+	`所有攻擊力 +45%%
+裝備時，使1000PX範圍內的敵人光屬性抗性降低60點。
+強化蓄念炮，念氣波，念氣罩，究極念氣罩，光之兵刃的效果。
+[flavor text]
+`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[need material]
+	3850	500
+
+[magical attack]
+	120
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[light attack]
+	150
+
+[need material]
+	3850	500
+
+[price]
+	500000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[anti evil]
+	22
+
+[equipment physical attack]
+	1512	1583
+
+[equipment magical attack]
+	1604	1648
+
+[separate attack]
+	987	987
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	164
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	44	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	44	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	78
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-80
+	`[fighter]`	42
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	42
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[fighter]`	98
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	98
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[fighter]`	30
+	`[all]`
+	`[level]`	0
+	`%`	100
+	`[fighter]`	12
+	`[all]`
+	`[level]`	4
+	`%`	80
+	`[fighter]`	12
+	`[all]`
+	`[level]`	0
+	`%`	100
+[/skill data up]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	45
+	[stat by condition]
+		`magical attack bonus`
+		`%`	45
+	[stat by condition]
+		`separate attack`
+		`%`	45
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	1000
+	[duration]
+		500
+	[aura active]
+		`light resistance`
+		`+`	-60	0
+[/then]
+
+[possible kiri protect]

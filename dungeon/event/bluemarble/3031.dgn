@@ -1,0 +1,62 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`根特南門`
+
+[explain]
+	`卡勒特統治了強者至尊的世界——無法地帶後， 開始對皇都根特進行反擊， 不過這次的反擊和之前的攻擊有天壤之別……在卡勒特大規模的兵力反擊下， 冒險家和皇都根特都陷入了絕境。 對冒險家來說， 當前最重要的是能保住性命。`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act6.img`
+
+[worldmap pattern info]
+	1	3
+	`WorldMap/SelectdungeonSlot/gent.img`	2
+
+[minimum required level]
+	99
+
+[basis level]
+	60
+
+[experience increasing point]
+	1.2
+
+[champion]
+	6	12	18	24	26
+
+[special passive object item]
+	0	-1	3	1089	1000	1090	1000	3217	1000	1	-1	1	3217	1000
+[/special passive object item]
+
+[pathgate object]
+	5530	5531	5532	5533	5534	5535	5536	5537	5538	5539
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[event monster]
+	1	3000	61728	1	300	80	1
+[/event monster]

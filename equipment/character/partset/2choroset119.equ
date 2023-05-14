@@ -1,0 +1,162 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-30
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	3
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[冷血突刺]冷卻時間 -30%%
+[冷血突刺]多段攻擊次數上限 +1次
+[冷血突刺]多段攻擊間隔減少
+[冷血突刺]刺擊攻擊力 +15%% 
+[冷血突刺]颶風大小 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	1
+		`+`	2
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-30
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	3
+		`+`	10
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	3
+		`+`	3
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	0
+		`+`	45
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	10
+		`+`	15
+		`[demonic lancer]`	56
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[冷血突刺]冷卻時間 -15%%
+[冷血突刺]多段攻擊次數上限 +2
+[冷血突刺]多段攻擊間隔減少
+[冷血突刺]刺擊攻擊力 +20%%
+[冷血突刺]旋風大小 +10%%
+[冷血突刺]無色小晶塊消耗量 +1
+[奪命亂舞]冷卻時間 -20%%
+[奪命亂舞]斬擊次數 +3次
+[奪命亂舞]斬擊速度增加
+[奪命亂舞]最后一擊攻擊力 +20%%
+[奪命亂舞]范圍 +15%%
+[不滅戰戟]暴擊傷害增加量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	1
+		`+`	2
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-30
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	3
+		`+`	20
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	3
+		`+`	6
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	0
+		`+`	45
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	10
+		`+`	20
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[冷血突刺]多段攻擊次數上限 +2
+[冷血突刺]多段攻擊間隔減少
+[冷血突刺]刺擊攻擊力 +35%%
+[冷血突刺]旋風大小 +20%%
+[冷血突刺]無色小晶塊消耗量 +1
+[奪命亂舞]冷卻時間 -30%%
+[奪命亂舞]斬擊次數 +6次
+[奪命亂舞]斬擊速度增加
+[奪命亂舞]最后一擊攻擊力 +50%%
+[奪命亂舞]范圍 +20%%
+[奪命亂舞]無色小晶塊消耗量 +1`
+[/piece set ability]

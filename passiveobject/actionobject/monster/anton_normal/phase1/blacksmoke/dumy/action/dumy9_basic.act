@@ -1,0 +1,62 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/dumy9_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		0	0
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69313
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			10000
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[OFF]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[FRAME]
+		1	1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70392
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			10000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

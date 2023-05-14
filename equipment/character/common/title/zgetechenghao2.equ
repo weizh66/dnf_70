@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`S.A.O`
+
+[explain]
+	`  進入地下城后，力量、智力、體力和精神各增加60點；攻擊速度、移動速度和技能釋放速度增加6%%。`
+
+[flavor text]
+	`<sao禮包稱號>`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	620
+
+[custom animation]
+	`TitleAnimation/2013_sao_sao.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[equipment physical attack]
+	55	40
+
+[equipment magical attack]
+	55	40
+
+[separate attack]
+	65	50
+
+[anti evil]
+	9
+
+[all elemental attack]
+	20
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[room list move speed rate]
+	0.2
+
+[if]
+	[keep my state]
+		`stand`	1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		100
+	[stat]
+		`physical attack`
+		`+`	60
+	[stat]
+		`physical defense`
+		`+`	60
+	[stat]
+		`magical attack`
+		`+`	60
+	[stat]
+		`magical defense`
+		`+`	60
+	[stat]
+		`attack speed`
+		`+`	60
+	[stat]
+		`cast speed`
+		`+`	60
+	[stat]
+		`move speed`
+		`+`	60
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

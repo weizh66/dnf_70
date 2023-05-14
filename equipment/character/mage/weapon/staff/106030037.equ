@@ -1,0 +1,286 @@
+#PVF_File
+
+[name]
+	`馬賢的鳳頭琴`
+
+[basic explain]
+	`光電鰻，雷旋技能施展時雷擊目前技能的剩餘冷卻時間減少5%%
+冰霜雪人]，施展冰牆技能時極冰盛宴技能的目前剩餘冷卻時間減少5%%
+暗影夜貓，虛無之球技能施展時黑洞技能的目前剩餘冷卻時間減少5%%
+傑克爆彈，烈焰衝擊技能施展克降臨技能的目前剩餘冷卻時間減少5%%
+連續發射技能施展時元素轟炸技能的目前剩餘冷卻時間減少10%% 
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[attack speed]
+	-100
+
+[need material]
+	3338	1000
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	764	716
+
+[equipment magical attack]
+	965	905
+
+[separate attack]
+	481	327
+
+[all elemental attack]
+	6
+
+[icon]
+	`item/new_equipment/01_weapon/mage/staff/staff.img`	103
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2150
+	`at_staffa`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_staffd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`STAFF_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2400
+
+[item group name]
+	`staff`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	1
+	`mage`	2
+	`at mage`	1
+[/routing priority]
+
+[if]
+	[event use skill]
+		`mage`	17
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		55
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	31
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		55
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	16
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		59
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	56
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		59
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	18
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		58
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	26
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		58
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	15
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		27
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	57
+	[/event use skill]
+	[character]
+		`mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		27
+		`%`	-5
+[/then]
+
+[if]
+	[event use skill]
+		`at mage`	25
+	[/event use skill]
+	[character]
+		`at mage`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		30
+		`%`	-10
+[/then]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

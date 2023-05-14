@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`怒雷麒麟`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使敵人進入感電狀態。
+    攻擊時， 有5%%的幾率出現閃電。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入感電狀態4秒； 若攻擊感電狀態的敵人， 則每次攻擊都會附加230點傷害。 (若敵人高于Lv65， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    攻擊時， 有5%%的幾率出現閃電。`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`club`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	3400
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/swordman/club.img`	58
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	35
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	66
+
+[equipment physical attack]
+	686	620
+
+[equipment magical attack]
+	593	536
+
+[separate attack]
+	378	255
+
+[attack speed]
+	-30
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		6000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`lightning`	65	230
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48082	0	0	0	65	0
+		``
+	[/passive object]
+[/then]
+
+[stuck]
+	-1
+
+[variation]
+	10	5
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`STICK_TOUCH`
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

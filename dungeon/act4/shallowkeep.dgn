@@ -1,0 +1,158 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`淺棲之地`
+
+[explain]
+	`暗精靈城鎮突然爆發傳染病， 很多暗精靈因傳染病失去了性命。 暗精靈認為這是人類帶來的災難， 便向貝爾瑪爾公國發動戰爭。 暗精靈的煉金大師摩根想找出傳染病的根源， 他獨自一人進入了暗黑城地區的淺棲之地， 但最近有消息說他失蹤了……`
+
+[entering title]
+	`Title/ShallowKeep.ani`
+
+[cutscene image]
+	`Map/CutScene/UnderFoot.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	2	1
+	`WorldMap/SelectdungeonSlot/noierfera.img`	0
+
+[minimum required level]
+	37
+
+[basis level]
+	40
+
+[coin limit]
+	4
+
+[experience increasing point]
+	1.0
+
+[champion]
+	7	14	21	28	30
+
+[special passive object item]
+	0	-1	3	1080	700	1081	1000	1082	2500	1	-1	0	2	-1	0	3	41	0
+[/special passive object item]
+
+[pathgate object]
+	441	442	443	444	445	446	447	448	449	450
+
+[maze info]
+
+[size]
+	4	5
+
+[greed]
+	`BBNNNNEE
+ JJGGDDMM
+ KKAAAAKK
+ LLNNNNOO
+ CCCCCCCC`
+
+[map specification]
+	1	0	4229	4231	4230
+[/map specification]
+
+[map specification]
+	2	0	4229	4231	4232
+[/map specification]
+
+[map specification]
+	1	3	4203	4204	4205	4221
+[/map specification]
+
+[map specification]
+	2	3	4203	4204	4222	4206
+[/map specification]
+
+[start map]
+	1	4	2	4
+[/start map]
+
+[boss map]
+	0	0	3	0
+[/boss map]
+
+[seal door map index]
+	60014
+
+[seal door pos]
+	2	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	1
+
+[hell dungeon]
+	1
+
+[maze info]
+
+[quest connection]
+	0	4420	1
+
+[size]
+	4	5
+
+[greed]
+	`BBNNNNEE
+ JJGGDDMM
+ KKIIAAKK
+ LLPPNNOO
+ CCCCCCCC`
+
+[map specification]
+	1	0	4229	4231	4230
+[/map specification]
+
+[map specification]
+	2	0	4229	4231	4232
+[/map specification]
+
+[map specification]
+	1	3	4238
+[/map specification]
+
+[map specification]
+	1	2	4237
+[/map specification]
+
+[map specification]
+	2	3	4203	4204	4222	4206
+[/map specification]
+
+[start map]
+	1	4	2	4
+[/start map]
+
+[boss map]
+	0	0	3	0
+[/boss map]
+
+[seal door map index]
+	60014
+
+[seal door pos]
+	2	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	1
+
+[hell dungeon]
+	1
+
+[event monster]
+	1	10000	20181033	1	300	80	1
+[/event monster]

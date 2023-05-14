@@ -1,0 +1,63 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATgang.img`
+		116
+	[IMAGE POS]
+		-275	-361
+	[IMAGE ROTATE]
+		-0.5235990285873413
+	[RGBA]
+		255	0	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		65
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/ATgang.img`
+		117
+	[IMAGE POS]
+		-297	-338
+	[IMAGE ROTATE]
+		-0.785398006439209
+	[RGBA]
+		255	0	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		65
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/ATgang.img`
+		118
+	[IMAGE POS]
+		-294	-339
+	[IMAGE ROTATE]
+		-0.8726649880409241
+	[RGBA]
+		255	0	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		250
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/Effect/ATgang.img`
+		119
+	[IMAGE POS]
+		-258	-365
+	[IMAGE ROTATE]
+		-0.34906598925590515
+	[RGBA]
+		255	0	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

@@ -1,0 +1,23 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/PoisonExplosion/Explosion_00_shockwave_n.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[MONSTER]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PULL APPENDAGE]
+		6.0	6.0	12000
+[/BEHAVIOR]

@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	7634
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	7636
+
+[name]
+	`覺醒 - 風林火山 (2/4)`
+
+[depend message]
+	`想要成為風林火山， 自然需要具備相應的能力。
+平時冒險中， 偶爾贏一次， 那是運氣。 如果與多人連續戰斗還能處于不敗之地， 那才叫實力。
+怎么樣？ 對自己的實力有信心嗎？`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`看來這一關對你來說有點太簡單了！`

@@ -1,0 +1,65 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`列車上的海賊`
+
+[explain]
+	`海上列車終於重新運行了， 但卡勒特雇傭的鐵鱗海賊團卻不斷地襲擊鐵道車站， 妄圖控制所有的海上列車。 冒險家們， 請一定要擊退那些搶奪海上列車的突變海洋生物！ 海上列車的命運也將掌握在冒險家們的手中， 它到底是天界繁榮的希望， 還是會變成卡勒特掠奪榨取的工具呢？`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act2.img`
+
+[worldmap pattern info]
+	1	3
+	`WorldMap/SelectdungeonSlot/seatrain.img`	0
+
+[minimum required level]
+	99
+
+[basis level]
+	68
+
+[designate dungeon difficulty]
+	2
+
+[experience increasing point]
+	1.3
+
+[champion]
+	3	6	9	12	9
+
+[pathgate object]
+	5590	5591	5592	5593	5594	5595	5596	5597	5598	5599
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[event monster]
+	1	10000	61728	1	300	80	1
+[/event monster]
+
+[special passive object item]
+	0	-1	1	3296	2000
+[/special passive object item]

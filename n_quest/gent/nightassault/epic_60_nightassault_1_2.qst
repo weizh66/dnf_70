@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5725
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	83	1	61458	1	1	83	1	61804	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`敵人的真面目 (2/2)`
+
+[depend message]
+	`銀勺雜技團？ 好像在哪里聽過……唉~歲數大了， 記性不好啊！
+不過根據你的介紹， 我感覺他們不像是無名小輩……你去調查下他們的老大是誰， 然后回來告訴我。
+我想如果知道老大的名字， 或許我就能想起些什么了吧。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』， 擊敗帕菲斯兄弟， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`一切還順利吧？
+很好！ 快點告訴我， 那些人叫什么？`
+
+[dialog]
+	0	0	16331	0	0	0	0
+	`<monster::61804>女士們先生們， 大家晚上好！
+<monster::61458>感謝大家深夜到此觀看我們的表演。
+<monster::61804>我是西克特。
+ <monster::61458>我是裴特舒。
+<monster::61804>大家可以叫我們帕菲斯兄弟。
+<monster::61458>接下來，
+<monster::61804>我們將為大家獻上最精彩的表演， 同時也是你們人生中最后一次欣賞到的演出！
+<monster::61458>哈哈~話不多說！ 表演開始！
+<monster::61804>希望大家盡情地享受這個美妙的地獄之旅。 嘿嘿嘿~`
+[/dialog]
+
+[quest point]
+	4

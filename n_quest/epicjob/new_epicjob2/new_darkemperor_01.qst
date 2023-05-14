@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 暗街之王 (1/6)`
+
+[depend message]
+	`你說你想為黑暗世界的格斗樹立一套新的秩序？
+嗯……想要嘗試改變墮落之地的出發點倒是不錯， 可真正執行起來很有難度， 指不定哪天就會死于非命啊。
+你要明白這一點， 現在的你不也覺得這件事做起來很有負擔嗎？ 什么？ 你說你要變強， 然后去實現自己的想法？
+哈哈， 真是的……那好吧。 我會幫你提升自己， 屆時就去放手一搏， 改變那個世界吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`現在讓你變強的方法只有一個， 那就是你要把心目中所剩無幾的正義之光全部拋棄掉。
+但我不是讓你成為一個壞人。
+我曾經每提升一階段也不得已地拋棄了一些東西， 比如毫無意義的執著、 希望、 挫敗感和痛苦……當時這些都是阻礙我提升自己的要素。
+最終我將這些東西一一放下， 直到將它們全部拋到腦后， 我才得以真正強大起來。 從我遺忘的經驗來看， 對于現階段的你來說， 最大的阻礙就是你心中那一小團所謂的正義之光。
+干脆放下一切投身到黑暗中吧。 去成為能夠吞噬黑暗的人吧。 你將獲得所想的一切， 登上頂峰。
+屆時你會以你自己的方式去宣讀全新的正義， 在那個世界散發出強烈而耀眼的光芒。`
+
+[target character]
+	`[at fighter]`	3	1
+[/target character]
+
+[relation quest]
+	5365
+
+[job change quest]
+	3
+
+[grow number]
+	0

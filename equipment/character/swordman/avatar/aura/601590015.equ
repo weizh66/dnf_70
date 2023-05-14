@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`圣獸靈心`
+
+[grade]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/aura_cn.img`	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	90
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[equipment physical attack]
+	15	15
+
+[equipment magical attack]
+	15	15
+
+[separate attack]
+	30	30
+
+[aura ability]
+	`[solo teleport]`	30
+[/aura ability]
+
+[aurora graphic effects]
+	2	0
+	`Character/Common/Animation/Aura/shengshou/gh_quanquan.ani`	0
+	`Character/Common/Animation/Aura/shengshou/gh_quanquan2.ani`

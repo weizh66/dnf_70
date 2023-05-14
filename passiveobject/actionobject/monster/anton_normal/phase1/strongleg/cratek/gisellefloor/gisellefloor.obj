@@ -1,0 +1,26 @@
+#PVF_File
+
+[name]
+	`青?石巨人的子?`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/Floor.act`
+
+[team]
+	100
+
+[attack info]
+	`AttackInfo/Exp_attack.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[sound category]
+	`[after object create]`
+	`BRONZEPIG_CRASH`	-1
+[/sound category]

@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`天界機械臂鎧`
+
+[basic explain]
+	`攻擊時以1%% 的機率讓組隊進入加速狀態`
+
+[detail explain]
+	` 攻擊時，以1%%的機率使所有隊員進入加速狀態20秒； 加速狀態下，增加5%%的移動速度和攻擊速度。`
+
+[flavor text]
+	`傳說是天族機械師科薩製作的機械臂。`
+
+[grade]
+	34
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[physical attack]
+	38
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[HP regen speed]
+	55
+
+[price]
+	61200
+
+[repair price]
+	48960
+
+[value]
+	23800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	408	360
+
+[equipment magical attack]
+	306	270
+
+[separate attack]
+	196	130
+
+[skill levelup]
+	`[fighter]`	36	1
+	`[fighter]`	62	2
+	`[at fighter]`	62	2
+	`[at fighter]`	36	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	13
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	2
+
+[layer variation]
+	2790
+	`armc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`armb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	2
+
+[layer variation]
+	2150
+	`at_arma`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_armb`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_armc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_armx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[jump power]
+	30
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		1
+	[reduce probability to human armor at pvp module]
+		78
+	[active status]
+		`haste`	27	5	5
+[/then]
+
+[possible kiri protect]

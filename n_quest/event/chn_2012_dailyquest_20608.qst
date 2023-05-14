@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	68
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	87	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	15	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[魔王]疾馳的列車`
+
+[depend message]
+	`我宣布， 慶祝海上列車重新開通的特別紀念活動 - 疾馳的列車開始啦！
+要不要來試試啊？ 既可以乘坐列車兜風， 又可以盡情地和海賊較量~一箭雙雕的好機會哦！
+千萬不要錯過呀， 現在就剩下四個座位了。 大家快來呀！`
+
+[condition message]
+	`    通關海上列車地區的『奪回西部線』， 要求地下城難度為王者級。`
+
+[solve message]
+	`唉~冒險家們都太出色了， 一次活動就讓我瀕臨破產了……啊， 我的錢啊！！`

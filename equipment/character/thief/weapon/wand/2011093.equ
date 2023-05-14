@@ -1,0 +1,292 @@
+#PVF_File
+
+[name]
+	`巫毒娃娃`
+
+[basic explain]
+	`攻擊時附加40%%暗屬性攻擊
+巫毒娃娃的加持下大幅提升死靈的戰鬥能力
+可以召喚女僵尸萊迪雅釋放地獄之門`
+
+[detail explain]
+	`攻擊時附加40%%暗屬性攻擊
+巫毒娃娃的加持下大幅提升死靈的戰鬥能力
+可以召喚女僵尸萊迪雅釋放地獄之門`
+
+[flavor text]
+	`我願妳跌入冒煙的燉鍋，
+我願黑蛇咬住妳的後腳跟，
+跪地時又被黃蜂螫到，
+夜晚則被臭蟲飽食，
+全盤皆錯，無事對勁`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	150
+
+[attack speed]
+	-100
+
+[anti evil]
+	40
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1299	1299
+
+[equipment magical attack]
+	1580	1580
+
+[separate attack]
+	986	986
+
+[magical critical hit]
+	18
+
+[dark attack]
+	120
+
+[icon]
+	`item/new_equipment/01_weapon/thief/wand/wand.img`	161
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`dark`
+		`%`	40
+[/then]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		711000	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[thief]`	51
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	51
+	`[all]`
+	`[level]`	7
+	`%`	2000
+	`[thief]`	51
+	`[all]`
+	`[level]`	8
+	`%`	20000
+	`[thief]`	51
+	`[all]`
+	`[level]`	9
+	`%`	20000
+	`[thief]`	35
+	`[all]`
+	`[level]`	3
+	`%`	2000
+	`[thief]`	53
+	`[all]`
+	`[level]`	4
+	`%`	100
+	`[thief]`	53
+	`[all]`
+	`[level]`	5
+	`%`	2000
+	`[thief]`	50
+	`[all]`
+	`[level]`	4
+	`%`	100
+	`[thief]`	49
+	`[all]`
+	`[level]`	0
+	`%`	2000
+	`[thief]`	36
+	`[all]`
+	`[level]`	0
+	`%`	2000
+	`[thief]`	37
+	`[all]`
+	`[level]`	6
+	`%`	500
+	`[thief]`	37
+	`[all]`
+	`[level]`	7
+	`%`	500
+	`[thief]`	37
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[thief]`	55
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[thief]`	55
+	`[all]`
+	`[level]`	3
+	`%`	200
+	`[thief]`	39
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	39
+	`[all]`
+	`[level]`	1
+	`%`	2000
+	`[thief]`	39
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	39
+	`[all]`
+	`[level]`	3
+	`%`	4000
+	`[thief]`	40
+	`[all]`
+	`[level]`	0
+	`%`	2000
+	`[thief]`	40
+	`[all]`
+	`[level]`	2
+	`%`	2000
+	`[thief]`	40
+	`[all]`
+	`[level]`	4
+	`%`	2000
+	`[thief]`	40
+	`[all]`
+	`[level]`	5
+	`%`	2000
+	`[thief]`	59
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	59
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	59
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	74
+	`[all]`
+	`[level]`	0
+	`%`	2000
+	`[thief]`	77
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	77
+	`[all]`
+	`[level]`	3
+	`%`	300
+[/skill data up]
+
+[possible kiri protect]

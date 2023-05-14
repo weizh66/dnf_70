@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 極武皇`
+
+[explain]
+	`所謂的極限真的存在嗎？這是為誰釘下的枷鎖？
+而武者，執著於跨越的那道線，又是什?？
+不，不要說出口。如果用語言呈現了，那壹瞬間，無限的可能就將變成塵埃落定的有限。
+如果失去手臂，那我還有腿腳。如果我失去身體，那?我還有意誌！
+掙脫了寶座，拋棄所有已得到的，我只能向前。
+在前無古人的盡頭，我終於頓悟，突破了那壹點。
+那壹點，就是所謂的“極”，已經徹底被我拋在身後。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		130015	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[at fighter]`	41
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+	`[at fighter]`	41
+	`[dungeon type]`
+	`[level]`	4
+	`%`	100
+	`[at fighter]`	91
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+	`[at fighter]`	20
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+[/skill data up]

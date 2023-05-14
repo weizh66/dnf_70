@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`(舊) 悍不畏死之勇氣`
+
+[basic explain]
+	`[圣愈之風]恢復所需的時間 -1秒
+[圣愈之風]恢復量 +20%%`
+
+[flavor text]
+	`    雷米迪亞大教堂為紀念暗黑圣戰中犧牲的圣騎士而特別制作的十字架。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/cross.img`	35
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical defense]
+	49
+
+[magical attack]
+	39
+
+[magical defense]
+	49
+
+[equipment physical attack]
+	532	484
+
+[equipment physical defense]
+	570	560
+
+[equipment magical attack]
+	505	460
+
+[equipment magical defense]
+	570	560
+
+[separate attack]
+	328	220
+
+[cast speed]
+	20
+
+[skill data up]
+	`[priest]`	26
+	`[all]`
+	`[level]`	0
+	`+`	-1000
+	`[priest]`	26
+	`[all]`
+	`[level]`	1
+	`%`	20
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	26	3
+[/skill levelup]
+
+[variation]
+	3	1
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

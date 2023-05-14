@@ -1,0 +1,73 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_fire.img`
+		0
+	[IMAGE POS]
+		-63	-306
+	[IMAGE RATE]
+		-1.0	1.0
+	[RGBA]
+		255	255	255	126
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_fire.img`
+		1
+	[IMAGE POS]
+		-63	-306
+	[IMAGE RATE]
+		-1.0	1.0
+	[RGBA]
+		255	255	255	126
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_fire.img`
+		2
+	[IMAGE POS]
+		-63	-306
+	[IMAGE RATE]
+		-1.0	1.0
+	[RGBA]
+		255	255	255	126
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_fire.img`
+		3
+	[IMAGE POS]
+		-63	-306
+	[IMAGE RATE]
+		-1.0	1.0
+	[RGBA]
+		255	255	255	126
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

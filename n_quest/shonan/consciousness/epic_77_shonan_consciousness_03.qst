@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	126
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	77	99
+
+[pre required quest]
+	4237
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找艾麗絲1`
+
+[depend message]
+	`哇～這些人真的很吵，還在討論嗎。不要管那些人你就快去行動吧。
+隨著時間流逝，艾麗絲會隱藏到更難以找到的地方。然後她會改變面貌或隱藏身分再開始活動吧…… 艾麗絲到底藏在哪裡了呢？如果躲到魔界就不容易找了…… 
+先去調查她停留的地方吧！`
+
+[condition message]
+	`調查艾麗絲所在的地方之後，詢問莎蘭`
+
+[solve message]
+	`在艾麗絲待過的地方找到了這些東西。`
+
+[quest point]
+	4

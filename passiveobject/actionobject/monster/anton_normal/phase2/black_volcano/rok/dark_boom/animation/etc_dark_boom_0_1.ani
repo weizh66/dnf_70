@@ -1,0 +1,46 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/wave.img`
+		0
+	[IMAGE POS]
+		-119	-58
+	[IMAGE RATE]
+		1.7000000476837158	1.7000000476837158
+	[INTERPOLATION]
+		1
+	[DELAY]
+		300
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/wave.img`
+		0
+	[IMAGE POS]
+		-119	-58
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		160
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/wave.img`
+		0
+	[IMAGE POS]
+		-119	-58
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		550

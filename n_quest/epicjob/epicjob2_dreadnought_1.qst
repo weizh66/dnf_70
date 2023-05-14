@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	318
+
+[complete npc index]
+	-1
+
+[job]
+	`[knight]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	318
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 龍神 (1/4)`
+
+[depend message]
+	`你好……呀！ 啊！ 嚇了我一跳。 你看起來比之前更有威嚴了呢。 呼……剛才那么大聲， 真是抱歉。 嘿嘿。
+雖然你已經能把強大和憤怒收斂得很好， 但因為你變得太強了， 強大的氣息就逐漸釋放出來了。
+啊啊……這并不是壞事。 這證明你已經做好準備登上下一個階段了！ 這反而是個好的征兆！ [myname]， 如果你希望的話， 我可以幫助你到達更高的境界！
+但是， 這將比以前更困難、 更危險。 你需要心理準備嗎？ 如果下定了決心， 請來找我。 我隨時恭候。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請找雅妮絲談談。`
+
+[solve message]
+	`你來了！ 我正在等你呢。 我相信你一定會來的。 那么， 現在就開始吧。 [myname]， 以你的實力， 到達天空的盡頭都沒問題！`
+
+[pre required quest]
+	2625
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	2629
+
+[job change quest]
+	3
+
+[grow number]
+	0

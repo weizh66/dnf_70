@@ -1,0 +1,137 @@
+#PVF_File
+
+[name]
+	`墨仙雪蓮`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[basic motion]
+	`Animation/Stand/brush_stand.ani`
+
+[walk motion]
+	`Animation/Walk/brush_walk.ani`
+
+[run motion]
+	`Animation/Run/brush_run.ani`
+
+[response motion]
+	`Animation/Call/brush_call.ani`
+
+[skill motion]
+	`Animation/Skill/brush_skill.ani`
+
+[additional animation]
+	`[response]`	1
+	`../CommonAni/common_call_dodge.ani`
+
+[random motion]
+	`Animation/Random/brush_random.ani`
+[/random motion]
+
+[default random motion rate]
+	50
+
+[revision x]
+	0
+
+[revision y]
+	20
+
+[skill list]
+	[skill node]
+		0
+		[skill type]
+			`general skill`
+		[skill name]
+			`墨舞扇`
+		[skill explain]
+			`    使用技能時,雪蓮會在角色的位置揮舞扇子,并將怪物向后擊飛.同時角色的物理暴擊增加30%%%%,效果持續10秒.`
+		[skill recovery time]
+			2000
+		[learn skill level]
+			1
+		[skill mp]
+			10
+		[skill motion]
+			`Animation/Skill/brush_skill.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			``
+		[skill info]
+			`skill/NormalSkill.skl`
+	[/skill node]
+	[skill node]
+		0
+		[skill type]
+			`over skill`
+		[skill name]
+			`畫仙招喚 - 生肖聚靈陣`
+		[skill explain]
+			`    使用技能時,將召喚出妹妹爾憐,在角色前面畫出12生肖法陣,聚集周圍的怪物對其造成巨大的傷害.角色周圍200px范圍內的所有隊員增加75點力量和體力,效果持續15秒,最多可疊加4次.佩戴生肖之靈銘符后發動該技能,爾憐身后出現與銘服相對應的生肖之神靈像.`
+		[skill recovery time]
+			2000
+		[learn skill level]
+			1
+		[skill mp]
+			10
+		[skill motion]
+			`../../../PassiveObject/Creature/zodiac/Animation/brush_overskill.ani`
+		[skill under effect]
+			`../../../PassiveObject/Creature/zodiac/Animation/brush_overskill_dodge_back.ani`
+		[skill over effect]
+			`../../../PassiveObject/Creature/zodiac/Animation/brush_overskill_dodge_front.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			``
+		[skill info]
+			`skill/OverSkill.skl`
+		[attack info]
+			``
+	[/skill node]
+[/skill list]

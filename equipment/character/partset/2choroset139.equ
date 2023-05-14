@@ -1,0 +1,99 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	56
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	66
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[束靈符]攻擊力 +20%%
+[聚魂吸星符]冷卻時間 -20%%
+[因果業火符]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	2
+		`+`	4
+		`[at priest]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	62
+		`[dungeon type]`
+		`[static]`	3
+		`%`	10
+		`[at priest]`	62
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[at priest]`	62
+		`[dungeon type]`
+		`[static]`	10
+		`%`	10
+		`[at priest]`	66
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at priest]`	66
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[因果業火符]爆炸次數 +4次
+[因果業火符]冷卻時間 -20%%
+[因果業火符]大小 +10%%
+[聚魂吸星符]持續時間 +30%%
+[聚魂吸星符]吸附范圍 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[at priest]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	66
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at priest]`	56
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[因果業火符]攻擊力 +40%%
+[因果業火符]冷卻時間 -30%%
+[聚魂吸星符]攻擊力 +40%%
+[束靈符]冷卻時間 -25%%
+[束靈符]無色小晶塊消耗量 +1`
+[/piece set ability]

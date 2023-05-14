@@ -1,0 +1,91 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack.img`
+		2
+	[IMAGE POS]
+		-367	-374
+	[IMAGE RATE]
+		2.0	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack.img`
+		2
+	[IMAGE POS]
+		-367	-374
+	[IMAGE RATE]
+		2.0	0.800000011920929
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack.img`
+		1
+	[IMAGE POS]
+		-367	-374
+	[IMAGE RATE]
+		2.0	0.699999988079071
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack.img`
+		2
+	[IMAGE POS]
+		-367	-374
+	[IMAGE RATE]
+		2.0	0.699999988079071
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack.img`
+		2
+	[IMAGE POS]
+		-367	-374
+	[IMAGE RATE]
+		2.0	0.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack.img`
+		2
+	[IMAGE POS]
+		-367	-374
+	[IMAGE RATE]
+		2.0	0.5
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60

@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	58
+
+[complete npc index]
+	65
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	65
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`海上列車時刻表`
+
+[depend message]
+	`有消息說， 卡勒特的殘余部隊正利用海上列車， 偷偷地將剩下的裝備轉移到西部無法地帶。
+據我所知， 海上列車原本是到不了無法地帶的。 可能是后來卡勒特自己增修了一條線路。
+但具體的情況， 我們還沒有掌握……
+看來只好去找那個貝倫·博內哥特打聽一下了。`
+
+[condition message]
+	`    向貝倫·博內哥特打聽卡勒特裝備運輸列車的運行時間。`
+
+[solve message]
+	`嗨！ 了不起的年輕人， 找我有什么事嗎？`
+
+[quest point]
+	4

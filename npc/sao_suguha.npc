@@ -1,0 +1,47 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace01.img`	6
+
+[big face]
+	`Map/Npc/NpcFace01.img`	5
+
+[popup face]
+	`Interface/minimap_minimap_npc_icon_jp.img`	55
+
+[field animation]
+	`Animation/SAO_suguha.ani`
+
+[look around]
+	0
+
+[popup wav]
+	`suguha_MEET`
+	``
+
+[name]
+	`直葉`
+
+[field name]
+	`直葉`
+
+[visible on dungeon clear]
+	1
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::166>請問有見過桐谷和人嗎？
+應該是高中生...
+啊~這所學校好像跟我的母校有點不同？
+沒..沒事了，哈哈~`
+[/dialog]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::166>亞絲娜偷偷告訴我，這里很多帥哥呢！~...(小聲`
+[/dialog]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::166>請問有沒有一開始不抱太高期望，但竟然很順利的經驗呢？`
+[/dialog]

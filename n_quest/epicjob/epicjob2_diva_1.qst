@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 風暴女皇 (1/2)`
+
+[depend message]
+	`這風一般的氣息……好久不見。
+雖然你現在的身體已經超出人類理解的范疇， 具有極強的堅韌性和柔軟性， 但畢竟是人類之軀， 難免會有極限。
+我想助你達到一個新的境界， 你要不要嘗試一下？
+你聽說過‘風暴女皇’嗎？ 她們不滿足于單純的強大， 而是將身體和風暴的力量結合起來創造了一個全新的境界……
+怎么樣？ 心動了嗎？
+別忙著回答， 我要提醒你一下， 想要成為‘風暴女皇’， 必須要接受風暴的洗禮， 而這之間的過程十分兇險， 一不小心隨時可能喪命。
+等你考慮清楚之后， 再來告訴我吧！`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`做好決定了嗎？ 很好， 讓我告訴你下一步該怎樣做。`
+
+[pre required quest]
+	906
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4816
+
+[job change quest]
+	3
+
+[grow number]
+	0

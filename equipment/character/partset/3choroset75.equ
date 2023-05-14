@@ -1,0 +1,160 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	12
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	16
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[破軍旋舞斬]攻擊力 +20%%
+[瞬影三絕斬]攻擊力 +20%%
+[馭劍術]強制中斷次數 +1`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[static]`	4
+		`+`	-1
+		`[at swordman]`	17
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1
+		`[at swordman]`	15
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[at swordman]`	15
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[破軍旋舞斬]多段攻擊次數 +1
+[破軍旋舞斬]移動距離上限 +30%%
+[馭劍術]強制中斷次數 +1
+    施放[瞬影三絕斬]時， 可通過消耗3次[馭劍術]的強制中斷次數， 追加施放1次[瞬影三絕斬]。`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	4
+		`+`	10
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	5
+		`+`	10
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	6
+		`+`	10
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	7
+		`+`	10
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	8
+		`+`	10
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	9
+		`+`	10
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at swordman]`	17
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at swordman]`	55
+		`[dungeon type]`
+		`[level]`	1
+		`+`	15
+		`[at swordman]`	56
+		`[dungeon type]`
+		`[level]`	5
+		`+`	7
+		`[at swordman]`	57
+		`[dungeon type]`
+		`[level]`	12
+		`+`	100
+		`[at swordman]`	58
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	58
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	58
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	58
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[惡即斬]斬擊次數 +10
+[惡即斬]蓄氣時間 +30%%
+[馭劍術]強制中斷次數 +2
+[魔性之短劍精通]影響[魔劍奧義]觸發間隔時間減少量 +15%%
+[血影之太刀精通]中， 馭劍術強制中斷技能的攻擊力增加量 +7%%
+[毀滅之巨劍精通]中， 技能蓄氣Buff的技能攻擊力增加率 +10%%
+[波動之鈍器精通]中， 沖擊波范圍增加率 +30%%`
+[/piece set ability]

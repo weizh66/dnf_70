@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`母夜叉的黑色發髻`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`item/avatar/fighter/ft_ahair.img`	234
+
+[equipment type]
+	`[hair avatar]`	0
+
+[avatar type select]
+	7	0	0	400	0	30	0	0	880	0	0	0	0	2640	0	0	0	0	6200	2
+	`[A socket]`
+	`[A socket]`
+[/avatar type select]
+
+[variation]
+	71	0
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	800
+	`hair_b`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	2400
+	`hair_c`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`
+	`+`	45
+	`[MAGICAL_DEFENSE]`
+	`+`	45
+	`[HP_REGENRATE]`
+	`+`	60
+	`[MP_REGENRATE]`
+	`+`	12
+	`[CAST_SPEED]`
+	`+`	120
+[/avatar select ability]
+
+[image packs]
+	`Character/Fighter/Equipment/Avatar/hair/ft_hair1301a.img`
+[/image packs]

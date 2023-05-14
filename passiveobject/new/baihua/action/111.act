@@ -1,0 +1,33 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/nenofbrilliance/loop/loop_magic_circle_1.ani`
+	[SUB ANI]
+		`../animation/nenofbrilliance/loop/loop_magic_circle_2.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_magic_circle_3.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19826237
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			-1
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[FLASH SCREEN]
+		100	2000	1000	255	0	0	0
+[/BEHAVIOR]

@@ -1,0 +1,25 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/curse_main_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+	[SET POSITION CASTING GAUGE]
+		0	0	100
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]

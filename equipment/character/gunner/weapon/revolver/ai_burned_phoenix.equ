@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`浴火鳳凰`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入束縛狀態。
+[爆炎彈]的子彈數增加10`
+
+[detail explain]
+	`攻擊時以2%%的機率8秒內讓敵人陷入束縛狀態。 (若敵人高於Lv50，則減少進入異常狀態的機率和效果；反之，則增加機率和效果。)
+[爆炎彈]的子彈數增加10`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	35
+
+[price]
+	75600
+
+[repair price]
+	63504
+
+[value]
+	302400
+
+[equipment physical attack]
+	438	394
+
+[equipment magical attack]
+	368	331
+
+[separate attack]
+	233	156
+
+[physical critical hit]
+	2
+
+[icon]
+	`item/weapon/gunner/revolver.img`	24
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	2	6
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	2	6
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		12000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		8000
+	[probability]
+		2
+	[active status]
+		`hold`	50
+[/then]
+
+[skill data up]
+	`[gunner]`	1
+	`[all]`
+	`[level]`	0
+	`+`	10
+	`[at gunner]`	1
+	`[all]`
+	`[level]`	0
+	`+`	10
+[/skill data up]
+
+[possible kiri protect]

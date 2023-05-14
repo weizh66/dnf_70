@@ -1,0 +1,98 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-18	-153
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		-0.05000000074505806
+	[DELAY]
+		7650
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_normal.img`
+		0
+	[IMAGE POS]
+		-73	-429
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		0.05000000074505806
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_normal.img`
+		1
+	[IMAGE POS]
+		-73	-373
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		0.05000000074505806
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_normal.img`
+		2
+	[IMAGE POS]
+		-75	-303
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		0.05000000074505806
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_normal.img`
+		3
+	[IMAGE POS]
+		-79	-206
+	[IMAGE RATE]
+		0.800000011920929	0.4000000059604645
+	[IMAGE ROTATE]
+		0.029999999329447746
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		2	-2
+	[DELAY]
+		30
+
+[FRAME006]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		2200

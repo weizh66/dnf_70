@@ -1,0 +1,20 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/TheGate/light/light_shock.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`安徒恩的征伐勛章 - 項鏈`
+
+[basic explain]
+	`攻擊速度 +3%%
+施放速度 +3%%
+所有屬性強化 +23
+所有屬性抗性 +14
+所有異常狀態抗性 +14`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	90
+
+[need material]
+	10000204	32
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7920	7360
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	166
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`attack speed`
+		`+`	30
+	[stat by condition]
+		`cast speed`
+		`+`	30
+	[stat by condition]
+		`fire attack`
+		`+`	23
+	[stat by condition]
+		`water attack`
+		`+`	23
+	[stat by condition]
+		`light attack`
+		`+`	23
+	[stat by condition]
+		`dark attack`
+		`+`	23
+	[stat by condition]
+		`magical defense`
+		`+`	40
+	[stat by condition]
+		`all activestatus resistance`
+		`+`	14
+	[stat by condition]
+		`all elemental resistance`
+		`+`	14
+[/then]
+
+[set name]
+	`安圖恩的征伐勛章  套裝`
+
+[set item]
+	100300214	100321956	100312097
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`    若自身HP在80%%以下時， 受到單次被擊傷害超過HP上限的10%%， 則角色疾躍入異次元， 並解除/免疫身上的所有異常狀態， 效果持續3秒； 同時恢復100%%的HP值。 (冷卻時間10秒)`
+	[if]
+		[cooltime]
+			10000
+		[stat change]
+			`hp`
+			`<`
+			`%`	80
+		[check damage]
+			`%`	10
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			3000
+		[restore]
+			`hp`
+			`%`	100	0
+		[disenchant]
+			1
+	[/then]
+[/set ability]
+
+[possible kiri protect]

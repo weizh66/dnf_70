@@ -1,0 +1,108 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-46	-140
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		-0.17000000178813934
+	[DELAY]
+		7050
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_dodge.img`
+		0
+	[IMAGE POS]
+		-148	-433
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		-0.17000000178813934
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_dodge.img`
+		1
+	[IMAGE POS]
+		-150	-378
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		-0.17000000178813934
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_dodge.img`
+		2
+	[IMAGE POS]
+		-150	-266
+	[IMAGE RATE]
+		0.800000011920929	0.6000000238418579
+	[IMAGE ROTATE]
+		-0.17000000178813934
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Legend/Tayberrs/Boss/Harbart/Effect/DepravityExplosion_lazer_dodge.img`
+		3
+	[IMAGE POS]
+		-155	-224
+	[IMAGE RATE]
+		0.800000011920929	0.4000000059604645
+	[IMAGE ROTATE]
+		-0.14000000059604645
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-22	7
+	[IMAGE ROTATE]
+		-0.17000000178813934
+	[DELAY]
+		30
+
+[FRAME006]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		2800

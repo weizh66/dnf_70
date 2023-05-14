@@ -1,0 +1,39 @@
+#PVF_File
+
+[name]
+	`硬幣 10個箱子`
+
+[explain]
+	`出現復活幣 10個。
+每個帳號只能購買一次。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	185
+
+[stackable type]
+	`[cera booster]`	0
+
+[booster info]
+	[cera]
+		1	1	1000	10
+	[/cera]
+[/booster info]
+
+[move wav]
+	`PAPER_TOUCH`

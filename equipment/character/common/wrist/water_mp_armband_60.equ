@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`冰羽之痕手鐲 (MP上限)`
+
+[basic explain]
+	`    施放技能時， 有1%%的幾率使武器附加冰屬性， 效果持續30秒。`
+
+[flavor text]
+	`<2012年夏日禮包>`
+
+[grade]
+	59
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[physical attack]
+	28
+
+[physical defense]
+	50
+
+[anti evil]
+	3
+
+[MP MAX]
+	300
+
+[price]
+	67200
+
+[value]
+	53760
+
+[creation rate]
+	0
+
+[icon]
+	`Item/common/bracelet_cn.img`	10
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		1
+	[duration]
+		30000
+	[elemental weapon]
+		`water`
+[/then]
+
+[part set index]
+	30000
+
+[possible kiri protect]

@@ -1,0 +1,72 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/oceanmiddle.ani`
+
+[cutscene image]
+	`Map/CutScene/SkyCastle.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act2.img`
+
+[worldmap pattern info]
+	2	7
+	`WorldMap/SelectdungeonSlot/skycastle.img`	6
+
+[minimum required level]
+	20
+
+[basis level]
+	23
+
+[experience increasing point]
+	1.0
+
+[champion]
+	4	8	12	16	18
+
+[pathgate object]
+	5660	5661	5662	5663	5664	5665	5666	5667	5668	5669
+
+[maze info]
+
+[size]
+	3	1
+
+[greed]
+	`BBFFEE`
+
+[map specification]
+	2	0	15096
+[/map specification]
+
+[map specification]
+	1	0	15110
+[/map specification]
+
+[boss map specification]
+	0	0	15095
+[/boss map specification]
+
+[start map]
+	2	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[limit party count]
+	1
+
+[designate dungeon difficulty]
+	0
+
+[name]
+	`天空之海`
+
+[explain]
+	``

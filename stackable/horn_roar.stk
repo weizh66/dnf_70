@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`咆哮角笛`
+	
+
+[explain]
+	`    使用後， 可以召喚出一隻Lv46~Lv50的寒冰虎協助自身戰鬥， 寒冰虎存在120秒。`
+	
+
+[flavor text]
+	`    不知什麼原因， 寒冰虎和雪魈的關係一直不太好， 它們經常在白色廢墟爭鬥……  --奧爾卡`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	237
+
+[stackable type]
+	`[waste]`	0
+
+[item group name]
+	`animal stuff`
+
+[cool time]
+	120000
+
+[cooltime group]
+	11
+
+[move wav]
+	`BONE_TOUCH`
+
+[monster summons]
+	1016	46	50	120000	2

@@ -1,0 +1,106 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/GoblinKingdom.ani`
+
+[cutscene image]
+	`Map/CutScene/DimentionGate.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act1.img`
+
+[worldmap pattern info]
+	1	6
+	`WorldMap/SelectdungeonSlot/demension.img`	0
+
+[minimum required level]
+	70
+
+[basis level]
+	70
+
+[experience increasing point]
+	1.5
+
+[champion]
+	0	0	0	0	0
+
+[prohibit practice]
+	1
+
+[pathgate object]
+	371	372	373	374	375	376	377	378	379	380
+
+[coin limit]
+	8
+
+[dimension dungeon]
+	1	3
+
+[necessary party]
+	2
+
+[evil]
+	10	40	90	110	110
+
+[evil high level]
+	10	40	90	110	110
+
+[evil rate]
+	30	30	110	120
+
+[monster difficulty bonus]
+	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1.1	1.2	1.3	1.4	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	15	4	2.5	2	1	15	4	2.5	2	1
+[/monster difficulty bonus]
+
+[maze info]
+
+[size]
+	6	1
+
+[greed]
+	`BBFFFFFFFFEE`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	5	0
+[/boss map]
+
+[map specification]
+	1	0	16101
+[/map specification]
+
+[map specification]
+	2	0	16102
+[/map specification]
+
+[map specification]
+	3	0	16103
+[/map specification]
+
+[map specification]
+	4	0	16104
+[/map specification]
+
+[map specification]
+	5	0	16105
+[/map specification]
+
+[coin info]
+	`[easy]`	-1	0
+	`[medium]`	8	1
+	`[hard]`	8	1
+	`[ultimate]`	8	1
+[/coin info]
+
+[name]
+	`哥布林王國`
+
+[explain]
+	`傳說哥布林王國建立在看不到天空的地底深處， 那裡環境惡劣， 並且擁有阿拉德大陸最強大的異變氣息！ 很久以前， 大批哥布林聚集到此。 為了生存， 它們按國家的體制建立了嚴格的秩序， 並選出了最強的哥布林作為哥布林王國的主宰者， 最終形成了統一的哥布林王國。 現在， 因異次元裂縫的扭曲， 阿拉德大陸的冒險家無意間進入哥布林王國。 等待他們的， 將是哥布林王國的強大挑戰……`

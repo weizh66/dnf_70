@@ -1,0 +1,146 @@
+#PVF_File
+
+[name]
+	`波迪爾的契約項鍊`
+
+[grade]
+	70
+
+[rarity]
+	4
+
+[anti evil]
+	10
+
+[creation rate]
+	200
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	65
+
+[magical attack]
+	29
+
+[magical defense]
+	71
+
+[HP MAX]
+	400
+
+[price]
+	84000
+
+[repair price]
+	70560
+
+[value]
+	67200
+
+[equipment magical defense]
+	6240	5760
+
+[icon]
+	`Item/common/necklace.img`	44
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[set name]
+	`波迪爾的契約首飾`
+
+[set item]
+	20188	22180	24209
+[/set item]
+
+[rigidity]
+	50
+
+[set ability]
+	[fullset basic explain]
+		`攻擊時，以5%%的機率召喚出烈焰盾波迪爾的分身。(需消耗3個天界珍珠； 在決鬥場、勢力站打、打鬥吧中無效)
+ 攻擊時，以3%%的機率使武器的屬性變成火屬性，效果持續30秒。`
+	[fire attack]
+		20
+	[if]
+		[cooltime]
+			15000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			3
+		[duration]
+			30000
+		[elemental weapon]
+			`fire`
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[cooltime]
+			10000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[consume item]
+			3296	3
+		[target]
+			`myself`	-1
+		[duration]
+			80000
+		[probability]
+			5
+		[summon monster]
+			65010	70	1
+	[/then]
+	[pvp]
+		[if]
+			[cooltime]
+				15000
+			[attack success]
+				1
+		[/if]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[duration]
+				30000
+			[elemental weapon]
+				`fire`
+		[/then]
+	[/pvp]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

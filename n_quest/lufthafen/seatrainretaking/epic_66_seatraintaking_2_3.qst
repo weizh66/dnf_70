@@ -1,0 +1,101 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	99
+
+[pre required quest]
+	5870
+[/pre required quest]
+
+[quest point]
+	10
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	87	2	61223	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100	7779	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`海賊團頭目`
+
+[depend message]
+	`你說什么？ 你遇到了海賊團的艦長烈焰盾波迪爾？
+嗯， 對， 他就是海賊的頭目。
+喂~你要去哪里啊？
+呵呵， 這個年輕人不會是想獨自去找海賊團艦長的麻煩吧？`
+
+[condition message]
+	`    前往海上列車的『奪回西部線』， 擊敗烈焰盾波迪爾3次， 要求地下城難度為王者級以上。`
+
+[solve message]
+	`什么？ 你干掉了海賊團的艦長？ 真是令人難以置信啊……`
+
+[dialog]
+	0	0	15029	3	0	0	0
+	` <monster::61223> 怎么又是你！ 你以為我們鐵鱗海賊團好欺負嘛？ 我之前是看你年紀輕輕， 不跟你計較， 你還得寸進尺了！ 哼~看我這次不好好教訓你！`
+[/dialog]
+
+[dialog]
+	0	0	15030	3	0	0	0
+	` <monster::61223> 讓你嘗嘗我這烈焰拳頭的厲害……`
+[/dialog]
+
+[dialog]
+	0	0	15031	3	0	0	0
+	` <monster::61223> 哼！ 你以為找幾個后臺過來就能擊敗我嗎？`
+[/dialog]
+
+[dialog]
+	0	0	15054	3	0	0	0
+	`<monster::61223>我就是傳說中的鐵鱗海賊團的艦長烈焰盾波迪爾！
+喂， 我說~呃~你看啊， 我的手下都在那兒看著呢， 你就不能輸一次嗎？ 就一次？`
+[/dialog]
+
+[dialog]
+	0	0	15055	3	0	0	0
+	`<monster::61223>我就是傳說中的鐵鱗海賊團的艦長烈焰盾波迪爾！
+咳……咳咳， 哎， 剛才喊得太用力了， 嗓子好疼啊！`
+[/dialog]
+
+[dialog]
+	0	0	15056	3	0	0	0
+	`<monster::61223>我就是傳說中的鐵鱗海賊團的艦長烈焰盾波迪爾！
+你， 說你呢！ 看什么看， 來啊！
+不行不行， 公平點， 我們1對1……我說你這個人怎么連最基本的打架禮儀都不懂呢， 真是……！`
+[/dialog]

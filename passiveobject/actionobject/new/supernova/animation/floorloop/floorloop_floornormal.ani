@@ -1,0 +1,46 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/SuperNova/Explosion_Floor.img`
+		1
+	[IMAGE POS]
+		-365	-117
+	[DELAY]
+		200
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-345	-29	-20	680	128	85
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/SuperNova/Explosion_Floor.img`
+		1
+	[IMAGE POS]
+		-365	-117
+	[DELAY]
+		240
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-345	-29	-20	680	128	85
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/SuperNova/Explosion_Floor.img`
+		1
+	[IMAGE POS]
+		-365	-117
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-345	-29	-20	680	128	85

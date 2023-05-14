@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`大的泡沫`
+
+[hp gage]
+	1
+
+[basic action]
+	`Action/bicbubble_Basic.act`
+
+[etc action]
+	`Action/Etc_bicbubble_0.act`
+	`Action/Etc_bicbubble_1.act`
+	`Action/Etc_bicbubble_2.act`
+	`Action/Etc_bicbubble_3_4.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/bicbubble_Basic.atk`
+
+[etc attack info]
+	``
+	``
+	``
+	``
+[/etc attack info]
+
+[hp max]
+	1000000
+
+[hp destroy]
+	1
+
+[piercing power]
+	1000
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ENEMY]`
+	[homing velocity]
+		20.0	25.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[homing time]
+		100
+	[sync target move]
+[/homing]

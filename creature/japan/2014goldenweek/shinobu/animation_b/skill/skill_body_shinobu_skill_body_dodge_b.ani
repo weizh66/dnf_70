@@ -1,0 +1,49 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Creature/Japan/2014GoldenWeek/Shinobu/Shinobu_Skill_Body_Dodge_B.img`
+		0
+	[IMAGE POS]
+		-104	-438
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Japan/2014GoldenWeek/Shinobu/Shinobu_Skill_Body_Dodge_B.img`
+		1
+	[IMAGE POS]
+		-104	-438
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Japan/2014GoldenWeek/Shinobu/Shinobu_Skill_Body_Dodge_B.img`
+		2
+	[IMAGE POS]
+		-104	-438
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

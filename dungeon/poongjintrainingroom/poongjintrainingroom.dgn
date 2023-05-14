@@ -1,0 +1,61 @@
+#PVF_File
+
+[background pos]
+	80
+
+[cutscene image]
+	`map/cutscene/pvp_town.img`	0
+
+[worldmap pattern info]
+	1	9
+	`worldmap/selectdungeonslot/advancealtar/advancealtar_mapslot01.img`	11
+
+[recommended level]
+	1	85
+
+[minimum required level]
+	1
+
+[basis level]
+	100
+
+[ancient dungeon]
+	1
+
+[risk dungeon]
+	1
+
+[designate dungeon difficulty]
+	2
+
+[champion]
+	0	0	0	0	0
+
+[pathgate object]
+	5755	5755	5757	5758	5758	5760	5761	5761	5763	5763
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`BB`
+
+[map specification]
+	0	0	18500
+[/map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[name]
+	`修煉道場`
+
+[explain]
+	`你可以在修煉道場內進行連招訓練和傷害測試。`

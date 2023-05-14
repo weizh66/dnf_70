@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`引燃者之戒`
+
+[basic explain]
+	`[地獄烈炎]、[光子爆彈]爆炸範圍增加 15%%
+[地獄烈炎]、[光子爆彈]火焰範圍、大小增加 15%%`
+
+[flavor text]
+	`至少要到這種程度，才能稱之為地獄烈炎。--海嵐滿意的說`
+
+[grade]
+	50
+
+[rarity]
+	4
+
+[creation rate]
+	200
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	45
+
+[physical attack]
+	32
+
+[magical attack]
+	32
+
+[price]
+	60000
+
+[repair price]
+	50400
+
+[value]
+	48000
+
+[equipment magical defense]
+	1856	1664
+
+[icon]
+	`Item/common/ring.img`	12
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	53
+	`[all]`
+	`[level]`	1
+	`+`	40
+	`[gunner]`	53
+	`[all]`
+	`[level]`	2
+	`+`	55
+	`[at gunner]`	53
+	`[all]`
+	`[level]`	1
+	`+`	40
+	`[at gunner]`	53
+	`[all]`
+	`[level]`	2
+	`+`	55
+[/skill data up]
+
+[routing priority]
+	`gunner`	4
+	`gunner`	4
+[/routing priority]
+
+[possible kiri protect]

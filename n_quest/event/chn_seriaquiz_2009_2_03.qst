@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	13
+
+[complete npc index]
+	17
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4971
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`諾頓的謎題`
+
+[depend message]
+	`好吧， 我給你出下一道謎題吧。
+如果說我這里有分解裝備的機器， 那么有個人就有強化裝備的機器， 所以謎題是 : 幫助強化裝備的人是誰？
+還有， 這個人來自天界， 是神槍手的技能教官， 她就在從赫頓瑪爾市區到西海岸的路口處， 你應該很容易找到她的。`
+
+[condition message]
+	`    在赫頓瑪爾市區里， 找到幫助冒險家強化裝備的人。 (按<N>鍵可以讓您更容易找到目標)`
+
+[solve message]
+	`哇哇~~我們是不是見過好幾次面了？ 好吧， 不管以前有沒有見過面， 我再介紹一下自己吧~我叫凱麗~
+我可以幫助冒險家把武器、 防具和首飾強化成更具威力的裝備， 而且我還是一名神槍手技能教官哦~~
+如果你想強化自己的裝備， 就準備一些爐巖碳和金幣給我吧~
+但是有件事情要提前告訴你， 我這個裝備強化機器不太穩定， 所以有可能會強化失敗~
+但是， 人生往往不是一句就能定輸贏的， 呵呵， 所以只要你想強化， 就直接奔向我吧， GOGOGO~~~`

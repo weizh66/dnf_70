@@ -1,0 +1,56 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/TigerStrike/TigerStrike_00.img`
+		10
+	[IMAGE POS]
+		-167	-447
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[RGBA]
+		10	74	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/TigerStrike/TigerStrike_00.img`
+		10
+	[IMAGE POS]
+		-167	-447
+	[IMAGE RATE]
+		1.100000023841858	0.699999988079071
+	[RGBA]
+		10	74	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/TigerStrike/TigerStrike_00.img`
+		10
+	[IMAGE POS]
+		-167	-447
+	[IMAGE RATE]
+		0.800000011920929	0.699999988079071
+	[RGBA]
+		0	41	197	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

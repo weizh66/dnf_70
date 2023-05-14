@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`紅色純棉運動服`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_acoat.img`	90
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	14	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[SKILL_LEVEL]`
+	`[at fighter]`	46	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	5	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	9	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	8	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	6	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	7	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	12	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	13	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	84	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	86	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	2	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	17	1
+	`[SKILL_LEVEL]`
+	`[at fighter]`	58	1
+	`[SKILL_LEVEL]`
+	`[common]`	177	1
+	`[SKILL_LEVEL]`
+	`[common]`	175	1
+	`[SKILL_LEVEL]`
+	`[common]`	176	1
+	`[SKILL_LEVEL]`
+	`[common]`	180	1
+	`[SKILL_LEVEL]`
+	`[common]`	190	1
+[/avatar select ability]

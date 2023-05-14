@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`GPU電磁圖騰`
+
+[basic explain]
+	`[意念驅動]力量增加量 +30%%
+  使用[意念驅動]時可生成爆炸。`
+
+[flavor text]
+	`  意念的動力，你懂嗎！ --魔劍`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	92
+
+[stuck]
+	-1
+
+[need material]
+	3500	1800
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[equipment physical attack]
+	956	855
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[creation rate]
+	125
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/totem/totem.img`	132
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	53	1
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[priest]`	13
+	`[all]`
+	`[level]`	1
+	`%`	30
+[/skill data up]
+
+[if]
+	[use skill]
+		`priest`	13
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54129	55	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

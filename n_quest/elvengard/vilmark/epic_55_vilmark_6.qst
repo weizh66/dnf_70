@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	8
+
+[complete npc index]
+	18
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	423
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	18
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	2000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 可疑的人`
+
+[depend message]
+	`既然你通過了幸運測試， 按照約定， 我把我知道的秘密告訴你！
+你想知道誰是帝國的間諜吧？ 這里有很多從帝國偷渡來的人， 舉個例子， 我就是其中一個……
+這樣吧， 如果你想了解更多的消息， 就去跟博肯說找不到可疑的人， 然后再回到我這里。
+你不用擔心， 如果博肯來問我， 我也會這樣告訴他的。 `
+
+[condition message]
+	`    把調查結果告訴赫頓瑪爾的博肯。`
+
+[solve message]
+	`你回來啦， 打聽到可疑的人的消息了嗎？`
+
+[quest point]
+	4

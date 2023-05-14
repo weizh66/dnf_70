@@ -1,0 +1,204 @@
+#PVF_File
+
+[talk name]
+	`battle start`
+
+[commands]
+	10
+	`[bg appear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	20
+	`[left face appear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	30
+	`[wait]`	200	40
+	`[message show]`
+	`[text]`	0	1
+	`薯 %d霞檜 路溥褫棲棻! 賅舒 擊 藥 瞳擊 僭葬藥 輿衛晦 夥奧棲棻.`	50
+	`[wait]`	2000	60
+	`[command disable]`	20	70
+	`[command disable]`	40	80
+	`[left face disappear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	90
+	`[command disable]`	10	100
+	`[bg disappear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	``	110
+	`[talk end]`
+[/commands]
+
+[talk name]
+	`first battle end`
+
+[commands]
+	10
+	`[bg appear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	20
+	`[left face appear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	30
+	`[wait]`	200	40
+	`[message show]`
+	`[text]`	0	1
+	`薯 %d霞擎 賅舒 僭葬蟻蝗棲棻. 雖虜 檜薯 衛濛橾閨殮棲棻.`	50
+	`[wait]`	2000	60
+	`[command disable]`	40	70
+	`[command disable]`	50	80
+	`[message show]`
+	`[text]`	0	15
+	`棻擠 瞪癱蒂 遽綠褊衛螃. 瞳菟擎 渦遵渦 裊溺啪 蝗問 螢 匙殮棲棻.`	90
+	`[wait]`	2000	100
+	`[command disable]`	90	110
+	`[command disable]`	20	120
+	`[left face disappear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	130
+	`[command disable]`	10	140
+	`[bg disappear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	``	150
+	`[talk end]`
+[/commands]
+
+[talk name]
+	`last battle start`
+
+[commands]
+	10
+	`[bg appear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	20
+	`[left face appear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	30
+	`[wait]`	200	40
+	`[message show]`
+	`[text]`	0	1
+	`薯 %d霞檜 路溥褫棲棻! 檜薯 瞳菟曖 譆朝 換 擅縑 氈蝗棲棻. 褻旎虜 渦 擊 頂輿褊衛螃.`	50
+	`[wait]`	2000	60
+	`[command disable]`	40	70
+	`[command disable]`	50	80
+	`[command disable]`	20	90
+	`[left face disappear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	100
+	`[command disable]`	10	110
+	`[bg disappear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	``	120
+	`[talk end]`
+[/commands]
+
+[talk name]
+	`result`
+
+[commands]
+	10
+	`[bg appear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	20
+	`[left face appear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	30
+	`[wait]`	200	40
+	`[message show]`
+	`[text]`	0	0
+	`賅萇 瞳擊 僭葬蟻蝗棲棻. 熱堅樟蝗棲棻.`	50
+	`[wait]`	2000	60
+	`[command disable]`	20	70
+	`[command disable]`	40	80
+	`[left face disappear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	90
+	`[command disable]`	10	100
+	`[bg disappear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	``	110
+	`[talk end]`
+[/commands]
+
+[talk name]
+	`battlemode`
+
+[commands]
+	10
+	`[bg appear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	20
+	`[left face appear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	30
+	`[wait]`	200	40
+	`[message show]`
+	`[text]`	0	0
+	`嶸盪除 奢問檜 陛棟 瞪爵賅萄煎 瞪 賅陛陛 嫦唯腎歷蝗棲棻. 輿曖衛晦 夥奧棲棻.`	50
+	`[wait]`	2000	60
+	`[command disable]`	20	70
+	`[command disable]`	40	80
+	`[left face disappear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	90
+	`[command disable]`	10	100
+	`[bg disappear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	``	110
+	`[talk end]`
+[/commands]
+
+[talk name]
+	`boss spawn`
+
+[commands]
+	10
+	`[bg appear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	20
+	`[left face appear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	30
+	`[wait]`	200	40
+	`[message show]`
+	`[text]`	0	0
+	`爾蝶 跨蝶攪陛 蛔濰艘蝗棲棻. 爾蝶 跨蝶攪朝 鬼溘 瞳檜雖虜 斜虜躑 渦 號擎 WP蒂 橢擊 熱 氈蝗棲棻.`	50
+	`[wait]`	2000	60
+	`[command disable]`	20	70
+	`[command disable]`	40	80
+	`[left face disappear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	90
+	`[command disable]`	10	100
+	`[bg disappear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	``	110
+	`[talk end]`
+[/commands]
+
+[talk name]
+	`bomb fire`
+
+[commands]
+	10
+	`[bg appear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	20
+	`[left face appear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	30
+	`[wait]`	200	40
+	`[message show]`
+	`[text]`	0	0
+	`衛除檜 傘鼠 雖羹 腎橫, 撲纂菩 衛 驕檜 攪螺蝗棲棻. WP 橾睡蒂 檠蝗棲棻.`	50
+	`[wait]`	2000	60
+	`[command disable]`	20	70
+	`[command disable]`	40	80
+	`[left face disappear]`	0
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	`[pass next command]`	90
+	`[command disable]`	10	100
+	`[bg disappear]`	1
+	`Interface/battleDungeon/battledungeon_battlestep.img`
+	``	110
+	`[talk end]`
+[/commands]

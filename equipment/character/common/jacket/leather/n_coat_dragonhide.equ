@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	` 青龍嘯月胸甲`
+
+[flavor text]
+	`用龍的表皮編織製成的盔甲。`
+
+[grade]
+	25
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	20
+
+[physical attack]
+	13
+
+[magical attack]
+	13
+
+[magical defense]
+	14
+
+[price]
+	25000
+
+[repair price]
+	20000
+
+[value]
+	20000
+
+[equipment physical defense]
+	792	648
+
+[skill levelup]
+	`[gunner]`	12	1
+	`[at gunner]`	12	1
+[/skill levelup]
+
+[icon]
+	`Item/common/coat.img`	122
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`青龍嘯月套裝`
+
+[set item]
+	10493	12492	14481	18488	16480
+[/set item]
+
+[set ability]
+	[stuck resistance]
+		30
+	[if]
+		[target type]
+			`dragon`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	30
+	[/then]
+	[stuck]
+		-3
+	[fullset basic explain]
+		`龍類型的敵人攻擊時敵人30%%的附加傷害`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

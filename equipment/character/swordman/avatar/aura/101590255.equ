@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`綠色星情`
+
+[explain]
+	``
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	37
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	72
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[physical attack]
+	20
+
+[physical defense]
+	20
+
+[magical attack]
+	20
+
+[magical defense]
+	20
+
+[room list move speed rate]
+	0.1
+
+[equipment magical attack]
+	20	20
+
+[aurora graphic effects]
+	1	0
+	`Character/Common/Animation/Aura/green.ani`
+
+[aura pos datas]
+	0
+	`[swordman]`	0	25	0
+	`[fighter]`	2	28	0
+	`[gunner]`	-2	10	0
+	`[mage]`	-2	35	0
+	`[priest]`	-5	10	0
+	`[at gunner]`	0	20	0
+	`[thief]`	0	20	0
+	`[at fighter]`	-2	20	0
+	`[at mage]`	0	10	0
+	`[demonic swordman]`	0	25	0
+	`[creator mage]`	-2	45	0
+	`[at swordman]`	0	25	0
+	`[knight]`	0	30
+[/aura pos datas]
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]

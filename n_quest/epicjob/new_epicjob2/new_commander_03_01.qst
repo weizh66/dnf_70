@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 戰場統治者 (4/6)`
+
+[depend message]
+	`想要成為指揮官就必須誠實面對自己， 不要被業績、 名利束縛， 一定要有寬廣的眼界和出色的決斷力。
+你已經做好準備了嗎？ 如果還沒有， 我勸你還是先不要上戰場了。 一個沒有準備好的指揮官只會讓自己的手下們白白送死， 這跟肆意殺人沒有區別。
+你先捫心自問一下， 自己是否還需要再準備一下呢？ 如果你覺得自己的準備還不夠充分， 就去參加魂·青龍大會吧。 在那里， 面對其他強者， 向他們學習， 想想自己還需要彌補哪些短板。
+如果想要參加大會， 首先你要去把‘赫侖皇帝的印章’收集回來。 有了它， 大會才認可你是受到皇室推薦的強者， 準許你入場參加比賽。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5434
+[/pre required quest]
+
+[relation quest]
+	5436
+
+[job change quest]
+	3
+
+[grow number]
+	0

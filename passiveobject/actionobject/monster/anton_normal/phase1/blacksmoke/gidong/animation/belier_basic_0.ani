@@ -1,0 +1,102 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/belier.img`
+		7
+	[IMAGE POS]
+		-104	-105
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/belier.img`
+		7
+	[IMAGE POS]
+		-104	-105
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/belier.img`
+		7
+	[IMAGE POS]
+		-104	-105
+	[IMAGE RATE]
+		2.0	2.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/belier.img`
+		6
+	[IMAGE POS]
+		-104	-105
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/belier.img`
+		5
+	[IMAGE POS]
+		-104	-105
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/belier.img`
+		4
+	[IMAGE POS]
+		-104	-105
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/belier.img`
+		3
+	[IMAGE POS]
+		-104	-105
+	[IMAGE RATE]
+		0.5	0.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

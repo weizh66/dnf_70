@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	12
+
+[complete npc index]
+	23
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	37	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	23
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`前往阿法利亞營地`
+
+[depend message]
+	`目前的形勢十分嚴峻。 以夏普倫為首的暗精靈元老們頻頻向我們女王施壓， 希望借瘟疫一事向人類開戰。
+而公國這邊， 我想博肯他們應該也承受著很大的壓力。 冒險家， 或許你可以去問問他有什么需要幫助的！`
+
+[condition message]
+	`    向阿法利亞營地的博肯打探消息。`
+
+[solve message]
+	`你要幫助我們？ 太好了！ 你放心， 這里沒有外人， 你有什么事都可以直接和我說！`
+
+[quest point]
+	4

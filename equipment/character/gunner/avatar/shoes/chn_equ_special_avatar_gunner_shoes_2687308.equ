@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`紅色鷹眼勇士戰靴`
+
+[explain]
+	`    作為格斗界的新星， 你的未來無限光明！  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_ashoes.img`	329
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0	0	0	0	4500	2
+	`[D socket]`
+	`[D socket]`
+[/avatar type select]
+
+[variation]
+	97	2
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2686919
+
+[physical defense]
+	30
+
+[move speed]
+	50
+
+[avatar func filter]
+	2

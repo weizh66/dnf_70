@@ -1,0 +1,43 @@
+#PVF_File
+
+[gravity]
+	-50
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	-100	-500
+
+[rotation angle range type]
+	`[circle]`
+
+[rotation angle variable]
+	90	0
+
+[creation frequency]
+	-1
+
+[maximum create number]
+	6
+
+[maximum create time]
+	0
+
+[object type]
+	`[animation]`
+
+[object]
+	`../Animation/Effect/foot_print_dodge.ani`	-1
+[/object]
+
+[life time]
+	500
+
+[transparent value]
+	100	0
+
+[landing type]
+	`[slide]`

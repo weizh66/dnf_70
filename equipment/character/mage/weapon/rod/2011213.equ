@@ -1,0 +1,846 @@
+#PVF_File
+
+[name]
+	`真·凱蒂的精靈契約`
+
+[basic explain]
+	`召喚下位精靈時，可以額外召喚LV120級的元素精靈。
+精靈獻祭威力大幅加強。
+上位精靈，精靈王戰鬥能力加強。
+裝備時，強化光環效果增加。`
+
+[detail explain]
+	`召喚下位精靈時，可以額外召喚LV120級的元素精靈。
+精靈獻祭威力大幅加強。
+上位精靈，精靈王戰鬥能力加強。
+裝備時，強化光環效果增加。`
+
+[flavor text]
+	`凱蒂所持有的魔杖，蘊含著強大的精靈氣息，精靈在這魔杖的光環下變得異常強大。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[need material]
+	3850	500
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	52
+
+[cast speed]
+	50
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[anti evil]
+	40
+
+[need material]
+	3850	500
+
+[price]
+	500000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[equipment physical attack]
+	1502	1552
+
+[equipment magical attack]
+	1624	1724
+
+[separate attack]
+	1087	1087
+
+[all elemental attack]
+	130
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/rod/rod.img`	160
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	58	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	58	0
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	58	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[mage]`	52
+	`[dungeon type]`
+	`[level]`	1
+	`%`	4000
+	`[mage]`	51
+	`[dungeon type]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	53
+	`[dungeon type]`
+	`[level]`	1
+	`%`	700
+	`[mage]`	54
+	`[dungeon type]`
+	`[level]`	1
+	`%`	2000
+	`[mage]`	50
+	`[dungeon type]`
+	`[level]`	3
+	`%`	16000
+	`[mage]`	48
+	`[dungeon type]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	48
+	`[dungeon type]`
+	`[level]`	1
+	`%`	500
+	`[mage]`	48
+	`[dungeon type]`
+	`[level]`	2
+	`%`	1600
+	`[mage]`	47
+	`[dungeon type]`
+	`[level]`	10
+	`%`	500
+	`[mage]`	47
+	`[dungeon type]`
+	`[level]`	11
+	`%`	800
+	`[mage]`	47
+	`[dungeon type]`
+	`[level]`	12
+	`%`	800
+	`[mage]`	47
+	`[dungeon type]`
+	`[level]`	13
+	`%`	800
+	`[mage]`	76
+	`[dungeon type]`
+	`[level]`	3
+	`%`	400
+	`[mage]`	76
+	`[dungeon type]`
+	`[level]`	6
+	`%`	800
+	`[mage]`	76
+	`[dungeon type]`
+	`[level]`	7
+	`%`	800
+	`[mage]`	77
+	`[dungeon type]`
+	`[level]`	3
+	`%`	400
+	`[mage]`	77
+	`[dungeon type]`
+	`[level]`	6
+	`%`	800
+	`[mage]`	77
+	`[dungeon type]`
+	`[level]`	7
+	`%`	500
+	`[mage]`	78
+	`[dungeon type]`
+	`[level]`	3
+	`%`	400
+	`[mage]`	78
+	`[dungeon type]`
+	`[level]`	6
+	`%`	800
+	`[mage]`	78
+	`[dungeon type]`
+	`[level]`	7
+	`%`	500
+	`[mage]`	79
+	`[dungeon type]`
+	`[level]`	3
+	`%`	400
+	`[mage]`	79
+	`[dungeon type]`
+	`[level]`	6
+	`%`	800
+	`[mage]`	79
+	`[dungeon type]`
+	`[level]`	7
+	`%`	800
+[/skill data up]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60006	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60007	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60008	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[summon monster]
+		60009	120	1
+[/then]
+
+[possible kiri protect]

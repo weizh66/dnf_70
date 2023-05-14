@@ -1,0 +1,31 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATFinalExtremeStrike/MovingDodge.img`
+		6
+	[IMAGE POS]
+		-295	-140
+	[IMAGE RATE]
+		-0.8999999761581421	1.0
+	[IMAGE ROTATE]
+		-0.4000000059604645
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		20

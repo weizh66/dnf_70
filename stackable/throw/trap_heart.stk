@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`綠色捕獵石`
+	
+
+[explain]
+	`    捕獲專用道具 - 嗜血貓妖`
+	
+
+[flavor text]
+	`    當嗜血貓妖的HP不足20%時， 對它使用該道具即可將其捕獲。`
+	
+
+[grade]
+	12
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	0
+
+[weight]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	0
+
+[icon]
+	`Item/IconMaterial2.img`	69
+
+[field image]
+	`Item/FieldImage.img`	29
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	0
+
+[cool time]
+	1500
+
+[unlimited waste]
+	1
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	10384	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/FlyBomb.ptl`
+[/string data]

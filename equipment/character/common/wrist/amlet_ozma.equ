@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`暗影領域 - 奧茲瑪的暗影手鐲`
+
+[basic explain]
+	`攻擊時，賦予武器暗屬性攻擊
+被攻擊時，500PX範圍內的敵人進入混亂狀態3秒`
+
+[flavor text]
+	`曾經是輔佐佩羅斯帝國名將——卡贊的帝國最強法師。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	226
+
+[physical defense]
+	264
+
+[stuck]
+	-12
+
+[need material]
+	3850	999999
+
+[price]
+	74400
+
+[repair price]
+	62496
+
+[value]
+	59520
+
+[dark attack]
+	100
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	23360	23072
+
+[icon]
+	`Item/common/bracelet_cn.img`	49
+
+[anti evil]
+	30
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		60000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[cooltime]
+		100
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		3000
+	[probability]
+		100
+	[active status]
+		`confuse`	90	1
+[/then]
+
+[set item master]
+	2011121
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`帝國的夜襲`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率賦予隊員暗屬性， 效果持續30秒。
+    攻擊時， 有10%%的幾率使所有敵人減少24點暗屬性抗性。 `
+
+[flavor text]
+	`    這把武器可是連我都有興趣哦~  --臭水溝公主·帕麗絲`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/fighter/claw.img`	64
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[equipment physical attack]
+	674	614
+
+[equipment magical attack]
+	674	614
+
+[separate attack]
+	411	278
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[duration]
+		10000
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[stat]
+		`dark element`
+		`+`	-24
+[/then]
+
+[physical critical hit]
+	3
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	12	3
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	12	3
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		5
+	[duration]
+		30000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

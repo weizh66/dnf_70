@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`佩戴時以40秒為間隔發動卡妮娜的堅強，20秒內力量增加45，體力增加30。 （佩戴時從40秒後發動。 ）
+ HP為15%% 以下時，被攻擊時以 5%%的機率恢復全體 HP的5%%。 （決鬥場不發動。 )`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	27
+
+[physical defense]
+	18
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[move speed]
+	20
+
+[HP MAX]
+	150
+
+[MP MAX]
+	150
+
+[inventory limit]
+	5000
+
+[icon]
+	`Item/Title/title.img`	177
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[custom animation]
+	`TitleAnimation/bestman_maypl.ani`
+[/custom animation]
+
+[if]
+	[time]
+		40000	1	40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[stat]
+		`physical attack`
+		`+`	45
+	[stat]
+		`physical defense`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		180000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[stat change]
+		`hp`
+		`<`
+		`%`	15
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[restore]
+		`hp`
+		`%`	5	5000
+[/then]
+
+[room list move speed rate]
+	0.15

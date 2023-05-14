@@ -1,0 +1,40 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_black_hall_1_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_black_hall_1_1.ani`	0	-2
+		`../Animation/Etc_black_hall_1_2.ani`	0	-1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69369
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			100
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]

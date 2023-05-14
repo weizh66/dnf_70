@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`封·逆龍之戰影襲護腿`
+
+[basic explain]
+	`背擊傷害 +15%%`
+
+[detail explain]
+	`背擊傷害 +15%%`
+
+[flavor text]
+	`  那些喜歡在戰場上穿華麗衣服的呆瓜們，壽衣更適合你們！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12565
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	158
+
+[physical defense]
+	35
+
+[magical attack]
+	148
+
+[need material]
+	3821	800
+
+[price]
+	113400
+
+[repair price]
+	90720
+
+[value]
+	90720
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3680	3320
+
+[icon]
+	`item/new_equipment/05_harmor/pants/harmor_pants.img`	17
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2900
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[skill levelup]
+	`[swordman]`	178	5
+	`[fighter]`	178	5
+	`[gunner]`	178	5
+	`[demonic swordman]`	178	5
+	`[at gunner]`	178	5
+	`[mage]`	178	5
+	`[priest]`	178	5
+	`[thief]`	178	5
+	`[swordman]`	189	5
+	`[fighter]`	189	5
+	`[gunner]`	189	5
+	`[demonic swordman]`	189	5
+	`[at gunner]`	189	5
+	`[mage]`	189	5
+	`[priest]`	189	5
+	`[thief]`	189	5
+[/skill levelup]
+
+[if]
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	15
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

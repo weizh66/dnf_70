@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	10
+
+[complete npc index]
+	10
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4988
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680300	10	2680312	20	2680302	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680311	3	2680310	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`秘制小甜點`
+
+[depend message]
+	`前幾天我那鄰居老奶奶把制作美味小甜點的方法告訴我了， 怎么樣？ 是不是口饞了？
+如果你能去收集寫在這紙上的材料， 我就可以給你制作哦。`
+
+[condition message]
+	`    前往任意的地下城， 收集10個[面粉]、 20張[羅莉安的紀念券]和10個[食用色素]交給羅莉安。`
+
+[solve message]
+	`嘿嘿， 這些只是最基本的材料， 核心的制作工藝是不能告訴你的， 你能理解吧？
+不過你別難過， 我給你準備了這些小甜點和葡萄酒， 你可以都拿走。 還有， 如果想吃小甜點， 你隨時都可以拿材料來找我幫忙。`

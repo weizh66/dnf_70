@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`封·怒海狂鯊腰帶`
+
+[basic explain]
+	`  裝備時，可以賦予武器冰屬性。`
+
+[flavor text]
+	`  他們說我身上有股魚腥味，明明是男人味好不！`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12563
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	21
+
+[magical attack]
+	21
+
+[magical defense]
+	23
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	800
+
+[price]
+	64800
+
+[repair price]
+	51840
+
+[value]
+	51840
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	736	664
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[water attack]
+	10
+
+[icon]
+	`Item/new_equipment/03_leather/belt/leather_belt.img`	17
+
+[field image]
+	`Item/FieldImage.img`	3
+
+[equipment type]
+	`[waist]`	15
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	800
+
+[item group name]
+	`lt waist`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		500	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[elemental weapon]
+		`water`
+[/then]
+
+[possible kiri protect]

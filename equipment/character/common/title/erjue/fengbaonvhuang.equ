@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 風暴女皇`
+
+[explain]
+	`普通人所謂的戰鬥不過是打架而已，都只是街頭混混的把戲罷了。
+真正的戰鬥，是對武道最終極的詮釋。猛烈、迅捷、華麗！壹旦抓住機會，就會對敵人進行狂風驟雨般地攻擊，絕不會給對方任何喘息的機會，任何的失誤都將讓妳陷入萬劫不復的境地。
+只有這種熱血賁張的戰鬥，才是這大陸上最完美的藝術，這種絕妙的美感可不是那些膚淺的人能夠體會得到的。
+戰鬥的極致就是對美的最終追求，這就是我的武道。
+而能達到這種境界的人，就只有我——暴風女皇！`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		25660	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[fighter]`	9
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[fighter]`	63
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[fighter]`	63
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[fighter]`	63
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[fighter]`	63
+	`[all]`
+	`[level]`	3
+	`%`	500
+[/skill data up]

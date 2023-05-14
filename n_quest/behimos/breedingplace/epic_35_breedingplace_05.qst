@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	19
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	35	99
+
+[pre required quest]
+	4027
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	19
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`羅特斯的影響`
+
+[depend message]
+	`啊……結果看來不太樂觀。 雖然羅特斯已經被消滅了， 但它對天帷巨獸造成的影響并沒有完全消除。
+因為樹精雖然是一種很麻煩的生物， 但依常理來看也不應該繁殖得這么快， 所以它可能是受了羅特斯的影響……
+如果樹精繼續按照這種速度繁殖的話， 不久之后， 整個天帷巨獸都會被它們占領。 你得趕緊把這個消息告訴奧菲利亞！`
+
+[condition message]
+	`    向奧菲利亞說明樹精繁殖地的情況。`
+
+[solve message]
+	`對向往安寧的GBL教來說， 這真是一個糟糕的消息。`
+
+[quest point]
+	4

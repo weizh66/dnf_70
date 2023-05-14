@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`武尊`
+
+[flavor text]
+	`  只有達到武術的極限才配的上這個稱號。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	4
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/title/title_jp.img`	183
+
+[custom animation]
+	`titleanimation/tw_130530_LeagueTitle_1.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[equipment physical attack]
+	100	100
+
+[equipment magical attack]
+	100	100
+
+[separate attack]
+	100	100
+
+[HP MAX]
+	1000
+
+[MP MAX]
+	1000
+
+[physical attack]
+	100
+
+[physical defense]
+	100
+
+[magical attack]
+	100
+
+[magical defense]
+	100
+
+[anti evil]
+	110
+
+[move speed]
+	100
+
+[attack speed]
+	100
+
+[cast speed]
+	100
+
+[physical critical hit]
+	15
+
+[magical critical hit]
+	15
+
+[inventory limit]
+	100000
+
+[hit recovery]
+	100
+
+[stuck resistance]
+	20
+
+[stuck]
+	-2
+
+[all activestatus resistance]
+	100
+
+[all elemental attack]
+	30
+
+[room list move speed rate]
+	0.2
+
+[npc gift disallowance]
+	2
+
+[if]
+	[cooltime]
+		8000
+	[attack success]
+		2
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		5
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[cooltime]
+		8000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		5
+	[buff]
+		`superarmor`
+[/then]
+
+[no random]
+
+[move wav]
+	`NAME_TOUCH`

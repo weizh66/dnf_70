@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`泰拉石光劍`
+
+[flavor text]
+	`<追憶畫冊>`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	32
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		3	6
+	[layer variation]
+		2791
+		`beamswdc1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2792
+		`beamswdc2`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		651
+		`beamswdb1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		652
+		`beamswdb2`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		5
+	[expand path]
+		`equipment/character/swordman/weapon/beamsword/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[string data]
+	``
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[move wav]
+	`BEAMSWD_TOUCH`

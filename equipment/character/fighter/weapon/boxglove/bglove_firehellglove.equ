@@ -1,0 +1,205 @@
+#PVF_File
+
+[name]
+	`極炎地獄`
+
+[basic explain]
+	` 攻擊時，以3%%的機率使敵人進入灼傷狀態。
+對灼傷狀態下敵人的傷害增加10%%`
+
+[detail explain]
+	`攻擊時以3%%的機率5秒內讓敵人陷入灼傷狀態，每0.5秒以145的攻擊力給予傷害，四周的敵人每2秒以26的攻擊力給予傷害。  (若敵人高於Lv64，則減少進入異常狀態的機率；反之，則增加機率。)
+對灼傷狀態下敵人的傷害 +10%% (在決鬥場中 +5%%)`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[physical attack]
+	43
+
+[attack speed]
+	100
+
+[price]
+	115200
+
+[repair price]
+	96768
+
+[value]
+	92160
+
+[creation rate]
+	50
+
+[equipment physical attack]
+	634	582
+
+[equipment magical attack]
+	574	526
+
+[separate attack]
+	360	242
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	47
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		3
+	[active status]
+		`burn`	64	1450	65	1	2000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			7500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			5000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`burn`	64	1450	65	1	2000
+	[/then]
+	[if]
+		[target active status]
+			`burn`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[possible kiri protect]

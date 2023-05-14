@@ -1,0 +1,53 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/EnergyCircle_BottomA.img`
+		4
+	[IMAGE POS]
+		-126	-301
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/EnergyCircle_BottomA.img`
+		4
+	[IMAGE POS]
+		-126	-301
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/EnergyCircle_BottomA.img`
+		5
+	[IMAGE POS]
+		-126	-301
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/EnergyCircle_BottomA.img`
+		4
+	[IMAGE POS]
+		-126	-301
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

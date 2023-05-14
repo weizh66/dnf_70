@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`FIGHT鬥神`
+
+[explain]
+	`  攻擊時， 有2%%的幾率增加自身3%%的攻擊速度， 效果持續30秒。
+  施放時， 有2%%的幾率增加自身5%%的施放速度， 效果持續30秒。`
+
+[flavor text]
+	`  第七屆全國格鬥大賽個人和團隊項目全國晉級賽冠軍的專屬稱號！ 它就像是通往格鬥頂峰的鑰匙！ 請帶著這把鑰匙， 以及妳那永不言敗的精神，踏上屬於妳的征程3 2 1 Fgiht！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	111
+
+[custom animation]
+	`TitleAnimation/2014_pvp_championship_spring_04_regionchamp.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	350
+
+[MP MAX]
+	350
+
+[physical defense]
+	25
+
+[magical defense]
+	25
+
+[move speed]
+	35
+
+[attack speed]
+	35
+
+[cast speed]
+	35
+
+[stuck resistance]
+	30
+
+[stuck]
+	-3
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[hit recovery]
+	150
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`attack speed`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

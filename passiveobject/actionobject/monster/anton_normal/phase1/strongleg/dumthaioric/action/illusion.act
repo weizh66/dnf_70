@@ -1,0 +1,42 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/illusion.ani`
+	[SPEECH]
+		`岳家?法 - 流星?！`	2	30
+	[/SPEECH]
+	[SOUND]
+		`R_WEAPONM_ATK_06`	0
+		`R_WEAPONM_ATK_05`	2
+		`KEIGA_ATK`	2
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			2400
+		[USE MY DIRECTION]
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`天璿手套`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入混亂狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率在5秒內讓敵人陷入混亂狀態。  (若敵人高於Lv40，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[magical attack]
+	27
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[price]
+	58800
+
+[repair price]
+	47040
+
+[value]
+	235200
+
+[equipment physical attack]
+	353	338
+
+[equipment magical attack]
+	428	409
+
+[separate attack]
+	183	122
+
+[skill levelup]
+	`[fighter]`	9	1
+	`[fighter]`	11	1
+	`[at fighter]`	9	1
+	`[at fighter]`	11	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	19
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	5
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	5
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[active status]
+		`confuse`	40	1
+[/then]
+
+[possible kiri protect]

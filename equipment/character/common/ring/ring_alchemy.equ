@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`偉大的鍊金`
+
+[basic explain]
+	`被攻擊時，以50%%的機率使自身增加300點物理防禦力，效果持續10秒。`
+
+[flavor text]
+	`赫頓瑪爾鍊金協會出品之護身用戒指， 可以保護使用者的身體。`
+
+[grade]
+	20
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	18
+
+[physical attack]
+	13
+
+[magical attack]
+	13
+
+[price]
+	20000
+
+[repair price]
+	16000
+
+[value]
+	16000
+
+[equipment magical defense]
+	736	672
+
+[icon]
+	`Item/common/ring.img`	3
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		50
+	[stat]
+		`equipment physical defense`
+		`+`	300
+[/then]
+
+[possible kiri protect]

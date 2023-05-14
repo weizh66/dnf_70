@@ -1,0 +1,26 @@
+#PVF_File
+
+[layer]
+	`[bottom]`
+
+[width]
+	1	1
+
+[floating height]
+	0
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/BoomGround.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

@@ -1,0 +1,87 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/GunBlader/Effect/Exceed/ChargingLoopCoreLDodge.img`
+		8
+	[IMAGE POS]
+		-180	-244
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/GunBlader/Effect/Exceed/ChargingLoopCoreLDodge.img`
+		9
+	[IMAGE POS]
+		-180	-260
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/GunBlader/Effect/Exceed/ChargingLoopCoreLDodge.img`
+		10
+	[IMAGE POS]
+		-180	-286
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/GunBlader/Effect/Exceed/ChargingLoopCoreLDodge.img`
+		11
+	[IMAGE POS]
+		-180	-340
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/GunBlader/Effect/Exceed/ChargingLoopCoreLDodge.img`
+		12
+	[IMAGE POS]
+		-180	-500
+	[IMAGE RATE]
+		0.20000000298023224	0.20000000298023224
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	-64
+	[DELAY]
+		80

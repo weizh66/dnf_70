@@ -1,0 +1,52 @@
+#PVF_File
+[SPECTRUM]
+	1
+	[SPECTRUM TERM]
+		40
+	[SPECTRUM LIFE TIME]
+		300
+	[SPECTRUM COLOR]
+		155	155	155	255
+	[SPECTRUM EFFECT]
+		`NONE`
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/cloud_boss.img`
+		11
+	[IMAGE POS]
+		-310	-362
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1200
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/cloud_boss.img`
+		11
+	[IMAGE POS]
+		-310	-362
+	[IMAGE RATE]
+		1.5	1.5
+	[DELAY]
+		120
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/cloud_boss.img`
+		11
+	[IMAGE POS]
+		-310	-362
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		120

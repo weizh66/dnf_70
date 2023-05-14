@@ -1,0 +1,28 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[floating height]
+	1
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`action/Exceed1.act`
+
+[attack info]
+	`AttackInfo/Exceed.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1300
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	234552
+[/object destroy condition]

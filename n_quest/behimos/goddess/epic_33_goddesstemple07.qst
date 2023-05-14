@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	4019
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3114	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`解除詛咒`
+
+[depend message]
+	`對于我們現在的人來說， 美神維納斯只是一個傳說， 她從很久以前就在人類社會中消失了， 只是她的‘恩澤’似乎還一直遺留在那個神殿中。
+但是不知道是因為羅特斯還是別的什么原因， ‘女神的恩澤’逐漸演變成‘墮落的詛咒’。 據說GBL教的很多信徒還因此變得兇殘， 所以女神殿才成了禁地……
+沒想到現在連冒險家你也中了這種詛咒， 我們必須趕緊將你身上的詛咒轉移到其它媒介體上， 否則……實在不敢想象……
+不過， 冒險家你放心。 賽麗亞一定會幫助你的！ 首先我們要找到邪惡的結晶， 只有它可以抵擋詛咒的力量……`
+
+[condition message]
+	`    為了解除詛咒， 請收集40個[邪惡的結晶]交給賽麗亞。`
+
+[solve message]
+	`這可怎么辦呀？ 你看， 結晶都碎了。 如果連邪惡的結晶都無法抵擋詛咒的力量， 那……`
+
+[quest point]
+	4

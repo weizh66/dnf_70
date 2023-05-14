@@ -1,0 +1,174 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/furnace_0_0.ani`
+	[SUB ANI]
+		`../Animation/furnace_0_1.ani`	0	-2
+		`../Animation/furnace_0_2.ani`	0	-1
+		`../Animation/furnace_1_0.ani`	0	1
+		`../Animation/furnace_2_0.ani`	0	2
+	[/SUB ANI]
+	[SOUND]
+		`FURNACE_LOOP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70236
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[SET POSITION HP GAUGE]
+		0	0	10
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70236
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			200
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DAMAGE BOX]
+	[OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70236
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			200
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DAMAGE BOX]
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		1	1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70236
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			200
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		4
+	[ON]
+	[TRIGGER]
+		3
+	[OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		4
+	[OFF]
+	[CASTING]
+		5000	5
+	[/CASTING]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70236
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[TRIGGER]
+		3
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[HP]
+		[<=]
+			1
+		[%]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

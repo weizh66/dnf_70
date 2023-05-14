@@ -1,0 +1,70 @@
+#PVF_File
+
+[name]
+	`銀色暴風戰士頭盔`
+
+[explain]
+	`    煉就格斗之魂， 需要擁有執著的熱情與永不言敗的信念。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_acap.img`	70
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	33	1
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2742157
+
+[physical defense]
+	15
+
+[cast speed]
+	120
+
+[avatar func filter]
+	2

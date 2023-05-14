@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`封·漫遊之王`
+
+[basic explain]
+	`    技能快捷欄上每空出壹個位置，攻擊時增加5%%的傷害。`
+
+[detail explain]
+	`    技能快捷欄上每空出壹個位置，攻擊時增加5%%的傷害。(傷害加成效果取最高值，且無法疊加；暴擊/附加傷害除外)`
+
+[flavor text]
+	`  看清楚了吧，這就是我們之間的差距。--漫遊之王`
+
+[grade]
+	82
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[HP MAX]
+	500
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	898	749
+
+[equipment magical attack]
+	755	630
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	12
+
+[magical critical hit]
+	10
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/revolver/revolver.img`	100
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	60
+[/then]
+
+[possible kiri protect]

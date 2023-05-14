@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[pre required quest]
+	41
+[/pre required quest]
+
+[pre required quest]
+	4468
+[/pre required quest]
+
+[monster reward item]
+	402	31	-1	4070	1	68	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4070	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1024	5	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`沒有送出的信`
+
+[depend message]
+	`我是暗精靈女王梅婭的直屬傳令使克倫特， 我聽莎蘭說你是阿拉德大陸最勇敢的冒險家， 所以我有個私人的請求， 不知道你能不能答應？ 我向上帝發誓， 這件事絕對不會給人類帶來傷害！
+事情這樣的， 我們暗精靈的煉金大師摩根為了找出傳染病的根源， 獨自一人去了淺棲之地， 我已經很久沒有收到他的消息了， 我很擔心他。
+我知道以你的能力去淺棲之地不是難事， 所以想請你幫忙打聽他的消息。 呵呵， 也許他已經找到傳染病的線索了……`
+
+[condition message]
+	`    前往諾伊佩拉地區的『淺棲之地』， 從領主怨恨之摩根身上找來[無法讀取的摩根信函]。`
+
+[solve message]
+	`啊！ 可憐的摩根！ 他怎么會變成盜尸者了？ 他究竟受了多大的委屈啊…… `
+
+[quest point]
+	4

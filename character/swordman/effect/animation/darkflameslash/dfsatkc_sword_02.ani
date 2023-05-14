@@ -1,0 +1,36 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/Kalla/DFS_01.img`
+		22
+	[IMAGE POS]
+		-287	-411
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/Kalla/DFS_01.img`
+		24
+	[IMAGE POS]
+		-287	-411
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+	[SET FLAG]
+		1
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		138	185
+	[DELAY]
+		60

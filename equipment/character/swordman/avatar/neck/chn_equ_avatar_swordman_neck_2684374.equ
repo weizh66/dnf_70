@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`黑色玫瑰念珠`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aneck.img`	164
+
+[equipment type]
+	`[breast avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	54	0
+
+[layer variation]
+	2200
+	`neck_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	10
+	`[ATTACK_SPEED]`
+	`+`	40
+	`[HIT_RECOVERY]`
+	`+`	100
+[/avatar select ability]
+
+[image packs]
+	`Character/Swordman/Equipment/Avatar/neck/sm_neck0003c.img`
+	`Character/Swordman/Equipment/Avatar/neck/sm_neck0003d.img`
+[/image packs]

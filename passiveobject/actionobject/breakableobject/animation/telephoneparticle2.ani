@@ -1,0 +1,25 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`map/village/telephone_destroy.img`
+		1
+	[IMAGE POS]
+		-9	-27
+
+[FRAME001]
+	[IMAGE]
+		`map/village/telephone_destroy.img`
+		1
+	[IMAGE POS]
+		-9	-27
+	[IMAGE ROTATE]
+		6.28000020980835
+	[DELAY]
+		500

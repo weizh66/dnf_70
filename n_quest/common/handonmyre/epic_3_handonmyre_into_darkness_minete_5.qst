@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	15	99
+
+[pre required quest]
+	4433
+[/pre required quest]
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`暗夜使者之路 - 任務商店`
+
+[depend message]
+	`這是我要告訴你的最後一項。你有聽過任務商店嗎？利用完成主線任務時獲得的QP可以在任務商店購買商品。
+已經在你需要購買的商品上貼上了標籤請你去購買吧。`
+
+[condition message]
+	`在任務商店提昇推薦屬性`
+
+[solve message]
+	`做得好。剩下的QP就由你自行挑選購買商品。那麼往後為了阿拉德的和平就請你大顯身手。`
+
+[quest point]
+	4

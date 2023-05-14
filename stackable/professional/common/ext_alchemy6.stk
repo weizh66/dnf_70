@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`至尊鍊金提取器`
+
+[explain]
+	`可以從稀有裝備中提取出副職材料。（85級以下的裝備）`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	75
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	981
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[unlimited town and dungeon]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	1000
+
+[move wav]
+	`IRON_TOUCH`
+
+[expertjob only]
+	`alchemist`	11
+[/expertjob only]
+
+[alchemist extraction]
+	5

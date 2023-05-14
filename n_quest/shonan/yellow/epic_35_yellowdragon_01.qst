@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	122
+
+[complete npc index]
+	124
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4077
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	124
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`黃龍大會`
+
+[depend message]
+	`看那邊很熱鬧吧？ 今天是黃龍大會舉辦的日子， 即使是初次參與武斗大會的新手， 也可以在那里一展身手哦~想試試嗎？
+首先你需要一張入場券， 具體你可以去問問小鐵柱。`
+
+[condition message]
+	`    想要獲得[黃龍入選資格]， 請先去找工坊區的小鐵柱談談。`
+
+[solve message]
+	`歡迎歡迎， 隨便看看， 俺們這里的東西保證物美價廉！
+啊， 你想要黃龍大會的入場券？`
+
+[quest point]
+	4

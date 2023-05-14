@@ -1,0 +1,500 @@
+#PVF_File
+
+[name]
+	`呼喚血的雙劍`
+
+[basic explain]
+	`攻擊時以 5%% 的機率讓敵人呈現出血狀態
+安裝時每5秒讓200px 範圍內的敵人在5秒內進入出血狀態（強化/增幅數值越增加，適用範圍會增加 最大增加至 15強。）
+安裝時所有範圍 內出血狀態的敵人每1隻物理攻擊力增加10 `
+
+[detail explain]
+	`攻擊時以5%%機率 7秒內使敵人陷入出血狀態，每 0.5秒以1000的攻擊力給予傷害。 （高於Lv89的對象得到的機率減少，低於Lv89的對象則會增加。）
+安裝時每5秒讓200px 範圍內的敵人，5秒內進入出血狀態（強化/增幅數值越增加適用範圍越增加。 最大增加至15強。）
+安裝時所有範圍內出血狀態的敵人每 1隻物理攻擊力增加10（最多重疊15次）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	58
+
+[attack speed]
+	-30
+
+[price]
+	142400
+
+[repair price]
+	119616
+
+[value]
+	113920
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	871	820
+
+[equipment magical attack]
+	683	643
+
+[separate attack]
+	510	347
+
+[physical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/thief/twinswd/twinswd.img`	109
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[active status]
+		`bleeding`	85	1000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+[/then]
+
+[variable stat]
+	`equipment physical attack`
+	`+`	10
+	`object number`
+	`enemy`	5000
+	`bleeding`	15
+[/variable stat]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`<`	1	0
+	[/equipment upgrade]
+	[equipment upgrade]
+		`amplify`
+		`<`	1	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	200
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	1	0
+		`amplify`
+		`=`	1	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	220
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	2	0
+		`amplify`
+		`=`	2	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	240
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	3	0
+		`amplify`
+		`=`	3	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	260
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	4	0
+		`amplify`
+		`=`	4	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	280
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	5	0
+		`amplify`
+		`=`	5	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	300
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	6	0
+		`amplify`
+		`=`	6	0
+	[/equipment upgrade]
+	[attack success]
+		1
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	320
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	7	0
+		`amplify`
+		`=`	7	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	340
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	8	0
+		`amplify`
+		`=`	8	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	360
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	9	0
+		`amplify`
+		`=`	9	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	380
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	10	0
+		`amplify`
+		`=`	10	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	400
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	11	0
+		`amplify`
+		`=`	11	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	420
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	12	0
+		`amplify`
+		`=`	12	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	440
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	13	0
+		`amplify`
+		`=`	13	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	460
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	14	0
+		`amplify`
+		`=`	14	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	480
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`>=`	15	0
+		`amplify`
+		`>=`	15	0
+	[/equipment upgrade]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`all enemy`	500
+	[duration]
+		5000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[possible kiri protect]

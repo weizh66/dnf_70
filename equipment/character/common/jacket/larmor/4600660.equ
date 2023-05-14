@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`封·混元武士的厄運胸甲`
+
+[basic explain]
+	`  裝備後， 會增加自身300點的力量和智力。
+  裝備後，每30秒，使自身進入中毒狀態。
+  力量 +300
+  智力 +300(裝備10秒後生效)`
+
+[detail explain]
+	`  每30秒，使自身進入中毒狀態30秒； 中毒狀態下， 每0.5秒受到50點傷害。 (若敵人高於Lv100， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 裝備1秒後生效)
+  力量 +300
+  智力 +300(裝備10秒後生效)`
+
+[flavor text]
+	`  愛情有時候比毒藥還可怕……`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12567
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	92
+
+[magical attack]
+	78
+
+[HP MAX]
+	500
+
+[need material]
+	3821	800
+
+[price]
+	113400
+
+[repair price]
+	90720
+
+[value]
+	90720
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3312	2988
+
+[icon]
+	`item/new_equipment/04_larmor/coat/larmor_coat.img`	20
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		30000	1	1000
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		30000
+	[active status]
+		`poison`	100	3000
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[start cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical attack`
+		`+`	299
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[start cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	300
+[/then]
+
+[possible kiri protect]

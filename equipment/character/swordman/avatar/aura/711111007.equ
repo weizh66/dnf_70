@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`末日科技光環（紅色）（特效光環）`
+
+[explain]
+	`    （特效光環）`
+
+[grade]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/awwb01.img`	189
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	118
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[separate attack]
+	100	100
+
+[physical attack]
+	80
+
+[physical defense]
+	80
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[HP MAX]
+	100
+
+[MP MAX]
+	100
+
+[HP regen speed]
+	100
+
+[MP regen speed]
+	100
+
+[all elemental resistance]
+	5
+
+[room list move speed rate]
+	0.1
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]
+
+[aurora graphic effects]
+	7	1
+	`character/common/animation/aura/jp/01_redaura_front_normal.ani`	0
+	`character/common/animation/aura/jp/06_redaura_back_normal2.ani`	1
+	`character/common/animation/aura/jp/03_redaura_front2_normal.ani`	0
+	`character/common/animation/aura/jp/04_redaura_back_normal.ani`	1
+	`character/common/animation/aura/jp/00_redaura_front_dodge.ani`	0
+	`character/common/animation/aura/jp/05_redaura_back_dodge.ani`	1
+	`character/common/animation/aura/jp/02_redaura_front2_dodge.ani`
+
+[aura pos datas]
+	0
+	`[swordman]`	0	2	0
+	`[fighter]`	2	2	0
+	`[gunner]`	-2	-3	0
+	`[mage]`	-2	2	0
+	`[priest]`	-5	-2	0
+	`[at gunner]`	0	2	0
+	`[thief]`	0	-1	0
+	`[at fighter]`	-2	-6	0
+	`[at mage]`	0	10	0
+	`[demonic swordman]`	0	0	0
+	`[creator mage]`	-2	2	0
+	`[at swordman]`	0	3	1
+	`[swordman]`	0	2	1
+	`[fighter]`	2	2	1
+	`[gunner]`	-2	-3	1
+	`[mage]`	-2	2	1
+	`[priest]`	-5	-2	1
+	`[at gunner]`	0	2	1
+	`[thief]`	0	-1	1
+	`[at fighter]`	-2	-6	1
+	`[at mage]`	0	10	1
+	`[demonic swordman]`	0	0	1
+	`[creator mage]`	-2	2	1
+	`[at swordman]`	0	3
+[/aura pos datas]
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]

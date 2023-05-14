@@ -1,0 +1,500 @@
+#PVF_File
+
+[name]
+	`封·西嵐的武士刀`
+
+[basic explain]
+	`[猛龍斷空斬]斬擊數上限增加4，鬼影閃攻擊力增加80%%
+[後跳斬]冷卻時間減少1.5秒
+[幻影劍舞]冷卻時間減少40秒
+[崩山擊]冷卻時間減少1.2秒
+幻影劍舞斬擊次數+20、攻擊力加50%%、劍氣範圍+20%%
+施放[幻影劍舞]、[邪光斬]時，隨機向前方發射劍氣。（持續時間等於施放時間）
+施放[後跳斬]時向前方發射三道橫排劍氣，施放[極·神劍術（暴風式）]時，每攻擊一次發射一道劍氣
+攻擊時有1%%的幾率減少敵人30%%的HP`
+
+[flavor text]
+	`這把刀我找了多少年了...`
+
+[grade]
+	57
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[physical attack]
+	120
+
+[magical attack]
+	120
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[move speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3260	60000
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	559	508
+
+[separate attack]
+	328	220
+
+[physical critical hit]
+	20
+
+[skill levelup]
+	`[swordman]`	73	5
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/katana.img`	1
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[event use skill]
+		`swordman`	73
+	[/event use skill]
+	[cool time]
+		6000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		2800
+	[appendage]
+		332
+[/then]
+
+[if]
+	[my appendage]
+		332
+	[time]
+		250	1	1000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[passive object]
+			20037	30	0	0	999	0
+			`Straight4.ptl`
+		[/passive object]
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[passive object]
+			20037	30	40	0	999	0
+			`Straight4.ptl`
+		[/passive object]
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[passive object]
+			20037	30	-40	0	999	0
+			`Straight4.ptl`
+		[/passive object]
+		[then probability]
+			33.0
+	[/then]
+[/multiple then]
+
+[if]
+	[use skill]
+		`swordman`	49
+	[/use skill]
+	[cooltime]
+		50
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		20037	50	0	0	20	0
+		`Straight4.ptl`	20037	50	50	0	20	0
+		`Straight4.ptl`	20037	50	-50	0	20	0
+		`Straight4.ptl`
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	50
+	[/event use skill]
+	[cool time]
+		2000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		333
+[/then]
+
+[if]
+	[my appendage]
+		333
+	[time]
+		400	1	1000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[passive object]
+			20037	30	0	0	999	0
+			`Straight4.ptl`
+		[/passive object]
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[passive object]
+			20037	30	50	0	999	0
+			`Straight4.ptl`
+		[/passive object]
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[passive object]
+			20037	30	-50	0	999	0
+			`Straight4.ptl`
+		[/passive object]
+		[then probability]
+			33.0
+	[/then]
+[/multiple then]
+
+[if]
+	[skill]
+		`swordman`	86
+	[/skill]
+	[cooltime]
+		50
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		20037	30	-50	0	0	0
+		`Straight4.ptl`	20037	30	0	0	0	0
+		`Straight4.ptl`	20037	30	50	0	0	0
+		`Straight4.ptl`
+	[/passive object]
+[/then]
+
+[if]
+	[skill]
+		`swordman`	58
+	[/skill]
+	[cooltime]
+		50
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		20037	30	-50	0	0	0
+		`Straight4.ptl`	20037	30	0	0	0	0
+		`Straight4.ptl`	20037	30	50	0	0	0
+		`Straight4.ptl`
+	[/passive object]
+[/then]
+
+[if]
+	[skill]
+		`swordman`	72
+	[/skill]
+	[cooltime]
+		50
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		48117	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[weakness]
+		10
+[/then]
+
+[skill data up]
+	`[swordman]`	72
+	`[all]`
+	`[static]`	0
+	`+`	4
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	80
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	1
+	`%`	80
+	`[swordman]`	49
+	`[all]`
+	`[cooltime]`	0
+	`+`	-2000
+	`[swordman]`	65
+	`[all]`
+	`[cooltime]`	0
+	`+`	-3000
+[/skill data up]
+
+[skill data up]
+	`[swordman]`	73
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-22000
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	1
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	2
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	3
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	4
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	5
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	6
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	7
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	8
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	11
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	12
+	`+`	10
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	13
+	`+`	700
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	14
+	`+`	700
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	16
+	`+`	2
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	17
+	`+`	2
+	`[swordman]`	73
+	`[dungeon type]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	73
+	`[dungeon type]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	73
+	`[dungeon type]`
+	`[skill consume item]`	0
+	`+`	1
+	`[swordman]`	15
+	`[dungeon type]`
+	`[level]`	11
+	`%`	50
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	25
+	`+`	20
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	26
+	`+`	20
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	27
+	`+`	20
+	`[swordman]`	73
+	`[dungeon type]`
+	`[static]`	28
+	`+`	20
+[/skill data up]
+
+[skill data up]
+	`[swordman]`	38
+	`[all]`
+	`[level]`	4
+	`%`	40
+	`[swordman]`	50
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-4000
+[/skill data up]
+
+[possible kiri protect]

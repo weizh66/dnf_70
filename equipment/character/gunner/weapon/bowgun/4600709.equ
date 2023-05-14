@@ -1,0 +1,348 @@
+#PVF_File
+
+[name]
+	`封·最高指揮官戰弩`
+
+[basic explain]
+	`    施放[銀彈]時， 在冷卻時間內附加10%%的光屬性傷害。
+    施放[冰凍彈]時， 在冷卻時間內附加10%%的冰屬性傷害。
+    施放[爆炎彈]時， 在冷卻時間內附加10%%的火屬性傷害
+    施放[破甲彈]時， 在冷卻時間內附加16%%的傷害。`
+
+[detail explain]
+	`    施放[銀彈]時， 在冷卻時間內附加10%%的光屬性傷害。
+    施放[冰凍彈]時， 在冷卻時間內附加10%%的冰屬性傷害。
+    施放[爆炎彈]時， 在冷卻時間內附加10%%的火屬性傷害
+    施放[破甲彈]時， 在冷卻時間內附加16%%的傷害。(彈藥Buff的附加傷害效果互相不重疊； 解除裝備後效果消失)`
+
+[flavor text]
+	`    壹二三四，二二三四。換了子彈，再來壹次！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	215
+
+[magical attack]
+	182
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[need material]
+	3821	1600
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	831	831
+
+[equipment magical attack]
+	923	923
+
+[separate attack]
+	648	648
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[gunner]`	1	2
+	`[gunner]`	2	2
+	`[gunner]`	30	2
+	`[gunner]`	52	2
+	`[at gunner]`	1	2
+	`[at gunner]`	2	2
+	`[at gunner]`	30	2
+	`[at gunner]`	52	2
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/bowgun/bowgun.img`	98
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`gunner`	1
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		15300
+	[appendage]
+		221
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	1
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-153000
+	[appendage]
+		222
+	[appendage]
+		223
+	[appendage]
+		224
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	2
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		15300
+	[appendage]
+		222
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	2
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-153000
+	[appendage]
+		221
+	[appendage]
+		223
+	[appendage]
+		224
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	30
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		16000
+	[appendage]
+		223
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	30
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-153000
+	[appendage]
+		221
+	[appendage]
+		222
+	[appendage]
+		224
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	52
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		224
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	52
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-153000
+	[appendage]
+		221
+	[appendage]
+		222
+	[appendage]
+		223
+[/then]
+
+[if]
+	[my appendage]
+		221
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	10
+[/then]
+
+[if]
+	[my appendage]
+		222
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`water`
+		`%`	10
+[/then]
+
+[if]
+	[my appendage]
+		223
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	10
+[/then]
+
+[if]
+	[my appendage]
+		224
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	16
+[/then]
+
+[possible kiri protect]

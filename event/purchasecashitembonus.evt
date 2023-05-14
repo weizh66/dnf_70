@@ -1,0 +1,49 @@
+#PVF_File
+
+[event]
+	[title]
+		`新學期出席活動`
+	[explain]
+		`在消耗疲勞值30後，請點按確認出席按鈕！
+活動期間內，如每天都有進行確認出席，將可以獲得更特別的禮物！`
+	[db table]
+		`event_package_purchase_log`
+	[item idx]
+	[/item idx]
+	[item idx start]
+		2660434
+	[item idx end]
+		2660451
+	[send]
+		[purchase start count]
+			2
+		[purchase end count]
+			100
+		[purchase mutiple number]
+			2
+		[send mail]
+			[inven]
+				0
+			[detail]
+				2660413	1	0	0
+				`game_server_msg_236`
+				`game_server_msg_238`
+			[/detail]
+		[/send mail]
+		[purchase start count]
+			1
+		[purchase end count]
+			0
+		[purchase mutiple number]
+			1
+		[send mail]
+			[inven]
+				0
+			[detail]
+				0	0	1000000	0
+				`game_server_msg_236`
+				`game_server_msg_237`
+			[/detail]
+		[/send mail]
+	[/send]
+[/event]

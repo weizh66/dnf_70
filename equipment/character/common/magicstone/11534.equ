@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`空城淚-舊王愁`
+
+[basic explain]
+	`    被攻擊時，所受傷害+10%%。
+    攻擊時，可以附加15%%傷害。`
+
+[detail explain]
+	`    被攻擊時，所受傷害+10%%。
+    攻擊時，可以附加15%%傷害。`
+
+[flavor text]
+	`  戰國空余恨，舊王淚無痕。`
+
+[grade]
+	84
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	112
+
+[physical defense]
+	112
+
+[magical attack]
+	112
+
+[magical defense]
+	112
+
+[need material]
+	3821	1200
+
+[price]
+	120400
+
+[value]
+	96320
+
+[creation rate]
+	125
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	124
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	-10
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600767	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

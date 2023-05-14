@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`格拉西亞家族遺物 - 手炮`
+
+[flavor text]
+	`三， 學會助人， 幫助那些善良又身陷困苦的人。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	92
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[need material]
+	5000	30
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	995	865
+
+[equipment magical attack]
+	597	519
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[light attack]
+	20
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	122
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[elemental property]
+	`[light element]`
+
+[possible kiri protect]

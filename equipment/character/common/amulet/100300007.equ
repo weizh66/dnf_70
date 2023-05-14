@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`超級巨星項鍊`
+
+[basic explain]
+	`施展時會以5%%的機率在10秒內對自己施展霸體護甲增益`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[magical attack]
+	34
+
+[magical defense]
+	85
+
+[price]
+	102000
+
+[repair price]
+	81600
+
+[value]
+	81600
+
+[creation rate]
+	200
+
+[equipment magical defense]
+	7440	6960
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	76
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[appendage]
+		205
+	[appendage]
+		207
+[/then]
+
+[set name]
+	`超級巨星套裝`
+
+[set item]
+	100310007	100300007	100320009
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`發動飾品的霸體護甲屬性，在持續時間內攻擊時會增加20%%追加傷害、攻擊速度7%%、移動速度7%%、施放速度7%%。`
+	[if]
+		[my appendage]
+			205
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	20
+	[/then]
+[/set ability]
+
+[possible kiri protect]

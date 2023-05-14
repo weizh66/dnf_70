@@ -1,0 +1,161 @@
+#PVF_File
+
+[name]
+	`狩獵女神之弩`
+
+[basic explain]
+	`攻擊時以 2%% 的機率讓敵人呈現出血狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以85的攻擊力給予傷害。 （高於Lv40的對象得到的機率減少，低於Lv40的對象則會增加。）`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	31
+
+[magical attack]
+	16
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[price]
+	70400
+
+[repair price]
+	56320
+
+[value]
+	56320
+
+[creation rate]
+	30
+
+[equipment physical attack]
+	330	279
+
+[equipment magical attack]
+	367	310
+
+[separate attack]
+	245	164
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	1
+
+[skill levelup]
+	`[gunner]`	49	1
+	`[at gunner]`	49	1
+[/skill levelup]
+
+[bleeding resistance]
+	20
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	19
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	2	4
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	2	4
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	40	1700
+[/then]
+
+[possible kiri protect]

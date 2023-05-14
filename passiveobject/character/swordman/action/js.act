@@ -1,0 +1,68 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Handlingsword/handlingsword_stand_sword_normal_a.ani`
+	[SUB ANI]
+		`../Animation/Handlingsword/handlingsword_stand_sword_normal_b.ani`	0	1
+		`../Animation/Handlingsword/handlingsword_stand_sword_normal_c.ani`	0	2
+		`../Animation/Handlingsword/handlingsword_stand_sword_normal_d.ani`	0	3
+		`../Animation/Handlingsword/handlingsword_stand_sword_normal_e.ani`	0	4
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			25590
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[=]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FOLLOWING TARGET AND DIRECTION]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[HP]
+		[<=]
+			1
+		[%]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`(舊) 米蘭的墨珠`
+
+[basic explain]
+	`[破魔符]多段攻擊次數 +1`
+
+[flavor text]
+	`    傳說它是圣騎士米蘭用過的墨珠。`
+
+[grade]
+	35
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rosary`
+
+[rarity]
+	4
+
+[weight]
+	2500
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`Item/weapon/priest/rosary.img`	32
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	56000
+
+[value]
+	44800
+
+[cool time]
+	10000
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	320	277
+
+[equipment magical attack]
+	409	354
+
+[separate attack]
+	209	138
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[magical critical hit]
+	2
+
+[skill data up]
+	`[priest]`	38
+	`[all]`
+	`[static]`	3
+	`+`	1
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	38	2
+[/skill levelup]
+
+[variation]
+	3	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

@@ -1,0 +1,201 @@
+#PVF_File
+
+[name]
+	`魔眼之異能腰帶`
+
+[basic explain]
+	`    進入地下城後， 若受到5次傷害， 則進入霸體狀態， 效果持續5秒。 (冷卻時間10秒)
+    當觸發該裝備的霸體效果時， 可以增加100點的力量、 智力、 體力和精神， 以及10%%的移動速度、 攻擊速度和施放速度。`
+
+[detail explain]
+	`    進入地下城後， 若受到5次傷害， 則進入霸體狀態， 效果持續5秒。 (解除裝備後效果消失； 冷卻時間30秒)
+    當觸發該裝備的霸體效果時， 可以恢復10%%的HP， 並增加100點力量、 智力、 體力和精神， 以及10%%的攻擊速度、 移動速度和15%%的施放速度。`
+
+[flavor text]
+	`    鷹眼傑克好像是電影里的吧？`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[magical defense]
+	25
+
+[inventory limit]
+	3000
+
+[price]
+	63000
+
+[repair price]
+	50400
+
+[value]
+	50400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	784	728
+
+[icon]
+	`item/new_equipment/03_leather/belt/leather_belt.img`	41
+
+[field image]
+	`Item/FieldImage.img`	3
+
+[equipment type]
+	`[waist]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	800
+
+[item group name]
+	`lt waist`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1500
+	[appendage]
+		644
+[/then]
+
+[if]
+	[my appendage]
+		644
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1500
+	[appendage]
+		645
+[/then]
+
+[if]
+	[my appendage]
+		645
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1500
+	[appendage]
+		646
+[/then]
+
+[if]
+	[my appendage]
+		646
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1500
+	[appendage]
+		647
+[/then]
+
+[if]
+	[my appendage]
+		647
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1500
+	[appendage]
+		648
+[/then]
+
+[if]
+	[my appendage]
+		648
+	[cooltime]
+		30000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		15000
+	[buff]
+		`superarmor`
+	[appendage]
+		649
+	[restore]
+		`hp`
+		`%`	10	0
+[/then]
+
+[possible kiri protect]

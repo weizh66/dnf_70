@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	`毒蛟手套`
+
+[basic explain]
+	`攻擊時以 3%% 的機率讓敵人進入中毒狀態`
+
+[detail explain]
+	`攻擊時以3%%的機率7秒內讓敵人呈現中毒狀態，每0.5秒以35的攻擊力給予傷害。 (若敵人高於Lv10，則減少進入異常狀態的機率；反之，則增加機率。)`
+
+[grade]
+	12
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	10
+
+[magical attack]
+	12
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[price]
+	19200
+
+[repair price]
+	15360
+
+[value]
+	2000
+
+[equipment physical attack]
+	156	118
+
+[equipment magical attack]
+	189	143
+
+[separate attack]
+	90	56
+
+[skill levelup]
+	`[fighter]`	5	1
+	`[at fighter]`	5	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	5
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2790
+	`glovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2150
+	`at_glovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_glovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_glovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[active status]
+		`poison`	10	500
+[/then]
+
+[possible kiri protect]

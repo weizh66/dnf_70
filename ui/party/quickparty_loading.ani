@@ -1,0 +1,80 @@
+#PVF_File
+[LOOP]
+	1
+[COORD]
+	1
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`WorldMap/selectdungeon02.img`
+		86
+	[IMAGE POS]
+		0	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME001]
+	[IMAGE]
+		`WorldMap/selectdungeon02.img`
+		86
+	[IMAGE POS]
+		0	0
+	[IMAGE ROTATE]
+		-1.570796012878418
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME002]
+	[IMAGE]
+		`WorldMap/selectdungeon02.img`
+		86
+	[IMAGE POS]
+		0	0
+	[IMAGE ROTATE]
+		-3.1415929794311523
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME003]
+	[IMAGE]
+		`WorldMap/selectdungeon02.img`
+		86
+	[IMAGE POS]
+		0	0
+	[IMAGE ROTATE]
+		-4.71238899230957
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME004]
+	[IMAGE]
+		`WorldMap/selectdungeon02.img`
+		86
+	[IMAGE POS]
+		0	0
+	[IMAGE ROTATE]
+		-6.2657318115234375
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1

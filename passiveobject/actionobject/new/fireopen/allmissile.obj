@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`AllMissile`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1500
+
+[basic action]
+	`Action/AllMissile.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1000
+[/object destroy condition]

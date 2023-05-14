@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`帳號綁定成長秘藥`
+	
+
+[explain]
+	`使用時，連續 10分鐘內，完成地城時獲得的經驗值會增加 2倍。 在地城喪命時、移動到村子時、重新登錄時其效果都會持續，和經驗值倍數活動的效果不會重複。`
+	
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[cool time]
+	600000
+
+[icon]
+	`Item/stackable/consumption.img`	262
+
+[stackable type]
+	`[waste]`	0
+
+[move wav]
+	`POTION_TOUCH`
+
+[attach type]
+	`[account]`
+
+[stack limit]
+	1
+
+[cooltime group]
+	99
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[exp bonus rate]
+	1.0
+
+[usable period]
+	2
+
+[stat change duration]
+	600000
+	`myself`

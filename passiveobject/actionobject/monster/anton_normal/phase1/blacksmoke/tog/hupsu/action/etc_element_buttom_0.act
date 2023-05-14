@@ -1,0 +1,26 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_Element_buttom_0_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19885
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	50
+		[TEAM]
+			100
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

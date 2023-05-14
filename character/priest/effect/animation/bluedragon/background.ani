@@ -1,0 +1,31 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_background.img`
+		0
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		80.0	2.0
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		3800
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_background.img`
+		0
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		80.0	2.0
+	[DELAY]
+		80

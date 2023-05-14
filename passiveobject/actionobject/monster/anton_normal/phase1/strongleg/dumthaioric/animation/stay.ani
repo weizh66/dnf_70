@@ -1,0 +1,38 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		0
+	[IMAGE POS]
+		-250	-362
+	[DELAY]
+		300
+	[DAMAGE BOX]
+	-23	-10	0	47	20	144
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		1
+	[IMAGE POS]
+		-250	-362
+	[DELAY]
+		300
+	[DAMAGE BOX]
+	-23	-10	0	47	20	144
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		2
+	[IMAGE POS]
+		-250	-362
+	[DELAY]
+		300
+	[DAMAGE BOX]
+	-23	-10	0	47	20	144

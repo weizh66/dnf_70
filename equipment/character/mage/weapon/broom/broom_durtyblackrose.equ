@@ -1,0 +1,269 @@
+#PVF_File
+
+[name]
+	`暗黑血之無痕`
+
+[basic explain]
+	`攻擊時，以5%%的機率召喚出狄瑞吉的碎片。
+穿戴後，每30秒減少自身1%%的HP。
+風之噬表消耗量減少20%% 
+ 攻擊時，附加10%%的傷害。`
+
+[detail explain]
+	` 穿戴後，每30秒減少自身1%%的HP。
+ 攻擊時，以5%%的機率召喚出狄瑞吉的碎片，狄瑞吉的碎片存在15秒。(決鬥場中無效)
+ 攻擊時，附加10%%的傷害。(在決鬥場中增加5%%)`
+
+[grade]
+	75
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	68
+
+[anti evil]
+	10
+
+[magical attack]
+	50
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[stuck]
+	-1
+
+[price]
+	135000
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[creation rate]
+	0
+
+[need material]
+	3340	300
+
+[equipment physical attack]
+	714	664
+
+[equipment magical attack]
+	785	730
+
+[separate attack]
+	425	288
+
+[skill levelup]
+	`[mage]`	85	3
+	`[mage]`	103	1
+	`[creator mage]`	254	3
+	`[creator mage]`	248	3
+[/skill levelup]
+
+[dark attack]
+	10
+
+[light resistance]
+	10
+
+[icon]
+	`Item/weapon/mage/broom.img`	51
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	14	3
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	14	3
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	14	3
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[required skill]
+	91
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		100
+	[summon monster]
+		62131	68	1
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[time]
+		10000	1	1000
+	[cooltime]
+		30000
+	[stat change]
+		`hp`
+		`>`
+		`%`	1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-1	0
+[/then]
+
+[pvp]
+	[if]
+		[time]
+			10000	1	1000
+		[cooltime]
+			30000
+		[stat change]
+			`hp`
+			`>`
+			`%`	1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[restore]
+			`hp`
+			`%`	-1	0
+	[/then]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[skill data up]
+	`[creator mage]`	248
+	`[all]`
+	`[static]`	2
+	`%`	-20
+[/skill data up]
+
+[possible kiri protect]

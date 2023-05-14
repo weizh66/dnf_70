@@ -1,0 +1,56 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	27	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3108	12
+[/int data]
+
+[dungeon info]
+	21	-1	23	-1	25	-1	26	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1078	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`新菜單 - 特制烤章魚丸`
+
+[depend message]
+	`那些來我酒館喝酒的冒險家總喜歡把章魚腿當作禮物送給我， 我那都快沒地方放了， 于是我就試著用它做了個料理……發現味道還不錯哦。
+呵呵， 方法也很簡單， 就是把那些筋道的章魚肉和特制的果醬混在一起， 然后再加上其他的調料就可以了！ 你有興趣嗎？ 如果有就幫我找些材料來吧！ `
+
+[condition message]
+	`    收集12個[堅韌的觸須]。`
+
+[solve message]
+	`來！ 嘗嘗看！ 味道真的不錯吧？`

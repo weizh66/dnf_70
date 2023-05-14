@@ -1,0 +1,208 @@
+#PVF_File
+
+[name]
+	`沾血之魂`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態3秒。
+    [旋刃]技能攻擊時， 可以使敵人進入出血狀態6秒。
+    [劍刃風暴]技能攻擊時，可以使敵人進入出血狀態6秒。
+  攻擊出血狀態的敵人時，附加25%%的傷害。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態3秒； 出血狀態下的敵人，每0.5秒受到750點傷害。（若敵人等級高于Lv100， 則減少進入異常狀態的機率和效果； 反之則增加幾率和效果）
+    攻擊出血狀態的敵人時，附加25%%的傷害。
+    [旋刃]技能攻擊時， 可以使敵人進入出血狀態6秒； 出血狀態下的敵人，每0.5秒受到750點傷害。（若敵人等級高于Lv100,則減少進入異常狀態的機率和效果；反之則增加幾率和效果）
+  [劍刃風暴]技能攻擊時，可以使敵人進入出血狀態6秒；出血狀態下的敵人，每0.5秒受到750點傷害。（若敵人等級高于Lv100,則減少進入異常狀態的機率和效果；反之則增加幾率和效果）`
+
+[flavor text]
+	`    又是一個被血染紅的夜晚...`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	58
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3821	1800
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	770	652
+
+[equipment magical attack]
+	769	652
+
+[separate attack]
+	520	336
+
+[physical critical hit]
+	10
+
+[skill levelup]
+	`[thief]`	31	5
+	`[thief]`	34	5
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/thief/dagger/dagger.img`	121
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[duration]
+		3000
+	[active status]
+		`bleeding`	120	30000
+[/then]
+
+[if]
+	[skill]
+		`thief`	41
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[active status]
+		`bleeding`	120	30000
+[/then]
+
+[if]
+	[skill]
+		`thief`	31
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[active status]
+		`bleeding`	120	30000
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	25
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600614	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

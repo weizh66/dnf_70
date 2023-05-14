@@ -1,0 +1,56 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3308	30	3309	20	3310	15
+[/int data]
+
+[dungeon info]
+	88	1	89	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	7918	2	7919	2	7920	2	7921	2	7922	2	7923	2
+[/reward selection int data]
+
+[name]
+	`根特防御的第一步`
+
+[depend message]
+	`最近卡勒特似乎消停了不少， 不過他們應該是在等待機會， 好再次入侵根特。
+為了根特的安全， 我們必須把破壞障礙物、 收集卡勒特的武器、 確認敵人的戰略等這些工作做好。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特防御戰』和『根特北門』， 收集30個[卡勒特軍用炮炮身]、 20張[卡勒特指令書]和15個[障礙物殘骸]， 要求地下城難度為冒險級以上。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`感謝你的幫助！ 這些對確保根特的安全至關重要。`

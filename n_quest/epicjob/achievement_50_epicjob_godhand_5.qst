@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	5314
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	35060	1	35357	1	35657	1	36256	1	35943	1
+[/reward selection int data]
+
+[relation quest]
+	5316
+
+[name]
+	`覺醒 - 神之手 (2/4)`
+
+[depend message]
+	`利用強大的力量壓制必然會導致更強的反彈， 但是這只是說明沒能完全壓制對方的精神， 而不能說明方法是錯誤的。
+擁有神圣之拳的代行者， 你要用更強大的力量去壓制偽裝者， 要把偽裝者的反抗意志也完全銷毀。
+我相信你的意志力， 而且相信你一定能通過修練， 我先去做好準備等你回來。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`你回來了， 你的眼神看起來更堅定了。`

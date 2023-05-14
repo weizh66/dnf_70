@@ -1,0 +1,37 @@
+#PVF_File
+
+[name]
+	`JS1`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/start.act`
+
+[etc action]
+	`Action/SwordLoop.act`
+	`Action/SwordEND.act`
+	`Action/SwordLoop2.act`
+	`Action/SwordLoop3.act`
+	`Action/SwordLoop4.act`
+	`Action/SwordLoop5.act`
+	`Action/SwordLoop6.act`
+[/etc action]
+
+[last action]
+	`Action/SwordEND.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	120000
+[/object destroy condition]

@@ -1,0 +1,145 @@
+#PVF_File
+
+[name]
+	`無影劍 - 艾雷諾`
+
+[basic explain]
+	`攻擊時， 附加30%%的傷害。`
+
+[detail explain]
+	`    攻擊時， 附加30%%的傷害。 (在決斗場中 +15%%)`
+
+[flavor text]
+	`    阻擋它的瞬間就已經受到傷害， 真正的殺人于無形……`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	40
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	612	557
+
+[separate attack]
+	328	220
+
+[cast speed]
+	20
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	2
+	`swordman`	3
+	`swordman`	4
+[/routing priority]
+
+[possible kiri protect]

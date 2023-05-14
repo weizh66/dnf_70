@@ -1,0 +1,190 @@
+#PVF_File
+[SPECTRUM]
+	1
+	[SPECTRUM TERM]
+		20
+	[SPECTRUM LIFE TIME]
+		300
+	[SPECTRUM COLOR]
+		255	255	255	255
+	[SPECTRUM EFFECT]
+		`NONE`
+[FRAME MAX]
+	17
+
+[FRAME000]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		24
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		70
+
+[FRAME001]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		25
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		70
+
+[FRAME002]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		26
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`ZIEG_CUTTER_STAB_01`
+	[ATTACK BOX]
+	-142	-7	43	116	17	131
+	[ATTACK BOX]
+	-61	-6	-11	306	25	107
+
+[FRAME003]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		27
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		70
+	[ATTACK BOX]
+	-11	-28	-3	300	53	133
+
+[FRAME004]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		28
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		70
+
+[FRAME005]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		29
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		70
+
+[FRAME006]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		30
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		80
+
+[FRAME007]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		31
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		80
+
+[FRAME008]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		32
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		80
+
+[FRAME009]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		32
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		80
+
+[FRAME010]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		32
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		80
+
+[FRAME011]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		32
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		80
+
+[FRAME012]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		32
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		80
+
+[FRAME013]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		33
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`ZIEG_CUTTER_STAB_02`
+	[ATTACK BOX]
+	-64	-20	168	298	42	150
+	[ATTACK BOX]
+	27	-23	-37	326	51	326
+
+[FRAME014]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		34
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		50
+	[SET FLAG]
+		1
+	[ATTACK BOX]
+	27	-24	-37	323	49	326
+
+[FRAME015]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		35
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		50
+	[SET FLAG]
+		1
+	[ATTACK BOX]
+	27	-25	-37	309	49	229
+
+[FRAME016]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		35
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		50
+	[SET FLAG]
+		1

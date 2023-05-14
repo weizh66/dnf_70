@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`召?刺`
+
+[piercing power]
+	10000
+
+[basic action]
+	`Action/Summon_Nedle_Basic_2.act`
+
+[last action]
+	`Action/Summon_Nedle_2_Last.act`
+
+[etc action]
+	`Action/Etc_Summon_Nedle_0_2.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/Summon_Nedle_Basic.atk`
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	56657
+	[homing velocity]
+		220.0	50.0
+	[diff rotation]
+		0.0
+	[homing time]
+		1000
+	[sync target move]
+[/homing]

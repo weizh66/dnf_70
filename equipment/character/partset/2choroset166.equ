@@ -1,0 +1,72 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	82
+		`[dungeon type]`
+		`[level]`	4
+		`+`	1
+		`[gun blader]`	82
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[旋轉源能波]冷卻時間 -30%%
+[旋轉源能波]旋轉波多段攻擊次數 +1次
+[旋轉源能波]多段攻擊間隔 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	5
+		`+`	2
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-40
+	[/skill data up]
+	[parameter basic explain]
+		`[脈沖斬]冷卻時間 -30%%
+[脈沖斬]多段攻擊次數 +2次
+[脈沖斬]多段攻擊間隔 -40%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	89
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+		`[gun blader]`	96
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	96
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-34
+	[/skill data up]
+	[parameter basic explain]
+		`[光裂斬]冷卻時間 -30%%
+[光裂斬]能量多段攻擊次數 +5
+[離散能量波]冷卻時間 -30%%
+[離散能量波]多段攻擊次數 +5`
+[/piece set ability]

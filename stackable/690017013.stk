@@ -1,0 +1,47 @@
+#PVF_File
+
+[name]
+	`一袋黑礦石`
+
+[explain]
+	`打開後，隨機獲得5~100個黑礦石。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption_tw.img`	32
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[need material]
+	3119	2
+
+[booster info]
+	[etc]
+		1	3208	735000	5	3208	100000	6	3208	50000	7	3208	25000	8	3208	20000	9	3208	18000	10	3208	15000	11	3208	10000	12	3208	5000	13	3208	3000	15	3208	2000	20	3208	1800	25	3208	1700	30	3208	1600	35	3208	1500	40	3208	1400	45	3208	1300	50	3208	1200	55	3208	1100	60	3208	100	65	3208	900	70	3208	800	75	3208	700	80	3208	600	85	3208	500	90	3208	400	95	3208	300	99	3208	200	100
+	[/etc]
+[/booster info]

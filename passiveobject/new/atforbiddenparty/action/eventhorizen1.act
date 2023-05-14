@@ -1,0 +1,41 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/eventhorizen/fpparty1a_nyarly_03.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			711113
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			711115
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			-450	-300	0
+	[/CREATE PASSIVEOBJECT]
+	[FLASH SCREEN]
+		150	1800	150	200	0	0	0
+[/BEHAVIOR]

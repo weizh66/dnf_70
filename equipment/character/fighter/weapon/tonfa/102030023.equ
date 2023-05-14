@@ -1,0 +1,233 @@
+#PVF_File
+
+[name]
+	`偷襲打波`
+
+[basic explain]
+	`背擊攻擊時以10%% 的機率讓敵人在 2秒內線陷入眩暈狀態
+被攻擊時發生Miss 時3秒內敵人攻擊時以50%% 的機率2秒內陷入眩暈狀態
+暈眩狀態的敵人攻擊時15%% 附加傷害`
+
+[detail explain]
+	`反攻時以10%%的機率讓敵人2秒內陷入氣絕狀態。 （高於Lv75的對象得到的機率和效果減少，低於Lv75的對象則會增加。 決鬥場內修正為 1%% 機率）
+被攻擊時發生Miss時3秒內敵人攻擊時以 50%% 的機率在2秒內進入眩暈狀態。 （高於Lv75的對象得到的機率和效果減少，低於Lv75的對象則會增加。 決鬥場內修正為 5%% 機率）
+暈眩狀態的敵人攻擊時15%%附加傷害`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	50
+
+[magical attack]
+	75
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[need material]
+	3285	2100
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	688	631
+
+[equipment magical attack]
+	724	664
+
+[equipment physical defense]
+	750	750
+
+[separate attack]
+	441	298
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/tonfa/tonfa.img`	82
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	23	1
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	1
+	`at fighter`	1
+	`fighter`	2
+	`at fighter`	2
+	`fighter`	3
+	`at fighter`	3
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[if]
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		90
+	[duration]
+		2000
+	[active status]
+		`stun`	75
+[/then]
+
+[if]
+	[hit]
+		0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[appendage]
+		141
+[/then]
+
+[if]
+	[my appendage]
+		141
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		50
+	[reduce probability to human armor at pvp module]
+		90
+	[duration]
+		2000
+	[active status]
+		`stun`	75
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target active status]
+		`stun`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[possible kiri protect]

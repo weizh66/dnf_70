@@ -1,0 +1,231 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/A-Toll_Target.ani`
+	[SUB ANI]
+		`../Animation/A-Toll_Target_eye_l.ani`	0	1
+		`../Animation/A-Toll_Target_eye_r.ani`	0	2
+		`../Animation/A-Toll_Target_eye_c.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56660
+		[/IS INDEX]
+		[CHECKED NO]
+		[=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		5
+[/TRIGGER]
+
+[TRIGGER]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			50
+		[HP]
+		[=]
+			0
+		[%]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			120
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70341
+		[/IS INDEX]
+		[CHECKED NO]
+		[=>]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		3
+	[OFF]
+	[TRIGGER]
+		4
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70341
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70342
+		[/IS INDEX]
+		[CHECKED NO]
+		[=>]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		5
+	[OFF]
+	[TRIGGER]
+		6
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70342
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[CHECK TIME]
+		250
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70343
+		[/IS INDEX]
+		[CHECKED NO]
+		[=>]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		7
+	[OFF]
+	[TRIGGER]
+		8
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70343
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

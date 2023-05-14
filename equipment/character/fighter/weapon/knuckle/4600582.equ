@@ -1,0 +1,265 @@
+#PVF_File
+
+[name]
+	`封·飛龍翼`
+
+[basic explain]
+	`被擊時以10%%的機率10秒內施展霸體護甲增益`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	62
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[need material]
+	3821	1400
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	862	735
+
+[equipment magical attack]
+	1043	890
+
+[separate attack]
+	555	359
+
+[skill levelup]
+	`[fighter]`	7	3
+	`[fighter]`	16	4
+	`[fighter]`	15	4
+	`[fighter]`	12	4
+	`[at fighter]`	7	3
+	`[at fighter]`	16	4
+	`[at fighter]`	15	4
+	`[at fighter]`	12	4
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	103
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	19	8
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	20	8
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	40
+	`[all]`
+	`[static]`	2
+	`+`	1
+	`[at fighter]`	40
+	`[all]`
+	`[static]`	2
+	`+`	1
+[/skill data up]
+
+[item aura]
+	`equipment physical defense`
+	`+`	1000	500
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[duration]
+		10000
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		50000
+[/if]
+
+[then]
+	[probability]
+		20
+	[perform skill]
+		`fighter`	42	20	0
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	12
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`fighter`	12
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	15
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`fighter`	15
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	16
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`fighter`	16
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	12
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`at fighter`	12
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	15
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`at fighter`	15
+[/then]
+
+[if]
+	[event use skill]
+		`at fighter`	16
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`at fighter`	16
+[/then]
+
+[routing priority]
+	`fighter`	1
+	`at fighter`	1
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	8	99
+
+[pre required quest]
+	544
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	9	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	36205	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神圣之路 - 第五個任務`
+
+[depend message]
+	`你聽說了嗎？ 有一對狂熱喜愛魔法的姐妹突然瘋掉了， 赫頓瑪爾的居民都在談論呢！
+嗯， 我們圣職者教團懷疑她們是惡魔的化身， 你能親自去確認下嗎？ 如果能確認她們是惡魔或其他邪惡生物， 你就直接除掉她們吧！ `
+
+[condition message]
+	`    通關格蘭之森的『冰霜幽暗密林』， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`原來克拉赫不是惡魔， 不過除掉了也好， 留著她始終是隱患啊！ `
+
+[quest point]
+	4

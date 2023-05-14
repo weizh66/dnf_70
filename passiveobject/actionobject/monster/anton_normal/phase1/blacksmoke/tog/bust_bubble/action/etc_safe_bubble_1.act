@@ -1,0 +1,50 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_safe_bubble_1_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_safe_bubble_1_1.ani`	0	1
+		`../Animation/Etc_safe_bubble_1_2.ani`	0	2
+		`../Animation/Etc_safe_bubble_1_3.ani`	0	3
+		`../Animation/Etc_safe_bubble_1_4.ani`	0	4
+	[/SUB ANI]
+	[SOUND]
+		`TOGEU_SMALL_ENERGY_SPIT`	0
+		`TOGEU_SPARKLE_MARBLE`	1
+		`TOGEU_SMALL_ENERGY_EXP`	5
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19770
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

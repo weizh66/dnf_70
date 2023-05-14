@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	18
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	71	99
+
+[pre required quest]
+	405
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[monster reward item]
+	43001	2000	-1	4486	1	100	1	43002	2000	-1	4486	1	100	1	43003	2000	-1	4486	1	100	1	43004	2001	-1	4486	1	100	1	43005	2001	-1	4486	1	100	1	43006	2001	-1	4486	1	100	1	43007	2002	-1	4486	1	100	1	43008	2002	-1	4486	1	100	1	43009	2002	-1	4486	1	100	1	43010	2002	-1	4486	1	100	1	43011	2003	-1	4486	1	100	1	43012	2003	-1	4486	1	100	1	43013	2003	-1	4486	1	100	1	43014	2004	-1	4486	1	100	1	43015	2004	-1	4486	1	100	1	43016	2004	-1	4486	1	100	1
+[/monster reward item]
+
+[change dungeon info message]
+	`格林賽羅斯戰場`
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4486	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	8269	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`平息亂源`
+
+[depend message]
+	`格林賽羅斯現在的形勢非常嚴峻！ 大批怪物突然涌入那里， 并且肆意襲擊當地居民， 使得那里人心惶惶。
+而更讓人氣憤的是， 有些不法之徒竟然趁亂勾結在一起， 到處燒殺搶掠。 居民們可以說是生活在水深火熱之中……
+貝爾瑪爾公國的領導人--斯卡迪女王正在招募平息混亂的勇士。 如果你去戰場平息混亂并帶回相應的證據， 女王大人會給你獎勵的。`
+
+[condition message]
+	`    前往格林賽羅斯戰場， 搜集[勇者的印跡]交給赫頓瑪爾的博肯。 (勇者的印跡可以從戰場領主怪物身上獲得) `
+
+[solve message]
+	`勇敢的冒險家， 我代表公國向你致敬。 這是女王陛下頒發給你的獎勵， 請收下。`

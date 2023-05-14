@@ -1,0 +1,31 @@
+#PVF_File
+
+[name]
+	`拳?`
+
+[piercing power]
+	500000
+
+[basic action]
+	`Action/punch_Basic.act`
+
+[etc action]
+	`Action/punch_Basic_0.act`
+	`Action/punch_Basic_1.act`
+[/etc action]
+
+[vanish on move collision]
+	0
+
+[attack info]
+	`attackinfo/punch_Basic.atk`
+
+[etc attack info]
+	``
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+[/object destroy condition]

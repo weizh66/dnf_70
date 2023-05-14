@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以1%%的機率30秒內發動力量+45光環。施展時以2%%的機率30秒內發動智能+45光環。在聊天視窗輸入收音機、DNF收音機、收音機名譽信徒時會輸出DNF收音機音效`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	130
+
+[custom animation]
+	`TitleAnimation/radio_honorarybeliever.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	60
+
+[physical attack]
+	27
+
+[magical attack]
+	27
+
+[inventory limit]
+	10000
+
+[HP regen speed]
+	52
+
+[MP regen speed]
+	10
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[aura active]
+		`physical attack`
+		`+`	45	300
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[aura active]
+		`magical attack`
+		`+`	45	300
+[/then]
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[move wav]
+	`NAME_TOUCH`
+
+[special ability]
+	1
+
+[chat emoticon index]
+	30

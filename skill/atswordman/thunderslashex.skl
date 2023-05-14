@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`thunder_slash_ex_name`
+
+[basic explain]
+	`thunder_slash_ex_basic_explain`
+
+[explain]
+	`thunder_slash_ex_explain`
+
+[basic explain ex]
+	`thunder_slash_ex_basic_explain2`
+
+[explain ex]
+	`thunder_slash_ex_explain2`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[pre required skill]
+	26	10
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	5	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	90
+	`Character/Swordman/Effect/ATSkillIcon.img`	91
+
+[dungeon]
+	[static data]
+		8	800	80	200	150	50	40
+	[/static data]
+	[level info]
+		3	294	191	382	320	210	420	345	231	462	371	251	502	398	272	544	423	291	582	449	312	624	474	332	664	500	353	706	525	372	744	551	393	786	578	413	826	603	434	868	629	453	906	654	474	948	680	494	988	707	515	1030	732	534	1068	758	555	1110	783	575	1150	809	596	1192	834	615	1230	860	636	1272	887	656	1312	912	677	1354	938	696	1392	963	717	1434	989	737	1474	1014	758	1516	1040	777	1554	1067	798	1596	1092	818	1636	1118	839	1678	1143	858	1716	1169	879	1758	1196	899	1798	1221	920	1840	1247	939	1878	1272	960	1920	1299	980	1960	1325	1001	2002	1350	1020	2040	1374	1041	2082	1401	1061	2122	1427	1082	2164	1452	1101	2202	1478	1122	2244	1505	1142	2284	1530	1163	2326	1556	1182	2364	1581	1203	2406	1607	1223	2446	1632	1244	2488	1659	1263	2526	1685	1284	2568	1710	1304	2608	1736	1323	2646	1761	1344	2688	1787	1365	2730	1814	1385	2770	1839	1406	2812	1865	1425	2850	1890	1446	2892	1916	1466	2932	1943	1485	2970	1968	1506	3012	1994	1526	3052	2019	1547	3094	2045	1568	3136	2072	1587	3174
+	[/level info]
+	[special level up]
+		0	0
+		`+`	1
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[static data]
+		8	500	80	140	150	50	40
+	[/static data]
+	[level info]
+		3	34	25	64	36	28	70	39	31	77	42	33	84	45	36	91	48	39	97	51	42	104	54	44	111	57	47	118	60	50	124	63	52	131	66	55	138	69	58	145	72	60	151	75	63	158	77	66	165	81	69	172	83	71	178	86	74	185	89	77	192	92	79	199	95	82	205	98	85	212	101	87	219	104	90	226	107	93	232	110	96	239	113	98	246	116	101	253	119	104	259	122	106	266	124	109	273	127	112	280	130	114	286	133	117	293	136	120	300	139	123	307	142	125	313	145	128	320	148	131	327	151	133	334	154	136	340	157	139	347	160	141	354	163	144	361	166	147	367	168	150	374	172	152	381	174	155	388	177	158	394	180	160	401	183	163	408	186	166	415	189	168	421	192	171	428	195	174	435	198	176	441	201	179	448	204	182	455	207	185	462	210	187	469	213	190	475	215	193	482	218	195	489	221	198	495	224	201	502	227	203	509	230	206	516	233	209	523	236	212	529
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`thunder_slash_ex_level_property`	-1	0	1.0	0	0	1.0	-1	1	1.0	-2	2	1.0
+[/level property]

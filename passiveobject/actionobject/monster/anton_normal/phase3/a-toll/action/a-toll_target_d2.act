@@ -1,0 +1,36 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/A-Toll_Target_D.ani`
+	[SUB ANI]
+		`../Animation/A-Toll_Target_eye_l_D.ani`	0	1
+		`../Animation/A-Toll_Target_eye_r_D.ani`	0	2
+		`../Animation/A-Toll_Target_eye_c_D.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		250
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../Particle/Sacrifice_Cirecle_Pop2.ptl`	0	0	0
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

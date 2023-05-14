@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`咕嚕的多功能手環`
+
+[basic explain]
+	`    破招攻擊時， 有5%%的幾率使敵人的物理、 魔法防禦力減少6%%， 效果持續5秒。`
+
+[detail explain]
+	`    破招攻擊時， 有5%%的幾率減少敵人6%%的物理和魔法防禦力， 效果持續5秒。 (冷卻時間5秒)`
+
+[flavor text]
+	`    抓住侵入者！`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[need material]
+	10000204	16
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	115
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		5000
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[duration]
+		5000
+	[stat]
+		`equipment physical defense`
+		`%`	-6
+	[stat]
+		`equipment magical defense`
+		`%`	-6
+[/then]
+
+[possible kiri protect]

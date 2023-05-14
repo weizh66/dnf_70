@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	` 暗影魔魅長靴`
+
+[basic explain]
+	`前衝時以2%% 的機率10秒內對自己施展偽裝效果 `
+
+[flavor text]
+	`想攻擊我就先找我的影子， 不過連我的影子也很難找吧？ -阿爾伯特，傲慢地向決鬥對方說`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[magical attack]
+	17
+
+[magical defense]
+	17
+
+[move speed]
+	40
+
+[price]
+	33000
+
+[repair price]
+	27720
+
+[value]
+	26400
+
+[equipment physical defense]
+	378	342
+
+[icon]
+	`Item/common/shoes.img`	94
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[buff]
+		`camoflage`
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

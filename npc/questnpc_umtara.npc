@@ -1,0 +1,40 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	34
+
+[big face]
+	`Map/Npc/NpcFace04.img`	12
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	34
+
+[field animation]
+	`Animation/QuestNpc_umtara.ani`
+
+[look around]
+	0
+
+[name]
+	`獸王烏塔拉`
+
+[field name]
+	`獸王溫塔拉`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1020>你這人好像很不錯。我希望你能夠幫我最後一個忙，
+請你一定要守護我的美麗森林... 你可以做到嗎？`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1020>眼前有點模糊了......。這一生我很快樂。
+ 要是我死了，請把我丟向那個火花中。我不想在這世界上留下痕跡。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1020>我們牛頭怪很容易受外界影響......。是因為太單純了嗎？很容易被激失去理性...... 
+ 就像是現在的我一樣。我不想到死的時候都被人家叫成是怪物。`
+[/dialog]

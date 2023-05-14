@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 剎那永恆`
+
+[explain]
+	`冰凍的心臟，在剎那間粉碎，散落壹地。
+少女將碎片壹壹拾起，即使感到疼痛，也不皺壹下眉頭。
+問她是否感到寒冷，她卻回答，這是溫暖的。
+柔軟的小手其實已經麻木，再無觸覺了吧。
+深淵之花將時間凍結，
+萬物皆被染上冰雪的厲色。
+唯有那少女，還在對我綻放微笑。
+那溫暖綺麗的色彩，漸漸填滿了我的世界。
+冰凍之心，慢慢融化成為流淌的逝水，
+長發從此未再修剪，蓄成銀白色的瀑布。
+而離去之人，連背影都無法留住。
+喚醒我的那位少女，我會將她永遠刻在心上。
+即使時光短暫，
+雙手的溫暖觸感，如今還依稀殘留。
+這壹次，輪到我來守護妳，直到永恒。
+少女啊，在封凍的回憶中安息吧...`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		11299	0	0	0	99	0
+		``
+	[/passive object]
+[/then]

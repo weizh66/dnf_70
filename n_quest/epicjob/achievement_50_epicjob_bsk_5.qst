@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	988
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	27699	1	27100	1	27998	1	27554	1	28269	1
+[/reward selection int data]
+
+[relation quest]
+	990
+
+[name]
+	`覺醒 - 獄血魔神 (2/4)`
+
+[depend message]
+	`現在請靜下心聽我說， 你的力量來自你自身的血氣， 它是以燃燒你的血氣為代價獲得的。 如果你的血氣消耗殆盡， 力量之火就會熄滅， 你就再也無法拿起武器了！
+不過也有一些狂戰士留下了令人驚疑的傳說， 他們……在狂暴之氣中活下來了……
+我曾對那些傳說進行研究， 發現他們之所以活下來， 是因為他們掌握了吸收血氣的方法， 就是把自己消耗掉的血氣從其他生靈身上吸附回來。
+從理論上說， 這種方法可以維持自身的血氣不變， 但并不是所有的血氣都能兼容。 如果你想嘗試這種辦法， 首先得確定你的身體能不能承載來自異體的血氣， 且能承載多少……
+所以你要先證明你的身體沒有問題， 因為我不想創造一個只是延長了生命的狂暴魔王， 你能理解吧？`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`很好， 你吸附的血氣沒有變成狂暴之氣。`

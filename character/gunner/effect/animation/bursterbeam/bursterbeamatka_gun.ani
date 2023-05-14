@@ -1,0 +1,71 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/BursterBeam/BursterBeam_Gun.img`
+		4
+	[IMAGE POS]
+		-354	-462
+	[IMAGE RATE]
+		-1.0	1.0
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/BursterBeam/BursterBeam_Gun.img`
+		0
+	[IMAGE POS]
+		-354	-462
+	[IMAGE RATE]
+		-1.0	1.0
+	[DELAY]
+		40
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/BursterBeam/BursterBeam_Gun.img`
+		6
+	[IMAGE POS]
+		-370	-461
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Gunner/Effect/BursterBeam/BursterBeam_Gun.img`
+		0
+	[IMAGE POS]
+		-370	-461
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Gunner/Effect/BursterBeam/BursterBeam_Gun.img`
+		2
+	[IMAGE POS]
+		-370	-461
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Gunner/Effect/BursterBeam/BursterBeam_Gun.img`
+		3
+	[IMAGE POS]
+		-370	-461
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`NORMAL`

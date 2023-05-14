@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation\atarmageddonstrike\asblackball_00.ani`
+	[SUB ANI]
+		`../animation\atarmageddonstrike\ascolorball_00.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			241723
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			0	300	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

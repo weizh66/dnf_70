@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	`執法者`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入感電狀態。`
+
+[detail explain]
+	`攻擊時以3%%的機率15秒內讓敵人呈現觸電狀態，每次擊時以37的攻擊力給予追加傷害. (若敵人高於Lv10，則減少進入異常狀態的機率；反之，則增加機率。)`
+
+[grade]
+	12
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	10
+
+[physical attack]
+	12
+
+[magical attack]
+	18
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[price]
+	19200
+
+[repair price]
+	15360
+
+[value]
+	2000
+
+[equipment physical attack]
+	156	118
+
+[equipment magical attack]
+	164	124
+
+[equipment physical defense]
+	120	110
+
+[separate attack]
+	90	56
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[fighter]`	8	2
+	`[at fighter]`	8	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	4
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		22500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		15000
+	[probability]
+		3
+	[active status]
+		`lightning`	10	37
+[/then]
+
+[possible kiri protect]

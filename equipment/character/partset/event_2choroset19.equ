@@ -1,0 +1,45 @@
+#PVF_File
+
+[set name]
+	`野蠻之諾  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[mage]`	17
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-400
+		`[mage]`	17
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+		`[mage]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-300
+		`[mage]`	18
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[mage]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[mage]`	31
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[mage]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1800
+		`[mage]`	26
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`光電鰻冷卻時間減少0.4秒， 蓄氣時間減少50%% / 暗影夜貓冷卻時間減少0.3秒， 蓄氣時間減少50%% 
+雷旋冷卻時間減少1.5秒， 蓄氣時間減少50%% / 虛無之球冷卻時間減少1.8秒， 蓄氣時間減少50%% `
+[/piece set ability]

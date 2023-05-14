@@ -1,0 +1,31 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/guard_1_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[PASSIVE]
+	[FRAME]
+		1	1
+	[CHECKUP]
+		[IS INDEX]
+			70215
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

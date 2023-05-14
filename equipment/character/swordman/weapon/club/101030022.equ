@@ -1,0 +1,208 @@
+#PVF_File
+
+[name]
+	`毀滅之本能[活動]`
+
+[basic explain]
+	`攻擊速度 +2%%
+攻擊時以 3%% 的機率讓敵人呈現出血狀態
+出血狀態的敵人攻擊時敵人10%%的附加傷害
+不可解體，不可合成`
+
+[detail explain]
+	`攻擊速度 +2%%
+攻擊時以 3%%的機率5秒內讓敵人進入出血狀態，每0.5秒以 235的攻擊力給予傷害。 （高於Lv64的對象得到的機率減少，低於Lv64的對象則會增加。）
+出血狀態的敵人攻擊時敵人 10%%的附加傷害（決鬥場內5%% 附加傷害）
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	65
+
+[attack speed]
+	-10
+
+[stuck]
+	-1
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	664	609
+
+[equipment magical attack]
+	574	526
+
+[separate attack]
+	360	242
+
+[icon]
+	`Item/weapon/swordman/club.img`	57
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	64	2350
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			7500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			5000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`bleeding`	64	2350
+	[/then]
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

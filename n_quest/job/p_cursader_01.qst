@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	0
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7856	7860	7863
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7853
+
+[name]
+	`轉職 - 圣騎士 (1/4)`
+
+[depend message]
+	`虔誠的圣職者， 請聽我說！ 我知道你是個心地善良、 珍愛生命的人， 因此我建議你走圣騎士之路， 因為阿拉德大陸正需要你這樣的人！
+呵呵， 你也愿意吧， 那就先證明你有自我保護的能力吧！ `
+
+[condition message]
+	`    通關天空之城的『石巨人塔』。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！)   `
+
+[solve message]
+	`嗯， 很優秀， 看來你平時的訓練沒有偷懶啊。 `

@@ -1,0 +1,82 @@
+#PVF_File
+
+[name]
+	`地獄蛛絲項鏈`
+
+[flavor text]
+	`    收集[惡魔結晶]可以對2期勇者裝備進行改造， 提升裝備的基本攻擊力、 防御力和基本屬性； Lv70以上的角色可以穿戴。 (需消耗杜羅西處出售的勇者裝備改造券)`
+
+[grade]
+	59
+
+[rarity]
+	5
+
+[part set index]
+	70
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	7
+
+[magical attack]
+	31
+
+[magical defense]
+	56
+
+[anti evil]
+	11
+
+[repair price]
+	55680
+
+[value]
+	5800
+
+[equipment magical defense]
+	5120	4880
+
+[icon]
+	`Item/common/necklace.img`	17
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[emancipate]
+	[input]
+		3290	50
+	[/input]
+	[output]
+		401248	1
+	[/output]
+	[emancipate explain]
+		`魔防小幅增加
+屬性小幅增加
+每分鐘MP恢復量 +3
+物理暴擊率 +1%%
+魔法暴擊率 +1%%`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`GunnerAttackEnd1`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1500
+
+[basic action]
+	`Action/GunnerAttackEnd1.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	900135
+[/object destroy condition]

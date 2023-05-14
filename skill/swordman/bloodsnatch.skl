@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`鮮血暴掠`
+
+[basic explain]
+	`跳起砸向地面，引發劇烈血氣爆炸。`
+
+[explain]
+	`跳起砸向地面，引發劇烈血氣爆炸。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	20	0	20
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[consume MP]
+	450	1500
+
+[cool time]
+	40000	40000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	568
+	`Character/Swordman/Effect/SkillIcon.img`	569
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令:→←↓→ + Z`
+
+[static data]
+	0
+[/static data]
+
+[dungeon]
+	[level info]
+		2	2669	1063	2839	1123	3008	1283	3178	1343	3347	1603	3517	2263	3686	3223	3855	4183	4025	5143	4194	6103	4364	7063	4533	8023	4702	10983	4872	12143	5041	14203	5211	16363	5380	18423	5550	20783
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`第一擊攻擊力:<int>
+血氣爆炸攻擊力:<int>`	-1	0	1.0	-1	1	1.0
+[/level property]

@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	921
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3229	100	3187	200
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`覺醒 - 武神 (4/4)`
+
+[depend message]
+	`你打敗了阿爾伯特？ 果然沒有讓我失望。 你用你的實力再一次證明了自己足夠資格。
+只是， 和你的人相比， 你的裝備似乎還有點差距……我可以為你準備一條腰帶， 只是你必須要去收集一些東西作為交換。`
+
+[condition message]
+	`    為了成為武神， 請收集以下材料。`
+
+[solve message]
+	`這腰帶果然很適合你。 我好像已經聽到那些對你的贊美之聲了……哈哈， 年輕人， 好好干吧！`

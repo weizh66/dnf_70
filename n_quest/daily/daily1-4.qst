@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	18
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	48	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	50	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	7
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`消滅盜賊團`
+
+[depend message]
+	`緊急公告 : 公國現征召有實力的冒險家去消滅占據諾斯瑪爾的盜賊團。
+雖然諾斯瑪爾曾發生過讓大量居民慘死的瘟疫， 但現已不存在威脅， 眾冒險家大可安心前往。
+唯有一點須謹記， 占據諾斯瑪爾的盜賊團實力不可小看， 禁止冒險家獨自前往， 以免白白喪命。`
+
+[condition message]
+	`    通關諾斯瑪爾的『墮落的盜賊』， 然后去找赫頓瑪爾的博肯， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`辛苦了， 這是公國給你的獎賞。`

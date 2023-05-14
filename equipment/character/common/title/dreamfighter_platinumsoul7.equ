@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`猛擊時以7%%的機率30秒內移動速度增加7%%，施展速度增加7%%。`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	127
+
+[custom animation]
+	`TitleAnimation/dreamfighter_platinumsoul.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	7
+
+[MP MAX]
+	200
+
+[magical attack]
+	30
+
+[magical defense]
+	20
+
+[MP regen speed]
+	15
+
+[move speed]
+	30
+
+[attack speed]
+	20
+
+[cast speed]
+	30
+
+[if]
+	[cooltime]
+		50000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		4
+	[stat]
+		`move speed`
+		`+`	70
+	[stat]
+		`cast speed`
+		`+`	70
+[/then]
+
+[magical critical hit]
+	2
+
+[room list move speed rate]
+	0.15
+
+[move wav]
+	`NAME_TOUCH`

@@ -1,0 +1,258 @@
+#PVF_File
+
+[name]
+	`安詳的綠[活動]`
+
+[basic explain]
+	`念氣波攻擊力增加15%% 
+念氣波命中時以10%% 的機率讓敵人中毒
+不可解體，不可合成`
+
+[detail explain]
+	`念氣波攻擊力增加15%%。（決鬥場內增加7%%）
+念氣波命中時以 10%% 的機率3秒內讓敵人進入中毒狀態，每0.5秒以120的攻擊力給予傷害。 （高於Lv61的對象得到的機率減少，低於Lv61的對象則會增加。）`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[magical attack]
+	41
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[price]
+	97600
+
+[repair price]
+	81984
+
+[value]
+	78080
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	528	490
+
+[equipment magical attack]
+	639	593
+
+[separate attack]
+	341	230
+
+[light attack]
+	15
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	45
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	12
+	`[all]`
+	`[level]`	1
+	`%`	15
+	`[fighter]`	12
+	`[all]`
+	`[level]`	7
+	`%`	15
+	`[at fighter]`	12
+	`[all]`
+	`[level]`	1
+	`%`	15
+	`[at fighter]`	12
+	`[all]`
+	`[level]`	7
+	`%`	15
+[/skill data up]
+
+[if]
+	[skill]
+		`fighter`	12
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		10
+	[active status]
+		`poison`	61	950
+[/then]
+
+[if]
+	[skill]
+		`at fighter`	12
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		10
+	[active status]
+		`poison`	61	950
+[/then]
+
+[pvp]
+	[if]
+		[skill]
+			`fighter`	12
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[probability]
+			10
+		[active status]
+			`poison`	61	950
+	[/then]
+	[if]
+		[skill]
+			`at fighter`	12
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[probability]
+			10
+		[active status]
+			`poison`	61	950
+	[/then]
+	[skill data up]
+		`[fighter]`	12
+		`[all]`
+		`[level]`	1
+		`%`	7
+		`[fighter]`	12
+		`[all]`
+		`[level]`	7
+		`%`	7
+		`[at fighter]`	12
+		`[all]`
+		`[level]`	1
+		`%`	7
+		`[at fighter]`	12
+		`[all]`
+		`[level]`	7
+		`%`	7
+	[/skill data up]
+[/pvp]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

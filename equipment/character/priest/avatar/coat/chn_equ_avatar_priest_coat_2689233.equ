@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`可口可樂無袖T恤`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_acoat.img`	220
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[avatar func filter]
+	0
+
+[HP regen speed]
+	75
+
+[MP regen speed]
+	15
+
+[usable period]
+	30
+
+[variation]
+	71	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

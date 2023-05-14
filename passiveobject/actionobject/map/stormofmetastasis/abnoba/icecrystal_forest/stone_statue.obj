@@ -1,0 +1,33 @@
+#PVF_File
+
+[width]
+	30	25
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[do not pass]`
+
+[piercing power]
+	0
+
+[basic action]
+	`Action/stonestatue.act`
+
+[etc action]
+	`Action/stonestatue1.act`
+[/etc action]
+
+[hp max]
+	20
+
+[sound category]
+	`[on damage]`
+	`R_HIT_STONE`	-1
+	`[on destroyobject]`
+	`BRICK_BREAK`	-1
+[/sound category]
+
+[name]
+	`暴戾搜捕·雕像`

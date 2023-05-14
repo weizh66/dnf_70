@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`天使的守護`
+
+[explain]
+	`    被攻擊時， 有33%%的幾率使自身進入偽裝狀態3秒。 (在決斗場中無效； 冷卻時間為20秒)
+    角色死亡時， 有50%%的幾率以恢復33%%的HP和MP的狀態復活， 但需要消耗1個無色小晶塊。 (在決斗場中無效； 冷卻時間為300秒； 有神圣祝福藥水、 生命源泉的Buff時無效)
+    攻擊時， 有3%%的幾率召喚出與自身Lv相同的驅逐者協助召喚者攻擊敵人， 驅逐者存在60秒。 (冷卻時間為60秒)`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	435
+
+[custom animation]
+	`TitleAnimation/angelprotect.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	10
+
+[physical defense]
+	10
+
+[magical attack]
+	10
+
+[magical defense]
+	10
+
+[stuck resistance]
+	20
+
+[HP regen speed]
+	100
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[stuck]
+	-2
+
+[if]
+	[cooltime]
+		20000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[probability]
+		33
+	[buff]
+		`camoflage`
+[/then]
+
+[if]
+	[cooltime]
+		90000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		3
+	[summon monster]
+		60108	-1	1
+[/then]
+
+[rebirth]
+	[probability]
+		50
+	[consume item]
+		3039	1
+	[hp recovery]
+		33
+	[mp recovery]
+		33
+	[cooltime]
+		300000
+[/rebirth]
+
+[move wav]
+	`NAME_TOUCH`

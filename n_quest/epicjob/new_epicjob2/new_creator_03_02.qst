@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[realization]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[creator mage]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95266
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`締造者 - 自我覺醒 (5/6)`
+
+[depend message]
+	`出發之際， 唯有一點望你謹記。
+之前我也說過， 悟出真理才是重點。 但更重要的是， 你要將悟出的東西用到真正有意義的事情上。
+否則苦心悟出的一切將化為泡影。
+那么， 接下來就去盡情展示自己吧。`
+
+[condition message]
+	`    參加魂 · 青龍大會并獲得冠軍。`
+
+[solve message]
+	`看來力量開始慢慢蘇醒了。 氣息正在增強。
+再努力一下就能把沉睡的力量全部激發出來了。`
+
+[pre required quest]
+	6873
+[/pre required quest]
+
+[relation quest]
+	5142
+
+[job change quest]
+	3
+
+[grow number]
+	0

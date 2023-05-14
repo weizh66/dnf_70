@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`真： 天王星守護者`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入感電狀態。
+攻擊速度增加+2%%`
+
+[detail explain]
+	`攻擊時以2%%的機率6秒內讓敵人呈現觸電狀態，每次擊時以195的攻擊力給予追加傷害. (高於Lv62的對象得到的機率減少，低於Lv62的對象則會增加。)
+攻擊速度增加+2%%`
+
+[grade]
+	64
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	62
+
+[physical attack]
+	41
+
+[magical attack]
+	61
+
+[attack speed]
+	20
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[equipment physical attack]
+	567	543
+
+[equipment magical attack]
+	493	472
+
+[separate attack]
+	280	188
+
+[skill levelup]
+	`[gunner]`	53	1
+	`[at gunner]`	53	1
+[/skill levelup]
+
+[light attack]
+	10
+
+[Force Result Item Rule]
+	0	75
+
+[icon]
+	`item/weapon/gunner/musket.img`	47
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	10	12
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	10	12
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	30
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`lightning`	62	195
+[/then]
+
+[special monster drop]
+	1
+
+[difficulty for extra drop]
+	`[ultimate]`
+[/difficulty for extra drop]
+
+[dungeon type for extra drop]
+	`[all]`
+[/dungeon type for extra drop]
+
+[possible kiri protect]

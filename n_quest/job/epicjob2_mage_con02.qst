@@ -1,0 +1,89 @@
+#PVF_File
+
+[exposed by npc]
+	0
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	12841
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	124
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	106030374
+	`[job]`	3	1	1	106030381
+	`[job]`	3	2	1	106030388
+	`[job]`	3	3	1	106030395
+	`[job]`	3	4	1	106000250
+	`[job]`	3	1	1	106000257
+	`[job]`	3	2	1	106000264
+	`[job]`	3	3	1	106000271
+	`[job]`	3	4	1	106010278
+	`[job]`	3	1	1	106010285
+	`[job]`	3	2	1	106010292
+	`[job]`	3	3	1	106010299
+	`[job]`	3	4	1	106020339
+	`[job]`	3	1	1	106020346
+	`[job]`	3	2	1	106020353
+	`[job]`	3	3	1	106020360
+	`[job]`	3	4	1	106040276
+	`[job]`	3	4	1
+[/reward selection int data]
+
+[name]
+	`二次覺醒 - 龍躍武器 (2/3)`
+
+[depend message]
+	`制作龍躍武器可是一件很辛苦的事。 所以啊， 俺得先給你介紹下這把武器的珍稀程度， 以免你隨意糟蹋！
+之前， 小妹你應該也從莎蘭大姐那或多或少地了解到一點吧？ 龍躍武器是一種能夠成長的武器。
+它一共有七個成長階段， 可以通過擊殺地下城的怪物升級到第三階段。
+不過普通的怪物可沒什么用處， 必須擊殺精英以上的怪物才能使它成長。
+而從第四階段開始， 除了擊殺怪物以外， 小妹你還需要從俺這里購買龍躍之息卷軸才能讓這把武器繼續升級。
+說了這么多， 小妹你了解了嗎？ 一定要好好利用啊， 否則就浪費了俺和莎蘭大姐的一片苦心了！`
+
+[condition message]
+	`    找素喃地區的小鐵柱談談。`
+
+[solve message]
+	`哎喲媽呀， 小妹你拿這個武器看起來真俊啊！`

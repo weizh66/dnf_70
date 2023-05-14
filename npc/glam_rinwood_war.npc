@@ -1,0 +1,52 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	1
+
+[big face]
+	`Map/Npc/NpcFace04.img`	1
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	1
+
+[field animation]
+	`Animation/Glam_Rinwood.ani`
+
+[role]
+	`[power war]`	5
+	`[return town]`	0
+[/role]
+
+[look around]
+	0
+
+[name]
+	`格林·林德`
+
+[field name]
+	`格林·林德`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::96>這里是競技大賽候場大廳。 大賽開始時， 請各位參賽者移步到競技場！`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::96>離開競技區返回城鎮， 就不能再回來參加比賽了， 所以各位要想清楚啊。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::96>抵達競技場后， 就不能再回到候場大廳啦！ 還有啊， 看到目標后， 可以按Ctrl鍵進行決斗。`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	0	0
+	`<npc::96>在指定時間內， 沒有決出優勝者， 則本次大賽的冠軍位置空缺……要是那樣， 不知道能放我的銅像嗎？`
+[/dialog]
+
+[dialog]
+	5	1	99	-1	0	0
+	`<npc::96>在競技場中擊敗更多對手， 自己的實力也會得到提高。 要知道那些只會仰仗別人鼻息生存的人， 是無法成為最后的勝者的！`
+[/dialog]

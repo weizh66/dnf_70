@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`渾沌的奧茲瑪卡片`
+
+[flavor text]
+	`卡贊...... 成為消滅之神吧。 我要成為渾沌之神。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	129
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[need material]
+	3340	96
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[weapon]`
+	`[coat]`
+	`[pants]`
+[/string data]
+
+[int data]
+	129	62141
+[/int data]
+
+[enchant]
+	[magical attack]
+		40
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

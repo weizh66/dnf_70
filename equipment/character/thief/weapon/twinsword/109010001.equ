@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`金色閃電[活動]`
+
+[basic explain]
+	`攻擊速度 +2%%
+攻擊時以 3%% 的機率讓敵人進入感電狀態
+攻擊時以 3%% 的機率施展落雷
+感電狀態的敵人攻擊時10%% 附加傷害
+不可交換，不可合成，不可解體，可強化`
+
+[detail explain]
+	`攻擊速度 +2%%
+攻擊時以3%%的機率5秒內敵人進入感電狀態，每次攻擊時以 400的攻擊力給予附加傷害。 （高於Lv69的對象得到的機率減少，低於Lv69的對象則會增加。）
+攻擊時以 3%% 的機率施展落雷
+感電狀態的敵人攻擊時10%% 附加傷害（決鬥場內5%% 附加傷害）
+不可交換，不可合成，不可解體，可強化`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	65
+
+[physical attack]
+	48
+
+[attack speed]
+	-60
+
+[move speed]
+	10
+
+[price]
+	124200
+
+[repair price]
+	104328
+
+[value]
+	99360
+
+[equipment physical attack]
+	667	616
+
+[equipment magical attack]
+	523	483
+
+[separate attack]
+	389	264
+
+[physical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	77
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[thief]`
+
+[variation]
+	12	4
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[active status]
+		`lightning`	69	400
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[passive object]
+		48108	0	0	0	20	0
+		``
+	[/passive object]
+[/then]
+
+[impossible contents]
+	`disjoint`
+	`gift`
+[/impossible contents]
+
+[possible kiri protect]

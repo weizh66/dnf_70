@@ -1,0 +1,95 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/PowerOfDarkness/11_attack_dodge.img`
+		9
+	[IMAGE POS]
+		-60	-31
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		750
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/PowerOfDarkness/11_attack_dodge.img`
+		11
+	[IMAGE POS]
+		-60	-31
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/PowerOfDarkness/11_attack_dodge.img`
+		11
+	[IMAGE POS]
+		-60	-31
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		255	255	255	204
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/PowerOfDarkness/11_attack_dodge.img`
+		11
+	[IMAGE POS]
+		-60	-31
+	[IMAGE RATE]
+		1.1799999475479126	1.1799999475479126
+	[RGBA]
+		255	255	255	102
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90
+
+[FRAME004]
+	[IMAGE]
+		`Character/Priest/Effect/PowerOfDarkness/11_attack_dodge.img`
+		11
+	[IMAGE POS]
+		-60	-31
+	[IMAGE RATE]
+		1.190000057220459	1.190000057220459
+	[RGBA]
+		255	255	255	51
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90
+
+[FRAME005]
+	[IMAGE]
+		`Character/Priest/Effect/PowerOfDarkness/11_attack_dodge.img`
+		11
+	[IMAGE POS]
+		-60	-31
+	[IMAGE RATE]
+		1.2100000381469727	1.2100000381469727
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		90

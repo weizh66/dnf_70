@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`尼爾巴斯?哥拉西亞卡片`
+	
+
+[flavor text]
+	`為了定邪惡的罪自己變成惡魔的被詛咒的命運`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	148
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[amulet]`
+	`[wrist]`
+	`[ring]`
+[/string data]
+
+[int data]
+	148	61615
+[/int data]
+
+[enchant]
+	[separate attack]
+		40	22
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

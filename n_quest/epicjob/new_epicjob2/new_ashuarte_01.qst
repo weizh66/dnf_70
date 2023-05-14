@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 伊斯塔戰靈 (1/6)`
+
+[depend message]
+	`沒想到你能憑借如此柔弱的身體打得如此精彩， 我真的忍不住對你感到驚嘆。 作為武人， 就連我都覺得熱血沸騰。
+唯有一點比較遺憾， 那就是你還沒能夠完全激發出自己的潛力。 我曾經也經歷過這個階段， 所以看著你更是覺得非常可惜。
+如果你有心提升自己， 我可以幫你激發出潛在的實力。 `
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`你雖然有一定潛力， 但目前還沒辦法將其激發出來。 當然， 你也可以憑借自己的力量去覺醒， 只是不知道究竟會消耗多長時間而已。
+我并不是在貶低你的實力。 之所以這么說是因為這條路實在是太艱辛， 不論你有多高的覺悟， 即便開始了， 后面也可能想要放棄的。
+所以這次你要不要考慮一下接受我的幫助？`
+
+[target character]
+	`[mage]`	3	1
+[/target character]
+
+[relation quest]
+	6791
+
+[job change quest]
+	3
+
+[grow number]
+	0

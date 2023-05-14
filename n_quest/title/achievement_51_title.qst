@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	51	99
+
+[pre required quest]
+	70
+[/pre required quest]
+
+[monster reward item]
+	50090	36	-1	4173	12	30	100	50091	36	-1	4173	12	30	100	1081	36	-1	4173	20	30	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4173	100
+[/int data]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26616	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`向暗黑城進軍`
+
+[depend message]
+	`無頭騎士消失后， 通往暗黑城的道路也打通了。 但是那里現在還留有不少暗精靈護衛把守， 這些護衛受控于地底的怪物， 已經迷失了本性。\如果不除掉他們， 我們依然無法自由地往來暗黑城。 閣下您能幫我們這個忙嗎？ 我會付您報酬的。`
+
+[condition message]
+	`    前往暗黑城的『暗黑城入口』， 收集100個[護衛的印章]。`
+
+[solve message]
+	`您回來了。 怎么樣？ 事情進展得還順利嗎？ `

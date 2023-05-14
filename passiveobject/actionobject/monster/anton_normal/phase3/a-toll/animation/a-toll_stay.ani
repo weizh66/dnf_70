@@ -1,0 +1,62 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/AcientGuardian/A-Toll.img`
+		0
+	[IMAGE POS]
+		-240	-390
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		0	0	0
+	[DELAY]
+		720
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/AcientGuardian/A-Toll.img`
+		0
+	[IMAGE POS]
+		-240	-390
+	[RGBA]
+		0	0	0	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		480
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase3/AcientGuardian/A-Toll.img`
+		0
+	[IMAGE POS]
+		-240	-390
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase3/AcientGuardian/A-Toll.img`
+		0
+	[IMAGE POS]
+		-240	-390
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`

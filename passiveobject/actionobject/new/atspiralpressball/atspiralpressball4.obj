@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	`ATMage Spiral Press Ball`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[vanish on move collision]
+	0
+
+[follow parent]
+	`[parent]`
+
+[basic action]
+	`action/ATSpiralPressFinish.act`
+
+[attack info]
+	`AttackInfo/ATSpiralPressAttackFailFinish.atk`

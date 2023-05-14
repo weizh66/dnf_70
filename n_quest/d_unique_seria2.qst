@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	690000280	1	900	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[請仔細閱讀]回收系統`
+
+[depend message]
+	`道具/裝備回收系統是一個比較特別的系統，它能回收許多值錢的道具和裝備，讓遊戲更具互動性。
+回收系統有兩種回收模式：
+一.針對超高價值的物品，在賽麗亞處設立專門的回收商店，物品可兌換成金幣禮包，打開金幣禮包獲得不同數量的“班圖族的金幣”，每個“班圖族的金幣”價值50萬金錢。
+二.針對中低價值的物品，更改了直接出售的價格，直接賣給NPC即可獲得相應的金錢。
+由於地下城道具系統龐大，道具/裝備回收只做了常出現的一部分道具，有興趣的朋友可以繼續完善。
+現在請去賽麗亞的回收商店看一看，順便找賽麗亞談談。`
+
+[condition message]
+	`現在請去賽麗亞的回收商店看一看，順便找賽麗亞談談。`
+
+[solve message]
+	`你來啦，我這裡會回收各種各樣的道具和裝備哦，快看看吧！（詳見活動中心）`
+
+[quest point]
+	4

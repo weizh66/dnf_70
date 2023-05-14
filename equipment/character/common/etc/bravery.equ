@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`成長的合約`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	0
+
+[rarity]
+	1
+
+[weight]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[equipment type]
+	`[waist]`	16
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		4
+	[add absolute damage]
+		`all`
+		`+`	500
+[/then]

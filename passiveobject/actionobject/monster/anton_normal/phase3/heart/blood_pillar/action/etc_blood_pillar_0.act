@@ -1,0 +1,35 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_Blood_pillar_0_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_Blood_pillar_0_1.ani`	0	-4
+		`../Animation/Etc_Blood_pillar_0_2.ani`	0	-3
+		`../Animation/Etc_Blood_pillar_0_3.ani`	0	-2
+		`../Animation/Etc_Blood_pillar_0_4.ani`	0	-1
+	[/SUB ANI]
+	[SOUND]
+		`BLOODMARBLE_EXP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69388
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

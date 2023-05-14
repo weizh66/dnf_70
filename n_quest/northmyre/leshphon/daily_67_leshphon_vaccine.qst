@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	64
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	5991
+[/pre required quest]
+
+[pre required quest]
+	5995
+[/pre required quest]
+
+[monster reward item]
+	56144	1506	2	4441	1	35	40	56143	1506	2	4441	1	45	40	56142	1506	2	4441	1	60	40	62116	1506	2	4441	1	80	40	56144	1506	3	4441	1	40	40	56143	1506	3	4441	1	50	40	56142	1506	3	4441	1	65	40	62116	1506	3	4441	1	90	40
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4441	10	3305	10	3306	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4438	7
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 暗黑疫苗`
+
+[depend message]
+	`誰最先收齊所有的黑色瘟疫防具， 誰就能登上最強者的寶座。 不過， 到現在為止， 還沒有一個人能抵擋得了防具上凝聚的瘟疫氣息。
+就連我制作的疫苗， 也只能暫時抵御。 不過， 有總比沒有好。`
+
+[condition message]
+	`    前往諾斯瑪爾的『痛苦之村列瑟芬』， 收集以下材料。 (黑色瘟疫樣本可以在王者級的地下城中獲得； 地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`這就是我說的暗黑疫苗， 請收好。`

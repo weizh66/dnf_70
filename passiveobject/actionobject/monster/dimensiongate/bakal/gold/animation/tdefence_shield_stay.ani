@@ -1,0 +1,35 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/impossible_bakal/defence_shield.img`
+		11
+	[IMAGE POS]
+		-118	-180
+	[IMAGE RATE]
+		1.100000023841858	1.2000000476837158
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`DODGE`
+	[DELAY]
+		600
+
+[FRAME001]
+	[IMAGE]
+		`Monster/impossible_bakal/defence_shield.img`
+		11
+	[IMAGE POS]
+		-118	-180
+	[IMAGE RATE]
+		1.100000023841858	1.2000000476837158
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		600

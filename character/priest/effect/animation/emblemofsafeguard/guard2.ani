@@ -1,0 +1,52 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`character/priest/effect/EmblemOfSafeguard/end.img`
+		7
+	[IMAGE POS]
+		-48	-51
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME001]
+	[IMAGE]
+		`character/priest/effect/EmblemOfSafeguard/end.img`
+		7
+	[IMAGE POS]
+		-48	-51
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+
+[FRAME002]
+	[IMAGE]
+		`character/priest/effect/EmblemOfSafeguard/end.img`
+		7
+	[IMAGE POS]
+		-48	-51
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[RGBA]
+		255	255	255	70
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200

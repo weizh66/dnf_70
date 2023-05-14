@@ -1,0 +1,18 @@
+#PVF_File
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/MeteorSword/meteorsword_dash.img`
+		0
+	[IMAGE POS]
+		-236	-171
+	[IMAGE RATE]
+		1.0	-1.2999999523162842
+	[IMAGE ROTATE]
+		0.11999999731779099
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500

@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`黃金瘋魔斗士長矛`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[usable period]
+	300
+
+[minimum level]
+	1
+
+[icon]
+	`item/weapon/mage/spear.img`	87
+
+[equipment type]
+	`[waist avatar]`	0
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		35	0
+	[layer variation]
+		2150
+		`at_speara`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[layer variation]
+		200
+		`at_speard`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[move wav]
+		`CLOTH_TOUCH`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/mage/weapon/spear/`
+[/expand ani]
+
+[part set index]
+	30003
+
+[all activestatus resistance]
+	20
+
+[stuck resistance]
+	60
+
+[avatar func filter]
+	2

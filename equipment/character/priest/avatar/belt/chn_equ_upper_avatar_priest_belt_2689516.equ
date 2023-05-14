@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`雪人玩偶 (圣職者)`
+
+[flavor text]
+	`<2010歡樂圣誕節活動>`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_abelt.img`	56
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar func filter]
+	0
+
+[usable period]
+	20
+
+[variation]
+	18	0
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[move speed]
+	20
+
+[MP MAX]
+	200
+
+[part set index]
+	2

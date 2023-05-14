@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`阿拉德騎士團給予的特別髮型。阿拉德騎士團資格被剝奪的情況，角色回收。`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_ahair.img`	249
+
+[equipment type]
+	`[hair avatar]`	0
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	76	0
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2400
+	`hair_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	20
+	`hair_f1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	76	0
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2400
+	`hair_c`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	20
+	`hair_f1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[avatar func filter]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[emblem socket default]
+	`[A socket]`
+	`[A socket]`
+[/emblem socket default]
+
+[physical attack]
+	55
+
+[magical attack]
+	55
+
+[particle]
+	`same position`
+	`Character/Common/Particle/rare5.ptl`	0	0	100
+[/particle]

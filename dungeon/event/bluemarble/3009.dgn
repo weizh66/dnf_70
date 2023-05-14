@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`樹精繁殖地`
+
+[explain]
+	`雖然除掉了使徒羅特斯，可是殘黨卻躲進天帷巨獸深處。 其中樹精繁殖地是外界尚未公布的未知的地區，發現許多未確認的樹精的地方。 還有尚未被發現的神秘的生物，對於阿拉德的魔法師和鍊金術士相當有吸引力。`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	2
+	`WorldMap/SelectdungeonSlot/behimoth.img`	7
+
+[minimum required level]
+	99
+
+[basis level]
+	38
+
+[experience increasing point]
+	1.2
+
+[champion]
+	6	12	18	24	26
+
+[special passive object item]
+	0	-1	5	1068	1000	1069	1500	1070	500	1071	500	1072	3000	1	-1	0
+[/special passive object item]
+
+[pathgate object]
+	5709	5710	5711	5712	5713	5714	5715	5716	5717	5718
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[event monster]
+	2	7500	61727	1	300	80	1
+[/event monster]

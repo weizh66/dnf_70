@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`等級達成禮包（LV.10）`
+
+[explain]
+	`使用后，可獲得各種道具和等級達成禮包（LV.20）
+該道具在LV.70以后無法打開，請盡快使用。`
+
+[flavor text]
+	`<我的游戲我做主>`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	10
+
+[maximum level]
+	69
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption_cn.img`	110
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster info]
+	[stackable]
+		1	690017085	100000	2
+	[/stackable]
+	[stackable]
+		1	690000301	100000	2
+	[/stackable]
+	[stackable]
+		1	88888888	100000	4
+	[/stackable]
+	[stackable]
+		1	7831	100000	2
+	[/stackable]
+	[stackable]
+		1	8049	100000	1
+	[/stackable]
+	[stackable]
+		1	690017022	100000	1
+	[/stackable]
+	[stackable]
+		1	88888889	100000	5
+	[/stackable]
+[/booster info]

@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`紅色鷹眼勇士護腿`
+
+[explain]
+	`    作為格斗界的新星， 你的未來無限光明！  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_apants.img`	339
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1700	0	30	0	0	3400	0	0	0	0	6800	0	0	0	0	7480	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[variation]
+	102	2
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2686919
+
+[HP MAX]
+	200
+
+[avatar func filter]
+	2

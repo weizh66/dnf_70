@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`NovaRemantFinish`
+
+[floating height]
+	1
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/novaremnant_finish_boom_09.ani`
+
+[attack info]
+	`AttackInfo/NovaRemnantFinish.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	20170203
+[/object destroy condition]

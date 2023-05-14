@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	51	99
+
+[pre required quest]
+	75
+[/pre required quest]
+
+[monster reward item]
+	1081	36	0	4174	5	45	30	1081	36	1	4174	5	60	30	1081	36	2	4174	6	75	30	1081	36	3	4174	6	90	30
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4174	30	3042	2	3041	2	3040	2	3039	2	3038	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	24117	1	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`疑惑`
+
+[depend message]
+	`無頭騎士會不停的復活？ 嗯……根據你說的情況， 他一定是被人下了禁咒！ 而且應該是一種只有下咒人才能解的禁咒！
+如果你想打敗他， 唯一的辦法就是在他快要復活時催眠他。 據我所知， 無頭騎士被擊敗后會進入短暫的睡眠， 你可以在這時候拿走他的夢之精髓。
+這樣吧， 你先去收集些大晶體和夢之精髓給我， 我幫你制作可以催眠無頭騎士的物品。 `
+
+[condition message]
+	`    收集2個各種顏色的大晶體， 并前往暗黑城的『暗黑城入口』， 從領主無頭騎士身上找來30個[夢之精髓]。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`都找到了嗎？ 你稍等一會。 (一邊制作)謝謝你信任我， 我能理解克倫特的想法， 但沒想到你會信任我。
+不瞞你說， 我確實收到長老‘放棄人類’的命令了， 但我拒絕了， 也因此被他們驅逐了。 我不后悔， 因為我在這里學到了很多寶貴的東西。
+呵呵， 也許在不久的將來， 人類和暗精靈的關系會變好。 不過我想我的一生都會在這里的魔法學校和公會度過……
+好了， 戒指已經完成了， 你有了它就可以催眠無頭騎士了。 還有如果你見到克倫特， 請轉達我的心意。`
+
+[quest point]
+	4

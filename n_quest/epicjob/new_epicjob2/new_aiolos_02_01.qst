@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 風神 (2/6)`
+
+[depend message]
+	`暴風的根源是一個安靜祥和的空間， 人們稱之為暴風眼。
+你們就是一陣風， 與席卷一切的暴風如此相似。 但光憑這一點是無法變強的。
+成為暴風根源的那份寧靜……你必須找到它。 通往傳說的神秘之門唯有一把鑰匙——即我說的那份寧靜。
+那接下來， 我們開始進行喚醒寧靜的訓練吧。 首先， 我會安排你去參加魂·黃龍大會。 你要去和那里的強者們切磋武藝， 從而喚醒內心深處的寧靜。
+參賽之前， 你需要先獲得‘斯卡迪女王的印章’， 快去收集吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5039
+[/pre required quest]
+
+[relation quest]
+	6766
+
+[job change quest]
+	3
+
+[grow number]
+	0

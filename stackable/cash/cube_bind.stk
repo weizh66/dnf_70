@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`裝扮合成器`
+
+[explain]
+	`使用後，可以將兩個相同等級部位的裝扮進行合成，並獲得指定外觀和屬性的裝扮，另外還有一定機率獲得白金稀有裝扮。如果是兩個高級裝扮進行合成，則出現白金稀有裝扮的機率會增大。`
+
+[flavor text]
+	`<內含白金稀有裝扮>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	16
+
+[field image]
+	`Item/FieldImage.img`	22
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[npc gift disallowance]
+	1

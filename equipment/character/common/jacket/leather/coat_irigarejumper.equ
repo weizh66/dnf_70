@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`艾麗格的蛟龍胸甲`
+
+[flavor text]
+	`你們這些傢伙，嘗嘗子彈的厲害吧！- 艾麗格對卡勒特組織的隊員們說`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	27
+
+[magical attack]
+	27
+
+[magical defense]
+	29
+
+[price]
+	62000
+
+[repair price]
+	54684
+
+[value]
+	49600
+
+[equipment physical defense]
+	1680	1536
+
+[skill levelup]
+	`[gunner]`	40	2
+	`[at gunner]`	40	2
+[/skill levelup]
+
+[icon]
+	`Item/common/coat.img`	102
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`艾麗格的蛟龍皮甲套裝`
+
+[set item]
+	10516	12513
+[/set item]
+
+[set ability]
+	[skill data up]
+		`[gunner]`	40
+		`[all]`
+		`[level]`	2
+		`+`	-30
+		`[at gunner]`	40
+		`[all]`
+		`[level]`	2
+		`+`	-30
+	[/skill data up]
+	[skill levelup]
+		`[gunner]`	62	1
+		`[at gunner]`	62	1
+	[/skill levelup]
+	[fullset basic explain]
+		`反坦克炮取出速度增加10%% `
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 月蝕 (4/6)`
+
+[depend message]
+	`據說在‘他’從魔界的月亮‘德拉雷文’下凡的第一天， 許多召喚師被殘忍殺害了。
+當‘他’終于停止殺戮時， 已經有很多人類和精靈都犧牲了。
+當時的后果不堪設想。 幸存者們雖然逃過了一劫， 但在漫長的歲月里飽受痛苦， 有些人甚至悔恨當初為什么沒有選擇死亡。
+‘他’的名字叫作‘逆月者拉莫斯’， 據說他會不斷地索取生命， 是一個非常殘忍、 可怕的存在。
+而你現在是想把這樣一種存在召喚出來。 如果你依然想嘗試， 那就先讓自己變得比現在更加強大吧。 否則不光是你， 這附近的一切將會毀于一旦。 明白了嗎？
+那我們開始修煉吧。 這次你去挑戰一下魂·青龍大會吧， 去與那里的強者們一一切磋， 從而逐步提升自己的實力吧。
+到了后期， 你會變得足夠強大， 到那個時候， 你就可以召喚出‘逆月者拉莫斯’了。
+那么……首先你需要獲得赫侖皇帝的印章。 本次大會只有獲得皇室推薦的人員才有資格參加， 據說赫侖皇帝的印章可以為你作證。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6784
+[/pre required quest]
+
+[relation quest]
+	6786
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`獄巖石巨劍`
+
+[basic explain]
+	`攻擊速度 +1%%`
+
+[flavor text]
+	`用建造死亡之塔的地獄礦石--獄巖石製作的武器， 據說含有能讓使用者潛力爆發的神秘力量。`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	38
+
+[attack speed]
+	-80
+
+[cast speed]
+	-10
+
+[price]
+	86400
+
+[repair price]
+	72576
+
+[value]
+	345600
+
+[equipment physical attack]
+	562	542
+
+[equipment magical attack]
+	421	407
+
+[separate attack]
+	233	156
+
+[skill levelup]
+	`[swordman]`	86	1
+	`[swordman]`	87	1
+	`[swordman]`	85	1
+	`[swordman]`	88	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	51
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	2	8
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	2	8
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[possible kiri protect]

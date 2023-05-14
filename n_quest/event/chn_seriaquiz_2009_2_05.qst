@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	5
+
+[complete npc index]
+	29
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4973
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	29
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`索西雅的謎題`
+
+[depend message]
+	`噢， 您是為了解謎題而來的呀。
+這次應該是最后的謎題了， 您的付出一定會有回報的。 呵呵， 我聽說辛苦解謎后會獲得很好的獎勵哦。
+我的謎題是 : 可以生產平常打怪無法獲得的材料的人是誰？ 這個人經常在阿拉德大陸各處走動， 而且他還是主張自由經濟的商人。
+提示是 : 您到西海岸后， 沿著大道往右走就會看到一輛華麗的馬車， 然后您可以向站在那里的中年男子打聽下。`
+
+[condition message]
+	`    在西海岸最右邊的黃金馬車前， 找到一名商人男子。 (按<N>鍵可以讓您更容易找到目標)`
+
+[solve message]
+	`你好， 歡迎來到勒西商店， 你需要哪個物品呢？
+啊……原來你是為了解謎題而來的啊， 能找到這兒， 真是辛苦了。
+我們商會一直都在幫助冒險家生產高級材料， 如果你也需要， 就來找我吧。`

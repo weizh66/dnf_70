@@ -1,0 +1,96 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		11
+	[IMAGE POS]
+		-303	-362
+	[INTERPOLATION]
+		1
+	[DELAY]
+		380
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-26	-10	-6	61	20	114
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		12
+	[IMAGE POS]
+		-303	-362
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-2	-10	-6	60	20	113
+	[ATTACK BOX]
+	4	-15	63	123	31	55
+	[DAMAGE BOX]
+	-43	-10	-2	42	20	35
+	[DAMAGE BOX]
+	54	-10	66	57	20	44
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		13
+	[IMAGE POS]
+		-303	-362
+	[INTERPOLATION]
+		1
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[ATTACK BOX]
+	-31	-15	51	141	31	135
+	[DAMAGE BOX]
+	-2	-10	3	56	20	127
+	[DAMAGE BOX]
+	-48	-10	-1	50	20	44
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		14
+	[IMAGE POS]
+		-303	-362
+	[INTERPOLATION]
+		1
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	20	-10	-2	27	20	44
+	[DAMAGE BOX]
+	-50	-10	-5	72	20	133
+	[DAMAGE BOX]
+	-86	-10	79	37	20	61
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/DumThaioric/DumThaioric.img`
+		15
+	[IMAGE POS]
+		-303	-362
+	[INTERPOLATION]
+		1
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	20	-10	-2	27	20	44
+	[DAMAGE BOX]
+	-50	-10	-5	73	20	142
+	[DAMAGE BOX]
+	-84	-10	79	35	20	47

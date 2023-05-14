@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 芙蕾雅 (1/2)`
+
+[depend message]
+	`那邊的美人兒， 你看起來可真英姿颯爽！
+哈哈， 我聽到你的傳聞了。 你的名聲已經傳到這里了， 說你是無論在任何艱苦條件下， 都會奮勇向前的女戰士。
+遺憾的是， 在我看來你還是缺了些什么。 你問缺了什么？
+我覺得你缺少對同伴的信賴。 就算你是再優秀的戰爭女神， 也不可能總是孤軍奮戰。 你總是想獨自沖在最前線， 在我看來這是個危險的信號。
+不不不， 你不用和我爭辯， 我從一些可靠的渠道了解過你。 看來你還沒有意識到自己的缺陷， 也許是你的潛意識迫使你這么做吧。 這么下去你是很難得到‘芙蕾雅’勛章的……
+不能再這么繼續下去了， 如果你想獲得同伴們的肯定， 那就先跟我談談吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和凱麗談談。`
+
+[solve message]
+	`別緊張， 先坐下吧。 這又不是戰場， 女人們坐在一起聊聊天， 放松一下多棒呀！ 你說是吧？`
+
+[pre required quest]
+	5347
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12867
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,90 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	74
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[風鳴沖擊]冷卻時間 -30%%
+[游離之風]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[at mage]`	74
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at mage]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[風鳴沖擊]攻擊力 +25%%
+[風暴之拳]攻擊力 +15%%
+[朔風牽引]攻擊力 +20%%
+[朔風牽引]冷卻時間 -20%%
+[游離之風]攻擊力 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	74
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at mage]`	75
+		`[dungeon type]`
+		`[level]`	3
+		`+`	10
+		`[at mage]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[風鳴沖擊]攻擊力 +40%%
+[風暴之拳]攻擊力 +30%%
+[游離之風]攻擊力 +40%%
+[朔風牽引]攻擊力 +35%%
+[流風訣]被擊傷害減少率 +10%%`
+[/piece set ability]

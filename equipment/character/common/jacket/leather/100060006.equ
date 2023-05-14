@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`穿透的皮革上衣`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	32
+
+[magical attack]
+	32
+
+[magical defense]
+	35
+
+[stuck]
+	-3
+
+[price]
+	75000
+
+[repair price]
+	63000
+
+[value]
+	60000
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	1992	1848
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[piercing resistance]
+	15
+
+[icon]
+	`item/new_equipment/03_leather/coat/leather_coat.img`	8
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`錐心穿孔套裝`
+
+[set item]
+	100060006	100110004	100160004	100210004	100260004
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`魔鬼型類型攻擊時10%%追加傷害
+攻擊時5%%追加傷害
+攻擊時以10%%機率10秒內力量增加40
+攻擊時以10%%機率施展紅色閃電
+紅色閃電命中的敵人呈現出血狀態`
+	[fullset detail explain]
+		`魔鬼型類型攻擊時10%%追加傷害
+攻擊時5%%追加傷害
+攻擊時以10%%的機率10秒內力量增加40
+攻擊時以10%%機率向敵人施展攻擊力3000的紅色閃電
+被紅色閃電命中的敵人呈現出血狀態，每0.5秒以2000攻擊力給予傷害。（出血持續時間1秒，高於Lv75的對象得到的機率減少，低於Lv75的對象則會增加。）`
+	[if]
+		[attack success]
+			1
+		[cooltime]
+			5000
+	[/if]
+	[then]
+		[probability]
+			10
+		[duration]
+			10000
+		[target]
+			`myself`	-1
+		[stat]
+			`physical attack`
+			`+`	40
+	[/then]
+	[if]
+		[attack success]
+			1
+		[cooltime]
+			3000
+	[/if]
+	[then]
+		[probability]
+			10
+		[reduce probability to human armor at pvp module]
+			80
+		[target]
+			`enemy`	-1
+		[passive object]
+			48509	0	0	0	0	0
+			``
+		[/passive object]
+	[/then]
+	[if]
+		[attack success]
+			1
+		[target type]
+			`devil`
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	10
+	[/then]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

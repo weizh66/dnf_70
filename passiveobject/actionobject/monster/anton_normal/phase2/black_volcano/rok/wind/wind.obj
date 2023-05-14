@@ -1,0 +1,21 @@
+#PVF_File
+
+[name]
+	`?`
+
+[layer]
+	`[bottom]`
+
+[piercing power]
+	10000
+
+[basic action]
+	`Action/Wind_Basic.act`
+
+[attack info]
+	`attackinfo/Wind_Basic.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+[/object destroy condition]

@@ -1,0 +1,78 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	332
+		`[dungeon type]`
+		`[level]`	7
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[火熱的愛意]多段攻擊次數 +2次`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	332
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[mage]`	332
+		`[dungeon type]`
+		`[static]`	1
+		`%`	25
+		`[mage]`	337
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[火熱的愛意]攻擊力 +40%%
+[火熱的愛意]范圍 +25%%
+[死命召喚]僵尸人偶爆炸攻擊力 +35%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	332
+		`[dungeon type]`
+		`[level]`	7
+		`+`	1
+		`[mage]`	337
+		`[dungeon type]`
+		`[static]`	0
+		`%`	40
+		`[mage]`	337
+		`[dungeon type]`
+		`[static]`	1
+		`%`	40
+		`[mage]`	337
+		`[dungeon type]`
+		`[static]`	11
+		`%`	40
+		`[mage]`	337
+		`[dungeon type]`
+		`[static]`	2
+		`+`	5
+		`[mage]`	337
+		`[dungeon type]`
+		`[static]`	3
+		`%`	40
+		`[mage]`	337
+		`[dungeon type]`
+		`[level]`	1
+		`%`	70
+	[/skill data up]
+	[parameter basic explain]
+		`[火熱的愛意]多段攻擊次數 +1次
+[死命召喚]范圍 +40%%
+[死命召喚]僵尸人偶生成數量上限 +5
+[死命召喚]移動速度 +40%%
+[死命召喚]爆炸攻擊力 +70%%`
+[/piece set ability]
+
+[partset specific growtype]
+	5

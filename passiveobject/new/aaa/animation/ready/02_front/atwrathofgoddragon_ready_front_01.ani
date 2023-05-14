@@ -1,0 +1,47 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		240
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/ATWrathOfGodDragon/GD_S_Flame01.img`
+		0
+	[IMAGE POS]
+		-274	-232
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

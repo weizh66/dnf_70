@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4810
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	5000000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	102000138
+	`[job]`	1	1	1	102010194
+	`[job]`	1	1	1	102020129
+	`[job]`	1	1	1	102030155
+	`[job]`	1	1	1	102000145
+	`[job]`	1	2	1	102010201
+	`[job]`	1	2	1	102020136
+	`[job]`	1	2	1	102030162
+	`[job]`	1	2	1	102040108
+	`[job]`	1	2	1	102000152
+	`[job]`	1	3	1	102010208
+	`[job]`	1	3	1	102020143
+	`[job]`	1	3	1	102030169
+	`[job]`	1	3	1	102000159
+	`[job]`	1	4	1	102010215
+	`[job]`	1	4	1	102020150
+	`[job]`	1	4	1	102030176
+	`[job]`	1	4	1
+[/reward selection int data]
+
+[name]
+	`二次覺醒 - 龍躍武器 (3/3)`
+
+[depend message]
+	`什么？ 龍躍武器……竟然不翼而飛了？
+俺之前說過啥來著， 真是氣死俺了。
+哎， 誰讓你是俺朋友呢， 還是再幫你做一把好了， 不過材料費可得你來付……`
+
+[condition message]
+	`    向小鐵柱支付500萬金幣， 以再次獲得龍躍武器。`
+
+[solve message]
+	`這次千萬別再弄沒了！`

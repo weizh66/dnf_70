@@ -1,0 +1,38 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Handlingsword/handlingsword_srart_body.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND]
+		`SM_CONTROLBLADE_01`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FOLLOWING TARGET AND DIRECTION]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		25	25
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

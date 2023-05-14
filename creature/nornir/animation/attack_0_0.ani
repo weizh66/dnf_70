@@ -1,0 +1,153 @@
+#PVF_File
+[SPECTRUM]
+	1
+	[SPECTRUM TERM]
+		90
+	[SPECTRUM LIFE TIME]
+		150
+	[SPECTRUM COLOR]
+		255	255	255	255
+	[SPECTRUM EFFECT]
+		`NONE`
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		15
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-30	-22	2	69	39	149
+
+[FRAME001]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		16
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-22	2	69	39	149
+
+[FRAME002]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		17
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-22	2	69	39	149
+
+[FRAME003]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		18
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[ATTACK BOX]
+	55	-38	10	58	62	146
+	[ATTACK BOX]
+	-28	-65	188	64	56	39
+	[DAMAGE BOX]
+	-30	-22	2	65	39	149
+	[ATTACK BOX]
+	34	-48	149	52	48	47
+
+[FRAME004]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		19
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-22	2	69	39	149
+	[ATTACK BOX]
+	-83	-37	32	143	92	196
+
+[FRAME005]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		20
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-22	2	69	39	149
+
+[FRAME006]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		21
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-22	2	69	39	149
+
+[FRAME007]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		22
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-30	-22	2	69	39	149

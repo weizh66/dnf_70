@@ -1,0 +1,1214 @@
+#PVF_File
+
+[name]
+	`荒古遺塵步槍`
+
+[basic explain]
+	`所有技能攻擊力+35%%
+    進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能。
+    釋放結束時，最後還對敵人造成魔能爆炸傷害。`
+
+[detail explain]
+	`所有技能攻擊力+35%% (對Buff技能無效)
+    進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能， 時長持續20秒； 釋放結束后20秒內使自身技能攻擊力增加20%%。（冷卻時間47秒）
+    釋放結束時，最後還對敵人造成魔能爆炸傷害。(傷害最高可達300萬)`
+
+[flavor text]
+	`    萬物生自守恒， 源力破則失正
+    莫以為敵消彼漲， 然乾坤逆之天崩。 --祭安徒恩之死`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[magical attack]
+	97
+
+[need material]
+	3822	200
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[anti evil]
+	22
+
+[equipment physical attack]
+	965	805
+
+[equipment magical attack]
+	839	700
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/musket/musket.img`	132
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	43	0
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		990009	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+
+	[if]
+		[start cooltime]
+			47000
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			47000
+	[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[skill data up]
+	`[gunner]`	47
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	47
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	47
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	47
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	4
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	4
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	4
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	4
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	27
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	27
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	12
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	12
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	12
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	12
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	30
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	30
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	30
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	30
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	3
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	3
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	3
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	3
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	14
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	14
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	14
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	14
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	6
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	6
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	6
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	6
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	7
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	7
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at gunner]`	7
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	7
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[gunner]`	13
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	13
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	13
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	13
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	56
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	56
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	5
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	5
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	26
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	26
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	35
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	35
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	20
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	20
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	9
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	9
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	9
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	15
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	15
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	72
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	72
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	51
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	51
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	51
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	51
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	51
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	51
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	64
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	64
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	64
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[gunner]`	101
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	101
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	101
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	101
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[gunner]`	104
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	104
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	104
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	104
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	104
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	104
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[gunner]`	28
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	28
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	79
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	79
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	80
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	80
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	80
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	80
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	29
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	29
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	29
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	29
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	81
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	81
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	63
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	63
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	63
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	63
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	59
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[gunner]`	59
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[gunner]`	59
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[at gunner]`	59
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	59
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[at gunner]`	59
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[gunner]`	83
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	83
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	83
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	83
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	83
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	83
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[gunner]`	67
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	96
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	96
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	96
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	96
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	96
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	105
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	105
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[gunner]`	105
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[at gunner]`	105
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	105
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[at gunner]`	105
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[gunner]`	106
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	106
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	106
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	106
+	`[all]`
+	`[level]`	1
+	`%`	25
+	`[at gunner]`	106
+	`[all]`
+	`[level]`	2
+	`%`	25
+	`[at gunner]`	106
+	`[all]`
+	`[level]`	4
+	`%`	25
+	`[gunner]`	34
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	34
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	73
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	73
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	73
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	73
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	39
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	39
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	39
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	39
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	36
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	36
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	36
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	36
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	41
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	41
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	75
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	75
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	75
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	75
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	31
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	31
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	38
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	38
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	38
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	38
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	45
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	45
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	45
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at gunner]`	45
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	45
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	45
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[gunner]`	71
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	71
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	71
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	71
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	54
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	54
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	97
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	97
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	97
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	97
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	107
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	107
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	107
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	107
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	108
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	108
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	108
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[gunner]`	108
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	108
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	108
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	108
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	108
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[gunner]`	2
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	2
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	2
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at gunner]`	2
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[gunner]`	76
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	76
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	48
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	48
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	57
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	57
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	1
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	1
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	1
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	1
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	52
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	52
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	52
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	52
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	58
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	58
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	109
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	109
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	77
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	77
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	53
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	53
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	53
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	53
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[gunner]`	78
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	78
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	70
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[gunner]`	70
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[gunner]`	70
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	70
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at gunner]`	98
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	98
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at gunner]`	98
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	98
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	103
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	103
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	103
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	103
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[gunner]`	102
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	102
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	102
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	102
+	`[all]`
+	`[level]`	5
+	`%`	50
+[/skill data up]
+
+[if]
+	[start cooltime]
+		47000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[if]
+	[my appendage]
+		888
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		642
+	[appendage]
+		650
+[/then]
+
+[possible kiri protect]

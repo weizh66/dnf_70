@@ -1,0 +1,82 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Torbellino/Torbellino_Hit_A.ani`
+	[SUB ANI]
+		`../Animation/Torbellino/Torbellino_Hit_B.ani`	0	0
+		`../Animation/Torbellino/Torbellino_Hit_C_1.ani`	0	0
+		`../Animation/Torbellino/Torbellino_Hit_C_2.ani`	0	0
+		`../Animation/Torbellino/Torbellino_Hit_C_3.ani`	0	0
+		`../Animation/Torbellino/Torbellino_Hit_C_4.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

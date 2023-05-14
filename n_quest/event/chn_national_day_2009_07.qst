@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20506
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680336	60
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	2680337	1	2680338	1
+[/reward selection int data]
+
+[name]
+	`慶祝60周年 - 紀念旗幟`
+
+[depend message]
+	`這兩種旗幟中，只能拿到一種， 您是不是對另外一種很好奇啊？ 看您一直在附近徘徊， 我就猜到了， 呵呵~
+這樣吧， 如果您繼續給我收集一些紅色的信函， 我就再送您一個旗幟， 怎么樣？`
+
+[condition message]
+	`    收集60個[國慶60周年慶祝函]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`收集好了嗎？ 您要是想要之前的那種旗幟也行， 但是這個旗幟的效果不會重疊， 還不如選擇另一種旗幟呢！ 呵呵~`

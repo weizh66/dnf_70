@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`臨界玄鐵腿甲`
+
+[basic explain]
+	`    被擊時， 隨機觸發以下效果中的任意1種， 效果持續5秒。 (冷卻時間20秒)
+    - 物理防禦力 +30%%
+    - 魔法防禦力 +30%%
+    - 物理和魔法防禦力 +30%%
+    
+    受到光屬性攻擊時， 免疫感電狀態， 效果持續5秒。 (冷卻時間20秒)`
+
+[detail explain]
+	`    被擊時， 隨機觸發以下效果中的任意1種， 效果持續5秒。 (解除裝備後效果消失； 冷卻時間20秒)
+    - 物理防禦力 +30%%
+    - 魔法防禦力 +30%%
+    - 物理和魔法防禦力 +30%%
+    
+    受到光屬性攻擊時， 免疫感電狀態， 效果持續5秒。 (解除裝備後效果消失； 冷卻時間20秒)`
+
+[flavor text]
+	`    撓我一下`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[physical defense]
+	41
+
+[price]
+	126000
+
+[repair price]
+	100800
+
+[value]
+	100800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	4900	4550
+
+[icon]
+	`item/new_equipment/06_plate/pants/plate_pants.img`	45
+
+[field image]
+	`Item/field_equip.img`	16
+
+[equipment type]
+	`[pants]`	22
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	4100
+
+[item group name]
+	`mt pants`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		30000	1	15000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[equipment duration]
+			15000
+		[appendage]
+			438
+		[stat]
+			`equipment physical defense`
+			`%`	10
+		[stat]
+			`equipment magical defense`
+			`%`	10
+		[then probability]
+			50.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[equipment duration]
+			15000
+		[appendage]
+			438
+		[stat]
+			`equipment physical attack`
+			`%`	5
+		[stat]
+			`equipment magical attack`
+			`%`	5
+		[stat]
+			`separate attack`
+			`%`	5
+		[then probability]
+			50.0
+	[/then]
+[/multiple then]
+
+[possible kiri protect]

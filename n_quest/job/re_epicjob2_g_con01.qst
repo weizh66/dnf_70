@@ -1,0 +1,86 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4826
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	5000000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	104000306
+	`[job]`	2	1	1	104000313
+	`[job]`	2	3	1	104000320
+	`[job]`	2	2	1	104000327
+	`[job]`	2	4	1	104020288
+	`[job]`	2	1	1	104020295
+	`[job]`	2	3	1	104020302
+	`[job]`	2	2	1	104020309
+	`[job]`	2	4	1	104040304
+	`[job]`	2	1	1	104040311
+	`[job]`	2	3	1	104040318
+	`[job]`	2	2	1	104040325
+	`[job]`	2	4	1	104010287
+	`[job]`	2	1	1	104010294
+	`[job]`	2	3	1	104010301
+	`[job]`	2	2	1	104010308
+	`[job]`	2	4	1	104030292
+	`[job]`	2	1	1	104030299
+	`[job]`	2	3	1	104030306
+	`[job]`	2	2	1	104030313
+	`[job]`	2	4	1
+[/reward selection int data]
+
+[name]
+	`二次覺醒 - 龍躍武器 (3/3)`
+
+[depend message]
+	`什么？ 龍躍武器……竟然不翼而飛了？
+俺之前說過啥來著， 真是氣死俺了。
+哎， 誰讓你是俺朋友呢， 還是再幫小哥你做一把好了， 不過材料費可得小哥你來付……`
+
+[condition message]
+	`    向小鐵柱支付500萬金幣， 以再次獲得龍躍武器。`
+
+[solve message]
+	`這次千萬別再弄沒了啊！`

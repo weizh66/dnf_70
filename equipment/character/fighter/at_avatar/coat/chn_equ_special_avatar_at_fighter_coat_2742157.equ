@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`銀色暴風戰士胸甲`
+
+[explain]
+	`    煉就格斗之魂， 需要擁有執著的熱情與永不言敗的信念。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_acoat.img`	62
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	450	0	30	0	0	990	0	0	0	0	2970	0	0	0	0	6500	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[physical defense]
+	15
+
+[HP MAX]
+	80
+
+[variation]
+	26	1
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set name]
+	`格斗之魂 2 (男格斗)`
+
+[set item]
+	2741754	2742056	2742157	2742258	2742359	2742460
+[/set item]
+
+[set ability]
+	[HP MAX]
+		250
+	[MP MAX]
+		250
+	[physical attack]
+		10
+	[physical defense]
+		25
+	[magical attack]
+		10
+	[magical defense]
+		25
+	[move speed]
+		10
+	[attack speed]
+		10
+	[cast speed]
+		10
+	[hit recovery]
+		200
+[/set ability]
+
+[avatar func filter]
+	2

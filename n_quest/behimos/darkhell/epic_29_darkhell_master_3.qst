@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	29	99
+
+[pre required quest]
+	555
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	23	2	202	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	15000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`黑暗中的夜叉王`
+
+[depend message]
+	`據說煉獄里有一個叫夜叉王的生命體……雖然沒有它的相關文字記載， 不過傳說100年前有一位勇猛的GBL教戰士違反了教規， 被放逐到了煉獄……
+后來那個GBL教戰士成了所有夜叉的頭領， 也成了煉獄里的頭號危險家伙！
+我想那個夜叉王應該就是那個戰士， 所以不到逼不得已， 你不要和他戰斗， 逃跑吧！`
+
+[condition message]
+	`    前往前往天帷巨獸神殿的『煉獄』， 除掉領主夜叉王， 要求地下城難度為王者級。`
+
+[solve message]
+	`你居然把夜叉王除掉了， 真厲害啊！ 以你的實力， 一定可以除掉羅特斯了。 呵呵， 我總算可以放心了。`
+
+[dialog]
+	1	0	23	2	1	202	0
+	` <monster::202>你們竟敢玷污神圣的神殿……
+受美神維納斯恩寵的我， 將親自處置你們！`
+[/dialog]
+
+[quest point]
+	4

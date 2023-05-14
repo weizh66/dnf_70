@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`雷光屏障`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/lightining_wall_Basic.act`
+
+[last action]
+	`Action/lightining_wall_Last.act`
+
+[etc action]
+	`Action/Etc_lightining_wall_0.act`
+	`Action/Etc_gidong_1.act`
+	`Action/Etc_gidong_2.act`
+	`Action/Etc_gidong_3.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/lightining_wall_Basic.atk`
+
+[etc attack info]
+	`attackinfo/Etc_lightining_wall_0.atk`
+	``
+	``
+	``
+[/etc attack info]

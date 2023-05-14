@@ -1,0 +1,63 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		110
+	[IMAGE POS]
+		-248	-378
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`AVATAR_DANCE_01`
+	[DAMAGE BOX]
+	-6	-5	-9	39	10	98
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		111
+	[IMAGE POS]
+		-265	-381
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-19	-5	-3	45	10	75
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		112
+	[IMAGE POS]
+		-248	-382
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-26	-5	14	58	10	52
+	[ATTACK BOX]
+	-158	-50	-9	418	100	181
+
+[FRAME003]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		113
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-23	-5	16	56	10	46
+	[ATTACK BOX]
+	-201	-50	-6	452	100	62

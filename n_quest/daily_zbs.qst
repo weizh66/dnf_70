@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[special daily]`
+	`[schedule]`
+
+[npc index]
+	72
+
+[complete npc index]
+	12
+
+[difficulty]
+	`O`
+
+[ignore quest level 4 exp]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	5
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749110	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`領主之塔的邀請`
+
+[depend message]
+	`冒險家，莎蘭有幾封信要給你。`
+
+[condition message]
+	`前往西海岸拜訪莎蘭`
+
+[solve message]
+	`這幾封信我和希莫娜討論了很久……
+最后，還是決定把它交給你……
+冒險家，領主之塔危險重重，你要多加小心！`
+
+[schedule]
+	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`MON`
+	`08:10:00`
+	`22:30:59`	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`TUE`
+	`08:10:00`
+	`22:30:59`	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`WED`
+	`08:10:00`
+	`22:30:59`	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`THU`
+	`08:10:00`
+	`22:30:59`
+[/schedule]

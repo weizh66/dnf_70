@@ -1,0 +1,66 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		50
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/ATIceFieldEx/08_icemist_dodge.img`
+		3
+	[IMAGE POS]
+		-138	-206
+	[IMAGE RATE]
+		0.8600000143051147	0.8700000047683716
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1500
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Mage/Effect/ATIceFieldEx/08_icemist_dodge.img`
+		3
+	[IMAGE POS]
+		-111	-206
+	[IMAGE RATE]
+		0.8600000143051147	0.8700000047683716
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

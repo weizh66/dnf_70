@@ -1,0 +1,175 @@
+#PVF_File
+
+[name]
+	`2012 DNF 區域領主`
+
+[explain]
+	`  攻擊時， 有1%%的幾率增加3%%的攻擊速度， 效果持續30秒。
+  施放技能時， 有1%%的幾率增加5%%的施放速度， 效果持續30秒。`
+
+[flavor text]
+	`  DNF 2012超級錦標賽區域賽冠軍的專屬稱號！ 它代表著稱霸壹方的強者。生命不息、戰鬥不止，有朝壹日妳必將征服全國。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	147
+
+[custom animation]
+	`TitleAnimation/2012_DNF_regional_champion.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	350
+
+[MP MAX]
+	350
+
+[physical defense]
+	25
+
+[magical defense]
+	25
+
+[move speed]
+	35
+
+[attack speed]
+	35
+
+[cast speed]
+	35
+
+[stuck]
+	-3
+
+[stuck resistance]
+	30
+
+[hit recovery]
+	150
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	30
+[/then]
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	30
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

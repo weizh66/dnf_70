@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	45
+
+[complete npc index]
+	6
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2441
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7342	8	7343	4	7344	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7346	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找企鵝圍巾 - 2`
+
+[depend message]
+	`哦……是賽麗亞叫你來找我的？ 但你可能要失望了哦， 呵呵。 我了解到的情況和賽麗亞說的差不多， 也許風振會更了解吧。
+不過， 你手上的那些材料應該還不夠……你最好再去收集一些， 然后就可以找風振打聽了。`
+
+[condition message]
+	`<七鉆閃耀活動>  前往任意的地下城， 收集8個[毛線團]、 4個[羽毛]和5瓶[紅色染色劑]交給風振。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`我是風拳流大師風振， 我負責訓練那些來阿拉德大陸冒險的格斗家， 你找我有什么事嗎？`

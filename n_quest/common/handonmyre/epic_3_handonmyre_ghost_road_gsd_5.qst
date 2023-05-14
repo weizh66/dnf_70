@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	15	99
+
+[pre required quest]
+	4427
+[/pre required quest]
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`鬼劍士之路 - 任務商店`
+
+[depend message]
+	`這是最後一次 我能告訴你的， 你有聽說過任務商城嗎？ 完成主線任務後可以獲得一定量的個性技能點(QP)，而這些QP可以在商城收集商品。 
+你一定要購買的商品，我已經貼好了推薦標示，你就去購買吧。`
+
+[condition message]
+	`在任務商店提昇推薦屬性`
+
+[solve message]
+	`做得好。剩下的QP就由你自行挑選購買商品。那麼往後為了阿拉德的和平就請你大顯身手。`
+
+[quest point]
+	4

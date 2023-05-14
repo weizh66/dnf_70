@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`???? ???[D??]`
+
+[explain]
+	`< ???? >`
+
+[enable dye]
+	1	0
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atpriest/pg_acoat.img`	11
+
+[avatar type select]
+	7	0	0	600	0	0	0	30	0	0	1200	0	0	0	0	0	0	2400	0	0	0	0	0	0	2600	0	0	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[animation job]
+	`[priest]`
+
+[variation]
+	3	3
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atpriest.lay`
+
+[avatar func filter]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[ability case index]
+	1450

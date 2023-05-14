@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`感?手雷`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1500
+
+[basic action]
+	`Animation/ATDday/Bot/Gunner_Shot_Move.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	26031
+[/object destroy condition]

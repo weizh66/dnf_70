@@ -1,0 +1,69 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/die_1_Basic_0_0.ani`
+	[SUB ANI]
+		`../Animation/die_1_Basic_1_0.ani`	0	-1
+		`../Animation/die_1_Basic_0_1.ani`	0	1
+		`../Animation/die_1_Basic_0_2.ani`	0	2
+		`../Animation/die_1_Basic_0_3.ani`	0	3
+		`../Animation/die_1_Basic_0_4.ani`	0	4
+	[/SUB ANI]
+	[SOUND]
+		`AGNES_REVIVE_MAGIC`	0
+		`AGNES_SQUIRREL_REVIVE`	7
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69348
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			69348
+		[LEVEL]
+			110
+		[POS]
+			0	0	0
+		[NO EFFECT]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		15	15
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69348
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

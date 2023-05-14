@@ -1,0 +1,18 @@
+#PVF_File
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/Vajra/Vajra_drop.img`
+		16
+	[IMAGE POS]
+		-246	-300
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1920
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-26	-40	-61	52	80	116

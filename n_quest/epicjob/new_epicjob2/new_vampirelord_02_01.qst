@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 血獄君主(2/6)`
+
+[depend message]
+	`吸收血液之后再釋放血液， 你是以這種方式去打倒對方的， 對嗎？
+嗯……在控制血氣的立場上， 你的方式并不能說是錯誤的， 但如果后期想要得到更強大的力量， 以這種方式戰斗就會需要吸收更多的鮮血， 這一點比較令人擔憂。
+如果想要使用更強大的力量， 你就要吸收更多的鮮血， 這樣一來， 身體也會承受更大的負擔。
+但是……我在想， 如果你能不再將那些吸收的血液直接釋放出來， 而是轉化為血氣積累在體內， 會不會更好呢？
+如果是以這種方式去戰斗， 我覺得你應該可以積累非常強大的力量， 還可以自由地使用它……對嗎？ 你覺得這個方法可行嗎？
+是嗎？ 那我們試試看吧。 我可以教你掌握循環血氣的方法， 但之后就要靠你自己去悟了。
+那我們開始吧。 去參加魂·黃龍大會與強者們切磋一下吧。 想要展示自己掌握的戰斗技術需要具備足夠的血氣， 我們先來蓄滿血氣吧。
+不過你要記住一點， 絕對不能奪去對方的生命， 明白了嗎？
+想要入場需要有‘斯卡迪女王的印章’，記得要提前收集好。 那你早去早歸吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5035
+[/pre required quest]
+
+[relation quest]
+	5577
+
+[job change quest]
+	3
+
+[grow number]
+	0

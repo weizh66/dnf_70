@@ -1,0 +1,29 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/ATRitualForDragon/ATRitualForDragon_Force03.img`
+		2
+	[IMAGE POS]
+		-195	-208
+	[IMAGE RATE]
+		1.3600000143051147	1.3600000143051147
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	-24
+	[DELAY]
+		80

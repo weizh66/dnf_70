@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/jail_Basic_0_0_0_0.ani`
+	[SUB ANI]
+		`../Animation/jail_Basic_0_1_0_0.ani`	0	1
+		`../Animation/jail_Basic_0_2_0_0.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ON DAMAGE]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`counter`
+		[=]
+			`counter`
+		[+]
+			1
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[IF]
+		`counter`
+		[=>]
+			10
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`counter`
+		[=]
+			0
+	[/DIM]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		3
+	[NOW]
+[/BEHAVIOR]

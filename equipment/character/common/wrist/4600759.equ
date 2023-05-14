@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`封·冰雪公主的霜語手鐲`
+
+[basic explain]
+	`  攻擊時，賦予武器冰屬性，效果持續20秒（冷卻時間20秒）
+  被攻擊時，使500px範圍內的所有敵人進入冰凍狀態3秒。`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[part set index]
+	12559
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[physical defense]
+	93
+
+[need material]
+	3821	1000
+
+[price]
+	127400
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4896	4464
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	97
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[water attack]
+	22
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		20000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[cooltime]
+		100
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		3000
+	[probability]
+		100
+	[active status]
+		`freeze`	91
+[/then]
+
+[possible kiri protect]

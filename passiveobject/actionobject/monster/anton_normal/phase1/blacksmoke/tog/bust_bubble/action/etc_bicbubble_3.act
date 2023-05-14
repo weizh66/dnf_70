@@ -1,0 +1,118 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/bicbubble_Basic_0_4.ani`
+	[SUB ANI]
+		`../Animation/Etc_bicbubble_3_2.ani`	0	-1
+		`../Animation/Etc_bicbubble_3_3.ani`	0	1
+		`../Animation/Etc_bicbubble_3_0.ani`	0	2
+		`../Animation/Etc_bicbubble_3_1.ani`	0	3
+		`../Animation/bicbubble_Basic_1_4.ani`	0	4
+		`../Animation/bicbubble_Basic_2_4.ani`	0	5
+	[/SUB ANI]
+	[SOUND]
+		`TOGEU_BLOOD_MARBLE_EXP`	12
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		13	13
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19738
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-100	100
+		[RANDOM]
+			-50	50	50
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19739
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-100	100
+		[RANDOM]
+			-50	50	50
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19740
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-100	100
+		[RANDOM]
+			-50	50	50
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19738
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-100	100
+		[RANDOM]
+			-50	50	50
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19739
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-100	100
+		[RANDOM]
+			-50	50	50
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19740
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-100	100
+		[RANDOM]
+			-50	50	50
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		14	14
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

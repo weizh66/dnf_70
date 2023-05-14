@@ -1,0 +1,145 @@
+#PVF_File
+
+[set name]
+	`冰之殘影  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`+`	7000
+		`[mage]`	89
+		`[dungeon type]`
+		`[level]`	10
+		`+`	3
+		`[mage]`	89
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[寒冰粉]持續時間 +7秒
+[寒冰粉]攻擊力 +30%%
+[寒冰粉]冰凍幾率 +0.3%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	99
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[mage]`	99
+		`[dungeon type]`
+		`[static]`	12
+		`%`	-20
+		`[mage]`	99
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-120
+		`[mage]`	99
+		`[dungeon type]`
+		`[static]`	2
+		`+`	120
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2000
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	99
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[魔道酸雨云]冷卻時間 -6秒
+[魔道酸雨云]閃電生成間隔 -20%%
+[魔道酸雨云]攻擊力 +20%%
+[魔道酸雨云]失敗率 -12%%
+[魔道酸雨云]大成功率 +12%%
+[魔道酸雨云]持續時間 +2秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-18000
+		`[mage]`	104
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-200
+		`[mage]`	104
+		`[dungeon type]`
+		`[static]`	2
+		`+`	200
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	1
+		`+`	1500
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	104
+		`[dungeon type]`
+		`[static]`	17
+		`%`	20
+		`[mage]`	104
+		`[dungeon type]`
+		`[static]`	18
+		`%`	20
+		`[mage]`	104
+		`[dungeon type]`
+		`[static]`	21
+		`%`	20
+		`[mage]`	104
+		`[dungeon type]`
+		`[static]`	22
+		`%`	20
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	104
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[冰霜鑽孔車]冷卻時間 -18秒
+[冰霜鑽孔車]失敗率 -20%%
+[冰霜鑽孔車]大成功率 +20%%
+[冰霜鑽孔車]持續時間 +1.5秒
+[冰霜鑽孔車]HP +20%%
+[冰霜鑽孔車]連續按鍵時吸附力 +20%%
+[冰霜鑽孔車]攻擊力 +30%%`
+[/piece set ability]

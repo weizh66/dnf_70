@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	76
+
+[complete npc index]
+	77
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	80	99
+
+[pre required quest]
+	4581
+[/pre required quest]
+
+[monster reward item]
+	64020	103	-1	4813	3	50	20	58007	103	-1	4813	2	50	20
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4813	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`凝聚的電氣力量`
+
+[depend message]
+	`現在只要除掉戰慄的帕特里斯就可以了。之前佩勒威因有話要說。
+<npc::77>你來了？找你來不是別的，在除掉戰慄的帕特里斯之前，想先找到一些東西。
+戰慄的帕特里斯的分身全部由靜電組成。只要好好利用那個能量，應該有很好的用處… 
+我實在沒辦法獲得，所以想拜託你？怎麼樣？可以嗎？
+在特隆貝發電所除掉戰慄的帕特里斯的分身就能獲得的魔界靜電，收集給我吧。`
+
+[condition message]
+	`收集魔界的停電器，然後去找佩勒威因`
+
+[solve message]
+	`通電了。`
+
+[quest point]
+	4

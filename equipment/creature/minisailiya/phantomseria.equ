@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`迷你賽麗亞`
+
+[basic explain]
+	`攻擊時 ， 有3%%的機率減少敵人當前HP的10%%， 面對強大敵人時效果有所衰減。`
+
+[detail explain]
+	`攻擊時 ， 有3%%的機率減少敵人當前HP的10%%。(攻擊精英怪物時效果縮減為原來的1/3、對領主和深淵怪物的效果則縮減為1/6)
+（決斗場中無效）`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature.img`	185
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	218
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	25.0
+
+[MP regen speed]
+	10
+
+[physical attack]
+	25
+
+[magical attack]
+	25
+
+[move speed]
+	30
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[room list move speed rate]
+	0.2
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[weakness]
+		10
+[/then]
+
+[anti evil]
+	5
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`

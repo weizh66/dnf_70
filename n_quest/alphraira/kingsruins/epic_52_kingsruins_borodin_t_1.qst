@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	26
+
+[complete npc index]
+	25
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3134	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5000	1080	3	1081	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 突然來襲的戰爭`
+
+[depend message]
+	`暗精靈元老還是向人類宣戰了……暗精靈軍隊突襲了毫無準備的人類， 使人類受到了重創……
+我擔心這樣下去， 我們和人類的憎恨會越積越深。
+我聽說， 人類現在缺少包扎和止血的布， 你能幫忙收集一些布片嗎？`
+
+[condition message]
+	`    收集20個[粗糙的布片]交給加爾。`
+
+[solve message]
+	`你知道這是什么地方嗎？ 這不是你們暗精靈能撒野的地方！
+你以為這幾張破布就能償還那些死去的生命嗎？！ 妄想！`
+
+[quest point]
+	4

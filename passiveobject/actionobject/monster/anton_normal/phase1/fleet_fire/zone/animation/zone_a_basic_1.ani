@@ -1,0 +1,51 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/HomeRun/dust_loop_upper.img`
+		0
+	[IMAGE POS]
+		-243	-317
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/HomeRun/dust_loop_upper.img`
+		1
+	[IMAGE POS]
+		-243	-317
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/HomeRun/dust_loop_upper.img`
+		2
+	[IMAGE POS]
+		-243	-317
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/HomeRun/dust_loop_upper.img`
+		3
+	[IMAGE POS]
+		-243	-317
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60

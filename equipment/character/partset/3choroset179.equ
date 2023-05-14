@@ -1,0 +1,79 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	283
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[swordman]`	283
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[swordman]`	283
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼步]攻擊力 +10%%
+[鬼步]突進距離 +30%%
+[鬼步]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	283
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[swordman]`	283
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[swordman]`	283
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+		`[swordman]`	282
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	288
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼步]冷卻時間 -25%%
+[鬼步]Y軸攻擊范圍 +30%%
+[鬼連斬]冷卻時間 -30%%
+[鬼連牙]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	283
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[swordman]`	292
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-45
+		`[swordman]`	295
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼步]冷卻時間 -25%%
+[魂破斬]冷卻時間 -45%%
+[冥靈斷魂斬]冷卻時間 -50%%`
+[/piece set ability]
+
+[partset specific growtype]
+	5

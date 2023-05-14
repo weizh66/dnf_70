@@ -1,0 +1,230 @@
+#PVF_File
+
+[attack sound]
+	`R_SILVERHORN_ATK`
+
+[appear sound]
+	`SILVERHORN_MEET`
+
+[damage sound]
+	`SILVERHORN_DMG`
+
+[die sound]
+	`SILVERHORN_DIE`
+
+[floating height]
+	0
+
+[name]
+	`傳說中的怪物 - 銀角`
+
+[face image]
+	`Monster/ch_Monsterface.img`	8
+
+[die effect]
+	0	14	0
+
+[ability table]
+	0
+
+[ability category]
+	`[HP MAX]`
+	`*`	1000
+	`[EQUIPMENT_PHYSICAL_ATTACK]`
+	`*`	50
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`*`	50
+	`[EQUIPMENT_MAGICAL_ATTACK]`
+	`*`	50
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`*`	50
+[/ability category]
+
+[category]
+	`[beast]`
+[/category]
+
+[dark resistance]
+	-30	-30
+
+[light resistance]
+	50	50
+
+[fire resistance]
+	-30	-30
+
+[water resistance]
+	30	30
+
+[freeze resistance]
+	100	100
+
+[weapon break resistance]
+	100	100
+
+[level]
+	55	55
+
+[HP regen speed]
+	100	100
+
+[MP regen speed]
+	100	100
+
+[move speed]
+	1000	1000
+
+[attack speed]
+	1200	1200
+
+[cast speed]
+	700	700
+
+[hit recovery]
+	1500	1500
+
+[weight]
+	100000	100000
+
+[fire resistance]
+	0	0
+
+[water resistance]
+	0	0
+
+[dark resistance]
+	0	0
+
+[light resistance]
+	0	0
+
+[freeze resistance]
+	30	30
+
+[stun resistance]
+	30	30
+
+[blind resistance]
+	30	30
+
+[stone resistance]
+	30	30
+
+[sleep resistance]
+	30	30
+
+[hold resistance]
+	30	30
+
+[slow resistance]
+	30	30
+
+[curse resistance]
+	30	30
+
+[confuse resistance]
+	30	30
+
+[lightning resistance]
+	0	0
+
+[bleeding resistance]
+	0	0
+
+[poison resistance]
+	0	0
+
+[burn resistance]
+	0	0
+
+[piercing resistance]
+	0	0
+
+[lie frame]
+	1	2	3	3	4
+
+[common champion drop item]
+[/common champion drop item]
+
+[waiting motion]
+	`Animation/Stay.ani`
+
+[move motion]
+	`Animation/Move.ani`
+
+[damage motion 1]
+	`Animation/Damage1.ani`
+
+[damage motion 2]
+	`Animation/Damage1.ani`
+
+[down motion]
+	`Animation/Down.ani`
+
+[attack action]
+	`Action/Attack1.act`
+	`Action/Attack2.act`
+	`Action/Attack3.act`
+[/attack action]
+
+[attack info]
+	`Attackinfo/Attack1.atk`
+	`Attackinfo/Attack1.atk`
+	`Attackinfo/Attack1.atk`
+	`Attackinfo/Attack1.atk`
+[/attack info]
+
+[cooltime]
+	1000	5000	2000
+[/cooltime]
+
+[stuckbonus on damage]
+	0	0	0	0
+
+[vision]
+	1650
+
+[warlike]
+	80
+
+[think term]
+	300
+
+[destination change term]
+	300
+
+[keep distance with target]
+	300
+
+[ai pattern]
+	[normal]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/normal]
+	[expert]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/expert]
+	[master]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/master]
+	[king]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/king]
+	[slayer]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/slayer]
+[/ai pattern]

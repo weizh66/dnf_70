@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`巨石邊`
+
+[basic explain]
+	`意念驅動攻擊領域大小增加50%% 
+意念驅動 施展時以5%% 的機率5秒內對隊員施展無敵效果
+極速颶風拳冷卻時間減少8秒`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	75
+
+[stuck]
+	-1
+
+[need material]
+	3285	2100
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	760	697
+
+[equipment magical attack]
+	652	598
+
+[separate attack]
+	441	298
+
+[skill levelup]
+	`[priest]`	4	3
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/totem/totem.img`	82
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	24	1
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[elemental property]
+	`light`
+
+[skill data up]
+	`[priest]`	13
+	`[all]`
+	`[static]`	3
+	`%`	50
+	`[priest]`	13
+	`[all]`
+	`[static]`	4
+	`%`	50
+[/skill data up]
+
+[if]
+	[use skill]
+		`priest`	13
+	[/use skill]
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[probability]
+		5
+	[target]
+		`party`	-1
+	[duration]
+		5000
+	[buff]
+		`unbreakable`
+[/then]
+
+[skill data up]
+	`[priest]`	4
+	`[all]`
+	`[cooltime]`	0
+	`+`	-8000
+[/skill data up]
+
+[possible kiri protect]

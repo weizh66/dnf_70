@@ -1,0 +1,33 @@
+#PVF_File
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1000
+[/object destroy condition]
+
+[create sound]
+	`R_DARKSHOT_HIT`
+
+[basic motion]
+	`Animation/ATConvergenceCannon/BigOrb_OrbD.ani`
+
+[attack info]
+	`AttackInfo/ATConvergenceCannon.atk`
+
+[name]
+	`ATConvergenceCannon Ojbect`

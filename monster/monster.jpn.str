@@ -1,0 +1,363 @@
+// ﾇﾑｱｹｽｺﾅｩｸｳﾆｮｿ・ｹｮﾀﾚｿｭ ｵ･ﾀﾌﾅﾍ ﾆﾄﾀﾏ
+//
+// ｡ﾚ ﾀﾌ ﾆﾄﾀﾏﾀﾇ ｳｻｿ・ｻ ｼ､ ﾇﾑ ｵﾚｿ｡ｴﾂ
+// ｡ﾚ ﾃﾟｰ｡ｵﾇｰﾅｳｪ ｺｯｰ豬ﾈ ｺﾎｺﾐﾀｻ ﾆﾄﾀﾏﾀﾇ ｰ｡ﾀ・ﾇﾏｴﾜﾀｸｷﾎ ｿﾅｰﾜﾁﾖｼｼｿ・
+// ｡ﾚ ｱﾗｷ｡ｾﾟ ｾ鋙ﾎﾅﾍ ｾ鋙錝・ｹｪﾀﾛｾﾌ ﾀﾌｷ鄒錝ｳｴﾂﾁ・
+// ｡ﾚ ｻﾓｰﾔ ｹｪﾀｻ ﾇﾘｾﾟﾇﾏｴﾂ ｰｺ ｾ鋙ﾎﾁ・ｾﾋｼﾖｽﾀｴﾏｴﾙ!
+//
+
+// 060412
+
+// Script\Monster
+name_470>デンドロイド
+name_475>ゴリデン
+name_480>ロディンクロー
+name_485>泥の人形師
+name_490>氷人形シャレド
+speech_on_situation_495>凍れ！
+name_500>マスタードグリ
+name_505>鋼鉄の人形師
+name_510>石の人形師
+name_515>シーウス
+speech_on_situation_520>図々しくもバッファーにかかっているだと！
+name_525>ラキウス
+name_530>ミルキウス
+name_535>イーブルアイ
+name_540>格闘家分身
+name_545>ダッシュレズ
+name_550>ハースセリマリオン
+name_555>ルースセリマリオン
+name_560>レッドセリマリオン
+speech_on_situation_565>くっそ～
+name_570>セリマリオン
+name_575>グール
+name_580>メリスモーガン
+name_585>ノーマッシュ
+name_590>スカルスローワー
+name_595>ボムカゲル
+name_600>ブルスアイ
+name_605>バンカーワーカー
+speech_on_situation_610>ゴブリン部族の苦しみを味わわせてやろう！
+speech_on_situation_615>オレの仲間を殴ったやつらがいる？ 道具を準備しろ！
+speech_on_situation_620>ちっ！逃げるんじゃねぇぞ！覚えておけよ！
+speech_on_situation_625>俺しかいないじゃねぇか！てっ、撤収だ！
+name_630>弱虫ゴブリン
+name_635>フラグヒルガブ
+speech_on_situation_640>俺頭に来た！
+speech_on_situation_645>俺の怒りが燃えあがる！
+name_650>フラグシーガブ
+speech_on_situation_655>俺に近づくと凍りつくぜ！
+name_660>ゴブリン
+speech_on_situation_665>きええええ、皆殺しだ
+speech_on_situation_670>俺の体が熱くなってきている
+name_675>ゴブリン隊長
+speech_on_situation_680>ゴブリン自爆装置スイッチ・オン！
+speech_on_situation_685>自爆、それは神聖なる行為！
+speech_on_situation_690>ケケ、自爆すれば 2階級昇進だな！
+speech_on_situation_695>グヘヘ、このまま死ぬにはいかない！ 
+speech_on_situation_700>ゴブリン兵よ！俺の死を忘れるな！
+speech_on_situation_705>ケケ、俺の斧の打ち下ろしは革命的破壊力だぜ！
+speech_on_situation_710>ちっ、逃げてるんじゃねぇぜ！
+name_715>ゴブリン投擲兵
+name_720>ゴブリン投石隊長
+name_725>ヒルガブ
+name_730>電撃のキノル
+speech_on_situation_735>人間ども！キノル様の怒りの稲光を食らえ！
+speech_on_situation_740>人間ども！俺様に逆うのがどれほどの痛みをともなうものか、その身で味わえ！
+name_745>ゴブリン突撃隊
+name_750>プラグ
+name_755>シーガブ
+name_760>カゲル
+name_765>キングガロック
+name_770>敏速なボムカゲル
+name_775>エリートゴブリン
+name_780>ブロンズゴ－レム
+name_785>マッドゴ－レム
+name_790>ゴールデンゴ－レム
+name_795>ゴールドプラタニ
+name_800>スチールゴ－レム
+name_805>石刀のレイゾ
+speech_on_situation_810>ノッポは切り刻んでくれる！ 
+name_815>ストーンゴ－レム
+name_820>ガンナーロボット Exs
+name_825>ガンナーロボット Ez8
+name_830>ガンナーロボット
+name_835>アレックス
+name_840>ハンター
+name_845>マスターハンター
+name_850>光の城主ジグハルト
+name_855>長足のロータス
+name_860>庭師ラル
+speech_on_situation_865>ひゃあ、うまそうな人間のにおいがするぞ。
+speech_on_situation_870>ちょうど退屈だったんだ。オレと遊ぼう！
+name_875>クロガル
+speech_on_situation_880>人間の血はやっぱりおいしい！力がみなぎってくるよ！
+speech_on_situation_885>ひひ～なんでも引き裂いちゃうぞ～。
+speech_on_situation_890>ちぇっ、おもちゃが壊れちゃった。
+name_895>ルガル
+name_900>フェンリル
+name_905>シロガル
+speech_on_situation_910>オレの手で血を止めてやるよ、ひひ～
+name_915>シュルル
+name_920>灼熱のビノーシュ
+speech_on_situation_925>敢えて私に挑戦するなんて、燃やされたいのかしら？
+speech_on_situation_930>ウフフ…燃えさかる火炎に当る覚悟は出来ているのかしら？
+speech_on_situation_935>私を怒らせたわね…怒りの火炎に巻かれて焼け死になさい！！
+speech_on_situation_940>出てきなさい。そして美しい私に跪くのよ！！
+name_945>酷寒のケラハ
+speech_on_situation_950>ハァァァァッ！！！
+speech_on_situation_955>氷で閉じ込めてあげるわ！！
+speech_on_situation_960>お前のための氷の牢、欲しくはない？
+speech_on_situation_965>私の魔法の実験台となるがよい！
+speech_on_situation_970>甘美なる心で私の魔法を受け入れよ！
+speech_on_situation_975>氷の魔力よ…私の強固な鎧となれ！！
+speech_on_situation_980>出てきなさい、私の忠実な僕たちよ
+name_985>結氷のケラハ
+name_990>火炎のビノ－シュ
+name_995>エックスエクスペラー
+name_1000>アクシオン
+name_1005>エクスペラー
+name_1010>守護のミリア
+speech_on_situation_1015>そなたは何者だ？
+speech_on_situation_1020>そなたの武器が己の身を滅ぼすことになろう。
+speech_on_situation_1025>そなたの魔力が我の力となろう。
+speech_on_situation_1030>ぉ...王よ...
+name_1035>炎のジェラード
+speech_on_situation_1040>王の安息を妨害する者...炎の審判を受けよ。
+speech_on_situation_1045>お前の怠惰さが我を強くする！
+speech_on_situation_1050>憤怒の業火がお前を裁く！
+speech_on_situation_1055>我の憤怒はこれでは終わらない！
+name_1060>氷のアイストム
+speech_on_situation_1065>恐れ多くも貴様らのような輩が...ハハハ
+speech_on_situation_1070>ハハハ、次は貴様だ!
+speech_on_situation_1075>これはどうだ!
+speech_on_situation_1080>まさか...うあぁ...
+name_1085>光のウェデロス
+speech_on_situation_1090>王との対面はまかりなりません。
+speech_on_situation_1095>内に秘めたる聖霊よどうか私をお守りたまえ!
+speech_on_situation_1100>神よ！私の暗い魂に光を！
+speech_on_situation_1105>やっと神のもとに...
+name_1110>風のアッシュ
+speech_on_situation_1115>俺に勝てるかな？
+speech_on_situation_1120>本気で行こうか！
+speech_on_situation_1125>ゲームはこれからさ！
+speech_on_situation_1130>負けた...
+name_1135>ハンマー王ボロディーン
+speech_on_situation_1140>ここまで来れる者がいるとは！
+speech_on_situation_1145>死ね！ %s!
+speech_on_situation_1150>俺の前で！
+speech_on_situation_1155>！！！
+speech_on_situation_1160>跪くがいい！！
+speech_on_situation_1165>あぁ...過去の栄光が...
+name_1170>ヘブンエクスペラー
+name_1175>レギオン
+name_1180>ティンソードマン
+name_1185>空王クロクタ
+speech_on_situation_1190>ちっ！
+name_1195>空魚
+name_1200>大型空魚
+name_1205>マルフィサ
+name_1210>アラクロッソ
+name_1215>ポイズンマルフィサ
+name_1220>ミニマルフィサ
+name_1225>ストーカー
+name_1230>アグニ
+name_1235>ウィスプ
+name_1240>ナイアド
+name_1245>テンタクル
+name_1250>デバウラー
+name_1255>グレートテンタクル
+name_1260>ルクク
+name_1265>ロックマウド
+speech_on_situation_1270>弱い人間よ！これ以上我が住処を荒らすな！
+speech_on_situation_1275>大勢で殴るのは気が向かないが、同族が危ない時は仕方ない…。
+name_1280>タウキングシャウタ
+speech_on_situation_1285>グォォォォォォォォォォ！！全てを壊してやるぞォォォォ！！
+speech_on_situation_1290>オォォォォォォォォ！
+name_1295>タウアーミー
+name_1300>タウアサルター
+name_1305>タウビースト
+name_1310>タウガード
+speech_on_situation_1315>このままでは倒れられない。 タウの根性を見せてやろう！
+speech_on_situation_1320>うおおお～ タウの粘りをしかと目に焼き付けろ！！
+name_1325>バトルイングラム
+name_1330>カタパルト
+name_1335>フレイムカタパルト
+name_1340>レーザーカタパルト
+name_1345>レイス
+name_1350>スペクトリス
+name_1355>GBL教大司祭
+name_1360>GBL教大司教
+name_1365>GBL教神官
+name_1370>闇の伝道師
+name_1375>夜明けの伝道師
+name_1380>光の伝道師
+name_1385>夕暮れの伝道師
+name_1390>GBL教司教
+name_1395>GBL教主教
+name_1400>GBL教信徒
+name_1405>GBL教信徒 B
+name_1410>ドルニア
+name_1415>ドルニア EX
+name_1420>カルカザク
+speech_on_situation_1425>グガ…ぢ…グヘ…グヘヘヘ…ごが…血だ…血、グヘ、ごぐ
+speech_on_situation_1430>ち、ぢ、じ、血の臭いがするぞぉ。
+name_1435>グールグウィシ
+name_1440>ハロウアイ
+name_1445>ポレストゾンビ
+name_1500>燃え盛るヘラ
+speech_on_situation_1505>体が熱い！
+speech_on_situation_1506>危ねえじゃねえか！このう！
+speech_on_situation_1507>綺麗に燃え尽きてしまった。
+name_1510>マグマグール
+speech_on_situation_1515>肉だ！
+speech_on_situation_1516>食事だ！
+speech_on_situation_1517>何故か痛くない。
+name_1520>油屋オールレック
+speech_on_situation_1525>油買いませんか？
+speech_on_situation_1526>私の金...
+name_1530>ゴルリアット
+speech_on_situation_1533>溶岩の力で！
+speech_on_situation_1534>俺は今、猛烈に怒っている！
+speech_on_situation_1535>溶岩の精霊よ！
+speech_on_situation_1536>ファイアアッパーカット！
+speech_on_situation_1537>仕返しは今度必ず！
+speech_on_situation_1538>ぐはっ
+name_1540>アトラス
+speech_on_situation_1545>遅い！遅い！
+speech_on_situation_1546>俺は今、猛烈に怒っている！
+speech_on_situation_1547>突け！
+speech_on_situation_1548>見てろよこのヤロウ。
+speech_on_situation_1549>俺のスピードについて来るとは。
+name_1550>タイタン
+speech_on_situation_1551>ここがどこなのかわかっているのか？
+speech_on_situation_1552>俺の怒りは極限まで達している。
+speech_on_situation_1553>諸皇帝の復讐だ！
+speech_on_situation_1554>ハッ！
+speech_on_situation_1555>ハイパーアーマー！
+speech_on_situation_1556>正々堂々、来い!
+speech_on_situation_1557>回復すればまた会うことになるだろう...
+speech_on_situation_1558>つ、強い...
+
+//=================== ｹｮﾀﾚｿｭ ﾃﾟｰ｡ ==================
+name_1560>機甲ホドル
+speech_on_situation_1561>くそう...絶対殺してやる！
+speech_on_situation_1562>うぅっ～吐きそうだ
+speech_on_situation_1563>エヘヘ！
+name_1565>黒騎士サンドル
+speech_on_situation_1566>おもてなししましょう
+speech_on_situation_1567>それでは...
+speech_on_situation_1568>私が黒騎士だ！
+name_1570>ルイーズ姉さん！
+speech_on_situation_1571>ｷｬﾊﾊﾊﾊ～あなたが私を呼んだの？
+speech_on_situation_1572>私の憤怒を受けなさい！
+speech_on_situation_1573>キャあ！怒ったわよ...
+speech_on_situation_1574>私の妹をいじめるなんて...許せないわ！
+speech_on_situation_1575>あなたにあげる最後のプレゼントよ...
+speech_on_situation_1576>悔しぃ...一人地獄に落ちるわけには行かないわ...
+name_1580>魔界の花アウクソー
+name_1585>精霊王エチェベリア
+speech_on_situation_1586>わが名は精霊王エチェベリア！呼んだのは誰だ？
+
+name_1590>ゴルリアット
+name_1595>アトラス
+name_1600>タイタン
+
+//=================== ｱ簔ｸ ｹｮﾀﾚｿｭ ｼ､ ===================
+
+name_1605>	translation <name_1605>
+name_1610>	translation <name_1610>
+name_1615>	translation <name_1615>
+name_1620>	translation <name_1620>
+name_1625>	translation <name_1625>
+name_1630>	translation <name_1630>
+name_1635>	translation <name_1635>
+name_1640>	translation <name_1640>
+name_1645>	translation <name_1645>
+name_1650>	translation <name_1650>
+speech_on_situation_1651>	translation <speech_on_situation_1651>
+speech_on_situation_1652>	translation <speech_on_situation_1652>
+name_1655>	translation <name_1655>
+speech_on_situation_1656>	translation <speech_on_situation_1656>
+speech_on_situation_1657>	translation <speech_on_situation_1657>
+speech_on_situation_1658>	translation <speech_on_situation_1658>
+speech_on_situation_1662>	translation <speech_on_situation_1662>
+speech_on_situation_1663>	translation <speech_on_situation_1663>
+speech_on_situation_1664>	translation <speech_on_situation_1664>
+speech_on_situation_1665>	translation <speech_on_situation_1665>
+speech_on_situation_1666>	translation <speech_on_situation_1666>
+speech_on_situation_1667>	translation <speech_on_situation_1667>
+speech_on_situation_1668>	translation <speech_on_situation_1668>
+speech_on_situation_1669>	translation <speech_on_situation_1669>
+speech_on_situation_1670>	translation <speech_on_situation_1670>
+speech_on_situation_1671>	translation <speech_on_situation_1671>
+speech_on_situation_1672>	translation <speech_on_situation_1672>
+speech_on_situation_1673>	translation <speech_on_situation_1673>
+speech_on_situation_1674>	translation <speech_on_situation_1674>
+speech_on_situation_1675>	translation <speech_on_situation_1675>
+speech_on_situation_1678>	translation <speech_on_situation_1678>
+speech_on_situation_1679>	translation <speech_on_situation_1679>
+name_1660>	translation <name_1660>
+speech_on_situation_1680>	translation <speech_on_situation_1680>
+speech_on_situation_1681>	translation <speech_on_situation_1681>
+speech_on_situation_1682>	translation <speech_on_situation_1682>
+speech_on_situation_1683>	translation <speech_on_situation_1683>
+speech_on_situation_1684>	translation <speech_on_situation_1684>
+speech_on_situation_1685>	translation <speech_on_situation_1685>
+speech_on_situation_1686>	translation <speech_on_situation_1686>
+speech_on_situation_1687>	translation <speech_on_situation_1687>
+nenflower_name>	translation <nenflower_name>
+name_1690>	translation <name_1690>
+name_1695>	translation <name_1695>
+name_1700>	translation <name_1700>
+name_1705>	translation <name_1705>
+name_1710>	translation <name_1710>
+name_1715>	translation <name_1715>
+name_1720>	translation <name_1720>
+name_1725>	translation <name_1725>
+name_1730>	translation <name_1730>
+speech_on_situation_1690>	translation <speech_on_situation_1690>
+speech_on_situation_1698>	translation <speech_on_situation_1698>
+speech_on_situation_1706>	translation <speech_on_situation_1706>
+name_1731>	translation <name_1731>
+speech_on_situation_1691>	translation <speech_on_situation_1691>
+speech_on_situation_1699>	translation <speech_on_situation_1699>
+name_1732>	translation <name_1732>
+speech_on_situation_1693>	translation <speech_on_situation_1693>
+speech_on_situation_1694>	translation <speech_on_situation_1694>
+speech_on_situation_1695>	translation <speech_on_situation_1695>
+speech_on_situation_1700>	translation <speech_on_situation_1700>
+speech_on_situation_1701>	translation <speech_on_situation_1701>
+speech_on_situation_1702>	translation <speech_on_situation_1702>
+speech_on_situation_1707>	translation <speech_on_situation_1707>
+name_1733>	translation <name_1733>
+speech_on_situation_1696>	translation <speech_on_situation_1696>
+speech_on_situation_1697>	translation <speech_on_situation_1697>
+speech_on_situation_1708>	translation <speech_on_situation_1708>
+name_1734>	translation <name_1734>
+name_1735>	translation <name_1735>
+speech_on_situation_1703>	translation <speech_on_situation_1703>
+speech_on_situation_1704>	translation <speech_on_situation_1704>
+speech_on_situation_1705>	translation <speech_on_situation_1705>
+name_1736>	translation <name_1736>
+name_1737>	translation <name_1737>
+name_1738>	translation <name_1738>
+drop_rx78_name>	translation <drop_rx78_name>
+fire_rx78_name>	translation <fire_rx78_name>
+heading_rx78_name>	translation <heading_rx78_name>
+hp_heal_rx78_name>	translation <hp_heal_rx78_name>
+mp_heal_rx78_name>	translation <mp_heal_rx78_name>
+name_1739>	translation <name_1739>
+name_1740>	translation <name_1740>
+speech_on_situation_1710>	translation <speech_on_situation_1710>
+speech_on_situation_1711>	translation <speech_on_situation_1711>
+hellgate>	translation <hellgate>
+sealgate>	translation <sealgate>
+speech_on_situation_1676>	translation <speech_on_situation_1676>
+speech_on_situation_1677>	translation <speech_on_situation_1677>
+speech_on_situation_1660>	translation <speech_on_situation_1660>
+speech_on_situation_1661>	translation <speech_on_situation_1661>
+speech_on_situation_1750>	translation <speech_on_situation_1750>
+speech_on_situation_1751>	translation <speech_on_situation_1751>
+speech_on_situation_1752>	translation <speech_on_situation_1752>
+tempester_name>	translation <tempester_name>

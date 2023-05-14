@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5204
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	27
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	10
+[/reward int data]
+
+[reward selection int data]
+	400069	1	400093	1	400078	1	400086	1
+[/reward selection int data]
+
+[name]
+	`勇者 - 阿爾伯特的禮物`
+
+[depend message]
+	`我先進去拿點東西， 你稍等一下。 呃， 有一點我要說明一下， 我只把任務交給擁有所有勇者裝備的人！
+我這么做只是想確認他們的意志有沒有改變， 另外檢查一下他們的實力有沒有退步。 總之， 你稍等。 `
+
+[condition message]
+	`    找阿爾伯特·伯恩斯坦談談。`
+
+[solve message]
+	`收下吧， 勇者武器的強大遠遠不止于此， 它們會繼續傳承并發揚光大！
+你也要繼續加油！ 不許偷懶， 說不定那天我就會去找你較量的。`
+
+[quest point]
+	4

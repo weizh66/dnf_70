@@ -1,0 +1,38 @@
+#PVF_File
+
+[width]
+	16	8
+
+[floating height]
+	80
+
+[layer]
+	`[normal]`
+
+[recovery time]
+	5000
+
+[direction correct]
+	1
+
+[gravity]
+	0
+
+[basic motion]
+	`Animation/Rest.ani`
+
+[etc motion]
+	`Animation/Tackle.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/Tackle.atk`
+[/attack info]
+
+[int data]
+	700	-80	500	100
+[/int data]
+
+[name]
+	`笝錍`
+	

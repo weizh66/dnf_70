@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	5
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	12	99
+
+[pre required quest]
+	113
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[dungeon info]
+	8	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`邪惡氣息`
+
+[depend message]
+	`這結晶的氣息太強烈了， 我一時還真感覺不出來， 不過這氣息有點熟悉……對了！ 它和天空之城附近的氣息是一樣的！
+呃， 你還不知道吧， 傳說中的天空之城再次出現了！ 冒險家們正趕去那里呢， 他們說要像先輩那樣登上天空之城， 進入天界……
+如果你也想了解天空之城， 就去問賽麗亞吧。 `
+
+[condition message]
+	`    找賽麗亞談談。`
+
+[solve message]
+	`您好啊， 冒險家， 需要我幫忙嗎？ `
+
+[quest point]
+	4

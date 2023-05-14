@@ -1,0 +1,55 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	32
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3117	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1075	10	1076	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`收集廢棄物品`
+
+[depend message]
+	`我收集各種廢棄物品， 如果你有的話就拿來給我吧。 我會用比較好的物品和你交換， 絕不會占你便宜的！ `
+
+[condition message]
+	`    收集1個[次品芯片]交給夏洛克。`
+
+[solve message]
+	`哇！ 又送來一個！ 真是勤快的冒險家！ `

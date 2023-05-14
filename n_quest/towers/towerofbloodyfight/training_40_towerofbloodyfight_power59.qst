@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[monster reward item]
+	56004	11006	-1	4417	2	100	5	56421	11006	-1	4417	1	100	5	56420	11006	-1	4417	1	100	5	56126	11006	-1	4417	2	100	5	56423	11006	-1	4417	1	100	5	56007	11006	-1	4417	1	100	5	61165	11006	-1	4417	1	100	5
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4417	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`貝利特的考驗 - 無盡的祭壇 (2/2)`
+
+[depend message]
+	`你現在的實力已經相當不錯了。 可是隨著考驗的增加， 你會面臨到更強大的對手， 到時候恐怕就不是這么輕易能對付的。
+我有個辦法可以讓你變得更加強大， 你想試試嗎？`
+
+[condition message]
+	`    *經驗值獎勵* 前往亡者峽谷的『無盡的祭壇』， 收集5個[無盡的力量之魂]。`
+
+[solve message]
+	`我果然沒有看錯人， 你的領悟能力實在是太驚人了！
+好好干吧， 你的前途無可限量！`

@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`魔晶進化 - 智慧之泉`
+
+[basic explain]
+	`    每120點智力會增加自身0.5%%的魔法暴擊率。
+    每120點精神會增加自身10點的智力。`
+
+[detail explain]
+	`    每120點智力增加0.5%%的魔法暴擊率。 (最多增加10%%)
+    每120點精神增加10點智力。 (最多增加120點)`
+
+[flavor text]
+	`    生命之水的情報拿到了， 您不打開看看嗎？  --興奮的艾莉絲對赫爾德說`
+
+[grade]
+	35
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[magical attack]
+	56
+
+[magical defense]
+	61
+
+[need material]
+	10000204	8
+
+[price]
+	42000
+
+[value]
+	33600
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3520	2960
+
+[magical critical hit]
+	4
+
+[icon]
+	`Item/new_equipment/08_necklace/necklace.img`	150
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`magical defense`	120
+		`magical attack`
+		`+`	10	120
+	[stat change by stat]
+		`myself`	-1
+		`magical attack`	240
+		`magical critical hit`
+		`+`	1.0	10
+[/then]
+
+[possible kiri protect]

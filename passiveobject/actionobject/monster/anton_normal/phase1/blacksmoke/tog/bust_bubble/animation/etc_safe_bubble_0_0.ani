@@ -1,0 +1,133 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		2
+	[IMAGE POS]
+		-68	-69
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		400
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		1
+	[IMAGE POS]
+		-68	-69
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		2
+	[IMAGE POS]
+		-68	-69
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		3
+	[IMAGE POS]
+		-68	-69
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		4
+	[IMAGE POS]
+		-68	-69
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		5
+	[IMAGE POS]
+		-68	-69
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		5
+	[IMAGE POS]
+		-68	-69
+	[RGBA]
+		255	255	255	149
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83
+
+[FRAME007]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/loop.img`
+		2
+	[IMAGE POS]
+		-68	-69
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1400
+	[DAMAGE BOX]
+	-42	-34	-37	83	69	83

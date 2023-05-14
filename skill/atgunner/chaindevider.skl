@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`鎖鏈切割`
+
+[basic explain]
+	`    向前方大范圍揮舞2次槍刃， 將敵人拉過來之后再次強力揮割敵人。`
+
+[explain]
+	`    向前方大范圍揮舞2次槍刃， 將敵人拉過來之后再次強力揮割敵人。`
+
+[purchase cost]
+	10
+[/purchase cost]
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[required level]
+	80
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	20	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	568
+	`Character/Gunner/Effect/SkillIcon.img`	569
+
+[weapon effect type]
+	`[physical]`
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[consume MP]
+	2010	3180
+
+[cool time]
+	45000	45000
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[dungeon]
+	[static data]
+		250
+	[/static data]
+	[level info]
+		4	1120	1120	3160	3	2350	2350	4800	3	3580	3580	5440	3	4809	4809	6079	3	5039	5039	7719	3	6268	6268	8358	3	9498	9498	9998	3	10728	10728	11637	3
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		900000	900000
+[/pvp]
+
+[level property]
+	1	99
+	`第1擊攻擊力 : <int>%%
+第2擊攻擊力 : <int>%%
+第3擊攻擊力 : <int>%%
+多段攻擊次數 : <int>
+`	-1	0	1.0	-1	1	1.0	-1	2	1.0	-1	3	1.0
+[/level property]

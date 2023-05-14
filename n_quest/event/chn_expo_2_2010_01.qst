@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680388	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680383	2
+[/reward int data]
+
+[name]
+	`溫暖之心`
+
+[depend message]
+	`你好呀， 冒險家~我是賽麗亞！
+呵呵， 現在的阿拉德大陸雖然比以前平靜了很多， 但我覺得它離冒險家心目中的美麗大陸還有一段距離。
+我知道， 很多冒險家都認為阿拉德大陸是最看重名譽的大陸， 但我覺得有一顆溫暖之心比任何名譽都重要。
+我想， 如果冒險家能以溫暖之心幫助阿拉德大陸， 我相信阿拉德大陸一定會變得比以往任何時候都美麗， 而我也會非常感謝大家的。
+嗯， 為了讓阿拉德大陸變成美麗的大陸， 我不久前還收集了一些具有神奇魔力的鮮花…… 但不幸的是， 地下城的那些怪物也知道了這些鮮花的秘密， 它們把這些鮮花全都搶走了。
+冒險家， 你一定要幫我把這些鮮花搶回來！ 如果能你搶回它們， 就把它們交給我、卡妮娜和凱麗， 拜托了~`
+
+[condition message]
+	`    前往任意地下城， 收集10個[粉色牡丹花]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`冒險家， 太感謝你了， 愿你的心永遠溫暖人間~`

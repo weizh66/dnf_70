@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/FireMark_1_Loop.ani`
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		500
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			0
+	[/PARTY TARGET]
+	[CHECKUP]
+		[HP]
+		[>=]
+			30
+		[%]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]

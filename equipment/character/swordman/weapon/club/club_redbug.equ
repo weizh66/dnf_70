@@ -1,0 +1,177 @@
+#PVF_File
+
+[name]
+	`赤血鬼影蟲`
+
+[basic explain]
+	` 攻擊時，附加10%%的傷害。
+ 攻擊時，以2%%的機率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`攻擊時，附加10%%的傷害。 (在決鬥場中增加5%%)
+攻擊時，有2%%的機率使敵人進入眩暈狀態2秒。 (比Lv64高的目標陷入狀態機率較低，比 Lv64低的目標陷入狀態機率較高。決鬥場修正為 1秒)`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[physical attack]
+	65
+
+[attack speed]
+	-10
+
+[stuck]
+	-1
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[equipment physical attack]
+	664	609
+
+[equipment magical attack]
+	574	526
+
+[separate attack]
+	360	242
+
+[icon]
+	`Item/weapon/swordman/club.img`	61
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	10	4
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	10	4
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	64
+[/then]
+
+[possible kiri protect]

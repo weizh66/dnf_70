@@ -1,0 +1,28 @@
+#PVF_File
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`animation/bloodboom/readyfinish_bloodboom_casting.ani`
+
+[etc motion]
+	`Animation/Bloodboom/finish_bloodboom_finish3.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/BloodboomFinish.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

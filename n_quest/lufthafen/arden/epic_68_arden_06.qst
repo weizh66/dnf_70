@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	4053
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	12509
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`黎明之眼 - 安祖·賽弗`
+
+[depend message]
+	`我們出發吧！ 去會會我這個老朋友！`
+
+[condition message]
+	`    帶沙影貝利特去見安祖·賽弗。 (此任務只能獨自完成)`
+
+[solve message]
+	`怎么覺得不是我認識的安祖……是因為太久沒見了嗎？`
+
+[dialog]
+	0	0	12509	0	0	0	0
+	`<apc::10628>安祖， 這么多年不見， 還是這么年輕啊！
+<monster::61269>呵呵， 身手不如當年了。 你怎么樣， 貝利特？
+<apc::10628>唉……還是別客套了。 我今天來……其實是為了終結你所謂的傳說的……來吧！ 其實我一直以來就想和你有次真正的較量！
+<monster::61269>呵！ 雖然不如當年， 但是對付你， 還是綽綽有余的！`
+[/dialog]
+
+[dialog]
+	0	1	12509	0	0	0	0
+	`<apc::10628>安祖……就這么輕易倒下了……不可能啊……`
+[/dialog]
+
+[quest point]
+	4

@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`征服者刀葛的咒術綁腿`
+
+[basic explain]
+	`被攻擊時以 5%% 的機率讓敵人進入石化狀態
+不可解體`
+
+[detail explain]
+	`被攻擊時以5%% 的機率5秒內讓敵人進入石化狀態，解除時以850的攻擊力給予傷害。 （高於Lv24的對象得到的機率和效果減少，低於Lv24的對象則會增加。 決鬥場內修正為2秒）
+不可解體`
+
+[grade]
+	24
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	20
+
+[physical attack]
+	13
+
+[physical defense]
+	12
+
+[magical attack]
+	12
+
+[price]
+	28800
+
+[repair price]
+	23040
+
+[value]
+	23040
+
+[equipment physical defense]
+	1240	1040
+
+[icon]
+	`Item/common/pants.img`	311
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2900
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		5
+	[active status]
+		`stone`	24	850
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

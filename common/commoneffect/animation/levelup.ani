@@ -1,0 +1,68 @@
+#PVF_File
+[COORD]
+	1
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`common/CommonEffect/LevelUp.img`
+		0
+	[IMAGE POS]
+		-67	-69
+	[IMAGE RATE]
+		0.5	0.5
+	[INTERPOLATION]
+		1
+	[DELAY]
+		180
+
+[FRAME001]
+	[IMAGE]
+		`common/CommonEffect/LevelUp.img`
+		0
+	[IMAGE POS]
+		-66	-132
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[DELAY]
+		90
+
+[FRAME002]
+	[IMAGE]
+		`common/CommonEffect/LevelUp.img`
+		0
+	[IMAGE POS]
+		-66	-144
+	[INTERPOLATION]
+		1
+	[DELAY]
+		360
+
+[FRAME003]
+	[IMAGE]
+		`common/CommonEffect/LevelUp.img`
+		0
+	[IMAGE POS]
+		-66	-159
+	[INTERPOLATION]
+		1
+	[DELAY]
+		180
+
+[FRAME004]
+	[IMAGE]
+		`common/CommonEffect/LevelUp.img`
+		0
+	[IMAGE POS]
+		-67	-268
+	[IMAGE RATE]
+		1.0	1.7999999523162842
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		180

@@ -1,0 +1,238 @@
+#PVF_File
+
+[name]
+	`地獄的犬齒`
+
+[basic explain]
+	`施展念獸：龍虎嘯時30秒內攻擊時以 10%% 機率讓敵人在1秒內呈現出血狀態。（男格鬥家的情況適用5%% 機率）
+出血狀態的敵人攻擊時10%% 附加傷害
+不可解體`
+
+[detail explain]
+	`施展雷鳴30秒內攻擊時以10%%的機率讓敵人在1秒內呈現出血狀態，每0.5秒給予400的傷害。（高於Lv79的對象得到的機率和效果減少，低於Lv79的對象則會增加。 男格鬥家的情況適用5%% 機率，安裝解除時選項解除。）
+出血狀態的敵人攻擊時10%% 附加傷害（決鬥場內5%% 附加傷害）
+不可解體`
+
+[grade]
+	79
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	52
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[need material]
+	3338	840
+
+[repair price]
+	106176
+
+[value]
+	101120
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	716	669
+
+[equipment magical attack]
+	867	810
+
+[separate attack]
+	450	305
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	100
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	23	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	24	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	1
+	`at fighter`	1
+[/routing priority]
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[use skill]
+		`fighter`	79
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[appendage]
+		208
+[/then]
+
+[if]
+	[use skill]
+		`at fighter`	79
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[appendage]
+		208
+[/then]
+
+[if]
+	[attack success]
+		1
+	[my appendage]
+		208
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[probability]
+		10
+	[active status]
+		`bleeding`	79	800
+[/then]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

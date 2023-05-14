@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	`最佳球手的奇襲長褲`
+
+[basic explain]
+	`  背擊時附加20%%的傷害。
+  背擊攻擊時，暴擊傷害+10%%（暴擊傷害加成效果取最高值，且無法疊加）`
+
+[flavor text]
+	`  球場上的幾大制勝法寶無外乎連推帶撞、拉衣角、假摔。當然，我是絕對不會這樣的。 --某球手`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12578
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	46
+
+[magical attack]
+	31
+
+[need material]
+	3821	1000
+
+[price]
+	109200
+
+[repair price]
+	87360
+
+[value]
+	87360
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	3060	2790
+
+[fire attack]
+	20
+
+[icon]
+	`Item/new_equipment/04_larmor/pants/larmor_pants.img`	20
+
+[field image]
+	`Item/field_equip.img`	6
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600795	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

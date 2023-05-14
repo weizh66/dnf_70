@@ -1,0 +1,161 @@
+#PVF_File
+
+[name]
+	`薩巫塔的戰斧`
+
+[basic explain]
+	`殺死敵人時， 有10%%的幾率召喚出1只牛頭前鋒。
+被攻擊時， 有10%%的幾率召喚出1只牛頭護衛。`
+
+[detail explain]
+	`    殺死敵人時， 有10%%的幾率召喚出1只Lv50的牛頭前鋒協助召喚者攻擊敵人， 牛頭前鋒存在100秒。
+    被攻擊時， 有10%%的幾率召喚出1只Lv50的牛頭護衛協助召喚者攻擊敵人， 牛頭護衛存在100秒。 (召喚的怪物只能同時存在1只， 若召喚的怪物受到較大傷害， 則召喚時間結束前就會消失)`
+
+[flavor text]
+	`    牛頭怪首領薩烏塔使用的戰斧。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/priest/axe.img`	31
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[need material]
+	3260	750
+
+[repair price]
+	75600
+
+[value]
+	72000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[equipment physical attack]
+	571	514
+
+[equipment magical attack]
+	405	364
+
+[separate attack]
+	285	189
+
+[attack speed]
+	-80
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[reduce duration at pvp module]
+		75
+	[probability]
+		10
+	[summon monster]
+		13	50	1
+[/then]
+
+[if]
+	[cooltime]
+		100000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[reduce duration at pvp module]
+		75
+	[probability]
+		10
+	[summon monster]
+		14	50	1
+[/then]
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[priest]`	11	3
+	`[priest]`	49	1
+[/skill levelup]
+
+[variation]
+	4	1
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

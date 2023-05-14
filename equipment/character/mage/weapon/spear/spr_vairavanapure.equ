@@ -1,0 +1,143 @@
+#PVF_File
+
+[name]
+	`(舊) 凈魂戰矛`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率出現驅散效果。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率驅散敵人身上的所有有益狀態和Buff。`
+
+[flavor text]
+	`    為凈化邪惡氣息而誕生的矛。`
+
+[grade]
+	40
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`spear`
+
+[rarity]
+	4
+
+[weight]
+	3200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	35
+
+[icon]
+	`Item/weapon/mage/spear.img`	44
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	64000
+
+[value]
+	51200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	475	418
+
+[equipment magical attack]
+	337	296
+
+[separate attack]
+	234	156
+
+[attack speed]
+	-50
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[disenchant]
+		1
+[/then]
+
+[physical critical hit]
+	2
+
+[stuck]
+	-1
+
+[animation job]
+	`[mage]`
+
+[variation]
+	4	3
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	4	3
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

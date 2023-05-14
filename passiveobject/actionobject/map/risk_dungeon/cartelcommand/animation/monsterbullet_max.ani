@@ -1,0 +1,65 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/Bullet/Pistol.img`
+		0
+	[IMAGE POS]
+		-8	-2
+	[IMAGE RATE]
+		1.2999999523162842	1.5
+	[IMAGE ROTATE]
+		-1.0471980571746826
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-7	-15	-11	13	30	18
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/Bullet/Pistol.img`
+		1
+	[IMAGE POS]
+		-8	-2
+	[IMAGE RATE]
+		1.2999999523162842	1.5
+	[IMAGE ROTATE]
+		-1.0471980571746826
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-7	-15	-11	13	30	18
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/Bullet/Pistol.img`
+		2
+	[IMAGE POS]
+		-8	-2
+	[IMAGE RATE]
+		1.2999999523162842	1.5
+	[IMAGE ROTATE]
+		-1.0471980571746826
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-7	-15	-11	13	30	18
+
+[FRAME003]
+	[IMAGE]
+		`Character/Gunner/Effect/Bullet/Pistol.img`
+		3
+	[IMAGE POS]
+		-8	-2
+	[IMAGE RATE]
+		1.2999999523162842	1.5
+	[IMAGE ROTATE]
+		-1.0471980571746826
+	[DELAY]
+		100
+	[ATTACK BOX]
+	-7	-15	-11	13	30	18

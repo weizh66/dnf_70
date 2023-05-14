@@ -1,0 +1,39 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/light_loop.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CASTING]
+		[RANDOM]
+			5000	12000	1
+		[ABSOLUTE]
+	[/CASTING]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		[TIME VALUE]
+			0	200	320
+		[RGBA]
+			255	255	255	220
+		[LAYER]
+		[DEFAULT]
+	[/FLASH SCREEN]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

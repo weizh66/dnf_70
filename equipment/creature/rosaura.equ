@@ -1,0 +1,139 @@
+#PVF_File
+
+[name]
+	`占星師羅賽洛`
+
+[basic explain]
+	`攻擊時，使敵人進入感電狀態，對感電的敵人附加30%%的光屬性傷害，所有技能冷卻時間 -20%%。`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[need material]
+	3836	3000
+
+[icon]
+	`Monster/monsterFace.img`	1315
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	1506
+
+[cool time]
+	10000
+
+[physical attack]
+	150
+
+[magical attack]
+	150
+
+[physical defense]
+	150
+
+[magical defense]
+	150
+
+[physical critical hit]
+	10.0
+
+[magical critical hit]
+	10.0
+
+[light attack]
+	100
+
+[attack speed]
+	80
+
+[cast speed]
+	80
+
+[move speed]
+	80
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			3
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		10000
+	[probability]
+		100
+	[active status]
+		`lightning`	100	10500
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	30
+[/then]
+
+[MP MAX rate]
+	25.0
+
+[HP MAX rate]
+	25.0
+
+[room list move speed rate]
+	0.5
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1

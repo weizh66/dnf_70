@@ -1,0 +1,90 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`新 · 金角銀角`
+
+[explain]
+	`  在此地散發著傳說中怪物的氣息……如果你想活命， 就趕快離開……`
+
+[entering title]
+	`Title/chn_dayof_goldsilver_Dungeon.ani`
+
+[cutscene image]
+	`Map/CutScene/CutScene_cn.img`	11
+
+[minimap image]
+	`Map/MiniMap/Act7.img`
+
+[worldmap pattern info]
+	2	5
+	`WorldMap/SelectdungeonSlot/cn_dungeonslot.img`	37
+
+[required item]
+	490001566	1	1
+
+[ancient dungeon]
+	1
+
+[risk dungeon]
+	1
+
+[minimum required level]
+	50
+
+[basis level]
+	50
+
+[experience increasing point]
+	0.0
+
+[champion]
+	4	8	12	16	18
+
+[special passive object item]
+	0	-1	1	3235	3000	1	-1	1	3236	2500
+[/special passive object item]
+
+[pathgate object]
+	381	382	383	384	385	386	387	388	389	390
+
+[maze info]
+
+[size]
+	2	2
+
+[greed]
+	`BBMM
+ BBGG`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	1
+[/boss map]
+
+[map specification]
+	0	0	25603
+[/map specification]
+
+[map specification]
+	1	0	25604
+[/map specification]
+
+[map specification]
+	1	1	25605
+[/map specification]
+
+[map specification]
+	0	1	25606	25607	25608
+[/map specification]
+
+[recommended level]
+	50	70
+
+[limit party count]
+	1

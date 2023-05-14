@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[knight]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 破曉女神 (2/6)`
+
+[depend message]
+	`一直以來， 你都為完成使命、 守護戰友義無反顧地沖在前面。
+但你不能一直如此。 如果出現了更邪惡的存在， 你的意志就會崩塌， 戰友們也會隨之倒下。 如果有一天發生了那種事， 你能忍受嗎？
+你說無論如何你都要阻止那種情況發生？ 很好， 你現在的心態真的非常好。 那就讓我來看看你的實力是否與你的心態持平。
+現在， 素喃正好在舉辦魂·黃龍大會， 你去和參加大會的強者們一較高下吧。
+對你來說， 這應該都不算是個考驗吧。 那我就在遠處放心觀戰了。
+啊， 對了……差點忘了， 聽說參加大會必須擁有‘斯卡迪女王的印章’， 你可能要先去準備那個東西。 快去吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5119
+[/pre required quest]
+
+[relation quest]
+	6852
+
+[job change quest]
+	3
+
+[grow number]
+	0

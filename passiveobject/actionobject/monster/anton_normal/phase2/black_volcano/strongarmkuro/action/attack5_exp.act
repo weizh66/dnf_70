@@ -1,0 +1,70 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/AttackMineralShoot_Effect_EXP.ani`
+	[SUB ANI]
+		`../Animation/AttackMineralShoot_Effect_HandSwing_HitDust.ani`	0	1
+		`../Animation/AttackMineralShoot_Effect_HandSwing_HitDust2.ani`	0	2
+		`../Animation/AttackMineralShoot_Effect_HandSwing_HitFloor.ani`	0	3
+		`../Animation/AttackMineralShoot_Effect_M_Lightning.ani`	0	4
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[WHICH]
+	[LAST ATTACKSUCCESSES]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[CHARACTER ONLY]
+		[/IS OBJECT TYPE]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11448
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			-1
+		[POS]
+			0	0	60
+		[FOLLOWING TARGET]
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[WHICH]
+	[LAST ATTACKSUCCESSES]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11448
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			-1
+		[POS]
+			0	0	120
+		[FOLLOWING TARGET]
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

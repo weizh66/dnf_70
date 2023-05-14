@@ -1,0 +1,59 @@
+#PVF_File
+
+[set name]
+	`死亡之舞  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[fighter]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	83
+		`[dungeon type]`
+		`[static]`	0
+		`+`	250
+		`[fighter]`	83
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[at fighter]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	83
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+		`[fighter]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	68
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[fighter]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`+`	4
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)：熾燄旋風腿冷卻時間減少6秒， 攻擊次數增加2 
+格斗家(女)：昇龍拳冷卻時間減少6秒， 移動距離增加50%%， 多段攻擊次數增加1 
+格斗家(男)：閃電之舞冷卻時間減少6秒， 最大 移動距離增加20%%， 最大 移動次數增加2 
+格斗家(女)：雷光舞冷卻時間減少6秒， 最大移動距離增加20%%， 最大移動次數增加4`
+[/piece set ability]

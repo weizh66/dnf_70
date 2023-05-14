@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`青龍隊`
+
+[basic explain]
+	`施展威爾德雷伯時，10秒內為隊員的武器附加明屬性及明屬性強化增加 10 `
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	84
+
+[stuck]
+	-1
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	865	802
+
+[equipment magical attack]
+	742	688
+
+[separate attack]
+	504	343
+
+[light attack]
+	13
+
+[icon]
+	`item/new_equipment/01_weapon/priest/totem/totem.img`	87
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	26	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[use skill]
+		`priest`	13
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[elemental weapon]
+		`light`
+	[stat]
+		`light attack`
+		`+`	10
+[/then]
+
+[possible kiri protect]

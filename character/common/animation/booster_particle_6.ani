@@ -1,0 +1,87 @@
+#PVF_File
+[SHADOW]
+	0
+[COORD]
+	1
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/FallingEffect/falling_particle.img`
+		1
+	[IMAGE POS]
+		19	-68
+	[IMAGE ROTATE]
+		1.3962630033493042
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Character/Common/FallingEffect/falling_particle.img`
+		1
+	[IMAGE POS]
+		45	-79
+	[IMAGE ROTATE]
+		2.792526960372925
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Character/Common/FallingEffect/falling_particle.img`
+		1
+	[IMAGE POS]
+		58	-78
+	[IMAGE ROTATE]
+		4.1887898445129395
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Character/Common/FallingEffect/falling_particle.img`
+		1
+	[IMAGE POS]
+		67	-74
+	[IMAGE ROTATE]
+		5.58505392074585
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME004]
+	[IMAGE]
+		`Character/Common/FallingEffect/falling_particle.img`
+		1
+	[IMAGE POS]
+		70	-71
+	[IMAGE ROTATE]
+		6.98131799697876
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME005]
+	[IMAGE]
+		`Character/Common/FallingEffect/falling_particle.img`
+		1
+	[IMAGE POS]
+		75	-69
+	[IMAGE ROTATE]
+		8.377580642700195
+	[RGBA]
+		255	255	255	30
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100

@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20503
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680336	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`慶祝60周年 - 4`
+
+[depend message]
+	`哇~好漂亮的星星啊！ 但是離最終完成還遠著呢~
+像往常一樣， 您拿來材料后我們再繼續布置吧。`
+
+[condition message]
+	`    收集10個[國慶60周年慶祝函]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`我每次看到星星就會覺得心情變得愉悅了呢~您會不會也有那種飄飄然的感覺呢？`
+
+[reward int data]
+	0	100
+[/reward int data]

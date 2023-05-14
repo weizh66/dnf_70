@@ -1,0 +1,56 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	10
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	17	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3123	8
+[/int data]
+
+[dungeon info]
+	11	-1	12	-1	13	-1	14	-1	15	-1	17	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3035	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`提取尖晶石的魔力`
+
+[depend message]
+	`我聽說寶石里有魔法， 我想提取寶石的魔力制作小晶塊， 你能幫我嗎？ 別問為什么， 我頭腦那么聰明， 如果不好好修煉魔法， 那跟花瓶女有什么區別。
+呵呵， 我一定要成為既聰明又漂亮的魔法師， 你幫我早日實現愿望吧！`
+
+[condition message]
+	`    收集8個[尖晶石]。`
+
+[solve message]
+	`辛苦了， 以后還請你多關照哦！ `

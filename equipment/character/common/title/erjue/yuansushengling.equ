@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 元素聖靈`
+
+[explain]
+	`不知從什麼時候起，元素師們在施放魔法的時候，經常會沈浸在壹種精神恍惚的境界。雖然持續的時間僅在剎那之間，但卻能給她們這樣壹種感覺：仿佛宇宙的規則盡在掌控之中。
+她們釋放了全身的魔力，想要感知到更高層次的內容，但那種狀態卻很快就消失了，所以誰也無法解釋清楚那種規則到底是什麼。
+元素師們認為在這種狀態下能夠更加容易地洞悉這個世界的本質，所以將這種狀態稱之為“聖靈狀態”。她們相信，只要能夠長時間地維持“聖靈狀態”，就能夠知曉世間萬物的壹切，並且能夠探知元素和魔法之中隱藏的秘密。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		38013	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		50000	1	10000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	700
+	[passive object]
+		250123	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		70000	1	20000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	700
+	[passive object]
+		250124	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		90000	1	30000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	700
+	[passive object]
+		250125	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		110000	1	40000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	700
+	[passive object]
+		250126	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[mage]`	26
+	`[dungeon type]`
+	`[level]`	4
+	`%`	30
+	`[mage]`	26
+	`[dungeon type]`
+	`[level]`	5
+	`%`	30
+	`[mage]`	19
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+	`[mage]`	29
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+[/skill data up]

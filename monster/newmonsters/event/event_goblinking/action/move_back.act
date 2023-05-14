@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/move_back.ani`
+	[SPEECH]
+		`不好！我先閃了！`	0	100
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE ACTION FILE]
+	[STAY]
+		`hide_stay.act`
+	[CHANGE ACTION FILE]
+	[MOVE]
+		`hide_move.act`
+	[CHANGE ACTION FILE]
+	[DAMAGE]
+		0
+		`hide_damage1.act`
+	[CHANGE ACTION FILE]
+	[DAMAGE]
+		1
+		`hide_damage2.act`
+	[CHANGE ACTION FILE]
+	[DOWN]
+		`hide_down.act`
+	[CHANGE ACTION FILE]
+	[SIT]
+		`hide_sit.act`
+	[CHANGE ACTION FILE]
+	[OVERTURN]
+		`hide_overturn.act`
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[OFF]
+	[CAMOUFLAGE]
+		1	9900000
+[/BEHAVIOR]

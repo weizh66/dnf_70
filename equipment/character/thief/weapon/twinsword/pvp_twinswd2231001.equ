@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`塔瓦烏茲雙劍`
+
+[basic explain]
+	`攻擊速度增加+1%%
+ 無法進行強化、增幅、解體和贈送。`
+
+[flavor text]
+	`公平決鬥場頻道專用裝備。`
+
+[grade]
+	73
+
+[rarity]
+	2
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	46
+
+[attack speed]
+	-70
+
+[need material]
+	3312	110
+
+[equipment physical attack]
+	667	647
+
+[equipment magical attack]
+	523	507
+
+[separate attack]
+	322	218
+
+[physical critical hit]
+	5
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	84
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	15	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[minimum rank]
+	10
+
+[icon mark]
+	`Item/IconMark.img`	38
+
+[usable world]
+	`[fair]`
+[/usable world]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+[/impossible contents]
+
+[possible kiri protect]

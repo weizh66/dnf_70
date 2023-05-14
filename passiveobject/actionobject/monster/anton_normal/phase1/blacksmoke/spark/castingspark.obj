@@ -1,0 +1,26 @@
+#PVF_File
+
+[name]
+	`施放星火`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/castingspark_Basic.act`
+
+[etc action]
+	`Action/Etc_castingspark_0.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/castingspark_Basic.atk`
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	4000
+[/object destroy condition]

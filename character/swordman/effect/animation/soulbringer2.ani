@@ -1,0 +1,39 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/SoulBringer.img`
+		0
+	[IMAGE POS]
+		-7	-65
+	[IMAGE RATE]
+		0.4000000059604645	0.20000000298023224
+	[RGBA]
+		60	0	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/SoulBringer.img`
+		0
+	[IMAGE POS]
+		-7	-65
+	[IMAGE RATE]
+		1.0	0.800000011920929
+	[RGBA]
+		60	0	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500

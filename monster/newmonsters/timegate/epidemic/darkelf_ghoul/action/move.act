@@ -1,0 +1,80 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Move.ani`
+[/MOTION]
+
+[TRIGGER]
+
+[LIMIT]
+	1
+
+[FRAME]
+	0	0
+
+[DO BEHAVIOR]
+
+[ME]
+
+[RANDOM SELECT]
+	0	1
+[/RANDOM SELECT]
+
+[/TIRGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			13020
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	60
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8548
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	20
+	[/CREATE PASSIVEOBJECT]
+	[SAY SPEECH]
+		`我需要喝血......。`
+		
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			13020
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	60
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8548
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	20
+	[/CREATE PASSIVEOBJECT]
+	[SAY SPEECH]
+		`你看起來很可口......。`
+		
+	[TRIGGER]
+	[STAY]
+		0
+	[OFF]
+[/BEHAVIOR]

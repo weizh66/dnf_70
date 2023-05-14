@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4258
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	88	0
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`AT-5T 步行者的操作方法`
+
+[depend message]
+	`那可是我花了不少工夫才做好的， 他們竟然就這樣隨便地丟在原地……
+而且， 到現在也沒有指派一名交接的操縱師給我， 讓我傳授給誰呢？
+以前的那些士兵， 頭腦都還不錯， 所以教起來并沒有費多大的勁， 但現在……我哪有那么多的時間一一教啊！
+唔……我看你還算聰明， 要不你來試試？
+我先告訴你操作方法， 然后你到根特北門去， 看看能不能把機器帶回來。`
+
+[condition message]
+	`    通關安特貝魯峽谷的『根特北門』， 學習操作AT-5T 步行者。`
+
+[solve message]
+	`怎么樣， 我制作的機器實力非常嚇人吧？`
+
+[dialog]
+	0	0	15063	0	0	0	0
+	`<npc::59>喂喂， 能聽見嗎？ 到達北門了嗎？
+查看你的小地圖， 就能找到AT-5T 步行者的位置， 快去看看吧！
+對了， 萬一回來的途中， AT-5T 步行者被破壞， 你也不用擔心， 我會幫你修理的。
+呵呵， 不過等我修理好后， 你要記得回來找我拿啊。`
+[/dialog]
+
+[dialog]
+	0	0	15068	0	0	0	0
+	`<npc::59>怎么樣， 學會操作了嗎？ 前面阻擋的障礙物只能用AT-5T 步行者進行清除。
+因為路面比較狹窄， 所以要清除掉所有的障礙物才能通行。
+不過如果有燃料的話， 就能對路面進行地毯式地清除了。 呃， 我想那個房間的某處說不定會有燃料， 要不你去找找看？`
+[/dialog]
+
+[quest point]
+	4

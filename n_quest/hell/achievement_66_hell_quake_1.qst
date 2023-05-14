@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	99
+
+[monster reward item]
+	61192	86	2	690017040	1	100	1	61192	86	3	690017040	1	100	1	61223	87	2	690017041	1	100	1	61223	87	3	690017041	1	100	1
+[/monster reward item]
+
+[pre required quest]
+	2613
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	690017040	1	690017041	1
+[/int data]
+
+[reward type]
+	`[hell challenge]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	` 深淵派對Ep4 - 天界的變異生命體 `
+
+[depend message]
+	` 冒險家，你是要去天界嗎？ 
+ 有消息說，天界的海洋生物也受到了異界的影響，出現了變異現象，而且還有日漸狂暴的趨勢。 
+ 我覺得天界目前的情況和阿拉德大陸極為相似，說不定那裡也出現了異次元裂縫。 
+ 如果真是這樣，那些變異生物的身上一定會留有什麼線索……能麻煩你去調查一下，然後告訴我結果嗎？`
+
+[condition message]
+	`要想挑戰海上列車地區的深淵派對，需先證明自己的實力！ 請前往地下城打敗強者，獲得以下道具，需要地下城難度在王者級以上。`
+
+[solve message]
+	`原來如此啊…… 天界竟然也出現了異次元裂縫，看來異界的神秘力量已經開始擴散了。`
+
+[quest point]
+	4

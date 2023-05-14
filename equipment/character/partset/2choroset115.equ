@@ -1,0 +1,132 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[thief]`	107
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[thief]`	107
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[thief]`	107
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[thief]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[穿心]攻擊力 +10%%
+[穿心]冷卻時間 -20%%
+[割喉]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[thief]`	111
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	111
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[thief]`	111
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[thief]`	111
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[thief]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	8
+		`%`	10
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	11
+		`%`	10
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	12
+		`%`	10
+		`[thief]`	115
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	115
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[thief]`	115
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[thief]`	115
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[thief]`	102
+		`[dungeon type]`
+		`[level]`	0
+		`+`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[影戮]攻擊力 +30%%
+[影戮]冷卻時間 -15%%
+[影戮]攻擊速度 +10%%
+[絕命飛刃]攻擊力 +20%%
+[絕命飛刃]冷卻時間 -20%%
+[暗殺之匕首精通]武器攻擊力增加量 +5%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	1
+		`+`	5
+		`[thief]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	8
+		`%`	30
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	11
+		`%`	30
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	12
+		`%`	30
+		`[thief]`	115
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	102
+		`[dungeon type]`
+		`[level]`	0
+		`+`	70
+	[/skill data up]
+	[parameter basic explain]
+		`[影戮]亂舞次數 +5
+[影戮]冷卻時間 -30%%
+[影戮]攻擊速度 +30%%
+[絕命飛刃]冷卻時間 -30%%
+[暗殺之匕首精通]武器攻擊力增加量 +7%%`
+[/piece set ability]

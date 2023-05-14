@@ -1,0 +1,26 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[floating height]
+	0
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic motion]
+	`Animation/WindSpiritVS/windspiritvsbeffect_00.ani`
+
+[attack info]
+	`AttackInfo/WindSpiritVS.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

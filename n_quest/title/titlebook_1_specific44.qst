@@ -1,0 +1,39 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	50
+[/check count]
+
+[level]
+	10	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	63	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26667	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`在『蠕動之城』內的3個龍騎士房間中， 不復活龍騎士通關50次。 (需要通關地下城才算有效)`
+
+[condition data]
+	0
+	`通關次數 : %d / %d`
+[/condition data]

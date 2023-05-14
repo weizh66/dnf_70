@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	937
+
+[name]
+	`覺醒 - 機械戰神 (1/4)`
+
+[depend message]
+	`你說你嘗試過制作異次元移動裝置……怎么可能？ 你的想法居然跟七位偉大的機械戰神不謀而合……太令我吃驚了。
+你還不知道機械七戰神的故事吧？ 很久以前， 他們為了消滅巴卡爾制造了異次元移動裝置。
+后來因為一些狀況， 那個裝置被送到了別的次元， 只有設計圖被保留了下來……也許， 你能繼承他們的遺志……
+雖然這個裝置目前還不完善， 不過再稍微調整一下， 應該就可以在次元之間召喚出‘蓋波加’了。 `
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`怎么樣？ 在次元之間有捕捉到‘蓋波加’的信號嗎？`

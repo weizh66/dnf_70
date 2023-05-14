@@ -1,0 +1,166 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	34
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[喚魔 : 蛇腹劍]出血幾率 +10%%
+[蛇腹劍 · 破]冷卻時間 -20%%
+[蛇腹劍 · 刺]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	36
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	36
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	36
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	36
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at swordman]`	20
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	20
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	20
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	34
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	34
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	41
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[at swordman]`	35
+		`[dungeon type]`
+		`[level]`	0
+		`+`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[蛇腹劍 : 舞]冷卻時間 -30%%
+[蛇腹劍 : 舞]攻擊力 +10%%
+[蛇腹劍 : 纏]冷卻時間 -30%%
+[蛇腹劍 : 纏]攻擊力 +10%%
+[蛇腹劍 : 破]冷卻時間 -20%%
+[蛇腹劍 : 破]攻擊力 +10%%
+[蛇腹劍 : 刺]攻擊力 +10%%
+[蛇腹劍 : 滅]攻擊力 +10%%
+[魔劍控制]武器攻擊力增加量 +5%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	41
+		`[dungeon type]`
+		`[static]`	0
+		`%`	100
+		`[at swordman]`	41
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	36
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	36
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	36
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	20
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	20
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at swordman]`	34
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	34
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	35
+		`[dungeon type]`
+		`[level]`	0
+		`+`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[蛇腹劍 : 滅]攻擊速度 +100%%
+[蛇腹劍 : 滅]冷卻時間 -30%%
+[蛇腹劍 : 舞]攻擊力 +20%%
+[蛇腹劍 : 纏]攻擊力 +20%%
+[蛇腹劍 : 破]破開地面的次數 +1
+[蛇腹劍 : 破]攻擊力 +25%%
+[蛇腹劍 : 刺]攻擊力 +20%%
+[魔劍控制]武器攻擊力增加量 +5%%`
+[/piece set ability]

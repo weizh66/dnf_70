@@ -1,0 +1,782 @@
+#PVF_File
+[FRAME MAX]
+	47
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		14
+	[IMAGE POS]
+		-193	-339
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-63	-10	5	127	20	192
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		15
+	[IMAGE POS]
+		-193	-329
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-76	-10	-8	123	20	197
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		16
+	[IMAGE POS]
+		-193	-321
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-73	-10	-4	114	20	169
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		17
+	[IMAGE POS]
+		-193	-321
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-80	-10	-3	133	20	203
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		17
+	[IMAGE POS]
+		-193	-321
+	[IMAGE ROTATE]
+		0.06981299817562103
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-80	-10	-3	133	20	203
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		17
+	[IMAGE POS]
+		-193	-321
+	[IMAGE ROTATE]
+		0.0872659981250763
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-80	-10	-3	133	20	203
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		17
+	[IMAGE POS]
+		-194	-321
+	[IMAGE ROTATE]
+		0.0872659981250763
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-82	-10	-3	133	20	203
+
+[FRAME007]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-80	-10	7	153	20	118
+	[DAMAGE BOX]
+	-14	-10	125	85	20	68
+	[ATTACK BOX]
+	-59	-20	0	186	40	219
+
+[FRAME008]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-336
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	4	153	20	118
+	[DAMAGE BOX]
+	-14	-10	122	85	20	68
+	[ATTACK BOX]
+	-59	-20	-3	186	40	219
+
+[FRAME009]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-336
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	4	153	20	118
+	[DAMAGE BOX]
+	-14	-10	122	85	20	68
+	[ATTACK BOX]
+	-59	-20	-3	186	40	219
+
+[FRAME010]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	7	153	20	118
+	[DAMAGE BOX]
+	-14	-10	125	85	20	68
+	[ATTACK BOX]
+	-59	-20	0	186	40	219
+
+[FRAME011]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-336
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	4	153	20	118
+	[DAMAGE BOX]
+	-14	-10	122	85	20	68
+	[ATTACK BOX]
+	-59	-20	-3	186	40	219
+
+[FRAME012]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	7	153	20	118
+	[DAMAGE BOX]
+	-14	-10	125	85	20	68
+	[ATTACK BOX]
+	-59	-20	0	186	40	219
+
+[FRAME013]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-336
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	4	153	20	118
+	[DAMAGE BOX]
+	-14	-10	122	85	20	68
+	[ATTACK BOX]
+	-59	-20	-3	186	40	219
+
+[FRAME014]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	7	153	20	118
+	[DAMAGE BOX]
+	-14	-10	125	85	20	68
+	[ATTACK BOX]
+	-59	-20	0	186	40	219
+
+[FRAME015]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-336
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	4	153	20	118
+	[DAMAGE BOX]
+	-14	-10	122	85	20	68
+	[ATTACK BOX]
+	-59	-20	-3	186	40	219
+
+[FRAME016]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		18
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-80	-10	7	153	20	118
+	[DAMAGE BOX]
+	-14	-10	125	85	20	68
+	[ATTACK BOX]
+	-59	-20	0	186	40	219
+
+[FRAME017]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-61	-10	0	138	20	125
+	[DAMAGE BOX]
+	-34	-10	125	103	20	43
+	[ATTACK BOX]
+	-60	-50	-4	180	100	225
+
+[FRAME018]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-334
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	-5	138	20	125
+	[DAMAGE BOX]
+	-34	-10	120	103	20	43
+	[ATTACK BOX]
+	-60	-50	-9	180	100	225
+
+[FRAME019]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	0	138	20	125
+	[DAMAGE BOX]
+	-34	-10	125	103	20	43
+	[ATTACK BOX]
+	-60	-50	-4	180	100	225
+
+[FRAME020]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-334
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	-5	138	20	125
+	[DAMAGE BOX]
+	-34	-10	120	103	20	43
+	[ATTACK BOX]
+	-60	-50	-9	180	100	225
+
+[FRAME021]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	0	138	20	125
+	[DAMAGE BOX]
+	-34	-10	125	103	20	43
+	[ATTACK BOX]
+	-60	-50	-4	180	100	225
+
+[FRAME022]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-334
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	-5	138	20	125
+	[DAMAGE BOX]
+	-34	-10	120	103	20	43
+	[ATTACK BOX]
+	-60	-50	-9	180	100	225
+
+[FRAME023]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	0	138	20	125
+	[DAMAGE BOX]
+	-34	-10	125	103	20	43
+	[ATTACK BOX]
+	-60	-50	-4	180	100	225
+
+[FRAME024]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-334
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	-5	138	20	125
+	[DAMAGE BOX]
+	-34	-10	120	103	20	43
+	[ATTACK BOX]
+	-60	-50	-9	180	100	225
+
+[FRAME025]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	0	138	20	125
+	[DAMAGE BOX]
+	-34	-10	125	103	20	43
+	[ATTACK BOX]
+	-60	-50	-4	180	100	225
+
+[FRAME026]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		19
+	[IMAGE POS]
+		-195	-334
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	-5	138	20	125
+	[DAMAGE BOX]
+	-34	-10	120	103	20	43
+	[ATTACK BOX]
+	-60	-50	-9	180	100	225
+
+[FRAME027]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-71	-10	-3	148	20	128
+	[DAMAGE BOX]
+	-34	-10	125	108	20	43
+	[ATTACK BOX]
+	-67	-50	-2	185	100	225
+
+[FRAME028]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-7	148	20	128
+	[DAMAGE BOX]
+	-34	-10	121	108	20	43
+	[ATTACK BOX]
+	-67	-50	-6	185	100	225
+
+[FRAME029]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-7	148	20	128
+	[DAMAGE BOX]
+	-34	-10	121	108	20	43
+	[ATTACK BOX]
+	-67	-50	-6	185	100	225
+
+[FRAME030]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-3	148	20	128
+	[DAMAGE BOX]
+	-34	-10	125	108	20	43
+	[ATTACK BOX]
+	-67	-50	-2	185	100	225
+
+[FRAME031]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-7	148	20	128
+	[DAMAGE BOX]
+	-34	-10	121	108	20	43
+	[ATTACK BOX]
+	-67	-50	-6	185	100	225
+
+[FRAME032]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-3	148	20	128
+	[DAMAGE BOX]
+	-34	-10	125	108	20	43
+	[ATTACK BOX]
+	-67	-50	-2	185	100	225
+
+[FRAME033]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-7	148	20	128
+	[DAMAGE BOX]
+	-34	-10	121	108	20	43
+	[ATTACK BOX]
+	-67	-50	-6	185	100	225
+
+[FRAME034]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-3	148	20	128
+	[DAMAGE BOX]
+	-34	-10	125	108	20	43
+	[ATTACK BOX]
+	-67	-50	-2	185	100	225
+
+[FRAME035]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-7	148	20	128
+	[DAMAGE BOX]
+	-34	-10	121	108	20	43
+	[ATTACK BOX]
+	-67	-50	-6	185	100	225
+
+[FRAME036]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		20
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-71	-10	-3	148	20	128
+	[DAMAGE BOX]
+	-34	-10	125	108	20	43
+	[ATTACK BOX]
+	-67	-50	-2	185	100	225
+
+[FRAME037]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-61	-10	14	140	20	111
+	[DAMAGE BOX]
+	-34	-10	125	107	20	43
+	[ATTACK BOX]
+	-72	-50	-1	192	100	230
+
+[FRAME038]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	10	140	20	111
+	[DAMAGE BOX]
+	-34	-10	121	107	20	43
+	[ATTACK BOX]
+	-72	-50	-5	192	100	230
+
+[FRAME039]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	14	140	20	111
+	[DAMAGE BOX]
+	-34	-10	125	107	20	43
+	[ATTACK BOX]
+	-72	-50	-1	192	100	230
+
+[FRAME040]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	10	140	20	111
+	[DAMAGE BOX]
+	-34	-10	121	107	20	43
+	[ATTACK BOX]
+	-72	-50	-5	192	100	230
+
+[FRAME041]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	14	140	20	111
+	[DAMAGE BOX]
+	-34	-10	125	107	20	43
+	[ATTACK BOX]
+	-72	-50	-1	192	100	230
+
+[FRAME042]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	10	140	20	111
+	[DAMAGE BOX]
+	-34	-10	121	107	20	43
+	[ATTACK BOX]
+	-72	-50	-5	192	100	230
+
+[FRAME043]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	14	140	20	111
+	[DAMAGE BOX]
+	-34	-10	125	107	20	43
+	[ATTACK BOX]
+	-72	-50	-1	192	100	230
+
+[FRAME044]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	10	140	20	111
+	[DAMAGE BOX]
+	-34	-10	121	107	20	43
+	[ATTACK BOX]
+	-72	-50	-5	192	100	230
+
+[FRAME045]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-339
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	14	140	20	111
+	[DAMAGE BOX]
+	-34	-10	125	107	20	43
+	[ATTACK BOX]
+	-72	-50	-1	192	100	230
+
+[FRAME046]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		21
+	[IMAGE POS]
+		-195	-335
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-61	-10	10	140	20	111
+	[DAMAGE BOX]
+	-34	-10	121	107	20	43
+	[ATTACK BOX]
+	-72	-50	-5	192	100	230

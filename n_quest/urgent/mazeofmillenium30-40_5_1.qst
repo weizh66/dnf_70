@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`O`
+
+[npc index]
+	73
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	50
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	73
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`緊急任務`
+
+[depend message]
+	`對大部分冒險家來說， 探險過程中最大的威脅就是地下城的領主。 但是如果你一直置之不理， 那它們會變得越來越強大。
+為了你的將來， 也為了阿拉德的將來， 我希望你能夠盡快除掉他們。`
+
+[condition message]
+	`    (此任務因游戲改版已被刪除， 請您放棄此任務后繼續進行游戲。 給您帶來不便， 敬請諒解。)`
+
+[solve message]
+	`我代表阿拉德的居民感謝你， 現在大家應該可以放心一些了。`

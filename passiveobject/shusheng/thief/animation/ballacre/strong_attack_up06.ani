@@ -1,0 +1,48 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Knight/Effect/Penetration/glow.img`
+		0
+	[IMAGE POS]
+		-140	-172
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		78	83	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Knight/Effect/Penetration/glow.img`
+		0
+	[IMAGE POS]
+		-140	-172
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	10	10	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-173	-12
+	[DELAY]
+		80

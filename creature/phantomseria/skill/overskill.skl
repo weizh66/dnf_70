@@ -1,0 +1,33 @@
+#PVF_File
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`physical attack`
+		`+`	20
+[/change status buff]
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`magical attack`
+		`+`	20
+[/change status buff]
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`physical defense`
+		`+`	20
+[/change status buff]
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`magical defense`
+		`+`	20
+[/change status buff]

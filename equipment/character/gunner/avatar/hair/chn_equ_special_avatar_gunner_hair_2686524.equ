@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`金色孤鷹戰士頭冠`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[usable period]
+	30
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_ahair.img`	336
+
+[equipment type]
+	`[hair avatar]`	0
+
+[sub type]
+	0
+
+[variation]
+	100	0
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	800
+	`hair_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30001
+
+[cast speed]
+	130
+
+[physical defense]
+	15
+
+[avatar func filter]
+	2

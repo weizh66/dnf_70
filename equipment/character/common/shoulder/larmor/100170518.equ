@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`萬世榮光肩甲`
+
+[basic explain]
+	`所有攻擊力 +7%%`
+
+[flavor text]
+	`該裝備可以通過合成進行升級。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12585
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	120
+
+[magical attack]
+	110
+
+[need material]
+	3826	1000
+
+[price]
+	96000
+
+[repair price]
+	76800
+
+[value]
+	76800
+
+[creation rate]
+	125
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	2544	2328
+
+[all elemental attack]
+	20
+
+[icon]
+	`item/new_equipment/04_larmor/neck/larmor_neck.img`	62
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	7
+	[stat by condition]
+		`magical attack bonus`
+		`%`	7
+	[stat by condition]
+		`separate attack`
+		`%`	7
+[/then]
+
+[possible kiri protect]

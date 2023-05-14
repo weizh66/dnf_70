@@ -1,0 +1,508 @@
+#PVF_File
+
+[master type]
+	10
+	`鼠晦`
+
+[master type]
+	20
+	`寞橫掘`
+
+[master type]
+	30
+	`擋撮憮葬`
+
+[master type]
+	40
+	`蝶鷓醴綰`
+
+[master type]
+	50
+	`觼葬藥`
+
+[master type]
+	60
+	`蹺陛濰綠`
+
+[master type]
+	100
+	`嬴夥顫`
+
+[type addition]
+	10
+
+[type addition]
+	20
+
+[reverse desc]
+	50
+
+[reverse desc]
+	60
+
+[reverse desc]
+	100
+
+[material type]
+	0
+	`繭`
+
+[material type]
+	1
+	`陛避`
+
+[material type]
+	2
+	`唳骨`
+
+[material type]
+	3
+	`醞骨`
+
+[material type]
+	4
+	`旎`
+
+[weapon type]
+	`[swordman]`	10	0	10
+	`模匐`
+
+[weapon type]
+	`[swordman]`	10	1	20
+	`紫`
+
+[weapon type]
+	`[swordman]`	10	2	30
+	`菩晦`
+
+[weapon type]
+	`[swordman]`	10	3	40
+	`渠匐`
+
+[weapon type]
+	`[swordman]`	10	5	60
+	`惜匐`
+
+[weapon type]
+	`[fighter]`	10	0	70
+	`傘贗`
+
+[weapon type]
+	`[fighter]`	10	1	80
+	`勒葩`
+
+[weapon type]
+	`[fighter]`	10	2	90
+	`贗煎`
+
+[weapon type]
+	`[fighter]`	10	3	100
+	`掏癱旋楝粽`
+
+[weapon type]
+	`[fighter]`	10	5	120
+	`鱔`
+
+[weapon type]
+	`[gunner]`	10	0	130
+	`葬獐幗`
+
+[weapon type]
+	`[gunner]`	10	1	140
+	`濠翕掏識`
+
+[weapon type]
+	`[gunner]`	10	2	150
+	`該蝶鰍`
+
+[weapon type]
+	`[gunner]`	10	3	160
+	`萄議凱`
+
+[weapon type]
+	`[gunner]`	10	4	170
+	`爾辦勒`
+
+[weapon type]
+	`[mage]`	10	0	180
+	`璽`
+
+[weapon type]
+	`[mage]`	10	1	181
+	`瑰`
+
+[weapon type]
+	`[mage]`	10	2	182
+	`煎萄`
+
+[weapon type]
+	`[mage]`	10	3	183
+	`蝶龔`
+
+[weapon type]
+	`[mage]`	10	4	184
+	`綿濠瑞`
+
+[weapon type]
+	`[priest]`	10	0	190
+	`褊濠陛`
+
+[weapon type]
+	`[priest]`	10	1	191
+	`膩輿`
+
+[weapon type]
+	`[priest]`	10	2	192
+	`饜蠱`
+
+[weapon type]
+	`[priest]`	10	3	193
+	`陷`
+
+[weapon type]
+	`[priest]`	10	4	194
+	`漆擋蝶`
+
+[weapon type]
+	`[thief]`	10	0	200
+	`欽匐`
+
+[weapon type]
+	`[thief]`	10	1	201
+	`誰匐`
+
+[weapon type]
+	`[thief]`	10	3	203
+	`諫萄`
+
+[armor type]
+	`coat`	20	0	211
+	`鼻曖`
+
+[armor type]
+	`shoulder`	20	0	212
+	`該葬橫梟`
+
+[armor type]
+	`pants`	20	0	213
+	`曖`
+
+[armor type]
+	`shoes`	20	0	214
+	`褐嫦`
+
+[armor type]
+	`waist`	20	0	215
+	`葬`
+
+[armor type]
+	`coat`	20	1	221
+	`鼻曖`
+
+[armor type]
+	`shoulder`	20	1	222
+	`該葬橫梟`
+
+[armor type]
+	`pants`	20	1	223
+	`曖`
+
+[armor type]
+	`shoes`	20	1	224
+	`褐嫦`
+
+[armor type]
+	`waist`	20	1	225
+	`葬`
+
+[armor type]
+	`coat`	20	2	231
+	`鼻曖`
+
+[armor type]
+	`shoulder`	20	2	232
+	`該葬橫梟`
+
+[armor type]
+	`pants`	20	2	233
+	`曖`
+
+[armor type]
+	`shoes`	20	2	234
+	`褐嫦`
+
+[armor type]
+	`waist`	20	2	235
+	`葬`
+
+[armor type]
+	`coat`	20	3	241
+	`鼻曖`
+
+[armor type]
+	`shoulder`	20	3	242
+	`該葬橫梟`
+
+[armor type]
+	`pants`	20	3	243
+	`曖`
+
+[armor type]
+	`shoes`	20	3	244
+	`褐嫦`
+
+[armor type]
+	`waist`	20	3	245
+	`葬`
+
+[armor type]
+	`coat`	20	4	251
+	`鼻曖`
+
+[armor type]
+	`shoulder`	20	4	252
+	`該葬橫梟`
+
+[armor type]
+	`pants`	20	4	253
+	`曖`
+
+[armor type]
+	`shoes`	20	4	254
+	`褐嫦`
+
+[armor type]
+	`waist`	20	4	255
+	`葬`
+
+[item type]
+	`weapon`	0	10	0	0
+	``
+
+[item type]
+	`coat`	0	20	0	0
+	``
+
+[item type]
+	`shoulder`	0	20	0	0
+	``
+
+[item type]
+	`pants`	0	20	0	0
+	``
+
+[item type]
+	`shoes`	0	20	0	0
+	``
+
+[item type]
+	`waist`	0	20	0	0
+	``
+
+[item type]
+	`amulet`	1	30	0	310
+	`跡勘檜`
+
+[item type]
+	`wrist`	1	30	0	320
+	`鎬`
+
+[item type]
+	`ring`	1	30	0	330
+	`奩雖`
+
+[item type]
+	`title name`	1	30	0	340
+	`蘆`
+
+[item type]
+	`waste`	1	40	0	410
+	`模賅`
+
+[item type]
+	`unlimited waste`	0	40	0	411
+	``
+
+[item type]
+	`disguise`	0	40	0	412
+	``
+
+[item type]
+	`global effect`	0	40	0	413
+	``
+
+[item type]
+	`town and dungeon`	0	40	0	414
+	``
+
+[item type]
+	`unlimited town and dungeon`	0	40	0	415
+	``
+
+[item type]
+	`expert town potion`	0	40	0	416
+	``
+
+[item type]
+	`upgrade limit cube`	0	40	0	417
+	``
+
+[item type]
+	`material`	1	40	0	420
+	`營猿`
+
+[item type]
+	`material expert job`	0	40	0	421
+	``
+
+[item type]
+	`recipe`	1	40	0	430
+	`楚憮`
+
+[item type]
+	`throwset`	1	40	0	440
+	`癱繫/撲纂`
+
+[item type]
+	`throw`	0	40	0	440
+	``
+
+[item type]
+	`set`	0	40	0	440
+	``
+
+[item type]
+	`legacy`	1	40	0	450
+	`鉻晦`
+
+[item type]
+	`upgradable legacy`	0	40	0	451
+	``
+
+[item type]
+	`stackable legacy`	0	40	0	452
+	``
+
+[item type]
+	`multi upgradable legacy`	0	40	0	453
+	``
+
+[item type]
+	`quest`	1	40	0	460
+	`蠡蝶`
+
+[item type]
+	`etc`	1	40	0	470
+	`晦顫`
+
+[item type]
+	`booster`	0	40	0	471
+	``
+
+[item type]
+	`cera booster`	0	40	0	472
+	``
+
+[item type]
+	`package`	0	40	0	473
+	``
+
+[item type]
+	`cera package`	0	40	0	474
+	``
+
+[item type]
+	`unlimited etc`	0	40	0	475
+	``
+
+[item type]
+	`booster random`	0	40	0	476
+	``
+
+[item type]
+	`contract`	0	40	0	477
+	``
+
+[item type]
+	`enchant waste`	0	40	0	478
+	``
+
+[item type]
+	`avatar emblem`	0	40	0	480
+	``
+
+[item type]
+	`quest receive`	0	40	0	490
+	``
+
+[item type]
+	`creature`	1	50	0	510
+	`觼葬藥`
+
+[item type]
+	`artifact red`	1	50	0	520
+	`嬴溯萄`
+
+[item type]
+	`artifact blue`	1	50	0	530
+	`嬴綰瑞`
+
+[item type]
+	`artifact green`	1	50	0	540
+	`嬴斜萼`
+
+[item type]
+	`stackable creature`	1	50	0	550
+	`模賅`
+
+[item type]
+	`feed`	1	50	0	560
+	`詳檜`
+
+[item type]
+	`support`	0	60	0	600
+	``
+
+[item type]
+	`magic stone`	0	60	0	610
+	``
+
+[item type]
+	`hat avatar`	1	100	0	1010
+	`賅濠`
+
+[item type]
+	`hair avatar`	1	100	0	1020
+	`該葬`
+
+[item type]
+	`face avatar`	1	100	0	1030
+	`橡掉`
+
+[item type]
+	`breast avatar`	1	100	0	1040
+	`跡`
+
+[item type]
+	`coat avatar`	1	100	0	1050
+	`鼻曖`
+
+[item type]
+	`pants avatar`	1	100	0	1060
+	`曖`
+
+[item type]
+	`waist avatar`	1	100	0	1070
+	`葬`
+
+[item type]
+	`shoes avatar`	1	100	0	1080
+	`褐嫦`
+
+[item type]
+	`skin avatar`	1	100	0	1090
+	`蝶鑑`
+
+[item type]
+	`aurora avatar`	1	100	0	1100
+	`螃塭`

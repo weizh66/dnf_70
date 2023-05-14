@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	11
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	13	1	50008	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`石刃拉澤爾`
+
+[depend message]
+	`你知道天空之城的石刃拉澤爾嗎？ 那些前往天空之城的家伙與石刃拉澤爾動手后， 都跑回來了， 因為他們的刀刃都被拉澤爾損壞了。
+這倒也罷了， 但為什么都來找我磨刀呢， 真是煩死了。
+要不這樣吧， 上次看你的實力還不錯， 你去把那個石刃拉澤爾消滅了吧。`
+
+[condition message]
+	`    前往天空之城的『石巨人塔』， 打敗石刃拉澤爾2次， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`不錯， 你是個值得信賴的家伙。 我終于少了件煩心事了， 呼~`

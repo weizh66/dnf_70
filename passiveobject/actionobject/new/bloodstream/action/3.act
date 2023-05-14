@@ -1,0 +1,73 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/atbloodstream/end/atbloodstream_end_back_bodyeff09.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			25834
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			25835
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			25836
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[FLASH SCREEN]
+		600	4000	250	200	0	0	0
+[/BEHAVIOR]

@@ -1,0 +1,225 @@
+#PVF_File
+
+[name]
+	`焦熱的劍`
+
+[basic explain]
+	`安裝時力量增加100，減少智力80 
+輸入上，下，+ [寵物技能操作鍵] 時10秒內讓自己呈現傷狀態攻擊四周。
+不可解體`
+
+[detail explain]
+	`安裝時力量增加100，智力減少80 
+輸入上，下，+ [寵物技能操作鍵]時10秒內讓自己進入灼傷狀態，每0.5秒以50的攻擊力受到傷害，周圍的敵人每 2秒以3000的攻擊力給予傷害。 （高於Lv84的角色等級，灼傷抗性高的情況，灼傷狀態不發生變化。 決鬥場，不發動勢力戰）
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3339	1000
+
+[repair price]
+	127008
+
+[value]
+	120960
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	733	686
+
+[equipment magical attack]
+	724	679
+
+[separate attack]
+	481	327
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	85
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+	`swordman`	1
+	`demonic swordman`	0
+[/routing priority]
+
+[required skill]
+	33
+
+[elemental property]
+	`[fire element]`
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+		`[tournament dungeon]`
+	[/module]
+	[use command]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[active status]
+		`burn`	84	700	3000	1	2000
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	100
+	[stat by condition]
+		`magical attack`
+		`+`	-80
+[/then]
+
+[possible kiri protect]

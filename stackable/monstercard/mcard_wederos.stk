@@ -1,0 +1,69 @@
+#PVF_File
+
+[name]
+	`光之沃德咯斯  卡片`
+
+[flavor text]
+	`    我王萬歲！ 我國昌盛！ 我叫光之沃德咯斯， 我以靈魂發誓， 永遠忠誠于王！`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	36
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[value]
+	10800
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[weapon]`
+	`[foil]`
+	`[unlimited challenge]`
+[/string data]
+
+[int data]
+	36	50068
+[/int data]
+
+[enchant]
+	[attack speed]
+		6
+	[cast speed]
+		12
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

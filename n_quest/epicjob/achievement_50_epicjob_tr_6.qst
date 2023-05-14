@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	5352
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3229	100	3187	200
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`覺醒 - 魔術師 (4/4)`
+
+[depend message]
+	`恭喜你， 我的小魔法師， 你完成了所有的測試， 正式成為一名魔術師。
+雖然沒有資格證的無證魔術師也很多， 但是只有擁有資格證的你們才可以進入公認機構的圖書館或者是進入魔界的艾爾丁紀念館進行研究。
+好了， 現在就剩下最后一個簡單的手續啦。`
+
+[condition message]
+	`    為了成為魔術師， 請收集以下材料。`
+
+[solve message]
+	`現在賦予你魔術師的資格證。 期待你以后創造出屬于自己的獨特魔道學哦！`

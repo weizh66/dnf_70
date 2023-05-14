@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`布馮的利爪`
+
+[explain]
+	`攻擊時， 附加30%%的傷害。`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	4
+
+[weight]
+	50
+
+[need material]
+	3850	500
+
+[all activestatus resistance]
+	30
+
+[set item]
+	111253	111254	111255
+[/set item]
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_red_cn.img`	37
+
+[field image]
+	`Item/field_creature.img`	0
+
+[equipment type]
+	`[artifact red]`	15
+
+[sub type]
+	0
+
+[creature physical attack]
+	1000
+
+[anti evil]
+	15
+
+[separate attack]
+	160	160
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[cool time]
+	10000
+
+[set ability]
+	[fullset basic explain]
+		`裝備時，使800PX範圍內的敵人的速度降低50%%
+裝備時，使800PX範圍內的敵人的異常抗性降低50%%
+裝備時，使800PX範圍內的敵人的防禦降低30%%
+攻擊時，10%%的概率對敵人削減10%%的HP`
+	[fullset detail explain]
+		`裝備時，使800PX範圍內的敵人的速度降低50%%
+裝備時，使800PX範圍內的敵人的異常抗性降低50%%
+裝備時，使800PX範圍內的敵人的防禦降低30%%
+攻擊時，10%%的概率對敵人削減10%%的HP`
+[/set ability]
+
+[move wav]
+	`BONE_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

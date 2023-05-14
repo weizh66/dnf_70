@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	18
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	63	99
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	52	-1	62014	3	52	-1	62015	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1241	1	1239	1	1240	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`找尋盜賊的蹤跡`
+
+[depend message]
+	`自從哈穆林的盜賊銷聲匿跡后， 我一直在尋找他們的行蹤。 可是他們就像人間蒸發了一樣， 消失得無影無蹤。
+直到最近， 我才得到消息說在諾斯瑪爾附近的沙漠地區又出現了他們的身影。
+冒險家， 你能幫我去調查一下嗎？`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 尋找盜賊群的痕跡。`
+
+[solve message]
+	`找到那群盜賊了嗎？`
+
+[dialog]
+	1	0	52	0	1	0	0
+	`<monster::62012>又有獵物送上門了？ 哈哈~歡迎歡迎！！ 感謝你們為我們提供了源源不斷的能量！
+大家一定要好好招待這些客人啊！`
+[/dialog]
+
+[quest point]
+	4

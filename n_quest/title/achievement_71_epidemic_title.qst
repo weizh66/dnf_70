@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	71	99
+
+[pre required quest]
+	4190
+[/pre required quest]
+
+[monster reward item]
+	63031	71	2	4788	1	60	10	63031	71	3	4788	1	60	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4788	10
+[/int data]
+
+[dungeon info]
+	71	2
+[/dungeon info]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26810	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找骷髏騎士的殘骸`
+
+[depend message]
+	`你好，冒險家！我在你上次帶來的疾病體當中發現重要的情報，所以才會跟你聯絡！
+這個疾病並非自然形成的，而是要以一名宿主，然後向宿主周圍散佈病毒來擴散疾病。
+只要稍微再研究一下，應該就能夠查出來，能取來一些樣品給我嗎？如果能收集宿主身上的一部分會更好。`
+
+[condition message]
+	`在傳染病王者級以上(Hard)的程度收集骷髏騎士的殘骸，然後交給克倫特`
+
+[solve message]
+	` 這樣就充分可以進行研究了。謝謝。`

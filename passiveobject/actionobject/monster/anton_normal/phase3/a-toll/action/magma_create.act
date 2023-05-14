@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Magma_Create_0.ani`
+	[SUB ANI]
+		`../Animation/Magma_Create_1.ani`	0	1
+		`../Animation/Magma_Create_4.ani`	0	2
+		`../Animation/Magma_Create_2.ani`	0	3
+		`../Animation/Magma_Create_3.ani`	0	4
+	[/SUB ANI]
+	[SOUND]
+		`ATOLL_LAVA_CREATION`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

@@ -1,0 +1,21 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Barigeyiteu_crystal_destroy_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE LAYER]
+		`[bottom]`
+[/BEHAVIOR]

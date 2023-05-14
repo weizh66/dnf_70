@@ -1,0 +1,54 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/1.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			400
+		[Z AXIS]
+			-300
+		[USE MY DIRECTION]
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+	[X AXIS]
+		1000
+	[Z AXIS]
+		-800
+	[USE MY DIRECTION]
+	[TRIGGER]
+		[FRAME]
+			2	2
+		[DO BEHAVIOR]
+		[ME]
+			0
+	[/TRIGGER]
+
+	[BEHAVIOR]
+		[ATTACKRECT]
+		[RESET]
+	[/BEHAVIOR]

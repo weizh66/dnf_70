@@ -1,0 +1,53 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`tile/sao_cube_01.til`
+	`tile/sao_cube_02.til`
+	`tile/sao_cube_03.til`
+	`tile/sao_cube_04.til`
+	`tile/sao_cube_05.til`
+	`tile/sao_cube_06.til`
+[/tile]
+
+[pathgate pos]
+	741	913	797	897	829	918	808	954
+
+[dungeon start area]
+	833	149	200	200
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[passive object]
+	12080	62	110	0	12081	1	-202	0	12084	434	-200	0	12085	518	-145	0	12086	582	-140	0	12087	768	-165	0	12088	824	-201	0	12089	954	-141	0	12090	1072	-60	0	12091	944	-25	0	12092	800	-37	0	12093	567	13	0	12094	410	-37	0	12095	296	-25	0	12096	189	-61	0	12097	246	-141	0	12098	0	-200	0	12099	1155	-199	0	12100	188	-200	0	12083	1121	-201	0	12082	1121	-201	0	12101	188	-61	0	12102	311	-13	0	12103	279	-135	0	12104	436	-24	0	12105	435	-193	0	12106	829	-191	0	12107	828	-22	0	12108	952	-8	0	12109	984	-137	0	12110	1071	-58	0
+[/passive object]
+
+[monster]
+	64813	1	10	621	230	0	0	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[event monster position]
+	596	224	0	533	309	0	456	241	0	492	308	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

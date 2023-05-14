@@ -1,0 +1,107 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	45
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	42
+		`[dungeon type]`
+		`[static]`	7
+		`+`	1
+		`[at priest]`	42
+		`[dungeon type]`
+		`[static]`	8
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[審判重擊]攻擊力 +30%%
+[火焰精華]十字爆炸范圍 +35%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	45
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at priest]`	45
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at priest]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-50
+		`[at priest]`	45
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at priest]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	46
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	46
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[at priest]`	46
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[審判重擊]冷卻時間 -25%%
+[審判重擊]下斬攻擊力 -50%%
+[審判重擊]沖擊波攻擊力 +50%%
+[審判重擊]沖擊波攻擊范圍 +50%%
+[神焰洗禮]攻擊范圍 +30%%
+[神焰洗禮]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	46
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	45
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	49
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[神焰洗禮]攻擊力 +30%%
+[神焰洗禮]冷卻時間 -30%%
+[審判重擊]攻擊力 +30%%
+[審判重擊]冷卻時間 -30%%
+[行刑]攻擊力 +30%%`
+[/piece set ability]

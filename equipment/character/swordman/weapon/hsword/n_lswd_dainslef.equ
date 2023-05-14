@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`(舊) 邪龍魔劍`
+
+[basic explain]
+	`使武器攻擊力隨角色Lv的增加而增加。 (每提升Lv1， 增加6點物攻)`
+
+[flavor text]
+	`    我要和這把劍一起成長， 共同維護世界的安寧。  --阿甘左拿到刻有自己名字的劍時`
+
+[grade]
+	40
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[rarity]
+	4
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	20
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	45
+
+[field image]
+	`Item/FieldImage.img`	12
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	10800
+
+[value]
+	8640
+
+[cool time]
+	10000
+
+[physical attack]
+	9
+
+[equipment physical attack]
+	149	91
+
+[equipment magical attack]
+	112	68
+
+[separate attack]
+	63	37
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[variation]
+	0	8
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

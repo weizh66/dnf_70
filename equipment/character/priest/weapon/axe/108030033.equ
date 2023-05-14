@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	`艾麗絲的形像 - 雙刃斧`
+
+[basic explain]
+	`施展熱情的查克拉時消耗1個無色小晶塊施展回顧的屏障
+被回顧的屏障擊中時敵人在5秒內進入灼傷狀態
+灼傷狀態的敵人攻擊時10%% 附加傷害
+不可解體`
+
+[detail explain]
+	`施展熱情的查克拉時消耗1個無色小晶塊，施展回顧的屏障
+被回顧的屏障擊中時敵人 5秒內進入灼傷狀態，每0.5秒以 15的攻擊力給予傷害。
+灼傷狀態的敵人攻擊時10%% 附加傷害（決鬥場內5%% 附加傷害）
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[need material]
+	3338	1000
+
+[repair price]
+	127008
+
+[value]
+	120960
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	965	905
+
+[equipment magical attack]
+	683	641
+
+[separate attack]
+	481	327
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	89
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	27	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[use skill]
+		`priest`	47
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		48312	0	0	0	80	0
+		``
+	[/passive object]
+[/then]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

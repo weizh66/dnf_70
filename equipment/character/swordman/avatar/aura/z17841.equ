@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`銀色狂想`
+
+[explain]
+	``
+
+[grade]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura_cn.img`	17
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	77
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[physical attack]
+	50
+
+[magical attack]
+	50
+
+[physical defense]
+	50
+
+[magical defense]
+	50
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			30
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[aura ability]
+	`[solo teleport]`	4
+[/aura ability]
+
+[aurora graphic effects]
+	3	1
+	`Character/Common/Animation/Aura/chn_2014_white_area_front_normal.ani`	0
+	`Character/Common/Animation/Aura/chn_2014_white_area_back_normal.ani`	0
+	`Character/Common/Animation/Aura/chn_2014_white_area_back_dodge.ani`

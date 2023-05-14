@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	11
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	18
+[/pre required quest]
+
+[monster reward item]
+	3000	15	1	3107	1	100	1	3000	15	2	3107	1	100	1	3000	15	3	3107	1	100	1
+[/monster reward item]
+
+[depend give item]
+	3105	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3105	1	3107	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`巴卡爾的遺言`
+
+[depend message]
+	`為什么突然問我父親的事？ 你從哪知道巴卡爾的？ 賽麗亞說的？ 既然如此， 我就告訴你吧！
+在我的記憶里， 我父親對暗精靈世代相傳的飛行器摩伽陀有很深的興趣。 他喜歡坐摩伽陀往高處飛， 曾經到過天界， 和天界的巴卡爾有過交往。
+在我出生后， 父親更頻繁的和天界的巴卡爾見面。 后來天界發生戰爭， 我父親被連累了， 幸好他及時離開天界才保全了性命。
+我父親去世前留有遺言， 說如果以后無法通過天空之城， 就把巴卡爾的遺言交給城主宮殿的賽格哈特。
+我也不知道為什么， 但按我父親的說法， 應該是有了它就可以讓賽格哈特脫離魔法束縛了， 要不你拿去試試？ `
+
+[condition message]
+	`    拿著卡坤給的[巴卡爾的遺言]前往天空之城的『城主宮殿』， 擊敗領主光之城主賽格哈特， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`光之城主消失了？ 那你手上那個發光的物體是什么？ `
+
+[quest point]
+	4
+
+[reward int data]
+	0	100
+[/reward int data]

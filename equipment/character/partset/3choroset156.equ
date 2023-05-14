@@ -1,0 +1,90 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	113
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	117
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	117
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[knight]`	117
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[神光噴涌]冷卻時間 -15%%
+[神光閃影擊]冷卻時間 -20%%， 攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	118
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	118
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	119
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	119
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[神罰之錘]冷卻時間 -15%%
+[神罰之錘]攻擊力 +30%%
+[神光之躍]冷卻時間 -20%%
+[神光之躍]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	117
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	117
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1
+		`[knight]`	118
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	118
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[knight]`	119
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	119
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[神光閃影擊]冷卻時間 -20%%
+[神光閃影擊]多段攻擊次數 +5次
+[神罰之錘]冷卻時間 -20%%
+[神罰之錘]攻擊力 +25%%
+[神光之躍]冷卻時間 -20%%
+[神光之躍]攻擊力 +30%%`
+[/piece set ability]

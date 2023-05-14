@@ -1,0 +1,88 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	4057
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	92	-1	62161	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`狙擊手的較量`
+
+[depend message]
+	`狙擊手艾麗格？ 她不是死了嗎……難道卡勒特還懂得起死回生？
+什么， 這個女人要報復尼爾斯？ 好可怕的執念……尼爾斯， 你聽到了么？ 
+<apc::10611>是艾麗格的鬼魂嗎……有點驚悚哦！ 哈哈~
+<npc::17>你想逃跑嗎？
+<apc::10611>當然不會。 我要讓艾麗格知道， 我已經不是從前的我了！`
+
+[condition message]
+	`    與阻擊手尼爾斯一起前往海上列車的『霧都赫伊斯』， 擊敗狙擊手艾麗格。 (此任務只能獨自完成， 且在地下城中不可放棄)`
+
+[solve message]
+	`聽說艾麗格被改造成了機器人……看來， 卡勒特那幫家伙可不是好惹的。`
+
+[dialog]
+	0	0	12510	0	0	0	0
+	`<monster::56031>好久不見， 小鬼。 還嫌上次不夠丟臉嗎？
+<apc::10611>小鬼？ 哼， 我可不是當年的我了！
+<monster::56031>哦？ 那就試一試吧！ 準備射擊！！`
+[/dialog]
+
+[dialog]
+	0	0	12511	0	0	0	0
+	`<apc::10611>帶我去找艾麗格吧， 是時候了結我和她的這段關系了！`
+[/dialog]
+
+[dialog]
+	0	1	12510	0	0	0	0
+	`<monster::56031>這不可能……怎么會……我是絕對不可能失敗的……`
+[/dialog]
+
+[quest point]
+	4

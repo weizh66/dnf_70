@@ -1,0 +1,34 @@
+#PVF_File
+
+[name]
+	`精?`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/fairy_Basic.act`
+
+[last action]
+	`Action/fairy_Last.act`
+
+[attack info]
+	`attackinfo/fairy_Basic.atk`
+
+[hp max]
+	10000
+
+[hp destroy]
+	1
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	69313
+	[homing velocity]
+		280.0	80.0
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]

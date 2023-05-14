@@ -1,0 +1,44 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`為重新培育創造者玩家的活動產包。
+ 每個帳號只能購買一次。
+ 內有銀質金庫升級工具與可使用7天的高性能裝扮。
+ 銀質金庫升級工具可從商城道具欄兌換創造者起始產包1至角色道具欄時立即適用。 角色已持有銀質金庫以上時升級工具便消失。
+ 創造者用起始裝扮無法佩帶徽章，也無法染色、合成、解體。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	631
+
+[stackable type]
+	`[cera package]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[package data]
+	10000155	1	110	1
+[/package data]
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[suitable job]
+	`[mage]`
+[/suitable job]

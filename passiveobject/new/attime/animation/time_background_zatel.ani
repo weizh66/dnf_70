@@ -1,0 +1,53 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_space.img`
+		0
+	[IMAGE POS]
+		-200	-150
+	[IMAGE RATE]
+		2.0	2.0
+	[DELAY]
+		1700
+
+[FRAME001]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_space.img`
+		0
+	[IMAGE POS]
+		-200	-150
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	70
+	[DELAY]
+		300
+
+[FRAME002]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_space.img`
+		0
+	[IMAGE POS]
+		-200	-150
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	50
+	[DELAY]
+		200
+
+[FRAME003]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_space.img`
+		0
+	[IMAGE POS]
+		-200	-150
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	25
+	[DELAY]
+		100

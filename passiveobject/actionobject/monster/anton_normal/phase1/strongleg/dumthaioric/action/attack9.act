@@ -1,0 +1,44 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack3.ani`
+	[SPEECH]
+		`哈哈哈哈哈哈！`	0	100
+	[/SPEECH]
+	[SOUND]
+		`DTAIORIC_MOVE`	0
+		`DTAIORIC_SKILL_04`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[CHARACTER]
+	[GET TARGET]
+		1
+	[RANDOM]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			61158
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			-150	0	0
+	[/CREATE PASSIVEOBJECT]
+	[TELEPORT]
+		[POS]
+			-150	0	0
+		[MOVE ME]
+	[/TELEPORT]
+[/BEHAVIOR]

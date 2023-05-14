@@ -1,0 +1,39 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/NenCharge/NenCharge_00.img`
+		15
+	[IMAGE POS]
+		-365	-363
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		400
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/NenCharge/NenCharge_00.img`
+		15
+	[IMAGE POS]
+		-333	-332
+	[IMAGE RATE]
+		1.5	1.5
+	[IMAGE ROTATE]
+		0.6981319785118103
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

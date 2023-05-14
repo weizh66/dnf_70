@@ -1,0 +1,29 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/block.ani`
+	[SOUND]
+		`SPIRE_CRASH`	2
+		`R_SICHEF_SKILL_02`	0
+	[/SOUND]
+	[SPEECH]
+		`趕經過哪裡啊?`
+			0	50
+		`想從我這過？沒門！`
+			0	50
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		2	500
+[/BEHAVIOR]

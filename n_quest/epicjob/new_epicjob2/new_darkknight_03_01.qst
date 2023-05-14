@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[realization]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic swordman]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`黑暗武士 - 自我覺醒 (4/6)`
+
+[depend message]
+	`你最好和更強的對手戰斗。
+去感受他們身上的強烈氣息， 說不定你體內的潛力就會被自然而然地喚醒呢？
+這次去參加魂·青龍大會吧。 這里的參賽者們比起魂·黃龍大會的那些人高出不止一個境界， 我想在喚醒力量上， 沒有比青龍大會更好的機會了。
+那你去準備一下‘赫侖皇帝的印章’吧， 這就是參賽條件。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6868
+[/pre required quest]
+
+[relation quest]
+	6870
+
+[job change quest]
+	3
+
+[grow number]
+	0

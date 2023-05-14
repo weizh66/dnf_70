@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20529
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680397	20	2680398	20	2680399	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680394	3	2680395	3
+[/reward int data]
+
+[name]
+	`2周年慶活動 (2/4)`
+
+[depend message]
+	`呵呵， 終于把蛋糕胚弄好了， 但只有蛋糕胚是不能被稱為蛋糕的哦。
+嗯， 為了讓這蛋糕胚變成美麗可口的蛋糕， 我需要更多的材料。 冒險家， 你能幫我收集20個雞蛋、 20個白面粉和20個裝飾品嗎？
+呵呵， 只要冒險家愿意幫忙， 我就有信心讓這個蛋糕胚變成美味可口的蛋糕了！`
+
+[condition message]
+	`    收集20個[雞蛋]、 20個[白面粉]和20個[裝飾品]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`冒險家， 謝謝你！
+呵呵， 我們現在可以裝飾蛋糕了。`

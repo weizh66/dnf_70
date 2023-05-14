@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`成長的新紀元護肩-布甲`
+
+[basic explain]
+	`隨著人物成長（最高成長到LV90）。`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[repair price]
+	5000
+
+[icon]
+	`Item/new_equipment/02_cloth/neck/cloth_neck.img`	59
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	15
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[level linear ability]
+	1	90
+	[grade]
+		1	90
+	[equipment physical defense]
+		144	106	2130	2160
+	[physical attack]
+		10	40
+	[magical attack]
+		20	45
+	[magical defense]
+		20	85
+[/level linear ability]
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		78
+	[active status]
+		`bless`	28	21	21	21	21
+[/then]
+
+[limit upgradable level]
+	`normal upgrade`	30	54
+	`amplify upgrade`	55	90
+[/limit upgradable level]
+
+[impossible contents]
+	`disjoint`
+	`gift`
+[/impossible contents]
+
+[set item master]
+	111600
+
+[possible kiri protect]

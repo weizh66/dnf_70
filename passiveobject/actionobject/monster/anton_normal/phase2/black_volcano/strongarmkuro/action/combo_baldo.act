@@ -1,0 +1,61 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/combo_baldo1.ani`
+	[SUB ANI]
+		`../Animation/teleportend_normal.ani`	0	-3
+		`../Animation/teleportend_circle01.ani`	0	-2
+		`../Animation/teleportend_circle02.ani`	0	-1
+		`../Animation/combo_baldo1_1.ani`	0	1
+		`../Animation/combo_baldo1_1e.ani`	0	2
+		`../Animation/teleportend_circle03.ani`	0	3
+		`../Animation/teleportend_light01.ani`	0	4
+		`../Animation/teleportend_light02.ani`	0	5
+	[/SUB ANI]
+	[SOUND]
+		`ARDEN_GAUNTLET_TEL_02`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11440
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			240	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11441
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			110
+		[POS]
+			160	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

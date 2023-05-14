@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`咕嚕的指南針手環`
+
+[basic explain]
+	`    攻擊時， 有3%%的幾率使自身增加10%%的攻擊速度和10%%的物理暴擊率， 效果持續15秒。
+    前沖時， 有3%%的幾率使自身增加10%%的移動速度， 效果持續15秒。
+    施放技能時， 有5%%的幾率使自身增加12%%的施放速度和10%%的魔法暴擊率， 效果持續15秒。 `
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使自身增加10%%的攻擊速度和10%%的物理暴擊率， 效果持續15秒。 (冷卻時間15秒)
+    前沖時， 有3%%的幾率使自身增加10%%的移動速度， 效果持續15秒。 (冷卻時間15秒)
+    施放技能時， 有5%%的幾率使自身增加12%%的施放速度和10%%的魔法暴擊率， 效果持續15秒。 (冷卻時間15秒)`
+
+[flavor text]
+	`    有了這個指南針， 媽媽再也不用擔心我迷路了！`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[need material]
+	10000204	32
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	107
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[duration]
+		15000
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`physical critical hit`
+		`+`	10
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`dash`
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[duration]
+		15000
+	[stat]
+		`move speed`
+		`+`	100
+[/then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[duration]
+		15000
+	[stat]
+		`cast speed`
+		`+`	120
+	[stat]
+		`magical critical hit`
+		`+`	10
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`改造式柯達奇`
+
+[basic explain]
+	`攻擊時以2%%機率使敵人陷入詛咒狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率在10秒內讓敵人陷入詛咒狀態，力量減少50，體力減少50，智能減少50，精神力減少50。 （比Lv72高的目標陷入狀態機率較低，比 Lv72低的目標陷入狀態機率較高。）`
+
+[grade]
+	72
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	45
+
+[magical attack]
+	68
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[MP MAX]
+	100
+
+[price]
+	100800
+
+[repair price]
+	84672
+
+[value]
+	80640
+
+[equipment physical attack]
+	612	593
+
+[equipment magical attack]
+	676	655
+
+[separate attack]
+	318	215
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	13	1
+	`[swordman]`	111	1
+	`[swordman]`	112	1
+	`[swordman]`	47	1
+	`[demonic swordman]`	111	1
+	`[demonic swordman]`	112	1
+	`[demonic swordman]`	13	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/swordman/katana.img`	89
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	28	3
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	28	3
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`curse`	72	50	50	50	50
+[/then]
+
+[possible kiri protect]

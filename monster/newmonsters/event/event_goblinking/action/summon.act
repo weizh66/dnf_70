@@ -1,0 +1,167 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/summon.ani`
+	[SUB ANI]
+		`../Animation/summon_effect.ani`	0	20
+	[/SUB ANI]
+	[SPEECH]
+		`保護我！我的哥布林們！`	0	100
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			64512
+		[LEVEL]
+			0
+		[POS]
+			200	-30	0
+		[NO EFFECT]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			64513
+		[LEVEL]
+			0
+		[POS]
+			-200	-30	0
+		[NO EFFECT]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			64514
+		[LEVEL]
+			0
+		[POS]
+			0	70	0
+		[NO EFFECT]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		11	11
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		4	5	6
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+	[ATTACK]
+		2	2
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		2	3
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		2	4
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		2	5
+	[ON]
+	[SET ACTION]
+	[ATTACK]
+		2
+	[END]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+	[ATTACK]
+		3	2
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		3	3
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		3	4
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		3	5
+	[ON]
+	[SET ACTION]
+	[ATTACK]
+		3
+	[END]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+	[ATTACK]
+		4	2
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		4	3
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		4	4
+	[ON]
+	[TRIGGER]
+	[ATTACK]
+		4	5
+	[ON]
+	[SET ACTION]
+	[ATTACK]
+		4
+	[END]
+[/BEHAVIOR]

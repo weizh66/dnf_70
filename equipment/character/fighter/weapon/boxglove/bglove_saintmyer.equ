@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	` 賢者拳套`
+
+[basic explain]
+	`攻擊時以2%%的機率讓敵人陷入氣絕狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人2秒內陷入氣絕狀態。 (若敵人高於Lv34，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	36
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	34
+
+[physical attack]
+	24
+
+[attack speed]
+	100
+
+[price]
+	57600
+
+[repair price]
+	46080
+
+[value]
+	46080
+
+[equipment physical attack]
+	340	323
+
+[equipment magical attack]
+	308	293
+
+[separate attack]
+	161	107
+
+[skill levelup]
+	`[fighter]`	6	2
+	`[fighter]`	4	1
+	`[at fighter]`	6	2
+	`[at fighter]`	4	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	8
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	8
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	8
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	34
+[/then]
+
+[possible kiri protect]

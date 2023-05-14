@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`冰雪精靈的紅色冰靴`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	15
+
+[icon]
+	`item/avatar/mage/mg_ashoes.img`	203
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[sub type]
+	0
+
+[avatar func filter]
+	0
+
+[variation]
+	63	0
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[physical defense]
+	8
+
+[magical attack]
+	8
+
+[move speed]
+	30
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2

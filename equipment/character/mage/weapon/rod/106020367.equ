@@ -1,0 +1,4846 @@
+#PVF_File
+
+[name]
+	`進化的禦魂之杖`
+
+[basic explain]
+	`    施放技能時， 有20%%的幾率增加180點的智力， 效果持續10秒。
+    施放技能時，有10%%的幾率增加10%%的魔法暴擊率，效果持續10秒。
+    釋放技能時，有5%%的幾率增加12%%的魔法攻擊力效果持續10秒。`
+
+[detail explain]
+	`    施放技能時， 有20%%的幾率增加180點的智力， 效果持續10秒。 (解除裝備效果消失，最多疊加1次；冷卻時間5秒）
+    施放技能時，有10%%的幾率增加10%%的魔法暴擊率，效果持續10秒（解除裝備后效果消失；最多疊加1次；冷卻時間5秒）
+    釋放技能時，有5%%的幾率增加12%%的魔法攻擊力效果持續10秒。（解除裝備后效果消失；冷卻時間10秒）`
+
+[flavor text]
+	`    禦魂之杖進化，進化的禦魂之杖`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	92
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	819	733
+
+[equipment magical attack]
+	1002	895
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/mage/rod/rod.img`	134
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	44	0
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[if]
+	[event use skill]
+		`mage`	1
+		`at mage`	1
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	2
+		`at mage`	2
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+	[restore]
+		`hp`
+		`%`	0	0
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	3
+		`at mage`	3
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	4
+		`at mage`	4
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+	[restore]
+		`hp`
+		`%`	0	0
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	5
+		`at mage`	5
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	6
+		`at mage`	6
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	7
+		`at mage`	7
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	8
+		`at mage`	8
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	9
+		`at mage`	9
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	10
+		`at mage`	10
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	11
+		`at mage`	11
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	12
+		`at mage`	12
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	13
+		`at mage`	13
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	14
+		`at mage`	14
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	15
+		`at mage`	15
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	16
+		`at mage`	16
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	17
+		`at mage`	17
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	18
+		`at mage`	18
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	19
+		`at mage`	19
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	20
+		`at mage`	20
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+		`at mage`	21
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+		`at mage`	22
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+		`at mage`	23
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+		`at mage`	24
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	25
+		`at mage`	25
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	26
+		`at mage`	26
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	27
+		`at mage`	27
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	28
+		`at mage`	28
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	29
+		`at mage`	29
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	30
+		`at mage`	30
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	31
+		`at mage`	31
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	32
+		`at mage`	32
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	33
+		`at mage`	33
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	34
+		`at mage`	34
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	35
+		`at mage`	35
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	36
+		`at mage`	36
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	37
+		`at mage`	37
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	38
+		`at mage`	38
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	39
+		`at mage`	39
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	40
+		`at mage`	40
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	41
+		`at mage`	41
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	42
+		`at mage`	42
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	43
+		`at mage`	43
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	44
+		`at mage`	44
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	45
+		`at mage`	45
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	46
+		`at mage`	46
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	47
+		`at mage`	47
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	48
+		`at mage`	48
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	49
+		`at mage`	49
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	50
+		`at mage`	50
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	51
+		`at mage`	51
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	52
+		`at mage`	52
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	53
+		`at mage`	53
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	54
+		`at mage`	54
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	55
+		`at mage`	55
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	56
+		`at mage`	56
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	57
+		`at mage`	57
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	58
+		`at mage`	58
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	59
+		`at mage`	59
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	60
+		`at mage`	60
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	61
+		`at mage`	61
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	62
+		`at mage`	62
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	63
+		`at mage`	63
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	64
+		`at mage`	64
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	65
+		`at mage`	65
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	66
+		`at mage`	66
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	67
+		`at mage`	67
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	68
+		`at mage`	68
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	69
+		`at mage`	69
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	70
+		`at mage`	70
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	71
+		`at mage`	71
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	72
+		`at mage`	72
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	73
+		`at mage`	73
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	74
+		`at mage`	74
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	75
+		`at mage`	75
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	76
+		`at mage`	76
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	77
+		`at mage`	77
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	78
+		`at mage`	78
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	79
+		`at mage`	79
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	80
+		`at mage`	80
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	81
+		`at mage`	81
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	82
+		`at mage`	82
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	83
+		`at mage`	83
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	84
+		`at mage`	84
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	85
+		`at mage`	85
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	86
+		`at mage`	86
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	87
+		`at mage`	87
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	88
+		`at mage`	88
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	89
+		`at mage`	89
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	90
+		`at mage`	90
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	91
+		`at mage`	91
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	92
+		`at mage`	92
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	93
+		`at mage`	93
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	94
+		`at mage`	94
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	95
+		`at mage`	95
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	96
+		`at mage`	96
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	97
+		`at mage`	97
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	98
+		`at mage`	98
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	99
+		`at mage`	99
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	100
+		`at mage`	100
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	101
+		`at mage`	101
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	102
+		`at mage`	102
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	103
+		`at mage`	103
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	104
+		`at mage`	104
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	105
+		`at mage`	105
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	106
+		`at mage`	106
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	107
+		`at mage`	107
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	108
+		`at mage`	108
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	109
+		`at mage`	109
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	110
+		`at mage`	110
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	111
+		`at mage`	111
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	112
+		`at mage`	112
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	113
+		`at mage`	113
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	114
+		`at mage`	114
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	115
+		`at mage`	115
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	116
+		`at mage`	116
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	117
+		`at mage`	117
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	118
+		`at mage`	118
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	119
+		`at mage`	119
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	120
+		`at mage`	120
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	121
+		`at mage`	121
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	122
+		`at mage`	122
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	123
+		`at mage`	123
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	124
+		`at mage`	124
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	125
+		`at mage`	125
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	126
+		`at mage`	126
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	127
+		`at mage`	127
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	128
+		`at mage`	128
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	129
+		`at mage`	129
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	130
+		`at mage`	130
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		700
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	1
+		`at mage`	1
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	2
+		`at mage`	2
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	3
+		`at mage`	3
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	4
+		`at mage`	4
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	5
+		`at mage`	5
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	6
+		`at mage`	6
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	7
+		`at mage`	7
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	8
+		`at mage`	8
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	9
+		`at mage`	9
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	10
+		`at mage`	10
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	11
+		`at mage`	11
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	12
+		`at mage`	12
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	13
+		`at mage`	13
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	14
+		`at mage`	14
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	15
+		`at mage`	15
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	16
+		`at mage`	16
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	17
+		`at mage`	17
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	18
+		`at mage`	18
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	19
+		`at mage`	19
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	20
+		`at mage`	20
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	21
+		`at mage`	21
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	22
+		`at mage`	22
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	23
+		`at mage`	23
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	24
+		`at mage`	24
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	25
+		`at mage`	25
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	26
+		`at mage`	26
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	27
+		`at mage`	27
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	28
+		`at mage`	28
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	29
+		`at mage`	29
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	30
+		`at mage`	30
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	31
+		`at mage`	31
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	32
+		`at mage`	32
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	33
+		`at mage`	33
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	34
+		`at mage`	34
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	35
+		`at mage`	35
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	36
+		`at mage`	36
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	37
+		`at mage`	37
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	38
+		`at mage`	38
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	39
+		`at mage`	39
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	40
+		`at mage`	40
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	41
+		`at mage`	41
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	42
+		`at mage`	42
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	43
+		`at mage`	43
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	44
+		`at mage`	44
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	45
+		`at mage`	45
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	46
+		`at mage`	46
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	47
+		`at mage`	47
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	48
+		`at mage`	48
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	49
+		`at mage`	49
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	50
+		`at mage`	50
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	51
+		`at mage`	51
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	52
+		`at mage`	52
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	53
+		`at mage`	53
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	54
+		`at mage`	54
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	55
+		`at mage`	55
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	56
+		`at mage`	56
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	57
+		`at mage`	57
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	58
+		`at mage`	58
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	59
+		`at mage`	59
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	60
+		`at mage`	60
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	61
+		`at mage`	61
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	62
+		`at mage`	62
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	63
+		`at mage`	63
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	64
+		`at mage`	64
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	65
+		`at mage`	65
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	66
+		`at mage`	66
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	67
+		`at mage`	67
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	68
+		`at mage`	68
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	69
+		`at mage`	69
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	70
+		`at mage`	70
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	71
+		`at mage`	71
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	72
+		`at mage`	72
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	73
+		`at mage`	73
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	74
+		`at mage`	74
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	75
+		`at mage`	75
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	76
+		`at mage`	76
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	77
+		`at mage`	77
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	78
+		`at mage`	78
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	79
+		`at mage`	79
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	80
+		`at mage`	80
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	81
+		`at mage`	81
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	82
+		`at mage`	82
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	83
+		`at mage`	83
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	84
+		`at mage`	84
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	85
+		`at mage`	85
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	86
+		`at mage`	86
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	87
+		`at mage`	87
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	88
+		`at mage`	88
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	89
+		`at mage`	89
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	90
+		`at mage`	90
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	91
+		`at mage`	91
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	92
+		`at mage`	92
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	93
+		`at mage`	93
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	94
+		`at mage`	94
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	95
+		`at mage`	95
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	96
+		`at mage`	96
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	97
+		`at mage`	97
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	98
+		`at mage`	98
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	99
+		`at mage`	99
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	100
+		`at mage`	100
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	101
+		`at mage`	101
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	102
+		`at mage`	102
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	103
+		`at mage`	103
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	104
+		`at mage`	104
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	105
+		`at mage`	105
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	106
+		`at mage`	106
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	107
+		`at mage`	107
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	108
+		`at mage`	108
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	109
+		`at mage`	109
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	110
+		`at mage`	110
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	111
+		`at mage`	111
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	112
+		`at mage`	112
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	113
+		`at mage`	113
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	114
+		`at mage`	114
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	115
+		`at mage`	115
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	116
+		`at mage`	116
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	117
+		`at mage`	117
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	118
+		`at mage`	118
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	119
+		`at mage`	119
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	120
+		`at mage`	120
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	121
+		`at mage`	121
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	122
+		`at mage`	122
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	123
+		`at mage`	123
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	124
+		`at mage`	124
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	125
+		`at mage`	125
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	126
+		`at mage`	126
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	127
+		`at mage`	127
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	128
+		`at mage`	128
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	129
+		`at mage`	129
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	130
+		`at mage`	130
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		701
+[/then]
+
+[possible kiri protect]

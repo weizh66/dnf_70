@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`真： 暴戾搜捕團祭司諾比斯卡片`
+
+[flavor text]
+	`我的紫色意味著神聖！ 你的意味著什么？`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	4
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	165
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[shoulder]`
+	`[waist]`
+	`[shoes]`
+[/string data]
+
+[int data]
+	165	56753
+[/int data]
+
+[enchant]
+	[pvp]
+		[physical defense]
+			35
+		[magical defense]
+			35
+	[/pvp]
+[/enchant]
+
+[stat desc]
+	`下列屬性只適用于決鬥場。`
+
+[item category]
+	`monster card`
+[/item category]

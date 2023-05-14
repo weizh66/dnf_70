@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	26
+
+[complete npc index]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	4445
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	28
+[/int data]
+
+[dungeon info]
+	1502	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 艾麗絲的占卦`
+
+[depend message]
+	`摩根根據他自己在諾伊佩拉發現的線索做了一些推斷， 我大體同意他的推論， 你看這句……
+‘他(某人)利用異次元裂縫將狄瑞吉轉移到了某個地方。
+在轉移過程中， 異次元裂縫意外地在諾伊佩拉開啟， 泄露了一部分狄瑞吉的氣息……’
+如果摩根的推論正確， 那么諾伊佩拉爆發的傳染病就不是人類故意造成的。
+那么艾麗絲的占卜又該怎么理解呢？ 一直和暗精靈友好相處的她， 為什么要撒謊？
+我一定要找艾麗絲問清楚。`
+
+[condition message]
+	`    找艾麗絲談談。`
+
+[solve message]
+	`黑暗中帶著銳利氣息的人啊， 你是來尋找真相的么？`
+
+[quest point]
+	4

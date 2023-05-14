@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	54	99
+
+[pre required quest]
+	4567
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	45	-1	61456	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	15000	1138	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`決戰斯卡薩！`
+
+[depend message]
+	`你一直把班圖的事當作自己的事來操心， 我很感激。 但這次不同， 我真的不好意思向你開口了。
+是嗎……？ 要知道這次也許會丟掉性命……好吧， 既然你已經決定了， 我再推辭就不對了。
+不過有件事我一直很擔心， 我們班圖族的戰士對那條龍的恐懼已經深深印在心里。 一旦真正面對它， 不知道他們能不能發揮出真正的實力呢……
+我想， 如果你能用堅強的意志和強大的力量從龍的巢穴里安然歸來， 我的戰士們一定會士氣大振。 我把這些東西交給你！ 愿雪山的勇猛和靈魂， 還有我們的友情照亮你前進的道路， 請你務必活著回來！`
+
+[condition message]
+	`    通關萬年雪山的『斯卡薩之巢』。`
+
+[solve message]
+	`大家看到了嗎！ 站在你們面前的， 就是那位和斯卡薩抗爭之后安然歸來的英雄！`
+
+[dialog]
+	0	0	9310	0	0	0	0
+	` <monster::61456>那卑微的人類， 竟然有一天會挑戰我的龍威， 難道時間過去很久了嗎……
+這世界將會由‘那個人’來統治， 在他到來之前， 我斯卡薩會盡職為他鋪路的！`
+[/dialog]
+
+[quest point]
+	4

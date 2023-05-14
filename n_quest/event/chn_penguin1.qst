@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	2
+
+[complete npc index]
+	45
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7342	12	7343	6	7344	7
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7347	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找企鵝圍巾 - 1`
+
+[depend message]
+	`游歷阿拉德大陸的冒險家， 您聽說了嗎？ 最近發生了一件大事呢！ 傳說大陸的最南端， 有一個常年被冰雪覆蓋的企鵝王國， 那里住著一群非常可愛的企鵝， 他們守護著具有神秘力量的七彩鉆石。
+很不幸的是， 阿拉德大陸那些被異變影響而變得狂暴的怪物， 一直蓄謀搶占企鵝王國的七彩鉆石……
+由于那里的天氣異常寒冷， 企鵝們必須依靠一種特制的圍巾才能抵御嚴寒。 那些狂暴的怪物們不知從哪里打聽到這個消息， 把企鵝們編織圍巾的材料給奪走了。
+我還聽說， 如果找不回那些毛線團、 羽毛和紅色染色劑， 無法抵抗酷寒的企鵝王國也許就會……就會……那真是太可怕了！
+那些毛線團是編織圍巾的主要材料， 如果您能找到它們， 就拿給赫頓瑪爾的歌蘭蒂斯吧， 她可能知道這是怎么回事。`
+
+[condition message]
+	`<七鉆閃耀活動>  前往任意的地下城， 收集12個[毛線團]、 6個[羽毛]和7瓶[紅色染色劑]交給赫頓瑪爾的歌蘭蒂斯。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`我是負責指引圣職者的歌蘭蒂斯， 你找我有事嗎？`

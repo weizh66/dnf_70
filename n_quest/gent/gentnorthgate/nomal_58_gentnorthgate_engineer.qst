@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4261
+[/pre required quest]
+
+[monster reward item]
+	56021	88	2	4443	1	70	100	56021	88	3	4443	1	80	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4443	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	2000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`機械分解師`
+
+[depend message]
+	`據說卡勒特軍隊中有幾個專業的機械分解師， 他們常常隨身攜帶著分解機械的各種裝備。
+聽用過的人說， 這套裝備工具齊全、 做工精良， 是所有機械師夢寐以求的東西。
+可惜啊~怎么會在那些人的手里， 這不是浪費嘛！ 要不你去幫我收集一些？ 我相信卡勒特的那些家伙絕對不是你的對手！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特北門』， 從機械分解師身上收集3個[機械分解裝備]交給梅爾文·里克特， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`嘿， 你竟然找到了一套完整的裝備， 不錯。 謝啦！`

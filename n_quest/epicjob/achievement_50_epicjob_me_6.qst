@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	957
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	33662	1	33963	1	33366	1	33062	1	34224	1
+[/reward selection int data]
+
+[relation quest]
+	959
+
+[name]
+	`覺醒 - 月之女皇 (2/4)`
+
+[depend message]
+	`只有召喚界的達人才能成為‘月之女皇’的一員。 而你？ 我想你需要向我展示下你的實力， 這樣我才能判斷你有沒有資格。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`還算不錯！`

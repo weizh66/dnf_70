@@ -1,0 +1,19 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`boom_26.ani`
+[/MOTION]
+
+[TIRGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TIRGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		5	2000
+[/BEHAVIOR]

@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`龍族的威嚴 (男法師1)`
+
+[explain]
+	`  穿戴光環裝扮時， 遊戲畫面左側會產生相應的光環圖標。 單擊圖標， 可以移動到目標NPC或玩家面前。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atmage/mm_aura_cn.img`	6
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[aura hud icon]
+	46
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[aura ability]
+	`[solo teleport]`	420
+[/aura ability]
+
+[aurora graphic effects]
+	4	1
+	`Character/Common/Animation/Aura/2013_yellow_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/2013_yellow_back_dodge.ani`	0
+	`Character/Common/Animation/Aura/2013_yellow_back_normal.ani`	0
+	`Character/Common/Animation/Aura/2013_yellow_front_normal.ani`

@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`本藍龍`
+
+[basic explain]
+	`鬼神?冰霜薩亞、結冰的薩亞、冰刃 · 波動劍、極冰刃 · 波動劍冰凍等級增加6 
+冰凍狀態的敵人攻擊時7%% 附加傷害
+HP 20%% 以下被攻擊時500px 範圍內的所有敵人在2秒內陷入冰凍狀態`
+
+[detail explain]
+	`鬼神?冰霜薩亞，結冰的薩亞，冰刃 · 波動劍，極冰刃 · 波動劍冰凍等級增加6。
+冰凍狀態的敵人攻擊時7%% 附加傷害
+HP 20%% 以下遭受攻擊時，500px 範圍內的所有敵人在2秒內進入冰凍狀態。（高於Lv84的對象得到的機率和效果減少，低於Lv84的對象則會增加）`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[cast speed]
+	20
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	764	716
+
+[equipment magical attack]
+	925	867
+
+[separate attack]
+	481	327
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	21	1
+	`[swordman]`	100	1
+	`[swordman]`	96	1
+	`[swordman]`	36	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	92
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[target active status]
+		`freeze`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	7
+[/then]
+
+[if]
+	[hit]
+		1
+	[stat change]
+		`hp`
+		`<`
+		`%`	20
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		2000
+	[probability]
+		100
+	[active status]
+		`freeze`	84
+[/then]
+
+[skill data up]
+	`[swordman]`	21
+	`[dungeon type]`
+	`[level]`	5
+	`+`	6
+	`[swordman]`	100
+	`[dungeon type]`
+	`[level]`	5
+	`+`	6
+	`[swordman]`	96
+	`[dungeon type]`
+	`[level]`	3
+	`+`	6
+	`[swordman]`	36
+	`[dungeon type]`
+	`[level]`	3
+	`+`	6
+[/skill data up]
+
+[possible kiri protect]

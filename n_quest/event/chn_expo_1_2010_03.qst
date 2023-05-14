@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	17
+
+[complete npc index]
+	17
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680382	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680385	2
+[/reward int data]
+
+[name]
+	`快樂之心`
+
+[depend message]
+	`歡迎光臨~有什么需要我幫忙的？
+噢， 你不是來買東西的啊？ 好吧， 看在你是做好事的份上， 我就幫你一次吧。
+你聽賽麗亞說了吧， 給我收集“塑料和廢紙”就行了， 加油啊！`
+
+[condition message]
+	`    收集10個[塑料和廢紙]交給凱麗。`
+
+[solve message]
+	`冒險家~真是太感謝了~祝你每天都開心~`

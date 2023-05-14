@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	47	99
+
+[pre required quest]
+	2606
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3215	13
+[/int data]
+
+[first int data]
+	3215	1
+[/first int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4152	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`野生之破魔石`
+
+[depend message]
+	`呵呵， 我只給被歐格羅斯呼喚過的人制作野生之破魔石， 你有被他呼喚過嗎？ 如果沒有， 我就不能給你制作啊。 `
+
+[condition message]
+	`    為了挑戰萬年雪山和阿法利亞地區的深淵派對， 需先制作[野生之破魔石]！ 請收集13張[狂亂惡魔的邀請函]交給歌蘭蒂斯。`
+
+[first condition message]
+	`((后續確認`
+
+[solve message]
+	`神圣的力量啊， 請您助我抑制邪惡！`
+
+[quest point]
+	0

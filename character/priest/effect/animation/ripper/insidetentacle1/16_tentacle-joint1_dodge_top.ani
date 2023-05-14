@@ -1,0 +1,51 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		910
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/Ripper/16_tentacle-joint1_dodge_top.img`
+		0
+	[IMAGE POS]
+		51	-79
+	[IMAGE ROTATE]
+		0.19198599457740784
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/Ripper/16_tentacle-joint1_dodge_top.img`
+		0
+	[IMAGE POS]
+		275	-82
+	[IMAGE RATE]
+		0.5600000023841858	1.0
+	[IMAGE ROTATE]
+		0.10471999645233154
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70

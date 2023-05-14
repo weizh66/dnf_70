@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`傳承 : 天馬守護神的鉑金護肩`
+
+[grade]
+	82
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	42
+
+[magical attack]
+	32
+
+[physical defense]
+	34
+
+[attack speed]
+	45
+
+[HP MAX]
+	450
+
+[price]
+	65600
+
+[repair price]
+	55104
+
+[value]
+	52480
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2720	2656
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/new_equipment/05_harmor/neck/harmor_neck.img`	15
+
+[field image]
+	`Item/field_equip.img`	12
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[shoulder]`	18
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[set name]
+	`傳承 : 天馬守護神的鉑金戰衣  套裝`
+
+[set item]
+	100080121	100130117	100180108	100230108	100280095
+[/set item]
+
+[piece set ability]
+	5
+	[physical attack]
+		90
+	[magical attack]
+		90
+	[physical defense]
+		90
+	[HP MAX]
+		500
+	[MP MAX]
+		260
+	[attack speed]
+		65
+	[cast speed]
+		30
+	[move speed]
+		60
+	[stuck]
+		-2
+	[skill levelup]
+		`[gunner]`	108	1
+		`[at swordman]`	42	1
+		`[at gunner]`	108	1
+		`[fighter]`	104	1
+		`[at fighter]`	123	1
+		`[swordman]`	101	1
+		`[priest]`	134	1
+		`[demonic swordman]`	65	3
+		`[swordman]`	76	1
+		`[at swordman]`	32	1
+		`[gunner]`	62	1
+		`[at gunner]`	62	1
+		`[fighter]`	44	2
+		`[at fighter]`	44	2
+		`[priest]`	121	2
+	[/skill levelup]
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`physical critical hit rate`
+			`+`	7
+		[stat by condition]
+			`magical critical hit rate`
+			`+`	7
+	[/then]
+	[parameter basic explain]
+		`進入地下城時， 因傳承的祝福增加自身7%%的物理暴擊率和7%%的魔法暴擊率。`
+[/piece set ability]
+
+[possible kiri protect]

@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`Avatar Finish Attack`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/effect/animation/avatardance/avatardance_e01_eff01.ani`
+
+[attack info]
+	`AttackInfo/AvatarFinish.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

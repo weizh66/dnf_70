@@ -1,0 +1,75 @@
+#PVF_File
+
+[name]
+	`綠色噴泉`
+
+[explain]
+	``
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	64
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	112
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[physical attack]
+	15
+
+[physical defense]
+	15
+
+[magical attack]
+	15
+
+[magical defense]
+	15
+
+[room list move speed rate]
+	0.1
+
+[separate attack]
+	50	50
+
+[aurora graphic effects]
+	4	1
+	`Character/Common/Animation/Aura/15_pirate/Pirate_green_frontNomal.ani`	1
+	`Character/Common/Animation/Aura/15_pirate/Pirate_green_frontDodge.ani`	0
+	`Character/Common/Animation/Aura/15_pirate/Pirate_green_backNomal.ani`	0
+	`Character/Common/Animation/Aura/15_pirate/Pirate_green_backDodge.ani`
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]

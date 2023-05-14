@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 不滅戰神 (1/6)`
+
+[depend message]
+	`我聽說你最近在瘋狂尋找不滅戰神， 你究竟是為了什么在盲目地尋找他呢？
+你先停下來跟我談一談吧。 誰知道呢？ 說不定我這里剛好就有你想要的線索。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`喂， 冷靜點好嗎？ 這是在干什么？
+好， 冷靜下來聽我說。 哎， 性子這么急， 怎么成大事？
+那先告訴我， 你為什么想去找不滅戰神。
+你說你只是想會會他？ 你確定你不是想打敗他， 成為獨一無二的不滅戰神？
+難道你是想走上一條不歸路， 從此成為眾人鄙夷的游蕩在戰場上的惡鬼嗎？`
+
+[target character]
+	`[demonic lancer]`	1	1
+[/target character]
+
+[relation quest]
+	6859
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,165 @@
+#PVF_File
+
+[name]
+	`神諭之信念`
+
+[basic explain]
+	`    施放[緩慢愈合]時， 有50%%的幾率不受冷卻時間影響。
+    施放[圣愈之風]時， 可使隊員增加物理防御力和魔法防御力。`
+
+[detail explain]
+	`    施放[緩慢愈合]時， 有50%%的幾率不受冷卻時間影響。
+    施放[圣愈之風]時， 可以使隊員們增加1500點物理防御力和魔法防御力， 效果持續30秒。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/cross.img`	71
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical defense]
+	53
+
+[magical attack]
+	42
+
+[magical defense]
+	53
+
+[equipment physical attack]
+	572	524
+
+[equipment physical defense]
+	620	610
+
+[equipment magical attack]
+	543	498
+
+[equipment magical defense]
+	620	610
+
+[separate attack]
+	360	243
+
+[cast speed]
+	20
+
+[skill levelup]
+	`[priest]`	45	3
+[/skill levelup]
+
+[variation]
+	3	2
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[if]
+	[event use skill]
+		`priest`	51
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill data up]
+		`[priest]`	51
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	26
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		30000
+	[stat]
+		`equipment physical defense`
+		`+`	1500
+	[stat]
+		`equipment magical defense`
+		`+`	1500
+[/then]
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[possible kiri protect]

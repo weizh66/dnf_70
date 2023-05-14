@@ -1,0 +1,157 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`主人，其實人類也不錯呀，他們活得很滋潤吶……`
+		`嘿嘿，終于找到好玩的地方了……`
+		`我的力量在恢復，主人你再等等~~~`
+		[in elven gard]
+			`風和日麗，陽光明媚，真是個快樂的季節！`
+		[/in elven gard]
+		[in alfhlyra]
+			`我討厭黑暗的地方……`
+		[/in alfhlyra]
+		[in stom pass]
+			`這就是傳說中的雪嗎？也沒什么特別的感覺嘛……- -……`
+		[/in stom pass]
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`肚子越來越餓，漸漸地……感到沒有力氣了……`
+			`肚子越來越餓，漸漸地……感到沒有力氣了……`
+			`肚子越來越餓，漸漸地……感到沒有力氣了……`
+		[/fill point under]
+		[enemies alive]
+			[hits over]
+				20
+				`我多使用一次幻盾，主人就多一分安全……`
+				`我沒辦法防禦主人背后，主人自己要小心。`
+			[/hits over]
+			[hits under]
+				21
+				`主人你太厲害了，我都沒機會表現了！`
+				`主人，我只負責正面防禦，你要小心背后。`
+			[/hits under]
+		[/enemies alive]
+		[enemies destroyed]
+		[rank over]
+			`b`
+			`嗯，不錯，有王者的霸氣！`
+			`主人，老刷BOSS太無聊了，偶爾也來個全刷嘛！`
+		[/rank over]
+		[rank under]
+			`b`
+			`主人，打不過它們就快跑，別勉強~`
+			`主人，這就是過于依賴我的防禦力的下場哦~~`
+		[/rank under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`新名字？好的！以后就這么叫我吧~`
+		[/renamed]
+		[pop random]
+			30
+			[call the name]
+				`主人別喊了，我不會讓它們靠近你的！`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			20
+			[equip]
+				`嘿！哈！看到我高興吧？`
+				`主人，格擋就交給我吧！`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`為了主人，讓我變成堅硬的屏障吧！`
+				`主人，從今以后，防禦的事都可以交給我了！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`哇，我家主人升級了，大家快來祝賀啊！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+		[eat feed]
+			`這東西挺好吃的，主人可以再給我兩個嗎？`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`我恢復力氣了，主人可以稍微休息一下了！`
+			`這食物很香，主人從哪弄來的，可以告訴我嗎？`
+		[/eat feed]
+		[none feed]
+			`沒有食物了，看來我也撐不了多久了……T_T……`
+		[/none feed]
+		[end buff]
+			`食物的效果消失了，好捨不得啊……`
+		[/end buff]
+		[dying]
+			`主人再不給我食物，我只好含恨離開了！`
+		[/dying]
+		[using overskill]
+			`大地守護！！`
+			`我以大地的名義！！消滅你！！！`
+		[/using overskill]
+		[pop random]
+			30
+			[skill gauge full]
+				`幻盾！`
+				`幻盾準備！`
+			[/skill gauge full]
+		[/pop random]
+		[pop random]
+			30
+			[over skill gauge full]
+				`大地守護準備！`
+				`主人，說過很多次了，防禦就交給我吧！！`
+			[/over skill gauge full]
+		[/pop random]
+		[over skill waiting]
+			`主人，你想等到和高手戰斗時使用嗎？`
+			`老是讓我等待……主人，你存心想磨練我的忍耐力瑪？`
+		[/over skill waiting]
+		[call the name]
+			`主人別喊了，我不會讓它們靠近你的！`
+		[/call the name]
+		[pop random]
+			20
+			[equip]
+				`嘿！哈！看到我高興吧？`
+				`主人，格擋就交給我吧！`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`為了主人，讓我變成堅硬的屏障吧！`
+				`主人，從今以后，防禦的事都可以交給我了！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`哇，我家主人升級了，大家快來祝賀啊！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+	[/main game]
+	[pvp]
+		[press creature button]
+			`主人，我會幫你提高硬直，這對你很有用。`
+		[/press creature button]
+	[/pvp]
+[/trigger]

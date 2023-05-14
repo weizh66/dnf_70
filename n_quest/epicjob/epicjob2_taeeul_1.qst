@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 真龍星君 (1/2)`
+
+[depend message]
+	`親愛的教友， 很高興在你離開教團這么久后還能再次見到你。
+之前雷米迪亞這邊也表示過， 教團不會怨恨那些離開的人， 雖然我們現在有不同的信仰， 但是大家想拯救阿拉德的心還是一致的， 所以我們依然會把你們當作是戰友。
+如果你們也認可的話， 請不要把我們看作是外人。 遇到麻煩的時候， 也可以想想還有我們。
+就比如你們現在在尋找的四神寺， 我們也收到了一些消息。 據說只要得到四神的認可， 便可以獲得真龍之力。 如果能駕馭這股力量， 幾乎就等同于自身成為了神。
+只不過這個真龍試煉非常兇險， 隨時可能丟掉性命。 如果你還想繼續， 可以來找我， 我會指引你下一步要做什么。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`有這股決心， 我相信你一定能得到四神的認可的！`
+
+[pre required quest]
+	5324
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12849
+
+[job change quest]
+	3
+
+[grow number]
+	0

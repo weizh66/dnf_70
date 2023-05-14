@@ -1,0 +1,71 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Abnoba/fire/Stera/floor_dodge.img`
+		0
+	[IMAGE POS]
+		-251	-317
+	[IMAGE RATE]
+		1.0	0.5699999928474426
+	[RGBA]
+		255	255	255	10
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		510
+
+[FRAME001]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Abnoba/fire/Stera/floor_dodge.img`
+		0
+	[IMAGE POS]
+		-251	-317
+	[IMAGE RATE]
+		1.0	0.5699999928474426
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		8500
+	[ATTACK BOX]
+	-63	-20	-20	120	41	46
+
+[FRAME002]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Abnoba/fire/Stera/floor_dodge.img`
+		0
+	[IMAGE POS]
+		-251	-317
+	[IMAGE RATE]
+		1.0	0.5699999928474426
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1500
+	[ATTACK BOX]
+	-63	-20	-20	120	41	46
+
+[FRAME003]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Abnoba/fire/Stera/floor_dodge.img`
+		0
+	[IMAGE POS]
+		-251	-317
+	[IMAGE RATE]
+		1.0	0.5699999928474426
+	[RGBA]
+		255	255	255	10
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		310

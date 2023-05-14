@@ -1,0 +1,53 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Razer_0.ani`
+	[SUB ANI]
+		`../Animation/LazerGather.ani`	0	1
+		`../Animation/LazerStart.ani`	0	2
+		`../Animation/LazerMiddle.ani`	0	3
+		`../Animation/LazerMiddle_01.ani`	0	4
+		`../Animation/LazerMiddle_02.ani`	0	5
+		`../Animation/LazerMiddle_03.ani`	0	6
+		`../Animation/LazerMiddle_04.ani`	0	7
+		`../Animation/LazerMiddle_05.ani`	0	8
+		`../Animation/LazerEnd.ani`	0	9
+		`../Animation/LazerMiddle_08.ani`	0	10
+		`../Animation/LazerMiddle_07.ani`	0	11
+		`../Animation/LazerMiddle_06.ani`	0	12
+		`../Animation/LazerMiddle_09.ani`	0	13
+		`../Animation/LazerMiddle_10.ani`	0	14
+	[/SUB ANI]
+	[SOUND]
+		`ZOOMERT500_OUT`	0
+		`ZOOMERT500_SKILL_02`	9
+		`ZOOMERT500_LASER`	11
+	[/SOUND]
+[/MOTION]
+
+[BEHAVIOR]
+	[GRAB OFF]
+		[STATE]
+			0
+	[/GRAB OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			18452
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

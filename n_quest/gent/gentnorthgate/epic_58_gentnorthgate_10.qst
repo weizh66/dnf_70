@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4265
+[/pre required quest]
+
+[quest point]
+	10
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	88	2	61236	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	4000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`機械臂捷克`
+
+[depend message]
+	`對了， 你這次去有看到那個裝有機械臂的指揮官嗎？
+真的遇到了？ 沒想到有人會原意把雙臂改造成武器……我開始有種不祥的預感。
+這樣的人為什么會被派來北門作戰？ 卡勒特的攻擊主要集中在東門和南門啊……難道他們想進行小規模的突襲？
+那可就糟了！ 目前我們北門的兵力最弱， 不知道能不能抵擋得住他們的襲擊……冒險家， 看來這回又得麻煩你了。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特北門』， 除掉機械臂捷克， 要求地下城難度為王者級。`
+
+[solve message]
+	`冒險家， 謝謝你幫我們抵擋住了敵人的突襲， 辛苦了！ 現在該輪到我們突擊北方的敵軍了。`
+
+[dialog]
+	0	0	15073	0	1	61236	0
+	`<monster::61236>這家伙還真厲害！
+不過為了讓自己變得更強， 我連雙臂都拋棄了， 我是絕對不會輸給你們的！`
+[/dialog]

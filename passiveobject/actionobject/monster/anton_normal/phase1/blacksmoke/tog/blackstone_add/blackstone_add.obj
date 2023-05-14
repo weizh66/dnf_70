@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`黑色岩石吸收地面`
+
+[width]
+	200	50
+
+[pass type]
+	`[do not pass]`
+
+[basic action]
+	`Action/blackstone_add_Basic.act`
+
+[last action]
+	`Action/blackstone_add_Last.act`
+
+[etc action]
+	`Action/Etc_blackstone_add_0.act`
+[/etc action]
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[layer]
+	`[bottom]`

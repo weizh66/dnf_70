@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4005
+[/pre required quest]
+
+[cant giveup]
+	2
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	141	2	20607	2	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`雀瑟的考驗`
+
+[depend message]
+	`雀瑟， 你這是在干嘛？ 你當我的處罰是開玩笑嗎？
+ <apc::20600>別、 別發火， 阿嚏！ 布萬加族長讓我到村子里來給客人傳話……
+ <npc::40>原來是大哥派你來的……有什么話就快說吧， 說完趕緊回去！
+ <apc::20600>那個……冒險家， 布萬加族長讓我告訴你他正等著你……阿嚏！ 不過想要見他必須先打敗我……阿嚏！
+我說， 天氣這么冷， 你連馬奶酒都不給我喝一杯嗎……<npc::40> 哼！ 你這是活該！ 在你徹底悔悟之前， 想喝馬奶酒？ 門都沒有！ 趕緊給我回修煉場去！`
+
+[condition message]
+	`    前往萬年雪山的『布萬加的修煉場』， 通過雪山雀瑟的考驗， 要求地下城難度為王者級。 (此任務在地下城中不可放棄)`
+
+[solve message]
+	`雀瑟輸了？
+哼！ 那家伙……就只會用些沒用的圖騰。`
+
+[quest point]
+	4

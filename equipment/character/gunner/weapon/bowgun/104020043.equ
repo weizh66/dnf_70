@@ -1,0 +1,295 @@
+#PVF_File
+
+[name]
+	`解放之弩`
+
+[basic explain]
+	`攻擊速度 +2%%
+攻擊時以 5%%的機率消耗1個靈魂晶石，20秒內賦予自己的武器靈魂。
+-狂暴的靈魂：武器狀態閃爍紅色，力量增加100，智力增加100，物理暴擊增加 7%%，魔法暴擊增加 7%% 
+-純潔的靈魂：武器狀態閃爍綠色，精神增加100，體力增加100，被攻擊時自己受到的傷害減少5%%，HP恢復5%% MP恢復5%% 
+-狂亂的靈魂：武器狀態閃爍黃色，攻擊速度 10%%，移動速度增加10%%，施放速度增加10%% 
+攻擊時12%% 附加傷害`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	73
+
+[magical attack]
+	44
+
+[attack speed]
+	40
+
+[cast speed]
+	30
+
+[move speed]
+	20
+
+[stuck]
+	-1
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[need material]
+	10000204	100
+
+[repair price]
+	119616
+
+[value]
+	113920
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	672	615
+
+[equipment magical attack]
+	747	684
+
+[separate attack]
+	510	347
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/bowgun/bowgun.img`	89
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2791
+	`bowgunc1`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	651
+	`bowgunb1`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	2792
+	`bowgunc2`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	652
+	`bowgunb2`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2791
+	`at_bowgunc1`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	651
+	`at_bowgunb1`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	2792
+	`at_bowgunc2`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	652
+	`at_bowgunb2`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	12
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[multiple then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			51
+		[stat]
+			`magical attack`
+			`+`	100
+		[stat]
+			`physical attack`
+			`+`	100
+		[stat]
+			`physical critical hit rate`
+			`+`	7
+		[stat]
+			`magical critical hit rate`
+			`+`	7
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			52
+		[stat]
+			`magical defense`
+			`+`	100
+		[stat]
+			`physical defense`
+			`+`	100
+		[restore]
+			`hp`
+			`%`	5	20000
+		[restore]
+			`mp`
+			`%`	5	20000
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			53
+		[stat]
+			`attack speed`
+			`+`	100
+		[stat]
+			`move speed`
+			`+`	100
+		[stat]
+			`cast speed`
+			`+`	100
+		[then probability]
+			34.0
+	[/then]
+[/multiple then]
+
+[if]
+	[my appendage]
+		52
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	5
+[/then]
+
+[possible kiri protect]

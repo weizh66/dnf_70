@@ -1,0 +1,1009 @@
+#PVF_File
+
+[name]
+	`希洛克的暗黑手套`
+
+[basic explain]
+	`希洛克的暗黑手套，蘊藏著邪惡的氣息！`
+
+[detail explain]
+	`找不到代?detail_explain_11445xiluoke`
+
+[flavor text]
+	`希洛克復活之後，必定會引起生靈塗炭！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	72
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[need material]
+	3500	1500
+
+[repair price]
+	15360
+
+[value]
+	15360
+
+[equipment physical attack]
+	1003	1003
+
+[equipment magical attack]
+	1214	1214
+
+[separate attack]
+	648	648
+
+[stuck resistance]
+	100
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	148
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	41	1
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	41	1
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[skill data up]
+	`[fighter]`	5
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	46
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	6
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	8
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	9
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	86
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	13
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	7
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	17
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	2
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	84
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	12
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	21
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	85
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	58
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	35
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	30
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	11
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	29
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	78
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	69
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	36
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	31
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	42
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	40
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	15
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	16
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	79
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	90
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	67
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	72
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	98
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	100
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	80
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	37
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	34
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	20
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	4
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	1
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	91
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	39
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	19
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	83
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	68
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	82
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	71
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	70
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	102
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	103
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	32
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	33
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	3
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	38
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	75
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	43
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	45
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	60
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	14
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	44
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	52
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	106
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	76
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	24
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	74
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	77
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	64
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	99
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	104
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	55
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	51
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	49
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	50
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	22
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	81
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	10
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	54
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	87
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	62
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	18
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	89
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	88
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	66
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	63
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	101
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	105
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	224
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	160
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	151
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	150
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[fighter]`	152
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	5
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	46
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	6
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	8
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	86
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	13
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	7
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	17
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	2
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	84
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	12
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	21
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	85
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	58
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	35
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	30
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	11
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	29
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	78
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	69
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	36
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	31
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	42
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	40
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	15
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	16
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	90
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	67
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	72
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	98
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	100
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	80
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	37
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	34
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	20
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	4
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	1
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	91
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	39
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	19
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	83
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	68
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	82
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	71
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	70
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	102
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	103
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	32
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	33
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	3
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	38
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	75
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	43
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	45
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	60
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	14
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	44
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	52
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	106
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	76
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	24
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	74
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	77
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	64
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	99
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	104
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	55
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	51
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	50
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	22
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	81
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	10
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	54
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	87
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	62
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	18
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	89
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	88
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	66
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	63
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	101
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	105
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	224
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	160
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	151
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	150
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[at fighter]`	152
+	`[all]`
+	`[level]`	0
+	`%`	35
+[/skill data up]
+
+[if]
+	[after attack]
+		1
+	[combo]
+		5
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[restore]
+		`hp`
+		`%`	20	10000
+	[stat]
+		`physical attack`
+		`+`	120
+	[stat]
+		`magical attack`
+		`+`	120
+	[appendage]
+		147
+[/then]
+
+[if]
+	[use command]
+		1
+	[my appendage]
+		147
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[passive object]
+		10047	0	0	0	99	0
+		``	48524	0	0	0	99	0
+		``	48231	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		100
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[weakness]
+		20
+[/then]
+
+[if]
+	[time]
+		15000	1	15000
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		60097	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	5
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		9056	0	0	0	9999	0
+		``	9056	0	0	0	9999	0
+		``	9056	0	0	0	9999	0
+		``	9056	0	0	0	9999	0
+		``	9056	0	0	0	9999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[hit]
+		1
+	[stat change]
+		`hp`
+		`<`
+		`%`	50
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[summon monster]
+		61757	100	1
+[/then]
+
+[curse appendage]
+	750000	1000	10000	3000
+
+[possible kiri protect]

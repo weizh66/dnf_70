@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	99	99
+
+[exposed by npc]
+	0
+
+[first exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[limit dungeon index]
+	70	71	72	73	74	75	76	77
+[/limit dungeon index]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	-1	0	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	8573	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間之門區域冒險`
+
+[depend message]
+	`通過時間之門去一趟過去吧！！關於過去各種事件發生的來龍去脈你去經歷一次可能會有幫助啊。`
+
+[condition message]
+	`完成時間之門區域地下城 3次。（該任務一天完成一次。時間之門區域： 大火災、傳染病、組成！卡勒特、黑暗聖殿、極密區域、古悲鳴洞穴、胎動、自覺）`
+
+[solve message]
+	`辛苦了。如果經歷新的過去再回來找我吧。`

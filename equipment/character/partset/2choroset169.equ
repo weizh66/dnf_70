@@ -1,0 +1,118 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	284
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	284
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[幻鬼 : 一閃]攻擊力 +25%%
+[幻鬼 : 一閃]冷卻時間 -25%% `
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	284
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[swordman]`	284
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[swordman]`	287
+		`[dungeon type]`
+		`[static]`	4
+		`+`	1
+		`[swordman]`	287
+		`[dungeon type]`
+		`[static]`	3
+		`%`	50
+		`[swordman]`	287
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[swordman]`	287
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[swordman]`	287
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[幻鬼 : 一閃]突進距離 +30%%
+[幻鬼 : 一閃]冷卻時間 -15%%
+[幻鬼 : 連斬]第一次、 第二次斬擊次數 +1次
+[幻鬼 : 連斬]斬擊速度 +50%%
+[幻鬼 : 連斬]攻擊范圍 +30%%
+[幻鬼 : 連斬]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	294
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+		`[swordman]`	294
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-25
+		`[swordman]`	294
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-30
+		`[swordman]`	294
+		`[dungeon type]`
+		`[static]`	5
+		`%`	100
+		`[swordman]`	294
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[swordman]`	294
+		`[dungeon type]`
+		`[static]`	1
+		`%`	25
+		`[swordman]`	294
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[swordman]`	298
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[swordman]`	298
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	298
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[幻鬼 : 回天]旋轉斬擊次數 +2
+[幻鬼 : 回天]旋轉斬擊攻擊力 -25%%
+[幻鬼 : 回天]前進距離 -30%%
+[幻鬼 : 回天]旋轉速度 +100%%
+[幻鬼 : 回天]攻擊范圍 +25%%
+[幻鬼 : 回天]冷卻時間 -25%%
+[幻鬼 : 奈落]索敵范圍 +30%%
+[幻鬼 : 奈落]冷卻時間 -30%%
+[幻鬼 : 奈落]無色小晶塊消耗量 +1`
+[/piece set ability]
+
+[partset specific growtype]
+	5

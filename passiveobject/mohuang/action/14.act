@@ -1,0 +1,211 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation\atarmageddonstrike\p2\newasphase2atkeff_01.ani`
+	[SUB ANI]
+		`../animation\atarmageddonstrike\p2\asphase2blackscreentop_add03.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+	[RESTORE]
+	[HP]
+		-300000000
+	[POINT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+	[RESTORE]
+	[HP]
+		-300000000
+	[POINT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+	[RESTORE]
+	[HP]
+		-300000000
+	[POINT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		[FRAME]
+			4	4
+		[WHICH]
+		[ALL ENEMY]
+		[CHECKUP]
+			[IS OBJECT TYPE]
+				[MONSTER]
+			[/IS OBJECT TYPE]
+			[DISTANCE]
+			[<=]
+				1000
+		[/CHECKUP]
+		[DO BEHAVIOR]
+		[CHECKUP OBJECT]
+			1
+	[/TRIGGER]
+
+	[BEHAVIOR]
+		[SET ACTION]
+		[HOLD]
+		[NOW]
+		[RESTORE]
+		[HP]
+			-300000000
+		[POINT]
+	[/BEHAVIOR]
+
+[SET ACTION]
+
+[HOLD]
+
+[NOW]
+
+[RESTORE]
+
+[HP]
+	-300000000
+
+[POINT]
+
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+	[RESTORE]
+	[HP]
+		-300000000
+	[POINT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+	[RESTORE]
+	[HP]
+		-300000000
+	[POINT]
+[/BEHAVIOR]

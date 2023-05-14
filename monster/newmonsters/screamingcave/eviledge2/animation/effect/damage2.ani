@@ -1,0 +1,18 @@
+#PVF_File
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/ScreamingCave/Apopis/ApopisEffect.img`
+		27
+	[IMAGE POS]
+		-213	-274
+	[IMAGE ROTATE]
+		-0.5235990285873413
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1000
+	[DAMAGE BOX]
+	-14	-10	-41	30	20	122

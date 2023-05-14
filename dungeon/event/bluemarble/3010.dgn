@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`天帷禁地`
+
+[explain]
+	`長腳羅特斯進入天帷巨獸神殿后， 屠殺了GBL教的所有教徒， 當中包括GBL教秘密組織血腥淨化的首領審判者馬塞爾。 所幸馬賽爾在最後一刻使用了GBL教的禁咒， 通過靈魂脫離肉體的方式逃亡到天帷巨獸的肚子裡。 他重新復活了死去的教徒並想重建GBL教， 但長腳羅特斯已經被冒險家殺死。 馬塞爾失去了復仇物件， 最終精神崩潰。`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	1
+	`WorldMap/SelectdungeonSlot/behimoth.img`	6
+
+[minimum required level]
+	99
+
+[basis level]
+	39
+
+[experience increasing point]
+	1.0
+
+[champion]
+	6	9	12	15	18
+
+[pathgate object]
+	431	432	439	433	434	440	435	436	437	438
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[special passive object item]
+	0	-1	5	1068	1000	1069	1500	1070	500	1071	500	1072	3000	1	-1	0
+[/special passive object item]
+
+[event monster]
+	1	9000	61727	1	300	80	1
+[/event monster]

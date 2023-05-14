@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`源助力 - 艾格尼絲`
+
+[basic explain]
+	`    安徒恩武器技能攻擊力增加率 +20%%`
+
+[grade]
+	91
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	110
+
+[magical attack]
+	110
+
+[physical defense]
+	110
+
+[magical defense]
+	110
+
+[need material]
+	3822	100
+
+[price]
+	79000
+
+[price]
+	127400
+
+[value]
+	101920
+
+[creation rate]
+	0
+
+[anti evil]
+	15
+
+[icon]
+	`item/new_equipment/11_magicstone/magicstone.img`	168
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[if]
+	[my appendage]
+		650
+	[cooltime]
+		1000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		630
+	[appendage]
+		631
+	[appendage]
+		632
+	[appendage]
+		633
+	[appendage]
+		634
+	[appendage]
+		635
+[/then]
+
+[possible kiri protect]

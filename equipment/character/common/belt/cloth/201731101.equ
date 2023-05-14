@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`幽魂魅影腰帶（盧克Raid）`
+
+[basic explain]
+	`每12點暗屬性抗性增加2點暗屬性強化值。（最多增加50點）。
+每15點暗屬性抗性增加1%%物理和魔法暴擊率。（最多增加20%%）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	110
+
+[magical attack]
+	110
+
+[magical defense]
+	80
+
+[move speed]
+	20
+
+[anti evil]
+	18
+
+[stuck resistance]
+	30
+
+[inventory limit]
+	3000
+
+[need material]
+	3826	1000
+
+[price]
+	60200
+
+[repair price]
+	48160
+
+[value]
+	48160
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	388	352
+
+[dark resistance]
+	30
+
+[light resistance]
+	-5
+
+[icon]
+	`Item/new_equipment/02_cloth/belt/cloth_belt.img`	10
+
+[field image]
+	`Item/field_equip.img`	3
+
+[equipment type]
+	`[waist]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	550
+
+[item group name]
+	`cl waist`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		500	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`dark resistance`	12
+		`dark attack`
+		`+`	2	50
+	[stat change by stat]
+		`myself`	-1
+		`dark resistance`	15
+		`magical critical hit`
+		`+`	1	20
+		`physical critical hit`
+		`+`	1	20
+[/then]
+
+[part set index]
+	12596
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

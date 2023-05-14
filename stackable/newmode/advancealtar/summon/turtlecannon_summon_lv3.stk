@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+	`小海龜 ( Lv3 )`
+
+[explain]
+	`背著強力大砲的烏龜。可能大砲與硬殼重量的關係，整體的移動速度較慢。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Interface/AdvanceAltar/InGame/AdvanceAltar_ingame_unit_icon.img`	4
+
+[disable icon]
+	`Interface/AdvanceAltar/InGame/AdvanceAltar_ingame_unit_icon.img`	5
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	6000
+
+[cooltime group]
+	103
+
+[move wav]
+	`PAPER_TOUCH`
+
+[advance altar need gage]
+	20
+
+[monster summons]
+	64643	1	1	0	1

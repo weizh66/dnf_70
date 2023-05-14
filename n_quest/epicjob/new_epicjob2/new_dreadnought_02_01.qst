@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[knight]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 龍神 (2/6)`
+
+[depend message]
+	`因為你無法承載更多的力量， 所以多余的力量在不斷地溢出、 流失。
+那么， 如果不想浪費力量該怎么辦呢？
+沒錯， 當然是要先擴充容器。
+那從現在開始， 去培養自身的承載能力吧。 首先， 我打算讓你在素喃這邊進行修煉。
+怎么？ 你覺得這一階段的修煉對你來說過于簡單了嗎？ 你可不要小看這里。 接下來， 你將會參加魂·黃龍大會， 你之前打倒的怪物跟本次大會的參賽者比起來根本不值得一提。
+每一個參賽者都具備優秀的實力和豐富的實戰經驗。 你要知道王室可不會隨便推薦參賽者。
+閑聊到此為止， 你先去收集‘斯卡迪女王’的印章吧。 有了它你才能登上武斗大會的舞臺。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5123
+[/pre required quest]
+
+[relation quest]
+	6856
+
+[job change quest]
+	3
+
+[grow number]
+	0

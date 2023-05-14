@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`阿努比斯的黃金手炮`
+
+[flavor text]
+	`<2018國慶節禮包>`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	161
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		58	0
+	[layer variation]
+		2790
+		`hcanc`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[layer variation]
+		650
+		`hcanb`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/gunner/weapon/hcannon/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[int data]
+	654321	3	1	110	30	90	1	110	30	90	1	110	30	90	2	110	30	20	0	55	30	70
+[/int data]
+
+[string data]
+	``
+[/string data]
+
+[move wav]
+	`RIFLE_TOUCH`

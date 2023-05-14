@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	27	99
+
+[monster reward item]
+	265	21	-1	4806	1	50	15	266	21	-1	4806	1	50	15	502	22	-1	4806	1	80	15	202	23	-1	4806	1	80	15	281	24	-1	4806	1	80	15	251	25	-1	4806	1	80	15	3002	26	-1	4806	1	80	15	1043	27	-1	4806	1	80	15	61605	90	-1	4806	1	80	15	63021	91	-1	4806	1	80	15
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4806	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 天帷巨獸`
+
+[depend message]
+	`在天空之海的巨大鯨魚天帷巨獸也散發強力的時間力量。在那裡也能找到時間碎片的。
+不過，那裡的首領會藏著碎片，只有除掉他們才能獲得碎片。
+ 因為吸收了天空之海的氣息，可能已經變形了，去好好找找吧。`
+
+[condition message]
+	`擊敗天帷巨獸地區的頭目，取得時間碎片後交給最後的先知者`
+
+[solve message]
+	`那是一股非常強的時間力量。只要持續收集時間力量的話，就可以獲得比以前更強大的力量……`
+
+[quest point]
+	4

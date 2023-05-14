@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`金鑲玉翠手鐲`
+
+[basic explain]
+	`    地下城內刷怪經驗+10%%。`
+
+[detail explain]
+	`    地下城內刷怪經驗+10%%。`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	34
+
+[magical attack]
+	34
+
+[physical defense]
+	84
+
+[need material]
+	3821	750
+
+[price]
+	113400
+
+[value]
+	90720
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	4416	3984
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[skill levelup]
+	`[common]`	178	3
+	`[common]`	189	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	99
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			40
+		[upper bound level]
+			40
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[exp advantage]
+	10
+
+[emancipate]
+	[input]
+		15037	1
+	[/input]
+	[output]
+		4600623	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

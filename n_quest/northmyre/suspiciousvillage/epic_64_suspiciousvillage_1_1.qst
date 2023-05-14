@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	18
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	64	99
+
+[monster reward item]
+	56012	53	-1	4408	1	100	1	56435	53	-1	4408	1	100	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4408	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`疑惑之村`
+
+[depend message]
+	`諾斯瑪爾旁邊有一個很小的礦山村。
+最近從那個村里傳出各種奇怪的消息。 有人說見到了妖怪， 還有一些人莫名地消失了。
+冒險家， 你能去調查一下嗎？`
+
+[condition message]
+	`    調查諾斯瑪爾的『疑惑之村』。 (快速消滅升降梯上的怪物后， 可以進入下一個房間)`
+
+[solve message]
+	`原來傳聞都是真的……這么多未解的謎題！ 怪不得那個村子被人稱為‘疑惑之村’。`
+
+[substitutive names]
+	`調查疑惑之村`
+[/substitutive names]
+
+[dialog]
+	0	0	16409	0	0	0	0
+	`<monster::62110>雖然我不知道你是誰……
+但是只要知道這個村子秘密的人， 不管是誰， 都不可能從這里活著出去……所以~你不要感到委屈……`
+[/dialog]
+
+[quest point]
+	4

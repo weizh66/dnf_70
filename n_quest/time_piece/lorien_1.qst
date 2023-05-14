@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	2	99
+
+[pre required quest]
+	102
+[/pre required quest]
+
+[monster reward item]
+	11	2	-1	4799	1	100	1
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4799	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`第一個時間碎片 - 洛蘭`
+
+[depend message]
+	`洛蘭森林深處可以感受得到時間碎片的氣息。只要從那裡取得時間碎片的話，我就會幫你找回時間的力量。`
+
+[condition message]
+	`去洛蘭內部尋找時間碎片。`
+
+[solve message]
+	`時間的力量恢復一部份了…… 不過還差遠了。
+為了找到所有的時間碎片，要適應這裡。和稱為冒險家的一群人一起進行冒險後，自然而然就會發現時間碎片。`
+
+[dialog]
+	1	0	2	0	1	11	0
+	`<monster::11>這個閃閃發光的碎片是我的！我會殺了任何想搶奪的人！`
+[/dialog]
+
+[quest point]
+	4

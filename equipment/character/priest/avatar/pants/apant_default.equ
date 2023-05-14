@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`沉默聖職者褲`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[icon]
+	`item/avatar/priest/pr_apants.img`	0
+
+[equipment type]
+	`[pants avatar]`	0
+
+[variation]
+	0	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

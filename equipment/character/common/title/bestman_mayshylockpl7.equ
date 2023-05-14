@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以2%%的機率在60秒內召喚一隻和自己的等級相同的夏洛克·戈林德。
+ 偶爾也會召喚牛頭怪獸。（決鬥場不發動。)`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	171
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/bestman_maypl.ani`
+[/custom animation]
+
+[usable period]
+	7
+
+[HP MAX]
+	100
+
+[MP MAX]
+	100
+
+[physical attack]
+	27
+
+[magical attack]
+	27
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		90000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		2
+	[summon monster]
+		61729	-1	1
+[/then]
+
+[if]
+	[cooltime]
+		150000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[summon monster]
+		61730	-1	1
+[/then]
+
+[room list move speed rate]
+	0.15
+
+[move wav]
+	`NAME_TOUCH`

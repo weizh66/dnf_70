@@ -1,0 +1,157 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`太困了，眼睛都睜不開了……`
+		`我討厭早上……`
+		`我喜歡安靜的地方！`
+		[in elven gard]
+			`主人，我們找個僻靜的地方，好好休息一下吧。`
+		[/in elven gard]
+		[in alfhlyra]
+			`寧靜安詳的城鎮……最適合我了！`
+		[/in alfhlyra]
+		[in stom pass]
+			`我不喜歡這裡，我們快點離開吧。`
+		[/in stom pass]
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`主人，你肚子不餓嗎？我有點餓了……`
+			`主人，你肚子不餓嗎？我有點餓了……`
+			`主人，你肚子不餓嗎？我有點餓了……`
+		[/fill point under]
+		[enemies alive]
+			[hits over]
+				20
+				`主人，怪是殺不完的，我們還是早點回城鎮吧……`
+				`好累啊，我要休息了，沒事別打擾我。`
+			[/hits over]
+			[hits under]
+				21
+				`主人，我要回去休息了，速度解決它們。`
+				`哼，這沒什么了不起的，我拍拍翅膀就能做到！`
+			[/hits under]
+		[/enemies alive]
+		[enemies destroyed]
+		[rank over]
+			`b`
+			`好安靜啊……困了……`
+			`好困……想找個安靜的地方休息……`
+		[/rank over]
+		[rank under]
+			`b`
+			`沒力氣飛了……主人，我們休息下吧？`
+			`主人很累吧？我也累了……`
+		[/rank under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`這名字……馬馬虎虎過得去吧。`
+		[/renamed]
+		[pop random]
+			30
+			[call the name]
+				`主人，這樣的戰斗很無聊嗎？`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			20
+			[equip]
+				`這是哪裡啊……？`
+				`我好困哦，不想動……`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`哇，升級了~！`
+				`好困……讓我瞇一會兒~~`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`主人，祝賀你~`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+		[eat feed]
+			`怎么又是寵物飼料？我要吃烤麵包……`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`我人生有兩大追求：一個是睡覺，一個是吃飯。`
+			`哇花哈~暴飲暴食會影響智商的！`
+		[/eat feed]
+		[none feed]
+			`沒食物了……唉，大腦又要產生幻覺了……T_T……`
+		[/none feed]
+		[end buff]
+			`主人，我的光之氣息消失了……T_T……`
+		[/end buff]
+		[dying]
+			`沒想到主人會這樣待我，虧我還特地轉移到這來……`
+		[/dying]
+		[using overskill]
+			``
+			``
+		[/using overskill]
+		[pop random]
+			30
+			[skill gauge full]
+				`主人，我叫你在怪堆裡使用的！`
+				`準備好了！`
+			[/skill gauge full]
+		[/pop random]
+		[pop random]
+			30
+			[over skill gauge full]
+				`啊，浪費了我那么多羽毛……T_T……`
+				`主人放心，我隨時待命！`
+			[/over skill gauge full]
+		[/pop random]
+		[over skill waiting]
+			`別老覺得我沒用啊，至少我比佛拉斯好！`
+			`主人，漫天飛羽太浪費羽毛了，我可以不使用嗎？`
+		[/over skill waiting]
+		[call the name]
+			`主人，這樣的戰斗很無聊嗎？`
+		[/call the name]
+		[pop random]
+			20
+			[equip]
+				`這是哪裡啊……？`
+				`我好困哦，不想動……`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`哇，升級了~！`
+				`好困……讓我瞇一會兒~~`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`主人，祝賀你~`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+	[/main game]
+	[pvp]
+		[press creature button]
+			`在這兒……我不能使用力量……@-@……`
+		[/press creature button]
+	[/pvp]
+[/trigger]

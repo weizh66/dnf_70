@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`殺人蜂`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人2秒內陷入氣絕狀態。 （比Lv55高的目標陷入狀態機率較低，比 Lv55低的目標陷入狀態機率較高。決鬥場修正為 1秒）`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	38
+
+[attack speed]
+	100
+
+[stuck]
+	-1
+
+[price]
+	94400
+
+[repair price]
+	79296
+
+[value]
+	377600
+
+[equipment physical attack]
+	533	517
+
+[equipment magical attack]
+	483	467
+
+[separate attack]
+	256	173
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[fighter]`	6	1
+	`[fighter]`	82	1
+	`[at fighter]`	6	1
+	`[at fighter]`	82	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	32
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	2
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	2
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	55
+[/then]
+
+[possible kiri protect]

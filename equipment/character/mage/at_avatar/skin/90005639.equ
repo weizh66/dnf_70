@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`無覆蓋可可色皮膚（魔法師 男）`
+
+[explain]
+	``
+
+[grade]
+	1
+
+[part set index]
+	20015
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atmage/mm_abody.img`	5
+
+[avatar type select]
+	7	0	0	1000	0	30	0	0	2000	0	0	0	0	4000	0	0	0	0	4400	2
+	`[M socket]`
+	`[M socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+[/avatar select ability]
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	0	5
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[equipment type]
+	`[skin avatar]`	0
+
+[equipment physical attack]
+	10	10
+
+[equipment magical attack]
+	10	10
+
+[separate attack]
+	15	15
+
+[hit recovery]
+	90

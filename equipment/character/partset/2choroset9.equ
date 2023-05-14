@@ -1,0 +1,135 @@
+#PVF_File
+
+[set name]
+	`黑山流波  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	20
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-125
+		`[swordman]`	20
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	20
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	140
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-125
+		`[swordman]`	140
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	140
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	140
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[地裂·波動劍]施放后的僵直時間 -50%%
+[地裂·波動劍]大小 +20%%
+[地裂·波動劍]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[swordman]`	21
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-150
+		`[swordman]`	21
+		`[dungeon type]`
+		`[level]`	1
+		`+`	3
+		`[swordman]`	21
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-10
+		`[swordman]`	21
+		`[dungeon type]`
+		`[level]`	0
+		`%`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[冰刃·波動劍]冷卻時間 -2秒
+[冰刃·波動劍]施放后的僵直時間 -50%%
+[冰刃·波動劍]小冰柱生成數 +3
+[冰刃·波動劍]冰柱發射速度 +10%%
+[冰刃·波動劍]小冰柱持續時間 +100%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	22
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[swordman]`	22
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-175
+		`[swordman]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	22
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	57
+		`[dungeon type]`
+		`[static]`	1
+		`+`	500
+		`[swordman]`	57
+		`[dungeon type]`
+		`[static]`	2
+		`+`	3
+		`[swordman]`	57
+		`[dungeon type]`
+		`[static]`	3
+		`+`	3
+		`[swordman]`	57
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-10
+		`[swordman]`	57
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-10
+		`[swordman]`	57
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-10
+		`[swordman]`	57
+		`[dungeon type]`
+		`[level]`	3
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[爆炎·波動劍]冷卻時間 -5秒
+[爆炎·波動劍]施放后的僵直時間 -50%%
+[爆炎·波動劍]攻擊力 +30%%
+[邪光波動陣]多段攻擊次數 +3
+[邪光波動陣]增加持續時間
+[邪光波動陣]攻擊力 -10%%`
+[/piece set ability]

@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`啟明星的指引`
+
+[basic explain]
+	`技能攻擊力 +12%%`
+
+[detail explain]
+	`技能攻擊力 +12%%`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12594
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	39
+
+[physical defense]
+	97
+
+[attack speed]
+	50
+
+[cast speed]
+	80
+
+[move speed]
+	50
+
+[anti evil]
+	16
+
+[need material]
+	3826	1000
+
+[price]
+	134400
+
+[value]
+	107520
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	5136	4704
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	190
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	12
+	[stat by condition]
+		`magical attack bonus`
+		`%`	12
+	[stat by condition]
+		`separate attack`
+		`%`	12
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	5000000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	108030498
+	`[job]`	14	1	1	108030505
+	`[job]`	14	2	1	108030512
+	`[job]`	14	3	1	108030519
+	`[job]`	14	4	1	108000488
+	`[job]`	14	1	1	108000495
+	`[job]`	14	2	1	108000502
+	`[job]`	14	3	1	108000509
+	`[job]`	14	4	1	108010477
+	`[job]`	14	1	1	108010484
+	`[job]`	14	2	1	108010491
+	`[job]`	14	3	1	108010498
+	`[job]`	14	4	1	108040446
+	`[job]`	14	1	1	108040453
+	`[job]`	14	2	1	108040460
+	`[job]`	14	3	1	108040467
+	`[job]`	14	4	1
+[/reward selection int data]
+
+[name]
+	`覺醒 - 龍躍武器 (3/3)`
+
+[depend message]
+	`什么？ 你竟然把龍躍武器……弄碎了？
+我的天……你肯定是忍不住去找凱麗了吧？ 如果你還想要， 我倒是可以再給你一個， 但這次可不是免費的。`
+
+[condition message]
+	`    向小鐵柱支付500萬金幣， 以再次獲得龍躍武器。`
+
+[solve message]
+	`這次可不要弄碎了！`
+
+[pre required quest]
+	2939
+[/pre required quest]

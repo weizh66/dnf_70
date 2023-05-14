@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`武器祝福卷軸`
+	
+
+[explain]
+	`增加角色等級 *0.5 的物理攻擊力，攻擊速度 +3%%，移動速度 +3%%，持續時間30分鐘。`
+	
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[cool time]
+	10000
+
+[icon]
+	`Item/stackable/consumption.img`	926
+
+[stackable type]
+	`[waste]`	0
+
+[item group name]
+	`potion`
+
+[move wav]
+	`BONE_TOUCH`
+
+[stack limit]
+	1
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[stat change duration]
+	1800000
+	`myself`
+
+[usable period]
+	2

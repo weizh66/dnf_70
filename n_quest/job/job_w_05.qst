@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	18	99
+
+[pre required quest]
+	7855
+[/pre required quest]
+
+[pre required quest]
+	7859
+[/pre required quest]
+
+[pre required quest]
+	7862
+[/pre required quest]
+
+[pre required quest]
+	7866
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	35058	1	31695	1	33962	1	27997	1	29996	1
+[/reward selection int data]
+
+[name]
+	`恭喜你轉職了！`
+
+[depend message]
+	`恭喜你轉職了。表示祝賀我準備了武器…。怎么樣？`
+
+[condition message]
+	`與歌蘭蒂斯對話`
+
+[solve message]
+	`好像變得更強了。`

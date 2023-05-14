@@ -1,0 +1,101 @@
+#PVF_File
+
+[set name]
+	`終結之冰  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at mage]`	12
+		`[dungeon type]`
+		`[static]`	2
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[冰魄錘擊]衝擊波范圍 +25%%
+[冰魄錘擊]攻擊力 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[at mage]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	32
+		`[dungeon type]`
+		`[static]`	0
+		`%`	50
+		`[at mage]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at mage]`	63
+		`[dungeon type]`
+		`[level]`	2
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[極冰綻放]攻擊力 +40%%
+[極冰綻放]魔法陣移動速度 +50%%
+[極冰綻放]冷卻時間 -10%%
+[千里冰封]攻擊力 +40%%
+[千里冰封]冰凍幾率 +10%%
+[千里冰封]冷卻時間 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[at mage]`	13
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[at mage]`	13
+		`[dungeon type]`
+		`[static]`	4
+		`+`	3000
+		`[at mage]`	13
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[冰龍旋舞]水柱旋轉持續時間 +3秒
+[冰龍旋舞]攻擊力 +45%%
+[冰龍旋舞]冷卻時間 -10%%
+[冰龍旋舞]無色小晶塊消耗量 +1`
+[/piece set ability]

@@ -1,0 +1,26 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/sword.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			-500	-750	0
+		[MOVE ME]
+	[/TELEPORT]
+[/BEHAVIOR]

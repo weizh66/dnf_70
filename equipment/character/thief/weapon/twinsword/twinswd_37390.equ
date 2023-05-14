@@ -1,0 +1,171 @@
+#PVF_File
+
+[name]
+	`罪惡之眼的鋼鐵鱗片格鬥劍  `
+
+[basic explain]
+	`普通攻擊時以10%% 的機率施展罪惡之眼的雷射
+不可解體`
+
+[detail explain]
+	`普通攻擊時以10%% 的機率施展罪惡之眼的雷射。
+被罪惡之眼的雷射擊中時，以20%% 的機率3秒內讓敵人進入石化狀態，解除時以850的攻擊力給予傷害。 （高於Lv29的對象得到的機率和效果減少，低於Lv29的對象則會增加。）
+不可解體`
+
+[grade]
+	29
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	25
+
+[physical attack]
+	22
+
+[attack speed]
+	-80
+
+[MP MAX]
+	100
+
+[price]
+	52200
+
+[repair price]
+	41760
+
+[value]
+	41760
+
+[equipment physical attack]
+	306	265
+
+[equipment magical attack]
+	240	208
+
+[separate attack]
+	172	113
+
+[physical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	86
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[thief]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stone`	24	450
+[/then]
+
+[if]
+	[cooltime]
+		500
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48186	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

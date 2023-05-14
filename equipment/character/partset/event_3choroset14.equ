@@ -1,0 +1,167 @@
+#PVF_File
+
+[set name]
+	`墮落掌控者  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	11
+		`%`	30
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	4
+		`+`	6
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	9
+		`+`	6
+		`[fighter]`	13
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[fighter]`	13
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[fighter]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	13
+		`[dungeon type]`
+		`[level]`	1
+		`+`	6
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	6
+		`+`	6
+		`[fighter]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	44
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[fighter]`	106
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+		`[fighter]`	106
+		`[dungeon type]`
+		`[level]`	5
+		`+`	6
+		`[fighter]`	106
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	13
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	14
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	5
+		`+`	6
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	11
+		`+`	6
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	4
+		`+`	6
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	9
+		`+`	6
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	8
+		`+`	6
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)：毒瓶投擲攻擊力增加30%%， 毒瓶個數增加2， 毒等級增加6 
+格斗家(女)：拋沙攻擊力增加20%%， 冷卻時間20%% 減少， 失明等級 6增加
+格斗家(男)：毒針投擲攻擊力增加30%%， 毒針個數增加2， 出血等級增加6 / 磚塊投擲攻擊力增加30%%， 磚塊個數增加2， 暈眩等級增加6 / 羅網投擲攻擊力增加30%%， 羅網個數增加2， 束縛等級增加6
+格斗家(女)：石塊破壞者眩暈等級增加6， 攻擊力增加30%%， 冷卻時間減少20%%/大地之踢眩暈等級增加6， 暗黑等級增加6， 攻擊力增加20%%/挑撥狀態變化抗性減少增加20%%`
+[/piece set ability]

@@ -1,0 +1,35 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/ArcherOfFire/Fitz_archer.img`
+		42
+	[IMAGE POS]
+		-243	-311
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-15	-10	0	43	20	137
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/ArcherOfFire/Fitz_archer.img`
+		43
+	[IMAGE POS]
+		-243	-311
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-15	-10	0	43	20	137

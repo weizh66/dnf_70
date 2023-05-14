@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`巨靈布魯  卡片`
+
+[flavor text]
+	`    無數的怨靈， 會讓我變得更加強大~`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	116
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[need material]
+	3340	48
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[weapon]`
+	`[coat]`
+	`[pants]`
+[/string data]
+
+[int data]
+	116	61491
+[/int data]
+
+[enchant]
+	[equipment magical attack]
+		25	25
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

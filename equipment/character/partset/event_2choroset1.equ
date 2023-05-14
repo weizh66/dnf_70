@@ -1,0 +1,74 @@
+#PVF_File
+
+[set name]
+	`瞬息之死  套裝`
+
+[piece set ability]
+	5
+
+[skill data up]
+	`[gunner]`	47
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[gunner]`	47
+	`[dungeon type]`
+	`[level]`	2
+	`%`	20
+	`[gunner]`	3
+	`[dungeon type]`
+	`[level]`	3
+	`%`	10
+	`[at gunner]`	47
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[at gunner]`	47
+	`[dungeon type]`
+	`[level]`	2
+	`%`	20
+	`[at gunner]`	3
+	`[dungeon type]`
+	`[level]`	3
+	`%`	10
+	`[gunner]`	5
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-2400
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	20
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	3
+	`+`	6
+	`[gunner]`	35
+	`[dungeon type]`
+	`[level]`	2
+	`%`	20
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-2400
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	20
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	3
+	`+`	6
+	`[at gunner]`	35
+	`[dungeon type]`
+	`[level]`	2
+	`%`	20
+[/skill data up]
+
+[parameter basic explain]
+	`巖石骷髏冷卻時間減少1秒， 攻擊力增加20%% 
+神槍手(男)：迴旋踢攻擊力增加10%% 
+神槍手(女)：上旋踢攻擊力增加10%% 
+爆頭一擊冷卻時間減少2.4秒， 攻擊力增加20%%， 穿刺力增加6%%
+神槍手(男)：浮空劫擊攻擊力 20%%增加
+神槍手(女)：音速之矛攻擊力增加/20%%`

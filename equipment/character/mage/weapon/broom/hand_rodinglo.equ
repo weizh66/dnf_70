@@ -1,0 +1,179 @@
+#PVF_File
+
+[name]
+	`羅丁的觸鬚`
+
+[basic explain]
+	`攻擊時以1%%的機率讓敵人陷入束縛狀態`
+
+[detail explain]
+	`攻擊時以1%%的機率4秒內讓敵人陷入束縛狀態。 （比Lv45高的目標陷入狀態機率較低，比 Lv45低的目標陷入狀態機率較高。決鬥場修正為 1秒）`
+
+[flavor text]
+	` 用巨樹守護者羅丁的觸鬚製作的掃把。`
+
+[grade]
+	47
+
+[rarity]
+	2
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	45
+
+[magical attack]
+	30
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[price]
+	75200
+
+[repair price]
+	63168
+
+[value]
+	300800
+
+[equipment physical attack]
+	414	398
+
+[equipment magical attack]
+	453	436
+
+[separate attack]
+	202	135
+
+[skill levelup]
+	`[mage]`	101	1
+	`[mage]`	95	1
+	`[creator mage]`	138	2
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/mage/broom.img`	14
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[required skill]
+	91
+
+[if]
+	[cooltime]
+		8000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[reduce duration to human armor at pvp module]
+		75
+	[probability]
+		1
+	[active status]
+		`hold`	45
+[/then]
+
+[possible kiri protect]

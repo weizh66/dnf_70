@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	` 玄武巖胸甲`
+
+[flavor text]
+	`啊，好燙~！呃啊~接受我的怒火吧！`
+
+[grade]
+	32
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[physical attack]
+	16
+
+[magical attack]
+	11
+
+[price]
+	28800
+
+[repair price]
+	23040
+
+[value]
+	23040
+
+[equipment physical defense]
+	1260	1188
+
+[fire resistance]
+	5
+
+[icon]
+	`Item/common/coat.img`	20
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`玄武巖輕甲  套裝`
+
+[set item]
+	10830	12830	14828	16827	18827
+[/set item]
+
+[set ability]
+	[fire resistance]
+		10
+	[if]
+		[cooltime]
+			1000
+		[element]
+			`fire`
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			20000
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			76
+		[active status]
+			`curse`	30	18	18	18	18
+	[/then]
+	[fullset basic explain]
+		`火屬性被攻擊時以5%%的機率讓敵人陷入眩暈狀態`
+	[fullset detail explain]
+		`被火屬性 攻擊擊中時，以5%% 的機率20秒內讓敵人進入詛咒狀態，力量減少18，體力減少 18，智力減少18，精神減少18。（高於Lv30的對象得到的機率減少，低於Lv30的對象則會增加。）`
+[/set ability]
+
+[possible kiri protect]

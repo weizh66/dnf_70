@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`瞬間移動藥劑`
+
+[explain]
+	`    使用後， 可以移動到其他區域的賽麗亞旅館。
+需要完成主線任務 ： 終於開啟的天界之門后才能使用。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	5700
+
+[minimum level]
+	60
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	396
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[teleport potion]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	10000
+
+[int data]
+	1	2	3	4	5	6	9	11	14
+[/int data]
+
+[move wav]
+	`POTION_TOUCH`

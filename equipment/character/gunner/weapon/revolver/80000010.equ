@@ -1,0 +1,978 @@
+#PVF_File
+
+[name]
+	`聖耀救贖左輪槍`
+
+[basic explain]
+	`所有技能攻擊力
++1000%%
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能。
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。`
+
+[detail explain]
+	`所有技能攻擊力
++1000%% (對Buff技能無效)
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能， 時長持續20秒； 釋放結束後20秒內使自身技能攻擊力增加20%%。（冷卻時間47秒）
+ 
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。(傷害最高可達300萬)`
+
+[flavor text]
+	`    萬物生自守恒， 源力破則失正
+    莫以為敵消彼漲， 然乾坤逆之天崩。 --祭安徒恩之死`
+
+[grade]
+	99
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[anti evil]
+	60
+
+[physical attack]
+	84
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1428	1428
+
+[equipment magical attack]
+	1224	1224
+
+[separate attack]
+	925	925
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/revolver/revolver.img`	127
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	1000
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		990009	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+
+	[if]
+		[start cooltime]
+			47000
+		[change status]
+			`hp`
+			`>`
+			`%`	1000
+			`end`
+		[cooltime]
+			47000
+	[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[skill data up]
+	`[gunner]`	47
+	`[all]`
+	`[level]`	2
+	`%`	1000	47
+	`[all]`
+	`[level]`	3
+	`%`	1000	47
+	`[all]`
+	`[level]`	2
+	`%`	1000	47
+	`[all]`
+	`[level]`	3
+	`%`	1000	4
+	`[all]`
+	`[level]`	0
+	`%`	1000	4
+	`[all]`
+	`[level]`	3
+	`%`	1000	4
+	`[all]`
+	`[level]`	0
+	`%`	1000	4
+	`[all]`
+	`[level]`	3
+	`%`	1000	27
+	`[all]`
+	`[level]`	1
+	`%`	1000	27
+	`[all]`
+	`[level]`	1
+	`%`	1000	12
+	`[all]`
+	`[level]`	0
+	`%`	1000	12
+	`[all]`
+	`[level]`	3
+	`%`	1000	12
+	`[all]`
+	`[level]`	0
+	`%`	1000	12
+	`[all]`
+	`[level]`	3
+	`%`	1000	30
+	`[all]`
+	`[level]`	1
+	`%`	1000	30
+	`[all]`
+	`[level]`	2
+	`%`	1000	30
+	`[all]`
+	`[level]`	1
+	`%`	1000	30
+	`[all]`
+	`[level]`	2
+	`%`	1000	3
+	`[all]`
+	`[level]`	0
+	`%`	1000	3
+	`[all]`
+	`[level]`	3
+	`%`	1000	3
+	`[all]`
+	`[level]`	0
+	`%`	1000	3
+	`[all]`
+	`[level]`	3
+	`%`	1000	14
+	`[all]`
+	`[level]`	0
+	`%`	1000	14
+	`[all]`
+	`[level]`	1
+	`%`	1000	14
+	`[all]`
+	`[level]`	0
+	`%`	1000	14
+	`[all]`
+	`[level]`	1
+	`%`	1000	6
+	`[all]`
+	`[level]`	0
+	`%`	1000	6
+	`[all]`
+	`[level]`	1
+	`%`	1000	6
+	`[all]`
+	`[level]`	0
+	`%`	1000	6
+	`[all]`
+	`[level]`	1
+	`%`	1000	7
+	`[all]`
+	`[level]`	0
+	`%`	1000	7
+	`[all]`
+	`[level]`	6
+	`%`	1000	7
+	`[all]`
+	`[level]`	0
+	`%`	1000	7
+	`[all]`
+	`[level]`	6
+	`%`	1000	13
+	`[all]`
+	`[level]`	0
+	`%`	1000	13
+	`[all]`
+	`[level]`	4
+	`%`	1000	13
+	`[all]`
+	`[level]`	0
+	`%`	1000	13
+	`[all]`
+	`[level]`	4
+	`%`	1000	56
+	`[all]`
+	`[level]`	0
+	`%`	1000	56
+	`[all]`
+	`[level]`	0
+	`%`	1000	5
+	`[all]`
+	`[level]`	0
+	`%`	1000	5
+	`[all]`
+	`[level]`	0
+	`%`	1000	26
+	`[all]`
+	`[level]`	0
+	`%`	1000	26
+	`[all]`
+	`[level]`	0
+	`%`	1000	35
+	`[all]`
+	`[level]`	2
+	`%`	1000	35
+	`[all]`
+	`[level]`	2
+	`%`	1000	20
+	`[all]`
+	`[level]`	0
+	`%`	1000	20
+	`[all]`
+	`[level]`	0
+	`%`	1000	9
+	`[all]`
+	`[level]`	0
+	`%`	1000	9
+	`[all]`
+	`[level]`	0
+	`%`	1000	9
+	`[all]`
+	`[level]`	3
+	`%`	1000	15
+	`[all]`
+	`[level]`	0
+	`%`	1000	15
+	`[all]`
+	`[level]`	0
+	`%`	1000	72
+	`[all]`
+	`[level]`	0
+	`%`	1000	72
+	`[all]`
+	`[level]`	0
+	`%`	1000	51
+	`[all]`
+	`[level]`	0
+	`%`	1000	51
+	`[all]`
+	`[level]`	1
+	`%`	1000	51
+	`[all]`
+	`[level]`	2
+	`%`	1000	51
+	`[all]`
+	`[level]`	0
+	`%`	1000	51
+	`[all]`
+	`[level]`	1
+	`%`	1000	51
+	`[all]`
+	`[level]`	2
+	`%`	1000	64
+	`[all]`
+	`[level]`	0
+	`%`	1000	64
+	`[all]`
+	`[level]`	4
+	`%`	1000	64
+	`[all]`
+	`[level]`	8
+	`%`	1000	100
+	`[all]`
+	`[level]`	3
+	`%`	1000	100
+	`[all]`
+	`[level]`	4
+	`%`	1000	100
+	`[all]`
+	`[level]`	5
+	`%`	1000	100
+	`[all]`
+	`[level]`	6
+	`%`	1000	100
+	`[all]`
+	`[level]`	10
+	`%`	1000	100
+	`[all]`
+	`[level]`	13
+	`%`	1000	101
+	`[all]`
+	`[level]`	2
+	`%`	1000	101
+	`[all]`
+	`[level]`	1
+	`%`	1000	101
+	`[all]`
+	`[level]`	2
+	`%`	1000	101
+	`[all]`
+	`[level]`	8
+	`%`	1000	104
+	`[all]`
+	`[level]`	0
+	`%`	1000	104
+	`[all]`
+	`[level]`	3
+	`%`	1000	104
+	`[all]`
+	`[level]`	5
+	`%`	1000	104
+	`[all]`
+	`[level]`	0
+	`%`	1000	104
+	`[all]`
+	`[level]`	3
+	`%`	1000	104
+	`[all]`
+	`[level]`	5
+	`%`	1000	28
+	`[all]`
+	`[level]`	1
+	`%`	1000	28
+	`[all]`
+	`[level]`	1
+	`%`	1000	79
+	`[all]`
+	`[level]`	0
+	`%`	1000	79
+	`[all]`
+	`[level]`	0
+	`%`	1000	80
+	`[all]`
+	`[level]`	0
+	`%`	1000	80
+	`[all]`
+	`[level]`	1
+	`%`	1000	80
+	`[all]`
+	`[level]`	0
+	`%`	1000	80
+	`[all]`
+	`[level]`	1
+	`%`	1000	29
+	`[all]`
+	`[level]`	1
+	`%`	1000	29
+	`[all]`
+	`[level]`	2
+	`%`	1000	29
+	`[all]`
+	`[level]`	1
+	`%`	1000	29
+	`[all]`
+	`[level]`	2
+	`%`	1000	81
+	`[all]`
+	`[level]`	0
+	`%`	1000	81
+	`[all]`
+	`[level]`	0
+	`%`	1000	63
+	`[all]`
+	`[level]`	1
+	`%`	1000	63
+	`[all]`
+	`[level]`	2
+	`%`	1000	63
+	`[all]`
+	`[level]`	3
+	`%`	1000	63
+	`[all]`
+	`[level]`	4
+	`%`	1000	63
+	`[all]`
+	`[level]`	1
+	`%`	1000	63
+	`[all]`
+	`[level]`	2
+	`%`	1000	63
+	`[all]`
+	`[level]`	3
+	`%`	1000	63
+	`[all]`
+	`[level]`	4
+	`%`	1000	59
+	`[all]`
+	`[level]`	5
+	`%`	1000	59
+	`[all]`
+	`[level]`	7
+	`%`	1000	59
+	`[all]`
+	`[level]`	9
+	`%`	1000	59
+	`[all]`
+	`[level]`	5
+	`%`	1000	59
+	`[all]`
+	`[level]`	7
+	`%`	1000	59
+	`[all]`
+	`[level]`	9
+	`%`	1000	83
+	`[all]`
+	`[level]`	3
+	`%`	1000	83
+	`[all]`
+	`[level]`	4
+	`%`	1000	83
+	`[all]`
+	`[level]`	5
+	`%`	1000	83
+	`[all]`
+	`[level]`	3
+	`%`	1000	83
+	`[all]`
+	`[level]`	4
+	`%`	1000	83
+	`[all]`
+	`[level]`	5
+	`%`	1000	67
+	`[all]`
+	`[level]`	1
+	`%`	1000	96
+	`[all]`
+	`[level]`	0
+	`%`	1000	96
+	`[all]`
+	`[level]`	1
+	`%`	1000	96
+	`[all]`
+	`[level]`	2
+	`%`	1000	96
+	`[all]`
+	`[level]`	3
+	`%`	1000	96
+	`[all]`
+	`[level]`	4
+	`%`	1000	105
+	`[all]`
+	`[level]`	1
+	`%`	1000	105
+	`[all]`
+	`[level]`	8
+	`%`	1000	105
+	`[all]`
+	`[level]`	10
+	`%`	1000	105
+	`[all]`
+	`[level]`	1
+	`%`	1000	105
+	`[all]`
+	`[level]`	8
+	`%`	1000	105
+	`[all]`
+	`[level]`	10
+	`%`	1000	106
+	`[all]`
+	`[level]`	1
+	`%`	1000	106
+	`[all]`
+	`[level]`	2
+	`%`	1000	106
+	`[all]`
+	`[level]`	4
+	`%`	1000	106
+	`[all]`
+	`[level]`	1
+	`%`	25
+	`[at gunner]`	106
+	`[all]`
+	`[level]`	2
+	`%`	25
+	`[at gunner]`	106
+	`[all]`
+	`[level]`	4
+	`%`	25
+	`[gunner]`	34
+	`[all]`
+	`[level]`	0
+	`%`	1000	34
+	`[all]`
+	`[level]`	0
+	`%`	1000	73
+	`[all]`
+	`[level]`	0
+	`%`	1000	73
+	`[all]`
+	`[level]`	1
+	`%`	1000	73
+	`[all]`
+	`[level]`	0
+	`%`	1000	73
+	`[all]`
+	`[level]`	1
+	`%`	1000	40
+	`[all]`
+	`[level]`	0
+	`%`	1000	40
+	`[all]`
+	`[level]`	1
+	`%`	1000	40
+	`[all]`
+	`[level]`	3
+	`%`	1000	40
+	`[all]`
+	`[level]`	4
+	`%`	1000	40
+	`[all]`
+	`[level]`	0
+	`%`	1000	40
+	`[all]`
+	`[level]`	1
+	`%`	1000	40
+	`[all]`
+	`[level]`	3
+	`%`	1000	40
+	`[all]`
+	`[level]`	4
+	`%`	1000	39
+	`[all]`
+	`[level]`	0
+	`%`	1000	39
+	`[all]`
+	`[level]`	1
+	`%`	1000	39
+	`[all]`
+	`[level]`	0
+	`%`	1000	39
+	`[all]`
+	`[level]`	1
+	`%`	1000	36
+	`[all]`
+	`[level]`	0
+	`%`	1000	36
+	`[all]`
+	`[level]`	0
+	`%`	1000	36
+	`[all]`
+	`[level]`	4
+	`%`	1000	36
+	`[all]`
+	`[level]`	4
+	`%`	1000	41
+	`[all]`
+	`[level]`	1
+	`%`	1000	41
+	`[all]`
+	`[level]`	1
+	`%`	1000	75
+	`[all]`
+	`[level]`	0
+	`%`	1000	75
+	`[all]`
+	`[level]`	1
+	`%`	1000	75
+	`[all]`
+	`[level]`	0
+	`%`	1000	75
+	`[all]`
+	`[level]`	1
+	`%`	1000	31
+	`[all]`
+	`[level]`	1
+	`%`	1000	31
+	`[all]`
+	`[level]`	2
+	`%`	1000	38
+	`[all]`
+	`[level]`	1
+	`%`	1000	38
+	`[all]`
+	`[level]`	2
+	`%`	1000	38
+	`[all]`
+	`[level]`	1
+	`%`	1000	38
+	`[all]`
+	`[level]`	2
+	`%`	1000	45
+	`[all]`
+	`[level]`	0
+	`%`	1000	45
+	`[all]`
+	`[level]`	4
+	`%`	1000	45
+	`[all]`
+	`[level]`	6
+	`%`	1000	45
+	`[all]`
+	`[level]`	0
+	`%`	1000	45
+	`[all]`
+	`[level]`	4
+	`%`	1000	45
+	`[all]`
+	`[level]`	6
+	`%`	1000	71
+	`[all]`
+	`[level]`	0
+	`%`	1000	71
+	`[all]`
+	`[level]`	1
+	`%`	1000	71
+	`[all]`
+	`[level]`	0
+	`%`	1000	71
+	`[all]`
+	`[level]`	1
+	`%`	1000	54
+	`[all]`
+	`[level]`	0
+	`%`	1000	54
+	`[all]`
+	`[level]`	1
+	`%`	1000	97
+	`[all]`
+	`[level]`	0
+	`%`	1000	97
+	`[all]`
+	`[level]`	1
+	`%`	1000	97
+	`[all]`
+	`[level]`	2
+	`%`	1000	97
+	`[all]`
+	`[level]`	3
+	`%`	1000	107
+	`[all]`
+	`[level]`	0
+	`%`	1000	107
+	`[all]`
+	`[level]`	4
+	`%`	1000	107
+	`[all]`
+	`[level]`	0
+	`%`	1000	107
+	`[all]`
+	`[level]`	4
+	`%`	1000	108
+	`[all]`
+	`[level]`	0
+	`%`	1000	108
+	`[all]`
+	`[level]`	1
+	`%`	1000	108
+	`[all]`
+	`[level]`	4
+	`%`	1000	108
+	`[all]`
+	`[level]`	5
+	`%`	1000	108
+	`[all]`
+	`[level]`	0
+	`%`	1000	108
+	`[all]`
+	`[level]`	1
+	`%`	1000	108
+	`[all]`
+	`[level]`	4
+	`%`	1000	108
+	`[all]`
+	`[level]`	5
+	`%`	1000	2
+	`[all]`
+	`[level]`	3
+	`%`	1000	2
+	`[all]`
+	`[level]`	5
+	`%`	1000	2
+	`[all]`
+	`[level]`	3
+	`%`	1000	2
+	`[all]`
+	`[level]`	5
+	`%`	1000	76
+	`[all]`
+	`[level]`	0
+	`%`	1000	76
+	`[all]`
+	`[level]`	0
+	`%`	1000	48
+	`[all]`
+	`[level]`	0
+	`%`	1000	48
+	`[all]`
+	`[level]`	0
+	`%`	1000	57
+	`[all]`
+	`[level]`	0
+	`%`	1000	57
+	`[all]`
+	`[level]`	0
+	`%`	1000	1
+	`[all]`
+	`[level]`	1
+	`%`	1000	1
+	`[all]`
+	`[level]`	2
+	`%`	1000	1
+	`[all]`
+	`[level]`	1
+	`%`	1000	1
+	`[all]`
+	`[level]`	2
+	`%`	1000	52
+	`[all]`
+	`[level]`	1
+	`%`	1000	52
+	`[all]`
+	`[level]`	2
+	`%`	1000	52
+	`[all]`
+	`[level]`	1
+	`%`	1000	52
+	`[all]`
+	`[level]`	2
+	`%`	1000	58
+	`[all]`
+	`[level]`	0
+	`%`	1000	58
+	`[all]`
+	`[level]`	0
+	`%`	1000	109
+	`[all]`
+	`[level]`	0
+	`%`	1000	109
+	`[all]`
+	`[level]`	0
+	`%`	1000	77
+	`[all]`
+	`[level]`	0
+	`%`	1000	77
+	`[all]`
+	`[level]`	0
+	`%`	1000	53
+	`[all]`
+	`[level]`	0
+	`%`	1000	53
+	`[all]`
+	`[level]`	5
+	`%`	1000	53
+	`[all]`
+	`[level]`	0
+	`%`	1000	53
+	`[all]`
+	`[level]`	5
+	`%`	1000	78
+	`[all]`
+	`[level]`	0
+	`%`	1000	78
+	`[all]`
+	`[level]`	0
+	`%`	1000	70
+	`[all]`
+	`[level]`	1
+	`%`	1000	70
+	`[all]`
+	`[level]`	2
+	`%`	1000	70
+	`[all]`
+	`[level]`	3
+	`%`	1000	70
+	`[all]`
+	`[level]`	4
+	`%`	1000	98
+	`[all]`
+	`[level]`	0
+	`%`	1000	98
+	`[all]`
+	`[level]`	1
+	`%`	1000	98
+	`[all]`
+	`[level]`	2
+	`%`	1000	98
+	`[all]`
+	`[level]`	3
+	`%`	1000	103
+	`[all]`
+	`[level]`	0
+	`%`	1000	103
+	`[all]`
+	`[level]`	5
+	`%`	1000	103
+	`[all]`
+	`[level]`	0
+	`%`	1000	103
+	`[all]`
+	`[level]`	5
+	`%`	1000	102
+	`[all]`
+	`[level]`	0
+	`%`	1000	102
+	`[all]`
+	`[level]`	5
+	`%`	1000	102
+	`[all]`
+	`[level]`	0
+	`%`	1000	102
+	`[all]`
+	`[level]`	5
+	`%`	1000
+[/skill data up]
+
+[if]
+	[start cooltime]
+		47000
+	[change status]
+		`hp`
+		`>`
+		`%`	1000
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[if]
+	[my appendage]
+		888
+	[change status]
+		`hp`
+		`>`
+		`%`	1000
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		642
+	[appendage]
+		650
+[/then]
+
+[possible kiri protect]

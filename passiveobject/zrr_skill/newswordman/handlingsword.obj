@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`much sword`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[vanish on move collision]
+	0
+
+[attack info]
+	`AttackInfo/HandlingSwordShoot.atk`
+
+[follow parent]
+	`[parent]`
+
+[basic motion]
+	``
+
+[etc motion]
+	`Animation/Handlingsword/Handlingsword_Stand_Sword_normal_A.ani`
+	`Animation/Handlingsword/Handlingsword_Stand_Sword_normal_B.ani`
+	`Animation/Handlingsword/Handlingsword_Stand_Sword_normal_C.ani`
+	`Animation/Handlingsword/Handlingsword_Stand_Sword_normal_D.ani`
+	`Animation/Handlingsword/Handlingsword_Stand_Sword_normal_E.ani`
+	`Animation/Handlingsword/Handlingsword_Launch_Eff_G.ani`
+	`Animation/Handlingsword/Handlingsword_flyingsword_eff_B.ani`
+	`animation/handlingsword/handlingsword_lifting_sword_normal_b.ani`
+	`animation/handlingsword/handlingsword_lifting_sword_normal_c.ani`
+	`animation/handlingsword/handlingsword_lifting_sword_normal_d.ani`
+	`animation/handlingsword/handlingsword_lifting_sword_normal_e.ani`
+[/etc motion]

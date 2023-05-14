@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`空絞錘的間接攻擊`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/LightningGod/BallKeepsmall/Ball_Keep_small_ball.ani`
+
+[etc motion]
+	`Animation/LightningGod/SmallKeepsmallsword/Small_Keep_small_sword_1-1.ani`
+	`Animation/LightningGod/Ballstartsmallball/Ball_start_small_ball.ani`
+	`Animation/LightningGod/BallKeepsmall/Ball_Keep_small_ball.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/LightningGodSword.atk`
+
+[etc attack info]
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	4000
+[/object destroy condition]

@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`極光魅影`
+
+[basic explain]
+	`[精靈召喚 : 極光格雷林]召喚數量上限 +1
+[魔力印記]標靶持續時間 +2秒`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rod`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/mage/rod.img`	82
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	24
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	64
+
+[equipment physical attack]
+	515	472
+
+[equipment magical attack]
+	629	576
+
+[separate attack]
+	360	243
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[skill data up]
+	`[mage]`	77
+	`[all]`
+	`[level]`	2
+	`+`	1
+	`[mage]`	50
+	`[all]`
+	`[level]`	0
+	`+`	2000
+[/skill data up]
+
+[skill levelup]
+	`[mage]`	48	1
+	`[at mage]`	21	1
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	5	7
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	5	7
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`ROD_TOUCH`
+
+[routing priority]
+	`mage`	2
+	`at mage`	2
+[/routing priority]
+
+[possible kiri protect]

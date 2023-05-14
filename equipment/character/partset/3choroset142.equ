@@ -1,0 +1,131 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at priest]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`+`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[神光懲戒]攻擊力 +20%%
+[神光懲戒]冷卻時間 -15%%
+[十字架精通]獨立攻擊力增加率 +5%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[static]`	8
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[static]`	9
+		`%`	20
+		`[at priest]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at priest]`	31
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at priest]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[神光懲戒]攻擊力 +20%%
+[神光懲戒]攻擊范圍 +20%%
+[神光懲戒]冷卻時間 -20%%
+[神光十字]攻擊力 +20%%
+[神光十字]冷卻時間 -20%%
+[神光十字]十字架大小 +20%%
+[神光十字]裂痕大小 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at priest]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[at priest]`	31
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at priest]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	31
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	35
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+		`[at priest]`	35
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[神光十字]攻擊力 +50%%
+[神光十字]十字架大小 +30%%
+[神光十字]裂痕大小 +30%%
+[神光十字]冷卻時間 -30%%
+[神光十字]無色小晶塊消耗量 +1
+[懺悔重擊]十字架大小 +30%%
+[懺悔重擊]冷卻時間 -30%%`
+[/piece set ability]

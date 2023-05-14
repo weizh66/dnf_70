@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`澤忒斯 卡片`
+
+[flavor text]
+	`    呵， 受死吧！`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	100
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[value]
+	10800
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[title name]`
+[/string data]
+
+[int data]
+	100	56007
+[/int data]
+
+[enchant]
+	[equipment physical attack]
+		7	7
+	[equipment magical attack]
+		7	7
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

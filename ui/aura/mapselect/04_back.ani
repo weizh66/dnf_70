@@ -1,0 +1,90 @@
+#PVF_File
+[LOOP]
+	1
+[COORD]
+	1
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Interface2/minimap/town/minimap_minimap_town.img`
+		19
+	[IMAGE POS]
+		184	-29
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		800
+
+[FRAME001]
+	[IMAGE]
+		`Interface2/minimap/town/minimap_minimap_town.img`
+		19
+	[IMAGE POS]
+		184	-29
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		800
+
+[FRAME002]
+	[IMAGE]
+		`Interface2/minimap/town/minimap_minimap_town.img`
+		19
+	[IMAGE POS]
+		184	-29
+	[IMAGE ROTATE]
+		1.0471980571746826
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		800
+
+[FRAME003]
+	[IMAGE]
+		`Interface2/minimap/town/minimap_minimap_town.img`
+		19
+	[IMAGE POS]
+		184	-29
+	[IMAGE ROTATE]
+		1.570796012878418
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+
+[FRAME004]
+	[IMAGE]
+		`Interface2/minimap/town/minimap_minimap_town.img`
+		19
+	[IMAGE POS]
+		184	-29
+	[IMAGE RATE]
+		1.5	1.5
+	[IMAGE ROTATE]
+		1.570796012878418
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300

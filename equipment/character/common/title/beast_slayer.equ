@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	` 怪獸獵殺者`
+
+[explain]
+	`被攻擊時，有2%%的機率召喚出1隻Lv10的牛頭兵協助召喚者攻擊敵人，牛頭兵存在20秒。(在決鬥場中無法召喚。)`
+
+[flavor text]
+	`哇...... 哇~聽說那個人獵殺了牛頭王...... 城鎮的居民每次看見我，都會議論紛紛。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	95
+
+[custom animation]
+	`TitleAnimation/beast_slayer.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	8
+
+[magical attack]
+	8
+
+[inventory limit]
+	4000
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[if]
+	[cooltime]
+		30000
+	[disable pvp]
+		1
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[summon monster]
+		11	10	1
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

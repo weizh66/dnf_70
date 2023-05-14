@@ -1,0 +1,36 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Dummy_dust_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/Dummy_dust_Basic_1.ani`	0	1
+		`../Animation/Dummy_dust_Basic_2.ani`	0	2
+		`../Animation/Dummy_dust_Basic_3.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[MY OPPOSITE DIRECTION]
+[/BEHAVIOR]

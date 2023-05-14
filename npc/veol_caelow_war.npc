@@ -1,0 +1,37 @@
+#PVF_File
+
+[name]
+	`維爾·克魯`
+
+[field name]
+	`維爾·克魯`
+
+[small face]
+	`Map/Npc/NpcFace04.img`	0
+
+[big face]
+	`Map/Npc/NpcFace04.img`	0
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	0
+
+[field animation]
+	`Animation/Veol_Caelow.ani`
+
+[role]
+	`[power war]`	4
+	`[return town]`	0
+[/role]
+
+[look around]
+	0
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::98>這里是競技大賽候場大廳。 大賽開始時， 請各位參賽者移步前往競技場。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::98>如果從競技區返回城鎮， 就不能再回來參加本次比賽， 所以希望參賽者們考慮清楚。`
+[/dialog]

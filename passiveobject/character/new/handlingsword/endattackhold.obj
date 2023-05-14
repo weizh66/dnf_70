@@ -1,0 +1,25 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/hold1.act`
+
+[etc action]
+	`action/hold2.act`
+[/etc action]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	7500
+[/object destroy condition]
+
+[name]
+	`強控`

@@ -1,0 +1,31 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/ATRitualForDragon/ATRitualForDragon_Lightinig_Glow.img`
+		0
+	[IMAGE POS]
+		-123	-156
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	178
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		14	-122
+	[DELAY]
+		80

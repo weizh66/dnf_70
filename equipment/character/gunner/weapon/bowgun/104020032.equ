@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`暴風的轢殺`
+
+[basic explain]
+	`攻擊時以 2%% 的機率對敵人召喚審判之閃電
+敵人死亡時以10%% 的機率召喚強大的審判之閃電
+穿刺力增加20 `
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[magical attack]
+	28
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	648	586
+
+[equipment magical attack]
+	721	651
+
+[separate attack]
+	504	343
+
+[physical critical hit]
+	3
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/bowgun/bowgun.img`	83
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	23	1
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	23	1
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[int data]
+	7	-1	-1	-1	-1	-1	-1	-1	35	-1
+[/int data]
+
+[elemental property]
+	`light`
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2333
+[/if]
+
+[then]
+	[probability]
+		2
+	[target]
+		`enemy`	-1
+	[passive object]
+		48513	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		2333
+[/if]
+
+[then]
+	[probability]
+		10
+	[target]
+		`enemy`	-1
+	[passive object]
+		48515	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

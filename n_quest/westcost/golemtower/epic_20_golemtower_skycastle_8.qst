@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	122
+[/pre required quest]
+
+[monster reward item]
+	34	13	1	3104	1	20	3	34	13	2	3104	1	30	3	34	13	3	3104	1	40	3
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3104	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	7000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`研究石巨人`
+
+[depend message]
+	`你說那里有個用黃金制作的石巨人？ 那可真了不得啊！ 黃金可是魔法師很難弄到的珍貴魔法材料啊， 我敢肯定那個用黃金制作的石巨人身上隱藏有某種玄機。
+也許我們可以通過研究它找到通往上層的方法， 冒險家， 你知道這么龐大的石巨人是靠什么驅動笨重的身軀嗎？ 是靠它們身體內的心臟。
+你能不能幫我取一些石巨人的心臟來？ 我希望通過研究它們得到一些參數。 哦， 對了， 那些心臟必須是石巨人中堪稱具有最精密構造的青銅石巨人的心臟才行啊！`
+
+[condition message]
+	`    前往天空之城的『石巨人塔』， 收集3個[青銅石巨人的心臟]， 要求地下城難度為冒險級以上。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`咦？ 這就是青銅石巨人的心臟啊！ 果然長得很奇怪啊！`
+
+[quest point]
+	4

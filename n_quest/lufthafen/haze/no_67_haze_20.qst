@@ -1,0 +1,49 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3324	7
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	7761	1	7762	1	7763	1	7764	1	7765	1
+[/reward selection int data]
+
+[name]
+	`收集勛章`
+
+[depend message]
+	`聽說卡勒特那群家伙也學正規軍帶起了勛章， 真是可笑極了。 嘿！ 你幫我去教訓教訓他們， 把那些勛章都給搶過來， 看他們還怎么囂張~~
+唉， 別一副不情愿的樣子嘛！ 我會給你獎勵的哦~`
+
+[condition message]
+	`    收集7個[卡勒特勛章]交給凱麗。`
+
+[solve message]
+	`帶回來了？ 哼哼， 這些破銅爛鐵， 就算是放分解機里也分解不出什么好東西。`

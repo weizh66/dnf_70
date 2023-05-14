@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	11
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	4
+
+[int data]
+	11006	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`講述冒險故事`
+
+[depend message]
+	`聽那些去過亡者峽谷的人說， 無盡的祭壇里有不少值得較量的敵人。
+哈哈， 太有趣了！ 真想去舒展一下筋骨。
+不過我還要在這里看店， 沒法離開， 可惜了……
+喂！ 不如你替我去較量一下， 然后把過程講給我聽？
+記住， 一定要干凈利落地收拾他們。 另外， 我可不喜歡聽失敗者的故事。`
+
+[condition message]
+	`    不使用復活幣通關亡者峽谷的『無盡的祭壇』。`
+
+[solve message]
+	`切！ 至于這么得意嘛？
+如果換作是我……噢~我的拳頭又在顫抖了！`

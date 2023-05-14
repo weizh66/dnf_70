@@ -1,0 +1,146 @@
+#PVF_File
+
+[name]
+	` 千年玄鐵步槍`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入詛咒狀態。
+增加穿刺力`
+
+[detail explain]
+	`攻擊時以3%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少12，體力減少12，智能減少12，精神力減少12。 (若敵人高於Lv20，則減少進入異常狀態的機率；反之，則增加機率。)
+增加穿刺力`
+
+[grade]
+	22
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	20
+
+[physical attack]
+	15
+
+[magical attack]
+	23
+
+[price]
+	35200
+
+[repair price]
+	28160
+
+[value]
+	140800
+
+[equipment physical attack]
+	213	184
+
+[equipment magical attack]
+	185	160
+
+[separate attack]
+	108	70
+
+[physical critical hit]
+	1
+
+[icon]
+	`item/weapon/gunner/musket.img`	7
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		32000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`curse`	20	12	12	12	12
+[/then]
+
+[possible kiri protect]

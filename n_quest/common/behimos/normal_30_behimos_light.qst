@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	30	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3115	15
+[/int data]
+
+[dungeon info]
+	26	-1	24	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100	1075	10	1076	20	24069	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魔法研究 - 光屬性篇`
+
+[depend message]
+	`最近我在研究光屬性魔法， 你能幫我找些耀眼的結晶來嗎？ 我聽說耀眼的結晶藏在天帷巨獸神殿的雷沃斯身上， 你就幫我去找找看吧。`
+
+[condition message]
+	`    收集15個[耀眼的結晶]。`
+
+[solve message]
+	`我的魔法研究越來越有成效了， 謝謝你！ `

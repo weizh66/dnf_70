@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`(舊) 炙炎梵天劍`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率附加350點傷害。`
+
+[flavor text]
+	`    它一閃而過， 無法分清是劍還是火。`
+
+[grade]
+	25
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[rarity]
+	4
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	20
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	40
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	45000
+
+[value]
+	36000
+
+[cool time]
+	10000
+
+[physical attack]
+	20
+
+[equipment physical attack]
+	331	274
+
+[equipment magical attack]
+	248	205
+
+[separate attack]
+	159	103
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	350
+[/then]
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[creature physical attack]
+	120
+
+[creation rate]
+	190
+
+[possible kiri protect]

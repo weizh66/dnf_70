@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`風神映月棍`
+
+[basic explain]
+	`[旋風腿]旋轉次數 +1
+[旋風腿]移動速度 +20%%`
+
+[flavor text]
+	`    加加不路根！！  --街頭霸王中， 肯`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`tonfa`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	34
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	39
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	505	460
+
+[equipment physical defense]
+	570	560
+
+[equipment magical attack]
+	532	484
+
+[separate attack]
+	328	220
+
+[stuck resistance]
+	30
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[fighter]`	58	5
+	`[at fighter]`	58	5
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	3	3
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	3	3
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`TONFA_TOUCH`
+
+[routing priority]
+[/routing priority]
+
+[skill data up]
+	`[fighter]`	58
+	`[all]`
+	`[level]`	1
+	`+`	1
+	`[fighter]`	58
+	`[all]`
+	`[static]`	0
+	`%`	20
+	`[fighter]`	58
+	`[all]`
+	`[static]`	1
+	`%`	20
+	`[at fighter]`	58
+	`[all]`
+	`[level]`	1
+	`+`	1
+[/skill data up]
+
+[possible kiri protect]

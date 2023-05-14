@@ -1,0 +1,20 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-252	-440
+	[RGBA]
+		0	0	0	51
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

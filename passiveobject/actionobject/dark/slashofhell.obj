@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`SlashOfHell passive object`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/slashofhell.ani`
+
+[attack info]
+	`AttackInfo/SlashOfHell.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	990332
+[/object destroy condition]

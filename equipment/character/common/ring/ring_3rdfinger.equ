@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	` 剜心指環`
+
+[basic explain]
+	`攻擊時以 2%% 的機率讓敵人呈現出血狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以8的攻擊力給予傷害。 (若敵人高於Lv15，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[flavor text]
+	` 我要把仇人的心挖出來磨成血粥喝掉！`
+
+[grade]
+	17
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	15
+
+[physical attack]
+	11
+
+[magical attack]
+	11
+
+[price]
+	17000
+
+[repair price]
+	13600
+
+[value]
+	13600
+
+[equipment magical defense]
+	640	576
+
+[icon]
+	`Item/IconAcc.img`	55
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	200
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	15	160
+[/then]
+
+[possible kiri protect]

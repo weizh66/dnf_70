@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2498
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680351	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680350	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`圣誕節裝飾 <反復>`
+
+[depend message]
+	`我不能獨自享受你們帶來的快樂， 如果你在冒險時發現圣誕節禮盒， 請把它帶給我吧。
+我知道我的要求很無禮， 但我想把你們帶給我的這些快樂， 分享給其他人……`
+
+[condition message]
+	`    前往任意地下城， 從怪物身上收集25個圣誕節禮盒交給賽麗亞。`
+
+[solve message]
+	`都不知道怎么感謝你了……我們的阿拉德大陸， 也正是因為有許多像你這樣的冒險家， 所以才會變得更加和諧多彩。`

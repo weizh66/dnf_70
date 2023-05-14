@@ -1,0 +1,199 @@
+#PVF_File
+
+[name]
+	`空間支配者胸甲`
+
+[basic explain]
+	`攻擊時，以3%%的機率使所有敵人進入減速狀態。`
+
+[detail explain]
+	`攻擊時，有3%%的幾率使敵人進入減速狀態4秒；減速狀態下的敵人，將減少20%%的移動速度和攻擊速度。 （高於Lv69的對象得到的機率減少，低於Lv69的對象則會增加。）`
+
+[flavor text]
+	`哈哈哈！我終於掌握了支配空間的方法...... --玄冥精靈希德`
+
+[grade]
+	65
+
+[rarity]
+	4
+
+[anti evil]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	70
+
+[physical defense]
+	28
+
+[magical attack]
+	22
+
+[price]
+	91000
+
+[repair price]
+	80262
+
+[value]
+	72800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	3504	3216
+
+[icon]
+	`Item/common/coat.img`	249
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[duration]
+		4000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`slow`	65	20	20
+[/then]
+
+[set name]
+	`玄冥精靈重甲  套裝`
+
+[set item]
+	11345	15335	17329
+[/set item]
+
+[set ability]
+	[if]
+		[cooltime]
+			45000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			30000
+		[probability]
+			10
+		[reduce probability to human armor at pvp module]
+			80
+		[stat]
+			`attack speed`
+			`+`	50
+		[stat]
+			`move speed`
+			`+`	50
+		[stat]
+			`cast speed`
+			`+`	50
+	[/then]
+	[set name]
+		1
+	[fullset basic explain]
+		`攻擊時，有10%%的機率增加5%%的攻擊速度、移動速度和施放速度，效果持續30秒。
+對減速狀態敵人的傷害增加40%% (在決鬥場中 20%%附加傷害)`
+	[if]
+		[target active status]
+			`slow`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	40
+	[/then]
+	[pvp]
+		[if]
+			[cooltime]
+				45000
+			[attack success]
+				1
+		[/if]
+		[then]
+			[target]
+				`myself`	-1
+			[duration]
+				30000
+			[probability]
+				2
+			[stat]
+				`attack speed`
+				`+`	50
+			[stat]
+				`cast speed`
+				`+`	50
+			[stat]
+				`move speed`
+				`+`	50
+		[/then]
+		[if]
+			[target active status]
+				`slow`
+			[attack success]
+				1
+		[/if]
+		[then]
+			[target]
+				`enemy`	-1
+			[add absolute damage]
+				`all`
+				`%`	20
+		[/then]
+	[/pvp]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

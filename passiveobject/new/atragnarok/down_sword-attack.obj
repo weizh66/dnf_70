@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`ATRagnarokDownSwordAttack passive object`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/down.act`
+
+[attack info]
+	`AttackInfo/atragnarokfloorattack.atk`
+
+[etc motion]
+[/etc motion]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	250210
+[/object destroy condition]

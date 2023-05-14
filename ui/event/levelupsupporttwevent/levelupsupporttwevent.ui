@@ -1,0 +1,99 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		110
+	[vertical distance]
+		0
+	[size]
+		20	22
+	[title string]
+		`LEVEL UP！ 等級支援活動`
+		
+	[controls]
+		[ui controls]
+			`[text button]`
+			`2`	96	264	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[board image]`
+			`200`	-1	3	1
+			`Interface/WindowCommon.img`	11	244	100	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`3`	0	110	1
+			`Interface2/event/LevelupSupportTW/levelup_support_tw_event.img`	1	0
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`7`	184	116	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`4`	0	147	1
+			`Interface2/event/LevelupSupportTW/levelup_support_tw_event.img`	1	1
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`8`	184	153	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`5`	0	184	1
+			`Interface2/event/LevelupSupportTW/levelup_support_tw_event.img`	1	2
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`9`	184	190	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`6`	0	221	1
+			`Interface2/event/LevelupSupportTW/levelup_support_tw_event.img`	1	3
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`10`	184	227	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`201`	6	6	1
+			`- 達成等級1、等級10、等級20、等級30 會贈送達成等級的特別禮盒，達到該等級後再打開活動視窗。 
+- 達成各等級就可以獲得的禮物盒， 盒內有各種消耗品還有裝備。
+- 開心升級又可以獲得獎勵喔。`
+				9	-1	240	0	0	0	0	230	200	155
+			[parent]
+				`200`
+		[/ui controls]
+	[/controls]
+[/window]

@@ -1,0 +1,108 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	54
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	54
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[gun blader]`	54
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[gun blader]`	54
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[gun blader]`	54
+		`[dungeon type]`
+		`[level]`	6
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[源能護盾]攻擊力 +25%%
+[源能護盾]大小和爆炸范圍 +40%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	88
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+		`[gun blader]`	54
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	9
+		`%`	30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	10
+		`%`	30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	11
+		`%`	30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	12
+		`%`	30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	13
+		`%`	30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	7
+		`%`	-30
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[static]`	8
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[源能應用]魔法暴擊傷害增加率 +10%%
+[源能護盾]冷卻時間 -30%%
+[脈沖斬]冷卻時間 -35%%
+[脈沖斬]脈沖大小 +30%%
+[脈沖斬]脈沖生成間隔 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[gun blader]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[gun blader]`	91
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[gun blader]`	91
+		`[dungeon type]`
+		`[static]`	3
+		`+`	55
+	[/skill data up]
+	[parameter basic explain]
+		`[脈沖斬]攻擊力 +45%%
+[電磁領域]攻擊力 +45%%
+[電磁領域]技能范圍 +55%%`
+[/piece set ability]

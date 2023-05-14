@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`燃燒之鬥魂`
+
+[basic explain]
+	`決鬥場內流血、中毒、觸電傷害增加13%% `
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[physical attack]
+	25
+
+[physical defense]
+	25
+
+[magical attack]
+	25
+
+[magical defense]
+	25
+
+[price]
+	76800
+
+[repair price]
+	64512
+
+[value]
+	61440
+
+[creation rate]
+	30
+
+[need material]
+	3340	63
+
+[icon]
+	`Item/common/support.img`	25
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[active status control info]
+	`bleeding`	0	5	0	25
+
+[active status control info]
+	`poison`	0	5	0	25
+
+[active status control info]
+	`lightning`	0	5	0	25
+
+[pvp]
+	[active status control info]
+		`bleeding`	0	5	0	13
+	[active status control info]
+		`poison`	0	5	0	13
+	[active status control info]
+		`lightning`	0	5	0	13
+[/pvp]
+
+[possible kiri protect]

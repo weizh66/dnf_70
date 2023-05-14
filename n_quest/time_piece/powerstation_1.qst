@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	78	99
+
+[monster reward item]
+	63045	101	-1	4795	1	60	60	61632	102	-1	4795	1	60	60	64020	103	-1	4795	1	60	60	61295	104	-1	4795	1	60	60
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4795	60
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 發電站`
+
+[depend message]
+	`叫做發電站的天界的發電所，被使徒 安徒恩佔據著。
+隨著安徒恩的變異，發現了很多扭曲的次元。可能因為那個扭曲的次元，很多時間碎片流入了那裡。
+ 需要找回那些時間碎片。`
+
+[condition message]
+	`擊敗發電站的頭目，收集時間碎片後交給最後的先知者`
+
+[solve message]
+	`可能是因為吸收安徒恩的氣息，是紅色…`
+
+[quest point]
+	4

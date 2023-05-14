@@ -1,0 +1,173 @@
+#PVF_File
+
+[name]
+	`金色閃光`
+
+[basic explain]
+	`根據裝備中的裝備品級增加附加白字效果(最大六件)
+—史詩+9%%白字
+—傳奇+7%%白字
+—粉+5%%白字
+(實際效果附加54%%傷害)`
+
+[detail explain]
+	`根據裝備中的裝備品級增加附加白字效果(最大六件)
+—史詩+9%%白字
+—傳奇+7%%白字
+—粉+5%%白字
+(實際效果附加54%%傷害)`
+
+[flavor text]
+	`總之先看這把閃亮的槍吧，妳覺得這個怎麼樣啊?`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	75
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1354	1354
+
+[equipment magical attack]
+	877	877
+
+[separate attack]
+	686	686
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/wuqi.img`	14
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	48	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	48	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	50
+[/then]
+
+[possible kiri protect]

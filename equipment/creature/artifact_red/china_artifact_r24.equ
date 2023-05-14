@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+	`迪克木多的長槍`
+
+[explain]
+	`攻擊時， 附加20%%的傷害。`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	4
+
+[weight]
+	50
+
+[need material]
+	3850	500
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`item/creature/creature_jp.img`	21
+
+[field image]
+	`Item/field_creature.img`	0
+
+[equipment type]
+	`[artifact red]`	15
+
+[sub type]
+	0
+
+[creature physical attack]
+	1000
+
+[anti evil]
+	15
+
+[separate attack]
+	120	120
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[cool time]
+	10000
+
+[move wav]
+	`BONE_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

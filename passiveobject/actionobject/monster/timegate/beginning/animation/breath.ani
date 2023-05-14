@@ -1,0 +1,45 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/young_scasa/aura.img`
+		0
+	[IMAGE POS]
+		-74	-57
+	[IMAGE RATE]
+		2.0	1.0
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-41	-36	-93	1078	73	187
+
+[FRAME001]
+	[IMAGE]
+		`Monster/young_scasa/aura.img`
+		1
+	[IMAGE POS]
+		-74	-57
+	[IMAGE RATE]
+		2.0	1.0
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-41	-36	-93	1078	73	187

@@ -1,0 +1,29 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`ani/Warning.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			9900147
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	230
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

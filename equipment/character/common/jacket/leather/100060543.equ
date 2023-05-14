@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`塵封的悲鳴狼魂胸甲`
+
+[basic explain]
+	`HP值低於90%%時， 攻擊時有15%%的幾率減少10%%的HP並使Lv45技能的攻擊力增加20%%， 效果持續15秒。`
+
+[detail explain]
+	`HP值低於90%%時， 攻擊時有15%%的幾率減少10%%的HP並使Lv45技能的攻擊力增加20%%， 效果持續15秒。 (冷卻時間30秒， 裝備解除時效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12544
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[magical defense]
+	41
+
+[HP MAX]
+	700
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2352	2184
+
+[icon]
+	`item/new_equipment/03_leather/coat/leather_coat.img`	51
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[if]
+	[stat change]
+		`hp`
+		`<=`
+		`%`	90
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		15000
+	[restore]
+		`hp`
+		`%`	-10	15000
+	[appendage]
+		797
+[/then]
+
+[possible kiri protect]

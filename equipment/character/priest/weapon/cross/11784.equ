@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`被詛咒的十字架 - 圖盧瓦`
+
+[basic explain]
+	`  裝備時每3秒500px範圍內最近的敵人10秒內進入詛咒狀態
+  攻擊詛咒狀態的敵人攻擊時40%%附加傷害。`
+
+[detail explain]
+	`  裝備時，每3秒使500px範圍內最近的敵人10秒內陷入詛咒狀態，減少力量100、體力100、智能 100、精神 100。（高於Lv91的對象得到的機率減少，低於Lv91的對象則會增加）
+  攻擊詛咒狀態的敵人攻擊時10%%附加傷害。`
+
+[flavor text]
+	`  這是……呃，最好還是嚴密封印起來吧…… --格魯`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical defense]
+	80
+
+[magical attack]
+	70
+
+[magical defense]
+	80
+
+[cast speed]
+	20
+
+[HP regen speed]
+	-1000
+
+[need material]
+	3821	1600
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1000	900
+
+[equipment magical attack]
+	1000	900
+
+[equipment physical defense]
+	1000	1000
+
+[equipment magical defense]
+	1000	1000
+
+[separate attack]
+	600	500
+
+[skill levelup]
+	`[priest]`	45	4
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/cross/cross.img`	97
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	33	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[target active status]
+		`curse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	40
+[/then]
+
+[if]
+	[time]
+		3000	1	500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		10000
+	[active status]
+		`curse`	91	100	100	100	100
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600745	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

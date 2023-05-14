@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`狂虎嘯 - 冥火`
+
+[basic explain]
+	`暴擊傷害 +13%%
+    攻擊時， 有6%%的幾率出現冥炎。`
+
+[detail explain]
+	`暴擊傷害 +13%% (在決斗場中 +7%%)
+    攻擊時， 有6%%的幾率出現冥炎， 并且每秒造成400點暗屬性傷害， 效果持續20秒。 (在決斗場中無效)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`knuckle`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	1900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	83
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	39
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[HP MAX]
+	200
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	658	603
+
+[separate attack]
+	360	243
+
+[attack speed]
+	100
+
+[cast speed]
+	70
+
+[magical critical hit]
+	6
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	4
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	4
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[if]
+	[cooltime]
+		20000
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		6
+	[passive object]
+		48304	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	13
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	7
+	[/then]
+[/pvp]
+
+[routing priority]
+	`fighter`	1
+	`at fighter`	1
+[/routing priority]
+
+[possible kiri protect]

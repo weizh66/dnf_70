@@ -1,0 +1,112 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	109
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	109
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	109
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[神光沖擊]冷卻時間 -20%%
+[神光沖擊]攻擊力 +20%%
+[神光沖擊]攻擊范圍 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	113
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	113
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[knight]`	123
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	123
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[knight]`	116
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[神光噴涌]攻擊力 +20%%
+[神光噴涌]攻擊范圍 +30%%
+[圣盾裁決]冷卻時間 -20%%
+[圣盾裁決]攻擊范圍 +20%%
+[神光閃耀]多段攻擊次數 +20%%
+[神光閃耀]最后一擊攻擊力 +20%%
+[神光閃耀]攻擊范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[knight]`	116
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[knight]`	123
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	123
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[knight]`	124
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	124
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	124
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[神光閃耀]多段攻擊次數 +25%%
+[神光閃耀]最后一擊攻擊力 +25%%
+[神光閃耀]攻擊范圍 +30%%
+[圣盾裁決]冷卻時間 -20%%
+[圣盾裁決]攻擊范圍 +20%%
+[破曉之光]冷卻時間 -30%%
+[破曉之光]攻擊力 +30%%
+[破曉之光]攻擊范圍 +30%%`
+[/piece set ability]

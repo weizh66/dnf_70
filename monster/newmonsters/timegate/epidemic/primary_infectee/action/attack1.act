@@ -1,0 +1,46 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/attack1.ani`
+	[SPEECH]
+		`呼......。！！`
+			0	20
+		`接招......。`
+			4	20
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[TO TARGET]
+	[SET SPEED]
+		[X AXIS]
+			300
+		[USE MY DIRECTION]
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			-3
+		[USE MY DIRECTION]
+	[/SET SPEED]
+[/BEHAVIOR]

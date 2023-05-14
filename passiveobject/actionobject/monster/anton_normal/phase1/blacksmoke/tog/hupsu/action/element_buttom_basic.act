@@ -1,0 +1,51 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Element_buttom_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_hupsu_2_2_0.ani`	0	1
+		`../Animation/Etc_hupsu_2_3_0.ani`	0	2
+		`../Animation/Etc_hupsu_2_4_0.ani`	0	3
+		`../Animation/Etc_hupsu_2_5_0.ani`	0	4
+		`../Animation/Etc_hupsu_2_6_0.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			19885
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	-10	50
+		[TEAM]
+			100
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

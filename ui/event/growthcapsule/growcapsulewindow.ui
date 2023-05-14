@@ -1,0 +1,100 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		110
+	[vertical distance]
+		0
+	[size]
+		20	18
+	[title string]
+		`解除70級經驗值`
+		
+	[controls]
+		[ui controls]
+			`[text button]`
+			`2`	96	214	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[board image]`
+			`400`	-1	3	1
+			`Interface/WindowCommon.img`	11	241	210	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`1`	6	6	1
+			`1. 為盡快達到滿級活動期間開放70級經驗值計量。
+2. 70級以後獲得的經驗值將累積在升級膠囊機。
+3. 填滿升級膠囊機時點擊按鍵就可以製作升級膠囊。
+4. 就算經驗值達到99.99%，也能持續填補成長膠囊機器。`
+				9	-1	235	0	0	0	0	230	200	155
+			[parent]
+				`400`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`403`	52	170	1
+			`成長膠囊機器`
+				9	-1	180	0	0	0	0	230	200	155
+			[parent]
+				`400`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`404`	160	138	2
+			`Interface/WindowCommon.img`
+			`領取`
+				4	12	13	14	15
+			[parent]
+				`400`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`405`	30	120	1
+			`Interface2/event/growcapsule/event_capsule.img`	1	0
+			[parent]
+				`400`
+		[/ui controls]
+		[ui controls]
+			`[gauge]`
+			`402`	41	139	1
+			`Interface2/event/growcapsule/event_capsule.img`	3	-1	1	1
+			[parent]
+				`400`
+		[/ui controls]
+		[ui controls]
+			`[hyperlinklabel]`
+			`401`	167	190	0	7	100	20	230	200	155	0	0
+			[user option]
+				`url link`
+				`[前往官網]`
+					255	240	0
+				`http://df.nexon.com/?GO=pr|juneevent&TO=growingup `
+				
+			[/user option]
+			[parent]
+				`400`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`406`	151	192	1
+			`Interface2/UI/EventList/Event_window.img`	1	2
+		[/ui controls]
+		[ui controls]
+			`[tooltips]`
+			`408`	-90	0	2
+			`404`
+			`70級以上可以參加。`
+				4	0	180	0	0
+		[/ui controls]
+	[/controls]
+[/window]

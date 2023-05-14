@@ -1,0 +1,155 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`人類的世界太明亮了，我適應不過來……`
+		`打它們怎么不掉血？暈，記得留意你的耐久度！`
+		`竟然有我沒見過的寵物，看來這兒不錯啊！`
+		[in elven gard]
+			`嘿嘿~~那些低等級的傢伙，你可以直接無視！`
+		[/in elven gard]
+		[in alfhlyra]
+			`喂，這兒感覺不錯，我們四處逛逛吧？`
+		[/in alfhlyra]
+		[in stom pass]
+			`我想去阿法利亞，你沒意見的話就走吧。`
+		[/in stom pass]
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`我的肚子在抗議，說它餓了……`
+			`我的肚子在抗議，說它餓了……`
+			`我的肚子在抗議，說它餓了……`
+		[/fill point under]
+		[enemies alive]
+			[hits over]
+				20
+				`嘿嘿~沒血了就要嗑藥，我可不想早死啊！`
+				`喂，你被扁得太慘了，我都看不下去了……`
+			[/hits over]
+			[hits under]
+				21
+				`想成為強者，你至少還差那么~一大截~`
+				`你在打蒼蠅啊，用點力氣行不行？！`
+			[/hits under]
+		[/enemies alive]
+		[enemies destroyed]
+		[rank over]
+			`b`
+			`喂喂~出招、出招！不要給它任何機會！`
+			`見識了我的技能吧？這就叫實力！`
+		[/rank over]
+		[rank under]
+			`b`
+			`我說，你認真點，我可不想早早掛了~~`
+			`如果我恢復真正的力量，用一個指頭就能對付它們！`
+		[/rank under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`無論什么樣的名字，對我來說都毫無意義……`
+		[/renamed]
+		[pop random]
+			30
+			[call the name]
+				`喂，有話快說，有屁快放！`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			20
+			[equip]
+				`呼呼~終于可以暢快的呼一口氣了！`
+				`嗯，是你在召喚我嗎？`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`只要能恢復原來的我，做什么我都願意……`
+				`喂，我的力量又變強了！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`你變強了一點，但不夠，我只服從強大的主人！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			`哈哈，我要重見天日了！`
+		[/evolution]
+		[eat feed]
+			`喂喂，在地下城裡用！`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`見一個秒一個，是我的追求！`
+			`先下手為強！要打就用最致命的！`
+		[/eat feed]
+		[none feed]
+			`喂喂喂，食物沒了，你別裝作不知道啊！`
+		[/none feed]
+		[end buff]
+			`食物效果消失了，想要我幫你的話，就記著給我食物！`
+		[/end buff]
+		[dying]
+			`想跟我玩兒？有點意思！`
+		[/dying]
+		[using overskill]
+			``
+			``
+		[/using overskill]
+		[pop random]
+			30
+			[skill gauge full]
+				`記得用混沌漩渦，放心，它不會消耗你的MP！`
+				`嘿嘿，混沌漩渦蓄氣完畢！`
+			[/skill gauge full]
+		[/pop random]
+		[pop random]
+			30
+			[over skill gauge full]
+				`勇猛突擊~準備完畢!`
+				`這就是~我的勇猛突擊！見識過它的人都說很強！`
+			[/over skill gauge full]
+		[/pop random]
+		[over skill waiting]
+			`我敢說，不使用我的力量是你的損失~`
+			`別把我和佛爾卡斯類的傢伙相比，我和它不在一個檔次！`
+		[/over skill waiting]
+		[call the name]
+			`喂，有話快說，有屁快放！`
+		[/call the name]
+		[pop random]
+			20
+			[equip]
+				`呼呼~終于可以暢快的呼一口氣了！`
+				`嗯，是你在召喚我嗎？`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`只要能恢復原來的我，做什么我都願意……`
+				`喂，我的力量又變強了！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`你變強了一點，但不夠，我只服從強大的主人！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			`哈哈，我要重見天日了！`
+		[/evolution]
+	[/main game]
+	[press creature button]
+		`要是能使用我原來的力量，對付他，小菜一碟！`
+	[/press creature button]
+[/trigger]

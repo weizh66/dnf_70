@@ -1,0 +1,88 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`tile/base_left_G_tile2.til`
+	`tile/base_normal2_tile1.til`
+	`tile/base_normal2_tile1.til`
+	`tile/base_normal2_tile2.til`
+	`tile/base_normal2_tile1.til`
+	`tile/base_normal2_tile1.til`
+	`tile/base_normal2_tile1.til`
+	`tile/base_right_G_tile2.til`
+[/tile]
+
+[pathgate pos]
+	512	1147	604	1149	540	1147	562	1153
+
+[dungeon start area]
+	811	102	147	257
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[animation]
+	`animation/sao_basic_torch.ani`
+	`[normal]`	310	-211	0
+	`animation/sao_basic_torch.ani`
+	`[normal]`	534	-215	0
+	`animation/sao_basic_torch.ani`
+	`[normal]`	758	-213	0
+	`animation/sao_basic_torch.ani`
+	`[normal]`	981	-214	0
+	`animation/sao_basic_torch.ani`
+	`[normal]`	1205	-215	0
+	`animation/sao_basic_torch.ani`
+	`[normal]`	1430	-214	0
+	`animation/far_sao.ani`
+	`[distantback]`	-76	-121	0
+	`animation/far_sao.ani`
+	`[distantback]`	614	-122	0
+	`animation/far_sao.ani`
+	`[distantback]`	1304	-122	0
+	`animation/sao_basicmid_leftdoor.ani`
+	`[normal]`	60	-31	0
+	`animation/sao_basicmid_leftdoor_fire.ani`
+	`[normal]`	61	-31	0
+	`animation/sao_basicmid_rightdoor.ani`
+	`[normal]`	1546	-32	0
+	`animation/sao_basicmid_rightdoor_fire.ani`
+	`[normal]`	1545	-32	0
+[/animation]
+
+[ai character]
+	30420	621	230	0
+	`[monster]`
+	`[boss]`	2	0	30420	621	230	0
+	`[monster]`
+	`[boss]`	2	0	30420	621	230	0
+	`[monster]`
+	`[boss]`	2	0	30420	621	230	0
+	`[monster]`
+	`[boss]`	2	0	30420	621	230	0
+	`[monster]`
+	`[boss]`	2	0
+[/ai character]
+
+[event monster position]
+	596	224	0	533	309	0	456	241	0	492	308	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

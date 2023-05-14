@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Tageting.ani`
+	[SUB ANI]
+		`../Animation/Tageting_0.ani`	0	-2
+		`../Animation/Tageting_1.ani`	0	-1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18451
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			0	0	0
+		[NO EFFECT]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[difficulty]
+	`O`
+
+[ignore quest level 4 exp]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3236	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	690000280	1	900	1	690017053	1	690017054	1	3076	1	10005005	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`吉賽爾的新科技`
+
+[depend message]
+	`那個·······
+最近,吉賽爾研究出了一種濃縮的能量球,聽說可以吸收周圍的引力波
+我對這個能量球很感興趣,想研究一下,方便幫我找幾個來嗎？`
+
+[condition message]
+	`收集5個[濃縮的能量球]交給梅爾文·裏克特。`
+
+[solve message]
+	`就是這個,多謝!`
+
+[quest point]
+	0

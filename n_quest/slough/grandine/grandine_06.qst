@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[show npc on clear]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	81	99
+
+[pre required quest]
+	4591
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	15425
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`最強精銳部隊`
+
+[depend message]
+	`好，那麼！那就來場久違的熱身吧？我要和隊員們一起先移動到格蘭迪內發電所。請你稍後跟上吧！`
+
+[condition message]
+	`和精銳部隊一起擊敗格蘭迪內發電所虛無的弗曼`
+
+[solve message]
+	`總算讓發電站恢復了正常。多虧冒險家辛苦了。
+表示真正的敬意。`
+
+[dialog]
+	0	0	15419	0	0	0	0
+	`<apc::11518>虛無的弗曼到此為止。
+<monster::61295>人類啊… 在安徒恩的力量面前，跪下吧！再多的反抗是沒有意義的。只要安徒恩存在，我們會有無盡的生命力！`
+[/dialog]
+
+[quest point]
+	4

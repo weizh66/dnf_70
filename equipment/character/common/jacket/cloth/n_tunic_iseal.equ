@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`冰淩長袍`
+
+[basic explain]
+	`被攻擊時以5%%的機讓敵人陷入冰凍狀態`
+
+[detail explain]
+	`被攻擊時以 5%% 的機率5秒內讓敵人進入冰凍狀態。 (若敵人高於Lv30，則減少進入異常狀態的機率；反之，則增加機率。)`
+
+[grade]
+	32
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[creation rate]
+	200
+
+[magical attack]
+	16
+
+[magical defense]
+	16
+
+[price]
+	22400
+
+[repair price]
+	17920
+
+[value]
+	17920
+
+[equipment physical defense]
+	420	396
+
+[fire resistance]
+	-5
+
+[water resistance]
+	15
+
+[freeze resistance]
+	20
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	7
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		5
+	[reduce probability at pvp module]
+		100
+	[active status]
+		`freeze`	30
+[/then]
+
+[possible kiri protect]

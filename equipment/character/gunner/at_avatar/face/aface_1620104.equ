@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`棕色漸變式串珠耳墜`
+
+[explain]
+	`夏日風情  套裝1 (女槍手)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atgunner/gg_aface.img`	162
+
+[equipment type]
+	`[face avatar]`	0
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	54	1
+
+[layer variation]
+	260
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	30
+	`[ATTACK_SPEED]`
+	`+`	55
+	`[HIT_RECOVERY]`
+	`+`	160
+[/avatar select ability]
+
+[part set index]
+	31134

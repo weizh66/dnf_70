@@ -1,0 +1,25 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/GunBlader/Effect/Exceed/ReadyRedGlow.img`
+		0
+	[IMAGE POS]
+		-474	-538
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	-64
+	[DELAY]
+		80

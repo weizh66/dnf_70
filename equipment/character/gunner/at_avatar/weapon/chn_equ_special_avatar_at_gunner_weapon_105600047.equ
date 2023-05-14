@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`2018圣誕樹步槍`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/musket/musket.img`	162
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		60	0
+	[layer variation]
+		2790
+		`at_musketc`
+	[equipment ani script]
+		`equipment/character/atgunner.lay`
+	[layer variation]
+		650
+		`at_musketb`
+	[equipment ani script]
+		`equipment/character/atgunner.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/gunner/weapon/musket/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[int data]
+	654321	3	1	110	30	90	1	110	30	90	1	110	30	90	2	110	30	20	0	55	30	70
+[/int data]
+
+[string data]
+	``
+[/string data]
+
+[move wav]
+	`RIFLE_TOUCH`

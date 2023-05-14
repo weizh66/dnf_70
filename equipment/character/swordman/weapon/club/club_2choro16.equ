@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`神之怒擊木棒 : [幻影劍舞]`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。
+[幻影劍舞]攻擊力 +14%%
+[鈍器精通]下[幻影劍舞]的衝擊波攻擊力 +14%%`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒。 (若敵人高于Lv58， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+[幻影劍舞]攻擊力 +14%%
+[鈍器精通]下[幻影劍舞]衝擊波攻擊力 +14%%`
+
+[flavor text]
+	`    收集[惡魔結晶]可以對2期勇者裝備進行改造， 提升裝備的基本攻擊力、 防御力和基本屬性； Lv70以上的角色可以穿戴。 (需消耗杜羅西處出售的勇者裝備改造券)`
+
+[grade]
+	58
+
+[rarity]
+	5
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	68
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[anti evil]
+	16
+
+[need material]
+	3247	190
+
+[repair price]
+	81849
+
+[value]
+	8120
+
+[equipment physical attack]
+	568	541
+
+[equipment magical attack]
+	490	467
+
+[separate attack]
+	287	194
+
+[icon]
+	`Item/weapon/swordman/club.img`	45
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	9	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	58
+[/then]
+
+[skill data up]
+	`[swordman]`	73
+	`[dungeon type]`
+	`[level]`	0
+	`%`	14
+	`[swordman]`	73
+	`[dungeon type]`
+	`[level]`	1
+	`%`	14
+	`[swordman]`	73
+	`[dungeon type]`
+	`[level]`	2
+	`%`	14
+	`[swordman]`	15
+	`[dungeon type]`
+	`[level]`	11
+	`%`	14
+[/skill data up]
+
+[emancipate]
+	[input]
+		3290	30
+	[/input]
+	[output]
+		530053	1
+	[/output]
+	[emancipate explain]
+		`物攻小幅增加
+魔攻小幅增加
+屬性小幅提升
+攻擊速度 +2%%`
+[/emancipate]
+
+[possible kiri protect]

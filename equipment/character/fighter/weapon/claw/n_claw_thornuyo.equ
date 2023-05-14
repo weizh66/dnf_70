@@ -1,0 +1,205 @@
+#PVF_File
+
+[name]
+	`(舊) 無軒之斬魄`
+
+[basic explain]
+	`    攻擊時， 有3%%的幾率使所有隊員進入無敵狀態20秒。 (在決斗場中持續10秒、 街頭爭霸中持續3秒)`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率消耗10個無色小晶塊并使所有隊員進入無敵狀態， 效果持續20秒。 但在決斗場中， 只能持續10秒。`
+
+[flavor text]
+	`    傳言無軒是統治過半個宇宙的強大異界星， ‘斬魄’是它的五大史詩武器之一， 但不知為何落到異面生物手里， 難道又是異變引起的？`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/claw.img`	39
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	532	484
+
+[equipment magical attack]
+	532	484
+
+[separate attack]
+	328	220
+
+[physical critical hit]
+	3
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[if]
+	[module]
+		`[dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	10
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	10
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[assault]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	10
+	[target]
+		`party`	-1
+	[duration]
+		3000
+	[probability]
+		3
+	[buff]
+		`unbreakable`
+[/then]
+
+[creation rate]
+	190
+
+[possible kiri protect]

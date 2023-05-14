@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 機械之靈 (2/6)`
+
+[depend message]
+	`據說機械師們是嚴格按照機械七戰神遺留下來的標準成長起來的。 然而， 這也恰恰限制住了他們。 個體怎么可能做到完全按照提前制定的軌道發展呢？
+不過， 我也聽說有個地方叫機械之靈工廠， 那里的機械師們因為討厭原本的標準， 從而制定出了一套全新的標準。 據說他們無論是外表還是作為兵器本身都非常酷炫。
+要不你去加入他們吧？ 這樣一來， 你應該可以每天嘗試新的挑戰吧？
+果然， 我就知道你會同意。 但那里可不是誰都能進的， 那里只接受有實力的人。
+讓我想想……嗯， 你就去參加魂·黃龍大會吧。 聽說機械之靈工廠所屬的機械之靈們到時候會去觀戰。
+在大會上盡情展示自己去博取眼球， 你看這招怎么樣？ 這么做應該比直接找上門拜托他們更有效果吧。
+你說你要試試看？ 很好， 那我們就去看看吧。 想要入場首先得有‘斯卡迪女王的印章’， 你先去收集一下吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5019
+[/pre required quest]
+
+[relation quest]
+	5735
+
+[job change quest]
+	3
+
+[grow number]
+	0

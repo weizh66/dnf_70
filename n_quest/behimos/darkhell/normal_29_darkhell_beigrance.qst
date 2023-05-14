@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	29	99
+
+[monster reward item]
+	202	-1	-1	4056	1	50	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4056	1
+[/int data]
+
+[dungeon info]
+	23	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+	10067	1	10456	1	10855	1	11255	1	11633	1
+[/reward selection int data]
+
+[name]
+	`奧菲利亞的傳家寶`
+
+[depend message]
+	`冒險家， 你幫幫我吧……我從天帷巨獸逃出來時， 因為太慌張， 把比我生命還重要的傳家寶弄丟了……
+那傳家寶是我們祖先萊斯利留下的遺物， 也是我們GBL教的教理之根……總之， 它對我非常重要， 你幫我找回來吧？ `
+
+[condition message]
+	`    前往天帷巨獸神殿的『煉獄』， 從領主夜叉王身上找來[萊斯利的日記本]。`
+
+[solve message]
+	`太感謝了！ 幸好你找到了它， 不然我就永遠無法面對我的祖先了！ `

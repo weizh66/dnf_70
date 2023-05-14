@@ -1,0 +1,38 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/BladePhantom/mist_start.ani`
+
+[etc motion]
+	`Animation/BladePhantom/mist_loop.ani`
+	`Animation/BladePhantom/mist_end.ani`
+	`Animation/BladePhantom/magic_circle_start.ani`
+	`Animation/BladePhantom/magic_circle_loop.ani`
+	`Animation/BladePhantom/magic_circle_end.ani`
+	`Animation/BladePhantom/slash_before.ani`
+	`Animation/BladePhantom/slash1.ani`
+	`Animation/BladePhantom/finish_circle.ani`
+[/etc motion]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[name]
+	`邪光斬`

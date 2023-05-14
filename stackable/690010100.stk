@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`傳承：神聖火神防具自選禮盒`
+
+[explain]
+	`使用後，可選擇獲得一件傳承：神聖火神防具。`
+
+[flavor text]
+	`<裝備售出系統>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[price]
+	0
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	931
+
+[stackable type]
+	`[booster selection]`	0
+
+[need material]
+	3340	30
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster category num]
+	1	5
+
+[booster selection num]
+	1
+
+[booster select category]
+	0	0
+	[equipment]
+		100050061	1	100100021	1	100150020	1	100200020	1	100250020	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[equipment]
+		100060023	1	100110015	1	100160015	1	100210016	1	100260016	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	2	0
+	[equipment]
+		100070017	1	100120015	1	100170015	1	100220014	1	100270014	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	3	0
+	[equipment]
+		100080013	1	100130013	1	100180014	1	100230014	1	100280013	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	4	0
+	[equipment]
+		100090014	1	100140013	1	100190013	1	100240013	1	100290013	1
+	[/equipment]
+[/booster select category]
+
+[booster category name]
+	`請選擇防具類型`
+	`布甲`
+	`皮甲`
+	`輕甲`
+	`重甲`
+	`板甲`
+[/booster category name]

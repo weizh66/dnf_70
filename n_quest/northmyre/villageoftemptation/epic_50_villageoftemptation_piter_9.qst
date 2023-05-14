@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	18
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	57
+[/pre required quest]
+
+[effect after clear quest]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	51	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	3	1090	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`迷亂之村哈穆林`
+
+[depend message]
+	`根據剛收到的情報， 那奇怪的笛聲很可能是從一個叫哈穆林的村莊傳來的。 那村莊在城鎮的深處， 你能幫我去調查下嗎？ `
+
+[condition message]
+	`    通關諾斯瑪爾的『迷亂之村哈穆林』。`
+
+[solve message]
+	`你去哈穆林了吧？ 找到有價值的線索了嗎？`
+
+[quest point]
+	4

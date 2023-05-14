@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_lightining_wall_0_3.ani`
+	[SUB ANI]
+		`../Animation/Etc_gidong_1_1.ani`	0	-1
+		`../Animation/Etc_gidong_1_1_1.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		1000
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			18625	18628
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			150
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18668
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	50
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

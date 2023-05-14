@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 夜見羅剎 (1/6)`
+
+[depend message]
+	`我說怎么最近有不少家伙嚷嚷著見鬼了， 原來是因為你啊？ 你怎么總是神出鬼沒的？ 什么， 你說想變得更強？
+別再瞎折騰了， 來我這兒吧。 讓我先看看你狀態如何， 如果沒問題的話， 我就告訴你怎么變強。  `
+
+[condition message]
+	`如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`你還是那副鬼模樣啊， 難怪人們見到你都會嚇暈。
+哎呦， 瞧你那眼神吧。 說你兩句就開始瞪我啦？ 怎么瞧你越來越像鬼了呢。
+我可沒在跟你開玩笑。 我不知道你的劍上沾了多少血， 但你現在的氣息非常可怕。 
+再這么下去， 你也就真的變成一只游魂了。 `
+
+[target character]
+	`[swordman]`	5	1
+[/target character]
+
+[relation quest]
+	5162
+
+[job change quest]
+	3
+
+[grow number]
+	0

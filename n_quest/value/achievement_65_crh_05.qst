@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	7656
+[/pre required quest]
+
+[enemy reward item]
+	56010	1	87	2	4464	1	15	1
+[/enemy reward item]
+
+[quest point]
+	4
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4464	1	3299	40	3166	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	440343	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7658
+
+[name]
+	`勇者 - 決戰使徒前的準備 (輔助裝備)`
+
+[depend message]
+	`雖然你的抗魔能力已經有了一定程度的提高， 但是以你現在的水平， 要擊退使徒還是有些吃力。
+如果你的輔助裝備也注入了抗魔能力， 說不定還有幾分贏的把握……
+你見過馬薩喬的臂章吧？ 我看它的材質不錯， 應該能承受抗魔力。`
+
+[condition message]
+	`    前往海上列車的『奪回西部線』， 收集[馬薩喬的臂章]和以下材料， 要求地下城難度為王者級。 (馬薩喬的臂章可以從藍影馬薩喬身上獲得)`
+
+[solve message]
+	`馬薩喬的臂章已經被我賦予了抗魔能力。
+不要驚訝， 現在它已經是一件強大的輔助裝備了。`

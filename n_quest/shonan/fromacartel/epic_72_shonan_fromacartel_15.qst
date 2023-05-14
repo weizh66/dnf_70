@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	72	99
+
+[pre required quest]
+	4194
+[/pre required quest]
+
+[monster reward item]
+	61277	72	-1	4753	3	35	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4753	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`貝利特的委託 2`
+
+[depend message]
+	`其實是因為我最鍾愛的左輪手槍壞掉了。那是很久以前的古典型，所以找不到零件呢。
+ 而且它就像我的親人一樣，所以絕對不會想要進行改造。可以取得左輪手槍的零件給我嗎？
+<npc::0>不用擔心！可以取得完全一樣的。
+<npc::57>嗯嗯？因為是太古老的型可能不容易找到，你倒是有信心啊。好！那我就等你嚕。`
+
+[condition message]
+	`收集貝利特的古典槍零件 10個`
+
+[solve message]
+	`真的像你說的是完全一樣的零件唷！可以修理的完全像新的一樣了。
+這種零件，只能在那個時期找得到… 你是會什麼特別的魔法嗎？總之太感謝了。`
+
+[quest point]
+	4

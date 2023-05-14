@@ -1,0 +1,38 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	30
+
+[big face]
+	`Map/Npc/NpcFace04.img`	12
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	30
+
+[field animation]
+	`Animation/QuestNpc_shapiro.ani`
+
+[look around]
+	0
+
+[name]
+	`夏皮羅‧格拉西亞`
+
+[field name]
+	`夏皮洛‧哥拉西亞`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1015>惟有在聖殿獲勝才是人類唯一能選擇的路。`
+[/dialog]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1015>竟然配合阿斯塔羅斯的詭計起舞......。真讓人感到寒心！
+本來是想要阻止成為偽裝者的徵兆的，但很奇怪的是，卻沒有那種心情了。`
+[/dialog]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1015>為了迷卡艾拉！！`
+[/dialog]

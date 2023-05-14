@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	9
+
+[complete npc index]
+	9
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4954
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	601	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	604	5	602	1
+[/reward selection int data]
+
+[name]
+	`尋找哥布林銀雕像`
+
+[depend message]
+	`如果你能多拿幾個哥布林銀雕像給我， 我就會送你一些絕對令人羨慕的好東西， 嘿嘿……`
+
+[condition message]
+	`<夏洛克的助威活動>  收集4個[哥布林銀雕像]交給赫頓瑪爾后街的夏洛克。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`謝謝你， 嘿嘿……這些好東西你一定會喜歡的！`

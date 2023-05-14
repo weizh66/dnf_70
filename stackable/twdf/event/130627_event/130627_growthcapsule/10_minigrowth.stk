@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`迷你成長的祕藥`
+
+[explain]
+	`通關地下城時,獲得的經驗值增加125%%,時限10分鐘`
+
+[flavor text]
+	`邁向勇者成長之路`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	20
+
+[icon]
+	`Item/stackable/consumption.img`	407
+
+[move wav]
+	`POTION_TOUCH`
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	600000
+
+[cooltime group]
+	99
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[exp bonus rate]
+	1.25
+
+[stat change duration]
+	600000
+	`myself`
+
+[daily delete item]
+	1

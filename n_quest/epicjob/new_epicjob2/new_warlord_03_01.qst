@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 不滅戰神 (4/6)`
+
+[depend message]
+	`對于戰場上的不滅戰神來說， 并沒有敵我之分， 他們會把眼前的一切都毀滅掉， 簡直可以稱之為瘋狂。
+你有信心對抗那股力量嗎？ 你有與之不相上下的實力嗎？ 在你能夠證明這些之前， 我不能讓你走。
+如果你有信心證明自己， 就去參加魂·青龍大會， 把冠軍的榮譽爭取回來。 屆時你會遇到比現在還要強大很多的對手。 在我看來， 如果你能打敗他們并獲得最終的勝利， 應該就可以擁有足夠實力了。
+如果下定決心去參戰， 就先收集赫侖皇帝的印章吧， 必須有那個才能參賽。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6860
+[/pre required quest]
+
+[relation quest]
+	6862
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 救世主 (1/2)`
+
+[depend message]
+	`有點讓人難以置信！ 你背負的罪業非常嚴重， 已經累及你的心臟……你還好嗎？
+我知道， 你消滅了無數的惡魔， 并為此背負了無數的罪業。 但你應該也知道， 即便你擁有著圣痕， 也很難承受這么龐大的罪業。
+我很想建議你馬上停止誘魔者的活動……
+我知道你的意志很堅定， 不會輕易動搖。 但現在連米歇爾都墮落成為了使徒， 如果再失去你這樣的人才， 我們將面臨更大的損失！
+好吧， 也許換一種角度來看， 這也許不是壞事， 反而是一種試煉。 說不定……是考驗你的‘救世主’資格呢。
+如果成為了救世主， 你的疾病就能得到治療……雖然可能會被原罪之源污染， 要放棄作為人類的功能。
+總之， 這是一條可怕的， 艱難的道路！ 你有什么打算嗎？`
+
+[condition message]
+	`    如果要進行二次覺醒并做好了準備， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`你對神的信仰和自我犧牲的精神， 實在令人敬佩。！`
+
+[pre required quest]
+	2928
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12851
+
+[job change quest]
+	3
+
+[grow number]
+	0

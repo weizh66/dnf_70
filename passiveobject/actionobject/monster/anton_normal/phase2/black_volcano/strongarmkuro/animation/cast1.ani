@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/ChangeHpToMp/a01.img`
+		9
+	[IMAGE POS]
+		-228	-263
+	[RGBA]
+		255	50	50	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		450
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/ChangeHpToMp/a01.img`
+		9
+	[IMAGE POS]
+		-228	-263
+	[RGBA]
+		255	50	50	150
+	[DELAY]
+		50

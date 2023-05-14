@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`N极`
+
+[basic action]
+	`Action/plus_Basic.act`
+
+[etc action]
+	`Action/Etc_plus_0.act`
+	`Action/Etc_plus_1.act`
+	`Action/Etc_plus_2.act`
+	`Action/Etc_plus_3.act`
+	`Action/Etc_plus_4.act`
+	`Action/Etc_plus_5.act`
+[/etc action]
+
+[etc attack info]
+	``
+	``
+	``
+	``
+	``
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	20000
+[/object destroy condition]

@@ -1,0 +1,38 @@
+#PVF_File
+
+[kind]
+	27
+
+[grade]
+	`[rank up]`
+
+[rank range]
+	14	15
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	57
+
+[name_text]
+	`晉升為6段`
+	
+
+[cond_text]
+	`接下來的5戰當中，達成3勝以上`
+	
+
+[condition]
+	`[within]`	-1	5	3
+[/condition]
+
+[difficulty_ratio]
+	1
+
+[reward item]
+	2601146	1
+[/reward item]

@@ -1,0 +1,277 @@
+#PVF_File
+
+[name]
+	`封·游龍之魂護腿`
+
+[basic explain]
+	`  裝備后， 每2秒使自身增加1%%的攻擊速度、 移動速度、 物理暴擊率、 魔法暴擊率、 命中率以及1.5%%的施放速度和0.5%%的回避率。（最多重疊10次； 解除裝備后效果消失）`
+
+[grade]
+	86
+
+[rarity]
+	4
+
+[part set index]
+	12564
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	37
+
+[magical attack]
+	37
+
+[magical defense]
+	40
+
+[need material]
+	3821	900
+
+[price]
+	86000
+
+[repair price]
+	68800
+
+[value]
+	68800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1940	1760
+
+[icon]
+	`item/new_equipment/03_leather/pants/leather_pants.img`	10
+
+[field image]
+	`Item/FieldImage.img`	1
+
+[equipment type]
+	`[pants]`	19
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	27
+
+[weight]
+	1500
+
+[item group name]
+	`lt pants`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		2000	1	2000
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		273
+[/then]
+
+[if]
+	[time]
+		4000	1	4000
+	[cooltime]
+		4000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		274
+[/then]
+
+[if]
+	[time]
+		6000	1	6000
+	[cooltime]
+		6000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		275
+[/then]
+
+[if]
+	[time]
+		8000	1	8000
+	[cooltime]
+		8000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		276
+[/then]
+
+[if]
+	[time]
+		10000	1	10000
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		277
+[/then]
+
+[if]
+	[time]
+		12000	1	12000
+	[cooltime]
+		12000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		278
+[/then]
+
+[if]
+	[time]
+		14000	1	14000
+	[cooltime]
+		14000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		279
+[/then]
+
+[if]
+	[time]
+		16000	1	16000
+	[cooltime]
+		16000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		280
+[/then]
+
+[if]
+	[time]
+		18000	1	18000
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		281
+[/then]
+
+[if]
+	[time]
+		20000	1	20000
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		282
+[/then]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		273
+	[appendage]
+		274
+	[appendage]
+		275
+	[appendage]
+		276
+	[appendage]
+		277
+	[appendage]
+		278
+	[appendage]
+		279
+	[appendage]
+		280
+	[appendage]
+		281
+	[appendage]
+		282
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

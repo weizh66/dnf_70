@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`火蜥蜴藥水`
+
+[explain]
+	`    使用後， 可以使自身及周圍隊員的武器屬性變成火屬性， 效果持續60秒。`
+
+[flavor text]
+	`    啊~好燙啊！ 這是什麼呀~為什麼這麼燙！`
+
+[grade]
+	8
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	20
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	3
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/IconMaterial.img`	26
+
+[field image]
+	`Item/FieldImage.img`	20
+
+[stackable type]
+	`[waste]`	5
+
+[item group name]
+	`potion`
+
+[price]
+	3000
+
+[value]
+	40
+
+[cool time]
+	10000
+
+[cooltime group]
+	10
+
+[move wav]
+	`FLASK_TOUCH`

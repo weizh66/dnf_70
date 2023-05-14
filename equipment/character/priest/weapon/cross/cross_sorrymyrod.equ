@@ -1,0 +1,156 @@
+#PVF_File
+
+[name]
+	`席蒿待罪`
+
+[basic explain]
+	`施放技能時， 有10%%的幾率使自身增加50點體力和精神， 效果持續10秒。
+[厄運之輪]施放時間 -50%%`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/cross.img`	55
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical defense]
+	53
+
+[magical attack]
+	42
+
+[magical defense]
+	53
+
+[equipment physical attack]
+	572	524
+
+[equipment physical defense]
+	620	610
+
+[equipment magical attack]
+	543	498
+
+[equipment magical defense]
+	620	610
+
+[separate attack]
+	360	243
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		15000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		10
+	[stat]
+		`magical defense`
+		`+`	50
+	[stat]
+		`physical defense`
+		`+`	50
+[/then]
+
+[skill data up]
+	`[priest]`	115
+	`[all]`
+	`[static]`	0
+	`%`	-50
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	53	1
+	`[priest]`	74	2
+	`[priest]`	45	2
+	`[priest]`	121	2
+[/skill levelup]
+
+[variation]
+	3	1
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[routing priority]
+	`priest`	1
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`傑諾的詛咒頭盔`
+
+[basic explain]
+	`生成不死族強化光環。
+每2分鐘召喚出1隻骷髏。`
+
+[detail explain]
+	`生成不死族強化光環。
+每2分鐘消耗10個黑色小晶塊，並召喚出1隻Lv50的骷髏協助召喚者攻擊敵人，骷髏存在60秒。 （召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+
+[flavor text]
+	` 什麼都不懂的菜鳥才會穿戴這樣重的裝備. --辛達給新手冒險家的建議`
+
+[grade]
+	25
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	20
+
+[physical attack]
+	12
+
+[magical attack]
+	8
+
+[price]
+	22500
+
+[repair price]
+	18000
+
+[value]
+	18000
+
+[equipment physical defense]
+	792	648
+
+[icon]
+	`Item/common/shoulder.img`	106
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[set item master]
+	10890
+
+[if]
+	[time]
+		120000	1	1000
+	[my state]
+		`stand`
+[/if]
+
+[then]
+	[consume item]
+		3033	10
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[summon monster]
+		1000	50	1
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`白色時尚貼紙`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_aface.img`	149
+
+[equipment type]
+	`[face avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	61	0
+
+[layer variation]
+	100
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`BONE_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	10
+	`[ATTACK_SPEED]`
+	`+`	40
+	`[HIT_RECOVERY]`
+	`+`	100
+[/avatar select ability]

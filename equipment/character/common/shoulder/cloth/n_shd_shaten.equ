@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`影魔護肩`
+
+[basic explain]
+	`攻擊時以10%%的機率讓敵人陷入眩暈狀態`
+
+[detail explain]
+	`被攻擊時以10%% 的機率20秒內讓敵人進入詛咒狀態，力量減少51，體力減少 51，智力減少51，精神減少51。 (若敵人高於Lv50，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[flavor text]
+	` 蘊含暗精靈力量的護肩。`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[magical attack]
+	23
+
+[magical defense]
+	23
+
+[HP MAX]
+	270
+
+[price]
+	39200
+
+[repair price]
+	34574
+
+[value]
+	23100
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	504	464
+
+[skill levelup]
+	`[fighter]`	13	2
+	`[at fighter]`	13	2
+[/skill levelup]
+
+[dark resistance]
+	15
+
+[stun resistance]
+	5
+
+[icon]
+	`Item/common/shoulder.img`	0
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		78
+	[active status]
+		`curse`	50	51	51	51	51
+[/then]
+
+[possible kiri protect]

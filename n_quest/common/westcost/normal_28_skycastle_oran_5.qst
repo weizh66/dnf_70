@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[job change quest]
+	0
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	28	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3036	30	3170	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	64014	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`天空寶珠`
+
+[depend message]
+	`只要有足夠的材料， 平凡的寵物裝備也能注入非凡的力量……年輕人， 你能幫我去懸空城收集一些無重力碎片嗎， 哦， 還有藍色小晶塊啊！
+如果你能幫我找到那些材料， 我會送你一件特別棒的禮物哦。 `
+
+[condition message]
+	`    收集30個[藍色小晶塊]和20個[無重力碎片]。`
+
+[solve message]
+	`既然材料都收集好了， 我答應送你的禮物一定不會食言的！`
+
+[quest point]
+	4

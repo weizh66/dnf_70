@@ -1,0 +1,145 @@
+#PVF_File
+
+[name]
+	`最接近神的人`
+
+[explain]
+	`  攻擊時， 有3%%的幾率增加自身8%%的攻擊速度， 效果持續40秒。
+  施放時， 有3%%的幾率增加自身8%%的施放速度， 效果持續40秒。
+  前沖時， 有8%%的幾率增加自身8%%的移動速度， 效果持續40秒。`
+
+[flavor text]
+	`  第八屆全國格鬥大賽區域賽參賽玩家專屬稱號！勇士，還差壹點！`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	40
+
+[physical defense]
+	40
+
+[magical attack]
+	40
+
+[magical defense]
+	40
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[HP MAX]
+	600
+
+[MP MAX]
+	600
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[hit recovery]
+	200
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		3
+	[stat]
+		`attack speed`
+		`+`	80
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		3
+	[stat]
+		`cast speed`
+		`+`	80
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		4
+	[stat]
+		`move speed`
+		`+`	80
+[/then]

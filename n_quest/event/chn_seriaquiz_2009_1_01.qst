@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	2
+
+[complete npc index]
+	45
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`賽麗亞的謎題`
+
+[depend message]
+	`您好~今天又見面了。
+我叫賽麗亞， 我一直想給冒險家們提供一個休息和放松的空間。 因此， 我這次特地為冒險家們準備了非常簡單的謎題。
+謎題是 : 為了支援對抗奧茲瑪的圣職者們， 有個人被派到赫頓瑪爾擔任圣職者的技能導師， 這個人是誰？
+我再給您一些提示吧， 嗯， 這個人是女性， 而且非常喜歡小熊布偶， 噢， 對了！ 如果有人問她為什么會喜歡小熊布偶， 她會非常尷尬的， 所以您要多加注意咯。
+解謎方法非常簡單， 就是您只要去找謎題中的那個人談話就可以了。`
+
+[condition message]
+	`    找到為支援圣職者們而被派到赫頓瑪爾的圣職者技能導師。 (按<N>鍵可以讓您更容易找到目標)`
+
+[solve message]
+	`你好， 我叫歌蘭蒂斯， 我相信相見是應了神的旨意， 我真的萬分歡迎你的到來。
+如果你是圣職者， 需要轉職時可以來找我。`

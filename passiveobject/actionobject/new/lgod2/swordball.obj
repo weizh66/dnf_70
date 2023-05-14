@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`SwordBall`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/LightningGod/Ballstartsmallball/Ball_start_small_ball.ani`
+
+[etc motion]
+	`Animation/LightningGod/SmallKeepsmallsword/Small_Keep_small_sword_1-1.ani`
+	`Animation/LightningGod/Ballstartsmallball/Ball_start_small_ball.ani`
+	`Animation/LightningGod/BallKeepsmall/Ball_Keep_small_ball.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/LightningGodSword.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	500
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

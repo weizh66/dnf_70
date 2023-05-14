@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	` 震波劍`
+
+[basic explain]
+	`攻擊時以2%%的機率讓敵人陷入氣絕狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人5秒內陷入氣絕狀態。 (若敵人高於Lv38，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[flavor text]
+	` 著名的天族機械師科薩在劍裡裝了超震波裝置。`
+
+[grade]
+	40
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	38
+
+[magical attack]
+	26
+
+[cast speed]
+	20
+
+[price]
+	56000
+
+[repair price]
+	44800
+
+[value]
+	44800
+
+[equipment physical attack]
+	338	323
+
+[equipment magical attack]
+	409	391
+
+[separate attack]
+	176	117
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	47	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	21
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`gemswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`gemswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`gemswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`gemswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[active status]
+		`stun`	38
+[/then]
+
+[possible kiri protect]

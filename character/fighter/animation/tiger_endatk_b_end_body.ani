@@ -1,0 +1,91 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/skin/ft_body%04d.img`
+		7
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		220
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-5	-3	59	10	78
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/skin/ft_body%04d.img`
+		110
+	[IMAGE POS]
+		-252	-362
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-5	-3	51	10	71
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/skin/ft_body%04d.img`
+		12
+	[IMAGE POS]
+		-242	-380
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-29	-5	-2	76	10	80
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/skin/ft_body%04d.img`
+		151
+	[IMAGE POS]
+		-224	-380
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`TIGERSTRIKE_02`
+	[SET FLAG]
+		1
+	[DAMAGE BOX]
+	3	-5	-3	44	10	131
+	[ATTACK BOX]
+	0	-50	0	174	100	206
+
+[FRAME004]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/skin/ft_body%04d.img`
+		152
+	[IMAGE POS]
+		-237	-380
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-8	-5	-3	44	10	131
+	[ATTACK BOX]
+	-20	-50	-3	189	100	223
+
+[FRAME005]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/skin/ft_body%04d.img`
+		153
+	[IMAGE POS]
+		-265	-380
+	[IMAGE RATE]
+		-1.0	1.0
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-6	-5	-4	49	10	110

@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack_Pierce.ani`
+	[SUB ANI]
+		`../Animation/Spear/Attack_Pierce.ani`	0	0
+	[/SUB ANI]
+	[SPEECH]
+		`不要欺負斯威柯爾！`
+			1	30
+		`呵哈哈！！真開心~！！`
+			1	30
+		`嘿！嘿！！`
+			1	30
+		`嘿嘿~ 陪我玩！！`
+			1	30
+	[/SPEECH]
+	[SOUND]
+		`R_CREAMS_ATK`	3
+	[/SOUND]
+[/MOTION]

@@ -1,0 +1,157 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`讓我再看一眼嘛，就一眼！`
+		`小缺點誰都有啦，主人你就忍忍吧，嘻嘻~~`
+		`慢不是缺點，是一種藝術，藝術！`
+		[in elven gard]
+			`呃，走路搖搖晃晃也沒啥丟臉的，對吧……T_T……`
+		[/in elven gard]
+		[in alfhlyra]
+			`好冷啊，要被凍死了……`
+		[/in alfhlyra]
+		[in stom pass]
+			`呼~呼~我好冷啊……主人不冷嗎？`
+		[/in stom pass]
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`我心情鬱悶，主人給我講個笑話吧？`
+			`我心情鬱悶，主人給我講個笑話吧？`
+			`我心情鬱悶，主人給我講個笑話吧？`
+		[/fill point under]
+		[enemies alive]
+			[hits over]
+				20
+				`主人別走那么快，等等我呀~~~`
+				`嘻嘻~這兒真不錯呀！`
+			[/hits over]
+			[hits under]
+				21
+				`嗯嗯……主人要我幹嘛，我就幹嘛。`
+				`我正在思考，不要來打擾我哦！`
+			[/hits under]
+		[/enemies alive]
+		[enemies destroyed]
+		[rank over]
+			`b`
+			`我從不為了走路而走路，我是在享受走路的過程……`
+			`眼觀六路，耳聽八方，遇到敵人才不慌！`
+		[/rank over]
+		[rank under]
+			`b`
+			`我好像又落下東西了，是不是呀？主人……`
+			`主人，我是你靚麗的影子，要記得常回頭看看我呀！`
+		[/rank under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`嘿嘿，我得意的笑，我得意的笑，lalala~~~`
+		[/renamed]
+		[pop random]
+			30
+			[call the name]
+				`嘻嘻，主人加油呀！我的未來靠你了！`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			20
+			[equip]
+				`嗯，進化的感覺就是不一樣！`
+				`今天心情好，看哪都覺得順眼……`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`嘻嘻~~心情真好！`
+				`嘻嘻~~牙齒不白也要笑，心情快樂最重要！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`啪！啪！啪啪！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			`別急嘛，慢慢來~~`
+		[/evolution]
+		[eat feed]
+			`撐死總比餓死好，嗝，再給我來一點！`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`好吃！太好吃了！主人我愛你！`
+			`這次要吃慢一點，仔細感覺下食物的味道，嘿嘿……`
+		[/eat feed]
+		[none feed]
+			`欺負我，嗚嗚，要造反了……T_T……`
+		[/none feed]
+		[end buff]
+			`我是一隻愛思考的寵物，在我思考的時候，主人要儘量對我好點。`
+		[/end buff]
+		[dying]
+			`嗚嗚，再也不理主人了……`
+		[/dying]
+		[using overskill]
+			`我鄭重的告訴你，我真的生氣了！`
+			`雖然我個頭小，但是我一樣有生氣的權利！`
+		[/using overskill]
+		[pop random]
+			30
+			[skill gauge full]
+				`咦？`
+				`咦？`
+			[/skill gauge full]
+		[/pop random]
+		[pop random]
+			30
+			[over skill gauge full]
+				`噢！太可怕了！`
+				`噢！嗚哇！`
+			[/over skill gauge full]
+		[/pop random]
+		[over skill waiting]
+			`咦？什么東西？！`
+			`等，等一下……我要跟不上啦……T_T……`
+		[/over skill waiting]
+		[call the name]
+			`嘻嘻，主人加油呀！我的未來靠你了！`
+		[/call the name]
+		[pop random]
+			20
+			[equip]
+				`嗯，進化的感覺就是不一樣！`
+				`今天心情好，看哪都覺得順眼……`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`嘻嘻~~心情真好！`
+				`嘻嘻~~牙齒不白也要笑，心情快樂最重要！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`啪！啪！啪啪！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			`別急嘛，慢慢來~~`
+		[/evolution]
+	[/main game]
+	[pvp]
+		[press creature button]
+			`哇哇~~神呀，請賜我力量吧，我要成為偉大的萬寵之王……嘻嘻……`
+		[/press creature button]
+	[/pvp]
+[/trigger]

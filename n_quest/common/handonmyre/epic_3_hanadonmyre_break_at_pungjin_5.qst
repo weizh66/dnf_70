@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	15	99
+
+[pre required quest]
+	4434
+[/pre required quest]
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`格鬥家之路 - 任務商店`
+
+[depend message]
+	`這是我要告訴你的最後一項。你有聽過任務商店嗎？利用完成主線任務時獲得的QP可以在任務商店購買商品。
+你非買不可的商品已經貼上推薦標記了，希望你能夠記得購買。`
+
+[condition message]
+	`在任務商店提昇推薦屬性`
+
+[solve message]
+	`好。剩下的 QP你可以購買自己選擇的商品。那麼往後為了阿拉德的和平還請你多多表現。`
+
+[quest point]
+	4

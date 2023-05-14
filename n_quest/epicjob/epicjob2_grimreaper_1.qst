@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	64
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 幽冥 (1/2)`
+
+[depend message]
+	`啊， 是你啊！ 這里警備森嚴， 我以為你進不來呢， 看來運氣不錯嘛。
+不過往后就不一定了。 現在王國上下到處都是通緝影舞者的公告。
+雖然人們一直以來對影舞者充滿戒備和反感， 但是從沒有像現在這樣態度強硬， 仿佛下定決心斬草除根。
+雖然我不會抓捕你， 但是你在別人眼里依然是戴罪之身。
+你想要次次都以實力逃脫么？ 不要過于自信了， 現在的你很難從那么多的賞金獵人手中平安脫身。 看看周圍吧！ 覬覦你的人正屏住呼吸在附近隱藏著等待時機。
+是不是覺得自己蒙冤？ 那么想不想抓住真的罪犯？ 在我看來這是最快體現你價值的辦法。
+當然， 如果想抓到那些最強的影舞者， 那你應該跨越現在的界限， 才能壓制她們。 怎么樣， 想試試嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與米內特談談。`
+
+[solve message]
+	`你真的擁有變強的覺悟了嗎？ 很好！ 我會負責訓練你。`
+
+[pre required quest]
+	3068
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3075
+
+[job change quest]
+	3
+
+[grow number]
+	0

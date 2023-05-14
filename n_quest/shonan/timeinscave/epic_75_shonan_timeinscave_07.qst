@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4174
+[/pre required quest]
+
+[monster reward item]
+	61614	75	-1	4767	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4767	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`左右凱因的力量根源`
+
+[depend message]
+	`分明是被希洛克打死了，怎麼還活著呢？真奇妙。明明就死啦…… 
+不可能會活過來，肯定是有人在搗亂。你去調查他一次吧。一定有什麼內幕。`
+
+[condition message]
+	`在古悲鳴洞穴凱因尋找身分不明的魔法師痕跡`
+
+[solve message]
+	`這什麼頭髮？感覺到很不尋常的氣息……`
+
+[substitutive names]
+	`身分不明的魔法師痕跡`
+[/substitutive names]
+
+[dialog]
+	1	1	75	0	1	61614	0
+	`<monster::61614>為了那女子死都不能死…… 你們也小心一點。避開她的眼神。
+看著那深邃而空虛的眼神，你們的靈魂也會被她搶走的…`
+[/dialog]
+
+[quest point]
+	4

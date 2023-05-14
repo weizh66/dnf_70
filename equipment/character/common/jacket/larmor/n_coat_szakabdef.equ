@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	` 斯紮克的防禦胸甲`
+
+[flavor text]
+	`絕對防禦。讓 你看看這四個字的可怕之處？`
+
+[grade]
+	52
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	45
+
+[physical attack]
+	27
+
+[physical defense]
+	15
+
+[magical attack]
+	18
+
+[price]
+	62400
+
+[repair price]
+	49920
+
+[value]
+	49920
+
+[equipment physical defense]
+	2160	1944
+
+[icon]
+	`Item/common/coat.img`	105
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`斯紮克的防禦套裝`
+
+[set item]
+	10888	12888	14879
+[/set item]
+
+[set ability]
+	[equipment physical defense]
+		1000	1000
+	[stuck resistance]
+		20
+	[if]
+		[attack condition]
+			`counter`
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add absolute defense percent]
+			`all`	20
+	[/then]
+	[if]
+		[attack condition]
+			`critical`
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add absolute defense percent]
+			`all`	20
+	[/then]
+	[skill levelup]
+		`[fighter]`	7	2
+		`[at fighter]`	7	2
+	[/skill levelup]
+	[fullset basic explain]
+		`反擊被攻擊時自己受到的傷害減少20%% 
+暴擊被攻擊時自己受到的傷害減少20%% `
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

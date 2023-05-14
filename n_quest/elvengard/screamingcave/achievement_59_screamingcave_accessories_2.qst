@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4458
+[/pre required quest]
+
+[monster reward item]
+	61143	1501	1	4350	1	50	-1	56117	1501	1	4350	1	50	-1	56113	1501	1	4350	1	50	-1	56112	1501	1	4350	1	50	-1	56115	1501	1	4350	1	50	-1	56116	1501	1	4350	1	50	-1	61143	1501	2	4350	1	65	-1	56117	1501	2	4350	1	65	-1	56113	1501	2	4350	1	65	-1	56112	1501	2	4350	1	65	-1	56115	1501	2	4350	1	65	-1	56116	1501	2	4350	1	65	-1	61143	1501	3	4350	1	80	-1	56117	1501	3	4350	1	80	-1	56113	1501	3	4350	1	80	-1	56112	1501	3	4350	1	80	-1	56115	1501	3	4350	1	80	-1	56116	1501	3	4350	1	80	-1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4351	75	3038	30	3254	300
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	24137	1	20133	1	22128	1
+[/reward selection int data]
+
+[name]
+	`老朋友 (2/3)`
+
+[depend message]
+	`我好像一直在跟你倒苦水， 哈哈， 見到多年沒見的老朋友， 自然就想起了很多往事……希望你別嫌我太?嗦， 哈哈！
+等等， 讓我想想……阿甘左好像給你留了些東西。`
+
+[condition message]
+	`    收集[朦朧記憶中的故事]和[戮蠱的眼睛]交給林納斯。 (朦朧記憶中的故事可以通過林納斯的每日任務獲得)`
+
+[solve message]
+	`嗯， 找到了！ 不必感謝我， 你要感謝的人是阿甘左！ 他好像挺看好你的。`

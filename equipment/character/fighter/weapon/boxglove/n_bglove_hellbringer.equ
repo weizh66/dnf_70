@@ -1,0 +1,190 @@
+#PVF_File
+
+[name]
+	`地獄獵者`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入眩暈狀態。
+ 攻擊時，有2%的機率附加100點傷害，並使敵人進入詛咒狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人2秒內陷入氣絕狀態。  (若敵人高於Lv27，則減少進入異常狀態的機率和效果；反之，則增加機率和效果)
+    攻擊時，有2%%的機率附加100點暗屬性傷害，並使敵人進入詛咒狀態20秒；詛咒狀態下，減少10點力量、體力、智力和精神。 (高於Lv25的對象得到的機率減少，低於Lv25的對象則會增加。)`
+
+[grade]
+	29
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	25
+
+[physical attack]
+	11
+
+[attack speed]
+	100
+
+[price]
+	52200
+
+[repair price]
+	41760
+
+[value]
+	20800
+
+[equipment physical attack]
+	285	248
+
+[equipment magical attack]
+	285	247
+
+[separate attack]
+	172	113
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	4	2
+	`[at fighter]`	4	2
+[/skill levelup]
+
+[fire attack]
+	4
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	4
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	25
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	100
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[active status]
+		`curse`	25	15	15	15	15
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 宗師 (1/2)`
+
+[depend message]
+	`你好啊。 看來為了能站在武道的頂點， 你非常努力。 我最近也聽說了很多你的事。 是不是遇到什么瓶頸了？ 你作為追求武道極限的黑震團一員， 恐怕沒有時間管自己的事……
+也是……你投身的黑震團內部， 矛盾也越來越深。 本來是由懷著相同夢想的武道家聚集而成的團體， 現在卻因為功名利祿相互誹謗和爭吵。
+我擔心， 看到原本追求純粹武道的同伴有所改變， 會使你的決心動搖。
+那么， 你要走上暫時離開同伴， 獨自戰斗的道路么？ 我明白， 現在一切并不是你所追求的。
+你還在猶豫什么？ 為了拯救彷徨的同伴， 為了重振黑震團， 成為‘宗師’才能正確指引他們。
+當然選擇這樣的道路， 將會無比艱辛。 你準備好承擔責任了嗎？ 想好后再來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`很好！ 看來你已經決定好要指引同伴走向正確之道了。 `
+
+[pre required quest]
+	7637
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3085
+
+[job change quest]
+	3
+
+[grow number]
+	0

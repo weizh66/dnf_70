@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	10
+
+[complete npc index]
+	27
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	22	99
+
+[pre required quest]
+	354
+[/pre required quest]
+
+[effect after clear quest]
+	1
+
+[depend give item]
+	4069	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4069	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`阿爾伯特的條件 (7/7)`
+
+[depend message]
+	`這個給你！ 只要你把它交給阿爾伯特， 我保證阿爾伯特一定會很開心。 呵呵， 不過你要讓阿爾伯特對卡坤保密哦！ 雖然這是除了卡坤之外， 沒有人不知道的秘密……嘿嘿！ `
+
+[condition message]
+	`    把[卡坤的情書副本]交給阿爾伯特。`
+
+[solve message]
+	`嗯？ 信？ 我看看……噗！ 哈哈哈哈！ 這家伙好傻！ 同樣是男人， 也為他感到傷心……呵呵！ 好吧， 你可以學我的技能了！ `
+
+[quest point]
+	4

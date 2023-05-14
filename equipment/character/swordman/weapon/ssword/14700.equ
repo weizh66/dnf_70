@@ -1,0 +1,354 @@
+#PVF_File
+
+[name]
+	`幸運7`
+
+[basic explain]
+	`攻擊時，附加7%%的傷害。
+    攻擊時，有7%%的幾率對敵人附加7%%的傷害。
+    HP為77%%以下時，若受到攻擊，會有7%%的幾率恢復77%%的HP和MP。冷卻時間（120秒）`
+
+[detail explain]
+	`攻擊時，附加7%%的傷害。
+    攻擊時，有7%%的幾率對敵人附加7%%的傷害。
+    HP為77%%以下時，若受到攻擊，會有7%%的幾率恢復77%%的HP和MP。冷卻時間（120秒）`
+
+[flavor text]
+	`敢不敢拿你最好的武器和我賭一把......。`
+
+[grade]
+	73
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	58
+
+[cast speed]
+	20
+
+[need material]
+	3821	1600
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	50
+
+[equipment physical attack]
+	968	829
+
+[equipment magical attack]
+	983	833
+
+[separate attack]
+	520	336
+
+[magical critical hit]
+	7
+
+[physical critical hit]
+	7
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/sswd/sswd.img`	106
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	29	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	29	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	7
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		7
+	[add absolute damage]
+		`all`
+		`%`	77
+[/then]
+
+[if]
+	[hit]
+		1
+	[stat change]
+		`hp`
+		`<`
+		`%`	78
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		7
+	[restore]
+		`hp`
+		`%`	77	1000
+	[restore]
+		`mp`
+		`%`	77	1000
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`at gunner`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`fighter`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`gunner`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`at mage`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`thief`	190
+	[/event use skill]
+	[cool time]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		77
+	[buff]
+		`superarmor`
+[/then]
+
+[emancipate]
+	[input]
+		14700	1	15037	1
+	[/input]
+	[output]
+		4600554	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

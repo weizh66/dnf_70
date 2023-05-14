@@ -1,0 +1,37 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/RoaringOfFireDragon_start.ani`
+
+[etc motion]
+	`Animation/RoaringOfFireDragon_loop.ani`
+	`Animation/RoaringOfFireDragon_end.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/RoaringOfFireDragonFire.atk`
+
+[string data]
+[/string data]
+
+[int data]
+	300
+[/int data]
+
+[name]
+	`聚焦噴火器子彈`

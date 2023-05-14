@@ -1,0 +1,374 @@
+#PVF_File
+
+[name]
+	`Assassin's Blade-死神之吻`
+
+[basic explain]
+	`一柄薄細匕首，散發寒光，這看來平凡無奇的刀子，竟是稀世神兵，上頭的怨霸殺氣，斬神滅鬼，更對一切靈體有著強大殺傷力，據說只有世界最強大的人才能擁有，控制於它，若它現世，必將天下大亂。`
+
+[detail explain]
+	`一柄薄細匕首，散發寒光，這看來平凡無奇的刀子，竟是稀世神兵，上頭的怨霸殺氣，斬神滅鬼，更對一切靈體有著強大殺傷力，據說只有世界最強大的人才能擁有，控制於它，若它現世，必將天下大亂。`
+
+[flavor text]
+	`當這把武器出現在你背後時，你已經死了！`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	120
+
+[attack speed]
+	150
+
+[stuck]
+	-5
+
+[anti evil]
+	60
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1503	1503
+
+[equipment magical attack]
+	1402	1402
+
+[separate attack]
+	1086	1086
+
+[physical critical hit]
+	40
+
+[all elemental attack]
+	186
+
+[icon]
+	`Item/new_equipment/01_weapon/thief/dagger/dagger.img`	151
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[thief]`	33
+	`[all]`
+	`[level]`	0
+	`%`	2000
+	`[thief]`	33
+	`[all]`
+	`[level]`	1
+	`%`	2000
+	`[thief]`	33
+	`[all]`
+	`[level]`	2
+	`%`	2000
+	`[thief]`	33
+	`[all]`
+	`[level]`	3
+	`%`	2000
+	`[thief]`	57
+	`[all]`
+	`[level]`	0
+	`%`	800
+	`[thief]`	57
+	`[all]`
+	`[level]`	4
+	`%`	10000
+	`[thief]`	57
+	`[all]`
+	`[level]`	11
+	`%`	20000
+	`[thief]`	16
+	`[all]`
+	`[level]`	0
+	`%`	5000
+	`[thief]`	16
+	`[all]`
+	`[level]`	6
+	`%`	5000
+	`[thief]`	41
+	`[all]`
+	`[level]`	0
+	`%`	3000
+	`[thief]`	41
+	`[all]`
+	`[level]`	2
+	`%`	3000
+	`[thief]`	41
+	`[all]`
+	`[level]`	4
+	`%`	3000
+	`[thief]`	31
+	`[all]`
+	`[level]`	0
+	`%`	5000
+	`[thief]`	45
+	`[all]`
+	`[level]`	0
+	`%`	3000
+	`[thief]`	45
+	`[all]`
+	`[level]`	2
+	`%`	3000
+	`[thief]`	45
+	`[all]`
+	`[level]`	5
+	`%`	1600
+	`[thief]`	34
+	`[all]`
+	`[level]`	0
+	`%`	3000
+	`[thief]`	34
+	`[all]`
+	`[level]`	1
+	`%`	3000
+	`[thief]`	34
+	`[all]`
+	`[level]`	2
+	`%`	3000
+	`[thief]`	34
+	`[all]`
+	`[level]`	4
+	`%`	3000
+	`[thief]`	47
+	`[all]`
+	`[level]`	0
+	`%`	1600
+	`[thief]`	47
+	`[all]`
+	`[level]`	1
+	`%`	3000
+	`[thief]`	47
+	`[all]`
+	`[level]`	2
+	`%`	3000
+	`[thief]`	47
+	`[all]`
+	`[level]`	3
+	`%`	3000
+	`[thief]`	47
+	`[all]`
+	`[level]`	5
+	`%`	3000
+	`[thief]`	76
+	`[all]`
+	`[level]`	0
+	`%`	1600
+	`[thief]`	76
+	`[all]`
+	`[level]`	2
+	`%`	3000
+	`[thief]`	76
+	`[all]`
+	`[level]`	4
+	`%`	3000
+	`[thief]`	76
+	`[all]`
+	`[level]`	6
+	`%`	3000
+	`[thief]`	75
+	`[all]`
+	`[level]`	0
+	`%`	3000
+	`[thief]`	75
+	`[all]`
+	`[level]`	1
+	`%`	3000
+[/skill data up]
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		30000
+	[probability]
+		100
+	[active status]
+		`bleeding`	100	9999999
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		30000
+	[probability]
+		100
+	[active status]
+		`poison`	100	9999999
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack condition]
+		`back attack`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[buff]
+		`camoflage`
+	[stat]
+		`attack speed`
+		`+`	200
+	[stat]
+		`move speed`
+		`+`	200
+	[stat]
+		`cast speed`
+		`+`	200
+	[stat]
+		`physical critical hit rate`
+		`+`	100
+[/then]
+
+[if]
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	200
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	92
+	[stat by condition]
+		`magical attack bonus`
+		`%`	92
+	[stat by condition]
+		`separate attack`
+		`%`	92
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		990009	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

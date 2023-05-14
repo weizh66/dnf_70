@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	15	99
+
+[pre required quest]
+	20572
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	50000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[name]
+	`領悟絕殺技 - 第1階段`
+
+[depend message]
+	`絕殺技可以在地下城內使用， 不過使用之前需要先累積一定的蓄力值。 蓄力值可以通過擊殺怪物， 通關地下城內的小房間來儲存。
+另外還有一點就是……這個技能需要支付一定的金幣才能學習~`
+
+[condition message]
+	`    支付賽麗亞一定數額的金幣， 領悟使用絕殺技的第1階段。`
+
+[solve message]
+	`現在你已經領悟了第一階段的絕殺技。 如果想在實戰中嘗試， 需要在同一個地下城里， 通關三個房間才行哦！`

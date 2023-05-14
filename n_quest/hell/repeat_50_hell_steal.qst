@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	2611
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3219	15
+[/int data]
+
+[first int data]
+	3219	1
+[/first int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4158	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`鋼鐵之破魔石`
+
+[depend message]
+	`你還要鋼鐵之破魔石？ 你又聽見暗王斯狄爾的呼喚了？ `
+
+[condition message]
+	`    要想挑戰月光酒館和海岸三番街地區的深淵派對， 需先制作[鋼鐵之破魔石]！ 請收集15張[強韌惡魔的邀請函]交給歌蘭蒂斯。`
+
+[first condition message]
+	`((后續確認`
+
+[solve message]
+	`嗯， 受神庇護的冒險家， 愿你的神圣之路沒有阻礙！ `
+
+[quest point]
+	0

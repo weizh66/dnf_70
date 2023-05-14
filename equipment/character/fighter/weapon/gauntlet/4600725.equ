@@ -1,0 +1,195 @@
+#PVF_File
+
+[name]
+	`封·未完成的研發者臂鎧`
+
+[basic explain]
+	`    HP為75%%以上時， 攻擊時附加10%%的傷害。
+    HP為50%%以上、 75%%以下時， 攻擊時附加22%%的傷害。`
+
+[flavor text]
+	`    還未完成已經有如此強大的氣場， 這要是成品……哦， 簡直不敢想象。  --某人在猛拍馬屁`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	97
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1152	989
+
+[equipment magical attack]
+	864	742
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/gauntlet/gauntlet.img`	103
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	29	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[fighter]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[stat change]
+		`hp`
+		`>=`
+		`%`	75
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`>=`
+		`%`	50
+	[stat change]
+		`hp`
+		`<`
+		`%`	75
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	22
+[/then]
+
+[possible kiri protect]

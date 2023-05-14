@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`白色廢墟`
+
+[explain]
+	`若干年來， 班圖族從不相信自己族人以外的其他種族。 在冒險家的努力下， 他們放下了對其他種族的憎恨並和冒險家一起全力對付從沉睡中醒來的斯卡薩。 就在此時， 班圖族卻遭到了襲擊！ 山脊到底發生了什麼事， 襲擊班圖族的龐然大物又是什麼？ 白雪皚皚的高地， 未知領域--白色廢墟上正進行著一場令人窒息的戰鬥……`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	2	4
+	`WorldMap/SelectdungeonSlot/snowmt.img`	3
+
+[minimum required level]
+	99
+
+[basis level]
+	47
+
+[experience increasing point]
+	1.3
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	601	602	603	604	605	606	607	608	609	610
+
+[special passive object item]
+	0	-1	0
+[/special passive object item]
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[event monster]
+	1	9000	61728	1	300	80	1
+[/event monster]

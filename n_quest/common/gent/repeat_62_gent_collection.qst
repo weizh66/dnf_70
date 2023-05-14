@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5777
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3267	3
+[/int data]
+
+[dungeon info]
+	83	-1	84	-1	85	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+	7754	1	7755	1	7756	1	7757	1	7758	1	7759	1
+[/reward selection int data]
+
+[name]
+	`收集徽章`
+
+[depend message]
+	`我知道你曾經為皇都軍立下了無數的戰功。
+不過， 人們總是更關心眼前的事。 如果你沒有新的成績， 我擔心過去的功勞很快就會被時間湮沒。
+呵呵！ 為了讓你有一次表現的機會， 我想請你去消滅一些敵人， 并收集卡勒特首領的徽章給我。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』、『補給線阻斷戰』、 『追擊殲滅戰』， 擊敗領主并收集以下物品。`
+
+[solve message]
+	`辛苦了！ 我一定會好好珍藏這些徽章， 向這里的人宣揚你的戰績。`

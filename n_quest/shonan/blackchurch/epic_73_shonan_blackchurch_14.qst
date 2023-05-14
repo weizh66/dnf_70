@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	45
+
+[complete npc index]
+	66
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4198
+[/pre required quest]
+
+[depend give item]
+	4761	1
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	66
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`嚐到辣味 2`
+
+[depend message]
+	`剛開始收集的念珠有比較多嗎？那麼剩下的念珠可能在小燈籠那裡吧。現在已經展示在這裡大家都能看到，所以不會再有買賣了。
+但是，那些是真正聖戰士們的念珠，是相當珍貴的物品。請他們都歸還給教堂如何呢？`
+
+[condition message]
+	`與小燈籠對話`
+
+[solve message]
+	`啊，你來了～請問還有其他的什麼嗎？`
+
+[quest point]
+	4

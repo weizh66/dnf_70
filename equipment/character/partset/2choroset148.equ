@@ -1,0 +1,93 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	127
+		`[dungeon type]`
+		`[static]`	19
+		`+`	1
+		`[knight]`	127
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[knight]`	127
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[knight]`	127
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[knight]`	127
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[knight]`	127
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`使用[龍人劍術]時， 會適用霸體狀態。
+[龍人劍術]攻擊力 +15%%
+[龍人劍術]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	127
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[knight]`	133
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[knight]`	133
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1000
+		`[knight]`	141
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[龍人劍術]冷卻時間 -40%%
+[爆破龍角]刀刃長度 +30%%
+[爆破龍角]束縛時間 +1秒
+[龍刃無雙]冷卻時間 -30%% `
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	133
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	141
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[knight]`	141
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[knight]`	141
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[knight]`	141
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[爆破龍角]冷卻時間 -30%%
+[龍刃無雙]冷卻時間 -40%%
+[龍刃無雙]攻擊力 +50%%
+[龍刃無雙]無色小晶塊消耗量 +1`
+[/piece set ability]

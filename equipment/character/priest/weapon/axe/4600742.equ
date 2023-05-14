@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`封·禁滅之槌`
+
+[basic explain]
+	`  攻擊時， 可以增加5點力量， 並使敵人減少2%%的物理和魔法防禦力， 效果持續50秒。`
+
+[detail explain]
+	`  攻擊時， 可以增加5點力量， 並使敵人減少2%%的物理和魔法防禦力， 效果持續50秒。（最多重跌25次；對精英怪物的效果為1/3、對深淵怪物的效果為1/6）`
+
+[flavor text]
+	`  為了讓敵人統統毀滅而制造的武器， 只是這威力會不會殃及池魚……`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1152	989
+
+[equipment magical attack]
+	816	700
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/axe/axe.img`	99
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	33	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[equipment duration]
+		50000
+	[appendage]
+		293
+	[target]
+		`myself`	-1
+	[equipment duration]
+		50000
+	[appendage]
+		294
+[/then]
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,65 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/marble_blue.img`
+		2
+	[IMAGE POS]
+		-225	-259
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		160
+	[ATTACK BOX]
+	-36	-40	-38	72	79	77
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/marble_blue.img`
+		2
+	[IMAGE POS]
+		-225	-259
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		160
+	[ATTACK BOX]
+	-36	-40	-38	72	79	77
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/marble_blue.img`
+		3
+	[IMAGE POS]
+		-225	-259
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		160
+	[ATTACK BOX]
+	-36	-40	-38	72	79	77
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/marble_blue.img`
+		4
+	[IMAGE POS]
+		-225	-259
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		160
+	[ATTACK BOX]
+	-36	-40	-38	72	79	77

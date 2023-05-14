@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 湮滅之瞳 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+我看你現在用起元素來還挺熟練的。 感覺如何？ 有沒有覺得逐漸與黑暗之眼融為一體了呢？ 感受到充斥全身的無限魔力了嗎？ 真了不起。 換作普通魔法師， 可能在這個過程中就被魔力撕碎了。
+從現在開始， 你將對一切無所畏懼。 顯然， 你已經與曾經最可怕的存在——‘黑暗之眼’同化了， 以后還有什么東西能讓你恐懼呢？
+從今往后， 你的身心不但不會崩潰， 相反你還會感到萬分舒暢， 運用魔力得心應手。 也就是說， 你已經突破了不只一個階段。
+現在重新踏上冒險之旅， 去完成你的使命吧。 你以后就是‘湮滅之瞳’， 你將會把一切化作虛無， 用你的黑暗侵蝕萬物。`
+
+[pre required quest]
+	5571
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

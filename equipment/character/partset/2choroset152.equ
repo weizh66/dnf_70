@@ -1,0 +1,120 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[利刃收割]攻擊力 +30%%
+[利刃收割]冷卻時間-20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[demonic lancer]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[光焰囚殺]攻擊力 + 25%%
+[光焰囚殺]冷卻時間 -25%%
+[鷹墜]冷卻時間 -25%%
+[利刃收割]攻擊力 + 25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	2
+		`%`	35
+		`[demonic lancer]`	80
+		`[dungeon type]`
+		`[level]`	3
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[鷹墜]攻擊力 +45%%
+[龍鱗碎割]冷卻時間 -20%%
+[龍鱗碎割]攻擊力 +45%%
+[光焰囚殺]攻擊力 +35%%`
+[/piece set ability]

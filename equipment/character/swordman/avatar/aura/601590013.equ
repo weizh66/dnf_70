@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`2014 鬥技盃冠軍光環`
+
+[explain]
+	`<2014 鬥技盃>`
+
+[grade]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/stackable/cash.img`	1943
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	63
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[physical attack]
+	50
+
+[physical defense]
+	50
+
+[magical attack]
+	50
+
+[magical defense]
+	50
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]
+
+[aurora graphic effects]
+	8	1
+	`Character/Common/Animation/Aura/tw/RedDragon_dodge_fire02.ani`	1
+	`Character/Common/Animation/Aura/tw/RedDragon_dodge_fire01.ani`	1
+	`Character/Common/Animation/Aura/tw/RedDragon_dodge_twinkle.ani`	1
+	`Character/Common/Animation/Aura/tw/RedDragon_dodge_twinkle.ani`	1
+	`Character/Common/Animation/Aura/tw/RedDragon_dodge_twinkle_01.ani`	1
+	`Character/Common/Animation/Aura/tw/RedDragon_body_dodge01.ani`	1
+	`Character/Common/Animation/Aura/tw/RedDragon_body_dodge02.ani`	1
+	`Character/Common/Animation/Aura/tw/RedDragon_body_normal.ani`
+
+[aura pos datas]
+	0
+	`[swordman]`	0	2	0
+	`[fighter]`	2	2	0
+	`[gunner]`	-2	-3	0
+	`[mage]`	-2	2	0
+	`[priest]`	-5	-2	0
+	`[at gunner]`	0	2	0
+	`[thief]`	0	-1	0
+	`[at fighter]`	-2	-6	0
+	`[at mage]`	0	10	0
+	`[demonic swordman]`	0	0	0
+	`[creator mage]`	-2	2	0
+	`[at swordman]`	0	3	1
+	`[swordman]`	0	2	1
+	`[fighter]`	2	2	1
+	`[gunner]`	-2	-3	1
+	`[mage]`	-2	2	1
+	`[priest]`	-5	-2	1
+	`[at gunner]`	0	2	1
+	`[thief]`	0	-1	1
+	`[at fighter]`	-2	-6	1
+	`[at mage]`	0	10	1
+	`[demonic swordman]`	0	0	1
+	`[creator mage]`	-2	2	1
+	`[at swordman]`	0	3
+[/aura pos datas]
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]

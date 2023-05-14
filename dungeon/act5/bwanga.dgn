@@ -1,0 +1,391 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`布萬加的修練場`
+
+[explain]
+	`歷史記載， 20年多年前， 有一些人見證了使徒希洛克的滅亡， 其中就有班圖族族長布萬加……如今， 奇怪的事接連發生， 冒險家瞭解到使徒希洛克曾留下預言。 不過要想找到希洛克的預言， 冒險家們必須先找到班圖族族長布萬加……而在雪山， 一場由班圖族設置的殘酷考驗， 正等待著那些去拜訪布萬加的冒險家。`
+
+[entering title]
+	`Title/Bwanga.ani`
+
+[cutscene image]
+	`Map/CutScene/Charnak.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	2	5
+	`WorldMap/SelectdungeonSlot/snowmt.img`	5
+
+[minimum required level]
+	45
+
+[basis level]
+	48
+
+[coin limit]
+	4
+
+[experience increasing point]
+	1.4
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	601	602	603	604	605	606	607	608	609	610
+
+[maze info]
+
+[size]
+	10	1
+
+[greed]
+	`BBFFFFFFFFFFFFFFFFEE`
+
+[map specification]
+	1	0	16011
+[/map specification]
+
+[map specification]
+	2	0	16012
+[/map specification]
+
+[map specification]
+	3	0	16013
+[/map specification]
+
+[map specification]
+	4	0	16014
+[/map specification]
+
+[map specification]
+	5	0	16015
+[/map specification]
+
+[map specification]
+	6	0	16016
+[/map specification]
+
+[map specification]
+	7	0	16017
+[/map specification]
+
+[map specification]
+	8	0	16018
+[/map specification]
+
+[boss map specification]
+	9	0	16019
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	9	0
+[/boss map]
+
+[seal door map index]
+	60027
+
+[seal door pos]
+	7	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[maze info]
+
+[quest connection]
+	0	4002	-1
+
+[size]
+	2	1
+
+[greed]
+	`BBEE`
+
+[boss map specification]
+	1	0	16020
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	1	0
+[/boss map]
+
+[escape hell]
+	1
+
+[maze info]
+
+[quest connection]
+	0	4003	-1
+
+[size]
+	4	1
+
+[greed]
+	`BBFFFFEE`
+
+[map specification]
+	1	0	16011
+[/map specification]
+
+[map specification]
+	2	0	16012
+[/map specification]
+
+[boss map specification]
+	3	0	16021
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	3	0
+[/boss map]
+
+[maze info]
+
+[quest connection]
+	0	4004	1
+
+[size]
+	6	1
+
+[greed]
+	`BBFFFFFFFFEE`
+
+[map specification]
+	1	0	16011
+[/map specification]
+
+[map specification]
+	2	0	16012
+[/map specification]
+
+[map specification]
+	3	0	16013
+[/map specification]
+
+[map specification]
+	4	0	16014
+[/map specification]
+
+[boss map specification]
+	5	0	16022
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	5	0
+[/boss map]
+
+[maze info]
+
+[quest connection]
+	0	4005	1
+
+[size]
+	8	1
+
+[greed]
+	`BBFFFFFFFFFFFFEE`
+
+[map specification]
+	1	0	16011
+[/map specification]
+
+[map specification]
+	2	0	16012
+[/map specification]
+
+[map specification]
+	3	0	16013
+[/map specification]
+
+[map specification]
+	4	0	16014
+[/map specification]
+
+[map specification]
+	5	0	16015
+[/map specification]
+
+[map specification]
+	6	0	16016
+[/map specification]
+
+[boss map specification]
+	7	0	16023
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	7	0
+[/boss map]
+
+[maze info]
+
+[quest connection]
+	0	4006	1
+
+[size]
+	9	1
+
+[greed]
+	`BBFFFFFFFFFFFFFFEE`
+
+[map specification]
+	1	0	16011
+[/map specification]
+
+[map specification]
+	2	0	16012
+[/map specification]
+
+[map specification]
+	3	0	16013
+[/map specification]
+
+[map specification]
+	4	0	16014
+[/map specification]
+
+[map specification]
+	5	0	16015
+[/map specification]
+
+[map specification]
+	6	0	16016
+[/map specification]
+
+[map specification]
+	7	0	16017
+[/map specification]
+
+[boss map specification]
+	8	0	16024
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	8	0
+[/boss map]
+
+[seal door map index]
+	60027
+
+[seal door pos]
+	7	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[maze info]
+
+[quest connection]
+	0	4007	1
+
+[size]
+	10	1
+
+[greed]
+	`BBFFFFFFFFFFFFFFFFEE`
+
+[map specification]
+	1	0	16011
+[/map specification]
+
+[map specification]
+	2	0	16012
+[/map specification]
+
+[map specification]
+	3	0	16013
+[/map specification]
+
+[map specification]
+	4	0	16014
+[/map specification]
+
+[map specification]
+	5	0	16015
+[/map specification]
+
+[map specification]
+	6	0	16016
+[/map specification]
+
+[map specification]
+	7	0	16017
+[/map specification]
+
+[map specification]
+	8	0	16018
+[/map specification]
+
+[boss map specification]
+	9	0	16019
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	9	0
+[/boss map]
+
+[seal door map index]
+	60027
+
+[seal door pos]
+	7	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[event monster]
+	1	1500	20181033	1	300	80	1
+[/event monster]

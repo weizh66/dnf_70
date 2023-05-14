@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`(舊) 古古萊恩的石晶圖騰`
+
+[basic explain]
+	`攻擊速度 +2%%`
+
+[flavor text]
+	`    班圖鐵匠古古萊恩制作的堅固的石晶圖騰。`
+
+[grade]
+	25
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[rarity]
+	4
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	20
+
+[icon]
+	`Item/weapon/priest/totem.img`	31
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	38
+
+[price]
+	40000
+
+[value]
+	32000
+
+[cool time]
+	10000
+
+[HP MAX]
+	290
+
+[physical attack]
+	39
+
+[physical defense]
+	15
+
+[equipment physical attack]
+	290	239
+
+[equipment physical defense]
+	300	300
+
+[equipment magical attack]
+	248	205
+
+[separate attack]
+	159	103
+
+[attack speed]
+	20
+
+[hit recovery]
+	75
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[priest]`	16	2
+[/skill levelup]
+
+[variation]
+	4	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

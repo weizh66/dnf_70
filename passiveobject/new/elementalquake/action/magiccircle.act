@@ -1,0 +1,82 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ElementalQuake/MagicCircle.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		200	200	200	5000	0	0	0
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			2011532
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			2011533
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700037
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[SHAKING]
+		4	200
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[CHARACTER]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[APPENDAGE]
+		10000
+		[equipment physical attack]
+		[%]
+			20.0
+		[equipment magical attack]
+		[%]
+			20.0
+		[separate attack]
+		[%]
+			20.0
+	[/APPENDAGE]
+	[CENTER MSG]
+		`超時空魔法陣啟動！`	2000
+[/BEHAVIOR]

@@ -1,0 +1,41 @@
+#PVF_File
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/SATRT.act`
+
+[etc action]
+	`action/LOOP.act`
+[/etc action]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[parent dead]`
+[/object destroy condition]
+
+[follow parent]
+	`[parent]`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ME]`
+	[homing velocity]
+		50.0	50.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[homing direction]
+		0
+	[sync target move]
+[/homing]

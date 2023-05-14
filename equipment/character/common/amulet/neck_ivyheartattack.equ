@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`麻痹心臟的常春藤項鍊`
+
+[basic explain]
+	`攻擊中毒狀態下敵人時10%%的附加傷害`
+
+[grade]
+	50
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	45
+
+[magical attack]
+	22
+
+[magical defense]
+	53
+
+[price]
+	60000
+
+[repair price]
+	48000
+
+[value]
+	48000
+
+[equipment magical defense]
+	4640	4160
+
+[icon]
+	`Item/common/necklace.img`	12
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[target active status]
+		`poison`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[set name]
+	`破壞身體的常春藤首飾`
+
+[set item]
+	20117	24120
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`使敵人進入任意的異常狀態時，有20%%的機率施放Lv5的[鬼神?侵蝕普戾蒙]。`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

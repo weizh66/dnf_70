@@ -1,0 +1,174 @@
+#PVF_File
+
+[name]
+	`毒貓王的指甲`
+
+[basic explain]
+	`攻擊時以 7%%的機率讓敵人進入中毒狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以7%%的機率7秒內讓敵人呈現中毒狀態，每0.5秒以9的攻擊力給予傷害。 （高於Lv9的對象得到的機率減少，低於Lv9的對象則會增加。）
+不可解體`
+
+[grade]
+	14
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	10
+
+[physical attack]
+	13
+
+[magical attack]
+	7
+
+[price]
+	22400
+
+[repair price]
+	17920
+
+[value]
+	17920
+
+[equipment physical attack]
+	180	140
+
+[equipment magical attack]
+	180	140
+
+[separate attack]
+	99	63
+
+[physical critical hit]
+	7
+
+[icon]
+	`Item/weapon/fighter/claw.img`	73
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	18	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		7
+	[reduce probability to human armor at pvp module]
+		70
+	[active status]
+		`poison`	9	127
+[/then]
+
+[routing priority]
+	`fighter`	1
+	`at fighter`	1
+	`fighter`	2
+	`at fighter`	2
+	`fighter`	3
+	`at fighter`	3
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

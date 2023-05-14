@@ -1,0 +1,492 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace03.img`	11
+
+[big face]
+	`Map/Npc/NpcFace03.img`	10
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	60
+
+[field animation]
+	`Animation/Npc_mt.ani`
+
+[field wav]
+	`R_NPC_MINTAI_AMB_LOOP`
+
+[popup wav]
+	`R_NPC_MINTAI_TALK`
+	`R_NPC_MINTAI_FAREWELL`
+
+[role]
+	`[item shop]`	24
+[/role]
+
+[look around]
+	0
+
+[name]
+	`敏泰`
+
+[field name]
+	`敏泰`
+
+[quest speech]
+	`歡迎你來班圖族的村莊做客！`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::39>啊？ 你似乎從很遠的地方來？ 你的服飾好奇怪哦， 我以前都沒有見過呢。
+呵呵， 這兒很冷吧？ 你來做什么啊？  如果你只是來逛逛， 我勸你還是趁早離開吧， 我們這兒的人不歡迎外族人的。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::39>我們班圖族原來居住在大山深處， 冰龍斯卡薩蘇醒后， 開始殘害我們， 我們不得不逃到這里。
+冰龍太恐怖了， 它抓走了巴爾雷娜大嬸的兩個親人， 巴爾雷娜大嬸好可憐哦， 嗚嗚……`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	1	0
+	`<npc::39>你怎么耷拉著雙肩啊？ 噢， 你好像傷得不輕哦。 你放心， 我會向庫尼萊神禱告， 讓她保佑你平安的。`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	2	0
+	`<npc::39>呃， 奧爾卡大人不讓我跟你們說話。`
+[/dialog]
+
+[favor_dialog]
+	3	0	0
+	`<npc::39>等敏泰長大了……你能帶敏泰離開這兒嗎？`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	1
+	`<npc::39>聽說坎納克山上有很多美麗的花， 敏泰真想給冒險家送一朵呢。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	2
+	`<npc::39>既然是冒險家送的， 我就收下了。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	0
+	`<npc::39>這是敏泰的秘密……敏泰喜歡你， 比喜歡哥哥還要喜歡。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	1
+	`<npc::39>我很想你， 你能來陪我玩嗎？`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	2
+	`<npc::39>敏泰鄭重的警告你， 下次可不許這樣對敏泰了~`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	0
+	`<npc::39>啊， 好冷啊。 怎么突然變冷了？ 呃……那個……抱抱我好嗎？`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	1
+	`<npc::39>哎呀， 我該怎么辦呀？`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	2
+	`<npc::39>你還不懂敏泰的心意嗎？ 嗚嗚~`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	0
+	`<npc::39>我很高興， 我喜歡這個禮物！`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	1
+	`<npc::39>我很高興， 不過要是送我別的禮物， 我會更高興……`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	2
+	`<npc::39>你人不錯， 但這種禮物……我不喜歡。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	0
+	`<npc::39>嘻嘻， 我第一次看到像你這樣帥的人。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	1
+	`<npc::39>沒有別的了嗎？ 把其他的給我看看吧。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	2
+	`<npc::39>我以為冒險家知道我喜歡什么呢。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	0
+	`<npc::39>多虧你的照顧， 我好多了， 謝謝你……`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	1
+	`<npc::39>今天心情糟透了， 就算你給我禮物， 我也高興不起來。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	2
+	`<npc::39>嗚嗚， 你太過分了！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	0
+	`<npc::39>真的太感謝了！ 心情真好呀！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	1
+	`<npc::39>哇， 太神奇了！ 不過你為什么要送我這種東西， 你有什么目的？`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	2
+	`<npc::39>雖然不忍心拒絕， 但敏泰是誠實的……`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	0
+	`<npc::39>啊， 你怎么知道我喜歡這種東西？`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	1
+	`<npc::39>歡迎來到斯頓雪域， 這天氣， 要小心感冒哦~`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	2
+	`<npc::39>這個， 你還是拿走吧。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	0
+	`<npc::39>哇哦！ 我喜歡這個！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	1
+	`<npc::39>哎， 敏泰更喜歡其他的……`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	2
+	`<npc::39>哦？ 你想說什么呢？`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	0
+	`<npc::39>這是敏泰最喜歡的東西， 謝謝。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	1
+	`<npc::39>你們外族人很喜歡這種東西。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	2
+	`<npc::39>你要是再這樣， 我就告訴我哥哥。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	0
+	`<npc::39>嘻嘻， 我會好好研究它的用途的。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	1
+	`<npc::39>嗯？ 這是給我的禮物？ 那就放那兒吧。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	2
+	`<npc::39>我不喜歡這個禮物。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	0
+	`<npc::39>謝謝！`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	1
+	`<npc::39>哥哥叫我小心陌生人。 `
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	2
+	`<npc::39>啊！ 你快閃開！ 誰能幫幫我啊！`
+[/favor_dialog]
+
+[1st favor dialog]
+	`<npc::39>嗚嗚， 我好冷好孤單啊， 誰來陪陪我呀！`
+[/1st favor dialog]
+
+[favor_dialog_exception]
+	0
+	`<npc::39>嗯， 我喜歡， 就是數量少了一點。`
+[/favor_dialog_exception]
+
+[favor_dialog_exception]
+	1
+	`<npc::39>這些足夠了， 今天就這吧。`
+[/favor_dialog_exception]
+
+[favor_duration_reward_buff_dialog]
+	`<npc::39>為了表示支持， 我給你唱一首歌吧， 一定要加油哦。`
+[/favor_duration_reward_buff_dialog]
+
+[favorable relationship]
+	[default favor]
+		1650
+	[max gift per day]
+		20
+	[dialog day not continuously]
+		2	100
+	[mood]
+		[change]
+			`good`	600
+			`bad`	500
+			`normal`	1500
+		[/change]
+		[key item]
+			1068	1
+		[/key item]
+	[/mood]
+	[gift item]
+		[favor rate per mood]
+			120	100	80
+		[prefer item]
+		[/prefer item]
+		[prefer item group]
+			1
+			`food`	5	30	1
+			`mineral stuff`	5	30	1
+			`cloth stuff`	5	30	2
+			`food`	5	30	2
+			`mineral stuff`	5	30	2
+			`cloth stuff`	5	30	3
+			`mineral stuff`	5	30	3
+			`cloth stuff`	5	30	4
+			`cloth stuff`	5	30
+		[/prefer item group]
+		[unprefer item]
+		[/unprefer item]
+		[unprefer item group]
+			1
+			`food`	50	1
+			`food etc`	50	2
+			`food`	50	2
+			`food etc`	50	3
+			`food`	50	3
+			`food etc`	50	4
+			`food`	50	4
+			`food etc`	50
+		[/unprefer item group]
+	[/gift item]
+	[reward item]
+		[item info]
+			[favor level]
+				1
+			[mood]
+				`good`
+				[favor]
+					`up`	2610004	3	1000	0	0	1000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610004	3	1000	0	0	1500
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610004	3	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				2
+			[mood]
+				`good`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				3
+			[mood]
+				`good`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	2610011	3	1000	2610011	5	1000	2610015	3	1000	2610015	5	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	2610011	3	1000	2610011	5	1000	2610015	3	1000	2610015	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	2610011	3	1000	2610011	5	1000	2610015	3	1000	2610015	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				4
+			[mood]
+				`good`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	2610011	3	1000	2610011	5	1000	2610015	3	1000	2610015	5	1000	2610029	3	1000	2610029	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	2610011	3	1000	2610011	5	1000	2610015	3	1000	2610015	5	1000	2610029	3	1000	2610029	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610004	3	1000	2610004	5	1000	2610007	3	1000	2610007	5	1000	2610011	3	1000	2610011	5	1000	2610015	3	1000	2610015	5	1000	2610029	3	1000	2610029	5	1000	0	0	5000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+	[/reward item]
+	[favor level reward mail]
+		30	1095	3
+		`npc_name_mintai`
+		`npc_reward_mintai_30`	40	2600043	1
+		`npc_name_mintai`
+		`npc_reward_mintai_40`	50	1096	3
+		`npc_name_mintai`
+		`npc_reward_mintai_50`	60	1097	3
+		`npc_name_mintai`
+		`npc_reward_mintai_60`	65	1098	3
+		`npc_name_mintai`
+		`npc_reward_mintai_65`	70	1137	3
+		`npc_name_mintai`
+		`npc_reward_mintai_70`
+	[/favor level reward mail]
+	[favor_duration_reward]
+		30
+		`item`	1245	1
+		`npc_name_mintai`
+		`favor_duration_reward_mintai_30`
+	[/favor_duration_reward]
+	[favor_duration_reward_buff]
+		10	10	10	20	11	10
+	[/favor_duration_reward_buff]
+[/favorable relationship]

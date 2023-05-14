@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`刀葛的咒術棒`
+
+[basic explain]
+	`攻擊時以 5%%的機率讓敵人進入石化狀態
+攻擊時以 5%%的機率讓敵人進入混亂狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以 5%% 的機率5秒內讓敵人進入石化狀態，解除時以450的攻擊力給予傷害。 （高於Lv24的對象得到的機率和效果減少，低於Lv24的對象則會增加。 決鬥場內修正為2秒）
+攻擊時以5%%的機率5秒內讓敵人進入混亂狀態。（高於Lv24的對象得到的機率和效果減少，低於Lv24的對象則會增加。 決鬥場內修正為2秒）
+不可解體`
+
+[grade]
+	24
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	20
+
+[magical attack]
+	19
+
+[attack speed]
+	-100
+
+[price]
+	38400
+
+[repair price]
+	30720
+
+[value]
+	30720
+
+[equipment physical attack]
+	210	178
+
+[equipment magical attack]
+	299	253
+
+[separate attack]
+	148	96
+
+[magical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/wand.img`	88
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	24	1
+[/then]
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stone`	24	450
+[/then]
+
+[routing priority]
+	`thief`	2
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

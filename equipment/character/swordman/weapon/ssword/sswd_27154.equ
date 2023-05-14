@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`冥剎鬼影劍`
+
+[basic explain]
+	`[鬼印珠]珠子大小 +20%%
+[冥炎之卡洛]持續時間 +6秒
+    施放[噬靈鬼斬]時， 可以使自身進入霸體狀態。 (在決斗場中無效)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	80
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	658	603
+
+[separate attack]
+	360	243
+
+[cast speed]
+	20
+
+[elemental property]
+	`[dark element]`
+
+[magical critical hit]
+	2
+
+[variation]
+	2	3
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[dark attack]
+	10
+
+[skill data up]
+	`[swordman]`	2
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[swordman]`	2
+	`[all]`
+	`[level]`	6
+	`%`	20
+	`[swordman]`	82
+	`[all]`
+	`[level]`	0
+	`+`	6000
+[/skill data up]
+
+[routing priority]
+	`swordman`	4
+	`swordman`	2
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[pre required quest]
+	4980
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680301	20	2680302	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680311	10	2680310	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`給外層涂上鮮奶油`
+
+[depend message]
+	`哇~蛋糕胚終于做成了~不過好像還缺少些什么。 嗯， 生日蛋糕不能沒有鮮奶油， 我要給蛋糕胚涂上漂亮的鮮奶油！
+冒險家， 這次就請你幫忙收集些鮮奶油和食用色素吧。 啊！！ 西海岸好像有人出售鮮奶油； 你就費心收集那些食用色素吧。 呵呵， 要想做出有漂亮顏色的生日蛋糕， 可不能缺少那些食用色素哦。`
+
+[condition message]
+	`    收集20個[鮮奶油]和20個[食用色素]交給賽麗亞。 (鮮奶油可以從羅莉安處購買， 食用色素可以在任意地下城獲得)`
+
+[solve message]
+	`這是為周年慶準備的蛋糕， 一定要涂得均勻一些哦。`

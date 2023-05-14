@@ -1,0 +1,188 @@
+#PVF_File
+
+[name]
+	`極冰之曼提斯`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使敵人進入冰凍狀態。
+對冰凍狀態下敵人的傷害 +30%%`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使敵人進入冰凍狀態8秒。 (若敵人高于Lv50， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對冰凍狀態下敵人的傷害 +30%% (在決斗場中 +15%%)`
+
+[flavor text]
+	`    用坎納克山上極其罕見的永不融化的萬年雪制作的鐮刀， 散發著無比寒冷的冰息。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`scythe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2800
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/priest/scythe.img`	31
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	80000
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	452	407
+
+[equipment magical attack]
+	476	428
+
+[separate attack]
+	285	189
+
+[attack speed]
+	80
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		8000
+	[probability]
+		3
+	[active status]
+		`freeze`	50
+[/then]
+
+[if]
+	[target active status]
+		`freeze`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[stuck]
+	1
+
+[variation]
+	3	1
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			4000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			8000
+		[probability]
+			3
+		[active status]
+			`freeze`	50
+	[/then]
+	[if]
+		[target active status]
+			`freeze`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

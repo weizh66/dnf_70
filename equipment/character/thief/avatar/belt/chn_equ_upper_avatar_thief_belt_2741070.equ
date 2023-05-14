@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`雪人玩偶 (暗夜使者)`
+
+[flavor text]
+	`<圣誕節的祝福活動>`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_abelt.img`	35
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar func filter]
+	0
+
+[usable period]
+	20
+
+[variation]
+	13	0
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[move speed]
+	20
+
+[MP MAX]
+	200
+
+[part set index]
+	2

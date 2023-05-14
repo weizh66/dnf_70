@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	9
+
+[complete npc index]
+	9
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4953
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	602	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	603	2	26165	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找哥布林雕像 - 4`
+
+[depend message]
+	`多虧有你幫忙， 我才能把賣出去的雕像找回來， 嘿嘿……呃！ 瞧我都說了什么呀……勇士， 我絕對是無辜的， 你一定要相信我。
+都是那些可惡的怪物， 它們每次都想以最便宜的價格拿走我的雕像……我只是想報仇而已， 再說這對你也沒壞處， 它是雙贏的買賣！
+……嗚嗚， 如果你要責怪的話， 我也只能說對不起了， 我知道錯了……`
+
+[condition message]
+	`<夏洛克的助威活動>  收集1個[哥布林金雕像]交給赫頓瑪爾后街的夏洛克。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`勇士， 我心里也后悔沒向你老實交代， 這個東西……代表我誠心的道歉， 請你收下……同時也請你替我保密啊， 嘿嘿……`

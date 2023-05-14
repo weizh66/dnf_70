@@ -1,0 +1,156 @@
+#PVF_File
+
+[set name]
+	`死亡之舞  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	83
+		`[dungeon type]`
+		`[static]`	0
+		`+`	250
+		`[fighter]`	83
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[at fighter]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	83
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[熾焰旋風腿]冷卻時間 -6秒
+[熾焰旋風腿]攻擊次數 +2
+格斗家(女) :
+[升龍拳]冷卻時間 -6秒
+[升龍拳]移動距離 +50%%
+[升龍拳]多段攻擊次數 +1`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	68
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[fighter]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`+`	4
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at fighter]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[閃電之舞]冷卻時間 -6秒
+[閃電之舞]最大移動距離 +20%%
+[閃電之舞]移動次數上限 +2
+格斗家(女) :
+[閃電之舞]冷卻時間 -6秒
+[閃電之舞]最大移動距離 +20%%
+[閃電之舞]移動次數上限 +4`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-13500
+		`[fighter]`	82
+		`[dungeon type]`
+		`[static]`	3
+		`+`	4
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-13500
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1
+		`[at fighter]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[柔化肌肉]強制中斷的次數 +1
+[瞬影連環踢]冷卻時間 -13.5秒
+[瞬影連環踢]攻擊力 +25%%
+[衝膝]冷卻時間 -6秒
+[衝膝]攻擊力 +20%%
+格斗家(女) :
+[柔化肌肉]強制中斷的次數 +1
+[紛影連環踢]冷卻時間 -13.5秒
+[紛影連環踢]攻擊次數 +4
+[寸拳]冷卻時間 -6秒
+[寸拳]攻擊力 +20%%`
+[/piece set ability]

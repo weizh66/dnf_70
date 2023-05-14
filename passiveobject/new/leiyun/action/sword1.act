@@ -1,0 +1,50 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Vajra/Vajra_bullet_main_a1.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			250
+		[Z AXIS]
+			-1000
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[ZPOS]
+		[<=]
+			10
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			250109
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			60
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[DESTROY]
+[/BEHAVIOR]

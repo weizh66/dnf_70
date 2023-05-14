@@ -1,0 +1,229 @@
+#PVF_File
+
+[name]
+	`封·驚雷之吼`
+
+[basic explain]
+	`神槍手(男)
+[反坦克炮]爆炸次數 +2次
+[反坦克炮]爆炸時間 -50%%
+[反坦克炮]爆炸物理攻擊力 -50%%
+[反坦克炮]冷卻時間 -1秒
+神槍手(女)
+[反坦克炮]爆炸次數 -2次
+[反坦克炮]爆炸時間 +0.5秒
+[反坦克炮]爆炸大小比率 +50%%
+[反坦克炮]爆炸物理攻擊力 +350%%
+[反坦克炮]冷卻時間 -1秒
+    施放[反坦克炮]時， 有30%%的幾率爆炸次數+1。`
+
+[routing priority]
+	`gunner`	2
+	`at gunner`	2
+[/routing priority]
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	92
+
+[need material]
+	3821	1400
+
+[price]
+	172000
+
+[repair price]
+	137600
+
+[value]
+	137600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	992	824
+
+[equipment magical attack]
+	595	494
+
+[separate attack]
+	555	359
+
+[fire attack]
+	12
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	87
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	24	1
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	24	1
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[skill data up]
+	`[gunner]`	40
+	`[all]`
+	`[static]`	6
+	`+`	2
+	`[gunner]`	40
+	`[all]`
+	`[static]`	4
+	`%`	-50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	-50
+	`[gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	-50
+	`[gunner]`	40
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[at gunner]`	40
+	`[all]`
+	`[static]`	6
+	`+`	-2
+	`[at gunner]`	40
+	`[all]`
+	`[static]`	4
+	`+`	500
+	`[at gunner]`	40
+	`[all]`
+	`[static]`	3
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	1
+	`%`	350
+	`[at gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	350
+	`[at gunner]`	40
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+[/skill data up]
+
+[if]
+	[use skill]
+		`gunner`	40
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[skill data up]
+		`[gunner]`	40
+		`[all]`
+		`[static]`	6
+		`+`	1
+	[/skill data up]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	40
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[skill data up]
+		`[at gunner]`	40
+		`[all]`
+		`[static]`	6
+		`+`	1
+	[/skill data up]
+[/then]
+
+[possible kiri protect]

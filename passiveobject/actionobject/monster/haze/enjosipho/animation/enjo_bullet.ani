@@ -1,0 +1,35 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/Bullet/Exs/none.img`
+		0
+	[IMAGE POS]
+		-41	-15
+	[IMAGE RATE]
+		0.800000011920929	0.4000000059604645
+	[INTERPOLATION]
+		1
+	[DELAY]
+		150
+	[ATTACK BOX]
+	-24	-13	-8	39	26	16
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/Bullet/Exs/none.img`
+		1
+	[IMAGE POS]
+		-41	-15
+	[IMAGE RATE]
+		0.800000011920929	0.30000001192092896
+	[INTERPOLATION]
+		1
+	[DELAY]
+		150
+	[ATTACK BOX]
+	-24	-13	-8	39	26	16

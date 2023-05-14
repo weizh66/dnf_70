@@ -1,0 +1,32 @@
+#PVF_File
+
+[width]
+	20	20
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/Jupiter/JupiterHammerLoop_Floor_Normal.ani`
+
+[etc motion]
+	`Animation/Jupiter/JupiterHammerLoop_Floor_Normal.ani`
+	`Animation/Jupiter/JupiterHammerFinish_Dust_B.ani`
+	`Animation/Jupiter/JupiterPickupFloor_Floor_Normal.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/JupiterHammer.atk`
+
+[etc attack info]
+	`AttackInfo/JupiterHammerExplosion.atk `
+[/etc attack info]
+
+[create sound]
+	`THUNDERHAMMER_CAST`

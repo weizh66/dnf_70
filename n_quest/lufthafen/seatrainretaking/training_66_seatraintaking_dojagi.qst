@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	99
+
+[pre required quest]
+	5924
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	16
+
+[int data]
+	87	-1	8251	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`貴重的瓷器`
+
+[depend message]
+	`那些瓷器各個價值不菲啊！ 如果就那樣打碎了， 還不如送給周圍的朋友， 還可以討他們歡心， 賺個人情呢。`
+
+[condition message]
+	`    通關海上列車的『奪回西部線』， 要求列車內的瓷器破壞數少于3個。`
+
+[solve message]
+	`哎， 其實除了餐桌、 瓷器， 列車的裝修費也不便宜， 甚至更貴……真是心痛啊！`

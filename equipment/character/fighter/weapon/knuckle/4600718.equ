@@ -1,0 +1,264 @@
+#PVF_File
+
+[name]
+	`封·千鳥 - 雷切`
+
+[basic explain]
+	`[螺旋念氣場]多段攻擊間隔 -100%%
+[螺旋念氣場]多段攻擊次數 +30
+[螺旋念氣場]攻擊力+ 30%%
+[螺旋念氣場]大小- 15%%
+  施放[念獸 : 龍虎嘯]時， 在持續時間內攻擊速度+15%
+   施放念獸技能後， 攻擊時有20%%的幾率落下閃電攻擊敵人， 效果持續30秒。
+  [螺旋念氣場]攻擊時，附加10%%的光屬性傷害。`
+
+[detail explain]
+	`[螺旋念氣場]多段攻擊間隔 -100%%
+[螺旋念氣場]多段攻擊次數 +30
+[螺旋念氣場]攻擊力+ 30%%
+[螺旋念氣場]大小- 15%%
+  施放[念獸 : 龍虎嘯]時， 在持續時間內攻擊速度+15%
+   施放念獸技能後， 攻擊時有20%%的幾率落下閃電攻擊敵人， 效果持續30秒。
+  [螺旋念氣場]攻擊時，附加10%%的光屬性傷害。`
+
+[flavor text]
+	`    原身為壹把名刀，後來被人改造成拳套。據說原主人曾經在雷雨天嘗試用此刀劈斬雷電，結果被雷擊中，不過僥幸未死，而後被其他人視為雷神化身。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1104	948
+
+[separate attack]
+	589	382
+
+[skill levelup]
+	`[fighter]`	79	3
+	`[at fighter]`	79	3
+	`[fighter]`	16	3
+	`[at fighter]`	16	3
+	`[fighter]`	90	3
+	`[at fighter]`	90	3
+[/skill levelup]
+
+[light attack]
+	30
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	119
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+[/elemental property]
+
+[skill data up]
+	`[fighter]`	16
+	`[all]`
+	`[static]`	1
+	`%`	25
+	`[at fighter]`	16
+	`[all]`
+	`[static]`	1
+	`%`	25
+	`[fighter]`	79
+	`[all]`
+	`[static]`	1
+	`%`	15
+	`[at fighter]`	79
+	`[all]`
+	`[static]`	1
+	`%`	15
+	`[fighter]`	79
+	`[all]`
+	`[static]`	2
+	`%`	15
+	`[at fighter]`	79
+	`[all]`
+	`[static]`	2
+	`%`	15
+[/skill data up]
+
+[if]
+	[use skill]
+		`fighter`	79
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[appendage]
+		225
+[/then]
+
+[if]
+	[attack success]
+		1
+	[my appendage]
+		225
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		20
+	[equipment duration]
+		30000
+	[passive object]
+		48092	0	0	0	40	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at fighter`	79
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[appendage]
+		225
+[/then]
+
+[if]
+	[attack success]
+		1
+	[my appendage]
+		225
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		20
+	[equipment duration]
+		30000
+	[passive object]
+		48092	0	0	0	40	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,85 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1015
+
+[complete npc index]
+	1016
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4155
+[/pre required quest]
+
+[depend give item]
+	4756	1
+[/depend give item]
+
+[cant giveup]
+	1
+
+[show click on complete npc]
+	1
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	73	-1	61625	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`追趕阿斯塔羅斯1`
+
+[depend message]
+	`阿斯塔羅斯好像對你施放了血的詛咒。所以你一直很渴求血。為了中斷惡魔化，需要阿斯特羅斯體內的血十字架，
+只要毀滅那個受詛咒的十字架，也可以防止你的惡魔化。但是目前阿斯塔羅斯已經逃走了…… 看來要抵抗詛咒並不容易，
+但是，若是利用阿斯特羅斯最後消失的方法來利用異次元之門，或許就有可能辦到。反正對你來說也別無選擇不是嗎？`
+
+[condition message]
+	`追趕阿斯塔羅斯越過次元裂縫（該任務只能單獨進行，而且進行地下城時不可放棄的任務。）`
+
+[solve message]
+	`托你的福我可以恢復意識了。`
+
+[substitutive names]
+	`追趕阿斯塔羅斯`
+[/substitutive names]
+
+[dialog]
+	0	0	15375	0	0	0	0
+	`<npc::0>趕快去追上！`
+[/dialog]
+
+[quest point]
+	4

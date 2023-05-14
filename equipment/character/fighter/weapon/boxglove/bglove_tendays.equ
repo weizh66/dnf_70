@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`瞬殺`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率使敵人進入眩暈狀態。
+攻擊時， 有2%%的幾率消減敵人20%%的HP。 (對精英怪物的效果為1/3、 對領主和深淵怪物的效果為1/6)`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。
+    攻擊時， 有2%%的幾率消減敵人20%%的HP。 (對精英怪物的效果為1/3、 對領主和深淵怪物的效果為1/6； 在決斗場中消減敵人10%%的HP)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bglove`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2100
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	55
+
+[required skill]
+	34
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	50
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	39
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	601	550
+
+[equipment magical attack]
+	543	498
+
+[separate attack]
+	360	243
+
+[attack speed]
+	100
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	60
+[/then]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	3
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	3
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[weakness]
+		20
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			0.4
+		[weakness]
+			10
+	[/then]
+[/pvp]
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+[/routing priority]
+
+[possible kiri protect]

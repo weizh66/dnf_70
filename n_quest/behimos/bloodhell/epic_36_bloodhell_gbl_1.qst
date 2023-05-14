@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	13
+
+[complete npc index]
+	19
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	36	99
+
+[pre required quest]
+	452
+[/pre required quest]
+
+[monster reward item]
+	1043	27	0	4133	1	35	1	1043	27	1	4133	1	45	1	1043	27	2	4133	1	55	1	1043	27	3	4133	1	65	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4133	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`被封印的GBL教古文書`
+
+[depend message]
+	`我打聽到GBL教古文書的消息了， 聽說那是一本記載了很多神奇事件的書， 而且它還能重現我們無法看到的神奇事物。 呵呵， 我實在好奇它的樣子， 你能幫我弄來嗎？
+ <npc::19> 那個……
+聽說諾頓也在尋找GBL教古文書……
+那文書是被禁止的惡魔的詛咒……絕對不能讓它出現在這個世界上……所以拜托你， 如果能找到GBL教古文書， 你不要給其他人， 直接拿給我……好嗎？`
+
+[condition message]
+	`    前往天帷巨獸神殿的『天帷禁地』， 從領主審判者馬塞爾身上找到[GBL教的古文書]交給奧菲利亞。`
+
+[solve message]
+	`你答應我的要求了， 真是太感謝了…… 我不能讓GBL教的悲劇重演， 所以我會親手燒掉這本古文書。`
+
+[quest point]
+	4

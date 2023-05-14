@@ -1,0 +1,29 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/CannonBall.img`
+		0
+	[IMAGE POS]
+		-9	-9
+	[IMAGE RATE]
+		6.0	6.0
+	[RGBA]
+		255	0	0	255
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/CannonBall.img`
+		0
+	[IMAGE POS]
+		-9	-9
+	[IMAGE RATE]
+		6.0	6.0
+	[RGBA]
+		255	0	0	0
+	[DELAY]
+		100

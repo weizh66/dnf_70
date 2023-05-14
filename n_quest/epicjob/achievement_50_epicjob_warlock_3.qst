@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	1009
+
+[job]
+	`[at mage]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	4083
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	4085
+
+[name]
+	`覺醒 - 魔皇 (3/4)`
+
+[depend message]
+	`第三小節的內容， 你可以去找月光修煉場的阿爾伯特， 如果你能夠戰勝他的話， 或許他會告訴你的。
+這一關可沒那么簡單哦！`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`依照之前的約定， 教你第三小節。 聽好了， 我只說一遍。
+‘拋開俗世的羈絆， 拋開繁雜的感情， 你不再是你， 殘酷才是你的本性。’
+……看來這家伙還是個毫無感情的怪物。`

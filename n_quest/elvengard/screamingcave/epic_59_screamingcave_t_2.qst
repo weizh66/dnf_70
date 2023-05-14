@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	40
+
+[complete npc index]
+	45
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4372
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 布萬加知道`
+
+[depend message]
+	`我知道你實力很強， 但對我們班圖族長， 你最好以禮相待。
+<monster::61806>好久不見， 我的暗精靈朋友！ 我聽說你在打聽悲鳴洞穴？
+奇怪……我之前好像把我知道的都告訴你了呀， 你還想知道些什么？
+<npc::0>悲鳴洞穴的入口被發現了， 我想進悲鳴洞穴看看， 你能告訴我怎么進去嗎？
+<monster::61806>你說悲鳴洞穴的入口被發現了？ 這是大事情啊……
+我記得， 那時候， 不知道是不是受希洛克的影響， 悲鳴洞穴里的怪物變得非常古怪和兇暴。
+嗯， 人類也會受到那種腥穢氣息的影響， 雖然那種氣息奈何不了我布萬加， 但其他人只要接近悲鳴洞穴就會昏倒。
+你們暗精靈的反應更加嚴重， 身上會出現蘑菇形狀的紫色膿包……
+嗯， 要進入那里也不是完全沒有辦法。 據說一些能力出眾的圣職者能抑制這種氣息。
+你認識這樣的圣職者嗎？
+<npc::0>啊， 原來如此。 謝謝， 看來我得再回一趟赫頓瑪爾了。`
+
+[condition message]
+	`    找歌蘭蒂斯·格拉西亞談談。`
+
+[solve message]
+	`你是說暗精靈遇到那種腥穢氣息， 身上就會出現蘑菇形狀的紫色膿包……
+嗯， 據我所知， 這種反應應該是暗精靈變成偽裝者時才會出現的， 奇怪了……
+不過你放心， 只要你帶著神圣的刀刃進入那里， 就不會受那種氣息影響。`
+
+[quest point]
+	4

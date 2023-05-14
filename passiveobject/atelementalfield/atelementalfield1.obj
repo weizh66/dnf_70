@@ -1,0 +1,25 @@
+#PVF_File
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[attack info]
+	`AttackInfo/ATElementalField.atk`
+
+[basic action]
+	`Action/ATElementalField_background.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	9000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	0
+[/object destroy condition]

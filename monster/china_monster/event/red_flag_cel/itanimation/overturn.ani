@@ -1,0 +1,30 @@
+#PVF_File
+[LOOP]
+	0
+[SHADOW]
+	1
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/IceTiger/IceTiger.img`
+		21
+	[IMAGE POS]
+		-296	-173
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		4.71238899230957
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-51	-16	-5	44	30	106

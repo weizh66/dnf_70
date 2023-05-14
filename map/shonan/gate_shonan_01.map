@@ -1,0 +1,79 @@
+#PVF_File
+
+[background pos]
+	80
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[type]
+	`[normal]`
+
+[tile]
+	`Tile/dummy.til`
+	`Tile/dummy.til`
+	`Tile/dummy.til`
+	`Tile/dummy.til`
+[/tile]
+
+[town movable area]
+	330	324	289	24	11	0	833	196	78	61	-2	-2
+[/town movable area]
+
+[virtual movable area]
+	398	165	155	170	329	165	73	170	543	165	73	170	605	216	200	119	776	232	64	103	816	247	77	87
+[/virtual movable area]
+
+[sound]
+	`M_GATE_NEW`
+[/sound]
+
+[animation]
+	`../Elvengard/Animation/Gate/GatePillar.ani`
+	`[close]`	0	0	0
+	`../Elvengard/Animation/Gate/GatePillarLight.ani`
+	`[close]`	0	0	0
+	`../Elvengard/Animation/Gate/GateLight1.ani`
+	`[normal]`	469	-201	0
+	`../Elvengard/Animation/Gate/GateBack.ani`
+	`[closeback]`	0	0	0
+	`../Elvengard/Animation/Gate/GateOutLight.ani`
+	`[closeback]`	0	0	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_000.ani`
+	`[normal]`	315	-87	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_009.ani`
+	`[normal]`	315	-87	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_010.ani`
+	`[normal]`	32	45	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_011.ani`
+	`[normal]`	877	45	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_012.ani`
+	`[normal]`	126	230	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_013_017.ani`
+	`[close]`	181	217	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_018_027.ani`
+	`[normal]`	0	-210	0
+	`Animation/chn_2010_lunar_new_year_seriaroom_018_027_dodge.ani`
+	`[normal]`	0	-210	0
+[/animation]
+
+[passive object]
+	690	1633	216	0
+[/passive object]
+
+[NPC]
+	2
+	`[left]`	477	160	0	32
+	`[right]`	691	163	0	22
+	`[left]`	275	225	0
+[/NPC]
+
+[map name]
+	`PVP無名`
+
+[guild agit entrance info]
+	833	196	78	61	-2	-2
+[/guild agit entrance info]

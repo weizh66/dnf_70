@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	4051
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	12507
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`雙槍哈斯`
+
+[depend message]
+	`帶我去見哈斯那家伙吧！`
+
+[condition message]
+	`    帶沙影貝利特去見雙槍哈斯。 (此任務只能獨自完成)`
+
+[solve message]
+	`走好， 朋友……(你似乎看到貝利特的眼角處有濕潤的痕跡)`
+
+[dialog]
+	0	0	12507	0	0	0	0
+	`<apc::10628>好久不見， 哈斯。
+<monster::59017> 哈哈哈……真是稀客啊， 貝利特。 我以為自從你背叛了組織后， 就沒臉回來了。
+<apc::10628>我這次來……是為了了結我們之間的恩怨。
+<monster::59017>就憑你和這個小鬼？ 呵！ 我看要了結的是你的命才對！`
+[/dialog]
+
+[quest point]
+	4

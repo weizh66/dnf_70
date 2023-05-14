@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`銀色鷹眼勇士護腿`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_apants.img`	355
+
+[equipment type]
+	`[pants avatar]`	0
+
+[variation]
+	106	1
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30002
+
+[HP MAX]
+	200
+
+[avatar func filter]
+	2

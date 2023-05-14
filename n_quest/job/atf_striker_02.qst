@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	6
+
+[complete npc index]
+	6
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7890
+[/pre required quest]
+
+[collision quest]
+	7887	7893	7896
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7892
+
+[name]
+	`轉職 - 散打 (2/3)`
+
+[depend message]
+	`轉回正題啊， 看你的樣子， 應該已經掌握了格斗的基本技巧了。 接下來， 我要考驗你對孤獨的忍耐度。
+因為將來大部分時間你都將獨自一人進行修煉， 那時候你依靠的只有自己， 所以學會忍耐和獨立， 是每一個散打必須具備的素質。`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』。`
+
+[solve message]
+	`看來你的資質不錯， 這些條件基本都符合了。`

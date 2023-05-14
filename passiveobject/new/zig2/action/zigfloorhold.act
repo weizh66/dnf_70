@@ -1,0 +1,31 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ZigFinish/Floor/ZigFinishFloorDamage.ani`
+	[SUB ANI]
+		`../Animation/ZigFinish/Floor/zigfinishfloor_1.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[WHICH]
+	[LAST ATTACKSUCCESS]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+			[CHARACTER]
+			[AI CHARACTER]
+		[/IS OBJECT TYPE]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+[/BEHAVIOR]

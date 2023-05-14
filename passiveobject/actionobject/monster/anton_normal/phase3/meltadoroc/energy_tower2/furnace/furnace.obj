@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`能量?送器`
+
+[is hp by difficulty]
+	1
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/furnace.act`
+
+[etc action]
+	`Action/Etc_furnace_0.act`
+	`Action/Etc_furnace_1.act`
+	`Action/furnace_0.act`
+[/etc action]
+
+[etc attack info]
+	``
+	``
+	``
+[/etc attack info]
+
+[sound category]
+	`[on destroyobject]`
+	`FURNACE_DESTROY`	-2
+[/sound category]
+
+[team]
+	100
+
+[hp max]
+	20000000
+
+[hp destroy]
+	0
+
+[vanish on move collision]
+	0
+
+[hp gage]
+	1
+
+[is hp by difficulty]
+	0

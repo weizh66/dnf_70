@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`成長之抗疲勞秘藥（10點）`
+
+[explain]
+	`使用後，可以恢復10點疲勞值，僅在疲勞值不足145點時才能使用。`
+
+[flavor text]
+	`<邁向勇者成長之路>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	355
+
+[stackable type]
+	`[expert town potion]`	0
+
+[move wav]
+	`POTION_TOUCH`
+
+[stack limit]
+	10
+
+[action type]
+	`[add fatigue]`	10
+[/action type]
+
+[cooltime maintenance]
+	1	1	1
+
+[action usable place]
+	`[village]`
+[/action usable place]
+
+[use action packet]
+	1
+
+[daily delete item]
+	1

@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	5000000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	109000373
+	`[job]`	6	1	1	109000380
+	`[job]`	6	2	1	109000402
+	`[job]`	6	3	1	109000394
+	`[job]`	6	4	1	109010347
+	`[job]`	6	1	1	109010354
+	`[job]`	6	2	1	109010361
+	`[job]`	6	3	1	109010368
+	`[job]`	6	4	1	109030239
+	`[job]`	6	1	1	109030246
+	`[job]`	6	2	1	109030253
+	`[job]`	6	3	1	109030260
+	`[job]`	6	4	1	109040240
+	`[job]`	6	3	1
+[/reward selection int data]
+
+[name]
+	`二次覺醒 - 龍躍武器 (3/3)`
+
+[depend message]
+	`什么？ 龍躍武器……竟然不翼而飛了？
+俺之前說過啥來著， 真是氣死俺了。
+哎， 誰讓你是俺朋友呢， 還是再幫你做一把好了， 不過材料費可得你來付……`
+
+[condition message]
+	`    向小鐵柱支付500萬金幣， 以再次獲得龍躍武器。`
+
+[solve message]
+	`這次千萬別再弄沒了！`
+
+[pre required quest]
+	3072
+[/pre required quest]

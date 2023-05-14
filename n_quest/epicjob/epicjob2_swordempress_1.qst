@@ -1,0 +1,91 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	149
+
+[complete npc index]
+	-1
+
+[job]
+	`[at swordman]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	149
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 劍帝 (1/2)`
+
+[depend message]
+	`原來是你呀， 當你從遠處走來時， 我就覺得劍芒四射， 只是沒想到居然是你。 你的進步真令人刮目相看！
+可是你看起來好像并不滿意， 怎么了？
+這樣啊， 看來即使達到那般境界還是會出現更大的目標， 有更遠的路要走。 這種態度值得敬佩， 那么你現在的目標是什么？
+至今為止， 你一直為了生存而揮劍， 哦哦， 我并不是在說你缺乏實戰劍術。
+但是有時候也有必要回到初心， 觀摩其他達人的劍術并學習。 相信一定會對你有所幫助。
+……你是說我嗎？ 感謝你認可我的劍術， 但我和你的用劍風格不同， 恐怕不太合適。 話說回來……你有沒有聽說過‘劍帝’？
+幾年前， 他像一匹黑馬一樣出現在素喃的知名劍術大會， 一舉擊敗冠軍候選人。 出于種種原因， 之前他隱居了很久， 卻在那次大會中獲得冠軍， 華麗地出現在世人面前。
+人們為他純粹而優美的劍術傾倒， 將他稱為‘劍帝’。 劍帝也結束了他的隱居生活， 開始扶持弱者， 教授劍術。
+我經過左右打聽找到了他， 得到了他的一些指點。 如果你感興趣， 我愿意說予你聽。 以你現在的實力， 若能學會他的劍術， 你也能成為‘劍帝’。
+若有意向， 你就來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與騎士洛巴赫談談。`
+
+[solve message]
+	`你來了？ 希望你看過劍帝的劍術后得到啟發， 獲得進更近一大步。`
+
+[pre required quest]
+	13110
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3308
+
+[relation quest]
+	3308
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

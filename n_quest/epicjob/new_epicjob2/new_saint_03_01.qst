@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 神思者 (4/6)`
+
+[depend message]
+	`既然你已經決定成為引路人， 那就要向信徒們展示你的真本事。
+如果你還像現在這樣搖擺不定， 是無法讓他們心甘情愿臣服于你的。 堅定自己的內心， 試著讓自己成為可靠的頂梁柱吧。
+回想一下自己當初決定信奉神明時的心態， 只要你能繼續保持下去， 心中的信仰就會不斷拔高， 你的力量也會隨之增強。
+那這一次就去參加魂·青龍大會吧。 向那里的所有人展示你的信仰和力量， 以此證明你有足夠的實力成為教團的核心角色吧。
+你將成為所有信徒心里的頂梁柱， 克服重重困難重新站起來。
+那你現在先去把‘赫侖皇帝的印章’拿回來吧， 有了它， 你才能報名參加。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6796
+[/pre required quest]
+
+[relation quest]
+	6798
+
+[job change quest]
+	3
+
+[grow number]
+	0

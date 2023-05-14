@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4264
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	88	2	61802	1	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	4000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`卡勒特情報員`
+
+[depend message]
+	`有消息說， 敵軍向北方秘密派遣了卡勒特情報員。
+而且我還聽說， 卡勒特軍隊中出現了一位裝有機械臂的指揮官， 不知道是不是真的……
+不管怎么樣， 我們都不能讓敵軍竊取到我們的作戰方案！
+冒險家， 你能幫我們除掉那些情報員嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特北門』， 除掉20名卡勒特情報員， 要求地下城難度為王者級。`
+
+[solve message]
+	`很好！ 這次的任務完成得很漂亮， 卡勒特的那幫家伙暫時不會再有進一步的行動了。`
+
+[quest point]
+	4

@@ -1,0 +1,209 @@
+#PVF_File
+
+[name]
+	`妖刀村正`
+
+[basic explain]
+	`攻擊時減少敵方20%%防禦
+攻擊時額外增加35%%的傷害增加量。`
+
+[detail explain]
+	`攻擊時減少敵方20%%防禦
+攻擊時額外增加35%%的傷害增加量。`
+
+[flavor text]
+	`波浪般的紋路中蘊含著強烈的詛咒。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	75
+
+[magical attack]
+	112
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1058	1058
+
+[equipment magical attack]
+	1169	1169
+
+[separate attack]
+	686	686
+
+[physical critical hit]
+	7
+
+[magical critical hit]
+	7
+
+[icon]
+	`Item/wuqi.img`	0
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	60	0
+
+[layer variation]
+	660
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2797
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	670
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2804
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	60	0
+
+[layer variation]
+	660
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2797
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	670
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2804
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	45
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[aura active]
+		`equipment physical defense`
+		`%`	-40	0
+	[aura active]
+		`equipment magical defense`
+		`%`	-40	0
+[/then]
+
+[possible kiri protect]

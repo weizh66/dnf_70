@@ -1,0 +1,60 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/IceField/ice2-normal.img`
+		3
+	[IMAGE POS]
+		-156	-257
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		255	255	25	150
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[CLIP]
+		-59	-14	122	18
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/IceField/ice2-normal.img`
+		3
+	[IMAGE POS]
+		-156	-257
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		255	255	25	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[CLIP]
+		-59	-223	122	18
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/IceField/ice2-normal.img`
+		3
+	[IMAGE POS]
+		-156	-257
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		255	255	25	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		4000
+	[CLIP]
+		-59	-223	122	18

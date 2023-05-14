@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`小溫侯的白黃色面罩`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`item/avatar/gunner/gn_aface.img`	169
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0	0	0	0	4500	2
+	`[B socket]`
+	`[B socket]`
+[/avatar type select]
+
+[variation]
+	70	2
+
+[layer variation]
+	100
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`BONE_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	15
+	`[ATTACK_SPEED]`
+	`+`	50
+	`[HIT_RECOVERY]`
+	`+`	160
+[/avatar select ability]
+
+[image packs]
+	`Character/Gunner/Equipment/Avatar/face/gn_face0002b.img`
+[/image packs]

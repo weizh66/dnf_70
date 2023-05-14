@@ -1,0 +1,122 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-171	-48
+	[IMAGE RATE]
+		0.699999988079071	0.6000000238418579
+	[RGBA]
+		255	255	255	150
+	[DELAY]
+		500
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-171	-48
+	[IMAGE RATE]
+		1.2000000476837158	0.8999999761581421
+	[INTERPOLATION]
+		1
+	[DELAY]
+		20
+	[FLIP TYPE]
+		`HORIZON`
+	[ATTACK BOX]
+	-169	-20	-8	347	40	17
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-171	-48
+	[IMAGE RATE]
+		1.5	1.100000023841858
+	[INTERPOLATION]
+		1
+	[DELAY]
+		20
+	[FLIP TYPE]
+		`HORIZON`
+	[ATTACK BOX]
+	-221	-40	-8	441	80	17
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-171	-48
+	[IMAGE RATE]
+		1.7999999523162842	1.2000000476837158
+	[INTERPOLATION]
+		1
+	[DELAY]
+		20
+	[FLIP TYPE]
+		`HORIZON`
+	[ATTACK BOX]
+	-259	-50	-8	510	100	17
+
+[FRAME004]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-171	-48
+	[IMAGE RATE]
+		2.0999999046325684	1.600000023841858
+	[INTERPOLATION]
+		1
+	[DELAY]
+		20
+	[FLIP TYPE]
+		`HORIZON`
+	[ATTACK BOX]
+	-314	-70	-8	627	140	17
+
+[FRAME005]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-171	-48
+	[IMAGE RATE]
+		2.5	2.0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		20
+	[FLIP TYPE]
+		`HORIZON`
+	[ATTACK BOX]
+	-381	-100	-3	755	200	17
+
+[FRAME006]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-170	-48
+	[IMAGE RATE]
+		3.5	3.0
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		210
+	[FLIP TYPE]
+		`HORIZON`

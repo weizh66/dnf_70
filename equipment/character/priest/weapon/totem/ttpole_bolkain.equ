@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`(舊) 波爾克因 - 戰狼`
+
+[basic explain]
+	`[擺動]x軸移動距離 +50
+[擺動]y軸移動距離 +15
+[俯沖]x軸移動距離 +50
+[俯沖]y軸移動距離 +15`
+
+[flavor text]
+	`    蘊含有班圖族狼神斗志的古代圖騰。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/totem.img`	35
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	38
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	59
+
+[equipment physical attack]
+	559	508
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[stuck]
+	-1
+
+[skill data up]
+	`[priest]`	3
+	`[all]`
+	`[level]`	0
+	`+`	50
+	`[priest]`	3
+	`[all]`
+	`[level]`	1
+	`+`	15
+	`[priest]`	2
+	`[all]`
+	`[level]`	0
+	`+`	50
+	`[priest]`	2
+	`[all]`
+	`[level]`	1
+	`+`	15
+[/skill data up]
+
+[variation]
+	4	1
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

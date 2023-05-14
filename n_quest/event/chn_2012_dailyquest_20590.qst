@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[special daily]`
+	`[schedule]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3254	10
+[/int data]
+
+[dungeon info]
+	1501	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4351	4
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[pre required quest]
+	4461
+[/pre required quest]
+
+[name]
+	`[限時]壓抑的悲鳴聲`
+
+[depend message]
+	`很久以前， 悲鳴洞穴傳出的悲鳴聲引發了很多悲慘的事……直到現在， 一想起那些離去的老朋友， 我耳旁就會響起那些悲鳴聲。`
+
+[condition message]
+	`    收集10個[戮蠱的眼睛]。 (此任務每天只能完成一次)`
+
+[solve message]
+	`戮蠱嘛……你先聽我講一段故事吧。`
+
+[schedule]
+	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`ALL`
+	`18:10:00`
+	`19:39:59`
+[/schedule]

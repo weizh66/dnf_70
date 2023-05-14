@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`獅王之心`
+
+[basic explain]
+	`近距離武器攻擊時， 有3%%的幾率增加30%%的攻擊速度， 效果持續15秒。 (消耗10個無色小晶塊)
+攻擊速度 +10%%`
+
+[flavor text]
+	`    你們把我關進監獄， 總有一天會感到慚愧的。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/axe.img`	42
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	111600
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	486	445
+
+[separate attack]
+	360	243
+
+[attack speed]
+	20
+
+[stuck]
+	-2
+
+[variation]
+	3	2
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[if]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	10
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		3
+	[stat]
+		`attack speed`
+		`+`	300
+[/then]
+
+[routing priority]
+	`priest`	3
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

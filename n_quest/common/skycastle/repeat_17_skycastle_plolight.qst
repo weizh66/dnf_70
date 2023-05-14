@@ -1,0 +1,55 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	17	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3124	8
+[/int data]
+
+[dungeon info]
+	11	-1	12	-1	13	-1	14	-1	15	-1	17	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3033	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`提取螢石的魔力`
+
+[depend message]
+	`我聽說螢石里含有黑暗魔力， 如果真是這樣， 我的魔法研究就有材料了……嗯， 我想試試看， 你能幫我收集些螢石嗎？`
+
+[condition message]
+	`    收集8個[螢石]。`
+
+[solve message]
+	`拿來了嗎？ 呃， 這么點恐怕還不夠做一次實驗呢， 你能再給我送些來嗎？`

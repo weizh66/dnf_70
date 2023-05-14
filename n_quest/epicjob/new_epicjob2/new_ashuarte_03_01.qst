@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 伊斯塔戰靈 (4/6)`
+
+[depend message]
+	`我聽說很多魔法師認為元素微不足道， 甚至會排斥元素。 但元素恰恰又是最接近宇宙根源的一種東西。 對嗎？
+如果是這樣， 那這個世界豈不就是由元素構成的？ 雖然元素本身看似微不足道， 但如果能夠用正確的方式加以運用， 就意味著你可以操縱整個宇宙。
+怎么， 你覺得我說得太夸張了嗎？ 哈哈， 是嗎？ 但說不定你就能獲得源自于宇宙的‘某種神秘的力量’呢？
+既然你已經具備了一定的實力， 接下來就訓練一下應用能力吧。 這次……嗯， 這次你就去參加魂·青龍大會吧。 你可以從更強的對手身上學到更深層次的學問。
+目前你還有很多難以理解的部分。 這次也像往常一樣， 通過親身實戰來悟出未知的領域吧。
+你需要先去收集‘赫侖皇帝的印章’， 有了它你才有資格參加大會。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6792
+[/pre required quest]
+
+[relation quest]
+	6794
+
+[job change quest]
+	3
+
+[grow number]
+	0

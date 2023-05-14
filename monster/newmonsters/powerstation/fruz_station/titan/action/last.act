@@ -1,0 +1,44 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Last.ani`
+	[SPEECH]
+		`啊... 不......行......。`
+			0	100
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../particle/Bic_generator_destroy.ptl`	0	0	100
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../particle/Bic_generator_destroy.ptl`	0	0	100
+	[PARTICLE]
+		`../particle/Bic_generator_destroy1.ptl`	0	0	100
+	[SHAKING]
+		7	1000
+[/BEHAVIOR]

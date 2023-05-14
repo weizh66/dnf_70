@@ -1,0 +1,111 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	72
+
+[complete npc index]
+	-1
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+	`[thief]`	-1	-1
+[/target character]
+
+[level]
+	65	99
+
+[pre required quest]
+	4090
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	62	-1	61809	1	2	63	-1	61128	1	2	64	-1	61135	1	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	5
+[/reward int data]
+
+[reward selection int data]
+	400655
+	`[job]`	0	-1	1	400686
+	`[job]`	1	-1	1	400718
+	`[job]`	2	-1	1	400753
+	`[job]`	3	-1	1	400785
+	`[job]`	4	-1	1	400718
+	`[job]`	5	-1	1	401196
+	`[job]`	6	-1	1	400686
+	`[job]`	7	-1	1	401376
+	`[job]`	8	-1	1	400662
+	`[job]`	0	-1	1	400694
+	`[job]`	1	-1	1	400742
+	`[job]`	2	-1	1	400756
+	`[job]`	3	-1	1	400793
+	`[job]`	4	-1	1	400742
+	`[job]`	5	-1	1	401220
+	`[job]`	6	-1	1	400694
+	`[job]`	7	-1	1	401381
+	`[job]`	8	-1	1	400679
+	`[job]`	0	-1	1	400702
+	`[job]`	1	-1	1	400727
+	`[job]`	2	-1	1	400769
+	`[job]`	3	-1	1	400800
+	`[job]`	4	-1	1	400727
+	`[job]`	5	-1	1	400702
+	`[job]`	7	-1	1	400670
+	`[job]`	0	-1	1	400710
+	`[job]`	1	-1	1	400735
+	`[job]`	2	-1	1	400778
+	`[job]`	3	-1	1	401310
+	`[job]`	4	-1	1	400735
+	`[job]`	5	-1	1	400710
+	`[job]`	7	-1	1
+[/reward selection int data]
+
+[relation quest]
+	4092
+
+[name]
+	`勇者 - 壓制異界氣息的項鏈`
+
+[depend message]
+	`雖然是我想要的異界氣息， 可惜還不夠， 如果想要制作出能壓制異界氣息的項鏈還需要多一點材料。
+怎么樣？ 能再幫我去收集一些嗎？`
+
+[condition message]
+	`    前往異次元裂縫， 擊敗『哥布林王國』的領主哥布林王高格、 『蠕動之城』的領主貝里斯克、 『蘭蒂盧斯的鷹犬』的杰森·格里克各2次， 然后向占卜師希莫娜回復。`
+
+[solve message]
+	`終于完成了。
+來， 選擇一條項鏈吧！ 有了它， 對于你以后再去異次元裂縫‘旅行’時， 多少會有些幫助。`
+
+[quest point]
+	4

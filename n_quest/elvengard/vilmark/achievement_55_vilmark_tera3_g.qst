@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[target character]
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+[/target character]
+
+[level]
+	55	99
+
+[pre required quest]
+	2811
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3220	320	3042	50	3155	400	3052	80	3164	18	3166	320
+[/int data]
+
+[dungeon info]
+	1500	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	31394	1	31694	1	31096	1	31992	1	32294	1
+[/reward selection int data]
+
+[name]
+	`遠古 - 泰拉石武器 (2/2)`
+
+[depend message]
+	`說實話， 你對裝備的需求簡直是一個無底洞！ 其實這也算是武士都有的一種武德吧。
+不過很可惜， 這是我最后一次幫你了。`
+
+[condition message]
+	`    為了制作泰拉石武器， 請收集以下材料。`
+
+[solve message]
+	`這是你要的武器， 我制作泰拉石武器也是有要求的……你下次再找我制作， 可能就有些困難了……`

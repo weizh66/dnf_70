@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	1018
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	76	99
+
+[pre required quest]
+	4177
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[show click on complete npc]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1018
+[/int data]
+
+[dungeon info]
+	76	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`胎動`
+
+[depend message]
+	`現在我能去的時間之門只剩下一個了。最後的時間之門是通往過去的巴卡爾城。
+當然，你可能利用異次元裂縫去過了，但是這次要進入更久以前的過去。 你知道巴卡爾創造的三條龍嗎？就是冰龍斯卡薩、邪龍斯畢托修、狂龍西斯瑪他們。
+就是去那些龍誕生的時候。雖然不知道他們和魔法師有什麼關係，但是如果在這裡也無法查明魔法師的身分的話…。
+ 誰也無法阻止日後將可能會發生的恐怖事情。你會再見到巴卡爾，所以要有心理準備。`
+
+[condition message]
+	`在胎動與巴卡爾見面（該任務只能單獨進行，而且是進行地下城時不可放棄的任務。）`
+
+[solve message]
+	`吼…。真奇妙。人類怎麼會來這裡呢…。這好像比赫爾德說的時間還早，到底做了什麼呢？
+<npc::0>消失吧，暴龍王！我只問你一件事。能告訴我剛才那個女孩的身份嗎？
+<npc::1018>可笑。不過是一界人類卻…。質問我？
+<npc::0>可能不會相信，你之前已經輸過一次。即使再戰鬥一次，我有自信戰勝你。
+<npc::1018>呵哈哈哈哈！荒唐！`
+
+[quest point]
+	4

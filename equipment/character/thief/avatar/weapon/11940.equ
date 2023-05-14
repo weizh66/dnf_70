@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`隱藏型武器裝扮`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/thief/wand/wand.img`	148
+
+[avatar type select]
+	7	0	0	1000	0	30	0	0	2000	0	0	0	0	4000	0	0	0	0	4500	2
+	`[D socket]`
+	`[D socket]`
+[/avatar type select]
+
+[move wav]
+	`WAND_TOUCH`
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_WATER]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_DARK]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_LIGHT]`
+	`+`	35
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`
+	`+`	55
+	`[INVENTORY_MAX_WEIGHT]`
+	`+`	14000
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		57	0
+	[layer variation]
+		2790
+		`wandc`
+	[equipment ani script]
+		`equipment/character/thief.lay`
+	[layer variation]
+		650
+		`wandd`
+	[equipment ani script]
+		`equipment/character/thief.lay`
+	[layer variation]
+		650
+		`wandx`
+	[equipment ani script]
+		`equipment/character/thief.lay`
+	[expand path]
+		`equipment/character/thief/weapon/wand/`
+[/expand ani]
+
+[int data]
+	654321	4	2	117	0	77	1	22	0	77	1	101	0	8	2	124	0	64	4	117	0	56	2	49	0	52	7	73	1	49	0	52	74	1	49	0	52	75	1	49	0	52	76	1	49	0	52	77	1	49	0	52	78	1	49	0	52	79	1	49	0	52
+[/int data]

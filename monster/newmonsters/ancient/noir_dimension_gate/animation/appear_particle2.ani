@@ -1,0 +1,20 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Casillas/Appear/p-02.img`
+		0
+	[IMAGE POS]
+		-12	-13
+	[IMAGE RATE]
+		0.5	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1000

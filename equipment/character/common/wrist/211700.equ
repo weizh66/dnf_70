@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`兵者國之大事—手鐲`
+
+[basic explain]
+	` 暴擊傷害增加5%%。
+  攻擊時,賦予隊友暗屬性攻擊.(效果持續15秒，冷卻時間20秒)
+  被攻擊時,有50%%幾率使周圍500PX範圍內的敵人進入詛咒狀態.(效果持續3秒)`
+
+[flavor text]
+	`好像男人很喜歡這樣的手鐲......`
+
+[grade]
+	89
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	80
+
+[physical defense]
+	80
+
+[price]
+	80400
+
+[need material]
+	2701003	200
+
+[repair price]
+	67536
+
+[value]
+	64320
+
+[equipment magical defense]
+	2552	2312
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[cast speed]
+	50
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[stuck resistance]
+	20
+
+[icon]
+	`Item/common/bracelet_cn.img`	53
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[dark attack]
+	22
+
+[if]
+	[cooltime]
+		100
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		3000
+	[probability]
+		50
+	[active status]
+		`curse`	120	100	100	100	100
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	5
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		5
+	[duration]
+		15000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[set item master]
+	211701
+
+[possible kiri protect]

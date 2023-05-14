@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[urgent]`
+
+[difficulty]
+	`U`
+
+[gold multiple]
+	10
+
+[npc index]
+	73
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	53
+
+[pre required quest]
+	4000
+[/pre required quest]
+
+[enemy reward item]
+	1070	1	51	-1	4542	1	50	20	1071	1	51	-1	4542	1	50	20	1097	1	51	-1	4542	1	50	20	1069	1	51	-1	4542	1	50	20	1079	1	51	-1	4542	1	50	20
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4542	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`緊急任務`
+
+[depend message]
+	`有一些特別的精髓， 只能在特定的地下城中才能獲得。 我真的很需要它們， 你能幫我收集一些回來嗎？ 拜托了！`
+
+[condition message]
+	`    前往相應的地下城， 收集20個該物品。`
+
+[solve message]
+	`謝謝啦， 我會把它們都用在有用的地方， 絕對不會浪費的！`

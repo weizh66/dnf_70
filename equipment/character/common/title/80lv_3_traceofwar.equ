@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`戰爭的痕跡`
+
+[explain]
+	`魔鬼型型態攻擊時300追加傷害`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	440
+
+[custom animation]
+	`TitleAnimation/traceofwar.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move speed]
+	10
+
+[attack speed]
+	30
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[target type]
+		`devil`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	300
+[/then]

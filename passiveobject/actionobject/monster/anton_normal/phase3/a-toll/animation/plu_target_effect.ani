@@ -1,0 +1,56 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Interface2/dualraid/DualRaid_Ingame.img`
+		18
+	[IMAGE POS]
+		-28	-17
+	[RGBA]
+		255	255	255	55
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Interface2/dualraid/DualRaid_Ingame.img`
+		18
+	[IMAGE POS]
+		-28	-17
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Interface2/dualraid/DualRaid_Ingame.img`
+		18
+	[IMAGE POS]
+		-28	-17
+	[RGBA]
+		255	255	255	55
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[FLIP TYPE]
+		`HORIZON`

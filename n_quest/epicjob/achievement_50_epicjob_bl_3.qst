@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[monster reward item]
+	711	33	-1	4120	1	10	1	50064	33	-1	4120	1	5	1	50065	33	-1	4120	1	5	1	50066	33	-1	4120	1	5	1	50067	33	-1	4120	1	5	1	50068	33	-1	4120	1	5	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	926
+
+[name]
+	`覺醒 - 狂暴者 (1/4)`
+
+[depend message]
+	`哇~小伙子， 你的肌肉真結實， 力氣應該不小吧？ 真想看看你的實力……
+對了， 你知道嗎？ 有的槍炮師被人稱為‘狂暴者’， 他們可以利用通信裝置， 自由發射‘衛星射線’， 那樣子帥呆了！
+咦？ 你也想試試？……可以啊， 不過你缺少一個通信裝置……`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`我話都還沒說完， 你就把這些東西全找來了……
+看樣子你真的很想成為‘狂暴者’……`

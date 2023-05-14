@@ -1,0 +1,47 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	22
+
+[big face]
+	`Map/Npc/NpcFace03.img`	30
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	22
+
+[field animation]
+	`Animation/QuestNpc_siran.ani`
+
+[popup wav]
+	`R_NPC_SIRAN_TK`
+	`R_NPC_SIRAN_FW`
+
+[look around]
+	0
+
+[name]
+	`西嵐`
+
+[field name]
+	`劍聖 西嵐`
+
+[dialog]
+	1	1	99	-1	0	0
+	` <npc::126>最近阿拉德好嗎？住的還可以嗎？
+不管是使徒還是什麼，這世界還真是亂七八糟。就算我這樣至少你要打起精神好好活著！！ 
+如果有什麼困難的事情，就去拜託阿甘左或是布萬加吧。最好不要找我。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::126>我也沒想到會這麼年輕。
+該不會劍術已經達到某一個境界了吧？我看書上說，那些高手都是的年紀都不大，那我也會變成那樣嗎？
+不會就算了～`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	` <npc::126>怎麼了？幹嘛一幅死相？
+ 對於世界上的所有事物，都應該要真摯地對待！ 
+請像我一樣，這麼自在地生活看看吧。那麼在這鳥不拉屎的地方也能快樂的活著嗎？`
+[/dialog]

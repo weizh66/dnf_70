@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`汲血冥者`
+
+[basic explain]
+	`    殺死敵人時， 有20%的幾率出現紅色治療珠。 (獲得后可使隊員恢復3%%的HP)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`scythe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2800
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/scythe.img`	71
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	572	524
+
+[separate attack]
+	360	243
+
+[attack speed]
+	80
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[priest]`	125
+	`[all]`
+	`[level]`	1
+	`+`	4
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	125	2
+[/skill levelup]
+
+[variation]
+	4	3
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		20
+	[passive object]
+		48305	0	0	20	0	0
+		``
+	[/passive object]
+[/then]
+
+[dark attack]
+	10
+
+[item aura]
+	`magical critical hit rate`
+	`+`	7	300
+
+[routing priority]
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

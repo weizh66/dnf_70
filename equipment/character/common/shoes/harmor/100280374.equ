@@ -1,0 +1,339 @@
+#PVF_File
+
+[name]
+	`防禦風暴短靴`
+
+[basic explain]
+	`  裝備時， 可以使50px範圍內的所有敵人減少2點火屬性抗性。
+  若裝備的強化和增幅數值越高， 則適用範圍和屬性抗性減少量也會增高。 (強化或增幅數值最高加10）`
+
+[flavor text]
+	`  滴水不漏的防禦，咦！？怎麼著火了。`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	25
+
+[magical attack]
+	18
+
+[physical defense]
+	22
+
+[move speed]
+	40
+
+[price]
+	81000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2352	2184
+
+[icon]
+	`item/new_equipment/05_harmor/shoes/harmor_shoes.img`	41
+
+[field image]
+	`Item/field_equip.img`	14
+
+[equipment type]
+	`[shoes]`	19
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	41
+
+[weight]
+	1600
+
+[item group name]
+	`ha shoes`
+
+[cool time]
+	10000
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	1	0
+		`amplify`
+		`=`	1	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-2
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	2	0
+		`amplify`
+		`=`	2	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-4
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	3	0
+		`amplify`
+		`=`	3	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-6
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	4	0
+		`amplify`
+		`=`	4	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-8
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	5	0
+		`amplify`
+		`=`	5	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-10
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	6	0
+		`amplify`
+		`=`	6	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-12
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	7	0
+		`amplify`
+		`=`	7	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-14
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	8	0
+		`amplify`
+		`=`	8	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-16
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	9	0
+		`amplify`
+		`=`	9	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-18
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	10	0
+		`amplify`
+		`=`	10	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-20
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`>`	10	0
+		`amplify`
+		`>`	10	0
+	[/equipment upgrade]
+	[time]
+		1000	1	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	100
+	[duration]
+		1000
+	[probability]
+		100
+	[stat]
+		`fire resistance`
+		`+`	-20
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

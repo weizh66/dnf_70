@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	59
+
+[complete npc index]
+	65
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	78	99
+
+[pre required quest]
+	4499
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	65
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`新火車篇`
+
+[depend message]
+	`動員天界的所有科學家和技術員重新修復了通往伊頓工業基地的鐵路。
+現在去找貝倫的話，就可以搭乘火車到達伊頓工業基地的史拉烏工業區。
+若是抵達史拉烏工業區，試著去找我的弟弟。他會幫助你能在那邊生活。`
+
+[condition message]
+	`去找貝倫?博內哥特打聽鐵路相關服務`
+
+[solve message]
+	`要去伊頓工業地帶？`
+
+[quest point]
+	4

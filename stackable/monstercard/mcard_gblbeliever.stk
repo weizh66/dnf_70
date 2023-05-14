@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`GBL教信徒  卡片`
+	
+
+[flavor text]
+	`    來吧……(蠕動)GBL教歡迎你……(蠕動)偉大的……(蠕動)真理……發源的地方……GBL教~`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	8
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[coat]`
+[/string data]
+
+[int data]
+	8	260
+[/int data]
+
+[enchant]
+	[magical attack]
+		4
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

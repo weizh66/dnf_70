@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`鐵鱗海盜團（船長）`
+
+[explain]
+	`裝備后，每隔40秒會發動「鐵鱗海賊團船長」的Buff，該Buff可以使自身增加4%%的移動速度、物理暴擊率和魔法暴擊率，效果持續20秒。（佩戴時從40秒后發動。在決鬥場中無效)
+ 在地下城中獲得金幣時，可以額外增加3%%的金幣獲得量。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/Title/title.img`	189
+
+[custom animation]
+	`TitleAnimation/pirate_captain1.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	120
+
+[physical attack]
+	13
+
+[physical defense]
+	18
+
+[magical attack]
+	13
+
+[magical defense]
+	13
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[time]
+		40000	1	40000
+	[disable pvp]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[stat]
+		`move speed`
+		`+`	40
+	[stat]
+		`physical critical hit`
+		`+`	4
+	[stat]
+		`magical critical hit`
+		`+`	4
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

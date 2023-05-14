@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	1701
+[/pre required quest]
+
+[type]
+	`[pvp rank]`
+
+[sub type]
+	0
+
+[int data]
+	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1048	2	1049	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1703
+
+[name]
+	`武斗家 - 入門`
+
+[depend message]
+	`我對武術的了解只比別人多一點， 那些人說我是天才什么的我很不高興， 而且我最討厭不誠心的人！
+如果你誠心想學習我的決斗技巧， 就把決斗等級提升到9級吧。 哼， 你能否做到就取決于你是否誠心了！ `
+
+[condition message]
+	`    前往決斗場， 把決斗等級提升到9級后向阿爾伯特回復。 (在決斗場中獲得一場勝利， 就可以達到決斗等級9級)`
+
+[solve message]
+	`第一次和人決斗的感覺怎么樣？ 還能堅持下去嗎？ `
+
+[quest point]
+	4

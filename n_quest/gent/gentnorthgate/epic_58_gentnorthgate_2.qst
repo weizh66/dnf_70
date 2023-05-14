@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	58
+
+[complete npc index]
+	59
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4257
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	59
+[/int data]
+
+[dungeon info]
+	88	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遺失的AT-5T 步行者`
+
+[depend message]
+	`這次我們采取的是迂回戰術， 從敵人兵力最薄弱的北門下手， 并派出了梅爾文制作的AT-5T 步行者進行突擊。
+可以說， 這次的作戰是非常成功的。
+不過不知道怎么回事， AT-5T 步行者并沒有跟隊伍一起回來。
+據前方的戰士報告， 敵軍已被全部剿滅， 所以應該不是被偷走。 我想多半是因為沒人操作， 所以還留在原地。
+不管怎么樣， 一定要盡快將AT-5T 步行者找回。 但……現在沒有士兵會操作AT-5T 步行者， 唯一受過訓練的士兵已經不幸犧牲了。
+可惜啊， 他是一個非常優秀的士兵， 和你一樣的聰明……
+唉~冒險家， 我希望你能將我們的苦衷告訴梅爾文， 請他再次傳授我們AT-5T 步行者的操作方法。 拜托了！`
+
+[condition message]
+	`    前往工坊街， 拜訪梅爾文·里克特。`
+
+[solve message]
+	`什么？ 他們竟然把AT-5T 步行者扔在原地， 就自己回來？！`
+
+[quest point]
+	4

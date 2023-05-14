@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	49	99
+
+[pre required quest]
+	4104
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	140	2	61508	1	10	140	2	61509	1	10	140	2	61331	1	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`除掉惡棍`
+
+[depend message]
+	`冒險家， 好久不見呀~你最近都不怎么使用我的機器了……嗯， 這是剛到的新機器， 想不想嘗試一下？
+不知道什么原因， 最近來找我的冒險家少了很多， 我怎么想都不應該是機器的問題……
+嗯， 也許是因為經常有混混進出旁邊的酒館， 所以冒險家都不愿意從這里經過了吧。
+本來我可以用帶念氣的子彈教訓他們， 但那樣做的話， 以后肯定會麻煩不斷。
+所以我想拜托你， 你能去教訓一下那些混混嗎？ 我一定會給你一個大大~的酬謝哦。`
+
+[condition message]
+	`    前往赫頓瑪爾市區里的『月光酒館』， 捉拿市井混混、 扒手和平凡的地痞各10人， 要求地下城難度為王者級。`
+
+[solve message]
+	`路過的那個小伙挺帥的嘛， 來試一下強化吧？ 啊， 冒險家您來了。 果然是那些家伙……
+多虧你的幫助， 這條街都恢復正常了， 呵呵， 大家都很感激你呢， 你為大家做了件好事哦~`

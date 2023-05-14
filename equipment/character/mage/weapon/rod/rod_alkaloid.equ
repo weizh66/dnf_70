@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`毒菌棒棒糖`
+
+[basic explain]
+	` 施放技能時，以3%%的機率使特定的敵人進入中毒狀態。`
+
+[detail explain]
+	`施放技能時，有3%%的機率使300px範圍內最近的敵人進入中毒狀態5秒；中毒狀態下的敵人，每0.5秒受到260點傷害。 (若敵人高於Lv65，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[magical attack]
+	64
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[price]
+	93800
+
+[repair price]
+	78792
+
+[value]
+	375200
+
+[equipment physical attack]
+	535	517
+
+[equipment magical attack]
+	653	631
+
+[separate attack]
+	293	199
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[mage]`	79	1
+	`[mage]`	77	1
+	`[at mage]`	16	1
+	`[at mage]`	31	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/mage/rod.img`	61
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[mage]`
+
+[variation]
+	16	9
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	16	9
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	16	9
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		5000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`poison`	65	2600
+[/then]
+
+[possible kiri protect]

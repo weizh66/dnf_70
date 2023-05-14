@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20502
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680336	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`慶祝60周年 - 3`
+
+[depend message]
+	`經過我們的努力， 這個東西已經初具形態了， 不過要做得更漂亮， 還需要一些時間呢。
+嗯， 您這次要做的事情跟之前一樣， 不難吧？ 呵呵~~去幾次地下城后， 您會發現需要的材料都不知不覺收集齊了呢。`
+
+[condition message]
+	`    收集10個[國慶60周年慶祝函]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`顏色一定要涂得均勻一些！ 呵呵， 其實‘慶祝’的意義就在于一起參與~`
+
+[reward int data]
+	0	100
+[/reward int data]

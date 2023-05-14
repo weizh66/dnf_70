@@ -1,0 +1,21 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Confuse_e.ani`
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[RIGHT]
+[/BEHAVIOR]

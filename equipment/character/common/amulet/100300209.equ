@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`天火之祀`
+
+[basic explain]
+	`    攻擊時， 有3%%的幾率使自身增加12點火屬性強化， 效果持續40秒。 (最多疊加2次； 冷卻時間8秒)`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使自身增加12點火屬性強化， 效果持續40秒。 (解除裝備後效果消失； 最多疊加2次； 冷卻時間8秒)`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	90
+
+[need material]
+	10000204	16
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7920	7360
+
+[fire attack]
+	12
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	162
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		8000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[equipment duration]
+		40000
+	[appendage]
+		344
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,41 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	28
+
+[big face]
+	`Map/Npc/NpcFace04.img`	12
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	28
+
+[field animation]
+	`Animation/QuestNpc_giselle.ani`
+
+[popup wav]
+	`ZIZEL_ATK_01`
+	`ZIZEL_ATK_02`
+
+[look around]
+	0
+
+[name]
+	`吉賽爾博士`
+
+[field name]
+	`吉傑博士`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1013>皇島頂尖天才的名片非我莫屬！！`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1013>能靈活運用他人的點子也是天才才有的能力。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1013>沒有什麼有趣的事情嗎？單純的研究不太適合我的個性。`
+[/dialog]

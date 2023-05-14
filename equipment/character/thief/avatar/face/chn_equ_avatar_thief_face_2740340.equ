@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`紫色清新靚麗耳墜`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_aface.img`	152
+
+[equipment type]
+	`[face avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	43	2
+
+[layer variation]
+	100
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1925
+	`face_c`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	10
+	`[ATTACK_SPEED]`
+	`+`	40
+	`[HIT_RECOVERY]`
+	`+`	100
+[/avatar select ability]

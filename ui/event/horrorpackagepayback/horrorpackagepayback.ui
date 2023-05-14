@@ -1,0 +1,118 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		110
+	[vertical distance]
+		0
+	[size]
+		20	23
+	[title string]
+		`2012 納涼特集包獎勵賽羅活動`
+		
+	[controls]
+		[ui controls]
+			`[board image]`
+			`0`	-1	3	1
+			`Interface/WindowCommon.img`	11	243	270	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`1`	2	12	1
+			`1. 參加活動對象
+購買2012 消暑產包的所有角色
+
+2. 活動內容
+通關適當等級地下城 120次時獲得 12,000點
+（適當地下城通關次數由各角色個別統計。）
+
+3. 獲得獎勵點數方式
+有關獲得獎勵點數的詳細內容可上官網查詢。
+（在個人資料修正頁面填寫手機號碼或同意接受訊息時配合點數更新日期發送簡訊。）`
+				9	-1	235	0	0	0	0	230	200	155
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`300`	4	197	1
+			`interface2/event/Event_payback.img`	4	0	1	1	255
+		[/ui controls]
+		[ui controls]
+			`[gauge]`
+			`305`	10	212	1
+			`interface2/event/Event_payback.img`	3	-1	1	1
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`301`	171	203	1
+			`interface2/event/Event_payback.img`	4	4	1	1	255
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`302`	171	203	1
+			`interface2/event/Event_payback.img`	4	3	0	0	255
+		[/ui controls]
+		[ui controls]
+			`[tooltips]`
+			`306`	0	0	2
+			`302`
+			`正式成為賽羅的奴隸吧！`
+				2	0	180
+		[/ui controls]
+		[ui controls]
+			`[tooltips]`
+			`307`	0	0	2
+			`301`
+			`還不夠！！`
+				2	0	180
+		[/ui controls]
+		[ui controls]
+			`[animation]`
+			`303`	10	213	1
+			`UI/Event/horrorPackagePayback/payback_gauge_eff.ani`	0
+		[/ui controls]
+		[ui controls]
+			`[animation]`
+			`304`	171	203	1
+			`UI/Event/horrorPackagePayback/payback_complete_eff.ani`	0
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`101`	26	237	1
+			`購買2012納涼特集包時可參加活動`
+				9	-1	180	1	0	0	0	230	200	155
+		[/ui controls]
+		[ui controls]
+			`[hyperlinklabel]`
+			`100`	170	256	0	7	100	20	230	200	155	0	1
+			[user option]
+				`url link`
+				`[前往官網]`
+					255	240	0
+				`http://df.nexon.com/?GO=pr|twelvehorror`
+				
+			[/user option]
+			[parent]
+				`0`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`102`	154	256	1
+			`Interface2/UI/EventList/Event_window.img`	1	2
+			[parent]
+				`0`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`200`	92	280	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+	[/controls]
+[/window]

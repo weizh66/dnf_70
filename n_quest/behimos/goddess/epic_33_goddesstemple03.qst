@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	12
+
+[complete npc index]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	4015
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4710	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	4711	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`古老的羊皮紙`
+
+[depend message]
+	`你要羊皮紙做什么？
+啊~是艾麗絲讓你來拿的？ 奇怪， 她不就站在我旁邊嗎， 為什么不自己來呢？
+你稍等啊~`
+
+[condition message]
+	`    把[古老的羊皮紙]交給艾麗絲。`
+
+[solve message]
+	`羊皮紙拿來了嗎？ 我看看~
+看起來挺舊的， 應該能用。`
+
+[quest point]
+	4

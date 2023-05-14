@@ -1,0 +1,155 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	55
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	6
+		`+`	6
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	10
+		`+`	6
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	14
+		`+`	6
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	12
+		`%`	20
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	16
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[魔性之短劍精通]影響[魔劍奧義]觸發間隔時間減少量 +10%%
+[瞬影三絕斬]冷卻時間 -20%%
+[瞬影三絕斬]異常狀態Lv +6
+[瞬影三絕斬]異常狀態攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	8
+		`%`	40
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	10
+		`%`	40
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[static]`	4
+		`%`	50
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[魔劍奧義]攻擊力 +40%%
+[雷鳴千軍破]從地面召喚的巨劍數量 +50%%
+[雷鳴千軍破]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	5
+		`%`	50
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	8
+		`%`	50
+		`[at swordman]`	33
+		`[dungeon type]`
+		`[level]`	10
+		`%`	50
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	8
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	12
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	16
+		`%`	30
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[魔劍奧義]攻擊力 +50%%
+[雷鳴千軍破]從地面召喚的巨劍數量 +20%%
+[雷鳴千軍破]冷卻時間 -30%%
+[雷鳴千軍破]無色小晶塊消耗量 +1
+[瞬影三絕斬]冷卻時間 -30%%
+[瞬影三絕斬]異常狀態攻擊力 +30%%`
+[/piece set ability]

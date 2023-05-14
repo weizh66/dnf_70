@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`旅行者光劍`
+
+[basic explain]
+	` 無法進行強化、增幅、解體和贈送。`
+
+[flavor text]
+	`公平決鬥場頻道專用裝備。`
+
+[grade]
+	70
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	44
+
+[attack speed]
+	100
+
+[need material]
+	3312	70
+
+[equipment physical attack]
+	554	539
+
+[equipment magical attack]
+	536	522
+
+[separate attack]
+	308	208
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	63
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	14	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	14	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[minimum rank]
+	0
+
+[required skill]
+	33
+
+[icon mark]
+	`Item/IconMark.img`	38
+
+[usable world]
+	`[fair]`
+[/usable world]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+[/impossible contents]
+
+[possible kiri protect]

@@ -1,0 +1,33 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/Cast2.ani`
+[/MOTION]
+
+[HOLD POSITION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`第一個願望， 保護我！！！`
+		
+	[SUMMON MONSTER]
+		[INDEX]
+			62154
+		[LEVEL]
+			70
+		[POS]
+		[RANDOM]
+			-50	50	0	0
+		[NO EFFECT]
+		[USE MY BASEPOS]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]

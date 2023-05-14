@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 真龍星君 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+靜坐， 閉眼。 能感受到體內的靈力嗎？ 靈力存在于體內， 同時也存在于世界。 你要捕捉這股力量， 并把它吸入體內。
+集中精力， 讓自己變得足夠強大。 四神寺的考驗不易。 黃龍的考驗則會更加殘酷。 但憑你的能力一定會順利通過， 不用太擔心。
+記住現在的感覺。 這會助你通過日后的任何考驗。 那么， 現在出發去四神寺吧。 你應該已經知道怎么走了， 聽說靈力提升到一定境界后， 你自然會知道路線。
+去吧。 去通過黃龍的考驗， 成為‘真龍星君’吧。`
+
+[pre required quest]
+	6806
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

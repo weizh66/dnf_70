@@ -1,0 +1,55 @@
+#PVF_File
+
+[grade]
+	`[special daily]`
+	`[village attack revenge]`
+
+[npc index]
+	40
+
+[complete npc index]
+	40
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	3503	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680669	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`擊退逆襲之谷的敵人`
+
+[depend message]
+	`嘿！ 聽說你們成功擊退了侵襲阿拉德大陸的怪物， 表現不錯嘛！
+不過有情報說， 那些被你們擊退的怪物并沒有逃跑， 而是躲進了萬年雪山……
+如果你真的有實力， 為了萬年雪山的和平， 就去擊退他們吧！
+時間不多了， 你快去吧！ 盡量要趕在他們再次攻城之前……`
+
+[condition message]
+	`    通關萬年雪山的『逆襲之谷』。`
+
+[solve message]
+	`辛苦你了！ 能得到像你這么勇敢的冒險家的幫助， 是阿拉德大陸的福氣！`

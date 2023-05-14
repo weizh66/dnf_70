@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`你好呀勇士 上衣`
+
+[enable dye]
+	1	0
+
+[grade]
+	1
+
+[part set index]
+	20006
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_acoat.img`	12
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[skill levelup]
+	`[thief]`	1	1
+[/skill levelup]
+
+[animation job]
+	`[thief]`
+
+[variation]
+	1	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[avatar func filter]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[usable period]
+	15
+
+[HP regen speed]
+	20

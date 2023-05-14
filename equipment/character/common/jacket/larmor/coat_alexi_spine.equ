@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`龍脊胸甲`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[creation rate]
+	200
+
+[physical attack]
+	26
+
+[magical attack]
+	17
+
+[price]
+	48600
+
+[repair price]
+	42865
+
+[value]
+	38880
+
+[equipment physical defense]
+	2052	1980
+
+[skill levelup]
+	`[swordman]`	9	1
+	`[demonic swordman]`	9	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	66
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`龍脊輕甲  套裝`
+
+[set item]
+	10874	12874	14873	18874	16873
+[/set item]
+
+[set ability]
+	[physical attack]
+		30
+	[physical defense]
+		30
+	[equipment physical defense]
+		600	600
+	[hit recovery]
+		100
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			70
+		[active status]
+			`poison`	50	1130
+	[/then]
+	[stuck]
+		-3
+	[skill levelup]
+		`[swordman]`	72	1
+		`[swordman]`	73	1
+		`[demonic swordman]`	72	1
+		`[demonic swordman]`	73	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時，以3%%的機率使敵人進入中毒狀態。`
+	[fullset detail explain]
+		`被攻擊時，有3%%的幾率使敵人進入中毒狀態7秒；中毒狀態下的敵人，每0.5秒受到80點傷害。(若敵人高於Lv50，則減少進入異常狀態的機率；反之，則增加機率)`
+[/set ability]
+
+[possible kiri protect]

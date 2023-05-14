@@ -1,0 +1,162 @@
+#PVF_File
+
+[set name]
+	`瞬息之死  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	47
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[gunner]`	47
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[gunner]`	3
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[at gunner]`	47
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[at gunner]`	47
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at gunner]`	3
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`神槍手(男) :
+[浮空彈]冷卻時間 -1秒
+[浮空彈]攻擊力 +20%%
+[回旋踢]攻擊力 +10%%
+神槍手(女) :
+[浮空彈]冷卻時間 -1秒
+[浮空彈]攻擊力 +20%%
+[上旋踢]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	5
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2400
+		`[gunner]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	5
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[gunner]`	35
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at gunner]`	5
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2400
+		`[at gunner]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	5
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[at gunner]`	35
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`神槍手(男) :
+[爆頭一擊]冷卻時間 -2.4秒
+[爆頭一擊]攻擊力 +20%%
+[爆頭一擊]穿刺力 +6%%
+[浮空劫擊]攻擊力 +20%%
+神槍手(女) :
+[爆頭一擊]冷卻時間 -2.4秒
+[爆頭一擊]攻擊力 +20%%
+[爆頭一擊]穿刺力 +6%%
+[音速劫擊]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[gunner]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	15
+		`[dungeon type]`
+		`[level]`	1
+		`+`	60
+		`[gunner]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`+`	3
+		`[gunner]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`+`	20
+		`[gunner]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[gunner]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`+`	6
+		`[at gunner]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[at gunner]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	15
+		`[dungeon type]`
+		`[level]`	1
+		`+`	60
+		`[at gunner]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`+`	3
+		`[at gunner]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`+`	20
+		`[at gunner]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[at gunner]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`+`	6
+	[/skill data up]
+	[parameter basic explain]
+		`[移動射擊]冷卻時間 -9秒
+[移動射擊]攻擊力 +20%%
+[移動射擊]移動速度 +6%%
+[移動射擊]發射數 +3
+[回頭一擊]攻擊力 +20%%
+[死亡左輪]暴擊傷害 +10%%
+[左輪精通]發射后僵直時間減少率 +6%%`
+[/piece set ability]

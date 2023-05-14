@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	5
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 混沌行者（1/2）`
+
+[depend message]
+	`歡迎你， 魔法師。 你今天的表情比平時更陰沉呢， 發生什么事了嗎？
+原來如此。 歷盡千辛萬苦查明的真相沒有達到期待， 感到空虛也是理所當然的。 沒有得到你期望的結果， 我也替你感到惋惜。
+啊， 你要不要看看這個？ 這是我以前給你看過的論文的作者留下的日記。 差點就被扔掉了， 我也是偶然一個機會發現了它。 我想魔法師你或許會有興趣， 所以特意收起來了。
+那個人也有和你相似的煩惱， 然而他最后領悟了。 這是他離開之前寫的日記， 你看看就明白了。
+請不要放棄。 如果你能克服現在的困境， 就一定能像‘混沌行者’一樣找到新的路。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和莎蘭談談。`
+
+[solve message]
+	`‘混沌行者’這個名字是人們給他起的別名。 現在這個名字比他的本名更加出名。 看來， 看破世事的他留下的最后的日記給人們留下了很深刻的印象啊。`
+
+[pre required quest]
+	2698
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	2895
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

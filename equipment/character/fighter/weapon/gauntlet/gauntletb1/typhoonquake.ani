@@ -1,0 +1,27 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Equipment/Weapon/gauntlet/gauntlet%02d%02db1.img`
+		98
+	[IMAGE POS]
+		-282	-380
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Equipment/Weapon/gauntlet/gauntlet%02d%02db1.img`
+		98
+	[IMAGE POS]
+		-280	-380
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40

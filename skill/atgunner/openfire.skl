@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`開火`
+
+[explain]
+	`    跳到空中， 將持有的所有手雷一次性扔向前方。
+    在空中也可以施放。`
+
+[basic explain]
+	`    跳到空中， 將持有的所有手雷一次性扔向前方。`
+
+[purchase cost]
+	10
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	20	0
+
+[consume MP]
+	2160	3560
+
+[cool time]
+	45000	45000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	566
+	`Character/Gunner/Effect/SkillIcon.img`	567
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[static data]
+		800	120	400	0	550	50	200	6
+	[/static data]
+	[level info]
+		1	6281	6918	7555	8192	8830	9467	10104	10741	11379	12016	12653	13290	13927	14565	15202	15839	16476	17114	17751	18388	19025	19662	20300	20937	21574	22211	22849	23486	24123	24760	25397	26035	26672	27309	27946	28584	29221	29858	30495	31132
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`爆炸攻擊力 : <int> X <int>`	-2	0	1.0	7	7	1.0
+[/level property]

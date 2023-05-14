@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	``
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/start_loop.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	700
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	831007
+[/object destroy condition]

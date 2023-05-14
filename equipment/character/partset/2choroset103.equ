@@ -1,0 +1,270 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	82
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at swordman]`	133
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at swordman]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	133
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[四象引]吸引范圍 +20%%
+[四象引]冷卻時間 -10%%
+[櫻落斬]冷卻時間 -10%%
+[櫻落斬]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	82
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at swordman]`	133
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at swordman]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	133
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at swordman]`	86
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	137
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-30
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[四象引]吸引范圍 +30%%
+[四象引]冷卻時間 -20%%
+[櫻落斬]冷卻時間 -20%%
+[櫻落斬]攻擊力 +30%%
+[輪回劍]多段攻擊次數 -30%%
+[輪回劍]攻擊力 +50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	88
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at swordman]`	138
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	80
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[level]`	1
+		`%`	80
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[level]`	0
+		`%`	80
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[level]`	1
+		`%`	80
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[at swordman]`	83
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[at swordman]`	134
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[輪回劍]多段攻擊次數 -50%%
+[輪回劍]攻擊力 +80%%
+[輪回劍]冷卻時間 -20%%
+[圓舞斬]冷卻時間 -30%%
+[圓舞斬]攻擊力 +20%%
+[碎巖裂地掌]攻擊力 +25%%`
+[/piece set ability]

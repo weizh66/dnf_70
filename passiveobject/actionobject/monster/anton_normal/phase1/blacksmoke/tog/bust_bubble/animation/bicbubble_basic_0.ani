@@ -1,0 +1,31 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_egg.img`
+		13
+	[IMAGE POS]
+		-380	-385
+	[IMAGE RATE]
+		0.0	0.0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		700
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_egg.img`
+		13
+	[IMAGE POS]
+		-380	-385
+	[IMAGE RATE]
+		1.0	0.800000011920929
+	[DELAY]
+		100
+	[PLAY SOUND]
+		`TOGEU_BLOOD_MARBLE_LOOP`

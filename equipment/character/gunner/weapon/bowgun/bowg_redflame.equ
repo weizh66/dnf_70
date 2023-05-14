@@ -1,0 +1,219 @@
+#PVF_File
+
+[name]
+	`赤帝弩`
+
+[basic explain]
+	`火屬性攻擊時， 有2%%的幾率使敵人進入灼傷狀態。
+對灼傷狀態下敵人的傷害 +10%%`
+
+[detail explain]
+	`    火屬性攻擊時， 有2%%的幾率使敵人進入灼傷狀態2秒； 灼傷狀態下的敵人， 每0.5秒受到300點傷害， 同時其周圍的敵人， 每2秒受到600點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對灼傷狀態下敵人的傷害 +10%% (在決斗場中 +5%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	57
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	21
+
+[equipment physical attack]
+	450	384
+
+[equipment magical attack]
+	500	427
+
+[separate attack]
+	360	243
+
+[attack speed]
+	20
+
+[if]
+	[element]
+		`fire`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`burn`	60	1200	600	1	2000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[gunner]`	49	2
+	`[gunner]`	1	1
+	`[at gunner]`	49	2
+	`[at gunner]`	1	1
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	9	8
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	9	8
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			30000
+		[element]
+			`fire`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[active status]
+			`burn`	60	1200	600	1	2000
+	[/then]
+	[if]
+		[target active status]
+			`burn`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

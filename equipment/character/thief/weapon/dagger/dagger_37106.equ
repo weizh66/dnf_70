@@ -1,0 +1,143 @@
+#PVF_File
+
+[name]
+	`禦蛇之殘 `
+
+[basic explain]
+	` 攻擊時，以2%%的機率召喚出1隻冰蛇。
+ 無法進行解體、封裝和合成。`
+
+[detail explain]
+	`攻擊時，有2%%的機率召喚出1隻Lv50的冰蛇協助召喚者攻擊敵人，冰蛇存在60秒。 （召喚的怪物最大可同時存在 1隻，受到許多傷害時和召喚時間無關會消失。）
+無法進行解體、 封裝和合成。`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	26
+
+[attack speed]
+	100
+
+[stuck]
+	-1
+
+[price]
+	0
+
+[repair price]
+	75264
+
+[value]
+	0
+
+[equipment physical attack]
+	439	405
+
+[equipment magical attack]
+	464	428
+
+[separate attack]
+	311	208
+
+[physical critical hit]
+	10
+
+[skill levelup]
+	`[thief]`	9	2
+[/skill levelup]
+
+[poison resistance]
+	10
+
+[icon]
+	`Item/weapon/thief/dagger.img`	41
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	5	2
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		180000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		2
+	[summon monster]
+		65000	50	1
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

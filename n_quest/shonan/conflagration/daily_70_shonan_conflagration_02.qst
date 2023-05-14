@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	1019
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4130
+[/pre required quest]
+
+[monster reward item]
+	63037	70	-1	4776	2	90	100	63038	70	-1	4776	2	90	100	63039	70	-1	4776	2	90	100	63040	70	-1	4776	2	90	100	63041	70	-1	4776	2	90	100	63042	70	-1	4776	2	90	100	63025	70	-1	4776	2	90	100	63026	70	-1	4776	2	90	100	63027	70	-1	4776	2	90	100	63028	70	-1	4776	2	90	100	63029	70	-1	4776	2	90	100	63030	70	-1	4776	2	90	100	59028	70	-1	4776	4	90	100	59029	70	-1	4776	4	90	100	59030	70	-1	4776	4	90	100	59031	70	-1	4776	4	90	100	58005	70	-1	4776	4	90	100	59037	70	-1	4776	4	90	100	63024	70	-1	4776	10	100	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4776	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3332	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`妖精的決議`
+
+[depend message]
+	`若要完成魔法陣，需要蒐集被破壞的魔法陣殘骸。
+只要將殘骸帶回來，對於我們製作魔法陣會有莫大的幫助。`
+
+[condition message]
+	`在大火災收集大魔法陣的殘骸`
+
+[solve message]
+	`收集了殘骸嗎。這樣準備就結束了。
+我得去修復大魔法陣了。請務必記住我們… `

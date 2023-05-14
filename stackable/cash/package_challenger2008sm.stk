@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`成功達成30級時用點數退還購買「挑戰者包裹」的金額，並追加獲得「挑戰者 2008」無限制稱號。 （每個角色只能購買一次。 )`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	19
+
+[icon mark]
+	`Item/IconMark.img`	6
+
+[stackable type]
+	`[cera booster]`	0
+
+[booster info]
+	[avatar]
+		1	40808	1000	1	30	0
+	[/avatar]
+	[avatar]
+		1	41206	1000	1	30	0
+	[/avatar]
+	[equipment]
+		1	26151	1000	1
+	[/equipment]
+	[cera]
+		1	8	1000	100
+	[/cera]
+	[cera]
+		1	1085	1000	100
+	[/cera]
+	[cera]
+		1	110	1000	1
+	[/cera]
+	[etc]
+		1	7377	1000	2
+	[/etc]
+[/booster info]
+
+[move wav]
+	`BONE_TOUCH`
+
+[npc gift disallowance]
+	1

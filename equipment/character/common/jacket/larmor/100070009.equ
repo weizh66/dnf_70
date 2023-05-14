@@ -1,0 +1,224 @@
+#PVF_File
+
+[name]
+	`海底火山上衣`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	42
+
+[magical attack]
+	28
+
+[HP MAX]
+	350
+
+[price]
+	102000
+
+[repair price]
+	85680
+
+[value]
+	81600
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	3348	3132
+
+[skill levelup]
+	`[priest]`	103	1
+	`[priest]`	104	1
+	`[fighter]`	101	1
+	`[fighter]`	105	1
+	`[at fighter]`	118	1
+	`[at fighter]`	121	1
+	`[fighter]`	103	1
+	`[fighter]`	102	1
+	`[at fighter]`	122	1
+	`[at fighter]`	124	1
+	`[swordman]`	98	1
+	`[swordman]`	97	1
+	`[thief]`	74	1
+	`[thief]`	77	1
+[/skill levelup]
+
+[fire resistance]
+	6
+
+[water resistance]
+	12
+
+[icon]
+	`item/new_equipment/04_larmor/coat/larmor_coat.img`	10
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`海底火山套裝`
+
+[set item]
+	100070009	100120009	100170009	100220009	100270009
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`HP30%%以下時，水屬性抵抗減少30
+攻擊時會以5%%機率連續2次施展烈焰衝擊
+攻擊時以5%%的機率在10秒內讓水屬性抵抗力減少20%%（最多5次重疊）
+水屬性抵抗力越低強化火屬性能力值。
+水屬性抵抗30以下時
+-火屬性抵抗增加40
+-火屬性強化增加50
+水屬性抵抗31~50時
+-火屬性抵抗增加25
+-火屬性強化增加30
+水屬性抵抗51~100時
+-火屬性抵抗增加7
+-火屬性強化增加10`
+	[elemental property]
+		`[fire element]`
+	[if]
+		[cooltime]
+			3000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			2
+		[passive object]
+			48518	0	0	0	84	0
+			``	48518	0	0	0	84	0
+			``
+		[/passive object]
+	[/then]
+	[if]
+		[change status]
+			`hp`
+			`=<`
+			`%`	30
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`water resistance`
+			`+`	-30
+	[/then]
+	[if]
+		[is stat]
+			`myself`	-1
+			`water resistance`
+			`<=`	30
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add stat at once]
+			`fire resistance`
+			`+`	40
+		[add stat at once]
+			`fire attack`
+			`+`	50
+	[/then]
+	[if]
+		[is stat]
+			`myself`	-1
+			`water resistance`
+			`<=`	50
+		[is stat]
+			`myself`	-1
+			`water resistance`
+			`>`	30
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add stat at once]
+			`fire resistance`
+			`+`	25
+		[add stat at once]
+			`fire attack`
+			`+`	30
+	[/then]
+	[if]
+		[is stat]
+			`myself`	-1
+			`water resistance`
+			`<=`	100
+		[is stat]
+			`myself`	-1
+			`water resistance`
+			`>`	50
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add stat at once]
+			`fire resistance`
+			`+`	7
+		[add stat at once]
+			`fire attack`
+			`+`	10
+	[/then]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[appendage]
+			174
+	[/then]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

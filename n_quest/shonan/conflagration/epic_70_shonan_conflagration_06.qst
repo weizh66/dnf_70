@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	1020
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4125
+[/pre required quest]
+
+[show click on complete npc]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1020
+[/int data]
+
+[dungeon info]
+	70	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`獸王烏塔拉`
+
+[depend message]
+	`原來引起大火災的就是外界的「某人」所為！你快點去西邊森林找出那個人吧！
+透過時間之門應該能立刻到達那個地方，在火燄吞蝕一切之前將他的痕跡探查出來，一定要找到！
+不管是使用何種方法都好… 也或許痕跡可能被獸王烏塔拉先找到。你不妨也可以先問問烏塔拉。`
+
+[condition message]
+	`在大火災與獸王烏塔拉見面，打聽敵人的情報（該任務是單獨進行的任務。）完成地下城後，請點擊地下城出現的NPC獸王烏塔拉。）`
+
+[solve message]
+	`你要留下我的性命嗎？我總覺得自己不是很正常…… 隨著魔法陣的一個一個消失，我感覺到我快崩潰了。
+在見到你之前，見過穿著黑色衣服的人。我跟蹤了那個奇怪的人…
+之後的事情就想不起來了。肯定給我施了什麼魔法… `
+
+[dialog]
+	1	0	70	0	1	63024	0
+	`<monster::63024>你不是和她在一起的那個人類嗎…… 你怎麼會在這裡呢？和森林的火災有關聯嗎？
+果然外部人無法相信！為了森林的和平我要把你擊倒！`
+[/dialog]
+
+[quest point]
+	4

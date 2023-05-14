@@ -1,0 +1,35 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/skill3.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[ALL CHARACTER TEAM]
+	[CHECKUP]
+		[IS DAMAGE ENABLE]
+		[IS OBJECT TYPE]
+			[CHARACTER]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+	[/CHECKUP]
+	[GET TARGET]
+		4
+	[RANDOM]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		-30
+	[%]
+[/BEHAVIOR]

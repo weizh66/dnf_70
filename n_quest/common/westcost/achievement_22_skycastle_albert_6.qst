@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`F`
+
+[gold multiple]
+	60
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	349
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3038	2	3039	2	3040	2	3041	2	3042	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`向阿爾伯特學技能 (2/2)`
+
+[depend message]
+	`嗯， 只有決斗等級達到一段的人才算有資格學習我的技能。 看你這么有毅力， 我就教你吧！
+不過， 在這之前， 你得先交點學費， 這是我母親交代的。`
+
+[condition message]
+	`    收集2個[黑色大晶體]、 2個[白色大晶體]、 2個[紅色大晶體]、 2個[藍色大晶體]、 10個[無色大晶體]交給阿爾伯特。`
+
+[solve message]
+	`哈哈， 夠爽快！ 我們開始吧！`
+
+[quest point]
+	4

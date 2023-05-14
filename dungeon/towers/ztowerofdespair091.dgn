@@ -1,0 +1,76 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/TowerOfDespair91.ani`
+
+[cutscene image]
+	`Map/CutScene/towerofdespair.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	3
+	`WorldMap/SelectdungeonSlot/Tower.img`	4
+
+[tower of despair]
+
+[minimum required level]
+	70
+
+[basis level]
+	70
+
+[champion]
+	0	0	0	0	0
+
+[pathgate object]
+	5699	5700	5701	5702	5703	5704	5705	5706	5707	5708
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`BB`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[required item]
+	4473	1	1
+
+[coin limit]
+	3
+
+[name]
+	`絕望之塔`
+	
+
+[explain]
+	`這裡聚集著各色各樣的人， 有不受歡迎的、 不甘於死亡的， 還有被詛咒、 被遺棄、 被背叛的……他們忍受寂寞的撕咬， 一直呆在這裡， 只為了一個共同的理由——尋找那個不可捉摸的虛幻傳說。 據說塔的最上層有著一位傳說中的強者， 只要誰能夠打敗他， 就可以站上技藝的頂峰。`
+	
+
+[revision table]
+	`Dungeon/Towers/table/TowerOfDespair.tbl`
+
+[tower high skill initial cool time]
+	1	1
+
+[tower high skill initial cool time rate]
+	1.0	1.0
+
+[tower limit of stackable item]
+	1
+
+[prohibit practice]
+	1

@@ -1,0 +1,214 @@
+#PVF_File
+
+[name]
+	`殺戮機器`
+
+[basic explain]
+	`    使用[破甲彈]後， 在冷卻時間內攻擊敵人時， 有5%%的幾率使敵人進入眩暈狀態。
+    
+    [破甲彈]攻擊力 +22%%
+    [步槍精通]射擊次數增加量 +2`
+
+[detail explain]
+	`    使用[破甲彈]後， 在冷卻時間內攻擊敵人時， 有5%%的幾率使敵人進入眩暈狀態， 效果持續3秒。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 解除裝備後效果消失)
+    
+    [破甲彈]攻擊力 +22%%
+    [步槍精通]射擊次數增加量 +2`
+
+[flavor text]
+	`    殺戮的慾望正在高漲`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	92
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	916	796
+
+[equipment magical attack]
+	796	692
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/musket/musket.img`	130
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	44	0
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	52
+	`[all]`
+	`[level]`	1
+	`%`	22
+	`[gunner]`	52
+	`[all]`
+	`[level]`	2
+	`%`	22
+	`[gunner]`	110
+	`[all]`
+	`[level]`	2
+	`+`	2
+	`[at gunner]`	52
+	`[all]`
+	`[level]`	1
+	`%`	22
+	`[at gunner]`	52
+	`[all]`
+	`[level]`	2
+	`%`	22
+	`[at gunner]`	110
+	`[all]`
+	`[level]`	2
+	`+`	2
+[/skill data up]
+
+[if]
+	[event use skill]
+		`gunner`	52
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill duration]
+		52
+		`[cooltime]`	0
+	[appendage]
+		678
+[/then]
+
+[if]
+	[event use skill]
+		`at gunner`	52
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill duration]
+		52
+		`[cooltime]`	0
+	[appendage]
+		678
+[/then]
+
+[if]
+	[my appendage]
+		678
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		3000
+	[reduce probability at pvp module]
+		80
+	[probability]
+		10
+	[active status]
+		`stun`	90
+[/then]
+
+[possible kiri protect]

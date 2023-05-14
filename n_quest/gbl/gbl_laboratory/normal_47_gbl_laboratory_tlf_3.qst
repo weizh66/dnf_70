@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	13
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	47	99
+
+[monster reward item]
+	56101	111	2	4304	1	100	4	56101	111	3	4304	1	100	4
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4304	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`破壞實驗物TLF-3`
+
+[depend message]
+	`你知道那些叫斯尼克的章魚怪嗎？ 就是到那些到處噴射綠色液體的小型章魚怪， 聽說它們是在研究希特拉克的過程中產生的。
+雖然那些小型章魚怪沒有希特拉克厲害， 但數量多了， 還是會危害到我們的……
+冒險家， 你還是盡快去趟GBL教研究所吧， 早點把那些叫斯尼克的小型章魚怪清除干凈。`
+
+[condition message]
+	`    前往墮落之殿的『GBL教研究所』， 收集4個[斯尼克的觸須]， 然后向諾頓回復， 要求地下城難度為王者級。`
+
+[solve message]
+	`那些怪物都被你除掉了？ 哈哈， 做得好！`

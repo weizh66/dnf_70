@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`光棍節武器裝扮`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/club/club.img`	95
+
+[avatar func filter]
+	0
+
+[move wav]
+	`STICK_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		30	0
+	[layer variation]
+		2790
+		`clubc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`clubb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/club/`
+	[custom wav]
+		`R_F_PAN_ATK`
+		`R_F_PAN_ATK`
+		`R_F_PAN_HIT`
+		`R_F_PAN_HIT`
+	[/custom wav]
+[/expand ani]
+
+[string data]
+	`Common/Particle/weaponavatar_1/sm_fruit00.ptl`
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	120	30	70	3	130	30	70	3	100	30	70
+[/int data]

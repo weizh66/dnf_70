@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	99
+
+[pre required quest]
+	5875
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	16
+
+[int data]
+	87	-1	10211	0
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`畏手畏腳`
+
+[depend message]
+	`上次的約定你還記得吧？
+麻煩你跟你的朋友也說一下。 千萬不要碰壞那些高級餐桌， 很貴的！`
+
+[condition message]
+	`    通關海上列車的『奪回西部線』， 要求不能破壞列車內的高級餐桌。 (高級餐桌上通常擺著水果) `
+
+[solve message]
+	`除了你以外， 別人都不管不顧， 唉……看來我就要破產了。`

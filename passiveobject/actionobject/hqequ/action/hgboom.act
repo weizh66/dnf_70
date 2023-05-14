@@ -1,0 +1,79 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/nenofbrilliance/Ready_ex1_12.ani`
+	[SOUND]
+		`FIRE_EXPLOSION_CREATE`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		7	1000
+	[PULL APPENDAGE]
+		6.0	6.0	3000
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[CHARACTER]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[APPENDAGE]
+		8000
+		[attack speed]
+		[%]
+			30.0
+		[move speed]
+		[%]
+			30.0
+		[cast speed]
+		[%]
+			30.0
+		[magical attack bonus]
+		[%]
+			15.0
+		[physical attack bonus]
+		[%]
+			15.0
+		[magical attack]
+		[%]
+			100.0
+		[physical attack]
+		[%]
+			100.0
+		[equipment physical attack]
+		[%]
+			15.0
+		[equipment magical attack]
+		[%]
+			15.0
+		[fire element attack]
+		[+]
+			20.0
+		[light element attack]
+		[+]
+			20.0
+		[dark element attack]
+		[+]
+			20.0
+		[water element attack]
+		[+]
+			20.0
+	[/APPENDAGE]
+[/BEHAVIOR]

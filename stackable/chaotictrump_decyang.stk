@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`混沌王牌 : 蟲之狄桑`
+
+[explain]
+	`    使用後， 會消耗1個黑色小晶塊並召喚出Lv47的蟲之狄桑協助自身戰鬥， 蟲之狄桑存在60秒。 (即使回到城鎮， 也不會初始化該道具的冷卻時間)`
+
+[flavor text]
+	`    “嗯……秘密組織中也有一些危險的傢伙， 他們自稱鬼牌， 和我們王牌不一樣， 你要小心啊……給你！ 已經簽好了。”  --蟲之狄桑`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	242
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	240000
+
+[cooltime group]
+	101
+
+[cooltime maintenance]
+	1	1	1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[consume item]
+	3033	10
+[/consume item]
+
+[summon apc]
+	610	47	47	60000	1

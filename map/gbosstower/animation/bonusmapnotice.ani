@@ -1,0 +1,66 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Interface2/event/Chn_event_2015/chn_kronos_boss_image.img`
+		0
+	[IMAGE POS]
+		-400	-108
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1000
+
+[FRAME002]
+	[IMAGE]
+		`Interface2/event/Chn_event_2015/chn_kronos_boss_image.img`
+		0
+	[IMAGE POS]
+		-400	-108
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100000
+
+[FRAME003]
+	[IMAGE]
+		`Interface2/event/Chn_event_2015/chn_kronos_boss_image.img`
+		0
+	[IMAGE POS]
+		-400	-108
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1000
+
+[FRAME004]
+	[IMAGE]
+		`Interface2/event/Chn_event_2015/chn_kronos_boss_image.img`
+		0
+	[IMAGE POS]
+		-400	-108
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1000

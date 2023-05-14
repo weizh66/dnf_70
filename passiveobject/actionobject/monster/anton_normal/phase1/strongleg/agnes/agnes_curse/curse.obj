@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`痛苦之眼的?像`
+
+[piercing power]
+	50000
+
+[basic action]
+	`Action/curse_Basic.act`
+
+[last action]
+	`Action/Etc_curse_2.act`
+
+[etc action]
+	`Action/curse_Basic_0.act`
+	`Action/Etc_curse_1.act`
+	`Action/Etc_curse_2_0.act`
+	`Action/Etc_curse_3.act`
+	`Action/Etc_curse_4.act`
+[/etc action]
+
+[vanish on move collision]
+	0
+
+[attack info]
+	`attackinfo/curse_Basic.atk`
+
+[etc attack info]
+	``
+	``
+	``
+	``
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	30000
+[/object destroy condition]

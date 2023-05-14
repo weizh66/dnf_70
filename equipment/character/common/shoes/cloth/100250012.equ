@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`尼爾巴斯意志絲質鞋子`
+
+[basic explain]
+	`HP不到50%%時力量、智力增加15 
+HP從 50%%減少至10%%時額外增加15 
+最大 力量，智力增加75`
+
+[grade]
+	68
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	64
+
+[anti evil]
+	9
+
+[magical attack]
+	20
+
+[magical defense]
+	20
+
+[move speed]
+	55
+
+[price]
+	34000
+
+[repair price]
+	28560
+
+[value]
+	27200
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	300	280
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/new_equipment/02_cloth/shoes/cloth_shoes.img`	11
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	15
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[change status in range]
+		`hp`	50	10
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`physical attack`
+		`+`	15	75
+	[apply status in range]
+		`magical attack`
+		`+`	15	75
+[/then]
+
+[set item master]
+	14126
+
+[possible kiri protect]

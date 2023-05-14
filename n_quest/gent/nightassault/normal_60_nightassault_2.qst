@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	11
+
+[int data]
+	83	1	11
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`制作敵軍陣地圖`
+
+[depend message]
+	`為了減少作戰阻礙， 我們需要制作精確的敵軍營地地圖， 可惜目前掌握的情報實在太少……
+冒險家， 我想你有必要再去一趟敵軍營地。 這回一定要清楚地記下每一處的位置， 然后回來告訴我們。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』， 調查所有房間， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`原來如此！ 沒想到敵人軍營里的布控要比我們想的松懈得多， 謝謝你提供這么寶貴的情報！`
+
+[substitutive names]
+	`消滅所有房間中的敵人`
+[/substitutive names]

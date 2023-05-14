@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	`鎮魂鉤鐮`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入出血狀態。
+攻擊出血狀態的敵人時，有50%%的機率使自身增加20點力量，效果持續30秒。`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以28的攻擊力給予傷害。 (若敵人高於Lv20，則減少進入異常狀態的機率；反之，則增加機率。)
+ 攻擊出血狀態的敵人時，有50%%的機率使自身增加20點力量，效果持續30秒。 （冷卻時間40秒）`
+
+[grade]
+	22
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	20
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[price]
+	30800
+
+[repair price]
+	24640
+
+[value]
+	24640
+
+[equipment physical attack]
+	201	186
+
+[equipment magical attack]
+	212	196
+
+[separate attack]
+	108	70
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[priest]`	1	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/priest/scythe.img`	15
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	0	8
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	20	740
+[/then]
+
+[if]
+	[cooltime]
+		45000
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		50
+	[stat]
+		`physical attack`
+		`+`	30
+[/then]
+
+[possible kiri protect]

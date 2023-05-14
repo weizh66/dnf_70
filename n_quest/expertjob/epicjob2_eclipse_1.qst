@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	3
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[pre required quest]
+	960
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	12836
+
+[name]
+	`覺醒 - 月蝕(1/2)`
+
+[depend message]
+	`好久不見。 我能看出你現在那想支配更強大的召喚獸的強烈欲望。
+跟卡西利亞斯簽訂契約的你， 想必一般的召喚獸已經無法入眼了， 只有具備那“傳說”一樣實力的召喚獸才行啊。
+據我所知， 無數的召喚師都死在了自己無法駕馭的召喚獸手上。 卡西利亞斯有著他自己的目的不會殘害召喚他而來的召喚師， 但一般來說擁有著強大實力的召喚獸對召喚師本身都是巨大的威脅。
+如果你這樣擁有熱情和勇氣的話， 可以挑戰下‘月蝕’這個稱謂。
+‘月蝕’的由來說來話長。 從前那些相信古老傳說的召喚師苦心研究召喚， 終于召喚出月球上所棲息的生物。 但為了把它馴服成召喚獸， 她們也付出了慘痛的代價和犧牲。 但成為召喚獸的它真的具有傳說一樣的力量。 如果你執意想擁有它， 我可以給你指引……
+你的眼睛告訴了我你的想法。 的確， 很難有召喚師能夠拒絕這個誘惑， 但性命攸關， 我希望你能夠三思而后行。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和莎蘭談談。`
+
+[solve message]
+	`你果然要接受試煉了么？ 希望你的選擇沒有錯。`

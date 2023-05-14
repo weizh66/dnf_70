@@ -1,0 +1,161 @@
+#PVF_File
+
+[name]
+	`傳承 : 天馬守護神的薄紗短靴`
+
+[grade]
+	82
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	35
+
+[magical defense]
+	30
+
+[move speed]
+	60
+
+[HP MAX]
+	120
+
+[MP MAX]
+	120
+
+[price]
+	32800
+
+[repair price]
+	27552
+
+[value]
+	26240
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	510	498
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/new_equipment/02_cloth/shoes/cloth_shoes.img`	14
+
+[field image]
+	`Item/field_equip.img`	4
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[shoes]`	14
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[set name]
+	`傳承 : 天馬守護神的薄紗戰衣  套裝`
+
+[set item]
+	100050190	100100123	100150113	100200095	100250099
+[/set item]
+
+[piece set ability]
+	5
+	[physical attack]
+		90
+	[magical attack]
+		90
+	[physical defense]
+		90
+	[magical defense]
+		90
+	[dark resistance]
+		12
+	[MP regen speed]
+		18
+	[attack speed]
+		40
+	[move speed]
+		60
+	[cast speed]
+		110
+	[stuck]
+		-2
+	[skill levelup]
+		`[swordman]`	95	1
+		`[at fighter]`	120	1
+		`[fighter]`	100	1
+		`[mage]`	113	1
+		`[mage]`	118	1
+		`[at mage]`	62	1
+		`[gunner]`	106	1
+		`[at gunner]`	106	1
+		`[priest]`	110	1
+		`[demonic swordman]`	5	3
+		`[swordman]`	41	1
+		`[at fighter]`	40	2
+		`[fighter]`	40	2
+		`[mage]`	19	1
+		`[mage]`	48	1
+		`[at mage]`	28	2
+		`[gunner]`	46	2
+		`[at gunner]`	46	2
+		`[priest]`	48	2
+		`[demonic swordman]`	5	3
+	[/skill levelup]
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`physical critical hit rate`
+			`+`	7
+		[stat by condition]
+			`magical critical hit rate`
+			`+`	7
+	[/then]
+	[parameter basic explain]
+		`進入地下城時， 因傳承的祝福增加自身7%%的物理暴擊率和7%%的魔法暴擊率。`
+[/piece set ability]
+
+[possible kiri protect]

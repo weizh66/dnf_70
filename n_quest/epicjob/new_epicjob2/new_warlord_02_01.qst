@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 不滅戰神 (2/6)`
+
+[depend message]
+	`沒辦法， 既然你如此想知道真相， 看來我只能告訴你了。 沒錯， 我曾經見到過不滅戰神， 我也知道在哪里能見到他。 但我并不打算告訴你。
+為什么？ 你覺得你現在這樣能去嗎？ 就算你費盡全力打倒了他， 你認為你真的能夠毫發無損地回來嗎？ 雖然你現在很強， 興許還能打贏他， 但前提是， 你得先有足夠的覺悟， 因為你往后很可能會變成一個缺胳膊少腿的家伙。
+我可見不得你變成那樣。 未來你還要在大戰上大顯身手， 我怎么可能讓你為了毫無意義的戰斗落下傷殘呢？
+除非現在的你能夠在保證自己安全的前提下打倒他， 否則我是絕對不會告訴你的。
+什么？ 你讓我告訴你怎樣才能達到那個水平？ 你是認真的嗎？
+其實并不難， 只要能夠激發你內在的潛力， 提高水平也不是不可能的。 如果你真的想要變強， 接下來必須得聽我的， 你能接受嗎？
+好， 那我們直接開始吧。 首先， 你要去參加魂·黃龍大會， 并且一定要拿到冠軍。 參賽者必須要有‘斯卡迪女王的印章’， 記得要提前收集好。 那你早去早回吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5127
+[/pre required quest]
+
+[relation quest]
+	6860
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,133 @@
+#PVF_File
+
+[name]
+	`兇咒之禍`
+
+[basic explain]
+	`    被攻擊時， 使自身進入霸體狀態， 並且使400px範圍內的所有敵人進入出血和灼傷狀態。
+    消滅敵人時， 使自身增加10點智力。 (最多重疊10次)`
+
+[detail explain]
+	`    被攻擊時， 使自身進入霸體狀態0.5秒， 並且使400px範圍內的所有敵人進入出血和灼傷狀態3秒； 該狀態下的敵人， 每0.5秒受到111點傷害。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間10秒)
+    擊殺敵人時， 可以使自身增加10點智力。 (最多疊加10次)`
+
+[flavor text]
+	`    越是邪惡的咒術師， 死後就會變得越麻煩。  --魯特船長`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	90
+
+[cast speed]
+	50
+
+[need material]
+	10000204	16
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7920	7360
+
+[dark attack]
+	15
+
+[icon]
+	`Item/new_equipment/08_necklace/necklace.img`	118
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		352
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[appendage]
+		355
+[/then]
+
+[if]
+	[my appendage]
+		355
+	[time]
+		500	1	500
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[duration]
+		3000
+	[active status]
+		`burn`	90	666	0	0	0
+	[active status]
+		`bleeding`	90	666
+[/then]
+
+[possible kiri protect]

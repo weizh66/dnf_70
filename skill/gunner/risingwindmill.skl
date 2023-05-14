@@ -1,0 +1,48 @@
+#PVF_File
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[pre required skill]
+	3	5
+[/pre required skill]
+
+[required level]
+	20
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	38
+	`Character/Gunner/Effect/SkillIcon.img`	39
+
+[static data]
+	200	500
+[/static data]
+
+[name]
+	`起身迴旋踢`
+
+[explain]
+	`前衝攻擊或倒地後，起身的同時可以使用[迴旋踢]。`
+
+[basic explain]
+	`前衝攻擊或倒地後，起身的同時可以使用[迴旋踢]。`
+
+[command key explain]
+	`操作指令 : (前衝攻擊後或倒地時) X`

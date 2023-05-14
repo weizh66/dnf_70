@@ -1,0 +1,48 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/atbloodnchain1/bloodnchain_body.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		25	25
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700041
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		37	37
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700040
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			50	0	80
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

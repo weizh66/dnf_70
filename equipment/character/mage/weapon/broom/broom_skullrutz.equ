@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`屠殺者的鬼面掃把`
+
+[basic explain]
+	`攻擊時， 有4%%的幾率使敵人進入出血狀態。
+對出血狀態下敵人的傷害 +30%%`
+
+[detail explain]
+	`    攻擊時， 有4%%的幾率使敵人進入出血狀態10秒； 出血狀態下的敵人， 每0.5秒受到85點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對出血狀態敵人的傷害 +30%% (在決斗場中增加15%%)`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`broom`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2500
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	50
+
+[required skill]
+	91
+
+[icon]
+	`Item/weapon/mage/broom.img`	30
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	534	486
+
+[equipment magical attack]
+	585	532
+
+[separate attack]
+	328	220
+
+[move speed]
+	30
+
+[attack speed]
+	60
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		4
+	[active status]
+		`bleeding`	60	1700
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	5	1
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	5	1
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`BROOM_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			5000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			10000
+		[probability]
+			4
+		[active status]
+			`bleeding`	60	1700
+	[/then]
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+	`mage`	4
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[job change quest]
+	10
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[creature kind]
+	13
+
+[creature level]
+	35
+
+[level]
+	1	99
+
+[pre required quest]
+	2110
+[/pre required quest]
+
+[monster reward item]
+	50069	-1	-1	4107	1	20	13
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4107	13
+[/int data]
+
+[reward type]
+	`[creature evolution]`
+
+[reward int data]
+	14
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`進化 - 貝雷斯普特 (3/3)`
+
+[depend message]
+	`貝雷斯普特……！！難道傳說是真的？ 你好像很疑惑， 難道你沒聽過那個傳說嗎？
+相傳， 很久以前， 有一個精靈的支族叫‘魔人’。 他們的族人不多， 但擁有強大的魔法力量。 有一天， 一群佩戴著龍紋裝飾品的騎士突然出現并無情的攻擊了他們……
+為了延續種族的命脈， 他們遺棄了自身的肉體， 將靈魂封印到了動物的體內。
+貝雷斯普特是魔人族國王的名字……難道貝雷斯普特真的封印在它體內？ 太讓人震驚了。
+啊！ 如果想解開封印， 就必須調和封印的魔法力量。 你知道出沒在阿法利亞營地的那種叫吞靈者的怪物嗎？ 或許我們可以從它們那種可以吞噬魔力的特性上想辦法……`
+
+[condition message]
+	`    前往暗黑城， 從吞靈者身上收集13個[嚎叫的靈魂石]交給奧蘭。 (完成此任務后， 您的寵物將進化為貝雷斯普特)`
+
+[solve message]
+	`這， 這就是從吞靈者那里收集回來的靈魂石！？
+可愛的孩子， 你真的就是魔人族的國王貝雷斯普特嗎？`
+
+[quest point]
+	0

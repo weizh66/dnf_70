@@ -1,0 +1,43 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	10
+[/check count]
+
+[limit dungeon index]
+	65	66	67
+[/limit dungeon index]
+
+[level]
+	10	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	4
+
+[int data]
+	-1	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26664	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`    不使用復活幣通關異次元裂縫的『虛無之境』、 『黑色大地』和『巴卡爾之城』的任意一個或幾個地下城， 要求總通關次數達到10次， 且地下城難度為王者級以上。 `
+
+[condition data]
+	0
+	`通關次數 : %d / %d`
+[/condition data]

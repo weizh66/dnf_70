@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`傑森·格裡克  卡片`
+
+[flavor text]
+	`    呀嘿！ 呀嘿！ 好棒呀！`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	89
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[need material]
+	3340	19
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[weapon]`
+	`[coat]`
+	`[pants]`
+[/string data]
+
+[int data]
+	89	61135
+[/int data]
+
+[enchant]
+	[equipment magical attack]
+		20	20
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

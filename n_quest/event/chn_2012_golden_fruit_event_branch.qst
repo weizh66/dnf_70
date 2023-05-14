@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749400	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749403	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`收集黃金樹枝`
+
+[depend message]
+	`冒險家， 你見過傳說中的黃金樹嗎？
+就在赫頓瑪爾廣場那里， 不知道什么時候突然冒出來的。
+你能去幫我收集些黃金樹枝嗎？ 我想看看它有什么特別之處~拜托了！`
+
+[condition message]
+	`    前往赫頓瑪爾廣場， 從傳說中的黃金樹上收集3根[黃金樹枝]。`
+
+[solve message]
+	`好像黃金樹上的枝葉和普通的也沒啥區別嘛~我再好好研究下。 謝謝了~冒險家！`

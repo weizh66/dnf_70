@@ -1,0 +1,77 @@
+#PVF_File
+
+[set name]
+	`死亡裁決  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[mage]`	66
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	66
+		`[dungeon type]`
+		`[static]`	3
+		`+`	2
+		`[mage]`	66
+		`[dungeon type]`
+		`[static]`	4
+		`+`	2
+		`[mage]`	66
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	66
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	66
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[mage]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[mage]`	68
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-500
+		`[mage]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[mage]`	125
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`流星閃影擊冷卻時間減少5秒， 攻擊數增加2， 攻擊力增加1 5%% / 雙重錘擊攻擊力增加15%%
+強襲流星擊冷卻時間減少6秒， 蓄氣時間減少50%%， 攻擊力增加30%% / 碎霸冷卻時間減少1秒/ 雙重錘擊冷卻時間減少1.5秒， 衝擊波範圍增加10%% `
+[/piece set ability]

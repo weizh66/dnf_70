@@ -1,0 +1,189 @@
+#PVF_File
+
+[name]
+	`神獸之護`
+
+[basic explain]
+	`    [朱雀符]攻擊+20%%
+    [朱雀符]爆炸次數上限+1%%
+    [式神：白虎]白虎攻擊力+20%%
+    [式神：白虎]白虎光環範圍+20%%
+    [式神：白虎]白虎移動速度+20%%
+    [式神：白虎]白虎抓取敵人的物理和魔法防御力減少值+5%%
+    [蒼龍逐日]攻擊力+40%%`
+
+[flavor text]
+	`    我沒有淪落到讓一隻動物保護！—‘有志氣’的冒險家`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	88
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	769	652
+
+[equipment magical attack]
+	983	833
+
+[separate attack]
+	520	336
+
+[magical critical hit]
+	2
+
+[all elemental attack]
+	35
+
+[need material]
+	3821	1000
+
+[skill levelup]
+	`[priest]`	106	2
+	`[priest]`	70	3
+	`[priest]`	69	2
+	`[priest]`	93	1
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/rosary/rosary.img`	89
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	28	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[priest]`	106
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[priest]`	106
+	`[all]`
+	`[level]`	2
+	`+`	1
+	`[priest]`	70
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[priest]`	70
+	`[all]`
+	`[static]`	1
+	`%`	20
+	`[priest]`	69
+	`[all]`
+	`[static]`	2
+	`%`	20
+	`[priest]`	69
+	`[all]`
+	`[static]`	3
+	`%`	20
+	`[priest]`	69
+	`[all]`
+	`[level]`	4
+	`%`	5
+	`[priest]`	69
+	`[all]`
+	`[level]`	5
+	`%`	5
+	`[priest]`	93
+	`[all]`
+	`[level]`	0
+	`%`	40
+	`[priest]`	93
+	`[all]`
+	`[static]`	1
+	`%`	50
+	`[priest]`	93
+	`[all]`
+	`[static]`	2
+	`%`	30
+	`[priest]`	93
+	`[all]`
+	`[static]`	5
+	`+`	10
+[/skill data up]
+
+[emancipate]
+	[input]
+		15037	1
+	[/input]
+	[output]
+		4600611	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

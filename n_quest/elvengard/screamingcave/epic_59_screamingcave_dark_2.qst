@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	40
+
+[complete npc index]
+	45
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	59	99
+
+[pre required quest]
+	4491
+[/pre required quest]
+
+[job message]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[exception quest]
+	`[urgent]`
+[/exception quest]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[遠古地下城] 布萬加的瞭解`
+
+[depend message]
+	`我們班圖族對於悲鳴洞穴很清楚。 
+ 特別是我的大哥布萬加親自去過那個悲鳴洞穴一趟了。 
+ 正巧大哥來到這裡，你就直接聽他說吧。 
+ <monster::61806> 好久不見了。，小鬼。 好，你想要聽關於悲鳴洞穴的事情嗎？ 
+ 真是奇怪… 我先前應該已經將我知道的事情全都告訴你了。 你還想要知道些什麼嗎？ 
+ <npc::0>聽說悲鳴洞穴又開啟了， 我是替林納斯大叔來這裡打聽的。 
+ <monster::61806> 你說什麼？ 悲鳴洞穴的入口又再次開啟了嗎？ 既然如此，那真是太糟糕了… 
+ 那時候的悲鳴洞穴大概是受到希洛克的影響，怪物們全都變得相當奇怪，而且也變得很殘暴。 
+ 後來也對人類造成了影響。 
+ 我布萬加不會因為那種雜亂的力量而動搖，但是剩下的人到悲鳴洞穴附近就倒下了。 
+ 但是，也不是沒有方法。 若是持有神聖的刀刃，就能降低受到的影響。 
+ 我記得那時候是聖職者替我製造的… 聽說一個叫做歌蘭蒂斯的孩子繼承了那項技術，你就再去一趟吧。`
+
+[condition message]
+	`找歌蘭蒂斯·格拉西亞談談。`
+
+[solve message]
+	`願神聖的力量與你同在… 請問有什麼事嗎？`
+
+[quest point]
+	4

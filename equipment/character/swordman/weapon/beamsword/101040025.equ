@@ -1,0 +1,217 @@
+#PVF_File
+
+[name]
+	`復仇之劍： 奪魂者[活動]`
+
+[basic explain]
+	`反擊攻擊力增加20%% 
+反擊時以20%% 機率施展雷光爆炸
+不可解體，不可合成`
+
+[detail explain]
+	`反擊攻擊力增加20%%（決鬥場內增加1 4%%）
+反擊時以 20%%的機率施展雷光爆炸`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	43
+
+[physical defense]
+	10
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	109800
+
+[repair price]
+	92232
+
+[value]
+	87840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	517	480
+
+[equipment magical attack]
+	500	464
+
+[separate attack]
+	341	230
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	33
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[if]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		20
+	[passive object]
+		48075	0	0	70	25	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[pvp]
+	[if]
+		[attack condition]
+			`counter`
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	14
+	[/then]
+[/pvp]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

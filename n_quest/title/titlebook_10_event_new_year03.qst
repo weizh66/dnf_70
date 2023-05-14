@@ -1,0 +1,44 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	7
+[/check count]
+
+[limit showing msg]
+	1
+
+[level]
+	254	255
+
+[type]
+	`[use fortune coin]`
+
+[int data]
+	1047	1	2600011	1	1238	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26797	1
+[/reward int data]
+
+[send postal]
+	8396	5
+	`postal_message_08`
+	`postal_message_09`
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`使用[命運硬幣]、 [強化的命運硬幣]和[魔力硬幣]成功7次。`
+
+[condition data]
+	0
+	`成功次數 : %d / %d`
+[/condition data]

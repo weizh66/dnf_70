@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5159
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	64	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5161
+
+[name]
+	`勇者 - 好奇心旺盛的青年的母親 (2/2)`
+
+[depend message]
+	`現在， 我已經知道‘異次元裂縫’就是扭曲時間和空間的一個神秘領域了。 但我還有一個疑問， 就是異次元裂縫真的只通向這兩個地方嗎？
+如果真的只通向這兩個地方， 你為什么這么著急離開？ 你騙不了我的， 我都看出來了！
+這次的問題和我母親沒有關系， 是我好奇才問的。
+呃， 我的意思不是說我以前拜托你的事都是我母親的。 這怎么可能嘛！ 怎么想也不可能啊……
+咳咳， 我總覺得那里一定還有些別的東西……
+啊啊， 受不了了， 我要被好奇心折磨死了。`
+
+[condition message]
+	`    通關異次元裂縫的『蘭蒂盧斯的鷹犬』。`
+
+[solve message]
+	`那些混蛋又在搞什么陰謀？ 看來還真不能小看那些家伙！`
+
+[quest point]
+	4

@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`藍色惡靈石碑`
+
+[basic explain]
+	` 每次進入異常狀態時，可以隨機獲得以下效果，效果持續20秒。
+- 智力+50
+- 魔法暴擊率+7%%
+- HP恢復量+15%%
+- MP恢復量+15%%`
+
+[detail explain]
+	` 每次進入異常狀態時，可以隨機獲得以下效果，效果持續20秒。
+- 力量+50 (效果最多可重疊3次； 在決鬥場中不重疊)
+- 魔法暴擊率+7%% (效果最多可重疊3次； 在決鬥場中不重疊)
+- HP恢復量15%% (在決鬥場中無效)
+- MP恢復量15%% (在決鬥場中無效)
+ 在決鬥場中，觸發效果的機率為10%%。`
+
+[grade]
+	72
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	64
+
+[anti evil]
+	10
+
+[physical attack]
+	28
+
+[physical defense]
+	28
+
+[magical attack]
+	28
+
+[magical defense]
+	28
+
+[need material]
+	4429	75
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[icon]
+	`Item/common/support.img`	42
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		2000
+	[my active status on]
+		`any`
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			100
+		[appendage]
+			15
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			100
+		[appendage]
+			16
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[probability]
+			100
+		[restore]
+			`hp`
+			`%`	15	0
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[probability]
+			100
+		[restore]
+			`mp`
+			`%`	15	0
+		[then probability]
+			25.0
+	[/then]
+[/multiple then]
+
+[pvp]
+	[if]
+		[cooltime]
+			2000
+		[my active status on]
+			`any`
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[duration]
+				20000
+			[probability]
+				10
+			[appendage]
+				27
+			[then probability]
+				50.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[duration]
+				20000
+			[probability]
+				10
+			[appendage]
+				28
+			[then probability]
+				50.0
+		[/then]
+	[/multiple then]
+[/pvp]
+
+[possible kiri protect]

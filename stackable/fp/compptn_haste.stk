@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`迅捷藥劑`
+	
+
+[explain]
+	`    使用後， 可以使自身增加10%%的移動速度和攻擊速度， 最多可重疊5次， 效果持續30分鐘。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	32
+
+[field image]
+	`Item/FieldImage.img`	19
+
+[stackable type]
+	`[waste]`	1
+
+[finish point price]
+	20
+
+[cool time]
+	10000
+
+[cooltime group]
+	10
+
+[move wav]
+	`POTION_TOUCH`

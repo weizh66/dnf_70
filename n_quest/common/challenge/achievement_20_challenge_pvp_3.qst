@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	1702
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	2	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1704
+
+[name]
+	`培養初級武術家 (1/2)`
+
+[depend message]
+	`第一步， 你先去決斗場找與你實力相當的人決斗， 就當是熱身子， 順便再積累一些經驗。 記住！ 你要積累30點勝點才能達到我的最低要求！ `
+
+[condition message]
+	`    前往決斗場積累決斗勝點， 然后將決斗勝點30點交給阿爾伯特。 (決斗勝點可以在決斗場、 死亡之塔或迷妄之塔中獲得)`
+
+[solve message]
+	`回來了， 比我想象的要快啊！ 看來我可以教你一些技巧了。 `
+
+[quest point]
+	4

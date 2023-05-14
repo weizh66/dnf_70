@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7629
+
+[name]
+	`覺醒 - 千手羅漢 (1/4)`
+
+[depend message]
+	`你確定你清楚‘千手羅漢’是什么嗎？
+有的人把他們奉為戰神， 有的人罵他們嗜血殘暴……他們為求勝利， 可以不惜一切代價， 是絕對的實戰專家。
+你真的想成為這樣的破壞神嗎？`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`如果你真的下定了決心， 我再說什么也沒有用了。 只能說既然是自己選的路， 那就無悔地走下去吧！`

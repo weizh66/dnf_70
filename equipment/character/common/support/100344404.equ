@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`格拉西亞家族遺物 - 意誌`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率增加18點光屬性強化， 效果持續10秒。`
+
+[detail explain]
+	`攻擊時， 有5%%的幾率增加18點光屬性強化， 效果持續10秒。(冷卻時間12秒， 最大重疊2次；該效果與格拉西亞家族遺物的意誌和凈化石共享；裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12536
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[physical defense]
+	35
+
+[magical defense]
+	35
+
+[need material]
+	5000	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[light attack]
+	10
+
+[icon]
+	`item/new_equipment/10_support/support.img`	215
+
+[field image]
+	`Item/field_equip.img`	22
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[support]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[dynamic part set index]
+	12533	12534	12535	12536	12537
+[/dynamic part set index]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		12000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		800
+[/then]
+
+[possible kiri protect]

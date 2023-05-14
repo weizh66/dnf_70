@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`傳承 : 天馬守護神的橡木腰帶`
+
+[grade]
+	82
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	32
+
+[magical attack]
+	21
+
+[physical defense]
+	30
+
+[MP MAX]
+	280
+
+[hit recovery]
+	65
+
+[inventory limit]
+	6000
+
+[price]
+	49200
+
+[repair price]
+	41328
+
+[value]
+	39360
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1020	996
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/new_equipment/04_larmor/belt/larmor_belt.img`	14
+
+[field image]
+	`Item/field_equip.img`	8
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[waist]`	16
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1200
+
+[item group name]
+	`la waist`
+
+[cool time]
+	10000
+
+[set name]
+	`傳承 : 天馬守護神的橡木戰衣  套裝`
+
+[set item]
+	100070137	100120131	100170123	100220120	100270116
+[/set item]
+
+[piece set ability]
+	5
+	[physical attack]
+		90
+	[magical attack]
+		90
+	[physical defense]
+		90
+	[magical defense]
+		90
+	[HP MAX]
+		400
+	[MP MAX]
+		350
+	[move speed]
+		60
+	[attack speed]
+		65
+	[cast speed]
+		30
+	[stuck]
+		-3
+	[skill levelup]
+		`[swordman]`	97	1
+		`[at fighter]`	122	1
+		`[at fighter]`	121	1
+		`[fighter]`	103	1
+		`[fighter]`	105	1
+		`[thief]`	77	1
+		`[priest]`	104	1
+		`[demonic swordman]`	8	3
+		`[swordman]`	38	1
+		`[at swordman]`	14	1
+		`[at fighter]`	37	2
+		`[at fighter]`	50	2
+		`[fighter]`	37	2
+		`[fighter]`	50	2
+		`[thief]`	37	1
+		`[priest]`	13	1
+	[/skill levelup]
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`physical critical hit rate`
+			`+`	7
+		[stat by condition]
+			`magical critical hit rate`
+			`+`	7
+	[/then]
+	[parameter basic explain]
+		`進入地下城時， 因傳承的祝福增加自身7%%的物理暴擊率和7%%的魔法暴擊率。`
+[/piece set ability]
+
+[possible kiri protect]

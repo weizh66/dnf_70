@@ -1,0 +1,39 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	70
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	255	256
+
+[type]
+	`[hunt enemy]`
+
+[int data]
+	-1	-1	-11	10	70
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2747076	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`在地下城中， 除掉70個稀有怪物和領主。`
+
+[condition data]
+	0
+	`稀有怪物和領主擊殺次數 : %d/%d`
+[/condition data]

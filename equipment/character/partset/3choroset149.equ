@@ -1,0 +1,120 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at priest]`	60
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[龍魂之怒]冷卻時間 -30%%
+[龍魂之怒]攻擊力 +15%%
+[龍魂之怒]大小 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at priest]`	60
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	60
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+		`[at priest]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at priest]`	63
+		`[dungeon type]`
+		`[static]`	13
+		`%`	15
+		`[at priest]`	57
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[龍魂之怒]攻擊力 +20%%
+[龍魂之怒]冷卻時間 -15%%
+[龍魂之怒]大小 +10%%
+[龍魂之怒]無色小晶塊消耗量 +1
+[不動珠箔陣]冷卻時間 -20%%
+[不動珠箔陣]攻擊力 +20%%
+[不動珠箔陣]范圍 +15%%
+[神諭之祈愿]巫女技能攻擊力增加率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	60
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	60
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[at priest]`	67
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	67
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at priest]`	67
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[龍魂之怒]攻擊力 +30%%
+[龍魂之怒]大小 +20%%
+[龍魂之怒]無色小晶塊消耗量 +1
+[奪命大念陣]攻擊力 +50%%
+[奪命大念陣]冷卻時間 -30%%
+[奪命大念陣]爆炸范圍 +20%%
+[奪命大念陣]無色小晶塊消耗量 +1`
+[/piece set ability]

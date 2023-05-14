@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`魯道夫的鼻子 (圣職者)`
+
+[flavor text]
+	`<圣誕節的祝福活動>`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_aface.img`	43
+
+[equipment type]
+	`[face avatar]`	0
+
+[usable period]
+	20
+
+[avatar func filter]
+	0
+
+[variation]
+	20	0
+
+[layer variation]
+	1925
+	`face_c`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2830
+	`face_f`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[part set index]
+	2

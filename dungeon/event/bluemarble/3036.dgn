@@ -1,0 +1,62 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`追擊殲滅戰`
+
+[explain]
+	`皇都軍和卡勒特一直在進行拉鋸戰， 最近在英勇睿智的冒險家們的幫助下， 皇都軍終於成功擊退了卡勒特的進攻。 為了不讓敵人有喘息的機會， 更為了給醉心於非人道實驗的邪惡科學家吉賽爾致命的一擊！ 勇敢的冒險家們， 請立即追擊撤退的敵人！`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act6.img`
+
+[worldmap pattern info]
+	1	8
+	`WorldMap/SelectdungeonSlot/gent.img`	5
+
+[minimum required level]
+	99
+
+[basis level]
+	65
+
+[experience increasing point]
+	1.0
+
+[champion]
+	3	6	9	12	9
+
+[pathgate object]
+	5560	5561	5562	5563	5564	5565	5566	5567	5568	5569
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[special passive object item]
+	0	-1	1	3276	5000
+[/special passive object item]
+
+[event monster]
+	1	7000	61728	1	300	80	1
+[/event monster]

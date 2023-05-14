@@ -1,0 +1,185 @@
+#PVF_File
+
+[name]
+	`死亡大刀[黑鑽]`
+
+[basic explain]
+	`攻擊時以3%% 的機率讓敵人陷入詛咒狀態
+攻擊速度 +1%%
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[detail explain]
+	`攻擊時以3%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少27，體力減少27，智能減少27，精神力減少27。 （高於Lv10的對象得到的機率減少，低於Lv10的對象則會增加。）
+攻擊速度 +1%%
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[grade]
+	14
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	10
+
+[physical attack]
+	20
+
+[attack speed]
+	-40
+
+[stuck]
+	-1
+
+[price]
+	22400
+
+[repair price]
+	17920
+
+[value]
+	17920
+
+[equipment physical attack]
+	216	168
+
+[equipment magical attack]
+	153	119
+
+[separate attack]
+	99	63
+
+[physical critical hit]
+	5
+
+[skill levelup]
+	`[mage]`	12	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/mage/spear.img`	22
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`curse`	10	27	27	27	27
+[/then]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+	`charac cargo`
+[/impossible contents]
+
+[possible kiri protect]

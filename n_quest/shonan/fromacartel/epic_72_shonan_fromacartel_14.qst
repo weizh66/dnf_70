@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	66
+
+[complete npc index]
+	57
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	72	99
+
+[pre required quest]
+	4193
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	57
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`貝利特的委託 1`
+
+[depend message]
+	`委託人看到冒險家收集的扣子，很快地拿著它們啪噠啪噠跳著回去了。你應該看看他的樣子…… 太高興委託金也付了2倍…… 
+嗯嗯！對…對了！剛好在轉交扣子時，貝利特看到後，就問是哪裡來的，我就直接跟他說是冒險家了。
+他說有事情要拜託你，叫你一定要去一趟，你要不要先去找貝利特呢？你快去找他吧！`
+
+[condition message]
+	`與貝利特對話`
+
+[solve message]
+	`啊你來了？我是聽說你可以收集那時期的物品，所以請你來了。現在非常需要那個時期的某個物品… `
+
+[quest point]
+	4

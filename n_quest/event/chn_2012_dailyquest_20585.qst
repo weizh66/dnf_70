@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	60
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	57	59
+
+[enemy reward item]
+	56714	1	82	2	4334	1	100	1	56503	1	82	2	4335	1	100	1	56502	1	82	2	4336	1	100	1
+[/enemy reward item]
+
+[quest point]
+	0
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4334	1	4335	1	4336	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	3229	25	3300	10
+[/reward selection int data]
+
+[name]
+	`[魔王]卡勒特的暗號文類型`
+
+[depend message]
+	`雖然天界的皇都因卡勒特軍隊的突襲而陷入混亂， 但皇都因為得到了冒險家的幫助， 沒有徹底淪陷。
+根據最近得到的情報， 卡勒特的通訊暗號共分為A， B， C三種類型， 他們傳達情報時每天都會變更這三種暗號。
+冒險家， 如果你能把這三種類型的暗號都帶來， 我會替天界的守衛隊轉達他們的謝意。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特外圍』、 『根特東門』和『根特南門』， 收集[暗號類型A]、 [暗號類型B]和[暗號類型C]各1張， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`這是很有價值的情報， 有了它， 我們就能知道卡勒特每天的戰略了。`

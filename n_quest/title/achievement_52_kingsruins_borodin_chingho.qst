@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[pre required quest]
+	398	399	400	401	402	403
+[/pre required quest]
+
+[pre required quest]
+	646	399	400	401	402	403
+[/pre required quest]
+
+[monster reward item]
+	711	-1	0	4164	3	40	200	711	-1	1	4164	3	60	200	711	-1	2	4164	3	80	200	711	-1	3	4164	3	100	200
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4164	200	3186	50
+[/int data]
+
+[dungeon info]
+	33	-1
+[/dungeon info]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26065	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 不滅之王波羅丁`
+
+[depend message]
+	`波羅丁的力量絕對超過你的想象， 毫不夸張的說五位騎士的力量加起來也比不上他的一拳……不過， 聽說如果不間斷的向他挑戰， 終有一天會得到他的力量！ `
+
+[condition message]
+	`    前往暗黑城的『王的遺跡』， 收集200個[波羅丁的證物]和50個[波羅丁的印章]。`
+
+[solve message]
+	`恭喜！ 呵呵， 你終于得到波羅丁王的力量了！ `

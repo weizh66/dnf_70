@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	38	99
+
+[pre required quest]
+	44
+[/pre required quest]
+
+[depend give item]
+	4086	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4086	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`傳遞解藥`
+
+[depend message]
+	`公國自上次送來很多遺骨后， 就再也沒有一點消息了……算了， 就當他們太忙顧不上我了吧……
+傳染病的解藥找到了， 你幫我拿給暗精靈吧。 如果你不知道怎么交給暗精靈？ 就去西海岸找莎蘭， 她是和人類走得最近的暗精靈， 一定會幫助你的。 `
+
+[condition message]
+	`    把[諾頓的解藥]交給莎蘭。`
+
+[solve message]
+	`這是……傳染病的解藥？！ 諾頓讓你送來的？`
+
+[quest point]
+	4

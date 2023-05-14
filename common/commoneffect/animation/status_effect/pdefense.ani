@@ -1,0 +1,50 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Common/CommonEffect/status_effect/pdefense.img`
+		0
+	[IMAGE POS]
+		-20	-20
+	[IMAGE RATE]
+		0.10000000149011612	0.20000000298023224
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+
+[FRAME001]
+	[IMAGE]
+		`Common/CommonEffect/status_effect/pdefense.img`
+		0
+	[IMAGE POS]
+		-20	-20
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		400
+
+[FRAME002]
+	[IMAGE]
+		`Common/CommonEffect/status_effect/pdefense.img`
+		0
+	[IMAGE POS]
+		-20	-20
+	[IMAGE RATE]
+		0.30000001192092896	0.4000000059604645
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300

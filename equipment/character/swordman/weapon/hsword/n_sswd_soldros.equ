@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`逸龍劍 - 抉擇`
+
+[basic explain]
+	`物品快捷欄內每存在一種武器， 都可以增加角色10%%的攻擊力
+[疾影手]冷卻時間 -50%%`
+
+[flavor text]
+	`    它很適合你！  --索德羅斯`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	42
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	102600
+
+[repair price]
+	86184
+
+[value]
+	82080
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	638	581
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[skill data up]
+	`[swordman]`	37
+	`[all]`
+	`[level]`	0
+	`%`	50
+[/skill data up]
+
+[variation]
+	1	6
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4175
+[/pre required quest]
+
+[monster reward item]
+	61630	75	-1	4768	3	30	50
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4768	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`稀有生物的樣本`
+
+[depend message]
+	`歡迎。我想問你一件事。從你上次委託解體的物品中，發現了一個閃亮的粉末之類的東西。
+看似像飛蛾或蝴蝶翅膀上的粉末之類的東西，因為好奇進行了分析，沒想到竟然和現在幾乎找不到的悲鳴飛蛾相一致。
+過去棲息在悲鳴洞穴，希洛克死去後幾乎都消失了。這是非常稀有的資料。
+所以說，希望你幫我收集悲鳴飛蛾的標本。它會是很珍貴的研究資料。`
+
+[condition message]
+	`在古悲鳴洞穴收集悲鳴飛蛾的樣本 50個`
+
+[solve message]
+	`嗯嗯，這些足夠了。沒想到可以得到這種樣本！`
+
+[quest point]
+	4

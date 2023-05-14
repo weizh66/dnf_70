@@ -1,0 +1,125 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[群魔亂舞]幻影召喚數 +1
+[群魔亂舞]幻影攻擊力 +20%%
+[群魔亂舞]冷卻時間 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[static]`	1
+		`+`	2
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[群魔亂舞]幻影召喚數 +2
+[群魔亂舞]幻影攻擊力 +25%%
+[群魔亂舞]冷卻時間 -10%%
+[群魔亂舞]無色小晶塊消耗量 +1`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[static]`	1
+		`+`	2
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[群魔亂舞]幻影召喚數 +2
+[群魔亂舞]幻影攻擊力 +30%%
+[群魔亂舞]冷卻時間 -30%%
+[群魔亂舞]無色小晶塊消耗量 +1`
+[/piece set ability]

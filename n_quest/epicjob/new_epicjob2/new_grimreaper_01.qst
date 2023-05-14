@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 幽冥 (1/6)`
+
+[depend message]
+	`你以為偷偷靠近我就不會被我發現嗎？ 別鬧了， 快給我出來。
+聽說最近影舞者正在被各方通緝， 看來你還安然無恙啊。
+你說你可以憑借自己的實力甩掉他們？ 現在附近就有好幾個人在暗處盯著你呢， 你還能說出這么太平的話？
+不要太相信自己， 即使你再強， 如果遭遇群攻還是會陷入困境。 不如這樣吧， 你跟我再多聊一會兒， 誰知道呢？ 說不定我能告訴你如何變得更快更強。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`聽說最近影舞者們的蠻行愈發過分了。 不知道他們之間是否有了某種競爭， 現在變得越來越殘忍了， 其攻擊對象也是不分男女老少。 所以現在帝國、 公國， 甚至王國都紛紛陷入了混亂。
+據說基于目前事態的嚴重程度， 他們正在招募一批有實力的人組團去抓影舞者呢。
+你之前也是有名的影舞者之一， 應該已經成為了他們的目標。 過不了多久肯定會有危險找上門。
+既然如此， 還不如讓自己變得更快呢。 只要把你現在擁有的潛力充分激發出來， 以后你的速度就會超越其它任何東西。`
+
+[target character]
+	`[thief]`	4	1
+[/target character]
+
+[relation quest]
+	6839
+
+[job change quest]
+	3
+
+[grow number]
+	0

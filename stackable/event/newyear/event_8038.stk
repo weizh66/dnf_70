@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`召喚火花忠臣波提切利`
+	
+
+[explain]
+	`使用時，連續60秒內，會召喚一隻火花忠臣波提切利。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	725
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[cool time]
+	60000
+
+[cooltime group]
+	100
+
+[move wav]
+	`JEWEL_TOUCH`
+
+[monster summons]
+	56019	50	60	60000	5
+
+[expiration date]
+	1301583600

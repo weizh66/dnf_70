@@ -1,0 +1,106 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Monster/shonan/nenguard_start.img`
+		0
+	[IMAGE POS]
+		-138	-215
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		2180
+
+[FRAME001]
+	[IMAGE]
+		`Monster/shonan/nenguard_start.img`
+		0
+	[IMAGE POS]
+		-138	-215
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		0	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/shonan/nenguard_start.img`
+		1
+	[IMAGE POS]
+		-138	-215
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		0	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/shonan/nenguard_start.img`
+		2
+	[IMAGE POS]
+		-138	-215
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		0	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/shonan/nenguard_start.img`
+		3
+	[IMAGE POS]
+		-138	-215
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		0	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		`Monster/shonan/nenguard_start.img`
+		3
+	[IMAGE POS]
+		-138	-215
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		0	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME006]
+	[IMAGE]
+		`Monster/shonan/nenguard_start.img`
+		3
+	[IMAGE POS]
+		-138	-215
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		0	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

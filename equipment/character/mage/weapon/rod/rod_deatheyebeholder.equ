@@ -1,0 +1,173 @@
+#PVF_File
+
+[name]
+	`邪眼凝視者`
+
+[basic explain]
+	`施放技能時， 有4%%的幾率使特定的敵人進入詛咒狀態， 并使自身恢復一定量的MP。`
+
+[detail explain]
+	`    施放技能時， 有4%%的幾率使300px范圍內HP最少的敵人進入詛咒狀態12秒， 詛咒狀態下的敵人減少30點的力量、 體力、 智力和精神； 同時還會使自身恢復200點MP。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	63
+
+[rarity]
+	5
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[magical attack]
+	69
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[anti evil]
+	8
+
+[need material]
+	3228	60
+
+[repair price]
+	74088
+
+[value]
+	70560
+
+[equipment physical attack]
+	500	479
+
+[equipment magical attack]
+	612	585
+
+[separate attack]
+	314	212
+
+[icon]
+	`Item/weapon/mage/rod.img`	45
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		12000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy hp min`	300
+	[duration]
+		12000
+	[probability]
+		4
+	[active status]
+		`curse`	60	45	45	45	45
+	[target]
+		`myself`	-1
+	[restore]
+		`mp`
+		`+`	200	12000
+[/then]
+
+[possible kiri protect]

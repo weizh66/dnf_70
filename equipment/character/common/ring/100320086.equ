@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`狂亂之刃`
+
+[basic explain]
+	`攻擊時以 3%%的機率 300px 範圍內讓所有的敵人在7秒內陷入減速狀態
+安裝時在500px 範圍內讓減速狀態的敵人每1隻攻擊速度增加1%%，移動速度增加1%%，施放速度增加1%% `
+
+[detail explain]
+	`攻擊時以 3%% 的機率7秒內讓所有敵人進入減速狀態，移動速度減少15%%，攻擊速度減少1 5%%。 （高於Lv89的對象得到的機率減少，低於Lv89的對象則會增加。）
+安裝時讓500px 範圍內減速狀態的每隻敵人攻擊速度增加1%%，移動速度增加1%%，施放速度增加1%% `
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	52
+
+[attack speed]
+	10
+
+[cast speed]
+	20
+
+[move speed]
+	10
+
+[price]
+	89000
+
+[value]
+	71200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3072	2912
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	114
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[magical attack]
+	52
+
+[if]
+	[cooltime]
+		7000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		7000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`slow`	89	15	15
+[/then]
+
+[variable stat]
+	`move speed`
+	`+`	10
+	`object number`
+	`enemy`	500
+	`slow`	100
+	`attack speed`
+	`+`	10
+	`object number`
+	`enemy`	500
+	`slow`	100
+	`cast speed`
+	`+`	10
+	`object number`
+	`enemy`	500
+	`slow`	100
+[/variable stat]
+
+[possible kiri protect]

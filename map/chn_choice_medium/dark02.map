@@ -1,0 +1,125 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3501
+[/dungeon]
+
+[type]
+	`[boss]`
+
+[greed]
+	`EE EE`
+
+[tile]
+	`Tile/1overnoblankdown.til`
+	`Tile/1overnoblankmid.til`
+	`Tile/1overnoblankup.til`
+	`Tile/1overrighthighblank.til`
+	`Tile/1overlefthighblank.til`
+	`Tile/1overnoblankdown.til`
+[/tile]
+
+[far sight scroll]
+	56
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/smfar.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/smmid.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	17	198	1050	460	378	761	65	552
+
+[sound]
+	`M_SHADOW_MAZE`
+[/sound]
+
+[animation]
+	`Animation/smrock2.ani`
+	`[normal]`	686	687	0
+	`Animation/smrock1.ani`
+	`[normal]`	570	545	0
+	`Animation/smrock2.ani`
+	`[normal]`	822	169	0
+	`Animation/smrock2.ani`
+	`[normal]`	246	132	0
+	`Animation/smgroundgrass1.ani`
+	`[bottom]`	1137	231	0
+	`Animation/smgroundgrass2.ani`
+	`[bottom]`	253	253	0
+	`Animation/smgroundgrass1.ani`
+	`[bottom]`	403	265	0
+	`Animation/smgroundgrass1.ani`
+	`[bottom]`	1082	264	0
+	`Animation/smgroundgrass2.ani`
+	`[bottom]`	167	165	0
+	`Animation/smgroundgrass2.ani`
+	`[bottom]`	991	241	0
+	`Animation/smgroundgrass2.ani`
+	`[bottom]`	903	262	0
+	`Animation/smgroundgrass2.ani`
+	`[bottom]`	1184	262	0
+	`Animation/smgroundgrass1.ani`
+	`[bottom]`	301	197	0
+	`Animation/smgroundgrass2.ani`
+	`[bottom]`	402	234	0
+	`Animation/smfarstreamani.ani`
+	`[distantback]`	0	-120	0
+	`Animation/smfarstreamani.ani`
+	`[distantback]`	640	-120	0
+	`Animation/smfarstreamani.ani`
+	`[distantback]`	1280	-120	0
+	`Animation/smfarstreamani.ani`
+	`[distantback]`	1920	-120	0
+[/animation]
+
+[passive object]
+	30303	125	129	0	30303	159	133	0	844	1028	139	0	1012	575	140	0	1051	316	140	0	30303	340	141	0	843	1070	141	0	1012	471	145	0	844	1004	149	0	1012	706	158	0	1012	548	174	0	1051	486	181	0	30303	663	191	0	30303	634	199	0	1012	784	202	0	1012	888	203	0	1051	969	215	0	30303	315	219	0	30303	324	230	0	1051	209	231	0	30303	767	266	0	941	348	482	0
+[/passive object]
+
+[monster]
+	64504	1	0	1185	198	0	1	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+[/monster specific AI]
+
+[special passive object]
+	1010	580	244	0	0	1010	659	248	0	0	1010	914	605	0	0
+[/special passive object]
+
+[event monster position]
+	391	152	0	556	172	0	820	242	0	974	238	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

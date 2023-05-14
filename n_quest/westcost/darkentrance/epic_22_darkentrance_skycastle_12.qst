@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	22	99
+
+[pre required quest]
+	126
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	14	1	700	50	14	1	701	50	14	2	702	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`光之軍隊`
+
+[depend message]
+	`啊……原來是這樣。 由于光之軍隊的存在， 所以冒險家不能前進了。
+不過沒關系！ 只要是擋住去路的， 你都可以把他除掉， 我相信你能辦到。`
+
+[condition message]
+	`    前往天空之城的『黑暗玄廊』， 在冒險級以上難度的地下城， 消滅50名驅逐者與50名斧之驅逐者； 在王者級難度的地下城， 消滅1名天之驅逐者。`
+
+[solve message]
+	`果然！你跟我的心靈是相通的！！`
+
+[quest point]
+	4

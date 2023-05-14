@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`精神刺激靈藥`
+
+[explain]
+	`    使用後， 可以使所有技能的冷卻時間減少30%%， 效果持續10分鐘。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	32000
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	434
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	1800000
+
+[move wav]
+	`POTION_TOUCH`

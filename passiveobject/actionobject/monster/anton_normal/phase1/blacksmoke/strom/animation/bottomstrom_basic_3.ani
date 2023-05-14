@@ -1,0 +1,96 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/magic_circle.img`
+		0
+	[IMAGE POS]
+		-250	-99
+	[IMAGE RATE]
+		2.0	1.5
+	[RGBA]
+		255	0	0	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		280
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/magic_circle.img`
+		0
+	[IMAGE POS]
+		-250	-99
+	[IMAGE RATE]
+		2.0	1.5
+	[RGBA]
+		255	0	0	200
+	[DELAY]
+		2000
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/magic_circle.img`
+		0
+	[IMAGE POS]
+		-250	-99
+	[IMAGE RATE]
+		2.0	1.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/magic_circle.img`
+		0
+	[IMAGE POS]
+		-250	-99
+	[IMAGE RATE]
+		2.0	1.5
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/magic_circle.img`
+		0
+	[IMAGE POS]
+		-250	-99
+	[IMAGE RATE]
+		2.0	1.5
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/magic_circle.img`
+		0
+	[IMAGE POS]
+		-250	-99
+	[IMAGE RATE]
+		2.0	1.5
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500

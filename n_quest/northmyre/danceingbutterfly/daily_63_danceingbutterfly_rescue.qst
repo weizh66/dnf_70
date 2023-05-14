@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	63	99
+
+[pre required quest]
+	5811
+[/pre required quest]
+
+[pre required quest]
+	5806
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	6520	30002
+[/int data]
+
+[dungeon info]
+	52	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`營救暗夜使者`
+
+[depend message]
+	`冒險家， 你每次去血蝴蝶之舞時， 請順便幫我看看那里是否還囚禁著我的屬下。
+如果有， 請務必將他們救回， 謝謝！`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 營救被囚禁的暗夜使者， 要求地下城難度為王者級以上。`
+
+[solve message]
+	`非常感謝你的幫助。`

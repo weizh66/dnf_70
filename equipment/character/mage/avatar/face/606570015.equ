@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`覺醒造型-臉部`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[usable job]
+	`[mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/mage/mg_aface.img`	104
+
+[equipment type]
+	`[face avatar]`	0
+
+[animation job]
+	`[mage]`
+
+[variation]
+	45	0
+
+[layer variation]
+	100
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	45	0
+
+[layer variation]
+	100
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

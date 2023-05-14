@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`燉肉雜燴`
+
+[explain]
+	`使用后， 恢復35點疲勞值。 是以艾恩葛朗特S級食材雜燴兔的鮮肉做出來的燉肉。 因可以制作該料理的大師級料理精通的職業高玩非常稀少， 所以是非常難得的美味。`
+
+[flavor text]
+	`<SAO遇見DNF>`
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption_jp.img`	458
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[cool time]
+	1800000
+
+[stackable type]
+	`[expert town potion]`	0
+
+[move wav]
+	`POTION_TOUCH`
+
+[stack limit]
+	100
+
+[use action packet]
+	1
+
+[action type]
+	`[add fatigue]`	35
+[/action type]
+
+[cooltime maintenance]
+	1	1	1
+
+[action usable place]
+	`[village]`
+	`[seria room]`
+[/action usable place]

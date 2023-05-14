@@ -1,0 +1,163 @@
+#PVF_File
+
+[name]
+	`血玫瑰之刺`
+
+[basic explain]
+	` 攻擊時，以5%%的機率使敵人進入睡眠狀態。`
+
+[detail explain]
+	`攻擊時，以5%%機率 10秒內使敵人陷入睡眠狀態。 (若敵人高於Lv40，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	27
+
+[magical attack]
+	14
+
+[price]
+	58800
+
+[repair price]
+	47040
+
+[value]
+	235200
+
+[equipment physical attack]
+	372	356
+
+[equipment magical attack]
+	372	356
+
+[separate attack]
+	183	122
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	30	1
+	`[fighter]`	3	1
+	`[at fighter]`	112	1
+	`[at fighter]`	3	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/fighter/claw.img`	19
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[reduce duration to human armor at pvp module]
+		75
+	[probability]
+		5
+	[active status]
+		`sleep`	40
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`稱號售貨機代幣禮盒`
+
+[explain]
+	`裝有1個稱號售貨機代幣、10個卡妮娜的精致手工面包、10個卡妮娜的赫頓瑪爾純牛奶和2個希望之邀請函。`
+
+[flavor text]
+	`“多送您些贈品，下次還要再來呀！”
+                  --雜貨店的卡妮娜`
+
+[grade]
+	1
+
+[rarity]
+	1
+
+[price]
+	3000000
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/material.img`	232
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[booster info]
+	[stackable]
+		1	7454	100000	1
+	[/stackable]
+	[stackable]
+		1	7740	100000	10
+	[/stackable]
+	[stackable]
+		1	7741	100000	10
+	[/stackable]
+	[stackable]
+		1	10005005	100000	2
+	[/stackable]
+[/booster info]

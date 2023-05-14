@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	57
+
+[complete npc index]
+	58
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	57	99
+
+[pre required quest]
+	4362
+[/pre required quest]
+
+[enemy reward item]
+	61801	1	82	1	4313	1	100	40	61801	1	82	2	4313	1	100	40	61801	1	82	3	4313	1	100	40
+[/enemy reward item]
+
+[cant giveup]
+	2
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4313	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	7152	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`奪取彈藥`
+
+[depend message]
+	`呵呵， 你也看出來了吧？ 澤丁雖然外表強悍， 但其實她還只是個小姑娘。
+因為卡勒特， 她不僅失去了自己的右手臂， 還失去了哥哥……我非常理解她討厭我的心情， 而且我還知道她和你一樣， 是個很棒的年輕人， 所以我很想幫助她。
+我聽說卡勒特的主力部隊已經攻進南門了， 皇都軍要抵抗這么多的兵力， 彈藥肯定不夠， 我希望你能幫我……
+雖然很多人聽到卡勒特的名字都會被嚇得發抖， 但據我所知， 卡勒特的那些普通士兵， 大部分都是一些沒受過正規訓練的小鬼。
+年輕人， 請你把那些士兵身上的彈藥筒搶過來給澤丁吧。 另外， 你千萬別告訴她， 這是我拜托你的……`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特南門』， 從卡勒特普通士兵身上奪取40個[彈藥筒]， 要求地下城難度為冒險級以上。 (此任務在地下城中不可放棄)`
+
+[solve message]
+	`啊， 冒險家， 你怎么知道我們現在正缺彈藥啊？ 什么？ 是貝利特那老家伙？
+呼……看來這次不僅欠了冒險家一個人情， 還欠了貝利特的人情。
+不過， 人情歸人情， 我還是不太信任他。`
+
+[quest point]
+	4

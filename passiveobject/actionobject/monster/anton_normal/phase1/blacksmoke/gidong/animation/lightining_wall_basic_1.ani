@@ -1,0 +1,53 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/CosmoFiend/SealedGate/SealedGateDestroyedGlow.img`
+		0
+	[IMAGE POS]
+		-73	-178
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/CosmoFiend/SealedGate/SealedGateDestroyedGlow.img`
+		1
+	[IMAGE POS]
+		-73	-208
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+
+[FRAME002]
+	[IMAGE]
+		`Monster/CosmoFiend/SealedGate/SealedGateDestroyedGlow.img`
+		2
+	[IMAGE POS]
+		-73	-248
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+
+[FRAME003]
+	[IMAGE]
+		`Monster/CosmoFiend/SealedGate/SealedGateDestroyedGlow.img`
+		3
+	[IMAGE POS]
+		-73	-278
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500

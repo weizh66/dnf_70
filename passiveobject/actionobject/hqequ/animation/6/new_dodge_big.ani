@@ -1,0 +1,104 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	9
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge_Big.img`
+		0
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	5	0	102
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge_Big.img`
+		1
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	5	0	76
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		4	1
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		4	1
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		4	1
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		4	1
+	[DELAY]
+		80
+
+[FRAME006]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		4	1
+	[DELAY]
+		80
+
+[FRAME007]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge_Big.img`
+		7
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	5	0	76
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME008]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge_Big.img`
+		8
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	5	0	102
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

@@ -1,0 +1,14 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/PentagonObject/Pentagon/StartPentagon_01.ani`
+	[SUB ANI]
+		`../Animation/PentagonObject/Pentagon/NotWorkPentagon_01.ani`	0	0
+		`../Animation/PentagonObject/Pentagon/DisappearPentagon_07.ani`	0	0
+		`../Animation/PentagonObject/Pentagon/CastWorkPentagon_03.ani`	0	0
+		`../Animation/PentagonObject/Pentagon/WorkPentagon_01.ani`	0	0
+		`../Animation/PentagonObject/Pentagon/WorkPentagon_01.ani`	0	0
+		`../Animation/PentagonObject/Pentagon/EndPentagon_03.ani`	0	0
+	[/SUB ANI]
+[/MOTION]

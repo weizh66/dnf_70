@@ -1,0 +1,96 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	101
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at mage]`	101
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[at mage]`	101
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[at mage]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[乖離 : 禁忌之奈雅麗]攻擊力 +20%%
+[乖離 : 魅魔之舞]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	101
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+		`[at mage]`	101
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+		`[at mage]`	101
+		`[dungeon type]`
+		`[level]`	6
+		`%`	25
+		`[at mage]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	104
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	104
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	105
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at mage]`	105
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[乖離 : 禁忌之奈雅麗]攻擊力 +25%%
+[乖離 : 魅魔之舞]攻擊力 +30%%
+[乖離 : 魅魔之舞]冷卻時間 -20%%
+[乖離 : 異界蜂群]攻擊力 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	104
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[at mage]`	110
+		`[dungeon type]`
+		`[level]`	0
+		`%`	55
+		`[at mage]`	110
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[at mage]`	110
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1000
+	[/skill data up]
+	[parameter basic explain]
+		`[乖離 : 魅魔之舞]最后一擊攻擊力 +50%%
+[乖離 : 禁錮]攻擊力 +55%%
+[乖離 : 禁錮]冷卻時間 -35%%
+[乖離 : 禁錮]束縛時間 +1秒`
+[/piece set ability]

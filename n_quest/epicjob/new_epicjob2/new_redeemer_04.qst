@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 救世主 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然如今各個角落仍然散落著被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+從現在起， 你要回到你們教團所在的地方， 去獲得更強大的力量。
+到達目的地后， 要在那里完成禱告， 成為‘救世主’。 換作是普通人可能會被原罪碾壓窒息， 但憑你的實力應該可以承載它的重量。
+你將會面臨異常的艱辛。 日后可能會比現在更加艱難、 痛苦。 但即便如此， 你也絕不能倒下。 你要抱著為信念奉獻一切的決心去悟出力量的真諦并接受它。
+你將會成為‘救世主’， 代替人類扛下世間的一切罪孽， 同時也會帶領一群愚蠢的人類進入最初的樂園……`
+
+[pre required quest]
+	6826
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

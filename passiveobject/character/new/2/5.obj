@@ -1,0 +1,21 @@
+#PVF_File
+
+[layer]
+	`[cover]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/5.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	241716
+[/object destroy condition]
+
+[name]
+	`?的?么?的背景？！`

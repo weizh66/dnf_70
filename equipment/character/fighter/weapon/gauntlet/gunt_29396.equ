@@ -1,0 +1,211 @@
+#PVF_File
+
+[name]
+	`烈焰盾波迪爾的臂鎧`
+
+[basic explain]
+	`崩拳，肘擊命中時以10%% 的機率施展通背拳
+不可解體`
+
+[detail explain]
+	`崩拳，肘擊 命中時以10%% 機率施展通背拳
+被通背拳擊中時以100%%的機率3秒內讓敵人進入眩暈狀態。 （高於Lv69的對象得到的機率和效果減少，低於Lv69的對象則會增加。 決鬥場內修正為 2%% 機率）
+不可解體`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	65
+
+[anti evil]
+	12
+
+[physical attack]
+	69
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[need material]
+	3337	420
+
+[repair price]
+	104328
+
+[value]
+	99360
+
+[equipment physical attack]
+	785	725
+
+[equipment magical attack]
+	589	544
+
+[separate attack]
+	389	264
+
+[skill levelup]
+	`[fighter]`	88	3
+	`[at fighter]`	88	3
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	72
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	18	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[cooltime]
+		150
+	[skill]
+		`fighter`	80
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48164	0	0	0	0	0
+		``
+	[/passive object]
+	[speech on]
+		0	2000
+		`通背拳！`
+	[/speech on]
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[skill]
+		`at fighter`	80
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[passive object]
+		48164	0	0	0	0	0
+		``
+	[/passive object]
+	[speech on]
+		0	2000
+		`通背拳！`
+	[/speech on]
+[/then]
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

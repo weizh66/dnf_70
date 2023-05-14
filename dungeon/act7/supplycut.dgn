@@ -1,0 +1,263 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`補給線阻斷戰`
+	
+
+[explain]
+	`負責擾亂敵人前哨基地的冒險家們發現， 敵軍部隊的生命中樞--前線補給基地就隱藏在安特貝魯峽谷。 如果能夠切斷敵軍的補給， 就能為皇都軍爭取更多的時間。 冒險家， 請立刻突襲敵人的補給基地！`
+	
+
+[entering title]
+	`Title/Supplycut.ani`
+
+[cutscene image]
+	`Map/CutScene/GentEastGate.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act6.img`
+
+[worldmap pattern info]
+	1	7
+	`WorldMap/SelectdungeonSlot/gent.img`	4
+
+[minimum required level]
+	61
+
+[basis level]
+	64
+
+[experience increasing point]
+	1.2
+
+[champion]
+	3	6	9	12	9
+
+[pathgate object]
+	8954	8953	8952	8951	8950	8949	8948	8947	8946	8945
+
+[maze info]
+
+[size]
+	9	2
+
+[greed]
+	`AAAAAAAAAAJJFFMMAA
+ BBFFFFFFFFHHFFHHEE`
+
+[map specification]
+	1	1	17002
+[/map specification]
+
+[map specification]
+	2	1	17003
+[/map specification]
+
+[map specification]
+	3	1	17004
+[/map specification]
+
+[map specification]
+	4	1	17005
+[/map specification]
+
+[map specification]
+	5	1	17006
+[/map specification]
+
+[map specification]
+	6	1	17007
+[/map specification]
+
+[map specification]
+	7	1	17008
+[/map specification]
+
+[map specification]
+	5	0	17010
+[/map specification]
+
+[map specification]
+	6	0	17016
+[/map specification]
+
+[map specification]
+	7	0	17017
+[/map specification]
+
+[boss map specification]
+	8	1	17009
+[/boss map specification]
+
+[start map]
+	0	1
+[/start map]
+
+[boss map]
+	8	1
+[/boss map]
+
+[hell dungeon]
+	1
+
+[seal door map index]
+	60046
+
+[seal door pos]
+	5	1
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[maze info]
+
+[quest connection]
+	0	5743	0
+
+[size]
+	3	1
+
+[greed]
+	`BBFFEE`
+
+[map specification]
+	1	0	17002
+[/map specification]
+
+[boss map specification]
+	2	0	17019
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	2	0
+[/boss map]
+
+[escape hell]
+	1
+
+[maze info]
+
+[quest connection]
+	0	5745	0
+
+[size]
+	6	1
+
+[greed]
+	`BBFFFFFFFFEE`
+
+[map specification]
+	1	0	17002
+[/map specification]
+
+[map specification]
+	2	0	17003
+[/map specification]
+
+[map specification]
+	3	0	17004
+[/map specification]
+
+[map specification]
+	4	0	17005
+[/map specification]
+
+[boss map specification]
+	5	0	17020
+[/boss map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	5	0
+[/boss map]
+
+[escape hell]
+	1
+
+[maze info]
+
+[quest connection]
+	0	5761	4
+
+[size]
+	9	2
+
+[greed]
+	`AAAAAAAAAAJJFFMMAA
+ BBFFFFFFFFHHFFHHEE`
+
+[map specification]
+	1	1	17021
+[/map specification]
+
+[map specification]
+	2	1	17003
+[/map specification]
+
+[map specification]
+	3	1	17004
+[/map specification]
+
+[map specification]
+	4	1	17005
+[/map specification]
+
+[map specification]
+	5	1	17006
+[/map specification]
+
+[map specification]
+	6	1	17007
+[/map specification]
+
+[map specification]
+	7	1	17008
+[/map specification]
+
+[map specification]
+	5	0	17010
+[/map specification]
+
+[map specification]
+	6	0	17016
+[/map specification]
+
+[map specification]
+	7	0	17017
+[/map specification]
+
+[boss map specification]
+	8	1	17009
+[/boss map specification]
+
+[start map]
+	0	1
+[/start map]
+
+[boss map]
+	8	1
+[/boss map]
+
+[escape hell]
+	1
+
+[event monster]
+	1	4500	61728	1	300	80	1
+[/event monster]
+
+[special passive object item]
+	0	-1	1	3266	10000	1	-1	1	3270	9000	2	-1	1	3271	9000	3	-1	1	3272	9000
+[/special passive object item]

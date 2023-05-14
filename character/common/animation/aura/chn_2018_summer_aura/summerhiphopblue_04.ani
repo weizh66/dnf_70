@@ -1,0 +1,47 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/Aura/chn_2018_summer_aura/Spotlight02.img`
+		10
+	[IMAGE POS]
+		-77	-220
+	[IMAGE RATE]
+		-1.0	0.8999999761581421
+	[RGBA]
+		10	201	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		600
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Common/Aura/chn_2018_summer_aura/Spotlight02.img`
+		10
+	[IMAGE POS]
+		-133	-226
+	[IMAGE RATE]
+		-1.0	0.8999999761581421
+	[IMAGE ROTATE]
+		-0.3499999940395355
+	[RGBA]
+		10	201	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`

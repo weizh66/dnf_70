@@ -1,0 +1,175 @@
+#PVF_File
+
+[name]
+	`里昂的怨靈戰斧`
+
+[basic explain]
+	`  ↑↓+[寵物技能鍵]輸入時，會消耗1個黑色小晶塊，召喚里昂的靈魂附體，效果持續30秒；附體狀態下，角色可以借用里昂的技能。（冷卻時間30秒）
+  附加狀態下進行攻擊時，會生成里昂的閃電。
+  攻擊感電狀態下的敵人時，附加10%%的傷害。（冷卻時間1秒）`
+
+[flavor text]
+	`  是誰殺了我 ...`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[need material]
+	3500	1300
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1093	977
+
+[equipment magical attack]
+	774	692
+
+[separate attack]
+	552	363
+
+[dark attack]
+	15
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	103
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	36	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3033	1
+	[duration]
+		30000
+	[appendage]
+		234
+	[passive object]
+		60092	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		234
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		60100	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		234
+	[attack success]
+		1
+	[target active status]
+		`lightning`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

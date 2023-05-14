@@ -1,0 +1,104 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`諾伊佩拉`
+	
+
+[explain]
+	`突然爆發的傳染病讓暗精靈城鎮諾伊佩拉一夕之間變成了一座空城， 居住在那裡的居民不是因傳染病死亡就是變成了恐怖的盜屍者， 就連暗精靈的煉金術師摩根也不例外……克倫特得知摩根在變成盜屍者前， 曾把關於傳染病的研究日誌藏在諾伊佩拉的某處， 於是拜託冒險家前往諾伊佩拉尋找摩根的日誌， 然而……隱藏在地下深處的暗精靈城鎮到底發生了什麼？ 冒險家們能順利找到摩根的日誌嗎？`
+	
+
+[entering title]
+	`Title/Noirpera.ani`
+
+[cutscene image]
+	`Map/CutScene/UnderFoot.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	2	6
+	`WorldMap/SelectdungeonSlot/noierfera.img`	3
+
+[minimum required level]
+	61
+
+[basis level]
+	64
+
+[required item]
+	4343	1	1
+
+[coin limit]
+	3
+
+[experience increasing point]
+	1.19
+
+[champion]
+	0	0	0	0	0
+
+[prohibit practice]
+	1
+
+[pathgate object]
+	441	442	443	444	445	446	681	682	449	450
+
+[maze info]
+
+[size]
+	5	2
+
+[greed]
+	`BBMMJJFFEE
+ AADDGGAAAA`
+
+[map specification]
+	1	0	7102
+[/map specification]
+
+[map specification]
+	1	1	7103
+[/map specification]
+
+[map specification]
+	2	1	7104
+[/map specification]
+
+[map specification]
+	2	0	7105
+[/map specification]
+
+[map specification]
+	3	0	7106
+[/map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	4	0
+[/boss map]
+
+[ancient dungeon]
+	1
+
+[seal door map index]
+	60036
+
+[seal door pos]
+	3	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1

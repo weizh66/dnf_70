@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`獄巖石之棒`
+
+[basic explain]
+	`攻擊速度 +1%%
+攻擊時以2%%的機率讓敵人陷入眩暈狀態`
+
+[detail explain]
+	`攻擊速度 +1%%
+攻擊時以2%%的機率2秒內讓敵人陷入眩暈狀態。 （比Lv50高的目標陷入狀態機率較低，比 Lv50低的目標陷入狀態機率較高。決鬥場修正為 1秒）`
+
+[flavor text]
+	`用建造死亡之塔的地獄礦石--獄巖石製作的武器， 據說含有能讓使用者潛力爆發的神秘力量。`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	56
+
+[attack speed]
+	-20
+
+[cast speed]
+	10
+
+[stuck]
+	-1
+
+[price]
+	75600
+
+[repair price]
+	63504
+
+[value]
+	302400
+
+[equipment physical attack]
+	515	497
+
+[equipment magical attack]
+	445	429
+
+[separate attack]
+	233	156
+
+[skill levelup]
+	`[swordman]`	86	1
+	`[swordman]`	87	1
+	`[swordman]`	85	1
+	`[swordman]`	88	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/club.img`	42
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	3	7
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	3	7
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	50
+[/then]
+
+[possible kiri protect]

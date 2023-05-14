@@ -1,0 +1,190 @@
+#PVF_File
+
+[name]
+	`墮落的魔鬼之手`
+
+[basic explain]
+	`物理，魔法傷害增加10%% 
+惡魔類型的敵人攻擊時15%% 附加傷害
+惡魔類型的怪物死亡時HP恢復2%% `
+
+[flavor text]
+	`咳咳.. 我幫你抓魔鬼。當然天下沒有白吃的午餐`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	84
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[HP regen speed]
+	-300
+
+[price]
+	153000
+
+[repair price]
+	128520
+
+[value]
+	122400
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	989	917
+
+[equipment magical attack]
+	742	688
+
+[separate attack]
+	504	343
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/gauntlet/gauntlet.img`	90
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	23	1
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target type]
+		`devil`
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	2	0
+[/then]
+
+[if]
+	[target type]
+		`devil`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[possible kiri protect]

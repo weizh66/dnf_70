@@ -1,0 +1,191 @@
+#PVF_File
+
+[name]
+	`班傑里斯的吶喊 - 匕首`
+
+[basic explain]
+	`攻擊速度 +2%%
+被攻擊時以 5%% 的機率召喚破壞之王修頓
+HP 50%% 以下時力量增加50，物理暴擊增加5%%
+不可解體`
+
+[detail explain]
+	`攻擊速度 +2%%
+被攻擊時以 5%% 的機率召喚破壞之王修頓（決鬥場內不適用）
+HP 50%% 以下時力量增加50，物理暴擊增加5%%
+不可解體`
+
+[grade]
+	54
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	37
+
+[attack speed]
+	120
+
+[stuck]
+	1
+
+[price]
+	86400
+
+[repair price]
+	345600
+
+[value]
+	345600
+
+[equipment physical attack]
+	425	391
+
+[equipment magical attack]
+	450	414
+
+[separate attack]
+	299	200
+
+[physical critical hit]
+	10
+
+[icon]
+	`Item/weapon/thief/dagger.img`	93
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	19	3
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		60000
+	[hit]
+		1
+[/if]
+
+[then]
+	[probability]
+		5
+	[duration]
+		60000
+	[target]
+		`myself`	-1
+	[summon apc]
+		20606	54	1
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`<`
+		`%`	50
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`physical critical hit rate`
+		`+`	5
+[/then]
+
+[pvp]
+	[if]
+		[change status]
+			`hp`
+			`<`
+			`%`	50
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[stat by condition]
+			`physical attack`
+			`+`	50
+		[stat by condition]
+			`physical critical hit rate`
+			`+`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

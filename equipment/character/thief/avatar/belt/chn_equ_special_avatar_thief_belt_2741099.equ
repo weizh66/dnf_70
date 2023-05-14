@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`黃金冥月斗士腰帶`
+
+[explain]
+	`    要成為格斗之王， 除了擁有非凡的操作技術之外， 還要有廣闊的胸襟、 公正的姿態以及一顆勇敢的心。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_abelt.img`	134
+
+[equipment type]
+	`[waist avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	44	0
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1100
+	`belt_b`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[set item master]
+	2740585
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[all elemental resistance]
+	10
+
+[stuck resistance]
+	50
+
+[avatar func filter]
+	2

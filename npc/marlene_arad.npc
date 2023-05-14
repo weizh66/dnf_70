@@ -1,0 +1,70 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace03.img`	28
+
+[big face]
+	`Map/Npc/NpcFace03.img`	28
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	69
+
+[field animation]
+	`Animation/Npc_Marlene.ani`
+
+[field wav]
+	`R_NPC_Marlene_AMB`
+
+[popup wav]
+	`R_NPC_Marlene_TALK`
+	`R_NPC_Marlene_FAREWELL`
+
+[role]
+	`[move town]`	56
+[/role]
+
+[look around]
+	0
+
+[move town limit str]
+	`角色需要達到Lv55才能搭乘去往天界的摩伽陀。`
+
+[move town confirm str]
+	`確定要搭乘去往根特的摩伽陀嗎？`
+
+[name]
+	`馬琳·基希卡`
+
+[field name]
+	`馬琳·基希卡`
+
+[quest speech]
+	`『如果你有事找我， 就要遵守禮儀。』`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::60>我是為了尋求冒險家的幫助才來到阿拉德大陸的。
+我是侍奉皇女殿下的宮女， 我叫馬琳·基希卡。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::60>要去天界， 從物理角度來說， 可以用暗精靈的飛空艇摩伽陀穿過能呼吸的天空之海， 然后就可以到達天界。
+但如今， 巴卡爾的魔法陣阻擋在天界和阿拉德大陸之間， 而暗精靈的飛空艇摩伽陀是無法穿過魔法陣的。
+因此， 要想去天界， 就必須破壞巴卡爾的魔法陣或者想辦法穿過魔法陣。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::60>唉……阿拉德大陸上無理的人太多了， 應該把那些家伙關起來， 然后好好教他們禮節。`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	1	0
+	`<npc::60>我現在急需能力強大的冒險家幫助天界度過難關， 你顯然不是我要找的人。`
+[/dialog]
+
+[dialog]
+	5	1	99	-1	2	0
+	`<npc::56>太失望了， 我覺得沒必要帶您這樣的人去根特。`
+[/dialog]

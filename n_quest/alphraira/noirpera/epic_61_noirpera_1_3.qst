@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	4444
+[/pre required quest]
+
+[monster reward item]
+	61003	1502	0	4344	1	50	1	61003	1502	1	4344	1	52	1	61003	1502	2	4344	1	53	1	61003	1502	3	4344	1	54	1	56000	1502	0	4344	1	60	1	56000	1502	1	4344	1	60	1	56000	1502	2	4344	1	65	1	56000	1502	3	4344	1	70	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4344	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 摩根的日志在哪里？`
+
+[depend message]
+	`啊……除了人類和使徒的幻影外， 你還發現了異次元裂縫……？
+摩根……是不是也發現過異次元裂縫？
+冒險家拜托了， 請你一定要找到摩根的日志~`
+
+[condition message]
+	`    前往諾伊佩拉地區的『諾伊佩拉』， 尋找[摩根的日志]。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`這……這分明是摩根的字跡！
+終于又見到你了……摩根！ 啊……`
+
+[quest point]
+	4

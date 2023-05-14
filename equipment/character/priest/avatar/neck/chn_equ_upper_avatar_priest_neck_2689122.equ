@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`冬青胸針 (圣職者)`
+
+[flavor text]
+	`<圣誕節的祝福活動>`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_aneck.img`	53
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar func filter]
+	0
+
+[usable period]
+	20
+
+[variation]
+	18	0
+
+[layer variation]
+	2200
+	`neck_c`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[MP regen speed]
+	3
+
+[physical attack]
+	10
+
+[magical attack]
+	10
+
+[part set index]
+	2

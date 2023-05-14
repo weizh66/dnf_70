@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	18
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	54	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	45	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`冰龍的威脅`
+
+[depend message]
+	`公國告知所有冒險家 : 冰龍斯卡薩的問題， 不僅僅是班圖族的問題， 它亦嚴重威脅到公國的安寧。
+現公國募集境內有能力的冒險家， 望其兼備勇氣與實力， 能與斯卡薩抗衡， 為公國解憂。
+另外， 個人能力再強亦有限， 請與志同道合者前往。`
+
+[condition message]
+	`    通關萬年雪山的『斯卡薩之巢』， 然后去找赫頓瑪爾的博肯， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`呵呵， 看到這么多勇士為公國效力， 我感到很欣慰。`

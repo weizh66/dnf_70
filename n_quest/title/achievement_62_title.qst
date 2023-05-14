@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5729
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	83	-1	61438	5	83	-1	61437	8	83	-1	61442	10
+[/int data]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26621	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`雜技愛好者`
+
+[depend message]
+	`說起來有點不好意思……別看我外表不茍言笑， 其實我從小就喜歡看雜技表演。 只是因為軍隊的訓練比較忙， 所以一直沒有時間。
+我曾想過， 哪天有時間一定要去看一次。 可是……這樣下去， 你要是把銀勺雜技團都消滅了， 我又去哪看呢？
+<npc::0>呃……那你說怎么辦？
+<npc::60>我想……如果可以的話……你去抓幾個銀勺團員回來， 然后命令他們表演， 這樣既不耽誤作戰， 也滿足了我的心愿……`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』， 捉拿銀勺雜技團團員。`
+
+[solve message]
+	`你真的把他們抓回來了？
+太好了， 快讓他們開始表演吧！`

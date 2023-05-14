@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+	`天界的特製手炮`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入減速狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人20秒內呈現鈍化狀態，移動速度減少10%%，攻擊速度減少10%%。 （高於Lv25的對象得到的機率和效果減少，低於Lv25的對象則會增加）`
+
+[grade]
+	25
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	25
+
+[physical attack]
+	26
+
+[price]
+	360000
+
+[repair price]
+	36000
+
+[value]
+	36000
+
+[equipment physical attack]
+	258	224
+
+[equipment magical attack]
+	155	135
+
+[separate attack]
+	119	77
+
+[icon]
+	`item/weapon/gunner/hcannon.img`	21
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	21
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[medal]
+	1000
+
+[if]
+	[cooltime]
+		32000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[active status]
+		`slow`	25	10	10
+[/then]
+
+[possible kiri protect]

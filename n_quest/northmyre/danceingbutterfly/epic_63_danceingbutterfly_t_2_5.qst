@@ -1,0 +1,93 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[target character]
+	`[thief]`	-1	-1
+[/target character]
+
+[level]
+	63	99
+
+[pre required quest]
+	5813
+[/pre required quest]
+
+[cant giveup]
+	2
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	6514
+[/int data]
+
+[dungeon info]
+	52	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	7776	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`某位冒險家的夢`
+
+[depend message]
+	`好了， 一切準備妥當。 現在你只要前往血蝴蝶之舞， 就能看見實體化的夢境了。`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 尋找夢境中的冒險家， 要求地下城難度為王者級。`
+
+[solve message]
+	`暴戾搜捕團……沒想到他們竟然會出現在那里， 看來異次元裂縫應該就在那附近。 我們一定要比他們更快找到！`
+
+[dialog]
+	0	0	6514	2	0	0	0
+	`<apc::1508>這……這是哪里？
+啊！ 我……我是……
+對了， 沒錯， 我是接任務后來到這里的…… `
+[/dialog]
+
+[dialog]
+	0	0	6512	2	0	0	0
+	`<apc::1508>哦， 是嗎？……啊！ 我想起來了！
+我是暴戾搜捕團諾斯瑪爾支部的部長， 我叫洛茲貝倫。
+我來這里的任務是打敗諾絲克爾！`
+[/dialog]
+
+[dialog]
+	0	1	6512	2	0	0	0
+	`<apc::1508>謝謝， 太感謝你了！ 幸虧有你的幫忙， 要不然我一個人肯定是完不成任務！
+什么， 你說我這身體是假的， 一切都是在我的夢境里？
+……呵呵~年輕人啊！ 其實我早就知道這身體不是真實的， 因為沒有了以前熟悉的感覺……
+哎~我把肉體交給了希洛克， 或許它現在正在某個空間游蕩呢……
+我知道你跟搶我女兒的那些強盜們不一樣……不過， 我勸你一句， 小心暴戾搜捕團！
+另外， 不管什么時候， 我都會不擇手段地阻止你們。 就說到這吧， 先告辭了！`
+[/dialog]
+
+[quest point]
+	4

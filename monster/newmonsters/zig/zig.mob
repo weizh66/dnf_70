@@ -1,0 +1,193 @@
+#PVF_File
+
+[floating height]
+	0
+
+[name]
+	`神官吉格`
+
+[attack speed]
+	1000	1000
+
+[face image]
+	`Monster/MonsterFace.img`	443
+
+[die effect]
+	0	26	1
+
+[ability table]
+	1
+
+[ability category]
+	`[HP MAX]`
+	`*`	400
+	`[PHYSICAL_ATTACK]`
+	`*`	100
+	`[PHYSICAL_DEFENSE]`
+	`*`	100
+	`[MAGICAL_ATTACK]`
+	`*`	100
+	`[MAGICAL_DEFENSE]`
+	`*`	100
+[/ability category]
+
+[category]
+	`[human]`
+[/category]
+
+[targeting bonus]
+	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+	`[stand]`
+	`[dash]`	0	0	0
+
+[water resistance]
+	0	0
+
+[freeze resistance]
+	0	0
+
+[HP regen speed]
+	0	0
+
+[MP regen speed]
+	0	0
+
+[dark resistance]
+	30	30
+
+[light resistance]
+	-20	-20
+
+[level]
+	1	120
+
+[move speed]
+	1200	1200
+
+[cast speed]
+	1000	1000
+
+[hit recovery]
+	1000	1000
+
+[weight]
+	60000	60000
+
+[targeting time term]
+	-1
+
+[lie frame]
+	2	2	2	3	4
+
+[common champion drop item]
+[/common champion drop item]
+
+[waiting action]
+	`Action/Stay.act`
+
+[move action]
+	`Action/Move.act`
+
+[etc action]
+[/etc action]
+
+[etc motion]
+	`Animation/StoneFall_Body.ani`
+	`Animation/StoneFalling_Body.ani`
+	`Animation/teleport_disappear_body.ani`
+	`Animation/teleport_appear_body.ani`
+	`Animation/encroach_start_body.ani`
+	`Animation/encroach_draghell_body.ani`
+	`Animation/DarkAura_Ready.ani`
+	`Animation/DarkAura_Start.ani`
+	`Animation/DarkAura_Loop.ani`
+[/etc motion]
+
+[attack action]
+	`Action/Darksword.act`
+	`Action/soulcutter.act`
+	`Action/Posssession.act`
+	`Action/StoneFall.act`
+	`Action/Scream_kazan.act`
+	`Action/Scream_bremen.act`
+	`Action/Scream_saya.act`
+	`Action/Scream_rasa.act`
+[/attack action]
+
+[attack info]
+	`attackinfo/Darksword.atk`
+	``
+	`attackinfo/posssession01.atk`
+	``
+	``
+	``
+	``
+	``
+[/attack info]
+
+[etc attack info]
+	`attackinfo/scream.atk`
+	`attackinfo/scream.atk`
+	`attackinfo/scream2.atk`
+	`attackinfo/scream.atk`
+	`attackinfo/soulcutter.atk`
+	`attackinfo/stonefall.atk`
+	`attackinfo/encroach.atk`
+	`attackinfo/darkAuraStart.atk`
+	`attackinfo/darkAuraLoop.atk`
+[/etc attack info]
+
+[cooltime]
+	2000	4000	3000	3000	3000	3000	3000	3000	3000	3000
+[/cooltime]
+
+[stuckbonus on damage]
+	0	0	0	0
+
+[vision]
+	5000
+
+[warlike]
+	100
+
+[think term]
+	300
+
+[destination change term]
+	500
+
+[keep distance with target]
+	200
+
+[ai pattern]
+	[normal]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/normal]
+	[expert]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/expert]
+	[master]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/master]
+	[king]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/king]
+	[slayer]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/slayer]
+[/ai pattern]

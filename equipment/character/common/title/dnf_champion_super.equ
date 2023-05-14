@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`2012 DNF 全國制霸`
+
+[explain]
+	`  前沖時， 有8%%的幾率增加8%%的攻擊速度、 移動速度和施放速度， 效果持續40秒。`
+
+[flavor text]
+	`  DNF 2012超級錦標賽全國冠軍的專屬稱號！ 它代表著阿拉德大陸最強的王者。永遠不放棄的FIGHT精神的稱霸全國的終極奧義！`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	148
+
+[custom animation]
+	`TitleAnimation/2012_DNF_champion.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[HP MAX]
+	400
+
+[MP MAX]
+	400
+
+[physical defense]
+	27
+
+[magical defense]
+	27
+
+[move speed]
+	40
+
+[attack speed]
+	40
+
+[stuck]
+	-4
+
+[stuck resistance]
+	40
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[cast speed]
+	40
+
+[if]
+	[cooltime]
+		90000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		8
+	[stat]
+		`attack speed`
+		`+`	80
+	[stat]
+		`move speed`
+		`+`	80
+	[stat]
+		`cast speed`
+		`+`	80
+[/then]

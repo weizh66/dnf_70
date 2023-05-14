@@ -1,0 +1,70 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		110
+	[vertical distance]
+		0
+	[size]
+		20	22
+	[title string]
+		`LEVEL UP！ 等級支援活動`
+	[controls]
+		[ui controls]
+			`[board image]`
+			`0`	-1	3	1
+			`Interface/WindowCommon.img`	11	243	260	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`1`	2	12	1
+			`1.活動參加辦法
+購買2012夢幻勇士套裝，以及在「送禮」時，將會自動參加活動
+2. 活動內容
+1) 購買套裝2個時，將會額外發送1個「2012夢幻勇士稱號箱子」
+2) 購買套裝3個時，將會額外發送1個「SD角色寵物蛋」
+3) 購買套裝4個時，將會額外發送「2008夢幻勇士裝扮推進器」1個
+(額外分發的BONUS道具全為帳號綁定裝備。)`	9	-1	235	0	0	0	0	230	200	155
+		[/ui controls]
+		[ui controls]
+			`[hyperlinklabel]`
+			`100`	170	246	0	7	100	20	230	200	155	0	1
+			[user option]
+				`url link`
+				`[前往官網]`	255	240	0
+				`http://df.nexon.com/?GO=pr|dreamfighter12`
+			[/user option]
+			[parent]
+				`0`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`102`	154	246	1
+			`Interface2/UI/EventList/Event_window.img`	1	2
+			[parent]
+				`0`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`10`	2	185	1
+			`LEVEL UP！ 等級支援活動`	9	-1	235	0	0	0	0	230	200	155
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`11`	2	205	1
+			`LEVEL UP！ 等級支援活動`	9	-1	235	0	0	0	0	230	200	155
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`200`	92	266	2
+			`Interface/WindowCommon.img`
+			`確認`	4	12	13	14	15
+		[/ui controls]
+	[/controls]
+[/window]

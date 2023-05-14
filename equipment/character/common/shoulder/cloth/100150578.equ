@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`上元節絲綢護肩`
+
+[basic explain]
+	`所有攻擊力 +7%%`
+
+[flavor text]
+	`該裝備可以通過合成進行升級。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12583
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	80
+
+[magical attack]
+	120
+
+[magical defense]
+	40
+
+[need material]
+	3826	1000
+
+[price]
+	76800
+
+[repair price]
+	61440
+
+[value]
+	61440
+
+[creation rate]
+	125
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	848	776
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[all elemental attack]
+	12
+
+[icon]
+	`item/new_equipment/02_cloth/neck/cloth_neck.img`	62
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	7
+	[stat by condition]
+		`magical attack bonus`
+		`%`	7
+	[stat by condition]
+		`separate attack`
+		`%`	7
+[/then]
+
+[possible kiri protect]

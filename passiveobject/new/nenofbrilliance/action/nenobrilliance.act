@@ -1,0 +1,29 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/nenofbrilliance.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			258401
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[FLASH SCREEN]
+		250	2000	250	2550	0	0	0
+[/BEHAVIOR]

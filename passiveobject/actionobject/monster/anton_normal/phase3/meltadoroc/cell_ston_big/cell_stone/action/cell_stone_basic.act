@@ -1,0 +1,78 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/distance_smell_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			500
+		[ZPOS]
+		[<=]
+			10
+		[IS NOT TARGET STATE]
+			5
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[ENABLE]
+	[OFF]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			58027
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70214
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	150
+		[FOLLOWING TARGET]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[stone]
+		100	110	5000	50
+[/BEHAVIOR]

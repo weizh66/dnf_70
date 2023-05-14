@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 神思者 (2/6)`
+
+[depend message]
+	`好， 你決定留下來了？ 不錯， 你們教團會為你感到欣慰的。
+聽說很多圣職者都離開了， 現在教團的情況非常不理想。 既然如此， 你就要達到更高的境界， 用你更加堅定的信仰去引導教團里的圣職者們。
+為了完成使命， 你要先提升自己的力量。 我也會盡全力幫助你激發內在的潛力。
+首先， 你的力量完全來自于你對神明的信仰。 我們先考驗一下你的信念是否受到了此次事件的影響， 變得搖擺不定了， 同時也要評估一下未來的你能否具備更加堅定的信念。
+現在素喃正在舉辦魂·黃龍大會， 去向那里的強者們盡情展示你所具備的信念之力吧。
+只要你有堅定不移的真誠信念， 此次任務應該是不難完成的。
+想要參賽首先要拿到‘斯卡迪女王的印章’， 你先去收集那個東西吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5063
+[/pre required quest]
+
+[relation quest]
+	6796
+
+[job change quest]
+	3
+
+[grow number]
+	0

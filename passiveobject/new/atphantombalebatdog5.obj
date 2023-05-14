@@ -1,0 +1,26 @@
+#PVF_File
+
+[name]
+	`ATMage PhantomBale Bat Dog`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[attack info]
+	`AttackInfo/ATPhantomBaleGrab.atk`
+
+[basic action]
+	`Action/atphantombalebatdog5.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

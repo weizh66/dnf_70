@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	4450
+[/pre required quest]
+
+[monster reward item]
+	61003	1502	-1	4345	1	40	-1	61419	1502	-1	4345	1	40	-1	61420	1502	-1	4345	1	40	-1	56000	1502	-1	4345	1	100	-1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4345	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+	1111	7	1117	7
+[/reward selection int data]
+
+[name]
+	`遠古 - 不解的怨恨 (重復)`
+
+[depend message]
+	`冒險家， 如果你去諾伊佩拉， 請記得讓那些可憐的暗精靈的冤魂安息……`
+
+[condition message]
+	`    前往諾伊佩拉地區的『諾伊佩拉』， 想辦法讓暗精靈盜尸者的怨靈得到安息。`
+
+[solve message]
+	`謝謝你！ 他們的冤魂終于能安息了……`

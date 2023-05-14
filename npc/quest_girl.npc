@@ -1,0 +1,40 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	36
+
+[big face]
+	`Map/Npc/NpcFace04.img`	36
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	36
+
+[field animation]
+	`Animation/girl.ani`
+
+[look around]
+	0
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1032>因突如其來的爆炸失去了意識。到......。到底是什麼事呢？
+啊...。我的手好像被火燃燒......。一定是哪裡不尋常。`
+[/dialog]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1032>眼前一亮發生了強烈的爆炸。大家都被爆炸掃到而仆倒......。
+啊... 騎士團長還好嗎？還有其他小孩怎麼都消失了呢？`
+[/dialog]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1032>今天騎士團長有可能來練習場監察，所以我心情很緊張。
+ 竟然會發生這種悲劇... 呃！ 我的手感覺抽痛。會是受傷了嗎？`
+[/dialog]
+
+[name]
+	`受傷的少女`
+
+[field name]
+	`受傷的少女`

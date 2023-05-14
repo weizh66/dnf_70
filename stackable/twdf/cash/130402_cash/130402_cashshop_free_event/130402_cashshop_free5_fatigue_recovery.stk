@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`疲勞值 30 精力喚醒藥劑`
+	
+
+[explain]
+	`進行疲勞值恢復30。`
+	
+
+[flavor text]
+	`以活動購買的道具僅可在CB期間使用。`
+	
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[cool time]
+	79200000
+
+[icon]
+	`Item/stackable/consumption.img`	355
+
+[icon mark]
+	`Item/IconMark.img`	34
+
+[stackable type]
+	`[expert town potion]`	0
+
+[move wav]
+	`POTION_TOUCH`
+
+[stack limit]
+	999
+
+[action type]
+	`[add fatigue]`	30
+[/action type]
+
+[cooltime maintenance]
+	1	1	1
+
+[action usable place]
+	`[village]`
+[/action usable place]
+
+[use action packet]
+	1
+
+[expiration date]
+	1365386400
+
+[disable]

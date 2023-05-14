@@ -1,0 +1,65 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`奪回西部線`
+
+[explain]
+	`卡勒特因為佔據了連接無法地帶和西部線的鐵路運輸， 所以可以輕易入侵皇都地區。 換句話說， 如果我們皇都軍佔領了這條鐵路， 那麼就可以對卡勒特領地的心臟區域給予致命打擊了。 冒險家們， 請幫我們消滅幫卡勒特運輸裝備的海賊兵團， 奪回西部線吧！`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act2.img`
+
+[worldmap pattern info]
+	1	4
+	`WorldMap/SelectdungeonSlot/seatrain.img`	1
+
+[minimum required level]
+	99
+
+[basis level]
+	69
+
+[designate dungeon difficulty]
+	2
+
+[experience increasing point]
+	1.5
+
+[champion]
+	3	6	9	12	9
+
+[pathgate object]
+	5600	5601	5602	5603	5604	5605	5606	5607	5608	5609
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[event monster]
+	1	6000	61728	1	300	80	1
+[/event monster]
+
+[special passive object item]
+	0	-1	1	3298	2000	1	-1	1	3296	2000
+[/special passive object item]

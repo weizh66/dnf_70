@@ -1,0 +1,36 @@
+#PVF_File
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[team]
+	100
+
+[basic action]
+	`Action/Earth_Wave.act`
+
+[attack info]
+	`AttackInfo/Earth_Wave.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+[/object destroy condition]
+
+[hp max]
+	1
+
+[hp destroy]
+	1
+
+[name]
+	`青?石巨人的子?`

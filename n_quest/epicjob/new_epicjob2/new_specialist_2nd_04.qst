@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gun blader]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 未來開拓者 (4/6)`
+
+[depend message]
+	`以劍術為根本， 用槍彌補劍的不足， 同時利用源能創造新的招式。
+你的戰斗方式變化多端， 難以預測， 是你通過無數場戰斗領悟的吧。 在技術層面上， 我覺得你已經達到了完美。
+但就像你之前跟我說的一樣， 如果你想要使用強的源能裝置， 必須先鍛煉身體力量。 我猜你使用現在的源力武器戰斗的時候， 身體就已經有些吃不消。 我說的對嗎？
+你平時應該也能感覺到。 正因為如此， 就算你獲得了新的能量， 就沒辦法充分使用。
+既然知道原因了， 接下來我們就好好鍛煉身體吧。 方法很簡單。 去戰勝強者， 打倒一個再戰下一個。 通過這樣的過程， 不僅能積累戰斗經驗， 也能鍛煉身體。
+這次就去參加魂·青龍大會吧。 聽說這次大會的參賽者實力遠超魂·黃龍大會， 他們全是數一數二的強者。 你的任務是在本次大會中拿到第一。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`這些就夠了。 好了， 快上臺吧。`
+
+[pre required quest]
+	6920
+[/pre required quest]
+
+[relation quest]
+	6922
+
+[job change quest]
+	3
+
+[grow number]
+	0

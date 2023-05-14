@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`極魔·月·長褲`
+
+[basic explain]
+	`每10點暗屬性抗性增加4點暗屬性強化值。（最多增加100點）。
+每10點暗屬性抗性，使自身增加30點智力和力量。（最多增加700點）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	155
+
+[magical attack]
+	155
+
+[magical defense]
+	88
+
+[physical defense]
+	88
+
+[need material]
+	3826	3000
+
+[repair price]
+	61920
+
+[price]
+	77400
+
+[repair price]
+	61920
+
+[value]
+	61920
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	1970	1880
+
+[dark resistance]
+	52
+
+[icon]
+	`Item/new_equipment/02_cloth/pants/cloth_pants.img`	57
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			35
+		[upper bound level]
+			45
+		[value]
+			3
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[time]
+		500	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`dark resistance`	10
+		`dark attack`
+		`+`	4	100
+	[stat change by stat]
+		`myself`	-1
+		`dark resistance`	10
+		`magical attack`
+		`+`	30	700
+	[stat change by stat]
+		`myself`	-1
+		`dark resistance`	10
+		`physical attack`
+		`+`	30	700
+[/then]
+
+[part set index]
+	12597
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

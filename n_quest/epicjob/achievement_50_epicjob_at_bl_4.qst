@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	1009
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	5330
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5332
+
+[name]
+	`覺醒 - 沾血薔薇 (3/4)`
+
+[depend message]
+	`誒誒~不要高興得太早啊！ 只是打贏了幾只菜鳥， 有什么好得意的。 接下來的考驗才是開始。
+阿爾伯特， 你認識吧？ 就是那個特別自大的家伙。 你要是能打敗他， 我就承認你有資格成為‘沾血薔薇’。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`我看你是女人， 才讓著你的。 沒、 沒想到你這么野蠻……`

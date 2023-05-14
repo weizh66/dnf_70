@@ -1,0 +1,13 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_meteor_0_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_meteor_0_1.ani`	0	1
+		`../Animation/Etc_meteor_0_2.ani`	0	2
+	[/SUB ANI]
+	[SOUND]
+		`R_METEO_EXP`	0
+	[/SOUND]
+[/MOTION]

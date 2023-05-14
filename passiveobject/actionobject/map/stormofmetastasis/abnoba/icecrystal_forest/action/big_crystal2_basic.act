@@ -1,0 +1,25 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/big_crystal2_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[HP]
+		[<=]
+			1
+		[%]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../particle/big_crystal1_destroy2.ptl`	0	0	100
+[/BEHAVIOR]

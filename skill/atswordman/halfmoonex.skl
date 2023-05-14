@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`half_moon_ex_name`
+
+[basic explain]
+	`half_moon_ex_basic_explain`
+
+[explain]
+	`half_moon_ex_explain`
+
+[basic explain ex]
+	`half_moon_ex_basic_explain2`
+
+[explain ex]
+	`half_moon_ex_explain2`
+
+[executable states]
+	`[stand]`
+	`[attack]`
+	`[dash]`
+[/executable states]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[pre required skill]
+	15	10
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	5	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	116
+	`Character/Swordman/Effect/ATSkillIcon.img`	117
+
+[dungeon]
+	[static data]
+		2000	300	200	3
+	[/static data]
+	[level info]
+		2	810	600	894	594	977	588	1061	582	1145	576	1229	571	1313	565	1397	559	1481	553	1565	547	1648	541	1732	535	1815	529	1899	524	1983	518	2067	512	2151	506	2235	500	2318	494	2402	488	2486	482	2570	476	2654	471	2737	465	2821	459	2906	453	2989	447	3073	441	3156	435	3240	429	3324	424	3407	418	3491	412	3575	406	3659	400	3743	394	3827	388	3911	382	3995	376	4078	371	4162	365	4245	359	4329	353	4413	347	4497	341	4581	335	4665	329	4748	324	4832	318	4916	312	5000	306	5084	300	5168	294	5251	288	5335	282	5419	276	5503	271	5586	265	5670	259	5754	253	5838	247	5921	241	6005	235	6089	229	6173	224	6257	218	6341	212	6425	206	6508	200	6592	194
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	10
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	111	1200	122	1188	133	1176	145	1165	156	1153	168	1141	179	1129	191	1118	202	1106	214	1094	225	1082	236	1071	248	1059	259	1047	271	1035	282	1024	294	1012	305	1000	316	988	328	976	339	965	351	953	362	941	373	929	385	918	396	906	408	894	419	882	431	871	442	859	454	847	465	835	476	824	488	812	499	800	511	788	522	776	534	765	545	753	556	741	568	729	579	718	591	706	602	694	614	682	625	671	636	659	648	647	659	635	671	624	682	612	694	600	705	588	717	576	728	565	739	553	751	541	762	529	774	518	785	506	797	494	808	482	819	471	831	459	842	447	854	435	865	424	877	412	888	400	899	388
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`half_moon_ex_level_property`	-1	0	1.0	-1	1	0.001
+[/level property]

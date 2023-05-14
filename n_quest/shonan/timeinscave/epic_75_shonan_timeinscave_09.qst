@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4231
+[/pre required quest]
+
+[monster reward item]
+	61629	75	-1	4769	1	40	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4769	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`螞蟻穴入口`
+
+[depend message]
+	`什麼，你去找樣本結果發現了螞蟻穴入口之類的嗎？堆疊成弧形的入口是吧…… 那應該是悲鳴螞蟻穴吧！
+悲鳴螞蟻也是過去棲息在悲鳴洞穴，現在幾乎找不到的物種！什麼嘛，你怎麼像是去了一趟從前的悲鳴洞穴回來似的！總之如果你說的沒錯，那會是很珍貴的資料。
+我先確認一下你看到的悲鳴螞蟻穴是不是入口。悲鳴螞蟻在建造洞穴入口時，利用汁液攪拌造成弧形。
+幫我找來用於製作洞穴入口的泥土樣品吧。那裡會有攪拌的汁液成分，就可以確認是不是悲鳴螞蟻了。`
+
+[condition message]
+	`在古悲鳴洞穴收集泥土樣本 10個`
+
+[solve message]
+	`喔喔！雖然難以置信，但的確是悲鳴螞蟻穴沒錯！`
+
+[quest point]
+	4

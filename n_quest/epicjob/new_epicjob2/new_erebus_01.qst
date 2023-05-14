@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 幽影夜神 (1/6)`
+
+[depend message]
+	`……你來了？
+你問我怎么知道是你？ 除了你， 還有誰擁有這種黑色氣息？ 老遠就毫不掩飾地散發著黑色氣息走過來， 想不察覺都難啊。
+閑話少說， 你找我到底有什么事？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`你想完美地控制魔槍氣息？
+你想控制試圖反噬的魔槍？
+嗯……那可不容易啊。 魔槍兇險莫測， 在你手里散發黑色氣息的同時， 隨時都在找機會。
+稍有不慎的話， 你不僅會失去身體， 連靈魂都會消失無蹤。
+無所謂？ ……也對， 與其像現在這樣持續一種不穩定的狀態， 還不如做得徹底一點。`
+
+[target character]
+	`[demonic lancer]`	4	1
+[/target character]
+
+[relation quest]
+	5916
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[difficulty]
+	`O`
+
+[ignore quest level 4 exp]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3127	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3326	80
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`維護鐵匠埔`
+
+[depend message]
+	`嘿,冒險家,有個事想請你幫忙
+我之前用來維護保養鐵匠鋪的機用潤滑油快沒了,你能幫我找一些來嘛？
+我會盡力幫你把裝備再鍛造一下的。`
+
+[condition message]
+	`收集1個[機用潤滑油]交給小鐵柱。（機用潤滑油從天界的梅爾文·裏克特出售的濃縮膠囊裏獲得）`
+
+[solve message]
+	`感謝！你幫了我大忙了！稍等,我隨後就幫你把裝備再鍛造一下。`
+
+[quest point]
+	0

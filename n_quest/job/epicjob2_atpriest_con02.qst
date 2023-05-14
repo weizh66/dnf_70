@@ -1,0 +1,85 @@
+#PVF_File
+
+[exposed by npc]
+	0
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	124
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	108030498
+	`[job]`	14	1	1	108030505
+	`[job]`	14	2	1	108030512
+	`[job]`	14	3	1	108030519
+	`[job]`	14	4	1	108000488
+	`[job]`	14	1	1	108000495
+	`[job]`	14	2	1	108000502
+	`[job]`	14	3	1	108000509
+	`[job]`	14	4	1	108010477
+	`[job]`	14	1	1	108010484
+	`[job]`	14	2	1	108010491
+	`[job]`	14	3	1	108010498
+	`[job]`	14	4	1	108040446
+	`[job]`	14	1	1	108040453
+	`[job]`	14	2	1	108040460
+	`[job]`	14	3	1	108040467
+	`[job]`	14	4	1
+[/reward selection int data]
+
+[name]
+	`覺醒 - 龍躍武器 (2/3)`
+
+[depend message]
+	`為了打造這件龍躍武器， 我可算是費盡了心思！ 現在， 我來給你簡單介紹一下它吧。
+歌蘭蒂斯應該和你說過， 龍躍武器是可以成長的。
+它一共可以成長到7星， 其中3星及3星以下， 可以在地下城中獲得成長。
+但并不是所有的怪物都能讓它成長， 只有消滅那些精英怪以上的強大敵人時， 它才能獲得成長。
+4星以上， 就可以在我這里購買龍躍之息卷軸進行成長了。
+如果你理解了我說的內容， 請跟我對話， 我會把武器交給你。`
+
+[condition message]
+	`    為了領取龍躍武器， 與小鐵柱談談。`
+
+[solve message]
+	`哇！ 拿起龍躍武器的你， 一下子變帥氣了！`
+
+[pre required quest]
+	2938
+[/pre required quest]

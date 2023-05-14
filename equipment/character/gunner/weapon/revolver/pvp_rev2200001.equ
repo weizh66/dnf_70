@@ -1,0 +1,133 @@
+#PVF_File
+
+[name]
+	`M460精鋼左輪`
+
+[basic explain]
+	`攻擊速度增加2%%
+ 無法進行強化、增幅、解體和贈送。`
+
+[flavor text]
+	`公平決鬥場頻道專用裝備。`
+
+[grade]
+	73
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical attack]
+	46
+
+[attack speed]
+	20
+
+[need material]
+	3312	110
+
+[equipment physical attack]
+	569	552
+
+[equipment magical attack]
+	479	464
+
+[separate attack]
+	322	218
+
+[physical critical hit]
+	2
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`item/weapon/gunner/revolver.img`	64
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	16	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	16	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[minimum rank]
+	10
+
+[icon mark]
+	`Item/IconMark.img`	38
+
+[usable world]
+	`[fair]`
+[/usable world]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+[/impossible contents]
+
+[possible kiri protect]

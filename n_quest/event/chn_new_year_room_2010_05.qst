@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20512
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680361	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2680363	2	2680364	2
+[/reward selection int data]
+
+[name]
+	`新年大掃除！ <5/6>`
+
+[depend message]
+	`你好呀~冒險家， 呵呵， 要是新鮮的年貨再多一點就好了， 這樣我就可以讓冒險家吃到最美味的年夜飯了……`
+
+[condition message]
+	`    前往任意地下城， 收集25個[年貨]。`
+
+[solve message]
+	`謝謝你~ 這是賽麗亞專門為你準備的， 請你收下~`

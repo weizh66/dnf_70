@@ -1,0 +1,84 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATJackCatch/end_bottom.img`
+		0
+	[IMAGE POS]
+		-174	-59
+	[IMAGE RATE]
+		1.899999976158142	1.7999999523162842
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-174	-5	-61	349	10	120
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATJackCatch/end_bottom.img`
+		0
+	[IMAGE POS]
+		-174	-59
+	[IMAGE RATE]
+		2.0	1.899999976158142
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-174	-5	-61	349	10	120
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATJackCatch/end_bottom.img`
+		0
+	[IMAGE POS]
+		-174	-59
+	[IMAGE RATE]
+		2.0	1.899999976158142
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		550
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-174	-5	-61	349	10	120
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATJackCatch/end_bottom.img`
+		0
+	[IMAGE POS]
+		-174	-59
+	[IMAGE RATE]
+		2.0	1.899999976158142
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-174	-5	-61	349	10	120
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

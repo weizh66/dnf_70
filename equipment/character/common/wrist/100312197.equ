@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`耀之榮光手鐲`
+
+[basic explain]
+	`對敵人的傷害 +10%% (傷害加成效果取最高值， 且無法疊加；暴擊/附加傷害除外)
+暴擊傷害 +5%% (暴擊傷害加成效果取最高值， 且無法疊加)`
+
+[flavor text]
+	`縱然死後化為一抹塵土， 也絕不會忘記今日這份榮耀！`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12540
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[price]
+	108000
+
+[value]
+	86400
+
+[need material]
+	3824	30
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	131
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	5
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,34 @@
+#PVF_File
+
+[kind]
+	23
+
+[grade]
+	`[daily]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[大將戰]輕鬆的開始`
+	
+
+[cond_text]
+	`完成大將戰 1項競賽`
+	
+
+[condition]
+	`[hereafter join]`	2	1	-1
+[/condition]
+
+[difficulty_ratio]
+	1

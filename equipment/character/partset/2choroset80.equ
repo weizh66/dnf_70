@@ -1,0 +1,128 @@
+#PVF_File
+
+[set name]
+	`寒月攝魂  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	1
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[at mage]`	1
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[at mage]`	8
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[at mage]`	8
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[at mage]`	8
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[魔法旋風]攻擊力 +12%%
+[冰魄劍]攻擊力 +12%%
+[冰魄劍]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	21
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2
+		`[at mage]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	23
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-30
+		`[at mage]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at mage]`	22
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+	[/skill data up]
+	[parameter basic explain]
+		`[寒冰連槍]多段攻擊次數 +2
+[寒冰連槍]冷卻時間 -10%%
+[冰魄旋槍]攻擊力 +25%%
+[冰魄旋槍]冷卻時間 -20%%
+[冰魄旋槍]移動距離 -30%%
+[冰之領悟]MP消耗量減少率 +2%%
+[冰之領悟]智力增加量 +12%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[use skill]
+			`at mage`	31
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			60000
+		[probability]
+			100
+		[appendage]
+			45
+	[/then]
+	[skill data up]
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at mage]`	32
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-100
+	[/skill data up]
+	[parameter basic explain]
+		`[冰魄錘擊]攻擊力 +30%%
+[極冰綻放]立即施放魔法陣
+[極冰綻放]攻擊力 +20%%
+    施放[寒冰之境]時， 可以使自身增加3%%的攻擊速度和1.5%%的移動速度， 效果持續60秒。 (效果最多可重疊5次)`
+[/piece set ability]

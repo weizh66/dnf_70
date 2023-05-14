@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	5751
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3273	20	3266	10	3270	5
+[/int data]
+
+[dungeon info]
+	84	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`保障物資`
+
+[depend message]
+	`戰況已經有所好轉， 只是眼下最擔心的仍然是物資問題。
+以目前的物資消耗程度， 說不定還沒等敵人投降， 我們自己就已經提前崩潰了。
+所以我們必須及時補充戰備物資， 這樣前線的士兵們才能安心打仗……`
+
+[condition message]
+	`    *經驗值獎勵* 前往安特貝魯峽谷的『補給線阻斷戰』， 收集以下物品。`
+
+[solve message]
+	`這么多！ 實在太感謝了， 你真是幫了我們一大忙啊！`

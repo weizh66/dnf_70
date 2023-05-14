@@ -1,0 +1,38 @@
+#PVF_File
+
+[map image]
+	`WorldMap/SkyCastle.img`	0
+
+[ui path]
+	`WorldMap/UI/SkyCastle.ui`
+
+[dungeon]
+	11	-1	12	-1	13	-1	14	-1	15	-1	17	-1	504
+	[in progress]
+		7810	504
+	[in progress]
+		7817	504
+	[in progress]
+		7859	504
+	[in progress]
+		7889	504
+	[in progress]
+		4068
+[/dungeon]
+
+[name]
+	`天空之城`
+
+[hell dungeon]
+	1
+
+[hell quest]
+[/hell quest]
+
+[hell freepass item]
+	4150	1	2682582	1	2749501	1
+[/hell freepass item]
+
+[item condition]
+	2749501
+[/item condition]

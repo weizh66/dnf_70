@@ -1,0 +1,71 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Equipment/Weapon/totem/pr_totem%02d%02dc.img`
+		79
+	[IMAGE POS]
+		-222	-314
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`PR_4ATK0`
+	[DAMAGE BOX]
+	17	-7	2	27	14	55
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Equipment/Weapon/totem/pr_totem%02d%02dc.img`
+		80
+	[IMAGE POS]
+		-222	-314
+	[DELAY]
+		70
+	[DAMAGE BOX]
+	6	-7	16	36	14	48
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Equipment/Weapon/totem/pr_totem%02d%02dc.img`
+		81
+	[IMAGE POS]
+		-222	-314
+	[DELAY]
+		200
+	[DAMAGE BOX]
+	6	-7	14	36	14	51
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Equipment/Weapon/totem/pr_totem%02d%02dc.img`
+		82
+	[IMAGE POS]
+		-222	-314
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-20	-20	0	170	40	128
+
+[FRAME004]
+	[IMAGE]
+		`Character/Priest/Equipment/Weapon/totem/pr_totem%02d%02dc.img`
+		83
+	[IMAGE POS]
+		-222	-314
+	[DELAY]
+		60
+	[DAMAGE BOX]
+	4	-7	-1	52	14	78
+
+[FRAME005]
+	[IMAGE]
+		`Character/Priest/Equipment/Weapon/totem/pr_totem%02d%02dc.img`
+		84
+	[IMAGE POS]
+		-222	-314
+	[DELAY]
+		500
+	[DAMAGE BOX]
+	5	-7	3	58	14	64

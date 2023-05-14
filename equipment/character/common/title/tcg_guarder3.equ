@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`TCG守護隊 (3天)`
+
+[explain]
+	`被攻擊時，有2%%的機率使自身恢復10%%的HP最大值。被攻擊時，有2%%的機率使自身增加45點體力，效果持續20秒。`
+
+[flavor text]
+	`<活動>  地下城與勇士的TCG由我們來守護！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	66
+
+[custom animation]
+	`TitleAnimation/tcg_guarder.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	3
+
+[physical attack]
+	15
+
+[physical defense]
+	10
+
+[magical attack]
+	15
+
+[magical defense]
+	10
+
+[stuck resistance]
+	20
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[if]
+	[cooltime]
+		15000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[restore]
+		`HP`
+		`%`	10	1000
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[stat]
+		`physical defense`
+		`+`	30
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`加持的殘忍之弒矽鋼長靴 : [疾空旋風破]`
+
+[basic explain]
+	`[疾空旋風破]冷卻時間 -8%%
+[疾空旋風破]MP消耗量 -8%%`
+
+[flavor text]
+	`    收集[惡魔結晶]可以對2期勇者裝備進行改造， 提升裝備的基本攻擊力、 防御力和基本屬性； Lv70以上的角色可以穿戴。 (需消耗杜羅西處出售的勇者裝備改造券)`
+
+[grade]
+	53
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ha shoes`
+
+[rarity]
+	5
+
+[anti evil]
+	27
+
+[weight]
+	1600
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/common/shoes.img`	139
+
+[field image]
+	`Item/field_equip.img`	14
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	3
+
+[durability]
+	26
+
+[repair price]
+	37396
+
+[value]
+	3712
+
+[cool time]
+	10000
+
+[HP MAX]
+	68
+
+[MP MAX]
+	31
+
+[physical attack]
+	19
+
+[physical defense]
+	14
+
+[magical attack]
+	11
+
+[equipment physical defense]
+	1392	1320
+
+[move speed]
+	50
+
+[hit recovery]
+	10
+
+[jump power]
+	5
+
+[skill data up]
+	`[priest]`	5
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-8
+	`[priest]`	5
+	`[dungeon type]`
+	`[mp]`	0
+	`%`	-8
+[/skill data up]
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[emancipate]
+	[input]
+		3290	35
+	[/input]
+	[output]
+		370177	1
+	[/output]
+	[emancipate explain]
+		`物防小幅增加
+屬性小幅提升
+提升HP、 MP最大值`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,47 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`    使用後， 可以召喚出無憂女孩貝利協助召喚者攻擊敵人， 無憂女孩貝利存在300秒。 (此物品只能在地下城中使用， 且無憂女孩貝利的Lv與召喚者的Lv相同)`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	221
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	300000
+
+[cooltime group]
+	100
+
+[move wav]
+	`PAPER_TOUCH`
+
+[summon apc]
+	15401	-1	-1	300000	1

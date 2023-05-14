@@ -1,0 +1,34 @@
+#PVF_File
+
+[name]
+	`地面的火`
+
+[piercing power]
+	500000
+
+[basic action]
+	`Action/bottom_fire_Basic.act`
+
+[last action]
+	`Action/Etc_bottom_fire_0_0.act`
+
+[etc action]
+	`Action/Etc_bottom_fire_0.act`
+	`Action/Etc_bottom_fire_0_1.act`
+[/etc action]
+
+[vanish on move collision]
+	0
+
+[attack info]
+	`attackinfo/bottom_fire_Basic.atk`
+
+[etc attack info]
+	``
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+[/object destroy condition]

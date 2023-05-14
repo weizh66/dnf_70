@@ -1,0 +1,115 @@
+#PVF_File
+
+[set name]
+	`厄運之憶  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[swordman]`	79
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-50
+		`[swordman]`	79
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+		`[swordman]`	79
+		`[dungeon type]`
+		`[static]`	11
+		`+`	1
+		`[swordman]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[swordman]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[swordman]`	79
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[嗜魂封魔斬]直接發動最后一擊
+[嗜魂封魔斬]攻擊力 +40%%
+[嗜魂封魔斬]冷卻時間 -50%%
+[嗜魂封魔斬]MP消耗量 -50%%
+[嗜魂封魔斬]無色小晶塊消耗量 -1`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	5
+		`+`	70
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	6
+		`+`	70
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	0
+		`+`	5000
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[swordman]`	65
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[swordman]`	65
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[swordman]`	65
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[暴走]攻擊速度與移動速度 +7%%
+[暴走]力量 +25%%
+[暴走]持續時間 +5秒
+[崩山擊]冷卻時間 -1秒
+[崩山擊]攻擊速度 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	81
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[swordman]`	81
+		`[dungeon type]`
+		`[static]`	1
+		`%`	100
+		`[swordman]`	81
+		`[dungeon type]`
+		`[level]`	1
+		`%`	100
+		`[swordman]`	81
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	81
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[崩山裂地斬]冷卻時間 -50%%
+[崩山裂地斬]攻擊范圍 +30%%
+[崩山裂地斬]衝擊波攻擊力 +100%%
+[崩山裂地斬]巖漿攻擊力 +20%%`
+[/piece set ability]

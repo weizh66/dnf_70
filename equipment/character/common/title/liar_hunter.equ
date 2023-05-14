@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`拒絕說謊`
+
+[explain]
+	`攻擊時，有1%%的機率召喚出與召喚者同等Lv的1隻夜叉協助自身攻擊敵人。（決鬥場不發動。)`
+
+[flavor text]
+	`<活動 >愚人節派對： 謝謝大家幫忙責罵愛說謊的人！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	247
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/liar_hunter.ani`
+[/custom animation]
+
+[HP MAX]
+	100
+
+[MP MAX]
+	100
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[stuck]
+	-2
+
+[if]
+	[cooltime]
+		90000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		1
+	[summon apc]
+		426	-1	1
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

@@ -1,0 +1,74 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/FlameCurse.img`
+		8
+	[IMAGE POS]
+		-29	-76
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/FlameCurse.img`
+		7
+	[IMAGE POS]
+		-29	-76
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/FlameCurse.img`
+		6
+	[IMAGE POS]
+		-29	-76
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/FlameCurse.img`
+		5
+	[IMAGE POS]
+		-29	-76
+	[RGBA]
+		255	255	255	200
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/FlameCurse.img`
+		4
+	[IMAGE POS]
+		-29	-76
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

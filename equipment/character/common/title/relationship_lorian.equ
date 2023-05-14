@@ -1,0 +1,191 @@
+#PVF_File
+
+[name]
+	`羅莉安的心意`
+
+[basic explain]
+	`    暴擊攻擊時，增加5%%的傷害。
+ 
+    裝備時，物理和魔法暴擊增加5%%，效果持續40秒。`
+
+[detail explain]
+	`    暴擊攻擊時，增加5%%的傷害。
+（決鬥場中效果減半）
+ 
+    裝備時，物理和魔法暴擊增加5%%，效果持續40秒。（進入地下城40秒後，發動該效果；冷卻時間為40秒）`
+
+[flavor text]
+	`“要幫我在卡坤那兒多說好話哦~”
+                      --羅莉安·科納洛`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[cool time]
+	10000
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/Title/title.img`	195
+
+[custom animation]
+	`TitleAnimation/relationship_lorian.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	20
+
+[physical defense]
+	20
+
+[magical attack]
+	20
+
+[magical defense]
+	20
+
+[HP MAX]
+	100
+
+[HP regen speed]
+	20
+
+[MP MAX]
+	100
+
+[MP regen speed]
+	15
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[all elemental attack]
+	8
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[stuck]
+	-1
+
+[room list move speed rate]
+	0.1
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	5
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	2
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[start cooltime]
+		40000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		100
+	[stat]
+		`physical critical hit`
+		`+`	5
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[start cooltime]
+		40000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		100
+	[stat]
+		`magical critical hit`
+		`+`	5
+[/then]
+
+[pvp]
+	[all elemental attack]
+		5
+[/pvp]
+
+[move wav]
+	`NAME_TOUCH`

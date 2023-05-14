@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`封·聖堂騎士的賜福戰靴`
+
+[basic explain]
+	`  攻擊時，可以使500px范圍內的所有隊員恢復2%%的HP。（冷卻時間5秒）
+  攻擊時，可以使500px范圍內包括自己在內的隊員進入加速狀態10秒；加速狀態下，增加10%%的移動速度和攻擊速度。（冷卻時間20秒）
+  （解除裝備后效果消失）`
+
+[flavor text]
+	`  愿神的祝福與你同在！`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12569
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	21
+
+[magical attack]
+	21
+
+[physical defense]
+	23
+
+[move speed]
+	60
+
+[need material]
+	3821	800
+
+[price]
+	97200
+
+[repair price]
+	77760
+
+[value]
+	77760
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2760	2490
+
+[icon]
+	`Item/new_equipment/06_plate/shoes/plate_shoes.img`	16
+
+[field image]
+	`Item/field_equip.img`	19
+
+[equipment type]
+	`[shoes]`	18
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2200
+
+[item group name]
+	`mt shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	500
+	[restore]
+		`hp`
+		`%`	2	0
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	500
+	[equipment duration]
+		10000
+	[stat]
+		`move speed`
+		`+`	100
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`cast speed`
+		`+`	100
+[/then]
+
+[possible kiri protect]

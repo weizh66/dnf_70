@@ -1,0 +1,95 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	50
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[穿透射擊]發射次數 +2次`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	59
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[gun blader]`	59
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+		`[gun blader]`	59
+		`[dungeon type]`
+		`[static]`	12
+		`+`	3
+		`[gun blader]`	59
+		`[dungeon type]`
+		`[static]`	13
+		`+`	3
+		`[gun blader]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	66
+		`[dungeon type]`
+		`[static]`	1
+		`%`	5
+		`[gun blader]`	66
+		`[dungeon type]`
+		`[static]`	6
+		`+`	5
+		`[gun blader]`	66
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[掩護射擊]發射次數 +2次
+[掩護射擊]對單個敵人攻擊次數上限 +3次
+[掩護射擊]冷卻時間 -20%%
+[游彈槍襲]左右發射數 +5%%
+[游彈槍襲]左右射擊攻擊次數 +5次
+[游彈槍襲]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	65
+		`[dungeon type]`
+		`[static]`	0
+		`+`	10
+		`[gun blader]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-40
+		`[gun blader]`	66
+		`[dungeon type]`
+		`[static]`	9
+		`+`	10
+		`[gun blader]`	67
+		`[dungeon type]`
+		`[static]`	0
+		`+`	10
+		`[gun blader]`	67
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	67
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[潛行射擊]發射次數+ 10
+[潛行射擊]攻擊力 -40%%
+[游彈槍襲]前方射擊次數 +10次
+[全方位射擊]亂射次數 +10次
+[全方位射擊]冷卻時間 -20%%
+[全方位射擊]無色小晶塊消耗量 +1`
+[/piece set ability]

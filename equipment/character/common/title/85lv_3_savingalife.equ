@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`人命救助檢查牌`
+
+[explain]
+	`特倫培發電所領主戰慄的帕特力斯 攻擊時消耗2個無色小晶塊，20秒內召喚元德斯，魏奈茲，泰拉斯特其中一位。（冷卻時間60秒）`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	456
+
+[custom animation]
+	`TitleAnimation/lifesaving.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[if]
+	[target check]
+		`monster`	64020
+	[/target check]
+	[attack success]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[consume item]
+			3037	2
+		[summon apc]
+			10417	-1	1
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[consume item]
+			3037	2
+		[summon apc]
+			10418	-1	1
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[consume item]
+			3037	2
+		[summon apc]
+			25410	-1	1
+		[then probability]
+			34.0
+	[/then]
+[/multiple then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`巨蟒長矛`
+
+[basic explain]
+	`攻擊時以 2%% 的機率讓敵人進入中毒狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率7秒內讓敵人呈現中毒狀態，每0.5秒以33的攻擊力給予傷害。 (若敵人高於Lv5，則減少進入異常狀態的機率；反之，則增加機率。)`
+
+[grade]
+	7
+
+[rarity]
+	2
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	5
+
+[physical attack]
+	10
+
+[attack speed]
+	-50
+
+[stuck]
+	-1
+
+[price]
+	9800
+
+[repair price]
+	7840
+
+[value]
+	7840
+
+[equipment physical attack]
+	110	91
+
+[equipment magical attack]
+	78	65
+
+[separate attack]
+	51	30
+
+[physical critical hit]
+	2
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/mage/spear.img`	12
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[mage]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		12600
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		2
+	[active status]
+		`poison`	5	470
+[/then]
+
+[possible kiri protect]

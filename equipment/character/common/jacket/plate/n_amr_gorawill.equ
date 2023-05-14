@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`卡露亞的希望： 聖日胸甲`
+
+[grade]
+	32
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[creation rate]
+	200
+
+[physical attack]
+	14
+
+[physical defense]
+	15
+
+[magical attack]
+	14
+
+[price]
+	38400
+
+[repair price]
+	30720
+
+[value]
+	30720
+
+[equipment physical defense]
+	2100	1980
+
+[skill levelup]
+	`[priest]`	20	1
+	`[priest]`	22	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	126
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`卡露亞的希望 - 聖日板甲  套裝`
+
+[set item]
+	11659	13658	15655	19659	17653
+[/set item]
+
+[set ability]
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			73
+		[active status]
+			`bless`	30	43	43	43	43
+	[/then]
+	[fullset basic explain]
+		`被攻擊時，以3%%的機率使自身進入祝福狀態。`
+	[fullset detail explain]
+		`被攻擊時，以3%%的機率使自身進入祝福狀態20秒； 祝福狀態下，增加43點力量、體力、智力和精神。`
+[/set ability]
+
+[possible kiri protect]

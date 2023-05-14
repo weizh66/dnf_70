@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 機械之靈`
+
+[explain]
+	`至今為止”天界七戰神”所設計的機器人風格像無形的枷鎖壹樣禁錮住機械師們的想象力。 雖然到現代， 佩拉·維恩博士所改良的R系列引起了壹場機械師革命，但戰場需要的武器必須要滿足要批量生產的特性，顯然R系列不具有這種條件
+設計風格張揚自由的梅爾文博士也在設計武器的時候也是束手束腳， 凡是戰場用的機器人都是為了滿足需求而犧牲了很多東西，導致現在的機器人甚至看不出任何差異性，完全是壹個模子刻出來的東西。 之前的我也是跟他們壹樣， 在漫長的戰爭時期違背這個規則是無法想象的事情。
+但這次開發完全是打破傳統觀念，我們的理念是美麗的兵器，簡約而不浮誇的設計創造了新的武器價值觀。驅動部分作為兵器多年的詬病問題壹下被我們解決的時候那種喜悅妳們是無法體會的
+為什?要追求外觀的美觀設計？ 外觀壹看就是認出是兵器也太無聊了吧。 雖然戰場裏的高科技武器日新月異， 但我們壹直會貫徹我們的設計思想， 美麗的外觀設計不僅能提升我軍的士氣，而且利用獨特的外觀引起敵人的好奇心後擊殺也是出奇制勝的法寶。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		130007	0	0	0	99	0
+		``
+	[/passive object]
+[/then]

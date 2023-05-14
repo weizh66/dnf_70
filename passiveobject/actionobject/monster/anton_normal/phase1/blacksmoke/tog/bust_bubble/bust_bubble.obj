@@ -1,0 +1,31 @@
+#PVF_File
+
+[name]
+	`爆破泡沫`
+
+[basic action]
+	`Action/bust_bubble_Basic.act`
+
+[last action]
+	`Action/bust_bubble_Last.act`
+
+[etc action]
+	`Action/Etc_bust_bubble_0.act`
+	`Action/Etc_bust_bubble_1.act`
+	`Action/Etc_bust_bubble_2.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/bust_bubble_Basic.atk`
+
+[etc attack info]
+	``
+	``
+	``
+[/etc attack info]
+
+[hp max]
+	10000000
+
+[hp destroy]
+	0

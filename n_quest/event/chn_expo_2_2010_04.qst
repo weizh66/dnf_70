@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20521	20522	20523
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680388	50	2680389	50	2680390	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2681089	1
+[/reward int data]
+
+[name]
+	`阿拉德環保衛士`
+
+[depend message]
+	`冒險家， 你有沒有感覺我們阿拉德大陸比以前美麗了？ 呵呵， 這都是你的功勞哦。
+我要代表阿拉德大陸的居民感謝你， 同時我也想讓所有的冒險家知道你是一個擁有至美至善心靈的人……
+嗯， 如果你能繼續幫我收集那些東西， 我就代表阿拉德大陸的居民給你頒發一個勛章。 呵呵， 這可是阿拉德大陸美化大使的榮譽哦~`
+
+[condition message]
+	`    前往任意地下城， 收集50個[粉色牡丹花]、50個[紅色牡丹花]和50個[紫色牡丹花]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`多謝你， 請你收下這個代表阿拉德美化大使榮譽的勛章吧~`

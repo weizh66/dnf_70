@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 元素圣靈(1/2)`
+
+[depend message]
+	`我想， 以你現在能力一定遇到過這種情況 : 在運用魔法和元素的時候， 在某一個瞬間能清晰的感受到自己仿佛超脫了自我， 能夠領悟者世間的一切。
+這是元素師中極少數具有天賦的人才能經歷的神秘現象。 我們稱之為“圣靈狀態”， 在此終極狀態下可以領悟世間萬象， 洞悉世間所有的規則。 但想要完全掌握這種狀態可是千難萬難， 至今為止也只有瑞茲一人完全進入了“圣靈狀態”。
+雖然瑞茲已經悄然失蹤了， 但我從你身上看到了和他一樣的魔法天賦， 相信你也能夠做到這一點。
+但你要注意， 完全進入“圣靈狀態”后， 你的精神也會面臨著巨大的考驗， 稍有差池， 神智則會被強力的魔法流動所奪走， 成為一個行尸走肉……
+想清楚了的話， 再來找我談談吧！`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和莎蘭談談。`
+
+[solve message]
+	`    我知道達到大魔導師境界的你肯定會挑戰圣靈狀態的。 那么請閉上雙眼， 把精神集中在魔法和元素的流動上。`
+
+[pre required quest]
+	951
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12834
+
+[job change quest]
+	3
+
+[grow number]
+	0

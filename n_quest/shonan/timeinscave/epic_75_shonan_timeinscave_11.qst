@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	26
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4233
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	26
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`清除毒性`
+
+[depend message]
+	`嗯，這汁液含有毒性。這毒對人或動物都有害，如果做為醫藥品使用必須清除這毒性，但是不容易做到…… 
+克倫特說不定知道什麼？把這個研究書拿給克倫特，問問他悲鳴螞蟻汁液的毒性吧。`
+
+[condition message]
+	`與克倫特對話`
+
+[solve message]
+	`啊，是諾頓委託的嗎？把研究報告給我吧，讓我看一下。`
+
+[quest point]
+	4

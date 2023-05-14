@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	83	0
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`偵查敵軍營地`
+
+[depend message]
+	`在之前的南門防御戰中， 我們成功地打壓了敵人的士氣。
+那一次總攻， 卡勒特方面投入了全部的兵力， 最后卻失敗而歸， 我想這對他們來說， 是一次很大的打擊。
+有情報說， 敵人在上一次的戰役中暴露了營地的位置， 這對我們以后的作戰十分有利。
+不過讓我奇怪的是， 敵人現在并不急于防御， 而是繼續加強進攻， 這……萬一情報有誤， 很可能會讓皇都軍陷入險境。
+冒險家， 請你趁夜潛入峽谷地區確認下情報的真假吧！`
+
+[condition message]
+	`    調查安特貝魯峽谷的『夜間襲擊戰』。`
+
+[solve message]
+	`你確定嗎？
+很好！ 這次該輪到我們主動出擊了。`
+
+[quest point]
+	4

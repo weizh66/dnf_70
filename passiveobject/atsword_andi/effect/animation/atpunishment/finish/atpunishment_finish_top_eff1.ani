@@ -1,0 +1,36 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/finish_slash.img`
+		0
+	[IMAGE POS]
+		-289	-44
+	[IMAGE RATE]
+		2.0	2.0
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/finish_slash.img`
+		1
+	[IMAGE POS]
+		-289	-44
+	[IMAGE RATE]
+		2.0	2.0
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-23	45
+	[DELAY]
+		80

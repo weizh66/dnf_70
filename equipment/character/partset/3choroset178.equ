@@ -1,0 +1,115 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	291
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[swordman]`	291
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[共鳴 : 離魂一閃]攻擊力 +30%%
+[共鳴 : 離魂一閃]幻鬼突進距離 +20%%
+[共鳴 : 離魂一閃]冷卻時間 -10%% `
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	291
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[swordman]`	293
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	293
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[swordman]`	293
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[swordman]`	293
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[共鳴 : 離魂一閃]攻擊力 +30%%
+[共鳴 : 離魂一閃]冷卻時間 -15%%
+[共鳴 : 鬼靈斬]攻擊力 +30%%
+[共鳴 : 鬼靈斬]攻擊范圍 +20%%
+[共鳴 : 鬼靈斬]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	293
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	293
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[swordman]`	299
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[swordman]`	299
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[swordman]`	299
+		`[dungeon type]`
+		`[level]`	2
+		`%`	35
+		`[swordman]`	299
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-45
+		`[swordman]`	299
+		`[dungeon type]`
+		`[static]`	13
+		`%`	40
+		`[swordman]`	299
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[共鳴 : 鬼靈斬]攻擊力 +25%%
+[共鳴 : 鬼靈斬]冷卻時間 -15%%
+[共鳴 : 聚淵]攻擊力 +35%%
+[共鳴 : 聚淵]冷卻時間 -45%%
+[共鳴 : 聚淵]終結攻擊范圍 +40%%
+[共鳴 : 聚淵]無色小晶塊消耗量 +1`
+[/piece set ability]
+
+[partset specific growtype]
+	5

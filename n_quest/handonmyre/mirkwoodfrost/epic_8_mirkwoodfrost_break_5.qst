@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	8	99
+
+[pre required quest]
+	7644
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	9	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	29309	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`熱血之路 - 第五次修煉`
+
+[depend message]
+	`你聽到那倆姐妹的傳說了嗎？ 那倆姐妹為修煉魔法進入了格蘭之森， 后來不知道為什么突然發瘋了。
+最近有消息說格蘭之森的東南部風雪飄揚、 寒冰覆蓋， 我猜一定是那倆姐妹中掌握冰系魔法的妹妹克拉赫引起的。
+既然你選擇了格斗家之路， 我希望你能帶頭去調查下事情的真相， 你就當這是修煉的小插曲吧。 `
+
+[condition message]
+	`    通關格蘭之森的『冰霜幽暗密林』， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`那些風雪真是克拉赫引起的？ 你找到她了嗎？ `
+
+[quest point]
+	4

@@ -1,0 +1,159 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	74
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-10
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at priest]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[貪婪之刺]多段攻擊次數 +1
+[貪婪之刺]多段攻擊間隔 -10%%
+[貪婪之刺]冷卻時間 -25%%
+[貪婪之刺]攻擊力 +5%%
+[貪婪之刺]攻擊范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	74
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-23
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-10
+		`[at priest]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at priest]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-23
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	8
+		`+`	1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	5
+		`%`	20
+		`[at priest]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	5
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	6
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[貪婪之刺]多段攻擊次數 +1
+[貪婪之刺]多段攻擊間隔 -10%%
+[貪婪之刺]冷卻時間 -23%%
+[貪婪之刺]攻擊力 +10%%
+[貪婪之刺]攻擊范圍 +10%%
+[殺戮戰鐮]旋轉次數 +1
+[殺戮戰鐮]連擊時攻擊速度增加量 +20%%
+[殺戮戰鐮]冷卻時間 -23%%
+[殺戮戰鐮]攻擊力 +5%%
+[殺戮戰鐮]攻擊范圍 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+		`[at priest]`	74
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-10
+		`[at priest]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	75
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	8
+		`+`	2
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	5
+		`%`	45
+		`[at priest]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	17
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	6
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[貪婪之刺]多段攻擊次數 +1
+[貪婪之刺]多段攻擊間隔 -10%%
+[貪婪之刺]攻擊力 +20%%
+[貪婪之刺]攻擊范圍 +20%%
+[貪婪之刺]無色小晶塊消耗量 +1
+[殺戮戰鐮]旋轉次數 +2
+[殺戮戰鐮]連擊時攻擊速度增加量 +40%%
+[殺戮戰鐮]攻擊力 +17%%
+[殺戮戰鐮]攻擊范圍 +20%%
+[殺戮戰鐮]無色小晶塊消耗量 +1`
+[/piece set ability]

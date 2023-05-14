@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`name_100300496`
+
+[basic explain]
+	`basic_explain_100300496`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[magical attack]
+	22
+
+[magical defense]
+	42
+
+[HP MAX]
+	100
+
+[HP regen speed]
+	5
+
+[price]
+	42000
+
+[repair price]
+	33600
+
+[value]
+	33600
+
+[equipment magical defense]
+	3600	3440
+
+[all elemental resistance]
+	5
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/IconAcc.img`	80
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[set name]
+	`傳承 : 神圣的靈魂審判者首飾`
+
+[set item]
+	100300496	100310477	100320497
+[/set item]
+
+[set ability]
+	[physical attack]
+		50
+	[physical defense]
+		35
+	[magical attack]
+		50
+	[water resistance]
+		15
+	[MP regen speed]
+		8
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			2
+		[active status]
+			`haste`	40	10	10
+	[/then]
+	[fullset basic explain]
+		`被攻擊時， 有2%%的幾率使自身進入加速狀態。`
+	[fullset detail explain]
+		`    被攻擊時， 有2%%的幾率使自身進入加速狀態20秒； 加速狀態下， 增加10%%的移動速度和攻擊速度。`
+[/set ability]
+
+[Force Result Item Rule]
+	1	0
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

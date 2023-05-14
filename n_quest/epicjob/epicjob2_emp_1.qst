@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 極武皇 (1/2)`
+
+[depend message]
+	`你的臉色看起來不太好。 我大概猜到你的狀況了， 暫時別逞強了。 你對不停嘗試突破界限的人生感到疲倦了， 是嗎？
+武之道是沒有極限的。 在無盡的道路上奔跑卻不忘初心是一件很難的事情。 因此人們會選擇一個適當的終點， 從此停滯不前。
+在我看來你已經跑得差不多了。 也許現在你站的位置就是你的終點。 為了打破無法跨越的界限， 浪費大量的時間， 結果毫無意義， 難道不是嗎？
+請不要生氣。 武分明沒有盡頭， 對你來說也是一樣， 即使你付出生命……難道你生命的價值就是為了扭曲世上的道理嗎？
+……說完這番話， 我反而感受到你全身激烈燃燒的斗志。 剛剛是我對你的考驗……看來你比我想象的更優秀， 我很欣慰。
+為了對你不屈的斗志表達敬意， 我會給你新的建議。 你知道‘極武皇’嗎？
+對于武道家來說， 并不是只有一條路可選。 你可以避開別人走過的路， 開拓屬于自己的武道。
+怎么樣？ 如果你下定決心想要挑戰， 那就再來找我吧。 我可以教你如何打破別人制造的界限， 并向新的境界邁進， 那個境界就是‘極武皇’。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`很好！ 從前我看到你身上顯露出的霸氣， 就知道終有一天你會來找我。`
+
+[pre required quest]
+	7621
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3092
+
+[job change quest]
+	3
+
+[grow number]
+	0

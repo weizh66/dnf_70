@@ -1,0 +1,133 @@
+#PVF_File
+
+[name]
+	`革新的奧爾卡的黑狼圖騰 `
+
+[basic explain]
+	` 受到暗屬性攻擊時，以10%%的機率使自身增加10%%的物理暴擊率，效果持續30秒。
+ 無法進行解體、封裝和合成。`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	40
+
+[stuck]
+	-1
+
+[price]
+	0
+
+[repair price]
+	75264
+
+[value]
+	0
+
+[equipment physical attack]
+	542	500
+
+[equipment magical attack]
+	464	428
+
+[separate attack]
+	311	208
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[priest]`	35	2
+	`[priest]`	58	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/totem.img`	29
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	9
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		30000
+	[element]
+		`dark`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		10
+	[stat]
+		`physical critical hit rate`
+		`+`	10
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

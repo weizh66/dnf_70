@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680809	30
+[/int data]
+
+[reward type]
+	`[ridable]`
+
+[reward int data]
+	0
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	20553
+
+[name]
+	`變身 - 哥布林弓手`
+
+[depend message]
+	`年輕人， 最近過得好嗎？
+雖然你們成功擊退了異次元裂縫的怪物， 但是那股神秘的氣息卻沒有消失， 反而越來越濃。
+不過這也不全是壞事， 我想到一個有趣的實驗， 正好可以借助這股神秘的氣息。
+呵呵， 那就是變身成怪物~！怎么樣？ 是不是覺得很有趣啊？
+我問過莎蘭了， 她也認為這個辦法可行， 所以麻煩你從怪物身上收集一些魔法氣息給我吧！`
+
+[condition message]
+	`    前往任意地下城， 收集[魔法氣息]交給諾頓。`
+
+[solve message]
+	`哇~真的收集到了？ 那我們趕緊試試吧！`
+
+[mail time]
+	1
+
+[mail title]
+	`勇士變身活動`
+
+[mail contents]
+	`    這是您參與勇士變身活動獲得的獎勵， 請收好~`
+
+[mail enclose]
+	2680811	1
+[/mail enclose]

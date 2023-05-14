@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`領悟者的涂鴉筆`
+
+[basic explain]
+	`攻擊時， 附加30%%的傷害。`
+
+[detail explain]
+	`    攻擊時， 增加30%%的傷害。(在決斗場中增加15%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`broom`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2500
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	55
+
+[need material]
+	2749095	129
+
+[required skill]
+	91
+
+[icon]
+	`Item/weapon/mage/broom.img`	29
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	574	526
+
+[equipment magical attack]
+	629	576
+
+[separate attack]
+	360	243
+
+[move speed]
+	30
+
+[attack speed]
+	60
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[magical critical hit]
+	2
+
+[animation job]
+	`[mage]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`BROOM_TOUCH`
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+	`mage`	4
+[/routing priority]
+
+[possible kiri protect]

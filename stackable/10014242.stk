@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`name_10014242`
+
+[grade]
+	1
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[price]
+	10
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	113
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[title name]`
+[/string data]
+
+[enchant]
+	[skill levelup]
+		`[swordman]`	82	1
+	[/skill levelup]
+[/enchant]
+
+[sub type]
+	1
+
+[int data]
+	113	61194
+[/int data]
+
+[item category]
+	`monster card`
+[/item category]

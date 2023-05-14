@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`冰凍的孔鎮的鐮刀`
+
+[basic explain]
+	`安裝時300px 範圍內的敵人產生冰凍魔法
+黑暗權能攻擊時敵人3秒內進入冰凍狀態
+冰凍狀態的敵人 攻擊時20%% 附加傷害`
+
+[detail explain]
+	`裝備時，使 300px 範圍內的敵人產生結冰光環。（結冰光環持續 7秒時，給予 1200的水屬性追加傷害，以 25%% 機率 3秒內陷入結冰狀態。 對比Lv85高的目標減少施展機率與效果，比 Lv85低的目標則增加。 決鬥場不適用）
+黑暗權能攻擊時敵人3秒內進入冰凍狀態
+冰凍狀態的敵人攻擊時20%% 附加傷害`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[magical attack]
+	56
+
+[attack speed]
+	80
+
+[price]
+	153000
+
+[repair price]
+	128520
+
+[value]
+	122400
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	783	726
+
+[equipment magical attack]
+	824	764
+
+[separate attack]
+	504	343
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	85
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	27	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	4
+[/routing priority]
+
+[ice appendage]
+	1200	300	7000
+
+[if]
+	[skill]
+		`priest`	125
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`freeze`	85
+[/then]
+
+[if]
+	[target active status]
+		`freeze`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[possible kiri protect]

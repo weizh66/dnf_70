@@ -1,0 +1,69 @@
+#PVF_File
+
+[set name]
+	`元素增幅  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[mage]`	38
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[mage]`	55
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[mage]`	61
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	62
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	64
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	61
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[mage]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[mage]`	64
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[mage]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[mage]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[mage]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[mage]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`移動施放移動速度比率增加20%% /傑克降臨冷卻時間1減少5%% /雷擊冷卻時間1減少5%%
+火、水、光、暗精通攻擊力比率增加40%%， MP 消耗 減少比率減少20%% / 美味的章魚觸鬚施放速度上升率增加 40%% / 極冰盛宴冷卻時間減少2 5%% / 黑洞冷卻時間減少25%%`
+[/piece set ability]

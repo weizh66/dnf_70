@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`格斗天王大賽專屬PK卡片-攻擊力`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[weapon]`
+[/string data]
+
+[int data]
+	28	3000
+[/int data]
+
+[enchant]
+	[pvp]
+		[equipment physical attack]
+			45	45
+		[equipment magical attack]
+			45	45
+	[/pvp]
+[/enchant]
+
+[stat desc]
+	`下列屬性只適用于決鬥場。`
+
+[item category]
+	`monster card`
+[/item category]

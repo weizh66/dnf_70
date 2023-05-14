@@ -1,0 +1,76 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`tile/sao_sky_tile01.til`
+	`tile/sao_sky_tile02.til`
+	`tile/sao_sky_tile01.til`
+	`tile/sao_sky_tile03.til`
+	`tile/sao_sky_tile01.til`
+[/tile]
+
+[shadow type]
+	`[mirror]`
+
+[pathgate pos]
+	721	772	721	772	721	772	721	772
+
+[dungeon start area]
+	198	199	74	44
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[animation]
+	`animation/sao_sky_light_dodge.ani`
+	`[bottom]`	-1	154	0
+	`animation/sao_sky_light_dodge.ani`
+	`[bottom]`	225	154	0
+	`animation/sao_sky_light_dodge.ani`
+	`[bottom]`	447	154	0
+	`animation/sao_sky_light_dodge.ani`
+	`[bottom]`	671	154	0
+	`animation/sao_sky_light_dodge.ani`
+	`[bottom]`	895	154	0
+	`animation/sao_sky_far.ani`
+	`[distantback]`	0	-200	0
+	`animation/sao_sky_far.ani`
+	`[distantback]`	640	-200	0
+	`animation/sao_sky_sunlight1.ani`
+	`[normal]`	35	-23	0
+	`animation/sao_sky_sunlight2.ani`
+	`[normal]`	37	-195	0
+[/animation]
+
+[passive object]
+	12078	2	-170	0	12079	-2	-205	0
+[/passive object]
+
+[ai character]
+	21404	621	230	0
+	`[monster]`
+	`[boss]`	2	0
+[/ai character]
+
+[event monster position]
+	596	224	0	533	309	0	456	241	0	492	308	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

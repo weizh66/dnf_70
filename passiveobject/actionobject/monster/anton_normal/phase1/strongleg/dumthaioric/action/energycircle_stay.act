@@ -1,0 +1,176 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/EnergyCircle_Stay00.ani`
+	[SUB ANI]
+		`../animation/EnergyCircle_Stay01.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		0	1	2	3	4	5
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET FRAME]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		3
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		5
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		7
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		9
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET FRAME]
+		11
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		12	12
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET FRAME]
+		13
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		13	13
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		9	7	8	9	7	8	9
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			59055
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		10
+[/TRIGGER]
+
+[TRIGGER]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			59055
+		[/IS INDEX]
+		[HP]
+		[>]
+			81
+		[%]
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		10
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		3
+	[NOW]
+[/BEHAVIOR]

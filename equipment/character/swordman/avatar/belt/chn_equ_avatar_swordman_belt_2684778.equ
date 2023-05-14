@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`金鏈腰飾`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_abelt.img`	178
+
+[equipment type]
+	`[waist avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	55	2
+
+[layer variation]
+	1700
+	`belt_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_WATER]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_DARK]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_LIGHT]`
+	`+`	20
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`
+	`+`	30
+	`[INVENTORY_MAX_WEIGHT]`
+	`+`	6000
+[/avatar select ability]
+
+[image packs]
+	`Character/Swordman/Equipment/Avatar/belt/sm_belt0101b.img`
+[/image packs]

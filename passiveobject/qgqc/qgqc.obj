@@ -1,0 +1,36 @@
+#PVF_File
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATStormQuake/StormQuake_A_Cast.ani`
+
+[etc motion]
+	`Animation/ATStormQuake/StormQuake_B02_Wind_Loop_Attack.ani`
+	`Animation/ATStormQuake/StormQuake_C_Wind_End12.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/ATStormQuake.atk`
+
+[etc attack info]
+	`AttackInfo/ATStormQuakeExp.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	201852
+[/object destroy condition]

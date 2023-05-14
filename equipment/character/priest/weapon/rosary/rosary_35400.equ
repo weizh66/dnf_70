@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`希特拉克的冷酷的眼球`
+
+[basic explain]
+	`安裝時每20秒讓300px 範圍內的所有 敵人 3秒內進入冰凍狀態
+冰凍狀態的敵人 攻擊時敵人 5%% 附加傷害
+不可解體`
+
+[detail explain]
+	`安裝時每20秒讓300px 範圍內的所有敵人3秒內進入冰凍狀態。（高於Lv54的對象得到的機率減少，低於Lv54的對象則會增加。 安裝時10秒後發動。 決鬥場內不適用）
+冰凍狀態的敵人攻擊時敵人 5%% 附加傷害
+不可解體`
+
+[grade]
+	54
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[magical attack]
+	56
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[price]
+	86400
+
+[repair price]
+	345600
+
+[value]
+	345600
+
+[equipment physical attack]
+	450	414
+
+[equipment magical attack]
+	575	529
+
+[separate attack]
+	299	200
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/priest/rosary.img`	66
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	19	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[if]
+	[target active status]
+		`freeze`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[time]
+		20000	1	10000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		3000
+	[active status]
+		`freeze`	54
+[/then]
+
+[pvp]
+	[if]
+		[target active status]
+			`freeze`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

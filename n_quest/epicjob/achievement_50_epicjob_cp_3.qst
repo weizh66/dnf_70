@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	919
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	921
+
+[name]
+	`覺醒 - 武神 (2/4)`
+
+[depend message]
+	`一直以來， 你總是不停和各種兇惡的怪物進行對抗。 對于這點， 我也十分欽佩。 不過有句話叫作‘欲速則不達’。
+我希望你可以稍微放慢腳步， 靜下心來回顧一下之前走過的路， 想想該如何進一步提升自己的格斗！`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`你發現死亡之塔和之前的那些地下城相比有什么不同了嗎？
+確實， 死亡之塔更能鍛煉挑戰者的耐心和毅力。 呵呵~我能感覺到你的眼神和氣息比以前平穩了不少…… `

@@ -1,0 +1,129 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Underfoot.ani`
+
+[cutscene image]
+	`Map/CutScene/UnderFoot.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	6
+	`WorldMap/SelectdungeonSlot/underfoot.img`	0
+
+[minimum required level]
+	51
+
+[basis level]
+	54
+
+[experience increasing point]
+	1.0
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	471	472	473	474	475	476	477	478	479	480
+
+[maze info]
+
+[size]
+	6	3
+
+[greed]
+	`JJMMAAJJMMAA
+ KKLLNNHHPPEE
+ DDGGDDFFGGAA`
+
+[start map]
+	0	1
+[/start map]
+
+[boss map]
+	5	1
+[/boss map]
+
+[map specification]
+	0	0	6602
+[/map specification]
+
+[map specification]
+	0	2	6603
+[/map specification]
+
+[map specification]
+	1	0	6604
+[/map specification]
+
+[map specification]
+	1	2	6605
+[/map specification]
+
+[map specification]
+	1	1	6606
+[/map specification]
+
+[map specification]
+	2	1	6607
+[/map specification]
+
+[map specification]
+	2	2	6608
+[/map specification]
+
+[map specification]
+	3	1	6609
+[/map specification]
+
+[map specification]
+	3	2	6610
+[/map specification]
+
+[map specification]
+	3	0	6611
+[/map specification]
+
+[map specification]
+	4	0	6612
+[/map specification]
+
+[map specification]
+	4	1	6613
+[/map specification]
+
+[map specification]
+	4	2	6614
+[/map specification]
+
+[seal door map index]
+	60020
+
+[seal door pos]
+	3	2
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	1
+
+[hell dungeon]
+	1
+
+[name]
+	`暗黑城入口`
+	
+
+[explain]
+	`暗精靈原是精靈中的一族， 從精靈中脫離出來後， 暗精靈便移居到暗黑城， 並把暗黑城作為他們的聖地。 千百年來， 他們守著黑暗城入口阻止任何人靠近。 闖過重重難關的冒險家， 能否進入這個不可侵犯的聖地？ 人類與暗精靈的戰爭會停止嗎？`
+	
+
+[event monster]
+	1	10000	61728	1	300	80	1
+[/event monster]

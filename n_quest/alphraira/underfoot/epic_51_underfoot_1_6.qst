@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	51	99
+
+[pre required quest]
+	76
+[/pre required quest]
+
+[quest point]
+	8
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	36	2	1081	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`開啟暗黑城之門`
+
+[depend message]
+	`原來是我誤會莎蘭了， 看來沒有改掉暗精靈惡習的是我， 我真的很抱歉……
+呵呵， 你有了這個戒指就可以去暗黑城了。 女王被囚禁在暗黑城皇宮， 你可以先用解藥治療那些被感染的暗精靈， 之后就有希望阻止那些長老了。 `
+
+[condition message]
+	`    前往暗黑城的『暗黑城入口』， 處置領主無頭騎士， 要求地下城難度為王者級。`
+
+[solve message]
+	`暗黑城之門終于開啟了！ 真的太感謝你了！ 你救了我們的女王陛下， 我們暗精靈很感激， 相信人類和暗精靈的戰爭很快就會結束了！ `

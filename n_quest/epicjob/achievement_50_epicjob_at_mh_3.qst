@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5341
+
+[name]
+	`覺醒 - 機械之心 (1/4)`
+
+[depend message]
+	`幾天前， 從天上掉下了一個奇怪的機器人……這件事情你也聽說了吧？
+可惜被摔成了好幾塊， 估計是不可能修好了……
+什么？ 你想試試？
+據說在馬琳那里， 你可以去找她問問。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`你想要那個碎成幾塊的機器人？
+為什么？ 如果不告訴我原因， 那就請回吧。`

@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/jail_Basic_0_0.ani`
+	[SUB ANI]
+		`../Animation/jail_Basic_0_4.ani`	0	1
+		`../Animation/jail_Basic_0_5.ani`	0	2
+		`../Animation/jail_Basic_0_1.ani`	0	3
+		`../Animation/jail_Basic_0_2.ani`	0	4
+		`../Animation/jail_Basic_0_3.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

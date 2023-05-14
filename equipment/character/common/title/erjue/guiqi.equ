@@ -1,0 +1,293 @@
+#PVF_File
+
+[name]
+	`神·黑暗君主`
+
+[explain]
+	`“你真的以為你已經達到了最高境界了嗎?我才是真正從九泉歸來的鬼神。雖然失去了肉軀，但是在所有鬼人 之中獲得了最強力量的，被賦予‘九’字的人。我只是感受到你的氣息跟我非常接近，所以才靠近了你。
+你現在還不明白嗎?選擇不是你的權利，而是我的權利……”
+他剛說完，我看到了迄今為止未看過的驚悚的一幕。
+被鬼神侵蝕掉生命的一個男子的幻象……在極大的痛苦下也保持清醒，並逃出靈界的男子……
+我突然想到了一個人的名字。
+“你就是神官吉格嗎?”
+遊走在我腦海中的恐怖幻象開始消失，然後感受到了吉格正通過的鬼手進入我的體內……
+“接受我的力量……成為九個鬼神之王吧……我的君主(Lord)……”`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	200
+
+[physical defense]
+	200
+
+[magical attack]
+	200
+
+[magical defense]
+	200
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	100
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/zuiqiangzhanhuang.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[use skill]
+		`swordman`	25
+		[cooltime]
+			20000
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[passive object]
+		99997	0	0	0	0	0
+		``	99021	0	0	0	0	-1
+		``	99121	0	0	0	0	-1
+		``
+	[/passive object]
+	[stat]
+		`physical attack`
+		`%`	30
+	[stat]
+		`magical attack`
+		`%`	30
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	41
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		99998	0	0	0	0	0
+		``	99022	0	0	0	0	-1
+		``	99122	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	36
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		99999	0	0	0	0	0
+		``	99023	0	0	0	0	-1
+		``	99123	0	0	0	0	-1
+		``
+	[/passive object]
+	[appendage]
+		147
+[/then]
+
+[if]
+	[my appendage]
+		147
+	[target active status]
+		`freeze`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	75
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		999100	0	0	0	0	0
+		``	99024	0	0	0	0	-1
+		``	99124	0	0	0	0	-1
+		``
+	[/passive object]
+	[appendage]
+		142
+[/then]
+
+[if]
+	[my appendage]
+		142
+	[attack success]
+		1
+	[cooltime]
+		1500
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[passive object]
+		99026	0	0	0	0	-1
+		``
+	[/passive object]
+	[active status]
+		`any`	120
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	44
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		999104	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	60
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		999102	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	111
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		999101	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		660058	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	30
+	[/use skill]
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3037	5
+	[duration]
+		80000
+	[probability]
+		100
+	[summon monster]
+		64053	-1	1
+[/then]

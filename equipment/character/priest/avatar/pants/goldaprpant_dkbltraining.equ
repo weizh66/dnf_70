@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`修練祭司下衣[A型]`
+
+[explain]
+	`地下城與勇士周年紀念版 -金幣角色`
+
+[enable dye]
+	1	0
+
+[grade]
+	1
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_apants.img`	1
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1400	0	30	0	0	2800	0	0	0	0	5600	0	0	0	0	6200	2
+	`[A socket]`
+	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[HP MAX]`
+	`+`	150
+	`[MP MAX]`
+	`+`	150
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`+`	300
+[/avatar select ability]
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[avatar func filter]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[price]
+	11000

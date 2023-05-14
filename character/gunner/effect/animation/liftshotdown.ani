@@ -1,0 +1,50 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/ShootEffect/LiftShot1.img`
+		0
+	[IMAGE POS]
+		-307	-230
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/ShootEffect/LiftShot1.img`
+		1
+	[IMAGE POS]
+		-307	-230
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/ShootEffect/LiftShot1.img`
+		2
+	[IMAGE POS]
+		-307	-230
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60

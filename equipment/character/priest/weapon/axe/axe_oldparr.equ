@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`酒神的戰斧`
+
+[basic explain]
+	`攻擊時，以5%%的機率附加200點傷害。
+攻擊速度增加+3%%`
+
+[detail explain]
+	`攻擊速度 +3%%`
+
+[grade]
+	39
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	35
+
+[physical attack]
+	43
+
+[physical defense]
+	20
+
+[attack speed]
+	-50
+
+[cast speed]
+	30
+
+[stuck]
+	-2
+
+[price]
+	70200
+
+[repair price]
+	56160
+
+[value]
+	23800
+
+[equipment physical attack]
+	447	379
+
+[equipment magical attack]
+	316	269
+
+[separate attack]
+	221	146
+
+[skill levelup]
+	`[priest]`	69	2
+	`[priest]`	38	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/axe.img`	26
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	6
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[add absolute damage]
+		`all`
+		`+`	200
+[/then]
+
+[possible kiri protect]

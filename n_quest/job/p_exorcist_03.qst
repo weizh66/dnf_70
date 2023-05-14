@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7861
+[/pre required quest]
+
+[collision quest]
+	7852	7856	7863
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	-1
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 驅魔師 (3/3)`
+
+[depend message]
+	`這是最后的考驗！ 你想試試召喚最初的式神嗎？
+它的名字叫作‘熾焰’， 是個非常可愛的小式神， 雖然沒有戰斗能力， 但能幫助你進行驅魔儀式， 而且也擁有一定的力量。
+不過， 它可不會追隨弱者。`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』。  `
+
+[solve message]
+	`辛苦了。 現在你就是‘熾焰’的主人了。
+從現在開始， 你就是驅魔師了。 希望你能盡職地守護人們， 讓他們免受惡魔的傷害！`

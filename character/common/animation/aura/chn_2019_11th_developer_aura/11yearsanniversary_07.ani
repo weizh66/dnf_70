@@ -1,0 +1,38 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/Aura/chn_2019_11th_developer_aura/2018Aura03.img`
+		0
+	[IMAGE POS]
+		-200	-372
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		2160

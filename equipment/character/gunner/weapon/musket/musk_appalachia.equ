@@ -1,0 +1,137 @@
+#PVF_File
+
+[name]
+	`天之槍 - 阿帕拉契`
+
+[basic explain]
+	`穿刺力 +20%%`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`musket`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2100
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`item/weapon/gunner/musket.img`	41
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	2
+
+[durability]
+	30
+
+[need material]
+	3260	900
+
+[repair price]
+	83160
+
+[value]
+	79200
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	535	453
+
+[equipment magical attack]
+	465	394
+
+[separate attack]
+	328	220
+
+[skill levelup]
+	`[gunner]`	31	3
+	`[at gunner]`	31	3
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	5
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	5
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[int data]
+	3	-1	-1	-1	-1	-1	-1	-1	70	-1
+[/int data]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

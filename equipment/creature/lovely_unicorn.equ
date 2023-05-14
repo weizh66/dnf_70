@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`戀之獨角獸`
+
+[explain]
+	`在地下城獲得金幣時，自己的金幣量增加3%%。隊員獲得時，自己的金幣量也會增加3%%。`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature.img`	52
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	56
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	5.0
+
+[physical attack]
+	10
+
+[magical attack]
+	10
+
+[room list move speed rate]
+	0.1
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1

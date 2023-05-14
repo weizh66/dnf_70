@@ -1,0 +1,222 @@
+#PVF_File
+
+[name]
+	`卡勒特的鋸鋒之刃`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入出血狀態， 效果持續5秒。
+    裝備時， 角色400px範圍內， 每存在1個出血狀態的敵人， 會使自身增加10點的力量和智力， 3點的物攻和魔攻， 1%%的攻擊速度、 施放速度、 物理暴擊率和魔法暴擊率。
+    近距離攻擊時， 增加2次多段攻擊。 `
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入出血狀態5秒； 出血狀態下的敵人， 每0.5秒受到300點傷害。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    400px範圍內， 每存在1個出血狀態的敵人， 會使自身增加10點力量、 10點體力、 3點物理攻擊力、 3點魔法攻擊力、 1%%的攻擊速度、 1%%的施放速度、 1%%的物理暴擊率和魔法暴擊率。 (最多重疊10次
+    近身攻擊時， 增加2次多段攻擊次數。 (每1次多段攻擊附加7%%的傷害)`
+
+[flavor text]
+	`    卡勒特的武器還是保護得不錯的， 這刀刃放了這?久依然鋒利。`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	92
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	10000204	56
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	956	855
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	121
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	48	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	48	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[duration]
+		5000
+	[active status]
+		`bleeding`	90	3000
+[/then]
+
+[variable stat]
+	`physical attack`
+	`+`	10
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+	`magical attack`
+	`+`	10
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+	`equipment physical attack`
+	`+`	3
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+	`equipment magical attack`
+	`+`	3
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+	`physical critical hit`
+	`+`	1
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+	`magical critical hit`
+	`+`	1
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+	`attack speed`
+	`+`	10
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+	`cast speed`
+	`+`	10
+	`object number`
+	`enemy`	400
+	`bleeding`	10
+[/variable stat]
+
+[if]
+	[attacker]
+		`character`	-1
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	7
+	[add absolute damage]
+		`all`
+		`%`	7
+[/then]
+
+[possible kiri protect]

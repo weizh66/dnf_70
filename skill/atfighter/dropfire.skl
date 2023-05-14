@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`烈火強踢`
+
+[explain]
+	`往前突進， 並讓敵人進入僵直狀態。 把敵人聚集後， 使用強力的向下劈擊對敵人造成大量傷害。
+無法聚集或上挑霸體狀態的怪物。
+在空中可以強制中斷該技能並使用[柔化肌肉]。`
+
+[basic explain]
+	`往前突進， 並讓敵人進入僵直狀態。 把敵人聚集後， 使用強力的向下劈擊對敵人造成大量傷害。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	50	0	0	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[skill command advantage]
+	50	50
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[consume MP]
+	450	1260
+
+[cool time]
+	60000	60000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	266
+	`Character/Fighter/Effect/ATSkillIcon.img`	267
+
+[command]
+[/command]
+
+[static data]
+	80	80	60	150	250
+[/static data]
+
+[level info]
+	2	0	31664	0	34876	0	38088	0	41300	0	44513	0	47726	0	50937	0	54150	0	57362	0	60575	0	63786	0	66999	0	70211	0	73424	0	76635	0	79848	0	83061	0	86273	0	89485	0	92697	0	95910	0	99122	0	102334	0	105547	0	108759	0	111972	0	115183	0	118396	0	121608	0	124821	0	128032	0	131245	0	134458	0	137669	0	140882	0	144094	0	147307	0	150518	0	153731	0	156943	0	160156	0	163367	0	166580	0	169793	0	173005	0	176217	0	179429	0	182642	0	185854	0	189066	0	192279	0	195491	0	198704	0	201915	0	205128	0	208340	0	211553	0	214764	0	217977	0	221190	0	224402	0	227614	0	230826	0	234039	0	237251	0	240463	0	243675	0	246888	0	250101	0	253312
+[/level info]
+
+[/dungeon]
+
+[level property]
+	1	99
+	`爆炸物理攻擊力 : <int>%%`	-1	1	1.0
+[/level property]

@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`初級職業轉換書`
+
+[explain]
+	`只限於等級20~49之間轉職的角色，並且需要消耗物品才可變更轉職，可以選擇現在角色職業可進行轉職的職業。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[fighter]`
+	`[gunner]`
+	`[mage]`
+	`[priest]`
+	`[at gunner]`
+	`[thief]`
+	`[at fighter]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	20
+
+[maximum level]
+	49
+
+[icon]
+	`Item/stackable/cash.img`	788
+
+[stackable type]
+	`[waste]`	0
+
+[move wav]
+	`PAPER_TOUCH`
+
+[action type]
+	`[class change]`
+[/action type]
+
+[action usable place]
+	`[village]`
+	`[dont use assult]`
+[/action usable place]
+
+[action usable server type]
+	`[general server]`
+	`[event server]`
+[/action usable server type]
+
+[npc gift disallowance]
+	1

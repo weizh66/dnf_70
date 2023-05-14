@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`魯道夫的鼻子 (格斗家)`
+
+[flavor text]
+	`<圣誕節的祝福活動>`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_aface.img`	93
+
+[equipment type]
+	`[face avatar]`	0
+
+[usable period]
+	20
+
+[avatar func filter]
+	0
+
+[variation]
+	27	0
+
+[layer variation]
+	1925
+	`face_c`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	2830
+	`face_f`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[part set index]
+	2

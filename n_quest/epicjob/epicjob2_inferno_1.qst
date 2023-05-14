@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 炎獄裁決者 (1/2)`
+
+[depend message]
+	`你來了！ 我知道你一定會來的， 請先冷靜地聽我說完吧。
+米歇爾的使徒身份曝光后， 沒有受到懲罰反而被尊奉為守護神。 這背后其實是教團的指示， 并不是外界的壓力。
+你也感到很驚訝吧？ 我完全理解你的反應。 向來和異端水火不容的教團， 竟然尊奉使徒米歇爾， 誰都會匪夷所思。
+但我希望你能理解教團的這個決定， 他們是為了防止信徒們陷入混亂而不得不做出的決定。 你也知道， 追隨米歇爾的信徒人數太多了， 而且他們的信仰都非常的虔誠。 即使我們說出了真相， 也可能被他們嗤之以鼻。
+我們所有的行為都是為了神和忠實的信徒， 這是我們的信仰， 所以請你按照教團的指示行事吧。
+另外， 你還有別的使命。 比起米歇爾的問題， 那些猖獗的異端勢力更需要你費心， 不是嗎？
+教團料到你會來， 所以讓我確認你是否具備了‘炎獄裁決者’的資格， 但……你愿意繼續留在教團， 為消滅殘余的異端而努力嗎？`
+
+[condition message]
+	`    如果要進行二次覺醒并做好了準備， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`    我相信你會做出正確的決定！`
+
+[pre required quest]
+	2920
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12847
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	66
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4159
+[/pre required quest]
+
+[monster reward item]
+	61616	73	-1	4757	3	60	100	61617	73	-1	4757	3	60	100	61618	73	-1	4757	3	60	100	61619	73	-1	4757	3	60	100	61620	73	-1	4757	3	60	100	61621	73	-1	4757	3	60	100	61623	73	-1	4757	3	60	100	56472	73	-1	4757	4	85	100	56471	73	-1	4757	4	85	100	56475	73	-1	4757	4	85	100	61615	73	-1	4757	5	90	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4757	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`聖戰士的念珠`
+
+[depend message]
+	`唉唷，冒險家！那不是參加黑暗聖戰的聖職者持有的念珠嗎？因為是有意義的物品，所有很多聖職者都持有那念珠。
+有幾名聖職者跑來問我是否能夠取得那個念珠。這是冒險家也會幫我吧。
+你該不會忘記和我之間的本行了吧？可以幫我收集一下那念珠嗎？`
+
+[condition message]
+	`在黑暗聖殿收集聖戰士的念珠 100個`
+
+[solve message]
+	`唉唷……看你有認真喔！你真的做了一件有意義的事啊。`
+
+[quest point]
+	4

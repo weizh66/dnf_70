@@ -1,0 +1,191 @@
+#PVF_File
+
+[name]
+	`羅特斯的觸須`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率使敵人進入混亂狀態。
+攻擊時， 有2%%的幾率使敵人進入睡眠狀態。
+攻擊時， 有2%%的幾率使敵人進入眩暈狀態。
+攻擊時， 有3%%的幾率召喚出羅特斯的觸手協助召喚者攻擊敵人。`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入混亂狀態5秒。
+    攻擊時， 有2%%的幾率使敵人進入睡眠狀態8秒。
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態5秒。 (若敵人高于Lv55， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    攻擊時， 有3%%的幾率召喚出羅特斯的觸手協助召喚者攻擊敵人。`
+
+[flavor text]
+	`    用使徒羅特斯的觸手制成的圖騰， 有很強的韌性。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/totem.img`	32
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	38
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	59
+
+[equipment physical attack]
+	559	508
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[if]
+	[cooltime]
+		2500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[active status]
+		`confuse`	55	1
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		8000
+	[reduce duration to human armor at pvp module]
+		75
+	[probability]
+		2
+	[active status]
+		`sleep`	55
+[/then]
+
+[if]
+	[cooltime]
+		2500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[active status]
+		`stun`	55
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[passive object]
+		30029	0	0	0	25	0
+		``
+	[/passive object]
+[/then]
+
+[stuck]
+	-1
+
+[variation]
+	3	1
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

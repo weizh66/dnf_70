@@ -1,0 +1,24 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[attack info]
+	`AttackInfo/Amateras_Bird.atk`
+
+[basic action]
+	`Action/amateras_bird2.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	500
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	710044
+[/object destroy condition]

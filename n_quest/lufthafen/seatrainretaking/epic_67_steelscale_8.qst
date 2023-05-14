@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	66
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	150
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3316	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`合理分配`
+
+[depend message]
+	`什么？ 我沒看錯吧！ 怎么會是章魚呢？
+<npc::0>波迪爾說這些章魚肉質柔軟細膩， 吃起來十分爽口。 看他的樣子還挺舍不得的， 說不定真是好東西！
+<npc::66>他肯定是舍不得他的金銀珠寶， 才說這些話哄你的。 唉， 這些破章魚估計是賣不了多少錢了……
+不過， 冒險家你這么辛苦， 我還是會給你定一個合理的價格的！`
+
+[condition message]
+	`    和小燈籠商量后， 分配獎勵。`
+
+[solve message]
+	`你看看， 這些應該夠了吧！ 唉， 這些破章魚要怎么賣出去呢？ 這回真是虧本了……
+（冒險家走遠后）……現在海產品營養價值高， 肯定能賣出個不錯的價錢。 嘻嘻~這回真是走運咯！`
+
+[quest point]
+	4

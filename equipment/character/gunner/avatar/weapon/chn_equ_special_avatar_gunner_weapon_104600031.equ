@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`獵龍者手炮`
+
+[flavor text]
+	`<2017春節禮包>`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	147
+
+[avatar func filter]
+	0
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		51	0
+	[layer variation]
+		2790
+		`hcanc`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[layer variation]
+		650
+		`hcanb`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/gunner/weapon/hcannon/`
+[/expand ani]
+
+[string data]
+	``
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	120	30	70	3	130	30	70	3	100	30	70
+[/int data]

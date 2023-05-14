@@ -1,0 +1,196 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	79
+		`[dungeon type]`
+		`[static]`	8
+		`%`	15
+		`[knight]`	79
+		`[dungeon type]`
+		`[static]`	7
+		`+`	1
+		`[knight]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[魔靈炸彈]腳踢范圍 +15%%
+[魔靈炸彈]引爆魔靈數量上限 +1
+[魔靈炸彈]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	79
+		`[dungeon type]`
+		`[static]`	8
+		`%`	20
+		`[knight]`	79
+		`[dungeon type]`
+		`[static]`	7
+		`+`	2
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	10
+		`%`	20
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	19
+		`%`	20
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	21
+		`%`	20
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	23
+		`%`	20
+		`[knight]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[knight]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[魔靈炸彈]腳踢范圍 +20%%
+[魔靈炸彈]引爆魔靈數量上限 +2
+[魔靈炸彈]魔靈戰士爆炸大小 +20%%
+[魔靈召喚 : 波拉斯]攻擊力 +40%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	86
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	8
+		`%`	30
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	13
+		`%`	30
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	16
+		`%`	30
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	7
+		`%`	25
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	12
+		`%`	25
+		`[knight]`	86
+		`[dungeon type]`
+		`[level]`	15
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	7
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	9
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	16
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	20
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	22
+		`%`	25
+		`[knight]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[knight]`	79
+		`[dungeon type]`
+		`[static]`	10
+		`+`	-15
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	15
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	10
+		`%`	15
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	19
+		`%`	15
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	21
+		`%`	15
+		`[knight]`	79
+		`[dungeon type]`
+		`[level]`	23
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[碎靈屠戮]冷卻時間 -30%%
+[碎靈屠戮]魔靈法師爆炸大小 +30%%
+[碎靈屠戮]魔靈法師爆炸攻擊力 +25%%
+[魔靈炸彈]攻擊力 +25%%
+[魔靈炸彈]冷卻時間 -10%%
+[魔靈炸彈]魔靈士兵爆炸大小 +15%%
+[魔靈炸彈]禁止時間冷卻比率 -15%%`
+[/piece set ability]

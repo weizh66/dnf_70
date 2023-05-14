@@ -1,0 +1,100 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	7731
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	67	-1	56024	1	67	-1	62141	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3311	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[異界]混沌之奧茲瑪`
+
+[depend message]
+	`如果那位真的是圣者米歇爾， 那么……他已經墮落到成為奧茲瑪的幫兇了嗎？
+冒險家， 圣職者教團已經下了命令， 無論如何一定要消滅奧茲瑪……
+即使……即使那位真的是米歇爾大人， 也不得不這么做……`
+
+[condition message]
+	`    前往異次元裂縫的『黑色大地』， 除掉圣者米歇爾和混沌之奧茲瑪。 (只有3人以上組隊才能進入異界地下城)`
+
+[solve message]
+	`最后……你還是把奧茲瑪消滅了！ 雖然可喜可賀， 但……但是不是連米歇爾大人也……
+不管怎樣， 我還是會把事實報告給教團的。
+你消滅了奧茲瑪， 就是給世界帶來了巨大的安寧與和平。`
+
+[dialog]
+	0	0	15083	0	0	0	0
+	`<monster::56024>你們不就是上次來過的人？
+你們還要執意再來這里， 難道完全把我的勸告當做耳旁風了嗎？
+你們說我是墮落的圣人， 但誰知道， 會不會哪天你們也像我一樣？
+我最后問一次： 你們要不要離開這里？！`
+[/dialog]
+
+[dialog]
+	0	1	15083	0	0	0	0
+	`<monster::56024>終有一天你們會后悔的……并不是只有你們認為的正義， 才是真正的正義……`
+[/dialog]
+
+[dialog]
+	0	0	15084	0	0	0	0
+	`<monster::62141>哈哈， 真是謝謝你們。
+不用我親自動手， 你們就幫我消滅了米歇爾。
+我要怎么表達我的謝意呢？ 這樣吧， 你們被我打敗后， 我饒你們不死。
+因為除了死， 我還有更重要的事情要你們去做……來吧， 滿足我的愿望吧！`
+[/dialog]
+
+[dialog]
+	0	1	15084	0	0	0	0
+	`<monster::62141>難道……米歇爾那小子的話應驗了嗎……！！
+他說我會死在這里。 我……真的會在世界滅亡之前死掉嗎？ 回答我！ 米歇爾……
+卡贊……啊， 你也來了……我好后悔……請原諒我吧……
+不……不要帶我走！！卡贊……`
+[/dialog]
+
+[quest point]
+	4

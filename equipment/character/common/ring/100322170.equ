@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`格拉西亞家族遺物 - 戒指`
+
+[basic explain]
+	`裝備後生成光環， 使300px範圍內的所有敵人減少15點光屬性抗性。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12536
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[need material]
+	5000	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	228
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	200
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		300
+	[aura active]
+		`light resistance`
+		`+`	-15	0
+[/then]
+
+[dynamic part set index]
+	12533	12534	12535	12536	12537
+[/dynamic part set index]
+
+[possible kiri protect]

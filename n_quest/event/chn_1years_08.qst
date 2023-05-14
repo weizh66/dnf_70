@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[pre required quest]
+	4984
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680306	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680311	10	2680310	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`用閃光粉裝飾`
+
+[depend message]
+	`生日蛋糕基本完成了， 但我還是覺得很單調……嗯， 我需要一些能裝飾生日蛋糕的裝飾品。
+聽說羅莉安正在構思新商品， 她那里應該有我需要的飾品呢。 冒險家， 你能替我去一趟那兒嗎？ `
+
+[condition message]
+	`    從羅莉安處獲得1個[閃光粉]交給賽麗亞。`
+
+[solve message]
+	`好漂亮的生日蛋糕呀， 我真舍不得吃了~`

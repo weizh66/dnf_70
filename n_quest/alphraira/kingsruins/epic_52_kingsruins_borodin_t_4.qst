@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	12
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[pre required quest]
+	640
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3187	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 游蕩的靈魂`
+
+[depend message]
+	`暗精靈士兵身體上出現的那些癥狀不僅僅是戰爭造成的， 我需要詳細調查后才能告訴你最終的結果。
+你先去阿法利亞幫我收集些靈魂晶石吧， 那東西對我的調查很重要， 你一定要拿來啊！ `
+
+[condition message]
+	`    收集6個[靈魂晶石]交給莎蘭。`
+
+[solve message]
+	`就等你的這些靈魂晶石了， 放心吧！ 我一定能從它們身上找到線索的！ `
+
+[quest point]
+	4

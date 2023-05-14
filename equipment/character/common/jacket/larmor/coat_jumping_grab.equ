@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`古老的幽靈結晶胸甲`
+
+[basic explain]
+	`不能強化、增幅、提鍊、解體、送禮、儲存倉庫`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	21
+
+[magical attack]
+	14
+
+[price]
+	0
+
+[repair price]
+	30240
+
+[value]
+	0
+
+[equipment physical defense]
+	1620	1548
+
+[skill levelup]
+	`[fighter]`	10	1
+[/skill levelup]
+
+[icon]
+	`Item/common/coat.img`	38
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`古老的幽靈結晶輕甲  套裝`
+
+[set item]
+	10956	12950	14945	16939	18948
+[/set item]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+[/impossible contents]
+
+[set ability]
+	[physical attack]
+		15
+	[physical defense]
+		15
+	[if]
+		[cooltime]
+			20000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			1
+		[stat]
+			`physical attack`
+			`+`	45
+	[/then]
+	[skill levelup]
+		`[fighter]`	62	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時，以1%%的機率使自身增加45點力量，效果持續20秒。`
+[/set ability]
+
+[possible kiri protect]

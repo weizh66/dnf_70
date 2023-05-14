@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	39	99
+
+[pre required quest]
+	444
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3038	1	3039	1	3040	1	3041	1	3210	100
+[/int data]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26609	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`屠龍勇士`
+
+[depend message]
+	`聽聞閣下除掉了邪龍斯皮茲， 是否真有其事？
+你可是解決了我們暗精靈的一大困擾啊！ 邪龍斯皮茲一直是我們的宿敵， 當年我們因為一時疏忽， 才使它再次復活……
+這件事也因此成為了不少暗精靈的心病。 現在你幫我們除掉了它， 實在是感激不盡！ 為了表示謝意， 我想為閣下制作一個特別的稱號。
+只是……這個稱號制作起來有些復雜， 需要一些材料。 能麻煩您跑一趟嗎？`
+
+[condition message]
+	`    收集[黑色大晶體]、 [白色大晶體]、 [紅色大晶體]、 [藍色大晶體]和[邪念體]。`
+
+[solve message]
+	`閣下辛苦了， 其實這本應該是我來找才對。 呵呵， 請稍等！
+稱號做好了， 看起來很適合您。`

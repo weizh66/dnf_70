@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	39
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	47	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	44	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	7
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`冰雪女王的傳說`
+
+[depend message]
+	`我是……班圖族少女敏泰， 今年16歲……我知道大家對我們班圖族存在很多誤解……但是……
+因為班圖族實在太需要大家的幫助了， 所以我才通過認識的人在布告欄發布了這個任務。
+前一陣子， 因為眾多冒險家的努力， 我們班圖族才重新有了對付冰龍斯卡薩的決心。
+可是現在， 通往斯卡薩巢穴的路上卻出現了一座冰雪做成的宮殿， 而宮殿的主人就是那個只存在于班圖族傳說中的冰雪女王。
+當然， 大多數冒險家是英勇的， 也不會把冰雪女王放在眼里……但這次， 我的預感非常地不妙！
+我懇求看到此任務的冒險家們， 請務必勸告一下那些試圖單憑一人之力闖進冰雪宮殿的人吧。
+如果非去不可的話， 請務必多帶些伙伴前往……
+我和我的族人， 就住在離赫頓瑪爾最近的斯頓雪域， 也就是我們班圖族的村莊。 你要是有什么疑問， 也可以來找我。`
+
+[condition message]
+	`    通關萬年雪山的『冰雪宮殿』， 然后去找斯頓雪域的敏泰， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`你還是……去了冰雪宮殿……你沒有受傷吧？`

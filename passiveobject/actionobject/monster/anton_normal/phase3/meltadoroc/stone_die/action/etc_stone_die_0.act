@@ -1,0 +1,61 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_stone_die_0_1.ani`
+	[SUB ANI]
+		`../Animation/Etc_stone_die_0_3.ani`	0	-1
+		`../Animation/Etc_stone_die_0_0.ani`	0	1
+		`../Animation/Etc_stone_die_0_2.ani`	0	2
+		`../Animation/Etc_stone_die_0_4.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`MELTADOROC_SHADOW_BITE`	4
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE LAYER]
+		`[normal]`
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		18	18
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE LAYER]
+		`[bottom]`
+	[SET USE HOMING]
+		1
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[CHECK STUCK]
+		0
+	[DO BEHAVIOR]
+	[LAST ATTACKSUCCESS]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		-50
+	[%]
+[/BEHAVIOR]

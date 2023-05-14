@@ -1,0 +1,28 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/ZIGFloorHoldexp.act`
+
+[etc action]
+	``
+[/etc action]
+
+[attack info]
+	`AttackInfo/zigfloorholdattack1.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+[/object destroy condition]

@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 機械之靈 (1/6)`
+
+[depend message]
+	`你怎么總是一副活夠了的無趣表情呢？
+也是啊， 重復制造沒有任何進步的相同機器肯定非常無聊吧， 你的心情可以理解。
+我以前也像你這樣， 當我頂著大太陽整天揮刀舞劍的時候， 看到自己一成不變的樣子， 也曾失望透頂過。
+不過， 如果你一直打著哈欠坐在原地， 那什么都不會改變。 不要再浪費時間了， 不如把這些時間用來提升自己吧， 你看如何？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`不要總是一副仇大苦深的樣子嘛。 這樣會容易變老的。
+過來吧。 我幫你提升實力， 獲取新的力量。
+等你的境界再提高一層， 回想起現在的自己為一籌莫展的事而懊惱的蠢樣， 會發笑的。 來， 我們快點開始吧。`
+
+[target character]
+	`[at gunner]`	3	1
+[/target character]
+
+[relation quest]
+	5792
+
+[job change quest]
+	3
+
+[grow number]
+	0

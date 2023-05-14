@@ -1,0 +1,38 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/sayspeech.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		0	1
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`嘖嘖！躲在磚塊附近吧！`
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`看來得躲在磚塊附近才行了！`
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

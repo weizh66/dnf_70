@@ -1,0 +1,179 @@
+#PVF_File
+
+[name]
+	`咒術師的扭曲之手`
+
+[detail explain]
+	`    [召喚獸強化]物理攻擊力增加率 +30%%
+    [召喚獸強化]魔法攻擊力增加率 +30%%
+    [召喚獸強化]物理防禦力增加率 -70%%
+    [召喚獸強化]魔法防禦力增加率 -70%%`
+
+[flavor text]
+	`    因為常使用邪惡的咒語， 現在報應來了， 胳膊因為副作用給整歪了。`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	112
+
+[attack speed]
+	-100
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	1093	977
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/mage/staff/staff.img`	120
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2150
+	`at_staffa`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_staffd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`STAFF_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2400
+
+[item group name]
+	`staff`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[mage]`	48
+	`[all]`
+	`[level]`	1
+	`%`	30
+	`[mage]`	48
+	`[all]`
+	`[level]`	2
+	`%`	-70
+[/skill data up]
+
+[if]
+	[use skill]
+		`mage`	118
+	[/use skill]
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3033	2
+	[add skill summon]
+		118	1	150000
+	[/add skill summon]
+[/then]
+
+[possible kiri protect]

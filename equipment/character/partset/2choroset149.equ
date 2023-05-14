@@ -1,0 +1,102 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	130
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[knight]`	135
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	135
+		`[dungeon type]`
+		`[static]`	29
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[龍翼突襲]沖擊波范圍 +30%%
+[龍拳]冷卻時間 -20%%
+[龍拳]空中使用時的沖擊波范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[knight]`	135
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[knight]`	137
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[knight]`	139
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[knight]`	139
+		`[dungeon type]`
+		`[level]`	2
+		`%`	35
+		`[knight]`	139
+		`[dungeon type]`
+		`[static]`	20
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[龍拳]攻擊力 +20%%
+[肉食主義]技能攻擊力增加量 +10%%
+[龍翼穿刺]最后一擊攻擊力 +35%%
+[龍翼穿刺]最后一擊沖擊波范圍 +40%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	139
+		`[dungeon type]`
+		`[static]`	26
+		`+`	1
+		`[knight]`	139
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[knight]`	139
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[knight]`	139
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[knight]`	139
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[knight]`	145
+		`[dungeon type]`
+		`[static]`	35
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[龍翼穿刺]在地面使用時刪除突進
+[龍翼穿刺]最后一擊攻擊力 +50%%
+[龍翼穿刺]冷卻時間 -40%%
+[龍翼穿刺]無色小晶塊消耗量 +1
+[龍皇制裁]最后一擊爆炸范圍 +50%%`
+[/piece set ability]

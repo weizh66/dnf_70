@@ -1,0 +1,40 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/distance_smell_Basic_0.ani`
+	[SOUND]
+		`MELTADOROC_MARBLE_GAS`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70232
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			150
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70230
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

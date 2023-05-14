@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gun blader]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 鐵血統帥 (2/6)`
+
+[depend message]
+	`你想更快、 更準地砍掉敵人的腦袋？
+哈哈， 雖然不知道你師父是誰， 但你學得倒是挺扎實。
+沒錯， 作為一名劍士想要變強， 就必須把基礎中的基礎練得扎實。 掌握基礎之后， 再學習各種衍生招式。
+像你這個水平的劍士應該已經充分掌握了一些技能。 既然你還是選擇回來學習， 我想你應該是想學到與以往掌握的東西截然不同的， 更上一層樓的東西。
+我終于知道你為什么會來找我了。 好， 那我幫你進行修煉吧。 但你必須要聽從我的指揮， 明白了嗎？
+那你現在就去參加素喃正在舉辦的魂·黃龍大會并拿下第一再回來吧。 去跟那些強者一較高下， 然后重新思考劍術的真意。
+參加大會需要‘斯卡迪女王的印章’， 你先去搜集吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	6900
+[/pre required quest]
+
+[relation quest]
+	6902
+
+[job change quest]
+	3
+
+[grow number]
+	0

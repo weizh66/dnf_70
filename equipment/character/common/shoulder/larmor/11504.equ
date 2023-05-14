@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`魂.黑色瘟疫之枯骨護肩`
+
+[basic explain]
+	`  被擊時50%%的機率進入霸體狀態10秒。`
+
+[detail explain]
+	`  被擊時50%%的機率進入霸體狀態10秒。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[anti evil]
+	10
+
+[minimum level]
+	90
+
+[physical attack]
+	220
+
+[magical attack]
+	220
+
+[price]
+	1600000
+
+[need material]
+	3500	1200
+
+[repair price]
+	50400
+
+[value]
+	48000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1968	1848
+
+[dark attack]
+	15
+
+[fire attack]
+	15
+
+[light attack]
+	15
+
+[water attack]
+	15
+
+[icon]
+	`Item/common/shoulder.img`	323
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[reduce duration to human armor at pvp module]
+		70
+	[probability]
+		50
+	[reduce probability to human armor at pvp module]
+		90
+	[buff]
+		`superarmor`
+[/then]
+
+[set name]
+	`魂.黑色瘟疫之枯骨套裝`
+
+[set item]
+	11500	11501	11502	11503	11504
+[/set item]
+
+[piece set ability]
+	3
+	[if]
+		[cooltime]
+			60000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			30000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			100
+		[stat]
+			`equipment physical defense`
+			`%`	100
+	[/then]
+	[parameter basic explain]
+		`攻擊時有機率增加200%%的防禦`
+[/piece set ability]
+
+[piece set ability]
+	5
+	[parameter basic explain]
+		`攻擊時會給敵人造成大量毒傷`
+[/piece set ability]
+
+[possible kiri protect]

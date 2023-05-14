@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at swordman]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 裁決女神 (4/6)`
+
+[depend message]
+	`你很強， 實力應該不遜于任何人。
+但現在有個問題。 你太側重于進行攻擊， 以至于白白浪費了很多力量。
+我不知道為什么會出現這種情況， 或許是因為你的內心太過著急了。 但焦慮只會適得其反。
+而且裁決女神是引導暗殿騎士的領袖， 他們高高在上， 同時也要為別人的性命承擔責任。 如果想爬到那個位置， 成為一個合格的領袖， 像現在這樣心急焦慮怎么能行呢？
+從現在起， 我要讓你重點進行‘不再焦慮’的訓練。 去參加魂·青龍大會吧。 這次與之前你參加過的魂·黃龍大會可不一樣， 聽說出戰的選手們所具備的實力簡直是完爆黃龍大會的人。
+去與那些強者們戰斗吧， 借此機會看看你的焦慮癥都會釀成怎樣的后果， 順便研究一下怎樣才能解除焦慮感吧。
+那你先去收集‘赫侖皇帝的印章’吧， 聽說有了它才能參加魂·青龍大會。 那你快去快回吧。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5354
+[/pre required quest]
+
+[relation quest]
+	5356
+
+[job change quest]
+	3
+
+[grow number]
+	0

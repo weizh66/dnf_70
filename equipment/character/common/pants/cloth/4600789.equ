@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`封·火隕滅炎長褲`
+
+[basic explain]
+	`  裝備時，可以使120px范圍內的所有敵人減少44點的火屬性抗性。`
+
+[flavor text]
+	`  這是褲子上面燒著火，還是火燒成了褲子的形態呢？`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12572
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	46
+
+[magical defense]
+	46
+
+[need material]
+	3821	1000
+
+[price]
+	81900
+
+[repair price]
+	65520
+
+[value]
+	65520
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1020	930
+
+[magical critical hit]
+	5
+
+[fire attack]
+	10
+
+[icon]
+	`Item/new_equipment/02_cloth/pants/cloth_pants.img`	20
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		1000
+	[appendage]
+		264
+[/then]
+
+[possible kiri protect]

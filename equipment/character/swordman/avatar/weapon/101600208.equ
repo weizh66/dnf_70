@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`Saber黑劍`
+
+[explain]
+	``
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	155
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_WATER]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_DARK]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_LIGHT]`
+	`+`	35
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`
+	`+`	55
+	`[INVENTORY_MAX_WEIGHT]`
+	`+`	14000
+[/avatar select ability]
+
+[avatar type select]
+	7	0	0	1100	0	30	0	0	2200	0	0	0	0	4400	0	0	0	0	4840	2
+	`[D socket]`
+	`[D socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		59	1
+	[layer variation]
+		2600
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[string data]
+	`Common/Particle/09childrenday_sw.ptl`
+[/string data]

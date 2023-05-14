@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	4
+
+[grade]
+	`[normal]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	35
+
+[name_text]
+	`[大將戰]學習勝利的方法`
+	
+
+[cond_text]
+	`大將戰合計達成10勝`
+	
+
+[condition]
+	`[winning count]`	2	10	-1
+[/condition]
+
+[reward item]
+	3312	15
+[/reward item]

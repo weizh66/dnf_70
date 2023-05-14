@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	1752
+[/pre required quest]
+
+[PVP RANK]
+	11
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	2	500
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`成為高手之路 (2/2)`
+
+[depend message]
+	`要想成為決斗高手， 除了不斷積累經驗， 沒有別的辦法！
+如果你在決斗時多積累一些實戰經驗， 在決斗勝點達到500點時， 我會協助你提升技能。
+當然你也可以拒絕我的好意獨自提升到1段， 但要是這樣的話， 在你達到2段前， 我不會再給你機會， 記住了！ `
+
+[condition message]
+	`    將決斗勝點500點交給阿爾伯特。 (決斗勝點可以在決斗場、 死亡之塔或迷妄之塔中獲得)`
+
+[solve message]
+	`我一直在觀察你的決斗方式， 發現你有幾個地方存在不足， 現在就給你指點一下， 你要用心聽。`
+
+[quest point]
+	4

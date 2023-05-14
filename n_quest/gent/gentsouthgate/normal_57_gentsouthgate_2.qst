@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	56
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	57	99
+
+[pre required quest]
+	4361
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	82	1	8333	3	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	3035	15	3033	15
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`破壞通訊器`
+
+[depend message]
+	`冒險家， 你已經成為根特的焦點了。
+看來我眼光不錯啊！ 對了， 我找你不為別的， 是有件事要拜托你幫忙。
+有情報說， 卡勒特的那些家伙非常狡猾， 他們盜用我們皇都軍的技術， 將一些武器進行改良。
+澤丁可能忙于戰爭， 還沒注意到這件事。
+現在， 皇都軍和卡勒特正在南門激烈交戰， 我擔心我們的士兵把一些通訊器遺落在那里。
+如果敵人拿到那些通訊器， 就會掌握我們的通訊體系， 說不定還會利用它讓我軍陷入混亂。
+與其讓敵人利用， 不如先破壞它。
+冒險家， 請你去一趟南門， 把那些通訊器都破壞吧。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特南門』， 破壞10個[通訊器]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`謝謝！ 雖然還存在不少威脅我軍安全的因素， 但至少減少了陷入混亂的幾率了。`
+
+[substitutive names]
+	`破壞通訊器`
+[/substitutive names]

@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`艾克洛索的背刺`
+
+[basic explain]
+	`攻擊時以 2%% 的機率施展艾克洛索的衝擊波
+不可解體`
+
+[detail explain]
+	`攻擊時以 2%%的機率施展艾克洛索的衝擊波。
+被艾克洛索的衝擊波擊中時以10%% 的機率讓敵人進入感電狀態，每次攻擊時以107的攻擊力給予附加傷害。 （高於Lv44的對象得到的機率減少，低於Lv44的對象則會增加。）
+不可解體`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	31
+
+[magical attack]
+	31
+
+[attack speed]
+	110
+
+[stuck]
+	1
+
+[price]
+	70400
+
+[repair price]
+	56320
+
+[value]
+	56320
+
+[equipment physical attack]
+	399	361
+
+[equipment magical attack]
+	420	380
+
+[separate attack]
+	245	164
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[icon]
+	`Item/weapon/priest/scythe.img`	64
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	20	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[jump power]
+	30
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48151	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`priest`	2
+	`priest`	3
+	`priest`	4
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

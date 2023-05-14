@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	1009
+
+[job]
+	`[swordman]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	982
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	984
+
+[name]
+	`覺醒 - 弒魂 (3/4)`
+
+[depend message]
+	`之前我已經和你說過鬼神反噬的例子， 而這種情況在戰斗中最常發生， 特別是遇到的對手又特別強力的時候。
+當人在過份緊張的狀態下， 鬼神就很容易趁虛而入， 迷亂你的心智。
+為了不出現這樣的悲劇， 我希望你現在就去找一名強者挑戰下， 這樣我才能了解你體內的鬼神狀態。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`在我這么猛烈的攻擊下， 你的鬼神氣息居然沒有因此而紊亂……看來你的精神力已經足夠強大了……`

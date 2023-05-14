@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	17
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	60	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`召募特殊隊員潛入熱血八番街`
+
+[depend message]
+	`致各位冒險家 : 帝國現急招4名冒險家前去打敗入侵阿拉德大陸的卡勒特先鋒部隊。
+哎~說得太正式了， 不太像我的風格~哈哈， 我是凱麗， 知道吧？ 你們要是完成任務了， 就直接來找我吧~`
+
+[condition message]
+	`    通關陌路者要塞的『熱血八番街』， 然后向凱麗回復， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`很好！ 卡勒特的那些家伙， 應該再也不敢侵犯大陸了吧？`

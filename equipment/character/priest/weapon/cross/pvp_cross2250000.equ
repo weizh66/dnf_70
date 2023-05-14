@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`旅行者十字架`
+
+[basic explain]
+	`攻擊速度增加+1%%
+ 無法進行強化、增幅、解體和贈送。`
+
+[flavor text]
+	`公平決鬥場頻道專用裝備。`
+
+[grade]
+	70
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[physical defense]
+	55
+
+[magical attack]
+	44
+
+[magical defense]
+	55
+
+[attack speed]
+	10
+
+[cast speed]
+	40
+
+[need material]
+	3312	70
+
+[equipment physical attack]
+	624	604
+
+[equipment magical attack]
+	593	574
+
+[equipment physical defense]
+	700	700
+
+[equipment magical defense]
+	700	700
+
+[separate attack]
+	308	208
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/priest/cross.img`	65
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	14	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[minimum rank]
+	0
+
+[icon mark]
+	`Item/IconMark.img`	38
+
+[usable world]
+	`[fair]`
+[/usable world]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+[/impossible contents]
+
+[possible kiri protect]

@@ -1,0 +1,31 @@
+#PVF_File
+
+[name]
+	`BallacreAdventCast`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/BallacreAdvent/BeadStart02_Set07N.ani`
+
+[etc motion]
+	`Animation/BallacreAdvent/BeadLoop_Set01D.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/BallacreAdventBeadStart.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

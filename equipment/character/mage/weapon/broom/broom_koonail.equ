@@ -1,0 +1,182 @@
+#PVF_File
+
+[name]
+	`古納的急襲`
+
+[basic explain]
+	` 攻擊時，以3%%的機率使敵人進入出血狀態。
+攻擊速度增加+2%%`
+
+[detail explain]
+	`攻擊時以3%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以52的攻擊力給予傷害。 ((若敵人高於Lv50，則減少進入異常狀態的機率；反之，則增加機率)
+攻擊速度+2%%`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[magical attack]
+	38
+
+[attack speed]
+	80
+
+[move speed]
+	30
+
+[HP MAX]
+	140
+
+[HP regen speed]
+	52
+
+[price]
+	89600
+
+[repair price]
+	75264
+
+[value]
+	71680
+
+[creation rate]
+	30
+
+[equipment physical attack]
+	518	478
+
+[equipment magical attack]
+	568	524
+
+[separate attack]
+	311	208
+
+[skill levelup]
+[/skill levelup]
+
+[bleeding resistance]
+	10
+
+[icon]
+	`Item/weapon/mage/broom.img`	35
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	11	1
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	11	1
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	11	1
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[required skill]
+	91
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[active status]
+		`bleeding`	50	1050
+[/then]
+
+[possible kiri protect]

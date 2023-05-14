@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`Sisyphus的象征-致命之劍`
+
+[basic explain]
+	`噢，我的靈魂啊，不求你擁有無盡的生命，但盼你仍對這種可能抱有希望。`
+
+[detail explain]
+	`噢，我的靈魂啊，不求你擁有無盡的生命，但盼你仍對這種可能抱有希望。`
+
+[flavor text]
+	`享受無邊的痛楚吧，罪惡的魂靈們。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	100
+
+[magical attack]
+	169
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[anti evil]
+	22
+
+[repair price]
+	75264
+
+[value]
+	71680
+
+[equipment physical attack]
+	1397	1268
+
+[equipment magical attack]
+	1599	1387
+
+[separate attack]
+	1234	1001
+
+[physical critical hit]
+	20
+
+[magical critical hit]
+	20
+
+[skill levelup]
+	`[priest]`	119	2
+	`[priest]`	123	2
+	`[priest]`	121	2
+[/skill levelup]
+
+[dark attack]
+	150
+
+[icon]
+	`Item/weapon/priest/scythe.img`	35
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	4	2
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	3
+	`%`	600
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	4
+	`%`	600
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	5
+	`%`	600
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	0
+	`%`	-50
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	1
+	`%`	-50
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	2
+	`%`	-50
+	`[priest]`	121
+	`[dungeon type]`
+	`[level]`	1
+	`%`	600
+	`[priest]`	117
+	`[dungeon type]`
+	`[level]`	0
+	`%`	600
+	`[priest]`	117
+	`[dungeon type]`
+	`[level]`	1
+	`%`	600
+	`[priest]`	117
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-30
+	`[priest]`
+[/skill data up]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[weakness]
+		20
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600739	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

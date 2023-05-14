@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`砂礫`
+
+[explain]
+	`投擲時， 可以對單個敵人造成117點傷害。`
+
+[flavor text]
+	`哼哼！ 砂礫可是石頭中的王者！`
+
+[grade]
+	8
+
+[attach type]
+	`[free]`
+
+[creation rate]
+	900
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	8
+
+[icon]
+	`Item/IconMaterial2.img`	68
+
+[field image]
+	`Item/FieldImage.img`	23
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	80
+
+[value]
+	0
+
+[cool time]
+	1000
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50600	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Gravel.ptl`
+[/string data]

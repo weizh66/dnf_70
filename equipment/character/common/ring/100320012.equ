@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`突擊隊長的高密度增幅戒指`
+
+[basic explain]
+	`以12秒的間隔3秒內讓武器呈現增幅狀態。
+增幅狀態時物理/魔法攻擊力增加20%%，力量/智力增加+100，體力/精神增加+50 `
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	50
+
+[magical attack]
+	50
+
+[price]
+	84000
+
+[repair price]
+	67200
+
+[value]
+	67200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	2912	2752
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	99
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		12000	0	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		3000
+	[appendage]
+		215
+	[stat]
+		`equipment physical attack`
+		`%`	20
+	[stat]
+		`equipment magical attack`
+		`%`	20
+	[stat]
+		`physical attack`
+		`+`	100
+	[stat]
+		`magical attack`
+		`+`	100
+	[stat]
+		`physical defense`
+		`+`	50
+	[stat]
+		`magical defense`
+		`+`	50
+[/then]
+
+[possible kiri protect]

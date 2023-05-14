@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`血靈暗咒胸甲`
+
+[flavor text]
+	`那些含冤死去的動物，有時會噴出詛咒之血。`
+
+[grade]
+	22
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	20
+
+[creation rate]
+	200
+
+[physical attack]
+	12
+
+[magical attack]
+	8
+
+[HP MAX]
+	80
+
+[MP MAX]
+	30
+
+[price]
+	19800
+
+[repair price]
+	15840
+
+[value]
+	15840
+
+[equipment physical defense]
+	900	828
+
+[dark resistance]
+	5
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	22
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`血靈暗咒輕甲  套裝`
+
+[set item]
+	10850	12850	14847	18848	16847
+[/set item]
+
+[set ability]
+	[dark resistance]
+		10
+	[curse resistance]
+		-20
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			20000
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			76
+		[active status]
+			`curse`	18	12	12	12	12
+	[/then]
+	[fullset basic explain]
+		`攻擊時以5%%的機率讓敵人陷入眩暈狀態`
+	[fullset detail explain]
+		`被攻擊時以5%% 的機率20秒內讓敵人進入詛咒狀態，力量減少12，體力減少 12，智力減少12，精神減少12。（高於Lv18的對象得到的機率減少，低於Lv18的對象則會增加。）`
+[/set ability]
+
+[possible kiri protect]

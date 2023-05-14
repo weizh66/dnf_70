@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`倉庫擴展券`
+
+[explain]
+	`使用時金庫升級下一階段。 若擁有無法繼續擴充的金庫時即使使用道具也無法升級。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	773
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[stack limit]
+	1
+
+[usable period]
+	15
+
+[action type]
+	`[upgrade cargo]`
+[/action type]
+
+[action usable place]
+	`[village]`
+[/action usable place]

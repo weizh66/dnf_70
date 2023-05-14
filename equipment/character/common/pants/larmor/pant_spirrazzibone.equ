@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`邪龍的脊骨下衣`
+
+[basic explain]
+	`攻擊時以 1%% 的機率讓敵人進入中毒狀態`
+
+[detail explain]
+	`攻擊時以1%%的機率7秒內讓敵人呈現中毒狀態，每0.5秒以128的攻擊力給予傷害。 （高於Lv55的對象得到的機率減少，低於Lv55的對象則會增加。）`
+
+[flavor text]
+	`邪龍真是 邪惡吧！骨頭會吐出這種毒氣。- 觀察邪龍骨頭的希泊。`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	32
+
+[magical attack]
+	21
+
+[price]
+	62000
+
+[repair price]
+	54684
+
+[value]
+	49600
+
+[equipment physical defense]
+	2100	1920
+
+[icon]
+	`Item/common/pants.img`	105
+
+[field image]
+	`Item/field_equip.img`	6
+
+[equipment type]
+	`[pants]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		1
+	[active status]
+		`poison`	55	1800
+[/then]
+
+[set item master]
+	10918
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

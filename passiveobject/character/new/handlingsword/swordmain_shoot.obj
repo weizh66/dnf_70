@@ -1,0 +1,18 @@
+#PVF_File
+
+[name]
+	`much sword`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`animation/handlingsword/handlingsword_launch_eff_g.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

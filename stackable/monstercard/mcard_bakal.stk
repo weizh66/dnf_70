@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`暴龍王巴卡爾卡片`
+
+[flavor text]
+	`他們是與我為敵的人嗎......真是可笑！`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	127
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[need material]
+	3340	72
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[amulet]`
+	`[wrist]`
+	`[ring]`
+[/string data]
+
+[int data]
+	127	61238
+[/int data]
+
+[enchant]
+	[separate attack]
+		46	23
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

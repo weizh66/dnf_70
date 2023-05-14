@@ -1,0 +1,1032 @@
+#PVF_File
+
+[name]
+	`廢棄的巨劍`
+
+[basic explain]
+	`所有技能攻擊力+35%%
+    賦予自身屬性值最高的屬性攻擊。
+    每次攻擊時可以吸收3點魔能， 最多可達100點。
+    自身魔能達到100點后， ↑↓+[寵物技能鍵]輸入時， 可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能。
+    釋放結束時，最後還對敵人造成魔能爆炸傷害。`
+
+[detail explain]
+	`所有技能攻擊力+35%% (對Buff技能無效)
+    賦予自身屬性值最高的屬性攻擊。
+    每次攻擊時可以吸收3點魔能， 最多可達100點。
+    若5秒內未攻擊（吸收魔能）， 則減少10點魔能值
+    自身魔能達到100點后， ↑↓+[寵物技能鍵]輸入時， 可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能， 時長持續20秒； 魔能釋放期間內， 所有技能攻擊力增加20%%， 但無色消耗量會增加2倍。（冷卻時間30秒； 對Buff技能無效）
+    釋放結束時，最後還對敵人造成魔能爆炸傷害。（傷害最高可達300萬）`
+
+[flavor text]
+	`    萬物生自守恒， 源力破則失正
+    莫以為敵消彼漲， 然乾坤逆之天崩。 --祭安徒恩之死`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[need material]
+	3822	20
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1152	989
+
+[equipment magical attack]
+	864	742
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/lswd/lswd.img`	149
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	45	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	45	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[skill data up]
+	`[swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	16
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	16
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	11
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	17
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	10
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	11
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	7
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	108
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	109
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	72
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	15
+	`[all]`
+	`[level]`	11
+	`%`	35
+	`[swordman]`	86
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	86
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	86
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	98
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	98
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	98
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	97
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	97
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	97
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	31
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	31
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	31
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	24
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	24
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	103
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	103
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	81
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	81
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	81
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	102
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	102
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	102
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	101
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	101
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	111
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	111
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	36
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	44
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	112
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	112
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	75
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	75
+	`[all]`
+	`[level]`	18
+	`%`	35
+	`[swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	8
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	10
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	11
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	12
+	`%`	35
+	`[swordman]`	87
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	87
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	87
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	96
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	96
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	95
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	95
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	95
+	`[all]`
+	`[level]`	12
+	`%`	35
+	`[swordman]`	2
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	2
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	50
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	32
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	21
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	52
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	22
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	22
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	74
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	74
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	8
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	100
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	100
+	`[all]`
+	`[level]`	7
+	`%`	35
+[/skill data up]
+
+[skill data up]
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	44
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	50
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[demonic swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	3
+	`%`	35
+[/skill data up]
+
+[if]
+	[cooltime]
+		20000
+	[after attack]
+		1
+	[combo]
+		100
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		147
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[use command]
+		1
+	[my appendage]
+		147
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		48216	0	0	0	100	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		147
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[emancipate]
+	[input]
+		10093971	250	3042	100	3822	10	3821	1000
+	[/input]
+	[output]
+		101030517	1
+	[/output]
+	[emancipate explain]
+		`增加技能攻擊力效果`
+[/emancipate]
+
+[possible kiri protect]

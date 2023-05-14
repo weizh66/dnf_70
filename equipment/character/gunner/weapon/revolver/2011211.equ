@@ -1,0 +1,247 @@
+#PVF_File
+
+[name]
+	`真·天界皇室左輪槍`
+
+[basic explain]
+	`AP彈穿甲效果大幅提升`
+
+[flavor text]
+	`強不強是一個版本的事情，帥不帥是一輩子的事情`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	120
+
+[repair price]
+	120320
+
+[value]
+	120320
+
+[equipment physical attack]
+	1446	1475
+
+[equipment magical attack]
+	1311	1352
+
+[separate attack]
+	1087	1087
+
+[physical critical hit]
+	10
+
+[anti evil]
+	40
+
+[need material]
+	3850	500
+
+[price]
+	500000000
+
+[icon]
+	`item/weapon/gunner/revolver.img`	28
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	2	7
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	2	7
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`gunner`	3
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[passive object]
+		990335	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	3
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[passive object]
+		990335	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	3
+	`%`	160
+	`[at gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	1
+	`%`	160
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	2
+	`%`	160
+	`[at gunner]`	60
+	`[dungeon type]`
+	`[level]`	1
+	`%`	160
+	`[gunner]`	60
+	`[dungeon type]`
+	`[level]`	1
+	`%`	160
+	`[at gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[at gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[at gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	800
+	`[gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	800
+	`[at gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	160
+[/skill data up]
+
+[possible kiri protect]

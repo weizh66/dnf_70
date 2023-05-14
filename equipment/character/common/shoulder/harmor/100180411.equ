@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	`卡勒特的破陣肩甲`
+
+[basic explain]
+	`  [挑釁]範圍 +10%%
+  [瞬影連環踢]攻擊力 +10%%
+  [瞬影連環踢]失明幾率 +10%%
+  [螺旋滑鏟]攻擊力 +10%%
+  [螺旋滑鏟]失明幾率 +10%%
+  每100點體力增加2%%的物理暴擊率和魔法暴擊率。（最高增加10%%）
+  破招傷害 +10%%`
+
+[flavor text]
+	`  不知道有多少人死在這傢夥手裏。  --澤丁`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	33
+
+[magical attack]
+	24
+
+[physical defense]
+	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3168	2944
+
+[icon]
+	`Item/new_equipment/05_harmor/neck/harmor_neck.img`	20
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	44
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[at fighter]`	44
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[fighter]`	106
+	`[all]`
+	`[level]`	0
+	`%`	10
+	`[fighter]`	106
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[at fighter]`	106
+	`[all]`
+	`[level]`	0
+	`%`	10
+	`[at fighter]`	106
+	`[all]`
+	`[level]`	2
+	`%`	10
+[/skill data up]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`physical defense`	5
+		`physical critical hit`
+		`+`	2	10
+	[stat change by stat]
+		`myself`	-1
+		`physical defense`	5
+		`magical critical hit`
+		`+`	2	10
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

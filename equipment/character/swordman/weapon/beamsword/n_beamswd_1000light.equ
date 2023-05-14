@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`(舊) 千年之光`
+
+[flavor text]
+	`    神圣之光會護佑我們， 即便是死亡， 也沒什么可怕的！`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`beamswd`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	30
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	5
+
+[durability]
+	38
+
+[price]
+	102600
+
+[value]
+	82080
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	495	450
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	100
+
+[item aura]
+	`light element`
+	`+`	20	300
+
+[stuck]
+	1
+
+[variation]
+	4	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

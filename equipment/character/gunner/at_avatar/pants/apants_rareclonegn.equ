@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`稀有克隆裝扮下裝`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	15
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0	30	0	0	3000	0	0	0	0	6000	0	0	0	0	6500	3
+	`[S socket]`
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[HP MAX]`
+	`+`	400
+	`[MP MAX]`
+	`+`	400
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`+`	900
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	2
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	3
+
+[explain]
+	`  直接穿戴不顯示外觀；可以複製穿戴中的同部位裝扮款式，但屬性值保留克隆裝扮原屬性。
+  如被複製的裝扮消失，則外觀恢復透明，反之則維持複製款式。（拖動或右鍵點擊穿戴裝扮圖標，可以解除克隆）`

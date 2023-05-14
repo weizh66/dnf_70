@@ -1,0 +1,177 @@
+#PVF_File
+
+[name]
+	`玄天誅`
+
+[basic explain]
+	`    光屬性攻擊時， 有2%%的幾率使隊員增加15點光屬性強化， 效果持續20秒。
+    暗屬性攻擊時， 有2%%的幾率使隊員增加15點暗屬性強化， 效果持續20秒。
+    光屬性攻擊時， 有10%的幾率對敵人附加1200點傷害。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rosary`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2500
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/rosary.img`	68
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	64
+
+[equipment physical attack]
+	515	472
+
+[equipment magical attack]
+	658	603
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[magical critical hit]
+	2
+
+[variation]
+	4	2
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[light attack]
+	10
+
+[dark attack]
+	10
+
+[if]
+	[element]
+		`light`
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[appendage]
+		120
+[/then]
+
+[if]
+	[element]
+		`dark`
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[appendage]
+		119
+[/then]
+
+[if]
+	[element]
+		`light`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[add absolute damage]
+		`all`
+		`+`	1200
+[/then]
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

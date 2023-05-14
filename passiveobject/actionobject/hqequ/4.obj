@@ -1,0 +1,21 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	5000
+
+[basic motion]
+	`Animation/5/Particle1.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+[/object destroy condition]

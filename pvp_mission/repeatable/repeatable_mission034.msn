@@ -1,0 +1,38 @@
+#PVF_File
+
+[kind]
+	17
+
+[grade]
+	`[repeatable]`
+
+[rank range]
+	0	2
+
+[rate range]
+	-1	-1
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[大將戰] 痛快的雪恥戰1`
+	
+
+[cond_text]
+	`大將戰落敗時，重新挑戰達成5次勝利`
+	
+
+[condition]
+	`[revenge]`	2	5	-1
+[/condition]
+
+[difficulty_ratio]
+	1
+
+[reward item]
+	3312	5
+[/reward item]

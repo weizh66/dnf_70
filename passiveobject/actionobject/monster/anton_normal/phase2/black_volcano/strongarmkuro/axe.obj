@@ -1,0 +1,37 @@
+#PVF_File
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[team]
+	100
+
+[basic action]
+	`Action/Axe1.act`
+
+[etc action]
+	`Action/Axe2.act`
+	`Action/Axe3.act`
+[/etc action]
+
+[int data]
+	4	1	590	2	230	3	-20	4	-400
+[/int data]
+
+[vanish on move collision]
+	0
+
+[attack info]
+	`AttackInfo/Axe.atk`
+
+[name]
+	`克洛地震物体`

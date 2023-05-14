@@ -1,0 +1,193 @@
+#PVF_File
+
+[name]
+	`黑月狼牙`
+
+[basic explain]
+	`全部攻擊力+35%%
+攻擊時， 附加18%%的傷害`
+
+[detail explain]
+	`全部攻擊力+35%%
+攻擊時， 附加18%%的傷害`
+
+[flavor text]
+	`那被隱藏著的純黑之牙……`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	75
+
+[magical attack]
+	37
+
+[attack speed]
+	80
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1113	1113
+
+[equipment magical attack]
+	1113	1113
+
+[separate attack]
+	686	686
+
+[skill levelup]
+	`[fighter]`	45	3
+	`[at fighter]`	45	3
+[/skill levelup]
+
+[icon]
+	`Item/wuqi.img`	6
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	50	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[active status control info]
+	`bleeding`	0	0	0	18
+
+[active status control info]
+	`burn`	0	0	0	18	18	0
+
+[active status control info]
+	`poison`	0	0	0	18
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	35
+	[stat by condition]
+		`magical attack bonus`
+		`%`	35
+	[stat by condition]
+		`separate attack`
+		`%`	35
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	18
+[/then]
+
+[possible kiri protect]

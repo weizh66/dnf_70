@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`耀之榮光斷骨戰靴`
+
+[basic explain]
+	`裝備後， 每20秒通過消耗2個無色小晶塊增加10點所有屬性強化， 效果持續20秒。`
+
+[detail explain]
+	`裝備後，每20秒通過消耗2個無色小晶塊增加10點所有屬性強化，效果持續20秒。(裝備後立即生效，裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12540
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[physical defense]
+	25
+
+[move speed]
+	40
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2940	2730
+
+[icon]
+	`item/new_equipment/06_plate/shoes/plate_shoes.img`	46
+
+[field image]
+	`Item/field_equip.img`	19
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[shoes]`	20
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2200
+
+[item group name]
+	`mt shoes`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		20000	1	500
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[consume item]
+		3037	2
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[stat]
+		`light attack`
+		`+`	10
+	[stat]
+		`dark attack`
+		`+`	10
+	[stat]
+		`fire attack`
+		`+`	10
+	[stat]
+		`water attack`
+		`+`	10
+[/then]
+
+[possible kiri protect]

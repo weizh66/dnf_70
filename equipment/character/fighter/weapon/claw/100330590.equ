@@ -1,0 +1,233 @@
+#PVF_File
+
+[name]
+	`[巨龍]納特拉的毀滅骨爪`
+
+[basic explain]
+	``
+
+[detail explain]
+	``
+
+[flavor text]
+	`    制作這把武器時， 俺使用了那家夥的幾根骨頭。  --小鐵柱`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[magical attack]
+	28
+
+[need material]
+	9999	30
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	5
+
+[equipment physical attack]
+	804	754
+
+[equipment magical attack]
+	804	754
+
+[separate attack]
+	481	327
+
+[skill levelup]
+	`[fighter]`	45	3
+	`[at fighter]`	45	3
+[/skill levelup]
+
+[physical critical hit]
+	10
+
+[icon]
+	`Item/common/chn_Dragon_Weapon.img`	6
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	4
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	4
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		48677	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[spectrum]
+	250	130	0	200	500
+
+[possible kiri protect]

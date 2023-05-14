@@ -1,0 +1,52 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Ex_Ax_normal.ani`
+	[SUB ANI]
+		`../Animation/Ex_newLayer.ani`	0	-2
+		`../Animation/Ex_Ax_floor.ani`	0	-1
+		`../Animation/Ex_Ax_ex.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			11540
+		[/IS INDEX]
+		[IS IN AREA]
+			[POS]
+				0	-5	0
+			[RANGE]
+				160	45	30
+			[COORDINATE]
+				`RELATIVE`
+		[/IS IN AREA]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

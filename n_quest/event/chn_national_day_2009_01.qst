@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680336	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`慶祝60周年 - 1`
+
+[depend message]
+	`我聽說這幾天正是冒險家故鄉國慶六十年的大日子， 舉國歡慶， 正舉行盛世慶典呢。
+我們阿拉德大陸有句話是這么說的 : 好事情要和大家分享才更有意義~所以在這樣喜慶的日子里， 我們也為冒險家們準備了一些驚喜！
+不過這個驚喜需要您的幫忙， 其實很簡單， 就是請您像往常那樣努力通關地下城。
+然后您會在地下城里得到一些紅色的信函， 您把那些信函收集給我就可以了， 很簡單吧？`
+
+[condition message]
+	`    收集10個[國慶60周年慶祝函]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`哇， 這么快就拿來了？ 呼……呼……您也看到了， 我們現在很忙， 要不您也過來幫一下吧？ 嗯嗯， 請把那個搬到這邊來好嗎？`
+
+[reward int data]
+	0	100
+[/reward int data]

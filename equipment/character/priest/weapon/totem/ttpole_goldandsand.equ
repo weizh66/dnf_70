@@ -1,0 +1,177 @@
+#PVF_File
+
+[name]
+	`金沙圖騰`
+
+[basic explain]
+	`攻擊時，以1%%的機率使自身進入霸體狀態。
+反擊攻擊時傷害增加15%%`
+
+[detail explain]
+	` 攻擊時，以1%%的機率使自身進入霸體狀態，效果持續8秒。(在決鬥場中僅持續3秒)
+反擊攻擊時傷害增加15%% (在決鬥場中增加11%%)`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[creation rate]
+	50
+
+[physical attack]
+	65
+
+[stuck]
+	-1
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[equipment physical attack]
+	634	582
+
+[equipment magical attack]
+	544	499
+
+[separate attack]
+	360	242
+
+[icon]
+	`Item/weapon/priest/totem.img`	57
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	14	3
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		8000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		1
+	[reduce probability to human armor at pvp module]
+		80
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			20000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			8000
+		[reduce duration to human armor at pvp module]
+			60
+		[probability]
+			1
+		[reduce probability to human armor at pvp module]
+			80
+		[buff]
+			`superarmor`
+	[/then]
+	[if]
+		[attack condition]
+			`counter`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	11
+	[/then]
+[/pvp]
+
+[possible kiri protect]

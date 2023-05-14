@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	2620
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3280	18
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4393	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`幻影之破魔石`
+
+[depend message]
+	`只要有足夠的邀請函， 我就能為你制作出幻影之破魔石。`
+
+[condition message]
+	`    要想挑戰諾斯瑪爾地區的深淵派對， 需先制作[幻影之破魔石]！ 請收集18張[扭曲惡魔的邀請函]交給歌蘭蒂斯。`
+
+[solve message]
+	`這是幻影之破魔石， 請收好了， 希望你能挑戰成功！`
+
+[quest point]
+	0

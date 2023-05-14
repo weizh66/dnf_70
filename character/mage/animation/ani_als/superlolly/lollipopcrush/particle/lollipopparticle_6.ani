@@ -1,0 +1,35 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/LollipopCrush/Particle_Candy.img`
+		5
+	[IMAGE POS]
+		-77	-92
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[INTERPOLATION]
+		1
+	[DELAY]
+		580
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/LollipopCrush/Particle_Candy.img`
+		5
+	[IMAGE POS]
+		-76	-92
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[IMAGE ROTATE]
+		-1.309999942779541
+	[DAMAGE TYPE]
+		`NORMAL`

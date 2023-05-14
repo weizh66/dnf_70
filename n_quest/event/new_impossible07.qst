@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[first exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	0
+
+[int data]
+	65	-1	600
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	8041	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[異界]風之挑戰 - 巴卡爾之城`
+
+[depend message]
+	`迷惘的人啊， 還在對自己的實力感到困惑嗎？
+我聽說實力達到了一流水準的冒險家， 就能以風一般的速度擊倒敵人。
+如果你想證明自己的能力的話， 可以試試我給你準備的這個挑戰……`
+
+[condition message]
+	`    在10分鐘內， 通關異次元裂縫的『巴卡爾之城』。 (此任務每天只能完成一次)`
+
+[solve message]
+	`沒想到你的速度竟然比風還要快！ 不錯！ 不錯！ `

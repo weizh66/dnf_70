@@ -1,0 +1,212 @@
+#PVF_File
+
+[name]
+	`大智度論`
+
+[basic explain]
+	`[破魔符]冷卻時間減少0.3秒
+[破魔符]多段攻擊數增加3
+[破魔符]攻擊力增加15%%
+[破魔符]施放後的僵直時間減少15%%
+[落雷符]每次閃電數增加2
+[落雷符]攻擊力增加15%%
+[式神 : 白虎]冷卻時間減少1秒
+[式神 : 白虎]攻擊力增加25%%
+  施放技能時20%%幾率使自身進入霸體狀態5秒，冷卻10秒
+  施放技能時，以10%%的機率使自身增加10%%的智力，效果持續50秒。`
+
+[flavor text]
+	`  大師，你在說什麼？我怎麼都聽不懂呢？ --某位冒險家`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	100
+
+[attack speed]
+	-50
+
+[cast speed]
+	100
+
+[need material]
+	3821	800
+
+[repair price]
+	92736
+
+[value]
+	88320
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	900	800
+
+[equipment magical attack]
+	1200	1100
+
+[separate attack]
+	600	500
+
+[magical critical hit]
+	10
+
+[light attack]
+	40
+
+[skill levelup]
+	`[priest]`	48	3
+	`[priest]`	40	5
+	`[priest]`	38	5
+	`[priest]`	70	5
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/rosary/rosary.img`	91
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	30	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[priest]`	38
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-300
+	`[priest]`	38
+	`[dungeon type]`
+	`[static]`	3
+	`+`	3
+	`[priest]`	38
+	`[dungeon type]`
+	`[static]`	0
+	`%`	-15
+	`[priest]`	38
+	`[dungeon type]`
+	`[level]`	0
+	`%`	15
+	`[priest]`	40
+	`[all]`
+	`[level]`	2
+	`+`	2
+	`[priest]`	40
+	`[dungeon type]`
+	`[level]`	1
+	`%`	15
+	`[priest]`	70
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-1000
+	`[priest]`	70
+	`[dungeon type]`
+	`[level]`	3
+	`%`	25	0
+[/skill data up]
+
+[if]
+	[cooltime]
+		500
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		50000
+	[probability]
+		10
+	[stat]
+		`magical attack`
+		`%`	10
+[/then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		20
+	[appendage]
+		205
+	[appendage]
+		207
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600747	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

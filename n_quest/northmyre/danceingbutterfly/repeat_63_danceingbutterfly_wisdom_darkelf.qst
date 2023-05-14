@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	63	99
+
+[pre required quest]
+	5800
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3278	10
+[/int data]
+
+[dungeon info]
+	52	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	1241	3	1239	3	1240	3
+[/reward selection int data]
+
+[name]
+	`暗精靈的智慧`
+
+[depend message]
+	`去過血蝴蝶之舞的人， 應該都見過神奇的夢之粉吧。
+因為這種粉末蘊含著強大的魔法力， 所以暗精靈們一直利用它制作各種有用的東西。
+你要是有空的話， 就幫我收集一些吧！ 或許我可以和你分享下暗精靈的智慧。`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 收集[神奇的夢之粉]。`
+
+[solve message]
+	`拿著， 希望你好好珍惜！`

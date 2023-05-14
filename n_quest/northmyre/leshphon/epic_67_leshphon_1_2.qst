@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	18
+
+[complete npc index]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	5981
+[/pre required quest]
+
+[pre required quest]
+	5993
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	28
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 狄瑞吉的氣息`
+
+[depend message]
+	`雖然我不知道你從哪里得知這個消息， 但這確實是事實。 帝國騎士團突然失蹤， 不僅讓帝國內部亂成一團， 就連公國也非常的震驚。
+根據調查顯示， 騎士團的最后一通電報是從附近的村子里發出的， 所以這次我們決定先從那個村子開始調查。 希望你能夠幫助我們。
+<npc::28>那個地方可不是誰都能進的。
+<npc::18>艾麗絲！ 這是怎么回事？
+<npc::28>我的占卜結果顯示， 使徒狄瑞吉就在那個村子里……
+<npc::18>狄瑞吉！！！天啊~那家伙終于現身了嗎？ 那你為什么還要阻止我們？ 一切災難的起源不都是因為他嗎？
+<npc::28>我沒有要阻止你們的意思。 我來只是想告誡你們， 那個村子非常危險。 如果你們這樣毫無準備地闖進去， 只會被狄瑞吉的邪惡氣息傷害。
+當然， 我已經知道了解決的方法， 只是還需要再準備一下……冒險家， 你待會到西海岸來找我吧。`
+
+[condition message]
+	`    找艾麗絲談談。`
+
+[solve message]
+	`你來啦！ 請稍等片刻……`
+
+[quest point]
+	4

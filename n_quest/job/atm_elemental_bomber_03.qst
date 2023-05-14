@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	4064
+[/pre required quest]
+
+[collision quest]
+	4066
+[/collision quest]
+
+[monster reward item]
+	21	512	-1	4075	1	100	1	22	512	-1	4074	1	100	1	212	512	-1	4076	1	100	1	9	512	-1	4077	1	100	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4077	1	4075	1	4074	1	4076	1
+[/int data]
+
+[dungeon info]
+	512	-1
+[/dungeon info]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 元素爆破師 (3/3)`
+
+[depend message]
+	`說來其實很簡單。 只要把帶有四種元素的物質附加到黑暗之眼上， 就可以無限制地自由操控所有元素了。
+現在你需要收集分別代表光、 冰、 火、暗四種元素的物質給我。
+如果不知道去哪里， 我建議你去亡月雷鳴廢墟， 那里應該有你想要的東西。`
+
+[condition message]
+	`    獨自一人前往格蘭之森的『亡月雷鳴廢墟』， 收集[光之私語]、 [寒冰之觸]、 [火之心臟]、 [暗之氣息]交給艾麗絲。`
+
+[solve message]
+	`都找齊了？
+很好， 我現在就把這些物質調和之后施加到你的黑暗之眼上……(?！)
+怎么樣？ 有沒有感覺體內的元素之力正在逐漸擴大？`

@@ -1,0 +1,138 @@
+#PVF_File
+[FRAME MAX]
+	9
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		157
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-25	-5	-4	61	10	96
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		10
+	[IMAGE POS]
+		-240	-380
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`DESTRUCTION_02`
+	[SET FLAG]
+		1
+	[DAMAGE BOX]
+	-22	-5	-3	59	10	78
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		128
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`FT_DESTRUCTION_02`
+	[SET FLAG]
+		2
+	[DAMAGE BOX]
+	-18	-5	-4	117	10	77
+	[ATTACK BOX]
+	-27	-53	16	168	106	100
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		129
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-5	-4	117	10	77
+	[ATTACK BOX]
+	-32	-53	11	215	106	100
+
+[FRAME004]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		130
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-5	-4	117	10	77
+	[ATTACK BOX]
+	-36	-53	12	305	106	100
+
+[FRAME005]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		131
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[SET FLAG]
+		3
+	[DAMAGE BOX]
+	-18	-5	-4	117	10	77
+	[ATTACK BOX]
+	-9	-53	12	302	106	123
+
+[FRAME006]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		131
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-5	-4	117	10	77
+
+[FRAME007]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		131
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-5	-4	117	10	77
+
+[FRAME008]
+	[IMAGE]
+		`Character/Fighter/Equipment/Avatar/Skin/ft_body%04d.img`
+		131
+	[IMAGE POS]
+		-248	-380
+	[DELAY]
+		300
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-18	-5	-4	117	10	77

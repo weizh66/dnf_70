@@ -1,0 +1,532 @@
+#PVF_File
+
+[name]
+	`紅色海島風情花襯衫`
+
+[explain]
+	`沙灘派對  套裝2 (鬼劍士)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acoat.img`	345
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	450	0	30	0	0	990	0	0	0	0	2970	0	0	0	0	6500	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	108	1
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	108	1
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set name]
+	`沙灘派對  套裝2 (鬼劍士)`
+
+[set item]
+	39276	39684	40022	2684476	40912	41302	42079	2685026
+[/set item]
+
+[physical attack]
+	5
+
+[magical attack]
+	5
+
+[avatar select ability]
+	0
+	`[SKILL_LEVEL]`
+	`[swordman]`	39	1	1
+	`[SKILL_LEVEL]`
+	`[swordman]`	41	1	2
+	`[SKILL_LEVEL]`
+	`[swordman]`	34	1	3
+	`[SKILL_LEVEL]`
+	`[swordman]`	19	1	4
+	`[SKILL_LEVEL]`
+	`[swordman]`	31	1	5
+	`[SKILL_LEVEL]`
+	`[swordman]`	21	1	6
+	`[SKILL_LEVEL]`
+	`[swordman]`	47	1	7
+	`[SKILL_LEVEL]`
+	`[swordman]`	53	1	8
+	`[SKILL_LEVEL]`
+	`[swordman]`	2	1	9
+	`[SKILL_LEVEL]`
+	`[swordman]`	38	1	10
+	`[SKILL_LEVEL]`
+	`[swordman]`	6	1	11
+	`[SKILL_LEVEL]`
+	`[swordman]`	32	1	12
+	`[SKILL_LEVEL]`
+	`[swordman]`	30	1	13
+	`[SKILL_LEVEL]`
+	`[swordman]`	4	1	14
+	`[SKILL_LEVEL]`
+	`[swordman]`	7	1	15
+	`[SKILL_LEVEL]`
+	`[swordman]`	40	1	16
+	`[SKILL_LEVEL]`
+	`[swordman]`	50	1	17
+	`[SKILL_LEVEL]`
+	`[swordman]`	3	1	18
+	`[SKILL_LEVEL]`
+	`[swordman]`	36	1	19
+	`[SKILL_LEVEL]`
+	`[swordman]`	52	1	20
+	`[SKILL_LEVEL]`
+	`[swordman]`	9	1	21
+	`[SKILL_LEVEL]`
+	`[swordman]`	18	1	22
+	`[SKILL_LEVEL]`
+	`[swordman]`	24	1	23
+	`[SKILL_LEVEL]`
+	`[swordman]`	22	1	24
+	`[SKILL_LEVEL]`
+	`[swordman]`	51	1	25
+	`[SKILL_LEVEL]`
+	`[swordman]`	44	1	26
+	`[SKILL_LEVEL]`
+	`[swordman]`	75	1	27
+	`[SKILL_LEVEL]`
+	`[swordman]`	68	1	28
+	`[SKILL_LEVEL]`
+	`[swordman]`	76	1	29
+	`[SKILL_LEVEL]`
+	`[swordman]`	62	1	30
+	`[SKILL_LEVEL]`
+	`[swordman]`	60	1	31
+	`[SKILL_LEVEL]`
+	`[swordman]`	72	1	32
+	`[SKILL_LEVEL]`
+	`[swordman]`	79	1	33
+	`[SKILL_LEVEL]`
+	`[swordman]`	57	1	34
+	`[SKILL_LEVEL]`
+	`[swordman]`	82	1	35
+	`[SKILL_LEVEL]`
+	`[swordman]`	73	1	36
+	`[SKILL_LEVEL]`
+	`[swordman]`	81	1	37
+	`[SKILL_LEVEL]`
+	`[swordman]`	74	1	39
+	`[SKILL_LEVEL]`
+	`[swordman]`	103	1	40
+	`[SKILL_LEVEL]`
+	`[swordman]`	107	1	41
+	`[SKILL_LEVEL]`
+	`[swordman]`	108	1	42
+	`[SKILL_LEVEL]`
+	`[swordman]`	109	1	43
+	`[SKILL_LEVEL]`
+	`[swordman]`	110	1	44
+	`[SKILL_LEVEL]`
+	`[swordman]`	23	1	45
+	`[SKILL_LEVEL]`
+	`[swordman]`	111	1	47
+	`[SKILL_LEVEL]`
+	`[swordman]`	27	1	48
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	108	1	49
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	107	1	50
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	68	1	51
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	9	1	52
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	72	1	53
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	73	1	54
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	111	1	55
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	112	1	56
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	44	1	57
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	60	1	58
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	82	1	59
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	31	1	60
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	24	1	61
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	79	1	62
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	103	1	63
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	81	1	64
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	50	1	65
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	2	1	66
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	57	1	67
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	74	1	68
+	`[SKILL_LEVEL]`
+	`[demonic swordman]`	117	1
+[/avatar select ability]
+
+[set ability]
+	[HP MAX]
+		150
+	[MP MAX]
+		150
+	[physical attack]
+		25
+	[physical defense]
+		25
+	[magical attack]
+		25
+	[magical defense]
+		25
+	[inventory limit]
+		6000
+	[HP regen speed]
+		20
+	[MP regen speed]
+		4
+	[move speed]
+		20
+	[attack speed]
+		20
+	[cast speed]
+		20
+	[fullset explain]
+		`    攻擊或施放技能時， 有3%%的幾率發動隨機Buff。`
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[attack success effect animation]
+			4
+			`Common/Etc/Animation/2012_Summer_Body.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Body_Effect.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_1.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_2.ani`	0	-160
+		[attack success]
+			1
+		[cooltime]
+			50000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[attack success effect animation]
+			4
+			`Common/Etc/Animation/2012_Summer_Body.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Body_Effect.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_1.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_2.ani`	0	-160
+		[casting]
+			1
+		[cooltime]
+			50000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+	[if]
+		[module]
+			`[pvp type]`
+		[/module]
+		[attack success effect animation]
+			4
+			`Common/Etc/Animation/2012_Summer_Body.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Body_Effect.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_1.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_2.ani`	0	-160
+		[attack success]
+			1
+		[cooltime]
+			70000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+	[if]
+		[module]
+			`[pvp type]`
+		[/module]
+		[attack success effect animation]
+			4
+			`Common/Etc/Animation/2012_Summer_Body.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Body_Effect.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_1.ani`	0	-160
+			`Common/Etc/Animation/2012_Summer_Effect_2.ani`	0	-160
+		[casting]
+			1
+		[cooltime]
+			70000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+[/set ability]

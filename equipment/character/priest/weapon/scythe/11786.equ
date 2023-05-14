@@ -1,0 +1,219 @@
+#PVF_File
+
+[name]
+	`黑暗禁咒`
+
+[basic explain]
+	`[黑暗之觸]攻擊力+30%%
+[黑暗之觸]冷卻時間-10%%
+[惡魔之力]攻擊力+30%%
+[惡魔之力]惡魔能量消耗量-20%%
+[惡魔詛咒]技能傷害增加比率+25%%
+  攻擊時，以7%%的機率減少敵人20%%的HP。`
+
+[detail explain]
+	`[黑暗之觸]攻擊力+30%%
+[黑暗之觸]冷卻時間-10%%
+[惡魔之力]攻擊力+30%%
+[惡魔之力]惡魔能量消耗量-20%%
+[惡魔詛咒]技能傷害增加比率+25%%
+  攻擊時，以7%%的機率減少敵人20%%的HP。（攻擊精英怪物時效果縮減為原來的1/3、對領主和深淵怪物的效果則縮減為1/6）`
+
+[flavor text]
+	`  如果註定要成為偽裝者，我寧願化身成惡魔，讓敵人見識到什麼才是真正的恐懼 -- 某個沒有留下姓名的活寶`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	70
+
+[magical attack]
+	70
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3821	1600
+
+[repair price]
+	75264
+
+[value]
+	71680
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1000	900
+
+[equipment magical attack]
+	1000	900
+
+[separate attack]
+	600	500
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[priest]`	119	2
+	`[priest]`	123	2
+	`[priest]`	121	2
+[/skill levelup]
+
+[dark attack]
+	30
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/scythe/scythe.img`	97
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	32	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		7
+	[weakness]
+		20
+[/then]
+
+[skill data up]
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	3
+	`%`	30
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	4
+	`%`	30
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	5
+	`%`	30
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	0
+	`%`	-20
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	1
+	`%`	-20
+	`[priest]`	123
+	`[dungeon type]`
+	`[level]`	2
+	`%`	-20
+	`[priest]`	121
+	`[dungeon type]`
+	`[level]`	1
+	`%`	25
+	`[priest]`	117
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[priest]`	117
+	`[dungeon type]`
+	`[level]`	1
+	`%`	30
+	`[priest]`	117
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-10
+	`[priest]`
+[/skill data up]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[weakness]
+		12
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600739	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[pre required quest]
+	645
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	33	-1	50068	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	30000	1079	5	1081	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 王的五騎士`
+
+[depend message]
+	`既然你準備好了， 我就告訴你如何去王的遺跡吧！ 傳說王的遺跡里有五位擁有特殊能力的騎士， 他們分別是風、 光、 冰、 炎和守護……如果你要見波羅丁王， 就要先除掉他們……`
+
+[condition message]
+	`    前往暗黑城的『王的遺跡』， 除掉王的五騎士。`
+
+[solve message]
+	`噢噢！ 你平安回來了？ 我還一直擔心呢。 `
+
+[substitutive names]
+	`王的五騎士`
+[/substitutive names]
+
+[quest point]
+	4

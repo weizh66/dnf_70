@@ -1,0 +1,39 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	42
+
+[big face]
+	`Map/Npc/NpcFace02.img`	41
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	43
+
+[field animation]
+	`Animation/Npc_ir.ani`
+
+[look around]
+	0
+
+[name]
+	`艾麗絲`
+
+[field name]
+	`吟游詩人艾麗絲`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1017>我雖然是魔界人，但是耳朵並不尖。
+ 我也不知道原因是什麼。但是我知道和別人有點不同。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1017>我和帝國的皇帝里昂萊因西里 3世在他繼位前就很熟悉。
+沒想到他這麼的墮落。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1017>偶爾有想回到魔界的念頭。雖然是貧瘠又被詛咒的地方畢竟還是故鄉。`
+[/dialog]

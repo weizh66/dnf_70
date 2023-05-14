@@ -1,0 +1,55 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[expertjob level]
+	1	6
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3229	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3167	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`副職業 - 兌換上級元素結晶`
+
+[depend message]
+	`做魔法研究需要大量的混沌魔石碎片， 不過這東西并不好收集。 如果你有的話， 可以拿到我這里來。
+我會用上級元素結晶和你交換， 那可是附魔必備材料哦~相信應該會對你有所幫助。`
+
+[condition message]
+	`    收集10個[混沌魔石碎片]， 可以向莎蘭兌換[上級元素結晶]。`
+
+[solve message]
+	`謝謝了。 這是上級元素結晶， 請收好。`

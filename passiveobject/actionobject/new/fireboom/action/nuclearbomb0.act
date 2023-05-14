@@ -1,0 +1,99 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/NuclearBomb/NuclearBomb0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			35501
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			200	0	450
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			35501
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			150	0	450
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			35501
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			250	0	450
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			35501
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			300	0	450
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			35501
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			100	0	450
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			35501
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			200	0	450
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`鑲嵌製造機（高級克隆裝扮專用）`
+
+[explain]
+	`使用裝扮備的各部位產生屬性鑲嵌徽章 2個，鑲嵌製造機便消失。
+只能使用於高級克隆裝扮，已經具備徽章的克隆裝扮則無法使用。`
+
+[grade]
+	2
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	313
+
+[stackable type]
+	`[waste]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[action type]
+	`[add avatar socket]`	1
+[/action type]
+
+[stack limit]
+	8

@@ -1,0 +1,60 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATRoarStun/sub_glow_dodge.img`
+		3
+	[IMAGE POS]
+		-334	-296
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		240
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/ATRoarStun/sub_glow_dodge.img`
+		3
+	[IMAGE POS]
+		-334	-296
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/ATRoarStun/sub_glow_dodge.img`
+		4
+	[IMAGE POS]
+		-334	-296
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/Effect/ATRoarStun/sub_glow_dodge.img`
+		5
+	[IMAGE POS]
+		-334	-296
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+
+[FRAME004]
+	[IMAGE]
+		`Character/Fighter/Effect/ATRoarStun/sub_glow_dodge.img`
+		6
+	[IMAGE POS]
+		-334	-296
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40

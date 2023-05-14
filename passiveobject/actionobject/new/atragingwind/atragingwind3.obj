@@ -1,0 +1,27 @@
+#PVF_File
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATRagingWind/RagingWind_C_Twister_Eff01.ani`
+
+[attack info]
+	`AttackInfo/ATRagingWind.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

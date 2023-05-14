@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	-1
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	8	99
+
+[pre required quest]
+	4474
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	1000	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	4807	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`一定要更強`
+
+[depend message]
+	`無論如何目前提升時間之力似乎有點勉強。必須達到15LV 以上才能擁有正常的力量。
+那個時間碎片我先保管吧。等你更強之後再把你的力量還給你。`
+
+[condition message]
+	`完成暗黑雷鳴廢墟（達成14LV才能進入暗黑雷鳴廢墟。）`
+
+[solve message]
+	`時間終於到了……。`
+
+[quest point]
+	4

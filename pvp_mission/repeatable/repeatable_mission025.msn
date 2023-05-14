@@ -1,0 +1,34 @@
+#PVF_File
+
+[kind]
+	14
+
+[grade]
+	`[repeatable]`
+
+[rank range]
+	5	10
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[大將戰] 乘風破浪2`
+	
+
+[cond_text]
+	`接下來的大將戰完成10勝`
+	
+
+[condition]
+	`[hereafter winning count]`	2	10	-1
+[/condition]
+
+[difficulty_ratio]
+	2

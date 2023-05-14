@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`帝國之英雄權杖`
+
+[basic explain]
+	` 無法進行強化、增幅、解體和贈送。`
+
+[flavor text]
+	`公平決鬥場頻道專用裝備。`
+
+[grade]
+	77
+
+[rarity]
+	2
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[magical attack]
+	48
+
+[attack speed]
+	-100
+
+[cast speed]
+	10
+
+[move speed]
+	10
+
+[need material]
+	3312	200
+
+[equipment physical attack]
+	560	544
+
+[equipment magical attack]
+	798	775
+
+[separate attack]
+	341	231
+
+[magical critical hit]
+	5
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/thief/wand.img`	86
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[thief]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[minimum rank]
+	15
+
+[icon mark]
+	`Item/IconMark.img`	38
+
+[usable world]
+	`[fair]`
+[/usable world]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+[/impossible contents]
+
+[possible kiri protect]

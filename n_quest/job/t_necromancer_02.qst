@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7883
+[/pre required quest]
+
+[collision quest]
+	7880
+[/collision quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	503	-1
+[/int data]
+
+[dungeon info]
+	503	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7885
+
+[name]
+	`轉職 - 死靈術士 (2/4)`
+
+[depend message]
+	`現在， 我要確認你是否能克服死靈術帶來的痛苦， 我可不想浪費時間去教一個沒有希望的暗精靈。
+我的考驗很簡單， 就是要確認你是否具備死靈術士的基本能力。 怎么樣？ 敢挑戰嗎？`
+
+[condition message]
+	`    獨自一人通關格蘭之森的『亡月雷鳴廢墟』。`
+
+[solve message]
+	`看來你具備了學習死靈術的基本能力……好吧， 我會開始教你死靈術的。`

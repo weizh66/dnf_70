@@ -1,0 +1,15 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/destruction_spirit_cast.ani`
+	[SUB ANI]
+		`../animation/effect/destruction_spirit_cast_e3.ani`	0	1
+		`../animation/effect/destruction_spirit_cast_e2.ani`	0	2
+		`../animation/effect/destruction_spirit_cast_e1.ani`	0	3
+	[/SUB ANI]
+	[SPEECH]
+		`聚集吧黑暗的力量~！！`
+			0	100
+	[/SPEECH]
+[/MOTION]

@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`雷米之吻`
+
+[explain]
+	`    使用此道具后， 可以恢復HP最大值的30%%。`
+
+[flavor text]
+	`    我的吻， 可以讓你遠離危險！  --雷米狄奧斯`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash_cn.img`	182
+
+[field image]
+	`Item/FieldImage.img`	22
+
+[stackable type]
+	`[waste]`	0
+
+[hp recovery]
+	`%`	30	1000
+	`myself`
+
+[cool time]
+	2000
+
+[cooltime group]
+	5
+
+[move wav]
+	`FOOD_TOUCH`
+
+[npc gift disallowance]
+	1

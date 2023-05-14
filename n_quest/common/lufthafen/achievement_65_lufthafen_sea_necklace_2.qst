@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5860
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3299	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	20156	1	20157	1	20158	1	20159	1	20160	1	20161	1
+[/reward selection int data]
+
+[name]
+	`深海項鏈 (2/2)`
+
+[depend message]
+	`太不可思議了！ 這種晶石的氣息竟然比阿拉德大陸的強烈得多！
+用來抽取魔力是綽綽有余了， 不過還需借助一些材料。
+你知道虛空魔石吧？ 它可是絕佳的裝備材料。 只要你有足夠的虛空魔石， 我就能幫你制作出很好的裝備。`
+
+[condition message]
+	`    收集[虛空魔石]。`
+
+[solve message]
+	`這是用你收集的材料制作出的項鏈， 希望對你有所幫助！`

@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`鐵鱗海盜團（艦長）`
+
+[explain]
+	`裝備后每隔40秒會發動波迪爾的庇護Buff，該Buff可以使自身增加20點體力、15點火屬性抗性，並增加5%%的移動速度、2%%的攻擊速度和施放速度，效果持續20秒。（佩戴時從40秒后發動。在決鬥場中無效)
+ 在地下城中獲得金幣時，可以額外增加4%%的金幣獲得量。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/Title/title.img`	190
+
+[custom animation]
+	`TitleAnimation/pirate_captain2.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	150
+
+[physical attack]
+	16
+
+[physical defense]
+	18
+
+[magical attack]
+	16
+
+[magical defense]
+	13
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[time]
+		40000	1	40000
+	[disable pvp]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[stat]
+		`physical defense`
+		`+`	20
+	[stat]
+		`fire resistance`
+		`+`	15
+	[stat]
+		`move speed`
+		`+`	50
+	[stat]
+		`attack speed`
+		`+`	20
+	[stat]
+		`cast speed`
+		`+`	20
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

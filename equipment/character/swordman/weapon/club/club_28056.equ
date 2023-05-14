@@ -1,0 +1,172 @@
+#PVF_File
+
+[name]
+	`修練教士棍[黑鑽]`
+
+[basic explain]
+	`耐久度 7增加
+攻擊時以2%%的機率讓敵人陷入眩暈狀態
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[detail explain]
+	`耐久度增加7 
+攻擊時以2%%的機率2秒內讓敵人陷入眩暈狀態。 （高於Lv24的對象得到的機率和效果減少，低於Lv24的對象則會增加。決鬥場內修正為1秒）
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[flavor text]
+	`僧侶的戒律棒. 用你的身體守護我。謝謝你 僧侶的戒律棒-賴爾倫-`
+
+[grade]
+	24
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	20
+
+[physical attack]
+	29
+
+[attack speed]
+	-30
+
+[stuck]
+	-3
+
+[price]
+	38400
+
+[repair price]
+	30720
+
+[value]
+	30720
+
+[equipment physical attack]
+	286	242
+
+[equipment magical attack]
+	247	209
+
+[separate attack]
+	148	96
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	15	2
+	`[common]`	186	2
+	`[swordman]`	65	1
+	`[demonic swordman]`	65	1
+	`[demonic swordman]`	15	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/club.img`	10
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	42
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	24
+[/then]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+	`charac cargo`
+[/impossible contents]
+
+[possible kiri protect]

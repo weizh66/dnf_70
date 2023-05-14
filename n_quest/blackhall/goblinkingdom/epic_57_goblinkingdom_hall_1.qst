@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	62
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	62
+[/int data]
+
+[dungeon info]
+	62	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`奇怪的杜羅西`
+
+[depend message]
+	`雖然我不清楚你是怎么來到這兒的， 但這地方不是任何人都能來的， 請離開！
+……
+看來你似乎知道些什么， 你來這的目的是什么？`
+
+[condition message]
+	`    找杜羅西談談。`
+
+[solve message]
+	`既然你知道這是什么地方， 還執意前來， 那說明你不是冒失的新手冒險家， 跟我來吧。`
+
+[quest point]
+	4

@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`封·天御蟲噬護肩`
+
+[basic explain]
+	`  攻擊時，有5%%的機率召喚出黑色蜂群攻擊敵人。（冷卻時間0.5秒 ）`
+
+[detail explain]
+	`  攻擊時，有5%%的機率召喚出黑色蜂群攻擊400px范圍的所有敵人。（冷卻時間15秒 ）`
+
+[flavor text]
+	`  歎息向誰訴，霜滿白狐頭。--苦逼狐貍君`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12577
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[magical attack]
+	25
+
+[need material]
+	3821	1000
+
+[price]
+	91000
+
+[repair price]
+	72800
+
+[value]
+	72800
+
+[equipment physical defense]
+	2448	2232
+
+[dark attack]
+	20
+
+[icon]
+	`item/new_equipment/04_larmor/neck/larmor_neck.img`	17
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		60076	0	0	0	9999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[probability]
+		5
+	[passive object]
+		60076	0	0	0	9999	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[appendage]
+		251
+	[appendage]
+		329
+[/then]
+
+[possible kiri protect]

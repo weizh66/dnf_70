@@ -1,0 +1,61 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/LaunchFluorescent3.img`
+		0
+	[IMAGE POS]
+		-21	-25
+	[RGBA]
+		42	42	150	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		120
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/LaunchFluorescent3.img`
+		0
+	[IMAGE POS]
+		-21	-25
+	[IMAGE ROTATE]
+		2.0943949222564697
+	[RGBA]
+		110	240	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		120
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/LaunchFluorescent3.img`
+		0
+	[IMAGE POS]
+		-21	-25
+	[IMAGE ROTATE]
+		4.1887898445129395
+	[RGBA]
+		42	42	150	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		120
+
+[FRAME003]
+	[IMAGE]
+		`Character/Mage/Effect/LaunchFluorescent3.img`
+		0
+	[IMAGE POS]
+		-21	-25
+	[IMAGE ROTATE]
+		6.283185005187988
+	[RGBA]
+		110	240	255	255
+	[DELAY]
+		120

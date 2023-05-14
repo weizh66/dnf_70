@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`幻影追魂爪`
+
+[basic explain]
+	`    普通攻擊時， 有5%%的幾率施放[旋風之襲]。`
+
+[detail explain]
+	`    普通攻擊時， 有5%%的幾率施放[旋風之襲]。 (在決斗場中幾率為1%%)`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/fighter/claw.img`	72
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	624	564
+
+[equipment magical attack]
+	624	564
+
+[separate attack]
+	378	255
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	18	3
+	`[at fighter]`	18	3
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	5	1
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	9	4
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[if]
+	[cooltime]
+		1000
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[passive object]
+		48111	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			1000
+		[set my state]
+			1
+		[my state]
+			`attack`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			1
+		[passive object]
+			48112	0	0	0	0	0
+			``
+		[/passive object]
+	[/then]
+[/pvp]
+
+[routing priority]
+	`fighter`	3
+	`at fighter`	3
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`埃尼歐`
+
+[explain]
+	`    使用後， 可以召喚出埃尼歐協助召喚者攻擊敵人， 埃尼歐存在15分鐘。 (在悲鳴洞穴中攻擊力更強)`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	159500
+
+[minimum level]
+	25
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	605
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[sub type]
+	2
+
+[cool time]
+	900000
+
+[cooltime group]
+	100
+
+[move wav]
+	`FOOD_TOUCH`
+
+[summon apc]
+	5410	70	70	900000	1

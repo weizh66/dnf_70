@@ -1,0 +1,71 @@
+#PVF_File
+[SHADOW]
+	0
+[COORD]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Wind.img`
+		4
+	[IMAGE POS]
+		-278	-10
+	[IMAGE RATE]
+		0.10000000149011612	0.10000000149011612
+	[RGBA]
+		255	255	255	63
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Wind.img`
+		5
+	[IMAGE POS]
+		-278	-10
+	[IMAGE RATE]
+		0.30000001192092896	0.30000001192092896
+	[RGBA]
+		255	255	255	127
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Wind.img`
+		0
+	[IMAGE POS]
+		-278	-9
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[RGBA]
+		255	255	255	191
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Wind.img`
+		1
+	[IMAGE POS]
+		-278	-9
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

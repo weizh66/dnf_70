@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	`(舊) 暴躁鐵拳`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使自身增加30%%的物理攻擊力， 效果持續30秒。
+攻擊時， 有1%%的幾率使敵人進入破甲狀態。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使武器耐久度減少1， 并增加30%%的物理攻擊力， 效果持續30秒。
+    攻擊時， 有2%%的幾率使敵人進入破甲狀態7秒； 處于破甲狀態的敵人， 暫時無法使用護甲且護甲的耐久度消耗增加30倍。 (若敵人高于Lv15， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[flavor text]
+	`    世界如此美妙， 我卻如此暴躁！ 這樣不好， 不好！`
+
+[grade]
+	20
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`gauntlet`
+
+[rarity]
+	4
+
+[weight]
+	2900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	15
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	34
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	39
+
+[price]
+	36000
+
+[value]
+	28800
+
+[cool time]
+	10000
+
+[physical attack]
+	26
+
+[equipment physical attack]
+	283	226
+
+[equipment magical attack]
+	212	169
+
+[separate attack]
+	133	86
+
+[attack speed]
+	-80
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`equipment physical attack`
+		`%`	30
+	[reduction]
+		`weapon`	1
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`weapon break`	15	30
+	[active status]
+		`armor break`	15	30
+[/then]
+
+[stuck]
+	-1
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	2
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	2
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

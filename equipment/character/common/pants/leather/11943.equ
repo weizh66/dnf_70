@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`戰術之王的禦敵腿甲`
+
+[flavor text]
+	`  嗤嗤（無線電波）……喂，能聽見我說的話嗎？中午伙食能不能換一下啊？ --中將尼貝爾`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12574
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	39
+
+[magical attack]
+	39
+
+[magical defense]
+	42
+
+[need material]
+	3821	1000
+
+[price]
+	91000
+
+[repair price]
+	72800
+
+[value]
+	72800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	2040	1860
+
+[stuck resistance]
+	20
+
+[stuck]
+	-2
+
+[icon]
+	`Item/new_equipment/03_leather/pants/leather_pants.img`	19
+
+[field image]
+	`Item/FieldImage.img`	1
+
+[equipment type]
+	`[pants]`	16
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	27
+
+[weight]
+	1500
+
+[item group name]
+	`lt pants`
+
+[cool time]
+	10000
+
+[item aura]
+	`physical critical hit`
+	`+`	10	300
+
+[item aura]
+	`magical critical hit`
+	`+`	10	300
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600791	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

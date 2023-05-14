@@ -1,0 +1,25 @@
+#PVF_File
+
+[layer]
+	`[bottom]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/Stera_bun_basic.act`
+
+[attack info]
+	`attackinfo/Stera_bun_basic.atk`
+
+[add particles]
+	[particle]
+		[file]
+			`particle/flame_up.ptl`
+		[create delay]
+			800
+	[/particle]
+[/add particles]
+
+[piercing power]
+	1000

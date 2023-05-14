@@ -1,0 +1,391 @@
+#PVF_File
+
+[name]
+	`紅色守護`
+
+[basic explain]
+	`【怒氣爆發】CD-40%%
+裝備時，將自身50%%的智力轉換成50%%的力量
+釋放【怒氣爆發】時，對所有敵人釋放怒氣爆發
+釋放【暴走】時會將敵人吸附到身旁，釋放完畢發動獅子吼兵全屏地震
+↑↓+V可以變身（紅狗三件套），並且會說出‘屠戮加連發，一套八萬八’
+每500點HP可以加10點獨立攻擊，同時減少20點物理攻擊力（最多加2000點）
+暴走施放成功后，武器變成紅色，使用【怒氣爆發】攻擊敵人時，附加10%%的火屬性傷害（效果持續20s）
+自身HP低於10%%的時候發動瞬移特效（隨機）
+自身HP低於5%%的時候，發動無視攻擊的狀態（持續5s，冷卻10s）`
+
+[flavor text]
+	`我的紅色意味著神聖，我絕不允許別人比我更鮮艷，否則我會吸光你們的鮮血！！！`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	39
+
+[ignore defense]
+	1
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	102000
+
+[repair price]
+	81600
+
+[value]
+	81600
+
+[equipment physical attack]
+	740	623
+
+[equipment magical attack]
+	580	492
+
+[separate attack]
+	365	251
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	40
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	24
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-40
+	`[demonic swordman]`	24
+	`[all]`
+	`[static]`	0
+	`+`	2
+[/skill data up]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3033	2
+	[duration]
+		20000
+	[speech on]
+		0	4000
+		`屠戮加連發，一套八萬八！！`
+	[/speech on]
+	[passive object]
+		140076	0	0	0	-1	0
+		``
+	[/passive object]
+	[replace avatar ani]
+		`[hat avatar]`	39182
+		`[breast avatar]`	40271
+		`[hair avatar]`	39400
+		`[coat avatar]`	40600
+		`[pants avatar]`	41000
+		`[shoes avatar]`	41892
+		`[weapon avatar]`	27712
+		`[skin avatar]`	42200
+	[/replace avatar ani]
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`hp max`	500
+		`equipment physical attack`
+		`+`	-20	3000
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`hp max`	12
+		`separate attack`
+		`+`	10	2000
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical attack`
+		`%`	-50
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`magical attack`	1
+		`physical attack`
+		`+`	1	9999999
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	40
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[passive object]
+		8899	0	0	0	9999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`stand`
+	[my prev state]
+		`buff`
+	[skill]
+		`swordman`	40
+	[/skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		1000
+	[passive object]
+		48211	0	0	0	999	0
+		``	60083	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[my appendage]
+		1000
+	[skill]
+		`swordman`	24
+	[/skill]
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	10
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	24
+	[/event use skill]
+	[cool time]
+		2000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[passive object]
+		20102	0	0	0	99999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	10
+	[time]
+		500	1	500
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		9471	0	0	0	999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	5
+	[time]
+		500	1	500
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[appendage]
+		1001
+[/then]
+
+[if]
+	[my appendage]
+		1001
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	100
+[/then]
+
+[possible kiri protect]

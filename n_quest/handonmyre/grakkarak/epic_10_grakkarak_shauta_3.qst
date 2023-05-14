@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	7
+
+[complete npc index]
+	7
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[pre required quest]
+	110
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	7	-1	15	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	600	22006	1
+[/reward int data]
+
+[reward selection int data]
+	18007	1	18407	1	19207	1
+[/reward selection int data]
+
+[name]
+	`牛頭王薩烏塔`
+
+[depend message]
+	`你是很勇敢的年輕人， 我可以放心的把這個任務交給你了！
+最近， 格蘭之森的牛頭怪越來越狂暴， 特別是它們的首領牛頭王薩烏塔。
+我本來想親自去除掉它的， 但那里的叢林很詭異， 會不停的流動。 我的眼睛又看不見， 所以憑感知根本找不到入口， 你能幫我這個忙嗎？ `
+
+[condition message]
+	`    前往格蘭之森的『格拉卡』， 擊敗領主牛頭王薩烏塔。`
+
+[solve message]
+	`噢， 你除掉薩烏塔了？ 費了一番力氣吧？`
+
+[dialog]
+	1	0	7	2	1	15	0
+	` <monster::15>所有牛頭兵都給我聽著！ 人類不再是我們的朋友。
+準備攻擊隊形！ 讓人類瞧瞧我們的厲害！`
+[/dialog]
+
+[quest point]
+	4

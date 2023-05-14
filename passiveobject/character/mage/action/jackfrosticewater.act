@@ -1,0 +1,48 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/JackFrostIcewater/Start/JackFrostIcewaterStartBack_03.ani`
+	[SUB ANI]
+		`../Animation/JackFrostIcewater/Start/JackFrostIcewaterStartParticle_08.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		30	30
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		1	20	30	89	135	206	250
+	[SHAKING]
+		200	3
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		36	36
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			265
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[freeze]
+		100	140	10000	0	200	1	500
+[/BEHAVIOR]

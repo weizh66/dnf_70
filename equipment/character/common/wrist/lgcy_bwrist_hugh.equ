@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`傳承： 神聖的靈魂審判者之鐲`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	17
+
+[physical defense]
+	42
+
+[HP MAX]
+	100
+
+[MP regen speed]
+	4
+
+[price]
+	42000
+
+[repair price]
+	33600
+
+[value]
+	33600
+
+[equipment magical defense]
+	2160	2064
+
+[light resistance]
+	7
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/IconAcc.img`	85
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[set name]
+	`傳承： 神聖的靈魂審判者首飾`
+
+[set item]
+	20101	22100	24102
+[/set item]
+
+[piece set ability]
+	3
+	[physical attack]
+		50
+	[physical defense]
+		35
+	[magical attack]
+		50
+	[water resistance]
+		15
+	[MP regen speed]
+		8
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			2
+		[active status]
+			`haste`	40	10	10
+	[/then]
+	[parameter basic explain]
+		` 被攻擊時，有2%%的機率使自身進入加速狀態20秒； 加速狀態下，增加10%%的移動速度和攻擊速度。`
+[/piece set ability]
+
+[possible kiri protect]

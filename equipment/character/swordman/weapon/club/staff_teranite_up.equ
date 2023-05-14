@@ -1,0 +1,190 @@
+#PVF_File
+
+[name]
+	` 泰拉石巨槌`
+
+[basic explain]
+	` 攻擊時，以1%%的機率使自身增加10%%的移動速度、攻擊速度和施放速度； 並減少自身10%%的裝備防禦力，效果持續30秒。
+ 攻擊時，以2%%的機率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`攻擊時，有1%%的機率使自身增加10%%的移動速度、攻擊速度和施放速度；但同時會減少自身10%%的裝備防禦力，效果持續30秒。
+攻擊時，有2%%的機率使敵人進入眩暈狀態2秒。 （高於Lv62的對象得到的機率和效果減少，低於Lv62的對象則會增加。決鬥場內修正為 1秒）`
+
+[flavor text]
+	`經轉移實驗結果研製出的泰拉石經過冶煉製成擁有卓越力量的武器。`
+
+[grade]
+	65
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	58
+
+[anti evil]
+	14
+
+[physical attack]
+	68
+
+[attack speed]
+	-30
+
+[move speed]
+	20
+
+[stuck]
+	-2
+
+[MP MAX]
+	50
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[equipment physical attack]
+	675	620
+
+[equipment magical attack]
+	583	536
+
+[separate attack]
+	365	246
+
+[icon]
+	`Item/weapon/swordman/club.img`	40
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	5	3
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	5	3
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`cast speed`
+		`+`	100
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`move speed`
+		`+`	100
+	[stat]
+		`equipment physical defense`
+		`%`	-10
+	[stat]
+		`equipment magical defense`
+		`%`	-10
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	62
+[/then]
+
+[possible kiri protect]

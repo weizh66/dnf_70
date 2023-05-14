@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`極品袖珍罐碎片`
+	
+
+[explain]
+	`投擲時， 可以對敵人造成70點傷害。`
+	
+
+[flavor text]
+	`哈哈， 幸運離你只差一步了。 再試試吧， 說不定這次就是你了！  --土罐`
+	
+
+[grade]
+	30
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`Item/IconMaterial2.img`	65
+
+[field image]
+	`Item/FieldImage.img`	23
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	300
+
+[cool time]
+	500
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50503	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Gravel.ptl`
+[/string data]

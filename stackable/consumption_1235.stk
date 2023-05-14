@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`雷沃斯`
+	
+
+[explain]
+	`    恢復速度比較緩慢。`
+	
+
+[flavor text]
+	`    呃……太難吃了~從沒吃過這麼難吃的麵包~呸呸呸！  --尼貝爾`
+	
+
+[grade]
+	60
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	60
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	596
+
+[icon mark]
+	`Item/IconMark.img`	31
+
+[field image]
+	`Item/field_consumption.img`	49
+
+[stackable type]
+	`[waste]`	1
+
+[item group name]
+	`potion`
+
+[price]
+	600
+
+[cool time]
+	10000
+
+[move wav]
+	`POTION_TOUCH`
+
+[hp recovery]
+	`+`	2950	10000
+	`myself`

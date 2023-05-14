@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at swordman]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 劍皇 (2/6)`
+
+[depend message]
+	`聽說找到誓約之劍， 就可以達到劍皇的境界。
+不過， 如果真的能夠輕易找到， 那就不叫誓約之劍了， 對不對？ 聽說這個被稱為誓約之劍的家伙有著自己的意志， 所以只會在自己認可的人面前顯示出真身。
+現在的你固然很強， 但我還不確定你是否強大到可以獲得誓約之劍的認可。 我想你自己應該也有類似的疑惑。
+那么， 接下來我們要做的事情當然就是解開這個疑惑了。
+你先去參加魂·黃龍大會吧。 素喃一直以武人的城市著稱， 而他們中的強者才能登上黃龍大會的舞臺。
+如果能打倒那里的強者， 相信你應該可以向前跨出一大步。
+首先， 你要去準備一下‘斯卡迪女王的印章’吧。 聽說你要用它來證明自己是獲得王室推薦的強者， 才有資格參加大會。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4942
+[/pre required quest]
+
+[relation quest]
+	5318
+
+[job change quest]
+	3
+
+[grow number]
+	0

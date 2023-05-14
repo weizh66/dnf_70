@@ -1,0 +1,199 @@
+#PVF_File
+
+[name]
+	`充滿怨氣的鬱悶雙刃斧`
+
+[basic explain]
+	`施展狂亂錘擊時以 40%% 的機率增加基本技能攻擊次數的1.5倍
+施展疾空旋風破時以30%%的機率增加基本技能攻擊次數的1.5倍
+無雙擊錘擊範圍增加50%% 
+施展脈輪：烈焰時20秒內移動速度增加7%%，攻擊速度增加7%% `
+
+[detail explain]
+	`施展狂亂錘擊時以 40%% 的機率增加基本技能攻擊 次數的1.5倍（決鬥場內修正為 1%% 機率）
+施展疾空旋風破時以30%% 的機率增加基本技能攻擊 次數的1.5倍（決鬥場內修正為1%% 機率）
+無雙擊錘擊範圍增加50%% 
+脈輪：施展烈焰時20秒內移動速度增加7%%，攻擊速度增加7%%`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	50
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[need material]
+	3285	2100
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	869	797
+
+[equipment magical attack]
+	615	564
+
+[separate attack]
+	441	298
+
+[skill levelup]
+	`[priest]`	47	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	83
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	24	1
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[if]
+	[event use skill]
+		`priest`	49
+[/if]
+
+[then]
+	[probability]
+		40
+	[target]
+		`myself`	-1
+	[skill data up]
+		`[priest]`	49
+		`[all]`
+		`[level]`	2
+		`%`	50
+		`[priest]`	49
+		`[all]`
+		`[level]`	3
+		`%`	50
+		`[priest]`	49
+		`[all]`
+		`[static]`	0
+		`+`	-1
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	5
+[/if]
+
+[then]
+	[probability]
+		30
+	[target]
+		`myself`	-1
+	[skill data up]
+		`[priest]`	5
+		`[all]`
+		`[level]`	2
+		`%`	50
+		`[priest]`	5
+		`[all]`
+		`[level]`	3
+		`%`	50
+		`[priest]`	5
+		`[all]`
+		`[static]`	2
+		`+`	-1
+	[/skill data up]
+[/then]
+
+[skill data up]
+	`[priest]`	88
+	`[all]`
+	`[static]`	1
+	`%`	50
+[/skill data up]
+
+[if]
+	[use skill]
+		`priest`	47
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[duration]
+		20000
+	[target]
+		`myself`	-1
+	[stat]
+		`attack speed`
+		`+`	70
+	[stat]
+		`move speed`
+		`+`	70
+[/then]
+
+[possible kiri protect]

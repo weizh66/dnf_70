@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	88	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	4	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`巡查根特北門`
+
+[depend message]
+	`我剛接到消息， 說卡勒特還有部分軍隊駐留在北門。
+冒險家， 如果方便的話， 你能替我去北門巡視一下嗎？ 我估計剩下的敵人應該不會很多。`
+
+[condition message]
+	`    通關安特貝魯峽谷的『根特北門』， 要求地下城難度為王者級。`
+
+[solve message]
+	`這么快就回來了！ 看來這次的任務很輕松。 哈哈~謝謝啦！`

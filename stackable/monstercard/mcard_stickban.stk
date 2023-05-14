@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`范 · 拉弗丁卡片`
+
+[flavor text]
+	`絕對的力量是非常的誘人。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	138
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[need material]
+	3340	72
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[weapon]`
+	`[coat]`
+	`[pants]`
+[/string data]
+
+[int data]
+	138	61266
+[/int data]
+
+[enchant]
+	[magical attack]
+		38
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

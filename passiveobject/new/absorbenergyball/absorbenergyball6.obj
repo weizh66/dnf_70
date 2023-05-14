@@ -1,0 +1,32 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic motion]
+	`Animation/AbsorbEnergyBall/lv1_end_ShootInhaledEnergy_01_Normal.ani`
+
+[etc motion]
+	`Animation/AbsorbEnergyBall/lv0_start_ShootInhaledEnergy_00_Normal.ani`
+	`Animation/AbsorbEnergyBall/lv0_loop_ShootInhaledEnergy_00_Normal.ani`
+	`Animation/AbsorbEnergyBall/lv0_end_ShootInhaledEnergy_00_Normal.ani`
+	`Animation/AbsorbEnergyBall/lv1_start_ShootInhaledEnergy_00_Normal.ani`
+	`Animation/AbsorbEnergyBall/lv1_loop_ShootInhaledEnergy_01_Normal.ani`
+	`Animation/AbsorbEnergyBall/lv1_end_ShootInhaledEnergy_01_Normal.ani`
+	`Animation/AbsorbEnergyBall/lv2_start_Current_Shot_Normal.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/AbsorbEnergyBall.atk`
+
+[name]
+	`??之球`

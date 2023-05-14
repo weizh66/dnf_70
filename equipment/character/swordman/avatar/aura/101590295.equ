@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`炙炎之息`
+
+[explain]
+	``
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	70
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	121
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[room list move speed rate]
+	0.1
+
+[fire attack]
+	20
+
+[aurora graphic effects]
+	4	1
+	`Character/Common/Animation/Aura/16_changejob/aura56_front_normal.ani`	1
+	`Character/Common/Animation/Aura/16_changejob/aura56_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/16_changejob/aura56_back_normal.ani`	0
+	`Character/Common/Animation/Aura/16_changejob/aura56_back_dodge.ani`
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]

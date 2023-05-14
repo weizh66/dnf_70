@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`魂.黑色瘟疫之青絲短靴`
+
+[basic explain]
+	`  攻擊時6%%的機率釋放次元斬
+  攻擊時40%%的機率召喚出狄瑞吉的碎片。
+  破招時，10%%的機率回復20%%的HP和MP。`
+
+[detail explain]
+	`  攻擊時6%%的機率釋放次元斬
+  攻擊時40%%的機率召喚出狄瑞吉的碎片。
+  破招時，10%%的機率回復20%%的HP和MP。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[anti evil]
+	10
+
+[minimum level]
+	90
+
+[physical attack]
+	220
+
+[magical attack]
+	220
+
+[move speed]
+	70
+
+[price]
+	1600000
+
+[need material]
+	3500	1200
+
+[repair price]
+	44100
+
+[value]
+	42000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	492	462
+
+[icon]
+	`Item/common/shoes.img`	317
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	15
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[set name]
+	`魂.黑色瘟疫之青絲套裝`
+
+[set item]
+	11505	11506	11507	11508	11509
+[/set item]
+
+[if]
+	[cooltime]
+		3000
+	[attack condition]
+		`counter`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[reduce duration to human armor at pvp module]
+		100
+	[restore]
+		`hp`
+		`%`	20	0
+	[restore]
+		`mp`
+		`%`	20	0
+[/then]
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		6
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		9385	0	0	0	70	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		40
+	[summon monster]
+		62131	200	2
+[/then]
+
+[piece set ability]
+	3
+	[if]
+		[cooltime]
+			60000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			30000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			100
+		[stat]
+			`equipment physical defense`
+			`%`	100
+	[/then]
+	[parameter basic explain]
+		`攻擊時有機率增加200%%的防禦`
+[/piece set ability]
+
+[piece set ability]
+	5
+	[parameter basic explain]
+		`攻擊時會給敵人造成大量毒傷`
+[/piece set ability]
+
+[pvp]
+[/pvp]
+
+[possible kiri protect]

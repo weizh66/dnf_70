@@ -1,0 +1,49 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/light_dodge.img`
+		0
+	[IMAGE POS]
+		-261	-420
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		900
+
+[FRAME001]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/light_dodge.img`
+		0
+	[IMAGE POS]
+		-261	-420
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/light_dodge.img`
+		1
+	[IMAGE POS]
+		-261	-420
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Behemoth/Rotoers/light_dodge.img`
+		2
+	[IMAGE POS]
+		-261	-420
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

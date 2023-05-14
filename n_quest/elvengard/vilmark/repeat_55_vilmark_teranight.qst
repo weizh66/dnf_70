@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	8
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	428
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3205	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3033	40	3037	20
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 收購泰拉石`
+
+[depend message]
+	`聽說怪物變得兇暴是因為受到比爾馬克帝國試驗場里的泰拉石影響， 如果我們能夠減少泰拉石的數量， 說不定就能讓阿拉德大陸恢復從前的安寧了！ `
+
+[condition message]
+	`    收集10個[泰拉石]交給土罐。`
+
+[solve message]
+	`嗯嗯， 很好！ 又給我帶來這么多泰拉石！ 看來阿拉德大陸很快就會恢復安寧了！ `

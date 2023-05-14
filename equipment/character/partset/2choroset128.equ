@@ -1,0 +1,127 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	79
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+	[/skill data up]
+	[parameter basic explain]
+		`[真空旋風破]持續時間 +30%%
+[真空旋風破]冷卻時間 -30%%
+[真空旋風破]無色小晶塊消耗量 -1個`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at mage]`	79
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+		`[at mage]`	85
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	85
+		`[dungeon type]`
+		`[static]`	3
+		`+`	200
+		`[at mage]`	85
+		`[dungeon type]`
+		`[static]`	4
+		`+`	200
+		`[at mage]`	85
+		`[dungeon type]`
+		`[static]`	9
+		`%`	15
+		`[at mage]`	75
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[真空旋風破]冷卻時間 -15%%
+[真空旋風破]持續時間 +40%%
+[真空旋風破]攻擊范圍 +10%%
+[風卷殘云]冷卻時間 -20%%
+[風卷殘云]旋轉次數 +1次
+[風卷殘云]攻擊范圍 +15%%
+[流風訣]攻擊力增加率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-33
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	35
+		`[at mage]`	79
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[at mage]`	85
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	85
+		`[dungeon type]`
+		`[static]`	3
+		`+`	400
+		`[at mage]`	85
+		`[dungeon type]`
+		`[static]`	4
+		`+`	400
+		`[at mage]`	85
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at mage]`	85
+		`[dungeon type]`
+		`[static]`	9
+		`%`	20
+		`[at mage]`	85
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[真空旋風破]多段攻擊間隔 -33%%
+[真空旋風破]范圍 +20%%
+[風卷殘云]冷卻時間 -30%%
+[風卷殘云]旋轉次數 +2次
+[風卷殘云]旋轉攻擊力 +50%%
+[風卷殘云]攻擊范圍 +20%%
+[風卷殘云]無色小晶塊消耗量 +1個`
+[/piece set ability]

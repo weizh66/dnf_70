@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4263
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3309	9
+[/int data]
+
+[dungeon info]
+	88	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	4	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`卡勒特的戰略`
+
+[depend message]
+	`你之前拿回來的指令書中， 除了北門之外， 還記載了關于東門和南門的戰略。 只是信息還不完整， 我想應該還有其它的指令書存在。
+如果你有空的話， 就請多找些指令書回來， 這對我們制定接下來的作戰方案很有幫助。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特北門』， 從稀有怪物和領主身上收集9張[卡勒特指令書]， 要求地下城難度為冒險級以上。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`嗯……這里寫著卡勒特兵力不足……看來之前的那幾場戰斗對敵人影響很大啊！ 說不定我們的機會來了……`

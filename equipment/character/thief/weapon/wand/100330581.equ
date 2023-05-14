@@ -1,0 +1,212 @@
+#PVF_File
+
+[name]
+	`[巨龍]納特拉的魔眼權杖`
+
+[basic explain]
+	``
+
+[detail explain]
+	``
+
+[flavor text]
+	`    小心它的眼睛！`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[attack speed]
+	-100
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	5
+
+[need material]
+	9999	30
+
+[equipment physical attack]
+	649	609
+
+[equipment magical attack]
+	925	867
+
+[separate attack]
+	481	327
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	35	2
+	`[thief]`	53	1
+[/skill levelup]
+
+[icon]
+	`Item/common/chn_Dragon_Weapon.img`	27
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	3	12
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		48677	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[spectrum]
+	250	130	0	200	500
+
+[possible kiri protect]

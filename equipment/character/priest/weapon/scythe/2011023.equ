@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`靈魂剝離`
+
+[basic explain]
+	`攻擊時，附加 25%%暗屬性傷害
+暗強120以上時魔攻 +16%%
+攻擊時，MP -1%%(冷卻時間 0.1s)
+MP不足50%%時,攻擊時HP -1%%(冷卻時間 0.1s)`
+
+[detail explain]
+	`攻擊時，附加 25%%暗屬性傷害
+暗強120以上時魔攻 +16%%
+攻擊時，MP -1%%(冷卻時間 0.1s)
+MP不足50%%時,攻擊時HP -1%%(冷卻時間 0.1s)`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	70
+
+[magical attack]
+	70
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1003	803
+
+[equipment magical attack]
+	1056	856
+
+[separate attack]
+	648	548
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/wuqi.img`	23
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	49	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`=>`	120
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[stat]
+		`equipment magical attack`
+		`%`	16
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`dark`
+		`%`	25
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[restore]
+		`mp`
+		`%`	-1	0
+[/then]
+
+[if]
+	[cooltime]
+		100
+	[stat change]
+		`mp`
+		`>=`
+		`%`	0
+	[stat change]
+		`mp`
+		`<`
+		`%`	50
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-1	0
+[/then]
+
+[possible kiri protect]

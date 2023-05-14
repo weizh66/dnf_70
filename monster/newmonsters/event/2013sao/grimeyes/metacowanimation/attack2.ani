@@ -1,0 +1,59 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Event/2013_SAO/The_Gleam_Eyes/The_Gleam_Eyes.img`
+		20
+	[IMAGE POS]
+		-381	-650
+	[DELAY]
+		250
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-122	-10	0	214	20	398
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Event/2013_SAO/The_Gleam_Eyes/The_Gleam_Eyes.img`
+		21
+	[IMAGE POS]
+		-381	-650
+	[DELAY]
+		290
+	[DAMAGE TYPE]
+		`UNBREAKABLE`
+	[DAMAGE BOX]
+	-168	-10	6	221	20	401
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Event/2013_SAO/The_Gleam_Eyes/The_Gleam_Eyes.img`
+		22
+	[IMAGE POS]
+		-381	-650
+	[DELAY]
+		400
+	[DAMAGE TYPE]
+		`UNBREAKABLE`
+	[DAMAGE BOX]
+	-112	-10	2	130	20	349
+	[ATTACK BOX]
+	20	-19	16	286	34	336
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Event/2013_SAO/The_Gleam_Eyes/The_Gleam_Eyes.img`
+		23
+	[IMAGE POS]
+		-381	-650
+	[DELAY]
+		200
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-121	-10	-1	145	20	347
+	[ATTACK BOX]
+	25	-50	17	330	100	331

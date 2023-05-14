@@ -1,0 +1,53 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/defence_shield.img`
+		5
+	[IMAGE POS]
+		-119	-177
+	[DELAY]
+		800
+	[DAMAGE BOX]
+	-54	-20	2	108	45	129
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/defence_shield.img`
+		6
+	[IMAGE POS]
+		-119	-177
+	[RGBA]
+		0	0	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		800
+	[DAMAGE BOX]
+	-54	-20	2	108	45	129
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/defence_shield.img`
+		6
+	[IMAGE POS]
+		-119	-177
+	[DELAY]
+		800
+	[DAMAGE BOX]
+	-54	-20	2	108	45	129
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/defence_shield.img`
+		6
+	[IMAGE POS]
+		-119	-177
+	[DELAY]
+		800
+	[DAMAGE BOX]
+	-54	-20	2	108	45	129

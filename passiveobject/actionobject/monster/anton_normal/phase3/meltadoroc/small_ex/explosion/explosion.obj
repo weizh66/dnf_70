@@ -1,0 +1,21 @@
+#PVF_File
+
+[name]
+	`?踏爆炸`
+
+[basic action]
+	`Action/explosion_Basic.act`
+
+[attack info]
+	`attackinfo/explosion_Basic.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1200
+[/object destroy condition]
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	5000000

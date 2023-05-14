@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	13
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20650
+[/pre required quest]
+
+[depend give item]
+	2749657	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749657	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`美人藥劑`
+
+[depend message]
+	`看吧， 恢復原貌了， 哈哈！ 你把這個交給賽麗亞吧， 這次應該不會有什么問題了。 記得說是我做的啊！`
+
+[condition message]
+	`    把[美人藥劑]帶給賽麗亞。`
+
+[solve message]
+	`啊~冒險家謝謝你！ 這是諾頓大叔制作的藥劑嗎？
+沒想到他還為了我親身做實驗！ 實在是太感動了~`

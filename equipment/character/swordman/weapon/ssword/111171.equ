@@ -1,0 +1,202 @@
+#PVF_File
+
+[name]
+	`杰諾的冰霜短劍`
+
+[basic explain]
+	`    ↑↓+[寵物技能鍵]輸入時，會消耗1個藍色小晶塊，召喚杰諾的靈魂附體，效果持續40秒，附體狀態下，角色可以借用杰諾的技能。（冷卻時間40秒）
+  附體狀態下進行攻擊時，會生成杰諾的[死亡墓碑]。
+  攻擊冰凍狀態下的敵人時，附加10%%的傷害。（冷卻時間0.5秒）`
+
+[flavor text]
+	`    把那些幽靈冰凍起來，放到博物館展覽。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[cast speed]
+	20
+
+[need material]
+	3500	1300
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	1047	936
+
+[separate attack]
+	552	363
+
+[magical critical hit]
+	2
+
+[water attack]
+	15
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	111
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[icon mark]
+	`Item/IconMark.img`	38
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3036	1
+	[duration]
+		40000
+	[appendage]
+		234
+	[passive object]
+		60092	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		234
+	[attack success]
+		1
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[passive object]
+		60091	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`freeze`
+	[my appendage]
+		234
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

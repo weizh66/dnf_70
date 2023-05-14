@@ -1,0 +1,100 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`我比皮諾丘更漂亮！`
+		`我不是未完成！！`
+		`說我是喜歡名牌的拜金女嗎？`
+		`哼哼我那裡有拜金的氣息？`
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`鋸木屑飄來了...鋸木屑...`
+			`結掉了肚子上出現了一個洞`
+		[/fill point under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`雖然我不太喜歡，可是只要呼叫這個名字就會有反應`
+		[/renamed]
+		[pop random]
+			60
+			[call the name]
+				`我！我！！`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			30
+			[equip]
+				`皮皮皮皮諾奇亞登場！`
+				`嘎啊~卡達卡達`
+			[/equip]
+		[/pop random]
+		[pop random]
+			50
+			[level up]
+				`你該不會以為是託你的福吧？`
+				`好累喔，好累...`
+			[/level up]
+		[/pop random]
+		[pop random]
+			50
+			[character level up]
+				`這樣看來你比我還遜`
+				`哼！切！貪心鬼！！`
+			[/character level up]
+		[/pop random]
+		[eat feed]
+			`...`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`...`
+		[/eat feed]
+		[dying]
+			`不要把我當柴燒...`
+		[/dying]
+		[using skill]
+			`變長了，鼻子！`
+			`世界上最強的皮諾奇亞出現了！`
+		[/using skill]
+		[pop random]
+			40
+			[skill gauge full]
+				`不想從我身上得到什么嗎？`
+				`你以為我會幫忙解決你的問題嗎？！`
+				`不用GAUGE的話就會逃走！`
+				`主人啊GOGOGO`
+			[/skill gauge full]
+		[/pop random]
+		[call the name]
+			`我！我！！`
+		[/call the name]
+		[pop random]
+			40
+			[equip]
+				`皮皮皮皮諾奇亞登場！`
+				`嘎啊~卡達卡達`
+			[/equip]
+		[/pop random]
+		[pop random]
+			50
+			[level up]
+				`你該不會以為是託你的福吧？`
+				`好累喔，好累...`
+			[/level up]
+		[/pop random]
+		[pop random]
+			50
+			[character level up]
+				`這樣看來你比我還遜`
+				`哼！切！貪心鬼！！`
+			[/character level up]
+		[/pop random]
+	[/main game]
+[/trigger]

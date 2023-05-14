@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`光棍節武器裝扮`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/mage/staff/staff.img`	108
+
+[move wav]
+	`STAFF_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		34	0
+	[layer variation]
+		2790
+		`staffc`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[layer variation]
+		200
+		`staffd`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/mage/weapon/staff/`
+	[custom wav]
+		`R_ICECREAM_ATK`
+		`R_ICECREAM_ATK`
+		`R_ICECREAM_HIT`
+		`R_ICECREAM_HIT`
+	[/custom wav]
+[/expand ani]
+
+[string data]
+	`Common/Particle/weaponavatar_1/mg_mm_fruit00.ptl`
+[/string data]
+
+[int data]
+	654321	3	3	80	30	70	3	80	30	70	3	80	30	70	3	80	30	70	3	80	30	70
+[/int data]

@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 湮滅之瞳
+`
+
+[explain]
+	`我的魔力越強，苦痛越是無限放大。
+稍有松懈，精神即被蠶食吞噬；略微渙散，身軀就仿若被撕扯得支離破碎。
+這無窮無盡的對抗永遠無法停止，這條布滿荊棘與痛苦的道路，我只能不停前行。
+還有黑暗之眼。它也想要將我擊潰。
+家人、朋友，還有敵人的屍骨，我已經看到麻木了。
+徹底孤身壹人的我，只有元素的細語相伴。
+在某個瞬間，元素從我的指尖誕生，膨脹為巨大之物，然後爆炸，那力量演滅壹切。
+而後元素的碎片再次回到我的手中，融合為壹體。
+世界變得空曠安靜。我把那些僅存的記憶片段，也完全抹殺了。
+我到達的，是未曾有人涉足的禁境。
+無盡的魔力裹挾著永遠的虛無，將我的雙眼輕輕蒙上。
+從此以後，我即為演滅之瞳，與黑暗共生，主宰壹切.`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		11298	0	0	0	99	0
+		``
+	[/passive object]
+[/then]

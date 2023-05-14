@@ -1,0 +1,33 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_shine.img`
+		0
+	[IMAGE POS]
+		-283	-287
+	[IMAGE RATE]
+		2.0	2.4000000953674316
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1000
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_shine.img`
+		0
+	[IMAGE POS]
+		-283	-287
+	[IMAGE RATE]
+		1.600000023841858	2.4000000953674316
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`

@@ -1,0 +1,12 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/distance_Basic_1.ani`
+	[SUB ANI]
+		`../Animation/distance_Basic_2.ani`	0	1
+	[/SUB ANI]
+	[SOUND]
+		`FIRE_CHASER`	0
+	[/SOUND]
+[/MOTION]

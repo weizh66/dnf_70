@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	`瑪巴斯`
+
+[basic explain]
+	`攻擊時，附加40%%的傷害，
+所有冷卻時間減少30%%。`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[need material]
+	3836	8000
+
+[icon]
+	`item/creature/creature.img`	15
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	16
+
+[cool time]
+	10000
+
+[physical attack]
+	180
+
+[magical attack]
+	180
+
+[physical defense]
+	180
+
+[magical defense]
+	180
+
+[equipment magical attack]
+	200	220
+
+[equipment physical attack]
+	200	220
+
+[separate attack]
+	200	220
+
+[physical critical hit]
+	10.0
+
+[magical critical hit]
+	10.0
+
+[all elemental attack]
+	65
+
+[attack speed]
+	120
+
+[cast speed]
+	120
+
+[move speed]
+	120
+
+[HP MAX]
+	3000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			3
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+		`[assault]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	40
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[stat by condition]
+		`skill cool time`
+		`%`	-30
+[/then]
+
+[MP MAX rate]
+	25.0
+
+[HP MAX rate]
+	25.0
+
+[room list move speed rate]
+	0.8
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1

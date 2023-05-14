@@ -1,0 +1,89 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_ball_ex_4_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_ball_ex_4_1.ani`	0	-1
+		`../Animation/Etc_ball_ex_4_2.ani`	0	1
+		`../Animation/Etc_ball_ex_4_3.ani`	0	2
+	[/SUB ANI]
+	[SOUND]
+		`KRATECK_BLOOD_FOUNTAIN_DISAPPEAR`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			15368
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			30
+	[/CHECKUP]
+	[CHECKED NO]
+	[=>]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			15368
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			15
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			15368
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			85
+		[POS]
+			0	0	0
+		[NO EFFECT]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			15368
+		[/IS INDEX]
+		[CHECKED NO]
+		[>]
+			15
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]

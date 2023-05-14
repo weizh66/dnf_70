@@ -1,0 +1,57 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/ATEquipment/GrowType/striker_dodge.img`
+		21
+	[IMAGE POS]
+		-238	-303
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		0.699999988079071
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/ATEquipment/GrowType/striker_dodge.img`
+		117
+	[IMAGE POS]
+		-237	-333
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/ATEquipment/GrowType/striker_dodge.img`
+		120
+	[IMAGE POS]
+		-251	-331
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		-0.25999999046325684
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/ATEquipment/GrowType/striker_dodge.img`
+		19
+	[IMAGE POS]
+		-299	-313
+	[IMAGE ROTATE]
+		-0.3499999940395355
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60

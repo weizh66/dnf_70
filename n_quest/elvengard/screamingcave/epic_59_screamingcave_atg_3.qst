@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4340
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	1501	-1	1088	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 探索悲鳴洞穴`
+
+[depend message]
+	`嗯， 你打聽到悲鳴洞穴的信息了嗎？
+<npc::0>基本打聽清楚了， 布萬加說要想避開悲鳴洞穴里的希洛克的能量， 必須佩戴神圣的刀刃。
+考慮到這東西是去悲鳴洞穴的關鍵， 我就直接找人幫忙制作了幾個。
+<npc::1>噢， 不錯不錯， 那你可以幫我探索一下悲鳴洞穴嗎？
+ <npc::0>啊？ 現在嗎？ 可我還沒準備好……
+<npc::1>唉， 我這個老鐵匠的委托就那么難辦嗎……人老了就沒力氣了……(自言自語)……年輕人也開始無視我了……(嘰里咕嚕)
+<npc::0>我知道了……我知道了， 我現在就去， 可以了吧？
+<npc::1>哈哈， 我沒看錯， 你果然是個很有正義感的姑娘。
+那你到悲鳴洞穴后， 就先除掉那些罪惡布法羅的惡徒！ 這樣我們才能讓事情不往壞處發展。`
+
+[condition message]
+	`    前往洛蘭地區的『悲鳴洞穴』， 打敗10只罪惡布法羅挖掘者， 然后向林納斯回復。`
+
+[solve message]
+	`你去悲鳴洞穴了嗎?`
+
+[quest point]
+	4

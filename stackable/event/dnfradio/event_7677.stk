@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	``
+	
+
+[explain]
+	`< 活動 > 使用此一道具的話，整體 HP的 25%%、MP的 25%%會恢復。 但是，使用時，會以一定的機率呈現暈眩狀態。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	437
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[cool time]
+	10000
+
+[move wav]
+	`BONE_TOUCH`
+
+[hp recovery]
+	`%`	25	1000
+	`myself`
+
+[mp recovery]
+	`%`	25	1000
+	`myself`
+
+[my status]
+	`stun`	5	2000	25

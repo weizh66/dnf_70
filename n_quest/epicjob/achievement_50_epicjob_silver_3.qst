@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5679
+
+[name]
+	`覺醒 - 銀月 (1/4)`
+
+[depend message]
+	`嗯， 好久不見， 你好像變得更優秀了， 而且也越來越有刺客的風范。
+呵呵， 你是不是已經做好準備進入下一個階段了？
+呃， 你問我下一階段是什么？ 當然是獲得所有刺客夢寐以求的“銀月”稱號啊！ 那可是刺客中的極少數能力杰出者才能達到的境界。
+不過， 如果你想成為銀月的話， 就得先接受我的考驗， 看看你是否具備了與之相應的能力。
+怎么樣？ 想挑戰一下嗎？`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`效率可以再高一些。 要成為刺客可不是一件容易的事。`

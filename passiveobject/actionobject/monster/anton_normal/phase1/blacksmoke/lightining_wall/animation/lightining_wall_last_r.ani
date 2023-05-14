@@ -1,0 +1,35 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/appear.img`
+		1
+	[IMAGE POS]
+		-260	-343
+	[IMAGE RATE]
+		0.699999988079071	2.0
+	[RGBA]
+		255	0	0	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/appear.img`
+		1
+	[IMAGE POS]
+		-260	-343
+	[IMAGE RATE]
+		0.699999988079071	2.0
+	[RGBA]
+		255	0	0	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

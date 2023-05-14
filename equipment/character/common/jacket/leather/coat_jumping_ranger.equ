@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`古老的暗襲胸甲`
+
+[basic explain]
+	`不能強化、增幅、提鍊、解體、送禮、儲存倉庫`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	17
+
+[magical attack]
+	17
+
+[magical defense]
+	19
+
+[price]
+	0
+
+[repair price]
+	26880
+
+[value]
+	0
+
+[equipment physical defense]
+	1080	1032
+
+[skill levelup]
+	`[gunner]`	26	1
+	`[at gunner]`	26	1
+[/skill levelup]
+
+[icon]
+	`Item/common/coat.img`	45
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`古老的暗襲皮甲  套裝`
+
+[set item]
+	10551	12548	14538	16537	18547
+[/set item]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+[/impossible contents]
+
+[set ability]
+	[attack speed]
+		10
+	[if]
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			3
+		[thorn]
+			5
+	[/then]
+	[skill levelup]
+		`[gunner]`	9	1
+		`[at gunner]`	9	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時以 3%% 的機率將受到傷害的5%%還給敵人。`
+[/set ability]
+
+[possible kiri protect]

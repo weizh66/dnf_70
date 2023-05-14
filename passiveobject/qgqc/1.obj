@@ -1,0 +1,32 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/1.act`
+
+[attack info]
+	`AttackInfo/ATStormQuake.atk`
+
+[etc attack info]
+	`AttackInfo/ATStormQuakeExp.atk`
+[/etc attack info]
+
+[name]
+	`?的?么?的背景？！`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	201851
+[/object destroy condition]

@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`施放`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/casting_Basic.act`
+
+[etc action]
+	`Action/Etc_casting_0.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/casting_Basic.atk`
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[add particles]
+	[particle]
+		[file]
+			`Particle/FireBreath.ptl`
+		[create sound]
+			`ASHCORE_FIRE_LOOP`
+		[create delay]
+			100
+	[/particle]
+[/add particles]

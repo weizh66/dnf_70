@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4002
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	141	0	56037	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`馬爾加的考驗`
+
+[depend message]
+	`說得詳細點的話， 就是我們班圖族是由三個部族聯合組成的。 這個你應該早就知道了， 不然也不會找到這里……
+我們三個部族分別是： 崇拜狼的沃克族， 崇拜兔子的庫尼族和崇拜牛的圖盧斯族。 你之前見過的鷹眼， 就是庫尼族最有名的戰士。
+這次你要面對的是圖盧斯族的戰士， 他可是班圖族中無人不知無人不曉的勇士， 希望你不會被他雄壯的身軀和犀利的眼神嚇倒！`
+
+[condition message]
+	`    前往萬年雪山的『布萬加的修煉場』， 通過冰王馬拉加的考驗。 (此任務在地下城中或完成后， 不可放棄)`
+
+[solve message]
+	`呵， 真沒想到， 你不僅通過了鷹眼的考驗， 還通過了馬爾加的考驗！`
+
+[quest point]
+	4

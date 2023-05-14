@@ -1,0 +1,80 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3500
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`NN NN`
+
+[tile]
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+[/tile]
+
+[far sight scroll]
+	56
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/RampartFar.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/RampartMid.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/GentMid.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	16	250	1330	249	583	406	633	349
+
+[dungeon start area]
+	284	343	36	33
+
+[sound]
+	`M_GENTGATE`
+	`SKYSTAIR_AMB`
+[/sound]
+
+[event monster position]
+	431	414	0	1112	385	0	299	410	0	177	410	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

@@ -1,0 +1,59 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/DangerClose/Danger_smoke.img`
+		0
+	[IMAGE POS]
+		-126	-93
+	[IMAGE RATE]
+		1.2999999523162842	1.2999999523162842
+	[RGBA]
+		124	100	100	255
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/DangerClose/Danger_smoke.img`
+		0
+	[IMAGE POS]
+		-122	-93
+	[IMAGE RATE]
+		1.850000023841858	1.850000023841858
+	[RGBA]
+		81	58	58	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		600
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/DangerClose/Danger_smoke.img`
+		0
+	[IMAGE POS]
+		-122	-91
+	[IMAGE RATE]
+		1.899999976158142	1.899999976158142
+	[RGBA]
+		81	58	58	0
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

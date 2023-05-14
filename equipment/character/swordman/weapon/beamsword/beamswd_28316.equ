@@ -1,0 +1,212 @@
+#PVF_File
+
+[name]
+	`班丁克的火焰放射器`
+
+[basic explain]
+	`攻擊時以15%% 的機率10%% 火屬性附加傷害
+攻擊時以 2%% 的機率讓敵人進入灼傷狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以 15%% 的機率10%% 火屬性附加傷害
+攻擊時以 2%% 的機率7秒內讓敵人進入灼傷狀態，每0.5秒以 150的攻擊力給予傷害。 （高於Lv64的對象得到的機率減少，低於Lv64的對象則會增加。）
+不可解體`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[anti evil]
+	11
+
+[physical attack]
+	43
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3336	370
+
+[repair price]
+	96768
+
+[value]
+	92160
+
+[equipment physical attack]
+	562	515
+
+[equipment magical attack]
+	544	499
+
+[separate attack]
+	360	242
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	69
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	20	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	20	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		15
+	[add absolute damage]
+		`fire`
+		`%`	10
+[/then]
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`burn`	64	2100	0	0	0
+[/then]
+
+[routing priority]
+	`swordman`	1
+	`demonic swordman`	0
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

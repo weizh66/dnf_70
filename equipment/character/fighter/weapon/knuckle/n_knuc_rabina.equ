@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`(舊) 拉比納的雪狼手套`
+
+[basic explain]
+	`    攻擊時， 有3%%的幾率出現拉比納的雪崩。`
+
+[flavor text]
+	`    拉比納使用過的手套， 可以召喚出雪崩，不過不知是拉比納的力量還是手套的力量……`
+
+[grade]
+	45
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`knuckle`
+
+[rarity]
+	4
+
+[weight]
+	1900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	34
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	39
+
+[price]
+	72000
+
+[value]
+	57600
+
+[cool time]
+	10000
+
+[magical attack]
+	32
+
+[equipment physical attack]
+	414	369
+
+[equipment magical attack]
+	501	446
+
+[separate attack]
+	259	173
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[passive object]
+		48045	0	0	0	10	2
+		``
+	[/passive object]
+[/then]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`glovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2150
+	`at_glovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_glovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_glovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

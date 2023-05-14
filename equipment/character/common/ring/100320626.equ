@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`王權之衛 - 火`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使敵人的攻擊屬性變成火屬性， 效果持續10秒。
+    受到火屬性攻擊時， 反而會使敵人進入灼傷狀態， 效果持續3秒。
+    攻擊灼傷狀態下的敵人時， 附加5%%的火屬性傷害。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人的攻擊屬性變為火屬性， 效果持續10秒。 (冷卻時間2秒)
+    被火屬性攻擊時， 使敵人進入灼傷狀態3秒； 灼傷狀態下的敵人， 每0.5秒受到1500點傷害。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間10秒)
+    攻擊灼傷狀態下的敵人時， 附加5%%的火屬性傷害。`
+
+[flavor text]
+	`    見吾王前， 不如先坐下來烤烤火吧！`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[need material]
+	10000204	32
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[fire attack]
+	22
+
+[fire resistance]
+	15
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	168
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[duration]
+		10000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[element]
+		`fire`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`burn`	90	15000	1	1	500000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	5
+[/then]
+
+[possible kiri protect]

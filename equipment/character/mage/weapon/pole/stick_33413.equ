@@ -1,0 +1,186 @@
+#PVF_File
+
+[name]
+	`迷亂之笛子`
+
+[basic explain]
+	`攻擊時以2%% 機率召喚4隻老鼠
+不可解體`
+
+[grade]
+	54
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	37
+
+[magical attack]
+	37
+
+[attack speed]
+	50
+
+[stuck]
+	-1
+
+[HP MAX]
+	150
+
+[MP MAX]
+	150
+
+[price]
+	86400
+
+[repair price]
+	345600
+
+[value]
+	345600
+
+[equipment physical attack]
+	540	497
+
+[equipment magical attack]
+	450	414
+
+[separate attack]
+	266	178
+
+[all activestatus resistance]
+	5
+
+[icon]
+	`Item/weapon/mage/pole.img`	77
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`POLE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2400
+
+[item group name]
+	`pole`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48181	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

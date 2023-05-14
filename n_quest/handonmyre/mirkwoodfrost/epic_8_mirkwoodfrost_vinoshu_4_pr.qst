@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	8	99
+
+[pre required quest]
+	544
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	9	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`新武器的威力`
+
+[depend message]
+	`你仔細看看這個武器。它和你過去使用的武器不同，可以提升你的基本能力。
+而且攻擊力也會變得更強。你去感覺一下這武器的威力吧。`
+
+[condition message]
+	`再次完成冰霜幽暗密林的冒險級(Medium)難度`
+
+[solve message]
+	`如何，有感受到強度提升了嗎？好的武器必須在會操作的人手中才能發揮。`
+
+[quest point]
+	4

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	62
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	7730
+[/pre required quest]
+
+[monster reward item]
+	61238	65	-1	4485	3	40	30	63020	66	-1	4485	3	40	30	62141	67	-1	4485	3	40	30
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4485	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3311	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`異次元碎片 (重復)`
+
+[depend message]
+	`如果你能收集一些扭曲的異次元結晶， 我就把異次元碎片給你。 怎么樣？ 這個交易挺劃算吧？`
+
+[condition message]
+	`    前往異次元裂縫的『虛無之境』、 『巴卡爾之城』、 『黑色大地』， 從領主身上收集6個[扭曲的異次元結晶]。`
+
+[solve message]
+	`說到做到， 我這就給你異次元碎片。`
+
+[quest point]
+	0

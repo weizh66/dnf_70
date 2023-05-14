@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	66
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	72	99
+
+[pre required quest]
+	4192
+[/pre required quest]
+
+[monster reward item]
+	61274	72	-1	4752	3	50	100	61275	72	-1	4752	3	50	100	61276	72	-1	4752	3	50	100	61280	72	-1	4752	3	50	100	61243	72	-1	4752	3	50	100	61245	72	-1	4752	3	50	100	61244	72	-1	4752	3	50	100	56050	72	-1	4752	4	70	100	56051	72	-1	4752	4	70	100	58002	72	-1	4752	4	70	100	56158	72	-1	4752	4	70	100	61277	72	-1	4752	5	95	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4752	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`手工扣子`
+
+[depend message]
+	`剛好，有人委託收集與出版「朝向夕陽發射吧」同一時期的物品，所以就接下了。既然是相同時期出現的物品，可以順便幫我收集嗎？
+哇啊，我早猜到是這樣了！還好我接下了這份委託！被委託的物品就是扣子啊。聽說當時無法地帶的扣子，都是手工製作的，品質相當好。
+他們開始流行最高級的復古鈕扣了！冒險家一定會幫我收集像新的一樣的扣子吧！小燈籠最相信冒險家了。`
+
+[condition message]
+	`從結成！在卡勒特收集手工扣子100個 `
+
+[solve message]
+	`你看看這閃閃發亮的扣子吧！我得馬上去見委託人。`
+
+[quest point]
+	4

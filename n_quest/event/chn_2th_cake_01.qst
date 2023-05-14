@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680397	30	2680398	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680394	3	2680395	3
+[/reward int data]
+
+[name]
+	`2周年慶活動 (1/4)`
+
+[depend message]
+	`親愛的冒險家們， 地下城與勇士將迎來2周歲生日啦！ 請大家和我一起， 為我們的勇士鼓掌！！
+呵呵， 時間過得真快呀！ 一轉眼， 我來這里已經2年了。 這樣喜慶的日子， 我們一定得好好慶祝才行呀！
+嗯， 周年慶可不能缺少蛋糕。 冒險家， 我想發揮下我的特長， 你能幫我收集些材料嗎？
+呵呵， 做蛋糕要先做蛋糕胚， 所以你先幫我收集白面粉和雞蛋吧。`
+
+[condition message]
+	`    收集30個[雞蛋]和30個[白面粉]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`多謝冒險家！
+嗯， 你也可以過來給我參謀一下， 這個形狀怎么樣？`

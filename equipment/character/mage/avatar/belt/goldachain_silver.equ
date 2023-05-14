@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`鎖鏈[A型]`
+
+[explain]
+	`地下城與勇士周年紀念版 -金幣角色`
+
+[grade]
+	1
+
+[usable job]
+	`[mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/mage/mg_abelt.img`	0
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0	30	0	0	2000	0	0	0	0	4000	0	0	0	0	4500	2
+	`[A socket]`
+	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_WATER]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_DARK]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_LIGHT]`
+	`+`	20
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`
+	`+`	30
+	`[INVENTORY_MAX_WEIGHT]`
+	`+`	6000
+[/avatar select ability]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	0	0
+
+[layer variation]
+	1700
+	`belt_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	0
+
+[layer variation]
+	1700
+	`belt_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[avatar func filter]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`

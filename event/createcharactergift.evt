@@ -1,0 +1,17 @@
+#PVF_File
+
+[create character gift]
+	[apply job]
+		`common`
+		[item]
+			690000293
+		[new account event start time]
+			`2013-06-27 06:00:00`
+		[new account event end time]
+			`2013-07-25 06:00:00`
+		[create title]
+			`tw_newbie_title`
+		[create text]
+			`tw_newbie_content`
+	[/apply job]
+[/create character gift]

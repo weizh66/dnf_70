@@ -1,0 +1,22 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Nugol/spine.img`
+		0
+	[IMAGE POS]
+		-69	-25
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		3.1415929794311523
+	[INTERPOLATION]
+		1
+	[DELAY]
+		30
+	[ATTACK BOX]
+	-63	-10	-3	65	20	7

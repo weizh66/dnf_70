@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`剝筋蝕骨手鐲`
+
+[basic explain]
+	`    每200點體力增加2%%的物理暴擊率。
+    每200點力量增加7點物理攻擊力。
+    消滅類人型敵人時， 使自身增加50點力量， 效果持續30秒。`
+
+[detail explain]
+	`    每200點體力增加2%%的物理暴擊率。 (最多增加15%%)
+    每200點力量增加7點物理攻擊力。 (最多增加105點)
+    消滅類人型敵人時， 使自身增加50點力量， 效果持續30秒。 (冷卻時間30秒)`
+
+[flavor text]
+	`    活了這么久， 還是第壹次見到這樣的怪癖。  --沙影貝利特`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[need material]
+	10000204	24
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	109
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`physical defense`	200
+		`physical critical hit`
+		`+`	2	15
+	[stat change by stat]
+		`myself`	-1
+		`physical attack`	200
+		`equipment physical attack`
+		`+`	7	105
+[/then]
+
+[if]
+	[target type]
+		`human`
+	[target death]
+		1
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[stat]
+		`physical attack`
+		`+`	50
+[/then]
+
+[possible kiri protect]

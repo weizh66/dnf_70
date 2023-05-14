@@ -1,0 +1,45 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-300	-440
+	[DELAY]
+		1000
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Rairyu/Rairyu_Skill2_Dodge.img`
+		0
+	[IMAGE POS]
+		-300	-440
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Rairyu/Rairyu_Skill2_Dodge.img`
+		1
+	[IMAGE POS]
+		-300	-440
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+
+[FRAME003]
+	[IMAGE]
+		`Creature/Rairyu/Rairyu_Skill2_Dodge.img`
+		2
+	[IMAGE POS]
+		-300	-440
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30

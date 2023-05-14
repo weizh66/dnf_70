@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 掠天之翼`
+
+[explain]
+	`我曾以為我永遠也不會後悔，只是現在才醒悟，它只是姍姍來遲罷了…
+但我由衷地感到高興，因為這種情感讓我再次感受到我的心是在跳動的，刺耳的槍聲與濃厚的煙霧無論是多?的壓抑終究也是無法讓我的心麻木。
+穿梭的子彈終結過無數的生命，但對於我來說，他們什?都算不上，生死的天平無論傾向誰都無關緊要，這是壹種自由，壹種主宰生命與意誌的自由。我想妳也是這樣想的吧，不然我們也不會成為朋友。
+可是從什?時候起，當我再次看到死亡的時候會感覺如此殘忍？
+又是什?時候起，我會對這壹切感到疲累？
+也許正是看到妳的死亡之後，才開始出現這樣的想法吧。
+憎恨？或許吧，只是我不知道該去憎恨誰，那些肆無忌憚的無法者？他們所做的也正是我們所做的，我又有什?資格去憎恨他們？
+也許要憎恨的也只能是自己，曾經所謂的自由，所謂的思想，在真正的死亡面前也不過是可笑的荒唐罷了。
+只是，無論如何，槍，已然是放不下了。
+朋友，請不要原諒我，因為我也無法原諒曾經瘋狂殺戮的自己。
+安息吧，朋友，正如掠過蒼穹的羽翼壹樣，我將用我們的自由讓所有的無法者付出代價...`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		710036	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[gunner]`	72
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	104
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	104
+	`[all]`
+	`[level]`	5
+	`%`	500
+	`[gunner]`	9
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	51
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	51
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[gunner]`	51
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[gunner]`	15
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	64
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	64
+	`[all]`
+	`[level]`	4
+	`%`	500
+	`[gunner]`	64
+	`[all]`
+	`[level]`	8
+	`%`	500
+[/skill data up]

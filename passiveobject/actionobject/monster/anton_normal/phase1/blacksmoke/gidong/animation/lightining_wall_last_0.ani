@@ -1,0 +1,54 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/impossible_cosmofiend/vanish_meteor_stuck.img`
+		0
+	[IMAGE POS]
+		-147	-132
+	[IMAGE RATE]
+		0.5	0.699999988079071
+	[RGBA]
+		0	100	255	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+	[DAMAGE BOX]
+	-39	-21	-20	66	44	104
+
+[FRAME001]
+	[IMAGE]
+		`Monster/impossible_cosmofiend/vanish_meteor_stuck.img`
+		1
+	[IMAGE POS]
+		-147	-132
+	[IMAGE RATE]
+		0.5	0.699999988079071
+	[RGBA]
+		0	0	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+	[DAMAGE BOX]
+	-39	-21	-20	66	44	104
+
+[FRAME002]
+	[IMAGE]
+		`Monster/impossible_cosmofiend/vanish_meteor_stuck.img`
+		0
+	[IMAGE POS]
+		-147	-132
+	[IMAGE RATE]
+		0.5	0.699999988079071
+	[RGBA]
+		0	100	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+	[DAMAGE BOX]
+	-39	-21	-20	66	44	104

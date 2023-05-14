@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`上元節之花繡鞋`
+
+[basic explain]
+	`所有攻擊力 +6%%`
+
+[flavor text]
+	`該裝備可以通過合成進行升級。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12583
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	80
+
+[magical attack]
+	110
+
+[magical defense]
+	30
+
+[need material]
+	3826	1000
+
+[move speed]
+	40
+
+[anti evil]
+	18
+
+[price]
+	67200
+
+[repair price]
+	53760
+
+[value]
+	53760
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	636	582
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[all elemental attack]
+	12
+
+[icon]
+	`item/new_equipment/02_cloth/shoes/cloth_shoes.img`	63
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	6
+	[stat by condition]
+		`magical attack bonus`
+		`%`	6
+	[stat by condition]
+		`separate attack`
+		`%`	6
+[/then]
+
+[possible kiri protect]

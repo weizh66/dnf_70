@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	42
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	43	99
+
+[pre required quest]
+	4500
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	42	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1137	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`白色影子的怪物`
+
+[depend message]
+	`嗯， 你是外地人？ 咦！ 我好像在哪見過你啊， 怎么想不起來了……你也有這種感覺吧？
+噢！ 我說怎么這么臉熟， 原來是之前見過一面的朋友啊， 歡迎你再次拜訪雪山。
+嗯， 你也感覺到了吧？ 最近不知怎么了， 天氣突然變得異常寒冷， 我們都在擔心呢。
+副族長還特地派了許多勇士去雪山調查， 但他們只查到雪山上出現了一個巨大的洞穴， 并沒有發現其他的情況。
+不過根據洞中散發的寒氣判斷， 那洞穴應該就是這場寒流的來源。 而為什么會出現那個巨大的洞穴， 卻沒有人知道……
+你也想知道事情的真相吧？ 怎樣， 要不你親自去調查一下？`
+
+[condition message]
+	`    通關萬年雪山的『利庫天井』。`
+
+[solve message]
+	`其實把你送走之后我就一直在擔心， 讓一個什么都不了解的外地朋友以身犯險， 是不是有點兒不厚道。
+看你能活著回來， 我很高興。 來， 我倆先干了這一杯馬奶酒再說。`
+
+[quest point]
+	4

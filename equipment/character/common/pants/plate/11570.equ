@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`魔戰無雙腿甲`
+
+[basic explain]
+	`所有技能冷卻時間-10%% `
+
+[flavor text]
+	`  卡西利亞斯作為魔界中的嗜戰者，曾和多人交手過，比如阿爾伯特，結果阿爾伯特連人家手都沒摸一下就輸了。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12579
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	39
+
+[magical attack]
+	39
+
+[magical attack]
+	42
+
+[attack speed]
+	50
+
+[move speed]
+	50
+
+[cast speed]
+	50
+
+[need material]
+	3821	1000
+
+[price]
+	145600
+
+[repair price]
+	116480
+
+[value]
+	116480
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	5100	4650
+
+[icon]
+	`item/new_equipment/06_plate/pants/plate_pants.img`	18
+
+[field image]
+	`Item/field_equip.img`	16
+
+[equipment type]
+	`[pants]`	22
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	4100
+
+[item group name]
+	`mt pants`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		721
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600796	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

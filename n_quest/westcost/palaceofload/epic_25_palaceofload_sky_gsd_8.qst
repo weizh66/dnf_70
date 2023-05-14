@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	7
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	4311
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	2408	202
+[/int data]
+
+[dungeon info]
+	15	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`和賽格哈特對決`
+
+[depend message]
+	`好，你說的那個地方肯定就是賽格哈特居住的城主宮殿了！ 你帶上G.S.D一起去吧， 你先走， 我馬上告訴G.S.D。`
+
+[condition message]
+	`    與G.S.D一起通關天空之城的『城主宮殿』， 然后向G.S.D回復， 要求地下城難度為王者級。 (此任務只能獨自進行， 若通關時G.S.D沒有生存下來， 則無法完成任務)`
+
+[solve message]
+	`謝謝， 雖然沒有找到全部答案。 不過多虧你的幫忙， 我已經了解大概內容了。`
+
+[dialog]
+	0	0	2421	0	0	0	0
+	` <npc::7>原來是這里。
+奇怪了……雖然感覺身體很不舒服， 但精神卻很好， 就好像我的鬼手找到了同類……
+看來只有找到那個叫光之城主的家伙， 才能解開這些謎團了。`
+[/dialog]
+
+[quest point]
+	4

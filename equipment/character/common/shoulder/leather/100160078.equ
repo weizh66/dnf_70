@@ -1,0 +1,165 @@
+#PVF_File
+
+[name]
+	`傳承 : 天馬守護神的狼皮斗篷`
+
+[grade]
+	82
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	43
+
+[magical attack]
+	43
+
+[magical defense]
+	28
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[HP MAX]
+	240
+
+[MP MAX]
+	240
+
+[price]
+	49200
+
+[repair price]
+	41328
+
+[value]
+	39360
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1360	1328
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/new_equipment/03_leather/neck/leather_neck.img`	14
+
+[field image]
+	`Item/FieldImage.img`	2
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[shoulder]`	16
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1100
+
+[item group name]
+	`lt shoulder`
+
+[cool time]
+	10000
+
+[set name]
+	`傳承 : 天馬守護神的狼皮戰衣  套裝`
+
+[set item]
+	100060120	100110108	100160078	100210098	100260101
+[/set item]
+
+[piece set ability]
+	5
+	[physical attack]
+		90
+	[magical attack]
+		90
+	[magical defense]
+		60
+	[HP MAX]
+		260
+	[MP MAX]
+		260
+	[HP regen speed]
+		27
+	[MP regen speed]
+		27
+	[equipment physical defense]
+		550	550
+	[move speed]
+		40
+	[attack speed]
+		60
+	[stuck]
+		-2
+	[skill levelup]
+		`[mage]`	112	1
+		`[mage]`	114	1
+		`[at mage]`	63	1
+		`[gunner]`	104	1
+		`[gunner]`	102	1
+		`[at gunner]`	104	1
+		`[at gunner]`	104	1
+		`[thief]`	75	1
+		`[gunner]`	110	2
+		`[gunner]`	60	1
+		`[at gunner]`	110	2
+		`[at gunner]`	60	1
+		`[thief]`	9	2
+		`[mage]`	40	1
+		`[mage]`	97	1
+		`[at mage]`	31	2
+	[/skill levelup]
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`physical critical hit rate`
+			`+`	7
+		[stat by condition]
+			`magical critical hit rate`
+			`+`	7
+	[/then]
+	[parameter basic explain]
+		`進入地下城時， 因傳承的祝福增加自身7%%的物理暴擊率和7%%的魔法暴擊率。`
+[/piece set ability]
+
+[possible kiri protect]

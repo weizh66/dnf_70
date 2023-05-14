@@ -1,0 +1,53 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/black hole-core.img`
+		6
+	[IMAGE POS]
+		-164	-166
+	[IMAGE RATE]
+		0.0	0.0
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/black hole-core.img`
+		6
+	[IMAGE POS]
+		-164	-166
+	[IMAGE RATE]
+		2.0	2.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		120
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/black hole-core.img`
+		6
+	[IMAGE POS]
+		-164	-166
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		80

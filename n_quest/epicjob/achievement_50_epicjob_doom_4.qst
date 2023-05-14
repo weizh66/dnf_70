@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	157
+
+[name]
+	`覺醒 - 末日審判者 (1/4)`
+
+[depend message]
+	`最近過得怎么樣？ 身上的詛咒消失了嗎？ 我記得你上次的凈化儀式進行得很順利啊……
+啊！ 怎……怎么會這樣？ 你身上的詛咒力量竟然變得這么強大！ 如果放任不管， 只怕你的意識遲早會被惡魔侵蝕！
+你這段時間是不是只顧著消滅敵人， 忘了對自身的凈化？
+還好你今天遇到了我， 不過以你目前的情況來看， 恐怕任何凈化儀式都不管用了……你可能不久之后就會變成‘偽裝者’……
+……現在只能用那個方法了， 但是……`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`看來你很迫切啊！ 可是我還在猶豫， 要不要告訴你這個方法……`

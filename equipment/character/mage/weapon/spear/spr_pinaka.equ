@@ -1,0 +1,175 @@
+#PVF_File
+
+[name]
+	`紅蓮落神`
+
+[basic explain]
+	`施放[流星閃影擊]、 [碎霸]時， 有50%%的幾率發動提升Lv5的該技能。 (無法超出該技能的Lv上限)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`spear`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/mage/spear.img`	70
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	64
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	486	445
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-50
+
+[elemental property]
+	`[light element]`
+
+[physical critical hit]
+	2
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[mage]`	40	1
+	`[mage]`	9	3
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	2	8
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	2	8
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[light attack]
+	8
+
+[if]
+	[event use skill]
+		`mage`	67
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`mage`	67	5
+[/then]
+
+[if]
+	[event use skill]
+		`mage`	13
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`mage`	13	5
+[/then]
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[possible kiri protect]

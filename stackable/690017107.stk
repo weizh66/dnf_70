@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`特級消耗品禮盒`
+
+[explain]
+	`打開后，獲得150個閃亮的雷米之吻、150個閃亮的魔力果汁、20個復活幣。
+  該道具在LV.70后無法使用。`
+
+[flavor text]
+	`<榮耀之傳承>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[need material]
+	690017099	1
+
+[minimum level]
+	1
+
+[maximum level]
+	69
+
+[cool time]
+	60000
+
+[icon]
+	`Item/stackable/consumption.img`	969
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[booster info]
+	[stackable]
+		1	2682609	100000	150
+	[/stackable]
+	[stackable]
+		1	2682610	100000	150
+	[/stackable]
+	[stackable]
+		1	42	100000	20
+	[/stackable]
+[/booster info]

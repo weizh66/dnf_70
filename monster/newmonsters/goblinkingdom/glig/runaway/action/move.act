@@ -1,0 +1,16 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Move.ani`
+	[SUB ANI]
+		`../animation/Armor/Move.ani`	0	0
+		`../animation/Weapon/Move.ani`	0	20
+	[/SUB ANI]
+	[SPEECH]
+		`還敢亂跑！`
+			0	50
+		`小心那個機器！`
+			0	50
+	[/SPEECH]
+[/MOTION]

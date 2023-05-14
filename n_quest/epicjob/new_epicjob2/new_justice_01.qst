@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 正義仲裁者 (1/6)`
+
+[depend message]
+	`你那雙堅定的眼神最近貌似有些飄忽不定了。
+也是， 像你們這些一心向往正義的人應該根本無法接受使徒米歇爾成為教團守護神的事實吧。
+然而， 這件事的確發生了， 而你們則會更加懷疑自己的信仰， 甚至對信仰逐漸失去信心。 現在跟我一起去解開你心中的疑惑吧， 這樣一來， 你或許就能飛躍到更高的境界了。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`通過此次事件相信你們各自也思考了很多問題。 使命是什么？ 神的旨意究竟是什么？
+我曾經也經歷了類似的過程。 雖然并沒像你們這樣跟隨神的旨意， 但也曾遇到瓶頸， 一度對自己選擇的道路產生過各種疑惑。
+那我們就來試著解開心中的疑惑吧。 誰知道呢？ 說不定或許還能悟出所謂的真理？`
+
+[target character]
+	`[priest]`	2	1
+[/target character]
+
+[relation quest]
+	6799
+
+[job change quest]
+	3
+
+[grow number]
+	0

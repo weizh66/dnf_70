@@ -1,0 +1,36 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/endAttack.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[WHICH]
+	[LAST ATTACKSUCCESS]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+			[CHARACTER]
+			[AI CHARACTER]
+		[/IS OBJECT TYPE]
+		[HP]
+		[<=]
+			20
+		[%]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+	[RESTORE]
+	[HP]
+		-100
+	[%]
+[/BEHAVIOR]

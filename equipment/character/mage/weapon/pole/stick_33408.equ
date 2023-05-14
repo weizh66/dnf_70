@@ -1,0 +1,222 @@
+#PVF_File
+
+[name]
+	`死神之誘惑`
+
+[basic explain]
+	`    [煌龍偃月]攻擊時， 對所有敵人施放阿加雷斯的掌握， 可以使敵人進入束縛狀態。
+對束縛狀態下敵人的傷害 +30%%`
+
+[detail explain]
+	`    [煌龍偃月]攻擊時， 對所有敵人施放阿加雷斯的掌握， 可以使敵人進入束縛狀態5秒。 (若敵人高于Lv70， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對束縛狀態下敵人的傷害 +30%% (在決斗場中 +15%%)`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`pole`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2400
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/mage/pole.img`	68
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[magical attack]
+	47
+
+[equipment physical attack]
+	728	663
+
+[equipment magical attack]
+	607	553
+
+[separate attack]
+	411	278
+
+[attack speed]
+	50
+
+[elemental property]
+	`[dark element]`
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[mage]`	8	2
+	`[mage]`	9	2
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	15	4
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	15	4
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`POLE_TOUCH`
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[target active status]
+		`hold`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[cooltime]
+		5000
+	[use skill]
+		`mage`	69
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[passive object]
+		48200	0	0	0	30	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[target active status]
+		`hold`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[cooltime]
+		5000
+	[use skill]
+		`mage`	69
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[passive object]
+		48206	0	0	0	30	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[possible kiri protect]

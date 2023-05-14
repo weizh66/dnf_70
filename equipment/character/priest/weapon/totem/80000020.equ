@@ -1,0 +1,763 @@
+#PVF_File
+
+[name]
+	`聖耀救贖圖騰`
+
+[basic explain]
+	`所有技能攻擊力+
+1000%%
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能。
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。`
+
+[detail explain]
+	`所有技能攻擊力+
+1000%% (對Buff技能無效)
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能， 時長持續20秒； 釋放結束後20秒內使自身技能攻擊力增加20%%。（冷卻時間47秒）
+ 
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。(傷害最高可達300萬)`
+
+[flavor text]
+	`    萬物生自守恒， 源力破則失正
+    莫以為敵消彼漲， 然乾坤逆之天崩。 --祭安徒恩之死`
+
+[grade]
+	99
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[anti evil]
+	60
+
+[physical attack]
+	121
+
+[stuck]
+	-1
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1529	1529
+
+[equipment magical attack]
+	1261	1261
+
+[separate attack]
+	925	925
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/totem/totem.img`	133
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	47	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		990009	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+
+	[if]
+		[start cooltime]
+			47000
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			47000
+	[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[skill data up]
+	`[priest]`	8
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	8
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	8
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	8
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	8
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[priest]`	8
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	1
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	1
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	61
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	61
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	61
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[priest]`	61
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	63
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	63
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	64
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	64
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	11
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	11
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	99
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	99
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	27
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	23
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	23
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[priest]`	28
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	28
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	73
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	73
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	73
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	73
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	107
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	107
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	74
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	74
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	81
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	81
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	81
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	84
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[priest]`	84
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[priest]`	109
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	109
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	108
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	108
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	108
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	76
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	76
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	58
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	56
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	57
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	77
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	77
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	31
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	31
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	31
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	30
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	33
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	33
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	78
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	78
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	78
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	37
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	37
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	75
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	75
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	75
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	35
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	35
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	4
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	4
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[priest]`	90
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[priest]`	103
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	103
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	103
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	104
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	104
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	104
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	104
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	104
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[priest]`	38
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	85
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	85
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	111
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	111
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	111
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	106
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	106
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	100
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	100
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	100
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	41
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	41
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	41
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	70
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[priest]`	50
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	50
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	40
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	49
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	49
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	49
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	5
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	5
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	101
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	101
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	88
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	88
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	93
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	93
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	105
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	105
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	105
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	105
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[priest]`	124
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	118
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	113
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	113
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	116
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	115
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	117
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	117
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	125
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	125
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	119
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	119
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[priest]`	119
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[priest]`	119
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[priest]`	119
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[priest]`	120
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	120
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	120
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	120
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[priest]`	120
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	120
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[priest]`	133
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	134
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	134
+	`[all]`
+	`[level]`	1
+	`%`	1000
+[/skill data up]
+
+[possible kiri protect]

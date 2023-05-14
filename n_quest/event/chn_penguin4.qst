@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	7
+
+[complete npc index]
+	17
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2443
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7342	5	7343	8	7344	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	7346	3	7347	3
+[/reward selection int data]
+
+[name]
+	`尋找企鵝圍巾 - 4`
+
+[depend message]
+	`原來是這樣啊， 但我是第一次聽說紅色染色劑， 看來幫不了你了……噢， 也許凱麗知道一些內情吧。
+你的材料收集全了嗎？……嗯， 只有這些嗎？ 那應該還不夠啊！ 你多找一些再去找凱麗吧。
+你不知道凱麗在哪啊？ 我聽說游歷阿拉德大陸的冒險家都有一項特殊的技能， 好像跟按什么<N>鍵有關……呵呵， 具體的我也不是很清楚， 你自己慢慢摸索吧。`
+
+[condition message]
+	`<七鉆閃耀活動>  前往任意的地下城， 收集5個[毛線團]、 8個[羽毛]和4瓶[紅色染色劑]后找凱麗談談。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`哈羅！ 你好啊！ 哇哈！ 赫頓瑪爾的早晨真是涼爽啊， 我太喜歡了！
+呀！ 差點忘了介紹， 我是教神槍手技能的教官凱麗， 我從天界來， 你可以叫我凱麗姐姐， 呵呵。`

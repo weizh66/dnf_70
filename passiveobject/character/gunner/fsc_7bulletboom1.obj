@@ -1,0 +1,31 @@
+#PVF_File
+
+[name]
+	`激光炮爆炸`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	5000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[basic action]
+	`Action/Boombo.act`
+
+[attack info]
+	`AttackInfo/FSC_7Bullet.atk`
+
+[etc attack info]
+	`AttackInfo/FSC_7Chip.atk`
+[/etc attack info]

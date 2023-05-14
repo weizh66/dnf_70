@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`小蘿莉的原味胖次`
+
+[explain]
+	`所有攻擊力 +8%%`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	4
+
+[weight]
+	50
+
+[need material]
+	3850	500
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`item/avatar/mage/mg_apants.img`	341
+
+[field image]
+	`Item/field_creature.img`	1
+
+[equipment type]
+	`[artifact blue]`	15
+
+[sub type]
+	0
+
+[creature magical attack]
+	1000
+
+[physical critical hit]
+	15
+
+[magical critical hit]
+	15
+
+[anti evil]
+	15
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	8
+	[stat by condition]
+		`magical attack bonus`
+		`%`	8
+	[stat by condition]
+		`separate attack`
+		`%`	8
+[/then]
+
+[move wav]
+	`SKIN_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

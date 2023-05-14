@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 毀滅者 (2/6)`
+
+[depend message]
+	`想要自如地運用武器， 輕松突破險峻的戰場， 就需要具備強悍的肉體。
+我們先來檢測一下你究竟有多大能力吧。
+我已經替你報名了魂·青龍大會， 你只要去收集‘斯卡迪女王的印章’就可以了。
+什么？ 你說這太突然了？ 什么叫突然？ 在戰場上毫無預兆地從頭頂掉下來一顆炮彈才夠得上突然二字。
+面臨危機時的應對能力、 快速的判斷能力和采取適當措施的能力， 都是槍炮師必須要掌握的戰斗能力。 不要撒嬌了， 趕緊去吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4994
+[/pre required quest]
+
+[relation quest]
+	5394
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,41 @@
+#PVF_File
+[SHADOW]
+	0
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Glow.img`
+		0
+	[IMAGE POS]
+		-136	-125
+	[IMAGE RATE]
+		1.399999976158142	1.399999976158142
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		640
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Glow.img`
+		0
+	[IMAGE POS]
+		-140	-145
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

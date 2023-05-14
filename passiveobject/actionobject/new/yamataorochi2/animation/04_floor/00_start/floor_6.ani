@@ -1,0 +1,73 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/04_FloorLoopNomal.img`
+		6
+	[IMAGE POS]
+		-255	-83
+	[IMAGE RATE]
+		-0.9399999976158142	0.9399999976158142
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/04_FloorLoopNomal.img`
+		0
+	[IMAGE POS]
+		-258	-86
+	[IMAGE RATE]
+		-0.9599999785423279	0.9599999785423279
+	[RGBA]
+		255	255	255	51
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/04_FloorLoopNomal.img`
+		1
+	[IMAGE POS]
+		-262	-89
+	[IMAGE RATE]
+		-0.9900000095367432	0.9900000095367432
+	[RGBA]
+		255	255	255	102
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/04_FloorLoopNomal.img`
+		2
+	[IMAGE POS]
+		-266	-92
+	[IMAGE RATE]
+		-1.0099999904632568	1.0099999904632568
+	[RGBA]
+		255	255	255	153
+	[INTERPOLATION]
+		1
+	[DELAY]
+		160
+	[DAMAGE TYPE]
+		`NORMAL`

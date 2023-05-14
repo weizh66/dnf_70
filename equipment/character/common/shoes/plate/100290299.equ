@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`海神謎咒之異靈短靴`
+
+[basic explain]
+	`若被擊時出現Miss， 則會使所有敵人進入詛咒狀態。 (冷卻時間5秒)`
+
+[detail explain]
+	`若被擊時出現Miss，則會使所有敵人進入詛咒狀態5秒；詛咒狀態下的敵人，將減少50點力量、體力、智力和精神。(若敵人高於Lv90，則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間5秒)`
+
+[flavor text]
+	`老二呢， 日子則越過越好， 並且繼承了“漁王”的美名……  --天界海邊流傳的故事`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[physical defense]
+	25
+
+[move speed]
+	40
+
+[stuck resistance]
+	20
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2940	2730
+
+[water attack]
+	6
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/06_plate/shoes/plate_shoes.img`	37
+
+[field image]
+	`Item/field_equip.img`	19
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[shoes]`	19
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2200
+
+[item group name]
+	`mt shoes`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		0
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		100
+	[duration]
+		5000
+	[active status]
+		`curse`	90	50	50	50	50
+[/then]
+
+[possible kiri protect]

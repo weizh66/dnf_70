@@ -1,0 +1,198 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	4
+		`%`	15
+		`[knight]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[knight]`	38
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[騎乘召喚]獨角獸持續時間 +25%%
+[騎乘召喚]普通攻擊力 +15%%
+[憤怒沖撞]攻擊力 +15%%
+[守護神鹿]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[if]
+		[event use skill]
+			`knight`	37
+		[/event use skill]
+		[character]
+			`knight`	-1	-1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[remain skill cooltime change]
+			30
+			`+`	-10000
+	[/then]
+	[skill data up]
+		`[knight]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	46
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[knight]`	47
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	49
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	46
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	47
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	39
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5000
+		`[knight]`	39
+		`[dungeon type]`
+		`[level]`	5
+		`+`	5000
+	[/skill data up]
+	[parameter basic explain]
+		`[憤怒沖撞]成功施放后[騎乘召喚]冷卻時間 -10秒
+[騎乘召喚]技能攻擊力 +20%%
+[騎乘召喚]技能冷卻時間 -15%%
+ [騎士守護]獨角獸持續時間 +5秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[if]
+		[event use skill]
+			`knight`	38
+		[/event use skill]
+		[character]
+			`knight`	-1	-1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[remain skill cooltime change]
+			30
+			`+`	-10000
+	[/then]
+	[skill data up]
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[knight]`	30
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[knight]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	46
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[knight]`	47
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	49
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	46
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	47
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[守護神鹿]成功施放后[騎乘召喚]冷卻時間 -10秒
+[騎乘召喚]持續時間 +20%%
+[騎乘召喚]攻擊力 +20%%
+[騎乘召喚]  技能冷卻時間 -25%%`
+[/piece set ability]

@@ -1,0 +1,119 @@
+#PVF_File
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		0
+	[IMAGE POS]
+		-208	-326
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		3000
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		0
+	[IMAGE POS]
+		-91	-635
+	[RGBA]
+		255	255	255	51
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		0
+	[IMAGE POS]
+		-91	-635
+	[RGBA]
+		255	255	255	102
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		1
+	[IMAGE POS]
+		-96	-632
+	[RGBA]
+		255	255	255	153
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		1
+	[IMAGE POS]
+		-96	-632
+	[RGBA]
+		255	255	255	204
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		2
+	[IMAGE POS]
+		-23	-637
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME006]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		0
+	[IMAGE POS]
+		-12	-639
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME007]
+	[IMAGE]
+		`Creature/Fate/Saver/saver_shot.img`
+		1
+	[IMAGE POS]
+		1334	-672
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`

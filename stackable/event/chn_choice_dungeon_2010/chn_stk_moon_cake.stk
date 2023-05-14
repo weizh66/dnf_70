@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+	`月餅`
+
+[explain]
+	`<中秋節活動>  八月十五月兒圓， 中秋月餅香又甜……    這是團圓的味道， 是思念親人的味道。`
+
+[flavor text]
+	`    使用后， 可以使自身增加50點力量和智力， 效果持續30秒。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[weight]
+	20
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption_cn.img`	97
+
+[field image]
+	`Item/field_material_cn.img`	43
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[cool time]
+	1000
+
+[cooltime group]
+	2
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`%`	20	1000
+	`myself`
+
+[mp recovery]
+	`%`	20	1000
+	`myself`
+
+[stat change]
+	`+`	50
+	`physical attack`
+	`+`	50
+	`magical attack`
+[/stat change]
+
+[stat change duration]
+	30000
+	`myself`

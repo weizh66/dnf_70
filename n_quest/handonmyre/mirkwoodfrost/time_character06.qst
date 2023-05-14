@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	127
+
+[complete npc index]
+	-1
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	8	99
+
+[pre required quest]
+	4473
+[/pre required quest]
+
+[monster reward item]
+	21	9	-1	4807	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4807	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`強化的時間碎片 2`
+
+[depend message]
+	`明明是從名叫克拉赫的女子身上感覺到了強化的時間碎片。
+這次一定要找到時間碎片。`
+
+[condition message]
+	`請在冰霜幽暗密林尋找時間碎片`
+
+[solve message]
+	`終於找到了…。`
+
+[quest point]
+	4

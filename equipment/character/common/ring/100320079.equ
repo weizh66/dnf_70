@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`寇雷電力阻隔的戒指`
+
+[basic explain]
+	`克雷發電所領主攻擊時10%% 附加傷害`
+
+[flavor text]
+	`模仿發電所工作人員進行危險作業時穿帶的東西製成的戒指。
+透過夾娃娃小遊戲收集鋼鐵塊可製作成馬帝爾斯。`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	50
+
+[magical attack]
+	50
+
+[need material]
+	10000066	30
+
+[value]
+	67200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	2912	2752
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	108
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[dungeon check]
+		101
+	[/dungeon check]
+	[target grade]
+		`boss`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

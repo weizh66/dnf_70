@@ -1,0 +1,186 @@
+#PVF_File
+
+[name]
+	`五行雙劍`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率使武器附加屬性， 效果持續30秒。`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使武器附加光、 火、 暗、 冰四種屬性中的一種。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`twinswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	75
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	583	534
+
+[equipment magical attack]
+	458	419
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-80
+
+[physical critical hit]
+	5
+
+[variation]
+	8	1
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[fire attack]
+	8
+
+[water attack]
+	8
+
+[light attack]
+	8
+
+[dark attack]
+	8
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[duration]
+			30000
+		[elemental weapon]
+			`light`
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[duration]
+			30000
+		[elemental weapon]
+			`dark`
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[duration]
+			30000
+		[elemental weapon]
+			`water`
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[duration]
+			30000
+		[elemental weapon]
+			`fire`
+		[then probability]
+			25.0
+	[/then]
+[/multiple then]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

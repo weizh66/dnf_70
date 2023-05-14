@@ -1,0 +1,108 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	73
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[怠惰之息]冷卻時間 -20%%
+[屠戮回旋斬]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at priest]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at priest]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	82
+		`[dungeon type]`
+		`[level]`	12
+		`+`	100
+		`[at priest]`	82
+		`[dungeon type]`
+		`[level]`	16
+		`+`	100
+		`[at priest]`	82
+		`[dungeon type]`
+		`[level]`	23
+		`+`	26
+		`[at priest]`	82
+		`[dungeon type]`
+		`[level]`	22
+		`+`	90
+	[/skill data up]
+	[parameter basic explain]
+		`[屠戮回旋斬]攻擊力 +20%%
+[雙重切割]冷卻時間 -20%%
+[雙重切割]攻擊力 +20%%
+[憤怒之襲]冷卻時間 -20%%
+[七宗罪]貪食者的欲念 : 攻擊時傷害額外增加量 +10%%
+[七宗罪]傲慢者的懶惰 : 基本攻擊力和技能攻擊力增加率 +10%%
+[七宗罪]侵染嫉妒的喜悅 : 屬性強化 +26
+[七宗罪]欲望溢滿的憤怒 : 暴擊傷害增加量 +9%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[殺戮戰鐮]攻擊力 +40%%
+[雙重切割]攻擊力 +30%%
+[憤怒之襲]冷卻時間 -25%%
+[憤怒之襲]攻擊力 +40%%`
+[/piece set ability]

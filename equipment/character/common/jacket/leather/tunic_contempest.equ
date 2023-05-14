@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`暴風雨神長袍`
+
+[grade]
+	47
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	45
+
+[creation rate]
+	200
+
+[physical attack]
+	19
+
+[magical attack]
+	19
+
+[magical defense]
+	21
+
+[HP MAX]
+	80
+
+[price]
+	37600
+
+[repair price]
+	33163
+
+[value]
+	30080
+
+[equipment physical defense]
+	1200	1152
+
+[skill levelup]
+	`[mage]`	5	1
+	`[at mage]`	22	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	63
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`暴風雨神皮甲  套裝`
+
+[set item]
+	10476	12476	14475	18475	16474
+[/set item]
+
+[set ability]
+	[HP MAX]
+		180
+	[MP MAX]
+		150
+	[magical attack]
+		45
+	[skill levelup]
+		`[mage]`	40	1
+		`[at mage]`	16	1
+		`[at mage]`	12	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時，以2%%的機率使自身增加45點力量和30點智力，效果持續30秒。`
+[/set ability]
+
+[possible kiri protect]

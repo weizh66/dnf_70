@@ -1,0 +1,76 @@
+#PVF_File
+[COORD]
+	1
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Interface/AdvanceAltar/Result/AdvanceAltar_Result.img`
+		21
+	[IMAGE POS]
+		-3	14
+	[IMAGE RATE]
+		0.30000001192092896	1.5
+	[RGBA]
+		255	250	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Interface/AdvanceAltar/Result/AdvanceAltar_Result.img`
+		21
+	[IMAGE POS]
+		-3	14
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Interface/AdvanceAltar/Result/AdvanceAltar_Result.img`
+		21
+	[IMAGE POS]
+		-3	14
+	[IMAGE RATE]
+		1.7999999523162842	1.0
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Interface/AdvanceAltar/Result/AdvanceAltar_Result.img`
+		21
+	[IMAGE POS]
+		-3	14
+	[IMAGE RATE]
+		2.0	1.0
+	[RGBA]
+		255	255	255	50
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME004]
+	[IMAGE]
+		`Interface/AdvanceAltar/Result/AdvanceAltar_Result.img`
+		21
+	[IMAGE POS]
+		-3	14
+	[IMAGE RATE]
+		2.200000047683716	1.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

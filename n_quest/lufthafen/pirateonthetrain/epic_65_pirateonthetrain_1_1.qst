@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	58
+
+[complete npc index]
+	65
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	65
+[/int data]
+
+[dungeon info]
+	86	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`懸空的海港`
+
+[depend message]
+	`在你的幫助下， 我們終于將卡勒特趕出了皇都！ 接下來， 我們要收復連接天界各個島嶼的海上列車。
+據我所知， 自從卡勒特入侵皇都以來， 海上列車就一直沒有正常運行過。
+請你前往魯夫特懸空海港， 詢問乘務員貝倫·博內哥特， 看海上列車還能不能使用。
+對了， 有一點請你記住！ 貝倫可能和卡勒特有所勾結， 所以才能替他們管理海上列車， 希望你對他提高警惕！`
+
+[condition message]
+	`    前往魯夫特懸空海港， 拜訪貝倫·博內哥特。 (向根特左邊移動， 進入列車后可以看到貝倫·博內哥特)`
+
+[solve message]
+	`唉， 怎么又來了一個？
+想乘坐海上列車， 就得老老實實排隊！`
+
+[quest point]
+	4

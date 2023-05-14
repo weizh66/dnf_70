@@ -1,0 +1,76 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/Mage(Fe)_Walk.img`
+		0
+	[IMAGE POS]
+		-69	-95
+	[DELAY]
+		30
+	[PLAY SOUND]
+		`WZ_BROOM_SPIN_DIZZY`
+	[LOOP START]
+	[ATTACK BOX]
+	-1	-10	-2	37	20	101
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/Mage(Fe)_Walk.img`
+		1
+	[IMAGE POS]
+		-69	-95
+	[DELAY]
+		30
+	[ATTACK BOX]
+	-18	-10	6	37	20	101
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/Mage(Fe)_Walk.img`
+		2
+	[IMAGE POS]
+		-69	-95
+	[DELAY]
+		30
+	[ATTACK BOX]
+	-18	-10	6	37	20	101
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/Mage(Fe)_Walk.img`
+		3
+	[IMAGE POS]
+		-69	-95
+	[DELAY]
+		30
+	[ATTACK BOX]
+	-18	-10	6	37	20	101
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/Mage(Fe)_Walk.img`
+		4
+	[IMAGE POS]
+		-69	-95
+	[DELAY]
+		30
+	[ATTACK BOX]
+	-18	-10	6	37	20	101
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/Mage(Fe)_Walk.img`
+		5
+	[IMAGE POS]
+		-69	-95
+	[DELAY]
+		30
+	[LOOP END]
+		999
+	[ATTACK BOX]
+	-18	-10	6	37	20	101

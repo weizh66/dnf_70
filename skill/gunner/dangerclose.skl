@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`重火力支援`
+
+[explain]
+	`    在指定位置呼叫炮擊支援， 攻擊范圍內的敵人。
+    炮彈屬性為[超負荷裝填]中選擇的屬性。`
+
+[basic explain]
+	`    在指定位置呼叫炮擊支援， 攻擊范圍內的敵人。`
+
+[purchase cost]
+	40
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	456
+	`Character/Gunner/Effect/SkillIcon.img`	457
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[consume MP]
+		2140	2400
+	[cool time]
+		45000	45000
+	[casting time]
+		0	0
+	[static data]
+		450	600	100	50	30	50	750	450	1000
+	[/static data]
+	[level info]
+		1	3809	4195	4581	4968	5354	5741	6127	6514	6900	7286	7673	8059	8446	8832	9219	9605	9991	10378	10764	11151	11537	11924	12310	12696	13083	13469	13856	14242	14629	15015	15401	15788	16174	16561	16947	17334	17720	18106	18493	18879	19266	19652	20039	20425	20811	21198	21584	21971	22357	22744	23130	23516	23903	24289	24676	25062	25449	25835	26221	26608	26994	27381	27767	28154	28540	28926	29313	29699	30086	30472
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`炮彈攻擊力 : <int>%%`	-1	0	1.0	1	1	1.0
+[/level property]

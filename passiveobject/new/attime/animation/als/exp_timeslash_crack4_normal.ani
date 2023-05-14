@@ -1,0 +1,25 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_crack.img`
+		7
+	[IMAGE POS]
+		-265	-530
+	[RGBA]
+		255	255	255	102
+	[DELAY]
+		70
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-10	4
+	[DELAY]
+		70

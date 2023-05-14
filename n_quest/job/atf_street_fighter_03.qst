@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7894
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	-1
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 街霸 (3/3)`
+
+[depend message]
+	`不過這個職業并不像你想象的那么簡單。
+街霸們經常要在惡劣的環境中生存， 因而對速度的要求比任何人都高。
+如果你能夠通過接下來的考驗， 我會教你一些技能。 這些技能可以幫助你在街霸的世界中更好地生存下去。`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』。`
+
+[solve message]
+	`很好， 你已經正式成為一名街霸了。
+雖然這個職業很難得到他人的尊敬， 但是你會因此而學到很多有效的實戰技巧。
+希望你以后依然能夠堅持這份信念， 努力地活下去。`

@@ -1,0 +1,148 @@
+#PVF_File
+
+[name]
+	`封·極刑絕之鐮`
+
+[basic explain]
+	`額外殺傷殺死敵人時20秒內智力增加50
+暴擊時20秒內施放速度增加6%%
+攻擊時以1%%的機率自己的HP消耗2000，20秒內魔法暴擊機率增加20%%`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	62
+
+[magical attack]
+	62
+
+[attack speed]
+	80
+
+[stuck]
+	2
+
+[need material]
+	3821	1400
+
+[price]
+	172000
+
+[repair price]
+	137600
+
+[value]
+	137600
+
+[equipment physical attack]
+	862	735
+
+[equipment magical attack]
+	907	774
+
+[separate attack]
+	555	359
+
+[physical critical hit]
+	20
+
+[magical critical hit]
+	20
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	88
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	25	8
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[duration]
+		3000
+	[active status]
+		`bleeding`	86	3600
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	20
+[/then]
+
+[routing priority]
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

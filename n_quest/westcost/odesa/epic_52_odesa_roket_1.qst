@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[effect after clear quest]
+	1
+
+[monster reward item]
+	56303	60	-1	4294	1	100	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4294	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`前往熱血八番街的路`
+
+[depend message]
+	`冒險家， 你好啊！ 你覺不覺得最近城鎮內有些混亂？ 呵呵， 我聽說海岸那邊又有海盜入侵了， 而且這次的海盜實力非常強。
+我還聽說那些海盜會使用槍和機械呢， 這讓人費解……
+我不知道這些傳聞是不是真的， 我需要一些證據， 你能幫我嗎？`
+
+[condition message]
+	`    前往陌路者要塞的『熱血八番街』， 尋找阿拉德潛入計劃書[作戰名 : 核風暴]。 (此任務在地下城中不可放棄)`
+
+[solve message]
+	`啊……原來傳聞是真的。`
+
+[quest point]
+	4

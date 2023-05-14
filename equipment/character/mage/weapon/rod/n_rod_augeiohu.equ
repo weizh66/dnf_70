@@ -1,0 +1,182 @@
+#PVF_File
+
+[name]
+	`安格雷赫的召鼠笛`
+
+[basic explain]
+	`施放技能時， 有4%%的幾率使敵人進入混亂狀態。
+每2分鐘召喚出1只巨鼠 (消耗2個無色小晶塊)`
+
+[detail explain]
+	`    施放技能時， 有4%%的幾率使敵人進入混亂狀態7秒。 (若敵人高于Lv50， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    每2分鐘可以召喚出1只Lv50的巨鼠協助召喚者攻擊敵人， 巨鼠存在100秒。 (召喚的怪物只能同時存在1只， 且每次召喚會消耗2個無色小晶塊； 若召喚的怪物受到較大傷害， 則召喚時間結束前就會消失)`
+
+[flavor text]
+	`    唧唧~~唧！！`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rod`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/mage/rod.img`	49
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	24
+
+[price]
+	80000
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[magical attack]
+	53
+
+[equipment physical attack]
+	428	385
+
+[equipment magical attack]
+	524	471
+
+[separate attack]
+	285	189
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[if]
+	[cooltime]
+		3500
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		4
+	[active status]
+		`confuse`	50	1
+[/then]
+
+[stuck]
+	1
+
+[animation job]
+	`[mage]`
+
+[variation]
+	5	5
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	5	5
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`ROD_TOUCH`
+
+[if]
+	[time]
+		120000	1	5000
+[/if]
+
+[then]
+	[consume item]
+		3037	2
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[reduce duration at pvp module]
+		75
+	[summon monster]
+		1079	50	1
+[/then]
+
+[routing priority]
+	`mage`	1
+	`mage`	2
+	`at mage`	1
+	`at mage`	2
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	` 邪龍的脊骨胸甲`
+
+[basic explain]
+	`被攻擊時，以2%%的機率使敵人進入中毒狀態。`
+
+[detail explain]
+	`被攻擊時，有2%%的機率使敵人進入中毒狀態7秒； 中毒狀態下的敵人每0.5秒受到128點傷害。（若敵人高於Lv40，則減少進入異常狀態的機率； 反之則增加機率）`
+
+[flavor text]
+	`這就證明了邪龍的骨頭也有劇毒。別亂摸！-林納斯對充滿好奇心的旅行者說`
+
+[grade]
+	45
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	24
+
+[magical attack]
+	16
+
+[price]
+	54000
+
+[repair price]
+	43200
+
+[value]
+	43200
+
+[equipment physical defense]
+	1908	1692
+
+[icon]
+	`Item/common/coat.img`	106
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		70
+	[active status]
+		`poison`	40	1800
+[/then]
+
+[set name]
+	`邪龍的脊骨套裝`
+
+[set item]
+	10887	12887	14878	18884	16878
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`被攻擊時以 3%% 機率發動邪龍的龍息（未實現）`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`纔蝶 跨蝶攪 蘋萄`
+
+[explain]
+	`碳顫朝 斜塭蘋塊`
+
+[grade]
+	3
+
+[attach type]
+	`[free]`
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/IconStackable.img`	16
+
+[field image]
+	`Item/FieldImage.img`	23
+
+[stackable type]
+	`[material]`	4
+
+[sub type]
+	1
+
+[price]
+	120
+
+[move wav]
+	`BONE_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/cut_cardimage.img`
+	`[weapon]`
+[/string data]
+
+[int data]
+	1	3000
+[/int data]
+
+[enchant]
+
+[HP MAX]
+	10
+
+[MP MAX]
+	27
+
+[enchant]
+
+[item category]
+	`monster card`
+[/item category]

@@ -1,0 +1,28 @@
+#PVF_File
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/ENDattack1.act`
+
+[etc action]
+	`Action/ENDattack2.act`
+[/etc action]
+
+[etc attack info]
+	`AttackInfo/ENDboom.atk`
+[/etc attack info]
+
+[attack info]
+	`AttackInfo/ENDSTART.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

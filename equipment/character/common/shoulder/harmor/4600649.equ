@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`封·星雲迷蹤護肩`
+
+[basic explain]
+	`  對失明狀態下敵人的傷害 +12%%`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12566
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	32
+
+[physical defense]
+	29
+
+[magical attack]
+	23
+
+[attack speed]
+	70
+
+[cast speed]
+	100
+
+[stuck]
+	-5
+
+[HP MAX]
+	300
+
+[need material]
+	3821	900
+
+[price]
+	103200
+
+[repair price]
+	82560
+
+[value]
+	82560
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3104	2816
+
+[icon]
+	`item/new_equipment/05_harmor/neck/harmor_neck.img`	10
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[target active status]
+		`blind`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	12
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

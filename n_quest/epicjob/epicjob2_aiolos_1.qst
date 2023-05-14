@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 風神（1/2）`
+
+[depend message]
+	`‘西風動草葉， 南風落果實， 北風起波浪， 東風揚旗幟。 風驟停， 風神就此而生。’
+你聽說過嗎？ 這是逐風者之間流傳的古老傳說。 現在市面上流傳的都是解說本， 我好不容易才找到原本， 特意來告訴你的。 現在人們都把它當成有趣的童話故事來聽， 但其實這是真實發生過的事情的記錄。
+用魔法掀起風很簡單， 掀起暴風雖然困難但也不是做不到。 但是， 讓四方吹來的風停下來呢？
+就連優秀的疾風大師也認為這是不可能的， 這種事情只存在于故事中。 用風讓風停下來的人， 這就是風神。 但是， 如果不加以證實的話， 風神就永遠無法從虛構變成現實。
+怎么樣， 魔法師？ 你想挑戰那個正逐漸被遺忘的境界嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和莎蘭談談。`
+
+[solve message]
+	`你都沒有什么要問的嗎？ 有種白白浪費時間的感覺呢。`
+
+[pre required quest]
+	2694
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	2893
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

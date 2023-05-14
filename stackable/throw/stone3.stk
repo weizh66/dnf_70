@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`石頭 3`
+	
+
+[explain]
+	`投擲時， 可以對單個敵人造成219點傷害。`
+	
+
+[grade]
+	15
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	14
+
+[icon]
+	`Item/IconMaterial.img`	39
+
+[field image]
+	`Item/FieldImage.img`	23
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	150
+
+[cool time]
+	1000
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50601	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Gravel.ptl`
+[/string data]

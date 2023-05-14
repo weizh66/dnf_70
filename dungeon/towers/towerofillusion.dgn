@@ -1,0 +1,251 @@
+#PVF_File
+
+[background pos]
+	80
+
+[cutscene image]
+	`Map/CutScene/towerofdeath.img`	0
+
+[worldmap pattern info]
+	1	6
+	`WorldMap/SelectdungeonSlot/Tower.img`	1
+
+[dungeon type]
+	`tower of death`
+
+[minimum required level]
+	20
+
+[basis level]
+	30
+
+[required item]
+	4183	1	1
+
+[recommended level]
+	20	30
+
+[ai character appear rate]
+	100
+
+[name]
+	`迷妄之塔`
+	
+
+[explain]
+	`    窮盡一生追逐浮華的名利幻影， 到人生的最後一刻才明白這一切不過是虛無， 這就是人生給予每個生命最珍貴的禮物！ 那些在塵世中感到彷徨無助的人啊， 我已將你們心裡的諸般迷妄在此地重現， 你們再也不用忍受欲望的煎熬， 直接來這裡吧， 來取走你們人生中最珍貴的禮物吧！`
+	
+
+[tower max clear item num]
+	4
+
+[death tower map indexes]
+	15	1	31001	2	31002	3	31003	4	31004	5	31005	6	31007	7	31008	8	31010	9	31011	10	31006	11	31019	12	31015	13	31020	14	31024	15	31025
+[/death tower map indexes]
+
+[tower high skill initial cool time]
+	0	1
+
+[tower high skill initial cool time rate]
+	0.0	1.0
+
+[tower fp cubepiece]
+	0
+
+[tower limit of stackable item]
+	0
+
+[tower recovery]
+	0	10	100
+[/tower recovery]
+
+[tower recovery]
+	11	15	50
+[/tower recovery]
+
+[tower item drop]
+	0
+
+[tower dialog]
+	1
+	` <apc::-1>我是死神， 在絕望中尋求新生的人啊， 歡迎你來到迷妄之塔！`
+	
+	`on start`
+
+[tower dialog]
+	1
+	` <apc::-1>時間就是生命， 不要浪費它。`
+	
+	`on complete`
+
+[tower dialog]
+	2
+	` <apc::-1>怕了嗎？ 死亡遊戲才剛剛開始呢！`
+	
+	`on start`
+
+[tower dialog]
+	2
+	` <apc::-1>我的歡迎儀式結束了， 你可以奔赴死亡的邀請了。`
+	
+	`on complete`
+
+[tower dialog]
+	3
+	` <apc::-1>我要擲骰子了……`
+	
+	`on start`
+
+[tower dialog]
+	3
+	` <apc::-1>看來我這次擲的點數有點小啊。`
+	
+	`on complete`
+
+[tower dialog]
+	4
+	` <apc::-1>靈活的腳步是戰鬥的基礎， 我會在背後看著你的……`
+	
+	`on start`
+
+[tower dialog]
+	4
+	` <apc::-1>你的步伐有點淩亂， 以後要多鍛煉， 繼續往上走吧。`
+	
+	`on complete`
+
+[tower dialog]
+	5
+	` <apc::-1>從現在開始， 要玩命了， 你有心理準備了嗎？`
+	
+	`on start`
+
+[tower dialog]
+	5
+	` <apc::-1>看來我之前小看你了。`
+	
+	`on complete`
+
+[tower dialog]
+	6
+	` <apc::-1>這是專門為你準備的……地獄之行！ 你可以開始了！`
+	
+	`on start`
+
+[tower dialog]
+	6
+	` <apc::-1>哼哼……別以為亡者們只有這點力量。`
+	
+	`on complete`
+
+[tower dialog]
+	7
+	` <apc::-1>戰前逃跑會被人唾棄的， 希望你能堅持到最後一秒。`
+	
+	`on start`
+
+[tower dialog]
+	7
+	` <apc::-1>驕傲自滿必然會帶來失敗， 這是無數人用自身實踐證明的。`
+	
+	`on complete`
+
+[tower dialog]
+	8
+	` <apc::-1>忠告你一句， 惹誰都不要惹那個傢伙！`
+	
+	`on start`
+
+[tower dialog]
+	8
+	`<apc::-1>絕望的烏雲已經開始籠罩著你……`
+	
+	`on complete`
+
+[tower dialog]
+	9
+	` <apc::-1>如果你在這裡倒下， 就算以後成功了也還是失敗， 希望你不是這樣的人。`
+	
+	`on start`
+
+[tower dialog]
+	9
+	` <apc::-1>來者是客， 我好像怠慢你了， 嘿嘿。`
+	
+	`on complete`
+
+[tower dialog]
+	10
+	` <apc::-1>憑你那慢吞吞的身法， 不用猜都知道你一定會吃虧的。`
+	
+	`on start`
+
+[tower dialog]
+	10
+	` <apc::-1>不管你用什麼方法， 一定要找到讓我開心的東西。`
+	
+	`on complete`
+
+[tower dialog]
+	11
+	` <apc::-1>還沒開戰就先示弱了三分， 你想不輸也難。`
+	
+	`on start`
+
+[tower dialog]
+	11
+	` <apc::-1>嘿嘿， 你發現了嗎？ 事情在不知不覺中變得有趣了。`
+	
+	`on complete`
+
+[tower dialog]
+	12
+	` <apc::5602>無論你從哪個角度攻擊， 我都能100%防禦。
+放馬過來吧！`
+	
+	`on start`
+
+[tower dialog]
+	12
+	` <apc::-1>原本以為你會輸得很慘， 沒想到你竟然破了絕對防禦， 了不起！`
+	
+	`on complete`
+
+[tower dialog]
+	13
+	` <apc::-1>我這裡不歡迎沒有戰鬥力的人， 你要好好把握這次機會。`
+	
+	`on start`
+
+[tower dialog]
+	13
+	` <apc::-1>嗯， 做得好。 上去吧。`
+	
+	`on complete`
+
+[tower dialog]
+	14
+	` <apc::-1>在這裡， 你會發現喘口氣的時間都是寶貴的！`
+	
+	`on start`
+
+[tower dialog]
+	14
+	` <apc::-1>有個人已經等你很久了， 快上去吧。`
+	
+	`on complete`
+
+[tower dialog]
+	15
+	` <apc::608>現身吧， 我忠實的部下們！ 該是向客人展示九龍威力的時候了！`
+	
+	`on start`
+
+[tower dialog]
+	15
+	` <apc::-1>你很強……不過你以後會遇到更艱難的挑戰， 你有興趣挑戰死亡之塔嗎？`
+	
+	`on complete`
+
+[revision table]
+	`Dungeon/Towers/table/TowerOfIllusion.tbl`

@@ -1,0 +1,240 @@
+#PVF_File
+
+[set name]
+	`元素踐踏  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	16
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	300
+		`[mage]`	16
+		`[dungeon type]`
+		`[static]`	5
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	300
+		`[mage]`	15
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[mage]`	15
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[冰霜雪人]冷卻時間 +0.3秒
+[冰霜雪人]蓄氣時間 +30%%
+[冰霜雪人]攻擊力 +30%%
+[冰霜雪人]存在時間 +30%%
+[冰霜雪人]最大誘導角度 +20%%
+[冰霜雪人]大小 +30%%
+[杰克爆彈]冷卻時間 +0.3秒
+[杰克爆彈]蓄氣時間 +30%%
+[杰克爆彈]攻擊力 +30%%
+[杰克爆彈]存在時間 +30%%
+[杰克爆彈]大小 +30%%
+[杰克爆彈]爆炸大小 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	57
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	1000
+		`[mage]`	57
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	57
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	56
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	1500
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	3
+		`+`	50
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	4
+		`+`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[烈焰衝擊]冷卻時間 +1秒
+[烈焰衝擊]攻擊力 +30%%
+[烈焰衝擊]范圍 +20%%
+[冰牆]冷卻時間 +1.5秒
+[冰牆]攻擊力 +20%%
+[冰牆]持續時間 +30%%
+[冰牆]HP +30%%
+[冰牆]移動速度和攻擊速度減少率 +5%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	1800
+		`[mage]`	27
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[mage]`	27
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[mage]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	3000
+		`[mage]`	59
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[mage]`	59
+		`[dungeon type]`
+		`[static]`	5
+		`+`	2
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	4
+		`+`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[杰克降臨]冷卻時間 +1.8秒
+[杰克降臨]蓄氣時間 +20%%
+[杰克降臨]攻擊力 +30%%
+[杰克降臨]大小 +30%%
+[杰克降臨]爆炸大小 +30%% 
+[極冰盛宴]冷卻時間 +3秒
+[極冰盛宴]蓄氣時間 +20%%
+[極冰盛宴]攻擊次數 +2
+[極冰盛宴]攻擊力 +30%%
+[極冰盛宴]范圍 +30%%
+[極冰盛宴]移動速度減少率 +3%%`
+[/piece set ability]

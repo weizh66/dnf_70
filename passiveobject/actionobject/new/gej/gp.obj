@@ -1,0 +1,30 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	5000
+
+[basic action]
+	`Action/gp.act`
+
+[attack info]
+	`AttackInfo/Laser.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	660034
+[/object destroy condition]

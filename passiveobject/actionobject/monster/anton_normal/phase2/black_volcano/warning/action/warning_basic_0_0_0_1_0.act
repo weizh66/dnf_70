@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/warning_Basic_0_0_0_0_2_0.ani`
+	[SUB ANI]
+		`../Animation/warning_Basic_0_0_0_1_0_0.ani`	0	-2
+		`../Animation/warning_Basic_0_0_0_1_1_0.ani`	0	-1
+		`../Animation/warning_Basic_0_0_2_0_1_0.ani`	0	1
+		`../Animation/warning_Basic_0_0_3_0_1_0.ani`	0	2
+		`../Animation/warning_Basic_0_0_0_1_0_1.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		6
+	[NOW]
+[/BEHAVIOR]

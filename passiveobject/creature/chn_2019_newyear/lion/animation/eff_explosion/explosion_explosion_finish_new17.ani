@@ -1,0 +1,81 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Creature/chn_2019_NewYear/lion_overskill/explosion_finish_New17.img`
+		0
+	[IMAGE POS]
+		-403	-340
+	[IMAGE RATE]
+		1.5	0.6000000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Creature/chn_2019_NewYear/lion_overskill/explosion_finish_New17.img`
+		2
+	[IMAGE POS]
+		-402	-356
+	[IMAGE RATE]
+		1.399999976158142	1.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Creature/chn_2019_NewYear/lion_overskill/explosion_finish_New17.img`
+		3
+	[IMAGE POS]
+		-407	-406
+	[IMAGE RATE]
+		1.100000023841858	1.399999976158142
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Creature/chn_2019_NewYear/lion_overskill/explosion_finish_New17.img`
+		6
+	[IMAGE POS]
+		-397	-410
+	[IMAGE RATE]
+		0.6000000238418579	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME004]
+	[IMAGE]
+		`Creature/chn_2019_NewYear/lion_overskill/explosion_finish_New17.img`
+		8
+	[IMAGE POS]
+		-397	-423
+	[IMAGE RATE]
+		0.699999988079071	0.8999999761581421
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		100

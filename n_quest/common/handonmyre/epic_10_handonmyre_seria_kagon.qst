@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	2
+
+[complete npc index]
+	11
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[depend give item]
+	3085	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3085	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1062	1	1065	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`卡坤的接近`
+
+[depend message]
+	`請你把這封信交給西海岸的卡坤， 然后對他說， 以后不要再……呃， 你把這信給他看， 他就會明白了……`
+
+[condition message]
+	`    把[賽麗亞的信]交給卡坤。`
+
+[solve message]
+	`賽麗亞的信？ 啊， 難道是……多謝了！ 這是給你的報酬， 你快走吧……
+呃！ 怎么又拒絕我……嗚嗚……`
+
+[quest point]
+	4

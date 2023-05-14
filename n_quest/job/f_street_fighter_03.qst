@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	13
+
+[complete npc index]
+	6
+
+[job]
+	`[fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7822
+[/pre required quest]
+
+[collision quest]
+	7815	7818	7825
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3101	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7824
+
+[name]
+	`轉職 - 街霸 (3/4)`
+
+[depend message]
+	`這個藥……你一定要小心使用！ 不是我嚇唬你， 我聽說那些胡亂服用它的人不是去天堂就是下地獄……
+嗯， 風振應該知道它的使用方法， 你去請他幫忙吧。`
+
+[condition message]
+	`    把[高濃縮的免毒藥劑]交給風振。`
+
+[solve message]
+	`我丑話說在前頭， 如果天生抗毒能力不強， 很可能會被毒死， 你還要試嗎？ 
+既然你堅持……先把這些抹在手上， 然后把這些喝掉……
+什么感覺？
+哦！ 恭喜！ 看來你能適應它！`

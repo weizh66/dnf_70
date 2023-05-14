@@ -1,0 +1,26 @@
+#PVF_File
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	600	-600
+
+[y axis]
+
+[move type]
+	`[cos]`
+
+[move variable 1]
+	-1500	1500
+
+[changing term]
+	1800
+
+[changing type]
+	`[ping pong]`
+
+[landing type]
+	`[stop]`

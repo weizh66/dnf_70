@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`極魔·風·腰帶`
+
+[basic explain]
+	`每12點光屬性抗性增加5點光屬性強化值。（最多增加100點）。
+每15點光屬性抗性增加3%%物理和魔法暴擊率。（最多增加60%%）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	155
+
+[magical attack]
+	155
+
+[magical defense]
+	89
+
+[physical defense]
+	89
+
+[need material]
+	3826	3000
+
+[move speed]
+	50
+
+[anti evil]
+	18
+
+[stuck resistance]
+	30
+
+[stuck]
+	-8
+
+[inventory limit]
+	3000
+
+[price]
+	60200
+
+[repair price]
+	48160
+
+[value]
+	48160
+
+[equipment physical defense]
+	1388	1352
+
+[light resistance]
+	70
+
+[icon]
+	`Item/new_equipment/02_cloth/belt/cloth_belt.img`	54
+
+[field image]
+	`Item/field_equip.img`	3
+
+[equipment type]
+	`[waist]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	550
+
+[item group name]
+	`cl waist`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			20
+		[upper bound level]
+			30
+		[value]
+			3
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[time]
+		500	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`light resistance`	12
+		`light attack`
+		`+`	5	100
+	[stat change by stat]
+		`myself`	-1
+		`light resistance`	15
+		`magical critical hit`
+		`+`	3	60
+	[stat change by stat]
+		`myself`	-1
+		`light resistance`	15
+		`physical critical hit`
+		`+`	3	60
+[/then]
+
+[part set index]
+	12599
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,87 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	128
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	138
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	138
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[龍翼]冷卻時間 -20%%
+[飛龍斬]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	138
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	138
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[knight]`	138
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	141
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	141
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	141
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[飛龍斬]攻擊力 +30%%
+[飛龍斬]冷卻時間 -20%%
+[龍刃無雙]攻擊力 +30%%
+[龍刃無雙]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	141
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	141
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[knight]`	141
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[knight]`	142
+		`[dungeon type]`
+		`[level]`	5
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[龍刃無雙]攻擊力 +40%%
+[龍刃無雙]冷卻時間 -30%%
+[魔龍之息]攻擊力 +50%%`
+[/piece set ability]

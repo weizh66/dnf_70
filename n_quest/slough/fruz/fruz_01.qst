@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	79	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	12058	10416
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`下一個發電所`
+
+[depend message]
+	`包括克雷發電所在內，總共有4個發電所。
+雖然克雷發電所已經停止啟動了，但其他發電所依然健在，根本就難以擊敗安徒恩。下一個要停止啟動的發電所是… 
+普樂茲發電所應該就可以了吧。我已經有派遣D.T.隸屬部隊的納樂凱去普樂茲發電所那兒。
+只要破壞擋住門的殘骸，就可以在發電所內自由行動了。`
+
+[condition message]
+	`和D.T部隊納樂凱一起通過普樂茲發電所`
+
+[solve message]
+	`納樂凱的實力如何？`
+
+[quest point]
+	4

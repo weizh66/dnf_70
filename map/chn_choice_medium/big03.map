@@ -1,0 +1,150 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3501
+[/dungeon]
+
+[type]
+	`[boss]`
+
+[greed]
+	`CC CC`
+
+[tile]
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+	`Tile/GentTile.til`
+[/tile]
+
+[far sight scroll]
+	56
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/RampartFar.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/RampartMid.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/GentMid.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	13	254	1329	252	626	214	1007	697
+
+[sound]
+	`M_GENTGATE`
+	`SKYSTAIR_AMB`
+[/sound]
+
+[animation]
+	`Animation/Carpet02.ani`
+	`[bottom]`	276	732	0
+	`Animation/Carpet02.ani`
+	`[bottom]`	123	717	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	699	703	0
+	`Animation/Carpet00.ani`
+	`[bottom]`	294	677	0
+	`Animation/Carpet00.ani`
+	`[bottom]`	521	640	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	897	627	0
+	`Animation/Carpet00.ani`
+	`[bottom]`	669	577	0
+	`Animation/Carpet02.ani`
+	`[bottom]`	469	566	0
+	`Animation/Carpet00.ani`
+	`[bottom]`	418	552	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	698	519	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	1	271	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	449	271	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	897	271	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	673	271	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	225	271	0
+	`Animation/Carpet01.ani`
+	`[bottom]`	1121	271	0
+[/animation]
+
+[passive object]
+	12036	340	208	0	12037	215	223	0	12036	341	260	0	12036	348	298	0	12036	349	352	0	8818	81	731	0
+[/passive object]
+
+[monster]
+	159103	1	0	139	326	0	1	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+[/monster specific AI]
+
+[special passive object]
+	12034	1178	240	40	1
+	`[item]`	1	1	-1	-1	-1	12034	1104	240	40	1
+	`[item]`	1	1	-1	-1	-1	12033	1041	248	40	1
+	`[item]`	0	1	-1	-1	-1	12035	1222	252	40	1
+	`[item]`	3	1	-1	-1	-1	12032	1144	268	40	1
+	`[item]`	2	1	-1	-1	-1	12033	1058	279	40	1
+	`[item]`	0	1	-1	-1	-1	12032	458	288	40	1
+	`[item]`	2	1	-1	-1	-1	12032	887	291	40	1
+	`[item]`	2	1	-1	-1	-1	12032	1183	298	40	1
+	`[item]`	2	1	-1	-1	-1	12035	797	302	40	1
+	`[item]`	3	1	-1	-1	-1	12034	1115	304	40	1
+	`[item]`	1	1	-1	-1	-1	12035	679	305	40	1
+	`[item]`	3	1	-1	-1	-1	12033	550	316	40	1
+	`[item]`	0	1	-1	-1	-1	12035	1222	320	40	1
+	`[item]`	3	1	-1	-1	-1	12033	1158	326	40	1
+	`[item]`	0	1	-1	-1	-1	12035	636	327	40	1
+	`[item]`	3	1	-1	-1	-1	12035	592	332	40	1
+	`[item]`	3	1	-1	-1	-1	12033	730	336	40	1
+	`[item]`	0	1	-1	-1	-1	12032	467	337	40	1
+	`[item]`	2	1	-1	-1	-1	12035	859	338	40	1
+	`[item]`	3	1	-1	-1	-1
+[/special passive object]
+
+[event monster position]
+	599	352	0	1112	385	0	293	348	0	194	404	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

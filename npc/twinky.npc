@@ -1,0 +1,484 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	3
+
+[big face]
+	`Map/Npc/NpcFace04.img`	3
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	3
+
+[field animation]
+	`Animation/Npc_Twinky.ani`
+
+[field wav]
+	`R_NPC_TWINKY_AMB`
+
+[popup wav]
+	`R_NPC_TWINKY_TK`
+	`R_NPC_TWINKY_FW`
+
+[role]
+	`[item shop]`	44
+[/role]
+
+[name]
+	`小燈籠`
+
+[field name]
+	`小燈籠`
+
+[quest speech]
+	`你似乎很關心我啊？ 是因為我長得很可愛嗎？ 嘻嘻~`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::66>咦？ 我以前沒見過你呢！ 你好啊， 我叫小燈籠。
+嗯？ 你說我的名字很幼稚？ 拜托~你的名字也不酷好吧！
+其實這不是我的本名， 不過我的本名說了你也聽不懂， 那樣的發音對你來說太困難了。
+你不相信？ 那是因為你不知道美人魚們的原名可是很~~長很~~~長的。 
+所以啊， 你還是喊我小燈籠好了， 又好聽又親切。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::66>我很小很小的時候就到這兒了， 我記不清楚是怎么來的了。
+我只記得當時被一個巨大的海浪卷住， 然后就昏迷了， 醒來時就發現自己躺在陸地上了。
+呵呵~其實這樣也挺好的。 要不我哪有機會和你這樣優秀的人聊天吶， 嘻嘻~~`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::66>說起卡勒特， 我恨死他們了！ 哼~
+他們這些大壞蛋， 不但把我辛辛苦苦賺來的錢全部搶走了， 還想把我也搶去……嗚嗚~~~
+我的好朋友空空伊就是這樣被他們綁走的， 不知道她現在怎么樣了……
+總之， 不要和我提卡勒特的事情！`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	0	0
+	`<npc::66>港口那邊有個叫貝倫·博內哥特的野蠻大叔， 他老是猥瑣地盯著我看， 讓我很不自在。
+不過我也有責任， 誰叫我長得那么可愛呢， 嘻嘻~? 
+啊……什么？ 那個大叔盯上的只是我的錢包？ 哼~他要是敢亂來……哼哼！`
+[/dialog]
+
+[dialog]
+	5	1	99	-1	0	0
+	`<npc::66>你見過雄人魚嗎？ 就是那種胖胖的、 丑丑的……
+唉~我們美人魚很可憐， 從出生開始就注定了要和那種丑八怪結婚。 但我不想跟它們結婚！ 決不！
+冒險家， 你去過很多地方吧？
+你說在這個廣闊的世界上， 有沒有一位愿意打破種族限制， 勇敢迎娶我的帥氣王子呢？`
+[/dialog]
+
+[dialog]
+	6	1	99	-1	0	0
+	`<npc::66>你想知道這么多的袖珍罐從哪兒來的？
+哎呀~這可是秘密哦。 不過我可以把這個秘密告訴你， 只有你哦。
+你知道的， 最近這里來了很多下面世界的人。 我就先從他們手里買到合適的袖珍罐， 然后出售給那些有需要的人。
+你也想要？ 但我的存貨不多了哦~而且我不做賠本買賣， 哼哼~`
+[/dialog]
+
+[dialog]
+	7	1	99	-1	1	0
+	`<npc::66>天啊……你還好吧？ 傷得嚴重嗎？ 要不要小燈籠給你吹吹？`
+[/dialog]
+
+[dialog]
+	8	1	99	-1	2	0
+	`<npc::66>聽說下面的世界發生了騷亂？ 我也只是斷斷續續的聽到了一些傳聞……
+不過老實說， 我比較失望。 我原本還以為你有多厲害呢……`
+[/dialog]
+
+[favor_dialog]
+	3	0	0
+	`<npc::66>呀~好愛你啊~真的真的！ 啵啵， 親~?`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	1
+	`<npc::66>你有喜歡的人嗎？ 我很好奇呢……禮物我收下了， 非常感謝。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	2
+	`<npc::66>唔， 只要是你送的， 不喜歡也要喜歡， 真的！`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	0
+	`<npc::66>太幸福了！ 太好了！ 我感覺要飄起來啦！ 真奇妙……`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	1
+	`<npc::66>雖然不是什么貴重的禮物， 但是小燈籠也很高興啦， 因為是你送的！`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	2
+	`<npc::66>這是什么？ 哼， 這次就算了。 以后就……明白了吧？ 嘿嘿。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	0
+	`<npc::66>小燈籠感動得內牛滿面啊， 眼淚都嘩啦啦的~~~`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	1
+	`<npc::66>不~不是這個， 我要更好的， 給我更好的嘛~`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	2
+	`<npc::66>啊， 你開始討厭我了嗎？ 嗚嗚~~~`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	0
+	`<npc::66>啊~每次收到你的禮物， 我的臉都會發燙， 真是羞死人啦~`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	1
+	`<npc::66>這次的禮物很普通， 但有平淡才會有驚喜， 對吧？ 期待你的下一次哦~?`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	2
+	`<npc::66>唉喲~不要再讓小燈籠失望了， 好不好？`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	0
+	`<npc::66>哇~哇！ 好興奮啊！ 好開心呀！ 嘻嘻~`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	1
+	`<npc::66>嗯， 如果能換成其他禮物的話， 小燈籠會更加高興。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	2
+	`<npc::66>小燈籠真不想要這種東西， 嗚~`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	0
+	`<npc::66>你想要什么回報呢？ 想要什么盡管說出來， 小燈籠一定會想辦法滿足你的。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	1
+	`<npc::66>唉喲~我說了那么多次， 你還是不懂么？ 我喜歡別的！`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	2
+	`<npc::66>我哪里得罪你了嗎？ 要不然， 你不會和我開這種玩笑……`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	0
+	`<npc::66>你是怎么知道小燈籠喜歡這種禮物的？ 哇~好浪漫哦~`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	1
+	`<npc::66>雖然說是一個平凡的禮物， 但是我還是收下了， 謝謝。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	2
+	`<npc::66>嗚~本來我心情挺好的……都是你！ `
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	0
+	`<npc::66>這個真的是給我的嗎？ 哇~好高興哦~?`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	1
+	`<npc::66>除了這個還有別的嗎？ 我覺得這個禮物， 實在是太難看了點。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	2
+	`<npc::66>唉喲~什么呀！ 這到底是什么啊？ 拜托， 不要每次都送這些好嗎？`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	0
+	`<npc::66>OK~真的謝謝你， 你是個好人~`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	1
+	`<npc::66>本來還有點期待的， 沒想到結果真讓人失望！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	2
+	`<npc::66>拜托~你不喜歡我就不要來找我啊， 干嘛開這種低級的玩笑， 真差勁！`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	0
+	`<npc::66>這個是要給我的嗎？ 謝謝哦~~`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	1
+	`<npc::66>看見這么丑的禮物， 我實在高興不起來啊。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	2
+	`<npc::66>我真的生氣啦， 哼！`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	0
+	`<npc::66>太好了， 真的謝謝你哦。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	1
+	`<npc::66>我還有別的生意要忙， 現在別和我說話。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	2
+	`<npc::66>嗚嗚~我要哭了~~好傷心啊。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	0
+	`<npc::66>本來挺沒精神的， 現在好開心啊~~謝謝你~~`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	1
+	`<npc::66>不好意思， 我不想和沒誠意的人說話。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	2
+	`<npc::66>嗚嗚嗚~~為什么這樣對我， 我到底做錯了什么啊~嗚嗚~~~`
+[/favor_dialog]
+
+[1st favor dialog]
+	`<npc::66>啊， 好無聊啊。 你能跟我玩一會嗎？ 我好想你~`
+[/1st favor dialog]
+
+[favor_dialog_exception]
+	0
+	`<npc::66>啊~~就這么點？ 不夠不夠~小燈籠喜歡慷慨大方的人。`
+[/favor_dialog_exception]
+
+[favor_dialog_exception]
+	1
+	`<npc::66>哎呀~小燈籠困死了， 要回罐子里睡覺去了。 今天就到這里吧， 禮物已經夠多了， 嘻嘻~`
+[/favor_dialog_exception]
+
+[favorable relationship]
+	[default favor]
+		1300
+	[max gift per day]
+		30
+	[dialog day not continuously]
+		3	200
+	[mood]
+		[change]
+			`good`	3000
+			`bad`	3000
+			`normal`	3000
+		[/change]
+		[key item]
+			3187	1
+		[/key item]
+	[/mood]
+	[gift item]
+		[favor rate per mood]
+			150	100	80
+		[prefer item]
+			1	3074	5	30	1	1098	5	30	1	1089	5	30	2	3074	5	30	2	1098	5	30	2	1089	5	30	3	3074	5	30	3	1098	5	30	3	1089	5	30	4	3074	5	30	4	1098	5	30	4	1089	5	30
+		[/prefer item]
+		[prefer item group]
+		[/prefer item group]
+		[unprefer item]
+		[/unprefer item]
+		[unprefer item group]
+			1
+			`element stuff`	50	2
+			`element stuff`	50	3
+			`element stuff`	50	4
+			`element stuff`	50
+		[/unprefer item group]
+	[/gift item]
+	[reward item]
+		[item info]
+			[favor level]
+				1
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	0	0	1000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	0	0	1500
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				2
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				3
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	2610012	3	1000	2610012	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	2610012	3	1000	2610012	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	2610012	3	1000	2610012	5	1000	0	0	5000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				4
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	2610012	3	1000	2610012	5	1000	2610027	3	1000	2610027	5	500	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	2610012	3	1000	2610012	5	1000	2610027	3	1000	2610027	5	500	0	0	5000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610010	3	1000	2610010	5	1000	2610012	3	1000	2610012	5	1000	2610027	3	1000	2610027	5	500	0	0	6000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+	[/reward item]
+[/favorable relationship]

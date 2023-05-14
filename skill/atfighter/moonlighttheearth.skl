@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`月輝念氣破`
+
+[explain]
+	`運用月光般強大的念氣攻擊敵人。
+    被念氣擊中的敵人的能量會被吸收到體內， 轉化為風雷能量。`
+
+[basic explain]
+	`運用月光般強大的念氣攻擊敵人。`
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	0	0	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[required level]
+	78
+
+[required level range]
+	2
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	264
+	`Character/Fighter/Effect/ATSkillIcon.img`	265
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`(,)`}
+	{6=`(LEFT)`}
+	{8=`(,)`}
+	{6=`(UP)`}
+	{8=`(,)`}
+	{6=`(RIGHT)`}
+	{8=`(,)`}
+	{6=`(SKILL)`}
+[/command]
+
+[skill command advantage]
+	20	40
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[dungeon]
+	[consume MP]
+		500	4480
+	[cool time]
+		40000	43000
+	[static data]
+		10	400	150	300	600	0	250	125	150	500
+	[/static data]
+	[level info]
+		4	5496	2000	7	100	6053	2000	7	100	6611	2000	7	100	6272	2000	8	100	6760	2000	8	100	7247	2000	8	100	6876	2000	9	100	7310	2000	9	100	7743	2000	9	100	7359	2000	10	100	7749	2000	10	100	8140	2000	10	100	7754	2000	11	100	8109	2000	11	100	8464	2000	11	100	8084	2000	12	100	8409	2000	12	100	8734	2000	12	100	8362	2000	13	100	8663	2000	13	100	8963	2000	13	100	8602	2000	14	100	8880	2000	14	100	9159	2000	14	100	8808	2000	15	100	9069	2000	15	100	9329	2000	15	100	8990	2000	16	100	9234	2000	16	100	9477	2000	16	100	9150	2000	17	100	9380	2000	17	100	9609	2000	17	100	9291	2000	18	100	9509	2000	18	100	9725	2000	18	100	9419	2000	19	100	9624	2000	19	100	9830	2000	19	100	9534	2000	20	100
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`月光能量持續時間 : <float1>秒
+月光能量多段攻擊次數 : 7
+多段攻擊攻擊力 : <int>%%`	-1	1	0.001	-1	0	1.0
+[/level property]

@@ -1,0 +1,165 @@
+#PVF_File
+
+[name]
+	`鎖龍骨`
+
+[basic explain]
+	`  攻擊時，有4%%的幾率附加444%%的傷害。
+  每3點光屬性強化，可以增加1點暗屬性強化。`
+
+[flavor text]
+	`  據說是用某位圣職者的遺骨所制。當年他用自己的肉體禁錮住偽裝者，然后一起跳入了烈火之中，只剩下這幾根遺骨為人所紀念。`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	58
+
+[magical attack]
+	58
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[stuck]
+	-1
+
+[need material]
+	3821	1200
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	812	688
+
+[equipment magical attack]
+	855	724
+
+[separate attack]
+	520	336
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	96
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	31	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		4
+	[add absolute damage]
+		`all`
+		`%`	444
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`light attack`	3
+		`dark attack`
+		`+`	1	225
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600602	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	11
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[pre required quest]
+	217
+[/pre required quest]
+
+[depend give item]
+	4001	1	3088	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4001	1	3088	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`鼓起勇氣`
+
+[depend message]
+	`蘿莉安說這些都是賽麗亞喜歡的， 沒想到那丫頭任性歸任性， 這個忙還真幫上了， 我不會忘記你的恩情的！
+唉！ 我想把我火熱的心向那女孩敞開， 我想向她表白我的愛。 可是一看到她， 我的心就開始噗噗亂跳， 不知道怎么表達我對她的愛。
+冒險家， 要不你幫我把這封信和這些禮物交給她吧？ `
+
+[condition message]
+	`    替卡坤把[卡坤的精致禮物]和[卡坤的信]交給賽麗亞。`
+
+[solve message]
+	`您好！ 歡迎光臨！ 哦？ 您是專門來找我的？ 這是什么？ 卡坤送的？ `
+
+[quest point]
+	4

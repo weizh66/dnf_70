@@ -1,0 +1,105 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[level]`	5
+		`%`	100
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-80
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-90
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-65
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-65
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+		`[at swordman]`	32
+		`[dungeon type]`
+		`[level]`	0
+		`+`	30
+		`[at swordman]`	32
+		`[dungeon type]`
+		`[level]`	1
+		`+`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[血飲狂舞]最后一擊攻擊力 +100%%
+[血飲狂舞]多段攻擊次數 -90%%
+[血飲狂舞]冷卻時間 -65%%
+[血飲狂舞]MP消耗量 -65%%
+[血飲狂舞]無色小晶塊消耗量 -1
+[喚魔 : 狂暴]移動速度 +3%%
+[喚魔 : 狂暴]攻擊速度 +3%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[level]`	2
+		`%`	150
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[static]`	6
+		`+`	1
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-65
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+	[/skill data up]
+	[parameter basic explain]
+		`刪除[喚魔 : 塔莫斯之襲]的多段攻擊
+[喚魔 : 塔莫斯之襲]最后一擊的物理攻擊力 +150%%
+[喚魔 : 塔莫斯之襲]冷卻時間 -65%%
+[喚魔 : 塔莫斯之襲]無色小晶塊消耗量 -1`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	247
+		`[dungeon type]`
+		`[static]`	4
+		`+`	1
+		`[at swordman]`	247
+		`[dungeon type]`
+		`[level]`	4
+		`%`	250
+		`[at swordman]`	247
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-65
+	[/skill data up]
+	[parameter basic explain]
+		`[蛇腹劍 : 破]攻擊力 +12%%
+[蛇腹劍 : 舞]攻擊力 +12%%
+[蛇腹劍 : 纏]攻擊力 +12%%
+[蛇腹劍 : 滅]攻擊力 +12%%
+- 施放[喚魔 : 逆天之普諾]時 -
+冷卻時間 -15%%
+HP消耗量 +50%%
+爆炸范圍 +30%%
+爆炸攻擊力 +50%%
+塔莫斯連斬次數 +7
+克庫斯多段攻擊次數 +3
+無色小晶塊消耗量 +1`
+[/piece set ability]

@@ -1,0 +1,40 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/five/five.img`
+		0
+	[IMAGE POS]
+		-309	-342
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		13000
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/five/five.img`
+		1
+	[IMAGE POS]
+		-309	-342
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase2/five/five.img`
+		1
+	[IMAGE POS]
+		-309	-342
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80

@@ -1,0 +1,35 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_curse_1_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_curse_1_1.ani`	0	1
+		`../Animation/Etc_curse_1_2.ani`	0	2
+		`../Animation/Etc_curse_1_4.ani`	0	3
+		`../Animation/Etc_curse_1_3.ani`	0	4
+		`../Animation/Etc_curse_1_5.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			50
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

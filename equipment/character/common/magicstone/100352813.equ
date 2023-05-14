@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`非緘默之石`
+
+[basic explain]
+	`所有攻擊力 +18%%`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	115
+
+[magical attack]
+	115
+
+[physical defense]
+	115
+
+[magical defense]
+	115
+
+[price]
+	134400
+
+[value]
+	107520
+
+[creation rate]
+	125
+
+[anti evil]
+	15
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	208
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	18
+	[stat by condition]
+		`magical attack bonus`
+		`%`	18
+	[stat by condition]
+		`separate attack`
+		`%`	18
+[/then]
+
+[possible kiri protect]

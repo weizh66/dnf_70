@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`野豬拳套`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	107
+
+[avatar func filter]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		28	0
+	[layer variation]
+		2150
+		`at_knucklea`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[layer variation]
+		2790
+		`at_knucklec`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[layer variation]
+		1350
+		`at_knucklex`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/fighter/weapon/knuckle/`
+	[custom wav]
+		`R_CARROT_ATK`
+		`R_CARROT_HIT`
+	[/custom wav]
+[/expand ani]
+
+[string data]
+	`Common/Particle/weaponavatar_2/ft_fm_animal00.ptl`
+[/string data]
+
+[int data]
+	654321	4	1	60	30	70	1	60	30	70	2	60	30	70	2	60	30	70	1	50	30	70	2	80	30	20
+[/int data]

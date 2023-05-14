@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`裝扮選擇能力值變更權（鬼劍士高級胸甲裝扮 /不可選擇 1~3能力值）`
+
+[explain]
+	`可以變更1次鬼劍士高級上衣裝扮的選擇能力值。 但是，無法選擇能力值中的武器節制，鬼神?侵蝕普戾蒙，倔強技能。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	16
+
+[field image]
+	`Item/FieldImage.img`	22
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[npc gift disallowance]
+	1
+
+[avatar select ability change]
+	`[swordman]`
+	`[coat avatar]`	2
+
+[avatar select ability except]
+	0	1	2
+[/avatar select ability except]

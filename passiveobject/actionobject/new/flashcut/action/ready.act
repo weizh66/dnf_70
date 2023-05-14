@@ -1,0 +1,42 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/flashcutready_body.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		400	1000	400	200	0	0	0
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700059
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			300	0	0
+	[/CREATE PASSIVEOBJECT]
+	[FLASH SCREEN]
+		250	2000	250	80	0	0	0
+[/BEHAVIOR]

@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`注視者之眼`
+
+[basic explain]
+	`施展時會以5%%的機率3秒內在500px範圍內讓所有敵人陷入出血狀態
+不能解體`
+
+[detail explain]
+	`施展時會以5%%的機率3秒內在500px範圍內讓所有的敵人呈現出血狀態，每0.5秒以500的攻擊力給予傷害。 （高於Lv79的對象得到的機率減少，低於Lv79的對象則會增加。 在決鬥場以1%%的機率發動。 冷卻時間5秒）
+不可解體`
+
+[grade]
+	79
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	32
+
+[magical defense]
+	78
+
+[need material]
+	3338	440
+
+[value]
+	63200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	6880	6480
+
+[bleeding resistance]
+	18
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	84
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[if]
+	[cooltime]
+		5000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		3000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	79	3000
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

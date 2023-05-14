@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5738
+[/pre required quest]
+
+[enemy reward item]
+	61458	1	83	2	4383	1	100	4	61804	1	83	3	4383	1	100	4
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4383	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	10	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`梅爾文的愛好`
+
+[depend message]
+	`嗨！ 呵呵……呃~那個， 其實我想拜托你一件事。
+還記得你上次拿回來的魔術卡片嗎？
+我后來又把它仔細研究了一遍， 發現那里面裝有很多有趣的裝置， 而且還有很多類……
+有些功能好像必須集齊所有的卡片才能發動， 冒險家……你能再幫我收集一些嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』， 擊敗帕菲斯兄弟并找到[魔術卡片]， 要求地下城難度為王者級。`
+
+[solve message]
+	`哇~太感謝了！
+呃？ 這……這好像是我本來就有的卡片啊……`

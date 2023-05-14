@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 戰場統治者 (1/2)`
+
+[depend message]
+	`為什么看起來這么沮喪？ 是覺得自己沒有能力保護好同伴， 讓他們白白送死了嗎？ 其實你不用太過自責， 這在戰場上是再正常不過的事情。
+如果你想避免這種事情的發生， 那就只有傾盡你的所能， 成為‘戰場統治者’。
+在戰場中， 個人的能力是十分有限， 即使再強大的武器也比不上指揮官的一條命令。
+因此， 能夠審時度勢下達正確的指令的‘戰場統治者’才是整個軍隊的靈魂。
+從開始到現在， 你已經經歷過無數次的戰斗， 你的能力也在戰場中得到了肯定。 從我的角度出發， 我認為你卓越的戰術和戰略才能已經達到了成為‘戰場統治者’的硬性條件。
+但這并不意味著你的能力能夠左右戰局， 因為你還缺少血性， 缺少當機立斷的能力。
+仔細想想我的話吧。 如果你想保護你的戰友， 成為‘戰場統治者’， 就再來和我談談吧。 `
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與凱麗談談。`
+
+[solve message]
+	`下定決心了嗎？`
+
+[pre required quest]
+	945
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4824
+
+[job change quest]
+	3
+
+[grow number]
+	0

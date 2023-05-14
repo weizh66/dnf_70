@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	42	99
+
+[monster reward item]
+	1017	40	-1	4801	1	50	15	1014	40	-1	4801	1	50	15	1030	41	-1	4801	1	80	15	61705	42	-1	4801	1	80	15	61707	43	-1	4801	1	80	15	61704	44	-1	4801	1	80	15	61456	45	-1	4801	1	80	15	61806	141	-1	4801	1	80	15
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4801	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 -萬年雪山`
+
+[depend message]
+	`連時間也像是會冰凍一樣的寒冷地帶……在萬年雪山中感覺到一股寒冷的時間力量。一定是因為吸收那個地方的力量。
+聽說萬年雪山非常排斥外地人，需要親近那裡的人。為了找回時間的力量，這種程度的付出是必要的。`
+
+[condition message]
+	`擊敗萬年雪山的頭目，收集時間碎片交給最後的先知者`
+
+[solve message]
+	`感覺到寒冷的氣息。這樣你的時間力量就會變得更強。`
+
+[quest point]
+	4

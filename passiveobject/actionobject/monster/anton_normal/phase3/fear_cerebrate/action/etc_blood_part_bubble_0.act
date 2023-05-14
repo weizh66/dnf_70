@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/blood_ptl1.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[Y AXIS]
+		[RANDOM]
+			-100	100
+	[/SET SPEED]
+[/BEHAVIOR]

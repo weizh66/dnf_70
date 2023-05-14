@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`五彩煙火`
+
+[explain]
+	`    使用後， 發射煙火。 (只能在城鎮中使用)`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	448
+
+[stackable type]
+	`[only effect]`	0
+
+[cool time]
+	500
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[string data]
+	`Common/CommonEffect/Animation/5Colored_Firecracker.ani`
+	`5BRIDE_FIREWORK`
+[/string data]
+
+[shared effect]
+	1

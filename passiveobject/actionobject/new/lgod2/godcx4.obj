@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`godcx4`
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/godcx4.act`
+
+[attack info]
+	`AttackInfo/godcx4.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	800
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	900006
+[/object destroy condition]

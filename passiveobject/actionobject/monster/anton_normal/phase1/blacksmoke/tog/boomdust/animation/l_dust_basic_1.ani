@@ -1,0 +1,25 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/Mateka/light_text.img`
+		2
+	[IMAGE POS]
+		-52	-51
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/Mateka/light_text.img`
+		2
+	[IMAGE POS]
+		-52	-51
+	[DELAY]
+		80

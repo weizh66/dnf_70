@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`中級生命靈藥`
+
+[explain]
+	`    使用後， 增加800點HP最大值， 效果持續30分鐘。`
+
+[grade]
+	50
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	800
+
+[minimum level]
+	46
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	377
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[alchemist]`
+
+[appendage group]
+	1
+
+[item group name]
+	`potion`
+
+[cool time]
+	10000
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect maintenance]
+	0	1	1	0
+
+[stat change duration]
+	1800000
+	`myself`

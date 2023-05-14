@@ -1,0 +1,185 @@
+#PVF_File
+
+[name]
+	`邪芒奪目劍`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入失明狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人陷入暗黑狀態，視野減少90%%，命中率減少20%%。 (若敵人高於Lv40，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[flavor text]
+	` 有耀眼光芒的神秘光劍。`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	27
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	67200
+
+[repair price]
+	53760
+
+[value]
+	53760
+
+[equipment physical attack]
+	346	331
+
+[equipment magical attack]
+	335	320
+
+[separate attack]
+	183	122
+
+[skill levelup]
+	`[swordman]`	9	1
+	`[demonic swordman]`	9	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	12
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	3
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	3
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[active status]
+		`blind`	40	90	20
+[/then]
+
+[possible kiri protect]

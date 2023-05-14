@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	17
+
+[complete npc index]
+	58
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	4061
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	58
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找卡勒特指揮部`
+
+[depend message]
+	`只要搗毀卡勒特的指揮部， 這個敵軍最后的堡壘……呵， 我想他們應該再也沒有反抗能力了！
+聽說澤丁之前四處派人打探指揮部的位置……不知找到了沒有， 你去幫我問問吧！`
+
+[condition message]
+	`    向澤丁·施奈德打聽卡勒特指揮部的位置。`
+
+[solve message]
+	`皇都軍正盡全力搜索敵軍指揮部的位置， 我們甚至動員了所有諜報部隊去查探， 但至今也沒有任何消息。
+不過我們會繼續調查的， 如果找到了一定會第一時間通知你的。`
+
+[quest point]
+	4

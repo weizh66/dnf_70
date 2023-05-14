@@ -1,0 +1,204 @@
+#PVF_File
+
+[name]
+	`魔女殘影爪`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率施放[虛無之球]。`
+
+[flavor text]
+	`    充滿魔女莉斯邪念的爪， 擁有可以遮蔽光明的黑暗力量。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/fighter/claw.img`	34
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	80000
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[equipment physical attack]
+	476	428
+
+[equipment magical attack]
+	476	428
+
+[separate attack]
+	285	189
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[passive object]
+		48062	70	0	60	40	0
+		`Void.ptl`
+	[/passive object]
+[/then]
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	46	3
+	`[fighter]`	44	2
+	`[at fighter]`	46	3
+	`[at fighter]`	44	2
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2150
+	`clawa1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	2160
+	`clawa2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	660
+	`clawb2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[dark attack]
+	9
+
+[routing priority]
+	`fighter`	3
+	`at fighter`	3
+[/routing priority]
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2151
+	`at_clawa1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	651
+	`at_clawb1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2791
+	`at_clawc1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2152
+	`at_clawa2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	652
+	`at_clawb2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2792
+	`at_clawc2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[possible kiri protect]

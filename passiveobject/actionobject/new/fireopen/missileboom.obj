@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`MissileBoom`
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/MissileBoom.act`
+
+[attack info]
+	`AttackInfo/MissileBoom.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

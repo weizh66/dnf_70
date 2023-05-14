@@ -1,0 +1,95 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Sacrifice_Checker.ani`
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		150
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70319
+		[/IS INDEX]
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56643
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+	[TRIGGER]
+		2
+	[ON]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+	[PROC]
+		8
+	[ON]
+	[TRIGGER]
+	[PROC]
+		9
+	[OFF]
+	[SET ACTION]
+	[ATTACK]
+		7
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[CHECK TIME]
+		1000
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70324
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

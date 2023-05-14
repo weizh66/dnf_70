@@ -1,0 +1,81 @@
+#PVF_File
+
+[set name]
+	`終結之元素  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	22
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	2
+		`%`	22
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	6
+		`%`	22
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	10
+		`%`	22
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	14
+		`%`	22
+		`[at mage]`	28
+		`[dungeon type]`
+		`[level]`	0
+		`+`	5
+		`[at mage]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`+`	3
+		`[at mage]`	28
+		`[dungeon type]`
+		`[level]`	0
+		`+`	8
+		`[at mage]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+		`[at mage]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	30
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[at mage]`	30
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at mage]`	30
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at mage]`	30
+		`[dungeon type]`
+		`[static]`	3
+		`%`	40
+		`[at mage]`	30
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-170
+		`[at mage]`	30
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-20
+		`[at mage]`	30
+		`[dungeon type]`
+		`[static]`	6
+		`+`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`屬性發動攻擊力增加22%% / 魔力燃燒攻擊力增加率增加3%%， 魔力消耗增加率增加5%%
+元素轟炸跳躍高度大幅減少， 魔法球丟擲的方向變更， 攻擊力增加40%%， 冷卻時間減少20%%， 大型魔法球爆發大小增加  30%% / 魔力燃燒攻擊力增加率增加5%%， 魔力消耗增加率增加8%% `
+[/piece set ability]

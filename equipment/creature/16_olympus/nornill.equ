@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`SD 諾倫`
+
+[explain]
+	`攻擊時增加20%%的傷害。`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature.img`	264
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	10156
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	15.0
+
+[physical attack]
+	50
+
+[magical attack]
+	50
+
+[attack speed]
+	80
+
+[cast speed]
+	80
+
+[move speed]
+	80
+
+[all elemental attack]
+	18
+
+[physical critical hit]
+	10.0
+
+[magical critical hit]
+	10.0
+
+[room list move speed rate]
+	0.2
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	10
+	[/then]
+[/pvp]
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1
+
+[all skill item container]
+	[all skill item]
+		[item growtype]
+			`[all]`	0
+		[skill apply condition]
+			[skill group]
+				`[all]`
+			[lower bound level]
+				25
+			[upper bound level]
+				30
+			[value]
+				1
+			[extra condition]
+				`[except for ex skill]`
+			[/extra condition]
+		[/skill apply condition]
+		[skill phase]
+			`[all]`
+	[/all skill item]
+[/all skill item container]

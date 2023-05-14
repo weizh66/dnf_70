@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`輕火力速射`
+
+[basic explain]
+	`    對施放者前方發動輕火力集中速射， 對敵人造成傷害。`
+
+[explain]
+	`    對施放者前方發動輕火力集中速射， 對敵人造成傷害。
+    輕火力速射的攻擊力由增幅后的[超負荷裝填]附加攻擊力組成。
+    輕火力速射的屬性為[超負荷裝填]中選擇的屬性。`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[consume MP]
+	1300	2400
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[cool time]
+	30000	30000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	534
+	`Character/Gunner/Effect/SkillIcon.img`	535
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[dungeon]
+	[static data]
+		4	6	4	1500	75	50	75	50	75	50
+	[/static data]
+	[level info]
+		2	23333	2850	23333	3139	23333	3428	23333	3717	23333	4007	23333	4296	23333	4585	23333	4874	23333	5163	23333	5453	23333	5742	23333	6031	23333	6320	23333	6609	23333	6898	23333	7188	23333	7477	23333	7766	23333	8055	23333	8344	23333	8633	23333	8923	23333	9212	23333	9501	23333	9790	23333	10079	23333	10369	23333	10658	23333	10947	23333	11236	23333	11525	23333	11814	23333	12104	23333	12393	23333	12682	23333	12971	23333	13260	23333	13549	23333	13839	23333	14128
+	[/level info]
+[/dungeon]
+
+[pvp]
+[/pvp]
+
+[level property]
+	1	99
+	`攻擊力 : 21456%%`	-12	-14	261	-1	2	1.0	-1	1	0.0	-14	261	-1	2	1.0	-1	1	0.0
+[/level property]

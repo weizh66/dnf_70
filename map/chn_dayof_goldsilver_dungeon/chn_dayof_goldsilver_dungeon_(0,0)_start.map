@@ -1,0 +1,240 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	4123
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+	`Tile/1ForestOver.til`
+[/tile]
+
+[far sight scroll]
+	42
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/far_forest.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/mid_forest.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	504	684	1333	204	565	684	562	685
+
+[dungeon start area]
+	587	187	180	130
+
+[sound]
+	`AMB_FOREST_01`
+	`M_MIRKWOOD`
+[/sound]
+
+[animation]
+	`Animation/StoneHead.ani`
+	`[closeback]`	979	96	0
+	`Animation/StonePillar0.ani`
+	`[closeback]`	445	131	0
+	`Animation/StonePillar0.ani`
+	`[closeback]`	1320	130	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	116	323	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	590	209	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	1183	315	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	786	-55	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	540	-44	0
+	`Animation/chn_tree01_00.ani`
+	`[close]`	719	314	0
+	`Animation/chn_tree01_00.ani`
+	`[close]`	1303	290	0
+	`Animation/chn_tree01_00.ani`
+	`[close]`	33	273	0
+	`Animation/Tree4.ani`
+	`[middleback]`	624	114	0
+	`Animation/Tree4.ani`
+	`[closeback]`	859	120	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	378	-60	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	316	26	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	412	64	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	719	56	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	216	-28	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1172	-8	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	955	-15	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1077	4	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1286	-14	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	1211	-15	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	1222	-64	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	1138	-68	0
+	`Animation/chn_tree01_00.ani`
+	`[closeback]`	1046	-63	0
+	`Animation/Tree4.ani`
+	`[closeback]`	1193	112	0
+	`Animation/chn_tree01_00.ani`
+	`[middleback]`	93	-8	0
+	`Animation/Grass2.ani`
+	`[bottom]`	415	183	0
+	`Animation/Grass2.ani`
+	`[bottom]`	772	357	0
+	`Animation/Grass2.ani`
+	`[bottom]`	939	367	0
+	`Animation/Grass2.ani`
+	`[bottom]`	1248	172	0
+	`Animation/Grass2.ani`
+	`[bottom]`	970	208	0
+	`Animation/Grass2.ani`
+	`[bottom]`	55	183	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	148	217	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	216	165	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	335	198	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	694	246	0
+	`Animation/aniFlower.ani`
+	`[bottom]`	1088	169	0
+	`Animation/Flower1.ani`
+	`[bottom]`	305	344	0
+	`Animation/Flower1.ani`
+	`[bottom]`	860	187	0
+	`Animation/Flower1.ani`
+	`[bottom]`	127	167	0
+	`Animation/Flower1.ani`
+	`[bottom]`	980	304	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1156	261	0
+	`Animation/Flower0.ani`
+	`[bottom]`	507	319	0
+	`Animation/Flower0.ani`
+	`[bottom]`	685	147	0
+	`Animation/Flower0.ani`
+	`[bottom]`	654	138	0
+	`Animation/Flower0.ani`
+	`[bottom]`	714	135	0
+	`Animation/Flower0.ani`
+	`[bottom]`	699	156	0
+	`Animation/Flower0.ani`
+	`[bottom]`	668	152	0
+	`Animation/Flower1.ani`
+	`[bottom]`	416	154	0
+	`Animation/Flower1.ani`
+	`[bottom]`	401	151	0
+	`Animation/Flower1.ani`
+	`[bottom]`	408	171	0
+	`Animation/Flower1.ani`
+	`[bottom]`	812	344	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1104	120	0
+	`Animation/Flower1.ani`
+	`[bottom]`	1225	128	0
+[/animation]
+
+[passive object]
+	243	1012	336	0	243	966	322	0	243	300	182	0	243	625	181	0	243	159	165	0
+[/passive object]
+
+[monster]
+	110265	1	0	367	177	0	1	1
+	`[fixed]`
+	`[normal]`	110265	1	0	266	306	0	1	1
+	`[fixed]`
+	`[normal]`	110265	1	0	950	176	0	1	1
+	`[fixed]`
+	`[normal]`	110265	1	0	986	301	0	1	1
+	`[fixed]`
+	`[normal]`	110265	1	0	1034	202	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	386	287	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	467	213	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	873	305	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	842	206	0	1	1
+	`[fixed]`
+	`[normal]`	110266	1	0	494	295	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	926	244	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	283	226	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	438	326	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	1063	296	0	1	1
+	`[fixed]`
+	`[normal]`	110267	1	0	1123	216	0	1	1
+	`[fixed]`
+	`[normal]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+[/monster specific AI]
+
+[event monster position]
+	1201	179	0	915	299	0	1207	310	0	913	181	0
+[/event monster position]

@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`時間的支配者`
+
+[explain]
+	`時間之門 - 雷奎安內適用效果 
+隊員的力量增加200 
+隊員的智力增加200 
+隊員的HP MAX增加5000 
+攻擊時敵人10%% 附加傷害`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	459
+
+[custom animation]
+	`TitleAnimation/timeruler.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	200
+	[stat by condition]
+		`magical attack`
+		`+`	200
+	[stat by condition]
+		`hp max`
+		`+`	5000
+[/then]
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206
+	[/dungeon check]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[physical attack]
+	20
+
+[physical defense]
+	20
+
+[magical attack]
+	20
+
+[magical defense]
+	20
+
+[physical critical hit]
+	4
+
+[magical critical hit]
+	4
+
+[move speed]
+	40
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

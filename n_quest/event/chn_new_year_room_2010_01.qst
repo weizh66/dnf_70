@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680359	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2680363	2	2680364	2
+[/reward selection int data]
+
+[name]
+	`新年大掃除！ <1/6>`
+
+[depend message]
+	`你好呀~冒險家， 我是賽麗亞。
+虎年就要來了， 為了迎接新年， 我想打掃一下衛生。 呵呵， 如果冒險家愿意幫忙， 我會很高興的， 而且和冒險家一起工作一直是我的心愿哦。
+呃， 不過現在我遇到了一點小小的麻煩， 就是那些異變的怪物突然暴動， 它們搶走了我所有的垃圾箱。 冒險家， 你能幫我找回來嗎？ 因為只有找到了垃圾箱， 我才能開始清掃。`
+
+[condition message]
+	`    前往任意地下城， 收集50個[垃圾箱]。`
+
+[solve message]
+	`哎呀！ 旅館變干凈了！
+這都是你的功勞~不知道怎么感謝你才好……
+呃， 這是我小小的心意~ 請你收下。`

@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	10
+
+[complete npc index]
+	10
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[pre required quest]
+	4982
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680312	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680304	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`獲得紅心餅干`
+
+[depend message]
+	`哈羅~最近我在構思新的商品……就是那種具有劃時代意義的超級厲害的商品！！ 看看這個， 這個紅心餅干裝飾品就是我那些具有劃時代意義商品中的一個！！
+什么？ NO？ 你不也是為了這個才來找我的嗎？ 哼！
+也好， 我正要回收之前發出去的傳單--羅莉安的紀念券呢， 如果你能幫我收集， 這個劃時代的紅心餅干， 我就無償送給你了！`
+
+[condition message]
+	`    前往任意的地下城， 收集10張[羅莉安的紀念券]交給羅莉安。`
+
+[solve message]
+	`1張， 2張， 3張……不對不對！ 好像少一張……
+噢， 不好意思， 剛好是10張！ 原來我數錯了……`

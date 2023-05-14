@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`褐色成熟男孩碎發`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_ahair.img`	109
+
+[equipment type]
+	`[hair avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0
+[/avatar type select]
+
+[variation]
+	34	3
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`
+	`+`	20
+	`[MAGICAL_DEFENSE]`
+	`+`	20
+	`[HP_REGENRATE]`
+	`+`	30
+	`[MP_REGENRATE]`
+	`+`	8
+	`[CAST_SPEED]`
+	`+`	100
+[/avatar select ability]
+
+[image packs]
+	`Character/Priest/Equipment/Avatar/hair/pr_hair0303a.img`
+[/image packs]

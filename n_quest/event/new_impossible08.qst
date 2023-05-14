@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[first exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	13
+
+[int data]
+	65	1	-1	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	8041	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[異界]意志挑戰 - 巴卡爾之城`
+
+[depend message]
+	`看來你需要一個更高難度的挑戰啊……
+這一次， 我需要考驗一下你的意志。 怎么樣， 要繼續嗎？`
+
+[condition message]
+	`    通關異次元裂縫的『巴卡爾之城』， 要求地下城難度為冒險級以上， 且消耗品使用次數不超過10次。 (此任務每天只能完成一次)`
+
+[solve message]
+	`什么， 你說這個挑戰只不過是小菜一碟？ 冒險家， 你的實力真讓我吃驚！`

@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`封·小美人魚的蒼蠅拍`
+
+[basic explain]
+	`[超級蒼蠅拍]冷卻時間-50%%
+[超級蒼蠅拍]攻擊力+50%%
+[超級蒼蠅拍]成功率+30%%、失敗率-30%%`
+
+[flavor text]
+	`  空空伊又去哪了？約好了一起去唱歌呢！--小燈籠`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	960	824
+
+[equipment magical attack]
+	1056	906
+
+[separate attack]
+	589	382
+
+[skill levelup]
+	`[mage]`	95	2
+	`[mage]`	115	2	0
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/mage/broom/broom.img`	93
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	4
+[/routing priority]
+
+[required skill]
+	91
+
+[skill data up]
+	`[mage]`	115
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-50
+	`[mage]`	115
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[mage]`	115
+	`[dungeon type]`
+	`[level]`	8
+	`%`	200
+	`[mage]`	115
+	`[dungeon type]`
+	`[static]`	2
+	`+`	300
+	`[mage]`	115
+	`[dungeon type]`
+	`[static]`	0
+	`+`	-300
+[/skill data up]
+
+[possible kiri protect]

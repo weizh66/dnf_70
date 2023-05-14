@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`銀色正義勇士頭冠`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_ahair.img`	282
+
+[equipment type]
+	`[hair avatar]`	0
+
+[sub type]
+	0
+
+[variation]
+	88	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30002
+
+[cast speed]
+	120
+
+[physical defense]
+	10
+
+[avatar func filter]
+	2

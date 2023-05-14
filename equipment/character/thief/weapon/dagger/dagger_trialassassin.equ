@@ -1,0 +1,193 @@
+#PVF_File
+
+[name]
+	`暗殺終結者`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使敵人進入出血狀態。
+對出血狀態下敵人的傷害 +10%%`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使敵人進入出血狀態7秒； 出血狀態下的敵人， 每0.5秒受到196點傷害。 (若敵人高于Lv65， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對出血狀態下敵人的傷害 +10%% (在決斗場中 +5%%)`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`dagger`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/thief/dagger.img`	75
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	530	479
+
+[equipment magical attack]
+	562	508
+
+[separate attack]
+	378	255
+
+[attack speed]
+	100
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	65	2750
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[physical critical hit]
+	10
+
+[stuck]
+	1
+
+[variation]
+	10	1
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			10500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`bleeding`	65	2750
+	[/then]
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

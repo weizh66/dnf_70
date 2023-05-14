@@ -1,0 +1,216 @@
+#PVF_File
+
+[set name]
+	`風神之懲  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	11
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[priest]`	11
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-25
+		`[priest]`	11
+		`[dungeon type]`
+		`[static]`	2
+		`%`	25
+		`[priest]`	11
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	11
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[priest]`	85
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[priest]`	85
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-25
+		`[priest]`	85
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[priest]`	85
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	85
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[priest]`	111
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	111
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	111
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[落鳳錘]冷卻時間 -1.5秒
+[落鳳錘]MP消耗量 -25%%
+[落鳳錘]跳躍移動距離 +25%%
+[落鳳錘]攻擊力 +10%%
+[疾風打]冷卻時間 -1.5秒
+[疾風打]MP消耗量 -25%%
+[疾風打]移動距離 +25%%
+[疾風打]攻擊力 +10%%
+[斷層地擊]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	41
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[priest]`	41
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-30
+		`[priest]`	41
+		`[dungeon type]`
+		`[level]`	3
+		`%`	-40
+		`[priest]`	41
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-40
+		`[priest]`	41
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-40
+		`[priest]`	41
+		`[dungeon type]`
+		`[level]`	6
+		`%`	-40
+		`[priest]`	50
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4000
+		`[priest]`	50
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-40
+		`[priest]`	50
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-10
+		`[priest]`	50
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-10
+		`[priest]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-10000
+		`[priest]`	49
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-40
+		`[priest]`	49
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-1
+		`[priest]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[priest]`	149
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-10
+		`[priest]`	149
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[星落打]冷卻時間 -4.5秒
+[星落打]MP消耗量 -30%%
+[星落打]擊飛力 -40%%
+[巨旋風]冷卻時間 -4秒
+[巨旋風]MP消耗量 -40%%
+[巨旋風]擊飛距離 -10%%
+[巨旋風]攻擊敵人時間 -10%%
+[狂亂錘擊]冷卻時間 -10秒
+[狂亂錘擊]MP消耗量 -40%%
+[狂亂錘擊]錘擊次數上限 -1
+[斷層地擊]冷卻時間 -1秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[attack speed]
+		50
+	[move speed]
+		50
+	[skill data up]
+		`[priest]`	5
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[priest]`	5
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-50
+		`[priest]`	5
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[priest]`	5
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[priest]`	5
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-1
+		`[priest]`	156
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[priest]`	156
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[priest]`	88
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-20000
+		`[priest]`	88
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	88
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	88
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[疾空旋風破]冷卻時間 -15秒
+[疾空旋風破]MP消耗 -50%%
+[疾空旋風破]移動速度 +20%%
+[疾空旋風破]旋轉次數上限 -1
+[無雙擊]攻擊力 +15%%
+[無雙擊]冷卻時間 -20秒
+[無雙擊]MP消耗量 -50%%`
+[/piece set ability]

@@ -1,0 +1,41 @@
+#PVF_File
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`fire attack`
+		`+`	5
+[/change status buff]
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`water attack`
+		`+`	5
+[/change status buff]
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`light attack`
+		`+`	5
+[/change status buff]
+
+[change status buff]
+	[duration]
+		30000
+	[stat by condition]
+		`dark attack`
+		`+`	5
+[/change status buff]
+
+[additional animation]
+	[duration time]
+		5000
+	[start addtional animation]
+		`../Common/Animation/SmokeEffect.ani`	1
+	[/start addtional animation]
+[/additional animation]

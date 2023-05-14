@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`獄巖石圖騰`
+
+[basic explain]
+	`攻擊速度 +1%%`
+
+[flavor text]
+	`用建造死亡之塔的地獄礦石--獄巖石製作的武器， 據說含有能讓使用者潛力爆發的神秘力量。`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	55
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[stuck]
+	-1
+
+[price]
+	75600
+
+[repair price]
+	63504
+
+[value]
+	302400
+
+[equipment physical attack]
+	491	475
+
+[equipment magical attack]
+	421	407
+
+[separate attack]
+	233	156
+
+[skill levelup]
+	`[priest]`	84	1
+	`[priest]`	90	1
+	`[priest]`	93	1
+	`[priest]`	119	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/totem.img`	37
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	2	10
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[possible kiri protect]

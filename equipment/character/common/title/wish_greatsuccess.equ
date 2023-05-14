@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`祈求成功`
+
+[explain]
+	` 攻擊時，有7%%的機率使自身增加7點力量、體力、智力和精神，效果持續7秒。`
+
+[flavor text]
+	`< 活動 >希望地下城和勇士修學能力測驗成功！HP MAX、MP MAX、力量、體力、智能、精神力、所有屬性抵抗、所有狀態異常抵抗全部都出現7 和 17時，你就合格了!`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	32
+
+[custom animation]
+	`TitleAnimation/wish_greatsuccess.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	30
+
+[HP MAX]
+	77
+
+[MP MAX]
+	77
+
+[physical attack]
+	17
+
+[physical defense]
+	7
+
+[magical attack]
+	17
+
+[magical defense]
+	7
+
+[all elemental resistance]
+	7
+
+[all activestatus resistance]
+	7
+
+[inventory limit]
+	7700
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		12000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		7
+	[stat]
+		`physical attack`
+		`+`	7
+	[stat]
+		`physical defense`
+		`+`	7
+	[stat]
+		`magical attack`
+		`+`	7
+	[stat]
+		`magical defense`
+		`+`	7
+[/then]
+
+[stuck]
+	-3
+
+[move wav]
+	`NAME_TOUCH`

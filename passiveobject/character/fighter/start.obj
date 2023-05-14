@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`毒雷引爆的爆炸`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/finalheaven_start_dash.ani`
+
+[attack info]
+	`AttackInfo/HurricaneSuperSuplex.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	500
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	25664
+[/object destroy condition]

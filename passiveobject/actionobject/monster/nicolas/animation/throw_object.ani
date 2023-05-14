@@ -1,0 +1,129 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[PLAY SOUND]
+		`NI_SPIDER`
+	[SET FLAG]
+		1
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150
+
+[FRAME001]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[IMAGE ROTATE]
+		5.497786998748779
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150
+
+[FRAME002]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[IMAGE ROTATE]
+		4.71238899230957
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150
+
+[FRAME003]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[IMAGE ROTATE]
+		3.9269909858703613
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150
+
+[FRAME004]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[IMAGE ROTATE]
+		3.1415929794311523
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[SET FLAG]
+		2
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150
+
+[FRAME005]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[IMAGE ROTATE]
+		2.356194019317627
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150
+
+[FRAME006]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[IMAGE ROTATE]
+		1.570796012878418
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150
+
+[FRAME007]
+	[IMAGE]
+		`Character/Thief/Effect/NicolasSpider1.img`
+		0
+	[IMAGE POS]
+		-62	-59
+	[IMAGE ROTATE]
+		0.785398006439209
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[ATTACK BOX]
+	-75	-18	-75	150	36	150

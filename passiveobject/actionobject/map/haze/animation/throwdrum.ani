@@ -1,0 +1,76 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Map/haze/drum.img`
+		1
+	[IMAGE POS]
+		-22	-48
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-42	-15	-32	84	29	69
+
+[FRAME001]
+	[IMAGE]
+		`Map/haze/drum.img`
+		1
+	[IMAGE POS]
+		-22	-48
+	[IMAGE ROTATE]
+		1.570796012878418
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-42	-15	-32	84	29	69
+
+[FRAME002]
+	[IMAGE]
+		`Map/haze/drum.img`
+		1
+	[IMAGE POS]
+		-22	-48
+	[IMAGE ROTATE]
+		3.1415929794311523
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-42	-15	-32	84	29	69
+
+[FRAME003]
+	[IMAGE]
+		`Map/haze/drum.img`
+		1
+	[IMAGE POS]
+		-22	-48
+	[IMAGE ROTATE]
+		4.71238899230957
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-42	-15	-32	84	29	69
+
+[FRAME004]
+	[IMAGE]
+		`Map/haze/drum.img`
+		1
+	[IMAGE POS]
+		-22	-48
+	[IMAGE ROTATE]
+		6.283185005187988
+	[DELAY]
+		20
+	[ATTACK BOX]
+	-42	-15	-32	84	29	69

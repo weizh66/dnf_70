@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	75
+
+[complete npc index]
+	75
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	18
+
+[int data]
+	2680996	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680997	4
+[/reward int data]
+
+[name]
+	`傳說中的妖怪`
+
+[depend message]
+	`你是他們說的大英雄嗎？ 有個可憐的小孩需要你的幫助， 你肯定很愿意幫他吧？
+那個可憐的小孩就是我~大人們說這附近有兩只非常厲害的妖怪， 他們最喜歡吃像我一樣肉肉的小孩， 所以我只能待在這里……
+啊~我快悶死了！ 你能幫我把妖怪們都抓起來嗎？
+聽說他們藏得可隱蔽了， 要想見他們得先找到什么靈符的痕跡~你愿意幫我嗎？`
+
+[condition message]
+	`    收集5個[傳說之靈符痕跡]交給福胖胖。 (傳說之靈符痕跡只能在符合Lv的地下城中獲得； 收集時， 任務物品欄需保留1個以上的空間)`
+
+[solve message]
+	`你真的找到了？
+哇~太好了！ 嗯~我給你看個東西。
+這個鑰匙是我從家里偷出來的……噓！ 你拿著， 我聽大人們說有了這個東西， 才可能找到妖怪的巢穴~
+其實妖怪這么難碰到， 為什么他們還怕我被抓走？ 難道是因為我長得太可愛了…… `

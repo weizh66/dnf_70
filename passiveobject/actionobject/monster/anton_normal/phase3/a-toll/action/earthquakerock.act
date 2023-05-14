@@ -1,0 +1,11 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/3_stone_normal.ani`
+	[SUB ANI]
+		`../Animation/1_bottom_normal.ani`	0	-2
+		`../Animation/2_bottom_dodge.ani`	0	-1
+		`../Animation/4_stone_dodge.ani`	0	1
+	[/SUB ANI]
+[/MOTION]

@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[job change quest]
+	10
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[creature kind]
+	10
+
+[creature level]
+	35
+
+[level]
+	1	99
+
+[monster reward item]
+	402	-1	-1	4106	1	34	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4106	1
+[/int data]
+
+[reward type]
+	`[creature evolution]`
+
+[reward int data]
+	11
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`進化 - 格剌希亞拉波斯`
+
+[depend message]
+	`據說， 當年魔人們為了從巴卡爾軍隊的鎮壓中存活下來， 他們用魔法將自己的靈魂封印在寵物的體內……
+盡管這只是一個傳聞， 但我希望它是真的。
+因此我在和那些寵物聊天的時候， 也會順便打探魔人的下落， 可惜到現在依然毫無線索。
+聽說領悟之錘可以喚醒生物體內隱藏的力量， 或許……我們可以借助它， 把寵物變回原來的模樣， 這樣也許能找到被封印的魔人。
+我曾經就這事問過西海岸魔法公會的會長莎蘭， 她說領悟之錘就藏在暗精靈的城鎮里， 不過那里現在到處是恐怖的瘟疫， 普通人根本沒辦法靠近……
+所以……冒險家， 你……能去找一下嗎？ `
+
+[condition message]
+	`    前往諾伊佩拉的『淺棲之地』， 從領主怨恨之摩根身上找來[領悟之錘]交給奧蘭。 (完成此任務后， 您的寵物將進化為格剌希亞拉波斯)`
+
+[solve message]
+	`啊， 你真的把錘子找來了！ 那我們趕快試試吧！ 嗯……就先從你的寵物開始吧！
+來~讓我們看看你的寵物身上隱藏著什么故事吧。
+啊！ 這……這不是……`
+
+[quest point]
+	0

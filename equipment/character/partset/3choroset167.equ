@@ -1,0 +1,119 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	26
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	26
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[gun blader]`	26
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[gun blader]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[劍刃爆彈]攻擊力 +30%%
+[劍刃爆彈]冷卻時間 -15%%
+[劍刃爆彈]爆炸范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	29
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[gun blader]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	29
+		`[dungeon type]`
+		`[static]`	12
+		`%`	30
+		`[gun blader]`	29
+		`[dungeon type]`
+		`[static]`	13
+		`%`	30
+		`[gun blader]`	29
+		`[dungeon type]`
+		`[static]`	14
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[爆裂斬]攻擊力 +30%%
+[爆裂斬]冷卻時間 -30%%
+[爆裂斬]爆炸范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	35
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	35
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	35
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	35
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	35
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[gun blader]`	35
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[裂地爆刃]攻擊力 +40%%
+[裂地爆刃]冷卻時間 -30%%
+[裂地爆刃]爆炸范圍 +30%%
+[完美擊球]攻擊力 +30%%
+[完美擊球]爆炸范圍 +30%%
+[完美擊球]冷卻時間 -30%%
+[完美擊球]無色小晶塊消耗量 +1`
+[/piece set ability]

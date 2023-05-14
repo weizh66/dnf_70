@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`銀色巨獸戰士肩甲`
+
+[explain]
+	`    煉就格斗之魂， 需要擁有執著的熱情與永不言敗的信念。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aneck.img`	277
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0	30	0	0	2200	0	0	0	0	4400	0	0	0	0	4840	2
+	`[B socket]`
+	`[B socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[variation]
+	93	1
+
+[layer variation]
+	2780
+	`neck_e`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2200
+	`neck_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1900
+	`neck_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2684577
+
+[attack speed]
+	50
+
+[cast speed]
+	30
+
+[hit recovery]
+	170
+
+[avatar func filter]
+	2

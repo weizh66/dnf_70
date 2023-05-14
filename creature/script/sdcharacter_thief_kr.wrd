@@ -1,0 +1,76 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`尼可拉斯跑到哪去了？`
+		`匕首是渴望，手杖是現實。`
+		`墮落就是墜落的瞬間。`
+		``
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`你知道在正確時間用餐的重要嗎？`
+			``
+		[/fill point under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`這是短時間內適合使用的名字。`
+		[/renamed]
+		[call the name]
+			`隨便叫我會很為難。`
+		[/call the name]
+		[equip]
+			`陽光真煩人。`
+			`無法適應明亮的地方！`
+		[/equip]
+		[level up]
+			`要更熟悉一點！`
+			``
+		[/level up]
+		[character level up]
+			`恭喜你。`
+			``
+		[/character level up]
+		[eat feed]
+			`吶吶`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`吶吶`
+		[/eat feed]
+		[dying]
+			`這個…`
+		[/dying]
+		[using skill]
+			`尼可拉斯，把這個用在那裡，`
+			``
+		[/using skill]
+		[skill gauge full]
+			`到了尼可拉斯要來的時候了。`
+			`玩具正在發光，使用法好像很困難？...`
+			``
+			``
+		[/skill gauge full]
+		[call the name]
+			`隨便叫我會很為難。`
+		[/call the name]
+		[equip]
+			`陽光真煩人。`
+			`無法適應明亮的地方！`
+		[/equip]
+		[level up]
+			`要更熟悉一點！`
+			``
+		[/level up]
+		[character level up]
+			`恭喜你。`
+			``
+		[/character level up]
+	[/main game]
+[/trigger]

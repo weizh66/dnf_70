@@ -1,0 +1,249 @@
+#PVF_File
+
+[name]
+	`封·雪落千寒`
+
+[basic explain]
+	`  攻擊時，使700px範圍內的敵人冰抗降低100點
+[冰霜鑽孔車]100%%大成功。
+[冰霜鑽孔車]吸附力+40%%。
+[冰霜鑽孔車]持續時間+8秒。
+[冰霜鑽孔車]冷卻時間-25秒。
+[冰霜鑽孔車]攻擊力+100%%。`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	960	824
+
+[equipment magical attack]
+	1056	906
+
+[separate attack]
+	589	382
+
+[skill levelup]
+	`[mage]`	87	5
+[/skill levelup]
+
+[water attack]
+	35
+
+[water resistance]
+	15
+
+[elemental property]
+	`[water element]`
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/broom/broom.img`	95
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	700
+	[duration]
+		15000
+	[stat]
+		`water resistance`
+		`+`	-100
+[/then]
+
+[skill data up]
+	`[mage]`	104
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-25000
+	`[mage]`	104
+	`[dungeon type]`
+	`[static]`	0
+	`+`	-300
+	`[mage]`	104
+	`[dungeon type]`
+	`[static]`	2
+	`+`	300
+	`[mage]`	104
+	`[dungeon type]`
+	`[level]`	1
+	`+`	8000
+	`[mage]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	150
+	`[mage]`	104
+	`[dungeon type]`
+	`[static]`	17
+	`%`	150
+	`[mage]`	104
+	`[dungeon type]`
+	`[static]`	18
+	`%`	150
+	`[mage]`	104
+	`[dungeon type]`
+	`[static]`	21
+	`%`	150
+	`[mage]`	104
+	`[dungeon type]`
+	`[static]`	22
+	`%`	150
+	`[mage]`	104
+	`[dungeon type]`
+	`[level]`	2
+	`%`	100
+	`[mage]`	104
+	`[dungeon type]`
+	`[level]`	3
+	`%`	100
+	`[mage]`	104
+	`[dungeon type]`
+	`[level]`	4
+	`%`	100
+	`[mage]`	104
+	`[dungeon type]`
+	`[level]`	5
+	`%`	100
+	`[mage]`	104
+	`[dungeon type]`
+	`[level]`	6
+	`%`	100
+[/skill data up]
+
+[required skill]
+	91
+
+[routing priority]
+	`mage`	4
+	`creator mage`	0
+[/routing priority]
+
+[possible kiri protect]

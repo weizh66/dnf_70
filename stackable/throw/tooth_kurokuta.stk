@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`克洛庫的利齒`
+	
+
+[explain]
+	`    投擲時， 可以使敵人進入隨機的異常狀態。`
+	
+
+[flavor text]
+	`    不就是挨一下嗎？ 我才不怕！……呃！ 竟然……`
+	
+
+[grade]
+	20
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	20
+
+[icon]
+	`Item/stackable/throw.img`	2
+
+[field image]
+	`Item/FieldImage.img`	23
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	200
+
+[cool time]
+	500
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50950	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Gravel.ptl`
+[/string data]

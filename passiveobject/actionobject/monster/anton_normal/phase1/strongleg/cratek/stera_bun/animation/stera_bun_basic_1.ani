@@ -1,0 +1,38 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Abnoba/fire/Stera/hit_normal.img`
+		0
+	[IMAGE POS]
+		-301	-304
+	[RGBA]
+		255	255	255	10
+	[INTERPOLATION]
+		1
+	[DELAY]
+		510
+
+[FRAME001]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Abnoba/fire/Stera/hit_normal.img`
+		0
+	[IMAGE POS]
+		-301	-304
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1500
+
+[FRAME002]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Abnoba/fire/Stera/hit_normal.img`
+		0
+	[IMAGE POS]
+		-301	-304
+	[RGBA]
+		255	255	255	10
+	[DELAY]
+		310

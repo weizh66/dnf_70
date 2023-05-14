@@ -1,0 +1,34 @@
+#PVF_File
+
+[ui controls]
+	`[board image]`
+	`500`	1	1	1
+	`Interface/WindowCommon.img`	11	230	90	213	214	215	216	217	218	219	220	221
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`501`	4	4	1
+	`為了讓開端伺服器中，新手們能夠舒適地進行遊戲，不會提供戰鬥者的功能。`
+		9	-1	220	0	0	0	0	230	200	155
+	[parent]
+		`500`
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`502`	4	32	1
+	`無論在哪個頻道中進行，都可以獲得頻道獎勵經驗值。`
+		9	-1	220	0	0	0	0	230	200	155
+	[parent]
+		`500`
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`503`	4	60	1
+	`但是，若是進入想要入場的地城的地區頻道，就會比較容易組隊。`
+		9	-1	220	0	0	0	0	230	200	155
+	[parent]
+		`500`
+[/ui controls]

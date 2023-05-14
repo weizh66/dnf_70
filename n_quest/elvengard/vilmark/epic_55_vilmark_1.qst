@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	18
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	2000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 帝國間諜`
+
+[depend message]
+	`聽好了， 這件事很機密， 千萬不能泄露……(壓低聲音)你最近有沒有發現可疑的人？ 我接到組織的情報說帝國間諜越來越猖獗了， 你幫我去城鎮里打探一下吧， 順便再幫我收集一些情報， 嘿嘿。 `
+
+[condition message]
+	`    向賽麗亞打聽可疑的人。`
+
+[solve message]
+	`噢！ 可疑的人？ 出了什么事嗎？ `
+
+[quest point]
+	4

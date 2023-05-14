@@ -1,0 +1,42 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	100
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	10	99
+
+[type]
+	`[get item]`
+
+[sub type]
+	2
+
+[int data]
+	0	0	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26657	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`組隊時， 獲得100個以上的白裝裝備。`
+
+[condition data]
+	0
+	`獲得的裝備數量 : %d / %d`
+[/condition data]

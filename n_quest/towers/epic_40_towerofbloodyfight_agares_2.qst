@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	45
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	5650
+[/pre required quest]
+
+[enemy reward item]
+	56004	1	-1	-1	4363	1	100	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4363	1
+[/int data]
+
+[dungeon info]
+	11006	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`最特殊的怪物`
+
+[depend message]
+	`又一個死神降臨阿拉德大陸， 這意味著將有大事發生， 而且多半不是什么好事。
+冒險家， 我希望你能再次前往無盡的祭壇， 從那群怪物中找出最特殊的家伙， 并從他身上采集一些樣本交給歌蘭蒂斯。
+歌蘭蒂斯熟悉圣職者各個領域的知識， 我想她對地獄和死神應該會有比較深的了解， 或許能識別出那群怪物的真實身份。`
+
+[condition message]
+	`    前往亡者峽谷的『無盡的祭壇』， 擊敗第一個房間中隨機出現的史萊姆王， 并收集[史萊姆王的碎片]。`
+
+[solve message]
+	`你有什么事嗎？
+什么？ 無盡的祭壇？……莫非這是……史萊姆王！ 這是史萊姆王的碎片！！！`
+
+[quest point]
+	4

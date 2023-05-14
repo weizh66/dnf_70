@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	29	99
+
+[pre required quest]
+	50
+[/pre required quest]
+
+[monster reward item]
+	50012	23	1	4032	1	100	1	50012	23	2	4032	1	100	1	50012	23	3	4032	1	100	1
+[/monster reward item]
+
+[appear map]
+	23	-1	3425	100
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4032	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`預言家赫亞西斯的預言書 (3/4)`
+
+[depend message]
+	`謝謝你幫我找到黃昏之預言書！ 那本能解讀赫亞西斯預言的預言書我也快完成了， 我們離解讀赫亞西斯的預言又近了一步！
+冒險家， 為了確保順利解讀預言， 請你幫我找到暗之預言書吧， 聽說它在煉獄的暗之傳道師身上。 `
+
+[condition message]
+	`    前往天帷巨獸神殿的『煉獄』， 從稀有怪物暗之傳道師身上找到[暗之預言書]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`很快就可以解讀赫亞西斯的預言了， 我……我不知道該怎樣形容我的心情， 激動中又隱隱藏著不安……`
+
+[quest point]
+	4

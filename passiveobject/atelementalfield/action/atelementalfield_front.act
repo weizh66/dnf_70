@@ -1,0 +1,50 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/ATElementalField/front/ATElementalField_front_starforce001.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		200	200	200	5000	0	0	0
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[CHARACTER]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[APPENDAGE]
+		10000
+		[equipment physical attack]
+		[%]
+			20.0
+		[equipment magical attack]
+		[%]
+			20.0
+		[separate attack]
+		[%]
+			20.0
+	[/APPENDAGE]
+	[CENTER MSG]
+		`九尾狐開始發動巨大的魔法陣！`	3000
+[/BEHAVIOR]

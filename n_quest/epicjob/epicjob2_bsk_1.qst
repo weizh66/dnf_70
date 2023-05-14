@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	7
+[/int data]
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 帝血弒天 (1/2)`
+
+[depend message]
+	`你身體里涌動著異常強大的血氣……實在是太驚人了！ 雖然我的眼睛看不到， 但是還是能感受到這股力量……
+這恐怕已經超越了‘獄血魔神’的境界了吧？ 只是……你真的能完全駕馭這股血氣之力嗎？
+要知道沉淪往往只在一念之間。 如果你駕馭不好， 有可能會淪為喪失人性的惡魔。
+但是， 物極必反， 如果能夠把握這次機會， 就有可能將這股力量化為己用。
+而想要做到這一點， 就必須要有足夠強大且堅定的心志。
+另外還需要你毫無保留地釋放自己的全身血氣， 然后再行聚集， 以此而達到先破后立的效果。
+當然這其中的痛苦， 足夠摧毀任何人的意志。 你有信心堅持嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與G.S.D談談。`
+
+[solve message]
+	`下定決心了嗎？
+很好， 就讓我來看看你弒天的魄力！`
+
+[pre required quest]
+	991
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4734
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

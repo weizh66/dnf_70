@@ -1,0 +1,37 @@
+#PVF_File
+
+[width]
+	20	20
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/Jupiter/JupiterHammerStart_Stone_A.ani`
+
+[etc motion]
+	`Animation/Jupiter/JupiterHammerLoop_Floor_Normal.ani`
+	`Animation/Jupiter/JupiterHammerFinish_Dust_B.ani`
+	`Animation/Jupiter/JupiterPickupFloor_Floor_Normal.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/JupiterHammer.atk`
+
+[etc attack info]
+	`AttackInfo/JupiterHammerExplosion.atk `
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1000
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	201803
+[/object destroy condition]

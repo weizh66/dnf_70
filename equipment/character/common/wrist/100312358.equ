@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`冰凍水晶手鐲`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使500px範圍內的所有敵人施放冰柱。`
+
+[detail explain]
+	`攻擊時， 有5%%的幾率使500px範圍內的所有敵人施放冰柱。 (冷卻時間2秒)`
+
+[flavor text]
+	`這個寒冰手銬怎?樣？`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[part set index]
+	12556
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[need material]
+	9999	100
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[water attack]
+	7
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	179
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[probability]
+		5
+	[target]
+		`all enemy`	500
+	[passive object]
+		140178	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[possible kiri protect]

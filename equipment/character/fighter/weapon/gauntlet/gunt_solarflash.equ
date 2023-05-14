@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	`耀日雷旋臂鎧`
+
+[basic explain]
+	`攻擊速度 +2%%`
+
+[flavor text]
+	`    不能領悟念氣之力的人， 將會被傷感淹沒、 耗盡精力……  --素喃的至恩`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`gauntlet`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	33
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	39
+
+[need material]
+	3260	750
+
+[repair price]
+	75600
+
+[value]
+	72000
+
+[cool time]
+	10000
+
+[physical attack]
+	53
+
+[equipment physical attack]
+	571	514
+
+[equipment magical attack]
+	428	385
+
+[separate attack]
+	285	189
+
+[attack speed]
+	-60
+
+[elemental property]
+	`[light element]`
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[fighter]`	86	2
+	`[at fighter]`	86	2
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	9
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	9
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[light attack]
+	15
+
+[routing priority]
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[possible kiri protect]

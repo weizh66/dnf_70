@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	1
+
+[complete npc index]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	101
+[/pre required quest]
+
+[go guide]
+	1	2	800	186
+	`[right]`
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	1	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	16400	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`開始冒險`
+
+[depend message]
+	`你還不熟悉艾爾文防線吧？ 這里是通往精靈圣地格蘭之森的惟一入口， 不過現在是那些低等生物哥布林的地盤了。
+唉， 這事說來話長， 自從格蘭之森發生大火災后， 居住在那里的精靈就突然消失了， 這一帶一直怪事不斷呢。
+冒險家， 既然你選擇來阿拉德大陸冒險， 那就先從這里開始吧！ `
+
+[condition message]
+	`    通關洛蘭地區的『洛蘭』。 (沿著艾爾文防線的右側走就可以進入洛蘭地下城)`
+
+[solve message]
+	`嗯， 不錯不錯， 不愧是賽麗亞的救命恩人吶！ 有點武術基礎！ 呵呵， 我有點期待你日后的表現了， 好好努力吧！ `
+
+[quest point]
+	4

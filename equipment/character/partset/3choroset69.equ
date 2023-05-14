@@ -1,0 +1,85 @@
+#PVF_File
+
+[set name]
+	`冰殞風暴  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	3
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	3
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at mage]`	3
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[冰晶墜]冰柱生成數量 +1
+[冰晶墜]冷卻時間 -20%%
+[冰晶墜]施放速度 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	3
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	3
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at mage]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1000
+		`[at mage]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`+`	16
+		`[at mage]`	3
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[冰晶墜]冰柱生成數量 +1
+[冰晶墜]冷卻時間 -30%%
+[冰晶墜]施放速度 +30%%
+[冰晶之浴]持續時間 +1秒
+[冰晶之浴]冰柱生成數量 +16`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	14
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`+`	20
+		`[at mage]`	14
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[at mage]`	3
+		`[dungeon type]`
+		`[static]`	1
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[冰晶墜]冰柱生成數量 +2
+[冰晶之浴]冰柱生成數量 +20
+[冰晶之浴]冷卻時間 -30%%
+[冰晶之浴]攻擊范圍 +25%%`
+[/piece set ability]

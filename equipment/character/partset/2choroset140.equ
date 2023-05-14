@@ -1,0 +1,102 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	58
+		`[dungeon type]`
+		`[level]`	1
+		`+`	3
+		`[at priest]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[驅邪咒]冷卻時間 -30%%
+[驅邪咒]文字數 +3`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	58
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+		`[at priest]`	58
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	58
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at priest]`	58
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at priest]`	58
+		`[dungeon type]`
+		`[static]`	9
+		`%`	-10
+		`[at priest]`	66
+		`[dungeon type]`
+		`[level]`	3
+		`%`	35
+		`[at priest]`	57
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[驅邪咒]攻擊力 +25%%
+[驅邪咒]文字數 +5
+[驅邪咒]大小 +20%%
+[驅邪咒]移動速度 +25%%
+[驅邪咒]連續按攻擊鍵時咒語發射間隔 -10%%
+[聚魂吸星符]持續時間 +35%%
+[神諭之祈愿]所受傷害減少率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	58
+		`[dungeon type]`
+		`[level]`	1
+		`+`	7
+		`[at priest]`	58
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[at priest]`	58
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	58
+		`[dungeon type]`
+		`[static]`	9
+		`%`	-15
+		`[at priest]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	2
+		`+`	4
+		`[at priest]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[驅邪咒]攻擊力 +25%%
+[驅邪咒]文字數 +7
+[驅邪咒]大小 +25%%
+[驅邪咒]連續按攻擊鍵時咒語發射間隔 -15%%
+[驅邪咒]冷卻時間 -30%%
+[因果業火符]爆炸次數 +4
+[因果業火符]冷卻時間 -15%%`
+[/piece set ability]

@@ -1,0 +1,199 @@
+#PVF_File
+
+[name]
+	`封·死亡宣告 - 契約之鐮`
+
+[basic explain]
+	`攻擊時，有10%%的幾率在敵人頭上附加骷髏頭標記。
+攻擊時，有2%%的幾率使敵人減少20%%的HP。
+攻擊被附加骷髏標記的敵人時附加15%%的傷害。`
+
+[detail explain]
+	`攻擊時，有10%%的幾率在敵人頭上附加骷髏頭標記。（2秒后，被附加骷髏的敵人受到50000點傷害）
+攻擊時，有2%%的幾率使敵人減少20%%的HP。（對精英怪物的效果為1/3， 對領主和深淵怪物的效果為1/6）
+攻擊被附加骷髏標記的敵人時附加15%%的傷害。`
+
+[flavor text]
+	`竟然還有臨死前的通知，真是人性化。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[magical attack]
+	65
+
+[attack speed]
+	80
+
+[stuck]
+	2
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	960	824
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[dark attack]
+	35
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	98
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	33	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[attack success]
+		1
+	[passive object filter]
+		30582
+	[/passive object filter]
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[passive object]
+		140090	0	0	0	84	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		718
+[/then]
+
+[if]
+	[my appendage]
+		718
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-1
+	[appendage]
+		718
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[weakness]
+		20
+[/then]
+
+[if]
+	[my appendage]
+		718
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[possible kiri protect]

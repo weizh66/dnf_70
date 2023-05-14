@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`轟雷樹果實`
+
+[explain]
+	`爆炸時， 可以炸飛敵人的奇異果實。 雖然傷害不大， 但是對我方隊員也有效， 要小心使用。`
+
+[flavor text]
+	`哼， 你最好趕緊消失！ 不然我會讓你知道什麼叫‘哥溫’——滾！`
+
+[grade]
+	12
+
+[attach type]
+	`[free]`
+
+[creation rate]
+	800
+
+[rarity]
+	0
+
+[weight]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	12
+
+[icon]
+	`Item/IconMaterial2.img`	69
+
+[field image]
+	`Item/FieldImage.img`	29
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	240
+
+[value]
+	0
+
+[cool time]
+	1500
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50581	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/FlyBomb.ptl`
+[/string data]

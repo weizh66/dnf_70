@@ -1,0 +1,60 @@
+#PVF_File
+
+[set name]
+	`遺忘者的遠古  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[死亡墓碑]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	44
+		`[dungeon type]`
+		`[level]`	2
+		`+`	16
+		`[swordman]`	44
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[死亡墓碑]掉落速度 +100%%
+[死亡墓碑]每秒掉落數量 +16`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	95
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[swordman]`	95
+		`[dungeon type]`
+		`[level]`	10
+		`%`	100
+		`[swordman]`	95
+		`[dungeon type]`
+		`[level]`	11
+		`%`	100
+		`[swordman]`	95
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[墓碑三絕陣]墓碑存在時間 +100%%
+[墓碑三絕陣]冷卻時間 -40%%
+[墓碑三絕陣]減少敵人暗屬性抗性 +100%%
+[墓碑三絕陣]無色小晶塊消耗量 +1`
+[/piece set ability]

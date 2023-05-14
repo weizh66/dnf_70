@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	1014
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4153
+[/pre required quest]
+
+[enemy reward item]
+	21604	2	73	-1	4755	5	100	30
+[/enemy reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4755	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`背叛`
+
+[depend message]
+	`雖然還沒有變成完全的偽裝者，但是感覺到你的血液在沸騰。哈哈哈…… 好，
+只要稍微再刺激一下，應該就能夠變成完全的惡魔化。來～給你一個簡單的任務。希望你能夠去消除一些與我們軍團敵對的聖職者，
+剛開始會因為良心譴責而難以下手，不過你體內沸騰的熱血會讓你很自然就動手進行殺戮。哈哈哈…… `
+
+[condition message]
+	`變成偽裝者收集聖職者的靈魂30個，交給恐怖的阿斯塔羅斯（該任務只能單獨進行，而且進行地下城時，不可放棄的任務。）`
+
+[solve message]
+	`優秀的靈魂。`
+
+[quest point]
+	4

@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	1009
+
+[job]
+	`[gunner]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	926
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	928
+
+[name]
+	`覺醒 - 狂暴者 (3/4)`
+
+[depend message]
+	`哈哈~其實之前給你的那個是通信裝置的初期模型， 現在可不流行這么重的。 現在的狂暴者， 都使用那種輕便式的單手武器……
+別生氣啊， 之所以讓你扛那個重家伙， 也是希望你能夠體會下早期的痛苦， 就當是一種磨練吧！
+如果你想要最新的通信裝置， 還需要再接受我的一次考驗！`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`?， 沒想到你力氣還挺大的……怎么不干脆練個柔道家……`

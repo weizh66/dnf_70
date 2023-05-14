@@ -1,0 +1,85 @@
+#PVF_File
+
+[set name]
+	`深淵蝕骨  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[gunner]`	50
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1300
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at gunner]`	50
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1300
+		`[gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[gunner]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[gunner]`	28
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[gunner]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[at gunner]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`RX-78 追擊者攻擊力增加2 5%%， 等級增加2 /機械引爆冷卻時間減少1.3秒
+RX-78 追擊者冷卻時間減少30%%， 等級增加3 / Ez-8 自爆者冷卻時間減少40%%， 等級增加3 /流光腰帶持續時間增加20%%`
+[/piece set ability]

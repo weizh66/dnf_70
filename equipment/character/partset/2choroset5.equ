@@ -1,0 +1,213 @@
+#PVF_File
+
+[set name]
+	`無限猛襲  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	6
+		`%`	10
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	7
+		`%`	10
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-2
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	6
+		`%`	10
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	7
+		`%`	10
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-2
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	7
+		`%`	25
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	10
+		`%`	25
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	11
+		`%`	25
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	7
+		`%`	25
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	10
+		`%`	25
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	11
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[崩山擊]攻擊力 +20%%
+[崩山擊]衝擊波范圍 +10%%
+[崩山擊]出血Lv -2
+[十字斬]攻擊力 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-2
+		`[swordman]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-2
+	[/skill data up]
+	[parameter basic explain]
+		`[嗜魂之手]攻擊力 +30%%
+[十字斬]出血Lv -2
+[嗜魂封魔斬]出血Lv -2`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-15
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	5
+		`+`	40
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	6
+		`+`	40
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	2
+		`+`	10
+		`[swordman]`	40
+		`[dungeon type]`
+		`[level]`	3
+		`+`	10
+		`[swordman]`	149
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[swordman]`	149
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-15
+		`[swordman]`	149
+		`[dungeon type]`
+		`[level]`	5
+		`+`	30
+		`[swordman]`	149
+		`[dungeon type]`
+		`[level]`	6
+		`+`	30
+		`[swordman]`	149
+		`[dungeon type]`
+		`[level]`	2
+		`+`	10
+		`[swordman]`	149
+		`[dungeon type]`
+		`[level]`	3
+		`+`	10
+		`[swordman]`	19
+		`[dungeon type]`
+		`[static]`	0
+		`+`	10
+		`[swordman]`	24
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4000
+		`[swordman]`	24
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[swordman]`	24
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[swordman]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[暴走]力量增加率 +15%%
+[暴走]智力減少量 -15%%
+[暴走]攻擊速度增加量 +4%%
+[暴走]移動速度增加量 +4%%
+[暴走]物理防御力減少量 +10%%
+[暴走]魔法防御力減少量 +10%%
+[怒氣爆發]冷卻時間 -4秒
+[怒氣爆發]攻擊次數 +1
+[怒氣爆發]攻擊力 +15%%`
+[/piece set ability]

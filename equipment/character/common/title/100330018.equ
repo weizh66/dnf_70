@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以1%%的機率30秒內力量增加45。 施展時以2%%機率30秒內物理爆擊增加10%%。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	27
+
+[physical defense]
+	18
+
+[attack speed]
+	20
+
+[move speed]
+	20
+
+[stuck]
+	-1
+
+[stuck resistance]
+	10
+
+[inventory limit]
+	5000
+
+[physical critical hit]
+	3
+
+[icon]
+	`Item/Title/title.img`	93
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[custom animation]
+	`TitleAnimation/puppet_stage.ani`
+[/custom animation]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`physical attack`
+		`+`	45
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`physical critical hit`
+		`+`	10
+[/then]

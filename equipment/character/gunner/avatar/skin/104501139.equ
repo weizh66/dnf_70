@@ -1,0 +1,306 @@
+#PVF_File
+
+[name]
+	`烏恩 · 萊奧尼爾`
+
+[basic explain]
+	`[爆頭壹擊]攻擊力 +60%%
+[亂射]攻擊範圍 -20%%
+[閃擊地雷]攻擊力 +60%%
+[地獄烈炎]爆炸範圍大小增加20%%
+[地獄烈炎]火焰範圍大小增加20%%
+[反坦克炮]攻擊力 +20%%
+[量子爆彈]爆炸範圍 +20%%
+[Ez-8自爆者]攻擊力 +20%%
+[空投支援]爆炸範圍 +20%%
+進入地下城10秒後； 施放特定技能時， 會發動蓋波加之拳(冷卻時間30秒)
+裝備時， 每10秒會使自身進入霸體狀態。 (效果持續10秒)`
+
+[detail explain]
+	`[爆頭壹擊]攻擊力 +60%%
+[亂射]攻擊範圍 -20%%
+[閃擊地雷]攻擊力 +60%%
+[地獄烈炎]爆炸範圍大小增加20%%
+[地獄烈炎]火焰範圍大小增加20%%
+[反坦克炮]攻擊力 +20%%
+[量子爆彈]爆炸範圍 +20%%
+[Ez-8自爆者]攻擊力 +20%%
+[空投支援]爆炸範圍 +20%%
+進入地下城10秒後； 施放特定技能時， 會發動蓋波加之拳(冷卻時間30秒)
+ - [死亡左輪]、 [爆炎彈]、 [潛能爆發]、 [機械改良]
+裝備時， 每10秒會使自身進入霸體狀態。 (效果持續10秒)`
+
+[grade]
+	1
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/skin_icon.img`	5
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+[/avatar select ability]
+
+[skill levelup]
+	`[gunner]`	9	2
+	`[gunner]`	53	2
+	`[gunner]`	45	2
+	`[gunner]`	59	2
+[/skill levelup]
+
+[physical attack]
+	25
+
+[magical attack]
+	25
+
+[attack speed]
+	30
+
+[cast speed]
+	45
+
+[move speed]
+	30
+
+[skill data up]
+	`[gunner]`	5
+	`[all]`
+	`[level]`	0
+	`%`	60
+	`[all]`	9
+	`[all]`
+	`[static]`	4
+	`+`	-60
+	`[all]`	9
+	`[all]`
+	`[static]`	5
+	`+`	-30
+	`[all]`	9
+	`[all]`
+	`[static]`	6
+	`+`	-20
+	`[gunner]`	76
+	`[all]`
+	`[level]`	0
+	`%`	60
+	`[gunner]`	53
+	`[all]`
+	`[level]`	1
+	`+`	50
+	`[gunner]`	53
+	`[all]`
+	`[level]`	2
+	`+`	70
+	`[gunner]`	40
+	`[all]`
+	`[level]`	0
+	`%`	60
+	`[gunner]`	40
+	`[all]`
+	`[level]`	2
+	`%`	60
+	`[gunner]`	40
+	`[all]`
+	`[level]`	3
+	`%`	60
+	`[gunner]`	40
+	`[all]`
+	`[level]`	4
+	`%`	60
+	`[gunner]`	45
+	`[all]`
+	`[level]`	5
+	`%`	20
+	`[gunner]`	28
+	`[all]`
+	`[level]`	1
+	`%`	60
+	`[gunner]`	59
+	`[all]`
+	`[level]`	6
+	`%`	20
+	`[gunner]`	33
+	`[all]`
+	`[level]`	2
+	`+`	100
+[/skill data up]
+
+[if]
+	[start cooltime]
+		10000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[use skill]
+		`gunner`	60
+	[/use skill]
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		11106	0	0	0	50000	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[start cooltime]
+		10000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[use skill]
+		`gunner`	1
+	[/use skill]
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		11106	0	0	0	50000	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[start cooltime]
+		10000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[use skill]
+		`gunner`	62
+	[/use skill]
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		11106	0	0	0	50000	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[start cooltime]
+		10000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[use skill]
+		`gunner`	46
+	[/use skill]
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		11106	0	0	0	50000	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		10000	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[buff]
+		`superarmor`
+[/then]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	0	0
+
+[expand ani]
+	8	2	0	0
+	[variation]
+		901	0
+	[layer variation]
+		860
+		`coat_b`
+	[equipment ani script]
+		`equipment/character/gunner.lay`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/gunner/avatar/coat/`
+[/expand ani]
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[face avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[waist avatar]`
+	`[pants avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	20	260	270	300	400	500	550	600	602	700	750	800	825	850	851	900	925	1000	1100	1150	1151	1200	1300	1400	1500	1501	1600	1601	1650	1651	1700	1800	1850	1900	1925	1950	1951	1952	1963	1975	1977	2000	2100	2125	2200	2251	2300	2400	2500	2700	2750	2780	2810	2830	2840	2850
+[/hide layer]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[hide grow avatar]
+	`Ranger Cigarette`
+	`Launcher Heavy Weapon`
+	`Mechanic Robot`
+	`Spitfire Magazine`
+[/hide grow avatar]

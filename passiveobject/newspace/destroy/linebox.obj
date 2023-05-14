@@ -1,0 +1,15 @@
+#PVF_File
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/linebox.act`
+
+[attack info]
+	`AttackInfo/linebox.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

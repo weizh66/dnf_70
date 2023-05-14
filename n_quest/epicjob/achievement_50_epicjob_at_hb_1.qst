@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5334
+
+[name]
+	`覺醒 - 重炮掌控者 (1/4)`
+
+[depend message]
+	`身為槍炮師， 你應該聽說過‘遠古粒子炮’吧？
+不知道這把武器被轉移到了何處， 或許它一直在等待著那個可以使用它的人出現吧……
+那個人可能是我， 也可能是你……不過我不是槍炮師， 所以是你的可能性更大。 哈哈~
+好了， 不開玩笑了。 說真的， 你對那個武器有興趣不？`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`看來你很有自信嘛！`

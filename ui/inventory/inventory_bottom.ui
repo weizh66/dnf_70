@@ -1,0 +1,258 @@
+#PVF_File
+
+[ui controls]
+	`[control]`
+	`9500`	0	0	0	0
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	-3	356	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	0
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	102	356	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	1
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	-3	381	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	0
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	102	381	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	1
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	-3	406	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	0
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	102	406	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	1
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9501`	0	0	0	0
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`9300`	4	336	1
+	`重量`	9	-1	71	0	0	0	0	230	200	155
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`9302`	27	412	1
+	`%d勝點`	9	-1	71	2	0	0	0	230	200	155
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`9301`	138	362	1
+	`%d勝點`	9	-1	102	2	0	0	0	230	200	155
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`9304`	138	412	1
+	`%d金幣`	9	-1	102	2	0	0	0	230	200	155
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`9303`	138	387	1
+	`%d點券`	9	-1	102	2	0	0	0	230	200	155
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`9399`	27	387	1
+	`找不到代?inventory_main_bottom99`	9	-1	71	2	0	0	0	230	200	155
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`9398`	27	362	1
+	`找不到代?inventory_main_bottom98`	9	-1	71	2	0	0	0	230	200	155
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9502`	0	0	0	0
+[/ui controls]
+
+[ui controls]
+	`[gauge]`
+	`9100`	29	336	1
+	`Interface/newstyle/windows/Inventory/Inventory.img`	3	2	1	1
+[/ui controls]
+
+[ui controls]
+	`[text button]`
+	`9200`	184	329	2
+	`interface/WindowCommon.img`
+	`整理`	4	12	13	14	15
+[/ui controls]
+
+[ui controls]
+	`[button]`
+	`9201`	103	381	1
+	`Interface/newstyle/windows/Inventory/Inventory.img`	4	3	4	5	6
+[/ui controls]
+
+[ui controls]
+	`[button]`
+	`9202`	103	406	1
+	`Interface/newstyle/windows/Inventory/Inventory.img`	4	7	8	9	10
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	0	361	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	7
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	106	360	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	5
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	0	385	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	4
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`-1`	0	411	1
+	`Interface/newstyle/windows/Inventory/Inventory_tw.img`	1	6
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9102`	126	356	0	2	115	20
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9103`	0	411	0	2	100	20
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9104`	126	381	0	2	115	20
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9105`	126	411	0	2	115	20
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9199`	0	381	0	2	115	20
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9198`	0	356	0	2	100	20
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9503`	0	0	0	0
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`9600`	28	332	2
+	`9100`
+	`負重上限
+%.3f/%.3f kg`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	-3	353	2
+	`9102`
+	`復活幣的數量
+角色在地下城中死亡時， 可以用復活幣復活角色
+(復活幣可以在商城中購買)`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	-3	378	2
+	`9103`
+	`勝點.在決鬥場獲勝時即可獲得`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	-3	378	2
+	`9104`
+	`可在商城購買裝扮、 復活幣或特殊道具等的貨幣`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	111	379	2
+	`9105`
+	`所持金幣
+金幣由地下城中的怪物掉落、 完成任務或交易物品獲得`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	160	329	2
+	`9200`
+	`使物品向前集中排列`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	-3	379	2
+	`9201`
+	`進入商城`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	56	380	2
+	`9202`
+	`丟棄金幣
+金幣丟棄後將消失`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	56	380	2
+	`9199`
+	`在賽麗亞商城購買道具的代幣券`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`-1`	56	353	2
+	`9198`
+	`標示裝扮硬幣數量,可以用一個裝扮硬幣進行一次裝扮輪盤(可以在賽麗亞商城購買)`	4	1	240	-1	1
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`9504`	0	0	0	0
+[/ui controls]

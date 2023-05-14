@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	` 藍色日冕胸甲`
+
+[grade]
+	23
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	21
+
+[physical attack]
+	10
+
+[physical defense]
+	11
+
+[magical attack]
+	10
+
+[price]
+	27600
+
+[repair price]
+	22080
+
+[value]
+	22080
+
+[equipment physical defense]
+	1560	1440
+
+[skill levelup]
+	`[swordman]`	47	1
+[/skill levelup]
+
+[icon]
+	`Item/common/coat.img`	17
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`藍色日冕板甲  套裝`
+
+[set item]
+	11605	13605	15603	17602	19602
+[/set item]
+
+[set ability]
+	[equipment physical defense]
+		80	80
+	[freeze resistance]
+		15
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			4000
+		[probability]
+			3
+		[reduce probability at pvp module]
+			100
+		[active status]
+			`freeze`	25
+	[/then]
+	[fullset basic explain]
+		`被攻擊時以3%%的機讓敵人陷入冰凍狀態`
+	[fullset detail explain]
+		`被攻擊時以 3%% 的機率4秒內讓敵人進入冰凍狀態。（高於Lv25的對象得到的機率和效果減少，低於Lv25的對象則會增加）`
+[/set ability]
+
+[possible kiri protect]

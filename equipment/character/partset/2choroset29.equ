@@ -1,0 +1,271 @@
+#PVF_File
+
+[set name]
+	`戰地破壞者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	87
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[at fighter]`	87
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at fighter]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[拋投]落地時衝擊波攻擊力 +40%%
+[霹靂旋踢]衝擊波攻擊力 +40%%
+[霹靂旋踢]直接攻擊力 -20%%
+格斗家(女) :
+[背摔]衝擊波攻擊力 +40%%
+[背摔]直接攻擊力 -20%%
+[霹靂肘擊]衝擊波攻擊力 +40%%
+[霹靂肘擊]直接攻擊力 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	18
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[fighter]`	18
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+		`[fighter]`	18
+		`[dungeon type]`
+		`[static]`	8
+		`%`	30
+		`[fighter]`	18
+		`[dungeon type]`
+		`[static]`	9
+		`%`	30
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-10
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	-10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[fighter]`	62
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-10
+		`[at fighter]`	62
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at fighter]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[空絞錘]衝擊波攻擊力 +40%%
+[空絞錘]直接攻擊力 -10%%
+[浮空凌云踢]衝擊波攻擊力 +40%%
+[浮空凌云踢]直接攻擊力 -10%%
+格斗家(女) :
+[空絞錘]衝擊波攻擊力 +40%%
+[空絞錘]直接攻擊力 -10%%
+[螺旋彗星落]移動速度 +30%%
+[螺旋彗星落]衝擊波攻擊力 +40%%
+[螺旋彗星落]直接攻擊力 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	9
+		`%`	20
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	7
+		`%`	40
+		`[at fighter]`	88
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[fighter]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[fighter]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at fighter]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[fighter]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at fighter]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[霹靂旋踢]、 [浮空凌云踢]、 [空絞錘]直接攻擊力 +10%%
+[裂石破天]衝擊波攻擊力 +40%%
+[地獄風火輪]衝擊波攻擊力 +40%%
+[地獄風火輪]增加擊飛力
+格斗家(女) :
+[背摔]、 [霹靂肘擊]、 [螺旋彗星落]、 [空絞錘]直接攻擊力 +10%%
+[裂石破天]衝擊波范圍 +20%%
+[裂石破天]衝擊波攻擊力 +40%%\[地獄搖籃]衝擊波范圍 +20%%
+[地獄搖籃]衝擊波攻擊力 +40%%`
+[/piece set ability]

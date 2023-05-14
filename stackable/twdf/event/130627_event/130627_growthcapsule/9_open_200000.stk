@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`成長膠囊 200,000`
+	
+
+[explain]
+	`服用時獲得 200,000 經驗值。`
+	
+
+[flavor text]
+	`邁向勇者成長之路`
+	
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	20
+
+[icon]
+	`Item/stackable/consumption.img`	925
+
+[stackable type]
+	`[etc]`	0
+
+[item group name]
+	`potion`
+
+[move wav]
+	`POTION_TOUCH`
+
+[stack limit]
+	100
+
+[increase status type]
+	`[expUp]`	200000
+[/increase status type]
+
+[maximum level]
+	70

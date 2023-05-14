@@ -1,0 +1,180 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[暗影纏襲]冷卻時間 -10%%
+[暗影纏襲]持續時間 +15%%
+[魅影暗魂斬]冷卻時間 -15%%
+[魅影暗魂斬]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at swordman]`	67
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	125
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	67
+		`[dungeon type]`
+		`[static]`	13
+		`%`	40
+		`[at swordman]`	125
+		`[dungeon type]`
+		`[static]`	13
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[暗影禁錮]冷卻時間 -20%%
+[暗影禁錮]抓取范圍 +40%%
+[暗影纏襲]攻擊力 +20%%
+[暗影纏襲]冷卻時間 -20%%
+[暗影纏襲]影子距離 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[static]`	5
+		`%`	-40
+		`[at swordman]`	61
+		`[dungeon type]`
+		`[static]`	6
+		`%`	-40
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[static]`	5
+		`%`	-40
+		`[at swordman]`	122
+		`[dungeon type]`
+		`[static]`	6
+		`%`	-40
+		`[at swordman]`	67
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[暗影禁錮]持續時間 +30%%
+[暗影纏襲]暗影生成間隔 -40%%
+[魅影暗魂斬]攻擊力 +20%%
+[魅影暗魂斬]冷卻時間 -20%%
+[魅影暗魂斬]劍氣大小 +20%%`
+[/piece set ability]

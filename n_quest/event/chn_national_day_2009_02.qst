@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20501
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680336	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`慶祝60周年 - 2`
+
+[depend message]
+	`呵呵， 您應該能猜到我們為冒險家們準備了什么驚喜吧？
+這次需要的物品和之前一樣， 只要您把材料收集給我， 其他的我自己都能解決了。
+請您盡快去一趟地下城吧， 然后我們再好好布置一下。`
+
+[condition message]
+	`    收集10個[國慶60周年慶祝函]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`竟然這么快就把材料拿來了， 您是不是很期待啊？ 呵呵~那我們這就開始布置吧！`
+
+[reward int data]
+	0	100
+[/reward int data]

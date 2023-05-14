@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20565
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749051	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2749049	2	2749050	2
+[/reward selection int data]
+
+[name]
+	`春節大掃除！ (5/6)`
+
+[depend message]
+	`你好呀~冒險家， 呵呵， 不好意思， 紅紙還是不夠用。
+我才做好一半的飯菜， 紅紙就沒了。 為了讓冒險家吃到最美味的年夜飯， 只好再次麻煩你了……`
+
+[condition message]
+	`    前往任意地下城， 收集25張[紅紙]。`
+
+[solve message]
+	`謝謝你~這是賽麗亞專門為你準備的， 請你收下~`

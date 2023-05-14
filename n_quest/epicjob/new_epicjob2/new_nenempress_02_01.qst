@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 念帝 (2/6)`
+
+[depend message]
+	`使用念氣的最高境界叫‘念帝’， 那些可以自由使用宇宙之氣， 并已達到最高境界的人們就被稱為念帝。
+然而， 作為一個渺小的人類， 想要能夠游刃有余地使用宇宙之氣可并非易事， 一不小心就會精神崩潰， 淪為廢人。
+但你有足夠的潛力， 相信再難也可以克服過去的。
+那我們開始吧。 想要接收宇宙之氣， 首先要充分理解念氣如何在體內循環。 也就是說， 你要放下一直以來的修煉方式， 以嶄新的方式去學習念氣。 之前你只跟怪物打過交道， 并不熟悉如何釋放或回收念氣。 這次就去跟武人們切磋一下吧。
+參加黃龍大會， 去奪得冠軍吧。 通過與那些被王室認可的絕對高手們切磋武藝， 了解在你體內流淌的念氣是如何循環的吧。
+我想憑你的實力應該很容易就能悟到真諦。 不過， 要想參加大會必須要‘斯卡迪女王的印章’， 你先準備那個吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`收集齊了嗎？ 給我看看。
+可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4974
+[/pre required quest]
+
+[relation quest]
+	5374
+
+[job change quest]
+	3
+
+[grow number]
+	0

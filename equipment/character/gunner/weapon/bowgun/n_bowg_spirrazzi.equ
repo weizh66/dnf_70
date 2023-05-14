@@ -1,0 +1,210 @@
+#PVF_File
+
+[name]
+	`邪龍的死神之弩`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率召喚出邪龍的犧牲者。
+攻擊時， 有5%%的幾率使敵人進入中毒狀態。
+遠距離攻擊力 +10%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率召喚出1只Lv50的邪龍的犧牲者協助召喚者攻擊敵人， 邪龍的犧牲者存在100秒。 (召喚的怪物只能同時存在1只， 若召喚的怪物受到較大傷害， 則召喚時間結束前就會消失)
+    攻擊時， 有5%%的幾率使敵人進入中毒狀態7秒； 但在決斗場中， 只能持續3.5秒； 中毒狀態下的敵人， 每0.5秒受到125點傷害。 (若敵人高于Lv55， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+遠距離攻擊力 +10%% (在決斗場中 +5%%)`
+
+[flavor text]
+	`    用邪龍的遺骨制成的手弩， 殘留有邪龍的特殊力量。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	31
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	20
+
+[equipment physical attack]
+	419	355
+
+[equipment magical attack]
+	465	394
+
+[separate attack]
+	328	220
+
+[attack speed]
+	20
+
+[if]
+	[cooltime]
+		130000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[reduce duration at pvp module]
+		75
+	[probability]
+		5
+	[summon monster]
+		60116	50	3
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		5
+	[active status]
+		`poison`	55	1750
+[/then]
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[if]
+	[distance]
+		`far`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[distance]
+			`far`
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

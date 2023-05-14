@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`貪食之影`
+
+[basic explain]
+	`攻擊時可以附加9%%的傷害。`
+
+[flavor text]
+	`‘這麼臭美的項鏈，某人居然很喜歡。’`
+
+[grade]
+	91
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[equipment magical defense]
+	8160	7440
+
+[magical attack]
+	37
+
+[magical defense]
+	93
+
+[need material]
+	3822	100
+
+[price]
+	113400
+
+[price]
+	127400
+
+[value]
+	101920
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	172
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	22
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	9
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

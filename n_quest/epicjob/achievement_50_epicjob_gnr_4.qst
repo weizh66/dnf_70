@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	942
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	31398	1	31696	1	31101	1	31993	1	32295	1
+[/reward selection int data]
+
+[relation quest]
+	944
+
+[name]
+	`覺醒 - 大將軍 (2/4)`
+
+[depend message]
+	`那支秘密戰隊的名字叫作‘黑玫瑰’， 隊內成員全部由女性組成。 雖然是女性， 但是據我所知， 她們各個技藝高超且心高氣傲。
+這樣的她們是絕對不會跟隨弱者的！ 如果你想領導她們， 就需要有能讓她們佩服的強大力量！`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`你的實力還不錯， 不過想要成為她們的領導者可沒這么容易。`

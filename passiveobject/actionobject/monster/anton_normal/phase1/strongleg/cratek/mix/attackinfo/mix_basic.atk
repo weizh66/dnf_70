@@ -1,0 +1,50 @@
+#PVF_File
+
+[set hp percent damage]
+	[all]
+		`max hp`	7.0
+[/set hp percent damage]
+
+[attack type]
+
+[magic]
+
+[weapon damage apply]
+	1
+
+[attack enemy]
+	1
+
+[elemental property]
+
+[light element]
+
+[damage reaction]
+
+[down]
+
+[knuck back]
+	1
+
+[push aside]
+	400
+
+[lift up]
+	300
+
+[hit wav]
+	`ATK_DARKLIGHTNING`
+
+[attack direction]
+
+[hit horizon]
+
+[hit info]
+
+[blow]
+
+[no blood]
+	10	1.0
+
+[active status]
+	`[lightning]`	100	5	10000	100

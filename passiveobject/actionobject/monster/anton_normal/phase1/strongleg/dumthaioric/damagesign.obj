@@ -1,0 +1,23 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	1
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1
+
+[basic action]
+	`Action/DamageSign.act`
+
+[etc action]
+	`Action/DamageSign_Change.act`
+[/etc action]
+
+[follow parent]
+	`[parent]`

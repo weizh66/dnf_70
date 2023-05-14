@@ -1,0 +1,30 @@
+#PVF_File
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATTornado/Tornado_Projectile_Eff01.ani`
+
+[etc motion]
+[/etc motion]
+
+[attack info]
+	`AttackInfo/ATTornado.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

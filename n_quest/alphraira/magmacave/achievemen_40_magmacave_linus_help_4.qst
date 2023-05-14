@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	24
+
+[complete npc index]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	414
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4084	50	3040	3	3150	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	20090	1	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`林納斯的幫助`
+
+[depend message]
+	`嗯， 艾爾文防線的林納斯聽說你最近在認真修煉， 想找你談談。 我不知道他要和你談什么， 只聽他說只要你收集幾樣材料給他， 他就會給你制作什么東西……`
+
+[condition message]
+	`    收集50個[燃燒的心臟]、 3個[紅色大晶體]、 3個[鋼鐵片]交給林納斯。 (鋼鐵片可在西海岸商人羅杰處生產)`
+
+[solve message]
+	`哈哈， 看你修煉得這么辛苦， 我也想幫幫你。 我要的材料都收集全了吧？ 那可以開始制作咯！ `

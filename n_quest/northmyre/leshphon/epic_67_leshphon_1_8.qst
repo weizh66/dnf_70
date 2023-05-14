@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	28
+
+[complete npc index]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	5987
+[/pre required quest]
+
+[monster reward item]
+	56142	1506	-1	4437	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4437	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 他是誰`
+
+[depend message]
+	`什么？ 你說你在那里還見到一個沒有形體的怪物？ 莫非是……
+冒險家， 我想拜托你一件事。 麻煩你再去一趟痛苦之村， 調查下那只怪物。 最好能打探到他的一些信息~`
+
+[condition message]
+	`    前往諾斯瑪爾的『痛苦之村列瑟芬』， 收集[邪惡靈體的信息]。`
+
+[solve message]
+	`公爵尤里斯！ 果然是他！
+他來自于一個惡心又骯臟的行星， 而且他還是那里的管理者。 后來因為某種原因， 他和狄瑞吉一起被轉移到了異界。
+赫爾德大人感知到他們可能會給魔界帶來危險， 就想了一個辦法削弱他們的力量。
+當時赫爾德大人告訴他們， 他們兩人之中只有一個人能當上‘使徒’， 并且還承諾勝利者會得到相應的獎勵。
+果然， 他們兩個為此展開了激烈的決戰， 最終狄瑞吉戰勝了尤里斯， 而尤里斯則變成了狄瑞吉的手下。`
+
+[quest point]
+	4

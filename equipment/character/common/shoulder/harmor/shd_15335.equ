@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`時間支配者斗篷`
+
+[basic explain]
+	`攻擊時，以10%%的機率使敵人進入減速狀態。`
+
+[detail explain]
+	`攻擊時，有10%%的機率使敵人進入減速狀態6秒；減速狀態下的敵人，將減少15%%的移動速度和攻擊速度。 （高於Lv69的對象得到的機率減少，低於Lv69的對象則會增加。）`
+
+[flavor text]
+	`我一定會征服你的！ --玄冥精靈希德`
+
+[grade]
+	65
+
+[rarity]
+	4
+
+[anti evil]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	24
+
+[physical defense]
+	62
+
+[magical attack]
+	18
+
+[need material]
+	3285	1500
+
+[repair price]
+	57330
+
+[value]
+	52000
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	2336	2144
+
+[icon]
+	`Item/common/shoulder.img`	237
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`slow`	65	15	15
+[/then]
+
+[set item master]
+	11345
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

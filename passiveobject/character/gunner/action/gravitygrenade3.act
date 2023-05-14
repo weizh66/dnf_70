@@ -1,0 +1,61 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/GrenadeGravity/03_Finish/GrenadeGravity_Finish_Front.ani`
+	[SUB ANI]
+		`../Animation/GrenadeGravity/03_Finish/GrenadeGravity_Finish_Background.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			265
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[stun]
+		100	140	20000	0	200	1	500
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		0	50	0	102	255	255	255
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		0	20	180	127	0	0	0
+	[SHAKING]
+		200	3
+[/BEHAVIOR]

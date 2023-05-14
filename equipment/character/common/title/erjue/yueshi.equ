@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 月蝕`
+
+[explain]
+	`魔界唯壹的召喚師組織，薩卡爾喚使（組織）。
+由除精靈以外，第壹次成功召喚出異界生命的魔法師，精靈使凱蒂所創設的這個組織以理解和調和異生命為標語，
+在漫長的時間裏作為魔界人希望的象征，是魔界唯壹的維健派組織。
+但是，反對薩卡爾喚使的教義，壹個召喚師組織從組織中分裂而出。
+她們訂立了新的約定，自稱為“新約定（組織）”
+她們反對薩卡爾喚使的穩健主義，將能夠支配所有召喚物的禁斷器物，
+“支配之環”的制作法傳播到魔界全境，並留下了以下的話語：
+“牢記著，行於召喚之路者。汝等之友，汝等之親，汝等心中之要人陷於危險之時，汝等切不可黯然嗟嘆，束手無策。對使用‘支配之環’者，吾等新約定的絕對之力必會降臨。其被稱為支配萬物者，月蝕！”`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		1008615	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	30
+	[stat by condition]
+		`magical attack bonus`
+		`%`	30
+	[stat by condition]
+		`separate attack`
+		`%`	30
+[/then]
+
+[skill data up]
+	`[mage]`	81
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+	`[mage]`	82
+	`[dungeon type]`
+	`[level]`	3
+	`%`	300
+	`[mage]`	82
+	`[dungeon type]`
+	`[level]`	8
+	`%`	500
+	`[mage]`	82
+	`[dungeon type]`
+	`[level]`	9
+	`%`	500
+	`[mage]`	82
+	`[dungeon type]`
+	`[level]`	10
+	`%`	500
+	`[mage]`	82
+	`[dungeon type]`
+	`[level]`	12
+	`%`	500
+	`[mage]`	82
+	`[dungeon type]`
+	`[level]`	13
+	`%`	500
+[/skill data up]
+
+[if]
+	[event use skill]
+		`mage`	80
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		25706	0	0	0	99	0
+		``
+	[/passive object]
+[/then]

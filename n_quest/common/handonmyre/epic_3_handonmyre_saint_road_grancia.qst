@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	45
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	3	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[dungeon info]
+	3	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`歌蘭蒂斯`
+
+[depend message]
+	`喂， 看你的穿著打扮應該是圣職者吧？ 哈哈， 別奇怪， 我們這兒很少出現圣職者的， 所以見到你會比較驚訝。
+你對這兒也不熟悉吧？ 我建議你去找負責阿拉德圣職者教育的歌蘭蒂斯吧， 她就在新建的大教堂前。
+從這里往左走就是赫頓瑪爾， 如果你還沒有獲得去赫頓瑪爾的通行證， 也就是赫頓瑪爾地圖， 就先去通關洛蘭深處吧。`
+
+[condition message]
+	`    前往赫頓瑪爾大圣堂拜訪歌蘭蒂斯。`
+
+[solve message]
+	`歡迎你！ 受神眷顧的圣職者啊， 你已經開啟你的神圣之路了。 如果你想學習圣職者的技能， 就來找我吧， 愿神的力量與你同在！ `
+
+[quest point]
+	4

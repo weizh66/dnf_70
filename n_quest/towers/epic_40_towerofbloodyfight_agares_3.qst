@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	5651
+[/pre required quest]
+
+[enemy reward item]
+	56423	1	-1	-1	4364	1	100	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4364	1
+[/int data]
+
+[dungeon info]
+	11006	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`來自地獄的生物`
+
+[depend message]
+	`沒想到傳說中的地獄生物會突然出現在我們身邊， 這……這太詭異了！ 它們是怎么來到這個世界的？
+嗯， 讓我想想， 之前死神德萊弗斯也是這樣莫名其妙的出現……看來這些地獄生物很可能和死神有關。
+不過目前我還不能確定它們究竟是地獄來客， 還是以前一直沒有被發現的新物種。
+這樣吧！ 如果你有空， 就去幫我收集一些證據吧， 這樣我就有辦法知道他們是不是真正的地獄生物了。`
+
+[condition message]
+	`    前往亡者峽谷的『無盡的祭壇』， 擊敗第二個房間中隨機出現的卡姆拉， 并收集[卡姆拉之劍]。`
+
+[solve message]
+	`這劍上的圖案是……果然不出我所料， 它們的確是來自地獄的生物。
+……不過生活在地獄的生命體為什么會來到我們的世界？`
+
+[quest point]
+	4

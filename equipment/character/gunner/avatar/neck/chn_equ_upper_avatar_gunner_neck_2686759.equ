@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`冬青胸針 (神槍手)`
+
+[flavor text]
+	`<圣誕節的祝福活動>`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_aneck.img`	99
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar func filter]
+	0
+
+[usable period]
+	20
+
+[variation]
+	29	0
+
+[layer variation]
+	2200
+	`neck_c`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[MP regen speed]
+	3
+
+[physical attack]
+	10
+
+[magical attack]
+	10
+
+[part set index]
+	2

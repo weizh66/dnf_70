@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/hit.ani`
+	[SPEECH]
+		`有能源就無法攻擊我......`
+			6	100
+	[/SPEECH]
+	[SOUND]
+		`BOTULA_SKILL_01`	4
+		`BOTULA_SMACK`	5
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		1	500
+[/BEHAVIOR]

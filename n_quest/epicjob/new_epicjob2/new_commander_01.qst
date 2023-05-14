@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 戰場統治者 (1/6)`
+
+[depend message]
+	`想到自己的戰友在你力量無法觸及的地方倒下了， 是不是心中感到痛苦？
+這是很正常的， 只要是個人都會難受吧。
+但你總不能一直這樣垂頭喪氣下去吧？ 為了死去的戰友， 不如讓自己變得更強吧。
+用你強大的力量去守護他人， 為你死去的戰友報仇雪恨吧， 這才是真正地繼承他們的意志。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`你可能會因為沉重的罪惡感而無比自責。 但相信那些犧牲的戰友們應該也不希望看到你將一切痛苦與自責背負到自己身上。
+認真想想， 他們愿意追隨你上戰場的理由吧。 為了他們， 你也要重新站起來克服難關。
+等你挺直腰桿重返戰場之時， 那些為你犧牲的戰友們一定也會由衷感到開心的。`
+
+[target character]
+	`[gunner]`	4	1
+[/target character]
+
+[relation quest]
+	5422
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`綠色沙灘運動涼鞋`
+
+[explain]
+	`沙灘派對  套裝2 (神槍手)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_ashoes.img`	321
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	95	5
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[PHYSICAL_ATTACK]`
+	`+`	45
+	`[PHYSICAL_DEFENSE]`
+	`+`	45
+	`[MOVE_SPEED]`
+	`+`	55
+	`[JUMP_POWER]`
+	`+`	40
+[/avatar select ability]
+
+[part set index]
+	31165

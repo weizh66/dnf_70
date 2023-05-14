@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	17
+
+[complete npc index]
+	12
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4966
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`凱麗的謎題`
+
+[depend message]
+	`呵呵呵~原來是因為解謎題來找我的呀~這可是最后一道謎題哦， 很高興你能堅持到這兒~
+謎題是 : 在西海岸的魔法學校擔任校長， 而且還擔任魔法師公會會長的人是誰？ 哎呀呀~這么說你可能不太清楚， 我再給你一些提示吧~~
+這個人是一個有著魅力四射的黑色皮膚、 高貴性感的銀色長發的暗精靈~~而且是我最尊敬的姐姐~啊……噢~我也想學魔法了~`
+
+[condition message]
+	`    在西海岸找到教魔法師們魔法技能的暗精靈。 (按<N>鍵就能更容易找到)`
+
+[solve message]
+	`歡迎光臨， 你是來學魔法的嗎？
+我在這里幫助魔法師修煉和轉職， 如果你是魔法師， 一定要來找我啊。
+噢……原來你是來解謎題的冒險家啊， 你辛苦了。`

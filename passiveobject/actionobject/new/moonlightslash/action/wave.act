@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/atmakelotusslash/atmakelotusslash_jangpung_wave.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700170
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			200	0	30
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

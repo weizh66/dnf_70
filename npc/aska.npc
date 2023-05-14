@@ -1,0 +1,65 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	19
+
+[big face]
+	`Map/Npc/NpcFace02.img`	50
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	19
+
+[field animation]
+	`Animation/Npc_Aska.ani`
+
+[look around]
+	0
+
+[field wav]
+	`R_NPC_ASKA_AMB`
+
+[popup wav]
+	`R_NPC_ASKA_TK`
+	`R_NPC_ASKA_FW`
+
+[role]
+	`[item shop]`	54
+[/role]
+
+[look around]
+	0
+
+[name]
+	`阿斯卡`
+
+[field name]
+	`素喃·阿斯卡`
+
+[quest speech]
+	`找不到代碼quest_speech_4329`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::125>歡迎你~~遠道而來的客人。 我是虛祖國國王素喃·阿斯卡。
+虛祖是個好客的國家， 希望你在這里玩得愉快。
+如果想參加我們國家的武斗大會， 可以從我旁邊的這扇‘鐵人之門’進入。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::125>還記得當年周游世界時， 那日子過得真是開心。 雖然也會和旅伴吵吵鬧鬧， 但畢竟結交了不少朋友。
+可是在游歷完阿拉德后， 回到虛祖時， 我就被告知繼任了國王的位置。
+唉， 有時候想想， 真是神奇……`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::125>咦， 我感覺到周圍的念氣波動異常， 看來有非常厲害的客人來到了素喃。
+只可惜來者不善， 這個人帶著很重的邪氣，　冒險家你也要當心啊！`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	1	0
+	`<npc::125>放肆！ 未經本王的允許， 竟敢和我擅自搭話！ 
+哈哈哈~看你那樣， 笑死我了！ 我只是和你開個玩笑嘛~`
+[/dialog]

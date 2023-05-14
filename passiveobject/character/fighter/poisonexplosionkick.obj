@@ -1,0 +1,30 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/Poisonexplosionkick.act`
+
+[etc motion]
+[/etc motion]
+
+[attack info]
+	`AttackInfo/PoisonExplosionKick.atk`
+
+[name]
+	`虛無之球`

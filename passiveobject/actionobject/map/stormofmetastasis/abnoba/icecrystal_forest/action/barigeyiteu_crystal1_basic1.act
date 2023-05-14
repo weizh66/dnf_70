@@ -1,0 +1,35 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/big_crystal1_Basic_1.ani`
+	[SUB ANI]
+		`../Animation/1big_crystal2_Basic_1.ani`	0	-2
+		`../Animation/1big_crystal1_Basic_1.ani`	0	-1
+		`../Animation/1big_crystal3_Basic_1.ani`	0	1
+		`../Animation/big_crystal3_Basic_1.ani`	0	2
+		`../Animation/big_crystal2_Basic_1.ani`	0	3
+		`../Animation/1small_crystal1_Basic_1.ani`	0	4
+		`../Animation/1small_crystal2_Basic_1.ani`	0	5
+		`../Animation/1small_crystal3_Basic_1.ani`	0	6
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[HP]
+		[<=]
+			1
+		[%]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PARTICLE]
+		`../particle/big_crystal1_destroy.ptl`	0	0	100
+[/BEHAVIOR]

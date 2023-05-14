@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	9
+
+[complete npc index]
+	10
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[pre required quest]
+	214
+[/pre required quest]
+
+[depend give item]
+	4000	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4000	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`羅莉安的指教 (3/4)`
+
+[depend message]
+	`這就是你要找的希爾斯的裙子， 雖然我不知道你為什么要這么貴重的奢侈品， 但是我說話算話， 一定會慷慨的送給你。 哈哈， 以后你再有別的需要， 歡迎來找我啊。 `
+
+[condition message]
+	`    把[希爾斯的裙子]交給羅莉安。`
+
+[solve message]
+	`天呀， 你真的拿來了？ ！ 要是我穿上的話， 一定會非常非常漂亮……`
+
+[quest point]
+	4

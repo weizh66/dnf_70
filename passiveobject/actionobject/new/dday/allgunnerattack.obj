@@ -1,0 +1,20 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/AllGunnerAttack.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	3000
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

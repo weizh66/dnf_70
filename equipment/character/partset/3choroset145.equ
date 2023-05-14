@@ -1,0 +1,97 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	41
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	41
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	40
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at priest]`	40
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[裁決之擊]攻擊力 +20%%
+[裁決之擊]冷卻時間 -20%%
+[懲戒十字]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	44
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+		`[at priest]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	48
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[狂熱信仰]暴擊攻擊力增加量 +10%%
+[審判重擊]冷卻時間 -25%%
+[神焰怒火]攻擊力 +30%%
+[神焰怒火]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at priest]`	48
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[at priest]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	47
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	47
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at priest]`	47
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at priest]`	47
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[神焰怒火]攻擊力 +35%%
+[神焰怒火]冷卻時間 -30%%
+[神焰斬]攻擊力 +40%%
+[神焰斬]冷卻時間 -30%%`
+[/piece set ability]

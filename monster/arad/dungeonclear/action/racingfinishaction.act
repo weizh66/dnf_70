@@ -1,0 +1,20 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/stay.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[CHECK TIME]
+		1000
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

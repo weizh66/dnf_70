@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	19
+
+[complete npc index]
+	19
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	47	99
+
+[pre required quest]
+	3812
+[/pre required quest]
+
+[monster reward item]
+	61108	111	2	4299	1	80	1	61108	111	3	4299	1	90	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4299	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100	7591	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`銷毀希特拉克的研究資料`
+
+[depend message]
+	`我知道希特拉克的研究資料具有非常高的研究價值， 銷毀它很可惜。 但同樣的， 如果一些意圖不軌的人得到了這些研究資料， 那將后患無窮， 所以我們要銷毀它。
+現在， 只要我們消滅了GBL教研究所里的希特拉克， 就再也不用擔心會出現這種可怕的怪物了。
+因此， 冒險家， 請你一定要找到希特拉克的研究資料。`
+
+[condition message]
+	`    前往墮落之殿的『GBL教研究所』， 尋找[研究資料]， 然后向奧菲利亞回復， 要求地下城難度為冒險級以上。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`那些無比珍貴的GBL教遺產， 因為使徒羅特斯的出現， 就這樣毀滅了……`
+
+[quest point]
+	4

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	55	99
+
+[enemy reward item]
+	61709	1	80	-1	4802	1	70	30	61112	1	81	-1	4802	1	70	30	61710	1	82	-1	4802	1	70	30	61458	1	83	-1	4802	1	40	30	61804	1	83	-1	4802	1	40	30	61013	1	84	-1	4802	1	70	30	61150	1	85	-1	4802	1	70	30	61236	1	88	-1	4802	1	70	30	10409	2	89	-1	4802	1	70	30
+[/enemy reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4802	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 安特貝爾峽谷`
+
+[depend message]
+	`卡勒特那個組織的力量非常優秀。竟然不將那股強大的力量用在尋求和平……真是太令人遺憾了。
+人類雖然具有無窮的可能性，但卻是非常危險的存在… 因為那無邊無際的欲望，所迷惑。
+聽說安特貝爾峽穀正被卡勒特包圍了。找回散落在那個地方的時間碎片，然後帶回來給我！`
+
+[condition message]
+	`擊敗安特貝爾峽谷地區的頭目，收集時間碎片，然後交給最後的先知者`
+
+[solve message]
+	`現在已經收集到很多時間碎片了。但是，目前要開啟最後的時間之門還很困難。`
+
+[quest point]
+	4

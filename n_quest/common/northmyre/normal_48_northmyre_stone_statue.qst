@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	48	99
+
+[pre required quest]
+	1475
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3217	10
+[/int data]
+
+[dungeon info]
+	50	-1	51	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+	7142	1	7147	1	7152	1	7157	1	7193	1	7630	1
+[/reward selection int data]
+
+[name]
+	`皇帝的大理石像`
+
+[depend message]
+	`我去那是……一定要說出來嗎？ 好吧， 我聽說諾斯瑪爾很繁華， 有黃金都市的美譽， 連它的皇帝都為它自豪呢……
+我還聽說那里的皇帝為表彰自己的功績， 把自己的大理石雕像建在諾斯瑪爾的每個角落。 而且那些雕像是用摻雜了黃金的大理石制作的， 那真是一個杰作啊！
+勇敢的冒險家， 你要是去那兒， 能幫我收集些石像的碎塊嗎？ 當然， 我會給你報酬的， 呵呵。 `
+
+[condition message]
+	`    收集10個[王之石像碎塊]。`
+
+[solve message]
+	`呵呵， 你總算回來了！ 這些都是我花錢從金罐那買來的， 你喜歡哪個就挑哪個吧。 `

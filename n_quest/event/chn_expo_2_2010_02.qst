@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	3
+
+[complete npc index]
+	3
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680389	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680384	2
+[/reward int data]
+
+[name]
+	`幸福之心`
+
+[depend message]
+	`歡迎光臨~有什么需要我幫忙的？
+噢， 你不是來買東西的呀？ 好吧， 看在你是做好事的份上， 我就幫你一次吧。
+賽麗亞已經跟你說了吧？ 你把那些紅色的牡丹花都送到我這兒來吧， 嘻嘻~我要讓阿拉德大陸變成最美麗的大陸！`
+
+[condition message]
+	`    前往任意地下城， 收集10個[紅色牡丹花]交給卡妮娜。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`冒險家~真是太感謝了~祝你每天都開心~`

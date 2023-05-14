@@ -1,0 +1,210 @@
+#PVF_File
+
+[name]
+	`暴君的斷頭臺`
+
+[basic explain]
+	`普通攻擊攻擊時以 5%%的機率讓敵人在 5秒內進入出血狀態
+狂亂錘擊終結時只要發動攻擊，最後一擊 物理攻擊力增加2倍，衝擊波物理攻擊力增加2倍
+出血狀態的敵人用狂亂錘擊攻擊時50%% 附加傷害
+出血狀態的敵人用疾風打技能攻擊時，以15%% 的機率技能的剩餘冷卻時間減少 1秒。
+用出血狀態的敵人斷空捶擊技能攻擊時，以 15%% 的機率技能的剩餘冷卻時間減少 1秒。`
+
+[detail explain]
+	`普通攻擊攻擊時敵人以 5%%的機率5秒內進入出血狀態，每 0.5秒以 10的攻擊力給予傷害。（高於Lv85的對象得到的機率減少，低於Lv85的對象則會增加。）
+只發動狂亂錘擊終結攻擊，最後一擊物理攻擊力增加2倍，衝擊波物理攻擊力增加2倍
+出血狀態的敵人以狂亂錘擊攻擊時50%% 附加傷害
+出血狀態的敵人以疾風打技能攻擊時，以15%%的機率，技能的剩餘冷卻時間減少 1秒。
+出血狀態的敵人用斷空捶擊技能攻擊時，以 15%% 的機率技能的剩餘冷卻時間減少 1秒。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[price]
+	153000
+
+[repair price]
+	128520
+
+[value]
+	122400
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	989	917
+
+[equipment magical attack]
+	700	649
+
+[separate attack]
+	504	343
+
+[skill levelup]
+	`[priest]`	47	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	88
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	26	1
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[if]
+	[my state]
+		`attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		5
+	[active status]
+		`bleeding`	85	100
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[use skill]
+		`priest`	85
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		15
+	[skill cooltime reset]
+		85
+		`%`	-15
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[use skill]
+		`priest`	111
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		15
+	[skill cooltime reset]
+		111
+		`%`	-15
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[use skill]
+		`priest`	49
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	50
+[/then]
+
+[skill data up]
+	`[priest]`	49
+	`[all]`
+	`[level]`	2
+	`%`	-75
+	`[priest]`	49
+	`[all]`
+	`[level]`	3
+	`%`	-87
+	`[priest]`	49
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[priest]`	49
+	`[all]`
+	`[level]`	5
+	`%`	100
+[/skill data up]
+
+[possible kiri protect]

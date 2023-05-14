@@ -1,0 +1,107 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`牛頭怪樂園`
+
+[explain]
+	`    牛頭怪最近的活動不太正常， 開始出現了一群大量的牛頭怪， 規模前所未有。 如果一直這樣下去， 這群牛頭怪的數量會變得更多， 甚至無法控制。 所以冒險家要在牛頭怪的規模變大之前， 減少牛頭怪的數量。`
+
+[entering title]
+	`Title/Lorien.ani`
+
+[cutscene image]
+	`Map/CutScene/Lorien.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act1.img`
+
+[worldmap pattern info]
+	1	1
+	`WorldMap/SelectdungeonSlot/cn_dungeonslot.img`	22
+
+[required item]
+	10005005	1	1
+[/required item]
+
+[event dungeon]
+	1
+
+[powerwar dungeon]
+	1
+
+[designate dungeon difficulty]
+	0
+
+[limit party count]
+	2
+
+[limit inout count]
+	3
+
+[gold card use]
+	0
+
+[recommended level]
+	27	90
+
+[minimum required level]
+	27
+
+[basis level]
+	50
+
+[experience increasing point]
+	16
+
+[champion]
+	0	0	0	0	0
+
+[prohibit practice]
+	1
+
+[pathgate object]
+	361	362	363	364	365	366	367	368	369	370
+
+[maze info]
+
+[size]
+	4	1
+
+[greed]
+	`BBFFFFEE`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	3	0
+[/boss map]
+
+[map specification]
+	0	0	26003
+[/map specification]
+
+[map specification]
+	1	0	26000
+[/map specification]
+
+[map specification]
+	2	0	26001
+[/map specification]
+
+[map specification]
+	3	0	26009
+[/map specification]
+
+[schedule]
+	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`ALL`
+	`00:00:00`
+	`23:59:59`
+[/schedule]

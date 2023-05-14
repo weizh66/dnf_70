@@ -1,0 +1,46 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/Heart/05_bloodagg_D.img`
+		0
+	[IMAGE POS]
+		-235	-167
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		180
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/Heart/05_bloodagg_D.img`
+		1
+	[IMAGE POS]
+		-235	-167
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		580
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase3/Heart/05_bloodagg_D.img`
+		2
+	[IMAGE POS]
+		-235	-167
+	[IMAGE RATE]
+		1.399999976158142	1.399999976158142
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		180

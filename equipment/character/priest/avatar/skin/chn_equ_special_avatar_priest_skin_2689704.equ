@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`巧克力色潮人皮膚`
+
+[explain]
+	`夏日風情  套裝2 (圣職者)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[icon]
+	`item/avatar/priest/pr_abody.img`	14
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0
+[/avatar type select]
+
+[avatar func filter]
+	2
+
+[hit recovery]
+	90
+
+[variation]
+	0	14
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	56801
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`
+	`+`	3.5
+[/avatar select ability]

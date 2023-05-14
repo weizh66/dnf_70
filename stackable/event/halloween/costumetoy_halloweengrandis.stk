@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`COS變裝玩具 (歌蘭蒂斯)`
+	
+
+[explain]
+	`    使用後， 可以變身為歌蘭蒂斯， 效果持續5分鐘。 此物品只能在城鎮中使用， 變身狀態下， 角色不可以移動， 否則變身效果會消失。`
+	
+
+[flavor text]
+	``
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	100
+
+[icon]
+	`Item/stackable/consumption.img`	336
+
+[stackable type]
+	`[disguise]`	0
+
+[cool time]
+	10000
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[string data]
+	`npc`
+[/string data]
+
+[int data]
+	45	300
+[/int data]

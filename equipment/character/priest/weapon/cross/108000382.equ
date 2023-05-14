@@ -1,0 +1,2471 @@
+#PVF_File
+
+[name]
+	`腐血之靈`
+
+[basic explain]
+	`    施放技能時， 減少3%%的HP， 使自身增加100點體力和精神。 (最多疊加一次，解除裝備效果消失）`
+
+[detail explain]
+	`    施放技能時， 減少3%%的HP， 使自身增加100點體力和精神。 (最多疊加一次，解除裝備效果消失）`
+
+[flavor text]
+	`    在最惡劣的情況下也要堅持自己的信仰`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[physical defense]
+	75
+
+[magical defense]
+	75
+
+[cast speed]
+	20
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	911	814
+
+[equipment magical attack]
+	865	773
+
+[equipment physical defense]
+	900	900
+
+[equipment magical defense]
+	900	900
+
+[separate attack]
+	552	363
+
+[skill levelup]
+	`[priest]`	45	3
+	`[priest]`	7	2
+	`[priest]`	53	2
+	`[priest]`	20	3
+	`[priest]`	23	5
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/priest/cross/cross.img`	100
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	36	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[event use skill]
+		`priest`	1
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	2
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	3
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	4
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	5
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	6
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	7
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	8
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	9
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	10
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	11
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	12
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	13
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	14
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	15
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	16
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	17
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	18
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	19
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	20
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	21
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	22
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	23
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	24
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	25
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	26
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	27
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	28
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	29
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	30
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	31
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	32
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	33
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	34
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	35
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	36
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	37
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	38
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	39
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	40
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	41
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	42
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	43
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	44
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	45
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	46
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	47
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	48
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	49
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	50
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	51
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	52
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	53
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	54
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	55
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	56
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	57
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	58
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	59
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	60
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	61
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	62
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	63
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	64
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	65
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	66
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	67
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	68
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	69
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	70
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	71
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	72
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	73
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	74
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	75
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	76
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	77
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	78
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	79
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	80
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	81
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	82
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	83
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	84
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	85
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	86
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	87
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	88
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	89
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	90
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	91
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	92
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	93
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	94
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	95
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	96
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	97
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	98
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	99
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	100
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	101
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	102
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	103
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	104
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	105
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	106
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	107
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	108
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	109
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	110
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	111
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	112
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	113
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	114
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	115
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	116
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	117
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	118
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	119
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	120
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	121
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	122
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	123
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	124
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	125
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	126
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	127
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	128
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	129
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	130
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		697
+	[restore]
+		`hp`
+		`%`	-3	0
+[/then]
+
+[possible kiri protect]

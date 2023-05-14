@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`地府獅子道袍[A型]`
+
+[explain]
+	`限定日期200萬紀念角色`
+
+[enable dye]
+	1	0
+
+[grade]
+	1
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_acoat.img`	91
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[skill levelup]
+	`[gunner]`	47	1
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	28	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[avatar func filter]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[usable period]
+	8

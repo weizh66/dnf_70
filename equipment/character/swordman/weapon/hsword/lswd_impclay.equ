@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	` 改良雙刃巨劍`
+
+[flavor text]
+	`羽呀。我們劍士不管是太刀也好，大劍也好，都要會使用。你要了解，不是只有快劍才厲害。--西嵐`
+
+[grade]
+	19
+
+[rarity]
+	1
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	19
+
+[physical attack]
+	12
+
+[attack speed]
+	-70
+
+[cast speed]
+	-20
+
+[price]
+	22800
+
+[repair price]
+	18240
+
+[value]
+	16416
+
+[equipment physical attack]
+	197	197
+
+[equipment magical attack]
+	148	148
+
+[separate attack]
+	91	58
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	11
+
+[field image]
+	`Item/FieldImage.img`	12
+
+[equipment type]
+	`[weapon]`	21
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`mswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`mswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`mswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`mswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[possible kiri protect]

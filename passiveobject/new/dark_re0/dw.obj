@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`書生定位器By Re0`
+
+[width]
+	0	0
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/dw.act`
+
+[follow parent]
+	`[parent]`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ME]`
+	[homing velocity]
+		600.0	10.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[homing direction]
+		0
+	[sync target move]
+[/homing]

@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`萬世榮光腰帶`
+
+[basic explain]
+	`物理攻擊力 +6%%
+魔法攻擊力 +6%%
+獨立攻擊力 +6%%`
+
+[flavor text]
+	`該裝備可以通過合成進行升級。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12585
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	110
+
+[magical attack]
+	100
+
+[need material]
+	3826	1000
+
+[inventory limit]
+	3000
+
+[price]
+	86400
+
+[repair price]
+	345600
+
+[value]
+	345600
+
+[creation rate]
+	125
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	1272	1164
+
+[all elemental attack]
+	20
+
+[icon]
+	`item/new_equipment/04_larmor/belt/larmor_belt.img`	61
+
+[field image]
+	`Item/field_equip.img`	8
+
+[equipment type]
+	`[waist]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1200
+
+[item group name]
+	`la waist`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	6
+	[stat by condition]
+		`magical attack bonus`
+		`%`	6
+	[stat by condition]
+		`separate attack`
+		`%`	6
+[/then]
+
+[possible kiri protect]

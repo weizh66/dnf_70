@@ -1,0 +1,169 @@
+#PVF_File
+
+[set name]
+	`血之洗禮  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	43
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	43
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[priest]`	73
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-600
+		`[priest]`	73
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1
+		`[priest]`	73
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[priest]`	107
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[priest]`	107
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	107
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[純白之刃]攻擊力 +15%%
+[勝利之矛]冷卻時間 -0.6秒
+[勝利之矛]穿刺敵人數量上限 +1
+[勝利之矛]最大蓄氣時， 穿刺敵人數量上限 +1
+[勝利之矛]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	74
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4000
+		`[priest]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	74
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	74
+		`[dungeon type]`
+		`[level]`	2
+		`+`	50
+		`[priest]`	74
+		`[dungeon type]`
+		`[level]`	3
+		`+`	1000
+		`[priest]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[priest]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[懺悔之錘]冷卻時間 -4秒
+[懺悔之錘]攻擊力 +15%%
+[懺悔之錘]懺悔幾率 +5%%
+[懺悔之錘]懺悔時間  +1秒
+[圣光沁盾]冷卻時間 -3秒
+[圣光沁盾]HP +10%%
+[圣光沁盾]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	81
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[priest]`	81
+		`[dungeon type]`
+		`[static]`	0
+		`%`	12
+		`[priest]`	81
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1000
+		`[priest]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	81
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[priest]`	81
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[priest]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4000
+		`[priest]`	28
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	28
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+		`[priest]`	28
+		`[dungeon type]`
+		`[level]`	4
+		`+`	300
+	[/skill data up]
+	[parameter basic explain]
+		`[正義審判]冷卻時間 -9秒
+[正義審判]魔法陣范圍 +12.5%%
+[正義審判]魔法陣持續時間上限 +1秒
+[正義審判]攻擊力 +10%%
+[圣光球]冷卻時間 -4秒
+[圣光球]攻擊力 +15%%
+[圣光球]眩暈Lv +2
+[圣光球]眩暈持續時間 +0.3秒`
+[/piece set ability]

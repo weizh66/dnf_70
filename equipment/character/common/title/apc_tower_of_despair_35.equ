@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`三隻熊`
+
+[explain]
+	`跌倒時，有5%%的機率使自身進入霸體狀態5秒。 （決鬥場不發動。)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	373
+
+[custom animation]
+	`TitleAnimation/apc_tower_of_despair_35.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	12
+
+[physical defense]
+	22
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[cooltime]
+		20000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[set my state]
+		1
+	[my state]
+		`down`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		5
+	[buff]
+		`superarmor`
+[/then]

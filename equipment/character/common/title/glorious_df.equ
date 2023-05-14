@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+	`DNF善戰者`
+
+[explain]
+	`  前沖時， 有5%%的幾率增加8%%的攻擊速度， 效果持續30秒。`
+
+[flavor text]
+	`<地下城與勇士2周年慶>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	55
+
+[custom animation]
+	`TitleAnimation/glorious.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	200
+
+[physical attack]
+	23
+
+[physical defense]
+	15
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[physical critical hit]
+	2
+
+[stuck]
+	-1
+
+[if]
+	[cooltime]
+		60000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`attack speed`
+		`+`	80
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

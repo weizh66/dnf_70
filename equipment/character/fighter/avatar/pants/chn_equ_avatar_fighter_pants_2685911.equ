@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`藍色海軍短裙`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_apants.img`	393
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	97	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[HP MAX]`
+	`+`	150
+	`[MP MAX]`
+	`+`	150
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`+`	300
+[/avatar select ability]

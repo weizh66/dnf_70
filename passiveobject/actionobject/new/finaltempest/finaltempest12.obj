@@ -1,0 +1,27 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	0
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/finaltempest12.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	7500
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

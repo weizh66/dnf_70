@@ -1,0 +1,48 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../../Animation/Gluttony/GluttonyStart_03.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[CHARACTER]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		0	1
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	0
+		[MOVE ME]
+	[/TELEPORT]
+	[SET ACTION]
+	[CUSTOM]
+		6
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	0
+		[MOVE ME]
+	[/TELEPORT]
+	[SET ACTION]
+	[CUSTOM]
+		7
+	[NOW]
+[/BEHAVIOR]

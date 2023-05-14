@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`黃金猛龍斗士長劍`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[usable period]
+	300
+
+[minimum level]
+	1
+
+[icon]
+	`item/weapon/swordman/katana.img`	81
+
+[equipment type]
+	`[waist avatar]`	0
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		27	0
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2790
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[move wav]
+		`SCRAP_TOUCH`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[part set index]
+	30003
+
+[all activestatus resistance]
+	20
+
+[stuck resistance]
+	60
+
+[avatar func filter]
+	2

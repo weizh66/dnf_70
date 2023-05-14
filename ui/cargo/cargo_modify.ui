@@ -1,0 +1,57 @@
+#PVF_File
+
+[ui controls]
+	`[text]`
+	`300`	2	38	1
+	`目前的密碼  ：`
+		9	0	150	0	0	0	0	255	255	255
+[/ui controls]
+
+[ui controls]
+	`[basic edit box]`
+	`301`	82	38	0	2	6	50
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`302`	75	57	1
+	`尋找密碼`
+		9	0	150	0	0	0	0	225	177	0
+[/ui controls]
+
+[ui controls]
+	`[button]`
+	`303`	58	56	1
+	`interface/windowcommon.img`	4	246	246	246	246
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`304`	2	79	1
+	`新密碼   ：`
+		9	0	150	0	0	0	0	255	255	255
+[/ui controls]
+
+[ui controls]
+	`[basic edit box]`
+	`305`	82	79	0	2	6	50
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`306`	2	100	1
+	`確認新密碼:`
+		9	0	150	0	0	0	0	255	255	255
+[/ui controls]
+
+[ui controls]
+	`[basic edit box]`
+	`307`	82	100	0	2	6	50
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`308`	9	154	1
+	`=- 若持續 使用 之前 使用過的 密碼 極有, 可能被 盜取 所以 盡可能     使用 新 的 密碼。`
+		9	0	340	0	0	0	0	221	197	147
+[/ui controls]

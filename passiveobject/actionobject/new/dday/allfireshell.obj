@@ -1,0 +1,29 @@
+#PVF_File
+
+[name]
+	`AllFireShell`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1500
+
+[basic action]
+	`Action/AllFireShell.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	4000
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

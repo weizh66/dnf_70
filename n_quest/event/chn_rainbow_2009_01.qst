@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	3
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[appear map]
+	-1	-1	-1	-1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680326	2
+[/int data]
+
+[reward int data]
+	2681014	1	2680327	5
+[/reward int data]
+
+[name]
+	`彩虹色的希望`
+
+[depend message]
+	`冒險家大人， 您聽說過七夕節嗎？
+阿拉德大陸有個傳說， 說天界曾有對非常恩愛的戀人， 男孩英勇善戰， 女孩美麗聰慧， 但因觸犯了暴龍王巴卡爾， 被巴卡爾用魔力變成了相隔十萬八千里的星星……
+在無盡的歲月中， 他們隔著廣闊的天空遙遙相望， 等待一年一次的相聚機會。 為了紀念這對戀人， 他們相聚的這一天被阿拉德大陸的人們稱為七夕情人節！
+呵呵， 又一年七夕節來臨啦， 我真的很希望天上的這對戀人和全天下的有情人在這一天都幸福快樂呢……冒險家大人， 您能幫我收集些彩色氣球嗎？`
+
+[condition message]
+	`    為延續卡妮娜的希望， 請收集2個[彩色氣球串]交給卡妮娜， 相關的設計圖可以在卡妮娜處購買。`
+
+[solve message]
+	`哇~！ 太漂亮了， 愿這些彩色氣球化作彩虹色的希望， 給予全世界的有情人一個美好的祝福！`
+
+[reward type]
+	`[item]`

@@ -1,0 +1,72 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Zig/zig_teleport.img`
+		2
+	[IMAGE POS]
+		-293	-453
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Zig/zig_teleport.img`
+		0
+	[IMAGE POS]
+		-293	-453
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Zig/zig_teleport.img`
+		0
+	[IMAGE POS]
+		-293	-453
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Zig/zig_teleport.img`
+		0
+	[IMAGE POS]
+		-293	-453
+	[RGBA]
+		255	255	255	76
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Zig/zig_teleport.img`
+		0
+	[IMAGE POS]
+		-293	-453
+	[RGBA]
+		255	255	255	12
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`

@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2446
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7342	11	7343	11	7344	11
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	7346	3	7347	3	7345	3
+[/reward selection int data]
+
+[name]
+	`企鵝圍巾的材料 (重復)`
+
+[depend message]
+	`很抱歉， 你上次找來的那些材料可能還不夠。 而且……怪物們在企鵝王國附近的活動也越來越頻繁了……
+時間緊迫！ 你能再幫助企鵝們找回更多的材料嗎？`
+
+[condition message]
+	`<七鉆閃耀活動>  前往任意的地下城， 收集11個[毛線團]、 11個[羽毛]和11瓶[紅色染色劑]交給莎蘭。 該任務完成后， 可以額外獲得QQ幸運抽獎券。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`非常感謝， 多虧你的幫忙， 企鵝王國現在不懼怪物入侵了。 這是它們的一點心意， 請你收下吧。`

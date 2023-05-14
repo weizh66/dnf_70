@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[difficulty]
+	`D`
+
+[ignore quest level 4 exp]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+	9608
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	1506	2	62116	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3119	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`通緝黑色瘟疫狄瑞吉`
+
+[depend message]
+	`原來是這樣,我可以把香水給你,不過不是現在
+香水調製需要時間,我現在有更緊急的事
+·············
+·············
+如果你很急的話,這是通緝令,你能幫我去完成的話,香水我現在就可以去做
+通緝令：通緝將列瑟芬變成死亡之村的黑色瘟疫狄瑞吉`
+
+[condition message]
+	`前往諾斯瑪爾的『痛苦之村列瑟芬』，擊敗領主黑色瘟疫狄瑞吉，要求地下城難度為王者級。`
+
+[solve message]
+	`辛苦了!這是已經調製完成的香水`
+
+[quest point]
+	0

@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	` 庫拉德的魔眼手鐲`
+
+[flavor text]
+	`虛心學習，也能向敵人學習。`
+
+[grade]
+	30
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	25
+
+[physical attack]
+	15
+
+[physical defense]
+	35
+
+[price]
+	36000
+
+[repair price]
+	28800
+
+[value]
+	28800
+
+[equipment magical defense]
+	1824	1536
+
+[skill levelup]
+	`[common]`	177	1
+[/skill levelup]
+
+[icon]
+	`Item/common/bracelet.img`	10
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[set name]
+	`庫拉德的魔眼首飾`
+
+[set item]
+	22103	24105
+[/set item]
+
+[set ability]
+	[MP regen speed]
+		6
+	[skill data up]
+		`[fighter]`	43
+		`[all]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[skill levelup]
+		`[common]`	177	1
+		`[fighter]`	43	1
+	[/skill levelup]
+	[fullset basic explain]
+		`[雙重投擲]持續時間增加30%%`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

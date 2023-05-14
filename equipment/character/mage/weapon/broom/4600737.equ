@@ -1,0 +1,200 @@
+#PVF_File
+
+[name]
+	`封·異魔封神掃把`
+
+[basic explain]
+	`找不到代?basic_explain_106040097`
+
+[flavor text]
+	`找不到代?flavor_text_106040097`
+
+[grade]
+	89
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[MP MAX]
+	1500
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	960	824
+
+[equipment magical attack]
+	1056	906
+
+[separate attack]
+	589	382
+
+[icon]
+	`item/new_equipment/01_weapon/mage/broom/broom.img`	94
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[required skill]
+	91
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		373
+[/then]
+
+[if]
+	[my appendage]
+		373
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	300
+		`magical attack`
+		`+`	3	210
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	500
+		`equipment magical attack`
+		`+`	4	280
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	700
+		`separate attack`
+		`+`	5	350
+[/then]
+
+[possible kiri protect]

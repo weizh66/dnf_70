@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`精·波動之輻巨棒`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。
+攻擊速度 +2%%`
+
+[detail explain]
+	`攻擊速度 +2%%
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒。 (若敵人高于Lv73， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[grade]
+	73
+
+[rarity]
+	5
+
+[part set index]
+	12
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	83
+
+[attack speed]
+	-10
+
+[stuck]
+	-1
+
+[anti evil]
+	20
+
+[repair price]
+	81849
+
+[value]
+	8120
+
+[equipment physical attack]
+	741	708
+
+[equipment magical attack]
+	640	612
+
+[separate attack]
+	368	249
+
+[icon]
+	`Item/weapon/swordman/club.img`	59
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	9	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	73
+[/then]
+
+[possible kiri protect]

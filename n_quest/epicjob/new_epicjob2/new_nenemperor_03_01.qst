@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 念皇 (4/6)`
+
+[depend message]
+	`身體恢復得如何？ 之前為了強行逼出念氣， 應該是元氣大傷吧。
+不過現在是不是覺得身體輕松多了？ 因為你已經把之前積累的那些渾濁的氣息都排出去了， 現在體內灌滿的是干凈純粹的自然氣息。 之前我對你說‘只有全部清空才能重新裝滿’就是這個意思。
+從現在開始， 你不能再按照以前的習慣， 利用紋身去釋放念氣， 而是要學習如何自然地循環念氣。
+畢竟都是好不容易獲得的純粹氣息， 怎能讓它再次變得渾濁呢？ 不過， 因為之前從未嘗試過， 可能一開始實際操作起來不太順手。 即使如此， 你也要反復嘗試， 這樣總比在死神的門口受盡折磨要強吧？
+好， 那我們開始修行吧。 這次就去參加魂·青龍大會吧。 跟那里的強者們學習如何使用念氣， 以及如何才能利用念氣打倒對手吧。
+那么， 你先去收集‘赫侖皇帝的印章’， 聽說有了它才有資格參加大會。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5358
+[/pre required quest]
+
+[relation quest]
+	5360
+
+[job change quest]
+	3
+
+[grow number]
+	0

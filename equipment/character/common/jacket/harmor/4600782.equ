@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`封·誓血之盟鎧甲`
+
+[basic explain]
+	`  裝備后，每5秒減少1%的HP
+  當HP低于80%時，會增加100點力量和智力。
+  HP從100%起每減少1%時，會額外增加10點力量和智力，以及0.4%的攻擊速度和釋放速度。（最多可增加500點力量和智力、14%的攻擊速度和釋放速度）`
+
+[flavor text]
+	`  不服solo，不過點到即止，別見血，我貧血。 --某個帝血弒天`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12575
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	42
+
+[physical defense]
+	31
+
+[magical attack]
+	39
+
+[need material]
+	3821	1000
+
+[price]
+	145600
+
+[repair price]
+	116480
+
+[value]
+	116480
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	4896	4464
+
+[skill levelup]
+	`[swordman]`	24	1
+	`[demonic swordman]`	24	1
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/05_harmor/coat/harmor_coat.img`	20
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[if]
+	[change status in range]
+		`hp`	100	1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`attack speed`
+		`+`	4	140
+	[apply status in range]
+		`cast speed`
+		`+`	6	210
+	[apply status in range]
+		`physical attack`
+		`+`	10	500
+	[apply status in range]
+		`magical attack`
+		`+`	10	500
+[/then]
+
+[if]
+	[time]
+		5000	1	1000
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-1	0
+[/then]
+
+[if]
+	[cooltime]
+		999999
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[stat change]
+		`hp`
+		`=<`
+		`%`	80
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat]
+		`physical attack`
+		`+`	100
+	[stat]
+		`magical attack`
+		`+`	100
+[/then]
+
+[possible kiri protect]

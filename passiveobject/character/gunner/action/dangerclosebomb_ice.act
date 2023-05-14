@@ -1,0 +1,46 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/DangerClose/DangerBoomIce_01.ani`
+	[SUB ANI]
+		`../Animation/DangerClose/DangerGroundEnd.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		200	3
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			265
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[freeze]
+		50	140	20000	0	200	1	500
+[/BEHAVIOR]

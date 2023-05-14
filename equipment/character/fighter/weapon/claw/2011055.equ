@@ -1,0 +1,1316 @@
+#PVF_File
+
+[name]
+	`萬毒噬心訣`
+
+[basic explain]
+	`技能攻擊力 +50%%
+中毒傷害大幅增強。
+死亡毒霧與伏虎霸王拳效果增強。`
+
+[detail explain]
+	`技能攻擊力 +50%%
+中毒傷害大幅增強。
+死亡毒霧與伏虎霸王拳效果增強。`
+
+[flavor text]
+	`萬毒纏繞我心，無藥可救。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[need material]
+	3850	500
+
+[physical attack]
+	120
+
+[magical attack]
+	120
+
+[need material]
+	3850	500
+
+[price]
+	500000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[anti evil]
+	22
+
+[equipment physical attack]
+	1560	1524
+
+[equipment magical attack]
+	1560	1524
+
+[separate attack]
+	987	987
+
+[physical critical hit]
+	10
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/claw/claw.img`	153
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	5
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	5
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	5
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	5
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	6
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	6
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	6
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	6
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	9
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	9
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	9
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	9
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	86
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	86
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	86
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	86
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	13
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	13
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[fighter]`	13
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	13
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	13
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	13
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[fighter]`	17
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	17
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	17
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	17
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	17
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	17
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	17
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	17
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	84
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	84
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	84
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	84
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	84
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	84
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	12
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	12
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	12
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[at fighter]`	12
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	58
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	58
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	80
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	80
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	4
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	4
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	4
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	1
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	1
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	19
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	19
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	19
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	19
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	19
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	83
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	83
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	83
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	68
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	68
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	68
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	82
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	82
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	82
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	82
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	82
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	82
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	82
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	71
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	41
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	41
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at fighter]`	41
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[fighter]`	102
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	102
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	102
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[fighter]`	102
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[at fighter]`	124
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	124
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	124
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	103
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	103
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	103
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	103
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	103
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	122
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	122
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	49
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	49
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	49
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	49
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	81
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	81
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	10
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	10
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	54
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	54
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	54
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	54
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	54
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	54
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	54
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	54
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	87
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	87
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	87
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	87
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	62
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	62
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	62
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	62
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	18
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	18
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	18
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	18
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	18
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	18
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	18
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	18
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	18
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	89
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	89
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	89
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	89
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	89
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	89
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at fighter]`	89
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	89
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	89
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	89
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	89
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	89
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[fighter]`	88
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[at fighter]`	88
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	88
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	88
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	63
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	63
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	63
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	63
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	63
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	63
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	63
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	63
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	63
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[fighter]`	101
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[at fighter]`	121
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	121
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	121
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	121
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	105
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	105
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	105
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	105
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	105
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	105
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	105
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[at fighter]`	118
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	118
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	11
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	11
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	78
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	78
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	69
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	69
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	40
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	40
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	15
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	15
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	16
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	16
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	79
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	79
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	79
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	79
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	79
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	79
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	79
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at fighter]`	79
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[fighter]`	90
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	90
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	90
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	90
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	90
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	67
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	67
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	67
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	67
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	98
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	98
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	117
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	117
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	100
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	100
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	150
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	111
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	3
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	3
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	3
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	3
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	3
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	38
+	`[all]`
+	`[level]`	4
+	`%`	10000
+	`[fighter]`	38
+	`[all]`
+	`[level]`	2
+	`%`	100
+	`[fighter]`	14
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[at fighter]`	38
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	38
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	38
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[fighter]`	75
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	75
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	75
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	75
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[at fighter]`	75
+	`[all]`
+	`[level]`	13
+	`%`	50
+	`[at fighter]`	75
+	`[all]`
+	`[level]`	14
+	`%`	50
+	`[fighter]`	60
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	60
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[at fighter]`	60
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	60
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	60
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	60
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	52
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	52
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[at fighter]`	52
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	106
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	106
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	76
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	76
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	76
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[fighter]`	76
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[at fighter]`	76
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	76
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	76
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at fighter]`	76
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[fighter]`	74
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	74
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[at fighter]`	74
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	74
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	77
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[fighter]`	77
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[at fighter]`	77
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[at fighter]`	77
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	64
+	`[all]`
+	`[level]`	0
+	`%`	100
+	`[fighter]`	64
+	`[all]`
+	`[level]`	1
+	`%`	200
+	`[fighter]`	64
+	`[all]`
+	`[level]`	2
+	`%`	2000
+	`[fighter]`	64
+	`[all]`
+	`[level]`	4
+	`%`	10000
+	`[at fighter]`	105
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	105
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	105
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[fighter]`	65
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	99
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	99
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	99
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	99
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[at fighter]`	119
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	104
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[fighter]`	104
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[fighter]`	104
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[fighter]`	104
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[fighter]`	104
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[fighter]`	104
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[at fighter]`	123
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at fighter]`	123
+	`[all]`
+	`[level]`	3
+	`%`	50
+[/skill data up]
+
+[possible kiri protect]

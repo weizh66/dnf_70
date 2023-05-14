@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	2	99
+
+[pre required quest]
+	102
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	2	-1	1	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	1106	5	1112	5
+[/reward int data]
+
+[reward selection int data]
+	27001	1	29901	1	31301	1	33902	1	35002	1	37003	1
+[/reward selection int data]
+
+[name]
+	`噪音公害`
+
+[depend message]
+	`噢， 還有一件事要請你幫忙。 你知道嗎？ 那些哥布林不知怎么了， 突然往洛蘭深處瘋狂聚集， 周邊地區已經陷入一片混亂了。
+你快去除掉它們吧！ 不然周邊的居民就要遭殃了！ `
+
+[condition message]
+	`    前往洛蘭地區的『洛蘭深處』， 殺死10只哥布林， 然后向林納斯回復。 (沿著艾爾文防線右側走， 就可以進入洛蘭深處地下城)`
+
+[solve message]
+	`哈哈， 你的身手還不錯啊！ 送你一件武器吧， 不要嫌棄我的手藝， 你肯定會喜歡它的， 呵呵！`
+
+[quest point]
+	4

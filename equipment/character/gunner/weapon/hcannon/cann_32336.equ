@@ -1,0 +1,161 @@
+#PVF_File
+
+[name]
+	`時空之主宰者`
+
+[basic explain]
+	`[潛能爆發]重火器命中率增加5%%
+ 攻擊時，有8%%的機率使敵人進入束縛狀態。`
+
+[detail explain]
+	`潛能爆發重火器命中率增加率增加5%%
+攻擊時以8%%的機率 2秒內讓敵人進入束縛狀態。 (若敵人高於Lv69，則減少進入異常狀態的機率和效果；反之，則增加機率和效果。)`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[creation rate]
+	30
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	69
+
+[price]
+	124200
+
+[repair price]
+	104328
+
+[value]
+	99360
+
+[equipment physical attack]
+	715	651
+
+[equipment magical attack]
+	429	391
+
+[separate attack]
+	389	264
+
+[skill levelup]
+	`[gunner]`	41	2
+	`[at gunner]`	41	2
+[/skill levelup]
+
+[light attack]
+	6
+
+[icon]
+	`item/weapon/gunner/hcannon.img`	56
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	11	5
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	11	5
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		8
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`hold`	69
+[/then]
+
+[skill data up]
+	`[gunner]`	62
+	`[all]`
+	`[level]`	1
+	`+`	50
+	`[at gunner]`	62
+	`[all]`
+	`[level]`	1
+	`+`	50
+[/skill data up]
+
+[possible kiri protect]

@@ -1,0 +1,41 @@
+#PVF_File
+
+[set name]
+	`陰影暗跡  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[theif]`	45
+		`[dungeon type]`
+		`[static]`	14
+		`+`	1
+		`[theif]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[theif]`	45
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	-1
+		`[theif]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[theif]`	34
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[theif]`	34
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[theif]`	34
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`雷光刃影不可能連續斬擊， 冷卻時間減少50%%， 無色小晶塊消耗量減少1 / 疾馳冷卻時間減少30%% 
+疾風亂舞多段攻擊次數增加6， 冷卻時間減少20%%， 無色小晶塊消耗量增加1 `
+[/piece set ability]

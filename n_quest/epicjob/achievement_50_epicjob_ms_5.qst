@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	1009
+
+[job]
+	`[gunner]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	937
+[/pre required quest]
+
+[monster reward item]
+	17	1500	-1	4159	1	25	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	939
+
+[name]
+	`覺醒 - 機械戰神 (3/4)`
+
+[depend message]
+	`如果能用上阿爾伯特的信號增幅器的話， 這個裝置就更完善了。 不過阿爾伯特那家伙是不會輕易把東西借給別人的……怎么辦呢？
+有了！ 那個自大的家伙， 如果你能夠打贏他， 為了面子， 他應該也會借給你的。 怎么樣， 敢不敢試試？`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`這是哪里冒出來的機器人……你不就是想要增幅器嘛？ 為什么一上來就動手動腳？ 真是……
+拿去拿去， 快走！
+什么？ 不會用？ 怎么這么笨啊！ 這個增幅器應該這樣……不對， 是這樣……
+好了， 現在試試看吧！`

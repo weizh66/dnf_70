@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`高人的恩賜 (聖職者)`
+	
+
+[explain]
+	`    使用後， 可以對周圍的玩家施加Buff(不包括自身和Lv70的角色)。 在城鎮內， Buff效果可以持續60分鐘， 但一旦通關一次地下城後， 效果就會消失。
+
+    Buff效果 : 力量 +50、 智力 +50、 HP最大值 +500、 MP最大值 +400 (依照不同角色的體力和精神， 實際增加的HP和MP值會有所差異)`
+	
+
+[flavor text]
+	`    恭喜你達到70級！！`
+	
+
+[grade]
+	70
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	70
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	626
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	43200000
+
+[cooltime group]
+	102
+
+[cooltime maintenance]
+	1	1	1
+
+[move wav]
+	`FOOD_TOUCH`

@@ -1,0 +1,82 @@
+#PVF_File
+
+[name]
+	`黃金冥月斗士頭盔`
+
+[explain]
+	`    要成為格斗之王， 除了擁有非凡的操作技術之外， 還要有廣闊的胸襟、 公正的姿態以及一顆勇敢的心。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_acap.img`	161
+
+[equipment type]
+	`[hat avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0	0	0	0	4500	2
+	`[A socket]`
+	`[A socket]`
+[/avatar type select]
+
+[variation]
+	61	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	300
+	`cap_d`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[set item master]
+	2740585
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[physical defense]
+	20
+
+[cast speed]
+	120
+
+[avatar func filter]
+	2

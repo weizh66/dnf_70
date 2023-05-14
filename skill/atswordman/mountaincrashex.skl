@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`mountain_crash_ex_name`
+
+[basic explain]
+	`mountain_crash_ex_basic_explain`
+
+[explain]
+	`mountain_crash_ex_explain`
+
+[basic explain ex]
+	`mountain_crash_ex_basic_explain2`
+
+[explain ex]
+	`mountain_crash_ex_explain2`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	3
+[/special purchase cost]
+
+[executable states]
+	`[stand]`
+	`[attack]`
+	`[dash]`
+	`[jump]`
+[/executable states]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[pre required skill]
+	7	10
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	84
+	`Character/Swordman/Effect/ATSkillIcon.img`	85
+
+[dungeon]
+	[static data]
+		100	3	10	500	900	130
+	[/static data]
+	[level info]
+		3	62	186	110	69	207	112	77	231	113	85	255	115	92	276	117	99	297	118	107	321	120	115	345	121	122	366	123	130	390	125	137	411	126	145	435	128	153	459	129	160	480	131	167	501	133	175	525	134	183	549	136	190	570	137	198	594	139	205	615	141	213	639	142	221	663	144	228	684	145	235	705	147	243	729	149	251	753	150	258	774	152	266	798	153	273	819	155	281	843	157	289	867	158	296	888	160	303	909	161	311	933	163	319	957	165	326	978	166	334	1002	168	341	1023	169	349	1047	171	356	1068	173	364	1092	174	371	1113	176	379	1137	177	387	1161	179	394	1182	181	401	1203	182	409	1227	184	417	1251	185	424	1272	187	432	1296	189	439	1317	190	447	1341	192	455	1365	193	462	1386	195	469	1407	197	477	1431	198	485	1455	200	492	1476	201	500	1500	203	507	1521	205	515	1545	206	523	1569	208	530	1590	209	537	1611	211	545	1635	213	553	1659	214	560	1680	216	568	1704	217	575	1725	219	583	1749	221
+	[/level info]
+	[special level up]
+		1	1
+		`+`	2	0	0
+		`-`	50
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[static data]
+		300	2	100	500	900
+	[/static data]
+	[level info]
+		3	31	19	100	35	21	102	39	23	103	43	26	105	46	28	107	50	30	109	54	32	110	58	35	112	61	37	114	65	39	116	69	41	117	73	44	119	77	46	121	80	48	122	84	50	124	88	53	126	92	55	128	95	57	129	99	59	131	103	62	133	107	64	134	111	66	136	114	68	138	118	71	140	122	73	141	126	75	143	129	77	145	133	80	147	137	82	148	141	84	150	145	87	152	148	89	153	152	91	155	156	93	157	160	96	159	163	98	160	167	100	162	171	102	164	175	105	166	178	107	167	182	109	169	186	111	171	190	114	172	194	116	174	197	118	176	201	120	178	205	123	179	209	125	181	212	127	183	216	130	184	220	132	186	224	134	188	228	137	190	231	139	191	235	141	193	239	143	195	243	146	197	246	148	198	250	150	200	254	152	202	258	155	203	262	157	205	265	159	207	269	161	209	273	164	210	277	166	212	280	168	214	284	170	215	288	173	217	292	175	219
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`mountain_crash_ex_level_property`	-1	0	1.0	-2	1	1.0	-1	2	1.0	2	2	1.0
+[/level property]

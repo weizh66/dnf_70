@@ -1,0 +1,71 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_circle.img`
+		0
+	[IMAGE POS]
+		-196	-329
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[RGBA]
+		255	0	94	204
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_circle.img`
+		0
+	[IMAGE POS]
+		-196	-356
+	[IMAGE RATE]
+		0.5	0.5
+	[RGBA]
+		255	0	94	153
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_circle.img`
+		0
+	[IMAGE POS]
+		-196	-372
+	[IMAGE RATE]
+		0.44999998807907104	0.44999998807907104
+	[RGBA]
+		255	0	94	102
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATTimeSlash/timeslash_circle.img`
+		0
+	[IMAGE POS]
+		-196	-393
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[RGBA]
+		255	0	94	76
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`

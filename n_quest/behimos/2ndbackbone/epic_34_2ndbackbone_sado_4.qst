@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	2
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	34	99
+
+[pre required quest]
+	37
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100	7586	1
+[/reward int data]
+
+[reward selection int data]
+	14071	1	14459	1	14858	1	15258	1	15637	1
+[/reward selection int data]
+
+[relation quest]
+	1
+
+[name]
+	`存在的使徒`
+
+[depend message]
+	`你不懂精靈語？ 呵呵， 那我就把蠟燭里的內容念給你聽吧。 這是從另一個世界留下的記憶， 記憶里的人稱自己為使徒。
+因某種原因， 一些使徒轉移到了阿拉德大陸。 不過這里沒有寫具體的轉移原因，只記載羅特斯殘害了生活在天帷巨獸神殿的人！
+呃， 還有其他使徒的名字， 他們是……狄瑞吉……我只能看懂他的名字……
+看來大陸發生的怪事和這些使徒的轉移有一定的關系， 你快把這消息告訴魔法公會會長莎蘭吧。 `
+
+[condition message]
+	`    找莎蘭談談。`
+
+[solve message]
+	`歡迎光臨！ 奇怪， 你身上怎么會有種邪惡的氣息？
+原來如此， 你說這一切都是因為‘使徒’的關系……嗯， 如果蠟燭里記載的文字都是真的， 那之前世間對于使徒的傳言就有可能都是事實。
+可惜我們對于使徒的了解還是太少了， 如果所有的使徒都像羅特斯一樣邪惡， 那么GBL教的災難就只是一個開始。
+總之現在最重要的就是先找到‘使徒’的蹤跡……唉， 不知道那個叫做‘狄瑞吉’的使徒會給我們帶來什么樣的災難……  `
+
+[quest point]
+	4

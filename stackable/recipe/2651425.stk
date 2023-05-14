@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`解放匕首設計圖`
+	
+
+[explain]
+	`有一定機率製作成功。 成功時維持強化/增幅/提鍊/魔法屬性，裝備變成封裝狀態。 失敗時除了武器之外的材料道具會消失。`
+	
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	84
+
+[weight]
+	10
+
+[price]
+	5000000
+
+[icon]
+	`Item/stackable/recipe.img`	28
+
+[field image]
+	`Item/FieldImage.img`	28
+
+[stackable type]
+	`[recipe]`	1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[int data]
+	6	109000042	1	10000204	15	10000327	75	10000224	1	3167	250	3042	100	1	109000043	1	0
+[/int data]
+
+[string data]
+	`[weaving]`
+[/string data]
+
+[success rate]
+	5
+
+[maintain ability]
+	1
+
+[broadcast type]
+	1
+
+[fail output]
+	109000042	1
+[/fail output]

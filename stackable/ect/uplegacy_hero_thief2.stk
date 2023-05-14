@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`古老的英雄袖珍罐 (暗夜使者武器)`
+
+[explain]
+	`從袖珍罐中隨機抽取一把Lv50以上的史詩級武器， 開啟袖珍罐需要消耗一定的金幣。 (該道具無法交易)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	4
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	768
+
+[field image]
+	`Item/field_consumption.img`	1
+
+[need material]
+	3314	1
+
+[stackable type]
+	`[upgradable legacy]`	1
+
+[price]
+	0
+
+[lottery use cost]
+	500000
+
+[int data]
+	37045	1	37046	4166	1	37047	4166	1	37048	4166	1	37081	4761	1	37092	4166	1	37096	4166	1	37343	4166	1	37344	4166	1	37345	4166	1	37346	4166	1	37375	4166	1	37383	4166	1	37386	4166	1	37643	4166	1	37644	4166	1	37645	4166	1	37646	4166	1	37676	4166	1	37684	4166	1	37688	4166	1	37109	4166	1	37397	4166	1	37698	4166	1
+[/int data]
+
+[move wav]
+	`BONE_TOUCH`

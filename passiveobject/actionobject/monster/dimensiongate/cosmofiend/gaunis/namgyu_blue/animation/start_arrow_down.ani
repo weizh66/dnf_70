@@ -1,0 +1,80 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Common/CommonEffect/commandeffect_font.img`
+		0
+	[IMAGE POS]
+		-146	-104
+	[IMAGE RATE]
+		3.0	3.0
+	[IMAGE ROTATE]
+		-1.570796012878418
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME001]
+	[IMAGE]
+		`Common/CommonEffect/commandeffect_font.img`
+		0
+	[IMAGE POS]
+		-150	-104
+	[IMAGE RATE]
+		2.5	2.5
+	[IMAGE ROTATE]
+		-1.570796012878418
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`Common/CommonEffect/commandeffect_font.img`
+		0
+	[IMAGE POS]
+		-150	-104
+	[IMAGE RATE]
+		2.0	2.0
+	[IMAGE ROTATE]
+		-1.570796012878418
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		`Common/CommonEffect/commandeffect_font.img`
+		0
+	[IMAGE POS]
+		-150	-104
+	[IMAGE RATE]
+		1.5	1.5
+	[IMAGE ROTATE]
+		-1.570796012878418
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME004]
+	[IMAGE]
+		`Common/CommonEffect/commandeffect_font.img`
+		0
+	[IMAGE POS]
+		-150	-104
+	[IMAGE ROTATE]
+		-1.570796012878418
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50

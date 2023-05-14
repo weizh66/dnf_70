@@ -1,0 +1,10 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/move.ani`
+	[SUB ANI]
+		`../animation/effect/move_backdodge.ani`	0	-1
+		`../animation/effect/move_dodge.ani`	0	1
+	[/SUB ANI]
+[/MOTION]

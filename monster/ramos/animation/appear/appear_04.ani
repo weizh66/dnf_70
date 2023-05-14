@@ -1,0 +1,97 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/Ramos/appear01.img`
+		1
+	[IMAGE POS]
+		-236	-245
+	[IMAGE RATE]
+		0.800000011920929	6.0
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/Ramos/appear01.img`
+		1
+	[IMAGE POS]
+		-236	-263
+	[IMAGE RATE]
+		1.7999999523162842	6.0
+	[RGBA]
+		255	255	255	178
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/Ramos/appear01.img`
+		1
+	[IMAGE POS]
+		-235	-266
+	[IMAGE RATE]
+		1.899999976158142	5.800000190734863
+	[RGBA]
+		255	255	255	127
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Mage/Effect/Ramos/appear01.img`
+		1
+	[IMAGE POS]
+		-236	-267
+	[IMAGE RATE]
+		2.0	6.0
+	[RGBA]
+		255	255	255	76
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Mage/Effect/Ramos/appear01.img`
+		1
+	[IMAGE POS]
+		-236	-269
+	[IMAGE RATE]
+		2.0999999046325684	6.0
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

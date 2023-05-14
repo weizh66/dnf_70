@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`索西雅特製的烤章魚丸`
+	
+
+[grade]
+	35
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	20
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	17
+
+[field image]
+	`Item/FieldImage.img`	21
+
+[stackable type]
+	`[waste]`	1
+
+[item group name]
+	`animal stuff`
+
+[price]
+	350
+
+[cool time]
+	10000
+
+[cooltime group]
+	2
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`+`	950	1000
+	`myself`

@@ -1,0 +1,97 @@
+#PVF_File
+
+[unit]
+	[title]
+		`達成40級的話，免費伺服器移動`
+		
+	[type]
+		`event`	0
+	[isNew]
+		1
+	[isOpen]
+		1
+	[startControlIdx]
+		100
+	[content ui]
+		`UI/Event/StarterServer/NoticeServerMove.ui`
+[/unit]
+
+[unit]
+	[title]
+		`只能夠培育到50級`
+		
+	[type]
+		`event`	1
+	[isNew]
+		1
+	[isOpen]
+		0
+	[startControlIdx]
+		200
+	[content ui]
+		`UI/Event/StarterServer/NoticeLevelLimit.ui`
+[/unit]
+
+[unit]
+	[title]
+		`組隊進行優惠`
+		
+	[type]
+		`event`	2
+	[isNew]
+		1
+	[isOpen]
+		0
+	[startControlIdx]
+		300
+	[content ui]
+		`UI/Event/StarterServer/NoticePartyPlay.ui`
+[/unit]
+
+[unit]
+	[title]
+		`體驗各種轉職後進行選擇`
+		
+	[type]
+		`event`	3
+	[isNew]
+		1
+	[isOpen]
+		0
+	[startControlIdx]
+		400
+	[content ui]
+		`UI/Event/StarterServer/NoticeClassChange.ui`
+[/unit]
+
+[unit]
+	[title]
+		`便利性強化`
+		
+	[type]
+		`event`	4
+	[isNew]
+		1
+	[isOpen]
+		0
+	[startControlIdx]
+		500
+	[content ui]
+		`UI/Event/StarterServer/NoticeUX.ui`
+[/unit]
+
+[unit]
+	[title]
+		`開端伺服器的優惠會持續進行。`
+		
+	[type]
+		`event`	5
+	[isNew]
+		1
+	[isOpen]
+		0
+	[startControlIdx]
+		600
+	[content ui]
+		`UI/Event/StarterServer/NoticeContinue.ui`
+[/unit]

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	8
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	426
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	1500	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 調查比爾馬克帝國試驗場`
+
+[depend message]
+	`現在進入正題！ 很早以前， 帝國在艾爾文防線建立了研制新兵器的試驗場。
+傳聞這個試驗場和這些年發生的異變、 格蘭之森的火災以及怪物發狂有密切關系！
+為了查明事情真相， 我被帝國的秘密組織派來收集線索。 但試驗場的怪物卻突然變得特別兇悍， 我沒有機會再深入調查， 你能幫我嗎？ `
+
+[condition message]
+	`    通關洛蘭地區的『比爾馬克帝國試驗場』。`
+
+[solve message]
+	`你去過比爾馬克帝國試驗場了？ 那些怪物很恐怖吧？`
+
+[quest point]
+	4

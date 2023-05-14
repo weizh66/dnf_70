@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`紅色兜帽夾克`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_acoat.img`	256
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	78	3
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	2400
+	`hair_c`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[SKILL_LEVEL]`
+	`[gunner]`	47	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	14	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	33	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	37	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	4	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	30	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	12	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	27	1
+	`[SKILL_LEVEL]`
+	`[common]`	177	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	6	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	3	1
+	`[SKILL_LEVEL]`
+	`[common]`	175	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	7	1
+	`[SKILL_LEVEL]`
+	`[common]`	176	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	13	1
+	`[SKILL_LEVEL]`
+	`[common]`	180	1
+	`[SKILL_LEVEL]`
+	`[gunner]`	56	1
+	`[SKILL_LEVEL]`
+	`[common]`	190	1
+[/avatar select ability]
+
+[image packs]
+	`Character/Gunner/Equipment/Avatar/coat/gn_coat0800a.img`
+[/image packs]

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20556
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680810	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680811	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神秘的粉末`
+
+[depend message]
+	`你也參與過不少變身實驗了， 相信對我的研究多少也有一些了解了。
+現在正是我實驗的關鍵階段， 急需大量材料進行分析。 我希望你能再幫我收集一些神秘的粉末~
+我想這點小小的要求， 你應該不會拒絕吧~`
+
+[condition message]
+	`    前往任意地下城， 收集[神秘的粉末]交給諾頓。 (神秘的粉末只有在變身狀態下擊殺怪物才能獲得)`
+
+[solve message]
+	`不錯不錯~竟然給我收集了這么多！ 看來我可以研究很長一段時間了~~謝謝啦！`

@@ -1,0 +1,123 @@
+#PVF_File
+
+[name]
+	`封·千珠碎影之蛛絲肩甲`
+
+[basic explain]
+	`  攻擊時有10%%的幾率使敵人進入減速狀態。
+  攻擊減速狀態的敵人時， 敵人的防禦力減少， 效果持續10秒。`
+
+[flavor text]
+	`  蜘蛛好可怕啊！ 嗚嗚……  --某個小女孩`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12576
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	84
+
+[physical defense]
+	31
+
+[magical attack]
+	75
+
+[need material]
+	3821	1000
+
+[price]
+	109200
+
+[repair price]
+	87360
+
+[value]
+	87360
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3264	2976
+
+[icon]
+	`item/new_equipment/05_harmor/neck/harmor_neck.img`	19
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[active status control info]
+	`slow`	0	12	20	0	0
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[duration]
+		3000
+	[active status]
+		`slow`	120	20	30
+[/then]
+
+[if]
+	[target active status]
+		`slow`
+	[attack success]
+		1
+	[cooltime]
+		8000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[appendage]
+		240
+[/then]
+
+[possible kiri protect]

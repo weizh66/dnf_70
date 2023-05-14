@@ -1,0 +1,39 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	70
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	255	256
+
+[type]
+	`[use item]`
+
+[int data]
+	1	2749396	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2747079	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`活動期間， 使用70次西瓜冰淇淋。`
+
+[condition data]
+	0
+	`使用次數 : %d/%d`
+[/condition data]

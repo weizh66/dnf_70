@@ -1,0 +1,44 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/reinforce.img`
+		0
+	[IMAGE POS]
+		-341	-320
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		400
+
+[FRAME001]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/reinforce.img`
+		0
+	[IMAGE POS]
+		-330	-350
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Monster/DarkelfTemple/Frogdile/reinforce.img`
+		1
+	[IMAGE POS]
+		-330	-370
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

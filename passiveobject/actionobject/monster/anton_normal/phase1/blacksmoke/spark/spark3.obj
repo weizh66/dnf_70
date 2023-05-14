@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`星火`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/spark_Basic.act`
+
+[etc action]
+	`Action/Etc_spark_0.act`
+	`Action/Etc_spark_1.act`
+	`Action/Etc_spark_2.act`
+	`Action/Etc_spark_3.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/spark_Basic.atk`
+
+[etc attack info]
+	``
+	``
+	``
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	15000
+[/object destroy condition]

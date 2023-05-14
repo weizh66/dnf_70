@@ -1,0 +1,56 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/Aura/18_summer/Circle.img`
+		1
+	[IMAGE POS]
+		-248	-313
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[RGBA]
+		129	0	0	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		600
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Common/Aura/18_summer/Circle.img`
+		1
+	[IMAGE POS]
+		-248	-313
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[RGBA]
+		255	63	10	12
+	[INTERPOLATION]
+		1
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Common/Aura/18_summer/Circle.img`
+		1
+	[IMAGE POS]
+		-248	-313
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[RGBA]
+		255	63	10	0
+	[INTERPOLATION]
+		1
+	[DAMAGE TYPE]
+		`NORMAL`

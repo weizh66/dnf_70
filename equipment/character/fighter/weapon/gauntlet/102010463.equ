@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`民兵隊長的變異之手`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率進入霸體狀態5秒， 並且使自身增加10%%的物理暴擊率和魔法暴擊率， 效果持續10秒。
+    暴擊傷害 +20%% `
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率進入霸體狀態5秒， 並且使自身增加10%%的物理暴擊率和魔法暴擊率， 效果持續10秒。
+    暴擊傷害 +20%% (冷卻時間10秒； 暴擊傷害加成效果取最高值）`
+
+[flavor text]
+	`    雖然有幸存者， 可是已經……  --摩根`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	192
+
+[physical defense]
+	30
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1093	977
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/gauntlet/gauntlet.img`	107
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	22
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		10000
+	[appendage]
+		670
+	[appendage]
+		671
+[/then]
+
+[if]
+	[my appendage]
+		670
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[possible kiri protect]

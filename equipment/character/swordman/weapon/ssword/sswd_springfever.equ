@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	` 春陽融雪劍`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入睡眠狀態。
+這時，以5%%的機率使自身也進入睡眠狀態並恢復100點HP。`
+
+[detail explain]
+	`攻擊時，以2%%機率 6秒內使敵人陷入睡眠狀態。 (若敵人高於Lv22，則減少進入異常狀態的機率和效果；反之，則增加機率和效果)
+    敵人進入睡眠狀態時，有5%%的機率使自身進入睡眠狀態5秒，並恢復100點HP。`
+
+[flavor text]
+	` 蒐集春天睡午覺的動物的骨頭製成的骨頭劍！`
+
+[grade]
+	24
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	22
+
+[magical attack]
+	17
+
+[cast speed]
+	20
+
+[price]
+	33600
+
+[repair price]
+	26880
+
+[value]
+	26880
+
+[equipment physical attack]
+	217	201
+
+[equipment magical attack]
+	262	244
+
+[separate attack]
+	115	75
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	47	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	13
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`BONESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10800
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[reduce duration to human armor at pvp module]
+		75
+	[probability]
+		2
+	[active status]
+		`sleep`	22
+[/then]
+
+[possible kiri protect]

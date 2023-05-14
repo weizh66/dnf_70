@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`浪漫狂熱`
+
+[explain]
+	`人類型類型攻擊時500 附加傷害
+得到狀態異常時HP恢復1%% `
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	441
+
+[custom animation]
+	`TitleAnimation/romancemania.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move speed]
+	40
+
+[physical defense]
+	40
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[target type]
+		`human`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	500
+[/then]
+
+[if]
+	[cooltime]
+		5000
+	[my active status on]
+		`any`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	1	0
+[/then]

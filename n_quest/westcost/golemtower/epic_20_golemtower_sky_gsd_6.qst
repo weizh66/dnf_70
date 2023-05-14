@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	4309
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`天空之城的最上層 (1/2)`
+
+[depend message]
+	`天空之城是天界和阿拉德大陸往來交流的唯一通道……
+一千年前， 一個叫巴卡爾的非常壞~的混蛋掌控了天界， 并把天界和阿拉德大陸唯一的一條往來交流的通道給堵塞了。 之后還用自己的魔法創造了一大堆生命體， 讓它們守衛天空之城。
+ <npc::7> 那么……我的鬼手對天空之城的氣息有感應， 也是和巴卡爾那家伙有關？
+ <npc::17> 這個， 我還真不清楚。 如果你想知道真相， 最好去找天空之城的賽格哈特， 它也是巴卡爾用魔法創造的生命體。
+ <npc::7> 賽格哈特啊…… 我不能離開太長時間， 這位年輕人會替我和你一起去。 年輕人， 你能辦到吧?
+呵呵， 你身上散發的氣息告訴我， 你能勝任的。`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』， 要求地下城難度為王者級。`
+
+[solve message]
+	`哎呀， 怪不得G.S.D對你贊不絕口呢， 你果然有點實力呀~`
+
+[quest point]
+	4

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20521	20522	20523
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680380	50	2680381	50	2680382	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2681081	1
+[/reward int data]
+
+[name]
+	`阿拉德環保衛士`
+
+[depend message]
+	`冒險家， 多虧你幫忙， 阿拉德大陸的環境比以前好多了！
+真的很感謝， 我想讓所有的冒險家知道， 你是一個充滿環保之心的人。
+另外， 如果你繼續幫我收集那些東西， 我就代表阿拉德大陸的居民給你頒發一個勛章， 這可是阿拉德環保者的最高榮譽哦~`
+
+[condition message]
+	`    收集50個[變質的食物]、 50個[干電池]和50個[塑料和廢紙]交給賽麗亞。`
+
+[solve message]
+	`多謝你， 請你收下這個環保衛士榮譽勛章吧~`

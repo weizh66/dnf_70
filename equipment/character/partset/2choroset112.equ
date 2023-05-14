@@ -1,0 +1,172 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[火遁 · 炎天道]攻擊力 +25%%
+[火遁 · 炎天道]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	9
+		`+`	1
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	10
+		`%`	-20
+		`[thief]`	91
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-100
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-100
+		`[thief]`	85
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	7
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	9
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	11
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	13
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[火遁 · 炎天道]火焰球爆炸數 +1
+[火遁 · 炎天道]爆炸延遲 -20%%
+[火遁 · 炎天道]冷卻時間 -20%%
+    刪除[火遁 · 炎天道]的地面爆炸攻擊力和空中生成火焰球的攻擊力。
+[火遁·紅蓮]技能攻擊力增加量 +10%%
+[火遁·颶風煞]忍術追加效果 +1%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	9
+		`+`	1
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	11
+		`%`	-100
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	13
+		`%`	10
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	14
+		`%`	10
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	15
+		`%`	10
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	16
+		`%`	10
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	17
+		`%`	10
+		`[thief]`	91
+		`[dungeon type]`
+		`[static]`	18
+		`%`	10
+		`[thief]`	91
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	2
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	7
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	9
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	11
+		`+`	1
+		`[thief]`	87
+		`[dungeon type]`
+		`[level]`	13
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[火遁 · 炎天道]火焰球爆炸數 +1
+[火遁 · 炎天道]爆炸間隔距離 -100%%
+[火遁 · 炎天道]攻擊力 +25%%
+[火遁 · 炎天道]結印增加時， 爆炸大小增加率 +10%%
+[火遁 · 炎天道]無色小晶塊消耗量 +2
+[火遁 · 颶風煞]忍術追加效果 +1%%`
+[/piece set ability]

@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+	`丈八蛇矛`
+
+[explain]
+	`攻擊時， 附加12%%的傷害。`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	50
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_red_cn.img`	35
+
+[field image]
+	`Item/field_creature.img`	0
+
+[equipment type]
+	`[artifact red]`	15
+
+[sub type]
+	0
+
+[need material]
+	3836	1000
+
+[creature physical attack]
+	1000
+
+[anti evil]
+	10
+
+[separate attack]
+	80	80
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	12
+[/then]
+
+[cool time]
+	10000
+
+[move wav]
+	`BONE_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

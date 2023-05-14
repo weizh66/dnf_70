@@ -1,0 +1,145 @@
+#PVF_File
+
+[name]
+	`幽冥玄鐵胸甲`
+
+[flavor text]
+	`在非常深的黑暗處發現的用鐵製的盔甲。`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	27
+
+[physical defense]
+	29
+
+[magical attack]
+	27
+
+[stuck]
+	-1
+
+[stuck resistance]
+	10
+
+[price]
+	86800
+
+[repair price]
+	76557
+
+[value]
+	24700
+
+[equipment physical defense]
+	4200	3840
+
+[dark resistance]
+	10
+
+[icon]
+	`Item/common/coat.img`	110
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`玄鐵套裝`
+
+[set item]
+	11672	13670	15669	17665	19671
+[/set item]
+
+[set ability]
+	[physical attack]
+		45
+	[magical attack]
+		45
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			20000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			73
+		[active status]
+			`curse`	55	75	75	75	75
+	[/then]
+	[if]
+		[cooltime]
+			60000
+		[element]
+			`dark`
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			60000
+		[probability]
+			3
+		[stat]
+			`physical attack`
+			`+`	50
+	[/then]
+	[fullset basic explain]
+		`被攻擊時，以3%%的機率使敵人進入詛咒狀態。
+被暗屬性攻擊時，以3%%的機率使自身增加50點力量，效果持續60秒。`
+	[fullset detail explain]
+		`被攻擊時以3%% 的機率20秒內讓敵人進入詛咒狀態，力量減少50，體力減少 50，智力減少50，精神減少50。(若敵人高於Lv55，則減少進入異常狀態的幾率；反之，則增加機率。)
+ 被暗屬性攻擊時，有3%%的幾率使自身增加50點力量，效果持續60秒。`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

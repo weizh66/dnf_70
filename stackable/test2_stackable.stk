@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`犒蠱2`
+
+[explain]
+	`( HP犒 樓紫 褸 替葡, MP 犒 樓紫朝 緒葷 )`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/IconStackable.img`	0
+
+[field image]
+	`Item/FieldImage.img`	21
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`+`	1000	10000
+	`party`
+
+[mp recovery]
+	`%`	30	1000
+	`party`

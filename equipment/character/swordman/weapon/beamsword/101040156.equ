@@ -1,0 +1,161 @@
+#PVF_File
+
+[name]
+	`邪念之息 - 暗湧`
+
+[basic explain]
+	`  破招攻擊時， 可以向400px範圍內的所有敵人施放邪念爆炸。 (冷卻時間1秒)`
+
+[flavor text]
+	`  這股邪念太可怕了， 感覺任何東西甚至是情感都會被吞噬得一`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	847	757
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	10
+
+[dark attack]
+	18
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	101
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	36	1
+
+[layer variation]
+	2790
+	`beamswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`beamswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	36	1
+
+[layer variation]
+	2790
+	`beamswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`beamswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[routing priority]
+	`swordman`	1
+	`demonic swordman`	0
+[/routing priority]
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		1000
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[passive object]
+		25013	0	0	0	999	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

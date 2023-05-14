@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[target character]
+	`[at mage]`	-1	-1
+	`[mage]`	-1	-1
+[/target character]
+
+[level]
+	8	99
+
+[pre required quest]
+	534
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	9	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	33377	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神奇的魔法 - 第五次冒險`
+
+[depend message]
+	`小魔法師， 你聽說了那瘋掉的魔法師姐妹的事了嗎？ 原本心靈單純的倆姐妹進入叢林后， 不知道修煉了什么魔法， 最后都瘋掉了！
+我們想調查事情的真相， 但那里太危險了， 沒人愿意去！ 你想去嗎？ 如果你想去， 一定要小心。
+那倆姐妹進叢林前就有很強的魔力了……現在又被奇異的力量影響， 估計你不是她們的對手。 `
+
+[condition message]
+	`    通關格蘭之森的『冰霜幽暗密林』， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`回來了？ 找到克拉赫了嗎？ `
+
+[quest point]
+	4

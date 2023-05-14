@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	`獵食者的咆哮`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入出血狀態， 并使自身增加力量和物理暴擊率。`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入出血狀態12秒， 出血狀態下的敵人， 每0.5秒會受到40點傷害； 同時還會使自身增加15點力量和10%%的物理暴擊率， 效果持續12秒。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	63
+
+[rarity]
+	5
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	69
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[anti evil]
+	8
+
+[need material]
+	3228	60
+
+[repair price]
+	84672
+
+[value]
+	80640
+
+[equipment physical attack]
+	667	638
+
+[equipment magical attack]
+	500	479
+
+[separate attack]
+	314	212
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	38
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		12000
+	[probability]
+		2
+	[active status]
+		`bleeding`	60	1250
+	[target]
+		`myself`	-1
+	[stat]
+		`physical attack`
+		`+`	22
+	[stat]
+		`physical critical hit rate`
+		`+`	10
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,48 @@
+#PVF_File
+
+[guide]
+	[character job]
+		`[all]`
+		`none`
+		[text info]
+			[text]
+				`[左鍵點擊]可以學習技能`
+			[color]
+				230	200	155
+			[level range]
+				1	-1
+		[/text info]
+		[text info]
+			[text]
+				`[右鍵點擊]可以提升或減少技能Lv`
+			[color]
+				230	200	155
+			[level range]
+				1	-1
+		[/text info]
+		[text info]
+			[text]
+				`[Shift + 左鍵點擊]可以將技能提升至可學的最高Lv`
+			[color]
+				230	200	155
+			[level range]
+				1	-1
+		[/text info]
+		[text info]
+			[text]
+				`[Ctrl + 左鍵點擊]可以學習前置技能`
+			[color]
+				230	200	155
+			[level range]
+				1	-1
+		[/text info]
+		[text info]
+			[text]
+				`[Alt + 左鍵點擊]可以設置技能冷卻提示`
+			[color]
+				230	200	155
+			[level range]
+				1	-1
+		[/text info]
+	[/character job]
+[/guide]

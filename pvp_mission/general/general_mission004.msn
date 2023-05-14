@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	1
+
+[grade]
+	`[normal]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	3
+
+[next mission]
+	5
+
+[name_text]
+	`[個人戰]鬥士的旅程3`
+	
+
+[cond_text]
+	`個人戰合計完成200場競賽`
+	
+
+[condition]
+	`[join]`	1	200	-1
+[/condition]
+
+[reward item]
+	2601134	1
+[/reward item]

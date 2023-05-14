@@ -1,0 +1,263 @@
+#PVF_File
+
+[set name]
+	`元素災難  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	17
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	600
+		`[mage]`	17
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[mage]`	17
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	450
+		`[mage]`	18
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[mage]`	18
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[mage]`	18
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[mage]`	18
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[mage]`	18
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[mage]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[光電鰻]冷卻時間 +0.6秒
+[光電鰻]發射數 +1
+[光電鰻]蓄氣時間 +30%%
+[光電鰻]存在時間 +40%%
+[光電鰻]大小 +30%%
+[光電鰻]攻擊力 +20%%
+[暗影夜貓]冷卻時間 +0.45秒
+[暗影夜貓]蓄氣時間 +30%%
+[暗影夜貓]發射距離 +20%%
+[暗影夜貓]大小 +20%%
+[暗影夜貓]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	500
+		`[mage]`	31
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	600
+		`[mage]`	26
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[mage]`	26
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	26
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	26
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	26
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	26
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	154
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[mage]`	154
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[雷旋]冷卻時間 +0.5秒
+[雷旋]蓄氣時間 +20%%
+[雷旋]大小 +30%%
+[雷旋]攻擊力 +20%%
+[虛無之球]冷卻時間 +0.6秒
+[虛無之球]蓄氣時間 +20%%
+[虛無之球]存在時間 +30%%
+[虛無之球]大小 +30%%
+[虛無之球]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	55
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	2000
+		`[mage]`	55
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	1
+		`+`	1
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	4000
+		`[mage]`	58
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[mage]`	58
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	9
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[天雷]冷卻時間 +2秒
+[天雷]蓄氣時間 +20%%
+[天雷]閃電數 +1
+[天雷]攻擊力 +20%%
+[湮滅黑洞]冷卻時間 +4秒
+[湮滅黑洞]蓄氣時間 +20%%
+[湮滅黑洞]吸附范圍 +30%%
+[湮滅黑洞]吸附力 +30%%
+[湮滅黑洞]傷害時間 +30%%
+[湮滅黑洞]攻擊力 +20%%`
+[/piece set ability]

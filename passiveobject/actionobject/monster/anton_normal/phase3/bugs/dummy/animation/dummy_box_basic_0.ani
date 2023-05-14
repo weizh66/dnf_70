@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/Fire_bug.img`
+		7
+	[IMAGE POS]
+		-215	-295
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-60	-19	-20	113	38	338
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/Fire_bug.img`
+		7
+	[IMAGE POS]
+		-215	-295
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-60	-19	-20	113	38	338

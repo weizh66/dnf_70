@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+	`5周年紀念銅手鐲`
+
+[explain]
+	`    物理、 魔法傷害 +3%%
+    為紀念DNF五周年而特別制作的手鐲， 造型精美， 值得一生珍藏。`
+
+[grade]
+	14
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	10
+
+[value]
+	0
+
+[creation rate]
+	0
+
+[icon]
+	`Item/common/bracelet_cn.img`	18
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[equipment magical defense]
+	1000	1000
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	3
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

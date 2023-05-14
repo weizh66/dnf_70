@@ -1,0 +1,92 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	59	99
+
+[pre required quest]
+	4357
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[quest point]
+	14
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	6809	412
+[/int data]
+
+[dungeon info]
+	1501	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 與阿甘左同行`
+
+[depend message]
+	`阿甘左~！ 冒險家回來了。
+ <apc::410> 真是煩人啊， 你一個人不是也能對付悲鳴洞穴的那些怪物嗎? 
+ 你非要跟我去的話， 我也不能攔你， 不過你不許再來煩我。
+ <npc::5> 您真的說服阿甘左了， 你別介意他的態度。 因為悲鳴洞穴對他來說， 是個傷心之地。
+你從悲鳴洞穴回來后， 再來找我吧。`
+
+[condition message]
+	`    與阿甘左一起通關洛蘭地區的『悲鳴洞穴』， 然后向索西雅回復， 要求地下城難度為王者級。 (此任務只能獨自進行)`
+
+[solve message]
+	`怎么樣了？ 悲鳴洞穴的問題解決了嗎？`
+
+[dialog]
+	0	0	6809	0	0	0	0
+	` <apc::412>現在的悲鳴洞穴和以前很不一樣……
+那時， 因希洛克的能量， 進入這里的人都感覺呼吸很困難。
+……
+ <npc::0>在想什么呢？
+ <apc::412>沒什么， 我不能再這樣失神了， 否則我的劍會變得更鈍……走吧！`
+[/dialog]

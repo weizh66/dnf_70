@@ -1,0 +1,223 @@
+#PVF_File
+
+[name]
+	`封·驚月流雲掃把`
+
+[basic explain]
+	`[蒼蠅拍]、 [超級蒼蠅拍]、 [暴炎加熱爐]、 [冰霜鉆孔車]、 [電鰻碰撞機]、 [反重力裝置]技能失敗率 -10%%
+[蒼蠅拍]、 [超級蒼蠅拍]、 [暴炎加熱爐]、 [冰霜鉆孔車]、 [電鰻碰撞機]、 [反重力裝置]大成功率 +10%%
+[熾炎星隕]、 [冰天震地]、 [風暴漩渦]能量消耗值 -25%%
+  攻擊時， 可對敵人附加15%%的傷害。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	62
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[need material]
+	3821	1400
+
+[price]
+	172000
+
+[repair price]
+	137600
+
+[value]
+	137600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	907	774
+
+[equipment magical attack]
+	998	851
+
+[separate attack]
+	555	359
+
+[skill levelup]
+	`[mage]`	95	3
+	`[mage]`	115	2
+	`[creator mage]`	250	3
+	`[creator mage]`	251	2
+[/skill levelup]
+
+[all elemental attack]
+	15
+
+[icon]
+	`item/new_equipment/01_weapon/mage/broom/broom.img`	78
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	27	1
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	27	1
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	4
+[/routing priority]
+
+[required skill]
+	91
+
+[skill data up]
+	`[mage]`	95
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	95
+	`[all]`
+	`[static]`	2
+	`+`	100
+	`[mage]`	115
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	115
+	`[all]`
+	`[static]`	2
+	`+`	100
+	`[mage]`	103
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	103
+	`[all]`
+	`[static]`	2
+	`+`	100
+	`[mage]`	104
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	104
+	`[all]`
+	`[static]`	2
+	`+`	100
+	`[mage]`	105
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	105
+	`[all]`
+	`[static]`	2
+	`+`	100
+	`[mage]`	106
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[mage]`	106
+	`[all]`
+	`[static]`	2
+	`+`	100
+	`[creator mage]`	133
+	`[all]`
+	`[static]`	2
+	`%`	-25
+	`[creator mage]`	136
+	`[all]`
+	`[static]`	1
+	`%`	-25
+	`[creator mage]`	249
+	`[all]`
+	`[static]`	2
+	`%`	-25
+[/skill data up]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[possible kiri protect]

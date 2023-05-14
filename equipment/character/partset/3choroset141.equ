@@ -1,0 +1,100 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	104
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-15
+		`[at mage]`	104
+		`[dungeon type]`
+		`[level]`	2
+		`%`	100
+		`[at mage]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	101
+		`[dungeon type]`
+		`[static]`	5
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[乖離 : 魅魔之舞]連擊次數 -15次
+[乖離 : 魅魔之舞]最后一擊攻擊力 +100%%
+[乖離 : 魅魔之舞]冷卻時間 -25%%
+    次元行者轉職技能命中時，奈雅麗Buff下的攻擊速度增加5%%。`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	98
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[at mage]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[at mage]`	105
+		`[dungeon type]`
+		`[static]`	0
+		`+`	6
+		`[at mage]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	110
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[時空壁障]技能攻擊力 +10%%
+[乖離 : 異界蜂群]蜂數 +6
+[乖離 : 異界蜂群]冷卻時間 -25%%
+[乖離 : 禁錮]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	105
+		`[dungeon type]`
+		`[static]`	0
+		`+`	10
+		`[at mage]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	105
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at mage]`	110
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	103
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	103
+		`[dungeon type]`
+		`[level]`	1
+		`+`	7
+		`[at mage]`	103
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[乖離 : 異界蜂群]蜂數 +10個
+[乖離 : 異界蜂群]冷卻時間 -30%% 
+[乖離 : 異界蜂群]無色小晶塊消耗量 +1
+[次元 : 思維聚爆]持續攻擊力攻擊次數 +7次
+[次元 : 思維聚爆]冷卻時間 -30%%
+[乖離 : 禁錮]冷卻時間 - 30%%`
+[/piece set ability]

@@ -1,0 +1,184 @@
+#PVF_File
+
+[name]
+	`神力增加`
+
+[basic explain]
+	`MP減少時根據剩餘的MP量魔法武器攻擊力減少1（基本魔法武器攻擊力 1 減少，最大減少100）
+MP 每MAX 500魔法武器攻擊力增加2（最大增加150）
+MP MAX增加20%% `
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[magical attack]
+	56
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	783	726
+
+[equipment magical attack]
+	948	879
+
+[separate attack]
+	504	343
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	98
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	22	1
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	1
+	`at fighter`	1
+[/routing priority]
+
+[if]
+	[change status in range]
+		`mp`	100	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`equipment magical attack`
+		`+`	-1	-100
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	500
+		`equipment magical attack`
+		`+`	2	150
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`mp max`
+		`%`	20
+[/then]
+
+[possible kiri protect]

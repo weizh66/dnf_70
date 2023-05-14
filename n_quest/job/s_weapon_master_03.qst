@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	7
+
+[complete npc index]
+	1008
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7801
+[/pre required quest]
+
+[collision quest]
+	7804	7808	7811
+[/collision quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1008
+[/int data]
+
+[dungeon info]
+	508	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7803
+
+[name]
+	`轉職 - 劍魂 (3/4)`
+
+[depend message]
+	`你覺得現在的自己可以自如地控制校正工具了嗎？
+如果可以的話， 就來月光修煉場找我吧。`
+
+[condition message]
+	`    獨自一人前往赫頓瑪爾市區里的『月光修煉場』， 接受G.S.D的考驗。 (可以從月光酒館進入地下城； 與里面的G.S.D對話即可完成任務)`
+
+[solve message]
+	`很好！ 你對校正工具的控制能達到這樣的程度， 實在是出乎我的意料。`

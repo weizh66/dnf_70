@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	11
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	18	99
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	12	-1	81	10	12	-1	82	10	12	-1	84	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`變成石像的冒險家`
+
+[depend message]
+	`……真是的！ 沒實力卻還非要跟大伙去挑戰天空之城。 看那些冒險家的樣子， 最多也只能上到人偶玄關。 與其被人偶師捉住變成石像， 妨礙冒險家， 還不如好好呆著呢。
+喂， 你也想想辦法吧。 如果你也變成石頭， 我就派其他人去了……`
+
+[condition message]
+	`    前往天空之城的『人偶玄關』， 消滅變成石像的神槍手、 魔法師和鬼劍士各10名。`
+
+[solve message]
+	`咦？ 你不是之前那個家伙嗎？ 你沒有變成石頭， 還是沒有上去？ 
+你說你成功了？ 啊哈， 不賴嘛！`

@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	22
+
+[grade]
+	`[daily]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[個人戰] 我要進行報仇`
+	
+
+[cond_text]
+	`個人戰落敗時，重新挑戰獲得1勝`
+	
+
+[condition]
+	`[revenge]`	1	1	-1
+[/condition]
+
+[reward item]
+	3312	3
+[/reward item]

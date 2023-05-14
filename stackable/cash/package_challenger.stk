@@ -1,0 +1,39 @@
+#PVF_File
+
+[name]
+	`挑戰者包裹`
+
+[explain]
+	`    如果在限定的期限內挑戰成功， 購買挑戰者包裹支付的費用將會返還成點券給購買者， 同時購買者還可以獲得[任務完成]的稱號獎勵。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	6
+
+[stackable type]
+	`[cera package]`	0
+
+[package data]
+	29	1	7	1	8	400	1	100	26050	1
+[/package data]
+
+[move wav]
+	`BONE_TOUCH`
+
+[npc gift disallowance]
+	1

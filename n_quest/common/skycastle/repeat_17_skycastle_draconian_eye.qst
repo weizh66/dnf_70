@@ -1,0 +1,55 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	17	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3128	8
+[/int data]
+
+[dungeon info]
+	11	-1	12	-1	13	-1	14	-1	15	-1	17	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3034	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`提取龍人之眼的魔力`
+
+[depend message]
+	`聽說天空之城的龍人擁有光的力量， 尤其是它們的眼睛。 你能幫我去收集些龍人之眼嗎？ 我知道那很危險， 但它對我的魔法研究太重要了， 所以拜托你了！`
+
+[condition message]
+	`    收集8個[龍人之眼]。`
+
+[solve message]
+	`這個就是龍人之眼？ 嗯， 好像真的藏有很強的魔力啊……`

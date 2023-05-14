@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680300	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680311	10	2680310	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`制作蛋糕胚 - 1`
+
+[depend message]
+	`地下城與勇士迎來1周年生日啦~啪啪啪~~時間過得真快呀， 轉眼我來這兒也有1年了， 想想就心情激動呢~
+呵呵， 在這樣喜慶的日子里， 怎么能缺少生日蛋糕呢， 所以這次我要發揮我的實力， 親自為大家做一個生日蛋糕。
+冒險家， 你能不能幫我收集一些材料呀？ 呵呵， 首先我要做的是生日蛋糕的核心--蛋糕胚， 麻煩你先幫我收集面粉吧。`
+
+[condition message]
+	`    前往任意的地下城， 收集10個[面粉]交給賽麗亞。`
+
+[solve message]
+	`呵呵， 光看顏色就知道這是優質的面粉~謝謝啦~`

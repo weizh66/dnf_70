@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`黃金幻靈戰神長矛`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/mage/spear.img`	87
+
+[icon mark]
+	`Item/IconMark_cn.img`	15
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		35	0
+	[layer variation]
+		2150
+		`at_speara`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[layer variation]
+		200
+		`at_speard`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[move wav]
+		`CLOTH_TOUCH`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/mage/weapon/spear/`
+[/expand ani]
+
+[avatar func filter]
+	2

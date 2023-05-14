@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	4055
+[/pre required quest]
+
+[monster reward item]
+	61267	93	0	4716	1	20	1	61267	93	0	4717	1	20	1	61267	93	0	4718	1	20	1	61267	93	1	4716	1	30	1	61267	93	1	4717	1	30	1	61267	93	1	4718	1	30	1	61267	93	2	4716	1	40	1	61267	93	2	4717	1	40	1	61267	93	2	4718	1	40	1	61267	93	3	4716	1	50	1	61267	93	3	4717	1	50	1	61267	93	3	4718	1	50	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4716	1	4717	1	4718	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`偽造的安祖·賽弗`
+
+[depend message]
+	`聽說真的安祖·賽弗很久以前就死了， 現在的這個其實是個機器人。 我想肯定是吉賽爾做了個模型冒充他， 因為卡勒特不能沒有精神支柱。
+雖然這些都只是我的推測， 不過只要能拿到安祖·賽弗身上的東西， 應該不難證實。`
+
+[condition message]
+	`    收集安祖·賽弗的數據， 交給梅爾文·里克特。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`呵呵， 有意思……這些材料顯示， 安祖·賽弗10年前就已經死了， 而目前控制他身體程序的人是蘭蒂盧斯……也就是說， 蘭蒂盧斯才是卡勒特真正的領導者……
+難道真是他策劃了這一切？ 不過吉賽爾又是從哪學來了這些技術？ 實在是有太多問號了……`
+
+[quest point]
+	4

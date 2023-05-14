@@ -1,0 +1,204 @@
+#PVF_File
+
+[name]
+	`牛頭械王的臂鎧`
+
+[basic explain]
+	` 反擊攻擊時，以5%%的機率使敵人進入眩暈狀態。
+ 反擊攻擊時，附加40%%的傷害。`
+
+[detail explain]
+	`破招攻擊時，有5%%的機率使敵人進入眩暈狀態3秒。 (若敵人高於Lv57，則減少進入異常狀態的機率；反之，則增加機率)
+反擊時敵人給予 40%%的附加傷害。(決鬥場內28%% 附加傷害)`
+
+[grade]
+	62
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	58
+
+[anti evil]
+	8
+
+[physical attack]
+	63
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[price]
+	111600
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[equipment physical attack]
+	701	629
+
+[equipment magical attack]
+	526	481
+
+[separate attack]
+	347	234
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	41
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		5
+	[active status]
+		`stun`	57
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	40
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			1000
+		[attack condition]
+			`counter`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[probability]
+			5
+		[active status]
+			`stun`	57
+	[/then]
+	[if]
+		[attack condition]
+			`counter`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	28
+	[/then]
+[/pvp]
+
+[possible kiri protect]

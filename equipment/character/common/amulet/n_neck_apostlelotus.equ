@@ -1,0 +1,123 @@
+#PVF_File
+
+[name]
+	` 羅特斯之心`
+
+[flavor text]
+	`使徒羅特斯的心臟永遠都不會停止跳動。`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[magical attack]
+	23
+
+[magical defense]
+	58
+
+[price]
+	66000
+
+[repair price]
+	52800
+
+[value]
+	52800
+
+[equipment magical defense]
+	5040	4560
+
+[all activestatus resistance]
+	30
+
+[icon]
+	`Item/common/necklace.img`	11
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[set name]
+	`羅特斯的殘念首飾`
+
+[set item]
+	20113	22108	24114
+[/set item]
+
+[set ability]
+	[if]
+		[cooltime]
+			10500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			3
+		[active status]
+			`any`	40
+	[/then]
+	[if]
+		[cooltime]
+			100000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			100000
+		[reduce duration at pvp module]
+			75
+		[probability]
+			5
+		[summon monster]
+			60100	50	1
+	[/then]
+	[fullset basic explain]
+		`攻擊時以3%% 的機率讓敵人進入 隨機狀態
+被攻擊時以 5%%的機率召喚1隻藍章魚`
+	[fullset detail explain]
+		`攻擊時以 3%% 的機率7秒內讓敵人進入隨機狀態。（高於Lv40的對象得到的機率和效果減少，低於Lv40的對象則會增加。） 
+被攻擊時以5%% 的機率100秒內召喚1隻Lv50藍章魚1隻攻擊敵人。（召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

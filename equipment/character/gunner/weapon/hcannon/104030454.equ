@@ -1,0 +1,250 @@
+#PVF_File
+
+[name]
+	`盜墓王珍藏的天界手炮`
+
+[basic explain]
+	`    [重火器精通]手炮攻擊力增加率 +20%%
+    [重火器精通]重疊次數上限 +2
+    [聚焦噴火器]攻擊力 +20%%
+    [聚焦噴火器]大小 +20%%
+    [鐳射炮]攻擊力 +20%%
+    [鐳射炮]大小 +15%%
+    [X-1壓縮量子炮]爆炸攻擊力 +20%%
+    [寒冰噴射器]多段攻擊 -15%%`
+
+[detail explain]
+	`    [重火器精通]手炮攻擊力增加率 +20%%
+    [重火器精通]重疊次數上限 +2
+    [聚焦噴火器]攻擊力 +20%%
+    [聚焦噴火器]大小 +20%%
+    [鐳射炮]攻擊力 +20%%
+    [鐳射炮]大小 +15%%
+    [X-1壓縮量子炮]爆炸攻擊力 +20%%
+    [寒冰噴射器]多段攻擊 -15%%`
+
+[flavor text]
+	`    沒想到這東西藏在這……  --麗貝卡`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	92
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	995	865
+
+[equipment magical attack]
+	597	519
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	105
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[skill data up]
+	`[gunner]`	21
+	`[all]`
+	`[static]`	11
+	`+`	2
+	`[gunner]`	21
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[gunner]`	36
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[gunner]`	36
+	`[all]`
+	`[level]`	4
+	`%`	20
+	`[gunner]`	36
+	`[all]`
+	`[static]`	3
+	`%`	20
+	`[gunner]`	39
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[gunner]`	39
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[gunner]`	39
+	`[all]`
+	`[static]`	2
+	`%`	15
+	`[gunner]`	71
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[gunner]`	71
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[gunner]`	71
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[gunner]`	71
+	`[all]`
+	`[level]`	3
+	`%`	20
+	`[gunner]`	107
+	`[all]`
+	`[level]`	2
+	`%`	-15
+	`[at gunner]`	21
+	`[all]`
+	`[static]`	11
+	`+`	2
+	`[at gunner]`	21
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[at gunner]`	36
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[at gunner]`	36
+	`[all]`
+	`[level]`	4
+	`%`	20
+	`[at gunner]`	36
+	`[all]`
+	`[static]`	3
+	`%`	20
+	`[at gunner]`	39
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[at gunner]`	39
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[at gunner]`	39
+	`[all]`
+	`[static]`	2
+	`%`	15
+	`[at gunner]`	71
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[at gunner]`	71
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[at gunner]`	71
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[at gunner]`	71
+	`[all]`
+	`[level]`	3
+	`%`	20
+	`[at gunner]`	107
+	`[all]`
+	`[level]`	2
+	`%`	-15
+[/skill data up]
+
+[possible kiri protect]

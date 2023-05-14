@@ -1,0 +1,163 @@
+#PVF_File
+
+[name]
+	`瘟疫之乾坤珠`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使敵人感染病毒。
+[壓制符]范圍 +20%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人感染病毒。 (在決斗場中無效)
+[壓制符]范圍 +20%%`
+
+[flavor text]
+	`    失去了陰陽相制的力量……真是可惜！  --式神先生·廣云`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rosary`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2500
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/priest/rosary.img`	57
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[magical attack]
+	71
+
+[equipment physical attack]
+	607	553
+
+[equipment magical attack]
+	775	706
+
+[separate attack]
+	411	278
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[magical critical hit]
+	2
+
+[skill data up]
+	`[priest]`	39
+	`[all]`
+	`[static]`	1
+	`%`	20
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	39	2
+	`[priest]`	48	2
+[/skill levelup]
+
+[variation]
+	13	3
+
+[layer variation]
+	201
+	`rosaryd1`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	202
+	`rosaryd2`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2791
+	`rosaryc1`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2792
+	`rosaryc2`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		100
+	[passive object]
+		48204	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

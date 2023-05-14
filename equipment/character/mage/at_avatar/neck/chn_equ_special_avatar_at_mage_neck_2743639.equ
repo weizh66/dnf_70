@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`木罐的斗篷 (男魔法師)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	3
+
+[icon]
+	`item/avatar/atmage/mm_aneck.img`	2
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar func filter]
+	0
+
+[sub type]
+	0
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[variation]
+	2	0
+
+[layer variation]
+	1975
+	`neck_x`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	600
+	`neck_d`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2

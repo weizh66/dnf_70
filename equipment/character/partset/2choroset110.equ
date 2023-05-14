@@ -1,0 +1,229 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	200
+		`%`	-100
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	210
+		`%`	-30
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	217
+		`%`	-30
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	207
+		`+`	15
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	214
+		`+`	15
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	3
+		`%`	5
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	4
+		`%`	5
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	224
+		`%`	-30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	217
+		`%`	-30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	221
+		`+`	15
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	214
+		`+`	15
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	207
+		`%`	-100
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	0
+		`%`	5
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	2
+		`%`	5
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	3
+		`%`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[魔靈召喚 : 旋轉小馮]攻擊冷卻時間 -30%%
+[魔靈召喚 : 旋轉小馮]攻擊力 +5%%
+[魔靈召喚 : 旋轉小馮]取消攻擊方式 - 旋轉
+[魔靈召喚 : 大富翁魯邦]攻擊冷卻時間 -30%%
+[魔靈召喚 : 大富翁魯邦]攻擊力 +5%%
+[魔靈召喚 : 大富翁魯邦]取消攻擊方式 - 黃金之手`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	210
+		`%`	-20
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	217
+		`%`	-20
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	207
+		`+`	10
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	214
+		`+`	10
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	3
+		`%`	5
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	4
+		`%`	5
+		`[knight]`	67
+		`[dungeon type]`
+		`[static]`	9
+		`%`	-30
+		`[knight]`	67
+		`[dungeon type]`
+		`[static]`	10
+		`%`	-30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	224
+		`%`	-30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	217
+		`%`	-30
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	221
+		`+`	15
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	214
+		`+`	15
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	200
+		`%`	-100
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	2
+		`%`	5
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	3
+		`%`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[魔靈召喚 : 旋轉小馮]攻擊冷卻時間 -20%%
+[魔靈召喚 : 旋轉小馮]攻擊力 +5%%
+[魔靈召喚 : 旋轉小馮]多段攻擊間隔 -30%%
+[魔靈召喚 : 大富翁魯邦]攻擊冷卻時間 -30%%
+[魔靈召喚 : 大富翁魯邦]攻擊力 +5%%
+[魔靈召喚 : 大富翁魯邦]取消攻擊方式 - 魔法硬幣`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	67
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-30
+		`[knight]`	67
+		`[dungeon type]`
+		`[static]`	9
+		`%`	-20
+		`[knight]`	67
+		`[dungeon type]`
+		`[static]`	10
+		`%`	-20
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[knight]`	67
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	224
+		`%`	-20
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	217
+		`%`	-20
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	221
+		`+`	10
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	214
+		`+`	10
+		`[knight]`	71
+		`[dungeon type]`
+		`[static]`	2
+		`+`	5
+		`[knight]`	71
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-50
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[knight]`	71
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[knight]`	71
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[魔靈召喚 : 旋轉小馮]攻擊力 +40%%
+[魔靈召喚 : 旋轉小馮]跳躍旋轉攻擊時， 跳躍高度 -30%%
+[魔靈召喚 : 旋轉小馮]多段攻擊間隔 -20%%
+[魔靈召喚 : 大富翁魯邦]攻擊力 +40%%
+[魔靈召喚 : 大富翁魯邦]攻擊冷卻時間 -20%%
+[魔靈召喚 : 大富翁魯邦]減少全梭攻擊間隔
+[魔靈召喚 : 大富翁魯邦]無色小晶塊消耗量 +1`
+[/piece set ability]

@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`血色殘陽斷骨護肩`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。`
+
+[detail explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。(冷卻時間20秒， 最大重疊3次；該效果與無法者的頭肩、腰帶鞋子共享；裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	11857
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	30
+
+[magical attack]
+	30
+
+[physical defense]
+	33
+
+[need material]
+	3824	30
+
+[price]
+	108000
+
+[repair price]
+	86400
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3920	3640
+
+[icon]
+	`item/new_equipment/06_plate/neck/plate_neck.img`	49
+
+[field image]
+	`Item/field_equip.img`	17
+
+[equipment type]
+	`[shoulder]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3200
+
+[item group name]
+	`mt shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[equipment duration]
+		15000
+	[appendage]
+		802
+[/then]
+
+[possible kiri protect]

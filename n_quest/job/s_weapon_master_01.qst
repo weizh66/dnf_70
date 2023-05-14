@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	0
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7804	7808	7811
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3098	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7801
+
+[name]
+	`轉職 - 劍魂 (1/4)`
+
+[depend message]
+	`劍魂？ 你想利用鬼手精通所有武器？ 這可不是一件簡單的事啊！
+一直以來， 劍魂為了掌握最精妙的劍術， 需要時刻忍受鬼手癥狀帶來的痛苦和逐漸變得畸形的左臂。
+不過利用校正工具倒是可以協助劍魂控制鬼手的魔性。 算你運氣好， 我這里剛好有校正工具， 你可以去找些小晶塊來和我換。`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給G.S.D。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！)`
+
+[solve message]
+	`嗯， 一切就緒， 我們開始吧！
+首先裝備好校正工具， 然后再集中精神到你的左手上……好！ 這樣就可以了！
+從今往后你就可以隨意使用各種武器了， 哪怕是最苛刻的光劍也沒有問題的！ `

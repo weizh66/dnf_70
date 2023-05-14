@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	1706
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	3128	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3056	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1708
+
+[name]
+	`身體修煉之路 (高級篇)`
+
+[depend message]
+	`聽說天空之城最近出現了一群有龍族血統的怪物， 好像叫龍人、 魯卡斯、 雷環休斯……嗯， 它們很適合做你的練習對手。
+你放心， 這次的測試不難！ 但有一點要記住， 那些龍人之眼是你殺死它們的證據！`
+
+[condition message]
+	`    收集30個[龍人之眼]。`
+
+[solve message]
+	`知道我為什么要你收集龍人之眼嗎？ 因為我喜歡。 不過你放心， 在這之前我已經收集到很多了， 我的倉庫都存滿了， 哦哈哈……`
+
+[quest point]
+	4

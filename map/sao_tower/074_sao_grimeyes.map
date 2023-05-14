@@ -1,0 +1,73 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`tile/sao_grim_01.til`
+	`tile/sao_grim_02.til`
+	`tile/sao_grim_03.til`
+	`tile/sao_grim_04.til`
+	`tile/sao_grim_05.til`
+	`tile/sao_grim_06.til`
+	`tile/sao_grim_07.til`
+[/tile]
+
+[pathgate pos]
+	602	634	0	0	0	0	0	0
+
+[dungeon start area]
+	625	182	78	42
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[animation]
+	`animation/sao_grim_far1.ani`
+	`[distantback]`	-1	-241	0
+	`animation/sao_grim_far2.ani`
+	`[distantback]`	784	-241	0
+	`animation/sao_grim_torch.ani`
+	`[closeback]`	259	-323	0
+	`animation/sao_grim_torchfire.ani`
+	`[normal]`	257	-329	0
+	`animation/sao_grim_torch.ani`
+	`[closeback]`	520	-397	0
+	`animation/sao_grim_torchfire.ani`
+	`[normal]`	518	-403	0
+	`animation/sao_grim_torch.ani`
+	`[closeback]`	895	-393	0
+	`animation/sao_grim_torchfire.ani`
+	`[normal]`	893	-399	0
+	`animation/sao_grim_torch.ani`
+	`[closeback]`	1136	-333	0
+	`animation/sao_grim_torchfire.ani`
+	`[normal]`	1134	-339	0
+[/animation]
+
+[monster]
+	64808	1	50	621	230	0	0	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[event monster position]
+	596	224	0	533	309	0	456	241	0	492	308	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

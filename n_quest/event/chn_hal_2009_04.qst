@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2484
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680345	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680346	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`萬圣節派對 - 4`
+
+[depend message]
+	`好了~現在我要開始做衣服了！
+這次的化妝舞會， 大家肯定會打扮得有趣又帥氣的。 而且這也是一個展現個人魅力的機會， 您千萬別錯過了哦。
+您別忘了給小朋友準備禮物哦！`
+
+[condition message]
+	`前往任意地下城， 收集25個[萬圣節派對用品]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`嘿嘿~我邀請的那些小朋友和客人都到齊啦， 看來可以開始舞會了。`

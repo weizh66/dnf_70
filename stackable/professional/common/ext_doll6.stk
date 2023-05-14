@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`至尊靈魂提取器`
+
+[explain]
+	`可以從稀有裝備中提取出冒險家靈魂。(85級以下的裝備)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	75
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	987
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[unlimited town and dungeon]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	1000
+
+[move wav]
+	`IRON_TOUCH`
+
+[expertjob only]
+	`doll_controller`	11
+[/expertjob only]
+
+[doll_controller extraction]
+	5

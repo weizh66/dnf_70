@@ -1,0 +1,27 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/09_5-N-floor_dodge.img`
+		0
+	[IMAGE POS]
+		-188	-121
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		240
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/09_5-N-floor_dodge.img`
+		0
+	[IMAGE POS]
+		-186	-51
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500

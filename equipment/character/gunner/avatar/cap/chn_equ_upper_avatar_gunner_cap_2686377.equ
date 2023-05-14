@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`黃金罐頭盔 (神槍手)`
+
+[flavor text]
+	`<師徒升級活動>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	20
+
+[icon]
+	`item/avatar/gunner/gn_acap.img`	159
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar func filter]
+	0
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[HP regen speed]
+	40
+
+[MP regen speed]
+	8
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[variation]
+	54	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`BONE_TOUCH`
+
+[part set index]
+	2
+
+[need material]
+	2680748	1

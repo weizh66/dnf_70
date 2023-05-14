@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	78	99
+
+[pre required quest]
+	4510
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	18017
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`克雷發電所`
+
+[depend message]
+	`好，那麼打鐵趁熱，馬上向發電所出發吧。先去最近的「克雷發電所」吧？我先到那裡等你。`
+
+[condition message]
+	`去克雷發電所找尼貝爾`
+
+[solve message]
+	`為了兵士們的安全，撤退了。大家都累了，戰鬥力非常低下。
+澤丁·施奈德得趕緊把巧克力派送過來，才能提高大家的氣勢啊…`
+
+[dialog]
+	0	0	18017	0	0	0	0
+	`<apc::11518>從這裡開始會有敵人埋伏。所以要時刻警惕周圍。
+安全罪重要，覺得不利要馬上撤退。不要太逞能… 好！出發！`
+[/dialog]
+
+[quest point]
+	4

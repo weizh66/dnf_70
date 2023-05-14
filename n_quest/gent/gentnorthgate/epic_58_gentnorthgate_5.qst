@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4260
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	88	1	10269	3	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	3000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`皇都軍的生機`
+
+[depend message]
+	`既然你已經學會了如何操縱機器， 那么可不可以請你助我們一臂之力？
+北門的各主要路口， 現在都設有堅固的障礙物， 部隊無法前行。 如果只是依靠人力拆除， 會損耗戰士們的體力， 對后續的作戰十分不利。
+但是， 如果能借助AT-5T 步行者的力量， 就能輕而易舉地清除那些障礙物， 所以拜托你了， 冒險家！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特北門』， 操作AT-5T 步行者清除10個障礙物，  要求地下城難度為冒險級以上。`
+
+[solve message]
+	`我已經接到報告， 感謝你為我們清除障礙。 我代表所有皇都軍， 向你致以最真摯的感謝！`
+
+[substitutive names]
+	`清除障礙物`
+[/substitutive names]
+
+[quest point]
+	4

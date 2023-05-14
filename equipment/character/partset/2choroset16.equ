@@ -1,0 +1,176 @@
+#PVF_File
+
+[set name]
+	`西林的念氣增幅  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-300
+		`[fighter]`	12
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-150
+		`[fighter]`	12
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	7
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[念氣波]冷卻時間 -0.5秒
+[念氣波]大小 +20%%
+[念氣波]攻擊力 +10%%
+格斗家(女) :
+[念氣波]冷卻時間 -0.3秒
+[念氣波]大小 +20%%
+[念氣波]減少施放后的僵直時間`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-200
+		`[fighter]`	12
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-100
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[fighter]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[fighter]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[fighter]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at fighter]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at fighter]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[at fighter]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[念氣波]冷卻時間 -0.5秒
+[蓄念炮]攻擊力增加率 +10%%
+[蓄念炮]冷卻時間 -2秒
+[蓄念炮]蓄氣時間 -50%%
+格斗家(女) :
+[念氣波]冷卻時間 -0.2秒
+[念氣波]減少施放后的僵直時間
+[蓄念炮]攻擊力增加率 +10%%
+[蓄念炮]冷卻時間 -2秒
+[蓄念炮]蓄氣時間 -50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-100
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[fighter]`	90
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[at fighter]`	90
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[fighter]`	90
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2000
+		`[fighter]`	90
+		`[dungeon type]`
+		`[static]`	2
+		`%`	10
+		`[fighter]`	90
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[fighter]`	90
+		`[dungeon type]`
+		`[static]`	5
+		`%`	10
+		`[fighter]`	90
+		`[dungeon type]`
+		`[static]`	6
+		`%`	10
+		`[fighter]`	90
+		`[dungeon type]`
+		`[static]`	7
+		`%`	10
+		`[fighter]`	90
+		`[dungeon type]`
+		`[static]`	9
+		`+`	3
+		`[at fighter]`	90
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2
+		`[fighter]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at fighter]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[螺旋念氣場]攻擊力 +10%%
+[念氣波]冷卻時間 -0.5秒
+[念獸 : 猛虎震地]冷卻時間 -15秒
+[念獸 : 猛虎震地]多段攻擊次數 +2
+格斗家(女) :
+[螺旋念氣場]攻擊力 +10%%
+[念氣波]冷卻時間 -0.1秒
+[念獸 : 雷龍出海]冷卻時間 -15秒
+[念獸 : 雷龍出海]持續時間 +2秒
+[念獸 : 雷龍出海]移動速度 +10%%
+[念獸 : 雷龍出海]龍身體個數 +3`
+[/piece set ability]

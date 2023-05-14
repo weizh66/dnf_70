@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	`傳承： 生命女神的黑鋼胸甲[活動]`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	35
+
+[physical attack]
+	20
+
+[physical defense]
+	17
+
+[stuck resistance]
+	15
+
+[MP MAX]
+	150
+
+[price]
+	0
+
+[repair price]
+	35520
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2400	2280
+
+[icon]
+	`Item/IconArmor.img`	109
+
+[field image]
+	`Item/field_equip.img`	15
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[magical attack]
+	28
+
+[set name]
+	`傳承： 生命女神的鈦合金套裝`
+
+[set item]
+	100090018	100140014	100290014
+[/set item]
+
+[item overpower part]
+
+[set ability]
+	[HP MAX]
+		200
+	[MP MAX]
+		200
+	[physical attack]
+		53
+	[magical attack]
+		53
+	[inventory limit]
+		5000
+	[move speed]
+		20
+	[attack speed]
+		20
+	[cast speed]
+		20
+	[if]
+		[cooltime]
+			30000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			2
+		[stat]
+			`stuck resistance`
+			`+`	70
+	[/then]
+	[fullset basic explain]
+		`被攻擊時，以2%%的機率使自身增加7%%的回避率，效果持續20秒。
+ 進入地下城時，因傳承的祝福可以使自身增加5%%的移動速度。`
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`move speed`
+			`+`	50
+	[/then]
+[/set ability]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[value]
+	39800
+
+[possible kiri protect]

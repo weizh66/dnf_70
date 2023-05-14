@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 芙蕾雅`
+
+[explain]
+	`人們的心情隨漫長的戰爭幹枯
+受傷的身體，失去的兄弟，被破壞的村莊和長埋於地下的摯友， 這些刻骨銘心的痛實在是太多。但戰場上至少有妳， 站在最前線帶領著大家走向勝利， 代表著勝利的妳是所有天界軍民的希望所在。
+妳宛如巨浪般，烈火般吞噬著敵人。
+敵人在妳面前屈膝投降，戰友們追隨著妳享受勝利的榮耀
+皇女賜名與妳戰場的女神壹樣的名字
+毫無畏懼的戰鬥吧！
+沒有人可以難倒妳！
+帶上全天界軍民的祝福勇敢的擋在敵人面前吧.`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		900118	0	0	0	0	0
+		``
+	[/passive object]
+[/then]

@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`洛克_名刀`
+
+[layer]
+	`[bottom]`
+
+[piercing power]
+	10000
+
+[basic action]
+	`Action/Janwellpa_Basic.act`
+
+[last action]
+	`Action/Janwellpa_Last.act`
+
+[etc action]
+	`Action/Etc_Janwellpa_0.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/Janwellpa_Basic.atk`
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	20000
+[/object destroy condition]

@@ -1,0 +1,27 @@
+#PVF_File
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[width]
+	30	0
+
+[team]
+	100
+
+[basic action]
+	`Action/TimeReset_Boom.act`
+
+[attack info]
+	`AttackInfo/BloodRivenExplosion.atk`
+
+[name]
+	`地?制作道具`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

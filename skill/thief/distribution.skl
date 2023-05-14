@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`月影突襲`
+
+[basic explain]
+	`向前方突進， 用肉眼看不見的速度攻擊敵人， 並將敵人聚集到中央。
+可消耗連擊點數發動[終結追擊]。`
+
+[explain]
+	`向前方突進， 用肉眼看不見的速度攻擊敵人， 並將敵人聚集到中央。
+可消耗連擊點數發動[終結追擊]。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	0	0	0	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	400
+	`Character/Thief/Effect/SkillIcon.img`	401
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[durability decrease rate]
+	25
+
+[consume MP]
+	800	6000
+
+[cool time]
+	60000	60000
+
+[static data]
+	200	450	100	10	200	2000	1000	500
+[/static data]
+
+[level info]
+	2	3340	6681	3680	7360	4019	8037	4357	8715	4696	9393	5035	10071	5374	10748	5714	11427	6052	12105	6391	12782	6730	13460	7069	14138	7407	14816	7746	15493	8086	16172	8425	16850	8764	17527	9102	18206	9441	18883	9780	19561	10120	20240	10459	20917	10797	21595	11136	22272	11475	22951	11814	23628	12152	24306	12492	24985	12831	25662	13170	26340	13509	27018	13847	27696	14186	28373	14526	29052	14865	29730	15204	30407	15542	31086	15881	31763	16220	32441	16559	33118
+[/level info]
+
+[level property]
+	1	99
+	`多段攻擊力 : <int>%% X <int>
+[終結追擊]攻擊力 : <int>%%`	-1	0	1.0	3	3	1.0	-1	1	1.0
+[/level property]

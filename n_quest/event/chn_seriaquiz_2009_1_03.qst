@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	7
+
+[complete npc index]
+	6
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4964
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`G.S.D的謎題`
+
+[depend message]
+	`那我就給你出謎題吧。
+謎題是 : 他是赫頓瑪爾格斗道場的場主， 同時他也是教導格斗家們格斗技術的大師！
+如果想知道他是誰， 你就去赫頓瑪爾市區找一個頭上戴著頭帶、 表情嚴肅的青年吧。`
+
+[condition message]
+	`    在赫頓瑪爾市區， 找到開格斗道場的青年。 (按<N>鍵可以讓您更容易找到目標)`
+
+[solve message]
+	`我是風拳流大師風振。
+如果你是格斗家， 而且想培養格斗家的基本素養或是轉職， 都可以來找我。`

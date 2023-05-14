@@ -1,0 +1,302 @@
+#PVF_File
+
+[name]
+	`封·陽劍 - 幹將`
+
+[basic explain]
+	`    ↑↓+[寵物技能鍵]輸入時， 發動陽氣的氣息， 效果持續60秒。 (消耗2個紅色小晶塊
+陽氣的氣息
+    - 使包括自身在內的隊員的武器附加光屬性和火屬性
+    - 使自身增加10%%的魔法暴擊率和30點火屬性強化。
+    - 每1點火屬性強化， 使自身增加1點光屬性強化。(最多增加70點）
+    - 暴擊攻擊時傷害+15%%
+    - 攻擊時， 附加20%%的火屬性傷害。（解除裝備後消失）`
+
+[detail explain]
+	`    ↑↓+[寵物技能鍵]輸入時， 發動陽氣的氣息， 效果持續60秒。 (消耗2個紅色小晶塊； 冷卻時間60秒)
+陽氣的氣息
+    - 使包括自身在內的隊員的武器附加光屬性和火屬性
+    - 使自身增加10%%的魔法暴擊率和30點火屬性強化。
+    - 每1點火屬性強化， 使自身增加1點光屬性強化。(最多增加70點）
+    - 暴擊攻擊時傷害+15%%（增加暴擊傷害類屬性僅適用於最高數值， 且無法疊加）
+    - 攻擊時， 附加20%%的火屬性傷害。（解除裝備後消失）`
+
+[flavor text]
+	`    據說來自某個文明古國， 是由那裏壹位叫幹將的鐵匠連同他的妻子壹起鍛造而成的。可惜後來被王殘忍殺害。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1152	989
+
+[equipment magical attack]
+	864	742
+
+[separate attack]
+	589	382
+
+[fire attack]
+	35
+
+[fire resistance]
+	15
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/lswd/lswd.img`	120
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	36	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	7
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[consume item]
+		3035	2
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		232
+[/then]
+
+[if]
+	[my appendage]
+		232
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		233
+[/then]
+
+[if]
+	[my appendage]
+		233
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[equipment duration]
+		60000
+	[elemental weapon]
+		`fire`
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[my appendage]
+		233
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[stat]
+		`fire attack`
+		`+`	30
+	[stat]
+		`physical critical hit`
+		`+`	10
+[/then]
+
+[if]
+	[my appendage]
+		233
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[stat change by stat]
+		`myself`	-1
+		`fire attack`	1
+		`light attack`
+		`+`	1	70
+[/then]
+
+[if]
+	[my appendage]
+		233
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	15
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	20
+[/then]
+
+[possible kiri protect]

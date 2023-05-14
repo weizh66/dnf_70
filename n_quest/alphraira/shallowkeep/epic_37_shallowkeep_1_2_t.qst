@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	64
+
+[complete npc index]
+	26
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[pre required quest]
+	4466
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	26
+[/int data]
+
+[dungeon info]
+	31	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	1080	5	1081	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`暗精靈的危機`
+
+[depend message]
+	`雖然沒有收到準確的情報， 但據我推測， 應該是性急的元老們向人類宣戰了。
+<npc::11>什么？ 我們向人類宣戰了？
+ <npc::12>難道梅婭女王也迫于元老的壓力妥協了？？
+<npc::64>女王……不會的， 我所了解的梅婭女王絕不是這么軟弱的人， 雖然她有時候也難以捉摸……
+元老們應該還沒有得到梅婭女王的許可， 元老們手握暗黑城的兵權， 如果得到女王的許可， 他們就不只是向人類宣戰了， 而是直接派兵。
+再說， 支持女王的勢力還是很多的。
+<npc::11>那我們該怎么做？ 人類不會歡迎我們的。
+<npc::12>雖然我們現在還和人類維持著良好的關系， 但在情況明朗之前， 我們也要小心。 因為我們也有可能遭到元老們的陷害……
+在元老們的眼中， 我們其實已經和人類無異了， 所以必須讓人類知道這一點。
+而且元老們已經開始驅趕我們了……
+<npc::0>那個……有什么需要我幫忙嗎？
+<npc::64>嗯， 我有事想找你幫忙。 你幫我去阿法利亞找克倫特吧， 我們幾個人現在不方便都去找他， 會引起注意的……
+克倫特……會告訴你接下來怎么做。 你要小心， 那里的人類對你可能會很警惕。
+<npc::0>好的， 我知道了， 我馬上就出發。
+<npc::64>我想……我們暗精靈的未來也許就在那個孩子的身上……`
+
+[condition message]
+	`    前往阿法利亞營地拜訪克倫特。`
+
+[solve message]
+	`你總算來了， 我正等你呢， 我需要你的幫助。`
+
+[quest point]
+	4

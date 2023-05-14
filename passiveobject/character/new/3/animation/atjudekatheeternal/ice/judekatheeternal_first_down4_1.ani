@@ -1,0 +1,35 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/ATJudekaTheEternal/03_IceNomal.img`
+		8
+	[IMAGE POS]
+		-203	-300
+	[IMAGE RATE]
+		1.2999999523162842	-1.2999999523162842
+	[RGBA]
+		89	89	89	126
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/ATJudekaTheEternal/03_IceNomal.img`
+		9
+	[IMAGE POS]
+		-207	-313
+	[IMAGE RATE]
+		0.9100000262260437	-0.9100000262260437
+	[RGBA]
+		89	89	89	126
+	[DELAY]
+		960
+	[DAMAGE TYPE]
+		`NORMAL`

@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`橙色口袋腰包`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/gunner/gn_abelt.img`	242
+
+[equipment type]
+	`[waist avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[variation]
+	70	2
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_WATER]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_DARK]`
+	`+`	20
+	`[ELEMENT_TOLERANCE_LIGHT]`
+	`+`	20
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`
+	`+`	30
+	`[INVENTORY_MAX_WEIGHT]`
+	`+`	6000
+[/avatar select ability]

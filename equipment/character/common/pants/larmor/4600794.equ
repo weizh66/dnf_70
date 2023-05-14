@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`封·天御炎襲護腿`
+
+[basic explain]
+	`  攻擊時，有5%%的機率生成烈焰攻擊敵人。（冷卻時間0.5秒 ）`
+
+[detail explain]
+	`  攻擊時，有5%%的機率生成烈焰攻擊400px范圍的所有敵人。（冷卻時間15秒 ）`
+
+[flavor text]
+	`  客戶端敢穩定點嗎？版本質量敢再高點嗎？--苦逼運維賓森`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12577
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	46
+
+[magical attack]
+	31
+
+[need material]
+	3821	1000
+
+[price]
+	109200
+
+[repair price]
+	87360
+
+[value]
+	87360
+
+[equipment physical defense]
+	3060	2790
+
+[fire attack]
+	20
+
+[icon]
+	`item/new_equipment/04_larmor/pants/larmor_pants.img`	19
+
+[field image]
+	`Item/field_equip.img`	6
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		60077	0	0	0	9999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[probability]
+		5
+	[passive object]
+		60077	0	0	0	9999	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[appendage]
+		250
+	[appendage]
+		328
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`at fighter fire works explosion`
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Animation/fireworks_start_body.act`
+
+[attack info]
+	`AttackInfo/ATFireWorksExplosion.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`封·星雲迷蹤護腿`
+
+[basic explain]
+	`  被攻擊時， 有10%%的幾率使300px范圍內的敵人進入失明狀態3秒； 失明狀態下的敵人， 會減少90%%的視野和20%%的命中率。`
+
+[detail explain]
+	`被攻擊時， 有10%%的幾率使300px范圍內的敵人進入失明狀態3秒； 失明狀態下的敵人， 會減少90%%的視野和20%%的命中率。（若敵人高于Lv86， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12566
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	40
+
+[magical attack]
+	29
+
+[physical defense]
+	37
+
+[need material]
+	3821	900
+
+[price]
+	120400
+
+[repair price]
+	96320
+
+[value]
+	96320
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3880	3520
+
+[icon]
+	`item/new_equipment/05_harmor/pants/harmor_pants.img`	10
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2900
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			45
+		[upper bound level]
+			45
+		[value]
+			3
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			60
+		[upper bound level]
+			60
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		3000
+	[probability]
+		10
+	[active status]
+		`blind`	100	90	20
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

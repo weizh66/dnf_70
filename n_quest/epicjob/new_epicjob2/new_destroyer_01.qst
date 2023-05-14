@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 毀滅者 (1/6)`
+
+[depend message]
+	`你難道不想變得更強嗎？
+雖然你現在使用的武器都很強大， 但我總覺得你還在渴望得到更加強有力的武器。 只是在我看來， 現在的你還有一點不足以獲得更好的武器。
+你問我這點不足是什么？ 好奇嗎？ 那跟我再多聊一會兒吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`雖然已經有很多強有力的武器了， 但想要更強的武器也是人之常情， 畢竟這都是受本能的驅使。
+但武器再怎么新、 再怎么好也沒辦法彌補一點。
+那就是， 使用武器的人， 即你自己。 通俗一點講的話， 其實武器使用者本身就可以成為一種武器。 但瞧瞧你現在的樣子， 你覺得自己的能力與持有的武器性能相匹配嗎？
+如果想要使用超強的武器， 你自身就必須要具備同等水準的能力。 也就是說， 武器得到成長的同時， 你自己也要隨之成長起來。`
+
+[target character]
+	`[gunner]`	2	1
+[/target character]
+
+[relation quest]
+	5393
+
+[job change quest]
+	3
+
+[grow number]
+	0

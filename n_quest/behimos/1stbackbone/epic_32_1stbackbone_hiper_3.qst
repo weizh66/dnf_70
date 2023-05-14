@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	29
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3114	5	1072	7	3027	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000	1074	5	1064	20
+[/reward int data]
+
+[reward selection int data]
+	12071	1	12459	1	12858	1	13258	1	13636	1
+[/reward selection int data]
+
+[name]
+	`制作干擾發射器 (3/7)`
+
+[depend message]
+	`好忙啊， 好忙啊！ 好不容易做好芯片， 又要做一個能把芯片變小的壓縮機。
+呵呵， 希望你不會感到厭煩。 因為只有壓縮機才能把柯卡穆的干擾芯片壓縮成小型干擾芯片， 而小型干擾芯片是制作干擾發射器必備的東西……
+所以無論如何你都要再跑一趟啦， 只要幫我找來這幾樣材料， 我就可以放心的制作壓縮機了。 `
+
+[condition message]
+	`    收集5個[邪惡的結晶]、 7個[邪惡藥劑]和3個[生銹的鐵片]交給凱麗制作壓縮機。`
+
+[solve message]
+	`天呀！ 你怎么弄得渾身是傷啊！ `
+
+[quest point]
+	4

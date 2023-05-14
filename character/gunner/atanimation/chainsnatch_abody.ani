@@ -1,0 +1,54 @@
+#PVF_File
+[LOOP]
+	0
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/ATEquipment/Avatar/skin/gg_body%04d.img`
+		32
+	[IMAGE POS]
+		-238	-327
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`CHAIN_SNATCH_01`
+	[DAMAGE BOX]
+	-33	-5	-7	90	10	120
+	[ATTACK BOX]
+	-57	-30	-2	221	60	196
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/ATEquipment/Avatar/skin/gg_body%04d.img`
+		32
+	[IMAGE POS]
+		-238	-327
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-33	-5	-7	90	10	120
+	[ATTACK BOX]
+	-57	-30	-2	221	60	196
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/ATEquipment/Avatar/skin/gg_body%04d.img`
+		33
+	[IMAGE POS]
+		-238	-327
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-33	-5	-7	94	10	120
+	[ATTACK BOX]
+	-57	-30	-2	221	60	196

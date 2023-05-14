@@ -1,0 +1,111 @@
+#PVF_File
+
+[set name]
+	`野蠻之諾  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	17
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-400
+		`[mage]`	17
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+		`[mage]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-300
+		`[mage]`	18
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[光電鰻]冷卻時間 -0.4秒
+[光電鰻]蓄氣時間 -50%%
+[暗影夜貓]冷卻時間 -0.3秒
+[暗影夜貓]蓄氣時間 -50%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[mage]`	31
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[mage]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1800
+		`[mage]`	26
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[雷旋]冷卻時間 -1.5秒
+[雷旋]蓄氣時間 -50%%
+[虛無之球]冷卻時間 -1.8秒
+[虛無之球]蓄氣時間 -50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	55
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[mage]`	55
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[mage]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[mage]`	58
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	6
+		`%`	10
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	7
+		`%`	10
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	8
+		`%`	10
+		`[mage]`	58
+		`[dungeon type]`
+		`[level]`	9
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[天雷]冷卻時間 -4.5秒
+[天雷]蓄氣時間 -50%%
+[天雷]攻擊力 +10%%
+[湮滅黑洞]冷卻時間 -9秒
+[湮滅黑洞]蓄氣時間 -50%%
+[湮滅黑洞]攻擊力 +10%%`
+[/piece set ability]

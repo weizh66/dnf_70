@@ -1,0 +1,146 @@
+#PVF_File
+
+[name]
+	`格拉西亞家族遺物 - 戰鐮`
+
+[flavor text]
+	`妳也依然沐浴在聖光之下。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	62
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[stuck]
+	-1.0
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[need material]
+	5000	30
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	911	814
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[light attack]
+	20
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	116
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	37	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[elemental property]
+	`[light element]`
+
+[possible kiri protect]

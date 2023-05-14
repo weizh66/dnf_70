@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`獨眼狂蟒`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入混亂狀態。`
+
+[detail explain]
+	`攻擊時以3%%的機率在6秒內讓敵人陷入混亂狀態。 （比Lv50高的目標陷入狀態機率較低，比 Lv50低的目標陷入狀態機率較高。決鬥場修正為 3秒）`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[physical attack]
+	35
+
+[magical attack]
+	52
+
+[price]
+	86400
+
+[repair price]
+	72576
+
+[value]
+	345600
+
+[equipment physical attack]
+	470	423
+
+[equipment magical attack]
+	409	368
+
+[separate attack]
+	233	156
+
+[skill levelup]
+	`[gunner]`	53	1
+	`[gunner]`	1	1
+	`[at gunner]`	53	1
+	`[at gunner]`	1	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`item/weapon/gunner/musket.img`	27
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[item aura]
+	`dark element`
+	`+`	10	300
+
+[if]
+	[cooltime]
+		10800
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[active status]
+		`confuse`	50	1
+[/then]
+
+[possible kiri protect]

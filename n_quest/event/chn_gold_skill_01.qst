@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	15	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`傳說中的絕殺技`
+
+[depend message]
+	`有什么需要我幫忙的嗎？
+你想知道什么是絕殺技？
+絕殺技， 光從字面上理解， 就是關鍵時刻可以一擊致命的殺招。 如果你能掌握這項技能， 相信以后任務也會輕松不少。
+至于怎么學嘛？ 你就要去請教專業人士啦~`
+
+[condition message]
+	`    尋找了解絕殺技學習方法的專業人士。`
+
+[solve message]
+	`你終于發現了~~呵呵， 剛和你開個玩笑啦！
+賽麗亞雖然算不上什么專業人士， 不過幫你學會這個技能還是沒問題的！`
+
+[reward int data]
+	0	100
+[/reward int data]

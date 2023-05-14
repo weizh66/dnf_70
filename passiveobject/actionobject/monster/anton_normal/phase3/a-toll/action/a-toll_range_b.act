@@ -1,0 +1,103 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/A-Toll_Range_B.ani`
+	[SUB ANI]
+		`../Animation/A-Toll_Range_B_in.ani`	0	1
+		`../Animation/A-Toll_Range_B_in_0.ani`	0	2
+		`../Animation/A-Toll_Range_B_0.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`ATOLL_LINE_RED`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		500
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70340
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			250
+		[CHECKED NO]
+		[<]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[CHECK TIME]
+		500
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56660
+		[/IS INDEX]
+		[CHECKED NO]
+		[<]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[CHECK TIME]
+		500
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			250
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[APPENDAGE]
+		600
+		[equipment physical attack]
+		[%]
+			50.0
+		[equipment magical attack]
+		[%]
+			50.0
+		[attack speed]
+		[%]
+			30.0
+		[move speed]
+		[%]
+			30
+		[cast speed]
+		[%]
+			10
+	[/APPENDAGE]
+[/BEHAVIOR]

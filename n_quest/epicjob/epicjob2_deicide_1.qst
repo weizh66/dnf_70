@@ -1,0 +1,91 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	149
+
+[complete npc index]
+	-1
+
+[job]
+	`[at swordman]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	149
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 弒神者 (1/2)`
+
+[depend message]
+	`近來如何？ 控制魔人不是一件容易的事， 看來你做的還不錯。
+但是這并不表示會一直這么相安無事。 塔莫斯是尤為強大的魔人， 單單是讓他依附于你就會消耗相當多的體力和意志力， 前方道路的坎坷可想而知。
+怎么樣？ 想不想放下那沉重的包袱， 讓前路輕松些？
+……這樣啊， 看來你還有很多事情需要利用這個力量去完成。 你有沒有聽說過‘弒神者’？
+弒神者以人類的身軀吸收了魔與劍的力量， 將它們融于一體。 這力量足以打敗神， 所以才得其名。
+怎么樣？ 如果能把協助你的魔人們的潛力激發出來， 將那些力量為你所用， 即使遇到更加艱難的戰斗也能夠應對自如……這不就是你想要的嗎？
+要想如此， 就要與魔人建立更加緊密的聯系。 像現在這樣， 你單方面使用魔人的力量是沒有意義的。
+要讓魔人們立誓要為你貢獻出力量。 當然， 想要得到他們的誓約， 你也要認可他們為你的同伴， 相信他們、 依賴他們。
+如果沒有雙方的信賴作為基礎， 就無法與魔人融為一體， 更不能達到弒神者的境界。
+準備好把一直視作工具的魔人和劍， 都當做你自己的一部分了嗎？ 真有這種想法就再來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與騎士洛巴赫談談。`
+
+[solve message]
+	`自尊心只有讓自己攀向更高處才有其意義。 你選擇的并不是妥協， 而是為了發展的團結。 雖然不知道能持續多久……`
+
+[pre required quest]
+	4630
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3306
+
+[relation quest]
+	3306
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

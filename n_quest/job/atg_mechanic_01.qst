@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7867	7871	7877
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7875
+
+[name]
+	`轉職 - 機械師 (1/3)`
+
+[depend message]
+	`我看你挺有機械師天賦的， 機械師是創造性職業， 需要有精巧的手藝。 你的手就挺靈活的， 要不要考慮下？
+不過想練成精巧的組裝手藝還需要先準備一些東西……比如一個能協助控制機械的助手， 就是那種叫‘馬柏斯的仆人’的機械人。
+你想要一個嘛？ 可以拿小晶塊跟我換哦~`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給凱麗。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`這就是馬柏斯的仆人， 可愛吧？`

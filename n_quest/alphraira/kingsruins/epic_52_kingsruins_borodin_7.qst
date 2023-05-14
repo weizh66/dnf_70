@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	26
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	52	99
+
+[pre required quest]
+	393
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3187	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4083	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 為了受苦的人們`
+
+[depend message]
+	`啊……原來如此！ 看來我們要在波羅丁的騎士團蘇醒前阻止他們。 嗯， 我想最快的方法就是讓暗精靈幫忙制作能安定冤魂的符咒， 不過那需要有足夠的材料才行。
+我去找克倫特談談， 你先去阿法利亞收集一些制作符咒的材料吧。 `
+
+[condition message]
+	`    收集10個[靈魂晶石]交給克倫特。`
+
+[solve message]
+	`莎蘭把情況都告訴我了， 事情很緊急， 你把材料都收集好了吧？ `
+
+[quest point]
+	4

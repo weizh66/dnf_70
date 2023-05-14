@@ -1,0 +1,64 @@
+#PVF_File
+
+[set name]
+	`大地之裂波  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	57
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[swordman]`	57
+		`[dungeon type]`
+		`[static]`	4
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`施放[邪光波動陣]時， 生成1個波動印
+[邪光波動陣]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	62
+		`[dungeon type]`
+		`[static]`	15
+		`+`	1
+		`[swordman]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-12000
+		`[swordman]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	62
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`施放[無雙波]時， 生成1個波動印
+[無雙波]冷卻時間 -12秒
+[無雙波]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	47
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+		`[swordman]`	47
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[波動刻印]波動印數量上限 +2
+[波動刻印]波動印生成間隔 -30%%`
+[/piece set ability]

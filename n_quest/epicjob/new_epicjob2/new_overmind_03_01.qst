@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 元素圣靈 (4/6)`
+
+[depend message]
+	`為了你， 我去莎蘭大人那里打聽了一下， 聽說想要長期維持在超越階段， 必須對魔力有更深層次的認知。
+首先， 你要悟出魔力的本質， 在那之后就會輕松許多。 據她所述， 只要我跟你說了這些， 你一定會明白是什么意思， 怎么樣， 明白了嗎？
+是嗎？ 很好， 在我看來， 魔力就跟氣息一樣， 只要你掌握了它的本質， 就可以演化出無數種使用方法。
+素喃正在舉辦魂·青龍大會， 聽說那里云集了許多優秀的武人。
+你去參加那個大會， 通過實戰悟出如何掌控魔力吧， 你看如何？
+那里的強者們分別擁有著不同的力量， 你應該可以學到很多。
+想要參加大會， 首先必須擁有‘赫侖皇帝的印章’， 你去收集一下吧。 我就在這里等你回來。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6780
+[/pre required quest]
+
+[relation quest]
+	6782
+
+[job change quest]
+	3
+
+[grow number]
+	0

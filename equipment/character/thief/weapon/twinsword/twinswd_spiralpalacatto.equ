@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`螺旋之帕拉卡托`
+
+[basic explain]
+	`[螺旋穿刺]命中敵人時， 可以使敵人進入出血狀態。`
+
+[detail explain]
+	`    [螺旋穿刺]命中敵人時， 可以使敵人進入出血狀態5秒； 出血狀態下的敵人， 每0.5秒受到125點傷害。 (若敵人高于Lv45， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`twinswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	3100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	42
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[need material]
+	3260	750
+
+[repair price]
+	75600
+
+[value]
+	72000
+
+[cool time]
+	10000
+
+[physical attack]
+	50
+
+[equipment physical attack]
+	486	437
+
+[equipment magical attack]
+	381	342
+
+[separate attack]
+	285	189
+
+[attack speed]
+	-80
+
+[physical critical hit]
+	8
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[thief]`	33	2
+[/skill levelup]
+
+[variation]
+	8	5
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[if]
+	[cooltime]
+		650
+	[skill]
+		`thief`	33
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[active status]
+		`bleeding`	45	1650
+[/then]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

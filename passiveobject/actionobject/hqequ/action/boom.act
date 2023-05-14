@@ -1,0 +1,55 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/New_Boom/Boom_Back.ani`
+	[SOUND]
+		`FIRE_EXPLOSION_CREATE`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		7	1000
+	[FLASH SCREEN]
+		200	200	200	2000	0	0	0
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[CHARACTER]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[APPENDAGE]
+		10000
+		[attack speed]
+		[%]
+			50.0
+		[move speed]
+		[%]
+			50.0
+		[cast speed]
+		[%]
+			50.0
+		[equipment physical attack]
+		[%]
+			80.0
+		[equipment magical attack]
+		[%]
+			80.0
+	[/APPENDAGE]
+[/BEHAVIOR]

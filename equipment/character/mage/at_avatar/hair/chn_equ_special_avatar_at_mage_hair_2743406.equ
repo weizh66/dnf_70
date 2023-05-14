@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`紅色藝術氣質束發`
+
+[explain]
+	`夏日風情  套裝2 (男法師)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atmage/mm_ahair.img`	60
+
+[equipment type]
+	`[hair avatar]`	0
+
+[avatar type select]
+	7	0	0	400	0	30	0	0	880	0	0	0	0	2640	0	0	0	0	6200	2
+	`[A socket]`
+	`[A socket]`
+[/avatar type select]
+
+[variation]
+	20	2
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2743709
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`
+	`+`	45
+	`[MAGICAL_DEFENSE]`
+	`+`	45
+	`[HP_REGENRATE]`
+	`+`	60
+	`[MP_REGENRATE]`
+	`+`	12
+	`[CAST_SPEED]`
+	`+`	130
+[/avatar select ability]

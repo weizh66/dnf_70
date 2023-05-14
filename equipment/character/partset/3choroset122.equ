@@ -1,0 +1,98 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[thief]`	96
+		`[dungeon type]`
+		`[level]`	39
+		`+`	10
+		`[thief]`	96
+		`[dungeon type]`
+		`[level]`	28
+		`%`	10
+		`[thief]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[暗炎殘星]暗殺標記持續時間 +10%%
+[暗炎殘星]暴擊傷害增加量 +1%%
+[火遁 · 螺旋手里劍]最后爆炸攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[thief]`	96
+		`[dungeon type]`
+		`[level]`	39
+		`+`	20
+		`[thief]`	96
+		`[dungeon type]`
+		`[level]`	28
+		`%`	10
+		`[thief]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[thief]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[thief]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[暗炎殘星]暗殺標記持續時間 +10%%
+[暗炎殘星]暴擊傷害增加量 +2%%
+[火遁 · 螺旋手里劍]攻擊力 +25%%
+[火遁 · 螺旋手里劍]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[thief]`	96
+		`[dungeon type]`
+		`[level]`	39
+		`+`	30
+		`[thief]`	96
+		`[dungeon type]`
+		`[static]`	4
+		`%`	25
+		`[thief]`	100
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[thief]`	100
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[thief]`	100
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[thief]`	100
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[thief]`	100
+		`[dungeon type]`
+		`[static]`	31
+		`%`	50
+		`[thief]`	100
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[暗炎殘星]暗殺標記范圍 +25%%
+[暗炎殘星]暴擊傷害增加量 +3%%
+[火遁 · 風魔手里劍]手里劍最后一擊爆炸范圍 +50%%
+[火遁 · 風魔手里劍]攻擊力 +25%%
+[火遁 · 風魔手里劍]冷卻時間 -30%%`
+[/piece set ability]

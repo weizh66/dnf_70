@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`戮蠱的皮殘片`
+
+[basic explain]
+	`被攻擊時，單次傷害導致角色被消減HP MAX的10%%以上，半徑500px以內的敵人都會進入石化狀態。
+(在決鬥場、打鬥吧中無效)`
+
+[grade]
+	65
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	61
+
+[anti evil]
+	10
+
+[physical attack]
+	15
+
+[physical defense]
+	15
+
+[magical attack]
+	48
+
+[magical defense]
+	48
+
+[price]
+	58500
+
+[repair price]
+	51597
+
+[value]
+	46800
+
+[need material]
+	3340	37
+
+[equipment physical defense]
+	864	804
+
+[icon]
+	`Item/common/coat.img`	151
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[check damage]
+		`%`	10
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		5000
+	[active status]
+		`stone`	65	0
+[/then]
+
+[pvp]
+[/pvp]
+
+[possible kiri protect]

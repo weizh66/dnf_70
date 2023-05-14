@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`劍影之鋒`
+
+[basic explain]
+	`與羅剎結合，增加自身的攻擊力`
+
+[explain]
+	`與羅剎結合，增加自身的攻擊力`
+
+[purchase cost]
+	200
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	10	0	0	0	0	0
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	628
+	`Character/Swordman/Effect/SkillIcon.img`	629
+
+[dungeon]
+	[static data]
+	[/static data]
+	[level info]
+		7	20	50	50	50	50	500	500	40	80	80	80	80	800	800	60	100	100	100	100	1100	1100	80	120	120	120	120	1400	1400	100	140	140	140	140	1700	1700	120	160	160	160	160	2000	2000	140	180	180	180	180	2300	2300	160	200	200	200	200	2600	2600	180	220	220	220	220	2900	2900	200	240	240	240	180	3200	3200	220	260	260	260	180	3500	3500
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+	[/static data]
+	[level info]
+		7	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5	5	10	10	10	10	10	5	5
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`物理攻擊力增加 : <int> 點
+力量增加 : <int> 點
+智力增加 : <int> 點
+體力增加 : <int> 點
+精神增加 : <int> 點
+HP增加 : <int> 點
+MP增加 : <int> 點`	-1	0	1.0	-1	1	2.0	-1	2	2.0	-1	3	2.0	-1	4	2.0	-1	5	2.0	-1	6	2.0
+[/level property]

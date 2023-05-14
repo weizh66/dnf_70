@@ -1,0 +1,18 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/WhirlWind_C_FinishDustGround1.ani`
+	[SUB ANI]
+		`../Animation/WhirlWind_C_FinishDust.ani`	0	-1
+		`../Animation/WhirlWind_C_FinishDustGround2.ani`	0	1
+		`../Animation/WhirlWind_C_Dust1.ani`	0	2
+		`../Animation/WhirlWind_C_Dust2.ani`	0	3
+		`../Animation/WhirlWind_C_Dust3.ani`	0	4
+		`../Animation/WhirlWind_C_Dust4.ani`	0	5
+		`../Animation/WhirlWind_C_Dust5.ani`	0	6
+		`../Animation/WhirlWind_C_FinishWind1.ani`	0	7
+		`../Animation/WhirlWind_C_FinishWind2.ani`	0	8
+		`../Animation/WhirlWind_C_FinishWind3.ani`	0	9
+	[/SUB ANI]
+[/MOTION]

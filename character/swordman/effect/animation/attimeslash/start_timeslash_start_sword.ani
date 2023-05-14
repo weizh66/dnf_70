@@ -1,0 +1,51 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_start_sword.img`
+		0
+	[IMAGE POS]
+		-253	-535
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		102
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_start_sword.img`
+		1
+	[IMAGE POS]
+		-253	-535
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		102
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`character/swordman/effect/attimeslash/timeslash_start_sword.img`
+		2
+	[IMAGE POS]
+		-253	-535
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		102
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		105	14
+	[DELAY]
+		102

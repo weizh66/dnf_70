@@ -1,0 +1,44 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/FlashGlobe/before_dodge.img`
+		1
+	[IMAGE POS]
+		-114	-124
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		600
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/FlashGlobe/before_dodge.img`
+		1
+	[IMAGE POS]
+		-114	-124
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/FlashGlobe/before_dodge.img`
+		1
+	[IMAGE POS]
+		-114	-124
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

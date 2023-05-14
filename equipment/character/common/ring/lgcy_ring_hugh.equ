@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`傳承： 靈魂審判者之戒`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	35
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[MP MAX]
+	90
+
+[price]
+	37000
+
+[repair price]
+	29600
+
+[equipment magical defense]
+	1280	1216
+
+[light resistance]
+	7
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/IconAcc.img`	91
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[set name]
+	`傳承： 靈魂審判者首飾`
+
+[set item]
+	20100	22099	24101
+[/set item]
+
+[piece set ability]
+	3
+	[physical attack]
+		35
+	[magical attack]
+		35
+	[all elemental resistance]
+		10
+	[MP regen speed]
+		7
+	[if]
+		[cooltime]
+			1000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			2
+		[active status]
+			`bless`	35	21	21	21	21
+	[/then]
+	[parameter basic explain]
+		`被攻擊時，以2%%的機率使自身進入祝福狀態20秒； 祝福狀態下，增加21點力量、體力、智力和精神。`
+[/piece set ability]
+
+[value]
+	39800
+
+[possible kiri protect]

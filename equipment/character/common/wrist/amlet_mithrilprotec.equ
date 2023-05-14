@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`神聖秘銀的遺跡`
+
+[basic explain]
+	`攻擊時，以3%%的機率賦予武器光屬性，效果持續30秒。
+被攻擊時所受傷害減少5%%`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[creation rate]
+	30
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	25
+
+[physical defense]
+	62
+
+[price]
+	73200
+
+[repair price]
+	61488
+
+[value]
+	58560
+
+[need material]
+	3340	30
+
+[equipment magical defense]
+	3264	3024
+
+[icon]
+	`Item/common/bracelet.img`	19
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[duration]
+		30000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	5
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,61 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/SwordAura_Earthquake.img`
+		2
+	[IMAGE POS]
+		-109	-37
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-34	-10	-9	244	20	39
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/SwordAura_Earthquake.img`
+		3
+	[IMAGE POS]
+		-109	-37
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-34	-10	-9	416	20	38
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/SwordAura_Earthquake.img`
+		4
+	[IMAGE POS]
+		-109	-37
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[ATTACK BOX]
+	-34	-10	-9	726	20	38
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/SwordAura_Earthquake.img`
+		4
+	[IMAGE POS]
+		-109	-37
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-34	-10	-9	726	20	38

@@ -1,0 +1,296 @@
+#PVF_File
+
+[name]
+	`解放長棍`
+
+[basic explain]
+	`攻擊速度 +2%%
+攻擊時以 5%%的機率消耗1個靈魂晶石，20秒內賦予自己的武器靈魂。
+-狂暴的靈魂：武器狀態閃爍紅色，力量增加100，智力增加100，物理暴擊增加 7%%，魔法暴擊增加 7%% 
+-純潔的靈魂：武器狀態閃爍綠色，精神增加100，體力增加100，被攻擊時自己受到的傷害減少5%%，HP恢復5%% MP恢復5%% 
+-狂亂的靈魂：武器狀態閃爍黃色，攻擊速度 10%%，移動速度增加10%%，施放速度增加10%% 
+攻擊時12%% 附加傷害`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	73
+
+[magical attack]
+	73
+
+[attack speed]
+	70
+
+[cast speed]
+	30
+
+[move speed]
+	20
+
+[stuck]
+	-1
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[need material]
+	10000204	100
+
+[repair price]
+	119616
+
+[value]
+	113920
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	922	868
+
+[equipment magical attack]
+	769	724
+
+[separate attack]
+	510	347
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/mage/pole/pole.img`	97
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2791
+	`polec1`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	201
+	`poled1`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	2792
+	`polec2`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	202
+	`poled2`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2151
+	`at_polea1`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	201
+	`at_poled1`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	2152
+	`at_polea2`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	202
+	`at_poled2`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`POLE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2400
+
+[item group name]
+	`pole`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	12
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[multiple then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			51
+		[stat]
+			`magical attack`
+			`+`	100
+		[stat]
+			`physical attack`
+			`+`	100
+		[stat]
+			`physical critical hit rate`
+			`+`	7
+		[stat]
+			`magical critical hit rate`
+			`+`	7
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			52
+		[stat]
+			`magical defense`
+			`+`	100
+		[stat]
+			`physical defense`
+			`+`	100
+		[restore]
+			`hp`
+			`%`	5	20000
+		[restore]
+			`mp`
+			`%`	5	20000
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			53
+		[stat]
+			`attack speed`
+			`+`	100
+		[stat]
+			`move speed`
+			`+`	100
+		[stat]
+			`cast speed`
+			`+`	100
+		[then probability]
+			34.0
+	[/then]
+[/multiple then]
+
+[if]
+	[my appendage]
+		52
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	5
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	35	99
+
+[monster reward item]
+	61604	90	-1	4702	1	70	20	56457	90	-1	4703	1	70	2	61605	90	-1	4704	2	100	2
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4702	20	4703	2	4704	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`研究天帷巨獸的生態系統 (1/2)`
+
+[depend message]
+	`從很久以前， 我們魔法師公會就開始研究天帷巨獸的生態系統。
+而在這其中， ‘樹精’這種生命體最受我們關注， 因為它們只生活在天帷巨獸上。 而且， 樹精的樣本還可以制作出多種魔法材料。
+我聽說， 最近在天帷巨獸上又發現了一個樹精群落。 如果你在那里遇見這種新的樹精品種， 記得幫我采集一些樣本回來， 我會付你報酬的哦！`
+
+[condition message]
+	`    收集以下樹精樣本交給莎蘭。 (樹精樣本可以在樹精繁殖地中獲得)`
+
+[solve message]
+	`謝謝啦！ 看來我又能繼續我的魔法研究了。`
+
+[quest point]
+	4

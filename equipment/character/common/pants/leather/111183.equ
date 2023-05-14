@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`巨型蝙蝠的厄運長褲`
+
+[basic explain]
+	`  攻擊時，有5%%的幾率在自身周圍出現蝙蝠攻擊敵人，并使命中的敵人減少25點暗屬性抗性，效果持續20秒。`
+
+[flavor text]
+	`  那遮擋天空的不祥氣息到底是什么呢？ --艾麗絲`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[magical defense]
+	41
+
+[need material]
+	3500	1000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	1980	1840
+
+[dark attack]
+	15
+
+[icon]
+	`item/new_equipment/03_leather/pants/leather_pants.img`	20
+
+[field image]
+	`Item/FieldImage.img`	1
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	27
+
+[weight]
+	1500
+
+[item group name]
+	`lt pants`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[passive object]
+		60119	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

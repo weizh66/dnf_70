@@ -1,0 +1,20 @@
+#PVF_File
+
+[width]
+	0	0
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/EnergyCircle_stay.act`
+
+[etc action]
+	`Action/Time_attack0.act`
+	`Action/Time_attack1.act`
+	`Action/EnergyCircle_attack2.act`
+	`Action/EnergyCircle_destroy.act`
+[/etc action]

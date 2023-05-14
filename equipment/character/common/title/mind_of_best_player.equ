@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`勇者之心`
+
+[explain]
+	`  被攻擊時， 有2%%的幾率增加2000點物理防禦力和魔法防禦力， 效果持續30秒。`
+
+[flavor text]
+	`  <DNF格鬥大賽>的勇士之心！ 這是為DNF全國格鬥大賽的月賽優勝者們特別制作的稱號， 它是勇士們雄霸壹方的最佳證明！`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	111
+
+[custom animation]
+	`TitleAnimation/mind_of_best_player.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[stuck]
+	-2
+
+[stuck resistance]
+	20
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[cast speed]
+	30
+
+[if]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`equipment physical defense`
+		`+`	2000
+	[stat]
+		`equipment magical defense`
+		`+`	2000
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`冰霜的骨左輪槍`
+
+[basic explain]
+	`安裝時300px 範圍內的敵人產生冰凍魔法。
+不可解體`
+
+[detail explain]
+	`安裝時300px 範圍內敵人產生冰凍魔法。 （決鬥場不適用）
+冰凍魔法持續10秒內，給予 32的冰屬性附加傷害，以 25%%的機率 3秒內進入冰凍狀態。（高於Lv19的對像得到的機率和效果減少，低於Lv19的對象則會增加。）
+不可解體`
+
+[grade]
+	19
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	15
+
+[physical attack]
+	16
+
+[price]
+	30400
+
+[repair price]
+	24320
+
+[value]
+	24320
+
+[equipment physical attack]
+	205	157
+
+[equipment magical attack]
+	173	132
+
+[separate attack]
+	123	79
+
+[physical critical hit]
+	2
+
+[icon]
+	`item/weapon/gunner/revolver.img`	66
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[routing priority]
+	`gunner`	1
+	`at gunner`	1
+[/routing priority]
+
+[ice appendage]
+	32	300	10000
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

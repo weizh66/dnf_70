@@ -1,0 +1,64 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/HellMarch/RobotSoldier.img`
+		1
+	[IMAGE POS]
+		-232	-334
+	[DELAY]
+		150
+	[ATTACK BOX]
+	-66	-40	-6	155	80	167
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/HellMarch/RobotSoldier.img`
+		2
+	[IMAGE POS]
+		-232	-334
+	[DELAY]
+		150
+	[ATTACK BOX]
+	-53	-40	-6	113	80	168
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/HellMarch/RobotSoldier.img`
+		3
+	[IMAGE POS]
+		-232	-334
+	[DELAY]
+		150
+	[ATTACK BOX]
+	-50	-40	-8	104	80	167
+
+[FRAME003]
+	[IMAGE]
+		`Character/Gunner/Effect/HellMarch/RobotSoldier.img`
+		4
+	[IMAGE POS]
+		-232	-334
+	[DELAY]
+		150
+	[ATTACK BOX]
+	-50	-40	-8	104	80	167
+
+[FRAME004]
+	[IMAGE]
+		`Character/Gunner/Effect/HellMarch/RobotSoldier.img`
+		5
+	[IMAGE POS]
+		-232	-334
+	[DELAY]
+		150
+	[PLAY SOUND]
+		`R_HELLMARCH_SOLDIERS`
+	[ATTACK BOX]
+	-50	-40	-8	104	80	167

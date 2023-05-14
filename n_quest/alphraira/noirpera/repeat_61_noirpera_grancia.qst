@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	4454
+[/pre required quest]
+
+[monster reward item]
+	61000	1502	1	4346	2	50	-1	61000	1502	2	4346	2	60	-1	61000	1502	3	4346	2	70	-1	56408	1502	1	4346	2	60	-1	56408	1502	2	4346	2	80	-1	56408	1502	3	4346	2	100	-1	56801	1502	1	4348	2	60	-1	56801	1502	2	4348	2	80	-1	56801	1502	3	4348	2	100	-1	56802	1502	1	4348	2	60	-1	56802	1502	2	4348	2	80	-1	56802	1502	3	4348	2	100	-1	56803	1502	1	4348	2	60	-1	56803	1502	2	4348	2	80	-1	56803	1502	3	4348	2	100	-1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4346	15	4348	9	3253	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4349	6
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 格拉西亞家族的印章 (重復)`
+
+[depend message]
+	`圣職者教團正在收集和諾伊佩拉相關的資料， 希望你能助我們一臂之力……`
+
+[condition message]
+	`    前往諾伊佩拉地區的『諾伊佩拉』， 收集15個[偽裝者的證物 : 變異的心臟]、 9個[格拉西亞家族的印章]和20個[使徒的氣息]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`非常感謝你， 這是我們家族的象征， 也是我們的一點心意。`

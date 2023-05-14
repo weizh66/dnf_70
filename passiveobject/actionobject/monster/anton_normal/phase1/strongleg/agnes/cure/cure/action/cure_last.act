@@ -1,0 +1,19 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/cure_Last_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET USE HOMING]
+		0
+[/BEHAVIOR]

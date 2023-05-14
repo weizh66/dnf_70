@@ -1,0 +1,36 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace01.img`	6
+
+[big face]
+	`Map/Npc/NpcFace01.img`	5
+
+[popup face]
+	`Interface/minimap_minimap_npc_icon_jp.img`	53
+
+[field animation]
+	`Animation/SAO_asuna.ani`
+
+[look around]
+	0
+
+[role]
+	`[item shop]`	123
+[/role]
+
+[name]
+	`亞絲娜`
+
+[field name]
+	`亞絲娜`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::163>你好嗎？今天是大好天氣， 這里真是個不錯的地方啊！`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::163>在我心里， 你一直是個很特別的人。～`
+[/dialog]

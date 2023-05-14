@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`蓮花光環`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	20
+
+[avatar func filter]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	36
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[aurora graphic effects]
+	4	1
+	`Character/Common/Animation/Aura/aura22_front01_dodge.ani`	1
+	`Character/Common/Animation/Aura/aura22_front02_dodge.ani`	1
+	`Character/Common/Animation/Aura/aura22_front03_dodge.ani`	0
+	`Character/Common/Animation/Aura/aura22_back_normal.ani`
+
+[HP MAX]
+	150
+
+[equipment physical defense]
+	150	150
+
+[equipment magical defense]
+	150	150
+
+[room list move speed rate]
+	0.1

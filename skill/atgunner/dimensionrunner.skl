@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`TN-80 終結者`
+
+[explain]
+	`    召喚TN-80 終結者轟擊前方。
+    施放技能時， 在指定位置召喚TN-80 終結者。
+    召喚出來的TN-80 終結者向前方發射導彈， 然后向一定范圍內級別最高的敵人突進后自爆。
+    不受[機械引爆]的影響。`
+
+[basic explain]
+	`    召喚TN-80 終結者轟擊前方。`
+
+[executable states]
+	0	14	18
+[/executable states]
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	50	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	244
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	442
+	`Character/Gunner/Effect/SkillIcon.img`	443
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		580	4500
+	[cool time]
+		40000	40000
+	[static data]
+		6	3	120	100	100	550	1300	250	300	150	80	1	1	300	200	500	800	0
+	[/static data]
+	[level info]
+		2	2878	9142	3170	10069	3462	10997	3754	11924	4046	12852	4338	13779	4630	14707	4921	15634	5213	16562	5505	17489	5797	18416	6089	19344	6381	20271	6673	21199	6965	22126	7257	23054	7549	23981	7841	24909	8133	25836	8425	26764	8717	27691	9009	28619	9301	29546	9593	30474	9885	31401	10177	32329	10469	33256	10761	34183	11053	35111	11345	36038	11637	36966	11929	37893	12221	38821	12513	39748	12805	40676	13097	41603	13389	42531	13681	43458	13973	44386	14265	45313	14557	46241	14849	47168	15141	48096	15433	49023	15725	49951	16017	50878	16309	51805	16601	52733	16893	53660	17185	54588	17477	55515	17769	56443	18061	57370	18353	58298	18645	59225	18937	60153	19229	61080	19521	62008	19813	62935	20105	63863	20397	64790	20689	65718	20981	66645	21272	67573	21564	68500	21856	69427	22148	70355	22440	71282	22732	72210	23024	73137
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`吸附時間 : 3秒
+自爆攻擊力 : 198523%%`	-1	0	1.0	-12	0	0	1.0	1	1	1.0	-1	1	1.0	5	5	1.0
+[/level property]

@@ -1,0 +1,40 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Knight/Effect/DevaAten/AtenGuardian_Circle.img`
+		0
+	[IMAGE POS]
+		-120	-206
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		400
+
+[FRAME001]
+	[IMAGE]
+		`Character/Knight/Effect/DevaAten/AtenGuardian_Circle.img`
+		0
+	[IMAGE POS]
+		-120	-206
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Character/Knight/Effect/DevaAten/AtenGuardian_Circle.img`
+		0
+	[IMAGE POS]
+		-120	-206
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		20

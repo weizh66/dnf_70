@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`(舊) 班圖族的五行圖騰`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率附加450點傷害。`
+
+[flavor text]
+	`    自古就存在于班圖族中的神秘圖騰。`
+
+[grade]
+	40
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[rarity]
+	4
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	35
+
+[icon]
+	`Item/weapon/priest/totem.img`	33
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	38
+
+[price]
+	64000
+
+[value]
+	51200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	416	365
+
+[equipment magical attack]
+	356	313
+
+[separate attack]
+	234	156
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	450
+[/then]
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[priest]`	56	1
+	`[priest]`	57	1
+	`[priest]`	58	1
+	`[priest]`	31	1
+[/skill levelup]
+
+[variation]
+	3	2
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

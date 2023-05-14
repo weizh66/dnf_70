@@ -1,0 +1,177 @@
+#PVF_File
+
+[name]
+	`真： 千足臂鎧`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入減速狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人8秒內呈現鈍化狀態，移動速度減少20%%，攻擊速度減少20%%。 （高於Lv62的對象得到的機率和效果減少，低於Lv62的對象則會增加。決鬥場內修正為 4秒）`
+
+[grade]
+	64
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	62
+
+[physical attack]
+	61
+
+[attack speed]
+	-80
+
+[stuck]
+	-3
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[equipment physical attack]
+	677	653
+
+[equipment magical attack]
+	508	490
+
+[separate attack]
+	280	188
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	89	1
+	`[at fighter]`	89	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	46
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	8	8
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	8	8
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	54
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	30
+
+[if]
+	[cooltime]
+		12000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		8000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`slow`	62	20	20
+[/then]
+
+[special monster drop]
+	1
+
+[difficulty for extra drop]
+	`[ultimate]`
+[/difficulty for extra drop]
+
+[dungeon type for extra drop]
+	`[all]`
+[/dungeon type for extra drop]
+
+[possible kiri protect]

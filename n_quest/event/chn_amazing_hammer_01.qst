@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	201	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2681917	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魔錘補償禮物 (1/3)`
+
+[depend message]
+	`終于找到你了！
+對不起啊， 冒險家， 因為之前受到怪物的襲擊， 魔錘都被他們搶走了。 現在沒辦法繼續出售……
+為了表示我的歉意， 我會送你一份禮物， 你可以拿剩下的魔錘和我交換~`
+
+[condition message]
+	`    收集1個[魔錘]交給賽麗亞。`
+
+[solve message]
+	`這是給你的禮物， 希望你能夠喜歡。
+如果還有多余的魔錘， 可以再來找我！`

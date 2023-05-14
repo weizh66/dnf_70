@@ -1,0 +1,19 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/BlackHUD.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		500	500	500	220	0	0	0
+[/BEHAVIOR]

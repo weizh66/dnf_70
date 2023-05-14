@@ -1,0 +1,23 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Effect/Animation/atpunishment/finish/atpunishment_finish_top_eff2_dodge.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ZOOM IT]
+		2500	130
+	[SHAKING]
+		7	1000
+	[FLASH SCREEN]
+		200	200	200	2000	0	0	0
+[/BEHAVIOR]

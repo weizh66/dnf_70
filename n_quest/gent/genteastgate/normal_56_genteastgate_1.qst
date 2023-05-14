@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	56
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	56	99
+
+[pre required quest]
+	4212
+[/pre required quest]
+
+[enemy reward item]
+	61494	1	81	1	4311	1	100	15	61494	1	81	2	4311	1	100	15	61494	1	81	3	4311	1	100	15
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4311	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	1089	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`獲得急救箱`
+
+[depend message]
+	`由于卡勒特的侵略， 根特的老百姓和皇都軍死傷無數。
+雖然醫療隊正在全力搶救， 但現在藥品嚴重短缺。
+冒險家， 我聽說襲擊東門的那些敵軍中也有醫療兵， 請你去消滅他們并把他們身上的急救箱拿回來。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特東門』， 除掉卡勒特醫療兵， 收集15個[急救箱]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`啊， 冒險家， 你幫了我們一個大忙！ 我代表我們皇女殿下和所有的百姓向你表示感謝！`

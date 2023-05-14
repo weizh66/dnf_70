@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`新角色成長返饋禮包`
+
+[explain]
+	`打開后，獲得LV.30返饋禮包、LV.50返饋禮包、LV.70返饋禮包。
+  只有LV.1~LV.69的角色才能打開。`
+
+[flavor text]
+	`為鼓勵玩家創建新角色而出的活動
+該禮包只有新角色才能打開
+各種重磅獎勵，祝你高強不是夢！
+還有神秘的神之意志系列稱號……
+這一切，你值得擁有~`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[maximum level]
+	69
+
+[cool time]
+	100
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	1896
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[booster info]
+	[stackable]
+		1	690017117	100000	1
+	[/stackable]
+	[stackable]
+		1	690017118	100000	1
+	[/stackable]
+	[stackable]
+		1	690017119	100000	1
+	[/stackable]
+[/booster info]

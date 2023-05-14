@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	16	99
+
+[pre required quest]
+	8
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	11	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	4
+
+[name]
+	`調查力量減弱的魔法陣`
+
+[depend message]
+	`你也發現圍繞天空之城的魔法陣力量正在減弱？ 我也是剛察覺到的， 現在正在調查呢。 不過那地方太危險了， 以我一個人的力量去調查有些困難。
+嗯， 冒險家， 如果你能從那里的周邊環境以及生物身上收集一些相關的資料給我， 一定會對我的調查很有幫助的。`
+
+[condition message]
+	`    通關天空之城的『龍人之塔』。`
+
+[solve message]
+	`謝謝你的調查……嗯， 你看見羅莉安了嗎？`
+
+[dialog]
+	1	0	11	0	1	71	0
+	` <monster::71>天空之城被那些入侵者玷污了……
+龍人們， 開始清掃吧！`
+[/dialog]
+
+[quest point]
+	4

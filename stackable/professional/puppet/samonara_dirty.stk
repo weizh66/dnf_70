@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`猥瑣的薩摩拉納`
+
+[explain]
+	`    使用後， 可以召喚出猥瑣的薩摩拉納協助召喚者攻擊敵人， 猥瑣的薩摩拉納存在15分鐘。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	21000
+
+[minimum level]
+	40
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	425
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[sub type]
+	2
+
+[cool time]
+	900000
+
+[cooltime group]
+	100
+
+[move wav]
+	`FOOD_TOUCH`
+
+[summon apc]
+	10405	40	40	900000	1

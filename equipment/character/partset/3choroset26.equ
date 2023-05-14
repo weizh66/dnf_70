@@ -1,0 +1,92 @@
+#PVF_File
+
+[set name]
+	`永恒之襲  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[theif]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[theif]`	16
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[theif]`	16
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[theif]`	16
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[theif]`	16
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[絕殺斬]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[theif]`	41
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[theif]`	41
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[theif]`	41
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[theif]`	41
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[theif]`	16
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[絕殺斬]冷卻時間 -30%%
+[旋刃]攻擊力 +30%%
+[旋刃]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[theif]`	31
+		`[dungeon type]`
+		`[static]`	2
+		`+`	10
+		`[theif]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[theif]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-20
+		`[theif]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	31
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[劍刃風暴]多段攻擊次數 +10
+[劍刃風暴]攻擊力 -20%%
+[劍刃風暴]冷卻時間 -30%%`
+[/piece set ability]

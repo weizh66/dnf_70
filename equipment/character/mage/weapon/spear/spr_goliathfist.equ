@@ -1,0 +1,162 @@
+#PVF_File
+
+[name]
+	`(舊) 焰紋封魔戟`
+
+[basic explain]
+	`普通攻擊時， 有5%%的幾率召喚出1只亞德炎。`
+
+[detail explain]
+	`    普通攻擊時， 有5%%的幾率消耗50點MP召喚出1只Lv50的亞德炎協助召喚者攻擊敵人， 亞德炎存在100秒。 (召喚的怪物只能同時存在1只， 若召喚的怪物受到較大傷害， 則召喚時間結束前就會消失)`
+
+[flavor text]
+	`    你如果能夠完全控制它， 火之精靈就會臣服于你。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`spear`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/mage/spear.img`	42
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	59
+
+[equipment physical attack]
+	638	581
+
+[equipment magical attack]
+	452	411
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-50
+
+[if]
+	[cooltime]
+		100000
+	[my state]
+		`attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[reduce duration at pvp module]
+		75
+	[probability]
+		5
+	[restore]
+		`mp`
+		`+`	-50	0
+	[summon monster]
+		60112	50	1
+[/then]
+
+[physical critical hit]
+	2
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[mage]`	35	2
+	`[mage]`	13	1
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

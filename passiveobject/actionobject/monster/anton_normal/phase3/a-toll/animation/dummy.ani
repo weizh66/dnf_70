@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Interface2/dualraid/DualRaid_Ingame.img`
+		3
+	[IMAGE POS]
+		-44	-45
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Interface2/dualraid/DualRaid_Ingame.img`
+		3
+	[IMAGE POS]
+		-44	-45
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100

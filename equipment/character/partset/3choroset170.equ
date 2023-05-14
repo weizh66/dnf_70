@@ -1,0 +1,124 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[精準射擊]攻擊力 +30%%
+[精準射擊]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	4
+		`%`	15
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	5
+		`%`	15
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[static]`	17
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[static]`	18
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[static]`	19
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[static]`	20
+		`%`	30
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	44
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[槍刃旋殺]攻擊力 +15%%
+[槍刃旋殺]冷卻時間 -20%%
+[槍刃旋殺]大小和吸附范圍 +30%%
+[鎖定射擊]攻擊力 +25%%
+[鎖定射擊]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[static]`	3
+		`%`	100
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-90
+		`[gun blader]`	11
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	44
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[槍刃旋殺]多段攻擊的攻擊力 +40%%
+[槍刃旋殺]持續時間 +100%%
+[槍刃旋殺]終結攻擊力 -90%%
+[槍刃旋殺]冷卻時間 -30%%
+[鎖定射擊]攻擊力 +30%%
+[鎖定射擊]冷卻時間 -20%%
+[精準射擊]攻擊力 +20%%`
+[/piece set ability]

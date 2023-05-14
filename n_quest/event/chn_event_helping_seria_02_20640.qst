@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	12
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20639
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`賽麗亞的煩惱 - 求助莎蘭 (2/2)`
+
+[depend message]
+	`我想這應該和魔法有關， 你能幫我通知莎蘭嗎？ 如果是她應該會有辦法的~`
+
+[condition message]
+	`    找莎蘭幫忙。`
+
+[solve message]
+	`有什么事嗎？
+什么！ 賽麗亞變成怪物了？ 呵呵， 今天可不是愚人節啊！
+不是玩笑！ 呃~怎么回事？ 你能說得詳細點嗎？`

@@ -1,0 +1,47 @@
+#PVF_File
+
+[name]
+	`召喚聖誕老公公`
+
+[explain]
+	`連續300秒內會召喚聖誕老公公一起戰鬥。 聖誕老公公會使用對於治癒和戰鬥有用的增益效果來幫助召喚者。  （ 只可以在地城使用，聖誕老公公的等級與召喚者相同。 )`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	200
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	300000
+
+[cooltime group]
+	100
+
+[move wav]
+	`PAPER_TOUCH`
+
+[summon apc]
+	20404	-1	-1	300000	1

@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`幸運者的榮耀`
+
+[explain]
+	`1 - 70 級技能 +1`
+
+[flavor text]
+	`<黑岩群服專屬光環裝扮>`
+
+[grade]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/aura_cn.img`	20
+
+[icon mark]
+	`Item/IconMark_cn.img`	89
+
+[avatar func filter]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	166
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[equipment physical attack]
+	150	150
+
+[equipment magical attack]
+	150	150
+
+[separate attack]
+	150	150
+
+[physical attack]
+	120
+
+[physical defense]
+	120
+
+[magical attack]
+	120
+
+[magical defense]
+	120
+
+[all elemental attack]
+	120
+
+[anti evil]
+	40
+
+[physical critical hit]
+	20.0
+
+[magical critical hit]
+	20.0
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[aurora graphic effects]
+	4	0
+	`Character/Common/Animation/Aura/20170427_chn_joyclub/vip3/down_dodge.ani`	0
+	`Character/Common/Animation/Aura/20170427_chn_joyclub/vip3/donw_normal.ani`	1
+	`Character/Common/Animation/Aura/20170427_chn_joyclub/vip3/up_normal.ani`	1
+	`Character/Common/Animation/Aura/20170427_chn_joyclub/vip3/up_dodge.ani`
+[/aurora graphic effects]
+
+[aura pos datas]
+	0
+	`[swordman]`	0	0	0
+	`[fighter]`	0	0	0
+	`[gunner]`	0	0	0
+	`[mage]`	0	0	0
+	`[priest]`	0	0	0
+	`[at gunner]`	0	0	0
+	`[thief]`	0	0	0
+	`[at fighter]`	0	0	0
+	`[at mage]`	0	0	0
+	`[swordman]`	0	0	1
+	`[fighter]`	0	0	1
+	`[gunner]`	0	0	1
+	`[mage]`	0	0	1
+	`[priest]`	0	0	1
+	`[at gunner]`	0	0	1
+	`[thief]`	0	0	1
+	`[at fighter]`	0	0	1
+	`[at mage]`	0	0	1
+	``
+[/aura pos datas]

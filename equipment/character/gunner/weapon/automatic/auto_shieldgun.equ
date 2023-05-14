@@ -1,0 +1,139 @@
+#PVF_File
+
+[name]
+	`遮護手槍 - 響尾蛇`
+
+[flavor text]
+	`    它可以阻擋任何東西， 想見識的就過來。  --格斗實力暴強的卡圖`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`automatic`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	1500
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`item/weapon/gunner/automatic.img`	41
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	30
+
+[need material]
+	3260	750
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[HP MAX]
+	300
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	312	261
+
+[equipment physical defense]
+	200	200
+
+[equipment magical attack]
+	458	383
+
+[separate attack]
+	285	189
+
+[stuck]
+	1
+
+[skill levelup]
+	`[gunner]`	10	3
+	`[gunner]`	26	2
+	`[at gunner]`	10	3
+	`[at gunner]`	26	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`甜蜜的薔薇`
+
+[explain]
+	`盛開的美麗薔薇， 沒有刺， 觸碰也不會受傷。`
+
+[flavor text]
+	`<薔薇綻放>`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	154
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		47	0
+	[layer variation]
+		2790
+		`at_knucklec`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[layer variation]
+		2050
+		`at_knucklea`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[layer variation]
+		1350
+		`at_knucklex`
+	[equipment ani script]
+		`equipment/character/atfighter.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/fighter/weapon/knuckle/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[int data]
+	654321	4	1	60	30	70	1	60	30	70	2	60	30	70	2	60	30	70	1	50	30	70	2	80	30	20
+[/int data]
+
+[string data]
+	`Common/Particle/rose.ptl`
+[/string data]
+
+[move wav]
+	`KNUCKLE_TOUCH`

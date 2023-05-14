@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680345	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680346	5
+[/reward int data]
+
+[reward selection int data]
+	39131	1	43125	1	47130	1	51120	1	55063	1
+[/reward selection int data]
+
+[name]
+	`萬圣節派對 - 1`
+
+[depend message]
+	`冒險家， 您回來了？ 冒險的日子過得很快吧？ 呵呵， 過幾天就是萬圣節了， 不過您肯定忙得忘記了吧？
+我就知道您會忘記的， 所以我早就幫您準備好了。
+呵呵， 我也是前不久看日歷時才發現萬圣節要來臨的， 所以您就馬上開始幫我收集一些東西。 噢， 也要記得給我們的小朋友準備禮物哦！`
+
+[condition message]
+	`前往任意地下城， 收集25個[萬圣節派對用品]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`怎么樣啊？ 辛苦您了！`

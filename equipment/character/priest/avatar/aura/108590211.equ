@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`黑色氣息光環 (聖職者)`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_aura.img`	17
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	31
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]
+
+[physical attack]
+	20
+
+[physical critical hit]
+	2
+
+[room list move speed rate]
+	0.1
+
+[aurora graphic effects]
+	4	1
+	`Character/Common/Animation/Aura/aura19_front_normal.ani`	1
+	`Character/Common/Animation/Aura/aura19_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/aura19_back_normal.ani`	0
+	`Character/Common/Animation/Aura/aura19_back_dodge.ani`

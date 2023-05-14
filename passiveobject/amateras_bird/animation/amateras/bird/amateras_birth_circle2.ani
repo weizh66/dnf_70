@@ -1,0 +1,97 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/circle2.img`
+		0
+	[IMAGE POS]
+		-218	-217
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/circle2.img`
+		1
+	[IMAGE POS]
+		-218	-218
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/circle2.img`
+		2
+	[IMAGE POS]
+		-218	-218
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME003]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/circle2.img`
+		2
+	[IMAGE POS]
+		-218	-218
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[RGBA]
+		255	255	255	153
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/circle2.img`
+		2
+	[IMAGE POS]
+		-218	-218
+	[IMAGE RATE]
+		1.2999999523162842	1.2999999523162842
+	[RGBA]
+		255	255	255	102
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/circle2.img`
+		2
+	[IMAGE POS]
+		-218	-218
+	[IMAGE RATE]
+		1.2999999523162842	1.2999999523162842
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`

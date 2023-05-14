@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`黑鉆契約附加效果`
+
+[basic explain]
+	`進入地下城后 , 獲得以下效果加成 : 
+物理暴擊 + 5%%
+魔法暴擊 + 5%%
+命中率 + 5%%`
+
+[grade]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`Item/IconMaterial.img`	10
+
+[equipment type]
+	`[support]`	16
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical critical hit`
+		`+`	5
+	[stat by condition]
+		`magical critical hit`
+		`+`	5
+	[stat by condition]
+		`stuck`
+		`+`	-5
+[/then]

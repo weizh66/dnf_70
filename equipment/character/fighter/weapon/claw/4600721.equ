@@ -1,0 +1,270 @@
+#PVF_File
+
+[name]
+	`封·天魔之爪 - 怒風`
+
+[basic explain]
+	`    攻擊時，使敵人減少10%%的攻擊速度，並使自身增加相應的攻擊速度，效果持續10秒。（最多重疊1次；冷卻時間2秒）
+    攻擊時，使敵人減少5%%的移動速度，並使自身增加相應的移動速度，效果持續10秒。（最多重疊5次；冷卻時間2秒）
+    攻擊時，使敵人減少20點力量和智力，並使自身增加相應的力量和智力，效果持續60秒。（最多重疊15次；冷卻時間2秒）
+    攻擊惡魔族敵人時，附加30%%的傷害。
+（解除裝備后效果消失）`
+
+[detail explain]
+	`    攻擊時，使敵人減少10%%的攻擊速度，並使自身增加相應的攻擊速度，效果持續10秒。（最多重疊1次；冷卻時間2秒）
+    攻擊時，使敵人減少5%%的移動速度，並使自身增加相應的移動速度，效果持續10秒。（最多重疊5次；冷卻時間2秒）
+    攻擊時，使敵人減少20點力量和智力，並使自身增加相應的力量和智力，效果持續60秒。（最多重疊15次；冷卻時間2秒）
+    攻擊惡魔族敵人時，附加30%%的傷害。
+（解除裝備后效果消失）`
+
+[flavor text]
+	`    看上去好眼熟~—某個女玩家...`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	215
+
+[magical attack]
+	182
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	960	824
+
+[equipment magical attack]
+	960	824
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	3
+
+[need material]
+	3821	1600
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/claw/claw.img`	110
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	36	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[active status control info]
+	`bleeding`	0	0	0	25
+
+[active status control info]
+	`poison`	0	0	0	25
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[equipment duration]
+		4000
+	[stat]
+		`attack speed`
+		`+`	-100
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[equipment duration]
+		10000
+	[stat]
+		`move speed`
+		`+`	-50
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[equipment duration]
+		30000
+	[stat]
+		`physical attack`
+		`+`	-20
+	[stat]
+		`magical attack`
+		`+`	-20
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		376
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		375
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		374
+[/then]
+
+[if]
+	[target type]
+		`devil`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,71 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3902
+[/dungeon]
+
+[type]
+	`[boss]`
+
+[greed]
+	`EE EE`
+
+[tile]
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom_2.til`
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom.til`
+[/tile]
+
+[pathgate pos]
+	49	274	702	234	1216	563	1202	574
+
+[sound]
+	`AMB_WIND_01`
+	`M_CARTEL_HEADQUATER_BOSS`
+[/sound]
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/tree_bottom.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[animation]
+	`Animation/r1_cliff_r.ani`
+	`[bottom]`	674	390	0
+[/animation]
+
+[monster]
+	64820	1	0	1346	281	0	0	0
+	`[fixed]`
+	`[boss]`	64807	1	0	300	281	0	0	0
+	`[fixed]`
+	`[normal]`
+[/monster]
+
+[NPC]
+	1000
+	`[left]`	0	0	0
+[/NPC]
+
+[monster specific AI]
+	`[normal]`
+[/monster specific AI]
+
+[map name]
+	`PVP 無名`

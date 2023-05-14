@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`神圣之矛`
+
+[basic explain]
+	`    生成遠古神圣之矛并將其投擲出去。`
+
+[explain]
+	`    生成遠古神圣之矛并將其投擲出去。
+    投擲時產生沖擊波， 擊退近距離的敵人， 然后神圣之矛垂直下落， 引發劇烈爆炸。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	30	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	50
+
+[consume MP]
+	1240	3400
+
+[cool time]
+	60000	60000
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	480
+	`Character/Priest/Effect/SkillIcon.img`	481
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↓↓ + Z`
+
+[skill command advantage]
+	50	50
+
+[static data]
+	300
+[/static data]
+
+[level info]
+	3	374	1702	5108	410	1875	5626	449	2048	6144	488	2220	6662	527	2393	7181	563	2566	7699	605	2739	8217	641	2911	8735	682	3084	9253	719	3257	9772	758	3430	10290	796	3602	10808	836	3775	11326	872	3948	11844	913	4121	12363	950	4293	12881	990	4466	13399	1027	4639	13917	1067	4812	14436	1104	4984	14954	1144	5157	15472	1181	5330	15990	1221	5502	16508	1258	5675	17027	1299	5848	17545	1335	6021	18063	1375	6193	18581	1414	6366	19099	1452	6539	19618	1489	6712	20136	1529	6884	20654	1566	7057	21172	1604	7230	21691	1645	7403	22209	1682	7575	22727	1723	7748	23245	1760	7921	23763	1797	8094	24282	1837	8266	24800	1876	8439	25318	1913	8612	25836	1954	8785	26355	1991	8957	26873	2032	9130	27391	2068	9303	27909	2107	9475	28427
+[/level info]
+
+[level property]
+	1	99
+	`神圣之矛下落攻擊力 : <int>
+神圣之矛撞擊地面攻擊力 : <int>
+神圣之矛爆炸攻擊力 : <int>`	-2	0	1.0	-2	1	1.0	-2	2	1.0
+[/level property]

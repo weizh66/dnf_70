@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`封·藍色颶風`
+
+[basic explain]
+	`[劍刃風暴]持續時間 +40%%
+[劍刃風暴]攻擊次數 +5
+[劍刃風暴]移動速度 +30%%`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	58
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3821	1800
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	770	652
+
+[equipment magical attack]
+	769	652
+
+[separate attack]
+	520	336
+
+[physical critical hit]
+	10
+
+[water attack]
+	12
+
+[skill levelup]
+	`[thief]`	9	3
+	`[thief]`	31	4
+	`[thief]`	33	2
+	`[thief]`	75	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/thief/dagger/dagger.img`	111
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	23	8
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[skill data up]
+	`[thief]`	31
+	`[all]`
+	`[static]`	0
+	`%`	40
+	`[thief]`	31
+	`[all]`
+	`[static]`	2
+	`+`	5
+	`[thief]`	31
+	`[all]`
+	`[static]`	6
+	`%`	30
+	`[thief]`	31
+	`[all]`
+	`[static]`	7
+	`%`	30
+[/skill data up]
+
+[possible kiri protect]

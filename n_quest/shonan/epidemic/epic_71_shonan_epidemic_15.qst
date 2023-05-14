@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	71	99
+
+[pre required quest]
+	4189
+[/pre required quest]
+
+[monster reward item]
+	62121	71	-1	4747	3	50	50	62122	71	-1	4747	3	50	50	62123	71	-1	4747	3	50	50	62124	71	-1	4747	3	50	50	62513	71	-1	4747	3	50	50	62514	71	-1	4747	3	50	50	62515	71	-1	4747	3	50	50	62516	71	-1	4747	3	50	50	63031	71	-1	4747	3	50	50	63032	71	-1	4747	3	50	50	56159	71	-1	4747	4	55	50	56160	71	-1	4747	4	55	50	59032	71	-1	4747	4	55	50	59033	71	-1	4747	4	55	50	59034	71	-1	4747	4	50	50	63031	71	-1	4747	5	100	50
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4747	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉達治療劑`
+
+[depend message]
+	`都是我的疏忽。我應該更注意考慮才是…… 
+我已經依照諾頓所說的問題重新製作了治療劑。依據紙條上提到副作用的癥狀，能靠這治療劑解決。
+我終於能放心了，請再將治療劑交給大家。`
+
+[condition message]
+	`在傳染病使用治療劑之後，收集剩下的空的治療劑瓶 50個`
+
+[solve message]
+	`治療劑都已經轉達完畢了。辛苦你了。希望他們能勝過痛苦重新迎接光明的世界……`
+
+[quest point]
+	4

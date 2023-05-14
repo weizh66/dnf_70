@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`落星戰斧`
+
+[basic explain]
+	`[星落打]揮擊攻擊力 +20%%
+[疾空旋風破]冷卻時間 -6秒`
+
+[flavor text]
+	`    蘊含有恐怖威力的戰斧， 可以瞬間把敵人打入地獄。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/priest/axe.img`	32
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	90000
+
+[repair price]
+	75600
+
+[value]
+	72000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[equipment physical attack]
+	571	514
+
+[equipment magical attack]
+	405	364
+
+[separate attack]
+	285	189
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[skill data up]
+	`[priest]`	41
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[priest]`	41
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[priest]`	5
+	`[all]`
+	`[cooltime]`	0
+	`+`	-6000
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	41	2
+	`[priest]`	5	2
+[/skill levelup]
+
+[variation]
+	3	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

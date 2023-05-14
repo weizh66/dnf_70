@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`Misread`
+
+[explain]
+	`將艾恩葛朗特的技能重現在阿拉德大陸。Buff效果將適用于所有隊員。 使用后， 增加10%%的攻擊速度和25%%的移動速度， 效果持續60分鐘。`
+
+[flavor text]
+	`<SAO遇見DNF>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	4
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[stackable type]
+	`[waste]`	0
+
+[icon]
+	`Item/stackable/consumption_jp.img`	484
+
+[cool time]
+	3600000
+
+[cooltime group]
+	1023
+
+[cooltime maintenance]
+	0	0	0
+
+[appendage group]
+	-1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[stat change]
+	`+`	200
+	`move speed`
+	`+`	100
+	`attack speed`
+[/stat change]
+
+[stat change duration]
+	3600000
+	`party`

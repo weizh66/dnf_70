@@ -1,0 +1,224 @@
+#PVF_File
+
+[name]
+	`瓦爾基莉亞胸甲`
+
+[basic explain]
+	`[強拳]持續時間+5秒。
+[武神步]持續時間+100%%。
+  釋放崩拳會釋放通背拳。
+  攻擊時，消耗五個無色增加25%%的攻擊速度和1000點力量。
+  裝備時，每30秒使500範圍內的敵人混亂10秒。`
+
+[detail explain]
+	`[強拳]持續時間+5秒。
+[武神步]持續時間+100%%。
+  釋放崩拳會釋放通背拳。
+  攻擊時，消耗五個無色增加25%%的攻擊速度和1000點力量。
+  裝備時，每30秒使500範圍內的敵人混亂10秒。`
+
+[flavor text]
+	`    她們在戰場上賜予戰死者美妙的一吻，并引領他們帶往英靈殿。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[skill levelup]
+	`[fighter]`	37	5
+	`[at fighter]`	37	5
+[/skill levelup]
+
+[minimum level]
+	85
+
+[physical attack]
+	51
+
+[magical attack]
+	34
+
+[need material]
+	3500	1500
+
+[repair price]
+	400
+
+[value]
+	95200
+
+[equipment physical defense]
+	4464	4176
+
+[icon]
+	`item/new_equipment/04_larmor/coat/larmor_coat.img`	50
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	2
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	100
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3037	1
+	[duration]
+		30000
+	[stat]
+		`attack speed`
+		`+`	250
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3037	5
+	[duration]
+		30000
+	[stat]
+		`physical attack`
+		`+`	1000
+[/then]
+
+[if]
+	[cooltime]
+		1500
+	[skill]
+		`fighter`	80
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48164	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		30000	1	1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		10000
+	[probability]
+		100
+	[active status]
+		`confuse`	200	1
+[/then]
+
+[skill data up]
+	`[fighter]`	37
+	`[all]`
+	`[static]`	1
+	`%`	10
+	`[fighter]`	70
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[at fighter]`	37
+	`[all]`
+	`[static]`	1
+	`%`	10
+[/skill data up]
+
+[set name]
+	`瓦爾基莉亞 套裝`
+
+[set item]
+	11929	11930	11931	11932	11933
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`    陣亡時，對1000px範圍內的敵人造成毀滅性傷害。`
+	[if]
+		[module]
+			`[dungeon]`
+			`[tournament dungeon]`
+			`[dead tower]`
+			`[war room]`
+			`[blood system]`
+		[/module]
+		[cooltime]
+			1000
+		[set my state]
+			1
+		[my state]
+			`die`
+	[/if]
+	[then]
+		[target]
+			`all enemy`	1000
+		[probability]
+			100
+		[passive object]
+			21021	0	0	0	999999	0
+			``	9486	0	0	0	999999	0
+			``	48090	0	0	0	999999	0
+			``
+		[/passive object]
+	[/then]
+[/set ability]
+
+[routing priority]
+	`fighter`	2
+[/routing priority]
+
+[possible kiri protect]

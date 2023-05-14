@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	62
+
+[complete npc index]
+	-1
+
+[target character]
+	`[at mage]`	1	-1
+[/target character]
+
+[level]
+	70	99
+
+[pre required quest]
+	7743
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	66	2	63020	5	67	2	62141	5	65	2	61238	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	405092	1	405093	1	405094	1
+[/reward selection int data]
+
+[name]
+	`勇者 - 新異界的力量 (3/3)`
+
+[depend message]
+	`冒險家！ 我找到了一個好方法， 可以把更強大的氣息注入到裝備中。
+不過佩戴這種裝備后， 會對人體產生不同程度的傷害。
+冒險家， 雖然你可以佩戴蘊含異界力量的項鏈， 但這次不知道你還能堅持下來嗎……`
+
+[condition message]
+	`    通關異次元裂縫的『虛無之境』、 『黑色大地』以及『巴卡爾之城』各5次。要求地下城難度為王者級。`
+
+[solve message]
+	`冒險家， 你真是太強大了……
+這神秘的異界力量在你手上， 顯得更加光彩奪目……`
+
+[quest point]
+	4

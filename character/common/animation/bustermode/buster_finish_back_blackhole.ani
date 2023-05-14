@@ -1,0 +1,40 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Common/BusterMode/buster_loop_normal.img`
+		0
+	[IMAGE POS]
+		-151	-177
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[DELAY]
+		40
+
+[FRAME001]
+	[IMAGE]
+		`Character/Common/BusterMode/buster_loop_normal.img`
+		1
+	[IMAGE POS]
+		-151	-177
+	[IMAGE RATE]
+		0.699999988079071	0.699999988079071
+	[IMAGE ROTATE]
+		0.6981319785118103
+	[DELAY]
+		40
+
+[FRAME002]
+	[IMAGE]
+		`Character/Common/BusterMode/buster_loop_normal.img`
+		2
+	[IMAGE POS]
+		-151	-177
+	[IMAGE RATE]
+		0.5	0.5
+	[IMAGE ROTATE]
+		0.8726639747619629
+	[DELAY]
+		40

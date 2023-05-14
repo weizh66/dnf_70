@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`NovaRemantAtk1`
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/sf.act`
+
+[attack info]
+	`AttackInfo/NovaRemnant.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

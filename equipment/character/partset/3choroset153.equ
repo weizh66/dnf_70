@@ -1,0 +1,153 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	74
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[貪婪之刺]冷卻時間 -30%%
+[殺戮戰鐮]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[at priest]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	22
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	8
+		`+`	-1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	5
+		`+`	10
+		`[at priest]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	6
+		`%`	15
+		`[at priest]`	72
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	72
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	135
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[貪婪之刺]攻擊速度 +30%%
+[貪婪之刺]攻擊力 +22%%
+[殺戮戰鐮]旋轉次數 -1
+[殺戮戰鐮]連擊時攻擊速度增加量 +10%%
+[殺戮戰鐮]攻擊力 +50%%
+[屠戮回旋斬]旋轉次數 -1
+[屠戮回旋斬]冷卻時間 -25%%
+[屠戮回旋斬]旋轉斬擊攻擊力 +135%%
+[屠戮回旋斬]終結一擊攻擊力 +50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[at priest]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	74
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	74
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at priest]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	75
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	8
+		`+`	-1
+		`[at priest]`	75
+		`[dungeon type]`
+		`[static]`	5
+		`+`	15
+		`[at priest]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at priest]`	72
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	72
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	150
+		`[at priest]`	72
+		`[dungeon type]`
+		`[level]`	1
+		`%`	85
+	[/skill data up]
+	[parameter basic explain]
+		`[貪婪之刺]攻擊速度 +30%%
+[貪婪之刺]攻擊力 +20%%
+[貪婪之刺]無色小晶塊消耗量 +1
+[殺戮戰鐮]旋轉次數 -1
+[殺戮戰鐮]連擊時攻擊速度增加量 +15%%
+[殺戮戰鐮]冷卻時間 -30%%
+[殺戮戰鐮]攻擊力 +50%%
+[殺戮戰鐮]無色小晶塊消耗量 +1
+[屠戮回旋斬]旋轉次數 -1
+[屠戮回旋斬]旋轉斬擊攻擊力 +150%%
+[屠戮回旋斬]終結一擊攻擊力 +85%%
+[屠戮回旋斬]冷卻時間 -25%%`
+[/piece set ability]

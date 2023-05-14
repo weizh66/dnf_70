@@ -1,0 +1,38 @@
+#PVF_File
+
+[ui controls]
+	`[text]`
+	`100`	0	0	1
+	`根據申請夥伴的玩家疲勞度消耗量
+可以領取鑄幣。 試著進行登錄。`
+		9	-1	400	0	0	0	0	255	255	255
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`101`	0	38	1
+	`角色`
+		9	-1	100	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text button]`
+	`103`	55	60	2
+	`Interface/WindowCommon.img`
+	`邀請`
+		4	12	13	14	15
+[/ui controls]
+
+[ui controls]
+	`[text button]`
+	`104`	111	60	2
+	`Interface/WindowCommon.img`
+	`取消`
+		4	12	13	14	15
+[/ui controls]
+
+[ui controls]
+	`[basic combo box]`
+	`102`	38	38	1
+	`edit and list`	1	154
+[/ui controls]

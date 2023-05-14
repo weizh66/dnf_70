@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`暗夜潛行者`
+
+[basic explain]
+	`攻擊時，以2%%的機率使敵人進入眩暈狀態。
+基本裝彈數增加1`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人6秒內陷入氣絕狀態。  (若敵人高於Lv50，則減少進入異常狀態的機率和效果；反之，則增加機率和效果)
+基本裝彈數 +1`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[physical attack]
+	38
+
+[magical attack]
+	57
+
+[price]
+	100800
+
+[repair price]
+	84672
+
+[value]
+	80640
+
+[creation rate]
+	30
+
+[equipment physical attack]
+	519	446
+
+[equipment magical attack]
+	451	388
+
+[separate attack]
+	311	208
+
+[skill levelup]
+	`[gunner]`	78	1
+	`[at gunner]`	78	1
+[/skill levelup]
+
+[icon]
+	`item/weapon/gunner/musket.img`	23
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	2	6
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	2	6
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		2
+	[active status]
+		`stun`	50
+[/then]
+
+[int data]
+	4	-1	-1	-1	-1	-1	-1	-1	-1	-1
+[/int data]
+
+[possible kiri protect]

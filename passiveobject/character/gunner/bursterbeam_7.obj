@@ -1,0 +1,30 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[width]
+	1	1
+
+[floating height]
+	0
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation_1/bursterbeamready_body.ani`
+
+[attack info]
+	`Attackinfo/BursterBeamNewAt1.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	125000
+[/object destroy condition]

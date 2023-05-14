@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`黃金猛龍斗士長劍`
+
+[grade]
+	2
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/swordman/katana.img`	81
+
+[icon mark]
+	`Item/IconMark_cn.img`	15
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		27	0
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2790
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[avatar func filter]
+	2
+
+[string data]
+	``
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]

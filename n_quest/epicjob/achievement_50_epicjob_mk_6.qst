@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	7620
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3229	100	3187	200
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`覺醒 - 武極 (4/4)`
+
+[depend message]
+	`我們人有奇經八脈， 但是只要打通其中兩條就可以達到‘武極’的境界。 有些人為了突破自身的極限， 試圖打通第三道經脈， 卻因此白白地丟了性命。
+可見這第三道經脈， 危險性非常高， 所以我并不建議你強行打通。
+如果你還是堅持嘗試的話， 就必須做好預防工作， 將危險性降到最低。`
+
+[condition message]
+	`    為了成為武極， 請收集以下材料。`
+
+[solve message]
+	`沒想到會這么順利。 你現在是不是覺得體內有股強大的力量快要迸發出來？
+恭喜你正式成為武極。 希望你能夠堅持這份信念， 永不放棄。`

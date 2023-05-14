@@ -1,0 +1,779 @@
+#PVF_File
+
+[name]
+	`聖耀救贖權杖`
+
+[basic explain]
+	`所有技能攻擊力+
+1000%%
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能。
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。`
+
+[detail explain]
+	`所有技能攻擊力+
+1000%% (對Buff技能無效)
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能， 時長持續20秒； 釋放結束後20秒內使自身技能攻擊力增加20%%。（冷卻時間47秒）
+ 
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。(傷害最高可達300萬)`
+
+[flavor text]
+	`    萬物生自守恒， 源力破則失正
+    莫以為敵消彼漲， 然乾坤逆之天崩。 --祭安徒恩之死`
+
+[grade]
+	99
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[anti evil]
+	60
+
+[magical attack]
+	84
+
+[attack speed]
+	-100
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1245	1245
+
+[equipment magical attack]
+	1644	1644
+
+[separate attack]
+	925	925
+
+[magical critical hit]
+	5
+
+[icon]
+	`Item/new_equipment/01_weapon/thief/wand/wand.img`	150
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	47	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		990009	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+
+	[if]
+		[start cooltime]
+			47000
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			47000
+	[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[skill data up]
+	`[thief]`	1
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	1
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[thief]`	1
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	1
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[thief]`	2
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	2
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	3
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	3
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	4
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	4
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	4
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	4
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[thief]`	4
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[thief]`	5
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	5
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	6
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	6
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	7
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	7
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	8
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	8
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	8
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	8
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[thief]`	21
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	21
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	21
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	21
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	21
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[thief]`	23
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	23
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	24
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	24
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	25
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	26
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	26
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	9
+	`[all]`
+	`[static]`	0
+	`%`	1000
+	`[thief]`	9
+	`[all]`
+	`[static]`	1
+	`%`	1000
+	`[thief]`	9
+	`[all]`
+	`[static]`	2
+	`%`	1000
+	`[thief]`	9
+	`[all]`
+	`[static]`	3
+	`%`	1000
+	`[thief]`	9
+	`[all]`
+	`[static]`	4
+	`%`	1000
+	`[thief]`	27
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	27
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	27
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	16
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	16
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	16
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[thief]`	16
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[thief]`	16
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[thief]`	41
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	41
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	41
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[theif]`	31
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[theif]`	31
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	33
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	33
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	33
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	33
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	45
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	45
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	45
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	45
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[thief]`	45
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[thief]`	34
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	34
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	34
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	34
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[thief]`	47
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	47
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	47
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	47
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	47
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[thief]`	57
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	57
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	57
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[thief]`	57
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[thief]`	57
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[thief]`	76
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	76
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	76
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[thief]`	76
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[theif]`	75
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[theif]`	75
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	51
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	51
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[thief]`	51
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[thief]`	51
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[thief]`	51
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[thief]`	51
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[thief]`	52
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	52
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	52
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[thief]`	52
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[thief]`	52
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[thief]`	35
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[thief]`	35
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[thief]`	53
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[thief]`	53
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[theif]`	49
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[theif]`	49
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[thief]`	36
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	36
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[thief]`	37
+	`[all]`
+	`[level]`	17
+	`%`	1000
+	`[thief]`	55
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	55
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	55
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	55
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[theif]`	39
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[theif]`	39
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[theif]`	39
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[theif]`	39
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[theif]`	40
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[theif]`	40
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[theif]`	40
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[theif]`	40
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[theif]`	40
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[theif]`	40
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[theif]`	59
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[theif]`	59
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[theif]`	59
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[theif]`	74
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	77
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[thief]`	77
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[thief]`	77
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[thief]`	77
+	`[all]`
+	`[level]`	3
+	`%`	1000
+[/skill data up]
+
+[if]
+	[start cooltime]
+		47000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[if]
+	[my appendage]
+		888
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		642
+	[appendage]
+		650
+[/then]
+
+[possible kiri protect]

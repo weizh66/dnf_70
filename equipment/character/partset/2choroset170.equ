@@ -1,0 +1,129 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	282
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	282
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[swordman]`	282
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[swordman]`	282
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[swordman]`	282
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[swordman]`	282
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼連斬]攻擊力 +25%%
+[鬼連斬]冷卻時間 -10%%
+[鬼連斬]攻擊范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	288
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	288
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[swordman]`	288
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[swordman]`	304
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	304
+		`[dungeon type]`
+		`[static]`	5
+		`%`	25
+		`[swordman]`	304
+		`[dungeon type]`
+		`[static]`	6
+		`%`	25
+		`[swordman]`	292
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	292
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[swordman]`	292
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼連牙]攻擊力 +20%%
+[鬼連牙]攻擊范圍 +30%%
+[鬼連斬 : 極]攻擊力 +20%%
+[鬼連斬 : 極]上挑范圍 +30%%
+[魂破斬]攻擊力 +20%%
+[魂破斬]劍氣大小 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	292
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[swordman]`	292
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-30
+		`[swordman]`	292
+		`[dungeon type]`
+		`[static]`	5
+		`+`	30
+		`[swordman]`	292
+		`[dungeon type]`
+		`[static]`	4
+		`+`	10
+		`[swordman]`	295
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	295
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[swordman]`	295
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[魂破斬]下劈次數 +1次
+[魂破斬]攻擊力 -30%%
+[魂破斬]下劈速度 +50%%
+[魂破斬]第二擊劍氣大小 +30%%
+[魂破斬]冷卻時間 -35%%
+[冥靈斷魂斬]攻擊力 +30%%
+[冥靈斷魂斬]攻擊范圍 +30%%`
+[/piece set ability]
+
+[partset specific growtype]
+	5

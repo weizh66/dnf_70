@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	12	99
+
+[pre required quest]
+	114
+[/pre required quest]
+
+[effect after clear quest]
+	1
+
+[monster reward item]
+	22	8	1	3079	1	100	1	22	8	2	3079	1	100	1	22	8	3	3079	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3079	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	22049	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	3
+
+[name]
+	`前往天空之城`
+
+[depend message]
+	`你也想去天空之城？ 天空之城是阿拉德大陸通向天界的神跡啊！ 千年前， 為了阻止異變的怪物， 精靈用特殊的魔法封印了天空之城， 從此天空之城便從阿拉德大陸消失了……
+雖然有些生物可以不受異變影響自由出入天空之城， 但是它們身上的魔力一定會被吸走。 呵呵， 冒險家， 如果你也想進入天空之城， 最好能有凈化手鐲哦。
+傳言凈化手鐲能消除魔法陣的影響， 不過想要獲得它， 就得先打敗具有強大魔力的魔法師并找到魔法結晶才行。 `
+
+[condition message]
+	`    前往格蘭之森的『烈焰格拉卡』， 從領主烈焰彼諾修身上找到[魔法結晶]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`聽說天空之城里有個強大的光之魔法生命體， 如果你遇上它， 一定要小心呀。 希望這個凈化手鐲對你有幫助， 愿精靈的力量陪伴你！`
+
+[quest point]
+	4

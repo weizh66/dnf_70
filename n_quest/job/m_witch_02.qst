@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7849
+[/pre required quest]
+
+[collision quest]
+	7841	7843	7846
+[/collision quest]
+
+[monster reward item]
+	21	513	-1	4480	1	100	1	22	513	-1	4479	1	100	1	212	513	-1	4482	1	100	1	9	513	-1	4481	1	100	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4479	1	4480	1	4481	1	4482	1
+[/int data]
+
+[dungeon info]
+	513	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7851
+
+[name]
+	`轉職 - 魔道學者 (2/3)`
+
+[depend message]
+	`現在就帶著亡月之鏡前往那里吧。
+記得收集一些屬性靈魂， 它們可是構成法米利爾的重要材料。
+千萬要小心， 別碰壞了靈魂。`
+
+[condition message]
+	`    獨自一人前往格蘭之森的『亡月雷鳴廢墟』， 收集[火之靈魂]、 [冰之靈魂]、 [光之靈魂]和[暗之靈魂]交給莎蘭。`
+
+[solve message]
+	`希望等下做出來的是個優秀的小家伙……`

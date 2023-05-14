@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 毀滅者 (1/2)`
+
+[depend message]
+	`那個路過的狂暴者小伙~你現在看起來很強了嘛！
+是不是覺得現在的武器已經滿足不了你的需求了？ 是不是想要更加強大的重火器？
+嘿嘿， 這點姐姐我可以幫到你。 我聽說天界的科學家正在秘密開發一些新式重火器， 只有皇都軍中最出類拔萃的狂暴者才能使用。 當然， 處在那個層次的人， 已經不屬于狂暴者的范疇了， 而是真正的‘毀滅者’。
+只要毀滅者出現， 即使再膠著的戰斗也能夠撕開一道裂口， 他們在戰場上是無敵的存在。
+現在的你在我看來， 已經初步具備成為‘毀滅者’的實力了， 但只有接受過魔鬼訓練的狂暴者才能真正擁有這一殊榮。 如果你已經有了必死的覺悟， 就再和我談談吧， 姐姐我還是挺想幫你的。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和凱麗談談。`
+
+[solve message]
+	`非常好， 能這么從容的做下決定， 看來你真的已經將生死置之度外了！`
+
+[pre required quest]
+	928
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4820
+
+[job change quest]
+	3
+
+[grow number]
+	0

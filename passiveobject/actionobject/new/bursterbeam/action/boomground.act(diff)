@@ -1,0 +1,47 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/BursterBeamNew/bb2ndfloorexpla_floordodge_a.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900081
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			-100	0	0
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900081
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900081
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			-200	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

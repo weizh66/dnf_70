@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`熱乎的烤章魚`
+	
+
+[flavor text]
+	`    凱麗精心製作的烤章魚， 有濃濃的香味。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	176
+
+[stackable type]
+	`[waste]`	1
+
+[appendage group]
+	0
+
+[price]
+	10
+
+[move wav]
+	`FOOD_TOUCH`
+
+[mp recovery]
+	`%`	20	1000
+	`myself`
+
+[stat change]
+	`+`	45
+	`magical attack`
+	`+`	50
+	`cast speed`
+[/stat change]
+
+[stat change duration]
+	30000
+	`myself`

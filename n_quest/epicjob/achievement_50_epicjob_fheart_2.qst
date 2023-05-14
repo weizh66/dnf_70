@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	4086
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	33662	1	33963	1	33366	1	33062	1
+[/reward selection int data]
+
+[relation quest]
+	4088
+
+[name]
+	`覺醒 - 冰凍之心 (2/4)`
+
+[depend message]
+	`現在冰化的力量都集中到你的心臟部位， 但是人的心臟是無法忍受這樣的寒冷的， 再加上還有黑暗之眼的壓力……
+目前唯一的解決辦法就是， 加速你心臟部位的結晶化， 讓它最終能夠綻放出冰晶之花。 這種花類似于修煉到極致出現的護體， 盡管依然冰冷， 卻能夠維持你的生命。
+從現在開始， 你要盡量地多使用些冰凍系的魔法， 這樣或許能激發出你體內黑暗之眼的潛力。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`讓我看看。
+你體內黑暗之眼的能量正在釋放……但是依然沒有冰晶之花綻放的蹤跡……`

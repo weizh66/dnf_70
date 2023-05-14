@@ -1,0 +1,38 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	33
+
+[big face]
+	`Map/Npc/NpcFace04.img`	12
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	33
+
+[field animation]
+	`Animation/QuestNpc_fairyseria.ani`
+
+[look around]
+	0
+
+[name]
+	`精靈少女`
+
+[field name]
+	`妖精少女`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1019>長老說過不要和外人提到這個......。我還是~ 想說呢。
+ 對我來說，有太多事情我感到很好奇了 總有一天我想離開森林去看看外面的世界。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1019>聽說人類總是想把人類之外的種族都擊殺掉......。冒險家你也是這樣嗎？`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1019>我偶爾會做一個夢。但是醒來總是記不起來。可是眼角濕濕的一定是悲傷的夢吧？`
+[/dialog]

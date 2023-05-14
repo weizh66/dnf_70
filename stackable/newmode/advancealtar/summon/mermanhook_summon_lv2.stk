@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+	`銀鉤菲力 ( Lv2 )`
+
+[explain]
+	`藉助其他我軍的力量，會使用強烈攻擊，那就是銀鉤菲力！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Interface/AdvanceAltar/InGame/AdvanceAltar_ingame_unit_icon.img`	12
+
+[disable icon]
+	`Interface/AdvanceAltar/InGame/AdvanceAltar_ingame_unit_icon.img`	13
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	8000
+
+[cooltime group]
+	104
+
+[move wav]
+	`PAPER_TOUCH`
+
+[advance altar need gage]
+	55
+
+[monster summons]
+	64654	1	1	0	1

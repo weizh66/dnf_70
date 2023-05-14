@@ -1,0 +1,678 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace03.img`	29
+
+[big face]
+	`Map/Npc/NpcFace03.img`	29
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	70
+
+[field animation]
+	`Animation/Npc_Zeldin.ani`
+
+[field wav]
+	`R_NPC_ZELDIN_AMB`
+
+[popup wav]
+	`R_NPC_ZELDIN_TALK`
+	`R_NPC_ZELDIN_FAREWELL`
+
+[role]
+	`[item shop]`	31
+[/role]
+
+[look around]
+	0
+
+[name]
+	`澤丁·施奈德`
+
+[field name]
+	`澤丁·施奈德`
+
+[quest speech]
+	`『現在的天界就像風中微弱的燭火， 隨時都可能淪陷， 我們急需您的幫助。』`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::58>你就是來助我們一臂之力的冒險家吧？ 我是根特的守備隊長澤丁·施奈德。
+雖然我很想為你舉辦盛大的歡迎儀式， 但我們目前的處境很糟糕， 請原諒。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::58>我之所以能當上守備隊長……
+并不是因為我有能力， 而是因為之前的守備隊長都在抵擋卡勒特的侵襲中犧牲了……
+我當上隊長后， 我方軍隊也遭到了卡勒特的侵襲， 我們損失慘重……
+我想， 這也許是因為我的能力不足導致的……`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::58>卡勒特的那些混蛋……都是極端自私、 極度無恥的家伙！
+他們為了滿足自己的私欲， 不惜摧毀一切。
+就因為他們的自私， 我失去了哥哥和我的一條胳膊， 我怨恨他們……`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	0	0
+	`<npc::58>沙影貝利特……我認識他， 也知道關于他的那些傳說和英雄事跡， 而且我還知道他現在就在根特。
+但是， 冒險家， 你可不能完全相信他的那些傳說和事跡。
+我實話告訴你吧， 沙影貝利特其實是卡勒特創建初期的核心成員， 后來因為某種原因脫離了卡勒特組織……
+雖然他現在年紀大了， 看起來也沒什么危險性， 但……
+我之所以還沒逮捕他， 是因為他是卡勒特內部信息的唯一來源， 比較有利用價值。
+不過我敢肯定他是個怪老頭， 冒險家， 你一定要小心他。`
+[/dialog]
+
+[dialog]
+	5	1	99	-1	1	0
+	`<npc::58>是的， 那些卡勒特的混蛋比我想象中的還要強大。 要是我們不做好萬全準備， 遲早會遭到更大的打擊。`
+[/dialog]
+
+[dialog]
+	6	1	99	-1	2	0
+	`<npc::58>雖然我不知道引起騷動的敵人有多強， 但連這種事情都處理不了， 我憑什么相信你的實力！
+我現在很忙， 下次再聊吧。`
+[/dialog]
+
+[favor_dialog]
+	3	0	0
+	`<npc::58>(臉變紅了) 我喜歡……你……啊， 不是， 我是說……哎呀， 你千萬別放在心上。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	1
+	`<npc::58>如果方便的話， 就和我喝杯茶吧？`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	2
+	`<npc::58>非常感謝。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	0
+	`<npc::58>如果哥哥還在的話， 我一定會把你介紹給他……`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	1
+	`<npc::58>越是在困境中， 你這樣的朋友越顯得珍貴。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	2
+	`<npc::58>謝謝你， 這東西我收下了。 雖然它對戰爭沒有幫助， 但對百姓們有用處。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	0
+	`<npc::58>雖然情況很糟糕， 但有你這樣的朋友在身邊， 我覺得很安心。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	1
+	`<npc::58>對我來說， 小小的幫助也是十分可貴的。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	2
+	`<npc::58>唉， 無論是什么情況， 都讓我感到很擔憂啊……`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	0
+	`<npc::58>謝謝， 我一定會把你的事跡轉達給皇女殿下。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	1
+	`<npc::58>你能這么幫我， 我已經很感激了。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	2
+	`<npc::58>對不起， 可能是我沒說清楚我的要求。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	0
+	`<npc::58>我該如何表達我的感激之情呢……`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	1
+	`<npc::58>雖然這東西沒多大用處， 但我還是謝謝你。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	2
+	`<npc::58>這種東西……用在哪比較好呢？`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	0
+	`<npc::58>為了我們， 你每次都這樣奔波勞碌， 真是辛苦了。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	1
+	`<npc::58>如果能給我一些我需要的東西，那就十分感謝了。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	2
+	`<npc::58>呃……難道我做錯了什么？`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	0
+	`<npc::58>啊， 這是要給我的嗎？ 謝謝了， 冒險家！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	1
+	`<npc::58>抱歉， 我們現在不需要這個。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	2
+	`<npc::58>如果你對我不滿， 就直接跟我說……`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	0
+	`<npc::58>這正是我要的東西， 謝謝！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	1
+	`<npc::58>這東西……有用嗎？`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	2
+	`<npc::58>這東西……是個累贅。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	0
+	`<npc::58>謝謝你的幫助， 我們面臨的危機總算過去了。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	1
+	`<npc::58>難道沒有其他的東西了嗎？`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	2
+	`<npc::58>拜托， 別再帶這種東西來了。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	0
+	`<npc::58>這東西應該能派上用場， 謝了。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	1
+	`<npc::58>情況緊急， 我沒時間和你閑聊。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	2
+	`<npc::58>你到底想怎樣？`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	0
+	`<npc::58>只要是戰場上需要的， 我就不會拒絕。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	1
+	`<npc::58>如果你沒別的事情， 就離開吧。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	2
+	`<npc::58>你不會是間諜吧？`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	0
+	`<npc::58>這東西， 我會好好利用的。`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	1
+	`<npc::58>呃……我很忙……`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	2
+	`<npc::58>再這樣的話， 我就逮捕你。`
+[/favor_dialog]
+
+[1st favor dialog]
+	`<npc::58>卡勒特今天格外安靜啊， 要是有人來找我聊天就好了……`
+[/1st favor dialog]
+
+[favor_dialog_exception]
+	0
+	`<npc::58>物資緊缺， 請多給我幾個吧。`
+[/favor_dialog_exception]
+
+[favor_dialog_exception]
+	1
+	`<npc::58>呃， 這東西……我今天不收了。`
+[/favor_dialog_exception]
+
+[favorable relationship]
+	[default favor]
+		1500
+	[max gift per day]
+		20
+	[dialog day not continuously]
+		4	100
+	[mood]
+		[change]
+			`good`	1200
+			`bad`	1200
+			`normal`	1500
+		[/change]
+		[key item]
+			3016	1
+		[/key item]
+	[/mood]
+	[gift item]
+		[favor rate per mood]
+			120	100	80
+		[prefer item]
+		[/prefer item]
+		[prefer item group]
+			1
+			`potion`	5	30	1
+			`animal stuff`	5	30	1
+			`mineral stuff`	5	30	2
+			`potion`	5	30	2
+			`animal stuff`	5	30	2
+			`mineral stuff`	5	30	3
+			`animal stuff`	5	30	3
+			`mineral stuff`	5	30	4
+			`animal stuff`	5	30
+		[/prefer item group]
+		[unprefer item]
+		[/unprefer item]
+		[unprefer item group]
+			1
+			`plant stuff`	50	1
+			`stuff etc`	50	2
+			`plant stuff`	50	2
+			`stuff etc`	50	3
+			`plant stuff`	50	3
+			`stuff etc`	50	4
+			`plant stuff`	50	4
+			`stuff etc`	50
+		[/unprefer item group]
+	[/gift item]
+	[reward item]
+		[item info]
+			[favor level]
+				1
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	0	0	1000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	0	0	1500
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				2
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				3
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				4
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2610022	3	1000	2610022	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2610022	3	1000	2610022	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2610022	3	1000	2610022	5	1000	0	0	5000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+	[/reward item]
+	[event gift item]
+		[favor rate per mood]
+			120	100	80
+		[prefer item]
+			1	2749127	1	30	2	2749127	1	30	3	2749127	1	30	4	2749127	1	30
+		[/prefer item]
+		[prefer item group]
+			1
+			`potion`	5	30	1
+			`animal stuff`	5	30	1
+			`mineral stuff`	5	30	2
+			`potion`	5	30	2
+			`animal stuff`	5	30	2
+			`mineral stuff`	5	30	3
+			`animal stuff`	5	30	3
+			`mineral stuff`	5	30	4
+			`animal stuff`	5	30
+		[/prefer item group]
+		[unprefer item]
+		[/unprefer item]
+		[unprefer item group]
+			1
+			`plant stuff`	50	1
+			`stuff etc`	50	2
+			`plant stuff`	50	2
+			`stuff etc`	50	3
+			`plant stuff`	50	3
+			`stuff etc`	50	4
+			`plant stuff`	50	4
+			`stuff etc`	50
+		[/unprefer item group]
+	[/event gift item]
+	[event reward item]
+		[item info]
+			[favor level]
+				1
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2749128	1	1000	0	0	1000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2749128	1	1000	0	0	1500
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2749128	1	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				2
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2749128	1	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2749128	1	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2749128	1	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				3
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2749128	1	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2749128	1	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2749128	1	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				4
+			[mood]
+				`good`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2610022	3	1000	2610022	5	1000	2749128	1	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2610022	3	1000	2610022	5	1000	2749128	1	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610002	3	1000	2610002	5	1000	2610007	3	1000	2610007	5	1000	2610015	3	1000	2610015	5	1000	2610019	3	1000	2610019	5	1000	2610022	3	1000	2610022	5	1000	2749128	1	1000	0	0	5000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+	[/event reward item]
+[/favorable relationship]

@@ -1,0 +1,216 @@
+#PVF_File
+
+[name]
+	`皇室禁衛隊的刺刀`
+
+[basic explain]
+	`攻擊時以 5%% 的機率讓敵人7秒內進入出血狀態
+用碎霸 攻擊出血狀態的敵人時5000 附加傷害
+用魔化的碎霸攻擊出血狀態的敵人時敵人\ HP1減少5%%`
+
+[detail explain]
+	`攻擊時以 5%%的機率讓敵人在 7秒內進入出血狀態，每0.5秒受到214的傷害。（高於Lv85的對象得到的機率減少，低於Lv85的對象則會增加。）
+出血狀態的敵人以碎霸攻擊時受到 5000 附加傷害。
+出血狀態的敵人魔化的碎霸攻擊時敵人的HP減少15%%。（精英怪物為 1/3，領主和深淵怪物則為 1/6的效果）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	84
+
+[attack speed]
+	-50
+
+[stuck]
+	-1
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	989	917
+
+[equipment magical attack]
+	700	649
+
+[separate attack]
+	504	343
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[mage]`	13	2
+	`[mage]`	117	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/mage/spear/spear.img`	104
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	31	1
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	32	1
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	31	1
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		7000
+[/if]
+
+[then]
+	[probability]
+		5
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[active status]
+		`bleeding`	85	214
+[/then]
+
+[if]
+	[skill]
+		`mage`	13
+	[/skill]
+	[attack success]
+		1
+	[target active status]
+		`bleeding`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	5000
+[/then]
+
+[if]
+	[skill]
+		`mage`	117
+	[/skill]
+	[attack success]
+		1
+	[target active status]
+		`bleeding`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[weakness]
+		15
+[/then]
+
+[possible kiri protect]

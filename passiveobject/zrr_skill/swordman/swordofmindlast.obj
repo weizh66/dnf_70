@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`心?end`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`animation/swordofmind/last_hit.ani`
+
+[attack info]
+	`attackinfo/meteorsword.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

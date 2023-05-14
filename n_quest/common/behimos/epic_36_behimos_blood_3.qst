@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	19
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	36	99
+
+[pre required quest]
+	448
+[/pre required quest]
+
+[depend give item]
+	4129	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4129	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`血腥凈化的紋章`
+
+[depend message]
+	`我敢肯定這東西和GBL教有關， 不過我從來沒有見過這種材質。 嗯， 我用了很多種方法都無法打開它， 我想可能會有信息藏在里面……
+怎么辦呢？ 也許赫頓瑪爾著名的煉金大師知道怎么打開它， 你能拿給他看看嗎？`
+
+[condition message]
+	`    把[血腥凈化的紋章]交給諾頓看看。`
+
+[solve message]
+	`這是什么東西？ 樣子很奇怪啊！`
+
+[quest point]
+	4

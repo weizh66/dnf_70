@@ -1,0 +1,65 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/ATSpiralPress/explosion_wind04.img`
+		9
+	[IMAGE POS]
+		-266	-281
+	[IMAGE RATE]
+		1.2699999809265137	1.2699999809265137
+	[RGBA]
+		255	255	255	153
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/ATSpiralPress/explosion_wind04.img`
+		10
+	[IMAGE POS]
+		-266	-280
+	[IMAGE RATE]
+		1.2799999713897705	1.2799999713897705
+	[RGBA]
+		255	255	255	153
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/ATSpiralPress/explosion_wind04.img`
+		11
+	[IMAGE POS]
+		-265	-279
+	[IMAGE RATE]
+		1.2999999523162842	1.2999999523162842
+	[RGBA]
+		255	255	255	153
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-206	31
+	[DELAY]
+		80

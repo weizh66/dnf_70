@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	` 地靈絕魂胸甲`
+
+[basic explain]
+	`自己和金庫的重量傷害增加（倉庫的一個欄位最大適用至6Kg，一個部位佩戴時只能發揮 60%%的效力，每附加一個增加 10%%。 支援兵狀態下不適用）`
+
+[flavor text]
+	`雖然重量減輕了可是反而比較好，證明給你看。-班圖族的最高部族長布萬加`
+
+[grade]
+	35
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	30
+
+[physical attack]
+	20
+
+[magical attack]
+	13
+
+[attack speed]
+	-10
+
+[inventory limit]
+	100
+
+[price]
+	42000
+
+[repair price]
+	33600
+
+[value]
+	33600
+
+[equipment physical defense]
+	1548	1332
+
+[icon]
+	`Item/common/coat.img`	119
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`地靈絕魂套裝`
+
+[set item]
+	10889	12889	14880	18886	16879
+[/set item]
+
+[set ability]
+	[stuck resistance]
+		20
+	[move speed]
+		20
+	[attack speed]
+		20
+	[if]
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[add absolute defense percent]
+			`all`	10
+	[/then]
+	[stuck]
+		-2
+	[fullset basic explain]
+		`被攻擊時自己受到的傷害減少10%% `
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

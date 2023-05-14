@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5774
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3276	20
+[/int data]
+
+[dungeon info]
+	85	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	6051	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`士兵的生命`
+
+[depend message]
+	`你也知道， 戰爭時期士兵的生命最為珍貴。 多一個人就多一點勝利的希望。
+為了減少士兵的傷亡， 我們希望能給他們每人準備一件防彈衣。
+可是上次的金屬碎片實在是太少了， 只能做幾件。 呵呵， 這次又得麻煩你了。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 收集[防彈金屬碎片]。`
+
+[solve message]
+	`哈~非常感謝！ 別看這些碎片很小， 但卻能夠拯救更多士兵的生命。`

@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`夢幻克隆裝扮下裝`
+
+[grade]
+	2
+
+[part set index]
+	20007
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	6
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0	30	0	0	3000	0	0	0	0	6000	0	0	0	0	6500	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[HP MAX]`
+	`+`	280
+	`[MP MAX]`
+	`+`	280
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`+`	660
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5
+
+[effect part set index]
+	2

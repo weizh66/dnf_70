@@ -1,0 +1,133 @@
+#PVF_File
+
+[name]
+	`封·倉木之冥`
+
+[basic explain]
+	`100px內的敵人每10秒隨機在2秒內施展束縛狀態異常
+額外殺傷殺死敵人時恢復HP800
+聖癒之風保護膜持續時間增加4秒`
+
+[detail explain]
+	`100px內的敵人每10秒隨機在2秒內施展束縛狀態異常。（高於Lv85的對象得到的機率和效果減少，低於Lv85的對象則會增加）
+額外殺傷殺死敵人時HP恢復800
+聖癒之風保護膜持續時間增加4秒`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical defense]
+	70
+
+[physical defense]
+	73
+
+[magical defense]
+	73
+
+[cast speed]
+	20
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	907	774
+
+[equipment magical attack]
+	862	735
+
+[equipment physical defense]
+	860	860
+
+[equipment magical defense]
+	860	860
+
+[separate attack]
+	555	359
+
+[skill levelup]
+	`[priest]`	20	3
+	`[priest]`	22	3
+	`[priest]`	45	5
+	`[priest]`	21	4
+	`[priest]`	26	4
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/priest/cross/cross.img`	84
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	24	1
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[possible kiri protect]

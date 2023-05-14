@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	48	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	1500	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	18
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 招募公告 : 比爾馬克帝國試驗場`
+
+[depend message]
+	`奉帝國公爵哈因里希3世之命， 現招募有意前往比爾馬克帝國試驗場的冒險家， 望有能力的冒險家積極響應。
+冒險家如能滿足以下4個條件， 就可找土罐領取獎賞。
+第一條 :  單人通關王者級難度的比爾馬克帝國試驗場； 第二條 : 組成4人隊伍；
+第三條 : 不問理由； 第四條 : 不跟帝國公爵接觸。
+此任務每天僅發布一次。`
+
+[condition message]
+	`    通關洛蘭地區的『比爾馬克帝國試驗場』， 然后去找艾爾文防線的土罐， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`嘿呦……我還以為帝國公爵發布的委托不會有人感興趣的， 沒想到還是有很多冒險家愿意為帝國賭命啊。`

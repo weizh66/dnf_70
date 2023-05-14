@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 月影星劫`
+
+[explain]
+	`那道鋒利的光芒，透過黑夜，滲進夢境
+那是指引我們前進的迅捷之星
+自遠方來，到遠方去
+超乎想象的光，將天空照亮
+出色的刺客執著於對速度的提升，這是眾所周知的。
+因為速度越快，預示著精神力和身體力量越強。
+刺客們將這些修煉成最強者的人稱為“月影星劫”，認為她們指明的方向比夜空中最閃亮的星還要明亮，並且從不隕落。
+月影星劫對於刺客們來說，是不曾言傳身教的師傅，是高高在上的存在。
+?起頭，就能看到的星，讓刺客們從不迷茫。
+總有壹天，伸出手就能觸碰到。
+總有壹天，會成為超越她們的新星。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		11297	0	0	0	0	0
+		``
+	[/passive object]
+[/then]

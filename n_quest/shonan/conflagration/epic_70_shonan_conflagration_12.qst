@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4390
+[/pre required quest]
+
+[monster reward item]
+	63037	70	-1	4786	1	20	10	63038	70	-1	4786	1	20	10	63039	70	-1	4786	1	20	10	63040	70	-1	4786	1	20	10	63041	70	-1	4786	1	20	10	63042	70	-1	4786	1	30	10	63025	70	-1	4786	1	30	10	63026	70	-1	4786	1	30	10	63027	70	-1	4786	1	30	10	63028	70	-1	4786	1	30	10	63029	70	-1	4786	1	30	10	63030	70	-1	4786	1	30	10	59028	70	-1	4786	2	50	10	59029	70	-1	4786	2	50	10	59030	70	-1	4786	2	50	10	59031	70	-1	4786	2	50	10	58005	70	-1	4786	2	50	10	59037	70	-1	4786	2	50	10	63024	70	-1	4786	5	90	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4786	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`高尚的魔法氣息`
+
+[depend message]
+	`我在阿拉德感受到了前所未有的高尚魔法的靈氣，所以就來找冒險家了，果然這靈氣是從冒險家身上傳來的啊。
+雖然非常微弱，不過這個魔法的力量… 真的很強很神聖。一定是我沒見過的古代魔法。我沒見過這樣的魔法呢…… 
+真讓人感興趣。如果可以的話，幫忙收集一些有那魔法靈氣的物品好嗎？`
+
+[condition message]
+	`在大火災收集「大魔法陣的氣息」10個`
+
+[solve message]
+	`就是這個。可以感受到強烈的魔法氣息。現在就調查一下附加在這裡的魔法吧。`
+
+[quest point]
+	4

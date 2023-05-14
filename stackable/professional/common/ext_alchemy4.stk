@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`上級鍊金提取器`
+
+[explain]
+	`    可以從稀有裝備中提取出副職材料。 (只能提取Lv60及以下的裝備)
+    製作最上級鍊金提取器的必備材料之一。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	55
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	793
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[unlimited town and dungeon]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	1000
+
+[move wav]
+	`IRON_TOUCH`
+
+[expertjob only]
+	`alchemist`	7
+[/expertjob only]
+
+[alchemist extraction]
+	3

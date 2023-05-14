@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 真龍星君`
+
+[explain]
+	`“想得到神的力量 ，就去四神寺修煉吧。”
+這是很久以前的故事了，我像妳這?大時，就已經聽說了這個故事了。 雖然不同地區、不同的人之間會有壹些不同，但龍鬥士如果想要突破自己的桎梏，就必須要去四神寺。這已經成為了驅魔師的共識了，雖然四神寺在什?地方仍然是壹個未知之謎……
+不過，這並沒有影響龍鬥士們追求強大的心。即使是我的師父在年輕的時候，也是找遍了各地。
+幸運的是他最終找到了四神寺，雖然只是在極其偶然間找到的。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		20170364	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]

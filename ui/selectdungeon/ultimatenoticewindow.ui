@@ -1,0 +1,31 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[tile type]
+		1
+	[size]
+		16	4
+	[controls]
+		[ui controls]
+			`[image]`
+			`0`	6	3	1
+			`WorldMap/selectdungeon02.img`	1	102
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`1`	7	23	1
+			`高難度時未使用復活幣
+利用%s等級，被擊次數 %d次以下通關`
+				9	-1	210	0	0	0	0	255	50	50
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`2`	7	23	1
+			`高難度時未使用復活幣
+利用%s等級，被擊次數 %d次以下通關`
+				9	-1	210	0	0	0	0	255	50	50
+		[/ui controls]
+	[/controls]
+[/window]

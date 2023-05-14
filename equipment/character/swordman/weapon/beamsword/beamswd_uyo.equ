@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	`無軒之散魄`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使所有隊員進入霸體狀態。`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使所有隊員進入霸體狀態， 效果持續10秒。 (消耗5個無色小晶塊)`
+
+[flavor text]
+	`    傳言無軒是統治過半個宇宙的強大異界星， ‘散魄’是它的五大史詩武器之一， 但不知為何落到異面生物手里， 難道又是異變引起的？`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`beamswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	60
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	31
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	5
+
+[durability]
+	38
+
+[price]
+	117000
+
+[repair price]
+	98280
+
+[value]
+	93600
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	580	525
+
+[equipment magical attack]
+	562	508
+
+[separate attack]
+	378	255
+
+[move speed]
+	20
+
+[attack speed]
+	100
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[buff]
+		`superarmor`
+[/then]
+
+[stuck]
+	1
+
+[variation]
+	3	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[routing priority]
+	`swordman`	1
+[/routing priority]
+
+[possible kiri protect]

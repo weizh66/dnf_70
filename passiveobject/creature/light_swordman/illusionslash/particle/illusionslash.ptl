@@ -1,0 +1,22 @@
+#PVF_File
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	500	500
+
+[creation frequency]
+	6
+
+[object type]
+	`[animation]`
+
+[object]
+	`../../../../character/swordman/Animation/IllusionSlashWaveParticle.ani`	-1
+[/object]
+
+[display effect rate]
+	0	50	100

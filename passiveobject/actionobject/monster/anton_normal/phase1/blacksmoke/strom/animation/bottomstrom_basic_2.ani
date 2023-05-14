@@ -1,0 +1,105 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Sprite/Character/Mage/Effect/ChasersExplosion/ch-explode-2.img`
+		0
+	[IMAGE POS]
+		-153	-171
+	[IMAGE RATE]
+		2.5	1.0
+	[RGBA]
+		255	100	0	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		2280
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Sprite/Character/Mage/Effect/ChasersExplosion/ch-explode-2.img`
+		0
+	[IMAGE POS]
+		-155	-156
+	[IMAGE RATE]
+		4.0	1.0
+	[RGBA]
+		100	0	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Sprite/Character/Mage/Effect/ChasersExplosion/ch-explode-2.img`
+		1
+	[IMAGE POS]
+		-155	-156
+	[IMAGE RATE]
+		4.0	1.0
+	[RGBA]
+		100	0	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Sprite/Character/Mage/Effect/ChasersExplosion/ch-explode-2.img`
+		2
+	[IMAGE POS]
+		-157	-186
+	[IMAGE RATE]
+		4.0	1.0
+	[RGBA]
+		100	0	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Sprite/Character/Mage/Effect/ChasersExplosion/ch-explode-2.img`
+		3
+	[IMAGE POS]
+		-155	-166
+	[IMAGE RATE]
+		4.0	1.5
+	[RGBA]
+		100	0	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Sprite/Character/Mage/Effect/ChasersExplosion/ch-explode-2.img`
+		4
+	[IMAGE POS]
+		-157	-186
+	[IMAGE RATE]
+		5.0	2.0
+	[RGBA]
+		100	0	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`

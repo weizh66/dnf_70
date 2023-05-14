@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`FlashCut`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/Nexon.ani`
+
+[etc motion]
+	`Animation/Zero.ani`
+	`Animation/FlashCut/FCFinish01_Eff_00.ani`
+	`Animation/FlashCut/FCFinish02_Eff_00.ani`
+	`Animation/FlashCut/FCFinish03_Eff_00.ani`
+	`Animation/FlashCut/FCFinish04_Eff_00.ani`
+	`Animation/FlashCut/FCFinish05_Eff_00.ani`
+	`Animation/Six.ani`
+[/etc motion]
+
+[attack info]
+	`Attackinfo/FCAttack.atk`
+
+[etc attack info]
+	`AttackInfo/FC.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

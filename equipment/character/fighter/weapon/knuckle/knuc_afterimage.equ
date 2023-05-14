@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	`光之殘影`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入感電狀態， 并使自身增加智力和魔法暴擊率。`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入感電狀態12秒， 若攻擊感電狀態的敵人， 則每次攻擊會附加100點傷害； 同時還會時自身增加15點智力和10%%的魔法暴擊率， 效果持續12秒。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	63
+
+[rarity]
+	5
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[magical attack]
+	46
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[anti evil]
+	8
+
+[need material]
+	3228	60
+
+[repair price]
+	74088
+
+[value]
+	70560
+
+[equipment physical attack]
+	528	505
+
+[equipment magical attack]
+	639	612
+
+[separate attack]
+	314	212
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	47
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		12000
+	[probability]
+		2
+	[active status]
+		`lightning`	60	130
+	[target]
+		`myself`	-1
+	[stat]
+		`magical attack`
+		`+`	22
+	[stat]
+		`magical critical hit rate`
+		`+`	10
+[/then]
+
+[possible kiri protect]

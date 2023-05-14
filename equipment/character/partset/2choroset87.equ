@@ -1,0 +1,90 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[蛇腹劍 : 破]破開地面的次數 +1
+[蛇腹劍 : 破]攻擊力 +20%%
+[蛇腹劍 : 破]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at swordman]`	32
+		`[dungeon type]`
+		`[level]`	9
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[蛇腹劍 : 破]破開地面的次數 +1
+[蛇腹劍 : 破]攻擊力 +35%%
+[蛇腹劍 : 破]冷卻時間 -20%%
+[喚魔 : 狂暴]技能攻擊力增加量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[蛇腹劍 : 破]破開地面的次數 +1
+[蛇腹劍 : 破]攻擊力 +30%%
+[蛇腹劍 : 破]冷卻時間 -30%%
+[喚魔 : 塔莫斯之襲]攻擊力 +20%%
+[喚魔 : 塔莫斯之襲]塔莫斯大小 +30%%`
+[/piece set ability]

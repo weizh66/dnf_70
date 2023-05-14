@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 神思者 (1/2)`
+
+[depend message]
+	`親愛的教友， 我知道你為何而來。 你是否也有著他人一樣的困惑： 不知道我們一直信奉的米歇爾大人為何要站在我們的對立面； 不明白為何即使這樣， 我們依然堅持不改變信仰。
+其實我們也有在追查米歇爾大人隱瞞使徒身份的最終目的， 畢竟這是非常必要的。 但是， 不可否認的是目前我們仍在傳承著他授予的光之力量， 而且這是絕大多數人的堅持。
+所以即使明知道這么做會有些不妥， 但為了不讓更多教徒陷入混亂， 雷米迪亞這邊還是選擇相信米歇爾。
+不知道向來追求真理的天啟者， 你的選擇會是什么？ 是離開這里， 還是成為神思者繼續守護教團呢？
+我不會強求你現在給出答案， 你可以考慮清楚后再給我答復。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`我代表教團向你表示最真摯的感謝。 感謝你選擇了守護而不是離開！`
+
+[pre required quest]
+	5310
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12845
+
+[job change quest]
+	3
+
+[grow number]
+	0

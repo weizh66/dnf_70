@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	81	99
+
+[pre required quest]
+	4590
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	15422
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`飛燕的優雅`
+
+[depend message]
+	`接下來只要擊敗虛無的弗曼，然後讓發電所恢復正常就可以了。這一類的任務最好和飛燕一起進行！
+飛燕！準備好了吧？
+<apc::26501>是，長官！準備好了！
+<npc::76>太好了。那麼，和飛燕一起去解決虛無的弗曼吧！虛無的弗曼相當強悍，請一定要小心！`
+
+[condition message]
+	`在格蘭迪內發電所確認飛燕的實力`
+
+[solve message]
+	`虛無的弗曼削弱了很多，得趕緊解決掉。`
+
+[dialog]
+	0	0	15422	0	0	0	0
+	`<apc::26512>不要掉隊，緊跟著。我是不會等太久的。`
+[/dialog]
+
+[quest point]
+	4

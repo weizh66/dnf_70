@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[pre required quest]
+[/pre required quest]
+
+[pre required quest]
+[/pre required quest]
+
+[monster reward item]
+	711	-1	0	4254	2	40	20	711	-1	1	4254	2	60	20	711	-1	2	4254	2	80	20	711	-1	3	4254	2	100	20
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4254	6	3178	3	3179	3	3180	3	3181	3	3182	3	3186	2
+[/int data]
+
+[dungeon info]
+	33	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4253	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[遠古地下城]  王的榮譽`
+
+[depend message]
+	`若要解除古代王國的詛咒就需要有道具「王的榮譽」。幫我蒐集幾個材料我就幫你兌換王的榮譽。`
+
+[condition message]
+	`蒐集下列材料（透過本任務可以獲的王的支配力。）`
+
+[solve message]
+	`請接受這王的榮譽。`

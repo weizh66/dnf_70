@@ -1,0 +1,18 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Counter1_Rolling.ani`
+	[SPEECH]
+		`哈!`
+			1	15
+		`嗯!`
+			1	15
+		`啊呀!`
+			1	15
+	[/SPEECH]
+	[SOUND]
+		`AIRSHIP_UP`	0
+		`STAR_CIRCLE`	1
+	[/SOUND]
+[/MOTION]

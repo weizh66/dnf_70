@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Map/Anton/Outside/Magma.img`
+		0
+	[IMAGE POS]
+		-143	-41
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		340
+
+[FRAME001]
+	[IMAGE]
+		`Map/Anton/Outside/Magma.img`
+		0
+	[IMAGE POS]
+		-143	-41
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[DELAY]
+		80

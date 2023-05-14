@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`紅色魔界勇士頭冠`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/mage/mg_ahair.img`	313
+
+[equipment type]
+	`[hair avatar]`	0
+
+[sub type]
+	0
+
+[variation]
+	94	2
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[hide equipment]
+	`[cap avatar]`
+[/hide equipment]
+
+[hide layer]
+	2810	2500	2125	2100	750	700	300
+[/hide layer]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30002
+
+[cast speed]
+	120
+
+[physical defense]
+	10
+
+[avatar func filter]
+	2

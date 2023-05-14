@@ -1,0 +1,59 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Luke_raid/Haboob/Haboob_Dodge.img`
+		35
+	[IMAGE POS]
+		-242	-326
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Luke_raid/Haboob/Haboob_Dodge.img`
+		34
+	[IMAGE POS]
+		-242	-326
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Luke_raid/Haboob/Haboob_Dodge.img`
+		33
+	[IMAGE POS]
+		-242	-326
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Luke_raid/Haboob/Haboob_Dodge.img`
+		36
+	[IMAGE POS]
+		-242	-326
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500

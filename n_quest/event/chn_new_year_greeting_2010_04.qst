@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	9
+
+[complete npc index]
+	11
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20518
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	11
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680365	1
+[/reward int data]
+
+[name]
+	`新年快樂 <4/5>`
+
+[depend message]
+	`嘿嘿……冒險家， 西海岸也有一個人等你拜年呢！
+他可是很擅長修理武器的哦~不過……聽說有點自戀？`
+
+[condition message]
+	`    找西海岸的卡坤拜年。`
+
+[solve message]
+	`什么嘛……以為這樣我就會感動嗎？
+……你也……新年快樂吧~`

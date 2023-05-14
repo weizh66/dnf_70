@@ -1,0 +1,46 @@
+#PVF_File
+
+[set hp percent damage]
+	[all]
+		`max hp`	20.0
+[/set hp percent damage]
+
+[attack type]
+
+[physic]
+
+[weapon damage apply]
+	1
+
+[attack enemy]
+	1
+
+[elemental property]
+
+[no element]
+
+[damage reaction]
+
+[damage]
+
+[push aside]
+	100
+
+[lift up]
+	100
+
+[stuck]
+	-1000.0
+
+[knuck back]
+	1
+
+[hit wav]
+	`R_SHOCKWAVE_HIT`
+
+[hit info]
+
+[blow]
+
+[no blood]
+	20	1.0

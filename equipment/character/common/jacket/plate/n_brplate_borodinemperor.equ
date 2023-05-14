@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	` 波羅丁的天祈胸甲`
+
+[basic explain]
+	`被攻擊時物理傷害減少5%%`
+
+[flavor text]
+	`波羅丁，不是你很強大而是護甲太好？`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	24
+
+[physical defense]
+	26
+
+[magical attack]
+	24
+
+[price]
+	77000
+
+[repair price]
+	61600
+
+[value]
+	61600
+
+[equipment physical defense]
+	3780	3420
+
+[icon]
+	`Item/common/coat.img`	111
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`physical`	5
+[/then]
+
+[set name]
+	`波羅丁的天祈套裝`
+
+[set item]
+	11657	13656	15653	19656
+[/set item]
+
+[set ability]
+	[all elemental resistance]
+		10
+	[move speed]
+		30
+	[attack speed]
+		30
+	[if]
+		[cooltime]
+			100000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			100000
+		[reduce duration at pvp module]
+			75
+		[probability]
+			1
+		[summon monster]
+			60109	50	1
+	[/then]
+	[if]
+		[cooltime]
+			100000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			100000
+		[reduce duration at pvp module]
+			75
+		[probability]
+			3
+		[summon monster]
+			60108	50	1
+	[/then]
+	[fullset basic explain]
+		`被攻擊時，以1%%的機率召喚出1只守護之邁拉。
+被攻擊時，以3%%的機率召喚出1只驅逐者。`
+	[fullset detail explain]
+		`被攻擊時，有1%%的幾率召喚出1隻Lv50的守護之邁拉協助召喚者攻擊敵人，守護之邁拉存在100秒。(召喚的怪物只能同時存在1隻，若召喚的怪物受到較大傷害，則召喚時間結束前就會消失) 
+被攻擊時，有1%%的幾率召喚出1隻Lv50的守護之邁拉協助召喚者攻擊敵人，守護之邁拉存在100秒。（召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

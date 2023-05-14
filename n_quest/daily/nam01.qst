@@ -1,0 +1,55 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	30	99
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	24	2	603	1	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`閃亮的極晝`
+
+[depend message]
+	`在極晝冒險的冒險家， 常常會碰到光屬性精靈雷沃斯。 但自從這些雷沃斯被GBL教的信徒馴服后， 極晝就變得更加危險了。
+如果冒險家能除掉這些雷沃斯， 我相信對凈化天帷巨獸會很有幫助的。`
+
+[condition message]
+	`    前往天帷巨獸神殿的『極晝』， 殺死20只雷沃斯， 然后向奧菲利亞回復，  要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`冒險家， 謝謝你接受我的委托！`
+
+[reward int data]
+	0	100
+[/reward int data]

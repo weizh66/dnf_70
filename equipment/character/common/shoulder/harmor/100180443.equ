@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`血色殘陽僚牙護肩`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。`
+
+[detail explain]
+	`攻擊時，有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%，施放速度增加12%%，效果持續15秒。(冷卻時間20秒，最大重疊3次；該效果無法者的肩甲、腰帶、鞋子共享；裝備解除後效果取消)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	33
+
+[magical attack]
+	24
+
+[physical defense]
+	30
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3136	2912
+
+[icon]
+	`item/new_equipment/05_harmor/neck/harmor_neck.img`	51
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[equipment duration]
+		15000
+	[appendage]
+		802
+[/then]
+
+[part set index]
+	11857
+
+[possible kiri protect]

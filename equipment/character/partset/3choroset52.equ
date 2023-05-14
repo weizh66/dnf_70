@@ -1,0 +1,96 @@
+#PVF_File
+
+[set name]
+	`能量之源  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[priest]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[刺拳猛擊]攻擊力 +25%%
+[瞬拳]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	56
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	57
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	58
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[priest]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[俯衝直拳]攻擊力 +30%%
+[俯衝腹拳]攻擊力 +30%%
+[俯衝翔拳]攻擊力 +30%%
+[刺拳猛擊]追擊攻擊力 +10%%
+[瞬拳]追擊攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	35
+		`[dungeon type]`
+		`[level]`	1
+		`%`	60
+		`[priest]`	35
+		`[dungeon type]`
+		`[level]`	2
+		`%`	60
+		`[priest]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[priest]`	4
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[priest]`	4
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[幻影化身]攻擊力 +60%%
+[極速颶風拳]冷卻時間 -25%%
+[極速颶風拳]攻擊范圍 +15%%
+[極速颶風拳]MP消耗量 -20%%`
+[/piece set ability]

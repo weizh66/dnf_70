@@ -1,0 +1,197 @@
+#PVF_File
+
+[name]
+	`虛空之鐮`
+
+[basic explain]
+	` 攻擊時，以10%%的機率使敵人減少5000點物理防禦力和3000點魔法防禦力。
+ 攻擊時，以3%%的機率使自身增加6%%的智力，效果持續20秒。`
+
+[detail explain]
+	` 攻擊時，有10%%的機率使敵人減少5000點物防和3000點魔防，效果持續5秒。(在決鬥場中物防減少1000點、魔防減少600點)
+ 攻擊時，以3%%的機率使自身增加6%%的智力，效果持續20秒。`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[creation rate]
+	50
+
+[physical attack]
+	43
+
+[magical attack]
+	43
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[equipment physical attack]
+	574	526
+
+[equipment magical attack]
+	604	554
+
+[separate attack]
+	360	242
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/priest/scythe.img`	55
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	9	1
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		2000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		10
+	[stat]
+		`equipment physical defense`
+		`+`	-5000
+	[stat]
+		`equipment magical defense`
+		`+`	-3000
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[stat]
+		`magical attack`
+		`%`	6
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			2000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			5000
+		[probability]
+			10
+		[stat]
+			`equipment physical defense`
+			`+`	-1000
+		[stat]
+			`equipment magical defense`
+			`+`	-600
+	[/then]
+	[if]
+		[attack success]
+			1
+		[cooltime]
+			35000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			3
+		[stat]
+			`magical attack`
+			`%`	6
+	[/then]
+[/pvp]
+
+[possible kiri protect]

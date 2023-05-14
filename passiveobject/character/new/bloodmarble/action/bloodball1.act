@@ -1,0 +1,110 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/BloodMarble/Circle/BigBlood_BigBlood_Dodge.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		22	22
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			300
+		[Z AXIS]
+			-300
+		[USE MY DIRECTION]
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		23	23
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+	[X AXIS]
+		400
+	[Z AXIS]
+		-400
+	[USE MY DIRECTION]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		24	24
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		25	25
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		26	26
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		27	27
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		28	28
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		29	29
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		30	30
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		31	31
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

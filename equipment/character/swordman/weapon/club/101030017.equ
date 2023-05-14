@@ -1,0 +1,212 @@
+#PVF_File
+
+[name]
+	`神射手衝擊`
+
+[basic explain]
+	`跳躍攻擊時敵人10%% 附加傷害
+攻擊時以 3%% 的機率讓敵人陷入眩暈狀態
+跳躍攻擊時以10%%的機率讓敵人陷入眩暈狀態。`
+
+[detail explain]
+	`跳躍攻擊時敵人 10%% 附加傷害
+攻擊時以3%%的機率2秒內讓敵人陷入眩暈狀態。（高於Lv74的對象得到的機率和效果減少，低於Lv74的對象則會增加。決鬥場內修正為1秒）
+跳躍攻擊時以10%%的機率3秒內讓敵人陷入眩暈狀態。（高於Lv74的對象得到的機率和效果減少，低於Lv74的對象則會增加。 決鬥場的機率修正為2%%，持續時間修正為1秒）`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	74
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[price]
+	118400
+
+[repair price]
+	99456
+
+[value]
+	94720
+
+[equipment physical attack]
+	774	719
+
+[equipment magical attack]
+	669	621
+
+[separate attack]
+	420	284
+
+[skill levelup]
+	`[swordman]`	16	3
+	`[swordman]`	175	2
+	`[demonic swordman]`	16	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/club/club.img`	80
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	74
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[my state]
+		`jump attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[duration]
+		3000
+	[reduce duration to human armor at pvp module]
+		50
+	[active status]
+		`stun`	74
+[/then]
+
+[if]
+	[my state]
+		`jump attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[skill]
+		`swordman`	16
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,286 @@
+#PVF_File
+
+[name]
+	`江山略-戰弩`
+
+[basic explain]
+	`    ↑↓+[寵物技能鍵]輸入時， 可以隨機發動一種特殊效果， 效果持續20秒。（消耗2個無色小晶塊； 冷卻時間20秒）
+    - 武器發出藍光且被擊時免疫所有傷害； 同時攻擊時附加35%%的傷害。
+    - 使自身進入霸體狀態； 破招攻擊時，附加35%%的傷害。
+    - 使自身進入偽裝狀態， 同時所有隊員增加40點的所有屬性強化值。`
+
+[flavor text]
+	`    貝利特： 其實最適合去卡斯特當臥底的應該是凱麗。
+    澤丁： 為什么？ 
+  貝利特： 敵人的武器都碎了，自然沒有戰斗力。
+    澤丁：......`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	58
+
+[magical attack]
+	29
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[need material]
+	3821	1200
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	673	557
+
+[equipment magical attack]
+	747	619
+
+[separate attack]
+	520	336
+
+[physical critical hit]
+	3
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/bowgun/bowgun.img`	97
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[multiple then]
+	[then]
+		[consume item]
+			3037	2
+		[target]
+			`myself`	-1
+		[equipment duration]
+			20000
+		[appendage]
+			307
+		[appendage]
+			308
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[consume item]
+			3037	2
+		[target]
+			`myself`	-1
+		[equipment duration]
+			20000
+		[appendage]
+			307
+		[appendage]
+			309
+		[then probability]
+			34.0
+	[/then]
+	[then]
+		[consume item]
+			3037	2
+		[target]
+			`myself`	-1
+		[equipment duration]
+			20000
+		[appendage]
+			307
+		[appendage]
+			310
+		[then probability]
+			33.0
+	[/then]
+[/multiple then]
+
+[if]
+	[my appendage]
+		308
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	100
+[/then]
+
+[if]
+	[my appendage]
+		308
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	35
+[/then]
+
+[if]
+	[my appendage]
+		309
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	35
+[/then]
+
+[if]
+	[my appendage]
+		310
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[equipment duration]
+		20000
+	[stat]
+		`fire attack`
+		`+`	40
+	[stat]
+		`water attack`
+		`+`	40
+	[stat]
+		`light attack`
+		`+`	40
+	[stat]
+		`dark attack`
+		`+`	40
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600818	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

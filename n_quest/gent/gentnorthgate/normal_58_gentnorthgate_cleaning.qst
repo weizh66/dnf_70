@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4260
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3310	15
+[/int data]
+
+[dungeon info]
+	88	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	4500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`回收再利用`
+
+[depend message]
+	`之前你用AT-5T 步行者破壞的那些障礙物， 還剩下一些殘骸。
+這些殘骸堆在那里也是浪費， 而且還影響環境， 不如收回來進行再利用……
+呵呵， 如果你有空的話， 就去幫我收集一些回來吧！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特北門』， 收集15個[障礙物殘骸]。`
+
+[solve message]
+	`呵呵， 既不浪費資源， 又能保護環境……以后應該多做一些這樣的好事。`

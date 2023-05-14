@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`蝶囌機`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/IconStackable.img`	0
+
+[field image]
+	`Item/FieldImage.img`	21
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[move wav]
+	`FOOD_TOUCH`
+
+[stat change]
+	`+`	300
+	`physical attack`
+	`+`	300
+	`physical defense`
+	`+`	300
+	`magical attack`
+	`+`	300
+	`magical defense`
+	`+`	10
+	`fire resist`
+[/stat change]
+
+[stat change duration]
+	1000
+	`myself`

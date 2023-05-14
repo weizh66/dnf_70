@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`S`
+
+[gold multiple]
+	110
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[monster reward item]
+	56031	92	0	4715	1	10	30	56031	92	1	4715	1	20	30	56031	92	2	4715	1	30	30	56031	92	3	4715	1	40	30
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4715	30	3299	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	22248	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`狙擊鏡的威力`
+
+[depend message]
+	`你想提高命中率嗎？ 我可以幫你制作一個狙擊鏡。 不過越是完美的鏡片， 越不好找。
+聽說卡勒特里有個非常厲害的狙擊手， 叫艾麗格。 我想她的狙擊鏡應該與眾不同， 只要能把她的鏡片奪過來， 我就能幫你重制一個。
+碎掉也沒關系， 反正我有辦法修復。 怎么樣， 要試試不？`
+
+[condition message]
+	`    收集30個[破碎的狙擊鏡]和50個[虛空魔石]交給梅爾文·里克特。 (破碎的狙擊鏡可以從狙擊手艾麗格身上獲得)`
+
+[solve message]
+	`收集好了？
+你等等， 我這就幫你修復。 有了這個， 應該能大大地提高你的命中率。`

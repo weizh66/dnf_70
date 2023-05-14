@@ -1,0 +1,202 @@
+#PVF_File
+
+[name]
+	`[巨龍]神秘的聖地圖騰`
+
+[basic explain]
+	``
+
+[detail explain]
+	``
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	90
+
+[stuck]
+	-10
+
+[need material]
+	9999	30
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	5
+
+[attack speed]
+	20
+
+[equipment physical attack]
+	844	792
+
+[equipment magical attack]
+	724	679
+
+[separate attack]
+	481	327
+
+[skill levelup]
+	`[priest]`	31	2
+	`[priest]`	35	2
+[/skill levelup]
+
+[icon]
+	`Item/common/chn_Dragon_Weapon.img`	24
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	2	14
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		48677	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[spectrum]
+	250	130	0	200	500
+
+[possible kiri protect]

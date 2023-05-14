@@ -1,0 +1,85 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[暗蝕螺旋槍]攻擊力 +30%%
+[暗蝕螺旋槍]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	98
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[demonic lancer]`	98
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	100
+		`[dungeon type]`
+		`[static]`	3
+		`+`	10
+		`[demonic lancer]`	100
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[連鎖侵蝕]攻擊力 +20%%
+[連鎖侵蝕]冷卻時間 -20%%
+[墜蝕之雨]槍墜落數量 +10個
+[墜蝕之雨]槍墜落時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	100
+		`[dungeon type]`
+		`[static]`	3
+		`+`	10
+		`[demonic lancer]`	100
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-25
+		`[demonic lancer]`	100
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	105
+		`[dungeon type]`
+		`[static]`	11
+		`+`	5
+		`[demonic lancer]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+	[/skill data up]
+	[parameter basic explain]
+		`[墜蝕之雨]槍墜落數量 +10個
+[墜蝕之雨]槍墜落時間 -25%%
+[墜蝕之雨]冷卻時間 -30%%
+[黑蝕酷刑]小型槍投擲數量 +5
+[黑蝕酷刑]冷卻時間 -40%%`
+[/piece set ability]

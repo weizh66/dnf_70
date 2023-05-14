@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/9_144_small_crystal1_Last_9.ani`
+	[SUB ANI]
+		`../Animation/9_144_small_crystal3_Last_9.ani`	0	1
+		`../Animation/9_1144_small_crystal3_Last_9.ani`	0	2
+		`../Animation/9_1144_small_crystal2_Last_9.ani`	0	3
+		`../Animation/9_1144_small_crystal1_Last_9.ani`	0	4
+		`../Animation/9_144_small_crystal2_Last_9.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE LAYER]
+		`[bottom]`
+[/BEHAVIOR]

@@ -1,0 +1,57 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	40
+
+[big face]
+	`Map/Npc/NpcFace04.img`	40
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	40
+
+[field animation]
+	`Animation/Npc_Ria.ani`
+
+[field wav]
+	`R_NPC_RIA_AMB`
+
+[popup wav]
+	`R_NPC_RIA_TK`
+	`R_NPC_RIA_FW`
+
+[role]
+	`[image communication]`	0
+[/role]
+
+[look around]
+	0
+
+[name]
+	`米婭`
+
+[field name]
+	`米婭·里克特`
+
+[quest speech]
+	`歡迎你來班圖族的村莊做客！`
+
+[dialog]
+	1	1	99	-1	0	0
+	` <npc::78>你好嗎？我是少女米婭·里克特。
+我聽梅爾文哥哥說過很多有關你的事情了。聽說你是一位非常勇敢的人啊？這樣強壯的人，竟然可以擊敗使徒安徒恩...
+這樣少女我也可以放心了。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::78>偶爾可看到海的另一邊所出現的神祕之塔，那個塔被稱之為「亡者之城」。
+亡者之城... 你不覺得這名字很恐怖嗎？沒有人會想要去接近那個塔的。就連恐怖的卡勒特也都覺得亡者之城很恐怖。
+偶爾從那裡傳來的陰沉哭聲，會讓我更想要起雞皮疙瘩。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	1	0
+	` <npc::78>你很好奇我為什麼要用這種口氣說話嗎？
+ 那是因為梅爾文哥哥第一次... 嗯...... 啊，沒事。少女我是從小就是接受這樣的教育，所以一時很難改過來。
+你應該不會覺得不舒服吧？呵呵。`
+[/dialog]

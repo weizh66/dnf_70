@@ -1,0 +1,202 @@
+#PVF_File
+
+[name]
+	`天鎖流雲`
+
+[basic explain]
+	`[爆頭一擊]冷卻時間 -25%%
+[回頭一擊]冷卻時間 -25%%
+　
+　　　　攻擊時， 附加8%%的冰屬性傷害。
+　
+　　　　X軸移動速度 +10%% ； 前衝和前衝攻擊時， 可以生成水紋。`
+
+[grade]
+	95
+
+[rarity]
+	3
+
+[icon mark]
+	`Item/IconMark.img`	66
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	90
+
+[physical attack]
+	65
+
+[price]
+	152000
+
+[repair price]
+	121600
+
+[value]
+	121600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	900	784
+
+[equipment magical attack]
+	757	659
+
+[separate attack]
+	584	386
+
+[physical critical hit]
+	2
+
+[water attack]
+	25
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/revolver/revolver.img`	142
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[x move dash speed]
+	0.5
+
+[elemental property]
+	`[water element]`
+[/elemental property]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`water`
+		`%`	8
+[/then]
+
+[if]
+	[time]
+		150	1	0
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		140192	-70	5	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		75	1	0
+	[my state]
+		`dash attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		140192	-50	8	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[gunner]`	5
+	`[all]`
+	`[cooltime]`	0
+	`%`	-25
+	`[gunner]`	20
+	`[all]`
+	`[cooltime]`	0
+	`%`	-25
+	`[at gunner]`	5
+	`[all]`
+	`[cooltime]`	0
+	`%`	-25
+	`[at gunner]`	20
+	`[all]`
+	`[cooltime]`	0
+	`%`	-25
+[/skill data up]
+
+[possible kiri protect]

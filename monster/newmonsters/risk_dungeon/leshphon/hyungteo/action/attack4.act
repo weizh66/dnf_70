@@ -1,0 +1,82 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/attack4.ani`
+	[SUB ANI]
+		`../animation/wp/attack4.ani`	0	0
+	[/SUB ANI]
+	[SPEECH]
+		`快..快死了`
+			0	50
+		`一定要活著…需要食物`
+			0	50
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			61797
+		[/IS INDEX]
+	[/CHECKUP]
+	[GET TARGET]
+		1
+	[DISTANCE]
+	[LOW]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+	[RANDOM SELECT]
+		0	1
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`刀疤大人!!救命啊! 嘻嘻`
+		
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`不要吃我`
+		
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			61797
+		[/IS INDEX]
+	[/CHECKUP]
+	[GET TARGET]
+		1
+	[DISTANCE]
+	[LOW]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET HP]
+		0
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		20
+	[%]
+[/BEHAVIOR]

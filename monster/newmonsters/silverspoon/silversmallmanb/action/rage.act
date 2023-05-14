@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/rage.ani`
+	[SPEECH]
+		`不會就這樣死的`
+			0	30
+		`要是不放開我的話`
+			0	30
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE ACTION FILE]
+	[ATTACK]
+		2
+		`Attack.act`
+	[CHANGE ACTION FILE]
+	[MOVE]
+		`Move.act`
+[/BEHAVIOR]

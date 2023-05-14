@@ -1,0 +1,12 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Move.ani`
+	[SUB ANI]
+		`../Animation/BackEffect/D_Move.ani`	0	-2
+	[/SUB ANI]
+	[SPEECH]
+		`錯誤！系統紊亂...`	1	1500
+	[/SPEECH]
+[/MOTION]

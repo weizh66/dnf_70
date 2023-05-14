@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	5
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 混沌行者(4/6)`
+
+[depend message]
+	`來， 拿著這個。 我覺得你會用到它， 就拜托莎蘭大人送過來了。
+據說這本書里記載著關于次元之力的內容？ 我看了半天沒懂， 但總覺得你應該可以理解其中的內容， 就趕緊拿回來了。
+你對這本書還滿意嗎？ 莎蘭大人說， 這本書是一個叫‘混沌行者’的人留下的東西。
+不知道這本書有什么用， 但見你如此開心， 看來是拿對了。
+既然禮物也收到了， 那接下來就開始新的修煉吧。 這次去參加魂·青龍大會吧。 本次大會的參賽者可能都是你從未遇到過的武林高手。
+但你也不用想得太難。 只要把至今悟出的知識點重新復習一下， 像解題一樣慢慢去打敗其他對手就好。
+讓我想想……你先去收集‘赫侖皇帝的印章’吧， 有了它你才能獲得參賽資格。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6770
+[/pre required quest]
+
+[relation quest]
+	6778
+
+[job change quest]
+	3
+
+[grow number]
+	0

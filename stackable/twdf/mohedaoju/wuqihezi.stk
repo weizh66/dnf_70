@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`來歷不明的武器盒子`
+
+[explain]
+	`    開啟后， 可以隨機獲得一件來歷不明的武器。`
+
+[flavor text]
+	`(赫頓瑪爾的角落)
+    甲 : 你聽說了嗎， 很多NPC的武器都被偷了~， 聽說他們大發雷霆， 發誓要找到穿著他們武器的人進行可怕的懲罰。
+    乙 : 我說他們最近怎么個個都臉色陰沉的可怕， 還好不是我偷的……`
+
+[grade]
+	1
+
+[attach type]
+	`[account]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	895
+
+[stackable type]
+	`[booster random]`	0
+
+[cool time]
+	1000
+
+[booster info]
+	[etc]
+		1	8888881	5000	1	8888882	5000	1	8888883	5000	1	8888884	5000	1	8888885	5000	1	27711	5000	1	27117	5000	1	27717	5000	1	27698	5000	1	28010	5000	1	30041	5000	1	31146	5000	1	32342	5000	1	35106	5000	1	36301	5000	1
+	[/etc]
+[/booster info]
+
+[move wav]
+	`BONE_TOUCH`
+
+[npc gift disallowance]
+	1

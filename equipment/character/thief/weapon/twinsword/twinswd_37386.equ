@@ -1,0 +1,186 @@
+#PVF_File
+
+[name]
+	`雙明劍 - 殘血`
+
+[basic explain]
+	`    施放[螺旋穿刺]、 [劍刃風暴]時， 可以使命中的敵人進入出血狀態。`
+
+[detail explain]
+	`    施放[螺旋穿刺]、 [劍刃風暴]時， 可以使命中的敵人進入出血狀態2秒； 出血狀態下的敵人， 每0.5秒受到300點傷害。 (若敵人高于Lv70， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[flavor text]
+	`    泛藍光的名劍， 其劍刃的鋒利程度舉世無雙。  --米內特`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`twinswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	3100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	78
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	126000
+
+[repair price]
+	105840
+
+[value]
+	100800
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[equipment physical attack]
+	687	626
+
+[equipment magical attack]
+	539	491
+
+[separate attack]
+	411	278
+
+[attack speed]
+	-80
+
+[physical critical hit]
+	5
+
+[variation]
+	12	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[if]
+	[skill]
+		`thief`	31
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[active status]
+		`bleeding`	70	1200
+[/then]
+
+[if]
+	[skill]
+		`thief`	33
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[active status]
+		`bleeding`	70	1200
+[/then]
+
+[pvp]
+	[if]
+		[skill]
+			`thief`	31
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			2000
+		[active status]
+			`bleeding`	70	120
+	[/then]
+	[if]
+		[skill]
+			`thief`	33
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			2000
+		[active status]
+			`bleeding`	70	120
+	[/then]
+[/pvp]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

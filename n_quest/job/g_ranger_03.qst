@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7829
+[/pre required quest]
+
+[collision quest]
+	7832	7835	7838
+[/collision quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	7
+
+[int data]
+	500	-1	80
+[/int data]
+
+[dungeon info]
+	500	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7831
+
+[name]
+	`轉職 - 漫游槍手 (3/4)`
+
+[depend message]
+	`嗯！ 最后一步……讓我看一下你的整體戰斗能力。 這是你能否成為漫游槍手的關鍵， 要好好發揮哦。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 要求連擊殺傷率達到80%以上。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`哇喔！ 了不起！ 你的能力不輸給天界無法地帶的任何一個漫游槍手， 恭喜你通過測試！`

@@ -1,0 +1,212 @@
+#PVF_File
+
+[name]
+	`彈幕之雨`
+
+[basic explain]
+	`    [銀彈]子彈數變為無限。
+    刪除銀彈對不死族、 惡魔族、精靈族附加的魔法攻擊力
+對不死族、 惡魔族、 精靈族傷害+18%%`
+
+[detail explain]
+	`    [銀彈]子彈數變為無限。（銀彈填裝數固定為壹發， 射擊時， 不消耗子彈； 該效果不適用於[彈藥支援]技能）
+    刪除銀彈對不死族、 惡魔族、精靈族的附加的魔法攻擊力。
+（脫下裝備時，銀彈Buff解除） 
+對不死族、 惡魔族、 精靈族敵人的傷害 +18%%`
+
+[flavor text]
+	`    這是我最喜歡的裝備。 --愛穿白絲的巡音`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	898	749
+
+[equipment magical attack]
+	755	630
+
+[separate attack]
+	589	382
+
+[skill levelup]
+	`[gunner]`	30	5
+	`[at gunner]`	30	5
+[/skill levelup]
+
+[physical critical hit]
+	2
+
+[light attack]
+	30
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/revolver/revolver.img`	99
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[skill data up]
+	`[gunner]`	30
+	`[all]`
+	`[level]`	0
+	`+`	999
+	`[at gunner]`	30
+	`[all]`
+	`[level]`	0
+	`+`	999
+[/skill data up]
+
+[if]
+	[target type]
+		`spirit`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	18
+[/then]
+
+[if]
+	[target type]
+		`devil`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	18
+[/then]
+
+[if]
+	[target type]
+		`undead`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	18
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600713	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

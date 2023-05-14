@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 機械元首 (1/2)`
+
+[depend message]
+	`嘿嘿， 你上次離開前不是信誓旦旦跟我說要制作出史上最智能的機器人嗎？ 看你現在這么沮喪， 一定是遇到什么困難了吧。
+古話說高處不勝寒， 天才始終很難被世人所理解是人之常情。 為這種無意義的事情一直煩惱完全就是浪費時間， 也不會有任何結果。 我聽說有一種方法可以讓你的思維更加廣闊……
+淡定淡定， 其實以你的能力肯定已經達到甚至超越“七神之鞘翅”里的那幫家伙， 只是你現在思維已經鉆進了牛角尖， 才會讓你覺得思路阻斷了而已。
+如果能邁過這個坎， 那么你就有資格成為‘機械元首’， 即使是“七神之鞘翅”里的那幫家伙也會對你刮目相看。
+不過我這種方法也并不是能夠百分百成功， 而且過程可能十分兇險。 這是你人生的一次抉擇， 如果考慮清楚了， 就來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和凱麗談談。`
+
+[solve message]
+	`看來你已經決定了。 以后天界的文明， 可能因你的存在而發揚光大。`
+
+[pre required quest]
+	939
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4822
+
+[job change quest]
+	3
+
+[grow number]
+	0

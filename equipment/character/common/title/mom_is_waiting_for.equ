@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`媽媽等我`
+
+[flavor text]
+	`回到家的時候，要用最疲倦的聲音說：「我從補習班回來了...」 這樣說著然后迅速躲回房間可以得分，但是媽媽早就知道你的謊話，準備好棒子也得分。`
+
+[explain]
+	`被攻擊時，以2%%的機率使自身進入偽裝狀態7秒。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	344
+
+[custom animation]
+	`TitleAnimation/mom_is_waiting_for.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	30
+
+[physical defense]
+	-10
+
+[magical attack]
+	30
+
+[magical defense]
+	-10
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[cooltime]
+		30000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		2
+	[buff]
+		`camoflage`
+[/then]

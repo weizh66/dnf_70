@@ -1,0 +1,99 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/OuterWall.ani`
+
+[cutscene image]
+	`Map/CutScene/Behemoth.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	7
+	`WorldMap/SelectdungeonSlot/behimoth.img`	0
+
+[minimum required level]
+	27
+
+[basis level]
+	30
+
+[experience increasing point]
+	1.2
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	431	432	439	433	434	440	435	436	437	438
+
+[maze info]
+
+[size]
+	6	3
+
+[greed]
+	`BBMMBBFFNNEE
+ AALLFFNNPPMM
+ BBGGAACCCCCC`
+
+[map specification]
+	2	0	3019
+[/map specification]
+
+[map specification]
+	5	0	3020
+[/map specification]
+
+[map specification]
+	5	2	3021
+[/map specification]
+
+[map specification]
+	4	2	3016
+[/map specification]
+
+[map specification]
+	3	2	3006
+[/map specification]
+
+[start map]
+	0	0	0	2
+[/start map]
+
+[boss map]
+	5	2	5	0
+[/boss map]
+
+[seal door map index]
+	50061
+
+[seal door pos]
+	4	2
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[special passive object item]
+	0	-1	5	1068	1000	1069	1500	1070	500	1071	500	1072	3000	1	-1	0
+[/special passive object item]
+
+[name]
+	`神殿外圍`
+
+[explain]
+	`    天空之海上面住著被稱作飛翔大陸的靈物--天帷巨獸。 天帷巨獸的背上， 有個叫GBL教的組織， 他們研究古代遺跡、 探索真理， 用他們崇高的教理影響著阿拉德大陸的人們。 但不知從什么時候開始， GBL教教徒開始莫名其妙的發狂。 為查明教徒發狂的原因， 冒險家前往天帷巨獸一探究竟。`
+
+[event monster]
+	1	10000	61727	1	300	80	1
+[/event monster]

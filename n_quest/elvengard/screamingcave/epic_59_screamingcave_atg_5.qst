@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	5004
+[/pre required quest]
+
+[enemy reward item]
+	61143	1	1501	-1	4327	1	10	15	61146	1	1501	-1	4327	1	10	15	61147	1	1501	-1	4327	1	10	15	56117	1	1501	-1	4327	1	10	15	56113	1	1501	-1	4327	1	10	15	56112	1	1501	-1	4327	1	10	15	56115	1	1501	-1	4327	1	10	15	56116	1	1501	-1	4327	1	10	15	1087	1	1501	-1	4327	1	10	15	1088	1	1501	-1	4327	1	10	15
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4327	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 支援者的真面目`
+
+[depend message]
+	`呵呵， 你是來找林納斯說的那個支援者呀？ 你稍等一會兒， 我去請他過來。
+阿甘左， 這里有客人找你……
+<npc::0>阿甘左？ 您就是大名鼎鼎的阿甘左大人？！ 見到您我深感榮幸！
+<apc::410>嗯， 林納斯介紹的人是你啊……你不要扯我后腿， 我可沒多余的精力保護你。
+<npc::0>呵呵， 看來阿甘左大人沒聽說過‘皇女庭院’……
+<apc::410>索西雅， 我只見有能力的人。 沒能力的人， 就別帶她來見我了。
+<npc::0>呃， 你為什么不先看看我的實力再說呢……
+<npc::5>冒險家， 如果你能向阿甘左證明你的強大， 我想他也許就會回心轉意了。 不如這樣吧， 你去悲鳴洞穴找一些能證明你強大的證據， 然后再來找阿甘左。`
+
+[condition message]
+	`    前往洛蘭地區的『悲鳴洞穴』， 收集15個[來自異界的怨恨]， 然后向索西雅回復。`
+
+[solve message]
+	`這個就是能證明你強大的證據嗎？ 那就拿給阿甘左看看吧。`
+
+[quest point]
+	4

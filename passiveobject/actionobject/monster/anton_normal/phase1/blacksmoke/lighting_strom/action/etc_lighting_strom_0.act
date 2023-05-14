@@ -1,0 +1,186 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_lighting_strom_0_0.ani`
+	[SOUND]
+		`NELEUBE_ELECTRODE`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[ON ATTACKSUCCESS]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			18626	18629
+		[/IS INDEX]
+	[/CHECKUP]
+	[DISTANCE]
+	[<=]
+		150
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			18626	18629
+		[/IS INDEX]
+	[/CHECKUP]
+	[DISTANCE]
+	[<=]
+		300
+	[DO BEHAVIOR]
+	[ME]
+		5
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		5
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[ON]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		3
+	[OFF]
+	[DIM]
+		`time`
+		[=]
+		[GET TIME]
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[IF]
+		`time`
+		[+]
+			30000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		3
+	[ON]
+	[TRIGGER]
+		6
+	[ON]
+	[TRIGGER]
+		7
+	[ON]
+	[DIM]
+		`time`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[SET ACTION]
+	[CUSTOM]
+		2
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69313
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			1000
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		7
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		6
+	[OFF]
+	[CASTING]
+		30000	9
+		[DISPLAY SCREEN]
+		[DO ME]
+	[/CASTING]
+[/BEHAVIOR]

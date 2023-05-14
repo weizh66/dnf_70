@@ -1,0 +1,98 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		0
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[PLAY SOUND]
+		`DS_LEAP_BUFF_01`
+	[ATTACK BOX]
+	15	-10	-4	37	20	101
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		1
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[LOOP START]
+	[ATTACK BOX]
+	15	-10	-4	37	20	101
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		2
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[ATTACK BOX]
+	15	-10	-4	37	20	101
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		3
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[ATTACK BOX]
+	15	-10	-4	37	20	101
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		4
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[ATTACK BOX]
+	15	-10	-4	37	20	101
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		5
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[ATTACK BOX]
+	15	-10	-4	37	20	101
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		6
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[ATTACK BOX]
+	15	-10	-4	37	20	101
+
+[FRAME007]
+	[IMAGE]
+		`Monster/Event/chn_AprilFoolsday/old_darkknight_walk.img`
+		7
+	[IMAGE POS]
+		-121	-151
+	[DELAY]
+		50
+	[LOOP END]
+		999
+	[ATTACK BOX]
+	15	-10	-4	37	20	101

@@ -1,0 +1,299 @@
+#PVF_File
+
+[name]
+	`神·天帝`
+
+[explain]
+	`長劍破空，神臨於世。
+失明的雙眼本應湧出無盡的黑暗，
+但是為何卻散發出如此明亮的光芒？
+偉岸的身軀屹立於天地之間，
+雷鳴之聲響徹大地，
+這，就是光的波動？`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	200
+
+[physical defense]
+	200
+
+[magical attack]
+	200
+
+[magical defense]
+	200
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	100
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/zuiqiangzhanhuang.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		900000	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[passive object]
+		250112	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	47
+	[/use skill]
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		250105	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`swordman`	32
+	[/use skill]
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		250111	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		2500	1	1000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	500
+	[passive object]
+		25916	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	47
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[appendage]
+		401
+[/then]
+
+[if]
+	[my appendage]
+		401
+	[cooltime]
+		800
+	[my state]
+		`final attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990035	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		401
+	[cooltime]
+		1000
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990033	0	0	0	0	0
+		``
+	[/passive object]
+	[appendage]
+		402
+[/then]
+
+[if]
+	[my appendage]
+		402
+	[cooltime]
+		500
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990034	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`die`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		250157	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`freeze`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		500
+	[probability]
+		100
+	[active status]
+		`lightning`	200	10000
+[/then]
+
+[routing priority]
+	`swordman`	4
+[/routing priority]

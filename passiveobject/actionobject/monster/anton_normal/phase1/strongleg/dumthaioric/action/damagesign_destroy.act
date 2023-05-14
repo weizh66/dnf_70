@@ -1,0 +1,47 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/DamageSign_Destroy00.ani`
+	[SUB ANI]
+		`../Animation/DamageSign_Destroy01.ani`	0	1
+		`../Animation/DamageSign_Destroy02.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			56642
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			50
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		1.5
+	[%]
+[/BEHAVIOR]

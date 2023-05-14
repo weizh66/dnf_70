@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	23
+
+[complete npc index]
+	25
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	37	99
+
+[pre required quest]
+	39
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	25
+[/int data]
+
+[dungeon info]
+	31	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	1080	5	1081	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`戰爭危機`
+
+[depend message]
+	`這事有點棘手， 傳染病爆發后， 很多暗精靈因病死了。 暗精靈元老認為這是人類故意引發的， 所以要向我們討個說法。
+根據我們現在掌握的情報， 這場戰爭很快就會來臨了。 以我們公國的力量絕對抵擋不了那些暗精靈的， 你能幫我們化解這次危機嗎？`
+
+[condition message]
+	`    找加爾談談。`
+
+[solve message]
+	`你是新來的？ 那我丑話說在前頭， 雖然我們現在很缺人， 但是如果你沒有能力的話， 我希望你不要拖我們的后腿， 明白我說的意思吧？ `
+
+[quest point]
+	4

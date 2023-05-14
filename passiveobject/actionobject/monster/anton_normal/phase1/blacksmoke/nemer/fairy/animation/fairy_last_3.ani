@@ -1,0 +1,37 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/nemer/circle.img`
+		0
+	[IMAGE POS]
+		-298	-173
+	[IMAGE RATE]
+		0.5	0.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[FLIP TYPE]
+		`ALL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/nemer/circle.img`
+		0
+	[IMAGE POS]
+		-298	-173
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`ALL`

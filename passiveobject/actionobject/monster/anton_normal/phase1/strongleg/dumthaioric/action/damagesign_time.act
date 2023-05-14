@@ -1,0 +1,26 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/DamageSign_Time.ani`
+[/MOTION]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		[TIME VALUE]
+			500	99000	500
+		[RGBA]
+			20	20	20	200
+		[LAYER]
+		[DEFAULT]
+		[ID]
+			1
+	[/FLASH SCREEN]
+[/BEHAVIOR]

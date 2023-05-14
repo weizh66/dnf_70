@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`破碎的夢境之塵`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`Item/weapon/swordman/katana.img`	1
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_WATER]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_DARK]`
+	`+`	35
+	`[ELEMENT_TOLERANCE_LIGHT]`
+	`+`	35
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`
+	`+`	55
+	`[INVENTORY_MAX_WEIGHT]`
+	`+`	14000
+[/avatar select ability]
+
+[avatar type select]
+	7	0	0	1000	0	30	0	0	2000	0	0	0	0	4000	0	0	0	0	4500	2
+	`[D socket]`
+	`[D socket]`
+[/avatar type select]
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[move wav]
+	`KATANA_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		0	0
+	[layer variation]
+		2790
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/dsswordman.lay`
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+	[spectrum avatar]
+		255	255	255	120	500	0
+[/expand ani]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	120	30	70	3	130	30	70	3	100	30	70
+[/int data]

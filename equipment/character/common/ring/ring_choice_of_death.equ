@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`死亡之抉擇`
+
+[basic explain]
+	` 攻擊倒地的敵人時，附加5%%的傷害。`
+
+[detail explain]
+	` 攻擊倒地的敵人時，附加5%%的傷害。
+(對被抓取的對象無效。在決鬥場中增加3%%)`
+
+[grade]
+	72
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	68
+
+[anti evil]
+	10
+
+[physical attack]
+	43
+
+[magical attack]
+	43
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[need material]
+	3340	50
+
+[equipment magical defense]
+	2528	2368
+
+[icon]
+	`Item/common/ring.img`	44
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[target state]
+		`down`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[pvp]
+	[if]
+		[target state]
+			`down`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	3
+	[/then]
+[/pvp]
+
+[possible kiri protect]

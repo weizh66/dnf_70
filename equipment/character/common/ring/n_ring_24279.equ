@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`精緻的黃龍紋戒指`
+
+[basic explain]
+	`施展時以2%% 的機率20秒內施放速度增加7%%`
+
+[detail explain]
+	`施展時以 2%% 的機率20秒內施放速度增加%%（安裝解除時選項解除。）`
+
+[grade]
+	42
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ring`
+
+[rarity]
+	3
+
+[weight]
+	200
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	38
+
+[icon]
+	`Item/common/ring.img`	79
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[value]
+	40320
+
+[cool time]
+	10000
+
+[HP MAX]
+	150
+
+[MP MAX]
+	150
+
+[physical attack]
+	27
+
+[magical attack]
+	27
+
+[equipment magical defense]
+	1568	1408
+
+[move wav]
+	`RING_TOUCH`
+
+[set item master]
+	20257
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[probability]
+		1
+	[stat]
+		`cast speed`
+		`+`	70
+[/then]
+
+[possible kiri protect]

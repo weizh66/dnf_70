@@ -1,0 +1,157 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[冷血突刺]冷卻時間 -30%%
+[奪命亂舞]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-2
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	0
+		`+`	90
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	47
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-1
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[level]`	1
+		`%`	44
+	[/skill data up]
+	[parameter basic explain]
+		`[冷血突刺]攻擊力 +25%%
+[奪命亂舞]斬擊次數 -2次
+[奪命亂舞]攻擊速度增加
+[奪命亂舞]斬擊攻擊力 +30%%
+[奪命亂舞]最后一擊攻擊力 +47%%
+[橫掃八荒]冷卻時間 -30%%
+[橫掃八荒]旋轉斬擊次數 -1 (攻擊次數 -2)
+[橫掃八荒]旋轉斬擊攻擊力 +50%%
+[橫掃八荒]最后一擊攻擊力 +44%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-750
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-110
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[demonic lancer]`	44
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-4
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[static]`	0
+		`+`	120
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	75
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-2
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[level]`	0
+		`%`	150
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[level]`	1
+		`%`	85
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[奪命亂舞]冷卻時間 -30%%
+[奪命亂舞]砍擊攻擊次數 -4
+[奪命亂舞]攻擊速度增加
+[奪命亂舞]砍擊攻擊力 +40%%
+[奪命亂舞]最后一擊攻擊力 +75%%
+[奪命亂舞]無色小晶塊消耗量 +1
+[橫掃八荒]冷卻時間 -25%%
+[橫掃八荒]旋轉斬擊次數 -2 (攻擊次數 -4)
+[橫掃八荒]旋轉斬擊攻擊力 +150%%
+[橫掃八荒]最后一擊攻擊力 +85%%
+[橫掃八荒]無色小晶塊消耗量 +2
+   [冷血突刺]旋風持續時間和多段攻擊間隔大幅減少， 攻擊力增加35%%， 無色小晶塊消耗量增加1。`
+[/piece set ability]

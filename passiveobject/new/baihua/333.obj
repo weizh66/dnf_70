@@ -1,0 +1,18 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/333.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[object create after destroy]`
+[/object destroy condition]

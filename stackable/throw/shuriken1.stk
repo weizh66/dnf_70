@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`飛鏢`
+
+[explain]
+	`投擲時， 可以對單個敵人造成126點傷害。`
+
+[flavor text]
+	`有種你就用手擋擋看， 保證刺死你， 嘿嘿！`
+
+[grade]
+	10
+
+[attach type]
+	`[free]`
+
+[creation rate]
+	700
+
+[rarity]
+	0
+
+[weight]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	10
+
+[icon]
+	`Item/IconMaterial2.img`	70
+
+[field image]
+	`Item/FieldImage.img`	34
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	200
+
+[value]
+	0
+
+[cool time]
+	500
+
+[move wav]
+	`IRON_TOUCH`
+
+[int data]
+	50800	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Suriken.ptl`
+[/string data]

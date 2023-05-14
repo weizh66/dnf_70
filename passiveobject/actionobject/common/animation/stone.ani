@@ -1,0 +1,55 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Creature/Botis/Stone.img`
+		1
+	[IMAGE POS]
+		-26	-15
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-10	-10	-10	20	20	20
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Botis/Stone.img`
+		1
+	[IMAGE POS]
+		-26	-15
+	[IMAGE ROTATE]
+		1.570796012878418
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-10	-10	-10	20	20	20
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Botis/Stone.img`
+		1
+	[IMAGE POS]
+		-26	-15
+	[IMAGE ROTATE]
+		3.1415929794311523
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-10	-10	-10	20	20	20
+
+[FRAME003]
+	[IMAGE]
+		`Creature/Botis/Stone.img`
+		1
+	[IMAGE POS]
+		-26	-15
+	[IMAGE ROTATE]
+		4.71238899230957
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-10	-10	-10	20	20	20

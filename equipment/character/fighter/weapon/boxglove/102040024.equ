@@ -1,0 +1,406 @@
+#PVF_File
+
+[name]
+	`勇士的本能`
+
+[basic explain]
+	`攻擊速度+3%%
+攻擊時以2%% 的機率讓敵人陷入眩暈狀態
+攻擊時以 2%%的機率60秒內讓一個技能隨機增加1 `
+
+[detail explain]
+	`攻擊速度 +3%%
+攻擊時以2%%的機率2秒內讓敵人陷入眩暈狀態。 （高於Lv75的對象得到的機率和效果減少，低於Lv75的對象則會增加。）
+攻擊時以 2%% 的機率60秒內一個技能隨機增加1。 （安裝解除時，技能等級初始化，相同技能的情況最大增加至 5等級。）
+= 適用技能 =
+閃雷悍將（男）
+浮空踢，前踢，下段踢，鷹踏，肘擊，碎骨，旋風腿，衝膝，熾燄旋風腿，閃電之舞，瞬影連環踢，烈焰焚步，霹靂三重踢，旋風碎心踢旋風碎心踢
+閃雷悍將（女）
+羚羊勾拳，前踢，下段踢，鷹踏，崩拳，碎骨，旋風腿，寸拳，昇龍拳，閃電之舞，紛影連環踢，史上最強的下段踢，破碎拳，升龍霸拳`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	50
+
+[attack speed]
+	130
+
+[move speed]
+	20
+
+[need material]
+	3285	2100
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	760	697
+
+[equipment magical attack]
+	688	631
+
+[separate attack]
+	441	298
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/bglove/bglove.img`	73
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	18	1
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	19	1
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+[/routing priority]
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	75
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		3000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			150
+		[speech on]
+			0	2000
+			`上踢，上鉤拳LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			151
+		[speech on]
+			0	2000
+			`近身踢LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			152
+		[speech on]
+			0	2000
+			`低踢LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			153
+		[speech on]
+			0	2000
+			`空中踩LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			154
+		[speech on]
+			0	2000
+			`雷擊，崩拳LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			155
+		[speech on]
+			0	2000
+			`碎骨 LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			156
+		[speech on]
+			0	2000
+			`旋風腿 LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			157
+		[speech on]
+			0	2000
+			`合腳踢，吋勁LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			158
+		[speech on]
+			0	2000
+			`紅焰旋風腿，昇龍拳LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			159
+		[speech on]
+			0	2000
+			`閃電之舞 LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			160
+		[speech on]
+			0	2000
+			`賀多巴斯卡踢，魄力之擊LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			161
+		[speech on]
+			0	2000
+			`火焰之腳，史上最強的低踢LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			162
+		[speech on]
+			0	2000
+			`連環腿，破碎拳LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			60000
+		[probability]
+			2
+		[appendage]
+			163
+		[speech on]
+			0	2000
+			`旋風腿，高飛上升LEVELUP！`
+		[/speech on]
+		[then probability]
+			7.1
+	[/then]
+[/multiple then]
+
+[possible kiri protect]

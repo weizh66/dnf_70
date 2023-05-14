@@ -1,0 +1,57 @@
+#PVF_File
+
+[set name]
+	`終結之冰  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at mage]`	12
+		`[dungeon type]`
+		`[static]`	2
+		`%`	25
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at mage]`	32
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[at mage]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	32
+		`[dungeon type]`
+		`[static]`	0
+		`%`	50
+		`[at mage]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at mage]`	63
+		`[dungeon type]`
+		`[level]`	2
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`冰魄錘擊衝擊波範圍增加2 5%%， 攻擊力增加2 5%%
+極冰綻放攻擊力增加40%%， 魔法陣移動速度增加50%%， 冷卻時間減少10%% / 冰力場攻擊力增加40%%， 冰凍機率增加10%%， 冷卻時間減少10%% `
+[/piece set ability]

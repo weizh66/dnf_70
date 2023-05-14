@@ -1,0 +1,212 @@
+#PVF_File
+
+[name]
+	`戮蠱的利齒鋒牙`
+
+[basic explain]
+	`    [街頭風暴]拋投物品數量 +3個
+    [血色風暴]旋轉次數 +3次
+    
+    施放[血色風暴]、 [街頭風暴]時， 可以向周圍發射戮蠱的針刺。
+    攻擊出血狀態的敵人時， 增加10%%的暴擊傷害。`
+
+[detail explain]
+	`    [街頭風暴]拋投物品數量 +3個
+    [血色風暴]旋轉次數 +3次
+    
+    施放[血色風暴]、 [街頭風暴]時， 可以向周圍發射戮蠱的針刺。
+    攻擊出血狀態的敵人時， 增加10%%的暴擊傷害。
+    被戮蠱的針刺命中的敵人， 會進入出血狀態； 出血狀態下， 每0.5秒會受到1250點傷害， 效果持續0.5秒。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    
+    攻擊出血狀態的敵人時， 增加10%%的暴擊傷害。 (暴擊傷害加成效果取最高值）`
+
+[flavor text]
+	`    還好蟲王戮蠱沒有口臭……`
+
+[grade]
+	85
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	31
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	911	814
+
+[equipment magical attack]
+	911	814
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/claw/claw.img`	112
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	38	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	77
+	`[all]`
+	`[level]`	0
+	`+`	3
+	`[at fighter]`	77
+	`[all]`
+	`[level]`	0
+	`+`	3
+[/skill data up]
+
+[if]
+	[event attack success]
+		1
+	[target active status]
+		`bleeding`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[if]
+	[time]
+		1000	1	0
+	[skill]
+		`fighter`	77
+	[/skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		140145	0	0	50	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		1000	1	0
+	[skill]
+		`at fighter`	77
+	[/skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		140155	0	0	50	2	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,59 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		58
+	[IMAGE POS]
+		-248	-378
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[SET FLAG]
+		1
+	[ATTACK BOX]
+	-150	-30	-49	300	60	107
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		59
+	[IMAGE POS]
+		-248	-378
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-150	-30	-49	300	60	107
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		60
+	[IMAGE POS]
+		-248	-378
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-150	-30	-49	300	60	107
+
+[FRAME003]
+	[IMAGE]
+		`Character/Mage/Equipment/Avatar/skin/mg_body%04d.img`
+		61
+	[IMAGE POS]
+		-248	-378
+	[DELAY]
+		500
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-150	-30	-49	300	60	107

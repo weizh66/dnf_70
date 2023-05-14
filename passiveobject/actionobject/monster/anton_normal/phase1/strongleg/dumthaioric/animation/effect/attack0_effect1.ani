@@ -1,0 +1,107 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		0
+	[IMAGE POS]
+		-236	-407
+	[IMAGE RATE]
+		1.7999999523162842	1.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		540
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		0
+	[IMAGE POS]
+		-259	-411
+	[IMAGE RATE]
+		2.5	1.2999999523162842
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		1
+	[IMAGE POS]
+		-259	-411
+	[IMAGE RATE]
+		2.5	1.2999999523162842
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		2
+	[IMAGE POS]
+		-259	-411
+	[IMAGE RATE]
+		2.5	1.2999999523162842
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME004]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		3
+	[IMAGE POS]
+		-185	-411
+	[IMAGE RATE]
+		2.5	1.2999999523162842
+	[DELAY]
+		60
+
+[FRAME005]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		4
+	[IMAGE POS]
+		-185	-411
+	[IMAGE RATE]
+		2.5	1.2999999523162842
+	[DELAY]
+		60
+
+[FRAME006]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		4
+	[IMAGE POS]
+		-145	-411
+	[IMAGE RATE]
+		2.5	1.2999999523162842
+	[RGBA]
+		255	255	255	200
+	[DELAY]
+		60
+
+[FRAME007]
+	[IMAGE]
+		`Character/Fighter/Effect/ShoulderTackleHit.img`
+		4
+	[IMAGE POS]
+		-105	-411
+	[IMAGE RATE]
+		2.5	1.2999999523162842
+	[RGBA]
+		255	255	255	100
+	[DELAY]
+		60

@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	126
+
+[complete npc index]
+	1014
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4152
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[show click on complete npc]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1014
+[/int data]
+
+[dungeon info]
+	73	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`與阿斯塔羅斯見面`
+
+[depend message]
+	`這次好像沒問題了。下一個開啟的時間之門是黑色聖戰，
+相信你也知道，那可以通往以前聖職者和奧茲瑪戰鬥的黑色大地。總覺得建立這黑暗聖殿的奧茲瑪和「那女子」有某種的關係…… 
+我沒有證據，只是內心一直深信著而已。去黑暗聖殿那裡會會混沌奧茲瑪的部下，他們應該知道些什麼吧？
+最好還是去向他們問清楚吧！一定要找到那證據！`
+
+[condition message]
+	`調查黑暗聖殿，尋找與「那女子」有關係的人（該任務只能單獨進行，而且進行地下城時不可放棄的任務。）`
+
+[solve message]
+	`我是泰勒奈特．阿斯塔羅斯。是奧茲瑪的心腹。
+呼… 雖然成了偽裝者，但是精神上還沒有轉向我方。似乎只是暫時的肉體變化狀態而已。
+不過總有一天會服從偉大的奧茲瑪。`
+
+[dialog]
+	0	0	15368	0	0	0	0
+	`<npc::1014>奧茲瑪降臨的話，這個世界就只會剩下渾沌！`
+[/dialog]
+
+[quest point]
+	4

@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	` 盧克西的紫炎波刃劍`
+
+[basic explain]
+	`攻擊時以 1%% 的機率讓敵人呈現出血狀態`
+
+[detail explain]
+	`攻擊時以1%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以62的攻擊力給予傷害。 (比Lv27高的目標陷入狀態機率較低，比 Lv27低的目標陷入狀態機率較高。)`
+
+[flavor text]
+	`傳說中的狂戰士盧克西最喜愛的劍。`
+
+[grade]
+	31
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	27
+
+[magical attack]
+	23
+
+[cast speed]
+	20
+
+[price]
+	49600
+
+[repair price]
+	39680
+
+[value]
+	39680
+
+[equipment physical attack]
+	300	262
+
+[equipment magical attack]
+	363	317
+
+[separate attack]
+	183	119
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	16
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`gemswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`gemswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`gemswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`gemswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		1
+	[active status]
+		`bleeding`	27	1250
+[/then]
+
+[possible kiri protect]

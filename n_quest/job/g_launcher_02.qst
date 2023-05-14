@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7832
+[/pre required quest]
+
+[collision quest]
+	7828	7835	7838
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7834
+
+[name]
+	`轉職 - 槍炮師 (2/3)`
+
+[depend message]
+	`這次的考驗可不一樣了， 你看起來……嗯， 如果想讓我認可你， 就拿出真正的實力吧！
+你先去一趟亡月雷鳴廢墟……
+等等， 跑那么快干嘛？ 我話還沒說完呢？
+想進入亡月雷鳴廢墟， 必須要有亡月之鏡才行。 我可以把我的借給你， 不過那……需要一些租賃費， 你看行不？`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給凱麗。`
+
+[solve message]
+	`這是亡月之鏡， 收好了！`

@@ -1,0 +1,189 @@
+#PVF_File
+
+[name]
+	`血祭之波刃`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使敵人進入出血狀態。
+對出血狀態下敵人的傷害 +10%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態7秒； 出血狀態下的敵人， 每0.5秒受到117點傷害。 (若敵人高于Lv50， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對出血狀態敵人的傷害 +10%% (在決斗場中 +5%%)`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`dagger`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/thief/dagger.img`	45
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[HP MAX]
+	460
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	452	411
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	100
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		5
+	[active status]
+		`bleeding`	50	1650
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[physical critical hit]
+	12
+
+[stuck]
+	1
+
+[variation]
+	5	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			10500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			5
+		[active status]
+			`bleeding`	50	1650
+	[/then]
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`首領薩斯的棺木圖騰`
+
+[basic explain]
+	`  施放[意念驅動]時，會從空中掉落首領薩斯的棺木產生沖擊波;同時使自身增加300點力量、20%的攻擊速度和移動速度,效果持續30秒。(最多重疊1次)`
+
+[flavor text]
+	`  這把武器好詭異,隱約間似乎能聽到被囚禁的冤魂們的悲哀......`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	92
+
+[stuck]
+	-1
+
+[need material]
+	3500	1200
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	956	855
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/priest/totem/totem.img`	108
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	42	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`priest`	13
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		60370	150	-25	500	2	0
+		`woodendolltomb.ptl`	60370	-70	-25	500	2	0
+		`woodendolltomb.ptl`	60370	30	50	500	2	0
+		`woodendolltomb.ptl`
+	[/passive object]
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+	`巨齒鱷 ( Lv2 )`
+
+[explain]
+	`性格暴躁，可能因為本身血氣的關係，擁有極其鋒利的牙齒。看到他的敵人不可能不會退縮。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Interface/AdvanceAltar/InGame/AdvanceAltar_ingame_unit_icon.img`	14
+
+[disable icon]
+	`Interface/AdvanceAltar/InGame/AdvanceAltar_ingame_unit_icon.img`	15
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	12000
+
+[cooltime group]
+	105
+
+[move wav]
+	`PAPER_TOUCH`
+
+[advance altar need gage]
+	75
+
+[monster summons]
+	64657	1	1	0	1

@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`霍克莫特教務長`
+
+[basic explain]
+	`攻擊時附加 22%%暗屬性攻擊
+每60秒 -5%%HP`
+
+[detail explain]
+	`攻擊時附加 22%%暗屬性攻擊
+每60秒 -5%%HP`
+
+[flavor text]
+	`了解自己比勝利更加重要。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	75
+
+[attack speed]
+	-100
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	899	899
+
+[equipment magical attack]
+	1280	1280
+
+[separate attack]
+	686	686
+
+[magical critical hit]
+	5
+
+[dark attack]
+	35
+
+[icon]
+	`Item/wuqi.img`	27
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	60	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`dark`
+		`%`	22
+[/then]
+
+[if]
+	[time]
+		60000	1	1000
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-5	0
+[/then]
+
+[possible kiri protect]

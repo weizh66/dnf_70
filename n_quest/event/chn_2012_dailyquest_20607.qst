@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[special daily]`
+	`[schedule]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	65
+
+[complete npc index]
+	66
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[monster reward item]
+	59000	1504	2	4428	1	30	20	56013	1504	2	4428	1	30	20	61491	1504	2	4428	1	40	20	59000	1504	3	4428	1	35	20	56013	1504	3	4428	1	35	20	61491	1504	3	4428	1	50	20
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3304	10	4428	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4429	8
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[pre required quest]
+	6016
+[/pre required quest]
+
+[name]
+	`[限時]遠古 - 遠古寶藏的線索`
+
+[depend message]
+	`要是你去幽靈列車， 別忘了繼續找航行日志啊~
+而且要記得把那些拿給小燈籠看， 說不定能……咳咳， 要是我心情好的話， 說不定會分你一些我珍藏多年的寶貝哦！`
+
+[condition message]
+	`    前往海上列車的『幽靈列車』， 收集以下材料。 (幽靈列車的航行日志可以在王者級的地下城中獲得， 該物品攜帶上限為20個； 地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`又是日志？ 又要翻譯嗎？
+好吧， 只要是你的要求， 我都會盡力滿足的~`
+
+[schedule]
+	0
+	`2011-01-01 00:00:00`
+	`2030-01-01 00:00:00`
+	`ALL`
+	`18:10:00`
+	`19:39:59`
+[/schedule]

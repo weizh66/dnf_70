@@ -1,0 +1,220 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[demonic lancer]`	2
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	2
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	2
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[demonic lancer]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[無畏波動槍]攻擊力 +20%%
+[雙重刺擊]攻擊力 +20%%
+[刺擊]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	6
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[奪命雷霆槍]攻擊力 +40%%
+[奪命雷霆槍]冷卻時間 -10%%
+[奪命雷霆槍]無色小晶塊消耗量 +1
+[無畏波動槍]攻擊力 +30%%
+[雙重刺擊]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	5
+		`%`	36
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[demonic lancer]`	14
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[奪命雷霆槍]刺擊攻擊力 +50%%
+[奪命雷霆槍]刺擊攻擊次數 +3
+[奪命雷霆槍]冷卻時間 -20%%
+[奪命雷霆槍]無色小晶塊消耗量 +1
+[無畏波動槍]攻擊力 +30%%
+[雙重刺擊]攻擊力 +30%%`
+[/piece set ability]

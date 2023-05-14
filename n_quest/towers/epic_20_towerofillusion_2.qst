@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	72
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	62
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`希莫娜的預言`
+
+[depend message]
+	`原來你是來找人的……你說的那些冒險家， 我之前確實見過。
+不用擔心， 他們并沒有進入亡者峽谷的最深處， 而且幾個人的實力還算不錯， 所以應該不會有事的。
+在離這里不遠的地方有一座迷妄之塔， 據說也是死神建造的， 你或許可以去那里看看。 祝你好運！`
+
+[condition message]
+	`    將占卜師希莫娜的預言轉告給賽麗亞。`
+
+[solve message]
+	`迷妄之塔！ 那個占卜師是這么和你說的？`
+
+[quest point]
+	4

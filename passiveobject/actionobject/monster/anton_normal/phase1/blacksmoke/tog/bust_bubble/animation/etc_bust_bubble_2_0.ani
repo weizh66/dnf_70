@@ -1,0 +1,116 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/bust_boom.img`
+		3
+	[IMAGE POS]
+		-166	-164
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/bust_boom.img`
+		4
+	[IMAGE POS]
+		-167	-167
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/bust_boom.img`
+		5
+	[IMAGE POS]
+		-167	-161
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/bust_boom.img`
+		6
+	[IMAGE POS]
+		-161	-158
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+	[ATTACK BOX]
+	-122	-127	0	253	254	137
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/bust_boom.img`
+		7
+	[IMAGE POS]
+		-161	-158
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+	[ATTACK BOX]
+	-122	-127	0	253	254	137
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/bust_boom.img`
+		7
+	[IMAGE POS]
+		-161	-158
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+	[ATTACK BOX]
+	-122	-127	0	253	254	137
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/bust_boom.img`
+		7
+	[IMAGE POS]
+		-168	-169
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50

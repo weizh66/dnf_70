@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`凱麗的強化器（+10以上）`
+
+[explain]
+	`    使用后，可以強化所選的裝備，且不消耗無色小晶塊和金幣。
+    只有裝備強化等級在+10或+10以上時可以使用。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[icon]
+	`Item/stackable/cash.img`	883
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[town and dungeon]`	0
+
+[move wav]
+	`IRON_TOUCH`
+
+[stack limit]
+	1000
+
+[action type]
+	`[portable upgrade]`	10	20
+[/action type]
+
+[check usable itemlevel]
+	1	70
+
+[action usable place]
+	`[village]`
+	`[seria room]`
+[/action usable place]

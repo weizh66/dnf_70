@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`罪惡之眼的鱗片綁腿`
+
+[basic explain]
+	`被攻擊時以 5%% 的機率讓敵人進入石化狀態
+不可解體`
+
+[detail explain]
+	`被攻擊時以5%% 的機率7秒內讓敵人進入石化狀態，解除時以950的攻擊力給予傷害。 （高於Lv29的對象得到的機率和效果減少，低於Lv29的對象則會增加。 決鬥場內修正為2秒）
+不可解體`
+
+[grade]
+	29
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	25
+
+[physical attack]
+	22
+
+[magical attack]
+	13
+
+[price]
+	29000
+
+[repair price]
+	23200
+
+[value]
+	23200
+
+[equipment physical defense]
+	1080	930
+
+[icon]
+	`Item/common/pants.img`	305
+
+[field image]
+	`Item/field_equip.img`	6
+
+[equipment type]
+	`[pants]`	20
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[reduce duration to human armor at pvp module]
+		71
+	[probability]
+		5
+	[active status]
+		`stone`	29	950
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

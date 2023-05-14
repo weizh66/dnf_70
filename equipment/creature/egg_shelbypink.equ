@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`緋紅龍女的蛋`
+
+[explain]
+	`增加暴擊傷害 10%%(決鬥場內增加5%%)`
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature_egg_cn.img`	5
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	1
+
+[creature species]
+	245
+
+[output index]
+	2747332
+
+[physical attack]
+	28
+
+[physical defense]
+	28
+
+[magical attack]
+	28
+
+[magical defense]
+	28
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[MP MAX rate]
+	10.0
+
+[all elemental attack]
+	10
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	5
+	[/then]
+[/pvp]
+
+[cool time]
+	10000
+
+[move wav]
+	`CREATURE_EGG_TOUCH`
+
+[set item master]
+	-1

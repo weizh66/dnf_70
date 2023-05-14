@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`五彩煙火`
+	
+
+[explain]
+	`使用後, 發射煙火。(只能在城鎮中使用)`
+	
+
+[flavor text]
+	`找不到代码flavor_text_690000031`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	448
+
+[stackable type]
+	`[only effect]`	0
+
+[cool time]
+	10000
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[string data]
+	`Common/CommonEffect/Animation/5Colored_Firecracker.ani`
+	`5BRIDE_FIREWORK`
+[/string data]
+
+[shared effect]
+	1
+
+[expiration date]
+	1370016000

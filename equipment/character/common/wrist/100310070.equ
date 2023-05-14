@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`熔巖的馬克多諾手鐲 `
+
+[basic explain]
+	`被攻擊時以 20%%的機率施展火焰龍息（決鬥場修正為 2%%的機率）
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	33
+
+[physical defense]
+	83
+
+[cast speed]
+	30
+
+[need material]
+	3339	525
+
+[value]
+	67200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4368	4128
+
+[all elemental resistance]
+	12
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	80
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[if]
+	[cooltime]
+		8000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[passive object]
+		48225	0	0	0	85	0
+		``
+	[/passive object]
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			8000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[passive object]
+			48225	0	0	0	85	0
+			``
+		[/passive object]
+	[/then]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

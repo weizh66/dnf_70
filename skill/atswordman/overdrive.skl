@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`od_name`
+
+[basic explain]
+	`od_basic_explain`
+
+[explain]
+	`od_explain`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[executable states]
+	`[stand]`
+	`[attack]`
+	`[dash]`
+[/executable states]
+
+[required level]
+	25
+
+[required level range]
+	4
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	10	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[casting time]
+	700	700
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[durability decrease rate]
+	60
+
+[consume item]
+[/consume item]
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	14
+	`Character/Swordman/Effect/ATSkillIcon.img`	15
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →→ + Space`
+
+[dungeon]
+	[consume MP]
+		110	924
+	[cool time]
+		10000	10000
+	[static data]
+	[/static data]
+	[level info]
+		4	120000	1	1	50	120000	3	3	67	120000	5	5	83	120000	7	7	100	120000	9	9	117	120000	12	12	133	120000	14	14	150	120000	16	16	167	120000	18	18	183	120000	20	20	200	120000	22	22	217	120000	24	24	233	120000	26	26	250	120000	28	28	267	120000	31	31	283	120000	33	33	300	120000	35	35	317	120000	37	37	333	120000	39	39	350	120000	41	41	367
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[casting time]
+		500	500
+	[cool time]
+		40000	40000
+	[level info]
+		4	20000	1	1	13	20000	2	2	17	20000	3	3	21	20000	4	4	25	20000	5	5	29	20000	6	6	33	20000	7	7	38	20000	8	8	42	20000	9	9	46	20000	10	10	50	20000	11	11	54	20000	12	12	58	20000	13	13	63	20000	14	14	67	20000	15	15	71	20000	16	16	75	20000	17	17	79	20000	18	18	83	20000	20	20	88	20000	21	21	92
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`od_level_property`	-1	0	0.001	-1	1	1.0	-1	2	1.0
+[/level property]

@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	3	99
+
+[pre required quest]
+	1917
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	3	-1	11	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	300
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`黑暗的試煉 (1/7)`
+
+[depend message]
+	`你是帶著特殊任務來這兒的吧？ 做為你的同族， 我不希望你被人類小瞧， 因此你最好不要在人類世界失手。
+嗯， 如果你想成為真正的暗夜使者， 就想辦法通過我的考驗吧， 先來熱熱身？`
+
+[condition message]
+	`    前往格蘭之森的『幽暗密林』， 殺死4只牛頭兵。`
+
+[solve message]
+	`你回來了？`
+
+[quest point]
+	4

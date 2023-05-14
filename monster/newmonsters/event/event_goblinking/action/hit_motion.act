@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/hit_damage1.ani`
+	[SUB ANI]
+		`../Animation/blood4.ani`	0	10
+		`../Animation/blood3.ani`	0	10
+		`../Animation/blood2.ani`	0	10
+		`../Animation/blood1.ani`	0	10
+	[/SUB ANI]
+	[SPEECH]
+		`呃啊！詛咒失敗了！`	0	100
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		-20
+	[%]
+[/BEHAVIOR]

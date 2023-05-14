@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5720
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	83	0
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`趁虛而入`
+
+[depend message]
+	`既然已經知道了敵方營地的確切位置， 我們就不必在這里坐以待斃了。
+不過……上一場戰役剛結束不久， 我們的士兵大多處于養傷階段， 暫時還無法組成有效的進攻隊伍。
+唉~現在正是敵軍陣營里兵力最空虛的時候， 如果不抓緊機會， 下次進攻就更難了……
+冒險家， 能不能請你再去一趟峽谷， 潛入敵人的營地中制造些混亂？`
+
+[condition message]
+	`    通關安特貝魯峽谷的『夜間襲擊戰』。`
+
+[solve message]
+	`任務完成了嗎？
+什么？ 呃……你說那里出現了很多敵人！ 怎么回事？`
+
+[quest point]
+	4

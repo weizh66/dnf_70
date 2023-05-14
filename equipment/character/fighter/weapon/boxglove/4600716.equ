@@ -1,0 +1,232 @@
+#PVF_File
+
+[name]
+	`封·神隱者`
+
+[basic explain]
+	`攻擊速度 +3%%
+    裝備後， 每30秒會使自身進入偽裝和失明狀態。
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒。`
+
+[detail explain]
+	`攻擊速度 +3%%
+    裝備後， 每30秒會使自身進入偽裝和失明狀態； 但同時會增加30%%的傷害、 12%%的攻擊速度和移動速度。 (裝備10秒後生效；傷害加成效果取最高值，且無法疊加；暴擊/附加傷害除外)`
+
+[flavor text]
+	`    妳看不見我！ 看不見我！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	165
+
+[attack speed]
+	100
+
+[attack speed]
+	30
+
+[move speed]
+	30
+
+[need material]
+	3821	1600
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1109	1109
+
+[equipment magical attack]
+	1003	1003
+
+[separate attack]
+	648	648
+
+[dark attack]
+	18
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/bglove/bglove.img`	95
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+[/elemental property]
+
+[required skill]
+	34
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability at pvp module]
+		80
+	[active status]
+		`stun`	91
+[/then]
+
+[if]
+	[time]
+		30000	1	10000
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[equipment duration]
+		25000
+	[active status]
+		`blind`	100	1	0
+	[appendage]
+		220
+[/then]
+
+[if]
+	[cooltime]
+		29000
+	[my active status]
+		`blind`
+	[time]
+		500	1	500
+	[my appendage]
+		220
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		25000
+	[stat]
+		`attack speed`
+		`+`	120
+	[stat]
+		`move speed`
+		`+`	120
+	[buff]
+		`camoflage`
+[/then]
+
+[if]
+	[my appendage]
+		220
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	30
+[/then]
+
+[possible kiri protect]

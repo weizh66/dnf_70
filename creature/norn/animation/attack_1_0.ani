@@ -1,0 +1,114 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Norn.img`
+		22
+	[IMAGE POS]
+		-214	-365
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-30	-17	9	60	38	154
+
+[FRAME001]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Norn.img`
+		23
+	[IMAGE POS]
+		-215	-365
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-30	-17	9	60	38	154
+
+[FRAME002]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Norn.img`
+		24
+	[IMAGE POS]
+		-215	-365
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-17	9	60	38	154
+
+[FRAME003]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Norn.img`
+		25
+	[IMAGE POS]
+		-215	-365
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-17	9	60	38	154
+	[ATTACK BOX]
+	-24	-25	8	163	86	72
+	[ATTACK BOX]
+	-71	-60	254	129	47	28
+	[ATTACK BOX]
+	-108	-21	103	72	38	154
+	[ATTACK BOX]
+	-72	8	61	72	32	56
+
+[FRAME004]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Norn.img`
+		26
+	[IMAGE POS]
+		-215	-365
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-30	-17	9	60	38	154
+	[ATTACK BOX]
+	-16	-17	55	163	49	191
+	[ATTACK BOX]
+	-94	-18	221	101	-43	80
+	[ATTACK BOX]
+	-10	-9	206	101	-35	83
+
+[FRAME005]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Norn.img`
+		27
+	[IMAGE POS]
+		-215	-365
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-30	-17	9	60	38	154
+
+[FRAME006]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Norn.img`
+		28
+	[IMAGE POS]
+		-215	-365
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		300
+	[DAMAGE BOX]
+	-30	-17	9	60	38	154

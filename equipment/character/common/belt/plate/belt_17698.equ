@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`泰坦的合金腰帶`
+
+[basic explain]
+	`HP 20%% 以下時10秒內對 自己施展霸體狀態效果（冷卻時間30秒）
+不可解體`
+
+[detail explain]
+	`HP 20%% 以下時，10秒內對自己施展霸體狀態效果。 （冷卻時間30秒，決鬥場內不適用）
+不可解體`
+
+[grade]
+	49
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	45
+
+[physical attack]
+	23
+
+[physical defense]
+	14
+
+[magical attack]
+	23
+
+[inventory limit]
+	3000
+
+[price]
+	39200
+
+[repair price]
+	31360
+
+[value]
+	31360
+
+[equipment physical defense]
+	1120	1020
+
+[icon]
+	`Item/common/belt.img`	272
+
+[field image]
+	`Item/field_equip.img`	18
+
+[equipment type]
+	`[waist]`	18
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2000
+
+[item group name]
+	`mt waist`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		1000	1	1000
+	[stat change]
+		`hp`
+		`<`
+		`%`	20
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[reduce duration to human armor at pvp module]
+		70
+	[buff]
+		`superarmor`
+[/then]
+
+[pvp]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

@@ -1,0 +1,148 @@
+#PVF_File
+
+[name]
+	`神龍之息戒指`
+
+[basic explain]
+	`  攻擊時，對話氣泡：死亡如風常伴吾身！！
+  攻擊時有2%%的幾率發動真龍之吼。`
+
+[flavor text]
+	`愛是壹場戰爭,我不怕受傷只怕妳不快樂.`
+
+[grade]
+	85
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	80
+
+[magical attack]
+	80
+
+[attack speed]
+	50
+
+[cast speed]
+	50
+
+[move speed]
+	50
+
+[price]
+	80400
+
+[need material]
+	2701003	200
+
+[repair price]
+	67536
+
+[value]
+	64320
+
+[equipment magical defense]
+	2368	2208
+
+[icon mark]
+	`Item/IconMark.img`	146
+
+[icon]
+	`Item/common/ring_cn.img`	58
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			30
+		[upper bound level]
+			45
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		25000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill cooltime reset]
+		0
+		``	1
+	[speech on]
+		0	1000
+		`死亡如風常伴吾身！！`
+	[/speech on]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[passive object]
+		14125	0	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[set item master]
+	701000019
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

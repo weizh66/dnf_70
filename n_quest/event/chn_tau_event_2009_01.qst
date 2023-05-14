@@ -1,0 +1,90 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[job change quest]
+	0
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[PVP RANK]
+	0
+
+[effect after clear quest]
+	0
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	0
+
+[int data]
+	2	15	2680333	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	2680334	5	2680335	5
+[/reward selection int data]
+
+[name]
+	`阿爾伯特的喜好`
+
+[depend message]
+	`喂~好久不見， 你怎么還是老樣子呀。
+嗯， 聽說地下城最近經常出現穿著圍裙的牛頭怪， 你有看見過嗎？
+你沒有看見過？ 看來你落伍了。 這樣吧， 如果你能拿15點決斗勝點和那個牛頭怪的尾巴來找我， 我會給你一個好東西！
+你不想拿來也無所謂， 但如果換成我， 我一定會去嘗試一下。`
+
+[condition message]
+	`    把15點決斗勝點和15個[牛頭怪的奇異尾巴]交給阿爾伯特。 (決斗勝點可以在決斗場中獲得， 牛頭怪的奇異尾巴可以從助威牛頭怪身上獲得)`
+
+[solve message]
+	`哈哈， 這世上我最喜歡的東西就那幾樣， 其中之一就是這個奇異尾巴……你那什么表情？
+可別想歪了， 你也算是用武器戰斗的人， 怎么連這個都不知道？
+把牛頭怪的奇異尾巴掛在武器上， 可以消除厄運并保護生命， 難道你連這個傳說都沒聽過？！
+真是的， 你實在太笨了， 我都不想給你掛上奇異尾巴了……給， 不管你笨不笨， 謝禮還是要給的。`

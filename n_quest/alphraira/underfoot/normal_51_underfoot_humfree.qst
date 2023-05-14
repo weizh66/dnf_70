@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	51	99
+
+[pre required quest]
+	70
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	36	2	50091	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1111	6	1117	6	0	100
+[/reward int data]
+
+[reward selection int data]
+	1026	7	1029	7
+[/reward selection int data]
+
+[name]
+	`沉默的亨普利`
+
+[depend message]
+	`這次需要對付的是沉默的亨普利， 聽說能獲得‘沉默’稱號的人， 都是一些喜歡在背后等待時機攻擊敵人的人。 嗯……相當于人類的突擊隊長。
+我還聽說亨普利是這類人中的佼佼者， 只要他進入了戰斗， 就算有‘謹慎’之稱的仃高都不是他的對手。
+不過我一直沒有機會看他戰斗， 所以幫不上你什么忙……我希望你能打敗他！`
+
+[condition message]
+	`    前往暗黑城的『暗黑城入口』， 擊敗沉默的亨普利2次， 要求地下城難度為王者級。`
+
+[solve message]
+	`原來亨普利是用自身對敵人進行盲目的肉彈攻擊……哈哈， 怪不得很少人知道他的攻擊技能！`

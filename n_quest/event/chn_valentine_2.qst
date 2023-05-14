@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4961
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7097	15	7098	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	7325	2	7326	2
+[/reward selection int data]
+
+[name]
+	`幸福的情人節 (重復)`
+
+[depend message]
+	`冒險家， 如果您在冒險途中收集到更多的巧克力材料， 能送過來給我嗎？`
+
+[condition message]
+	`    前往任意地下城， 收集15個[幸運之可可豆]和15個[祝福之可可香精]， 送給賽麗亞。`
+
+[solve message]
+	`您又給我送巧克力材料了呀， 真是太感謝了……呵呵， 祝您情人節快樂~`

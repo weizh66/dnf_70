@@ -1,0 +1,48 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[tile type]
+		1
+	[size]
+		0	0
+	[controls]
+		[ui controls]
+			`[image]`
+			`0`	4	553	1
+			`Interface/newstyle/windows/Party/Party.img`	1	24
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`1`	23	556	1
+			`完成簡單難度`
+				9	-1	190	0	0	0	0	255	255	255
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`2`	4	553	1
+			`Interface/newstyle/windows/Party/Party.img`	1	25
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`3`	23	556	1
+			`以S排行完成冒險級難度`
+				9	-1	190	0	0	0	0	255	255	255
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`4`	4	553	1
+			`Interface/newstyle/windows/Party/Party.img`	1	26
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`5`	23	556	1
+			`高難度時未使用復活幣
+利用SSS級，被擊次數 10次以下通關
+（遠古地下城： SS級，被擊次數 30次以下，
+異界地下城： SS排行、被擊中次數 50次以下）`
+				9	-1	190	0	0	0	0	255	255	255
+		[/ui controls]
+	[/controls]
+[/window]

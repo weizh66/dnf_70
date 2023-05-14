@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	123
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	13	2	3001	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`除掉普拉塔尼的方法`
+
+[depend message]
+	`冒險家， 研究有結果了！ 根據我的研究， 只要你能破壞那個黃金石巨人體內的動力核， 你就可以通往上層了。
+不過那黃金石巨人體內的動力核一定掩藏得很好， 不容易找到。 這樣吧， 你拿著這個探測器去吧， 它會幫助你找到黃金石巨人的動力核的。`
+
+[condition message]
+	`    前往天空之城的『石巨人塔』， 處置領主黃金巨人普拉塔尼， 要求地下城難度為王者級。`
+
+[solve message]
+	`探測器沒出什么問題吧？ 哦， 那可真是萬幸啊。 呵呵， 本來我對邊打瞌睡邊制造的東西就不抱多大期望， 只要不發生什么劇烈的爆炸就行……
+哦呵呵……呀， 你這年輕人怎么連個小小的玩笑都開不起啊？ 嗯？ 你覺得不像是開玩笑？ 臭小子！(這家伙還真敏銳啊， 差點露餡了……噗通噗通……)`
+
+[quest point]
+	4
+
+[reward int data]
+	0	100
+[/reward int data]

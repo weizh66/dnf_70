@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/IceFieldDisappear2.ani`
+	[SUB ANI]
+		`../Animation/IceFieldDisappear2_Effect.ani`	0	1
+		`../Animation/IceFieldDisappear3.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			2
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DAMAGE BOX]
+	[ON]
+	[SET ACTION]
+	[STAND]
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FOCUS CAMERA]
+	[OFF]
+		2
+[/BEHAVIOR]

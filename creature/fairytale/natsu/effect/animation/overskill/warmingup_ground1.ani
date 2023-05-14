@@ -1,0 +1,89 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_overskill_effect_warmingup_ground.img`
+		0
+	[IMAGE POS]
+		-256	-76
+	[IMAGE RATE]
+		1.0	1.0
+	[RGBA]
+		255	255	255	128
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_overskill_effect_warmingup_ground.img`
+		0
+	[IMAGE POS]
+		-256	-76
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[RGBA]
+		255	255	255	204
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_overskill_effect_warmingup_ground.img`
+		0
+	[IMAGE POS]
+		-256	-76
+	[IMAGE RATE]
+		0.6000000238418579	0.6000000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME003]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_overskill_effect_warmingup_ground.img`
+		0
+	[IMAGE POS]
+		-256	-76
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME004]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_overskill_effect_warmingup_ground.img`
+		0
+	[IMAGE POS]
+		-256	-76
+	[IMAGE RATE]
+		0.20000000298023224	0.20000000298023224
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME005]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_overskill_effect_warmingup_ground.img`
+		0
+	[IMAGE POS]
+		-256	-76
+	[IMAGE RATE]
+		0.20000000298023224	0.20000000298023224
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		100

@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7897
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	11001	-1
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	4
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 柔道家 (3/3)`
+
+[depend message]
+	`不過作為柔道家， 必須具備一招制敵的氣概和瞬發力。
+你可以嗎？`
+
+[condition message]
+	`    通關亡者峽谷的『迷妄之塔』。`
+
+[solve message]
+	`非常優秀！ 看來你已經做好蹂躪敵人的準備了。
+現在估計沒有人能阻止你了！`

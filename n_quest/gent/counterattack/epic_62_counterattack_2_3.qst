@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	59
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5766
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	13109
+[/int data]
+
+[dungeon info]
+	85	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	6051	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魯莽的柯維`
+
+[depend message]
+	`我已經看完尼貝爾的報告了。 他在報告中說， 由于敵人的戰術性撤退， 皇都軍在追擊時， 兵力被分散了。
+哎~當務之急就是盡快找到他們， 并把所有力量集中起來。
+<npc::59>嘿， 澤丁。 你最近有柯維的消息嗎？
+<npc::58>誰？ 哦~你是說那個魯莽的柯維啊！ 他也參加這次的追擊殲滅戰了嗎？
+現在的通信狀況十分惡劣， 我也不清楚他的具體位置， 不過應該就在那片作戰區域內。
+<npc::59>哦！ 那就好。 對了， 朋友。 你能順道幫我找找柯維嗎？
+那個單純又魯莽的家伙……自從跟我學了‘蓋波加之拳’之后， 就覺得這招威力不錯， 不原意再學其它的招數……
+不過他生性善良， 能力也算出色。 如果你能找到他， 應該會多個不錯的幫手。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 找到魯莽的柯維， 要求地下城難度冒險級以上。`
+
+[solve message]
+	`一切都還好吧？
+哈哈， 這下我就放心了。 你看， 是不是個好幫手？
+總之， 謝謝你告訴我這個好消息。`
+
+[dialog]
+	0	0	13109	1	0	0	0
+	`<apc::11500>哈哈， 見到你很高興~我叫柯維！
+男人做事不能婆婆媽媽！ 這次我們就痛快地干一場吧！`
+[/dialog]
+
+[quest point]
+	4

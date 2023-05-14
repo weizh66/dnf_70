@@ -1,0 +1,48 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Map/Village/grim/table_glow.img`
+		0
+	[IMAGE POS]
+		-108	-131
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[RGBA]
+		50	255	50	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		400
+
+[FRAME001]
+	[IMAGE]
+		`Map/Village/grim/table_glow.img`
+		0
+	[IMAGE POS]
+		-108	-132
+	[RGBA]
+		50	255	50	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`Map/Village/grim/table_glow.img`
+		0
+	[IMAGE POS]
+		-108	-135
+	[IMAGE RATE]
+		1.100000023841858	1.100000023841858
+	[RGBA]
+		100	255	100	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		180

@@ -1,0 +1,31 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/timebreak_ready_body.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[MONTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			500
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		-999
+	[POINT]
+	[SET ACTION]
+	[HOLD]
+	[NOW]
+[/BEHAVIOR]

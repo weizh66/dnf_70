@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2494
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680351	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680347	2	2680349	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`卡妮娜的幫忙 <2/5>`
+
+[depend message]
+	`這些……是你專門為我收集的？
+呃……讓你費心了， 我當時只是有感而發說了幾句，  沒想到你卻記住了， 我真的很感動……
+ (卡妮娜) 冒險家， 既然想讓賽麗亞姐姐高興， 那就堅持到底吧， 我卡妮娜會幫助你的！`
+
+[condition message]
+	`    前往任意地下城， 從怪物身上收集12個圣誕節禮盒交給賽麗亞。`
+
+[solve message]
+	`啊， 好可愛呀， 你是從哪里弄來這些小東西的？`

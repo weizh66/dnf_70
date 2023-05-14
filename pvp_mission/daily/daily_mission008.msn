@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	25
+
+[grade]
+	`[daily]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[決鬥場擂臺賽] 找出第一個祭品`
+	
+
+[cond_text]
+	`大將戰擊倒1名對手`
+	
+
+[condition]
+	`[hereafter kill count]`	2	1	-1
+[/condition]
+
+[reward item]
+	3312	3
+[/reward item]

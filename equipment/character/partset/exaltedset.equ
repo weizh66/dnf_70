@@ -1,0 +1,60 @@
+#PVF_File
+
+[set name]
+	`找不到代?set_name_exalted`
+
+[piece set ability]
+	3
+	[physical attack]
+		50
+	[physical defense]
+		50
+	[magical attack]
+		50
+	[magical defense]
+		50
+	[move speed]
+		20
+	[attack speed]
+		20
+	[cast speed]
+		20
+[/piece set ability]
+
+[piece set ability]
+	5
+	[HP MAX]
+		300
+	[MP MAX]
+		300
+	[stuck resistance]
+		20
+	[inventory limit]
+		500000
+	[MP regen speed]
+		40
+	[stuck]
+		-2.0
+[/piece set ability]
+
+[piece set ability]
+	8
+	[physical attack]
+		50
+	[physical defense]
+		50
+	[magical attack]
+		50
+	[magical defense]
+		50
+	[all elemental resistance]
+		25
+	[move speed]
+		30
+	[attack speed]
+		30
+	[cast speed]
+		30
+	[room list move speed rate]
+		1.2
+[/piece set ability]

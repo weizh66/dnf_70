@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`銀色皮特蘭豬`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	6000
+
+[over skill recovery time]
+	30000
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	10
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[learn overskill level]
+	26
+
+[skill MP]
+	0
+
+[over skill MP]
+	150
+
+[basic motion]
+	`Animation/stay.ani`
+
+[walk motion]
+	`Animation/walk.ani`
+
+[run motion]
+	`Animation/run.ani`
+
+[skill motion]
+	`Animation/skill.ani`
+
+[over skill motion]
+	`Animation/over_skill.ani`
+
+[response motion]
+	`Animation/response.ani`
+
+[basic over effect]
+	`Animation/stay_dodge.ani`
+
+[walk over effect]
+	`Animation/walk_dodge.ani`
+
+[run over effect]
+	`Animation/run_dodge.ani`
+
+[skill over effect]
+	`Animation/skill_dodge.ani`
+
+[over skill over effect]
+	`Animation/over_skill_dodge.ani`
+
+[response over effect]
+	`Animation/response_dodge.ani`
+
+[etc motion]
+	`Animation/fall.ani`
+	`Animation/ting.ani`
+	`Animation/fall_dodge.ani`
+	`Animation/ting_dodge.ani`
+[/etc motion]
+
+[response sound tag]
+	`BRONZEPIG_CRY`
+
+[revision x]
+	0
+
+[revision y]
+	0
+
+[attack info]
+	`AttackInfo/skill.atk`
+	`../../PassiveObject/Creature/SilverPig/AttackInfo/jump_attack.atk`
+[/attack info]
+
+[piercing]
+	20	1	1000	0
+[/piercing]
+
+[skill string]
+	`前沖攻擊`
+	`向前施展前沖攻擊，並有5%%%%的幾率使敵人進入眩暈狀態，眩暈狀態持續%d秒。(若敵人高于Lv%d，則減少進入異常狀態的幾率。)`
+	`跳躍攻擊`
+	`向前施展跳躍攻擊， 並有40%%%%的幾率使敵人進入眩暈狀態， 眩暈狀態持續%d秒 (若敵人高于Lv%d， 則減少進入異常狀態的幾率)`
+[/skill string]
+
+[skill level values]
+	1	4	1	60
+[/skill level values]
+
+[over skill level values]
+	1	4	1	60
+[/over skill level values]
+
+[int data]
+	5	300	800	50	60030	250	0	580
+[/int data]
+
+[string data]
+	`Effect/Particle/pig_skill_dust.ptl`
+	`Effect/Particle/pig_skill_stone.ptl`
+[/string data]
+
+[evolution quest]
+	1
+
+[evolution creature id]
+	24
+
+[evolution level]
+	30

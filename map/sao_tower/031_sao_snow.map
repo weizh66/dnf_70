@@ -1,0 +1,118 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3600
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`../WhiteLand/Tile/0emptytile.til`
+	`../WhiteLand/Tile/0emptytile.til`
+	`../WhiteLand/Tile/0emptytile.til`
+	`../WhiteLand/Tile/0emptytile.til`
+	`../WhiteLand/Tile/0emptytile.til`
+[/tile]
+
+[extended tile]
+	`../WhiteLand/Tile/1wl13.til`
+	`../WhiteLand/Tile/1wl06.til`
+	`../WhiteLand/Tile/1wl06.til`
+	`../WhiteLand/Tile/1wl06.til`
+	`../WhiteLand/Tile/1wl07.til`
+	`../WhiteLand/Tile/flip_1wl05.til`
+	`../WhiteLand/Tile/1wl01.til`
+	`../WhiteLand/Tile/1wl01.til`
+	`../WhiteLand/Tile/1wl01.til`
+	`../WhiteLand/Tile/1wl05.til`
+	`../WhiteLand/Tile/2wl04_1.til`
+	`../WhiteLand/Tile/1wl01.til`
+	`../WhiteLand/Tile/1wl01.til`
+	`../WhiteLand/Tile/1wl01.til`
+	`../WhiteLand/Tile/flip_1wl04.til`
+	`../WhiteLand/Tile/1wl08.til`
+	`../WhiteLand/Tile/1wl03.til`
+	`../WhiteLand/Tile/1wl03.til`
+	`../WhiteLand/Tile/1wl03.til`
+	`../WhiteLand/Tile/flip_1wl08.til`
+	`../WhiteLand/Tile/1wl21.til`
+	`../WhiteLand/Tile/1wl16.til`
+	`../WhiteLand/Tile/1wl16.til`
+	`../WhiteLand/Tile/1wl16.til`
+	`../WhiteLand/Tile/1wl17.til`
+[/extended tile]
+
+[far sight scroll]
+	56
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`../WhiteLand/Animation/slfar.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`../WhiteLand/Animation/slmid.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`../WhiteLand/Animation/slmid2.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	512	1147	604	1149	540	1147	562	1153
+
+[dungeon start area]
+	573	338	147	257
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[passive object]
+	48427	94	324	0	48428	281	287	0	48430	468	311	0	48431	186	310	0	48427	609	313	0	48429	700	323	0	48429	837	301	0	48428	937	361	0	48430	751	370	0	48427	1026	403	0	48427	1064	495	0	48430	918	507	0	48427	390	320	0	48427	39	426	0	48427	70	484	0	48430	85	524	0	48427	915	584	0	48427	502	325	0
+[/passive object]
+
+[ai character]
+	5806	420	433	0
+	`[monster]`
+	`[boss]`	2	0	5807	420	433	0
+	`[monster]`
+	`[boss]`	2	0
+[/ai character]
+
+[event monster position]
+	378	492	0	302	480	0	234	399	0	237	469	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

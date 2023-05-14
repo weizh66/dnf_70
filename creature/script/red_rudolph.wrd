@@ -1,0 +1,158 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`拉雪橇的蠢鹿，誰啊？我是搖滾巨星！！`
+		`戴上墨鏡就是為了防止粉絲的騷擾~`
+		`偶像的青春就這樣在等待中流逝……`
+		[in elven gard]
+			`幽靜的森林，不適合演奏搖滾……`
+		[/in elven gard]
+		[in alfhlyra]
+			`這里適合開恐怖派對……`
+		[/in alfhlyra]
+		[in stom pass]
+			`蠢鹿才去拖雪橇，聰明的早去當瑪麗蓮夢鹿了~`
+		[/in stom pass]
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`我的肚子在打鼓了~我不要當鼓手！！`
+			`我的肚子在打鼓了~我不要當鼓手！！`
+			`我的肚子在打鼓了~我不要當鼓手！！`
+		[/fill point under]
+		[enemies alive]
+			[hits over]
+				20
+				`你是故意想看巨星出丑嗎？`
+				`這時候適合演唱勵志歌曲……`
+			[/hits over]
+			[hits under]
+				21
+				`我要轉型成動作巨星！唔~哈~`
+				`真想高歌一曲！！Oh yeah！！`
+			[/hits under]
+		[/enemies alive]
+		[enemies destroyed]
+			[rank over]
+				`b`
+				`這么閃耀的時刻怎么可以沒有狗仔？`
+				`這一刻，主人的光芒蓋過了一切！！`
+			[/rank over]
+			[rank under]
+				`b`
+				`主人你還是和我一起搞音樂吧，動作不適合你！`
+				`其實我是彈貝斯的鐺鐺，不是叮叮！`
+			[/rank under]
+		[/enemies destroyed]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`巨星也是需要好名字來包裝的~`
+		[/renamed]
+		[pop random]
+			40
+			[call the name]
+				`喊我名字要用尖叫，喊完記得暈倒~`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			30
+			[equip]
+				`搖滾巨星閃亮登場！！！`
+				`我的出場費可不便宜哦~`
+			[/equip]
+		[/pop random]
+		[pop random]
+			50
+			[level up]
+				`升級其實一點都不費力~So easy！`
+				`升級咯！今夜一起狂歡吧！！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			50
+			[character level up]
+				`主人升級，我就破例為你獻唱一曲吧！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+		[eat feed]
+			`要小心狗仔偷拍，所以吃相一定要優雅~`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`怎么沒人找我代言食物呢？`
+			`我的嘴巴除了用來吃飯，就是歌唱~`
+		[/eat feed]
+		[none feed]
+			`餓的時候，看吉他長得好像雞腿啊~`
+		[/none feed]
+		[end buff]
+			`準備好了嗎？掌聲、尖叫~`
+		[/end buff]
+		[dying]
+			`一顆搖滾巨星就這樣隕落了……`
+		[/dying]
+		[using overskill]
+			``
+			`一起感受音樂的魅力吧！`
+		[/using overskill]
+		[pop random]
+			40
+			[skill gauge full]
+				`我的血液在燃燒，我的靈魂在咆哮……`
+				`快點開始吧~我迫不及待想要歌唱~`
+			[/skill gauge full]
+		[/pop random]
+		[pop random]
+			40
+			[over skill gauge full]
+				`讓我們盡情地歌唱吧！`
+				`主人，你也一起來吧！`
+			[/over skill gauge full]
+		[/pop random]
+		[over skill waiting]
+			`我準備好了，你們呢？`
+			`接下來的表演一定會讓你們終生難忘！`
+		[/over skill waiting]
+		[call the name]
+			`喊我名字要用尖叫，喊完記得暈倒~`
+		[/call the name]
+		[pop random]
+			40
+			[equip]
+				`搖滾巨星閃亮登場！！！`
+				`我的出場費可不便宜哦~`
+			[/equip]
+		[/pop random]
+		[pop random]
+			50
+			[level up]
+				`升級其實一點都不費力~So easy！`
+				`升級咯！今夜一起狂歡吧！！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			50
+			[character level up]
+				`主人升級，我就破例為你獻唱一曲吧！`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+	[/main game]
+	[pvp]
+		[press creature button]
+			``
+		[/press creature button]
+	[/pvp]
+[/trigger]

@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`麥吉的改造沙漠風暴`
+
+[basic explain]
+	`發射後延遲減少8%%
+填裝速度增加8%%
+拔槍速度增加8%%
+基本裝彈數減少1`
+
+[flavor text]
+	`麥吉特意改造的沙漠風暴。因改造成適合哥布林使用，所以無法獲知人類使用時的效果。`
+
+[grade]
+	44
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	43
+
+[physical attack]
+	29
+
+[price]
+	61600
+
+[repair price]
+	51744
+
+[value]
+	49280
+
+[equipment physical attack]
+	332	297
+
+[equipment magical attack]
+	297	267
+
+[separate attack]
+	191	128
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[gunner]`	11	1
+	`[at gunner]`	11	1
+[/skill levelup]
+
+[icon]
+	`item/weapon/gunner/revolver.img`	15
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	2	9
+
+[layer variation]
+	2790
+	`mcgeec`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`mcgeeb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	2	9
+
+[layer variation]
+	2790
+	`at_mcgeec`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_mcgeeb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[int data]
+	3	-1	-1	-1	92	909	-1	-1	-1	1134
+[/int data]
+
+[possible kiri protect]

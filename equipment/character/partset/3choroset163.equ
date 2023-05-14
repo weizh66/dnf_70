@@ -1,0 +1,116 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	96
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[demonic lancer]`	96
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[黑暗槍雨]攻擊力 + 15%%
+[黑暗槍雨]冷卻時間 - 15%%
+[暗矛貫穿]冷卻時間 - 20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	96
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	96
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	96
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[黑暗槍雨]攻擊力 + 30%%
+[黑暗槍雨]冷卻時間 - 20%%
+[黑暗槍雨]黑暗氣息持續時間 +30%%
+[黑蝕葬禮]攻擊力 + 20%%
+[黑蝕葬禮]冷卻時間 - 15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[demonic lancer]`	97
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[demonic lancer]`	100
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	100
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	104
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	104
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[黑蝕葬禮]攻擊力 +20%%
+[黑蝕葬禮]爆炸范圍 +30%%
+[墜蝕之雨]攻擊力 +30%%
+[墜蝕之雨]冷卻時間 -25%%
+[暗影蝕魂]攻擊力 +30%%
+[暗影蝕魂]冷卻時間 -30%%`
+[/piece set ability]

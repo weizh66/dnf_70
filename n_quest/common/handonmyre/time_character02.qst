@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	6
+
+[complete npc index]
+	4
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	4	99
+
+[pre required quest]
+	4469
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	300
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找時間碎片1`
+
+[depend message]
+	`不久前聽說辛達在格蘭之森的猛毒雷鳴廢墟撿到某種碎片……難道那就是時間碎片嗎？
+辛達在赫頓瑪爾可是個出了名的鐵匠。 要找到辛達並不難。`
+
+[condition message]
+	`去找赫頓瑪爾的辛達`
+
+[solve message]
+	`你就是聽說最近突然出現的那位冒險家嗎？有趣……。`
+
+[quest point]
+	4

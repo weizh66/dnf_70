@@ -1,0 +1,110 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	77
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[蠻橫沖撞]攻擊力 +30%%
+[蠻橫沖撞]冷卻時間-20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	74
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	74
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	74
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[demonic lancer]`	74
+		`[dungeon type]`
+		`[static]`	5
+		`%`	30
+		`[demonic lancer]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[獵殺槍 : 掠食]冷卻時間 -30%%
+[獵殺槍 : 掠食]攻擊力 +30%%
+[獵殺槍 : 掠食]地面發射控制時間 +30%%
+[獵殺槍 : 掠食]空中發射控制時間 +30%%
+[能量萃取]技能攻擊力增加率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	74
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	77
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[獵殺槍 : 掠食]攻擊力 +30%%
+[蠻橫沖撞]攻擊力 +30%%
+[鷹墜]冷卻時間 -30%%
+[鷹墜]控制時間 +30%%
+[鷹墜]攻擊力 +40%%`
+[/piece set ability]

@@ -1,0 +1,40 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Blood_part_bubble_Basic_1.ani`
+	[SUB ANI]
+		`../Animation/Blood_part_bubble_Basic_2.ani`	0	-1
+	[/SUB ANI]
+	[SOUND]
+		`YUNG_BLOOD_EXP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[RANDOM]
+[/BEHAVIOR]

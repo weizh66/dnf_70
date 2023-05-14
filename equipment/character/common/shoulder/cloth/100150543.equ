@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`塵封的悲鳴青絲護肩`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率消耗3%%的HP， 增加10點所有屬性強化、 3%%的物理暴擊率和魔法暴擊率， 效果持續30秒。`
+
+[detail explain]
+	`攻擊時， 有5%%的幾率消耗3%%的HP， 增加10點所有屬性強化、 3%%的物理暴擊率和魔法暴擊率， 效果持續30秒。 (冷卻時間30秒， 裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12544
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	36
+
+[need material]
+	3824	30
+
+[price]
+	63000
+
+[repair price]
+	50400
+
+[value]
+	50400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	784	728
+
+[icon]
+	`item/new_equipment/02_cloth/neck/cloth_neck.img`	48
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		30000
+	[restore]
+		`hp`
+		`%`	-3	0
+	[stat]
+		`dark attack`
+		`+`	10
+	[stat]
+		`light attack`
+		`+`	10
+	[stat]
+		`fire attack`
+		`+`	10
+	[stat]
+		`water attack`
+		`+`	10
+	[stat]
+		`physical critical hit rate`
+		`+`	3
+	[stat]
+		`magical critical hit rate`
+		`+`	3
+[/then]
+
+[possible kiri protect]

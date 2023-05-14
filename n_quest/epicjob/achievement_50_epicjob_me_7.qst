@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	1009
+
+[job]
+	`[mage]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	958
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	960
+
+[name]
+	`覺醒 - 月之女皇 (3/4)`
+
+[depend message]
+	`如果你想成為月之女皇與凱蒂共享召喚術， 那么在召喚卡西利亞斯時肯定會碰到一個嚴重的問題——卡西利亞斯從不認可弱者， 它甚至會當場殺掉實力弱的召喚師。
+冒險家， 我很擔心， 你能得到卡西利亞斯的認可嗎？……不如， 你先去和一個我認可的強者比試看看， 如果贏了我們再商量下一步。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`這不是耍賴嘛！ 怎么可以叫這么多召喚獸幫忙？ 我不服！！`

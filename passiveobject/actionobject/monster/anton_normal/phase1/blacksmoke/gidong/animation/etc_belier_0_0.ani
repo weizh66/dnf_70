@@ -1,0 +1,60 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATEnergyField/light_dodge.img`
+		2
+	[IMAGE POS]
+		-163	-272
+	[IMAGE RATE]
+		0.949999988079071	0.949999988079071
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+	[FLIP TYPE]
+		`HORIZON`
+	[DAMAGE BOX]
+	-122	-113	2	235	213	236
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/ATEnergyField/light_dodge.img`
+		2
+	[IMAGE POS]
+		-163	-272
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+	[FLIP TYPE]
+		`HORIZON`
+	[DAMAGE BOX]
+	-122	-113	2	235	213	236
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/ATEnergyField/light_dodge.img`
+		2
+	[IMAGE POS]
+		-163	-272
+	[IMAGE RATE]
+		0.949999988079071	0.949999988079071
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		300
+	[FLIP TYPE]
+		`HORIZON`
+	[DAMAGE BOX]
+	-113	-113	2	215	213	201

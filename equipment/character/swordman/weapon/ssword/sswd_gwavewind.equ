@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`碎風亂波劍`
+
+[basic explain]
+	`Y軸移動速度 +50%%
+攻擊速度 +3%%`
+
+[flavor text]
+	`    劍氣散發的時候， 就像春天暖風中飛揚的花瓣。  --《碎風亂波錄》的前言`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	37
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3260	750
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	452	407
+
+[equipment magical attack]
+	547	492
+
+[separate attack]
+	285	189
+
+[attack speed]
+	30
+
+[cast speed]
+	50
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	20	3
+	`[swordman]`	8	3
+[/skill levelup]
+
+[variation]
+	2	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[y move dash speed]
+	0.5
+
+[routing priority]
+	`swordman`	1
+	`swordman`	4
+[/routing priority]
+
+[possible kiri protect]

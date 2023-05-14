@@ -1,0 +1,60 @@
+#PVF_File
+
+[event]
+	[title]
+		`新學期出席活動`
+	[explain]
+		`在消耗疲勞值30後，請點按確認出席按鈕！
+活動期間內，如每天都有進行確認出席，將可以獲得更特別的禮物！`
+	[db table]
+		`event_1112_christmas_tree_bring_up`
+	[material item]
+		[exchange rule]
+			1	8355	8356	8357	8358	8359	8360	8361
+	[/material item]
+	[eventitem send]
+		[get eventitem fatigue]
+		[/get eventitem fatigue]
+		[send mail]
+			[inven]
+				0
+			[detail]
+				2660413	1	0	0
+				`game_server_msg_236`
+				`game_server_msg_238`
+			[/detail]
+		[/send mail]
+	[/eventitem send]
+	[send]
+		[reward start count]
+			1
+		[reward end count]
+			0
+		[reward mutiple number]
+			1
+		[send mail]
+			[inven]
+				1
+			[detail]
+				8391	1	0	0
+				`game_server_msg_251`
+				`game_server_msg_242`
+			[/detail]
+		[/send mail]
+		[reward start count]
+			7
+		[reward end count]
+			0
+		[reward mutiple number]
+			0
+		[send mail]
+			[inven]
+				1
+			[detail]
+				8392	1	0	0
+				`game_server_msg_251`
+				`game_server_msg_242`
+			[/detail]
+		[/send mail]
+	[/send]
+[/event]

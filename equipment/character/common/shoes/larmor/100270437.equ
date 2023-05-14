@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`海神謎咒之輕靈戰靴`
+
+[basic explain]
+	`自身被攻擊時， 若出現Miss則使所有敵人進入詛咒狀態。`
+
+[detail explain]
+	`若被擊時出現Miss，則會使所有敵人進入詛咒狀態5秒；詛咒狀態下的敵人，將減少50點力量、體力、智力和精神。(若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間5秒)`
+
+[flavor text]
+	`老朋友聽了， 只是說了一句話：技術並不能決定一切，心態才是成敗的關鍵……`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	27
+
+[magical attack]
+	18
+
+[move speed]
+	40
+
+[stuck resistance]
+	20
+
+[need material]
+	3824	30
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1764	1638
+
+[water attack]
+	6
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	36
+
+[field image]
+	`Item/field_equip.img`	9
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		0
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		100
+	[duration]
+		5000
+	[active status]
+		`curse`	90	50	50	50	50
+[/then]
+
+[possible kiri protect]

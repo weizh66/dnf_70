@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`幸運天使的紅色鹿角帽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	15
+
+[icon]
+	`item/avatar/fighter/ft_acap.img`	199
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar func filter]
+	0
+
+[variation]
+	69	0
+
+[layer variation]
+	2500
+	`cap_c`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[MP regen speed]
+	4
+
+[cast speed]
+	40
+
+[part set index]
+	2
+
+[character name y revision]
+	25	30

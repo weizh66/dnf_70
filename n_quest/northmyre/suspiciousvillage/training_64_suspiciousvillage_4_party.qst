@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`F`
+
+[gold multiple]
+	60
+
+[npc index]
+	15
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	64	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	5
+
+[int data]
+	53	-1	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	4	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`疑惑之村 - 默契配合`
+
+[depend message]
+	`帝國通知！
+為選拔能夠擔負起拯救亂世重任的冒險家， 特在此列出以下條件。
+凡是達成以上所有條件的冒險家都可以得到皇帝陛下賜予的獎勵。
+所有有志之士， 請速速報名吧！`
+
+[condition message]
+	`    組成3人以上的隊伍通關諾斯瑪爾的『疑惑之村』。`
+
+[solve message]
+	`這是皇帝陛下賞賜給你的獎勵， 請收好！`

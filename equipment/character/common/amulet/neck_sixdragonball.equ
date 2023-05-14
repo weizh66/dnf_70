@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`煞秦的六龍珠項鍊`
+
+[grade]
+	57
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[magical attack]
+	24
+
+[magical defense]
+	60
+
+[price]
+	68400
+
+[repair price]
+	54720
+
+[value]
+	54720
+
+[equipment magical defense]
+	5200	4720
+
+[skill levelup]
+	`[swordman]`	72	1
+	`[fighter]`	90	1
+	`[mage]`	80	1
+	`[at fighter]`	90	1
+[/skill levelup]
+
+[icon]
+	`Item/common/necklace.img`	11
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[set name]
+	`煞秦的龍珠首飾`
+
+[set item]
+	20116	22110	24119
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`自身倒地時，可以召喚出1隻弗利特。
+自身死亡時，可以召喚出9隻弗利特。`
+	[fullset detail explain]
+		`自身倒地時，可以召喚出1隻Lv50的弗利特協助召喚者攻擊敵人，弗利特存在100秒。(召喚的怪物只能同時存在9隻，若召喚的怪物受到較大傷害，則召喚時間結束前就會消失) 
+自身倒地時，可以召喚出9隻Lv50的弗利特協助召喚者攻擊敵人，弗利特存在100秒。 （召喚的怪物最大可同時存在9隻，受到許多傷害時，就會和召喚時間無關消失。）`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

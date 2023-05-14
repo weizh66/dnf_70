@@ -1,0 +1,195 @@
+#PVF_File
+
+[name]
+	`斯皮茲的利齒`
+
+[basic explain]
+	``
+
+[detail explain]
+	`    攻擊時， 有4%%的幾率使敵人進入中毒狀態10秒； 中毒狀態下的敵人， 每0.5秒受到72點傷害。 (若敵人高于Lv55， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對中毒狀態下敵人的傷害 +30%% (在決斗場中 +15%%)
+[黑暗之觸]冷卻時間 -4.4秒`
+
+[flavor text]
+	`    用邪龍斯皮茲的巨大犬齒制作的犀利鐮刀。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`scythe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2800
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/scythe.img`	33
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	532	484
+
+[separate attack]
+	328	220
+
+[attack speed]
+	80
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		4
+	[active status]
+		`poison`	55	1450
+[/then]
+
+[if]
+	[target active status]
+		`poison`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[priest]`	117
+	`[all]`
+	`[cooltime]`	0
+	`+`	-4400
+[/skill data up]
+
+[variation]
+	4	1
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			5000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			10000
+		[probability]
+			4
+		[active status]
+			`poison`	55	1450
+	[/then]
+	[if]
+		[target active status]
+			`poison`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	4
+[/routing priority]
+
+[possible kiri protect]

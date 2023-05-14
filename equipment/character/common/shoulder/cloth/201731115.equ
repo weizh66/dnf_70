@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`極魔·風·肩甲`
+
+[basic explain]
+	`每12點光屬性抗性增加5點光屬性強化值。（最多增加100點）。
+每12點光屬性抗性增加3%%的攻擊速度。（最多增加30%%）。
+每12點光屬性抗性增加3%%的施放速度。（最多增加60%%）。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	155
+
+[magical attack]
+	155
+
+[magical defense]
+	89
+
+[physical defense]
+	89
+
+[need material]
+	3826	3000
+
+[attack speed]
+	50
+
+[cast speed]
+	70
+
+[repair price]
+	55040
+
+[price]
+	68800
+
+[value]
+	55040
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	1776	1704
+
+[light resistance]
+	50
+
+[icon]
+	`Item/new_equipment/02_cloth/neck/cloth_neck.img`	55
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			5
+		[upper bound level]
+			15
+		[value]
+			3
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[time]
+		500	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`light resistance`	12
+		`light attack`
+		`+`	5	100
+	[stat change by stat]
+		`myself`	-1
+		`light resistance`	12
+		`attack speed`
+		`+`	30	300
+	[stat change by stat]
+		`myself`	-1
+		`light resistance`	12
+		`cast speed`
+		`+`	30	600
+[/then]
+
+[part set index]
+	12599
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

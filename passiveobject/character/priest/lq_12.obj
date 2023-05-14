@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`Wrath of God Explosion`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Effect/Animation/Wrathofgod/gather/wogatkfinisha_eff_a.ani`
+
+[attack info]
+	`AttackInfo/WrathOfGodExplosion.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	800
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	130040
+[/object destroy condition]

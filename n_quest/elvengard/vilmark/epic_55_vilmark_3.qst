@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	3
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	420
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	8
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	2000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 向土罐咨詢`
+
+[depend message]
+	`雖然很多冒險家來我的店鋪買東西， 但我沒發現什么可疑的人哦。 嗯， 也許土罐大叔會知道。 他天天面對不同的顧客， 而且見識也比較廣……如果有可疑的人， 他一定能夠看出來。 `
+
+[condition message]
+	`    向艾爾文防線的土罐打聽可疑的人。`
+
+[solve message]
+	`走過路過的冒險家啊， 把你的煩心事暫時拋開吧。 來、 來， 過來下一注吧！ `
+
+[quest point]
+	4

@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	1009
+
+[job]
+	`[fighter]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	915
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	917
+
+[name]
+	`覺醒 - 百花繚亂 (3/4)`
+
+[depend message]
+	`接下來還需要借用一件物品， 才可以達到百花繚亂的境界， 而這物品的名字就叫作‘月下美人’。
+想知道那是什么嗎？ 呵呵~那是一朵傲然盛開在混亂時代的花。 當它在百花繚亂體內綻放時， 會幻化成一朵千葉花的模樣。
+在與強者對決的時候， 月下美人更會在危難的瞬間燃放出火焰。 是不是覺得很神奇？
+你可以去月光修煉場找人比試下， 或許就能夠親自體驗到月下美人綻放的光彩。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`你周圍飄散的那些花瓣是什么？ 難道……是念氣……`

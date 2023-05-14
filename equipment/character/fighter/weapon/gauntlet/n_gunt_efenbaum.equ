@@ -1,0 +1,148 @@
+#PVF_File
+
+[name]
+	`螺旋隕星臂鎧`
+
+[basic explain]
+	`攻擊建筑型護甲的敵人時， 增加20%%的攻擊力。`
+
+[flavor text]
+	`    這也算彗星落？ 跳那么低， 能給敵人強力攻擊嗎……`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`gauntlet`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	31
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	39
+
+[need material]
+	3260	900
+
+[repair price]
+	83160
+
+[value]
+	79200
+
+[cool time]
+	10000
+
+[physical attack]
+	59
+
+[equipment physical attack]
+	638	581
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[fighter]`	22	2
+	`[fighter]`	18	3
+	`[at fighter]`	22	2
+	`[at fighter]`	18	3
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	1
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[routing priority]
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[possible kiri protect]

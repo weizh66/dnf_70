@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`摩根變異的手`
+
+[basic explain]
+	`攻擊時以2%%的機率讓敵人陷入眩暈狀態
+安裝時300px 範圍內的敵人產生摩根的詛咒。
+不可解體`
+
+[detail explain]
+	`攻擊時會以2%%機率在2秒內讓敵人陷入氣絕狀態。 （高於Lv44的對象得到的機率和效果減少，低於Lv44的對象則會增加。決鬥場內修正為1秒）
+安裝時300px 範圍內的敵人產生摩根的詛咒。 （決鬥場不可發動）
+不可解體`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	47
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[HP MAX]
+	200
+
+[HP regen speed]
+	40
+
+[price]
+	70400
+
+[repair price]
+	56320
+
+[value]
+	56320
+
+[equipment physical attack]
+	462	418
+
+[equipment magical attack]
+	399	361
+
+[separate attack]
+	245	164
+
+[icon]
+	`Item/weapon/swordman/club.img`	71
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	44
+[/then]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[curse appendage]
+	250	300	10000	10000
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

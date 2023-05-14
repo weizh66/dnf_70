@@ -1,0 +1,59 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/BloodRiven/riven_hurricane00.img`
+		1
+	[IMAGE POS]
+		-266	-633
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-20	-40	-91	683	80	163
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/BloodRiven/riven_hurricane00.img`
+		1
+	[IMAGE POS]
+		-266	-633
+	[RGBA]
+		255	255	255	50
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-20	-40	-91	683	80	163
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/BloodRiven/riven_hurricane00.img`
+		1
+	[IMAGE POS]
+		-266	-633
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-20	-40	-91	683	80	163
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/BloodRiven/riven_hurricane00.img`
+		1
+	[IMAGE POS]
+		-266	-633
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-20	-40	-91	683	80	163

@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`AmmoAttack`
+
+[piercing power]
+	1000
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/AmmoAttack.act`
+
+[attack info]
+	`AttackInfo/1.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

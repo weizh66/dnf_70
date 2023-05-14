@@ -1,0 +1,165 @@
+#PVF_File
+
+[ui controls]
+	`[board image]`
+	`1001`	-6	0	1
+	`Interface/WindowCommon.img`	11	216	209	213	214	215	216	217	218	219	220	221
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`100`	0	12	1
+	`:: 顯示設定`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`101`	0	31	1
+	`:: 關閉垂直同步`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`102`	0	69	1
+	`:: 效果設置`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`103`	0	88	1
+	`:: 開啟陰影效果`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`104`	0	107	1
+	`:: 顯示轉職裝扮`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`105`	0	126	1
+	`:: 開啟技能插圖特效`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`120`	0	145	1
+	`:: 開啟光環效果`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`106`	0	164	1
+	`:: 隊員技能效果透明度`	9	0	150	0	0	0	0	221	197	147
+[/ui controls]
+
+[ui controls]
+	`[line_dashdot]`
+	`-1`	86	30	0	1	91
+[/ui controls]
+
+[ui controls]
+	`[line_dashdot]`
+	`-1`	99	87	0	1	91
+[/ui controls]
+
+[ui controls]
+	`[line_dashdot]`
+	`-1`	86	106	0	1	104
+[/ui controls]
+
+[ui controls]
+	`[line_dashdot]`
+	`-1`	110	125	0	1	78
+[/ui controls]
+
+[ui controls]
+	`[line_dashdot]`
+	`-1`	86	144	0	1	104
+[/ui controls]
+
+[ui controls]
+	`[basic check box]`
+	`107`	166	30	0	1	0
+[/ui controls]
+
+[ui controls]
+	`[basic check box]`
+	`108`	181	87	0	1	0
+[/ui controls]
+
+[ui controls]
+	`[basic check box]`
+	`109`	181	106	0	1	0
+[/ui controls]
+
+[ui controls]
+	`[basic check box]`
+	`110`	181	125	0	1	0
+[/ui controls]
+
+[ui controls]
+	`[basic check box]`
+	`121`	181	144	0	1	0
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`111`	-5	54	1
+	`Interface/WindowCommon.img`	1	230
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`115`	183	11	1
+	`Interface/WindowCommon.img`	1	239
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`118`	183	30	1
+	`Interface/WindowCommon.img`	1	239
+[/ui controls]
+
+[ui controls]
+	`[slide]`
+	`113`	0	184	0	4	0	195	1000	1000
+[/ui controls]
+
+[ui controls]
+	`[text radio button]`
+	`114`	80	69	4
+	`低`
+	`中`
+	`高`
+	`自動`	2	30	3
+[/ui controls]
+
+[ui controls]
+	`[basic combo box]`
+	`112`	54	8	2
+	`without edit`
+	`without scroll bar`	2	125	3
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`116`	0	0	2
+	`115`
+	`在視窗模式下， 游標移至介面右下方可自由調整視窗大小。 (在地下城和決鬥場中無效)`	4	0	180	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`117`	0	0	2
+	`107`
+	`全屏狀態下才能開啟`	4	0	180	-1	1
+[/ui controls]
+
+[ui controls]
+	`[tooltips]`
+	`119`	0	0	2
+	`118`
+	`關閉垂直同步時， 雖然可以提高幀數， 但遊戲畫面可能會出現波紋。`	4	0	180	-1	1
+[/ui controls]

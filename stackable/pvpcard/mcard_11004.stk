@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`鬥魂格斗天王大賽專屬平衡  卡片`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[amulet]`
+	`[wrist]`
+	`[ring]`
+[/string data]
+
+[int data]
+	120	61236
+[/int data]
+
+[enchant]
+	[pvp]
+		[physical attack]
+			30
+		[magical attack]
+			30
+	[/pvp]
+[/enchant]
+
+[stat desc]
+	`下列屬性只適用于決鬥場。`
+
+[item category]
+	`monster card`
+[/item category]

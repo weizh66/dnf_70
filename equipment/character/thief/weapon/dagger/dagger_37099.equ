@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`牛頭怪獸的角`
+
+[basic explain]
+	`攻擊 時 以7%%的機率 讓敵人 進入出血狀態  
+不可解體 `
+
+[detail explain]
+	`攻擊時以7%%的機率7秒內讓敵人呈現出血狀態，每0.5秒以7的攻擊力給予傷害。 （高於Lv7的對象得到的機率減少，低於Lv7的對象則會增加。 決鬥場內修正為 2%% 機率）
+不可解體`
+
+[grade]
+	7
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	3
+
+[physical attack]
+	9
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	11200
+
+[repair price]
+	8960
+
+[value]
+	8960
+
+[equipment physical attack]
+	105	71
+
+[equipment magical attack]
+	112	76
+
+[separate attack]
+	65	38
+
+[physical critical hit]
+	10
+
+[icon]
+	`Item/weapon/thief/dagger.img`	88
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	18	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		0
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		7
+	[reduce probability to human armor at pvp module]
+		70
+	[active status]
+		`bleeding`	7	92
+[/then]
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		7
+	[reduce probability to human armor at pvp module]
+		70
+	[active status]
+		`bleeding`	7	92
+[/then]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

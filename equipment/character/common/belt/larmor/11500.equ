@@ -1,0 +1,157 @@
+#PVF_File
+
+[name]
+	`魂.黑色瘟疫之枯骨腰帶`
+
+[basic explain]
+	`  被擊時20%%的機率使自身迴避增加50%%，持續7秒（冷卻時間30秒）
+  攻擊時5%%的機率進入祝福狀態。`
+
+[detail explain]
+	`  被擊時20%%的機率使自身迴避增加50%%，持續7秒（冷卻時間30秒）
+  攻擊時5%%的機率進入祝福狀態。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[anti evil]
+	10
+
+[minimum level]
+	90
+
+[physical attack]
+	220
+
+[magical attack]
+	220
+
+[inventory limit]
+	3000
+
+[price]
+	1600000
+
+[need material]
+	3500	1200
+
+[repair price]
+	44100
+
+[value]
+	42000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	984	924
+
+[icon]
+	`Item/common/belt.img`	308
+
+[field image]
+	`Item/field_equip.img`	8
+
+[equipment type]
+	`[waist]`	17
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1200
+
+[item group name]
+	`la waist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[event hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		20
+	[reduce probability to human armor at pvp module]
+		90
+	[stat]
+		`stuck resistance`
+		`+`	500
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[active status]
+		`bless`	100	300	300	300	300
+[/then]
+
+[set name]
+	`魂.黑色瘟疫之枯骨套裝`
+
+[set item]
+	11500	11501	11502	11503	11504
+[/set item]
+
+[piece set ability]
+	3
+	[if]
+		[attack condition]
+			`counter`
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	20
+	[/then]
+	[parameter basic explain]
+		`攻擊時，有機率增加200%%的防禦`
+[/piece set ability]
+
+[piece set ability]
+	5
+	[parameter basic explain]
+		`攻擊時會給敵人造成大量的毒傷`
+[/piece set ability]
+
+[possible kiri protect]

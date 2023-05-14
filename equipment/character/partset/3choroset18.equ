@@ -1,0 +1,164 @@
+#PVF_File
+
+[set name]
+	`雷霆之哮  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	6
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	6
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[fighter]`	6
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[fighter]`	6
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	6
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	6
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	6
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	6
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[下段踢]冷卻時間 -20%%
+[下段踢]攻擊力 +20%%
+[下段踢]釋放速度增加比率 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[fighter]`	4
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	4
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	58
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	83
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at fighter]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[碎骨]冷卻時間 -30%%
+[碎骨]攻擊力 +30%%
+[碎骨]發動速度增加比率 +30%%
+格斗家(男)
+[熾焰旋風腿]冷卻時間 -30%%
+[熾焰旋風腿]攻擊力 +30%%
+[熾焰旋風腿]攻擊速度增加比率 +40%%
+格斗家(女)
+[旋風腿]冷卻時間 -20%%
+[旋風腿]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	82
+		`[dungeon type]`
+		`[static]`	2
+		`+`	12
+		`[fighter]`	82
+		`[dungeon type]`
+		`[static]`	3
+		`+`	12
+		`[fighter]`	82
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[fighter]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`+`	6
+		`[fighter]`	68
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[level]`	3
+		`%`	80
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-40
+		`[at fighter]`	82
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[瞬影連環踢]最后一擊攻擊力 +80%%
+[瞬影連環踢]冷卻時間 -25%%
+[瞬影連環踢]落地后僵直時間 -40%%
+[瞬影連環踢]無色小晶塊消耗量 +1
+格斗家(女)
+[紛影連環踢]攻擊次數 +12
+[紛影連環踢]無色小晶塊消耗量 +1
+[閃電之舞]移動次數 +6
+[閃電之舞]無色小晶塊消耗量 +1`
+[/piece set ability]

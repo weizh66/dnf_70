@@ -1,0 +1,118 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	332
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[mage]`	367
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	367
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	367
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[火熱的愛意]攻擊力 +20%%
+[細心縫補]HP恢復量 +20%%
+[細心縫補]效果范圍 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	367
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[mage]`	335
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+		`[mage]`	335
+		`[dungeon type]`
+		`[level]`	3
+		`+`	5
+		`[mage]`	335
+		`[dungeon type]`
+		`[level]`	4
+		`+`	5
+		`[mage]`	335
+		`[dungeon type]`
+		`[level]`	5
+		`+`	5
+		`[mage]`	335
+		`[dungeon type]`
+		`[level]`	6
+		`+`	5
+		`[mage]`	335
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[mage]`	339
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[mage]`	339
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[mage]`	337
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[細心縫補]冷卻時間 -30%%
+[禁忌詛咒]物理武器攻擊力增加量 +5
+[禁忌詛咒]魔法武器攻擊力增加量 +5
+[禁忌詛咒]獨立攻擊力增加量 +5
+[禁忌詛咒]力量增加量 +5
+[禁忌詛咒]智力增加量 +5
+[禁忌詛咒]命中率增加量 +20%%
+[愛之急救]范圍 +20%%
+[死命召喚]僵尸人偶爆炸攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	332
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	339
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[mage]`	339
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2000
+		`[mage]`	339
+		`[dungeon type]`
+		`[static]`	3
+		`+`	100
+		`[mage]`	337
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[火熱的愛意]攻擊力 +30%%
+[愛之急救]冷卻時間 -35%%
+[愛之急救]持續時間 +2秒
+[愛之急救]傷害減少量 +10%%
+[死命召喚]僵尸爆炸攻擊力 +40%%`
+[/piece set ability]
+
+[partset specific growtype]
+	5

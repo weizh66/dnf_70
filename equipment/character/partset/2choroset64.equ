@@ -1,0 +1,144 @@
+#PVF_File
+
+[set name]
+	`神之恩賜  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-6000
+		`[priest]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[priest]`	7
+		`[dungeon type]`
+		`[level]`	1
+		`+`	15
+		`[priest]`	107
+		`[dungeon type]`
+		`[level]`	2
+		`+`	3000
+	[/skill data up]
+	[parameter basic explain]
+		`[緩慢愈合]恢復時間 -6秒
+[緩慢愈合]恢復量 +30%%
+[武器祝福]物理攻擊力增加量 +15`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	55
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[priest]`	55
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[priest]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`+`	6
+		`[priest]`	53
+		`[dungeon type]`
+		`[level]`	2
+		`+`	8
+		`[priest]`	20
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[priest]`	20
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[priest]`	20
+		`[dungeon type]`
+		`[level]`	3
+		`+`	20
+		`[priest]`	20
+		`[dungeon type]`
+		`[level]`	4
+		`+`	20
+		`[priest]`	20
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[priest]`	21
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	21
+		`[dungeon type]`
+		`[static]`	5
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[快速愈合]冷卻時間 -2秒
+[快速愈合]恢復量 +30%%
+[天使祝福]魔法攻擊力增加量 +6
+[天使祝福]智力增加量 +8
+[守護徽章]物防增加量 +10%%
+[守護徽章]魔防增加量 +10%%
+[守護徽章]體力增加量 +20
+[守護徽章]精神增加量 +20
+[守護徽章]分擔的傷害值上限 +20%%
+[生命源泉]持續時間 +10%%
+[生命源泉]光環范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-12000
+		`[priest]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-1000
+		`[priest]`	26
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[priest]`	26
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[priest]`	26
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[priest]`	23
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[priest]`	23
+		`[dungeon type]`
+		`[level]`	8
+		`%`	25
+		`[priest]`	23
+		`[dungeon type]`
+		`[level]`	5
+		`+`	4
+		`[priest]`	22
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[圣愈之風]冷卻時間 -12秒
+[圣愈之風]恢復時間 -1秒
+[圣愈之風]HP恢復量 +10%%
+[圣愈之風]MP恢復量 +10%%
+[圣愈之風]防御時間 +10%%
+[光之復仇]受魔攻傷害時， 閃電傷害 +25%%
+[光之復仇]感電Lv +4
+[光之復仇]直接攻擊時， 閃電傷害 +25%%
+[圣光守護]可承受的傷害 +20%%`
+[/piece set ability]

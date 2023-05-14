@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	30	99
+
+[pre required quest]
+	51
+[/pre required quest]
+
+[monster reward item]
+	50010	24	1	4030	1	100	1	50010	24	2	4030	1	100	1	50010	24	3	4030	1	100	1
+[/monster reward item]
+
+[appear map]
+	24	-1	3641	100
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4030	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	20000	3039	1	1068	10	1027	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`預言家赫亞西斯的預言書 (4/4)`
+
+[depend message]
+	`現在就差光之預言書了， 如果我們能夠找到它， 就可以解讀赫亞西斯的預言了。 聽說它在極晝的光之傳道師身上， 冒險家， 拜托了！ `
+
+[condition message]
+	`    前往天帷巨獸神殿的『極晝』， 從稀有怪物光之傳道師身上找到[光之預言書]， 要求地下城難度為冒險級以上。 `
+
+[solve message]
+	`總算可以解讀赫亞西斯的預言了……謝謝你！ 我最尊敬的冒險家！ `
+
+[quest point]
+	4

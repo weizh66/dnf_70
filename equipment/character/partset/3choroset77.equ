@@ -1,0 +1,145 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	5
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[升龍劍]冷卻時間 -15%%
+[升龍劍]攻擊力 +10%%
+[穿云破空劍]冷卻時間 -15%%
+[穿云破空劍]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-80
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[level]`	0
+		`%`	80
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[level]`	1
+		`%`	80
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[level]`	2
+		`%`	80
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[static]`	18
+		`%`	-80
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[裂刃天沖]多段攻擊次數 -80%%
+[裂刃天沖]攻擊力 +80%%
+[裂刃天沖]爆炸范圍 -80%%
+[極 · 馭劍術 (幻劍陣)]冷卻時間 -10%%
+[極 · 馭劍術 (幻劍陣)]最后爆炸攻擊力 +25%%
+[極 · 馭劍術 (幻劍陣)]敵人浮空高度 -50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[static]`	17
+		`%`	40
+		`[at swordman]`	246
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[static]`	4
+		`+`	1
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[static]`	3
+		`%`	50
+		`[at swordman]`	248
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[裂刃天沖]冷卻時間 -20%%
+[裂刃天沖]攻擊力 +20%%
+[裂刃天沖]爆炸范圍 +40%%
+[裂刃天沖]無色小晶塊消耗量 +1
+[極 · 馭劍術 (幻劍陣)]冷卻時間 -15%%
+[極 · 馭劍術 (幻劍陣)]最后一擊爆炸攻擊力 +40%%
+[極 · 馭劍術 (幻劍陣)]最后一擊爆炸次數 +1
+[極 · 馭劍術 (幻劍陣)]最后一擊爆炸范圍 +50%%
+[極 · 馭劍術 (幻劍陣)]無色小晶塊消耗量 +1`
+[/piece set ability]

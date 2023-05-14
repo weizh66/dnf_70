@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[target character]
+	`[thief]`	-1	-1
+[/target character]
+
+[level]
+	63	99
+
+[pre required quest]
+	5810
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	6505	30002
+[/int data]
+
+[dungeon info]
+	52	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`及時營救`
+
+[depend message]
+	`我之前都沒跟你提過， 其實我們暗精靈從很久以前就開始研究這些變異的昆蟲。
+自從出現了異次元裂縫之后， 它的周圍就經常出現異常現象， 而這些昆蟲就是其中之一。
+也就是說， 現在諾斯瑪爾地區的某個地方也出現了異次元裂縫。
+由此可以推斷， 那里的傳染病根源， 很有可能就是通過異次元裂縫轉移來的‘狄瑞吉’。
+ <npc::0>使徒‘狄瑞吉’嗎……我早料到會是他了。
+ <npc::64>原來你已經有所覺察， 那么你也能猜到我會采取什么行動了吧。
+我暗中派遣了一些特工對此進行調查， 但是， 其中幾個失去了聯絡， 我想可能是被血蝴蝶之舞里的變異昆蟲給抓走了。
+我希望你立即前往血蝴蝶之舞， 營救出那些被囚禁的同伴。
+還有據上次前去營救的人說， 如果不能盡快打碎蟲繭， 蟲繭里的特工會因心智迷失而攻擊救援者。 請務必注意這一點！
+<npc::0>明白。 我們的同胞正處于危險之中……我現在立刻動身， 等我的好消息吧！`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 營救被囚禁的暗夜使者。`
+
+[solve message]
+	`任務完成了？ 很好。`
+
+[dialog]
+	0	0	6505	0	0	0	0
+	`<npc::0>關在蟲繭里的， 說不定就是米內特所說的特工！
+我記得米內特說過， 人的精神能量一旦被蟲繭吸食干凈， 他就會被蝴蝶迷惑， 變成我們的敵人。 嗯~必須馬上破壞蟲繭！`
+[/dialog]
+
+[quest point]
+	4

@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	18	99
+
+[pre required quest]
+	4307
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[quest point]
+	4
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	1820	202
+[/int data]
+
+[dungeon info]
+	12	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`去更高地方`
+
+[depend message]
+	`我去天空之城時發現， 那些強烈的氣息好像是從天空之城上方傳來的。
+呵呵， 不好意思啊， 我要再去一趟天空之城， 你能帶我去嗎？ 這次要到更高一層才行。`
+
+[condition message]
+	`    與G.S.D一起通關天空之城的『人偶玄關』， 要求地下城難度為王者級。 (此任務只能獨自進行， 若通關時G.S.D沒有生存下來， 則無法完成任務)`
+
+[solve message]
+	`辛苦你了， 還是沒有找到線索， 有點可惜了。`
+
+[dialog]
+	0	0	1819	0	0	0	0
+	` <npc::7>所有的物質， 都有自己特有的波動。
+如果能掌握這波動之力， 就能獲得超強的力量。
+希望你這次能走得更快一些~`
+[/dialog]

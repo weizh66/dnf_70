@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation\atarmageddonstrike\p1\asmark_01.ani`
+	[SUB ANI]
+		`../animation\atarmageddonstrike\p1\asstartcloud_cloud_normal_b.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			2017041718
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			0	-300	0
+	[/CREATE PASSIVEOBJECT]
+	[SHAKING]
+		3	2000
+[/BEHAVIOR]

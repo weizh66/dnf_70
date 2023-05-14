@@ -1,0 +1,191 @@
+#PVF_File
+
+[name]
+	`墮落偽裝者的死亡戰鐮`
+
+[basic explain]
+	`魔化持續時間增加100%% 
+魔化攻擊力減少50%% 
+安裝解除時魔化 解除
+魔化狀態下最後一擊普通攻擊時消耗1個無色小晶塊施展強大的裂地錘
+不可解體，`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	52
+
+[magical attack]
+	52
+
+[attack speed]
+	80
+
+[stuck]
+	-1
+
+[need material]
+	3338	840
+
+[repair price]
+	119448
+
+[value]
+	113760
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	716	669
+
+[equipment magical attack]
+	754	704
+
+[separate attack]
+	450	305
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	86
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	28	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	4
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[skill data up]
+	`[priest]`	119
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[priest]`	119
+	`[all]`
+	`[level]`	5
+	`%`	-50
+	`[priest]`	119
+	`[all]`
+	`[level]`	6
+	`%`	-50
+	`[priest]`	119
+	`[all]`
+	`[level]`	7
+	`%`	-50
+	`[priest]`	119
+	`[all]`
+	`[level]`	8
+	`%`	-50
+	`[priest]`	119
+	`[all]`
+	`[level]`	9
+	`%`	-50
+	`[priest]`	119
+	`[all]`
+	`[level]`	10
+	`%`	-50
+[/skill data up]
+
+[if]
+	[cooltime]
+		12000
+	[my state]
+		`final attack`
+	[attack success]
+		1
+	[is awakening state]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill duration]
+		119
+		`[level]`	1
+	[consume item]
+		3037	1
+	[passive object]
+		48525	0	0	0	84	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[remove equip]
+[/if]
+
+[then]
+	[end skill]
+		`priest`	119
+[/then]
+
+[possible kiri protect]

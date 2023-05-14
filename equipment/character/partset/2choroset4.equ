@@ -1,0 +1,143 @@
+#PVF_File
+
+[set name]
+	`蒼鷹之眸  套裝`
+
+[piece set ability]
+	3
+	[physical critical hit]
+		10
+	[skill data up]
+		`[swordman]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-30
+		`[swordman]`	39
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10
+		`[swordman]`	107
+		`[dungeon type]`
+		`[level]`	1
+		`+`	-500
+		`[swordman]`	107
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[疾影手]冷卻時間減少比率 -30%%
+[武器節制]降低耐久度的減少率 +5%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[attack speed]
+		50
+	[skill data up]
+		`[swordman]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	46
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[swordman]`	1
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+		`[swordman]`	1
+		`[dungeon type]`
+		`[level]`	3
+		`+`	5
+		`[swordman]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-5
+		`[swordman]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-5
+		`[swordman]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-10
+		`[swordman]`	108
+		`[dungeon type]`
+		`[level]`	1
+		`+`	-1000
+		`[swordman]`	108
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[上挑]攻擊力 +30%%
+[格擋]物理攻擊力和魔法攻擊力吸收率 +5%%
+[拔刀斬]攻擊力 -5%%
+[破軍升龍擊]攻擊力 -5%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[stuck]
+		-3
+	[skill data up]
+		`[swordman]`	17
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[swordman]`	72
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-5
+		`[swordman]`	72
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-5
+		`[swordman]`	73
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-5
+		`[swordman]`	73
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-5
+		`[swordman]`	73
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-5
+		`[swordman]`	109
+		`[dungeon type]`
+		`[level]`	1
+		`+`	-1500
+		`[swordman]`	109
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[swordman]`	110
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10
+		`[swordman]`	110
+		`[dungeon type]`
+		`[level]`	1
+		`+`	10
+		`[swordman]`	110
+		`[dungeon type]`
+		`[level]`	2
+		`+`	10
+	[/skill data up]
+	[skill levelup]
+		`[swordman]`	4	5
+		`[swordman]`	14	5
+		`[swordman]`	15	5
+		`[swordman]`	12	5
+		`[swordman]`	13	5
+	[/skill levelup]
+	[parameter basic explain]
+		`[空中連斬]攻擊力 +50%%
+[猛龍斷空斬]攻擊力 -5%%
+[幻影劍舞]攻擊力 -5%%`
+[/piece set ability]

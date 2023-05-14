@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`F`
+
+[gold multiple]
+	60
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	2610
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3219	15
+[/int data]
+
+[first int data]
+	3219	1
+[/first int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4158	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`深淵派對Ep2 - 邪惡來臨 (2/2)`
+
+[depend message]
+	`他們到底是什么來歷？ 為什么要接近我們生活的城鎮？
+雖然我現在還沒有收到關于他們的詳細報告， 但可以確定的是， 他們正在妨礙冒險家。 而且最近陸續傳出冒險家在深淵派對中被異界生命體劫持的消息……
+嗯， 我覺得像你這樣的強者， 應該出來阻止這場混亂。`
+
+[condition message]
+	`    要想挑戰月光酒館和海岸三番街地區的深淵派對， 需先制作[鋼鐵之破魔石]！ 請收集15張[強韌惡魔的邀請函]交給歌蘭蒂斯。`
+
+[first condition message]
+	`((后續確認`
+
+[solve message]
+	`愿神圣的力量抑制邪惡！`
+
+[quest point]
+	4

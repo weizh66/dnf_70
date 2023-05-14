@@ -1,0 +1,21 @@
+#PVF_File
+
+[name]
+	`ATRagnarokFloorAttack passive object`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[layer]
+	`[normal]`
+
+[basic motion]
+	`Animation/CRH/rrhiteff_01.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

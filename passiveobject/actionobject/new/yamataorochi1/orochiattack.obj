@@ -1,0 +1,31 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/OrochiAttack.act`
+
+[attack info]
+	`AttackInfo/OrochiAttack.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	900200
+[/object destroy condition]
+
+[name]
+	`OrochiAttack`

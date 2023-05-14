@@ -1,0 +1,37 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/Mateka/bounds.img`
+		0
+	[IMAGE POS]
+		-301	-295
+	[IMAGE RATE]
+		0.4000000059604645	-0.07999999821186066
+	[RGBA]
+		255	0	0	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		950
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/Mateka/bounds.img`
+		1
+	[IMAGE POS]
+		-301	-295
+	[IMAGE RATE]
+		0.0	0.0
+	[RGBA]
+		255	0	0	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

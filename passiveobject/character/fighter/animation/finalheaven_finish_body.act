@@ -1,0 +1,19 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`finalheaven_finish_body.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		3	1000
+[/BEHAVIOR]

@@ -1,0 +1,90 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	370
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[mage]`	370
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[mage]`	372
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[瘋狂亂抓]攻擊力 +25%%
+[瘋熊火箭拳]攻擊力 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	372
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[mage]`	372
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[mage]`	372
+		`[dungeon type]`
+		`[static]`	2
+		`%`	40
+		`[mage]`	340
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[瘋熊火箭拳]攻擊力 +25%%
+[瘋熊火箭拳]冷卻時間 -25%%
+[瘋熊火箭拳]沖擊波范圍 +40%%
+[變大吧！ 瘋瘋熊]冷卻時間 -30%% `
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	330
+		`[dungeon type]`
+		`[level]`	7
+		`+`	100
+		`[mage]`	340
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[mage]`	340
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1
+		`[mage]`	340
+		`[dungeon type]`
+		`[level]`	1
+		`%`	250
+		`[mage]`	340
+		`[dungeon type]`
+		`[static]`	12
+		`%`	70
+		`[mage]`	340
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[小魔女的偏愛]瘋瘋熊系列技能攻擊力增加率 +10%%
+[變大吧！ 瘋瘋熊]冷卻時間 -40%%
+[變大吧！ 瘋瘋熊]刪除狂抓攻擊
+[變大吧！ 瘋瘋熊]刪除攻擊過程中施放恢復技能的功能
+[變大吧！ 瘋瘋熊]雙臂錘擊攻擊力 +250%%
+[變大吧！ 瘋瘋熊]沖擊波范圍 +70%%
+[變大吧！ 瘋瘋熊]無色小晶塊消耗量 +1`
+[/piece set ability]
+
+[partset specific growtype]
+	5

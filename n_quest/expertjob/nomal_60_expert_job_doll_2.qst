@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[job change quest]
+	20
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	1
+
+[first exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	2711
+[/pre required quest]
+
+[collision quest]
+	2702	2708	2710
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	3	3040	3	3041	3	3038	3	3221	100
+[/int data]
+
+[reward type]
+	`[expert job]`
+
+[reward int data]
+	4
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`副職業 - 控偶師`
+
+[depend message]
+	`每一個冒險家， 在充滿危險的冒險旅途中， 都希望有個伙伴陪著。 但現實是， 最好的伙伴也不可能時時刻刻陪在身邊。
+因此我找到了一個方法， 用這種方法可以創造出臨時的伙伴， 并且在你危險的時候能助你一臂之力。
+怎么樣？ 有興趣嗎？`
+
+[condition message]
+	`    為了想成為控偶師， 請收集以下材料。 (完成此任務后， 就可以成為控偶師。 如果想成為其他副職業， 請先放棄該任務， 然后再接受其他副職業任務。 完成該任務后， 若想轉成其他副職業， 則需要消耗金幣， 請慎重選擇！！)`
+
+[solve message]
+	`別急， 我現在就把這個方法傳授給你……
+這些創造出來的人偶雖然不是鮮活的生命體， 但可以給你很大的幫助， 而且你還可以將它們賣給其他需要伙伴的冒險家。
+在這個世界里， 有很多圖謀不軌的存在想擾亂世界的平衡， 我希望你能獲得更強的力量并守護這個世界的平衡。`

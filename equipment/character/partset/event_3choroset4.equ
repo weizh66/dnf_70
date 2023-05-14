@@ -1,0 +1,93 @@
+#PVF_File
+
+[set name]
+	`血之尖嘯  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[mage]`	65
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-800
+		`[mage]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	65
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-20
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	5
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	6
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	7
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	8
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	9
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1200
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[mage]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1400
+		`[mage]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	112
+		`[dungeon type]`
+		`[static]`	4
+		`+`	6
+		`[mage]`	112
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-50
+		`[mage]`	112
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`圓舞棍冷卻時間減少0.8秒， 攻擊力增加1 5%% / 落花掌蓄氣時間減少20%%， 攻擊力增加1 5%%
+雙重錘擊冷卻時間減少1.2秒， 攻擊力增加1 5%% / 碎霸冷卻時間減少1.4秒， 攻擊力增加15%% /流星雷連擊攻擊最大次數增加6， 最后一擊攻擊力減少50%% `
+[/piece set ability]

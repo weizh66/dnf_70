@@ -1,0 +1,63 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/ATCruxOfVictoria/sister.img`
+		137
+	[IMAGE POS]
+		-260	-294
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`RITUAL_DRAGON_FINISH`
+	[DAMAGE BOX]
+	-20	-5	-2	68	10	52
+	[ATTACK BOX]
+	-720	-450	-200	1440	900	800
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/ATCruxOfVictoria/sister.img`
+		138
+	[IMAGE POS]
+		-260	-294
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-20	-5	-2	68	10	53
+	[ATTACK BOX]
+	-720	-450	-200	1440	900	800
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/ATCruxOfVictoria/sister.img`
+		138
+	[IMAGE POS]
+		-260	-294
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-20	-5	-2	68	10	53
+	[ATTACK BOX]
+	-720	-450	-200	1440	900	800
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/ATCruxOfVictoria/sister.img`
+		138
+	[IMAGE POS]
+		-260	-294
+	[DELAY]
+		240
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-20	-5	-2	68	10	53

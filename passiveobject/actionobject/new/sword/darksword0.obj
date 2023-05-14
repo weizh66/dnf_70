@@ -1,0 +1,21 @@
+#PVF_File
+
+[name]
+	`Dark0`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/Dark0.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	100
+[/object destroy condition]

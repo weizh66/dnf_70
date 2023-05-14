@@ -1,0 +1,258 @@
+#PVF_File
+
+[name]
+	`幽冥閃影`
+
+[basic explain]
+	`    攻擊時， 有4%%的幾率使敵人減少3%%的攻擊速度， 并使自身增加35點物理攻擊力， 效果持續20秒。
+    施放技能時， 有6%%的幾率使自身減少4%%的施放速度， 并增加60點魔法攻擊力， 效果持續20秒。
+    攻擊時， 可以對敵人附加10%%的傷害。  `
+
+[detail explain]
+	`    攻擊時， 有4%%的幾率使敵人減少3%%的攻擊速度， 效果持續20秒； 并且還會使自身增加35點物理攻擊力， 效果持續20秒。
+    施放技能時， 有6%的幾率使自身增加60點魔法攻擊力并減少4%%的施放速度， 效果持續20秒。
+附加傷害 +10%% (在決斗場中 +5%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	70
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	21
+
+[equipment physical attack]
+	450	384
+
+[equipment magical attack]
+	500	427
+
+[separate attack]
+	360	243
+
+[attack speed]
+	20
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[event attack success]
+		1
+	[cooltime]
+		35000
+[/if]
+
+[then]
+	[probability]
+		4
+	[duration]
+		20000
+	[target]
+		`myself`	-1
+	[stat]
+		`attack speed`
+		`+`	-30
+	[stat]
+		`equipment physical attack`
+		`+`	35
+[/then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		35000
+[/if]
+
+[then]
+	[probability]
+		6
+	[duration]
+		20000
+	[target]
+		`myself`	-1
+	[stat]
+		`cast speed`
+		`+`	-40
+	[stat]
+		`equipment magical attack`
+		`+`	60
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+	[if]
+		[event attack success]
+			1
+		[cooltime]
+			35000
+	[/if]
+	[then]
+		[probability]
+			4
+		[duration]
+			20000
+		[target]
+			`myself`	-1
+		[stat]
+			`attack speed`
+			`+`	-30
+		[stat]
+			`equipment physical attack`
+			`+`	35
+	[/then]
+	[if]
+		[event attack success]
+			1
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[probability]
+			4
+		[duration]
+			35000
+		[target]
+			`myself`	-1
+		[stat]
+			`attack speed`
+			`+`	-30
+		[stat]
+			`equipment physical attack`
+			`+`	35
+	[/then]
+[/pvp]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

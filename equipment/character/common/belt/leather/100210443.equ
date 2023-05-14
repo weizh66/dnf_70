@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`海神謎咒之惡靈腰帶`
+
+[basic explain]
+	`被攻擊時， 有10%%的幾率使敵人進入詛咒狀態。`
+
+[detail explain]
+	`被攻擊時， 有10%%的幾率使敵人進入詛咒狀態5秒； 詛咒狀態下的敵人， 將減少50點力量、 體力、 智力和精神。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[flavor text]
+	`眼看著自己離三兒子越來越遠， 漁夫不由有些擔心……`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[magical defense]
+	25
+
+[HP MAX]
+	250
+
+[MP MAX]
+	250
+
+[inventory limit]
+	3000
+
+[need material]
+	3824	30
+
+[price]
+	63000
+
+[repair price]
+	50400
+
+[value]
+	50400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	784	728
+
+[water attack]
+	6
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/03_leather/belt/leather_belt.img`	36
+
+[field image]
+	`Item/FieldImage.img`	3
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[waist]`	16
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	800
+
+[item group name]
+	`lt waist`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[duration]
+		5000
+	[active status]
+		`curse`	90	50	50	50	50
+[/then]
+
+[possible kiri protect]

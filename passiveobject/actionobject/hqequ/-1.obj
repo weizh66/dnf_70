@@ -1,0 +1,50 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	5000
+
+[basic action]
+	`Action/-1.act`
+
+[attack info]
+	`AttackInfo/hgboom.atk`
+
+[etc action]
+	`Action/0.act`
+	`Action/1.act`
+	`Action/2.act`
+	`Action/3.act`
+	`Action/4.act`
+	`Action/5.act`
+	`Action/6.act`
+	`Action/7.act`
+	`Action/8.act`
+	`Action/explosionobject.act`
+[/etc action]
+
+[etc attack info]
+	``
+	``
+	``
+	``
+	``
+	``
+	``
+	``
+	``
+	`AttackInfo/hgboom.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	47000
+[/object destroy condition]

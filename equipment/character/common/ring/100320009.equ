@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`超級巨星戒指`
+
+[basic explain]
+	`攻擊時以3%%的機率在10秒內對自己施展霸體護甲增益`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	51
+
+[magical attack]
+	51
+
+[price]
+	102000
+
+[repair price]
+	81600
+
+[value]
+	81600
+
+[creation rate]
+	200
+
+[equipment magical defense]
+	2976	2784
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	91
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[appendage]
+		205
+	[appendage]
+		207
+[/then]
+
+[set item master]
+	100300007
+
+[possible kiri protect]

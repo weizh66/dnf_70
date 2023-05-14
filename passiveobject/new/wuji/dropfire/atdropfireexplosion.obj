@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`at fighter drop fire explosion`
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic motion]
+	`Animation/ATDropFire/ATDropFire_boom_06.ani`
+
+[attack info]
+	`AttackInfo/ATDropFireExplosion.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1000
+[/object destroy condition]

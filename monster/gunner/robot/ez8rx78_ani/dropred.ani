@@ -1,0 +1,18 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Gunner/RX78/rx78DropRed.img`
+		0
+	[IMAGE POS]
+		-47	-90
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40

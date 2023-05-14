@@ -1,0 +1,35 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/throw1.ani`
+	[SPEECH]
+		`這種零件我有很多~呵呵呵！`
+			2	20
+	[/SPEECH]
+	[SOUND]
+		`TRETRI_THROW`	2
+		`R_TRETRI_SKILL_01`	2
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			10471
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			130	0	70
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

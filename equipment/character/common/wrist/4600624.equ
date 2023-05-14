@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`封·風華絕世手鐲`
+
+[basic explain]
+	`  被攻擊時，有20%%的幾率使自身進入霸體狀態10秒。（冷卻時間10秒）
+  被攻擊時，有20%%的幾率使自身增加35點力量和智力，效果持續15秒。（冷卻時間30秒）
+  （解除裝備后效果消失）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12558
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	36
+
+[physical defense]
+	88
+
+[need material]
+	3821	800
+
+[price]
+	120400
+
+[repair price]
+	81600
+
+[value]
+	96320
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4656	4224
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	72
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		20
+	[appendage]
+		205
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		15000
+	[probability]
+		20
+	[stat]
+		`physical attack`
+		`+`	35
+	[stat]
+		`magical attack`
+		`+`	35
+[/then]
+
+[possible kiri protect]

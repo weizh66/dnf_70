@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	`地上的黑影`
+
+[layer]
+	`[bottom]`
+
+[basic action]
+	`Action/Mark_Basic.act`
+
+[last action]
+	`Action/Mark_Last.act`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ENEMY]`
+	[homing velocity]
+		800.0	150.0
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]

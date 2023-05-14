@@ -1,0 +1,212 @@
+#PVF_File
+
+[set name]
+	`元素爆破之魔云  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	25
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-12
+		`[at mage]`	25
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-12
+		`[at mage]`	25
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	17
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	2
+		`%`	17
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	6
+		`%`	17
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	10
+		`%`	17
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	14
+		`%`	17
+		`[at mage]`	5
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	4
+		`+`	10
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	8
+		`+`	10
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	12
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[魔球連射]生成的魔法球數量 +1
+[魔球連射]發射間隔 +12%%
+[屬性變換]攻擊力 +17%%
+[屬性變換]火屬性爆炸范圍 +10%%、 冰屬性冰凍幾率 +1%%、 暗屬性詛咒幾率 +1%%、 光屬性感電幾率 +1%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	25
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-15
+		`[at mage]`	25
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-15
+		`[at mage]`	25
+		`[dungeon type]`
+		`[level]`	0
+		`+`	1
+		`[at mage]`	5
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at mage]`	5
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+		`[at mage]`	5
+		`[dungeon type]`
+		`[static]`	2
+		`%`	10
+		`[at mage]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at mage]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at mage]`	18
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at mage]`	18
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at mage]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+	[/skill data up]
+	[parameter basic explain]
+		`[魔球連射]生成的魔法球數量 +1
+[魔球連射]發射間隔 +15%%
+[魔法炮]攻擊力 +30%%
+[魔法炮]爆炸大小 +30%%
+[魔法炮]冷卻時間 -1秒
+[屬性變換]爆炸范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	25
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-20
+		`[at mage]`	25
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-20
+		`[at mage]`	25
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at mage]`	30
+		`[dungeon type]`
+		`[level]`	0
+		`+`	12
+		`[at mage]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-8000
+		`[at mage]`	30
+		`[dungeon type]`
+		`[static]`	5
+		`+`	20
+		`[at mage]`	30
+		`[dungeon type]`
+		`[static]`	6
+		`+`	20
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	10
+		`%`	20
+		`[at mage]`	5
+		`[dungeon type]`
+		`[level]`	14
+		`%`	20
+		`[at mage]`	5
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at mage]`	5
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+		`[at mage]`	5
+		`[dungeon type]`
+		`[static]`	2
+		`%`	10
+		`[at mage]`	19
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+		`[at mage]`	19
+		`[dungeon type]`
+		`[level]`	3
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[魔球連射]生成的魔法球數量 +2
+[魔球連射]發射間隔 +20%%
+[元素轟炸]減少魔法球發射距離
+[元素轟炸]魔法球數量 +12
+[元素轟炸]冷卻時間 -8秒
+[屬性變換]攻擊力 +20%%
+[屬性變換]爆炸范圍 +10%%
+[元素環繞]當元素環繞時， 所受傷害減少率 +5%%
+[元素環繞]當冰屬性元素環繞時， 完全防御次數 +1`
+[/piece set ability]

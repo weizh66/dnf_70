@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`未知的黑洞上衣`
+
+[basic explain]
+	`攻擊時會以3%%的機率讓敵人陷入暗黑狀態`
+
+[detail explain]
+	`攻擊時會以3%%的機率在7秒內讓敵人陷入暗黑狀態，視野減少90%%,命中率減少20%%。 （高於Lv85的對象得到的機率和效果減少，低於Lv85的對象則會增加。）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	39
+
+[physical defense]
+	35
+
+[magical attack]
+	28
+
+[price]
+	119000
+
+[repair price]
+	99960
+
+[value]
+	95200
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	4464	4176
+
+[skill levelup]
+	`[gunner]`	71	3
+	`[at gunner]`	71	3
+	`[fighter]`	99	2
+	`[at fighter]`	119	2
+	`[swordman]`	79	3
+	`[priest]`	125	3
+	`[demonic swordman]`	79	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/05_harmor/coat/harmor_coat.img`	10
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[set name]
+	`未知的黑洞套裝`
+
+[set item]
+	100080009	100130009	100180009	100230009	100280009
+[/set item]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[active status]
+		`blind`	85	90	20
+[/then]
+
+[set ability]
+	[fullset basic explain]
+		`攻擊時會以5%%的機率在10秒內讓敵人陷入暗黑狀態，視野減少80%%,命中率減少20%%。(若敵人高於Lv85，則減少進入異常狀態的機率和效果；反之，則增加機率和效果。)
+暗黑狀態下攻擊時50%%的追加傷害`
+	[if]
+		[cooltime]
+			10000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[reduce duration to human armor at pvp module]
+			50
+		[probability]
+			5
+		[active status]
+			`blind`	85	80	20
+	[/then]
+	[if]
+		[my active status]
+			`blind`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	50
+	[/then]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

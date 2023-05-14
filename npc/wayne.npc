@@ -1,0 +1,56 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	37
+
+[big face]
+	`Map/Npc/NpcFace04.img`	37
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	37
+
+[field animation]
+	`Animation/Npc_Wayne.ani`
+
+[field wav]
+	`R_NPC_PHARRELL_AMB`
+
+[popup wav]
+	`R_NPC_PHARRELL_TK`
+	`R_NPC_PHARRELL_FW`
+
+[role]
+	`[item shop]`	62
+[/role]
+
+[look around]
+	0
+
+[name]
+	`佩拉.維恩`
+
+[field name]
+	`佩勒威因`
+
+[quest speech]
+	`『哈， 困死了！ 如果沒有新鮮刺激的事， 就不要來打攪我。』`
+
+[dialog]
+	1	1	99	-1	0	0
+	` <npc::77>好熱～好熱啊～都是因為那個安徒恩的關係嗎，所以才讓這裡變得這麼炎熱的？
+你覺得呢？不覺得很熱嗎？在這種時候，就應該要在涼爽的溪谷裡吟詩作對的才是...`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::77>你知道機械機器人的設計是誰做的嗎？ 
+那就是我。哈哈哈！ 這是很不賴的設計吧？由於這是要大量生產的機器人，所以我盡可能設計的簡單一點。
+聽說這種東西在天界的老婦人當中，非常受到歡迎... 它真的是多才多藝啊，不是嗎？`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	` <npc::77>有誰能夠想像到，在世道惡劣中出生的我，能夠有那麼多才藝呢？
+我認為我能這樣偶然地接觸到機器這一個領域，並且能夠進行各種實驗，這是這個世界上讓我感到最舒適的環境。
+所以你望你也能夠不要在意周遭人的眼光，去走你想要走的路吧。這可以說是各得其所嗎？反正你會找到你的位置的。`
+[/dialog]

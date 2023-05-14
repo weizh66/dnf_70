@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	76	99
+
+[pre required quest]
+	4247
+[/pre required quest]
+
+[monster reward item]
+	62112	76	-1	4778	5	40	50
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4778	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`小鐵柱的委託 1`
+
+[depend message]
+	`冒險家！！我可以過分地再要求一件事嗎？
+龍鱗本來就很耐熱，將鱗片弄熱後還要進行細工，可是是熱度卻一直遲遲不會散去。在我打探龍鱗片加工的方法時，發現到需要龍的氣息。
+必須要有龍的氣息，才能夠讓滾燙的鱗片冷卻。所以說呢，冒險家都幫我收集了那麼多珍貴的龍鱗片，可不可以也幫我收集龍的氣息呢…。就是這樣。
+可以取得一些給我嗎？如果是像冰塊一樣冰冷的冰龍氣息，那就更好了…。啊，不是那樣，別在意。`
+
+[condition message]
+	`向胎動年輕斯卡薩，回收冰龍的氣息 50個`
+
+[solve message]
+	`哇！這不是真的冰龍的氣息嗎？冒險家真不是開玩笑的唷！`
+
+[quest point]
+	4

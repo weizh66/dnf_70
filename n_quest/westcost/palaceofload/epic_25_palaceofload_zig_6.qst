@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	20
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	28
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`占卜師艾麗絲`
+
+[depend message]
+	`這是裝有賽格哈特記憶的水晶球， 讓我看看。 嗯嗯……
+啊！！ 某種東西在阻止施放魔法……
+它是什么呢， 我覺得你最好還是找那邊的艾麗絲看看吧。
+你放心， 她給我們暗精靈提供了很多幫助， 而且是位德高望重的占卜師， 她一定會幫助你的。`
+
+[condition message]
+	`    找艾麗絲談談。`
+
+[solve message]
+	`你帶來了邪惡的魔法氣息。 嗯， 這是……某個被創造的生命體……
+你想知道什么呢？ 啊……對了， 你是為了去天界才去天空之城的吧。
+……從賽格哈特的記憶中， 我們了解到， 巴卡爾用自身特有的魔法陣困住了天界。 人們可以從天界去外面的世界， 但沒有巴卡爾的允許無法回來。
+好可惜呀， 冒險家。`
+
+[quest point]
+	4

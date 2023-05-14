@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	10
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	28	99
+
+[pre required quest]
+	551
+[/pre required quest]
+
+[monster reward item]
+	50000	22	-1	4203	1	50	15
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4203	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000	20066	1	22064	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`悲鳴草種子`
+
+[depend message]
+	`能發出傷心悲鳴的美麗花朵……我總覺得……它們身上有悲傷的故事……
+我記得傳說里說， 很久以前有一位像我一樣美麗的公主， 但她的美麗卻受到一個邪惡的魔法師嫉妒， 被那個魔法師囚禁在悲鳴草里， 生生世世只能向過路的人哭喊求救……
+哦！ 對了， 聽說樹精叢林里有專門種植悲鳴草的園丁。 你幫我從那些園丁手里弄點悲鳴草種子吧， 我想種種看……你不覺得蘊含悲情主角的動人故事和我很配嗎？ `
+
+[condition message]
+	`    前往天帷巨獸神殿的『樹精叢林』， 從園丁魯爾身上收集15顆[悲鳴草種子]。`
+
+[solve message]
+	`嗯？ 你弄到悲鳴草種子了嗎？`

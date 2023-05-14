@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7885
+[/pre required quest]
+
+[collision quest]
+	7880
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	64
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 死靈術士 (4/4)`
+
+[depend message]
+	`很好， 現在我就教你利用死靈之力的方法。
+但是， 我只能教你最基本的概念， 剩下的就靠你自己領悟了。
+現在開始已經不能回頭了。 我會利用你收集的死靈之源召喚出你能控制的低級死靈。
+你做好心理準備之后再來找我吧。`
+
+[condition message]
+	`    找米內特談談。`
+
+[solve message]
+	`雖然這是你的選擇， 但是你今后要經歷的痛苦是難以想像的。
+我希望這次不再是一個悲劇， 也祝你好運。`

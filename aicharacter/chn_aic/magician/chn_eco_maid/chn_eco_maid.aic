@@ -1,0 +1,118 @@
+#PVF_File
+
+[minimum info]
+	`清潔女傭`	3	3	0	1	50	0	0	1	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	300	10000	0	0	0	0	0	0	0	20	20	20	20	30	50	30	50	30	30	40	30	30	30	30	30	0	0	30	30	30
+[/additional character status]
+
+[character status rate]
+	18	25	1	1	1	1	1	1.83	1	1.83	1	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+[/character status rate]
+
+[attack damage rate]
+	0.2
+
+[add equipment status from level]
+	1
+
+[custom skill level]
+[/custom skill level]
+
+[far attack reaction rate]
+	80
+
+[quick skill]
+	13	11	66	8	4	20	37	10	65	16	57	5
+[/quick skill]
+
+[skill]
+	174	0	14	5	60	1	1	1	34	1	71	1	3	10	70	1	7	8	12	10	39	1	11	1	181	3	182	3	184	2	187	1	179	5	67	1
+[/skill]
+
+[quick item]
+[/quick item]
+
+[equipment]
+	34258	2	3	51016	2	0	51436	2	0	51811	2	0	52219	2	0	52637	2	0	53037	2	0	53416	2	0	53836	2	0
+[/equipment]
+
+[think term]
+	200
+
+[destination change term]
+	200
+
+[keep distance with target]
+	0
+
+[warlike]
+	0
+
+[vision]
+	600
+
+[skill correction]
+[/skill correction]
+
+[targeting bonus]
+	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+	`[down]`	0	100
+	`[confuse]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	`bal`
+	`a.key`
+	`adada`
+	`s.key`
+	`dragon`
+	`d.key`
+	`aura`
+	`f.key`
+	`hold`
+	`g.key`
+	`flame`
+	`h.key`
+	`step`
+	`step.key`
+	`x`
+	`x.key`
+	`palm`
+	`palm.key`
+	`sky`
+	`sky.key`
+[/key stream]
+
+[speech on situation]
+	[on stand]
+		`地板好滑啊！`	40
+	[on damage]
+		`打架容易起灰塵！`	30
+	[on damage]
+		`呃~我正在打掃呢！`	30
+	[on die]
+		`清潔的任務就……交給你了！`	50
+	[on appear]
+		`洗完澡再過來！`	50
+	[on appear]
+		`洗完澡再過來！`	50
+	[on attack]
+		`這里好臟啊！`	50	3
+	[on attack]
+		`這里好臟啊！`	50	3
+	[on attack]
+		`這里好臟啊！`	25	1
+	[on attack]
+		`掃把打人也很痛的！`	50	0
+	[on attack]
+		`掃把打人也很痛的！`	50	0
+[/speech on situation]

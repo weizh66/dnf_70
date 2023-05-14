@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 機械之靈(1/2)`
+
+[depend message]
+	`喲， 你怎么看起來一臉不滿？ 嗯？ 你說最近沒有干勁？
+這我倒是理解。 想鉆研發明的你， 為了高效生產， 只能無止境地制造相同的東西。 這肯定會讓你覺得自己不再是個機械師， 而只是個機器。
+其實不只是你有這種感觸的。 你聽過‘戰爭核心工坊’嗎？ 這是由一個女機械師創辦的研究團體， 她拒絕千篇一律的規格， 希望大家都能自由發揮自己的才能。
+‘戰爭核心工坊’的負責人也有著相同的煩惱。 她的情感豐沛， 非常討厭那些千篇一律的設計。
+她設計出的新式兵器也讓人眼前一亮。 她認為武器得看起來酷， 因為外形越酷的武器對敵人造成的沖擊也會越強。 就像別人看到美麗的我有著同樣華麗的身手時會大吃一驚， 是一個道理， 哈哈！
+當然， 并不是只有跟她的設計理念相同才能加入‘戰爭核心工坊’。 那里有著更自由、 更愉悅的研發環境， 這不是你夢寐以求的嗎？
+如果你想成為‘戰爭核心工坊’的一員， 就來找我吧。 我跟負責人還算有點交情， 沒準可以幫你打聽打聽……怎么樣？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和凱麗談談。`
+
+[solve message]
+	`哈哈， 我看你兩眼閃閃發光， 這樣的眼神真是久違了。`
+
+[pre required quest]
+	5343
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12865
+
+[job change quest]
+	3
+
+[grow number]
+	0

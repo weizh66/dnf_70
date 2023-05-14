@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	5346
+[/pre required quest]
+
+[monster reward item]
+	17	1500	-1	4355	1	100	4
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3229	100	3187	200
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`覺醒 - 戰爭女神 (4/4)`
+
+[depend message]
+	`現在我承認你是一名合格的‘戰爭女神’了。 不只如此， 我還要傳授你一樣東西。
+知道‘EMP磁暴’嗎？ 那是馬琳的奶奶索貝爾·基希卡， 傾盡畢生精力研究的裝置， 它可以將電磁的強大力量凝縮并運用……神奇吧？
+我現在就把這個技能傳授給你……`
+
+[condition message]
+	`    為了成為戰爭女神， 請收集以下材料。`
+
+[solve message]
+	`加油！ 像傳說中的戰爭女神那樣在戰場上任意馳騁吧！`

@@ -1,0 +1,81 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/Rays.img`
+		0
+	[IMAGE POS]
+		-99	-565
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/Rays.img`
+		1
+	[IMAGE POS]
+		-99	-565
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/Rays.img`
+		2
+	[IMAGE POS]
+		-99	-565
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/Eclipse/Rays.img`
+		3
+	[IMAGE POS]
+		-99	-565
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`

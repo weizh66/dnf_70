@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`真： 冰焰左輪槍`
+
+[basic explain]
+	`攻擊時，以+3%%的機率使敵人進入灼傷狀態。
+攻擊速度增加2%%`
+
+[detail explain]
+	`擊攻擊時，有+3%%的機率使敵人進入灼傷狀態6秒，灼傷狀態下的敵人，每0.5秒受到75點傷害，同時其周圍的敵人每2秒受到12點傷害。 (高於Lv62的對象得到的機率減少，低於Lv62的對象則會增加。)`
+
+[grade]
+	64
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	62
+
+[physical attack]
+	41
+
+[attack speed]
+	30
+
+[stuck]
+	-1
+
+[price]
+	89600
+
+[repair price]
+	75264
+
+[value]
+	71680
+
+[equipment physical attack]
+	528	505
+
+[equipment magical attack]
+	444	425
+
+[separate attack]
+	280	188
+
+[physical critical hit]
+	2
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/weapon/gunner/revolver.img`	44
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	11	12
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	11	12
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	30
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`burn`	62	900	35	1	2000
+[/then]
+
+[special monster drop]
+	1
+
+[difficulty for extra drop]
+	`[ultimate]`
+[/difficulty for extra drop]
+
+[dungeon type for extra drop]
+	`[all]`
+[/dungeon type for extra drop]
+
+[possible kiri protect]

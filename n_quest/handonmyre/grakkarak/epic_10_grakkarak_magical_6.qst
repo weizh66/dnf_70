@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[target character]
+	`[at mage]`	-1	-1
+	`[mage]`	-1	-1
+[/target character]
+
+[level]
+	10	99
+
+[pre required quest]
+	535
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	7	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	33007	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神奇的魔法 - 第六次冒險`
+
+[depend message]
+	`你在叢林里冒險時碰到狂暴的牛頭怪了嗎？ 聽說最近有很多人在修煉魔法時被它們偷襲了。 魔法師公會想徹底清除它們， 打算先除掉它們的首領牛頭王薩烏塔， 你要參加嗎？ `
+
+[condition message]
+	`    通關格蘭之森的『格拉卡』， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`你回來啦？ 沒有受傷吧？ 除掉牛頭王薩烏塔了嗎？ `
+
+[quest point]
+	4

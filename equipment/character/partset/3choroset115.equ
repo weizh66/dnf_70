@@ -1,0 +1,151 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	41
+		`[dungeon type]`
+		`[level]`	2
+		`+`	40
+		`[knight]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	26
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[knight]`	8
+		`[dungeon type]`
+		`[level]`	0
+		`+`	5
+		`[knight]`	8
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-15
+		`[knight]`	3
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	3
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[knight]`	3
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[戰吼]命中率增加量 +4%%
+[破甲沖擊]攻擊力 +20%%
+[破甲沖擊]沖擊波范圍 +15%%
+[自動防御]格擋幾率 +5%%
+[自動防御]發動后的冷卻時間 -15%%
+[盾牌格擋]傷害減少率 +10%%
+[盾牌格擋]反擊攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[knight]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	35
+		`[dungeon type]`
+		`[static]`	2
+		`+`	30
+		`[knight]`	35
+		`[dungeon type]`
+		`[static]`	3
+		`+`	10
+		`[knight]`	35
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[戰吼]技能攻擊力增加率 +10%%
+[破甲沖擊]攻擊力 +30%%
+[破甲沖擊]冷卻時間 -15%%
+[鐵壁推進]移動速度 +30%%
+[鐵壁推進]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	35
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2000
+		`[knight]`	35
+		`[dungeon type]`
+		`[static]`	12
+		`%`	-25
+		`[knight]`	35
+		`[dungeon type]`
+		`[static]`	8
+		`+`	30
+		`[knight]`	35
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[knight]`	35
+		`[dungeon type]`
+		`[static]`	5
+		`%`	30
+		`[knight]`	35
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+		`[knight]`	35
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[knight]`	35
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	26
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[knight]`	23
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[knight]`	23
+		`[dungeon type]`
+		`[level]`	9
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[鐵壁推進]持續時間上限 +2秒
+[鐵壁推進]多段攻擊間隔 -25%%
+[鐵壁推進]冷卻時間 -20%%
+[鐵壁推進]根據距離傷害減少率的適配值 +30%%
+[鐵壁推進]保護范圍 +30%%
+[鐵壁推進]無色小晶塊消耗量 +1
+[破甲沖擊]攻擊力 +20%%
+[破甲沖擊]沖擊波范圍 +25%%
+[壁壘突襲]屏障持續時間 +20%%
+[壁壘突襲]屏障的吸收傷害上限 +20%%`
+[/piece set ability]
+
+[partset specific growtype]
+	1

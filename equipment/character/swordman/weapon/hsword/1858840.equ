@@ -1,0 +1,305 @@
+#PVF_File
+
+[name]
+	`誓約天使之劍`
+
+[basic explain]
+	`攻擊速度 + 20%%
+    裝備時， 會降臨大天使並賜予自身諸王之力， 效果持續25秒。
+諸王之力效果效果
+    - 對人寶具 - 風王結界
+    - 對城寶具
+    - 結界寶具
+    - 攻擊時， 附加20%%的光屬性傷害。
+    - 攻擊時， 有20%%的幾率對敵人發動神之審判。
+    - 被攻擊時， 發動神之劍制。`
+
+[detail explain]
+	`攻擊速度 + 20%%
+    裝備時， 會降臨大天使並賜予自身諸王之力， 效果持續25秒。(冷卻時間30秒)
+諸王之力效果
+    - 對人寶具 - 風王結界(增加20%%的攻擊速度、 移動速度和30%%的施放速度)
+    - 對城寶具(所有隊友增加30點光屬性強化)
+    - 結界寶具(免疫所受傷害)
+    - 攻擊時， 附加15%%的光屬性傷害。
+    - 攻擊時， 有15%%的幾率對敵人發動神之審判。(冷卻時間1秒)
+    - 被攻擊時， 發動神之劍制。(冷卻時間2秒)`
+
+[flavor text]
+	`新紀元★DOF！by魔劍 - 塔莫斯(極速者專供)`
+
+[grade]
+	89
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	110
+
+[cast speed]
+	-20
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1152	989
+
+[equipment magical attack]
+	864	742
+
+[separate attack]
+	589	382
+
+[light resistance]
+	15
+
+[light attack]
+	31
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/lswd/lswd.img`	158
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	51	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	51	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[time]
+		30000	1	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		25000
+	[stat]
+		`attack speed`
+		`+`	200
+	[stat]
+		`move speed`
+		`+`	200
+	[stat]
+		`cast speed`
+		`+`	300
+	[passive object]
+		140101	0	0	0	0	-1
+		``
+	[/passive object]
+	[speech on]
+		0	3500
+		`大天使降臨 ！`
+	[/speech on]
+	[appendage]
+		368
+[/then]
+
+[if]
+	[my appendage]
+		368
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		25000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		25000
+	[stat]
+		`light attack`
+		`+`	30
+[/then]
+
+[if]
+	[my appendage]
+		368
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		140102	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		368
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	100
+[/then]
+
+[if]
+	[my appendage]
+		368
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		15
+	[passive object]
+		10360	0	0	0	0	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[speech on]
+		0	2000
+		`召喚： 審判天使 ！`
+	[/speech on]
+[/then]
+
+[if]
+	[my appendage]
+		368
+	[hit]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		10	0	0	0	0	0
+		``
+	[/passive object]
+	[speech on]
+		0	2000
+		`神之劍制 ！`
+	[/speech on]
+[/then]
+
+[if]
+	[my appendage]
+		368
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	20
+[/then]
+
+[possible kiri protect]

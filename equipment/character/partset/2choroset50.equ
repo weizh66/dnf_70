@@ -1,0 +1,239 @@
+#PVF_File
+
+[set name]
+	`禁止的犧牲  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	21
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-5000
+		`[mage]`	21
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-2
+		`[mage]`	22
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	22
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-5000
+		`[mage]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-2
+		`[mage]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	23
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-5000
+		`[mage]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-2
+		`[mage]`	24
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	24
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-5000
+		`[mage]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-2
+		`[mage]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1300
+	[/skill data up]
+	[parameter basic explain]
+		`[精靈召喚 : 亞德炎]、 [精靈召喚 : 冰奈斯]、 [精靈召喚 : 瑟冥特克]和[精靈召喚 : 雷沃斯]冷卻時間 -5秒
+[精靈召喚 : 亞德炎]、 [精靈召喚 : 冰奈斯]、 [精靈召喚 : 瑟冥特克]和[精靈召喚 : 雷沃斯]召喚持續時間  -5秒
+[精靈召喚 : 亞德炎]、 [精靈召喚 : 冰奈斯]、 [精靈召喚 : 瑟冥特克]和[精靈召喚 : 雷沃斯]召喚獸Lv -2
+[精靈獻祭]冷卻時間 -1.3秒`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-10000
+		`[mage]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[mage]`	79
+		`[dungeon type]`
+		`[level]`	8
+		`+`	50
+		`[mage]`	79
+		`[dungeon type]`
+		`[level]`	10
+		`+`	50
+		`[mage]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	78
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-10000
+		`[mage]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[mage]`	78
+		`[dungeon type]`
+		`[level]`	8
+		`+`	30
+		`[mage]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	77
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-10000
+		`[mage]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[mage]`	77
+		`[dungeon type]`
+		`[level]`	8
+		`+`	2
+		`[mage]`	77
+		`[dungeon type]`
+		`[level]`	12
+		`+`	2
+		`[mage]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	76
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-10000
+		`[mage]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[mage]`	76
+		`[dungeon type]`
+		`[level]`	8
+		`+`	50
+		`[mage]`	76
+		`[dungeon type]`
+		`[level]`	10
+		`+`	50
+		`[mage]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+	[/skill data up]
+	[parameter basic explain]
+		`[精靈召喚 : 火焰赫瑞克]、 [精靈召喚 : 冰影阿奎利斯]、 [精靈召喚 : 極光格雷林]和[精靈召喚 : 亡魂默克爾]冷卻時間 -5秒
+[精靈召喚 : 火焰赫瑞克]、[精靈召喚 : 冰影阿奎利斯]、 [精靈召喚 : 極光格雷林]和[精靈召喚 : 亡魂默克爾]召喚持續時間 -10秒
+[精靈召喚 : 火焰赫瑞克]、 [精靈召喚 : 冰影阿奎利斯]、 [精靈召喚 : 極光格雷林]和[精靈召喚 : 亡魂默克爾]召喚獸Lv +2
+[精靈召喚 : 火焰赫瑞克]攻擊時爆炸幾率 +100%%
+[精靈召喚 : 冰影阿奎利斯]冰息攻擊時冰凍幾率 +100%%
+[精靈召喚 : 極光格雷林]攻擊時感電幾率 +100%%
+[精靈召喚 : 亡魂默克爾]攻擊時爆炸幾率 +100%%
+[精靈獻祭]冷卻時間 -2秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	51
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+		`[mage]`	52
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	52
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	52
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+		`[mage]`	53
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	53
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+		`[mage]`	54
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	54
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[mage]`	54
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+		`[mage]`	47
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-40000
+		`[mage]`	46
+		`[dungeon type]`
+		`[level]`	3
+		`+`	-40000
+	[/skill data up]
+	[parameter basic explain]
+		`[獻祭攻擊 : 亞德炎]爆炸大小 +30%%
+[獻祭攻擊 : 亞德炎]攻擊力 +40%%
+[獻祭攻擊 : 亞德炎]灼傷Lv +2
+[獻祭攻擊 : 冰奈斯]冰柱存在時間 +20%%
+[獻祭攻擊 : 冰奈斯]攻擊力 +40%%
+[獻祭攻擊 : 冰奈斯]冰凍Lv +2
+[獻祭攻擊 : 瑟冥特克]暗影爆炸大小 +30%%
+[獻祭攻擊 : 瑟冥特克]攻擊力 +40%%
+[獻祭攻擊 : 瑟冥特克]詛咒Lv +2
+[獻祭攻擊 : 雷沃斯]閃電攻擊距離 +20%%
+[獻祭攻擊 : 雷沃斯]攻擊力 +40%%
+[獻祭攻擊 : 雷沃斯]感電Lv +2
+[精靈召喚 : 伊伽貝拉]召喚持續時間 -40秒
+[契約召喚 : 路易絲]召喚持續時間  -40秒`
+[/piece set ability]

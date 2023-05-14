@@ -1,0 +1,103 @@
+#PVF_File
+
+[minimum info]
+	`找不到代?ai_Arad_Eco`	3	4	0	1	70	0	0	10	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	0	3000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+[/additional character status]
+
+[character status rate]
+	500	130	1	1	1	1	1	1	1	1	1	1	10	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.3	1	1	1
+[/character status rate]
+
+[attack damage rate]
+	0.08
+
+[add equipment status from level]
+	1
+
+[armor subtype]
+	4
+
+[custom skill level]
+[/custom skill level]
+
+[quick skill]
+	99	5	103	5	106	3
+[/quick skill]
+
+[skill]
+[/skill]
+
+[quick item]
+	8	1
+[/quick item]
+
+[equipment]
+	34206	4	0	10458	1	0	14458	1	0	12458	3	0	18459	2	0	16458	1	0	20072	2	0	22070	1	0	24072	0	0	51016	2	0	51436	2	0	51811	2	0	52219	2	0	52637	2	0	53037	2	0	53416	2	0	53836	2	0
+[/equipment]
+
+[think term]
+	500
+
+[destination change term]
+	500
+
+[keep distance with target]
+	500
+
+[keep range distance with target]
+	300	300	250	250
+
+[warlike]
+	0
+
+[vision]
+	1000
+
+[death tower item]
+[/death tower item]
+
+[targeting bonus]
+	100	50	0	0	0	0	0	0	0	0	0	0	0	0	99	0	0	0	0	0	0
+	`[stand]`
+	`[dash]`	0	0
+	`[slow]`
+	`[confuse]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	`acid`
+	`acid.key`
+	`anti_gravity`
+	`anti_gravity.key`
+	`angry_flame`
+	`angry_flame.key`
+	`talk`
+	`talk.key`
+[/key stream]
+
+[speech on situation]
+	[on stand]
+		`呃，滑了一下~`	40
+	[on damage]
+		`到處都是灰塵，真討厭~`	30
+	[on damage]
+		`嗯~我在打掃呢~`	30
+	[on die]
+		`你自己收拾吧~`	30
+	[on appear]
+		`你不能進這裡~`	50
+	[on attack]
+		`快讓開~`	50	5
+	[on attack]
+		`這掃把會傷到你的~`	25	6
+[/speech on situation]

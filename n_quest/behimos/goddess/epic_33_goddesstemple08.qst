@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	4020
+[/pre required quest]
+
+[monster reward item]
+	5002	91	2	4712	1	90	50	5003	91	2	4712	1	90	50	500	91	2	4712	1	90	50	260	91	2	4712	1	90	50	63023	91	2	4712	1	90	50	63022	91	2	4712	1	90	50	59019	91	2	4712	1	90	50	59018	91	2	4712	1	90	50	63021	91	2	4712	1	90	50	5002	91	3	4712	1	90	50	5003	91	3	4712	1	90	50	500	91	3	4712	1	90	50	260	91	3	4712	1	90	50	63023	91	3	4712	1	90	50	63022	91	3	4712	1	90	50	59019	91	3	4712	3	90	50	59018	91	3	4712	3	90	50	63021	91	3	4712	5	90	50
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4712	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`迷離的結晶`
+
+[depend message]
+	`我想， 在女神殿中一定存在著某種晶體， 比邪惡的結晶力量還強大， 我們一定要找到它。 這樣你身上的詛咒才有可能化解。`
+
+[condition message]
+	`    為了解除詛咒， 請收集50個[迷離的結晶]交給賽麗亞。 (迷離的結晶可以在王者級的GBL女神殿中獲得)`
+
+[solve message]
+	`這次好像有效了， 你身上的詛咒已經完全轉移到這些結晶上了。`
+
+[quest point]
+	4

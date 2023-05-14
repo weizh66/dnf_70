@@ -1,0 +1,240 @@
+#PVF_File
+
+[name]
+	`警衛隊長的金玉項鏈`
+
+[basic explain]
+	`    施放[機械改良]時， 有25%%的幾率通過消耗1個金色小晶塊， 使該技能的力量、 智力增加率提升30%%。 (冷卻時間120秒)
+[RX-78追擊者]攻擊力 +20%%
+[Ez-8自爆者]攻擊力 +10%%
+[空戰機械 : 風暴]攻擊力 +10%%
+[空戰機械 : 狂風]攻擊力 +10%%
+[空投支援]攻擊力 +10%%
+[Ez-10反擊者]攻擊力 +10%%`
+
+[detail explain]
+	`    施放[機械改良]時， 有25%%的幾率通過消耗1個金色小晶塊， 使該技能的力量、 智力增加率提升30%%。 (冷卻時間120秒)
+[RX-78追擊者]攻擊力 +20%%
+[Ez-8自爆者]攻擊力 +10%%
+[空戰機械 : 風暴]攻擊力 +10%%
+[空戰機械 : 狂風]攻擊力 +10%%
+[空投支援]攻擊力 +10%%
+[Ez-10反擊者]攻擊力 +10%%`
+
+[flavor text]
+	`    這種類型的項鏈， 竟然是男人們喜歡的特定款式， 真奇怪！`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	90
+
+[need material]
+	10000204	32
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7920	7360
+
+[icon]
+	`Item/new_equipment/08_necklace/necklace.img`	124
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`gunner`	46
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[consume item]
+		3262	1
+	[skill data up]
+		`[gunner]`	46
+		`[all]`
+		`[level]`	2
+		`%`	30
+		`[gunner]`	46
+		`[all]`
+		`[level]`	3
+		`%`	30
+	[/skill data up]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	46
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[consume item]
+		3262	1
+	[skill data up]
+		`[at gunner]`	46
+		`[all]`
+		`[level]`	2
+		`%`	30
+		`[at gunner]`	46
+		`[all]`
+		`[level]`	3
+		`%`	30
+	[/skill data up]
+[/then]
+
+[skill data up]
+	`[gunner]`	27
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[gunner]`	28
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[gunner]`	63
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[gunner]`	63
+	`[all]`
+	`[level]`	2
+	`%`	10
+	`[gunner]`	63
+	`[all]`
+	`[level]`	3
+	`%`	10
+	`[gunner]`	63
+	`[all]`
+	`[level]`	4
+	`%`	10
+	`[gunner]`	59
+	`[all]`
+	`[level]`	5
+	`%`	10
+	`[gunner]`	59
+	`[all]`
+	`[level]`	7
+	`%`	10
+	`[gunner]`	59
+	`[all]`
+	`[level]`	9
+	`%`	10
+	`[gunner]`	105
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[gunner]`	105
+	`[all]`
+	`[level]`	8
+	`%`	10
+	`[gunner]`	105
+	`[all]`
+	`[level]`	10
+	`%`	10
+	`[at gunner]`	27
+	`[all]`
+	`[level]`	1
+	`%`	20
+	`[at gunner]`	27
+	`[all]`
+	`[level]`	3
+	`%`	20
+	`[at gunner]`	28
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	2
+	`%`	10
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	3
+	`%`	10
+	`[at gunner]`	63
+	`[all]`
+	`[level]`	4
+	`%`	10
+	`[at gunner]`	59
+	`[all]`
+	`[level]`	5
+	`%`	10
+	`[at gunner]`	59
+	`[all]`
+	`[level]`	7
+	`%`	10
+	`[at gunner]`	59
+	`[all]`
+	`[level]`	9
+	`%`	10
+	`[at gunner]`	105
+	`[all]`
+	`[level]`	1
+	`%`	10
+	`[at gunner]`	105
+	`[all]`
+	`[level]`	8
+	`%`	10
+	`[at gunner]`	105
+	`[all]`
+	`[level]`	10
+	`%`	10
+[/skill data up]
+
+[possible kiri protect]

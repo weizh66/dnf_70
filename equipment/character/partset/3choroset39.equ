@@ -1,0 +1,185 @@
+#PVF_File
+
+[set name]
+	`異化之痛  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	79
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-2000
+		`[gunner]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[gunner]`	80
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-500
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-2000
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-500
+	[/skill data up]
+	[parameter basic explain]
+		`[G-1科羅納]攻擊力 +20%%
+[G-1科羅納]改裝冷卻時間 -2秒
+[改裝 : G-2旋雷者]攻擊力 +12%%
+[改裝 : G-2旋雷者]充電冷卻時間 -0.5%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	79
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[gunner]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[gunner]`	80
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2000
+		`[gunner]`	80
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[gunner]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gunner]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2000
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[G-1科羅納]持續時間 +10%%
+[G-1科羅納]爆炸范圍 +20%%
+[改裝 : G-2旋雷者]攻擊力 +12%%
+[改裝 : G-2旋雷者]持續時間 +2秒
+[改裝 : G-2旋雷者]增加攻擊范圍
+[Ez-8自爆者]冷卻時間 -20%%
+[Ez-8自爆者]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[gunner]`	81
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[gunner]`	81
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[gunner]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gunner]`	105
+		`[dungeon type]`
+		`[level]`	6
+		`+`	2
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[at gunner]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at gunner]`	105
+		`[dungeon type]`
+		`[level]`	6
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[改裝 : G-3捕食者]攻擊力 +35%%
+[改裝 : G-3捕食者]攻擊范圍 +10%%
+[改裝 : G-3捕食者]攻擊間隔 -25%%
+[Ez-10反擊者]冷卻時間 -30%%
+[改裝 : G-3捕食者]捕食者生成數量 +2`
+[/piece set ability]

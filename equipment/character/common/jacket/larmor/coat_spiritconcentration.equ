@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`幽靈結晶胸甲`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[creation rate]
+	200
+
+[physical attack]
+	21
+
+[magical attack]
+	14
+
+[price]
+	37800
+
+[repair price]
+	151200
+
+[value]
+	151200
+
+[equipment physical defense]
+	1620	1548
+
+[skill levelup]
+	`[fighter]`	10	1
+	`[at fighter]`	10	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	38
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`幽靈結晶輕甲  套裝`
+
+[set item]
+	10870	12870	14869	18870	16869
+[/set item]
+
+[set ability]
+	[physical attack]
+		15
+	[physical defense]
+		15
+	[if]
+		[cooltime]
+			20000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			2
+		[stat]
+			`physical attack`
+			`+`	60
+	[/then]
+	[skill levelup]
+		`[fighter]`	62	1
+		`[fighter]`	18	1
+		`[at fighter]`	62	1
+		`[at fighter]`	18	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時，以2%%的機率使自身增加60點力量，效果持續20秒。`
+[/set ability]
+
+[possible kiri protect]

@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	4
+
+[grade]
+	`[normal]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	37
+
+[next mission]
+	39
+
+[name_text]
+	`[大將戰]勝利的喜悅4`
+	
+
+[cond_text]
+	`大將戰合計達成500勝`
+	
+
+[condition]
+	`[winning count]`	2	500	-1
+[/condition]
+
+[reward item]
+	2601147	1
+[/reward item]

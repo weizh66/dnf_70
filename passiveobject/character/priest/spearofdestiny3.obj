@@ -1,0 +1,27 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[basic motion]
+	`Animation/SpearOfDestiny1/SpearOfDestiny_Hit_Eff01.ani`
+
+[etc motion]
+[/etc motion]
+
+[attack info]
+	`AttackInfo/SpearOfDestiny.atk`

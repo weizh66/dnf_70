@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	318
+
+[complete npc index]
+	-1
+
+[job]
+	`[knight]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	318
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 大地女神 (1/2)`
+
+[depend message]
+	`你好呀， 最近過得怎么樣？ 在暗黑城收集情報的時候， 經常聽說[myname]的英勇戰績， 我感到非常高興呢。 我覺得， 你和精靈騎士的驕傲， 精靈一族強大的守護者 —— “大地女神”的特征很吻合呢。
+大地女神， 她們是大自然的守護者， 也是為守護世界的和平而奮斗的戰士。 她們， 是精靈們陷入艱難困境時， 為了阻止悲劇的重現而挺身而出的戰士。
+ 有傳言說， 她們以阻止悲劇的重現為借口， 盲目追求力量…… 這絕對是對她們的污蔑。 這樣的她們既容易遭受誤解， 也確實容易誤入歧途…… 
+為了已經死去的朋友和親人們， 在重重艱難險阻的阻撓下， 大地女神們依然舉起了手中的劍， 并堅持走上這條險路。
+我知道[myname]肯定不會與她們走相同的路， 但是你秉直的精神和心態與她們很相似， 這讓你可以借助她們的力量作為己用。 一旦成功的話， 這對你尋找卡洛索的旅程將大有助益。
+這也許將是個很艱難的過程， 不過如果你下定決心了就來找我吧， 我會盡全力幫助你的。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與雅妮絲談談。`
+
+[solve message]
+	`為了使命， 你完成了偉大的挑戰。 果真如我所料。`
+
+[pre required quest]
+	12763
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3313
+
+[job change quest]
+	3
+
+[grow number]
+	0

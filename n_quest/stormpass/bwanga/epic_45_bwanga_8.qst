@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4007
+[/pre required quest]
+
+[pre required quest]
+	4014
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`灰衣劍士`
+
+[depend message]
+	`嗯……還有這種事……
+ <monster::61806>雖然已經過去很久了， 但我還清楚的記得， 那個沒有形體的使徒臨死時說 :
+“在我死亡之后， 將會出現一個能掌握數千武器的人……”
+可能使徒的靈魂也會慢慢消散， 它的聲音聽起來斷斷續續模糊不清， 所以我沒有聽到更多的內容， 因為當時離它最近的是阿甘左……
+我最后一次見到阿甘左， 也是好幾年前的事了。 那是在赫頓瑪爾的月光酒館里， 他的樣子有點落魄， 似乎想用酒把他的孤獨和疲憊驅走。
+如果你運氣好的話， 可能會在月光酒館碰到身穿灰衣的他……
+<npc::40>哥哥， 聽起來……這件事最好不要耽誤時間啊。
+ <monster::61806>是啊， 冒險家， 你知道月光酒館在哪嗎？`
+
+[condition message]
+	`    找奧爾卡談談。`
+
+[solve message]
+	`我知道啊！
+ <monster::61806> 那好， 我給你寫個介紹信， 你把它交給那個鬼劍士， 這樣對你也比較好。
+我要提醒你的是， 在兇險的大陸上游歷的冒險家不止一個， 用劍的冒險家也很多， 但經過漫長旅程衣服卻沒有褪色的只有一個。 如果你覺得是他， 就上前問一問他的名字吧。
+如果他的回答是：“阿甘左”， 那么他就是你要找的人。`
+
+[quest point]
+	4

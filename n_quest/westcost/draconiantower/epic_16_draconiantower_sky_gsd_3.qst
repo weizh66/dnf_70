@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	16	99
+
+[pre required quest]
+	4306
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[quest point]
+	4
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	1619	201
+[/int data]
+
+[dungeon info]
+	11	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`G.S.D親自出馬`
+
+[depend message]
+	`我的感覺果然沒錯， 雖然還不清楚詳細的內容， 但這些生命體在某些方面與鬼手是有關聯的。
+嗯， 看來我得親自去天空之城看看， 也許我能把眾多鬼劍士追查了一輩子的秘密解開。 年輕人， 我老頭子的眼睛看不見， 麻煩你把我帶到天空之城吧。`
+
+[condition message]
+	`    與G.S.D一起通關天空之城的『龍人之塔』， 要求地下城難度為王者級。 (此任務只能獨自進行， 若通關時G.S.D沒有生存下來， 則無法完成任務)`
+
+[solve message]
+	`年輕人， 辛苦你了。`
+
+[dialog]
+	0	0	1618	0	0	0	0
+	` <npc::7>原來這兒就是天空之城啊。
+嗯……確實存在異樣的氣息， 你是不是也看見了我的鬼手在瑟瑟發抖？
+看來我們有必要轉一下這個地方， 你帶路吧！`
+[/dialog]

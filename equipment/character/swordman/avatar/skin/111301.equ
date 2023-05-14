@@ -1,0 +1,193 @@
+#PVF_File
+
+[name]
+	`白saber皮膚`
+
+[basic explain]
+	`每秒生命值減少2%%
+攻擊時，恢復1%%的生命值
+攻擊時，附加10%%的傷害
+攻擊時，增加33%%的攻擊速度，移動速度和釋放速度
+攻擊時，增加33%%的攻擊力
+裝備強化、增幅概率+5%%`
+
+[grade]
+	1
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`item/avatar/swordman/sm_atong.img`	5
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0	30	0	0	2000	0	0	0	0	38800	0
+[/avatar type select]
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`
+	`+`	3.0
+	`[MAGICAL ABSOLUTE DEFENSE]`
+	`+`	3.0
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	1022
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	1021
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[equipment physical attack]
+	30	30
+
+[equipment magical attack]
+	30	30
+
+[separate attack]
+	30	30
+
+[physical attack]
+	30
+
+[physical defense]
+	30
+
+[magical attack]
+	30
+
+[magical defense]
+	30
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		30000
+	[stat]
+		`attack speed`
+		`+`	330
+	[stat]
+		`cast speed`
+		`+`	330
+	[stat]
+		`move speed`
+		`+`	330
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[restore]
+		`hp`
+		`%`	1	0
+[/then]
+
+[if]
+	[time]
+		1000	1	1000
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-2	0
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	33
+	[stat by condition]
+		`magical attack bonus`
+		`%`	33
+	[stat by condition]
+		`separate attack`
+		`%`	33
+[/then]
+
+[upgrade prob increase]
+	1000
+
+[hit recovery]
+	80
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[face avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[pants avatar]`
+	`[waist avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	2880	2870	2860	2850	2840	2830	2820	2810	2780	2750	2700	2500	2400	2350	2300	2251	2200	2125	2100	2000	1975	1963	1951	1950	1925	1900	1850	1800	1700	1650	1601	1600	1501	1500	1450	1400	1300	1200	1151	1150	1100	1000	925	900	851	850	825	800	750	700	600	550	500	400	300	150	100	20	0
+[/hide layer]

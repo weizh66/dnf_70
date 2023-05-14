@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	27
+
+[complete npc index]
+	27
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20630
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[pvp match]`
+
+[sub type]
+	7
+
+[int data]
+	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749507	1
+[/reward int data]
+
+[name]
+	`鬥魂的歷練`
+
+[depend message]
+	`你知道決斗場生存歷練中新推出了一種強者模式嗎？
+光聽名字就覺得是為我而設， 哈哈~怎么， 你有興趣試試嗎？
+那就去吧， 正好向我證明下你的實力！`
+
+[condition message]
+	`    前往決斗場， 挑戰3次強者模式。 (在決斗場頻道滿足任務條件后， 回到普通頻道即算完成任務)`
+
+[solve message]
+	`還算有點本事~繼續努力吧！
+雖然不能超越我~但應該也能出名~呵~`

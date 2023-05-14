@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`限時1天透明裝扮自選禮盒`
+
+[explain]
+	`    內含8件稀有克隆裝扮。`
+
+[flavor text]
+	`<限時1天>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	896
+
+[stackable type]
+	`[booster selection]`	0
+
+[booster category num]
+	1	9
+
+[booster selection num]
+	0
+
+[booster select category]
+	0	0
+	[avatar]
+		426010	1	4	0	426030	1	4	0	426050	1	4	0	426070	1	4	0	426090	1	4	0	426110	1	4	0	426130	1	4	0	426150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[avatar]
+		20500010	1	4	0	20500030	1	4	0	20500050	1	4	0	20500070	1	4	0	20500090	1	4	0	20500110	1	4	0	20500130	1	4	0	20500150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	2	0
+	[avatar]
+		466010	1	4	0	466030	1	4	0	466050	1	4	0	466070	1	4	0	466090	1	4	0	466110	1	4	0	466130	1	4	0	466150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	3	0
+	[avatar]
+		506010	1	4	0	506030	1	4	0	506050	1	4	0	506070	1	4	0	506090	1	4	0	506110	1	4	0	506130	1	4	0	506150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	4	0
+	[avatar]
+		16900080	1	4	0	16900090	1	4	0	16900100	1	4	0	16900110	1	4	0	16900120	1	4	0	16900130	1	4	0	16900140	1	4	0	16900150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	5	0
+	[avatar]
+		546010	1	4	0	546030	1	4	0	546050	1	4	0	546070	1	4	0	546090	1	4	0	546110	1	4	0	546130	1	4	0	546150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	6	0
+	[avatar]
+		586010	1	4	0	586030	1	4	0	586050	1	4	0	586070	1	4	0	586090	1	4	0	586110	1	4	0	586130	1	4	0	586150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	7	0
+	[avatar]
+		18100010	1	4	0	18100030	1	4	0	18100050	1	4	0	18100070	1	4	0	18100090	1	4	0	18100110	1	4	0	18100130	1	4	0	18100150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	8	0
+	[avatar]
+		21700130	1	4	0	21700010	1	4	0	21700090	1	4	0	21700050	1	4	0	21700030	1	4	0	21700070	1	4	0	21700110	1	4	0	21700150	1	4	0
+	[/avatar]
+	[stackable]
+		2660452	8
+	[/stackable]
+[/booster select category]
+
+[booster category name]
+	`請選擇職業`
+	`鬼劍士`
+	`格鬥家(男)`
+	`格鬥家(女)`
+	`神槍手(男)`
+	`神槍手(女)`
+	`魔法師(女)`
+	`聖職者`
+	`暗夜使者`
+	`魔法師(男)`
+[/booster category name]
+
+[need material]
+	3340	625
+
+[move wav]
+	`BONE_TOUCH`
+
+[explain]
+	`  直接穿戴不顯示外觀；可以複製穿戴中的同部位裝扮款式，但屬性值保留克隆裝扮原屬性。
+  如被複製的裝扮消失，則外觀恢復透明，反之則維持複製款式。（拖動或右鍵點擊穿戴裝扮圖標，可以解除克隆）`

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	72	99
+
+[pre required quest]
+	4147
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	72	-1	61277	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`說服再說服`
+
+[depend message]
+	`還能怎樣呢？只好繼續勸說！持續不斷的煩他他就會放棄吧。`
+
+[condition message]
+	`結成！在卡勒特的沙影的貝利特，再次詢問女子與卡勒特的關係`
+
+[solve message]
+	`很好！`
+
+[dialog]
+	1	1	72	0	1	10628	0
+	`<monster::61277>啊～這傢伙真讓人疲勞轟炸！安祖?賽弗被人操縱，真是想都不敢想！
+如果無法相信，我讓你看看。今天晚上你再來找我…… 
+她說過今天還來，一起聽她怎麼說吧。`
+[/dialog]
+
+[quest point]
+	4

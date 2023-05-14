@@ -1,0 +1,99 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[gun blader]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[雙重散射]攻擊力 +25%%
+[雙重散射]冷卻時間 -10%%
+[雙重散射]射擊范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	25
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[廣域散射]攻擊力 +30%%
+[廣域散射]冷卻時間 -30%%
+[廣域散射]射擊范圍 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	28
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	28
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-70
+		`[gun blader]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[gun blader]`	28
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[G型火焰爆彈]攻擊力 +30%%
+[G型火焰爆彈]特殊灼傷持續時間 -70%%
+[G型火焰爆彈]冷卻時間 -35%%
+[G型火焰爆彈]爆炸范圍 +30%%
+[裂地爆刃]攻擊力 +30%%
+[裂地爆刃]冷卻時間 -40%%
+[裂地爆刃]爆炸范圍 +30%%`
+[/piece set ability]

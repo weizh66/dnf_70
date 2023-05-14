@@ -1,0 +1,40 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Handlingsword/handlingsword_lifting_sword_normal_b.ani`
+	[SUB ANI]
+		`../Animation/Handlingsword/handlingsword_lifting_sword_normal_c.ani`	0	1
+		`../Animation/Handlingsword/handlingsword_lifting_sword_normal_d.ani`	0	2
+		`../Animation/Handlingsword/handlingsword_lifting_sword_normal_e.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			30
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			25579
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+		[FOLLOWING TARGET]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

@@ -1,0 +1,99 @@
+#PVF_File
+
+[set name]
+	`終結之波動  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	20
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	21
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[地裂·波動劍]攻擊力 +20%%
+[冰刃·波動劍]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	22
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	22
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[冰刃·波動劍]攻擊力 +30%%
+[爆炎·波動劍]攻擊力 +30%%
+[爆炎·波動劍]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	100
+		`[dungeon type]`
+		`[static]`	4
+		`%`	50
+		`[swordman]`	100
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[swordman]`	99
+		`[dungeon type]`
+		`[static]`	1
+		`%`	50
+		`[swordman]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	99
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[swordman]`	99
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[swordman]`	99
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[swordman]`	99
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[極冰·裂波劍]爆炸范圍 +50%%
+[極冰·裂波劍]無色小晶塊消耗量 +1
+[極炎·裂波劍]火焰地帶持續時間 +50%%
+[極炎·裂波劍]攻擊力 +30%%
+[極炎·裂波劍]無色小晶塊消耗量 +1`
+[/piece set ability]

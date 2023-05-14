@@ -1,0 +1,33 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/attack_wave.act`
+
+[attack info]
+	`AttackInfo/Indaramang.atk`
+
+[name]
+	`冰波?`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

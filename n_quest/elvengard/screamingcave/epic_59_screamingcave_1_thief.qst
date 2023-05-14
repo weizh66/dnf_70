@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4376
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	1501	-1	56117	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 生命是珍貴的`
+
+[depend message]
+	`悲鳴洞穴里都是這種氣息……果然， 除了阿甘左， 應該沒人能幫助你。
+阿甘左， 阿甘左！！
+<apc::410>索西雅， 我明明告訴過你別來煩我……
+呃， 這里怎么散發著一種強烈的怨恨氣息……太不尋常了……不過我不會跟你這種菜鳥去悲鳴洞穴的。
+<npc::0>如果我有實力呢？
+<apc::410>如果你真的有實力保護自己， 我可以考慮。
+<npc::5>咦， 那孩子又去哪了……
+阿甘左， 你為什么對那孩子這么冷漠……
+<apc::410>呃……因為他太年輕了， 還不知生命的可貴。 這么不知死活， 對他來說不是件好事……`
+
+[condition message]
+	`    前往洛蘭地區的『悲鳴洞穴』， 除掉骷髏凱恩， 然后向索西雅回復。`
+
+[solve message]
+	`你去哪兒了？ 這么急匆匆的……`
+
+[quest point]
+	4

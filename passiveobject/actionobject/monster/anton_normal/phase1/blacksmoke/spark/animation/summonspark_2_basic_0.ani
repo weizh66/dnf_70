@@ -1,0 +1,43 @@
+#PVF_File
+[SHADOW]
+	0
+[SPECTRUM]
+	1
+	[SPECTRUM TERM]
+		50
+	[SPECTRUM LIFE TIME]
+		150
+	[SPECTRUM COLOR]
+		255	255	255	255
+	[SPECTRUM EFFECT]
+		`NONE`
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Map/Village/Bwanga/ice.img`
+		0
+	[IMAGE POS]
+		-35	-105
+	[RGBA]
+		0	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1000
+	[DAMAGE BOX]
+	-29	-10	-16	58	20	119
+
+[FRAME001]
+	[IMAGE]
+		`Map/Village/Bwanga/ice.img`
+		0
+	[IMAGE POS]
+		-35	-105
+	[RGBA]
+		0	255	255	255
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-29	-10	-16	58	20	119

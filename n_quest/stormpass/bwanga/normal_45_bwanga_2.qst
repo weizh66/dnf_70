@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	42
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4003
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	141	1	56037	1	2	141	1	56038	1	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`雷諾的打賭`
+
+[depend message]
+	`喂， 冒險家！ 你來我們村子也好幾天了， 習慣這里寒冷的天氣了嗎？
+我喊你， 是因為我覺得有必要跟你說一下我們圖盧斯族的勇士。 無論是力量還是身軀， 我們圖盧斯族都是班圖族中最強大的。
+如果你面對他們時， 不高度集中精神， 根本就對付不了他們。 什么？ 你已經贏了馬爾加？ 嘿， 怎么可能？ 估計他是因為你是外族人放水了吧……
+咦， 你那什么表情。 你敢和我打賭嗎？ 我把籌碼壓在馬爾加和拉里身上， 他們都是非常了不起的戰士。
+我們的賭注就是， 輸的人要一口氣喝完兩杯馬奶酒， 哈哈哈~~`
+
+[condition message]
+	`    前往萬年雪山的『布萬加的修煉場』， 擊敗冰王馬拉加和萊里特·拉里各2次， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`你， 果然了不起， 進來吧。 作為我賭輸的懲罰， 這兩杯馬奶酒， 我就直接干了。 哈哈， 如果說這是懲罰的話， 我還想天天受罰呢， 哈哈。 你也來喝一杯吧， 喏， 給你！`

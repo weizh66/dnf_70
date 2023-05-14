@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`AT-5T 駕駛達人`
+
+[explain]
+	`攻擊時，有4%%的機率使自身增加4%%移動速度，效果持續20秒。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	282
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/at5t_class1_license.ani`
+[/custom animation]
+
+[attack speed]
+	30
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		4
+	[stat]
+		`move speed`
+		`+`	40
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

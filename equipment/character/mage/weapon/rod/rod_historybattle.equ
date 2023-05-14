@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`遠古逆襲之厄特爾魔杖`
+
+[basic explain]
+	`施放技能時，以4%%的機率使自身增加30點智力，效果持續30秒。
+攻擊速度增加1%%`
+
+[flavor text]
+	` 蘊含遠古戰爭英雄之靈魂的稀有武器。`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[magical attack]
+	67
+
+[attack speed]
+	110
+
+[cast speed]
+	60
+
+[move speed]
+	10
+
+[stuck]
+	1
+
+[price]
+	82600
+
+[repair price]
+	69384
+
+[value]
+	330400
+
+[equipment physical attack]
+	457	443
+
+[equipment magical attack]
+	559	541
+
+[separate attack]
+	256	173
+
+[skill levelup]
+	`[mage]`	48	1
+	`[mage]`	81	1
+	`[at mage]`	21	1
+	`[at mage]`	13	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/mage/rod.img`	47
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[mage]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	22
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		4
+	[stat]
+		`magical attack`
+		`+`	30
+[/then]
+
+[possible kiri protect]

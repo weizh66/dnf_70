@@ -1,0 +1,103 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`幽靈列車`
+	
+
+[explain]
+	`一輛列車緩緩地在海中行駛， 車上不時傳出孩子們玩耍時的歡笑聲。 車外， 一團黑色的霧氣正悄悄地籠罩整片海域， 惡靈開始侵襲列車尾部……為了活命， 人們只有不斷地向前方逃逸。 因為一旦被惡靈抓住， 靈魂就會在瞬間被奪去， 連喊救命的機會都沒有！`
+	
+
+[entering title]
+	`Title/GhostTrain.ani`
+
+[cutscene image]
+	`Map/CutScene/sea_train.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act2.img`
+
+[worldmap pattern info]
+	1	2
+	`WorldMap/SelectdungeonSlot/seatrain.img`	2
+
+[coin limit]
+	3
+
+[required item]
+	4421	1	1
+
+[ancient dungeon]
+	1
+
+[minimum required level]
+	65
+
+[basis level]
+	68
+
+[experience increasing point]
+	1.54
+
+[champion]
+	0	0	0	0	0
+
+[prohibit practice]
+	1
+
+[pathgate object]
+	5590	5591	5592	5593	5594	5595	5596	5597	5598	5599
+
+[maze info]
+
+[size]
+	5	1
+
+[greed]
+	`BBFFFFFFEE`
+
+[map specification]
+	0	0	17022
+[/map specification]
+
+[map specification]
+	1	0	17023	17027	17028	17029	17031
+[/map specification]
+
+[map specification]
+	2	0	17024
+[/map specification]
+
+[map specification]
+	3	0	17025
+[/map specification]
+
+[map specification]
+	4	0	17026
+[/map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	4	0
+[/boss map]
+
+[seal door map index]
+	60052
+
+[seal door pos]
+	1	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1

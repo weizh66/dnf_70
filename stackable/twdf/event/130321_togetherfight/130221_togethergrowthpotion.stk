@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`灰色成長的秘藥`
+	
+
+[explain]
+	`通過地下城時,獲得的經驗值增加50%,時限10分鐘`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	898
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	600000
+
+[cooltime group]
+	99
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[exp bonus rate]
+	0.5
+
+[stat change duration]
+	600000
+	`myself`
+
+[expiration date]
+	1370016000

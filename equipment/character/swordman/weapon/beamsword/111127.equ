@@ -1,0 +1,200 @@
+#PVF_File
+
+[name]
+	`熾光之劍`
+
+[basic explain]
+	`  攻擊時，有5%%的幾率向敵人發動閃電攻擊。
+  被閃電命中的敵人會進入感電狀態5秒;若攻擊感電狀態的敵人，則每次攻擊都會附加900點傷害。
+  攻擊感電狀態的敵人時，附加10%%的傷害。`
+
+[detail explain]
+	`  攻擊時，有5%%的幾率向敵人發動閃電攻擊。(冷卻時間15秒)
+  被閃電命中的敵人會進入感電狀態5秒;若攻擊感電狀態的敵人，則每次攻擊都會附加900點傷害。(若敵人高于Lv75，則減少進入異常狀態和幾率；反之，則增加異常狀態和幾率)
+  攻擊感電狀態的敵人時，附加10%%的傷害。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3500	1200
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	847	757
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[light attack]
+	13
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	99
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		60101	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

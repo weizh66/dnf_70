@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`光炎劍 - 烈日裁決`
+
+[basic explain]
+	`普通攻擊時， 發射光炎攻擊敵人。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`beamswd`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	39
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	5
+
+[durability]
+	38
+
+[price]
+	102600
+
+[repair price]
+	86184
+
+[value]
+	82080
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	495	450
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[variation]
+	4	3
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		8085	0	0	50	55	0
+		`DragonHeadEnergyBall.ptl`
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		100
+	[my state]
+		`attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		8085	0	0	50	55	0
+		`DragonHeadEnergyBall.ptl`
+	[/passive object]
+[/then]
+
+[routing priority]
+	`swordman`	1
+[/routing priority]
+
+[possible kiri protect]

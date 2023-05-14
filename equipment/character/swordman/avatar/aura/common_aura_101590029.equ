@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`閃亮泡泡`
+
+[flavor text]
+	`<2015夏日禮包>`
+
+[grade]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	61
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	108
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[physical attack]
+	15
+
+[physical defense]
+	15
+
+[magical attack]
+	15
+
+[magical defense]
+	15
+
+[room list move speed rate]
+	0.1
+
+[light attack]
+	15
+
+[aurora graphic effects]
+	3	1
+	`Character/Common/Animation/Aura/2015 yellow  front_normal.ani`	0
+	`Character/Common/Animation/Aura/2015 yellow  back_dodge.ani`	0
+	`Character/Common/Animation/Aura/2015 yellow  back_normal.ani`
+
+[aura ability]
+	`[solo teleport]`	600
+[/aura ability]
+
+[aura pos datas]
+	0
+	`[swordman]`	0	0	0
+	`[fighter]`	0	0	0
+	`[gunner]`	0	0	0
+	`[mage]`	0	0	0
+	`[priest]`	0	0	0
+	`[at gunner]`	0	0	0
+	`[thief]`	0	0	0
+	`[at fighter]`	0	0	0
+	`[at mage]`	0	0	0
+	`[demonic swordman]`	0	0	0
+	`[creator mage]`	0	0	0
+	`[at swordman]`	0	0	1
+	`[swordman]`	0	0	1
+	`[fighter]`	0	0	1
+	`[gunner]`	0	0	1
+	`[mage]`	0	0	1
+	`[priest]`	0	0	1
+	`[at gunner]`	0	0	1
+	`[thief]`	0	0	1
+	`[at fighter]`	0	0	1
+	`[at mage]`	0	0	1
+	`[demonic swordman]`	0	0	1
+	`[creator mage]`	0	0	1
+	`[at swordman]`	0	0
+[/aura pos datas]

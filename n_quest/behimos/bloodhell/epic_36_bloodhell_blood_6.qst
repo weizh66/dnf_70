@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	36	99
+
+[pre required quest]
+	451
+[/pre required quest]
+
+[effect after clear quest]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	27	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	5000	1075	5	1076	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`大陸的肚子`
+
+[depend message]
+	`“我……在大陸的肚子里……” 大陸的肚子？ 啊！ 一定是馬塞爾大叔留下的！ 不行， 我得馬上去趟天帷巨獸的肚子， 那里一定會留有他的線索！ `
+
+[condition message]
+	`    通關天帷巨獸神殿的『天帷禁地』。`
+
+[solve message]
+	`嗚嗚， 我到入口就進不去了， 那里出現了很多復活的教徒， 他們的樣子好奇怪啊， 你進去了嗎？`
+
+[dialog]
+	1	0	27	0	1	1043	0
+	` <monster::1043>你們憑什么要妨礙我神圣的復仇！
+你們憑什么讓我變得如此迷惘！！
+奪走我血色希望的你們， 破壞我僅剩的腐爛軀殼的你們！！
+那永遠無法抹滅的仇恨， 我要用你們血來發泄！！`
+[/dialog]
+
+[quest point]
+	4

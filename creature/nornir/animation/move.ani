@@ -1,0 +1,80 @@
+#PVF_File
+[LOOP]
+	1
+[SPECTRUM]
+	1
+	[SPECTRUM TERM]
+		90
+	[SPECTRUM LIFE TIME]
+		120
+	[SPECTRUM COLOR]
+		255	255	255	255
+	[SPECTRUM EFFECT]
+		`NONE`
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		5
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-39	-24	-3	79	51	140
+
+[FRAME001]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		6
+	[IMAGE POS]
+		-195	-276
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-39	-24	-3	79	51	140
+
+[FRAME002]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		7
+	[IMAGE POS]
+		-195	-277
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-39	-24	-3	79	51	140
+
+[FRAME003]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		8
+	[IMAGE POS]
+		-195	-276
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-39	-24	-3	79	51	140
+
+[FRAME004]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir.img`
+		9
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[DELAY]
+		150
+	[DAMAGE BOX]
+	-39	-24	-3	79	51	140

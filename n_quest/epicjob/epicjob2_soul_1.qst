@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	7
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 黑暗君主 (1/2)`
+
+[depend message]
+	`你身上的鬼神氣息比以前更強大了， 但是也超過了弒魂所能承載的界限。 你自己有感覺到嗎？
+之前為你所控的那些死靈因為力量的過度飽和， 已經溢向四周， 而且你身上的鬼神氣息還在源源不斷地吸引更多的死靈前來……
+這樣下去， 你遲早會被鬼神拖入地獄……看來， 唯一的辦法就是掙脫目前的能力界限， 成為‘黑暗君主’。
+只要你能成為它們的主人， 就能夠真正地駕馭百鬼之力， 令身邊這些盤旋的怨靈聽你號令。
+不過想要成為‘黑暗君主’并不簡單， 還需要先開啟所有的鬼印， 而那一瞬間的痛苦可能會讓你痛不欲生。
+即使這樣， 你還有勇氣嘗試嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與G.S.D談談。`
+
+[solve message]
+	`下定決心了嗎？
+很好， 我現在就把成為黑暗君主的方法傳授給你。`
+
+[pre required quest]
+	984
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4732
+
+[job change quest]
+	3
+
+[grow number]
+	0

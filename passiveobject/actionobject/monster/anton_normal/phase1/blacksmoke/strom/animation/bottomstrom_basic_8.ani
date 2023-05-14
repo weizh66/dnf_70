@@ -1,0 +1,100 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_dodge.img`
+		0
+	[IMAGE POS]
+		-305	-333
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		2180
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_dodge.img`
+		0
+	[IMAGE POS]
+		-305	-333
+	[IMAGE RATE]
+		3.0	3.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_dodge.img`
+		1
+	[IMAGE POS]
+		-305	-333
+	[IMAGE RATE]
+		3.0	3.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_dodge.img`
+		2
+	[IMAGE POS]
+		-305	-333
+	[IMAGE RATE]
+		3.0	3.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_dodge.img`
+		3
+	[IMAGE POS]
+		-305	-333
+	[IMAGE RATE]
+		3.0	3.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_dodge.img`
+		4
+	[IMAGE POS]
+		-305	-333
+	[IMAGE RATE]
+		3.0	3.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/barrier_dodge.img`
+		5
+	[IMAGE POS]
+		-305	-333
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

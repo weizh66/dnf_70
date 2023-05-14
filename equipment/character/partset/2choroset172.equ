@@ -1,0 +1,97 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	366
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[mage]`	366
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[mage]`	366
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[mage]`	366
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[玫瑰藤蔓]大小 +20%%
+[玫瑰藤蔓]攻擊力 +25%%
+[玫瑰藤蔓]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	333
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	338
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1000
+		`[mage]`	338
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	338
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	338
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	338
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[薔薇藤鞭]攻擊力 +30%%
+[薔薇囚獄]持續時間 +1秒
+[薔薇囚獄]攻擊力 +30%%
+[薔薇囚獄]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	338
+		`[dungeon type]`
+		`[static]`	2
+		`%`	40
+		`[mage]`	338
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-50
+		`[mage]`	338
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[mage]`	338
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[mage]`	338
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[薔薇囚獄]范圍 +40%%
+[薔薇囚獄]攻擊間隔 -50%%
+[薔薇囚獄]最后爆炸魔法攻擊力 +20%%
+[薔薇囚獄]冷卻時間 -25%%
+[薔薇囚獄]無色小晶塊消耗量 +1`
+[/piece set ability]
+
+[partset specific growtype]
+	5

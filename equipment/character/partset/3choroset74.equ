@@ -1,0 +1,137 @@
+#PVF_File
+
+[set name]
+	`潛龍幻影  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[swordman]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[拔刀斬]攻擊力 +25%%
+[拔刀斬]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	73
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	73
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[swordman]`	73
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[swordman]`	73
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-10000
+		`[swordman]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[swordman]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[swordman]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[swordman]`	9
+		`[dungeon type]`
+		`[static]`	1
+		`+`	200
+		`[swordman]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[swordman]`	14
+		`[dungeon type]`
+		`[level]`	8
+		`%`	25
+		`[swordman]`	14
+		`[dungeon type]`
+		`[level]`	9
+		`%`	25
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	6
+		`%`	25
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	10
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[幻影劍舞]冷卻時間 -10秒
+[幻影劍舞]攻擊力 +25%%
+[破軍升龍擊]冷卻時間 -15%%
+[破軍升龍擊]攻擊力 +25%%
+[拔刀斬]攻擊1個怪物時攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	35
+		`[swordman]`	98
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[swordman]`	98
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[破軍斬龍擊]冷卻時間 -20%%
+[破軍升龍擊]攻擊力 +35%%
+[破軍升龍擊]最后一擊攻擊力 +50%%
+[破軍升龍擊]浮空力 +30%%
+[破軍升龍擊]無色小晶塊消耗量 +1`
+[/piece set ability]

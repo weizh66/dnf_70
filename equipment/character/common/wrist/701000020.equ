@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`神龍之息手鐲`
+
+[basic explain]
+	`  攻擊時，對話氣泡：吾雖浪跡天涯卻未迷失本心！！
+  攻擊時魔法攻擊力 +300 ，持續15秒，冷卻時間10秒。
+  攻擊時有2%%的幾率發動冰龍斯卡薩的旋風。`
+
+[grade]
+	85
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	80
+
+[physical defense]
+	80
+
+[price]
+	80400
+
+[need material]
+	2701003	200
+
+[repair price]
+	67536
+
+[value]
+	64320
+
+[equipment magical defense]
+	2552	2312
+
+[cast speed]
+	50
+
+[move speed]
+	50
+
+[attack speed]
+	50
+
+[stuck resistance]
+	20
+
+[icon mark]
+	`Item/IconMark.img`	146
+
+[icon]
+	`Item/common/bracelet_cn.img`	54
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[stat]
+		`equipment magical attack`
+		`+`	300
+	[speech on]
+		0	2000
+		`吾雖浪跡天涯卻未迷失本心！！`
+	[/speech on]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[passive object]
+		8617	0	0	0	999	0
+		``
+	[/passive object]
+[/then]
+
+[set item master]
+	701000019
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

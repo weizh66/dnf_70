@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 元素圣靈 (1/6)`
+
+[depend message]
+	`難道你不想把自己內在的潛力激發出來嗎？
+雖然現在的你也是個強大的家伙， 但日后可能會有更大的危機找上門來。
+如果屆時想要好好發揮實力， 你就要變得比現在更加強悍， 你說是不是？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`據說使用魔力和元素的魔法師進入超越階段會有陷入奇境的感覺， 對此你有聽說過嗎？
+聽說陷入那種狀態后就會有超越‘自我’的某種感知。 雖然不知道具體是什么， 但據說可以本能地去理解， 我在想應該是與武道中達到某種境界的感覺差不多。
+其實即便是在武道的概念上， 也很難達到這種神奇的狀態。 我想你們魔法師所說的超越階段應該也就是如此。
+不過據我所知， 過去唯有一人長期停留在超越階段， 據說當時那個人在一片茫茫無際的元素海洋中看到了非常壯觀的景象。
+這不就是相當于達到了新境界嗎？ 從現在開始， 你的目標就是要達到這種‘元素圣靈’的境界。 怎么樣？ 覺得自己能夠做到嗎？`
+
+[target character]
+	`[mage]`	1	1
+[/target character]
+
+[relation quest]
+	6779
+
+[job change quest]
+	3
+
+[grow number]
+	0

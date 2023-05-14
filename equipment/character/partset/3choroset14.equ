@@ -1,0 +1,148 @@
+#PVF_File
+
+[set name]
+	`念氣之涌  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	12
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[念氣波]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	12
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	16
+		`[dungeon type]`
+		`[level]`	4
+		`+`	50
+		`[fighter]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[fighter]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	16
+		`[dungeon type]`
+		`[level]`	4
+		`+`	50
+		`[at fighter]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[at fighter]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	112
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[螺旋念氣場]攻擊力 +30%%
+[螺旋念氣場]攻擊范圍 +50%%
+[獅子吼]攻擊力 +50%%
+[獅子吼]攻擊范圍增加比率 +30%%
+格斗家(男)
+[念氣環繞]念氣珠攻擊范圍 +20%%
+格斗家(女)
+[念氣波]大小比率 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	90
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	90
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[fighter]`	90
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	90
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[fighter]`	90
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[fighter]`	90
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[fighter]`	90
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	90
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[at fighter]`	90
+		`[dungeon type]`
+		`[level]`	1
+		`%`	12
+		`[at fighter]`	90
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2
+		`[at fighter]`	90
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at fighter]`	90
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[念獸 : 猛虎震地]攻擊力 +40%%
+[念獸 : 猛虎震地]多段攻擊次數 +2
+[念獸 : 猛虎震地]爆炸范圍 +30%%
+[念獸 : 猛虎震地]無色小晶塊消耗量 +1
+格斗家(女)
+[念獸 : 雷龍出海]攻擊力 +40%%
+[念獸 : 雷龍出海]持續時間 +30%%
+[念獸 : 雷龍出海]雷龍大小比率 +30%%
+[念獸 : 雷龍出海]無色小晶塊消耗量 +1`
+[/piece set ability]

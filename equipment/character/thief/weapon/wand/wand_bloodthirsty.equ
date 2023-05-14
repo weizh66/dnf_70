@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`嗜血之死靈`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使敵人進入出血狀態。
+攻擊出血狀態的敵人時， 有30%%的幾率使自身增加10%%的攻擊速度、 施放速度和30點智力， 效果持續10秒。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態6秒， 出血狀態下的敵人， 每0.5秒受到180點傷害。 (若敵人高于Lv55， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    攻擊出血狀態的敵人時， 有30%%的幾率使自身增加10%%的攻擊速度、 施放速度和30點智力， 效果持續10秒。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`wand`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2300
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/thief/wand.img`	45
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	28
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[HP MAX]
+	420
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	462	423
+
+[equipment magical attack]
+	658	603
+
+[separate attack]
+	360	243
+
+[HP regen speed]
+	60
+
+[attack speed]
+	-100
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		5
+	[active status]
+		`bleeding`	55	2850
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		30
+	[stat]
+		`attack speed`
+		`%`	10
+	[stat]
+		`cast speed`
+		`%`	10
+	[stat]
+		`magical attack`
+		`+`	30
+[/then]
+
+[magical critical hit]
+	5
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`WAND_TOUCH`
+
+[routing priority]
+	`thief`	2
+[/routing priority]
+
+[possible kiri protect]

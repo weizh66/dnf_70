@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`白貓之懲戒`
+
+[basic explain]
+	`施放技能時， 有8%%的幾率向所有敵人發動閃電。`
+
+[detail explain]
+	`    施放技能時， 有8%%的幾率向所有敵人發動閃電。 (在決斗場中有1%%的幾率)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rod`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/mage/rod.img`	67
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	24
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	64
+
+[equipment physical attack]
+	515	472
+
+[equipment magical attack]
+	629	576
+
+[separate attack]
+	360	243
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[skill levelup]
+	`[mage]`	176	2
+	`[mage]`	77	2
+	`[mage]`	17	3
+	`[at mage]`	176	2
+	`[at mage]`	31	2
+	`[at mage]`	26	3
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	13	6
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	13	6
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`ROD_TOUCH`
+
+[light attack]
+	8
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		8
+	[passive object]
+		48098	0	0	0	25	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		1
+	[passive object]
+		48098	0	0	0	25	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`mage`	2
+	`mage`	1
+	`at mage`	2
+	`at mage`	1
+[/routing priority]
+
+[possible kiri protect]

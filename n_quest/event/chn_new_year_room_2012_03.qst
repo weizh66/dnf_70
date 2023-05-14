@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20563
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2749051	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2749049	2	2749050	2
+[/reward selection int data]
+
+[name]
+	`春節大掃除！ (3/6)`
+
+[depend message]
+	`你好呀~冒險家， 我一直惦記著你呢~
+呃， 你上次帶來的紅紙用完了……呵呵， 我也沒想到會用那么快， 我只是想把旅館裝飾得更漂亮一些， 所以……`
+
+[condition message]
+	`    前往任意地下城， 收集25張[紅紙]。`
+
+[solve message]
+	`非常感謝！ 祝冒險家在新的一年好運連連~`

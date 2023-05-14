@@ -1,0 +1,30 @@
+#PVF_File
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+[/object destroy condition]
+
+[basic action]
+	`Action/Pistolcarbinebullet.act`
+
+[attack info]
+	`AttackInfo/BulletPistolCarbine.atk`
+
+[name]
+	`自動手槍子彈`

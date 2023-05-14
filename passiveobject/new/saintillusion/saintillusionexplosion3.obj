@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`怖拉修`
+
+[floating height]
+	0
+
+[width]
+	1	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/SaintIllusion/explode3_nomal_explode.ani`
+
+[attack info]
+	`AttackInfo/SaintIllusionExplosionNormal1.atk`
+
+[etc motion]
+	`Animation/SaintIllusion/explode1_nomal.ani`
+	`Animation/SaintIllusion/explode2_nomal.ani`
+	`Animation/SaintIllusion/explode3_nomal_explode.ani`
+	`Animation/SaintIllusion/explode1_charge_explode.ani`
+	`Animation/SaintIllusion/explode2_charge_explode.ani`
+	`Animation/SaintIllusion/explode3_charge_explode.ani`
+[/etc motion]
+
+[etc attack info]
+	`AttackInfo/SaintIllusionExplosionNormal1.atk`
+	`AttackInfo/SaintIllusionExplosionNormal2.atk`
+	`AttackInfo/SaintIllusionExplosionNormal3.atk`
+	`AttackInfo/SaintIllusionExplosionCharge1.atk`
+	`AttackInfo/SaintIllusionExplosionCharge2.atk`
+	`AttackInfo/SaintIllusionExplosionCharge3.atk`
+[/etc attack info]

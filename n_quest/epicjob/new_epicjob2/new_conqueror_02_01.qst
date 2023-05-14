@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 極武皇 (2/6)`
+
+[depend message]
+	`武道之路并非只有一條， 接近真理的方法因人而異， 可以有上萬種。
+可是大家都不明白這個道理， 而是盲目地跟著前人走， 并一再地去模仿他人。
+他們這樣做的理由很簡單， 那就是， 跟著別人做會有明確的方向， 而且這條路是前人通過實踐驗證過的有效通道， 因此挑戰起來不會有太多的擔憂和恐懼感。
+但你沒有這么做。 由于你天生追求自由， 放任不羈， 一直以來你都在拒絕走尋常路。 你打破了所有常規， 開辟出了屬于自己的一條道路。 我說的對嗎？
+那么， 答案是顯而易見的。 就像你一直以來堅持的一樣， 不要在意其他人達到了什么水平， 專心致志地開辟出自己的道路就好。
+那么， 首先我們要驗證一下， 你是否真正具備足夠的實力去開辟一條新的路徑。
+素喃這邊剛好正在舉行魂·黃龍大會， 聽說許多自負不凡的實力選手會在這個舞臺上互相切磋， 一較高下。
+如果你堅持的道路是對的， 在這里一定會得到人們的認可。
+那就借著醒酒的功夫， 去收集一下‘斯卡迪女王的印章’吧。 有了它你才能參加大會。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4962
+[/pre required quest]
+
+[relation quest]
+	5362
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,134 @@
+#PVF_File
+
+[name]
+	`血腥蘇哈姆`
+
+[basic explain]
+	`攻擊時以 2%% 的機率讓敵人呈現出血狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以65的攻擊力給予傷害。 （高於Lv30的對象得到的機率減少，低於Lv30的對象則會增加。）`
+
+[grade]
+	32
+
+[rarity]
+	2
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[physical attack]
+	21
+
+[attack speed]
+	-80
+
+[price]
+	51200
+
+[repair price]
+	40960
+
+[value]
+	204800
+
+[equipment physical attack]
+	298	282
+
+[equipment magical attack]
+	234	221
+
+[separate attack]
+	145	96
+
+[physical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	41	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	19
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	2	7
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	30	1300
+[/then]
+
+[possible kiri protect]

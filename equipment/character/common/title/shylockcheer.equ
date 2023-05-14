@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	`夏洛克的助威`
+
+[explain]
+	`  攻擊敵人時， 有2%%的幾率召喚出Lv35的十夫長、 烈焰哥布林、 冰霜哥布林協助召喚者攻擊敵人， 召喚的怪物存在120秒。`
+
+[flavor text]
+	`  好樣！ 好樣！ 中國人紅起來！！！`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	112
+
+[custom animation]
+	`TitleAnimation/shylockcheer.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[sub type]
+	0
+
+[HP regen speed]
+	45
+
+[MP regen speed]
+	9
+
+[physical attack]
+	8
+
+[physical defense]
+	5
+
+[magical attack]
+	8
+
+[magical defense]
+	5
+
+[if]
+	[cooltime]
+		120000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		120000
+	[probability]
+		2
+	[summon monster]
+		7	35	1
+[/then]
+
+[if]
+	[cooltime]
+		120000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		120000
+	[probability]
+		2
+	[summon monster]
+		8	35	1
+[/then]
+
+[if]
+	[cooltime]
+		120000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		120000
+	[probability]
+		2
+	[summon monster]
+		2	35	1
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

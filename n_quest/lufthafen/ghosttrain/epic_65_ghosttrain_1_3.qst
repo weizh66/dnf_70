@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	66
+
+[complete npc index]
+	66
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	6003
+[/pre required quest]
+
+[monster reward item]
+	61484	1504	-1	4422	1	70	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4422	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	1250	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 尋找幽靈列車`
+
+[depend message]
+	`你真的要去找幽靈列車嗎？
+羅盤上的指針晃動得很厲害， 看來幽靈列車應該就在這附近了。 只是傳說中的惡靈， 還有那些充滿怨氣的人偶……冒險家， 你一定要小心啊！`
+
+[condition message]
+	`    前往海上列車的『幽靈列車』， 從邪惡的美人魚身上收集[骷髏碎骨]。`
+
+[solve message]
+	`這、 這……你真的找到幽靈列車啦？`
+
+[dialog]
+	0	0	17026	3	0	0	0
+	`<monster::61491>我……感覺到……你身上有一股……很強大的……精神力……
+相信你……你的肉……肯定……非常……好！`
+[/dialog]
+
+[dialog]
+	0	0	17029	3	0	0	0
+	`<monster::61491>我……感覺到……你身上有一股……很強大的……精神力……
+相信你……你的肉……肯定……非常……好！`
+[/dialog]
+
+[quest point]
+	4

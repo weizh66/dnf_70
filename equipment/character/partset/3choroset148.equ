@@ -1,0 +1,108 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[和合之玉]冷卻時間 -30%%
+[不動珠箔陣]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	55
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at priest]`	61
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	61
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at priest]`	54
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at priest]`	54
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-20
+		`[at priest]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	67
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[念珠連射]攻擊速度 +20%%
+[念珠連射]僵直時間 -20%%
+[木?子經]攻擊力 +15%%
+[百八念珠]念珠 +25%%
+[和合之玉]冷卻時間 -20%%
+[不動珠箔陣]冷卻時間 -20%%
+[奪命大念陣]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	55
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	59
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	59
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	61
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	63
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	63
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[木?子經]冷卻時間 -30%%
+[和合之玉]攻擊力 +30%%
+[百八念珠]冷卻時間 -30%%
+[不動珠箔陣]攻擊力 +30%%
+[奪命大念陣]攻擊力 +30%%`
+[/piece set ability]

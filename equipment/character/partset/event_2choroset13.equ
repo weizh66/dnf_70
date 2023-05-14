@@ -1,0 +1,79 @@
+#PVF_File
+
+[set name]
+	`侵襲光明  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[fighter]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	76
+		`[dungeon type]`
+		`[level]`	1
+		`+`	3
+		`[fighter]`	76
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-40
+		`[fighter]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at fighter]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	74
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2
+		`[fighter]`	74
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	74
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[fighter]`	14
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+		`[fighter]`	106
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	106
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)：毒雷引爆冷卻時間減少6秒， 毒氣柱攻擊力增加30%% 
+格斗家(女)：毒雷引爆冷卻時間減少6秒， 毒氣柱個數增加3， 毒氣柱間隔減少40%%， 毒氣柱攻擊力增加1 5%%
+格斗家(男)：狂·霸王拳攻擊力增加20%%， 衝擊波範圍增加30%% / 螺旋滑鏟攻擊力增加20%% 
+格斗家(女)：狂·霸王拳攻擊次數增加2， 衝擊波範圍增加30%%/大地之踢攻擊力增加20%%/騎馬攻擊次數減少1`
+[/piece set ability]

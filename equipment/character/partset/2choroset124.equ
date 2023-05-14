@@ -1,0 +1,99 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	124
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	124
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-15
+		`[at mage]`	124
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[噬魂囚籠]冷卻時間 -30%%
+[噬魂囚籠]多段攻擊間隔 -15%%
+[噬魂囚籠]范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	124
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	124
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[at mage]`	124
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[at mage]`	123
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	123
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[at mage]`	123
+		`[dungeon type]`
+		`[static]`	5
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[噬魂囚籠]冷卻時間 -20%%
+[噬魂囚籠]多段攻擊間隔 -20%%
+[噬魂囚籠]范圍 +10%%
+[血腥煉獄]冷卻時間 -25%%
+[血腥煉獄]多段攻擊間隔 -25%%
+[血腥煉獄]范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	123
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	123
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	125
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at mage]`	125
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[血腥煉獄]冷卻時間 -30%%
+[血腥煉獄]攻擊力 +30%%
+[獄血之噬]冷卻時間 -40%%
+[獄血之噬]攻擊力 +40%%`
+[/piece set ability]

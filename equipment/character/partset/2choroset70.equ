@@ -1,0 +1,142 @@
+#PVF_File
+
+[set name]
+	`苦行者的天啟  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	11
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	11
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	11
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[priest]`	41
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	41
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[落鳳錘]攻擊力 +20%%
+[落鳳錘]衝擊波范圍 +15%%
+[星落打]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	50
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	50
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	50
+		`[dungeon type]`
+		`[static]`	0
+		`%`	15
+		`[priest]`	50
+		`[dungeon type]`
+		`[static]`	1
+		`%`	15
+		`[priest]`	149
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	149
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	149
+		`[dungeon type]`
+		`[static]`	0
+		`%`	15
+		`[priest]`	149
+		`[dungeon type]`
+		`[static]`	1
+		`%`	15
+		`[priest]`	49
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	49
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	49
+		`[dungeon type]`
+		`[level]`	3
+		`+`	2
+		`[priest]`	111
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	111
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	111
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[巨旋風]攻擊力 +15%%
+[巨旋風]擊飛距離 +15%%
+[巨旋風]攻擊敵人時間 +15%%
+[狂亂錘擊]攻擊力 +15%%
+[狂亂錘擊]錘擊次數上限 +2
+[斷層地擊]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	49
+		`[dungeon type]`
+		`[level]`	3
+		`+`	3
+		`[priest]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[priest]`	5
+		`[dungeon type]`
+		`[level]`	3
+		`+`	3
+		`[priest]`	88
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[priest]`	88
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[狂亂錘擊]錘擊次數上限 +3
+[疾空旋風破]攻擊力 +30%%
+[疾空旋風破]旋轉次數上限 +3
+[無雙擊]攻擊力 +35%%`
+[/piece set ability]

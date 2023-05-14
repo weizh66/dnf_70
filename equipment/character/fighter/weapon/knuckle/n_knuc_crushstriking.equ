@@ -1,0 +1,145 @@
+#PVF_File
+
+[name]
+	`(舊) 碎霸手套`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率附加150點傷害。`
+
+[flavor text]
+	`    從現在開始， 我會教你怎樣對付那些防御高的家伙。  --帕麗絲`
+
+[grade]
+	15
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`knuckle`
+
+[rarity]
+	4
+
+[weight]
+	1900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	10
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	40
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	39
+
+[price]
+	24000
+
+[value]
+	19200
+
+[cool time]
+	10000
+
+[magical attack]
+	14
+
+[equipment physical attack]
+	186	141
+
+[equipment magical attack]
+	225	170
+
+[separate attack]
+	108	68
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	150
+[/then]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

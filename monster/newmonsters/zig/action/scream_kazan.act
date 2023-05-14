@@ -1,0 +1,48 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/scream.ani`
+	[SUB ANI]
+		`../animation/effect/scream_backdodge.ani`	0	-1
+		`../animation/effect/scream_dodge.ani`	0	1
+		`../animation/effect/scream_scream.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11292
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	110
+		[USE MY BASEPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		10	70	10	255	255	255	100
+	[SHAKING]
+		5	100
+[/BEHAVIOR]

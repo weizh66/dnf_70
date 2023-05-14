@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	41
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	42	99
+
+[pre required quest]
+	2502
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3211	10
+[/int data]
+
+[dungeon info]
+	40	-1	42	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`班圖族的認可 (1/2)`
+
+[depend message]
+	`看樣子， 你不太適應這個村莊的冷漠氣氛啊。 哈哈， 沒辦法啊， 我們班圖族很難接受外來者的， 除非是被他們認可的勇士！
+如果你能證明你正是這樣勇士， 他們對你的態度就會改觀了。 不過需要有班圖族的勇士徽章鋒利的狼牙才能被我們班圖族認可， 你要試試嗎？`
+
+[condition message]
+	`    收集10顆代表班圖族勇士徽章的[鋒利的狼牙]。`
+
+[solve message]
+	`呵呵， 看不出來你還挺有實力的啊！ `
+
+[quest point]
+	4

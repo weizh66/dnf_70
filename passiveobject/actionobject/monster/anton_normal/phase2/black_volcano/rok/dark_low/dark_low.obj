@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`洛克_暗?性抗性`
+
+[basic action]
+	`Action/Dark_Low_Basic.act`
+
+[etc action]
+	`Action/Etc_Dark_Low_0.act`
+[/etc action]
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[piercing power]
+	10000
+
+[hp max]
+	50
+
+[hp destroy]
+	1
+
+[team]
+	0
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+[/object destroy condition]

@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`錦繡丹華護肩`
+
+[basic explain]
+	`  施放技能時，使自身進入霸體狀態1秒。（冷卻時間3秒；解除裝備后效果消失）`
+
+[flavor text]
+	`  這衣服很漂亮嗎？我怎么不覺得。 -麗貝卡`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12561
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	33
+
+[magical defense]
+	33
+
+[cast speed]
+	200
+
+[HP MAX]
+	300
+
+[need material]
+	3821	800
+
+[price]
+	64800
+
+[repair price]
+	51840
+
+[value]
+	51840
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	2736	2664
+
+[icon]
+	`Item/new_equipment/02_cloth/neck/cloth_neck.img`	16
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	15
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		1000
+	[buff]
+		`superarmor`
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600644	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

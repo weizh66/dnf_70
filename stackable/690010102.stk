@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`傳承：命運女神防具自選禮盒`
+
+[explain]
+	`使用後，可選擇獲得一件傳承：命運女神防具`
+
+[flavor text]
+	`<裝備售出系統>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[price]
+	0
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	931
+
+[stackable type]
+	`[booster selection]`	0
+
+[need material]
+	3340	8
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster category num]
+	1	5
+
+[booster selection num]
+	1
+
+[booster select category]
+	0	0
+	[equipment]
+		14119	1	16109	1	18116	1	10135	1	12132	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[equipment]
+		14497	1	16496	1	18504	1	10509	1	12507	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	2	0
+	[equipment]
+		14899	1	16896	1	18903	1	10909	1	12906	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	3	0
+	[equipment]
+		15297	1	17295	1	19301	1	11308	1	13307	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	4	0
+	[equipment]
+		15664	1	17662	1	19668	1	11669	1	13667	1
+	[/equipment]
+[/booster select category]
+
+[booster category name]
+	`請選擇防具類型`
+	`布甲`
+	`皮甲`
+	`輕甲`
+	`重甲`
+	`板甲`
+[/booster category name]

@@ -1,0 +1,84 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 剎那永恒 (1/2)`
+
+[depend message]
+	`發生了什么事嗎， 魔法師？ 你的眼神看起來很悲傷。
+……等等。 我居然從綻放冰晶之花的魔法師身上感覺到了情感的波動……你明明用冰冷的黑暗之眼的力量把情感也凍結了……
+看樣子確實發生了些什么。 來談談你的遭遇吧， 居然連黑暗之眼的堅硬結晶都能融化， 太不可思議了。
+……原來如此。 你在冒險過程中領悟到了什么才是真正重要的東西。 不錯， 同伴的友誼是最強大的魔法。
+現在你能找回人類之心， 真是太好了。 如果一直擁有一顆冰冷的心臟， 最終你將會失去理智或者徹底變成寒冷的冰雕。
+現在的你， 已經充分具備了超越冰凍之心的極限， 成為‘剎那永恒’的資格。 如何， 你想成為剎那永恒嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和莎蘭談談。`
+
+[solve message]
+	`魔法師， 你的經歷真的很令人痛心。 不過， 你身上還有這無限希望， 真是萬幸。`
+
+[pre required quest]
+	4089
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3096
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`成員店禮品`
+
+[explain]
+	`    在成員店獲得物品時， 可以獎勵30%%的疲勞值。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	11
+
+[field image]
+	`Item/FieldImage.img`	22
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`PAPER_TOUCH`
+
+[npc gift disallowance]
+	1

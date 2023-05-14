@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`奇跡大陸 - 愛麗絲`
+
+[explain]
+	`    攻擊時以2%%的機率受到50%%的追加傷害。 （決鬥場內受到20%%的追加傷害。）
+    攻擊時以 2%%的機率讓敵人在10秒內進入出血狀態。 （ 決鬥場內5秒內出血狀態攻擊時）
+    以2%%的機率讓敵人在10秒內進入中毒狀態。 （決鬥場內5秒內中毒狀態）
+    攻擊時以2%%的機率讓敵人在2秒內進入暈眩狀態。 （決鬥場內不發動。）
+    狀態異常效果的等級和傷害根據角色等級不同的適用， 等級越高傷害越高。`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	217
+
+[custom animation]
+	`TitleAnimation/wonderland_dnf.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`%`	50
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	-1	7
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`poison`	-1	7
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	-1
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[active status]
+		`bleeding`	-1	7
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[active status]
+		`poison`	-1	7
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

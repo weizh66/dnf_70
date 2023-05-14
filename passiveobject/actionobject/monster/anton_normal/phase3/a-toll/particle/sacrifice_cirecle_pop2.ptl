@@ -1,0 +1,55 @@
+#PVF_File
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	200	2200
+
+[z axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	100	500
+
+[rotation angle range type]
+	`[circle]`
+
+[rotation angle variable]
+	360	0
+
+[rotation angle]
+	360	90	0
+
+[creation frequency]
+	-1
+
+[maximum create number]
+	50
+
+[maximum create time]
+	0
+
+[object type]
+	`[animation]`
+
+[object]
+	`../Animation/Sacrifice_Circle_light2_D.ani`	-1
+	`../Animation/Sacrifice_Circle_light3_D.ani`	-1
+	`../Animation/Sacrifice_Circle_light4_D.ani`	-1
+	`../Animation/Sacrifice_Circle_light5_D.ani`	-1
+	`../Animation/Sacrifice_Circle_light6_D.ani`	-1
+[/object]
+
+[life time]
+	500
+
+[transparent value]
+	100	0
+
+[landing type]
+	`[slide]`

@@ -1,0 +1,234 @@
+#PVF_File
+
+[set name]
+	`分而治之  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	6
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[fighter]`	6
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[fighter]`	6
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	6
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at fighter]`	6
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	6
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[fighter]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[fighter]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[at fighter]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[下段踢]僵直時間 +10%%
+[下段踢]攻擊力 +20%%
+[肘擊]冷卻時間 -1秒
+[肘擊]攻擊力 +20%%
+格斗家(女) :
+[下段踢]僵直時間 +10%%
+[下段踢]攻擊力 +20%%
+[崩拳]冷卻時間 -1秒
+[崩拳]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[fighter]`	4
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[fighter]`	4
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	4
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[fighter]`	1
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[fighter]`	1
+		`[dungeon type]`
+		`[static]`	1
+		`+`	30
+		`[at fighter]`	1
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at fighter]`	1
+		`[dungeon type]`
+		`[static]`	1
+		`+`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[碎骨]冷卻時間 -2秒
+[碎骨]僵直時間 +10%%
+[碎骨]攻擊力 +20%%
+[鐵山靠]冷卻時間 -2秒
+[鐵山靠]貼近敵人時追加傷害 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	84
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	84
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	84
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[fighter]`	84
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at fighter]`	84
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	84
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	17
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	17
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[fighter]`	17
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[fighter]`	17
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[fighter]`	17
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at fighter]`	17
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	17
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	17
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at fighter]`	17
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	17
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[fighter]`	37
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-50
+		`[at fighter]`	37
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[疾風追擊]攻擊力 +30%%
+[鷹踏]冷卻時間 -2秒
+[鷹踏]攻擊力 +20%%
+[強拳]攻擊速度減少率 -5%%
+[衝膝]冷卻時間 -6秒
+[衝膝]攻擊力 +20%%
+格斗家(女) :
+[疾風追擊]攻擊力 +30%%
+[鷹踏]冷卻時間 -2秒
+[鷹踏]攻擊力 +20%%
+[強拳]攻擊速度減少率 -5%%
+[寸拳]冷卻時間 -6秒
+[寸拳]攻擊力 +20%%`
+[/piece set ability]

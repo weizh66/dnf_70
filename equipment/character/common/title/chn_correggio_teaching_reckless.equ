@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`魯莽的修煉者`
+
+[explain]
+	`    攻擊時有1%%的幾率、 施放技能時有2%%的幾率， 召喚出冰霜之薩亞。`
+
+[flavor text]
+	`    為了得到更強的力量， 我不惜向冰霜之薩亞挑戰， 忍受著嚴寒才擁有了現在可以冰凍萬物的能力。 可是，為什麼？ 為什麼會這樣？！ 如果能再堅持一會，說不定就能淨化更多的祭壇……我好不甘心啊！ -- 克雷澤望著一湧而上的地獄軍團歎道`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/stackable/AdvanceAltar_ch.img`	3
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/chn_Correggio_Teaching.ani`
+[/custom animation]
+
+[HP MAX]
+	238
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[physical defense]
+	22
+
+[magical defense]
+	22
+
+[move speed]
+	30
+
+[attack speed]
+	20
+
+[cast speed]
+	30
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		1
+	[passive object]
+		20012	0	0	0	27	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[passive object]
+		20012	0	0	0	27	0
+		``
+	[/passive object]
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[need material]
+	2749212	89
+[/need material]

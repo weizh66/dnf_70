@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`槍械之神 - 閃`
+
+[flavor text]
+	`    擁有它的人， 會凈化這世界的黑暗！ --機械七戰神中其中一人`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`automatic`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	1500
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`item/weapon/gunner/automatic.img`	40
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	30
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	375	320
+
+[equipment magical attack]
+	550	469
+
+[separate attack]
+	360	243
+
+[stuck]
+	1
+
+[skill levelup]
+	`[gunner]`	79	2
+	`[gunner]`	80	2
+	`[gunner]`	81	2
+	`[at gunner]`	79	2
+	`[at gunner]`	80	2
+	`[at gunner]`	81	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[routing priority]
+	`gunner`	3
+	`at gunner`	3
+[/routing priority]
+
+[need material]
+	2749095	129
+
+[possible kiri protect]

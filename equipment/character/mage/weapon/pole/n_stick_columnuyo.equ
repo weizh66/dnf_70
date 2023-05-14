@@ -1,0 +1,214 @@
+#PVF_File
+
+[name]
+	`無軒之幻魄`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使所有隊員進入無敵狀態。 (在決斗場中持續5秒)`
+
+[detail explain]
+	`    施放技能時， 有3%%的幾率使所有隊員進入無敵狀態， 效果持續10秒。 (消耗5個無色小晶塊， 且在決斗場中僅持續5秒)`
+
+[flavor text]
+	`    傳言無軒是統治過半個宇宙的強大異界星， ‘幻魄’是它的五大史詩武器之一， 但不知為何落到異面生物手里， 難道又是異變引起的？`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`pole`
+
+[creation rate]
+	125
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2400
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/mage/pole.img`	45
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[magical attack]
+	44
+
+[equipment physical attack]
+	674	609
+
+[equipment magical attack]
+	562	508
+
+[separate attack]
+	378	255
+
+[move speed]
+	20
+
+[attack speed]
+	50
+
+[stuck]
+	-1
+
+[animation job]
+	`[mage]`
+
+[variation]
+	7	2
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	7	2
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`POLE_TOUCH`
+
+[if]
+	[module]
+		`[dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		5000
+	[probability]
+		3
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[assault]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		3000
+	[probability]
+		3
+	[buff]
+		`unbreakable`
+[/then]
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[possible kiri protect]

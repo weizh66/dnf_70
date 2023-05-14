@@ -1,0 +1,148 @@
+#PVF_File
+
+[name]
+	`鋼之月牙`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入減速狀態。`
+
+[detail explain]
+	`攻擊時以3%%的機率讓敵人10秒內呈現鈍化狀態，移動速度減少14%%，攻擊速度減少14%%。 (若敵人高於Lv55，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	56
+
+[price]
+	94400
+
+[repair price]
+	79296
+
+[value]
+	377600
+
+[equipment physical attack]
+	555	501
+
+[equipment magical attack]
+	333	300
+
+[separate attack]
+	256	173
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[gunner]`	12	1
+	`[gunner]`	71	1
+	`[at gunner]`	12	1
+	`[at gunner]`	71	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`item/weapon/gunner/hcannon.img`	36
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	6	2
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	6	2
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[active status]
+		`slow`	55	14	14
+[/then]
+
+[possible kiri protect]

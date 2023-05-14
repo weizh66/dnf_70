@@ -1,0 +1,174 @@
+#PVF_File
+
+[set name]
+	`機密突擊隊  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`%`	40
+		`[gunner]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[gunner]`	48
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[gunner]`	2
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-1
+		`[at gunner]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`%`	40
+		`[at gunner]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[at gunner]`	48
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-1
+	[/skill data up]
+	[parameter basic explain]
+		`[閃擊地雷]攻擊力 +20%%
+[閃擊地雷]爆炸大小 +40%%
+[散彈槍]冷卻時間 -1.5秒
+[散彈槍]近距離命中時， 追加傷害比率 +20%%
+[冰凍彈]子彈數 -1`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	53
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[gunner]`	53
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[gunner]`	53
+		`[dungeon type]`
+		`[static]`	4
+		`%`	25
+		`[gunner]`	53
+		`[dungeon type]`
+		`[static]`	5
+		`%`	25
+		`[gunner]`	1
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-1
+		`[at gunner]`	53
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[at gunner]`	53
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[at gunner]`	53
+		`[dungeon type]`
+		`[static]`	4
+		`%`	25
+		`[at gunner]`	53
+		`[dungeon type]`
+		`[static]`	5
+		`%`	25
+		`[at gunner]`	1
+		`[dungeon type]`
+		`[level]`	0
+		`+`	-1
+	[/skill data up]
+	[parameter basic explain]
+		`神槍手(男) :
+[爆炎彈]子彈數 -1
+[地獄烈炎]冷卻時間 -9秒
+[地獄烈炎]最大蓄氣時， 爆炸攻擊力 +20%%
+神槍手(女) :
+[爆炎彈]子彈數 -1
+[光子爆彈]冷卻時間 -9秒
+[光子爆彈]最大蓄氣時， 爆炸攻擊力 +20%%
+[光子爆彈]爆炸范圍 +25%%
+[光子爆彈]電磁范圍 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[gunner]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gunner]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[gunner]`	77
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[gunner]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	2000
+		`[gunner]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[at gunner]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[at gunner]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at gunner]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4500
+		`[at gunner]`	77
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+		`[at gunner]`	58
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	2000
+		`[at gunner]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[尼爾狙擊]冷卻時間 -15秒
+[尼爾狙擊]攻擊力 +25%%
+[尼爾狙擊]射擊次數 +1
+[C4遠程炸彈]冷卻時間 -4.5秒
+[C4遠程炸彈]單體目標的炸彈裝置數量上限 +1
+[G-18C冰凍手雷]冷卻時間 +2秒`
+[/piece set ability]

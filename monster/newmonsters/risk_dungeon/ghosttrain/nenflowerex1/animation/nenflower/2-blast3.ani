@@ -1,0 +1,44 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/NenFlower/st-ground.img`
+		4
+	[IMAGE POS]
+		-164	-29
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		700
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/NenFlower/st-ground.img`
+		4
+	[IMAGE POS]
+		-164	-29
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/NenFlower/ed-ground.img`
+		0
+	[IMAGE POS]
+		-210	-60
+	[IMAGE RATE]
+		0.8500000238418579	0.8500000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

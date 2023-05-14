@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`冥玉驚魂刀`
+
+[basic explain]
+	`    攻擊時， 有7%%的幾率使自身增加15點力量和17點智力， 效果持續60秒。 (效果最多可重疊5次)
+暴擊傷害 +8%%`
+
+[detail explain]
+	`    攻擊時， 有7%%的幾率使自身增加15點力量和17點智力， 效果持續60秒。 (效果最多可重疊5次)
+暴擊傷害 +8%% (在決斗場中 +4%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/katana.img`	80
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	63
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	601	550
+
+[separate attack]
+	360	243
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[elemental property]
+	`[fire element]`
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	5
+
+[stuck]
+	1
+
+[variation]
+	10	4
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[fire attack]
+	10
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	8
+[/then]
+
+[if]
+	[event attack success]
+		1
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[appendage]
+		117
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	4
+	[/then]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`寵物蛋（金色獨角獸）`
+
+[explain]
+	`在地下城獲得金幣時，自己的金幣量增加3%%。隊員獲得時，自己的金幣量也會增加3%%。`
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature_egg.img`	48
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[need material]
+	3340	46
+
+[sub type]
+	1
+
+[creature species]
+	55
+
+[output index]
+	63094
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	5.0
+
+[physical attack]
+	10
+
+[magical attack]
+	10
+
+[room list move speed rate]
+	0.1
+
+[move wav]
+	`CREATURE_EGG_TOUCH`
+
+[set item master]
+	-1

@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`封·錦繡丹華長褲`
+
+[basic explain]
+	`  每2000點物理防御力增加15點智力。（最多增加225點）`
+
+[flavor text]
+	`  這衣服竟然是用鋼線刺繡的，怪不得挺實用，厲害！ -伊尼西亞`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12561
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[magical attack]
+	42
+
+[magical defense]
+	42
+
+[HP MAX]
+	375
+
+[need material]
+	3821	800
+
+[price]
+	72900
+
+[repair price]
+	58320
+
+[value]
+	58320
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3460	3330
+
+[icon]
+	`Item/new_equipment/02_cloth/pants/cloth_pants.img`	18
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`equipment physical defense`	2000
+		`magical attack`
+		`+`	15	225
+[/then]
+
+[possible kiri protect]

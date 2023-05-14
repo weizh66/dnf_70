@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`天空的引路人 - 王良一`
+
+[basic explain]
+	`所有攻擊力 +3%%`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12593
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	58
+
+[magical attack]
+	58
+
+[attack speed]
+	30
+
+[cast speed]
+	50
+
+[move speed]
+	30
+
+[anti evil]
+	16
+
+[price]
+	134400
+
+[value]
+	107520
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	3424	3136
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[all elemental attack]
+	15
+
+[all elemental resistance]
+	12
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	242
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	3
+	[stat by condition]
+		`magical attack bonus`
+		`%`	3
+	[stat by condition]
+		`separate attack`
+		`%`	3
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,124 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	13
+		`[dungeon type]`
+		`[static]`	6
+		`+`	-2
+		`[demonic lancer]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[demonic lancer]`	13
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[demonic lancer]`	13
+		`[dungeon type]`
+		`[static]`	1
+		`%`	10
+		`[demonic lancer]`	13
+		`[dungeon type]`
+		`[static]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[行云 : 風]槍旋轉次數 -2次
+[行云 : 風]攻擊力 +50%%
+[行云 : 風]吸附敵人的力量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	12
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-1
+		`[demonic lancer]`	12
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[demonic lancer]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	15
+		`[dungeon type]`
+		`[level]`	1
+		`+`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[旋風槍]旋轉次數 -2
+[旋風槍]攻擊力 +50%%
+[狂龍怒嘯]攻擊力 +20%%
+[狂龍怒嘯]旋轉速度 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-1
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[level]`	6
+		`%`	40
+		`[demonic lancer]`	19
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[static]`	11
+		`+`	-1
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[level]`	0
+		`%`	60
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	20
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[奪命雷霆槍]刺擊次數 -3次
+[奪命雷霆槍]攻擊力 +40%%
+[奪命雷霆槍]無色小晶塊消耗量 +1
+[風火燎原]可發射次數 -1
+[風火燎原]攻擊力 +60%%
+[風火燎原]穿透力 +30%%
+[風火燎原]無色小晶塊消耗量 +1`
+[/piece set ability]

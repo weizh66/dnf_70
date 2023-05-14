@@ -1,0 +1,86 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	42
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	42
+		`[dungeon type]`
+		`[static]`	7
+		`+`	1
+		`[at priest]`	42
+		`[dungeon type]`
+		`[static]`	8
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[火焰精華]十字爆炸范圍 +35%%
+[火焰精華]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	43
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+		`[at priest]`	39
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at priest]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[神焰]持續傷害攻擊力 +10%%
+[凈化火焰瓶]攻擊力 +20%%
+[火焰精華]冷卻時間 -25%%
+[神焰洗禮]攻擊力 +35%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	53
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[at priest]`	53
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[at priest]`	53
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-30
+		`[at priest]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	46
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-33
+		`[at priest]`	42
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[凈化之焰]冷卻時間 -35%%
+[凈化之焰]攻擊力 -30%%
+    施放[凈化之焰]時， 連續兩次使用[凈化之焰]。
+[神焰洗禮]攻擊力 +30%%
+[神焰洗禮]冷卻時間 -30%%
+[火焰精華]攻擊力 +20%%`
+[/piece set ability]

@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	1009
+
+[job]
+	`[mage]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	5351
+[/pre required quest]
+
+[monster reward item]
+	17	1500	-1	4360	1	70	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5353
+
+[name]
+	`覺醒 - 魔術師 (3/4)`
+
+[depend message]
+	`下面是魔法力的測試。 這次的試練對象是赫頓瑪爾的阿爾伯特， 他可被稱為是天才武道家。
+我希望這次測試你能夠謹慎些！`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`這次的評分……也還不錯， 95分！……唉， 我是不是太心軟了……`

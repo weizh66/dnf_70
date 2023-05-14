@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	996
+
+[name]
+	`覺醒 - 大暗黑天 (1/4)`
+
+[depend message]
+	`年輕人， 你好像還沒有完全熟悉自己的心眼， 現在有沒有后悔當初放棄了眼睛呢？
+如果你能成為像我一樣的大暗黑天， 那就可以完美地感受萬物的波動， 從而發覺自己剛才的表情是多么的愚昧……
+不相信嗎？ 我敢保證， 等你睜開波動之眼后， 確實可以看到比一般人更多的東西。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`很好， 能收集到這些材料， 說明失明并沒有對你造成障礙。`

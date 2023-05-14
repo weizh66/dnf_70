@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	3501
+[/pre required quest]
+
+[enemy reward item]
+	604	2	11000	-1	4222	1	100	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4222	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	4229	5
+[/reward int data]
+
+[reward selection int data]
+	1133	4	1134	4	1135	4	1136	4
+[/reward selection int data]
+
+[name]
+	`追捕逃亡者 (3/3)`
+
+[depend message]
+	`啊， 你來啦。 我還在擔心萬一你不來……請坐吧， 不必拘束。
+我就直說了， 幫我懲治一下那個吃霸王餐的無恥之徒吧！ 他欠了我200萬金幣的酒錢， 卻沒有一點要還錢的意思。
+他的名字叫虎延爵， 這個家伙神出鬼沒， 沒有人知道他到底何時會出現在死亡之塔。
+如果你能抓住他， 就讓他把賒下的酒錢還清。 如果他沒錢， 拿相應價值的東西來抵債也行。 如果你能幫我這個忙， 我會送你特別的禮物。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 從隨機出現的一點春虎延爵那里弄來一些值錢的東西， 然后交給索西雅。`
+
+[solve message]
+	`這是虎延爵的虎牌吧？ 呵呵， 希望有一天他會拿錢來贖回它。 辛苦你了， 先喝一杯， 好好休息一下吧。`

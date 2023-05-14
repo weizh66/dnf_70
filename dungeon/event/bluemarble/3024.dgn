@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`迷亂之村哈穆林`
+
+[explain]
+	`冒險家殺死盤踞在哈穆林的瘋狂盜賊團首領後， 以為終於找到了傳染病的真兇； 但不斷湧現的盜賊團和村莊深處隱隱約約傳來的笛聲， 又讓冒險家們陷入了新的迷惑， 諾斯瑪爾到底隱藏有什麼秘密？`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act6.img`
+
+[worldmap pattern info]
+	2	3
+	`WorldMap/SelectdungeonSlot/northmaier.img`	1
+
+[minimum required level]
+	99
+
+[basis level]
+	53
+
+[experience increasing point]
+	1.0
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	621	622	623	624	625	626	627	628	629	630
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[special passive object item]
+	0	-1	3	1089	1000	1090	1000	3217	3000
+[/special passive object item]
+
+[seal door map index]
+	60019
+
+[seal door pos]
+	3	0
+
+[dummy appear count]
+	2
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	1
+
+[event monster]
+	2	8000	61728	1	300	80	1
+[/event monster]
+
+[hell dungeon]
+	1

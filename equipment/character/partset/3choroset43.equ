@@ -1,0 +1,80 @@
+#PVF_File
+
+[set name]
+	`寂靜之誓  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	53
+		`[dungeon type]`
+		`[level]`	2
+		`+`	20
+		`[priest]`	53
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	7
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[priest]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[武器祝福]持續時間 +20%%
+[武器祝福]武器命中率在原有基礎上提升20%%
+[天使祝福]持續時間 +20%%
+[天使祝福]智力增加量 +20`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	7
+		`[dungeon type]`
+		`[level]`	1
+		`+`	33
+		`[priest]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`+`	20
+		`[priest]`	7
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[priest]`	53
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+	[/skill data up]
+	[parameter basic explain]
+		`[武器祝福]物理攻擊力 +33
+[武器祝福]冷卻時間 -2秒
+[天使祝福]魔法攻擊力 +20
+[天使祝福]冷卻時間 -2秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	40
+		`[priest]`	45
+		`[dungeon type]`
+		`[level]`	1
+		`+`	68
+		`[priest]`	45
+		`[dungeon type]`
+		`[level]`	2
+		`+`	56
+	[/skill data up]
+	[parameter basic explain]
+		`[榮譽祝福]冷卻時間 -40%%
+[榮譽祝福]力量 +68
+[榮譽祝福]智力 +56`
+[/piece set ability]

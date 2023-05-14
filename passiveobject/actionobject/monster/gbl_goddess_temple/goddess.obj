@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`阿爾索羅女神招喚槍`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/goddess.act`
+
+[team]
+	100
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

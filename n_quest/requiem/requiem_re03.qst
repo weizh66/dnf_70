@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	132
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	81	99
+
+[pre required quest]
+	4604
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	200000	3037	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4830	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`前往時間之門 - 雷奎安（重複）`
+
+[depend message]
+	`如果想冒險這危險的地方，我可以幫你唱歌開啟時間之門 - 雷奎安的門。不過我已失去了大部分魔力，可能力所不能啊。
+為了讓我繼續唱歌，能幫我找來一些金幣材料嗎。`
+
+[condition message]
+	`為了進入時間之門 - 雷奎安，去收集 20萬金幣和無色小晶塊 100個`
+
+[solve message]
+	`聽了我的歌聲時間之門 - 雷奎安的門好像開啟了。`
+
+[quest point]
+	0

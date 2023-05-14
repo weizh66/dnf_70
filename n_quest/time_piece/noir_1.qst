@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	37	99
+
+[monster reward item]
+	402	31	-1	4797	1	80	10	422	32	-1	4797	1	80	10	1010	35	-1	4797	1	80	10	61001	1502	-1	4797	1	80	10
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4797	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 諾伊佩拉`
+
+[depend message]
+	`吸收黑暗與陰森氣息的時間碎片……時間碎片掉落在諾伊佩拉後，似乎就吸收了當地的氣息。
+ 諾伊佩拉是死者活過來活動的地方，要小心。真想知道那個地方的時間碎片具備何種力量。`
+
+[condition message]
+	`擊敗諾伊佩拉地區的頭目，收集時間碎片後交給最後的先知者`
+
+[solve message]
+	`看來邪惡力量聚集在這個碎片當中了……但是，這也能讓你的力量變得更強。`
+
+[quest point]
+	4

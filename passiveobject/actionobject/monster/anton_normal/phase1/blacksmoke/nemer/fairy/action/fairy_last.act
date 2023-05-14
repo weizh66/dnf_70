@@ -1,0 +1,103 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/fairy_Last_0.ani`
+	[SUB ANI]
+		`../Animation/fairy_Last_4.ani`	0	-3
+		`../Animation/fairy_Last_5.ani`	0	-2
+		`../Animation/fairy_Last_6.ani`	0	-1
+		`../Animation/fairy_Last_3.ani`	0	1
+		`../Animation/fairy_Last_1.ani`	0	2
+		`../Animation/fairy_Last_2.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`NELEUBE_HEAL_EXP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[IS IN AREA]
+			[POS]
+				0	0	0
+			[RANGE]
+				120	100	100
+			[COORDINATE]
+				`RELATIVE`
+		[/IS IN AREA]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18772
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+		[NO EFFECT]
+		[FOLLOWING TARGET]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		1	1
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69313
+		[/IS INDEX]
+	[/CHECKUP]
+	[DISTANCE]
+	[<=]
+		150
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[APPENDAGE]
+		30000
+		[physical attack]
+		[%]
+			60
+		[magical attack]
+		[%]
+			60
+		[physical defense]
+		[%]
+			300
+		[magical defense]
+		[%]
+			300
+		[move speed]
+		[+]
+			100
+	[/APPENDAGE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[RESTORE]
+	[HP]
+		20
+	[%]
+[/BEHAVIOR]

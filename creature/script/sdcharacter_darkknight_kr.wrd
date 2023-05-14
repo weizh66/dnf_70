@@ -1,0 +1,76 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`剎影…抓了一百萬次，獻上這把。`
+		`哼…`
+		`（咚~）`
+		``
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`（咕嚕嚕~）`
+			`…`
+		[/fill point under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			``
+		[/renamed]
+		[call the name]
+			`在名字前加上黑暗…！ 再叫我。`
+		[/call the name]
+		[equip]
+			`（咚~）`
+			``
+		[/equip]
+		[level up]
+			`哼…`
+			``
+		[/level up]
+		[character level up]
+			`喔歐…`
+			``
+		[/character level up]
+		[eat feed]
+			`吞吞吐吐`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`吞吞吐吐`
+		[/eat feed]
+		[dying]
+			``
+		[/dying]
+		[using skill]
+			`刪… 掉… 了！`
+			`哈啊！`
+		[/using skill]
+		[skill gauge full]
+			`我體內的黑暗蠢蠢欲動`
+			`這就是… 時間的力量`
+			``
+			``
+		[/skill gauge full]
+		[call the name]
+			`在名字前加上黑暗…！ 再叫我。`
+		[/call the name]
+		[equip]
+			`（咚~）`
+			``
+		[/equip]
+		[level up]
+			`哼…`
+			``
+		[/level up]
+		[character level up]
+			`喔歐…`
+			``
+		[/character level up]
+	[/main game]
+[/trigger]

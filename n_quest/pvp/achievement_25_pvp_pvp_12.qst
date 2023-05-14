@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	1711
+[/pre required quest]
+
+[type]
+	`[pvp rank]`
+
+[sub type]
+	0
+
+[int data]
+	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`武斗家的資格測試`
+
+[depend message]
+	`這段時間的艱苦訓練不知道對你有幫助嗎？ 我給你一次機會， 看你是否具有武斗家的資格。 記住， 通過測試的要求是你要達到決斗等級6級。 `
+
+[condition message]
+	`    前往決斗場， 把決斗等級提升到6級后向阿爾伯特回復。`
+
+[solve message]
+	`祝賀你！ 你總算踏上武斗家之路了， 不過這才是剛剛開始， 你還得繼續努力。 `
+
+[quest point]
+	4

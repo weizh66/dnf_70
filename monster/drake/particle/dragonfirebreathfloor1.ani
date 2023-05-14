@@ -1,0 +1,33 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`monster/drake/ms-dragon.img`
+		2
+	[IMAGE POS]
+		-50	-20
+	[IMAGE RATE]
+		0.8999999761581421	0.699999988079071
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		300
+
+[FRAME001]
+	[IMAGE]
+		`monster/drake/ms-dragon.img`
+		2
+	[IMAGE POS]
+		-50	-50
+	[IMAGE RATE]
+		1.7000000476837158	1.100000023841858
+	[IMAGE ROTATE]
+		0.5
+	[INTERPOLATION]
+		1

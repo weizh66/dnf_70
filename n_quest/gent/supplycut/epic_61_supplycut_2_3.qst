@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	5749
+[/pre required quest]
+
+[enemy reward item]
+	56005	1	84	2	4396	1	100	3	56005	1	84	3	4396	1	100	3	56005	1	84	4	4396	1	100	3
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4396	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`生物實驗的真相`
+
+[depend message]
+	`消滅吉賽爾的實驗犧牲品， 并不能從根本上解決改造問題。
+我需要收集吉賽爾的實驗數據， 然后做一個詳盡的分析， 從中找出阻止他繼續作惡的方法……我希望你可以幫我。
+對那些已經死去的人， 我們無能為力， 但至少可以防止新的犧牲者出現……
+我想那些實驗體的DNA樣本應該存放在補給基地里， 你去的時候一定要小心！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『補給線阻斷戰』， 擊敗布萊斯托并找到[實驗體的DNA樣本]， 要求地下城難度為王者級。`
+
+[solve message]
+	`沒想到吉賽爾最后還是造出了怪物！
+雖然我很怕麻煩， 但這件事關系重大， 我必須負起責任。`
+
+[quest point]
+	4

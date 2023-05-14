@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	28
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7654
+
+[name]
+	`勇者 - 決戰使徒前的準備`
+
+[depend message]
+	`聽說過異次元裂縫嗎？ 據說通過這條裂縫， 可以進入異界。
+不過那個地方充滿了危險， 而且……我還感受到了很強烈的使徒氣息。
+冒險家， 面對這難以預料的危險， 你需要提高自身的抗魔能力。`
+
+[condition message]
+	`    如果想提高自身的抗魔能力， 請找艾麗絲談談。`
+
+[solve message]
+	`想知道怎么提高抗魔能力嗎？ 呵呵， 你來找我， 就等于找到答案了！`
+
+[quest point]
+	4

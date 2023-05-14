@@ -1,0 +1,139 @@
+#PVF_File
+
+[name]
+	`九龍滅天珠`
+
+[basic explain]
+	`[落雷符]閃電間隔減少40%%
+[落雷符]每次閃電數增加3
+[落雷符]冷卻時間-5秒`
+
+[flavor text]
+	`  失落已久的九顆龍珠， 相傳得到它就能毀天滅地。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	100
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[price]
+	99200
+
+[need material]
+	3821	800
+
+[repair price]
+	83328
+
+[value]
+	396800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	900	800
+
+[equipment magical attack]
+	1200	1100
+
+[separate attack]
+	600	500
+
+[magical critical hit]
+	10
+
+[light attack]
+	40
+
+[skill levelup]
+	`[priest]`	40	5
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/rosary/rosary.img`	125
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	4	1
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[priest]`	40
+	`[all]`
+	`[static]`	2
+	`%`	-40
+	`[priest]`	40
+	`[all]`
+	`[level]`	2
+	`+`	3
+	`[priest]`	40
+	`[all]`
+	`[cooltime]`	0
+	`+`	-5000
+[/skill data up]
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

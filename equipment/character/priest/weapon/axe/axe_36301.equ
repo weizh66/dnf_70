@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`APC專用戰斧`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[rarity]
+	4
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/priest/axe.img`	2
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	18
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	800
+
+[value]
+	640
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	749	677
+
+[equipment magical attack]
+	530	479
+
+[separate attack]
+	378	255
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[variation]
+	18	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[possible kiri protect]

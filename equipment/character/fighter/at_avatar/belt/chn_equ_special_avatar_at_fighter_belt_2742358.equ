@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`黃金颶風斗士腰帶`
+
+[explain]
+	`    要成為格斗之王， 除了擁有非凡的操作技術之外， 還要有廣闊的胸襟、 公正的姿態以及一顆勇敢的心。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_abelt.img`	59
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0	30	0	0	660	0	0	0	0	1980	0	0	0	0	4500	2
+	`[D socket]`
+	`[D socket]`
+[/avatar type select]
+
+[variation]
+	23	0
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2742156
+
+[all elemental resistance]
+	10
+
+[stuck resistance]
+	50
+
+[avatar func filter]
+	2

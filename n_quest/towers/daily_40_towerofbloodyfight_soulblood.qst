@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	5654	5657
+[/pre required quest]
+
+[enemy reward item]
+	56004	1	-1	-1	4366	1	100	6	56421	1	-1	-1	4366	1	100	6	56420	1	-1	-1	4366	1	100	6	56126	1	-1	-1	4366	1	100	6	56423	1	-1	-1	4366	1	100	6	56007	1	-1	-1	4366	1	100	6
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4366	6
+[/int data]
+
+[dungeon info]
+	11006	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	3229	9
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`預言的道具`
+
+[depend message]
+	`冒險家， 你是不是正要前往無盡的祭壇？ 我聽去過那里的勇士們說， 祭壇內的生物身上藏有珍貴的魂之血。
+魂之血是我們占卜的必備材料， 只要將它注入水晶球內， 再演奏瑪麗蕾特， 就能顯現出未來的影像。
+可惜魂之血無法重復利用， 用過一次之后就變得和普通的水一樣了……
+冒險家， 我需要大量的魂之血， 你能幫我收集一些嗎？`
+
+[condition message]
+	`    前往亡者峽谷的『無盡的祭壇』， 從稀有怪物身上收集6個[魂之血]。`
+
+[solve message]
+	`謝謝你……我會用它們幫助更多需要幫助的人。`

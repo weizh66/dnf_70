@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`阿拉德騎士團給予的特別髮型。阿拉德騎士團資格被剝奪的情況，角色回收。`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atmage/mm_ahair.img`	32
+
+[equipment type]
+	`[hair avatar]`	0
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	9	2
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	800
+	`hair_b`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[avatar func filter]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[room list move speed rate]
+	0.2

@@ -1,0 +1,225 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	16
+
+[FRAME000]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		12
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`PW_GRANDCROSS_01`
+	[DAMAGE BOX]
+	-22	-5	-3	49	10	102
+
+[FRAME001]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		76
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`THUNDERHAMMER`
+	[DAMAGE BOX]
+	-12	-5	-3	35	10	102
+
+[FRAME002]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		77
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-40	-5	-3	55	10	94
+
+[FRAME003]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		78
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-42	-5	-5	56	10	95
+
+[FRAME004]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		78
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-42	-5	-3	55	10	92
+
+[FRAME005]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		78
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-43	-5	-3	55	10	92
+
+[FRAME006]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		79
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-37	-5	-3	56	10	93
+
+[FRAME007]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		81
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	20	-5	-4	27	10	113
+
+[FRAME008]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		34
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-5	-5	-5	35	10	120
+
+[FRAME009]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		83
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		50
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`PW_GRANDCROSS_02`
+	[DAMAGE BOX]
+	45	-5	-7	65	10	53
+	[ATTACK BOX]
+	76	-60	10	400	120	353
+
+[FRAME010]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		84
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`HOLYSANCTUARY_EXP`
+	[DAMAGE BOX]
+	45	-5	-7	65	10	58
+	[ATTACK BOX]
+	43	-60	10	433	120	353
+
+[FRAME011]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		85
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	45	-5	-7	65	10	61
+
+[FRAME012]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		85
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	45	-5	-7	65	10	63
+
+[FRAME013]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		85
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		200
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	45	-5	-7	65	10	63
+
+[FRAME014]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		86
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	14	-5	-5	31	10	95
+
+[FRAME015]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		12
+	[IMAGE POS]
+		-250	-290
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-10	-5	-3	35	10	103

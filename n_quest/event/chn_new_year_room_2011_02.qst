@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20539
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680717	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2680719	2	2680720	2
+[/reward selection int data]
+
+[name]
+	`春節大掃除！ (2/6)`
+
+[depend message]
+	`多虧你的幫忙， 我的旅館變干凈了， 我很開心呢。
+你聽到那個傳聞了嗎？ 聽說那些變異的怪物攜帶的紅紙會給人帶來好運呢~
+冒險家， 如果你在冒險途中發現那些紅紙， 能帶點給我嗎？
+嘻嘻~~我想用那些紅紙裝飾旅館~ 這樣旅館就會變得既美觀又能給冒險家帶來好運了~`
+
+[condition message]
+	`    前往任意地下城， 收集25張[紅紙]。`
+
+[solve message]
+	`非常感謝！ 祝冒險家在新的一年好運連連~`

@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`格鬥人偶`
+
+[explain]
+	`    使用後， 可以召喚出1名格鬥人偶協助自身戰鬥， 格鬥人偶存在15分鐘。 (該物品為歸來的勇士專用道具， 只能在地下城中使用)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	10
+
+[icon]
+	`Item/stackable/consumption.img`	602
+
+[icon mark]
+	`item/IconMark.img`	34
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	900000
+
+[cooltime group]
+	100
+
+[move wav]
+	`FOOD_TOUCH`
+
+[summon apc]
+	5412	60	60	900000	1

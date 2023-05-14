@@ -1,0 +1,33 @@
+#PVF_File
+
+[name]
+	`Flame legs Floor`
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/FlameFloor.act`
+
+[attack info]
+	`AttackInfo/FlameFloor.atk`
+
+[hp max]
+	1
+
+[hp destroy]
+	1
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1250
+[/object destroy condition]

@@ -1,0 +1,183 @@
+#PVF_File
+
+[name]
+	`鬼眼煉獄`
+
+[basic explain]
+	`    若施放[聖愈之風]， 可使640px範圍內的所有隊員進入石化狀態， 並使其保持無敵狀態， 效果持續4秒。
+    
+    [聖愈之風]恢復量 +50%%
+    [聖愈之風]施放時間 -100%%
+    [聖愈之風]持續時間 +100%%
+    [聖愈之風]使用次數 -3
+    [聖愈之風]冷卻時間 +20%%`
+
+[detail explain]
+	`    若施放[聖愈之風]， 可使640px範圍內的所有隊員進入石化狀態， 並使其保持無敵狀態， 效果持續4秒。
+    
+    [聖愈之風]恢復量 +50%%
+    [聖愈之風]施放時間 -100%%
+    [聖愈之風]持續時間 +100%%
+    [聖愈之風]使用次數 -3
+    [聖愈之風]冷卻時間 +20%%`
+
+[flavor text]
+	`    鬼眼狂刀`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[physical defense]
+	195
+
+[magical defense]
+	195
+
+[cast speed]
+	20
+
+[stone resistance]
+	200
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	911	814
+
+[equipment magical attack]
+	865	773
+
+[equipment physical defense]
+	900	900
+
+[equipment magical defense]
+	900	900
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/priest/cross/cross.img`	124
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	40	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[item aura]
+	`hp max`
+	`+`	500	640
+
+[skill data up]
+	`[priest]`	26
+	`[all]`
+	`[level]`	0
+	`%`	100
+	`[priest]`	26
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[priest]`	26
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[priest]`	26
+	`[all]`
+	`[casting time]`	0
+	`%`	-100
+	`[priest]`	26
+	`[all]`
+	`[cooltime]`	0
+	`%`	20
+	`[priest]`	26
+	`[all]`
+	`[limit count]`	26
+	`+`	-3
+[/skill data up]
+
+[if]
+	[use skill]
+		`priest`	26
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`party`	640
+	[duration]
+		4000
+	[active status]
+		`stone`	90	10
+	[buff]
+		`unbreakable`
+[/then]
+
+[possible kiri protect]

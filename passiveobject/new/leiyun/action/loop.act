@@ -1,0 +1,219 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Vajra/Vajra_maincloud_cloudcf.ani`
+	[SUB ANI WITH XYZ]
+		`../Animation/Vajra/Vajra_maincloud_cloud.ani`	1	0	0	0	200
+	[/SUB ANI WITH XYZ]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FOLLOWING TARGET AND DIRECTION]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		13	13
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		15	15
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		17	17
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		19	19
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		21	21
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			250112
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			340
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			250113
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM SELECT]
+			110	80	75	50	45	15
+		[/RANDOM SELECT]
+		[RANDOM SELECT]
+			-20	20
+		[/RANDOM SELECT]	400
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

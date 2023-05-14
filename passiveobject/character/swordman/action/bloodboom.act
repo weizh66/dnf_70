@@ -1,0 +1,26 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/bloodboom/finish_bloodboom_finish3.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	70
+		[MOVE ME]
+	[/TELEPORT]
+	[FOLLOWING TARGET AND DIRECTION]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

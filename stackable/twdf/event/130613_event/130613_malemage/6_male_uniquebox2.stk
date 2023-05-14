@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`大魔法師的武器寶箱`
+	
+
+[explain]
+	`等級40的+10武器正沉睡著。`
+	
+
+[flavor text]
+	`男魔法師上市活動`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption_tw.img`	40
+
+[stackable type]
+	`[booster selection]`	0
+
+[cool time]
+	1000
+
+[booster category num]
+	0
+
+[booster selection num]
+	0
+
+[booster select category]
+	0	0
+	[booster equipment upgrade]
+		10
+	[equipment]
+		606010003	1	606030003	1
+	[/equipment]
+[/booster select category]
+
+[move wav]
+	`BONE_TOUCH`
+
+[expiration date]
+	1372262400

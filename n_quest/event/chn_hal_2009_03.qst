@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2483
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680345	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680346	5
+[/reward int data]
+
+[reward selection int data]
+	39132	1	43126	1	47131	1	51121	1	55064	1
+[/reward selection int data]
+
+[name]
+	`萬圣節派對 - 3`
+
+[depend message]
+	`您幫我找的南瓜已經不少了， 但是要用來舉辦化妝舞會還是差一點。
+嗯， 我要把旅館弄得再漂亮一點， 給我們邀請的那些小朋友和客人一個驚喜！
+冒險家， 別忘了給小朋友們準備禮物哦！`
+
+[condition message]
+	`前往任意地下城， 收集25個[萬圣節派對用品]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`嘿嘿~今天的晚餐也是南瓜， 在朦朧的黃色燈光下喝南瓜粥， 一定會有一種別樣的感受吧？`

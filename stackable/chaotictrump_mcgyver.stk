@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`混沌王牌 : 漫遊槍手麥吉`
+
+[explain]
+	`    使用後， 會消耗10個藍色小晶塊並召喚出Lv45的漫遊槍手麥吉協助自身戰鬥， 漫遊槍手麥吉存在60秒。 (即使回到城鎮， 也不會初始化該道具的冷卻時間)`
+
+[flavor text]
+	`    “什麼嘛， 讓我在這裡簽字？ 我不會寫字！”  --漫遊者麥吉`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	244
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	120000
+
+[cooltime group]
+	101
+
+[cooltime maintenance]
+	1	1	1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[consume item]
+	3036	10
+[/consume item]
+
+[monster summons]
+	61334	45	45	60000	1

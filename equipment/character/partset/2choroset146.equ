@@ -1,0 +1,124 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	108
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-20
+		`[knight]`	108
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-20
+		`[knight]`	108
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[knight]`	109
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[knight]`	109
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[天使光翼]資源獲得所需時間 -20%%
+[天使光翼]所需傷害量 -20%%
+[神光沖擊]冷卻時間 -15%%
+[神光沖擊]聚敵范圍 +20%%
+[神光沖擊]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	108
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[knight]`	108
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-25
+		`[knight]`	108
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[knight]`	108
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[knight]`	108
+		`[dungeon type]`
+		`[level]`	3
+		`+`	100
+		`[knight]`	108
+		`[dungeon type]`
+		`[level]`	4
+		`+`	100
+		`[knight]`	112
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	112
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[天使光翼]資源獲得所需時間 -25%%
+[天使光翼]所需傷害量 -25%%
+[天使光翼]所有buff效果 +10%%
+[圣盾突擊]冷卻時間 -20%%
+[圣盾突擊]攻擊力 +10%%
+[神光閃耀]多段攻擊次數 +50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	109
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	108
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[knight]`	116
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[knight]`	116
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[knight]`	116
+		`[dungeon type]`
+		`[static]`	2
+		`%`	10
+		`[knight]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	108
+		`[dungeon type]`
+		`[level]`	7
+		`%`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[神光沖擊]冷卻時間 -20%%
+[神光沖擊]聚敵范圍 +30%%
+[神光閃耀]冷卻時間 -25%%
+[神光閃耀]多段攻擊次數 +40%%
+[神光閃耀]攻擊范圍 +10%%
+[神光庇護]冷卻時間 -30%%
+[神光庇護]HP恢復量 +100%%`
+[/piece set ability]

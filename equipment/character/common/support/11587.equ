@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`幽遊白書： 月魂`
+
+[flavor text]
+	`  在清醒狀態下，是絕對無法執行行書裏記載的內容的`
+
+[grade]
+	82
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	35
+
+[physical defense]
+	35
+
+[magical attack]
+	35
+
+[magical defense]
+	35
+
+[need material]
+	3500	800
+
+[repair price]
+	52080
+
+[value]
+	49600
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	61	56
+
+[equipment magical attack]
+	61	56
+
+[separate attack]
+	69	61
+
+[skill levelup]
+	`[thief]`	145	1
+	`[thief]`	160	1
+	`[thief]`	213	1
+	`[thief]`	215	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/10_support/support.img`	169
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	0
+
+[all skill item]
+	[item growtype]
+		`[thief]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			40
+		[upper bound level]
+			45
+		[value]
+			4
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

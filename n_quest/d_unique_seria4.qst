@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	39
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+	9626
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	39
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	690000280	1	900	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[請仔細閱讀]出售系統`
+
+[depend message]
+	`道具/裝備出售系統與回收系統相對應：
+出售系統的商店在雪山的敏泰處；
+出售系統內會出售各種各樣超強的裝備以及提升道具（骨戒、魔劍、強化券、紅字書等等）；
+出售系統以“班圖族的金幣”作為交易貨幣，所有道具/裝備都通過這種貨幣進行兌換；另敏泰處也直接出售“班圖族的金幣”。
+想要變得更強就去雪山上敏泰的商店逛一逛吧！`
+
+[condition message]
+	`現在請去敏泰的出售商店看一看，順便找敏泰談談。`
+
+[solve message]
+	`敏泰這裡有各種各樣的極品道具和裝備哦！想要變得更強一定要看一看啦！（詳見活動中心）`
+
+[quest point]
+	4

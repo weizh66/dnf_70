@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4149
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`關閉的時間之門`
+
+[depend message]
+	`完蛋了！怎麼下一個時間之門不開呢。得在同一個時間點進入黑色聖戰、巴卡爾之城、悲鳴洞穴其中一個地方才行，
+不過無論怎麼努力，都沒有任何效果。這該怎麼辦呀？看來持續維持時間之門會讓力量繼續流失，
+稍微休息一下應該就會好一點了吧。等一下再來吧。`
+
+[condition message]
+	`等西嵐休息過後，再和他對話`
+
+[solve message]
+	`啊… 還是不行。`
+
+[quest point]
+	4

@@ -1,0 +1,221 @@
+#PVF_File
+
+[set name]
+	`泯滅之信任  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[mage]`	22
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[mage]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[mage]`	24
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[mage]`	21
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-10
+		`[mage]`	22
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-10
+		`[mage]`	23
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-10
+		`[mage]`	24
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-10
+		`[mage]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1300
+		`[mage]`	116
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-700
+	[/skill data up]
+	[parameter basic explain]
+		`[精靈召喚 : 亞德炎]、 [精靈召喚 : 冰奈斯]、 [精靈召喚 : 雷沃斯]、 [精靈召喚 : 瑟冥特克]冷卻時間 -1秒； MP消耗量 -10%%
+[精靈獻祭]冷卻時間 -1.3秒
+[召喚獸淨化]冷卻時間 -0.7秒`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[mage]`	52
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[mage]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[mage]`	54
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[mage]`	21
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1
+		`[mage]`	22
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1
+		`[mage]`	23
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1
+		`[mage]`	24
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1
+		`[mage]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	78
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	77
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	76
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	12
+		`%`	30
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	13
+		`%`	30
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	14
+		`%`	30
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	15
+		`%`	30
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	16
+		`%`	30
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	17
+		`%`	30
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	19
+		`%`	30
+		`[mage]`	118
+		`[dungeon type]`
+		`[level]`	20
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[精靈召喚 : 亞德炎]、 [精靈召喚 : 冰奈斯]、 [精靈召喚 : 雷沃斯]、 [精靈召喚 : 瑟冥特克]攻擊力 +10%%； 召喚數量上限 +1
+[精靈召喚 : 火焰赫瑞克]、 [精靈召喚 : 冰影阿奎利斯]、 [精靈召喚 : 極光格雷林]、 [精靈召喚 : 亡魂默克爾]持續時間 +20%%
+[契約召喚 : 憤怒的桑德爾]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3700
+		`[mage]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	52
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	53
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	54
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	52
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	54
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[mage]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[mage]`	22
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[mage]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[mage]`	24
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[mage]`	21
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-40
+		`[mage]`	22
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-40
+		`[mage]`	23
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-40
+		`[mage]`	24
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-40
+	[/skill data up]
+	[parameter basic explain]
+		`[獻祭攻擊 : 亞德炎]、 [獻祭攻擊 : 冰奈斯]、 [獻祭攻擊 : 雷沃斯]、 [獻祭攻擊 : 瑟冥特克]攻擊范圍 +10%%； 攻擊力 +20%%； 冷卻時間 -3秒； MP消耗量 -40%%
+[精靈獻祭]冷卻時間 -3.7秒`
+[/piece set ability]

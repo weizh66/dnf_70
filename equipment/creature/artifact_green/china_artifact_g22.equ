@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`清爽哈密瓜冰沙`
+
+[explain]
+	`怪物防禦 -4%%`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	50
+
+[need material]
+	3836	500
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_green_cn.img`	24
+
+[field image]
+	`Item/field_creature.img`	1
+
+[equipment type]
+	`[artifact green]`	20
+
+[sub type]
+	0
+
+[equipment magical attack]
+	25	25
+
+[equipment physical attack]
+	25	25
+
+[fire attack]
+	15
+
+[water attack]
+	15
+
+[light attack]
+	15
+
+[dark attack]
+	15
+
+[anti evil]
+	5
+
+[creature skill charge time rate]
+	-20.1
+
+[creature skill over charge time rate]
+	-30.1
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[aura active]
+		`equipment physical defense`
+		`%`	-4	0
+	[aura active]
+		`equipment magical defense`
+		`%`	-4	0
+[/then]
+
+[move wav]
+	`SKIN_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

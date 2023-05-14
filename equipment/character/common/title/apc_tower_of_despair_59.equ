@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`三個願望`
+
+[explain]
+	`攻擊時，以3%%的機率使自身增加30點力量和3%%的物理暴擊率，效果持續10秒。
+ 施放技能時，以3%%的機率使自身增加30點智力和3%%的魔法暴擊率，效果持續10秒。
+ 被攻擊時，以3%%的機率使自身增加3%%的移動速度，效果持續20秒。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	383
+
+[custom animation]
+	`TitleAnimation/apc_tower_of_despair_59.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical defense]
+	20
+
+[magical defense]
+	20
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`physical critical hit rate`
+		`+`	3
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[stat]
+		`magical attack`
+		`+`	30
+	[stat]
+		`magical critical hit rate`
+		`+`	3
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[stat]
+		`move speed`
+		`+`	30
+[/then]

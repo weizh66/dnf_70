@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	903
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	905
+
+[name]
+	`覺醒 - 暴風眼 (2/4)`
+
+[depend message]
+	`我現在幫你封鎖住那些危險的經脈。 經脈被封住的時候， 你身體的肌肉也會跟著變得非常的柔軟。
+如果此時筋力變弱的話， 肌肉就會嚴重受損。 所以你第一階段的修煉， 就是要在這種狀態下， 保持你的筋力強健。 而這就需要你最大限度地活動整個身體。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`怎么可能……肌肉不但沒有受損， 反而變得更加有韌性了……`

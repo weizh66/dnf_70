@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	``
+	
+
+[explain]
+	`使用時，連續 30分鐘內，完成地城時獲得的經驗值會增加 3倍。 角色在地下城中死亡，返回城鎮，重新登錄遊戲時效果仍持續，與經驗值加倍活動的效果不重複。
+
+遠古精靈的超級秘藥與普通的遠古精靈秘藥無法同時使用。`
+	
+
+[flavor text]
+	``
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	632
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	1800000
+
+[cooltime group]
+	99
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[exp bonus rate]
+	2.0
+
+[usable period]
+	3
+
+[stat change duration]
+	1800000
+	`myself`

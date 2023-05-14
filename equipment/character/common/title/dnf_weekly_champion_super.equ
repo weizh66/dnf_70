@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`2012 DNF 周賽冠軍`
+
+[explain]
+	`  被攻擊時， 有3%%的幾率使自身增加2000點物理防禦力和魔法防禦力， 效果持續30秒。`
+
+[flavor text]
+	`  DNF 2012超級錦標賽周賽冠軍的專屬稱號！ 它代表著妳已經開始展露光芒，妳擁有著無限的格鬥潛能！自信與沖勁會是妳最好的武器！`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	145
+
+[custom animation]
+	`TitleAnimation/2012_DNF_weekly_champion.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[physical defense]
+	17
+
+[magical defense]
+	17
+
+[move speed]
+	25
+
+[attack speed]
+	25
+
+[stuck]
+	-1
+
+[stuck resistance]
+	10
+
+[cast speed]
+	25
+
+[if]
+	[cooltime]
+		60000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		3
+	[stat]
+		`equipment physical defense`
+		`+`	2000
+	[stat]
+		`equipment magical defense`
+		`+`	2000
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

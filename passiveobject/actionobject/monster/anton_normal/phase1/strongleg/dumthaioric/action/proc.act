@@ -1,0 +1,251 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Proc_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[HP]
+		[<=]
+			100
+		[%]
+	[/CHECKUP]
+	[DO PROC BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`time`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[IF]
+		`time`
+		[+]
+			5000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+	[GRAPHIC EFFECT CHANGE]
+		[TYPE]
+			`MONOCHROME`
+		[COLOR]
+			255	255	255
+		[TIME]
+			3000	400	600
+		[BEHAVIOR]
+			2
+	[/GRAPHIC EFFECT CHANGE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		2
+	[ON]
+	[TRIGGER]
+		3
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[FRONTSIDE]
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		1
+	[DO PROC BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[stun]
+		100	99	8000
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[LIMIT]
+		1
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[HP]
+		[<=]
+			100
+		[%]
+	[/CHECKUP]
+	[DO PROC BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		[TIME VALUE]
+			100	100	100
+		[RGBA]
+			255	255	255	255
+		[LAYER]
+		[DEFAULT]
+	[/FLASH SCREEN]
+	[TRIGGER]
+		2
+	[OFF]
+	[TRIGGER]
+		3
+	[OFF]
+	[TRIGGER]
+		2
+	[RESET]
+	[TRIGGER]
+		3
+	[RESET]
+	[DIM]
+		`time`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[HP]
+		[<=]
+			70
+		[%]
+	[/CHECKUP]
+	[DO PROC BEHAVIOR]
+	[ME]
+		5
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		5
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[FRAME]
+		2	2
+	[DO PROC BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70022
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			297	265	2
+		[WARNING MARK]
+			0	0	300	2
+		[USE MAP POS]
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70022
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			297	376	2
+		[WARNING MARK]
+			0	0	300	2
+		[USE MAP POS]
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70022
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			817	265	2
+		[WARNING MARK]
+			0	0	300	2
+		[USE MAP POS]
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70022
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			817	376	2
+		[WARNING MARK]
+			0	0	300	2
+		[USE MAP POS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[HP]
+		[>]
+			70
+		[%]
+	[/CHECKUP]
+	[DO PROC BEHAVIOR]
+	[ME]
+		7
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		5
+	[OFF]
+[/BEHAVIOR]

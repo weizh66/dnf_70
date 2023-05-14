@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	`暴戾搜捕團的信仰之力`
+
+[basic explain]
+	`    被攻擊時， 使自身恢復5%%的HP， 並且增加20%%的移動速度和回避率， 效果持續10秒。
+    攻擊時， 附加10000點暗屬性傷害。`
+
+[detail explain]
+	`    被攻擊時， 使自身恢復5%%的HP， 並使自身增加20%%的移動速度、 20%%的回避率， 效果持續10秒。 (冷卻時間10秒)
+    攻擊時， 附加10000點暗屬性傷害。`
+
+[flavor text]
+	`    暴戾搜捕團需要獲得重生！ 這種消極態度只能壹事無成。 --劍聖索德羅斯`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	90
+
+[need material]
+	10000204	16
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7920	7360
+
+[dark attack]
+	20
+
+[icon]
+	`Item/new_equipment/08_necklace/necklace.img`	122
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[restore]
+		`hp`
+		`%`	5	1
+	[stat]
+		`move speed`
+		`+`	200
+	[stat]
+		`stuck resistance`
+		`+`	200
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`dark`
+		`+`	10000
+[/then]
+
+[possible kiri protect]

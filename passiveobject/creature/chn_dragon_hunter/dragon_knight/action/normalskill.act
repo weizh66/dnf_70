@@ -1,0 +1,33 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/blank.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[CHARACTER]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[APPENDAGE]
+		10000
+		[attack speed]
+		[%]
+			10
+		[move speed]
+		[%]
+			10
+		[cast speed]
+		[%]
+			10
+	[/APPENDAGE]
+[/BEHAVIOR]

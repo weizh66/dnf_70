@@ -1,0 +1,23 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`character/swordman/effect/meteorsword/meteorsword_dropssssss.img`
+		0
+	[IMAGE POS]
+		-462	-232
+	[DELAY]
+		160
+
+[FRAME001]
+	[IMAGE]
+		`character/swordman/effect/meteorsword/meteorsword_swords.img`
+		1
+	[IMAGE POS]
+		-122	-263
+	[DELAY]
+		1000
+	[ATTACK BOX]
+	-50	-25	0	100	50	300

@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`迷你鬼泣`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	10000
+
+[over skill recovery time]
+	0
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[learn overskill level]
+	100
+
+[skill MP]
+	0
+
+[over skill MP]
+	0
+
+[basic motion]
+	`C_swordman_stand.ani`
+
+[walk motion]
+	`C_swordman_walk.ani`
+
+[run motion]
+	`C_swordman_run.ani`
+
+[skill motion]
+	`C_swordman_skill.ani`
+
+[over skill motion]
+	`C_swordman_skill.ani`
+
+[response motion]
+	``
+
+[special motion]
+	`C_swordman_random.ani`
+
+[response over effect]
+	``
+
+[response sound tag]
+	``
+
+[revision x]
+	0
+
+[revision y]
+	0
+
+[etc motion]
+[/etc motion]
+
+[attack info]
+	`skill.atk`
+	``
+[/attack info]
+
+[piercing]
+	1000	0	0	0
+[/piercing]
+
+[skill type]
+	`[active]`
+
+[over skill type]
+	`[passive]`
+
+[skill string]
+	`死亡迷你碑`
+	`在寵物周圍一定區域內落下迷你墓碑攻擊敵人， 有一定幾率使被擊中的敵人進入詛咒狀態5秒。 (若敵人高于Lv%d， 則技能效果減弱； 力量、 體力、 智力、 精神減少 : %d)`
+[/skill string]
+
+[skill level values]
+	1	70	5	30
+[/skill level values]
+
+[int data]
+	150	150	20	70
+[/int data]
+
+[string data]
+	`REVA_SM_VOICE`
+[/string data]
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[evolution level]
+	20

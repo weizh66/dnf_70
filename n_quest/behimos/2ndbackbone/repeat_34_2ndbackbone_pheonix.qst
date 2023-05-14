@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[job change quest]
+	10
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[creature kind]
+	2
+
+[creature level]
+	32
+
+[level]
+	1	99
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	-1	-1	3002	3
+[/int data]
+
+[reward type]
+	`[creature evolution]`
+
+[reward int data]
+	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`進化 - 菲尼克斯`
+
+[depend message]
+	`你聽說過火鳥菲尼克斯的傳說吧？
+傳說， 如果作為寵物的鳥能夠真心認可自己的主人， 那么藏在鳥心中的心靈之火就會覺醒， 鳥就會重生為火鳥。 要是能在有生之年親眼看到寵物進化為火鳥， 我死也瞑目了……
+哎， 使徒的出現讓阿拉德大陸越來越混亂，不知道我還有機會看到火鳥嗎……冒險家，如果你能夠戰勝使徒。 我想你那只可愛的寵物一定會認可你這個主人， 而且它一定會涅磐為火鳥的！`
+
+[condition message]
+	`    前往天帷巨獸神殿的『第二脊椎』， 處置領主長腳羅特斯3次。 (完成此任務后， 您的寵物將進化為菲尼克斯)`
+
+[solve message]
+	`菲尼克斯？！ 你的寵物真的進化成菲尼克斯了……太， 太神奇了！`
+
+[quest point]
+	0

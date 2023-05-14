@@ -1,0 +1,294 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	37
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			503
+		[appendage]
+			504
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	28
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			504
+		[appendage]
+			508
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	26
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			508
+		[appendage]
+			512
+	[/then]
+	[parameter basic explain]
+		`    施放指定技能后， 2秒內使用另一個指定技能， 即可增加30%%的攻擊力。
+- [適用技能] -
+    施放[憤怒沖撞]后使用[審判之盾]或[破甲沖擊]
+    施放[審判之盾]后使用[破甲沖擊]或[守護神鹿]
+    施放[破甲沖擊]后使用[守護神鹿]或[憤怒沖撞]`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	38
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			507
+		[appendage]
+			510
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	34
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			509
+		[appendage]
+			510
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	44
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			510
+		[appendage]
+			511
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	33
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			503
+		[appendage]
+			513
+	[/then]
+	[skill data up]
+		`[knight]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`    施放指定技能后， 2秒內使用另一個指定技能， 即可增加30%%的攻擊力。
+- [適用技能] -
+    施放[守護神鹿]后使用[神木刺擊]或[一刀兩斷]
+    施放[神木刺擊]后使用[自然束縛]或[一刀兩斷]
+    施放[自然束縛]后使用[一刀兩斷]或[颶風旋槍]
+    施放[一刀兩斷]后使用[審判之盾]或[天隕斷空斬]
+[審判之盾]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	28
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			511
+		[appendage]
+			513
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	26
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			511
+		[appendage]
+			513
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	32
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			513
+		[appendage]
+			512
+	[/then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[skill]
+			`knight`	25
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			2000
+		[probability]
+			100
+		[appendage]
+			511
+		[appendage]
+			504
+	[/then]
+	[skill data up]
+		`[knight]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[knight]`	20
+		`[dungeon type]`
+		`[static]`	3
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`    施放指定技能后， 2秒內使用另一個指定技能， 即可增加30%%的攻擊力。
+- [適用技能] -
+    施放[審判之盾]后使用[颶風旋槍]或[天隕斷空斬]
+    施放[破甲沖擊]后使用[颶風旋槍]或[天隕斷空斬]
+    施放[颶風旋槍]后使用[天隕斷空斬]或[憤怒沖撞]
+    施放[天隕斷空斬]后使用[颶風旋槍]或[破甲沖擊]
+[破甲沖擊]冷卻時間 -30%%
+[劍盾猛攻]技能攻擊力增加效果重疊次數上限 +1`
+[/piece set ability]

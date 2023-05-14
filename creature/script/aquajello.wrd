@@ -1,0 +1,113 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		`生活需要冷靜的思考~`
+		`衣服穿多點！ 我可不希望你因為我而感冒~`
+		`就算渴也不準打我的主意！`
+		`熱嗎？ 我來幫你降溫！`
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`饑寒交迫， 就是我現在這樣！`
+			`再這么下去， 我會融成一攤雪水~`
+		[/fill point under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`名字只是符號而已~`
+		[/renamed]
+		[pop random]
+			40
+			[call the name]
+				`什么事？ 熱了？`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			30
+			[equip]
+				`我來自寒冰的世界， 那裡只有一種顏色~`
+				`以后你不會再覺得炎熱！`
+			[/equip]
+		[/pop random]
+		[pop random]
+			50
+			[level up]
+				`寒氣十足！`
+				`體內寒冰的力量似乎更加強大！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			50
+			[character level up]
+				`我正在努力表現我的熱情！ 雖然還是很冷~`
+				`獎勵你一杯冰鎮果汁~不過果汁自備！`
+			[/character level up]
+		[/pop random]
+		[eat feed]
+			`我開心的時候， 周圍會變得更冷！`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`我開心的時候， 周圍會變得更冷！`
+		[/eat feed]
+		[dying]
+			`原來你喜歡炎熱……`
+		[/dying]
+		[using skill]
+			`我願意將我的心獻給你~`
+			`這是來自寒冰之地的祝福！`
+		[/using skill]
+		[using overskill]
+			`好好體驗下什么是透心涼！`
+			`我決不允許任何人傷害主人！`
+		[/using overskill]
+		[pop random]
+			40
+			[skill gauge full]
+				`我可以讓你變得更加強大！`
+				`我準備好了~隨時可以開始~`
+			[/skill gauge full]
+		[/pop random]
+		[pop random]
+			40
+			[over skill gauge full]
+				`寒冰之氣已經就緒！`
+				`即使寒冷， 也有火爆的一面！`
+			[/over skill gauge full]
+		[/pop random]
+		[over skill waiting]
+			`為了主人我可以粉身碎骨！`
+			`你們該好好冷靜下了！`
+		[/over skill waiting]
+		[call the name]
+			`什么事？ 熱了？`
+		[/call the name]
+		[pop random]
+			40
+			[equip]
+				`我來自寒冰的世界， 那裡只有一種顏色~`
+				`以后你不會再覺得炎熱！`
+			[/equip]
+		[/pop random]
+		[pop random]
+			50
+			[level up]
+				`寒氣十足！`
+				`體內寒冰的力量似乎更加強大！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			50
+			[character level up]
+				`我正在努力表現我的熱情！ 雖然還是很冷~`
+				`獎勵你一杯冰鎮果汁~不過果汁自備！`
+			[/character level up]
+		[/pop random]
+	[/main game]
+[/trigger]

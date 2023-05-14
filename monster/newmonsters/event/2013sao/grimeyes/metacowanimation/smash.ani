@@ -1,0 +1,95 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ShockWaveArea/wave-u.img`
+		0
+	[IMAGE POS]
+		-56	-267
+	[IMAGE RATE]
+		2.0	2.0
+	[IMAGE ROTATE]
+		0.5235990285873413
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ShockWaveArea/wave-u.img`
+		1
+	[IMAGE POS]
+		-118	-227
+	[IMAGE RATE]
+		3.0	3.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		85
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ShockWaveArea/wave-u.img`
+		1
+	[IMAGE POS]
+		-98	-231
+	[IMAGE RATE]
+		2.5	2.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		85
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ShockWaveArea/wave-u.img`
+		1
+	[IMAGE POS]
+		-69	-226
+	[IMAGE RATE]
+		2.0	2.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		85
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/Effect/ShockWaveArea/wave-u.img`
+		1
+	[IMAGE POS]
+		93	-230
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		85
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		44	9
+	[DELAY]
+		80

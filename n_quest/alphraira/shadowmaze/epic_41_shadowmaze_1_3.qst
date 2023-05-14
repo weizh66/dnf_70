@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	26
+
+[complete npc index]
+	26
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	41	99
+
+[pre required quest]
+	128
+[/pre required quest]
+
+[monster reward item]
+	50096	37	2	4214	1	100	1	50098	37	2	4213	1	100	1	50096	37	3	4214	1	100	1	50098	37	3	4213	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4213	1	4214	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	20000
+[/reward int data]
+
+[reward selection int data]
+	1080	5	1081	5
+[/reward selection int data]
+
+[name]
+	`揭開神秘面紗`
+
+[depend message]
+	`辛苦啦， 總算收集全所有屬性的封印石碎片了。 呵呵， 只要有了它們， 冒險家就再也不會迷路了。
+嗯， 最讓人頭疼的問題解決了， 接下來我們就要向暗影迷宮前進了。 我聽說迷宮里有一些很難對付的怪物， 它們被喻為‘漆黑的影子’和‘移動的雷管’， 你先去打聽下它們的消息吧。`
+
+[condition message]
+	`    前往暗黑城的『暗影迷宮』， 收集[透明的心臟]和[莫比的爆彈雷管]交給克倫特， 要求地下城難度為王者級。`
+
+[solve message]
+	`辛苦了， 以后還請你多多照顧啊。`
+
+[quest point]
+	4

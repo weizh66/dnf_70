@@ -1,0 +1,74 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	39
+
+[big face]
+	`Map/Npc/NpcFace02.img`	38
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	40
+
+[field animation]
+	`Animation/Npc_al.ani`
+
+[field wav]
+	`R_NPC_ALBERT_AMB_LOOP`
+
+[popup wav]
+	`R_NPC_ALBERT_TALK`
+	`R_NPC_ALBERT_FAREWELL`
+
+[skill]
+	`[swordman]`	7	31	41	50
+[/skill]
+
+[skill]
+	`[gunner]`	2	11	40	42
+[/skill]
+
+[skill]
+	`[at gunner]`	2	11	40	42
+[/skill]
+
+[skill]
+	`[fighter]`	80	11	38	81
+[/skill]
+
+[skill]
+	`[at fighter]`	80	11	38	81
+[/skill]
+
+[name]
+	`阿爾伯特·伯恩斯坦`
+
+[field name]
+	`阿爾伯特·伯恩斯坦`
+
+[quest speech]
+	`喂！ 傻乎乎的家伙， 別擋我的視線！ 看什么看， 說的就是你！`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::27>嗯？ 找我什么事？ 是不是想從我這里得到什么？ 我從你的眼神看出來了……
+不過， 別妄想！ 我的技能不是人人都有資格接受的， 何況是沒有規矩的人。
+你能證明你不是那種人嗎？ 如果不能的話， 就趕緊從我眼前消失！`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::27>如要有人向你提起阿爾伯特， 一定會說他是一個天才吧？ 哈， 我正是他， 記住了！
+看你那鄙夷的表情， 似乎不相信？ 沒關系， 在不久的將來， 你也會需要我的。
+再說， 我對你的表情完全能理解。 因為你沒有我這樣的能力， 妒忌也是正常的， 但你在情緒處理上能不能收斂點？
+如果你總是喜歡用這種表情來掩飾你的妒忌， 我懶得理你， 我喜歡的是崇拜的眼神。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	1	0
+	`<npc::27>是你的對手太過強大？ 還是你太過弱小？ 在向別人求助前， 你最好先反省下。`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	2	0
+	`<npc::27>太不像話了， 連那種敵人都對付不了！ 算了， 你還是走吧。`
+[/dialog]

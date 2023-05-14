@@ -1,0 +1,313 @@
+#PVF_File
+
+[name]
+	`陰劍 - 莫邪`
+
+[basic explain]
+	`    ↑↓+[寵物技能鍵]輸入時， 發動陰氣的氣息， 效果持續60秒。 (消耗2個藍色小晶塊
+陰氣的氣息
+    - 使包括自身在內的隊員的武器附加暗屬性和冰屬性
+    - 使自身增加10%%的魔法暴擊率和30點冰屬性強化。
+    - 每1點冰屬性強化， 使自身增加1點暗屬性強化。(最多增加70點）
+    - 暴擊攻擊時傷害+15%%
+    - 攻擊時， 附加20%%的冰屬性傷害。（解除裝備後消失）`
+
+[detail explain]
+	`    ↑↓+[寵物技能鍵]輸入時， 發動陰氣的氣息， 效果持續60秒。 (消耗2個藍色小晶塊； 冷卻時間60秒)
+陰氣的氣息
+    - 使包括自身在內的隊員的武器附加暗屬性和冰屬性
+    - 使自身增加10%%的魔法暴擊率和30點冰屬性強化。
+    - 每1點冰屬性強化， 使自身增加1點暗屬性強化。(最多增加70點）
+    - 暴擊攻擊時傷害+15%%（增加暴擊傷害類屬性僅適用於最高數值， 且無法疊加）
+    - 攻擊時， 附加20%%的冰屬性傷害。（解除裝備後消失）`
+
+[flavor text]
+	`    此劍有雌雄即陰陽雙劍， 皆以鍛造者的名字命名。 陽劍幹將贈與了王， 陰劍莫邪留給了鍛造者的兒子。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[cast speed]
+	20
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1104	948
+
+[separate attack]
+	589	382
+
+[magical critical hit]
+	2
+
+[water attack]
+	35
+
+[water resistance]
+	15
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/sswd/sswd.img`	108
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	2	2
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[consume item]
+		3037	2
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		234
+[/then]
+
+[if]
+	[my appendage]
+		234
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		235
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[equipment duration]
+		60000
+	[elemental weapon]
+		`dark`
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[stat]
+		`water attack`
+		`+`	30
+	[stat]
+		`magical critical hit`
+		`+`	10
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[stat change by stat]
+		`myself`	-1
+		`water attack`	1
+		`dark attack`
+		`+`	1	70
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	15
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`water`
+		`%`	20
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600695	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

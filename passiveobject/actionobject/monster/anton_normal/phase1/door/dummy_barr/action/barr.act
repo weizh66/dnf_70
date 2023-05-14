@@ -1,0 +1,51 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/barr2.ani`
+	[SUB ANI]
+		`../Animation/barr_0.ani`	0	1
+		`../Animation/barr_1.ani`	0	2
+		`../Animation/barr_2.ani`	0	3
+		`../Animation/barr_3.ani`	0	4
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[CHECK PARTY SYMBOL]
+			0	2
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CENTER MSG]
+		`多姆·泰?里奇和多姆·普?尼斯正在?助安徒恩暴走。`	5000
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[CHECK PARTY SYMBOL]
+			1	2
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

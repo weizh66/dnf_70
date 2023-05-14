@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7108	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	39131	1	43125	1	47130	1	51120	1	55063	1
+[/reward selection int data]
+
+[name]
+	`翡翠色杰克南瓜`
+
+[depend message]
+	`冒險家， 過幾天就是萬圣節了， 這段時間大家都很辛苦， 我想和大家一起慶祝這個節日。
+呵呵， 我想到一個讓大家放松的方法哦。 如果你能給我一些萬圣節的老南瓜， 我就告訴你。
+呃， 按照以往的慣例， 一到這時期， 幾乎每個怪物的身上都會藏著萬圣節的老南瓜， 你可以找它們要幾個。`
+
+[condition message]
+	`    前往地下城， 收集20個[萬圣節的老南瓜]交給賽麗亞。`
+
+[solve message]
+	`這個南瓜頭給你， 呵呵， 要是那些冒險家看到你戴著它， 他們一定會很羨慕你的。
+噢， 差點忘了！ 如果南瓜頭不能使用或是需要其他款式的南瓜頭， 你可以回來找我， 但一定要記得帶上一些萬圣節的老南瓜哦。`

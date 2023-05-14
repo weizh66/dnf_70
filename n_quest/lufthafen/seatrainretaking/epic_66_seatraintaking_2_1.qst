@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	65
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	66	99
+
+[pre required quest]
+	5867
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	87	1	61220	50	87	1	61221	25	87	1	61222	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`消滅海龜`
+
+[depend message]
+	`冒險家， 我問你一件事啊！
+上次你去找卡勒特的裝備時， 有沒有在列車上遇到海龜？
+果然如此！ 那些該死的海龜最后還是投靠了海賊。
+冒險家， 你可是打遍天界無敵手的！ 對付那些海龜只是小菜一碟， 對吧！ 嘿嘿~`
+
+[condition message]
+	`    前往海上列車的『奪回西部線』， 消滅以下怪物， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`唉， 那些海龜其實也挺可憐的……
+啊！ 沒別的意思， 請不要誤會！`
+
+[quest point]
+	4

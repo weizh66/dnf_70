@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`如意棍`
+
+[basic explain]
+	`增加攻擊范圍
+攻擊速度 +2%%`
+
+[flavor text]
+	`    傳說是戲弄過神的英雄人物使用過的武器， 連神也無法知道這武器的長度。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`pole`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2400
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/mage/pole.img`	40
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	575	523
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	70
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[mage]`	36	3
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	8	0
+
+[layer variation]
+	2790
+	`cintstickc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`cintstickd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	8	0
+
+[layer variation]
+	2790
+	`at_cintstickc`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_cintstickd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`POLE_TOUCH`
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[possible kiri protect]

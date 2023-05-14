@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`dark_slash1_name`
+
+[basic explain]
+	`dark_slash1_basic_explain`
+
+[explain]
+	`dark_slash1_explain`
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[required level]
+	1
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	30
+	`Character/Swordman/Effect/ATSkillIcon.img`	31
+
+[command]
+	{6=`(UP)`}
+	{8=`&`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑(按住??下) + Z`
+
+[command customizing]
+	0
+
+[dungeon]
+	[consume MP]
+		20	250
+	[cool time]
+		6000	6000
+	[static data]
+	[/static data]
+	[level info]
+		2	130	65	146	73	162	81	178	89	194	97	210	105	226	113	242	121	258	129	274	137	289	145	305	153	321	161	337	169	353	177	369	185	385	193	401	201	417	209	433	217	449	225	465	233	480	240	496	248	512	256	528	264	544	272	560	280	576	288	592	296	608	304	624	312	640	320	656	328	671	336	687	344	703	352	719	360	735	368	751	376	767	384	783	392	799	400	815	408	831	416	847	424	862	431	878	439	894	447	910	455	926	463	942	471	958	479	974	487	990	495	1006	503	1022	511	1038	519	1054	527	1069	535	1085	543	1101	551	1117	559	1133	567	1149	575	1165	583	1181	591	1197	599	1213	607	1229	615
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	64	10	72	11	79	13	87	14	95	15	103	16	111	18	119	19	126	20	134	21	142	22	149	24	157	25	165	26	173	27	181	29	189	30	196	31	204	32	212	34	220	35	228	36	235	37	243	38	251	40	259	41	267	42	274	43	282	45	290	46	298	47	306	48	314	50	321	51	329	52	337	53	344	54	352	56	360	57	368	58	376	59	384	61	392	62	399	63	407	64	415	66	422	67	430	68	438	69	446	71	454	72	462	73	469	74	477	75	485	77	493	78	501	79	509	80	516	82	524	83	532	84	539	85	547	87	555	88	563	89	571	90	579	92	587	93	594	94	602	95
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`dark_slash1_level_property`	-1	0	1.0	-2	1	1.0
+[/level property]
+
+[feature skill index]
+	210

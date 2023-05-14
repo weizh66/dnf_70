@@ -1,0 +1,36 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	5
+[/check count]
+
+[level]
+	10	99
+
+[type]
+	`[use item]`
+
+[int data]
+	7	3	1	2660171	1	28	1	109	1	916	1	963	1	2660232	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26685	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`使用5次遺忘河相關道具。 (包括遺忘河水滴和決斗場專用的遺忘河之水)`
+
+[condition data]
+	0
+	`消耗數量 : %d / %d`
+[/condition data]

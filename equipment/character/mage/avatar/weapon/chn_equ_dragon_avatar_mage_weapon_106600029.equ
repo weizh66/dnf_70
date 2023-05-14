@@ -1,0 +1,75 @@
+#PVF_File
+
+[name]
+	`屠龍者的狩獵戰矛`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`Item/common/chn_Dragon_Weapon.img`	18
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		6	9
+	[layer variation]
+		2790
+		`spearc`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[layer variation]
+		200
+		`speard`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/mage/weapon/spear/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[move wav]
+	`SPEAR_TOUCH`

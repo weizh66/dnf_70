@@ -1,0 +1,173 @@
+#PVF_File
+
+[name]
+	`屠戮之刃`
+
+[basic explain]
+	`攻擊時，以5%%的機率使敵人進入出血狀態。
+攻擊出血狀態下的敵人時 30%%附加傷害`
+
+[detail explain]
+	`攻擊時以5%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以44的攻擊力給予傷害。 (若敵人高於Lv15，則減少進入異常狀態的機率；反之，則增加機率)
+對出血狀態下敵人的傷害增加30%%`
+
+[flavor text]
+	` 我的刀會像切肉一樣把你切碎。`
+
+[grade]
+	20
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	15
+
+[physical attack]
+	17
+
+[magical attack]
+	26
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	32000
+
+[repair price]
+	25600
+
+[value]
+	25600
+
+[equipment physical attack]
+	224	179
+
+[equipment magical attack]
+	248	197
+
+[separate attack]
+	133	86
+
+[physical critical hit]
+	2
+
+[creation rate]
+	200
+
+[icon]
+	`Item/weapon/swordman/katana.img`	35
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[active status]
+		`bleeding`	15	1150
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,39 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	1000
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	10	99
+
+[type]
+	`[use item]`
+
+[int data]
+	3	1000	1	1055	1	1089	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26683	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`野草莓、 有機草莓、 突變草莓合計消耗1000個。`
+
+[condition data]
+	0
+	`消耗數量 : %d / %d`
+[/condition data]

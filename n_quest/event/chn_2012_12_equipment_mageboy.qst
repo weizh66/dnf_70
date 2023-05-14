@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[at mage]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	40	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2749378	1	2749379	1
+[/reward selection int data]
+
+[name]
+	`+12 武器免費送`
+
+[depend message]
+	`每次看到你， 我就想起以前你將我從哥布林手中救回的樣子， 可勇敢了！ 不知道現在的你是不是更厲害了？
+呵呵~如果你想證明自己， 就去一趟萬年雪山吧。 等你平安回來， 我會送你一件寶貝的！`
+
+[condition message]
+	`    通關萬年雪山的『山脊』。 (Lv42及以上角色才能進入， 該任務只限男魔法師參與)`
+
+[solve message]
+	`我就知道你不會讓賽麗亞失望的， 所以我也不會讓你失望哦~這可是很多人夢寐以求的武器喲~`

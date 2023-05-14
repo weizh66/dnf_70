@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	25
+
+[complete npc index]
+	26
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	52	99
+
+[pre required quest]
+	388
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	26
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 加爾的惱怒`
+
+[depend message]
+	`很多士兵因傷口疼痛整夜哀吟， 外面又蔓延著奇怪的傳染病……啊！ 我快瘋了， 你最好不要來煩我。
+如果你真的沒事做， 就去告訴那邊那個暗精靈。 讓他趕緊消失， 別在這兒礙我的眼。 如果我直接和他說， 我怕會忍不住的和他吵起來！ `
+
+[condition message]
+	`    把加爾的話轉告給克倫特。`
+
+[solve message]
+	`噢， 她這樣說啊？ 呵呵， 我能理解她的心情， 但不是每個暗精靈都喜歡這場戰爭的！ `
+
+[quest point]
+	4

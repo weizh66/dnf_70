@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`(舊) 光之爪 - 紫霄`
+
+[basic explain]
+	`增加攻擊范圍`
+
+[flavor text]
+	`    以為自己躲過了？ 你把它當成普通的爪了吧？  --帕麗絲與某散打的對決中`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/claw.img`	35
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	532	484
+
+[equipment magical attack]
+	532	484
+
+[separate attack]
+	328	220
+
+[elemental property]
+	`[light element]`
+
+[physical critical hit]
+	3
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	1
+
+[layer variation]
+	2150
+	`clawa1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	2160
+	`clawa2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	660
+	`clawb2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	1
+
+[layer variation]
+	2151
+	`at_clawa1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	651
+	`at_clawb1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2791
+	`at_clawc1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2152
+	`at_clawa2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	652
+	`at_clawb2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2792
+	`at_clawc2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[creation rate]
+	190
+
+[possible kiri protect]

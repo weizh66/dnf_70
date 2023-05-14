@@ -1,0 +1,62 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`夜間襲擊戰`
+
+[explain]
+	`皇都軍成功抵擋敵軍主力部隊的進攻後， 情報部又傳來喜訊。 有情報說， 在安特貝魯峽谷深處發現了敵軍的前哨基地。 但皇都軍正忙於修復根特的防禦， 唯有委託善戰的冒險家們去偷襲敵軍的前哨基地。 漆黑的深夜， 狹窄的小路， 當冒險家們遇上稀奇古怪的卡特勒外援部隊， 誰才是真正的勇者？`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act6.img`
+
+[worldmap pattern info]
+	1	6
+	`WorldMap/SelectdungeonSlot/gent.img`	3
+
+[minimum required level]
+	99
+
+[basis level]
+	63
+
+[experience increasing point]
+	1.2
+
+[champion]
+	3	6	9	12	9
+
+[pathgate object]
+	8974	8973	8972	8971	8970	8969	8968	8967	8966	8965
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[event monster]
+	1	5000	61728	1	300	80	1
+[/event monster]
+
+[special passive object item]
+	0	-1	1	3269	9000
+[/special passive object item]

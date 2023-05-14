@@ -1,0 +1,36 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/throw.ani`
+	[SPEECH]
+		`~U~REEYYY`
+			1	15
+		`死了，死了，被電死了`
+			1	15
+	[/SPEECH]
+	[SOUND]
+		`R_TRETRI_SKILL_04`	1
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			10482
+		[PARTICLE FILENAME]
+			`../Particle/throw.ptl`
+		[LEVEL]
+			0
+		[POS]
+			130	0	90
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

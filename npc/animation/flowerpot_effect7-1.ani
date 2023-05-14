@@ -1,0 +1,81 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Map/Npc/flowerpot_effect7-1.img`
+		0
+	[IMAGE POS]
+		-59	-122
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Map/Npc/flowerpot_effect7-1.img`
+		0
+	[IMAGE POS]
+		-59	-122
+	[RGBA]
+		255	255	255	220
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Map/Npc/flowerpot_effect7-1.img`
+		0
+	[IMAGE POS]
+		-59	-122
+	[RGBA]
+		255	255	255	200
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Map/Npc/flowerpot_effect7-1.img`
+		0
+	[IMAGE POS]
+		-59	-122
+	[RGBA]
+		255	255	255	170
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Map/Npc/flowerpot_effect7-1.img`
+		0
+	[IMAGE POS]
+		-59	-122
+	[RGBA]
+		255	255	255	200
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		`Map/Npc/flowerpot_effect7-1.img`
+		0
+	[IMAGE POS]
+		-59	-122
+	[RGBA]
+		255	255	255	220
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		120

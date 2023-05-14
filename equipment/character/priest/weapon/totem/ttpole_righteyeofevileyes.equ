@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`邪靈之右眼`
+
+[basic explain]
+	`對眩暈狀態下敵人的傷害 +20%%`
+
+[detail explain]
+	`對眩暈狀態下敵人的傷害 +20%% (在決斗場中 +10%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/totem.img`	56
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	53
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	64
+
+[equipment physical attack]
+	601	550
+
+[equipment magical attack]
+	515	472
+
+[separate attack]
+	360	243
+
+[if]
+	[target active status]
+		`stun`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[physical critical hit]
+	5
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[priest]`	57	4
+[/skill levelup]
+
+[variation]
+	3	3
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[pvp]
+	[if]
+		[target active status]
+			`stun`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	10
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,79 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[落月斬]冷卻時間 -20%%
+[落月斬]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[落月斬]攻擊力 +25%%
+[破滅斬]冷卻時間 -30%%
+[橫掃八荒]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[demonic lancer]`	51
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[demonic lancer]`	43
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+	[/skill data up]
+	[parameter basic explain]
+		`[奪命亂舞]攻擊力 +45%%
+[破滅斬]攻擊力 +35%%
+[橫掃八荒]冷卻時間 -20%%
+[橫掃八荒]攻擊力 +45%%`
+[/piece set ability]

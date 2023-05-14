@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 極武圣 (4/6)`
+
+[depend message]
+	`人們經常說以柔克剛， 你應該也聽說過吧？ 但在你的世界里， 這是完全行不通的。 有一種強悍能夠以強克柔， 這個存在被稱為‘極武圣’。
+極武圣是個貪婪的霸者， 時刻渴望著更強大的力量， 哪怕渾身的血管爆炸， 哪怕心臟停止跳動的那一刻， 都無法阻止他那‘能夠破壞一切的力量’。 而正是因為擁有絕對的力量， 極武圣才可以如此厲害。
+你也具備了那種覺悟嗎？ 如果沒有足夠堅定的決心， 別說被稱為極武圣了， 你在修行的過程中就會直接倒下。 你要帶著一顆堅強的內心開始這段旅程。
+接下來要做的就是參加青龍大會， 這里的強者實力遠超于黃龍大會的那些人。 參加青龍大會， 拿下冠軍， 用你的信念去摧毀一切吧。 通過這個機會去證明一下你究竟有多強吧。
+這里我也會提前寫封推薦書送過去， 即使沒有青龍入選資格， 你也可以直接入場。  首先你得有‘赫侖皇帝的印章’， 那你找個時間去一趟吧。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5378
+[/pre required quest]
+
+[relation quest]
+	5380
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,96 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack_4_0.ani`
+	[SUB ANI]
+		`../Animation/Attack_4_1.ani`	0	-1
+		`../Animation/Attack_4_3.ani`	0	1
+		`../Animation/Attack_4_3_1.ani`	0	2
+	[/SUB ANI]
+	[SOUND]
+		`QSPIDER_JUMP_END`	2
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[CHARACTER]
+	[GET TARGET]
+		1
+	[DISTANCE]
+	[HIGH]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18011
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			50	0	0
+		[WARNING MARK]
+			0	0	50	2
+	[/CREATE PASSIVEOBJECT]
+	[TELEPORT]
+		[POS]
+			50	0	1200
+		[MOVE ME]
+	[/TELEPORT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[WHICH]
+	[ME]
+	[CHECKUP]
+		[ZPOS]
+		[<=]
+			1
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET FRAME]
+		4
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[Z AXIS]
+			-5000
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		2	500
+[/BEHAVIOR]

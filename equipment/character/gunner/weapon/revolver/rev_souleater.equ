@@ -1,0 +1,163 @@
+#PVF_File
+
+[name]
+	`吞靈者`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率出現魔力爆炸。
+基本裝彈數 +1
+攻擊速度 +1%%`
+
+[flavor text]
+	`    靈魂吃著吃著就會撐， 一旦撐了就會吐出來， 這就是所謂的魔力爆炸。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`revolver`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2000
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`item/weapon/gunner/revolver.img`	27
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3260	750
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[equipment physical attack]
+	445	373
+
+[equipment magical attack]
+	374	314
+
+[separate attack]
+	285	189
+
+[attack speed]
+	10
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		30381	0	0	0	15	0
+		``
+	[/passive object]
+[/then]
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[gunner]`	72	2
+	`[at gunner]`	72	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[int data]
+	5	-1	-1	-1	-1	-1	-1	-1	-1	-1
+[/int data]
+
+[routing priority]
+	`gunner`	1
+	`at gunner`	1
+[/routing priority]
+
+[possible kiri protect]

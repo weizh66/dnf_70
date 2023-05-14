@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[cant giveup]
+	1
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	17019
+[/int data]
+
+[dungeon info]
+	84	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`探索補給基地`
+
+[depend message]
+	`還記得你上次交給我們的卡勒特作戰地圖嗎？
+經過嚴密的分析， 我們終于找出了敵軍補給基地的大致方位。 這次一定要給他們致命的一擊。
+不過在戰場上， 任何事情都要小心謹慎。 鑒于我們分析的結果并不一定完全的正確， 因此還需要再實地確認一次。
+由于這次的偵查屬于小規模的作戰， 軍隊里有人提反對意見， 覺得不應該浪費兵力在這上面， 所以……只能再次麻煩你了。`
+
+[condition message]
+	`    獨自一人調查安特貝魯峽谷的『補給線阻斷戰』。`
+
+[solve message]
+	`怎么樣， 我們的分析準確嗎？
+噢， 很好！ 你調查得很仔細。`
+
+[dialog]
+	0	0	17019	0	0	0	0
+	`<monster::61017>嘿~有敵人闖入！ 呵呵呵~
+讓你嘗嘗我的厲害！ `
+[/dialog]
+
+[quest point]
+	4

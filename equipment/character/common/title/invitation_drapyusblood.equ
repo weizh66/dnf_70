@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	` 死神的邀請 (血)`
+
+[explain]
+	`攻擊時以1%%的機率30秒內物理爆擊增加6%%。被攻擊時，有2%%的機率召喚一名APC--死神狄里安協助召喚者攻擊敵人，死神狄里安存在30秒。(無法在決鬥場、戰場與死亡之塔召喚APC) )`
+
+[flavor text]
+	`能在我所建立的死亡之塔中消滅所有亡者，我對你印象深刻。我現在正式邀請你到「絕望之塔」，延長這場令人愉快的遊戲。假如你很忙，或者害怕的話，不來也沒關係。如果想要這一份稱之為「絕望」的禮物，就歡迎你隨時大駕光臨。--死神德萊弗斯`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/Title/title.img`	85
+
+[custom animation]
+	`TitleAnimation/invitation_drapyusblood.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	300
+
+[physical attack]
+	23
+
+[physical defense]
+	15
+
+[stuck resistance]
+	20
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`physical critical hit`
+		`+`	6
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[disable pvp]
+		1
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[summon apc]
+		20405	55	1
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

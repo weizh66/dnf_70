@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`奇跡大陸 - 兔子`
+
+[explain]
+	`攻擊時以3%%的機率30秒內攻擊速度增加3%%。 施展時以5%%的機率30秒內施展速度增加3%%。 前沖時以2%%的機率30秒內移動速度增加3%%。`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	219
+
+[custom animation]
+	`TitleAnimation/wonderland_dnf.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	200
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[hit recovery]
+	80
+
+[stuck resistance]
+	20
+
+[if]
+	[cooltime]
+		50000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		3
+	[stat]
+		`attack speed`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		50000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`cast speed`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		50000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`move speed`
+		`+`	30
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

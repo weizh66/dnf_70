@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	1009
+
+[job]
+	`[fighter]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	920
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	922
+
+[name]
+	`覺醒 - 武神 (3/4)`
+
+[depend message]
+	`現在的你， 我覺得已經具備足夠資格成為‘武神’。 知道什么是‘武神’嗎？
+人們將領悟散打的奧義并達到頂尖水平的高手稱為‘武神’。 你想成為這樣的強者嗎？
+呵呵， 那還需要得到一個人的認可。 那個人就在月光修煉場里， 只要你能戰勝他， 就可以成為真正的武神。 `
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`住……住手！ 我們今天就到此為止吧……下次我絕對不會這么輕易放過你的！`

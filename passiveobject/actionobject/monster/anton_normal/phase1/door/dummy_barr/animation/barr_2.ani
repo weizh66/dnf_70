@@ -1,0 +1,39 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/Apocalypse/light-etc-d.img`
+		1
+	[IMAGE POS]
+		-197	-366
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/Apocalypse/light-etc-d.img`
+		1
+	[IMAGE POS]
+		-197	-366
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[FLIP TYPE]
+		`HORIZON`

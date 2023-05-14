@@ -1,0 +1,175 @@
+#PVF_File
+
+[name]
+	`(舊) 武神斷魔棍`
+
+[basic explain]
+	`使用[旋風腿]時， 有10%%的幾率使自身進入祝福狀態。`
+
+[detail explain]
+	`    使用[旋風腿]時， 有10%%的幾率使自身進入祝福狀態20秒； 祝福狀態下， 增加94點力量、 體力、 智力、 精神。`
+
+[flavor text]
+	`    獲得戰爭女武神的祝福， 并蘊含有神秘力量的東方棍。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`tonfa`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	32
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	39
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	505	460
+
+[equipment physical defense]
+	570	560
+
+[equipment magical attack]
+	532	484
+
+[separate attack]
+	328	220
+
+[stuck resistance]
+	30
+
+[attack speed]
+	50
+
+[if]
+	[cooltime]
+		1000
+	[use skill]
+		`fighter`	58
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		10
+	[active status]
+		`bless`	50	94	94	94	94
+[/then]
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[fighter]`	17	2
+	`[at fighter]`	17	2
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	3	1
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`TONFA_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

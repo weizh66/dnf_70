@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	4440
+[/pre required quest]
+
+[monster reward item]
+	40	-1	3	3077	1	100	1	40	-1	2	3077	1	81	1	40	-1	1	3077	1	51	1	40	-1	0	3077	1	31	1	702	-1	3	3077	1	100	1	702	-1	2	3077	1	81	1	702	-1	1	3077	1	51	1	702	-1	0	3077	1	31	1	71	-1	3	3077	1	100	1	71	-1	2	3077	1	81	1	71	-1	1	3077	1	51	1	71	-1	0	3077	1	31	1	3001	-1	3	3077	1	100	1	3001	-1	2	3077	1	81	1	3001	-1	1	3077	1	51	1	3001	-1	0	3077	1	31	1	3000	-1	3	3077	1	100	1	3000	-1	2	3077	1	81	1	3000	-1	1	3077	1	51	1	3000	-1	0	3077	1	31	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3077	1
+[/int data]
+
+[dungeon info]
+	11	-1	12	-1	13	-1	14	-1	15	-1	17	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`結晶中的魔法`
+
+[depend message]
+	`賽麗亞……那孩子對灰色結晶和天空之城散發的氣息都很熟悉……看來這其中一定隱藏著什么秘密， 可惜我也不知道這秘密是什么。
+不過有一種方法或許可以找到答案， 那就是靠那孩子的遠古記憶來尋找答案……
+還有， 你上次給我收集的結晶因為那些邪惡的氣息破裂了， 你能再幫我收集一些嗎？
+呃， 以你現在的力量， 估計還不能隨意引出怪物隱藏的力量， 我用魔法來幫你吧。
+不過我的魔法還沒達到極限， 你只能從那些強大的怪物身上獲得結晶。`
+
+[condition message]
+	`    前往天空之城的地下城， 從領主身上獲得[灰色結晶]， 然后向賽麗亞回復。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`原來是這……這個啊……！`
+
+[quest point]
+	4

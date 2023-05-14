@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`死亡之珠`
+
+[layer]
+	`[bottom]`
+
+[basic action]
+	`Action/Sacrifice_Cirecle.act`
+
+[etc action]
+	`Action/Sacrifice_Cirecle_0.act`
+	`Action/Sacrifice_Cirecle_1.act`
+[/etc action]
+
+[hp max]
+	30000000
+
+[hp destroy]
+	1
+
+[destroy particle]
+	`Particle/Sacrifice_Cirecle_Pop.ptl`

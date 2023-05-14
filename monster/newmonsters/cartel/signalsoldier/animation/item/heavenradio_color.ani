@@ -1,0 +1,20 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Map/Antber/HeavenRadio.img`
+		0
+	[IMAGE POS]
+		-87	-75
+	[IMAGE RATE]
+		-1.0	1.0
+	[RGBA]
+		0	70	255	200
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		600

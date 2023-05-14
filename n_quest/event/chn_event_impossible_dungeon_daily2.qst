@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	2
+
+[complete npc index]
+	62
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	62
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749629	1
+[/reward int data]
+
+[name]
+	`前往異次元裂縫`
+
+[depend message]
+	`冒險家大人， 好像管理校將杜羅西有事找你。 如果你有空， 就去看看吧！`
+
+[condition message]
+	`    找杜羅西談談。`
+
+[solve message]
+	`感謝你上次的幫忙。
+不過最近異次元裂縫里似乎又有新的力量在涌動， 我希望你能再去調查下， 拜托了！
+當然我不會讓你孤身犯險的， 我為你準備了一些道具， 希望對你有所幫助。`

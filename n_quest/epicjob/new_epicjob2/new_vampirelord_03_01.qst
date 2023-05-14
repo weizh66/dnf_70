@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 血獄君主(4/6)`
+
+[depend message]
+	`一開始你本身的承載量非常有限， 但后來， 你為了生存不得不吸收大量血液， 承載量也隨之增大了許多， 說不定以后甚至會比現在還要大得多。
+在這一過程中， 并沒有出現無辜的犧牲者， 這也是你非常了不起的地方， 畢竟多數人一不小心就會被貪欲蒙蔽雙眼， 在貪圖力量的欲望驅使下自甘墮落。
+既然已經確認你有足夠大的承載量， 接下來就試試循環血氣吧。 這很簡單， 你就把它想象成一股氣流， 讓血氣在體內像氣流一樣流動就好。 沒錯， 就是這樣。 做得很好。 那下一步我們就直接應用到實戰上吧。
+這次你就去參加魂·青龍大會吧。 你會在那里與強者們一較高下， 同時在這一過程中可以將自身的承載量進一步擴大， 并且會逐漸掌握血氣的使用方法。
+聽說想要參加大會必須要有‘赫侖皇帝的印章’， 你先去把它拿回來， 之后才是登臺演出的環節。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5577
+[/pre required quest]
+
+[relation quest]
+	6764
+
+[job change quest]
+	3
+
+[grow number]
+	0

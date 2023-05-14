@@ -1,0 +1,198 @@
+#PVF_File
+
+[name]
+	`火焰的東方棍`
+
+[basic explain]
+	`暴擊攻擊力增加10%% 
+敵人攻擊時發生Miss 15秒內物理暴擊機率增加10%%，命中率增加5%% 
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[magical attack]
+	83
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[need material]
+	3339	1000
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	764	716
+
+[equipment magical attack]
+	804	754
+
+[equipment physical defense]
+	840	840
+
+[separate attack]
+	481	327
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/tonfa/tonfa.img`	89
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+	`fighter`	4
+	`at fighter`	4
+[/routing priority]
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack condition]
+		`stuck`
+	[attack success]
+		2
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[stat]
+		`physical critical hit rate`
+		`+`	10
+	[stat]
+		`stuck`
+		`+`	-5
+[/then]
+
+[possible kiri protect]

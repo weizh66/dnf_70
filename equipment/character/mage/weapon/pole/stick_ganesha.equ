@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`(舊) 圣使鎖魂棍`
+
+[basic explain]
+	`施放技能時， 有2%%的幾率使自身進入祝福狀態。`
+
+[detail explain]
+	`    施放技能時， 有2%%的幾率使自身進入祝福狀態20秒； 祝福狀態下， 增加19點力量、 體力、 智力和精神。`
+
+[flavor text]
+	`    神使用過的棍， 充滿了神圣的力量， 可以擊退任何邪惡。`
+
+[grade]
+	25
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`pole`
+
+[rarity]
+	4
+
+[weight]
+	2400
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	20
+
+[icon]
+	`Item/weapon/mage/pole.img`	39
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	40000
+
+[value]
+	32000
+
+[cool time]
+	10000
+
+[physical attack]
+	20
+
+[magical attack]
+	10
+
+[equipment physical attack]
+	298	246
+
+[equipment magical attack]
+	248	205
+
+[separate attack]
+	159	103
+
+[attack speed]
+	30
+
+[if]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[active status]
+		`bless`	20	19	19	19	19
+[/then]
+
+[stuck]
+	-1
+
+[animation job]
+	`[mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`dakshac`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`dakshad`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`at_dakshac`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_dakshad`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`POLE_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

@@ -1,0 +1,37 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	26
+
+[big face]
+	`Map/Npc/NpcFace04.img`	10
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	26
+
+[field animation]
+	`Animation/aganzo.ani`
+
+[look around]
+	0
+
+[field wav]
+	`R_AGANZO_STORY_AMB`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1011>你怎麼可以輕易放棄性命呢？你不能多活一些時候嗎？
+沒有你的世界，那還存在有什麼意義呢？`
+[/dialog]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1011>盧克西......。請原諒我的軟弱。
+要是我變得更強壯，那麼就不會發生這種悲劇了...`
+[/dialog]
+
+[name]
+	`阿甘左`
+
+[field name]
+	`阿甘左`

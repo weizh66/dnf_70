@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	2
+
+[complete npc index]
+	27
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	27
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	300
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1702
+
+[name]
+	`天才武斗家 - 阿爾伯特`
+
+[depend message]
+	`最近的貝爾瑪爾很熱鬧哦， 很多冒險家都往那聚集了。 聽說那里要舉辦決斗大賽呢， 只要是冒險家， 都能找到比自己強悍的決斗高手！
+如果你對決斗也感興趣， 就去找天才武斗家阿爾伯特吧， 他能帶你進入神秘的武斗世界！ `
+
+[condition message]
+	`    前往赫頓瑪爾通向艾爾文防線的路口處， 找阿爾伯特談談。`
+
+[solve message]
+	`決斗？ 武斗家？ 憑你現在的身手， 只能對付那些傻乎乎的怪物！ 我勸你還是先去積累點經驗再來找我吧。 `
+
+[quest point]
+	4

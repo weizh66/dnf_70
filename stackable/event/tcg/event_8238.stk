@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`純淨的黃金增幅書`
+
+[explain]
+	`使用后，可以定向扭轉裝備的異次元屬性(無法選擇與之前相同的屬性)，并隨機增幅+3~+6之間，但會覆蓋該裝備原有的強化等級。未凈化的裝備無法使用該道具。(只有Lv55以上的稀有及以上的裝備，才能使用此增幅書！)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[need material]
+	3185	320
+
+[rarity]
+	3
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	821
+
+[field image]
+	`Item/FieldImage.img`	24
+
+[stackable type]
+	`[etc]`	0
+
+[item group name]
+	`potion`
+
+[move wav]
+	`JEWEL_TOUCH`
+
+[amplification random value]
+	3	50	4	30	5	15	6	5
+[/amplification random value]

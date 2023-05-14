@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[job change quest]
+	0
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	3	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	3	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	63519	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`奧蘭奶奶的委托`
+
+[depend message]
+	`精靈的叢林--格蘭之森生活著大量寵物， 但最近那兒的怪物越來越狂暴， 已經不適合寵物生活了。 那些寵物都來找我這老太婆訴苦， 聽得我心疼啊……
+但我這老太婆能有什么力量啊， 只能用語言安慰那些小家伙， 告訴它們以后會好起來的……
+年輕人， 你就幫幫我吧！`
+
+[condition message]
+	`    通關格蘭之森的『幽暗密林』， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`謝謝，太感謝了。`
+
+[quest point]
+	4

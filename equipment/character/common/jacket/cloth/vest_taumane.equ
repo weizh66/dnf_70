@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	` 牛頭怪鬃毛背心`
+
+[basic explain]
+	`被攻擊時，以5%%的機率召喚1隻牛頭護衛。`
+
+[detail explain]
+	`被攻擊時，有5%%的幾率召喚出1隻Lv15的牛頭護衛協助召喚者攻擊敵人，牛頭護衛存在60秒。 （召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+
+[grade]
+	35
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	33
+
+[magical attack]
+	17
+
+[magical defense]
+	17
+
+[stuck resistance]
+	20
+
+[price]
+	24500
+
+[repair price]
+	19600
+
+[value]
+	19600
+
+[equipment physical defense]
+	456	432
+
+[icon]
+	`Item/common/coat.img`	6
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		60000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[reduce duration at pvp module]
+		75
+	[probability]
+		5
+	[summon monster]
+		14	15	1
+[/then]
+
+[possible kiri protect]

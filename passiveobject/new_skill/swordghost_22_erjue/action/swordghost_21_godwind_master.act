@@ -1,0 +1,25 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/etc.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND PROBABILITY]
+	[/SOUND PROBABILITY]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

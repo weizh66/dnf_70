@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	27
+
+[complete npc index]
+	27
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20630
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[pvp match]`
+
+[sub type]
+	-1
+
+[int data]
+	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749507	1
+[/reward int data]
+
+[name]
+	`鬥魂的歷練`
+
+[depend message]
+	`在這個弱肉強食的世界， 只有適者才能生存。 那些所謂的拯救世界的理想都是屁話， 自身實力不夠強大， 很快就會被其他人消滅。
+所以不要止步于眼前， 要不斷地磨練自身， 讓自己變得更強大， 就像我一樣……
+你這什么表情？ 算了， 不和你計較。 你先去決斗場一趟， 如果能通過這次歷練， 我就收你為徒！`
+
+[condition message]
+	`    前往決斗場， 完成5次決斗。 (在決斗場頻道滿足任務條件后， 回到普通頻道即算完成任務)`
+
+[solve message]
+	`表現得還行， 比我想象中的要強一些。
+記住， 每天都要刻苦訓練， 這樣總有一天會成為像我一樣的強者！ 哈哈哈~`

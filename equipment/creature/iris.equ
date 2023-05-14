@@ -1,0 +1,258 @@
+#PVF_File
+
+[name]
+	`艾麗絲`
+
+[basic explain]
+	`所有攻擊力 +50%%，所有技能冷卻時間 -30%%。
+裝備時，可使敵人的所有抗性降低100點。
+裝備時，釋放元素光環，每隔4秒使對應的元素傷害提高200%%。
+攻擊時，降低敵人的異常抗性50%%。`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[need material]
+	3850	1500
+
+[price]
+	50000000
+
+[icon]
+	`Monster/monsterFace.img`	697
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	1510
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		5000	1	1000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			4000
+		[stat]
+			`fire attack`
+			`+`	440
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			4000
+		[stat]
+			`water attack`
+			`+`	440
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			4000
+		[stat]
+			`light attack`
+			`+`	440
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			4000
+		[stat]
+			`dark attack`
+			`+`	440
+		[then probability]
+			25.0
+	[/then]
+[/multiple then]
+
+[room list move speed rate]
+	1.0
+
+[physical attack]
+	220
+
+[physical defense]
+	220
+
+[magical attack]
+	220
+
+[magical defense]
+	220
+
+[equipment magical attack]
+	300	300
+
+[equipment physical attack]
+	300	300
+
+[separate attack]
+	300	300
+
+[all elemental attack]
+	100
+
+[HP MAX]
+	3000
+
+[stuck]
+	-10
+
+[stuck resistance]
+	100
+
+[move speed]
+	180
+
+[attack speed]
+	180
+
+[cast speed]
+	180
+
+[MP MAX rate]
+	25.0
+
+[HP MAX rate]
+	25.0
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			4
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[stat by condition]
+		`skill cool time`
+		`%`	-30
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	50
+	[stat by condition]
+		`magical attack bonus`
+		`%`	50
+	[stat by condition]
+		`separate attack`
+		`%`	50
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[duration]
+		20000
+	[appendage]
+		410
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	1000
+	[duration]
+		500
+	[aura active]
+		`dark resistance`
+		`+`	-100	0
+	[aura active]
+		`water resistance`
+		`+`	-100	0
+	[aura active]
+		`light resistance`
+		`+`	-100	0
+	[aura active]
+		`fire resistance`
+		`+`	-100	0
+[/then]
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1

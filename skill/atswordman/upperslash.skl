@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`uper_name`
+
+[basic explain]
+	`uper_basic_explain`
+
+[explain]
+	`uper_explain`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[required level]
+	25
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	18
+	`Character/Swordman/Effect/ATSkillIcon.img`	19
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[consume MP]
+		30	350
+	[cool time]
+		8000	8000
+	[static data]
+		700	-1500	80	4
+	[/static data]
+	[level info]
+		2	243	750	269	789	294	831	318	871	344	912	369	952	395	993	419	1033	444	1074	470	1114	495	1155	519	1195	545	1236	570	1276	596	1317	620	1357	645	1398	671	1438	696	1479	720	1519	746	1560	771	1600	797	1641	821	1681	846	1722	872	1762	897	1803	921	1843	947	1884	972	1924	998	1965	1023	2005	1047	2046	1073	2086	1098	2127	1124	2167	1148	2208	1173	2248	1199	2289	1224	2329	1248	2370	1274	2410	1299	2451	1325	2491	1349	2532	1374	2572	1400	2613	1425	2653	1449	2694	1475	2734	1500	2775	1526	2815	1550	2856	1575	2896	1601	2937	1626	2977	1650	3018	1676	3058	1701	3099	1727	3139	1752	3180	1776	3220	1802	3261	1827	3301	1853	3342	1877	3382	1902	3423	1928	3463	1953	3504	1977	3544
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	49	75	54	79	59	83	64	87	69	91	74	95	79	99	84	103	89	107	94	111	99	115	104	120	109	124	114	128	119	132	124	136	129	140	134	144	139	148	144	152	149	156	154	160	159	164	164	168	169	172	174	176	179	180	184	184	189	188	194	192	200	196	205	201	209	205	215	209	220	213	225	217	230	221	235	225	240	229	245	233	250	237	255	241	260	245	265	249	270	253	275	257	280	261	285	265	290	269	295	273	300	277	305	282	310	286	315	290	320	294	325	298	330	302	335	306	340	310	345	314	350	318	355	322	360	326	365	330	371	334	375	338	380	342	386	346	391	350	395	354
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`uper_level_property`	3	3	1.0	-1	0	1.0	-1	1	1.0
+[/level property]
+
+[feature skill index]
+	225

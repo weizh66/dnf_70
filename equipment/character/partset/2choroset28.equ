@@ -1,0 +1,264 @@
+#PVF_File
+
+[set name]
+	`死亡召喚  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[fighter]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	18
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[浮空凌云踢]冷卻時間 -6秒
+[浮空凌云踢]攻擊力 +20%%
+格斗家(女) :
+[螺旋彗星落]冷卻時間 -6秒
+[螺旋彗星落]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[fighter]`	89
+		`[dungeon type]`
+		`[static]`	2
+		`+`	1
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[fighter]`	54
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[fighter]`	54
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[fighter]`	54
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[fighter]`	54
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[野蠻衝撞]攻擊力 +15%%
+[地獄風火輪]冷卻時間 -9秒
+[地獄風火輪]攻擊力 +20%%
+[地獄風火輪]減少多段攻擊間隔
+格斗家(女) :
+[野蠻衝撞]攻擊力 +15%%
+[地獄搖籃]冷卻時間 -9秒
+[地獄搖籃]旋轉次數 +1
+[地獄搖籃]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	88
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-13500
+		`[at fighter]`	88
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[fighter]`	88
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[fighter]`	88
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[at fighter]`	88
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	88
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	88
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[fighter]`	54
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[fighter]`	54
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at fighter]`	54
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男) :
+[野蠻衝撞]冷卻時間 -2秒
+[野蠻衝撞]蓄氣時間 -50%%
+[裂石破天]冷卻時間 -15秒
+[裂石破天]攻擊力 +30%%
+格斗家(女) :
+[野蠻衝撞]冷卻時間 -2秒
+[野蠻衝撞]蓄氣時間 -50%%
+[裂石破天]冷卻時間 -13.5秒
+[裂石破天]攻擊次數 +1
+[裂石破天]攻擊力 +30%%`
+[/piece set ability]

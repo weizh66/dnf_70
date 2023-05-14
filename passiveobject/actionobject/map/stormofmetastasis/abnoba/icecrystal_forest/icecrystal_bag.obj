@@ -1,0 +1,28 @@
+#PVF_File
+
+[width]
+	50	20
+
+[is hp by difficulty]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[do not pass]`
+
+[basic action]
+	`Action/Icecrystal_bag_Basic.act`
+
+[team]
+	100
+
+[destroy particle]
+	`Particle/Icecrystal_bag_destroy.ptl`
+
+[hp destroy]
+	1
+
+[hp max]
+	20

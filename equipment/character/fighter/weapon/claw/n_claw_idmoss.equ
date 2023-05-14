@@ -1,0 +1,174 @@
+#PVF_File
+
+[name]
+	`血祭絕魂爪`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使敵人進入出血狀態。
+敵人進入出血狀態時， 自身可以增加5%%的攻擊速度， 效果持續60秒。
+[死亡毒霧]范圍 +10%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態10秒； 出血狀態下的敵人， 每0.5秒受到95點傷害。 (若敵人高于Lv55， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    敵人進入出血狀態時， 自身可以增加5%%的攻擊速度， 效果持續60秒。
+[死亡毒霧]范圍 +10%%`
+
+[flavor text]
+	`    這該死的苔蘚， 居然能噴出讓人抓狂的毒氣。  --克米特兄弟盟`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/claw.img`	37
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	532	484
+
+[equipment magical attack]
+	532	484
+
+[separate attack]
+	328	220
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[active status]
+		`bleeding`	55	1900
+[/then]
+
+[physical critical hit]
+	3
+
+[skill data up]
+	`[fighter]`	64
+	`[all]`
+	`[static]`	0
+	`%`	10
+	`[at fighter]`	105
+	`[all]`
+	`[static]`	0
+	`%`	-20
+[/skill data up]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[routing priority]
+	`fighter`	3
+	`at fighter`	3
+[/routing priority]
+
+[possible kiri protect]

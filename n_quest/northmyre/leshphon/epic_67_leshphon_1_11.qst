@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	28
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[priest]`	-1	-1
+	`[thief]`	-1	-1
+[/target character]
+
+[level]
+	68	99
+
+[pre required quest]
+	5990
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3305	10	3306	1	3038	2	3039	2	3042	4
+[/int data]
+
+[dungeon info]
+	1506	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 凈化污穢氣息`
+
+[depend message]
+	`你見到赫爾德大人了嗎？
+正如她所說， 你現在做的這些事情， 對某些人來說意義非凡， 請你一定要記住這一點！
+還有， 你之前的事還沒做完呢。 如果你真的想把那座被瘟疫破壞的城鎮恢復成原來的模樣， 就一定要凈化掉所有的污穢氣息。
+因此， 請你再去一次痛苦之村， 將那些殘余的污穢氣息清理干凈吧。`
+
+[condition message]
+	`    收集[污穢之血]、 [狄瑞吉之血]以及下列大晶體交給艾麗絲。`
+
+[solve message]
+	`阿拉德大陸的首要問題已經解決了。
+恭喜你， 你又完成了一件偉大的事。 不過， 一切還沒有結束……
+不久我們還會再見面的， 我先告辭了。`
+
+[quest point]
+	4

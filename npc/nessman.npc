@@ -1,0 +1,59 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	38
+
+[big face]
+	`Map/Npc/NpcFace04.img`	38
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	38
+
+[field animation]
+	`Animation/Npc_Nessman.ani`
+
+[look around]
+	0
+
+[field wav]
+	`R_NPC_MATHIAS_AMB`
+
+[popup wav]
+	`R_NPC_MATHIAS_TK`
+	`R_NPC_MATHIAS_FW`
+
+[role]
+	`[item shop]`	60
+	`[crane minigame]`	2
+	`[disjoint item]`	0
+[/role]
+
+[look around]
+	0
+
+[name]
+	`馬蒂亞斯`
+
+[field name]
+	`馬蒂亞斯·內斯曼`
+
+[quest speech]
+	`找不到代碼quest_speech_4329`
+
+[dialog]
+	1	1	99	-1	0	0
+	` <npc::79>下面的世界怎麼樣呢？還可以住人嗎？總有一天，我會擴張我的事業，進軍下面的世界的。
+特別是聽說帝國的富翁特別多啊。在那裡展開新的事業，看來也是個不錯的選擇。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::79>下面就流著汙染江河。也許就是因為這樣，所以史拉烏才會隨時都散發出嚴重的惡臭。
+雖然在江裡充斥著各種垃圾，但是偶爾也是會有不錯可用的東西出現的。這個是用起重機撈起來的吧。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	` <npc::79>當我在害怕一個人睡覺時，我都會去找利亞姊姊。仔細觀察，可以發現他和我去世的母親長的很像...
+當然在充電時，是不能去找她的。`
+[/dialog]

@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7841	7843	7849
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	10
+
+[int data]
+	13	-1	8
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7847
+
+[name]
+	`轉職 - 戰斗法師 (1/3)`
+
+[depend message]
+	`你想成為把身體能力發揮到極限的戰斗法師啊？ 戰斗法師有一種特殊的能力叫‘炫紋’， 是用自己的戰斗本能和魔力結合后產生的。
+如果你也想獲得這種能力， 就按照我說的方法進行修煉吧， 當然你的天賦和努力也將決定你獲得‘炫紋’的難度。
+呵呵，現在就去試試吧， 祝你好運啊。`
+
+[condition message]
+	`    前往天空之城的『石巨人塔』， 要求連擊次數達到8次以上。`
+
+[solve message]
+	`沒想到你的魔法到了這種境界……真令人吃驚啊！ `

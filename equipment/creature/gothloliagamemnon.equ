@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	`黑哥特蘿莉`
+
+[basic explain]
+	`所有攻擊力 +25%%，所有技能冷卻時間 -30%%。`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[need material]
+	3836	5000
+
+[icon]
+	`Monster/monsterFace.img`	518
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	1503
+
+[cool time]
+	10000
+
+[room list move speed rate]
+	0.8
+
+[physical attack]
+	180
+
+[physical defense]
+	180
+
+[magical attack]
+	180
+
+[magical defense]
+	180
+
+[equipment magical attack]
+	200	220
+
+[equipment physical attack]
+	200	220
+
+[separate attack]
+	200	220
+
+[all elemental attack]
+	50
+
+[stuck]
+	-10
+
+[stuck resistance]
+	100
+
+[move speed]
+	120
+
+[attack speed]
+	120
+
+[cast speed]
+	120
+
+[MP MAX rate]
+	25.0
+
+[HP MAX rate]
+	25.0
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			4
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[stat by condition]
+		`skill cool time`
+		`%`	-30
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	25
+	[stat by condition]
+		`magical attack bonus`
+		`%`	25
+	[stat by condition]
+		`separate attack`
+		`%`	25
+[/then]
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1

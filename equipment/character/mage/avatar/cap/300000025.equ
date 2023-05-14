@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`獵龍者粉金幻靈頭盔`
+
+[rarity]
+	2
+
+[grade]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[mage]`
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	30
+
+[icon]
+	`sz_cap.img`	3
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0	30	0	0	2000	0	0	0	0	4000	0	0	0	0	4500	2
+	`[A socket]`
+	`[A socket]`
+[/avatar type select]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	199	3
+
+[layer variation]
+	2810
+	`cap_f`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	199	3
+
+[layer variation]
+	2810
+	`cap_f`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	3
+
+[effect part set index]
+	6
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`
+	`+`	55
+	`[MAGICAL_DEFENSE]`
+	`+`	55
+	`[HP_REGENRATE]`
+	`+`	75
+	`[MP_REGENRATE]`
+	`+`	15
+	`[CAST_SPEED]`
+	`+`	140
+[/avatar select ability]

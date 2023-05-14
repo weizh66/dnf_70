@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`?傍八 官? 付?柳`
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/attime_8.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	21826585
+[/object destroy condition]

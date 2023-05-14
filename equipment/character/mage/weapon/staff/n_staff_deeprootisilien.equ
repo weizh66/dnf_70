@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`威利的戒言法杖`
+
+[basic explain]
+	`施放技能時， 有5%%的幾率在300px范圍內最近的敵人腳下生成樹魔的樹根針刺。`
+
+[flavor text]
+	`    為了前進十步， 有時需要先退一步， 這種說法聽說過吧？ 如果我開始向后退， 那你要小心了。  --艾麗絲`
+
+[grade]
+	60
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[weight]
+	2400
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/mage/staff.img`	46
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	28
+
+[price]
+	96000
+
+[value]
+	76800
+
+[cool time]
+	10000
+
+[magical attack]
+	17
+
+[equipment physical attack]
+	520	459
+
+[equipment magical attack]
+	658	581
+
+[attack speed]
+	-100
+
+[if]
+	[cooltime]
+		1000
+	[use skill]
+		`mage`	169
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[probability]
+		3
+	[passive object]
+		30039	0	0	0	30	0
+		``
+	[/passive object]
+[/then]
+
+[skill levelup]
+	`[mage]`	17	2
+	`[mage]`	18	2
+[/skill levelup]
+
+[variation]
+	6	0
+
+[layer variation]
+	2600
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[move wav]
+	`STAFF_TOUCH`

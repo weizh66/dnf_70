@@ -1,0 +1,153 @@
+#PVF_File
+
+[name]
+	`封·鎮魂曲：幽遊板甲腰帶`
+
+[basic explain]
+	`  施放[巨旋風]、 [圣光沁盾]、 [冰刃·波動劍、 [魅影暗魂斬]、 [神木刺擊]時， 有20%%的幾率不受冷卻時間影響。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12570
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[physical defense]
+	24
+
+[MP MAX]
+	200
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	900
+
+[price]
+	103200
+
+[repair price]
+	82560
+
+[value]
+	82560
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1940	1760
+
+[skill levelup]
+	`[priest]`	50	3
+	`[priest]`	27	3
+	`[swordman]`	21	3
+	`[creator mage]`	251	3
+	`[demonic swordman]`	44	4
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/06_plate/belt/plate_belt.img`	10
+
+[field image]
+	`Item/field_equip.img`	18
+
+[equipment type]
+	`[waist]`	20
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2000
+
+[item group name]
+	`mt waist`
+
+[cool time]
+	10000
+
+[if]
+	[event use skill]
+		`priest`	50
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill data up]
+		`[priest]`	50
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	27
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill data up]
+		`[priest]`	27
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	21
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill data up]
+		`[swordman]`	21
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

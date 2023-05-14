@@ -1,0 +1,55 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Equipment/Avatar/skin/gn_body%04d.img`
+		185
+	[IMAGE POS]
+		-235	-376
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[PLAY SOUND]
+		`R_BURSTERBEAM_LASER`
+	[ATTACK BOX]
+	-656	-227	-201	1340	475	469
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Equipment/Avatar/skin/gn_body%04d.img`
+		185
+	[IMAGE POS]
+		-235	-376
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-509	-257	-349	1248	513	832
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Equipment/Avatar/skin/gn_body%04d.img`
+		188
+	[IMAGE POS]
+		-235	-376
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-518	-225	-275	1033	426	539
+
+[FRAME003]
+	[IMAGE]
+		`Character/Gunner/Equipment/Avatar/skin/gn_body%04d.img`
+		188
+	[IMAGE POS]
+		-235	-376
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`NORMAL`

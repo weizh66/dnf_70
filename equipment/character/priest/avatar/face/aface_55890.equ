@@ -1,0 +1,45 @@
+#PVF_File
+
+[name]
+	`（古老）初階聖職者基本臉部`
+
+[enable dye]
+	1	0
+
+[grade]
+	1
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_aface.img`	73
+
+[equipment type]
+	`[face avatar]`	0
+
+[animation job]
+	`[priest]`
+
+[variation]
+	46	0
+
+[layer variation]
+	100
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[avatar func filter]
+	0
+
+[move wav]
+	`BONE_TOUCH`

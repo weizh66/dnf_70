@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	2
+
+[grade]
+	`[normal]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	18
+
+[next mission]
+	20
+
+[name_text]
+	`[個人戰] 勝利的喜悅7`
+	
+
+[cond_text]
+	`個人戰合計達到3000勝`
+	
+
+[condition]
+	`[winning count]`	1	3000	-1
+[/condition]
+
+[reward item]
+	2601159	1
+[/reward item]

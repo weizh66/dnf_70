@@ -1,0 +1,153 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	4123
+[/dungeon]
+
+[type]
+	`[boss]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`Tile/Center_Tile01.til`
+	`Tile/Center_Tile01.til`
+	`Tile/Center_Tile00.til`
+	`Tile/Center_Tile01.til`
+	`Tile/Center_Tile00.til`
+[/tile]
+
+[extended tile]
+	`Tile/center_Tile_ex00.til`
+	`Tile/center_Tile_ex00.til`
+	`Tile/center_Tile_ex00.til`
+	`Tile/center_Tile_ex00.til`
+	`Tile/center_Tile_ex00.til`
+[/extended tile]
+
+[far sight scroll]
+	42
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/uffar_fog_02.ani`
+		[layer]
+			`[close]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	540	613	1103	247	585	621	607	623
+
+[sound]
+	`M_NEN_AREA`
+	`AMB_FOREST_04`
+[/sound]
+
+[animation]
+	`Animation/chn_dragon_zone_light_left.ani`
+	`[close]`	-36	-202	0
+	`Animation/chn_dragon_zone_light.ani`
+	`[close]`	563	-202	0
+	`Animation/chn_floor_grass1.ani`
+	`[bottom]`	868	256	0
+	`Animation/chn_floor_grass1.ani`
+	`[bottom]`	412	404	0
+	`Animation/chn_floor_grass1.ani`
+	`[bottom]`	203	292	0
+	`Animation/chn_floor_grass1.ani`
+	`[bottom]`	962	416	0
+	`Animation/chn_floor_grass1.ani`
+	`[bottom]`	573	185	0
+	`Animation/chn_floor_grass1.ani`
+	`[bottom]`	626	449	0
+	`Animation/chn_floor_grass1.ani`
+	`[bottom]`	720	323	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	81	367	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	100	228	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	488	283	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	308	260	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	829	213	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	797	346	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	895	451	0
+	`Animation/chn_floor4.ani`
+	`[bottom]`	471	436	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	140	299	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	662	238	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	408	283	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	371	279	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	683	350	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	721	355	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	715	228	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	744	221	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	385	431	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	335	420	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	136	358	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	170	350	0
+	`Animation/chn_floor5.ani`
+	`[bottom]`	800	443	0
+[/animation]
+
+[passive object]
+	640	98	164	0	641	211	162	0	642	334	169	0	643	760	166	0	644	850	168	0	645	947	166	0	646	836	455	0	647	948	454	0	648	1064	450	0	649	220	444	0	650	342	440	0	651	463	446	0	840	403	201	0	840	372	244	0	840	359	294	0	840	369	337	0	840	732	207	0	840	791	266	0	840	813	306	0	840	820	349	0	840	392	394	0	840	431	420	0	840	764	234	0	840	800	400	0	840	786	429	0	818	576	371	0	818	583	254	0	822	472	162	0	822	664	150	0	822	528	155	0	822	560	151	0	822	611	163	0	822	508	483	0	822	549	484	0	822	596	454	0	822	616	499	0	822	675	473	0
+[/passive object]
+
+[monster]
+	110256	1	0	493	247	0	1	1
+	`[fixed]`
+	`[boss]`	110255	1	0	493	355	0	1	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+	`[normal]`
+[/monster specific AI]
+
+[NPC]
+	1000
+	`[left]`	-144	-14	0
+[/NPC]
+
+[event monster position]
+	65	264	0	77	305	0	105	274	0	123	322	0
+[/event monster position]
+
+[map name]
+	`PVP無名`

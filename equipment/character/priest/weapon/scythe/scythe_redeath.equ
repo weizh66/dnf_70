@@ -1,0 +1,156 @@
+#PVF_File
+
+[name]
+	`即死領悟 - 死神之鐮`
+
+[basic explain]
+	`破招攻擊力 +40%%`
+
+[flavor text]
+	`    引領亡者的死神使用的巨大鐮刀， 若被該鐮刀割下頭顱， 則連靈魂都會湮滅。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`scythe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2800
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/scythe.img`	34
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	572	524
+
+[separate attack]
+	360	243
+
+[attack speed]
+	80
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill levelup]
+	`[priest]`	114	2
+[/skill levelup]
+
+[variation]
+	4	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[if]
+	[attack condition]
+		`counter`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	40
+[/then]
+
+[pvp]
+	[if]
+		[attack condition]
+			`counter`
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	28
+	[/then]
+[/pvp]
+
+[routing priority]
+	`priest`	3
+	`priest`	2
+	`priest`	4
+[/routing priority]
+
+[need material]
+	2749095	129
+
+[possible kiri protect]

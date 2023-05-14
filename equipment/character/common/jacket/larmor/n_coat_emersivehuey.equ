@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	` 極拳胸甲`
+
+[basic explain]
+	`寸拳的冷卻時間減少3秒
+寸拳的MP消耗量20 `
+
+[flavor text]
+	`男人是一瞬間，人生是一瞬間。`
+
+[grade]
+	35
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	30
+
+[physical attack]
+	20
+
+[magical attack]
+	13
+
+[price]
+	42000
+
+[repair price]
+	33600
+
+[value]
+	33600
+
+[equipment physical defense]
+	1548	1332
+
+[icon]
+	`Item/common/coat.img`	120
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[fighter]`	19
+	`[all]`
+	`[cooltime]`	0
+	`+`	-3000
+	`[fighter]`	19
+	`[all]`
+	`[mp]`	0
+	`+`	-20
+[/skill data up]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

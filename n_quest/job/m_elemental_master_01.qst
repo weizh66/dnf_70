@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	0
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7843	7846	7849
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7842
+
+[name]
+	`轉職 - 元素師 (1/2)`
+
+[depend message]
+	`小魔法師， 你想深入了解元素魔法嗎？ 如果想， 元素師就是你最好的選擇。 不過， 這并不容易。
+元素師需要懂得制作超越元素界限的魔法物質， 因而要先學會找到那些具有各種元素特征的特殊材料。
+這些材料目前只有亡月雷鳴廢墟才有， 而要進入那里， 必須要有亡月之鏡才行。
+呵呵， 聽起來挺麻煩的吧！ 總之， 你先去收集些小晶塊給我， 我來幫你做亡月之鏡。`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給莎蘭。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`很快嘛？ 嗯~這些足夠了， 你等我一會兒啊！
+這就是亡月之鏡， 收好了。`

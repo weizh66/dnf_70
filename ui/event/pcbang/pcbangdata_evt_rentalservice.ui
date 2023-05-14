@@ -1,0 +1,52 @@
+#PVF_File
+
+[ui controls]
+	`[board image]`
+	`300`	1	1	1
+	`Interface/WindowCommon.img`	11	230	156	213	214	215	216	217	218	219	220	221
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`301`	4	4	1
+	`1. 在GCA網咖登入時可租用網咖連線期間可使用的強力獨特武器！
+2. 租用的武器不可交易/提鍊/強化/增幅/分解，離線時消失。
+3. 在網咖登錄的期間，隨時可以再次領取武器。`
+		9	-1	220	0	0	0	0	230	200	155
+	[parent]
+		`300`
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`310`	0	120	1
+	` 目前無法利用。`
+		9	-1	220	1	0	0	0	230	200	155
+	[parent]
+		`300`
+[/ui controls]
+
+[ui controls]
+	`[image]`
+	`303`	-1	110	1
+	`Interface2/event/RentalService/Event_pc.img`	1	2
+	[parent]
+		`300`
+[/ui controls]
+
+[ui controls]
+	`[control]`
+	`302`	17	4	0	2	0	0
+	[parent]
+		`303`
+[/ui controls]
+
+[ui controls]
+	`[text button]`
+	`304`	175	9	2
+	`Interface/WindowCommon.img`
+	`決定`
+		4	12	13	14	15
+	[parent]
+		`303`
+[/ui controls]

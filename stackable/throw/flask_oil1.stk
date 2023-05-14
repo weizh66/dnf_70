@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`燃燒瓶`
+
+[explain]
+	`裝有油的瓶子， 爆炸時可以對敵人造成365點傷害。`
+
+[flavor text]
+	`你給我注意點投， 如果投不好， 我會砍斷你的腰！`
+
+[grade]
+	15
+
+[attach type]
+	`[free]`
+
+[creation rate]
+	850
+
+[weight]
+	2
+
+[rarity]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	15
+
+[icon]
+	`Item/IconMaterial.img`	41
+
+[field image]
+	`Item/FieldImage.img`	20
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	300
+
+[value]
+	0
+
+[cool time]
+	2000
+
+[move wav]
+	`BOTTLE_TOUCH`
+
+[int data]
+	50700	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/RedOilFlask.ptl`
+[/string data]

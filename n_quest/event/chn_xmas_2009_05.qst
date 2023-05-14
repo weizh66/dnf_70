@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2497
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680351	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680348	2	2680347	2	2680349	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`有點特別的裝飾 <5/5>`
+
+[depend message]
+	`我的旅館經過卡妮娜的精心布置， 煥然一新了， 我的心情也好了很多， 但是老這樣麻煩冒險家， 我心里實在過意不去。
+ (卡妮娜) 嗯， 再試一下更特別的裝飾怎么樣？
+唉~冒險家， 你不要老嫌麻煩啦~再幫一次啦！ 其實賽麗亞姐姐的旅館變得越漂亮， 你的心情不也會變得越好嗎？`
+
+[condition message]
+	`    前往任意地下城， 從怪物身上收集12個圣誕節禮盒交給賽麗亞。`
+
+[solve message]
+	`這個頑皮的卡妮娜， 最后還是纏著你做完她想做的事， 真是過意不去。
+ (卡妮娜) 冒險家， 你在干什么呢？ 看這么可愛的女生在天花板上辛苦的掛東西， 你都不幫一下嗎？
+贊！ 怎么樣， 賽麗亞姐姐， 好看吧？
+ (賽麗亞) 嗯， 很漂亮， 但以后不要因為這些事去麻煩冒險家了。 
+ (卡妮娜) 唉~都圣誕節了， 搞點氣氛開心一下才有生活的樂趣嘛……
+ (賽麗亞) 好吧好吧， 知道了。 為了感謝辛苦的冒險家和可愛的卡妮娜， 我給你們做好吃的蛋糕， 請稍等啊。`

@@ -1,0 +1,12 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Vajra/Vajra_finish_exp_lightning_B.ani`
+	[SUB ANI]
+		`../Animation/Vajra/Vajra_finish_exp_main_vajra.ani`	0	0
+	[/SUB ANI]
+	[SUB ANI WITH XYZ]
+		`../Animation/Vajra/Vajra_finish_maincloud_lightning_A.ani`	1	0	0	0	400
+	[/SUB ANI WITH XYZ]
+[/MOTION]

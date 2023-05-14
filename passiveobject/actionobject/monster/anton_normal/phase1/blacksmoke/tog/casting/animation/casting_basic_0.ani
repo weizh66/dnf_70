@@ -1,0 +1,52 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/casting.img`
+		0
+	[IMAGE POS]
+		-178	-325
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/casting.img`
+		1
+	[IMAGE POS]
+		-178	-325
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/casting.img`
+		2
+	[IMAGE POS]
+		-178	-325
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/casting.img`
+		1
+	[IMAGE POS]
+		-178	-325
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/casting.img`
+		0
+	[IMAGE POS]
+		-178	-325
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80

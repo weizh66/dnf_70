@@ -1,0 +1,81 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/sky_entranceofdarkness.ani`
+
+[cutscene image]
+	`Map/CutScene/SkyCastle.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act2.img`
+
+[worldmap pattern info]
+	2	4
+	`WorldMap/SelectdungeonSlot/skycastle.img`	2
+
+[minimum required level]
+	22
+
+[basis level]
+	25
+
+[experience increasing point]
+	0.9
+
+[champion]
+	4	8	12	16	18
+
+[pathgate object]
+	5660	5661	5662	5663	5664	5665	5666	5667	5668	5669
+
+[maze info]
+
+[size]
+	5	5
+
+[greed]
+	`BBMMAAAAAA
+ AADDMMAAAA
+ BBFFPPFFEE
+ AAJJGGAAAA
+ BBGGAAAAAA`
+
+[start map]
+	0	0	0	4
+[/start map]
+
+[boss map]
+	0	2	4	2
+[/boss map]
+
+[seal door map index]
+	50058
+
+[seal door pos]
+	3	2
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[special passive object item]
+	0	-1	4	3123	800	3124	800	3125	800	3128	800	1	-1	4	1048	800	1049	800	1059	800	1061	800
+[/special passive object item]
+
+[name]
+	`黑暗玄廊`
+
+[explain]
+	`    伸手不見五指的黑暗中， 原本靜靜站在身旁的騎士石像突然向冒險家發出攻擊……難道不除掉光之城主的親衛隊--驅逐者就永遠無法登上天空之城最頂層的傳說是真的？ 驅逐者頭盔中閃爍的暗紅光芒散發出一種蕭殺之氣， 一片漆黑中， 冒險家和驅逐者的對決悄無聲息地展開！ 幾經生死考驗的冒險家， 早有了奮戰到死的覺悟……`
+
+[event monster]
+	1	10000	61727	1	300	80	1
+[/event monster]

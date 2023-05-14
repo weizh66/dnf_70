@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`黑月之潮`
+
+[basic explain]
+	`    攻擊時， 可以通過消耗1個天界珍珠， 賦予武器冰屬性或暗屬性， 效果持續25秒。`
+
+[detail explain]
+	`    攻擊時， 可以通過消耗1個天界珍珠， 賦予武器冰屬性或暗屬性， 效果持續25秒。 (冷卻時間25秒)`
+
+[flavor text]
+	`    這?晚了還不回家， 又去哪瘋了？  --某位憂心的母親`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	90
+
+[need material]
+	10000204	24
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7920	7360
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[dark attack]
+	18
+
+[water attack]
+	18
+
+[icon]
+	`Item/new_equipment/08_necklace/necklace.img`	116
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		25000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[consume item]
+			3296	1
+		[duration]
+			25000
+		[elemental weapon]
+			`water`
+		[then probability]
+			50.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[consume item]
+			3296	1
+		[duration]
+			20000
+		[elemental weapon]
+			`dark`
+		[then probability]
+			50.0
+	[/then]
+[/multiple then]
+
+[possible kiri protect]

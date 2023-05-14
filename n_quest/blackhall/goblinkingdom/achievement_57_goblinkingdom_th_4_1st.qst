@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5285
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	62	-1	61340	1	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5287
+
+[name]
+	`勇者 - 阿爾伯特與哥布林的較量`
+
+[depend message]
+	`我收集到一些情報， 是關于那些哥布林的， 說它們聚集的地方不好通過。
+我最感興趣的是那個吃哥布林的機器， 以你的實力能打碎它嗎？ 你和你的伙伴聯手也不能打碎嗎？
+那你們再多試幾次吧， 你是我唯一看得順眼的家伙， 相信你的朋友也不會差到哪去。`
+
+[condition message]
+	`    前往異次元裂縫的『哥布林王國』， 擊敗巨型發條克利克6次。`
+
+[solve message]
+	`嗯……怎么打都打不碎的機器……如果能好好運用的話， 說不定會有很可怕的效果呢……
+你們連打了6次， 卻沒一次能打碎它？ 看來那機器還真的挺厲害啊， 不過我也沒看出來你有多累， 你真的盡力了嗎？`
+
+[quest point]
+	4

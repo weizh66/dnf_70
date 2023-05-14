@@ -1,0 +1,145 @@
+#PVF_File
+
+[name]
+	`噴毒者的遺骨`
+
+[basic explain]
+	`攻擊中毒狀態的敵人時20%% 附加傷害
+施展死靈之怨時消耗1個無色小晶塊，對前方施展挖掘者的毒氣柱`
+
+[detail explain]
+	`中毒狀態的敵人攻擊時20%% 附加傷害
+施展死靈之怨時消耗1個無色小晶塊，朝前方 3方向施展挖掘者的毒氣柱。 （被毒氣柱擊中時以20%%的機率7秒內讓敵人進入中毒狀態，每 0.5秒以 200的攻擊力給予附加 傷害。）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[attack speed]
+	-100
+
+[price]
+	142400
+
+[repair price]
+	119616
+
+[value]
+	113920
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	690	649
+
+[equipment magical attack]
+	982	925
+
+[separate attack]
+	510	347
+
+[magical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/thief/wand/wand.img`	110
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	13	6
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[magical attack]
+	58
+
+[if]
+	[use skill]
+		`thief`	49
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[passive object]
+		48544	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`poison`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[possible kiri protect]

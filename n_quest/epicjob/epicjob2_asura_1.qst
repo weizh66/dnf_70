@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	7
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 天帝 (1/2)`
+
+[depend message]
+	`也許對于大暗黑天來說， 最難以領悟的波動就是光之波動。
+眼睛的桎梏讓我們無法領悟光的真諦， 而能突破這層枷鎖明悟光之領域的大暗黑天， 我們稱之為‘天帝’， 因為他所掌握的力量已不再是人間的力量了。
+想要達到‘天帝’的境界， 以你現有的心眼力量是遠遠不夠的， 必須還要經過千萬重雷電的洗禮， 才能夠讓身在黑暗中的你感悟光明。
+而這之間的痛苦， 足夠摧毀任何人的心志。
+怎么樣？ 有勇氣試試嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與G.S.D談談。`
+
+[solve message]
+	`下定決心了嗎？
+很好， 我現在就把成為天帝的方法傳授給你。`
+
+[pre required quest]
+	998
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4736
+
+[job change quest]
+	3
+
+[grow number]
+	0

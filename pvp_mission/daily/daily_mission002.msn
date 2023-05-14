@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	19
+
+[grade]
+	`[daily]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[個人戰] 愉快的開始`
+	
+
+[cond_text]
+	`獲得個人戰 1勝`
+	
+
+[condition]
+	`[hereafter winning count]`	1	1	-1
+[/condition]
+
+[reward item]
+	3312	3
+[/reward item]

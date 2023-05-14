@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`迷你賽麗亞`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation/idle.ani`
+
+[walk motion]
+	`Animation/move.ani`
+
+[run motion]
+	`Animation/run.ani`
+
+[skill motion]
+	`Animation/skill_middle.ani`
+
+[over skill motion]
+	`Animation/skill_middle.ani`
+
+[response motion]
+	`Animation/call.ani`
+
+[random motion]
+	`Animation/ran_idle.ani`
+[/random motion]
+
+[revision x]
+	-5
+
+[revision y]
+	-10
+
+[attack info]
+	``
+[/attack info]
+
+[piercing]
+	0	0	0	0
+[/piercing]
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[skill list]
+	[skill node]
+		0
+		[skill type]
+			`general skill`
+		[skill name]
+			`賽麗亞的心意`
+		[skill explain]
+			`施放後， 力量和智力各增加10點， 效果持續30秒。 (冷卻時間30秒)`
+		[skill recovery time]
+			30000
+		[learn skill level]
+			1
+		[skill mp]
+			0
+		[skill motion]
+			`Animation/skill_middle.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			`Animation/skill_front_dotge.ani`
+		[skill info]
+			`skill/skill.skl`
+		[attack info]
+			``
+	[/skill node]
+	[skill node]
+		0
+		[skill type]
+			`over skill`
+		[skill name]
+			`賽麗亞的祈禱`
+		[skill explain]
+			`技能施放後， 力量、 智力、 體力及精神各增加20點， 效果持續30秒。 (冷卻時間30秒)`
+		[skill recovery time]
+			30000
+		[learn skill level]
+			20
+		[skill mp]
+			100
+		[skill motion]
+			`Animation/skill_middle.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			`Animation/skill_front_dotge.ani`
+		[skill info]
+			`skill/overskill.skl`
+		[attack info]
+			``
+	[/skill node]
+[/skill list]

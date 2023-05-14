@@ -1,0 +1,120 @@
+#PVF_File
+[FRAME MAX]
+	9
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		0
+	[IMAGE POS]
+		-210	-459
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		4500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		0
+	[IMAGE POS]
+		-210	-459
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		1
+	[IMAGE POS]
+		-209	-459
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		2
+	[IMAGE POS]
+		-208	-454
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		3
+	[IMAGE POS]
+		-205	-454
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		4
+	[IMAGE POS]
+		-204	-453
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME006]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		5
+	[IMAGE POS]
+		-200	-438
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME007]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		6
+	[IMAGE POS]
+		-214	-418
+	[IMAGE RATE]
+		1.5	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME008]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/bomb_dodge.img`
+		6
+	[IMAGE POS]
+		-214	-418
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

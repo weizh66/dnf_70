@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	4
+
+[complete npc index]
+	6
+
+[job]
+	`[fighter]`
+
+[grow type]
+	-1
+
+[level]
+	13	99
+
+[pre required quest]
+	512
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`格鬥家之路 - 風振`
+
+[depend message]
+	`你要選擇行走方向的時機已經迫在眉梢了。現在你要去尋找比我能教導你更多的人物。去找風振吧。
+風振雖然是一位沉默寡言的人，但相信他會以風拳流的師範給予相當多的指導。`
+
+[condition message]
+	`與風拳流師傅風振對話`
+
+[solve message]
+	`是辛達介紹你來的吧…… 這段時間我也注意到你。你的表現足以引來他人的注目。
+不過，再去多冒險一下吧。當我認為你已經準備好的時候我會通知你。`
+
+[quest point]
+	4

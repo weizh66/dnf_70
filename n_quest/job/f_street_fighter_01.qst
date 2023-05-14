@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	13
+
+[job]
+	`[fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7815	7818	7825
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7822
+
+[name]
+	`轉職 - 街霸 (1/4)`
+
+[depend message]
+	`不計任何代價也要成為街霸嗎？ 雖然我不太喜歡街霸的格斗方式， 但是我可以告訴你如何成為街霸。
+嗯， 成為街霸的第一個條件是對毒免疫， 你先去向諾頓請教如何抵抗劇毒吧。`
+
+[condition message]
+	`    向諾頓打聽[高濃縮的免毒藥劑]的制作方法。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！)`
+
+[solve message]
+	`歡迎歡迎……咦， 你臉上的繃帶跟你的氣質還符合的嘛。 你喜歡街頭格斗啊？`

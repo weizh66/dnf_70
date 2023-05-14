@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`大鼻子眼鏡 (格斗家)`
+
+[flavor text]
+	`<DNF三周年生日派對>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	7
+
+[icon]
+	`item/avatar/fighter/ft_aface.img`	218
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar func filter]
+	0
+
+[attack speed]
+	15
+
+[cast speed]
+	15
+
+[variation]
+	75	0
+
+[layer variation]
+	2700
+	`face_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	1925
+	`face_c`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2

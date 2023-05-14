@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`巨神之父`
+
+[basic explain]
+	`攻擊速度 +5%%
+暴擊傷害 +15%%（暴擊傷害加成效果取最高值，且無法疊加）
+  攻擊時，附加10%%的傷害。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	200
+
+[attack speed]
+	-60
+
+[stuck]
+	-5
+
+[need material]
+	3821	1600
+
+[repair price]
+	96768
+
+[value]
+	92160
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1200	1100
+
+[equipment magical attack]
+	900	800
+
+[separate attack]
+	600	500
+
+[physical critical hit]
+	20
+
+[skill levelup]
+	`[priest]`	47	3
+	`[priest]`	82	2
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/axe/axe.img`	100
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	34	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	15
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600743	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

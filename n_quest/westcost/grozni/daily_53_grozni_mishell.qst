@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	17
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	53	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	61	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`念動力者的都市`
+
+[depend message]
+	`‘創造不歧視念動力者的世界’， 卡勒特的這個謊言讓無數念動力者聚集到了綠都格羅茲尼。
+雖然我們知道這些念動力者們是被卡勒特欺騙了， 但既然他們投靠了卡勒特， 我們就要想盡一切辦法阻止他們。
+能力強大的冒險家， 請你們起程去綠都吧。
+但要記住， 那些念動力者都是不可小瞧的人物， 不要輕率地去挑戰他們。 `
+
+[condition message]
+	`    通關陌路者要塞的『綠都格羅茲尼』， 然后向凱麗回復， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`希望綠都的人能早點明白卡勒特那些家伙的謊言……唉， 在這之前只好辛苦冒險家了！`

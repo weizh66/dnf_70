@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`強化墊子禮包（+10）`
+
+[explain]
+	`    使用后，獲得生銹的武士刀和+10 墊子強化券。`
+
+[flavor text]
+	`“你的墊子用的妙， 強化十一不會掉。”
+          --這是一個歷史悠久的玄學……`
+
+[price]
+	250000
+
+[value]
+	5000
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	280
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[booster info]
+	[equipment]
+		1	27601	100000	1
+	[/equipment]
+	[stackable]
+		1	7864	100000	1
+	[/stackable]
+[/booster info]

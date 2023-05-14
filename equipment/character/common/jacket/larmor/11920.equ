@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`天御雷罰戰甲`
+
+[basic explain]
+	`  攻擊時，有5%%的機率發動雷電之怒攻擊。（冷卻時間0.5秒 ）`
+
+[detail explain]
+	`  攻擊時，有5%%的機率發動雷電攻擊400px范圍的所有敵人。（冷卻時間15秒 ）`
+
+[flavor text]
+	`  啊？又追加腳本了！--苦逼漢化L君`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12577
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	46
+
+[magical attack]
+	31
+
+[need material]
+	3821	1000
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	3672	3348
+
+[light attack]
+	20
+
+[icon]
+	`item/new_equipment/04_larmor/coat/larmor_coat.img`	21
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		12802	0	0	0	9999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[probability]
+		5
+	[passive object]
+		12802	0	0	0	9999	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[appendage]
+		249
+	[appendage]
+		327
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600784	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,59 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		60
+	[PLAY SOUND]
+		`ZIEG_CUTTER_IN`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		0
+	[IMAGE POS]
+		-290	-447
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		0
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Monster/zig/zig_normal.img`
+		0
+	[IMAGE POS]
+		-290	-447
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`

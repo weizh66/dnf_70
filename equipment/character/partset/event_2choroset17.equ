@@ -1,0 +1,80 @@
+#PVF_File
+
+[set name]
+	`西林的念氣增幅  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-300
+		`[fighter]`	12
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-150
+		`[fighter]`	12
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[level]`	7
+		`%`	10
+		`[fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-200
+		`[fighter]`	12
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-100
+		`[at fighter]`	12
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[fighter]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[fighter]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-350
+		`[fighter]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at fighter]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at fighter]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-350
+		`[at fighter]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)：念氣波冷卻時間減少0.5秒， 大小增加20%%， 攻擊力增加10%% 
+格斗家(女)：念氣波冷卻時間減少0.3秒， 施放后延遲減少， 大小增加20%% 
+蓄念炮念氣波攻擊力增加率增加10%%， 冷卻時減少間2秒， 蓄氣時間減少50%% 
+格斗家(男)：念氣波冷卻時間減少0.5秒
+格斗家(女)：念氣波冷卻時間減少0.2秒， 施展后延遲減少`
+[/piece set ability]

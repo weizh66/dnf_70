@@ -1,0 +1,48 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`monster/impossible_blackearth/Berias_explodefloor_dodge.img`
+		1
+	[IMAGE POS]
+		-533	-378
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`monster/impossible_blackearth/Berias_explodefloor_dodge.img`
+		1
+	[IMAGE POS]
+		-533	-378
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		800
+
+[FRAME002]
+	[IMAGE]
+		`monster/impossible_blackearth/Berias_explodefloor_dodge.img`
+		1
+	[IMAGE POS]
+		-533	-378
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500

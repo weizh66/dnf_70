@@ -1,0 +1,133 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[demonic lancer]`	95
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[demonic lancer]`	98
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[demonic lancer]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[demonic lancer]`	98
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[暗矛貫穿]攻擊力 +20%%
+[暗矛貫穿]冷卻時間 -10%%
+[連鎖侵蝕]攻擊力 +10%%
+[連鎖侵蝕]冷卻時間 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[暗蝕螺旋槍]攻擊力 +30%%
+[暗蝕螺旋槍]冷卻時間 -25%%
+[暗蝕爆雷殺]攻擊力 +25%%
+[暗蝕爆雷殺]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[static]`	4
+		`+`	-10
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[demonic lancer]`	99
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[static]`	3
+		`%`	40
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[static]`	4
+		`%`	40
+		`[demonic lancer]`	101
+		`[dungeon type]`
+		`[static]`	2
+		`+`	-400
+	[/skill data up]
+	[parameter basic explain]
+		`[暗蝕螺旋槍]多段攻擊次數 -10次
+[暗蝕螺旋槍]攻擊力 +40%%
+[暗蝕螺旋槍]冷卻時間 -30%%
+[暗蝕爆雷殺]攻擊力 +40%%
+[暗蝕爆雷殺]冷卻時間 -25%%
+[暗蝕爆雷殺]爆炸范圍 +40%%
+[暗蝕爆雷殺]刪除震動時間`
+[/piece set ability]

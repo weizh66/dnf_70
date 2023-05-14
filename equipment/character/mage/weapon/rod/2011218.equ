@@ -1,0 +1,262 @@
+#PVF_File
+
+[name]
+	`真·冰龍之心`
+
+[basic explain]
+	`提升冰系法術的威力
+破冰飛刃變為全屏
+極冰綻放，冰龍旋舞威力大幅提升`
+
+[flavor text]
+	`冰龍的力量伴隨左右`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	90
+
+[attack speed]
+	100
+
+[cast speed]
+	200
+
+[stuck]
+	-10
+
+[price]
+	142400
+
+[repair price]
+	119616
+
+[value]
+	113920
+
+[creation rate]
+	0
+
+[anti evil]
+	60
+
+[water attack]
+	180
+
+[equipment physical attack]
+	1569	1524
+
+[equipment magical attack]
+	1639	1684
+
+[separate attack]
+	1087	1087
+
+[icon]
+	`item/new_equipment/01_weapon/mage/rod/rod.img`	134
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[magical attack]
+	87
+
+[skill data up]
+	`[at mage]`	21
+	`[all]`
+	`[level]`	0
+	`%`	1600
+	`[at mage]`	23
+	`[all]`
+	`[level]`	0
+	`%`	1600
+	`[at mage]`	16
+	`[all]`
+	`[level]`	0
+	`%`	3000
+	`[at mage]`	16
+	`[all]`
+	`[level]`	1
+	`%`	3000
+	`[at mage]`	10
+	`[all]`
+	`[level]`	0
+	`%`	3000
+	`[at mage]`	15
+	`[all]`
+	`[level]`	1
+	`%`	1600
+	`[at mage]`	15
+	`[all]`
+	`[level]`	2
+	`%`	1600
+	`[at mage]`	12
+	`[all]`
+	`[level]`	0
+	`%`	800
+	`[at mage]`	12
+	`[all]`
+	`[level]`	1
+	`%`	3000
+	`[at mage]`	32
+	`[all]`
+	`[level]`	1
+	`%`	3000
+	`[at mage]`	32
+	`[all]`
+	`[level]`	2
+	`%`	3000
+	`[at mage]`	32
+	`[all]`
+	`[level]`	3
+	`%`	8000
+	`[at mage]`	13
+	`[all]`
+	`[level]`	0
+	`%`	3000
+	`[at mage]`	13
+	`[all]`
+	`[level]`	1
+	`%`	3000
+	`[at mage]`	48
+	`[all]`
+	`[level]`	0
+	`%`	1600
+	`[at mage]`	48
+	`[all]`
+	`[level]`	1
+	`%`	1600
+	`[at mage]`	48
+	`[all]`
+	`[level]`	2
+	`%`	1600
+	`[at mage]`	60
+	`[all]`
+	`[level]`	0
+	`%`	1600
+	`[at mage]`	60
+	`[all]`
+	`[level]`	1
+	`%`	1600
+	`[at mage]`	63
+	`[all]`
+	`[level]`	0
+	`%`	1600
+	`[at mage]`	8
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[at mage]`	8
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	16
+	`[dungeon type]`
+	`[static]`	6
+	`%`	50
+	`[at mage]`	10
+	`[dungeon type]`
+	`[static]`	2
+	`+`	18
+	`[at mage]`	10
+	`[dungeon type]`
+	`[static]`	3
+	`+`	16
+	`[at mage]`	10
+	`[dungeon type]`
+	`[static]`	5
+	`%`	800
+[/skill data up]
+
+[if]
+	[event use skill]
+		`at mage`	48
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		1500
+	[buff]
+		`unbreakable`
+[/then]
+
+[possible kiri protect]

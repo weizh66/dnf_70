@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	127
+
+[complete npc index]
+	-1
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	8	99
+
+[pre required quest]
+	4472
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	9	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	27602
+	`[job]`	9	-1	1	106040041
+	`[job]`	10	-1	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`強化的時間碎片 1`
+
+[depend message]
+	`我想強化的時間碎片，只有到格蘭之森才能找到。
+ 積滿了雪的森林… 在冰霜幽暗密林感覺到了氣息！`
+
+[condition message]
+	`請在冰霜幽暗密林尋找時間碎片`
+
+[solve message]
+	`沒有找到嗎？重新再挑戰一次吧。`
+
+[quest point]
+	4

@@ -1,0 +1,268 @@
+#PVF_File
+
+[name]
+	`巴恩的颶風短劍`
+
+[basic explain]
+	`  [猛龍斷空斬]斬擊數量上限 +2
+  普通攻擊時，有20%%的幾率出現巴恩的颶風。
+  HP降到20%%以下時，[自動格擋]、[自動招架]增加100%%的發動幾率。`
+
+[detail explain]
+	`  [猛龍斷空斬]斬擊數量上限 +2（在決斗場中 +1）
+  普通攻擊時，有20%%的幾率出現巴恩的颶風。（在決斗場中無效）
+  HP降到20%%以下時，[自動格擋]、[自動招架]增加100%%的發動幾率。（在決斗場中幾率為20%%）`
+
+[grade]
+	65
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	60
+
+[magical attack]
+	49
+
+[attack speed]
+	50
+
+[cast speed]
+	20
+
+[need material]
+	3284	600
+
+[price]
+	118800
+
+[repair price]
+	95040
+
+[value]
+	95040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	662	545
+
+[equipment magical attack]
+	802	660
+
+[separate attack]
+	432	278
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	76
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	4
+
+[layer variation]
+	2790
+	`lgswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lgswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	4
+
+[layer variation]
+	2790
+	`lgswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lgswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	72
+	`[dungeon type]`
+	`[static]`	0
+	`+`	2
+	`[swordman]`	72
+	`[pvp type]`
+	`[static]`	0
+	`+`	1
+	`[demonic swordman]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	72
+	`[dungeon type]`
+	`[level]`	1
+	`%`	50
+[/skill data up]
+
+[if]
+	[cooltime]
+		500
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			20
+		[passive object]
+			48117	0	0	0	0	0
+			``
+		[/passive object]
+		[then probability]
+			75.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			20
+		[passive object]
+			48118	0	0	0	0	0
+			``
+		[/passive object]
+		[then probability]
+			25.0
+	[/then]
+[/multiple then]
+
+[if]
+	[event use skill]
+		`swordman`	3
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[skill data up]
+		`[swordman]`	3
+		`[all]`
+		`[level]`	0
+		`%`	100
+	[/skill data up]
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			500
+		[set my state]
+			1
+		[my state]
+			`attack`
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				2
+			[passive object]
+				48119	0	0	0	0	0
+				``
+			[/passive object]
+			[then probability]
+				70.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[passive object]
+				48120	0	0	0	0	0
+				``
+			[/passive object]
+			[then probability]
+				30.0
+		[/then]
+	[/multiple then]
+	[if]
+		[event use skill]
+			`swordman`	3
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[skill data up]
+			`[swordman]`	3
+			`[all]`
+			`[level]`	0
+			`%`	20
+		[/skill data up]
+	[/then]
+[/pvp]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	2
+	`swordman`	3
+	`swordman`	4
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]

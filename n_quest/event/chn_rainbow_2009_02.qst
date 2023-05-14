@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	3
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4997
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[appear map]
+	-1	-1	-1	-1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680326	1
+[/int data]
+
+[reward int data]
+	2680327	5
+[/reward int data]
+
+[name]
+	`彩虹色的希望 (重復)`
+
+[depend message]
+	`聽說收集的彩色氣球串越多， 得到的祝福就越多！ 冒險家大人， 如果您能收集到更多的彩色氣球串， 能再送我一些嗎？`
+
+[condition message]
+	`    為延續卡妮娜的希望， 請收集1個[彩色氣球串]交給卡妮娜， 相關的設計圖可以在卡妮娜處購買。`
+
+[solve message]
+	`哇~！ 果然又送來了啊， 真是太感謝了！`
+
+[reward type]
+	`[item]`

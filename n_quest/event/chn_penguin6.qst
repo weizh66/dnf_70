@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2445
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7342	4	7343	5	7344	8
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7345	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找企鵝圍巾 - 6`
+
+[depend message]
+	`哦……原來你是為了那些企鵝啊。 能夠找到這么多材料， 一定很辛苦吧。 不過想編織圍巾， 這些材料還是不夠……
+你能再幫幫忙嗎？ 我知道收集材料很辛苦， 但只有你能幫那些企鵝了。 現在比較緊缺的是紅色染色劑， 你多多收集吧。`
+
+[condition message]
+	`<七鉆閃耀活動>  前往任意的地下城， 收集4個[毛線團]、 5個[羽毛]和8瓶[紅色染色劑]交給莎蘭。 該任務完成后， 可以額外獲得QQ幸運抽獎券。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`謝謝你， 那些企鵝終于可以編織它們的圍巾了， 嗯……七彩鉆石也總算可以保住了……
+呵呵， 它們很感激你。 這是……它們讓我轉交給你的禮物， 請你一定要收下。 愿永恒的魔法祝福你！`

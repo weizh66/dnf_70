@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 極武圣 (1/2)`
+
+[depend message]
+	`好久不見， 你看起來似乎有些迷茫， 是不是在苦惱如何才能變得更強？
+果然是了。 幫你提升實力倒是不難， 只是透過你的眼睛， 我看到了懷疑， 對自己所堅持的武道的懷疑。
+真正的強者必須要擁有堅定不移的意志， 才能在修煉的道路上不斷前進， 任何的猶豫和懷疑都會讓你止步不前， 甚至淪為平庸。
+拋開雜念， 回想一下你所堅持的武道究竟是什么吧！
+等你想明白之后再來找我， 那時我會盡一切努力幫助你達到武神的下一階段——‘極武圣’。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`想明白了嗎？ 很好， 我來告訴你下一步該怎樣做。`
+
+[pre required quest]
+	922
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4812
+
+[job change quest]
+	3
+
+[grow number]
+	0

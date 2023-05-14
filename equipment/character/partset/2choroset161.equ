@@ -1,0 +1,116 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	6
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[雙弦斬]攻擊力 +30%%
+[月光揮斬]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[gun blader]`	6
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[月相輪舞]攻擊力 +25%%， 冷卻時間 -20%%
+[滿月斬]攻擊范圍增加30%%， 攻擊力 +25%%
+[月光揮斬]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	6
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[gun blader]`	14
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[gun blader]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[月光揮斬]攻擊力 +25%%
+[月相輪舞]攻擊力 +30%%
+[月相輪舞]冷卻時間 -30%%
+[滿月斬]攻擊力 +40%%
+[滿月斬]冷卻時間 -30%%`
+[/piece set ability]

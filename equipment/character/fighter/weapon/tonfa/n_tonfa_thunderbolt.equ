@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`(舊) 雷霆驚日棍`
+
+[basic explain]
+	`    [磚襲]背擊敵人時， 增加50%%的眩暈幾率。`
+
+[flavor text]
+	`    如同雷霆般瞬間擊向敵人， 因此有了這個名字。`
+
+[grade]
+	45
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`tonfa`
+
+[rarity]
+	4
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	33
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	39
+
+[price]
+	72000
+
+[value]
+	57600
+
+[cool time]
+	10000
+
+[physical attack]
+	32
+
+[magical attack]
+	48
+
+[equipment physical attack]
+	414	369
+
+[equipment physical defense]
+	450	440
+
+[equipment magical attack]
+	436	388
+
+[separate attack]
+	259	173
+
+[stuck resistance]
+	30
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[skill data up]
+	`[fighter]`	60
+	`[all]`
+	`[static]`	0
+	`%`	50
+[/skill data up]
+
+[skill levelup]
+	`[fighter]`	60	2
+	`[at fighter]`	60	2
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`TONFA_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

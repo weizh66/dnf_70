@@ -1,0 +1,28 @@
+#PVF_File
+
+[map image]
+	`WorldMap/Behemoth.img`	0
+
+[ui path]
+	`WorldMap/UI/Behemoth.ui`
+
+[dungeon]
+	21	-1	22	-1	23	-1	24	-1	25	-1	91	-1	26	-1	90	-1	27	-1
+[/dungeon]
+
+[name]
+	`天帷巨獸`
+
+[hell dungeon]
+	1
+
+[hell quest]
+[/hell quest]
+
+[hell freepass item]
+	4151	1	2682582	1	2749501	1
+[/hell freepass item]
+
+[item condition]
+	2749501
+[/item condition]

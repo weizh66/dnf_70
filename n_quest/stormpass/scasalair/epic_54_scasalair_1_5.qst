@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	8
+
+[complete npc index]
+	40
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	54	99
+
+[pre required quest]
+	4565
+[/pre required quest]
+
+[depend give item]
+	4292	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4292	1
+[/int data]
+
+[dungeon info]
+	45	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`帝國的來信`
+
+[depend message]
+	`讓你久等了吧？ 我已經把皇帝陛下的親筆信帶來了。 放心吧， 帝國方面也很支持班圖的決定！`
+
+[condition message]
+	`    把[帝國皇帝的親筆信]交給奧爾卡。`
+
+[solve message]
+	`帝國有來信了？ 謝謝你， 讓我看看都寫了些什么。`
+
+[quest point]
+	4

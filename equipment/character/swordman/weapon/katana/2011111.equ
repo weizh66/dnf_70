@@ -1,0 +1,654 @@
+#PVF_File
+
+[name]
+	`鬼天劍`
+
+[basic explain]
+	`劍身散發著強烈的濁氣`
+
+[flavor text]
+	`變強了，也變禿了`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	11
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	160
+
+[attack speed]
+	100
+
+[stuck]
+	-10
+
+[anti evil]
+	100
+
+[price]
+	100000000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1703	1659
+
+[equipment magical attack]
+	1550	1450
+
+[separate attack]
+	987	987
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/katana/katana.img`	76
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	58	0
+
+[layer variation]
+	2791
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	58	0
+
+[layer variation]
+	2791
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[dark attack]
+	220
+
+[elemental property]
+	`[dark element]`
+
+[skill data up]
+	`[swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	100
+	`[swordman]`	8
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[swordman]`	8
+	`[all]`
+	`[level]`	2
+	`%`	100
+	`[swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	100
+	`[swordman]`	8
+	`[all]`
+	`[level]`	4
+	`%`	100
+	`[swordman]`	8
+	`[all]`
+	`[level]`	5
+	`%`	100
+	`[swordman]`	11
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	7
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	108
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	109
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	150
+	`[swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[swordman]`	72
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	100
+	`[swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	100
+	`[swordman]`	86
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[swordman]`	86
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[swordman]`	86
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[swordman]`	98
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[swordman]`	98
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[swordman]`	98
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[swordman]`	97
+	`[all]`
+	`[level]`	0
+	`%`	600
+	`[swordman]`	97
+	`[all]`
+	`[level]`	1
+	`%`	600
+	`[swordman]`	97
+	`[all]`
+	`[level]`	5
+	`%`	600
+[/skill data up]
+
+[skill data up]
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	44
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	50
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[demonic swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	105
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	4000
+	`[swordman]`	109
+	`[dungeon type]`
+	`[static]`	0
+	`%`	2400
+	`[swordman]`	97
+	`[dungeon type]`
+	`[level]`	2
+	`%`	-100
+	`[swordman]`	97
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[swordman]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[swordman]`	9
+	`[dungeon type]`
+	`[static]`	0
+	`%`	-75
+[/skill data up]
+
+[if]
+	[event use skill]
+		`swordman`	9
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`swordman`	9
+[/then]
+
+[/skill data up]
+
+[if]
+	[event use skill]
+		`swordman`	97
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`swordman`	97
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	97
+	[/event use skill]
+[/if]
+
+[then]
+	[probability]
+		100
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		9
+		`%`	-100
+[/then]
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[passive object]
+		200006	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	109
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		900030	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

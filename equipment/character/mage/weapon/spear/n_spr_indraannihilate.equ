@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`卻邪戰矛`
+
+[basic explain]
+	`使武器攻擊力隨角色Lv的增加而增加。 (每提升Lv1， 增加3點物攻、 2點魔攻)
+[落花掌]最大蓄氣時間 -0.2秒`
+
+[flavor text]
+	`    為了拯救這個混亂的世界， 我要變強大。  --里查德`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`spear`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/mage/spear.img`	45
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	64
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	486	445
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-50
+
+[physical critical hit]
+	2
+
+[stuck]
+	-1
+
+[skill data up]
+	`[mage]`	14
+	`[all]`
+	`[static]`	2
+	`+`	-200
+[/skill data up]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	4	4
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	4	4
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[need material]
+	2749095	129
+
+[possible kiri protect]

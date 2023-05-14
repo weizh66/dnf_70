@@ -1,0 +1,86 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4377
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[quest point]
+	14
+
+[type]
+	`[clear map]`
+
+[sub type]
+	0
+
+[int data]
+	6809	412
+[/int data]
+
+[dungeon info]
+	1501	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 往事重演`
+
+[depend message]
+	`啊， 你又去悲鳴洞穴了？ 還打敗了骷髏凱恩？ 呵呵， 看來阿甘左這次不得不答應你的要求了……
+你等等啊， 我馬上去叫他。
+<apc::410>嗯……看在她這么努力證明自己能力的份上， 我就幫她一次吧， 只希望不要往事重演……
+ <npc::5>呵呵， 祝賀你， 年輕的暗精靈小姐， 阿甘左總算被你說服了。`
+
+[condition message]
+	`    與阿甘左一起通關洛蘭地區的『悲鳴洞穴』， 然后向索西雅回復， 要求地下城難度為王者級。 (此任務只能獨自進行)`
+
+[solve message]
+	`咦， 你這么快就回來了？`
+
+[dialog]
+	0	0	6809	0	0	0	0
+	` <apc::412>現在的悲鳴洞穴和以前很不一樣……
+那時， 因希洛克的能量， 進入這里的人都感覺呼吸很困難。
+當年……
+ <npc::0>在想什么呢？
+ <apc::412>沒什么， 我不能再這樣失神了， 否則我的劍會變得更鈍……走吧！`
+[/dialog]

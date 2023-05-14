@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	7618
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	7620
+
+[name]
+	`覺醒 - 武極 (2/4)`
+
+[depend message]
+	`要想成為武極， 必須先打通體內封閉的經脈， 這樣才能發揮出潛藏的巨大力量。 不過這個過程非常危險， 一不小心就可能落下殘疾， 所以一定要謹慎。
+……
+我已經為你打通了第一道經脈。 你現在感覺如何？ 不如先去活動活動吧！`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`看來經脈打通后， 你體內的潛藏力量正在被逐漸挖掘……`

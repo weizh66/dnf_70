@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`骸骨投擲兵  卡片`
+	
+
+[flavor text]
+	`    好吧， 我承認你的投擲技術不錯。 可為什麼偏偏要扔骷髏頭？  --從淺棲之地撿回一條命的無畏的冒險家`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	34
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[waist]`
+	`[foil]`
+	`[unlimited challenge]`
+[/string data]
+
+[int data]
+	34	401
+[/int data]
+
+[enchant]
+	[HP MAX]
+		40
+	[MP MAX]
+		40
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

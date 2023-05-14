@@ -1,0 +1,125 @@
+#PVF_File
+
+[set name]
+	`伏都教徒  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[thief]`	21
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	21
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[thief]`	21
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[thief]`	21
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[thief]`	21
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[thief]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	23
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[thief]`	23
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[暗魂波]攻擊力 +20%%
+[詛咒之箭]攻擊力 +20%%
+[詛咒之箭]詛咒之箭生成數 +2`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[thief]`	21
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[thief]`	150
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[thief]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[thief]`	36
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	36
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[thief]`	36
+		`[dungeon type]`
+		`[static]`	0
+		`+`	500
+		`[thief]`	146
+		`[dungeon type]`
+		`[static]`	0
+		`+`	500
+	[/skill data up]
+	[parameter basic explain]
+		`[百鬼夜行]攻擊力 +20%%
+[百鬼夜行]持續時間 +0.5秒
+[暗魂波]冷卻時間 -1秒
+[詛咒之箭]冷卻時間 -2秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[thief]`	49
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	49
+		`[dungeon type]`
+		`[level]`	9
+		`%`	30
+		`[thief]`	35
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+		`[thief]`	35
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[thief]`	35
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[thief]`	35
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[thief]`	35
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+	[/skill data up]
+	[parameter basic explain]
+		`[死靈之怨]攻擊力 +30%%
+[死亡之爪]冷卻時間 -2秒
+[死亡之爪]攻擊力 +30%%
+[死亡之爪]敵人暗屬性抗性減少值 +5
+[死亡之爪]范圍 +20%%`
+[/piece set ability]

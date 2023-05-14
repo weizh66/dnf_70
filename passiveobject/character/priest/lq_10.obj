@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`Wrath of God Explosion`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Effect/Animation/Wrathofgod/wogatkf_atk_f.ani`
+
+[attack info]
+	`AttackInfo/WrathOfGodExplosion.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

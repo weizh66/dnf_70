@@ -1,0 +1,198 @@
+#PVF_File
+
+[name]
+	`夢幻列車長的幽靈戒指`
+
+[basic explain]
+	`所受無屬性攻擊傷害 -20%%
+所受屬性攻擊傷害 +10%%
+    被攻擊時， 有30%%的幾率使自身進入偽裝或無敵狀態， 效果持續5秒。
+    偽裝狀態下， 自身增加5%%的物理攻擊力、 魔法攻擊力和獨立攻擊力； 無敵狀態下， 自身增加100點力量和智力。`
+
+[detail explain]
+	`    被攻擊時， 有30%%的幾率使自身進入偽裝或無敵狀態。 (冷卻時間5秒)
+    該裝備的偽裝效果發動時， 使自身增加5%%的物理攻擊力、 魔法攻擊力和獨立攻擊力； 該裝備的無敵Buff發動時， 使自身增加100點力量和智力。
+所受無屬性攻擊傷害 -20%%
+所受屬性攻擊傷害 +10%%`
+
+[flavor text]
+	`     真是老了， 記憶模糊到都忘了早上到底戴了沒……(妳?手看看不就好了！)`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[need material]
+	10000204	24
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	170
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[element]
+		`none`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	20
+[/then]
+
+[if]
+	[element]
+		`dark`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	-10
+[/then]
+
+[if]
+	[element]
+		`light`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	-10
+[/then]
+
+[if]
+	[element]
+		`fire`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	-10
+[/then]
+
+[if]
+	[element]
+		`water`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	-10
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			30
+		[equipment duration]
+			5000
+		[stat]
+			`equipment physical attack`
+			`%`	5
+		[stat]
+			`equipment magical attack`
+			`%`	5
+		[stat]
+			`separate attack`
+			`%`	5
+		[buff]
+			`camoflage`
+		[then probability]
+			50.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			30
+		[equipment duration]
+			5000
+		[stat]
+			`physical attack`
+			`+`	100
+		[stat]
+			`magical attack`
+			`+`	100
+		[buff]
+			`unbreakable`
+		[then probability]
+			50.0
+	[/then]
+[/multiple then]
+
+[possible kiri protect]

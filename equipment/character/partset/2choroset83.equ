@@ -1,0 +1,112 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at swordman]`	7
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at swordman]`	7
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[躍空斬]攻擊力 +25%%
+[躍空斬]冷卻時間 -15%%
+[連環斬]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	6
+		`%`	40
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	9
+		`%`	40
+		`[at swordman]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	5
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[魔劍降臨]物理攻擊力 +40%%
+[升龍劍]攻擊力 +20%%
+[升龍劍]冷卻時間 -30%%
+[人劍合一]暴擊傷害增加比率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	2
+		`%`	45
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	4
+		`%`	45
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	6
+		`%`	45
+		`[at swordman]`	21
+		`[dungeon type]`
+		`[level]`	9
+		`%`	45
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[at swordman]`	26
+		`[dungeon type]`
+		`[level]`	2
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[魔劍降臨]物理攻擊力 +45%%
+[穿云破空劍]冷卻時間 -30%%
+[穿云破空劍]攻擊力 +35%%`
+[/piece set ability]

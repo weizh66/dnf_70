@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`傳承：戰爭女神防具自選禮盒`
+
+[explain]
+	`使用後，可選擇獲得一件傳承：戰爭女神防具。`
+
+[flavor text]
+	`<裝備售出系統>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[price]
+	0
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	931
+
+[stackable type]
+	`[booster selection]`	0
+
+[need material]
+	3340	4
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster category num]
+	1	5
+
+[booster selection num]
+	1
+
+[booster select category]
+	0	0
+	[equipment]
+		14100	1	16086	1	18091	1	10112	1	12110	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[equipment]
+		14479	1	16478	1	18483	1	10488	1	12488	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	2	0
+	[equipment]
+		14876	1	16876	1	18881	1	10885	1	12885	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	3	0
+	[equipment]
+		15276	1	17276	1	19281	1	11285	1	13285	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	4	0
+	[equipment]
+		15649	1	17649	1	19653	1	11654	1	13653	1
+	[/equipment]
+[/booster select category]
+
+[booster category name]
+	`請選擇防具類型`
+	`布甲`
+	`皮甲`
+	`輕甲`
+	`重甲`
+	`板甲`
+[/booster category name]

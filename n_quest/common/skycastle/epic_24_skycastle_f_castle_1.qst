@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	24	99
+
+[pre required quest]
+	124
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3123	10	3124	10	3125	10
+[/int data]
+
+[dungeon info]
+	11	-1	12	-1	13	-1	14	-1	15	-1	17	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	30000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`未被修復的魔法陣`
+
+[depend message]
+	`按理說， 人偶之王道格里消失后， 圍繞天空之城的魔法陣力量就會恢復了； 但精靈魔法陣的力量仍在減弱， 難道是天空之城本身散發的魔力發生了變異？
+看來我需要重新調查一下， 冒險家， 請你幫我從天空之城收集一些尖晶石、 螢石和鋯石。 據說寶石里蘊含有魔力， 我要從那些魔力入手， 希望能查出魔法陣的力量為什么無法恢復！`
+
+[condition message]
+	`    收集10個[尖晶石]、 10個[螢石]和10個[鋯石]。`
+
+[solve message]
+	`辛苦了！ 不過還要麻煩你幫我把這些寶石放在一起！ 呵呵， 這樣比較方便調查， 你愿意幫忙吧？ `
+
+[quest point]
+	4

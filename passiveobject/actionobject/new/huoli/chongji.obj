@@ -1,0 +1,26 @@
+#PVF_File
+
+[name]
+	`ChongJi`
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/ChongJi.act`
+
+[attack info]
+	`AttackInfo/ChongJi.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

@@ -1,0 +1,42 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	60
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	80	99
+
+[type]
+	`[get item]`
+
+[sub type]
+	1
+
+[int data]
+	-1	1	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26713	1
+[/reward int data]
+
+[send postal]
+	8229	16
+	`postal_message_01`
+	`postal_message_02`
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`活動已結束。`

@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[pre required quest]
+	4979
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680300	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680311	10	2680310	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`制作蛋糕胚 - 3`
+
+[depend message]
+	`不錯不錯， 為了更華麗的生日蛋糕， 我要再做第3層蛋糕胚， 至于那些面粉……你就再幫我一次吧， 謝謝~`
+
+[condition message]
+	`    前往任意的地下城， 收集30個[面粉]交給賽麗亞。`
+
+[solve message]
+	`有這么多面粉應該夠了， 看來我得抓緊時間做第3層蛋糕胚了。`

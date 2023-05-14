@@ -1,0 +1,27 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Impossible_Goblin/impossible_body_09.img`
+		0
+	[IMAGE POS]
+		-91	-152
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1000
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Impossible_Goblin/impossible_body_09.img`
+		0
+	[IMAGE POS]
+		-91	-152
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80

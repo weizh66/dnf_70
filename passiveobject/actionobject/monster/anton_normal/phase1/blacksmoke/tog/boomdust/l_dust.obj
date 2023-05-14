@@ -1,0 +1,28 @@
+#PVF_File
+
+[name]
+	`火?性`
+
+[basic action]
+	`Action/L_dust_Basic.act`
+
+[piercing power]
+	1000
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	56675
+	[homing velocity]
+		130.0	0.0
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]
+
+[hp max]
+	100000
+
+[hp destroy]
+	1

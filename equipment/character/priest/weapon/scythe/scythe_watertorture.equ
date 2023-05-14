@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`懲戒之鐮`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`scythe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2800
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/priest/scythe.img`	52
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[magical attack]
+	44
+
+[equipment physical attack]
+	593	536
+
+[equipment magical attack]
+	624	564
+
+[separate attack]
+	378	255
+
+[attack speed]
+	80
+
+[elemental property]
+	`[water element]`
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[priest]`	5	2
+	`[priest]`	88	2
+	`[priest]`	116	2
+	`[priest]`	125	2
+[/skill levelup]
+
+[variation]
+	9	8
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[water attack]
+	10
+
+[routing priority]
+	`priest`	3
+	`priest`	4
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

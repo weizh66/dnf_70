@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`真·迷你元素聖靈`
+
+[explain]
+	`暴擊傷害 +7%%
+   `
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature_jp.img`	52
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	10026
+
+[cool time]
+	10000
+
+[physical attack]
+	20
+
+[physical defense]
+	20
+
+[magical attack]
+	20
+
+[magical defense]
+	20
+
+[attack speed]
+	30
+
+[move speed]
+	30
+
+[cast speed]
+	30
+
+[skill levelup]
+	`[mage]`	59	1
+	`[mage]`	47	1
+	`[mage]`	106	1
+	`[mage]`	10	1
+	`[mage]`	68	1
+	`[mage]`	19	1
+	`[mage]`	48	1
+	`[mage]`	97	1
+	`[mage]`	35	1
+	`[mage]`	36	1
+[/skill levelup]
+
+[MP MAX rate]
+	10.0
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	7
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	3.5
+	[/then]
+[/pvp]
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`Uncompoundable`
+[/item category]

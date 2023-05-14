@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`星火召?提2`
+
+[basic action]
+	`Action/summonspark_2_Basic.act`
+
+[etc action]
+	`Action/Etc_summonspark_2_0.act`
+[/etc action]
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ENEMY]`
+	[homing velocity]
+		5.0	5.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[sync target move]
+	[homing time]
+		60000
+[/homing]
+
+[hp max]
+	10000000
+
+[hp destroy]
+	1
+
+[hp gage]
+	1

@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5685
+
+[name]
+	`覺醒 - 靈魂收割者 (1/4)`
+
+[depend message]
+	`嗯， 你最近好像憔悴了不少啊。 不過這也是沒辦法的， 要學習死靈術， 就要付出一點代價。
+呃， 你這么拼命， 難道是在為學習更強大的死靈術做準備？
+雖然我沒問過你學習死靈術的原因， 但我相信， 以你現在的能力還達不到要求。
+要知道， 想要擁有更強大的力量， 就得承受比現在更大的痛苦。 也就是說， 想獲得死靈的更強大的力量， 就得付出相應的代價……
+嗯， 給你最后一次機會考慮， 你想清楚了再來找我。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`嗯， 和我預料的一樣， 我知道你一定還會來找我。
+呵呵， 因為我從你的眼神里， 看到了獲得強大力量的欲望。
+既然這是你的決定， 那我們就開始吧。 要成為真正的“靈魂收割者”， 你需要通過幾輪考驗。
+考驗的條件很簡單， 就是向我們證明你對元老院和我們偉大的巴拉克王的忠誠。`

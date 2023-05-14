@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`靈魂氣息`
+
+[explain]
+	`    使用時， 會消耗1個古老的裝備合成器， 并生成精制的裝備合成器。`
+
+[flavor text]
+	`    你能感受到靈魂的氣息嗎？`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash_cn.img`	539
+
+[field image]
+	`Item/field_material_cn.img`	71
+
+[stackable type]
+	`[random upgradable legacy]`	1
+
+[stack limit]
+	10
+
+[move wav]
+	`BONE_TOUCH`
+
+[RANDOMBOX]
+	[int data]
+		1251	1	0	1251	100000	1	0
+	[/int data]
+	[sealing removal item]
+		2	2749111	1	2682169	1
+	[/sealing removal item]
+[/RANDOMBOX]
+
+[need material]
+	2749111	1

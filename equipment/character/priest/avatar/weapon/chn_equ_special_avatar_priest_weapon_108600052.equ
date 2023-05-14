@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`星辰命運戰錘`
+
+[flavor text]
+	`<深淵征服者禮包>`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	150
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		54	0
+	[layer variation]
+		2790
+		`axec`
+	[equipment ani script]
+		`equipment/character/priest.lay`
+	[layer variation]
+		200
+		`axed`
+	[equipment ani script]
+		`equipment/character/priest.lay`
+	[sub type]
+		4
+	[expand path]
+		`equipment/character/priest/weapon/axe/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[int data]
+	654321	4	1	100	0	70	2	100	0	70	2	100	0	70	3	100	0	70	4	50	0	80	2	100	0	0
+[/int data]
+
+[string data]
+	``
+[/string data]
+
+[move wav]
+	`AXE_TOUCH`

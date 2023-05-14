@@ -1,0 +1,214 @@
+#PVF_File
+
+[name]
+	`封·西洋棋之迷蹤騎士`
+
+[basic explain]
+	`[強襲流星打]攻擊力 +40%%
+  [強襲流星打]攻擊時， 有50%%的幾率附加20%%的傷害。
+  用[強襲流星打]消滅敵人時， 有50%%的幾率使該技能的冷卻時間減少10%%。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	62
+
+[magical attack]
+	62
+
+[attack speed]
+	50
+
+[move speed]
+	30
+
+[stuck]
+	-1
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	980	836
+
+[equipment magical attack]
+	816	697
+
+[separate attack]
+	555	359
+
+[skill levelup]
+	`[mage]`	14	3
+	`[mage]`	68	2
+	`[mage]`	36	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/mage/pole/pole.img`	92
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`POLE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2400
+
+[item group name]
+	`pole`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[skill data up]
+	`[mage]`	68
+	`[all]`
+	`[level]`	0
+	`%`	40
+	`[mage]`	68
+	`[all]`
+	`[level]`	1
+	`%`	40
+[/skill data up]
+
+[if]
+	[skill]
+		`mage`	68
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		50
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[skill]
+		`mage`	68
+	[/skill]
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill cooltime reset]
+		68
+		`%`	-10
+[/then]
+
+[possible kiri protect]

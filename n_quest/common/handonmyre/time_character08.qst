@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	-1
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	15	99
+
+[pre required quest]
+	4475
+[/pre required quest]
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	2749796
+	`[job]`	9	-1	1	2749797
+	`[job]`	10	-1	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	4477
+
+[name]
+	`新的力量 - 任務商店`
+
+[depend message]
+	`除了時間之力外好像還得到了新的力量。
+ 聽說過任務商店嗎？利用完成主線任務時獲得的QP，可以在任務商店購買商品。
+你一定要購買的商品上貼有推薦商標，去購買看看吧。`
+
+[condition message]
+	`在任務商店提昇推薦屬性`
+
+[solve message]
+	`這力量相當於時間之力……非常好。剩下的 QP你可以購買自己選擇的商品。`
+
+[quest point]
+	4

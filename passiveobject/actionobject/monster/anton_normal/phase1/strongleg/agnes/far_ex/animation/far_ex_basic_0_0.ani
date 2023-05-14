@@ -1,0 +1,52 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/ATElementalBuster/fire/09_attackt_fire_front_dodge.img`
+		0
+	[IMAGE POS]
+		-196	-264
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/ATElementalBuster/fire/09_attackt_fire_front_dodge.img`
+		0
+	[IMAGE POS]
+		-196	-264
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		2000
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/ATElementalBuster/fire/09_attackt_fire_front_dodge.img`
+		0
+	[IMAGE POS]
+		-196	-264
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50

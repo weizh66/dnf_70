@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`青龍偃月刀`
+
+[explain]
+	`怪物防禦 -6%%`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	50
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_green_cn.img`	23
+
+[field image]
+	`Item/field_creature.img`	1
+
+[equipment type]
+	`[artifact green]`	20
+
+[sub type]
+	0
+
+[need material]
+	3836	1000
+
+[equipment magical attack]
+	35	35
+
+[equipment physical attack]
+	35	35
+
+[fire attack]
+	25
+
+[water attack]
+	25
+
+[light attack]
+	25
+
+[dark attack]
+	25
+
+[anti evil]
+	10
+
+[creature skill charge time rate]
+	-20.1
+
+[creature skill over charge time rate]
+	-30.1
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[aura active]
+		`equipment physical defense`
+		`%`	-6	0
+	[aura active]
+		`equipment magical defense`
+		`%`	-6	0
+[/then]
+
+[move wav]
+	`SKIN_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

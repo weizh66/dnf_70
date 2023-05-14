@@ -1,0 +1,25 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/Amateras/bird_normal.img`
+		0
+	[IMAGE POS]
+		-279	-292
+	[DELAY]
+		80
+	[PLAY SOUND]
+		`AMATERAS_EXP`
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

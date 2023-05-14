@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`血色殘陽龍骨戰靴`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。`
+
+[detail explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。(冷卻時間20秒， 最大重疊3次；該效果與無法者的頭肩、腰帶鞋子共享；裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	11857
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	27
+
+[magical attack]
+	18
+
+[move speed]
+	40
+
+[need material]
+	3824	30
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1764	1638
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	51
+
+[field image]
+	`Item/field_equip.img`	9
+
+[equipment type]
+	`[shoes]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1400
+
+[item group name]
+	`la shoes`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[equipment duration]
+		15000
+	[appendage]
+		802
+[/then]
+
+[possible kiri protect]

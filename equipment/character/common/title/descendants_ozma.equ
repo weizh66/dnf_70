@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`奧茲瑪的後裔`
+
+[explain]
+	`攻擊時以1%%的機率，施展時以2%%的機率施展Lv10普萊曼。`
+
+[flavor text]
+	`「就算在夢中也不想把你這樣的你英雄當作敵人對待」-給奧茲瑪、卡贊`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/Title/title.img`	179
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/descendants_ozma.ani`
+[/custom animation]
+
+[user power war point]
+	3000
+
+[MP MAX]
+	200
+
+[magical attack]
+	30
+
+[magical defense]
+	20
+
+[move speed]
+	30
+
+[attack speed]
+	20
+
+[cast speed]
+	40
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		1
+	[passive object]
+		20013	0	0	0	10	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[passive object]
+		20013	0	0	0	10	0
+		``
+	[/passive object]
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

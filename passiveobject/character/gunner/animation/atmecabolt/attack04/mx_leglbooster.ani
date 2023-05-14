@@ -1,0 +1,126 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	9
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		7	0
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		7	0
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		7	0
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Character/Gunner/Effect/ATMechBoltMX/Attack02_Dodge03.img`
+		1
+	[IMAGE POS]
+		11	13
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[RGBA]
+		255	255	255	102
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Gunner/Effect/ATMechBoltMX/Attack02_Dodge03.img`
+		1
+	[IMAGE POS]
+		-14	-2
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Gunner/Effect/ATMechBoltMX/Attack02_Dodge03.img`
+		0
+	[IMAGE POS]
+		-40	-109
+	[IMAGE RATE]
+		0.699999988079071	0.6000000238418579
+	[IMAGE ROTATE]
+		-1.5700000524520874
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME006]
+	[IMAGE]
+		`Character/Gunner/Effect/ATMechBoltMX/Attack01_Dodge03.img`
+		0
+	[IMAGE POS]
+		-352	-75
+	[IMAGE RATE]
+		-0.6000000238418579	0.800000011920929
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		30
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME007]
+	[IMAGE]
+		`Character/Gunner/Effect/ATMechBoltMX/Attack01_Dodge03.img`
+		0
+	[IMAGE POS]
+		-340	-63
+	[IMAGE RATE]
+		-0.6000000238418579	0.6000000238418579
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME008]
+	[IMAGE]
+		`Character/Gunner/Effect/ATMechBoltMX/Attack01_Dodge03.img`
+		0
+	[IMAGE POS]
+		-357	-54
+	[IMAGE RATE]
+		-0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`

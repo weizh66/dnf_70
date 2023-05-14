@@ -1,0 +1,12 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/FlameFloor_Normal.ani`
+	[SUB ANI]
+		`../Animation/FlameFloor_Dodge.ani`	0	1
+	[/SUB ANI]
+	[SOUND]
+		`BURN_ATK`	0
+	[/SOUND]
+[/MOTION]

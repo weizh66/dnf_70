@@ -1,0 +1,208 @@
+#PVF_File
+
+[name]
+	`疾虎之力`
+
+[basic explain]
+	`    前沖攻擊時， 有5%%的幾率使自身增加20%%的物理攻擊力和15%%的獨立攻擊力， 效果持續5秒。 (冷卻時間5秒)
+    施放技能時， 使自身增加50%%的攻擊速度， 效果持續5秒。 (冷卻時間30秒)
+對敵人的傷害 +20%%`
+
+[detail explain]
+	`    前沖攻擊時， 有5%%的幾率使自身增加20%%的物理攻擊力和15%%的獨立攻擊力， 效果持續5秒。 (冷卻時間5秒)
+    施放技能時， 使自身增加50%%的攻擊速度， 效果持續5秒。 (冷卻時間30秒)
+對敵人的傷害 +20%% （增加傷害類屬性僅適用於最高數值，且無法疊加；暴擊傷害除外）`
+
+[flavor text]
+	`    有了這臂鎧， 我單手就能掃平他們。`
+
+[grade]
+	91
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	97
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1152	989
+
+[equipment magical attack]
+	864	742
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	10
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/gauntlet/gauntlet.img`	104
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	29	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[if]
+	[my state]
+		`dash attack`
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`equipment physical attack`
+		`%`	20
+	[stat]
+		`separate attack`
+		`%`	15
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`attack speed`
+		`+`	500
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600724	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	` 黑檀木胸甲`
+
+[basic explain]
+	`角色的等級越高裝備防禦力增加（每等級 物理防禦力增加19）`
+
+[flavor text]
+	`第一次看到這麼輕盈又堅固的盔甲。絕對不賣。- 開始邁向鐵匠之路的辛達`
+
+[grade]
+	20
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	15
+
+[physical attack]
+	13
+
+[magical attack]
+	9
+
+[price]
+	24000
+
+[repair price]
+	19200
+
+[value]
+	19200
+
+[equipment physical defense]
+	1008	792
+
+[icon]
+	`Item/common/coat.img`	118
+
+[field image]
+	`Item/field_equip.img`	5
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2100
+
+[item group name]
+	`la coat`
+
+[cool time]
+	10000
+
+[set name]
+	`黑檀木輕型戰甲 套裝`
+
+[set item]
+	10890	12890	14881	18887	16880
+[/set item]
+
+[set ability]
+	[stuck resistance]
+		30
+	[if]
+		[cooltime]
+			45000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`party`	-1
+		[duration]
+			30000
+		[probability]
+			1
+		[buff]
+			`camoflage`
+	[/then]
+	[if]
+		[cooltime]
+			30000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`party`	-1
+		[duration]
+			30000
+		[probability]
+			2
+		[buff]
+			`camoflage`
+	[/then]
+	[fullset basic explain]
+		`攻擊時以 1%% 機率對組隊30秒內施展偽裝效果
+被攻擊時以2%% 機率對組隊30秒內施展偽裝效果 `
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

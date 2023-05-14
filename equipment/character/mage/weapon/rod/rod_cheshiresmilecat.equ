@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`(舊) 切希爾笑臉貓`
+
+[basic explain]
+	`赫德爾和桑德爾的召喚數量 +1
+赫德爾和桑德爾的召喚持續時間 +30%%`
+
+[flavor text]
+	`    魔杖上刻有切希爾貓臉， 據說切希爾貓生活在遙遠的國度， 擁有神秘的靈性， 因此這魔杖也非同尋常。`
+
+[grade]
+	30
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`rod`
+
+[rarity]
+	4
+
+[weight]
+	2200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	25
+
+[icon]
+	`Item/weapon/mage/rod.img`	39
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	24
+
+[price]
+	48000
+
+[value]
+	38400
+
+[cool time]
+	10000
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	284	241
+
+[equipment magical attack]
+	348	295
+
+[separate attack]
+	184	121
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[skill data up]
+	`[mage]`	25
+	`[all]`
+	`[level]`	2
+	`+`	1
+	`[mage]`	25
+	`[all]`
+	`[level]`	3
+	`+`	60000
+	`[mage]`	44
+	`[all]`
+	`[level]`	2
+	`+`	1
+	`[mage]`	44
+	`[all]`
+	`[level]`	3
+	`+`	60000
+[/skill data up]
+
+[skill levelup]
+	`[mage]`	25	1
+	`[mage]`	44	1
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`ROD_TOUCH`
+
+[creature magical attack]
+	150
+
+[creation rate]
+	190
+
+[possible kiri protect]

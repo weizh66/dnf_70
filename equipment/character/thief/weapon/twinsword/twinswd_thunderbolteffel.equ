@@ -1,0 +1,148 @@
+#PVF_File
+
+[name]
+	`雷電之艾佛爾劍`
+
+[basic explain]
+	`背擊攻擊時， 有15%%的幾率使敵人進入感電狀態。
+攻擊速度 +3%%`
+
+[detail explain]
+	`    背擊攻擊時， 有15%%的幾率使敵人進入感電狀態7秒； 若攻擊感電狀態下的敵人， 則每次攻擊會附加190點傷害。 (若敵人高于Lv55， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+攻擊速度 +3%%`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`twinswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	46
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	111600
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	583	534
+
+[equipment magical attack]
+	458	419
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-50
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		10500
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		15
+	[active status]
+		`lightning`	55	250
+[/then]
+
+[physical critical hit]
+	5
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[thief]`	30	2
+[/skill levelup]
+
+[variation]
+	4	2
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

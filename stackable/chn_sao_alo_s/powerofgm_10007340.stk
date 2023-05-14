@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`GM許可權`
+
+[explain]
+	`使用後HP不會低於80%%，效果持續15秒。（冷卻時間為30秒）`
+
+[flavor text]
+	`<SAO遇見DNF>`
+
+[grade]
+	1
+
+[attach type]
+	`[account]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/cash_japan.img`	426
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	30000
+
+[move wav]
+	`POTION_TOUCH`
+
+[cooltime maintenance]
+	1	1	1
+
+[cooltime group]
+	88

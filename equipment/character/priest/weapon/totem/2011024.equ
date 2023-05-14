@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`先祖庇護之柱`
+
+[basic explain]
+	`暴擊攻擊時，額外增加25%%的傷害增加量。
+物理攻擊力 +16%%`
+
+[detail explain]
+	`暴擊攻擊時，額外增加25%%的傷害增加量。
+物理攻擊力 +16%%`
+
+[flavor text]
+	`似乎是某個神秘小島上的圖騰。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	112
+
+[stuck]
+	-1
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1169	1169
+
+[equipment magical attack]
+	1002	1002
+
+[separate attack]
+	686	686
+
+[skill levelup]
+	`[priest]`	13	3
+[/skill levelup]
+
+[icon]
+	`Item/wuqi.img`	24
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	57	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	25
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		10000
+	[stat]
+		`equipment physical attack`
+		`%`	16
+[/then]
+
+[possible kiri protect]

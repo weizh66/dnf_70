@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`ib_name`
+
+[basic explain]
+	`ib_basic_explain`
+
+[explain]
+	`ib_explain`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[executable states]
+	`[stand]`
+	`[attack]`
+	`[dash]`
+[/executable states]
+
+[required level]
+	25
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	6
+	`Character/Swordman/Effect/ATSkillIcon.img`	7
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →→ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		30	350
+	[cool time]
+		8000	8000
+	[static data]
+		250
+	[/static data]
+	[level info]
+		2	240	5	266	5	290	5	317	5	342	5	367	5	393	5	418	5	443	5	470	5	494	5	520	5	546	5	571	5	597	5	622	5	648	5	674	5	698	5	724	5	749	5	775	5	801	5	826	5	852	5	878	5	902	5	928	5	953	5	978	5	1005	5	1030	5	1055	5	1080	5	1106	5	1132	5	1157	5	1182	5	1207	5	1234	5	1259	5	1284	5	1310	5	1336	5	1361	5	1386	5	1411	5	1437	5	1463	5	1488	5	1514	5	1538	5	1564	5	1590	5	1615	5	1641	5	1667	5	1692	5	1718	5	1742	5	1768	5	1794	5	1819	5	1845	5	1870	5	1895	5	1922	5	1946	5	1972	5	1997	5
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	60	3	66	3	73	3	79	3	86	3	92	3	98	3	104	3	111	3	117	3	124	3	130	3	137	3	143	3	149	3	155	3	162	3	168	3	175	3	181	3	187	3	194	3	200	3	206	3	213	3	219	3	226	3	232	3	238	3	245	3	251	3	257	3	264	3	270	3	276	3	283	3	289	3	296	3	302	3	308	3	315	3	321	3	328	3	334	3	340	3	347	3	353	3	359	3	366	3	372	3	378	3	385	3	391	3	398	3	404	3	410	3	417	3	423	3	429	3	436	3	442	3	449	3	455	3	461	3	467	3	474	3	480	3	487	3	493	3	499	3
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`ib_level_property`	-1	0	1.0	-1	1	1.0
+[/level property]
+
+[feature skill index]
+	224

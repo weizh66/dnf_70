@@ -1,0 +1,37 @@
+#PVF_File
+
+[name]
+	`晶體之契約 1日`
+
+[explain]
+	`1日內，根據契約資訊欄選取的方塊種類，各種不同的加持套用在地下城30秒。（決鬥場、街頭爭霸、勢力戰不適用）
+有色小晶塊 :  賦予武器符合小晶塊顏色的屬性
+無色小晶塊： 武器的物理攻擊力語魔法攻擊力各增加 40
+金色小晶塊： 暴擊率提升 5%%
+每30秒自動消耗小晶塊。
+購買契約後由商城道具欄移動到角色道具欄時開始消耗。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	887
+
+[stackable type]
+	`[contract]`	0
+
+[move wav]
+	`BONE_TOUCH`

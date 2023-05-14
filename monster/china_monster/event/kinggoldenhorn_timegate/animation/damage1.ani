@@ -1,0 +1,29 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Event/KingGoldenHorn/KingGoldenHorn.img`
+		30
+	[IMAGE POS]
+		-240	-295
+	[IMAGE RATE]
+		0.5	0.5
+	[DELAY]
+		120
+	[DAMAGE BOX]
+	-61	-5	-3	88	50	57
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Event/KingGoldenHorn/KingGoldenHorn.img`
+		30
+	[IMAGE POS]
+		-247	-297
+	[IMAGE RATE]
+		0.5	0.5
+	[DELAY]
+		120
+	[DAMAGE BOX]
+	-66	-5	-1	88	50	56

@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`銀色圣光戰士護腿`
+
+[explain]
+	`    煉就格斗之魂， 需要擁有執著的熱情與永不言敗的信念。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_apants.img`	271
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1700	0	30	0	0	3400	0	0	0	0	6800	0	0	0	0	7480	2
+	`[C socket]`
+	`[C socket]`
+[/avatar type select]
+
+[variation]
+	85	1
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2689287
+
+[HP MAX]
+	250
+
+[avatar func filter]
+	2

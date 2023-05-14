@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`征服者刀葛的石刃`
+
+[basic explain]
+	`攻擊時以 2%%的機率讓敵人進入石化狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以 2%%的機率3秒內讓敵人進入石化狀態，解除時以450的攻擊力給予傷害。 （高於Lv24的對象得到的機率和效果減少，低於Lv24的對象則會增加。決鬥場內修正為2秒）
+不可解體`
+
+[grade]
+	24
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	20
+
+[physical attack]
+	12
+
+[physical defense]
+	29
+
+[price]
+	28800
+
+[repair price]
+	24192
+
+[value]
+	23040
+
+[equipment magical defense]
+	1488	1248
+
+[stone resistance]
+	15
+
+[icon]
+	`Item/common/bracelet.img`	51
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[reduce duration to human armor at pvp module]
+		33
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stone`	24	450
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

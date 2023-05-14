@@ -1,0 +1,38 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATDevilishness/magic.img`
+		0
+	[IMAGE POS]
+		-238	-335
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`DARK`
+	[DELAY]
+		120
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATDevilishness/magic.img`
+		0
+	[IMAGE POS]
+		-238	-335
+	[INTERPOLATION]
+		1
+	[DELAY]
+		120
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATDevilishness/magic.img`
+		0
+	[IMAGE POS]
+		-238	-335
+	[DELAY]
+		10

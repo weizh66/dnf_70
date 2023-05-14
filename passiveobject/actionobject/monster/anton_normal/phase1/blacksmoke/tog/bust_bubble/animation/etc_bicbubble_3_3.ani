@@ -1,0 +1,72 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_line.img`
+		1
+	[IMAGE POS]
+		-383	-384
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		1000
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_line.img`
+		1
+	[IMAGE POS]
+		-383	-384
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_line.img`
+		1
+	[IMAGE POS]
+		-383	-384
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_line.img`
+		2
+	[IMAGE POS]
+		-383	-384
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_line.img`
+		2
+	[IMAGE POS]
+		-383	-384
+	[IMAGE RATE]
+		1.5	1.5
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

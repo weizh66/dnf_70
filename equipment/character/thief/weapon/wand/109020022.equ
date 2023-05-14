@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`撒門的鈴聲[活動]`
+
+[basic explain]
+	`攻擊時以 3%% 的機率讓特定敵人進入混亂狀態 
+混亂狀態的敵人攻擊時敵人 15%%的附加傷害
+不可解體，不可合成`
+
+[detail explain]
+	`攻擊時，以3%%機率5秒內使 300px範圍內最接近的敵人陷入混亂狀態。 （高於Lv64的對象得到的機率和效果減少，低於Lv64的對象則會增加。決鬥場內修正為 2.5秒）
+混亂狀態的敵人攻擊時敵人15%%的附加傷害（決鬥場內8%% 附加傷害）
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[magical attack]
+	43
+
+[attack speed]
+	-100
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	488	447
+
+[equipment magical attack]
+	695	637
+
+[separate attack]
+	360	242
+
+[magical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/wand.img`	73
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2100
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	64	1
+[/then]
+
+[if]
+	[target active status]
+		`confuse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			7500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy near`	300
+		[duration]
+			5000
+		[reduce duration to human armor at pvp module]
+			50
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`confuse`	64	1
+	[/then]
+	[if]
+		[target active status]
+			`confuse`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	8
+	[/then]
+[/pvp]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

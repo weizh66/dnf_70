@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`尼爾巴斯意志鎖鏈鐵鞋`
+
+[basic explain]
+	`HP不到50%%時力量、智力增加15 
+HP從 50%%減少至10%%時額外增加15 
+最大 力量，智力增加75`
+
+[grade]
+	68
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	64
+
+[anti evil]
+	9
+
+[physical attack]
+	19
+
+[physical defense]
+	17
+
+[magical attack]
+	14
+
+[move speed]
+	55
+
+[price]
+	54400
+
+[repair price]
+	45696
+
+[value]
+	43520
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1200	1120
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/new_equipment/05_harmor/shoes/harmor_shoes.img`	11
+
+[field image]
+	`Item/field_equip.img`	14
+
+[equipment type]
+	`[shoes]`	18
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	1600
+
+[item group name]
+	`ha shoes`
+
+[cool time]
+	10000
+
+[if]
+	[change status in range]
+		`hp`	50	10
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`physical attack`
+		`+`	15	75
+	[apply status in range]
+		`magical attack`
+		`+`	15	75
+[/then]
+
+[set item master]
+	15302
+
+[possible kiri protect]

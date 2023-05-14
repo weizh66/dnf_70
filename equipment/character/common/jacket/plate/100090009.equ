@@ -1,0 +1,283 @@
+#PVF_File
+
+[name]
+	`無窮的輓歌板金上衣`
+
+[basic explain]
+	`施展無雙擊、正義的審判、不動明王陣以12%%的機率不適用冷卻時間。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	35
+
+[physical defense]
+	39
+
+[magical attack]
+	35
+
+[MP MAX]
+	250
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	5580	5220
+
+[icon]
+	`item/new_equipment/06_plate/coat/plate_coat.img`	10
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	23
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`無窮的輓歌套裝`
+
+[set item]
+	100140009	100190009	100240009	100290009	100090009
+[/set item]
+
+[if]
+	[event use skill]
+		`priest`	88
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		12
+	[skill data up]
+		`[priest]`	88
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	81
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		12
+	[skill data up]
+		`[priest]`	81
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	74
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		12
+	[skill data up]
+		`[swordman]`	74
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[set ability]
+	[fullset basic explain]
+		`攻擊時以5%%機率在無限5秒內施展真紅曲增益。（發動無限的真紅曲增益時，極冰刃波動劍、雙子沁盾、斬擊冷卻時間初始化）
+無限的真紅曲增益狀態時極冰刃波動劍、雙子沁盾冷卻時間減少96%%，攻擊力減少80%%，MP消耗量減少80%%。
+無限的真紅曲增益狀態時斬擊冷卻時間減少,97%%，攻擊力減少80%%，MP消耗量減少80%%。`
+	[if]
+		[attack success]
+			1
+		[character]
+			`swordman`
+		[cooltime]
+			30000
+	[/if]
+	[then]
+		[probability]
+			5
+		[target]
+			`myself`	-1
+		[appendage]
+			172
+		[duration]
+			5000
+		[skill cooltime reset]
+			100
+			`%`	-100
+	[/then]
+	[if]
+		[attack success]
+			1
+		[character]
+			`priest`
+		[cooltime]
+			30000
+	[/if]
+	[then]
+		[probability]
+			5
+		[target]
+			`myself`	-1
+		[appendage]
+			172
+		[duration]
+			5000
+		[skill cooltime reset]
+			109
+			`%`	-100
+	[/then]
+	[if]
+		[attack success]
+			1
+		[character]
+			`priest`
+		[cooltime]
+			30000
+	[/if]
+	[then]
+		[probability]
+			5
+		[target]
+			`myself`	-1
+		[appendage]
+			172
+		[duration]
+			5000
+		[skill cooltime reset]
+			105
+			`%`	-100
+	[/then]
+	[if]
+		[my appendage]
+			172
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			5000
+		[skill data up]
+			`[priest]`	109
+			`[all]`
+			`[cooltime]`	0
+			`%`	-96
+			`[priest]`	109
+			`[all]`
+			`[mp]`	0
+			`%`	-80
+			`[priest]`	109
+			`[all]`
+			`[level]`	2
+			`%`	-80
+			`[priest]`	109
+			`[all]`
+			`[level]`	3
+			`%`	-80
+			`[swordman]`	100
+			`[all]`
+			`[cooltime]`	0
+			`%`	-96
+			`[swordman]`	100
+			`[all]`
+			`[mp]`	0
+			`%`	-80
+			`[swordman]`	100
+			`[all]`
+			`[level]`	3
+			`%`	-80
+			`[swordman]`	100
+			`[all]`
+			`[level]`	7
+			`%`	-80
+			`[priest]`	105
+			`[all]`
+			`[cooltime]`	0
+			`%`	-97
+			`[priest]`	105
+			`[all]`
+			`[mp]`	0
+			`%`	-80
+			`[priest]`	105
+			`[all]`
+			`[level]`	0
+			`%`	-80
+			`[priest]`	105
+			`[all]`
+			`[level]`	1
+			`%`	-80
+			`[priest]`	105
+			`[all]`
+			`[level]`	5
+			`%`	-80
+			`[priest]`	105
+			`[all]`
+			`[level]`	9
+			`%`	-80
+		[/skill data up]
+	[/then]
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

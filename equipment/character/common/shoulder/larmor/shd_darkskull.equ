@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`暗黑骷髏頭盔`
+
+[basic explain]
+	`暴擊被攻擊時自己受到的傷害減少30%% `
+
+[flavor text]
+	`沒有防備心會招來禍害。記住這句話，你就會平安無事。`
+
+[grade]
+	57
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	24
+
+[magical attack]
+	16
+
+[price]
+	51300
+
+[repair price]
+	45246
+
+[value]
+	41040
+
+[equipment physical defense]
+	1560	1416
+
+[dark resistance]
+	5
+
+[all activestatus resistance]
+	5
+
+[icon]
+	`Item/common/shoulder.img`	110
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack condition]
+		`critical`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	30
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

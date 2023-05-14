@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`輕盈之眼`
+
+[basic explain]
+	`攻擊時以 2%%的機率讓敵人進入石化狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以 2%%的機率5秒內讓敵人進入石化狀態，解除時以950的攻擊力給予傷害。 （高於Lv29的對象得到的機率和效果減少，低於Lv29的對象則會增加。決鬥場內修正為2秒）
+不可解體`
+
+[grade]
+	29
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	25
+
+[physical attack]
+	25
+
+[magical attack]
+	20
+
+[price]
+	34800
+
+[repair price]
+	29232
+
+[value]
+	27840
+
+[equipment magical defense]
+	1152	992
+
+[icon]
+	`Item/common/ring.img`	74
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stone`	29	950
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

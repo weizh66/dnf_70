@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	5652
+[/pre required quest]
+
+[enemy reward item]
+	61165	1	-1	-1	4365	1	100	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4365	1
+[/int data]
+
+[dungeon info]
+	11006	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`死神阿加雷斯`
+
+[depend message]
+	`如果它們真的來自地獄， 那就糟了！ 因為像這種大規模又有組織的行動， 背后一定隱藏著某種目的。
+你之前說這群生物的首領長得很像死神， 對吧？
+不過據我所知， 死神只有在試圖達到某種目的時， 才會現身……
+唉， 胡亂猜測是沒有用的， 那個首領身上一定有一些物品能夠揭示他們此行的目的。
+冒險家， 請你去打敗他， 然后從他身上找來你認為有重要價值的東西， 說不定我能從中找到一些線索。
+冒險家， 拜托了， 我絕對相信你的判斷力。`
+
+[condition message]
+	`    前往亡者峽谷的『無盡的祭壇』， 擊敗領主死神阿加雷斯， 并收集[地獄圣杯]。`
+
+[solve message]
+	`圣杯……這是阿加雷斯的圣杯， 你是從首領身上拿到的？ 看來他確實是死神了……
+不過據我所知， 并不是每個死神都有資格擁有地獄圣杯的……
+總之， 你這次的表現非常好， 給我們找到了很重要的線索。`
+
+[quest point]
+	4

@@ -1,0 +1,191 @@
+#PVF_File
+
+[name]
+	`月影霜華`
+
+[basic explain]
+	`破招攻擊力 +14%%
+    破招攻擊時， 有3%%的幾率使自身進入霸體狀態， 效果持續3秒。`
+
+[detail explain]
+	`破招攻擊力 +14% (在決斗場中 +10%)
+    破招攻擊時， 有3%的幾率使自身進入霸體狀態3秒； 但在決斗場中， 只持續1.5秒。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`dagger`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/thief/dagger.img`	95
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	486	445
+
+[equipment magical attack]
+	515	472
+
+[separate attack]
+	360	243
+
+[attack speed]
+	100
+
+[elemental property]
+	`[light element]`
+
+[physical critical hit]
+	10
+
+[stuck]
+	1
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[if]
+	[attack condition]
+		`counter`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	14
+[/then]
+
+[if]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[duration]
+		3000
+	[buff]
+		`superarmor`
+[/then]
+
+[pvp]
+	[if]
+		[attack condition]
+			`counter`
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	10
+	[/then]
+	[if]
+		[attack condition]
+			`counter`
+		[attack success]
+			1
+		[cooltime]
+			10000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			3
+		[duration]
+			1500
+		[buff]
+			`superarmor`
+	[/then]
+[/pvp]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

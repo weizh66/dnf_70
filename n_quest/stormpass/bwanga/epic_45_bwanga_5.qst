@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4004
+[/pre required quest]
+
+[cant giveup]
+	2
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	141	1	56036	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`美杜莎莎的考驗`
+
+[depend message]
+	`從開始到現在， 你的表現都不錯。 我們知道太長的歡迎儀式對你來說是失禮的， 所以我們進行最后一個測試吧。
+還記得你的第一個測試對手， 庫尼族的鷹眼嗎？ 他們族里還有一群能御蛇的女戰士， 是你從沒見過的。 
+因為按常理， 在寒冷的雪山， 如果沒有雪魈的毛皮， 不管是動物還是人， 都很難生存， 但她們除外。`
+
+[condition message]
+	`    前往萬年雪山的『布萬加的修煉場』， 通過美杜莎莎的考驗， 要求地下城難度為冒險級以上。 (此任務在地下城中不可放棄)`
+
+[solve message]
+	`好吧， 你的實力得到了我的認可， 你有什么話， 可以說給我聽了。
+ <apc::20600>等等！ 這么有趣的事情怎么能落下我呀， 奧爾卡！`
+
+[quest point]
+	4

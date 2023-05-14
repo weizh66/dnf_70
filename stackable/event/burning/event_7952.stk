@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`黃金蟋蟀COS裝扮`
+	
+
+[explain]
+	`    使用後， 可以變身為黃金蟋蟀， 效果持續5分鐘。 此物品只能在城鎮中使用， 且變身狀態下的角色可以隨意移動。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	100
+
+[icon]
+	`Item/stackable/consumption.img`	698
+
+[field image]
+	`Item/field_consumption.img`	36
+
+[stackable type]
+	`[disguise]`	0
+
+[move wav]
+	`FOOD_TOUCH`
+
+[string data]
+	`monster`
+[/string data]
+
+[int data]
+	62501	300
+[/int data]
+
+[expiration date]
+	1285858800

@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`少年天空`
+
+[explain]
+	``
+
+[grade]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	29
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	56
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[all elemental attack]
+	5
+
+[equipment magical attack]
+	25	25
+
+[aurora graphic effects]
+	3	0
+	`Character/Common/Animation/Aura/2014_kidsday_blue_star_back.ani`	1
+	`Character/Common/Animation/Aura/2014_kidsday_blue_front.ani`	1
+	`Character/Common/Animation/Aura/2014_kidsday_blue_star_front.ani`
+
+[aura pos datas]
+	0
+	`[swordman]`	0	25	0
+	`[fighter]`	2	28	0
+	`[gunner]`	-2	10	0
+	`[mage]`	-2	50	0
+	`[priest]`	-5	10	0
+	`[at gunner]`	0	20	0
+	`[thief]`	0	20	0
+	`[at fighter]`	-2	20	0
+	`[at mage]`	0	10	0
+	`[demonic swordman]`	0	25	0
+	`[creator mage]`	-2	45	1
+	`[swordman]`	0	25	1
+	`[fighter]`	2	28	1
+	`[gunner]`	-2	10	1
+	`[mage]`	-2	50	1
+	`[priest]`	-5	10	1
+	`[at gunner]`	0	20	1
+	`[thief]`	0	20	1
+	`[at fighter]`	-2	20	1
+	`[at mage]`	0	10	1
+	`[demonic swordman]`	0	25	1
+	`[creator mage]`	-2	45	2
+	`[swordman]`	0	25	2
+	`[fighter]`	2	28	2
+	`[gunner]`	-2	10	2
+	`[mage]`	-2	50	2
+	`[priest]`	-5	10	2
+	`[at gunner]`	0	20	2
+	`[thief]`	0	20	2
+	`[at fighter]`	-2	20	2
+	`[at mage]`	0	10	2
+	`[demonic swordman]`	0	25	2
+	`[creator mage]`	-2	45
+[/aura pos datas]
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]

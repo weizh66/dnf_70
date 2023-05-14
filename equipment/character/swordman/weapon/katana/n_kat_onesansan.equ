@@ -1,0 +1,123 @@
+#PVF_File
+
+[name]
+	`(舊) 十字斬刀 - 閃`
+
+[basic explain]
+	`[噬靈鬼斬]蓄氣時間 -20%%`
+
+[flavor text]
+	`    真正的劍士， 用一把劍就可以斬斷所有阻礙！  --短劍達人巴恩領悟了劍之奧義后說`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/katana.img`	33
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	91200
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	559	508
+
+[separate attack]
+	328	220
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[physical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[swordman]`	6
+	`[all]`
+	`[static]`	1
+	`+`	-140
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	5	2
+	`[swordman]`	6	2
+[/skill levelup]
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

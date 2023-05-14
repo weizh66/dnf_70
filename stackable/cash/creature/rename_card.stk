@@ -1,0 +1,44 @@
+#PVF_File
+
+[name]
+	`寵物換名卡`
+
+[explain]
+	`    使用後， 可以更改寵物的名字1次。 若輸入‘沒有名字’， 則系統預設寵物的名字為初始名字。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	0
+
+[rarity]
+	1
+
+[weight]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[creature minimum level]
+	1
+
+[icon]
+	`Item/creature/creature_etc.img`	1
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[stackable type]
+	`[creature]`	1
+
+[cool time]
+	10000
+
+[move wav]
+	`PAPER_TOUCH`

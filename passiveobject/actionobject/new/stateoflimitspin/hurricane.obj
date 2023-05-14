@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`Hurricane`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/Hurricane.act`
+
+[attack info]
+	`AttackInfo/Hurricane.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	650
+[/object destroy condition]
+
+[follow parent]
+	`[parent]`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ME]`
+	[homing velocity]
+		1100.0	1100.0
+	[homing check gap]
+		75
+	[diff rotation]
+		180.0
+	[homing direction]
+		0
+	[sync target move]
+[/homing]

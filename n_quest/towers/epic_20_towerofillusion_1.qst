@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	2
+
+[complete npc index]
+	72
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	72
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`亡者峽谷`
+
+[depend message]
+	`勇士， 你聽說過亡者峽谷嗎？
+據說之前去那里探險的冒險家們全都失蹤了， 不知道出了什么事？
+你能幫我去那里找找嗎？ 希望他們能夠平安無事……`
+
+[condition message]
+	`    尋找非常了解亡者峽谷的人。`
+
+[solve message]
+	`年輕人， 我勸你最好不要輕易踏入那個峽谷！ 那里面詭異陰森， 處處隱藏著危機。`
+
+[quest point]
+	4

@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`殘破的野蠻之爪`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使敵人進入出血狀態。
+敵人進入出血狀態時， 自身可以增加5%%的攻擊速度， 效果持續60秒。
+[死亡毒霧]范圍 +10%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態10秒； 出血狀態下的敵人， 每0.5秒受到95點傷害。 (若敵人高于Lv55， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    敵人進入出血狀態時， 自身可以增加5%%的攻擊速度， 效果持續60秒。
+[死亡毒霧]范圍 +10%%`
+
+[flavor text]
+	`    這該死的苔蘚， 居然能噴出讓人抓狂的毒氣。  --克米特兄弟盟`
+
+[grade]
+	60
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/fighter/claw.img`	37
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[price]
+	96000
+
+[value]
+	76800
+
+[cool time]
+	10000
+
+[physical attack]
+	17
+
+[equipment physical attack]
+	548	484
+
+[equipment magical attack]
+	548	484
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[active status]
+		`bleeding`	50	1780
+[/then]
+
+[physical critical hit]
+	3
+
+[skill data up]
+	`[fighter]`	64
+	`[all]`
+	`[static]`	0
+	`+`	50
+[/skill data up]
+
+[variation]
+	3	0
+
+[layer variation]
+	2600
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`

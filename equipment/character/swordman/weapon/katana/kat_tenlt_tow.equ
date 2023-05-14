@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`十字斬刀 - 斗`
+
+[basic explain]
+	`使[三段斬]的第3擊出現爆炸。`
+
+[flavor text]
+	`    勝利沒有偶然。  --武藏`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/katana.img`	31
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	559	508
+
+[separate attack]
+	328	220
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[physical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill levelup]
+	`[swordman]`	8	2
+[/skill levelup]
+
+[variation]
+	1	9
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

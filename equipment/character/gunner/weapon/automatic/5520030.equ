@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`柯維的異次元手槍`
+
+[basic explain]
+	`全部技能冷卻時間+100%%
+[蓋波加之拳]冷卻時間-95%%
+[蓋波加之拳]MP消耗+300%%
+[蓋波加之拳]攻擊力提升5倍
+[蓋波加之拳]消耗品數量+300`
+
+[flavor text]
+	`    這把槍和我年輕時一樣衝動，容易擦槍走火 --莽撞的老年柯維`
+
+[grade]
+	71
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[magical attack]
+	100
+
+[stuck]
+	-10
+
+[price]
+	104000
+
+[need material]
+	3285	900
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[creation rate]
+	50
+
+[equipment physical attack]
+	549	496
+
+[equipment magical attack]
+	990	937
+
+[separate attack]
+	678	655
+
+[skill levelup]
+	`[gunner]`	67	14
+	`[at gunner]`	67	14
+[/skill levelup]
+
+[icon]
+	`item/weapon/gunner/automatic.img`	62
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	1000
+
+[skill data up]
+	`[gunner]`	67
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-95
+	`[gunner]`	67
+	`[dungeon type]`
+	`[mp]`	0
+	`%`	-100
+	`[at gunner]`	67
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-95
+	`[at gunner]`	67
+	`[dungeon type]`
+	`[mp]`	0
+	`%`	-100
+	`[cooltime]`	67
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[at gunner]`	67
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	67
+	`[dungeon type]`
+	`[skill consume item]`	0
+	`+`	300
+	`[at gunner]`	67
+	`[dungeon type]`
+	`[skill consume item]`	0
+	`+`	300
+[/skill data up]
+
+[/then]
+
+[/if]
+
+[cool time]
+	1000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		1015
+	[appendage]
+		1016
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	5656
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	0
+
+[int data]
+	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`不滅之藥`
+
+[depend message]
+	`現在開始才是真正的關鍵， 我要對你收集的材料做一些實驗。
+只要把這些蘊含著神秘力量的材料混合起來， 然后再提取其中的精華， 就一定能解開不滅的秘密。 這樣我就能永遠……
+咳咳， 你可別誤會啊！ 我的研究可沒有什么私心……
+總之， 接下來我需要非常謹慎的工作， 如果沒其他事， 你就先走吧！
+至于結果， 你下次來的時候我再告訴你。 當然了， 你可不要奢望我把你也變成不滅之身啊！`
+
+[condition message]
+	`    找諾頓談談。`
+
+[solve message]
+	`這就是我精心研制出來的終極液體。 只要喝下它， 就能擁有不死的身體！
+來， 干杯！ 咕咚咕咚……
+……(沉默)……
+呃， 怎么會這樣？ 為什么會覺得渾身燥熱， 臉上還一陣陣地發燙呢？
+呵呵~我覺得， 你今天太有魅力了……
+咦？ 啊啊！ 這根本就不是不滅之藥， 明顯是興奮劑！ 到底是哪里出錯了呢？`
+
+[quest point]
+	4

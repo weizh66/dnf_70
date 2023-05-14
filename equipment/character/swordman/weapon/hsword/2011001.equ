@@ -1,0 +1,1681 @@
+#PVF_File
+
+[name]
+	`聖劍:王者之劍`
+
+[basic explain]
+	`技能攻擊+18%%
+賜予自身屬性強化值最高的屬性攻擊(高於50生效)`
+
+[detail explain]
+	`技能攻擊+18%%
+賜予自身屬性強化值最高的屬性攻擊(高於50生效)`
+
+[flavor text]
+	`只有真正擁有這把劍才能感受到王者之氣。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	75
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[stuck]
+	2
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1337	1337
+
+[equipment magical attack]
+	1002	1002
+
+[separate attack]
+	686	686
+
+[all elemental attack]
+	100
+
+[icon]
+	`Item/wuqi.img`	1
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	54	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	54	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	8
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	8
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	8
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	8
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[swordman]`	16
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	16
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	11
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	65
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	17
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	64
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	64
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	64
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[swordman]`	64
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[swordman]`	64
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	65
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	77
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	77
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	77
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	77
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	77
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	77
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[swordman]`	7
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	108
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	109
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	72
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	15
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[swordman]`	86
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	86
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	86
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	98
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	98
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	98
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	97
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	97
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	97
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[swordman]`	31
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	31
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	31
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	24
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	24
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	103
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	103
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	81
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	81
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	81
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	85
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	85
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	85
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	85
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[swordman]`	102
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	102
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	102
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	101
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	101
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	18
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	18
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	18
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[swordman]`	18
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[swordman]`	18
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[swordman]`	6
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	6
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	6
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	6
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	111
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	111
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	36
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	44
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	112
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	112
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	75
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[swordman]`	75
+	`[all]`
+	`[level]`	18
+	`%`	50
+	`[swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	10
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	11
+	`%`	50
+	`[swordman]`	82
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[swordman]`	87
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	87
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	87
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[swordman]`	96
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	96
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[swordman]`	95
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	95
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[swordman]`	95
+	`[all]`
+	`[level]`	12
+	`%`	50
+	`[swordman]`	2
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	2
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[swordman]`	50
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	32
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	21
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	52
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	22
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	22
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	57
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	57
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	57
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	57
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	74
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	74
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	8
+	`%`	50
+	`[swordman]`	88
+	`[all]`
+	`[level]`	9
+	`%`	50
+	`[swordman]`	99
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[swordman]`	99
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[swordman]`	99
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[swordman]`	99
+	`[all]`
+	`[level]`	6
+	`%`	50
+	`[swordman]`	99
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[swordman]`	100
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[swordman]`	100
+	`[all]`
+	`[level]`	7
+	`%`	50
+[/skill data up]
+
+[skill data up]
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	44
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	50
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[demonic swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	5
+	`%`	50
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	3
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	4
+	`%`	50
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	7
+	`%`	50
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	2
+	`%`	50
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	3
+	`%`	50
+[/skill data up]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[possible kiri protect]

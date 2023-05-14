@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	1704
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	0
+
+[int data]
+	12	1	37	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000	1061	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1706
+
+[name]
+	`身體修煉之路 (初級篇)`
+
+[depend message]
+	`如果你想成為一流的高手， 就必須擁有良好的身體素質， 所以你就從挑戰對手開始吧……嗯， 我看天空之城的人偶師是個不錯的對象， 你就從它開始吧！ `
+
+[condition message]
+	`    前往天空之城的『人偶玄關』， 殺死20個巖石人偶師， 要求地下城難度為冒險級以上。 `
+
+[solve message]
+	`對付它們， 你都沒流汗吧？ 看來得讓你接受一些更刺激的任務了！ `
+
+[quest point]
+	4

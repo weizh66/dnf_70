@@ -1,0 +1,82 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/SaintIllusion/explode_wave.img`
+		0
+	[IMAGE POS]
+		-173	-100
+	[RGBA]
+		117	228	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/SaintIllusion/explode_wave.img`
+		0
+	[IMAGE POS]
+		-173	-88
+	[IMAGE RATE]
+		1.2999999523162842	1.2999999523162842
+	[RGBA]
+		117	228	255	128
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/SaintIllusion/explode_wave.img`
+		0
+	[IMAGE POS]
+		-173	-79
+	[IMAGE RATE]
+		1.600000023841858	1.600000023841858
+	[RGBA]
+		117	228	255	51
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[RGBA]
+		117	228	255	255
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[RGBA]
+		117	228	255	255
+	[DELAY]
+		80

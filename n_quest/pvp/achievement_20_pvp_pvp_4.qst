@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	1703
+[/pre required quest]
+
+[type]
+	`[pvp rank]`
+
+[sub type]
+	0
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1025	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1705
+
+[name]
+	`培養初級武術家 (2/2)`
+
+[depend message]
+	`你有武斗家的潛質， 但武斗的奧義并不是你想的那么簡單。 等你把決斗等級提升到8級后， 我才會讓你開始接受真正的訓練， 你有耐心接受我的考驗嗎？`
+
+[condition message]
+	`    前往決斗場， 把決斗等級提升到8級后向阿爾伯特回復。`
+
+[solve message]
+	`不錯！ 不過你先做好心里準備吧。 因為接下來的修煉， 你很可能會承受不住。 `
+
+[quest point]
+	4

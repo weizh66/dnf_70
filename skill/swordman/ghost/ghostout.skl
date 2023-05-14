@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`幽魂降臨:式`
+
+[explain]
+	`跳躍到空中，使幽魂之佈雷德降臨到自己身上，釋放強大的劍氣。劍氣劈裂地面後爆炸。
+釋放技能時，按前方向鍵可以向前方跳躍、按下方向鍵向後跳躍`
+
+[basic explain]
+	`跳躍到空中，使幽魂之佈雷德降臨到自己身上，釋放強大的劍氣。劍氣劈裂地面後爆炸。
+釋放技能時，按前方向鍵可以向前方跳躍、按下方向鍵向後跳躍`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	50	0	0	0
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	534
+	`Character/Swordman/Effect/SkillIcon.img`	535
+
+[weapon effect type]
+	`[magical]`
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←←→ + Z`
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[dungeon]
+	[consume MP]
+		1200	3020
+	[cool time]
+		40000	40000
+	[static data]
+	[/static data]
+	[level info]
+		2	8724	46223	9747	51375	10770	56527	11793	61679	12816	66833	13839	71985	14862	77136	15885	82290	16908	87442	17931	92594	18954	97747	19977	102899	21000	108051	22023	113204	23046	118357	24069	123508	25092	128661	26115	133814	27138	138966	28161	144118	29184	149271	30207	154424	31230	159576	32253	164728	33276	169881	34299	175033	35322	180185	36345	185339	37368	190490	38391	195642	39414	200796	40437	205948	41460	211099	42483	216252	43506	221405	44529	226557	45552	231710	46575	236862	47598	242015	48621	247167	49644	252320	50667	257472	51690	262624	52713	267776	53736	272930	54759	278081	55782	283233	56805	288387	57828	293539	58851	298691
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`斬擊攻擊力:<int>%%
+最後一擊攻擊力:<int>%%`	-1	0	0.5	-1	1	0.5
+[/level property]

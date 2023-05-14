@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`封·錦繡丹華長靴`
+
+[basic explain]
+	`  每1500點HP上限，使自身增加100點物理防御力。（最多增加3000點）
+  每1500點MP最大值，使自身增加100點魔法防御力。（最多增加3000點）`
+
+[flavor text]
+	`  每次看到她穿這么漂亮，我就忍不住上前搭訕，可是為什么會打起來...... -沃蘭德`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12561
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[magical attack]
+	25
+
+[magical defense]
+	25
+
+[move speed]
+	40
+
+[HP MAX]
+	225
+
+[need material]
+	3821	800
+
+[price]
+	56700
+
+[repair price]
+	45360
+
+[value]
+	45360
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2052	1998
+
+[icon]
+	`Item/new_equipment/02_cloth/shoes/cloth_shoes.img`	16
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	14
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`hp max`	1500
+		`equipment physical defense`
+		`+`	100	3000
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	1500
+		`equipment magical defense`
+		`+`	100	3000
+[/then]
+
+[possible kiri protect]

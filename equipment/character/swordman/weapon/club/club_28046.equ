@@ -1,0 +1,214 @@
+#PVF_File
+
+[name]
+	`血飲紅蛇`
+
+[basic explain]
+	`    攻擊時， 有4%%的幾率對敵人施放[血影爆發]。
+    攻擊出血狀態下的敵人時， 可以使自身進入加速狀態。
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`    攻擊時， 有4%%的幾率施放[血影爆發]， 對敵人造成1000點傷害， 并使其進入出血狀態8秒； 出血狀態下的敵人， 每0.5秒受到150點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    攻擊出血狀態的敵人時， 可以使自身增加3%%攻擊速度和移動速度， 效果持續20秒。 
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒； 但在決斗場中， 只能持續1秒。 (若敵人高于Lv60， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`club`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3400
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/club.img`	73
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	64
+
+[equipment physical attack]
+	629	576
+
+[equipment magical attack]
+	543	498
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-30
+
+[physical critical hit]
+	10
+
+[stuck]
+	-1
+
+[variation]
+	5	5
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`STICK_TOUCH`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		4
+	[passive object]
+		48302	0	0	0	60	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[stat]
+		`attack speed`
+		`+`	30
+	[stat]
+		`move speed`
+		`+`	30
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			4
+		[passive object]
+			48303	0	0	0	60	0
+			``
+		[/passive object]
+	[/then]
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[stat]
+			`attack speed`
+			`+`	30
+		[stat]
+			`move speed`
+			`+`	30
+	[/then]
+[/pvp]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+[/routing priority]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	59
+[/then]
+
+[possible kiri protect]

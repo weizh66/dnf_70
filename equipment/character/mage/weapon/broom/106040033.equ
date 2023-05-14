@@ -1,0 +1,230 @@
+#PVF_File
+
+[name]
+	`詠嘆的掃把`
+
+[basic explain]
+	`安裝時每15秒對300px 範圍內的一個敵人施展隕石
+火焰施展時讓敵人進入灼傷狀態
+灼傷狀態的敵人攻擊時10%%的附加傷害
+不可解體`
+
+[detail explain]
+	`安裝時每15秒對300px 範圍內的敵人施展隕石
+施展火焰時5秒內讓敵人進入灼傷狀態，每0.5秒以 200的攻擊力給予傷害。 （高於Lv784的對象得到的機率減少，低於Lv84的對象則會增加。）
+灼傷狀態的敵人 攻擊時給予10%%的附加傷害。
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[need material]
+	3339	1000
+
+[repair price]
+	127008
+
+[value]
+	120960
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	804	754
+
+[equipment magical attack]
+	884	829
+
+[separate attack]
+	481	327
+
+[skill levelup]
+	`[mage]`	106	2
+	`[creator mage]`	133	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/mage/broom/broom.img`	79
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+	`mage`	4
+	`creator mage`	0
+[/routing priority]
+
+[required skill]
+	91
+
+[if]
+	[time]
+		15000	1	15000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[passive object]
+		48030	0	0	0	99	1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`creator mage`	250
+	[/use skill]
+	[cooltime]
+		8000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[active status]
+		`burn`	84	3500	1000	0	8000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

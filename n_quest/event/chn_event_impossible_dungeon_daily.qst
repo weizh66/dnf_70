@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	2
+
+[complete npc index]
+	62
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	62
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749521	1
+[/reward int data]
+
+[name]
+	`杜羅西的困惑`
+
+[depend message]
+	`冒險家， 如果你有空的話不妨去一趟阿法利亞營地， 找下管理校將杜羅西。
+聽說最近異次元裂縫又發生了一些奇怪的事情， 她正想找人商量呢~`
+
+[condition message]
+	`    找杜羅西談談。`
+
+[solve message]
+	`你來得正好。
+最近我在研究異次元裂縫時， 發現異界的能量似乎有所減弱， 只是不知道這樣的情況能維持多久……
+如果在平時， 我肯定不建議你們去冒險， 不過這次機會難得， 你能否去一趟異界， 幫帝國調查下那里的情況？
+如果你愿意的話， 我可以為你準備一些道具， 以助你這次更好地行動~`

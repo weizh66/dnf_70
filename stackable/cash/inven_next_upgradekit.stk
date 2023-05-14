@@ -1,0 +1,35 @@
+#PVF_File
+
+[name]
+	`物品欄擴展券`
+
+[explain]
+	`    使用後， 物品欄的空間增加8格。 每個角色最多只能使用2次。 (裝扮欄和寵物欄的空間不會增加)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	820
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[price]
+	10000

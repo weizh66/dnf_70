@@ -1,0 +1,337 @@
+#PVF_File
+
+[name]
+	`封·無盡之貪慾`
+
+[basic explain]
+	`攻擊時，增加等同于自身和金庫重量之和80%%的傷害。（金庫中適用於上述屬性的重量為，每個欄位最高不超過6Kg）
+每50點決鬥勝點可對敵人造成1%%的傷害。（最多附加15%%）`
+
+[flavor text]
+	`慾望就像大山一樣壓著他們，所以他們一直這樣矮！—某個暗精靈諷刺黃金國矮人`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[equipment physical attack]
+	855	724
+
+[equipment magical attack]
+	812	688
+
+[equipment physical defense]
+	810	810
+
+[equipment magical defense]
+	810	810
+
+[separate attack]
+	520	336
+
+[magical attack]
+	64
+
+[physical defense]
+	77
+
+[magical defense]
+	77
+
+[price]
+	81000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[move speed]
+	20
+
+[cast speed]
+	20
+
+[need material]
+	3821	800
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	0
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/cross/cross.img`	95
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	31	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	0
+	[stat change]
+		`vp`
+		`<`
+		`+`	51
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	1
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	50
+	[stat change]
+		`vp`
+		`<`
+		`+`	101
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	2
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	100
+	[stat change]
+		`vp`
+		`<`
+		`+`	151
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	3
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	150
+	[stat change]
+		`vp`
+		`<`
+		`+`	201
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	4
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	200
+	[stat change]
+		`vp`
+		`<`
+		`+`	251
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	250
+	[stat change]
+		`vp`
+		`<`
+		`+`	301
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	6
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	300
+	[stat change]
+		`vp`
+		`<`
+		`+`	351
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	7
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	350
+	[stat change]
+		`vp`
+		`<`
+		`+`	401
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	8
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	400
+	[stat change]
+		`vp`
+		`<`
+		`+`	451
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	9
+[/then]
+
+[if]
+	[stat change]
+		`vp`
+		`>`
+		`+`	450
+	[stat change]
+		`vp`
+		`<`
+		`+`	9999999
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

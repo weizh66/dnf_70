@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`APC專用左輪槍`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`revolver`
+
+[rarity]
+	4
+
+[weight]
+	2000
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`item/weapon/gunner/revolver.img`	0
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	17
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	45500
+
+[value]
+	36400
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	584	523
+
+[equipment magical attack]
+	491	440
+
+[separate attack]
+	378	255
+
+[physical critical hit]
+	2
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	18	0
+
+[layer variation]
+	2150
+	`reva`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	18	0
+
+[layer variation]
+	2150
+	`at_reva`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[possible kiri protect]

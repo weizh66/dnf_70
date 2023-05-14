@@ -1,0 +1,40 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/effect.img`
+		0
+	[IMAGE POS]
+		-246	-379
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		4500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/effect.img`
+		0
+	[IMAGE POS]
+		-246	-379
+	[IMAGE RATE]
+		2.0	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/effect.img`
+		1
+	[IMAGE POS]
+		-246	-379
+	[IMAGE RATE]
+		2.0	1.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

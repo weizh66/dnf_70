@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`E`
+
+[gold multiple]
+	40
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5733
+[/pre required quest]
+
+[enemy reward item]
+	61438	1	83	2	4379	1	40	20	61438	1	83	3	4379	1	50	20	61438	1	83	4	4379	1	60	20
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4379	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`希望的火種`
+
+[depend message]
+	`天氣越來越冷， 可是因為電力的嚴重不足， 無法啟動供暖設備， 所以……唉， 都是因為我的研究消耗了大量的電力。
+……其實我也沒資格說這種話， 你看很多窮人家里連一件像樣的供暖設施都沒有， 只能在寒風中瑟瑟發抖……
+可是我也不能因此而中斷研究吧！ 盡快結束戰爭才是對人們最大的幫助。
+冒險家， 你能找來一些火種嗎？ 讓百姓們可以燃起篝火抵御嚴寒。
+啊！ 對了， 記得多找一些， 我也需要。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』， 從小矮人巡察員身上收集[火種]， 要求地下城難度為王者級。 (火種攜帶上限為20個； 地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`非常感謝！ 我想根特的百姓也會對你感激不盡的。`

@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`無敵的單獨部隊（紅）`
+
+[explain]
+	`※發動選項適用單人遊戲※    
+攻擊時以3%%的機率受到30%%的追加傷害。（決鬥場內10%%的附加傷害）    
+安裝時每隔50秒會因為獨自的能量30秒內力量， 體力增加20， 物理暴擊增加 3%%， 攻擊速度增加3%%， 移動速度增加 2%%。 （安裝時50秒后開始發動。）`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	235
+
+[custom animation]
+	`TitleAnimation/10_christmas_solo_rd.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	20
+
+[physical defense]
+	20
+
+[inventory limit]
+	10000
+
+[move speed]
+	20
+
+[attack speed]
+	30
+
+[physical critical hit]
+	3
+
+[if]
+	[party count]
+		`=`	1
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[if]
+	[party count]
+		`=`	1
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[if]
+	[party count]
+		`=`	1
+	[time]
+		50000	1	30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[stat]
+		`physical attack`
+		`+`	20
+	[stat]
+		`physical defense`
+		`+`	20
+	[stat]
+		`move speed`
+		`+`	20
+	[stat]
+		`attack speed`
+		`+`	30
+	[stat]
+		`physical critical hit`
+		`+`	3
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

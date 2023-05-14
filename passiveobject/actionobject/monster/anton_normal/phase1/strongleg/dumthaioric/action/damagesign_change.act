@@ -1,0 +1,36 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/DamageSign00.ani`
+	[SUB ANI]
+		`../Animation/DamageSign01.ani`	0	1
+		`../Animation/DamageSign01.ani`	0	2
+		`../Animation/DamageSign01.ani`	31
+	[/SUB ANI]
+	[SOUND]
+		`MAGTONUM_ENERGY_LOOP`	1
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70016
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	90
+	[/CREATE PASSIVEOBJECT]
+	[DESTROY]
+[/BEHAVIOR]

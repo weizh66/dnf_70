@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`鐵馬長戈護腿`
+
+[flavor text]
+	`該裝備可以通過合成進行升級。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12586
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	210
+
+[magical attack]
+	200
+
+[physical defense]
+	40
+
+[need material]
+	3826	1000
+
+[attack speed]
+	50
+
+[cast speed]
+	80
+
+[anti evil]
+	18
+
+[price]
+	134400
+
+[repair price]
+	107520
+
+[value]
+	107520
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	4240	3880
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/05_harmor/pants/harmor_pants.img`	64
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2900
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			50
+		[upper bound level]
+			50
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

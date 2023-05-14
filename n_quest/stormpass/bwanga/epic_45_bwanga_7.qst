@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4006
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	141	2	61806	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`英雄的考驗`
+
+[depend message]
+	`實話告訴你吧， 因為我之前見過的那些冒險家都是不入流的角色， 所以也覺得你應該不會通過全部的測試。 現在我認可你的實力了， 而且我還有一個好消息要告訴你。
+我大哥布萬加要親自接見你， 你要記住了， 我們說的見面， 是指用武術來會面。
+我大哥正在訓練場深處磨練他的鈍器呢， 你快去吧。 `
+
+[condition message]
+	`    前往萬年雪山的『布萬加的修煉場』， 通過布萬加的考驗， 要求地下城難度為王者級。`
+
+[solve message]
+	`大哥， 你很久沒回來了， 累不累?
+<monster::61806>我沒事， 還是先聽這位冒險家怎么說吧， 到底是什么事， 要花這么大力氣找我?`
+
+[dialog]
+	0	0	16019	2	0	0	0
+	` <monster::61806>實力不錯！
+不過你最好把全部的實力都展現出來， 我班圖族族長布萬加， 要親自考驗你！`
+[/dialog]
+
+[quest point]
+	4

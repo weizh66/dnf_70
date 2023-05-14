@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7857
+[/pre required quest]
+
+[collision quest]
+	7852	7860	7863
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	30	3034	10	3035	10	3036	10	3033	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7859
+
+[name]
+	`轉職 - 藍拳圣使 (3/4) `
+
+[depend message]
+	`既然你選擇走藍拳圣使之路， 我代表諸神給你下達最后的考驗。 請你去天空之海一趟。
+不過， 用普通的方法是無法進入那里的。
+你先去收集一些小晶塊， 我會為你制作一個護符， 希望可以抵擋那里的水壓。`
+
+[condition message]
+	`    收集30個[無色小晶塊]、 10個[白色小晶塊]、 10個[紅色小晶塊]、 10個[藍色小晶塊]和10個[黑色小晶塊]交給歌蘭蒂斯。`
+
+[solve message]
+	`好， 一切準備就緒。`

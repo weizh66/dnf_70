@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	9
+
+[complete npc index]
+	26
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[pre required quest]
+	358
+[/pre required quest]
+
+[depend give item]
+	4071	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4071	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1008	5	1054	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉交解讀后的信`
+
+[depend message]
+	`既然你滿足了我的條件， 我會遵照之前的承諾給你解讀那封信。 嗯， 把信給我看看……呵呵， 這信里的內容挺有意思的， 不過跟我沒關系， 你可以把它拿回去給克倫特了。`
+
+[condition message]
+	`    把[解讀后的摩根信函]交給克倫特。`
+
+[solve message]
+	`謝謝你……嗯， 我總算知道摩根想說什么了， 希望可憐的摩根能早日安息！`
+
+[quest point]
+	4

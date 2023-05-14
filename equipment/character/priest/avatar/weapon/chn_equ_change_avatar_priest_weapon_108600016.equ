@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`赤炎天毅戰狂戰斧`
+
+[explain]
+	`武道高手 套裝`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/priest/axe.img`	75
+
+[icon mark]
+	`Item/IconMark_cn.img`	15
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		22	2
+	[layer variation]
+		2790
+		`axec`
+	[equipment ani script]
+		`equipment/character/priest.lay`
+	[layer variation]
+		200
+		`axed`
+	[equipment ani script]
+		`equipment/character/priest.lay`
+	[move wav]
+		`CLOTH_TOUCH`
+	[sub type]
+		4
+	[expand path]
+		`equipment/character/priest/weapon/axe/`
+[/expand ani]
+
+[avatar func filter]
+	2

@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	78	99
+
+[pre required quest]
+	4498
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	59
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`與史拉烏工業基地的通信`
+
+[depend message]
+	`若是沒有這個便攜影像通信裝置，就無法知道史拉烏的情況，戰術的擬定就會變得更加困難。
+而且我會立刻準備需要的軍需品，那可以說是戰爭必備的機械裝置，
+雖然不是我製作的，但卻是製作得相當好的裝置…嗯。
+來，可以和那一邊進行交談…怎麼樣呢？要試試看嗎？`
+
+[condition message]
+	`為了和史拉烏工業基地通信，和梅爾文·里克特交談`
+
+[solve message]
+	`是非常敏感的裝置，操作不能太猛。好。看著這裡說話。就能看到對方的畫面。
+<npc::78>哥哥？看得見嗎？好像有沒見過的人。您好。我是梅爾文·里克特哥哥的妹妹莉亞，叫莉亞．里克特。
+啊 怎麼連不上啊… 這… 這… 好像串線了…。（吱吱）
+<npc::59>咦？斷線了。那邊情況不好，這是常有的現象… 那裡好像遇到了麻煩。需要幫助的情況下，你能去幫忙，對他們可是個很大的幫助的。`
+
+[quest point]
+	4

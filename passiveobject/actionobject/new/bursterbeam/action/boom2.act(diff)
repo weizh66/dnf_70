@@ -1,0 +1,18 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/BursterBeamNew/BB2ndFloorExplB_Light_A.ani`
+[/MOTION]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+	[SHAKING]
+		3	300
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SHAKING]
+		5	300
+[/BEHAVIOR]

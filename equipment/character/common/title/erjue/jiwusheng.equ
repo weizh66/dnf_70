@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 極武聖`
+
+[explain]
+	`妳說“柔”能勝“剛”？這樣不著邊際的話還是不要再說下去了。質疑自己武道的人，不配行走在極武之路上。
+所謂的“剛”其實是壹種決然的姿態，它無法被常理解釋，更無法用名字來界定，它是壹種無畏的力量，壹種不願被束縛不願後退的力量，壹種征服世界的力量。
+這就是我渴望和追求的“剛”，是我對武道執著的追尋，更是我生存的意義。
+為了這無上的境界，即使舍棄這廉價的性命又有什?呢，只要能展現出我所追尋的武道，哪怕只有壹秒，我的生命就算是完美的。
+為了那無盡的榮耀，我會毫不猶豫地走在這條道路上。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		25663	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[fighter]`	71
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[fighter]`	91
+	`[all]`
+	`[level]`	0
+	`%`	200
+	`[fighter]`	20
+	`[all]`
+	`[level]`	0
+	`%`	200
+	`[fighter]`	68
+	`[all]`
+	`[level]`	1
+	`%`	600
+	`[fighter]`	19
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[fighter]`	83
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[fighter]`	103
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[fighter]`	103
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[fighter]`	1
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[fighter]`	4
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[fighter]`	82
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[fighter]`	82
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[fighter]`	82
+	`[all]`
+	`[level]`	2
+	`%`	1000
+[/skill data up]

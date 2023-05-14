@@ -1,0 +1,114 @@
+#PVF_File
+
+[set name]
+	`止月之殤  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	4
+		`[dungeon type]`
+		`[level]`	4
+		`+`	1000
+		`[at mage]`	4
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at mage]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	4
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+	[/skill data up]
+	[parameter basic explain]
+		`[暗域擴張]失明Lv +Lv6
+[暗域擴張]冷卻時間 -20%%
+[暗域擴張]失明持續時間 +1秒
+[暗域擴張]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	14
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	1
+		`+`	500
+		`[at mage]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at mage]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[冰晶之浴]持續時間 +30%%
+[冰晶之浴]冰柱數量 +30%%
+[冰晶之浴]冷卻時間 -10%%
+[雷光鏈]持續時間 +0.5秒
+[雷光鏈]多段攻擊次數 +1
+[雷光鏈]電流傳導次數 +2
+[雷光鏈]冷卻時間 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at mage]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	29
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at mage]`	24
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	24
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[雷光屏障]冷卻時間 -30%%
+[雷光屏障]組成屏障的光柱間隔 +20%%
+[雷光屏障]攻擊力 +20%%
+[黑暗禁域]冷卻時間 -30%%
+[黑暗禁域]吸附范圍 +20%%
+[黑暗禁域]攻擊力 +20%%`
+[/piece set ability]

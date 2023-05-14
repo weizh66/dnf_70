@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`僕曼掃蕩作戰`
+
+[explain]
+	`攻擊時以 10%% 的機率 MP恢復1%%（冷卻時間10秒）
+施展時以 20%% 的機率MP恢復1%%（冷卻時間10秒）
+被攻擊時MP恢復200（冷卻時間10秒）`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	452
+
+[custom animation]
+	`TitleAnimation/operations.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[all elemental attack]
+	10
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[restore]
+		`mp`
+		`%`	1	1000
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[restore]
+		`mp`
+		`%`	1	1000
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`mp`
+		`+`	200	1000
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

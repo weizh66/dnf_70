@@ -1,0 +1,55 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack_n.img`
+		0
+	[IMAGE POS]
+		-366	-375
+	[IMAGE RATE]
+		2.0	1.2000000476837158
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack_n.img`
+		0
+	[IMAGE POS]
+		-366	-375
+	[IMAGE RATE]
+		3.0	0.800000011920929
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack_n.img`
+		0
+	[IMAGE POS]
+		-366	-375
+	[IMAGE RATE]
+		3.0	0.800000011920929
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		140
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase3/Bug/bal_attack_n.img`
+		0
+	[IMAGE POS]
+		-366	-375
+	[IMAGE RATE]
+		3.0	0.5
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		40

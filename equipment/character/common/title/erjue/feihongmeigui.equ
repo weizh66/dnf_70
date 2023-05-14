@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 緋紅玫瑰`
+
+[explain]
+	`戰場中那汙穢的火焰似乎能吞噬所有人，甚至是天地山河，我們從未如此無力過。
+長時間不懈的修煉，以及保護陛下而為榮的自尊和榮耀在城門被破陛下被擄走的那天支離破碎，如同齏粉壹樣渺小可笑。
+頂不住絕望和失落而自尋短見的人我們無情的稱之為叛徒，仿佛時間凝固壹樣的宮墻之內我們背著奚落與指責壹直堅持著戰鬥，雖然沒人能理解我們……
+天降洪福， 我們年幼的陛下終於回到了我們身邊， 我們把這天當做我們新生的日子。但我們覺得還不夠， 以後我們不能再被動的保護陛下， 而是利用所有方法占盡先機， 在危險成長之前就把它們扼殺在搖籃上！
+不錯，
+我們不惜壹切，
+將身體化為在戰場上綻放的血紅而美麗的花。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		700039	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[at gunner]`	15
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[at gunner]`	51
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[at gunner]`	51
+	`[all]`
+	`[level]`	1
+	`%`	500
+	`[at gunner]`	51
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	3
+	`%`	500
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	4
+	`%`	500
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	5
+	`%`	500
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	6
+	`%`	500
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	10
+	`%`	500
+	`[at gunner]`	100
+	`[all]`
+	`[level]`	13
+	`%`	500
+	`[at gunner]`	101
+	`[all]`
+	`[level]`	2
+	`%`	500
+	`[at gunner]`	101
+	`[all]`
+	`[level]`	3
+	`%`	500
+	`[at gunner]`	104
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[at gunner]`	104
+	`[all]`
+	`[level]`	5
+	`%`	500
+	`[at gunner]`	72
+	`[all]`
+	`[level]`	0
+	`%`	500
+[/skill data up]

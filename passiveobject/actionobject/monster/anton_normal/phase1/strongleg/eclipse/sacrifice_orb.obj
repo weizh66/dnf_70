@@ -1,0 +1,25 @@
+#PVF_File
+
+[name]
+	`死亡之珠`
+
+[basic action]
+	`Action/Sacrifice_Orb.act`
+
+[hp max]
+	30000000
+
+[hp destroy]
+	1
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	56643
+	[homing velocity]
+		100.0	10.0
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]

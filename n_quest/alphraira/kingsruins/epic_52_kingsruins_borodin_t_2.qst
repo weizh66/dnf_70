@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	25
+
+[complete npc index]
+	26
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[pre required quest]
+	638
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	26
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 加爾的惱怒`
+
+[depend message]
+	`很多士兵因傷口疼痛整夜哀吟， 外面又蔓延著奇怪的傳染病……啊！ 我快瘋了， 你最好不要來煩我。
+如果你真的沒事做， 就和那邊的那個暗精靈混蛋一起滾吧！ 你轉告他， 讓他別在這兒礙我的眼。 我要是直接和他說， 我怕會忍不住和他吵起來！
+我們之前和你們暗精靈相安無事， 你們在這進進出出， 我也就睜一只眼閉一只眼。
+現在， 你們暗精靈既然選擇撕破臉， 那么克倫特那個家伙的傳令使身份已經不是你們的護身符了。`
+
+[condition message]
+	`    把加爾的話轉告給克倫特。`
+
+[solve message]
+	`她這樣的反應， 我完全能理解……`
+
+[quest point]
+	4

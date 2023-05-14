@@ -1,0 +1,59 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/nenofbrilliance/loop/loop_beam.ani`
+	[SUB ANI]
+		`../animation/nenofbrilliance/self/self_big_elec.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_energy_1.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_energy_2.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_energy_3.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_normal.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_heat_red.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_o.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_gathering_elec.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_heat_blue.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_gathering_blue.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_gathering_red.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_gathering_red_2.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_gathering_red_3.ani`	0	0
+		`../animation/nenofbrilliance/loop/loop_gathering_red_4.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

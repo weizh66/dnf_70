@@ -1,0 +1,33 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/9_small_crystal1_Basic_9.ani`
+	[SUB ANI]
+		`../Animation/9_small_crystal3_Basic_9.ani`	0	1
+		`../Animation/9_1small_crystal2_Basic_9.ani`	0	2
+		`../Animation/9_1small_crystal1_Basic_9.ani`	0	3
+		`../Animation/9_small_crystal2_Basic_9.ani`	0	4
+		`../Animation/9_1small_crystal3_Basic_9.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			60
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

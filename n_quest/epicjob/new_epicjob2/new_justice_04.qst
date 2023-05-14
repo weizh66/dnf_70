@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 正義仲裁者 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+心里帶著疑問， 為尋找答案有目的地進行了訓練， 感覺如何？ 不管怎樣， 在這個過程中， 你悟到了一定的道理， 同時你自身也變得更加堅定了。
+為了尋找正確的答案， 你付出了很大的努力， 最終解開了疑惑， 還差一步就能悟出‘真理’了。
+我不知道你找到的是通往哪里的一條路， 也不知道你要悟出的究竟是何種‘真理’。 但我能確信這條路選得沒錯， 你并沒有陷入歪門邪道。 這就是所謂的正義， 就是你們所追求的東西。
+重新開啟你的旅程吧。 就像一直以來那樣， 在你的旅程中執行神之正義吧。
+去成為理解神的旨意， 并親身執法的‘正義仲裁者’吧。`
+
+[pre required quest]
+	6802
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

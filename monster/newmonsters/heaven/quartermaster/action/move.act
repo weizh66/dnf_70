@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/Move.ani`
+	[SPEECH]
+		`沒看到躲著的長官嗎`
+			0	3
+		`這傢伙到底躲在哪啊`
+			0	3
+		`該讓他做的苦工`
+			0	3
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[burn]
+		100	60	50000	0	800	1	700
+[/BEHAVIOR]

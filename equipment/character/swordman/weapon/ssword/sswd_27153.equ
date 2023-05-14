@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`精良的狂龍的裁斷`
+
+[basic explain]
+	`    施放技能時， 有3%%的幾率使特定的敵人進入出血狀態， 并增加自身的智力和施放速度。
+    無法進行分解、 封裝和合成。`
+
+[detail explain]
+	`    施放技能時， 有3%%的幾率使300px范圍內最近的敵人進入出血狀態12秒， 出血狀態下的敵人， 每0.5秒受到40點傷害； 并且還會使自身增加15點智力和10%%的施放速度， 效果持續12秒。 (若敵人高于Lv62， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    無法進行分解、 封裝和合成。`
+
+[grade]
+	65
+
+[rarity]
+	5
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	62
+
+[magical attack]
+	46
+
+[cast speed]
+	20
+
+[anti evil]
+	8
+
+[price]
+	0
+
+[repair price]
+	74088
+
+[value]
+	0
+
+[equipment physical attack]
+	543	521
+
+[equipment magical attack]
+	658	630
+
+[separate attack]
+	324	219
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	44
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	5	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		12000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		12000
+	[probability]
+		3
+	[active status]
+		`bleeding`	62	1250
+	[target]
+		`myself`	-1
+	[stat]
+		`magical attack`
+		`+`	15
+	[stat]
+		`cast speed`
+		`+`	100
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

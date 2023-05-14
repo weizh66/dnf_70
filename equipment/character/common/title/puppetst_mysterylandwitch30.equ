@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以1%%的機率30秒內智能增加45。施展時以2%%機率30秒內魔法爆擊增加10%%。`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	94
+
+[custom animation]
+	`TitleAnimation/puppet_stage.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[usable period]
+	30
+
+[magical attack]
+	27
+
+[magical defense]
+	18
+
+[stuck resistance]
+	10
+
+[inventory limit]
+	5000
+
+[move speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`magical attack`
+		`+`	45
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`magical critical hit`
+		`+`	10
+[/then]
+
+[magical critical hit]
+	3
+
+[stuck]
+	-1
+
+[move wav]
+	`NAME_TOUCH`

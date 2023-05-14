@@ -1,0 +1,165 @@
+#PVF_File
+
+[name]
+	`封·拳風傳奇`
+
+[basic explain]
+	`攻擊速度 +5%%
+    攻擊時， 增加2%%的物理攻擊力、 魔法攻擊力和獨立攻擊力， 同時減少2%%的防禦力， 效果持續60秒。`
+
+[detail explain]
+	`攻擊速度 +5%%
+    攻擊時， 增加2%%的物理攻擊力、 魔法攻擊力和獨立攻擊力， 同時減少2%%的防禦力， 效果持續60秒。 (效果可重疊， 但增加或減少的上限為60%%； 冷卻時間0.1秒)`
+
+[flavor text]
+	`    甲 :  壹拳打過去，妳感覺到了什么？
+乙 : 有風！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[attack speed]
+	150
+
+[cast speed]
+	100
+
+[HP MAX]
+	500
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1104	948
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/knuckle/knuckle.img`	120
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	1900
+
+[item group name]
+	`knuckle`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		100
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[equipment duration]
+		60000
+	[appendage]
+		226
+	[appendage]
+		227
+[/then]
+
+[possible kiri protect]

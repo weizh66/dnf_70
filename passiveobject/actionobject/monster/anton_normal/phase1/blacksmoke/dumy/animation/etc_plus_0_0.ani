@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/loop_dodge.img`
+		1
+	[IMAGE POS]
+		-132	-125
+	[IMAGE RATE]
+		2.0	2.0
+	[DELAY]
+		50
+	[ATTACK BOX]
+	-41	-45	0	80	78	84
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/loop_dodge.img`
+		1
+	[IMAGE POS]
+		-132	-125
+	[IMAGE RATE]
+		2.0	2.0
+	[DELAY]
+		50
+	[ATTACK BOX]
+	-41	-45	0	80	78	84

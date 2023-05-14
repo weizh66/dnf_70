@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`炙炎之海克勒`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使敵人進入灼傷狀態。
+攻擊灼傷狀態的敵人時， 附加10%%的傷害。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入灼傷狀態4秒； 灼傷狀態下的敵人， 每0.5秒受到212點傷害， 同時其周圍的敵人每2秒受到33點傷害。 (若敵人高于Lv65， 則減少進入異常狀態的幾率； 反之， 則增加幾率)`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`automatic`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	1500
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`item/weapon/gunner/automatic.img`	62
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	30
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[magical attack]
+	44
+
+[equipment physical attack]
+	409	366
+
+[equipment magical attack]
+	600	537
+
+[separate attack]
+	378	255
+
+[if]
+	[cooltime]
+		6000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`burn`	65	1700	65	1	2000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[stuck]
+	-1
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[routing priority]
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

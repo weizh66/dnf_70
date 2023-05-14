@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 念皇 (1/6)`
+
+[depend message]
+	`我聽說狂虎帝們會利用紋身強行吸收念氣， 這樣下去身體哪能承受得住？
+一看就知道壽命肯定縮短了不少， 真不知道做到這種程度究竟是為了什么， 反正我知道， 即使我說不能這么做， 也無法阻止你們。
+但你不一樣， 你具備很大的潛力， 停留在這個層面實在是可惜。 不要再站在死神的門口苦苦堅持了， 還是跟我好好談談吧， 我找到拯救你的方法了。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`讓我診個脈看看。
+……還真吃得消啊你， 太驚人了。
+聽說光是利用紋身的力量強行拽出念氣都困難。 可是你竟然還把這種念氣轉化成暴走的力量并瘋狂使用。
+通常情況下， 這么做會血盡人亡。 你這樣做真的是太愚蠢了！
+不過， 你卻在做出如此瘋狂的事情后依然活了下來。 當然， 這并不代表你沒受到任何影響， 想必壽命應該縮短了許多。 從你的脈象來看， 現在你血脈不穩定， 精氣正在逐漸減弱。
+照這樣下去， 你最多只剩一兩年的命了吧……你的人生路還長著呢， 怎能說倒就倒呢？ 你一定要好好活著。 我會盡全力幫你保命。 來， 我們一起試試看吧。`
+
+[target character]
+	`[at fighter]`	1	1
+[/target character]
+
+[relation quest]
+	5357
+
+[job change quest]
+	3
+
+[grow number]
+	0

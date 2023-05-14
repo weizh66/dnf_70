@@ -1,0 +1,61 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack1.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			12055
+		[PARTICLE FILENAME]
+			`../ptl/ThrowStone.ptl`
+		[LEVEL]
+			0
+		[POS]
+			200	0	0
+		[NO EFFECT]
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			12055
+		[PARTICLE FILENAME]
+			`../ptl/ThrowStone.ptl`
+		[LEVEL]
+			0
+		[POS]
+			150	25	0
+		[NO EFFECT]
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			12055
+		[PARTICLE FILENAME]
+			`../ptl/ThrowStone.ptl`
+		[LEVEL]
+			0
+		[POS]
+			150	-25	0
+		[NO EFFECT]
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			12055
+		[PARTICLE FILENAME]
+			`../ptl/ThrowStone.ptl`
+		[LEVEL]
+			0
+		[POS]
+			100	0	0
+		[NO EFFECT]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

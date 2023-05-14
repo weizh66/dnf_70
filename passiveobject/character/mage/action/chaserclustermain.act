@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ChaserCluster/ChaserClusterMainExplosion.ani`
+	[SUB ANI]
+		`../Animation/ChaserCluster/ChaserClusterMainLoop.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SHAKING]
+		450	3
+[/BEHAVIOR]

@@ -1,0 +1,54 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	41
+
+[big face]
+	`Map/Npc/NpcFace04.img`	10
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	41
+
+[field animation]
+	`Animation/Npc_erje.ani`
+
+[look around]
+	0
+
+[field wav]
+	`R_NPC_ERZE_AMB`
+
+[popup wav]
+	`R_NPC_ERZE_TK`
+	`R_NPC_ERZE_FW`
+
+[role]
+[/role]
+
+[look around]
+	0
+
+[name]
+	`皇女艾麗婕`
+
+[field name]
+	`皇女艾麗婕`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::133>貝加艾麗婕芬比拉西亞... 這就是我的名字。
+就我們兩個在一起時，就叫我「艾麗婕」吧。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::133>雖然我是皇女，但我同時也擁有最優秀女祭司的資質。
+所以我身上也可以感受到龐大的責任感。希望你能夠多多幫助我，以減輕我肩膀上的重擔！`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::133>在巴卡爾下令禁止魔法後，天界的機器文明就有了飛躍性的發展。
+此外，不知道你知不知道。各種的占卜術也隨著一起發達了起來... 
+人們總是說迷信的占卜術，竟然能夠與高科技的精隨同時發展起來，你不覺得很有趣嗎？`
+[/dialog]

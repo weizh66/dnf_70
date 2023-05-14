@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`封·鎮魂曲：幽遊板甲護腿`
+
+[basic explain]
+	`  施放[疾空旋風破]、 [懺悔之錘]、 [邪光波動陣]、 [暗影囚殺]、 [颶風旋槍]時， 有20%%的幾率不受冷卻時間影響。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12570
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	37
+
+[magical attack]
+	37
+
+[physical defense]
+	40
+
+[MP MAX]
+	250
+
+[need material]
+	3821	900
+
+[price]
+	137600
+
+[repair price]
+	110080
+
+[value]
+	110080
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	4850	4400
+
+[skill levelup]
+	`[priest]`	5	2
+	`[priest]`	74	2
+	`[swordman]`	57	2
+	`[creator mage]`	253	2
+	`[demonic swordman]`	57	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/06_plate/pants/plate_pants.img`	10
+
+[field image]
+	`Item/field_equip.img`	16
+
+[equipment type]
+	`[pants]`	22
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	4100
+
+[item group name]
+	`mt pants`
+
+[cool time]
+	10000
+
+[if]
+	[event use skill]
+		`priest`	5
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill data up]
+		`[priest]`	5
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	74
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill data up]
+		`[priest]`	74
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	57
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill data up]
+		`[swordman]`	57
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

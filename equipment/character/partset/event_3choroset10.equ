@@ -1,0 +1,73 @@
+#PVF_File
+
+[set name]
+	`七傷劍氣  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[swordman]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	16
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	16
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	12
+		`[swordman]`	9
+		`[dungeon type]`
+		`[static]`	2
+		`+`	75
+		`[swordman]`	9
+		`[dungeon type]`
+		`[static]`	3
+		`+`	150
+		`[swordman]`	9
+		`[dungeon type]`
+		`[static]`	4
+		`+`	225
+		`[swordman]`	9
+		`[dungeon type]`
+		`[static]`	5
+		`+`	300
+		`[swordman]`	4
+		`[dungeon type]`
+		`[level]`	8
+		`%`	50
+		`[swordman]`	13
+		`[dungeon type]`
+		`[level]`	4
+		`%`	50
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[swordman]`	98
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`銀光落刃攻擊力增加30%%， 範圍增加20%% 
+拔刀斬冷卻時間減少30%%， 攻擊力增加12%%， 怪物 2隻攻擊時攻擊力增加7. 5%%， 3隻攻擊時增加1 5%%， 4隻攻擊時增加22. 5%%， 5隻以上攻擊時增加30%% /光劍精通拔刀斬追擊攻擊力增加50%% /太刀精通拔刀斬追擊攻擊力增加50%% / 衝鋒破壞者攻擊力增加30%%， 移動距離增加30%% `
+[/piece set ability]

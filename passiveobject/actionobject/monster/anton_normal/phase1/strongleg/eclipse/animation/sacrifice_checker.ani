@@ -1,0 +1,31 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/Frenzy/blood-stone-0.img`
+		0
+	[IMAGE POS]
+		-40	-92
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		130
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/Frenzy/blood-stone-0.img`
+		1
+	[IMAGE POS]
+		-40	-92
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		130

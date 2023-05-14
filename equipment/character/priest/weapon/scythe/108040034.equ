@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`卡勒特的高密度鋼鐵鐮刀`
+
+[basic explain]
+	`攻擊時以4%%的機率5秒內物理、魔法武器攻擊力增加5%%（最大2重疊）`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[magical attack]
+	55
+
+[attack speed]
+	80
+
+[stuck]
+	-1
+
+[stuck resistance]
+	20
+
+[price]
+	151200
+
+[repair price]
+	127008
+
+[value]
+	120960
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	764	716
+
+[equipment magical attack]
+	804	754
+
+[separate attack]
+	481	327
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[priest]`	133	1
+	`[priest]`	134	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	86
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	27	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		4
+	[duration]
+		5000
+	[appendage]
+		213
+[/then]
+
+[possible kiri protect]

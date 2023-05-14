@@ -1,0 +1,39 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	30
+[/check count]
+
+[level]
+	10	99
+
+[type]
+	`[amplify item]`
+
+[sub type]
+	0
+
+[int data]
+	10	2	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26699	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`將稀有及以上等級的裝備強化(或增幅)至+10及以上， 并且成功30次。 (包括神器和史詩， 但不包括勇者裝備)`
+
+[condition data]
+	0
+	`成功次數 : %d / %d`
+[/condition data]

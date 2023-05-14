@@ -1,0 +1,219 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		110
+	[vertical distance]
+		0
+	[size]
+		21	22
+	[title string]
+		`突破黑暗的成長活動`
+		
+	[controls]
+		[ui controls]
+			`[text button]`
+			`0`	96	265	2
+			`Interface/WindowCommon.img`
+			`確認`
+				4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[board image]`
+			`1`	-1	3	1
+			`Interface/WindowCommon.img`	11	256	260	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`2`	6	6	1
+			`1. 請在地下城收集並使用成長的碎片。
+2. 每當使用成長的碎片時， 沙漏會稍微轉動。
+3. 當沙漏轉動11次之後，武器上的魔法會被解除，變換為無限制武器。
+4. 變換為無限制之後，武器會繼續成長。
+5. 從50等級開始可以進行強化。
+`
+				9	-1	240	0	0	0	0	230	200	155
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`5`	30	120	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	1
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[gauge]`
+			`6`	10	19	1
+			`Interface2/event/GrowthItem/Event_grow.img`	3	-1	2	2
+			[parent]
+				`5`
+		[/ui controls]
+		[ui controls]
+			`[gauge]`
+			`7`	8	59	1
+			`Interface2/event/GrowthItem/Event_grow.img`	3	-1	3	3
+			[parent]
+				`5`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`8`	70	116	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	0
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`9`	82	7	2
+			`Interface/WindowCommon.img`
+			`使用`
+				4	12	13	14	15
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[text button]`
+			`10`	82	88	2
+			`Interface/WindowCommon.img`
+			`變換`
+				4	12	13	14	15
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`11`	46	3	1
+			`Interface/WindowCommon.img`	1	57
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`12`	46	84	1
+			`Interface/WindowCommon.img`	1	57
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`14`	50	46	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`15`	69	46	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`16`	88	46	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`17`	107	46	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`18`	126	46	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`19`	41	63	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`20`	60	63	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`21`	79	63	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`22`	98	63	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`23`	117	63	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`24`	136	63	1
+			`Interface2/event/GrowthItem/Event_grow.img`	1	5
+			[parent]
+				`8`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`25`	22	168	1
+			`  - 非活動套用目標 -`
+				9	-1	215	1	0	0	0	255	50	50
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`26`	28	170	1
+			`已經完成活動參加了。 -`
+				9	-1	200	1	0	0	0	65	255	78
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[tooltips]`
+			`27`	112	127	2
+			`9`
+			`材料道具不足`
+				4	1	180	0	0
+		[/ui controls]
+		[ui controls]
+			`[tooltips]`
+			`28`	112	208	2
+			`10`
+			`沙鐘的迴轉次數不足`
+				4	1	180	0	0
+		[/ui controls]
+		[ui controls]
+			`[control]`
+			`99`	0	0	0	2	200	100
+			[parent]
+				`1`
+		[/ui controls]
+	[/controls]
+[/window]

@@ -1,0 +1,28 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/atpunishment_finish_bottom1.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	800
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	710092
+[/object destroy condition]
+
+[name]
+	`火焰爆炸`

@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`綠色水兵帽`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/priest/pr_acap.img`	329
+
+[equipment type]
+	`[hat avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	200	0	30	0	0	440	0	0	0	0	1320	0
+[/avatar type select]
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[variation]
+	95	3
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`
+	`+`	20
+	`[MAGICAL_DEFENSE]`
+	`+`	20
+	`[HP_REGENRATE]`
+	`+`	30
+	`[MP_REGENRATE]`
+	`+`	8
+	`[CAST_SPEED]`
+	`+`	100
+[/avatar select ability]

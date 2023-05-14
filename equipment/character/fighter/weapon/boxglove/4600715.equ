@@ -1,0 +1,217 @@
+#PVF_File
+
+[name]
+	`封·卑劣腎擊者`
+
+[basic explain]
+	`背擊攻擊時， 暴擊傷害 +50%%
+暴擊傷害 +25%%
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`    背擊傷害 +50%%
+暴擊傷害 +25%%
+(暴擊傷害加成效果取最高數值，且無法疊加）
+    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒。(若敵人高於Lv91， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[flavor text]
+	`    甲 : 太卑鄙了， 竟然搞偷襲。
+    乙 : 只要能贏， 別說偷襲， 偷情都行。
+    (註 : 小朋友們， 這可是不好的示範， 大家不要學哦！)`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	100
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1008	865
+
+[equipment magical attack]
+	912	783
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	15
+
+[skill levelup]
+	`[fighter]`	39	1
+	`[at fighter]`	39	1
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/fighter/bglove/bglove.img`	93
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	29	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	91
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		1000
+	[stat]
+		`physical critical hit`
+		`+`	30
+[/then]
+
+[if]
+	[attack condition]
+		`back attack`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	50
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	25
+[/then]
+
+[possible kiri protect]

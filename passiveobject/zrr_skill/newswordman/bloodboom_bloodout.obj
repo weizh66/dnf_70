@@ -1,0 +1,21 @@
+#PVF_File
+
+[name]
+	`much sword`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[layer]
+	`[normal]`
+
+[basic motion]
+	`animation/bloodboom/boom_bleeding.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

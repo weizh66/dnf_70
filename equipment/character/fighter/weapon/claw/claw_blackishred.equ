@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`赤影烈焰爪`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入灼傷狀態。
+攻擊速度增加3%%`
+
+[detail explain]
+	`攻擊時以2%%的機率5秒內讓敵人陷入灼傷狀態，每0.5秒以395的攻擊力給予傷害，四周的敵人每2秒以42的攻擊力給予傷害。 ((若敵人高於Lv65，則減少進入異常狀態的機率；反之，則增加機率)
+攻擊速度+3%%`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	42
+
+[magical attack]
+	21
+
+[attack speed]
+	30
+
+[price]
+	93800
+
+[repair price]
+	78792
+
+[value]
+	375200
+
+[equipment physical attack]
+	594	574
+
+[equipment magical attack]
+	594	574
+
+[separate attack]
+	293	199
+
+[physical critical hit]
+	3
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/fighter/claw.img`	55
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`burn`	65	3950	105	1	2000
+[/then]
+
+[possible kiri protect]

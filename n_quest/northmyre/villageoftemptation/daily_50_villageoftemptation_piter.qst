@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	9
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	51	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	8
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`笛聲與復仇`
+
+[depend message]
+	`我是一個失去兒子的老婦人， 曾經居住在諾斯瑪爾。
+那場突然爆發的瘟疫奪走了我兒子的性命， 也讓我這個沒用的母親不得不接受殘酷的命運。
+但讓我痛不欲生的是， 我竟然連兒子的尸首都找不到！ 我聽說， 之所以找不到尸首， 是因為有一個叫魔笛使者皮特的惡棍在利用那些尸體做邪惡的事。
+冒險家， 我要復仇！ 我需要一位實力高超的勇士幫助我這個充滿怨恨的母親。
+雖然我沒什么錢， 但我還有一些做生意時攢下來的珍貴材料， 本來這些都是為我兒子的終身大事準備的……只要你能幫助我， 我可以把這些全都給你！
+這些積攢下來的材料， 我已經托付給諾斯瑪爾路口的哥布林商人了。`
+
+[condition message]
+	`    通關諾斯瑪爾的『迷亂之村哈穆林』， 然后去找赫頓瑪爾的夏洛克， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`你就是幫助那位可憐大媽了卻心愿的冒險家啊？
+讓我看看……我該給您幾個？ 5個……？ 6個……？`
+
+[quest point]
+	0

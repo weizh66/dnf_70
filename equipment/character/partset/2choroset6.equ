@@ -1,0 +1,176 @@
+#PVF_File
+
+[set name]
+	`血之泛濫  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	5
+		`%`	150
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[swordman]`	157
+		`[dungeon type]`
+		`[level]`	5
+		`%`	150
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[崩山擊]衝擊波出血幾率 +10%%
+[崩山擊]出血Lv +6
+[崩山擊]出血傷害 +150%%
+[嗜魂之手]抓住出血狀態的敵人時， 攻擊力 +40%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[swordman]`	79
+		`[dungeon type]`
+		`[level]`	5
+		`%`	200
+		`[swordman]`	79
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-150
+		`[swordman]`	158
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[swordman]`	158
+		`[dungeon type]`
+		`[level]`	5
+		`%`	200
+		`[swordman]`	158
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-150
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	5
+		`%`	150
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	2
+		`+`	100
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	3
+		`+`	6
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	5
+		`%`	150
+		`[swordman]`	103
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	103
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	103
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[swordman]`	76
+		`[dungeon type]`
+		`[level]`	15
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[嗜魂封魔斬]出血Lv +6
+[嗜魂封魔斬]出血傷害 +200%%
+[嗜魂之手]出血狀態下， 減少傷害間隔
+[十字斬]出血幾率 +10%%
+[十字斬]出血Lv +6
+[十字斬]出血傷害 +150%%
+[血之狂暴]HP吸收量上限 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	76
+		`[dungeon type]`
+		`[level]`	5
+		`+`	100
+		`[swordman]`	76
+		`[dungeon type]`
+		`[level]`	6
+		`+`	6
+		`[swordman]`	76
+		`[dungeon type]`
+		`[level]`	8
+		`%`	150
+		`[swordman]`	76
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[swordman]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`%`	50
+		`[swordman]`	76
+		`[dungeon type]`
+		`[level]`	13
+		`+`	10
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	6
+		`%`	10
+		`[swordman]`	141
+		`[dungeon type]`
+		`[level]`	6
+		`%`	10
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	3
+		`+`	50
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	5
+		`+`	10000
+	[/skill data up]
+	[parameter basic explain]
+		`[血之狂暴]攻擊力 +50%%
+[血之狂暴]每10秒HP的消耗量 +50%%
+[血之狂暴]出血幾率 +10%%
+[血之狂暴]出血Lv +6
+[血之狂暴]出血傷害 +150%%
+[血氣旺盛]狀態下， [十字斬]HP消耗量 +10%%
+[嗜魂之手]力量增加量 +50
+[嗜魂之手]抓住出血狀態的敵人時， 增加力量的持續時間 +10秒`
+[/piece set ability]

@@ -1,0 +1,153 @@
+#PVF_File
+
+[name]
+	`光之十字架鐮`
+
+[basic explain]
+	`被攻擊時以5%% 的機率施展賽格哈特的落雷
+不可解體`
+
+[detail explain]
+	`被攻擊時以5%% 的機率施展賽格哈特的落雷。
+被賽格哈特的落雷擊中時以10%% 的機率讓敵人進入感電狀態，每次攻擊時以24的攻擊力給予附加傷害。 （高於Lv34的對象得到的機率減少，低於Lv34的對象則會增加。 決鬥場內以 1%% 機率施展）
+不可解體`
+
+[grade]
+	34
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	30
+
+[physical defense]
+	31
+
+[magical attack]
+	25
+
+[magical defense]
+	31
+
+[cast speed]
+	20
+
+[price]
+	54400
+
+[repair price]
+	43520
+
+[value]
+	43520
+
+[equipment physical attack]
+	340	300
+
+[equipment magical attack]
+	323	285
+
+[equipment physical defense]
+	340	330
+
+[equipment magical defense]
+	340	330
+
+[separate attack]
+	196	130
+
+[skill levelup]
+	`[priest]`	23	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/cross.img`	68
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	18	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48141	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

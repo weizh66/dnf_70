@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	6
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	3	99
+
+[pre required quest]
+	4301
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`流動的叢林`
+
+[depend message]
+	`你最近成長了不少啊， 哈哈， 既然我的事情都解決了， 你就開始新的冒險吧！ 你聽說過流動的叢林格蘭之森嗎？ 冒險家都去那了， 你也趕緊去吧！
+嗯， 如果你不知道怎么去， 就沿著艾爾文防線左側走， 那里通往赫頓瑪爾。 然后你去找一個叫風振的人， 他會告訴你接下來要做什么。 `
+
+[condition message]
+	`    前往赫頓瑪爾找風振談談。 (沿著艾爾文防線左側走就可以到赫頓瑪爾)`
+
+[solve message]
+	`你是第一次來這兒吧？ 你想開始新的冒險啊， 呵呵， 那就從平定格蘭之森的混亂開始吧！ `
+
+[quest point]
+	4

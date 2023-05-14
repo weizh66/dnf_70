@@ -1,0 +1,168 @@
+#PVF_File
+
+[set name]
+	`黑暗之魂  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	5
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[swordman]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼斬]攻擊力 +20%%
+[鬼斬]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[swordman]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+	[/skill data up]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[use skill]
+			`swordman`	18
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			30000
+		[stat]
+			`cast speed`
+			`+`	150
+	[/then]
+	[parameter basic explain]
+		`[月光斬]攻擊力 +30%%
+[月光斬]冷卻時間 -30%%
+施放[鬼影步]時， 增加15%%的施放速度， 效果持續30秒
+[鬼影閃]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	4
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	7
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	8
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	9
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	10
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	11
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	12
+		`%`	50
+		`[swordman]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	82
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	82
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[swordman]`	18
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[swordman]`	18
+		`[dungeon type]`
+		`[level]`	4
+		`%`	50
+		`[swordman]`	18
+		`[dungeon type]`
+		`[level]`	5
+		`%`	50
+		`[swordman]`	18
+		`[dungeon type]`
+		`[level]`	6
+		`%`	50
+		`[swordman]`	18
+		`[dungeon type]`
+		`[level]`	7
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[冥炎之卡洛]攻擊力 +50%%
+[冥炎之卡洛]冷卻時間 -30%%
+[冥炎之卡洛]持續時間 +20%%
+[冥炎之卡洛]無色小晶塊消耗量 +1
+[鬼影步]攻擊力 +50%%`
+[/piece set ability]

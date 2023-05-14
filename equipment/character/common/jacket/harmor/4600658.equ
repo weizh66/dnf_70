@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`封·逆龍之戰破敵鎧甲`
+
+[basic explain]
+	`  攻擊時，有2%%的幾率使自身進入霸體狀態10秒。（冷卻時間5秒）
+  上衣的霸體效果被觸發后，在該效果持續時間內攻擊敵人，可以增加10%%的傷害`
+
+[detail explain]
+	`  攻擊時，有2%%的幾率使自身進入霸體狀態10秒。（冷卻時間5秒）
+  上衣的霸體效果被觸發后，在該效果持續時間內攻擊敵人，可以增加10%%的傷害`
+
+[flavor text]
+	`  這大熱天的，穿這衣服出去，還沒打就中暑了吧！`
+
+[grade]
+	84
+
+[rarity]
+	4
+
+[part set index]
+	12565
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	38
+
+[magical attack]
+	28
+
+[physical defense]
+	35
+
+[need material]
+	3821	800
+
+[price]
+	129600
+
+[repair price]
+	103680
+
+[value]
+	103680
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	4103	3950
+
+[icon]
+	`item/new_equipment/05_harmor/coat/harmor_coat.img`	19
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		20
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`superarmor`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

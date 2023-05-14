@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	126
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	77	99
+
+[pre required quest]
+	4252
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`門關不起來 2`
+
+[depend message]
+	`奇怪。我明明知道艾麗絲正在接受莎蘭的恢復治療啊。不知道是不是還有什麼邪惡的東西留在那裡呢。
+詢問艾麗絲最快了，不過，聽說她目前失去力量倒下了。所以就先去問莎蘭關於那個空間吧。
+這件事與魔法有關係，莎蘭應該也知道些什麼。`
+
+[condition message]
+	`與莎蘭對話`
+
+[solve message]
+	`冒險家，有什麼事嗎？
+我還在治療艾麗絲… `
+
+[quest point]
+	4

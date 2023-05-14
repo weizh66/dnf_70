@@ -1,0 +1,28 @@
+#PVF_File
+
+[name]
+	`复活物品`
+
+[basic action]
+	`Action/revive_Basic.act`
+
+[etc action]
+	`Action/revive_Basic_0.act`
+	`Action/revive_Last_0.act`
+[/etc action]
+
+[etc attack info]
+	``
+	``
+[/etc attack info]
+
+[hp max]
+	2000000000
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	20000
+[/object destroy condition]
+
+[team]
+	100

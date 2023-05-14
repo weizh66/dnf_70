@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`speed_slash_ex_name`
+
+[basic explain]
+	`speed_slash_ex_basic_explain`
+
+[explain]
+	`speed_slash_ex_explain`
+
+[basic explain ex]
+	`speed_slash_ex_basic_explain2`
+
+[explain ex]
+	`speed_slash_ex_explain2`
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[feature skill type]
+	1
+
+[executable states]
+	`[stand]`
+	`[attack]`
+	`[dash]`
+[/executable states]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[pre required skill]
+	13	10
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	102
+	`Character/Swordman/Effect/ATSkillIcon.img`	103
+
+[dungeon]
+	[static data]
+		1000	-2000	800
+	[/static data]
+	[level info]
+		3	445	50	80	504	56	85	562	61	90	620	67	95	678	72	100	736	78	105	795	83	110	852	89	115	910	94	120	969	100	125	1028	106	130	1085	111	135	1144	117	140	1202	122	145	1260	128	150	1318	133	155	1376	139	160	1434	144	165	1492	150	170	1551	156	175	1608	161	180	1666	167	185	1725	172	190	1782	178	195	1841	183	200	1900	189	205	1958	194	210	2016	200	215	2074	206	220	2132	211	225	2190	217	230	2248	222	235	2306	228	240	2364	233	245	2422	239	250	2481	244	255	2538	250	260	2597	256	265	2655	261	270	2714	267	275	2772	272	280	2830	278	285	2888	283	290	2946	289	295	3004	294	300	3062	300	305	3120	305	310	3178	311	315	3237	317	320	3294	322	325	3353	328	330	3411	333	335	3469	339	340	3528	344	345	3585	350	350	3643	355	355	3702	361	360	3760	367	365	3818	372	370	3876	378	375	3934	383	380	3993	389	385	4051	394	390	4108	400	395	4167	405	400	4225	411	405	4283	417	410	4341	422	415	4399	428	420	4458	433	425
+	[/level info]
+	[special level up]
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[static data]
+		800	-1200	800
+	[/static data]
+	[level info]
+		3	67	50	80	76	56	85	84	61	90	93	67	95	102	72	100	110	78	105	119	83	110	128	89	115	137	94	120	145	100	125	154	106	130	163	111	135	172	117	140	180	122	145	189	128	150	198	133	155	206	139	160	215	144	165	224	150	170	233	156	175	241	161	180	250	167	185	259	172	190	267	178	195	276	183	200	285	189	205	294	194	210	302	200	215	311	206	220	320	211	225	329	217	230	337	222	235	346	228	240	355	233	245	363	239	250	372	244	255	381	250	260	390	256	265	398	261	270	407	267	275	416	272	280	425	278	285	433	283	290	442	289	295	451	294	300	459	300	305	468	305	310	477	311	315	486	317	320	494	322	325	503	328	330	512	333	335	520	339	340	529	344	345	538	350	350	546	355	355	555	361	360	564	367	365	573	372	370	581	378	375	590	383	380	599	389	385	608	394	390	616	400	395	625	405	400	634	411	405	642	417	410	651	422	415	660	428	420	669	433	425
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`speed_slash_ex_level_property`	-1	0	1.0	-1	1	1.0
+[/level property]

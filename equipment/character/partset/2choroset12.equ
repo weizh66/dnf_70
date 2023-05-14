@@ -1,0 +1,210 @@
+#PVF_File
+
+[set name]
+	`黑暗之刃  套裝`
+
+[piece set ability]
+	3
+	[equipment physical defense]
+		600	600
+	[skill data up]
+		`[swordman]`	77
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[swordman]`	77
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[swordman]`	155
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	155
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	155
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	155
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[swordman]`	155
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[swordman]`	155
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[月光斬]冷卻時間 -1秒
+[月光斬]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[equipment physical defense]
+		800	800
+	[skill data up]
+		`[swordman]`	5
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[swordman]`	5
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	5
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	142
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[swordman]`	142
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	142
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	6
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-250
+		`[swordman]`	6
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	6
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	6
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼斬]冷卻時間 -2秒
+[鬼斬]攻擊力 +20%%
+[噬靈鬼斬]蓄氣時間 -60%%
+[噬靈鬼斬]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[equipment physical defense]
+		1000	1000
+	[skill data up]
+		`[swordman]`	8
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1500
+		`[swordman]`	8
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	8
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	8
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	8
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[swordman]`	8
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[swordman]`	8
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[swordman]`	143
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	143
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	143
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[swordman]`	143
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[swordman]`	143
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[swordman]`	143
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[swordman]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[swordman]`	60
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[swordman]`	84
+		`[dungeon type]`
+		`[level]`	4
+		`+`	3
+		`[swordman]`	84
+		`[dungeon type]`
+		`[level]`	5
+		`%`	100
+		`[swordman]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[swordman]`	112
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[三段斬]冷卻時間 -1.5秒
+[三段斬]攻擊力 +20%%
+[鬼影閃]冷卻時間 -6秒
+[鬼影閃]移動距離 +30%%
+[鬼影鞭]冷卻時間 -20%%`
+[/piece set ability]

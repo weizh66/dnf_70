@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`混沌王牌 : 狄魯伊德`
+
+[explain]
+	`    使用後， 會消耗1個紅色小晶塊並召喚出Lv47的狄魯伊德協助自身戰鬥， 狄魯伊德存在60秒。 (即使回到城鎮， 也不會初始化該道具的冷卻時間)`
+
+[flavor text]
+	`    “呵呵~這不是麥瑟·莫納亨的牌嗎？ 既然你拿到了這個， 以後都可以把它當成秘密組織的通行證使用。 嗯， 在這裡簽字嗎？”  --狄魯伊德`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	243
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	240000
+
+[cooltime group]
+	101
+
+[cooltime maintenance]
+	1	1	1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[consume item]
+	3035	10
+[/consume item]
+
+[summon apc]
+	5603	47	47	60000	1

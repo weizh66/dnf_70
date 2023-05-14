@@ -1,0 +1,245 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3502
+[/dungeon]
+
+[type]
+	`[boss]`
+
+[greed]
+	`EE EE`
+
+[tile]
+	`Tile/undermid.til`
+	`Tile/undermid.til`
+	`Tile/overlefthighblank.til`
+	`Tile/overnoblankmid.til`
+	`Tile/overrightlowblank.til`
+	`Tile/highovernoblankup.til`
+	`Tile/highovernoblankmid.til`
+[/tile]
+
+[far sight scroll]
+	56
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/mcfar.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/mcmid.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	16	216	1552	216	784	144	784	348
+
+[sound]
+	`CAVE_AMB_LOOP`
+	`M_MAGMA_CAVE`
+[/sound]
+
+[animation]
+	`Animation/crater1.ani`
+	`[normal]`	337	302	0
+	`Animation/crater1.ani`
+	`[normal]`	733	298	0
+	`Animation/crater1.ani`
+	`[normal]`	1299	298	0
+	`Animation/crater1.ani`
+	`[normal]`	1055	296	0
+	`Animation/crater1.ani`
+	`[normal]`	307	291	0
+	`Animation/mstonebig4.ani`
+	`[normal]`	764	282	0
+	`Animation/mstonebig4.ani`
+	`[normal]`	284	275	0
+	`Animation/mstonesmall5.ani`
+	`[normal]`	1036	269	0
+	`Animation/mstonebig5.ani`
+	`[normal]`	755	264	0
+	`Animation/mstonesmall5.ani`
+	`[normal]`	1053	258	0
+	`Animation/mstonebig5.ani`
+	`[normal]`	424	257	0
+	`Animation/mstonesmall5.ani`
+	`[normal]`	305	256	0
+	`Animation/crater2.ani`
+	`[normal]`	716	251	0
+	`Animation/mstonesmall5.ani`
+	`[normal]`	1071	249	0
+	`Animation/crater2.ani`
+	`[normal]`	500	248	0
+	`Animation/crater2.ani`
+	`[normal]`	1227	247	0
+	`Animation/crater2.ani`
+	`[normal]`	535	246	0
+	`Animation/mstonesmall4.ani`
+	`[normal]`	1150	246	0
+	`Animation/mstonesmall5.ani`
+	`[normal]`	329	245	0
+	`Animation/crater2.ani`
+	`[normal]`	456	244	0
+	`Animation/crater2.ani`
+	`[normal]`	667	244	0
+	`Animation/crater2.ani`
+	`[normal]`	1107	244	0
+	`Animation/crater2.ani`
+	`[normal]`	573	242	0
+	`Animation/crater2.ani`
+	`[normal]`	364	242	0
+	`Animation/crater2.ani`
+	`[normal]`	623	240	0
+	`Animation/mstonesmall5.ani`
+	`[normal]`	392	240	0
+	`Animation/crater2.ani`
+	`[normal]`	1173	240	0
+	`Animation/mclong2shortwall.ani`
+	`[middleback]`	5	177	0
+	`Animation/crater1.ani`
+	`[normal]`	692	218	0
+	`Animation/crater1.ani`
+	`[normal]`	647	218	0
+	`Animation/crater1.ani`
+	`[normal]`	602	215	0
+	`Animation/crater1.ani`
+	`[normal]`	557	210	0
+	`Animation/crater1.ani`
+	`[normal]`	734	209	0
+	`Animation/crater1.ani`
+	`[normal]`	857	205	0
+	`Animation/crater1.ani`
+	`[normal]`	905	202	0
+	`Animation/mstonebig4.ani`
+	`[normal]`	771	202	0
+	`Animation/crater1.ani`
+	`[normal]`	819	200	0
+	`Animation/crater1.ani`
+	`[normal]`	769	197	0
+	`Animation/crater1.ani`
+	`[normal]`	1007	196	0
+	`Animation/crater1.ani`
+	`[normal]`	1054	194	0
+	`Animation/crater1.ani`
+	`[normal]`	942	194	0
+	`Animation/crater1.ani`
+	`[normal]`	1099	191	0
+	`Animation/mstonesmall3.ani`
+	`[normal]`	1150	188	0
+	`Animation/mstonebig4.ani`
+	`[normal]`	1163	184	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	133	100	0
+	`Animation/crater1.ani`
+	`[normal]`	1121	179	0
+	`Animation/crater1.ani`
+	`[normal]`	1019	174	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	357	88	0
+	`Animation/crater2.ani`
+	`[normal]`	529	160	0
+	`Animation/crater2.ani`
+	`[normal]`	552	153	0
+	`Animation/mstonesmall4.ani`
+	`[normal]`	1140	151	0
+	`Animation/mstonesmall4.ani`
+	`[normal]`	1100	150	0
+	`Animation/mstonebig4.ani`
+	`[normal]`	1101	148	0
+	`Animation/crater2.ani`
+	`[normal]`	637	148	0
+	`Animation/crater2.ani`
+	`[normal]`	609	146	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	579	65	0
+	`Animation/crater2.ani`
+	`[normal]`	797	140	0
+	`Animation/mstonesmall4.ani`
+	`[normal]`	1124	138	0
+	`Animation/crater2.ani`
+	`[normal]`	840	134	0
+	`Animation/mstonebig1.ani`
+	`[normal]`	1070	133	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	803	51	0
+	`Animation/crater2.ani`
+	`[normal]`	985	128	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	1467	47	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	1691	44	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	1024	46	0
+	`Animation/mclongwpollwall2.ani`
+	`[middleback]`	1244	46	0
+	`Animation/crater2.ani`
+	`[normal]`	932	121	0
+	`Animation/mcstreamfog.ani`
+	`[distantback]`	1920	-120	0
+	`Animation/mcfog.ani`
+	`[distantback]`	0	-120	0
+	`Animation/mcfog.ani`
+	`[distantback]`	730	-120	0
+	`Animation/mcfog.ani`
+	`[distantback]`	1460	-120	0
+	`Animation/mcfog.ani`
+	`[distantback]`	2190	-120	0
+	`Animation/mcfarstreamani.ani`
+	`[distantback]`	0	-120	0
+	`Animation/mcfarstreamani.ani`
+	`[distantback]`	640	-120	0
+	`Animation/mcfarstreamani.ani`
+	`[distantback]`	1280	-120	0
+	`Animation/mcfarstreamani.ani`
+	`[distantback]`	1920	-120	0
+	`Animation/mcstreamfog.ani`
+	`[distantback]`	0	-120	0
+	`Animation/mcstreamfog.ani`
+	`[distantback]`	640	-120	0
+	`Animation/mcstreamfog.ani`
+	`[distantback]`	1280	-120	0
+[/animation]
+
+[passive object]
+	737	883	131	0	737	744	134	0	1056	1010	154	0	737	694	156	0	1056	840	164	0	1056	638	176	0	30303	1229	181	0	737	472	182	0	30303	1261	185	0	30303	964	215	0	1056	426	270	0	1056	610	271	0	1056	1173	272	0	30303	893	275	0	30303	166	277	0	30303	835	277	0	30303	194	282	0	737	995	298	0
+[/passive object]
+
+[monster]
+	159104	1	0	1420	177	0	1	1
+	`[fixed]`
+	`[boss]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+[/monster specific AI]
+
+[event monster position]
+	423	212	0	715	200	0	789	198	0	260	197	0
+[/event monster position]
+
+[map name]
+	`PVP 無名`

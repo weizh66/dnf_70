@@ -1,0 +1,107 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/bottomstrom_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/bottomstrom_Basic_8.ani`	0	-2
+		`../Animation/bottomstrom_Basic_9.ani`	0	-1
+		`../Animation/bottomstrom_Basic_10.ani`	0	1
+		`../Animation/bottomstrom_Basic_7.ani`	0	2
+		`../Animation/bottomstrom_Basic_6.ani`	0	3
+		`../Animation/bottomstrom_Basic_4.ani`	0	4
+		`../Animation/bottomstrom_Basic_5.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70392
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[FRAME]
+		13	13
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			69313
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70392
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	100
+		[FOLLOWING TARGET]
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[DO BEHAVIOR]
+	[CHARACTER ATTACKSUCCESS]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70386
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	50
+		[FOLLOWING TARGET]
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		14	14
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

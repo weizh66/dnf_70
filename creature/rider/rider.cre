@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`伊斯坎達爾`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	1000
+
+[over skill recovery time]
+	5000
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	0
+
+[start level]
+	1
+
+[permission level]
+	10
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[learn overskill level]
+	1
+
+[skill MP]
+	0
+
+[over skill MP]
+	60
+
+[basic motion]
+	`Animation/Rider_Stand.ani`
+
+[walk motion]
+	`Animation/Rider_Walk.ani`
+
+[run motion]
+	`Animation/Rider_Run.ani`
+
+[skill motion]
+	`Animation/skill.ani`
+
+[over skill motion]
+	`Animation/overskill.ani`
+
+[response motion]
+	`Animation/Rider_Call.ani`
+
+[etc motion]
+	`Effect/Animation/buff/rider_buff_effect_dodge01.ani`
+	`Effect/Animation/buff/buff_lightning_dodge.ani`
+	`Effect/Animation/buff/floor_circle_dodge01.ani`
+	`Effect/Animation/buff/floor_circle_dodge02.ani`
+	`Effect/Animation/buff/floor_circle_dodge03.ani`
+	`Effect/Animation/appear_wave.ani`
+	`Effect/Animation/floor_crash.ani`
+	`Animation/rider_skill_change_dodge.ani`
+	`Animation/rider_skill_change_dodge.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/skill.atk`
+	`AttackInfo/overskill.atk`
+[/attack info]
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[skill string]
+	`征服宣言`
+	`    禱念鎮壓敵人的話語， 使一定範圍內的敵人進入眩暈狀態。`
+	`神威車輪`
+	`    召喚出曾經侍奉神的戰車， 碾壓敵人。`
+[/skill string]
+
+[over skill level values]
+	100	1000
+[/over skill level values]
+
+[int data]
+	50	150	7	8
+[/int data]
+
+[string data]
+	`DESTROY_SOUND`
+[/string data]

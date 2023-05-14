@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`浴血兵鋒護肩`
+
+[basic explain]
+	`    被攻擊時， 會受到致命傷害使自身減少20%%的HP， 效果持續20秒。 (冷卻時間30秒)
+    該裝備的致命傷效果發動後， 在持續時間內使自身進入霸體狀態， 暴擊攻擊時增加12%%的傷害。
+    擊殺敵人時， 恢復1%%的HP。`
+
+[detail explain]
+	`    被擊時， 會減少自身5%%的HP。 (冷卻時間1秒)
+    被擊時， 有10%%的幾率使自身進入出血狀態。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間20秒)
+    當自身進入出血狀態時， 則也進入無敵狀態， 且攻擊時有1%%的幾率恢復10%%的HP。 (解除裝備後效果消失； 冷卻時間20秒)`
+
+[flavor text]
+	`    沖散他們的陣營`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	36
+
+[HP MAX]
+	750
+
+[price]
+	63000
+
+[repair price]
+	50400
+
+[value]
+	50400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	784	728
+
+[icon]
+	`item/new_equipment/02_cloth/neck/cloth_neck.img`	43
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-20	20000
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[buff]
+		`superarmor`
+	[appendage]
+		643
+	[passive object]
+		140160	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		643
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	12
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	1	0
+[/then]
+
+[possible kiri protect]

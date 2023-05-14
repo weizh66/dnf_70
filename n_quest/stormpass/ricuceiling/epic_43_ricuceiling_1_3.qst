@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	42
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	43	99
+
+[pre required quest]
+	4502
+[/pre required quest]
+
+[pre required quest]
+	4501
+[/pre required quest]
+
+[monster reward item]
+	56707	42	1	4285	1	80	1	56707	42	2	4285	1	90	1	56707	42	3	4285	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4285	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1137	2	1138	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`暴風前夕`
+
+[depend message]
+	`什么！ 那怪物被你打倒后， 又好像突然獲得新生命似的躲到洞穴深處去了？
+嗯……真是太奇怪了。 對了！ 雖然我沒有經歷過那種嚴寒， 但按理說在那種嚴寒里應該沒有生命能夠存活才對！
+而且祖先們也曾說過， 因為雪山深處極度寒冷， 那里是任何生物都無法存活的冰封之地……
+無法解釋的事情太多了， 真讓人擔心……呃， 你剛才還提到遇到了一個自稱巴斯爾的沃克族戰士？
+我想起來了， 那個巴斯爾可是很久以前就消失了的沃克族族長。
+唉， 這下全亂套了， 事情開始越來越復雜了。 如果能打倒那個巴斯爾……會不會得到什么線索呢？`
+
+[condition message]
+	`    前往萬年雪山的『利庫天井』， 從沃克族族長巴斯爾身上獲得[冰龍的結晶]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`你說當你從他身上拔出這塊結晶時， 他就化成了一塊冰坨？ 哼， 我早就知道， 既然是傳說中的勇士， 怎么可能在那種地方出現。
+呃……莫非他是……雖然也到時候了……但……已經悄悄發生了嗎……`
+
+[quest point]
+	4

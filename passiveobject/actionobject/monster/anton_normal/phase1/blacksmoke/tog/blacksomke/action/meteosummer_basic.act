@@ -1,0 +1,110 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/meteosummer_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18507
+		[PARTICLE FILENAME]
+			`../Particle/attack.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-200	220
+		[RANDOM]
+			-71	-130	300
+		[WARNING MARK]
+			370	0	150	2
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18507
+		[PARTICLE FILENAME]
+			`../Particle/attack.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-200	220
+		[RANDOM]
+			0	70	400
+		[WARNING MARK]
+			370	0	80	2
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18507
+		[PARTICLE FILENAME]
+			`../Particle/attack.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-300	320
+		[RANDOM]
+			0	130	400
+		[WARNING MARK]
+			370	0	80	2
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18507
+		[PARTICLE FILENAME]
+			`../Particle/attack.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM]
+			-300	300
+		[RANDOM]
+			70	1	300
+		[WARNING MARK]
+			370	0	100	2
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

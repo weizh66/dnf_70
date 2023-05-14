@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	64
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 不知火 (1/2)`
+
+[depend message]
+	`好久不見。 我聽過了很多你的事跡， 大家對你的評價還不錯嘛。 作為推薦人的我也感到很欣慰。但是作為我推薦的人才， 你只達到這種水平還沒有滿足我的期望。
+既然你擁有畢方之炎的稱呼， 自然應該有更出色的表現。 不知道……你是怎么想的呢？ 你也不滿足于只達到畢方之炎的境界吧？
+不過想要提升自己， 危險也會隨之而來， 我不會強求你。 如果你贊同我的想法， 就再來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與米內特談談。`
+
+[solve message]
+	`你做了一個很好的決定。 我會幫你堅定信念的。`
+
+[pre required quest]
+	12801
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3079
+
+[job change quest]
+	3
+
+[grow number]
+	0

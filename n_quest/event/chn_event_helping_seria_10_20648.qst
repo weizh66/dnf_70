@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	12
+
+[complete npc index]
+	13
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20647
+[/pre required quest]
+
+[depend give item]
+	2749656	1
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`新的希望 - 諾頓`
+
+[depend message]
+	`不對， 還有一個人！ 或許他可以幫到賽麗亞。
+冒險家， 麻煩你把我之前做的藥劑拿給諾頓， 說不定這個古怪的老頭能夠找到解決的辦法。`
+
+[condition message]
+	`    把[解除變異藥劑 (加強版)]帶給諾頓。`
+
+[solve message]
+	`什么風把你吹到我這里來了？ 是想要一些藥劑， 還是小晶塊呢？
+(冒險家向諾頓講述了之前發生的一切)什么？ 賽麗亞喝了莎蘭的藥后， 變成了怪物？
+(看來諾頓還沒明白， 冒險家只好又詳細地敘述了一遍)哦~原來是這樣。 把那藥劑給我看看， 我得研究研究~
+不過最好的研究， 還是要親身體驗！ 咕嚕咕嚕咕嚕……(沒想到諾頓喝藥的聲音和賽麗亞一樣)`

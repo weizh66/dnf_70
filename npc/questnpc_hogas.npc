@@ -1,0 +1,37 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	27
+
+[big face]
+	`Map/Npc/NpcFace04.img`	11
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	27
+
+[field animation]
+	`Animation/QuestNpc_hogas.ani`
+
+[look around]
+	0
+
+[name]
+	`民兵隊長豪加斯`
+
+[field name]
+	`民兵隊長豪加斯`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1012>曾經美麗的諾伊佩拉......。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1012>趁你感染疫病前快離開這裡吧。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1012>我的同伴呢？`
+[/dialog]

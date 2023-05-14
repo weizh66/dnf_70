@@ -1,0 +1,27 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/aaa2.act`
+
+[attack info]
+	`AttackInfo/aaa.atk`
+
+[name]
+	``
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	245803
+[/object destroy condition]

@@ -1,0 +1,146 @@
+#PVF_File
+
+[name]
+	` 卡贊的詛咒`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入出血狀態。
+自身處於出血狀態時，增加50%%的攻擊力。`
+
+[detail explain]
+	`攻擊時以3%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以62的攻擊力給予傷害。 (若敵人高於Lv28，則減少進入異常狀態的機率； 反之，則增加機率)
+  自身處於出血狀態時，將增加50%%的攻擊力。`
+
+[flavor text]
+	`被卡贊詛咒嗜血的魔劍`
+
+[grade]
+	32
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	28
+
+[physical attack]
+	24
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	57600
+
+[repair price]
+	46080
+
+[value]
+	46080
+
+[equipment physical attack]
+	389	341
+
+[equipment magical attack]
+	292	256
+
+[separate attack]
+	187	123
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	18
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[active status]
+		`bleeding`	28	1250
+[/then]
+
+[possible kiri protect]

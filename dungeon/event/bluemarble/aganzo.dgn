@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`月光酒館`
+
+[explain]
+	`隨著調查的深入， 冒險家要找到希洛克的預言就必須找到歷史上著名的英雄--巨劍達人阿甘左。 在布萬加的指引下， 冒險家循著阿甘左的足跡來到月光酒館。 但此時， 酒館裡的醉漢和後街的混混正因瑣事起了衝突。 在一團混亂中， 冒險家發現一位與眾不同的灰衣劍士， 難道他就是……`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	1
+	`WorldMap/SelectdungeonSlot/townbar.img`	0
+
+[minimum required level]
+	99
+
+[basis level]
+	52
+
+[coin limit]
+	0
+
+[experience increasing point]
+	1.0
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	5540	5541	5542	5543	5544	5545	5546	5547	5548	5549
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]

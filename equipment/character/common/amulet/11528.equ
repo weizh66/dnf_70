@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`無盡貪食之影`
+
+[basic explain]
+	`  攻擊時，可以附加25%%的傷害。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	41
+
+[magical defense]
+	104
+
+[need material]
+	3822	100
+
+[value]
+	63200
+
+[anti evil]
+	16
+
+[need material]
+	3822	100
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	9486	8976
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	170
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	25
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

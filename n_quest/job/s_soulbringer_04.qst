@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	12
+
+[complete npc index]
+	7
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7806
+[/pre required quest]
+
+[collision quest]
+	7800	7808	7811
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3097	1
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 鬼泣 (4/4)`
+
+[depend message]
+	`既然你要走鬼泣這條路， 我希望你能明白， 這個圓月之石只是一個輔助工具， 真正的強悍掌握在你自己的手中！
+你把這圓月之石交給G.S.D吧， 他會教你如何控制那些靈魂的！ `
+
+[condition message]
+	`    把[圓月之石]交給G.S.D。`
+
+[solve message]
+	`現在， 你可以控制環繞在你周圍的靈魂了。 不過你要注意， 自身的精神絕對不能被那些惡鬼吞噬！ `

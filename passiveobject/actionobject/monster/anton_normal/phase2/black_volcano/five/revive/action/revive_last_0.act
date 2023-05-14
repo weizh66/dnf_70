@@ -1,0 +1,43 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/revive_Last_0_0.ani`
+	[SUB ANI]
+		`../Animation/revive_Last_3_0.ani`	0	1
+		`../Animation/revive_Last_1_0.ani`	0	2
+		`../Animation/revive_Last_2_0.ani`	0	3
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		9	9
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			58024
+		[LEVEL]
+			110
+		[POS]
+			0	0	0
+		[NO EFFECT]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		19	19
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

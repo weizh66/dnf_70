@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	18	99
+
+[pre required quest]
+	119
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	12	1	40	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`人偶之王道格里`
+
+[depend message]
+	`原來如此啊……人偶師……
+嗯， ‘人偶師’是魔法師仆人的意思， 它們擅長創造石巨人那樣的魔法生命體。 我想它們原來的職責應該是幫助天空之城的那些建設者吧， 它們為什么要對魔法陣下手呢？
+不管怎樣， 如果真是它們破壞魔法陣， 在它們引發大災難前， 我們必須派人去阻止它們……`
+
+[condition message]
+	`    前往天空之城的『人偶玄關』， 除掉領主人偶之王道格里， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`怎么樣？ 成功除掉它們了嗎？`
+
+[quest point]
+	4

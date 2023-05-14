@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`封·魂天宿 - 絕殤`
+
+[basic explain]
+	`[降臨 : 暴君巴拉克]攻擊力 +10%%
+[巴拉克的野心]第2擊魔法攻擊力 +25%%
+[巴拉克的憤怒]第2擊沖擊波魔法攻擊力 +35%%
+[千魂祭]最擊最後壹擊魔法攻擊力 +45%%
+[釋魂暗勁波]爆炸魔法攻擊力 +55%%`
+
+[routing priority]
+	`thief`	2
+[/routing priority]
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[magical attack]
+	62
+
+[attack speed]
+	-100
+
+[need material]
+	3821	2100
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	733	625
+
+[equipment magical attack]
+	1043	890
+
+[separate attack]
+	555	359
+
+[magical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/thief/wand/wand.img`	106
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	26	1
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[thief]`	39
+	`[all]`
+	`[level]`	2
+	`%`	25
+	`[thief]`	39
+	`[all]`
+	`[level]`	3
+	`%`	25
+	`[theif]`	40
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[theif]`	40
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[theif]`	40
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[theif]`	59
+	`[all]`
+	`[level]`	2
+	`%`	45
+	`[theif]`	77
+	`[all]`
+	`[level]`	2
+	`%`	55
+	`[theif]`	77
+	`[all]`
+	`[level]`	3
+	`%`	55
+	`[thief]`	37
+	`[all]`
+	`[level]`	5
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	6
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	7
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	8
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	9
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	10
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	11
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	12
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	13
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	14
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	15
+	`%`	10
+	`[thief]`	37
+	`[all]`
+	`[level]`	17
+	`%`	10
+[/skill data up]
+
+[possible kiri protect]

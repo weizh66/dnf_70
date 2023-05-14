@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	904
+
+[name]
+	`覺醒 - 暴風眼 (1/4)`
+
+[depend message]
+	`能把自身的肌肉鍛煉到極致的人， 或者就能使用登峰造極的格斗之術……不過， 這樣的人我到現在還沒有碰到過。
+你想學習‘末日風暴’這個技能？ 不是我不肯教你， 而是你現在的身體條件還不夠， 強行修煉的話只會造成你的肌肉撕裂。
+什么？ 你還是想學。 唉， 沒想到你這么執著……好吧， 如果想要修煉， 必須先加強你的身體條件。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`嗯……看來， 你的確沒有辜負我的期望。`

@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`正氣之劍`
+
+[basic explain]
+	`[暴走]冷卻時間 -5秒
+[嗜血]冷卻時間 -5秒
+施放[嗜血]時， 可以使所有敵人進入出血狀態。
+攻擊速度 +4%%`
+
+[detail explain]
+	`[暴走]冷卻時間 -5秒
+[嗜血]冷卻時間 -5秒
+    施放[嗜血]時， 可以使所有敵人進入出血狀態8秒， 出血狀態下的敵人， 每0.5秒受到80點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+攻擊速度 +4%%`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	87
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	515	472
+
+[separate attack]
+	440	291
+
+[attack speed]
+	-50
+
+[cast speed]
+	-20
+
+[skill data up]
+	`[swordman]`	23
+	`[all]`
+	`[cooltime]`	0
+	`+`	-5000
+	`[swordman]`	40
+	`[all]`
+	`[cooltime]`	0
+	`+`	-5000
+[/skill data up]
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[if]
+	[use skill]
+		`swordman`	23
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[duration]
+		8000
+	[active status]
+		`bleeding`	60	1280
+[/then]
+
+[pvp]
+	[if]
+		[use skill]
+			`swordman`	23
+	[/if]
+	[then]
+		[target]
+			`all enemy`
+		[duration]
+			8000
+		[active status]
+			`bleeding`	60	1300
+	[/then]
+[/pvp]
+
+[routing priority]
+	`swordman`	3
+[/routing priority]
+
+[possible kiri protect]

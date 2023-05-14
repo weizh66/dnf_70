@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`遊刃者的護腕`
+
+[basic explain]
+	`被攻擊時，以1%%的機率使自身增加5%%的移動速度，減少20%%的物理防禦力，效果持續20秒。`
+
+[flavor text]
+	`雖然不知道會帶來怎麼樣的影響，習慣了之後會蠻舒服的樣子。雖然不知道這是好還是壞......--在阿拉德大陸收集飾品30年的達人`
+
+[grade]
+	34
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	32
+
+[physical attack]
+	14
+
+[physical defense]
+	34
+
+[price]
+	34000
+
+[repair price]
+	27200
+
+[value]
+	27200
+
+[equipment magical defense]
+	1776	1680
+
+[icon]
+	`Item/IconAcc.img`	10
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		1
+	[stat]
+		`move speed`
+		`+`	50
+	[stat]
+		`equipment physical defense`
+		`%`	-20
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,56 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	32
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3117	3	0	30000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4036	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`次品芯片的用途`
+
+[depend message]
+	`雖然我是生意人， 但是在這里生活久了， 就會對這里的人和物產生感情。 每次看到那些運氣不好的冒險家， 我都暗暗替他們著急！
+因此， 我決定給這些人提供一點幫助！ 也就是說如果他們把次品芯片交給我， 我可以給他們提供小型干擾芯片。 當然， 我會收取一點點的勞務費！ `
+
+[condition message]
+	`    收集3個[次品芯片]和30000金幣交給夏洛克。`
+
+[solve message]
+	`我說話算話， 這個……就是你要的東西吧？ `

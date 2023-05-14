@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	18
+
+[complete npc index]
+	13
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4970
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`博肯的謎題`
+
+[depend message]
+	`你來找我是因為謎題？ 你稍等， 我馬上給你出題。
+謎題是 : 有個人專門負責把冒險家無法使用或者不使用的裝備分解成小晶塊， 你知道這個人是誰嗎？
+給你點提示， 他就在赫頓瑪爾市政廳附近， 而且他是赫頓瑪爾煉金術士公會會長。 喜歡戴著厚厚的眼鏡， 經常書不離手。`
+
+[condition message]
+	`    在赫頓瑪爾市政廳附近， 找到給冒險家分解裝備的人。 (按<N>鍵可以讓您更容易找到目標)`
+
+[solve message]
+	`歡迎歡迎！ 我就是煉金術士諾頓， 你是不是也覺得科學比魔法崇高啊， 哈哈哈！
+如果你有不使用的裝備， 就拿來交給我， 我可以幫你把它們變成小晶塊。
+別覺得晶塊沒用， 你在冒險途中使用高級技能或制作裝備、 執行任務時都會需要它們的， 所以如果有不使用的裝備， 就快點拿來和我換成小晶塊吧， 千萬別忘了呀。`

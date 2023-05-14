@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`亂空殺`
+
+[basic explain]
+	`以極快的速度隨機掠過敵人進行攻擊。`
+
+[explain]
+	`以極快的速度隨機掠過敵人進行攻擊。
+可以通過消耗連擊點數使用[終結追擊]。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	0	0	0	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	329
+	`Character/Thief/Effect/SkillIcon.img`	330
+
+[weapon effect type]
+	`[physical]`
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓←→ + Z`
+
+[skill command advantage]
+	50	50
+
+[durability decrease rate]
+	25
+
+[consume MP]
+	2580	4500
+
+[cool time]
+	60000	60000
+
+[static data]
+	2
+[/static data]
+
+[level info]
+	3	2284	9139	4569	2648	10596	5298	3013	12054	6027	3377	13511	6755	3741	14968	7484	4106	16424	8211	4470	17881	8940	4834	19339	9669	5199	20796	10397	5563	22253	11126	5927	23711	11855	6292	25166	12583	6656	26624	13312	7020	28081	14041	7385	29538	14769	7749	30996	15498	8113	32453	16227	8476	33909	16954	8840	35366	17682	9205	36824	18411	9569	38281	19140	9933	39738	19868	10298	41196	20597	10662	42653	21326	11026	44109	22054	11391	45566	22783	11755	47023	23512	12119	48481	24240	12484	49938	24969	12848	51395	25698	13212	52851	26425	13577	54308	27153	13941	55766	27882	14305	57223	28611	14670	58680	29339	15034	60138	30068	15398	61593	30797	15763	63051	31525	16127	64508	32254	16491	65966	32983
+[/level info]
+
+[level property]
+	1	99
+	`連續斬擊攻擊力 : <int>%% X <int>次
+向下斬擊攻擊力 : <int>%%
+[終結追擊]攻擊力 : <int>%%`	-1	0	1.0	0	0	3.0	-1	1	1.0	-1	2	1.0
+[/level property]

@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`羽靈長袍`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[creation rate]
+	200
+
+[magical attack]
+	21
+
+[magical defense]
+	21
+
+[price]
+	29400
+
+[repair price]
+	23520
+
+[value]
+	23520
+
+[equipment physical defense]
+	540	516
+
+[skill levelup]
+	`[mage]`	2	1
+	`[at mage]`	27	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	58
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[set name]
+	`羽靈戰袍  套裝`
+
+[set item]
+	10092	12090	14088	18075	16074
+[/set item]
+
+[set ability]
+	[MP MAX]
+		300
+	[MP regen speed]
+		12
+	[skill levelup]
+		`[mage]`	38	1
+		`[at mage]`	5	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時，以4%%的機率施放Lv6的[遠古魔法書]。(魔法師專用)`
+[/set ability]
+
+[possible kiri protect]

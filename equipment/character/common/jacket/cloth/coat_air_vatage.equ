@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`玄武鳴天長袍`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[creation rate]
+	200
+
+[magical attack]
+	26
+
+[magical defense]
+	26
+
+[price]
+	37800
+
+[repair price]
+	33339
+
+[value]
+	151200
+
+[equipment physical defense]
+	684	660
+
+[skill levelup]
+	`[gunner]`	29	1
+	`[at gunner]`	29	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/common/coat.img`	76
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[set name]
+	`玄武鳴天戰袍  套裝`
+
+[set item]
+	10099	12097	14095	18082	16081
+[/set item]
+
+[set ability]
+	[magical attack]
+		30
+	[magical defense]
+		15
+	[HP regen speed]
+		20
+	[MP regen speed]
+		10
+	[if]
+		[cooltime]
+			12000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			12000
+		[probability]
+			1
+		[stat]
+			`stuck resistance`
+			`+`	50
+	[/then]
+	[skill levelup]
+		`[gunner]`	63	1
+		`[gunner]`	59	1
+		`[at gunner]`	63	1
+		`[at gunner]`	59	1
+	[/skill levelup]
+	[fullset basic explain]
+		`被攻擊時，有1%%的機率使自身增加5%%的回避率，效果持續12秒。`
+[/set ability]
+
+[possible kiri protect]

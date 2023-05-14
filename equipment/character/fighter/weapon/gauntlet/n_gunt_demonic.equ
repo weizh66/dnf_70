@@ -1,0 +1,162 @@
+#PVF_File
+
+[name]
+	`惡魔臂鎧`
+
+[basic explain]
+	` 攻擊時，以2%%的機率附加100點暗屬性傷害，但會使自身進入詛咒狀態。`
+
+[detail explain]
+	`攻擊時，有2%%的機率附加100點暗屬性傷害，並使自身進入詛咒狀態20秒；詛咒狀態下，減少5點力量、體力、智力和精神。 (高於Lv25的對象得到的機率減少，低於Lv25的對象則會增加。)`
+
+[flavor text]
+	` 2次「格鬥家」決鬥優勝王「惡魔」想要的道具。`
+
+[grade]
+	27
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	25
+
+[physical attack]
+	28
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[price]
+	43200
+
+[repair price]
+	34560
+
+[value]
+	22800
+
+[equipment physical attack]
+	302	283
+
+[equipment magical attack]
+	227	212
+
+[separate attack]
+	126	82
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	10
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	4
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	4
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		32000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	100
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[active status]
+		`curse`	25	7	7	7	7
+[/then]
+
+[possible kiri protect]

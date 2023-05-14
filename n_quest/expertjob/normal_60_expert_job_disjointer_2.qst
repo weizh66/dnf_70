@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	20
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	2702	2708	2712
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	1	3040	1	3041	1	3038	1	3166	50
+[/int data]
+
+[reward type]
+	`[expert job]`
+
+[reward int data]
+	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`副職業 - 分解師`
+
+[depend message]
+	`看來我的新發明還是把大家吸引來了呀！ 哈哈！
+不過說真的， 我這次發明的分解機真的很不錯！ 不僅可以用它來提取出各種珍貴的材料， 而且操作起來也簡單方便。
+這次， 為了給更多的人提供便利， 我打算把這項發明公之于眾。
+哈哈， 你好像對我這個發明也很感興趣啊？ 那就讓我考考你對分解的了解吧。`
+
+[condition message]
+	`    為了成為分解師， 請收集以下材料。 (完成此任務后， 就可以成為分解師。 如果想成為其他副職業， 請先放棄該任務， 然后再接受其他副職業任務。 完成該任務后， 若想轉成其他副職業， 則需要消耗金幣， 請慎重選擇！！)`
+
+[solve message]
+	`做得不錯！ 那么我先給你講講分解的基本原理吧。
+如果你想了解裝備的基礎知識， 首先要對材料有充分了解……
+(1小時后……)
+利用這種原理， 就能提取裝備中的靈魂了……
+喂喂！ 你怎么睡著了？`

@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`血色殘陽手鐲`
+
+[basic explain]
+	`HP低於50%%時， 物理攻擊力增加10%%。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	11857
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[HP MAX]
+	800
+
+[need material]
+	3824	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	177
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[dynamic part set index]
+	11857	12550	12551	12552	12553
+[/dynamic part set index]
+
+[if]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`<`
+		`%`	50
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`equipment physical attack`
+		`%`	10
+[/then]
+
+[possible kiri protect]

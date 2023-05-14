@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`諾伊爾本`
+
+[explain]
+	`    使用後， 可以召喚出諾伊爾本協助召喚者攻擊敵人， 諾伊爾本存在15分鐘。 (在諾伊佩拉中攻擊力更強)`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	134500
+
+[minimum level]
+	25
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	603
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[sub type]
+	2
+
+[cool time]
+	900000
+
+[cooltime group]
+	100
+
+[move wav]
+	`FOOD_TOUCH`
+
+[summon apc]
+	424	70	70	900000	1

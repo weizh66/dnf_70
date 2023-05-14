@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	948
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	33662	1	33963	1	33366	1	33062	1	34224	1
+[/reward selection int data]
+
+[relation quest]
+	950
+
+[name]
+	`覺醒 - 大魔導師 (2/4)`
+
+[depend message]
+	`所謂的‘元素諧音’， 就是將各種元素融合后一起使用……嗯， 這還真是個不錯的想法……
+不過這也有個前提， 你必須要具備駕馭各種元素的能力才行， 否則就會有危險。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`以你現在的實力， 應該可以試試駕馭元素了。`

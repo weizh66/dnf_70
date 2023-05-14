@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`壓制射擊`
+
+[explain]
+	`    向前方瘋狂亂射。 連續按下技能鍵或攻擊鍵時， 會以更快的速度射擊。
+    射擊過程中， 可以按下跳躍鍵中斷技能的施放。`
+
+[basic explain]
+	`    向前方瘋狂亂射。`
+
+[purchase cost]
+	10
+[/purchase cost]
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	40	0	0	0	0
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[consume MP]
+	2210	3200
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[cool time]
+	50000	50000
+
+[durability decrease rate]
+	20
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	520
+	`Character/Gunner/Effect/SkillIcon.img`	521
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[static data]
+		100	1500	112	75	5	150
+	[/static data]
+	[level info]
+		3	1174	2608	4	1293	2873	4	1412	3138	4	1531	3402	4	1650	3667	4	1769	3932	4	1888	4196	4	2007	4461	4	2126	4726	4	2245	4990	4	2365	5255	4	2484	5520	4	2603	5785	4	2722	6049	4	2841	6314	4	2960	6579	4	3079	6843	4	3198	7108	4	3317	7373	4	3436	7637	4	3556	7902	4	3675	8167	4	3794	8431	4	3913	8696	4	4032	8961	4	4151	9225	4	4270	9490	4	4389	9755	4	4508	10019	4	4627	10284	4	4747	10549	4	4866	10813	4	4985	11078	4	5104	11343	4	5223	11607	4	5342	11872	4	5461	12137	4	5580	12401	4	5699	12666	4	5819	12931	4
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`前方亂射攻擊力 : <int>%%
+最后射擊攻擊力 : <int>%%`	-1	0	2.0	-1	1	2.0	1	1	0.0	2	2	0.0	3	3	0.0
+[/level property]

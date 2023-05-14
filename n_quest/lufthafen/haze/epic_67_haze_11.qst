@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	65
+
+[complete npc index]
+	58
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	4038
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	0
+
+[int data]
+	92	-1	180
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`霧都赫伊斯`
+
+[depend message]
+	`這條航線以前曾被卡勒特切斷， 現在已經被我完全修復了。 哈哈~我能干吧？ 不過也不能對卡勒特掉以輕心， 指不定他們什么時候又回來了。
+我送你過去之后， 還得盡快趕回來接其他冒險家。 你自己在那邊要小心啊， 一打探到任何消息， 就趕緊回來， 別逗留太久！`
+
+[condition message]
+	`    在3分鐘內， 獨自一人偵查海上列車的『霧都赫伊斯』。 (此任務在地下城中不可放棄)`
+
+[solve message]
+	`啊， 還好卡勒特兵力不足， 沒能在你回來之前破壞列車。`
+
+[quest point]
+	4

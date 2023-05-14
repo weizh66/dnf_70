@@ -1,0 +1,36 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Attack_0_0.ani`
+	[SUB ANI]
+		`../Animation/Attack_0_1.ani`	0	1
+	[/SUB ANI]
+	[SOUND]
+		`R_TARTAN_ASSASSIN_ATK`	0
+		`RUNEBUTT_STICK`	3
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		0	0	1
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		1
+	[END]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		2
+	[END]
+[/BEHAVIOR]

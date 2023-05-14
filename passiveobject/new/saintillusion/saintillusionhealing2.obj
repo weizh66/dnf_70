@@ -1,0 +1,35 @@
+#PVF_File
+
+[name]
+	`怖拉修`
+
+[floating height]
+	0
+
+[width]
+	1	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/SaintIllusion/explode_charge_healing.ani`
+
+[attack info]
+	`AttackInfo/SaintIllusionHealing.atk`
+
+[etc motion]
+	`Animation/SaintIllusion/explode_healing.ani`
+	`Animation/SaintIllusion/explode_charge_healing.ani`
+[/etc motion]
+
+[etc attack info]
+	`AttackInfo/SaintIllusionHealing.atk`
+	`AttackInfo/SaintIllusionChargeHealing.atk`
+[/etc attack info]

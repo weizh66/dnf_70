@@ -1,0 +1,237 @@
+#PVF_File
+
+[name]
+	`封·空之無境`
+
+[basic explain]
+	`  攻擊時， 附加12%%的傷害。
+[破冰飛刃]冰碎片數量 +1
+[精靈召喚 : 極光格雷林]攻擊力 +40%%
+[精靈召喚 : 冰影阿奎利斯]攻擊力 +40%%`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	92
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	816	697
+
+[equipment magical attack]
+	998	851
+
+[separate attack]
+	555	359
+
+[skill levelup]
+	`[mage]`	48	1
+	`[at mage]`	10	1
+[/skill levelup]
+
+[light attack]
+	15
+
+[water attack]
+	15
+
+[icon]
+	`item/new_equipment/01_weapon/mage/rod/rod.img`	95
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	2
+	`at mage`	2
+[/routing priority]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	12
+[/then]
+
+[skill data up]
+	`[at mage]`	10
+	`[all]`
+	`[static]`	2
+	`+`	1
+	`[at mage]`	10
+	`[all]`
+	`[static]`	3
+	`+`	1
+	`[mage]`	77
+	`[all]`
+	`[level]`	6
+	`%`	40
+	`[mage]`	77
+	`[all]`
+	`[level]`	7
+	`%`	40
+	`[mage]`	77
+	`[all]`
+	`[level]`	11
+	`%`	40
+	`[mage]`	77
+	`[all]`
+	`[level]`	15
+	`%`	40
+	`[mage]`	77
+	`[all]`
+	`[level]`	16
+	`%`	40
+	`[mage]`	77
+	`[all]`
+	`[level]`	20
+	`%`	40
+	`[mage]`	77
+	`[all]`
+	`[level]`	22
+	`%`	40
+	`[mage]`	78
+	`[all]`
+	`[level]`	6
+	`%`	40
+	`[mage]`	78
+	`[all]`
+	`[level]`	7
+	`%`	40
+	`[mage]`	78
+	`[all]`
+	`[level]`	10
+	`%`	40
+	`[mage]`	78
+	`[all]`
+	`[level]`	14
+	`%`	40
+[/skill data up]
+
+[possible kiri protect]

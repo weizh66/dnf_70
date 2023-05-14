@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`無我劍氣`
+
+[basic explain]
+	`達到無我境界，增加自身的攻擊力`
+
+[explain]
+	`達到無我境界，增加自身的攻擊力`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	10	0	0	0	10
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	656
+	`Character/Swordman/Effect/SkillIcon.img`	657
+
+[dungeon]
+	[static data]
+	[/static data]
+	[level info]
+		2	10	25	20	50	30	75	40	100	50	125	60	150	70	175	80	200	90	225	100	250	110	275	120	300	130	325	140	350	150	375	160	400	780	1200	810	1250	840	1300	870	1350	900	1400	930	1450	960	1500	990	1550	1020	340	1050	350	1080	360	1110	370	1140	380	1170	390	1200	400	1230	410	1260	420	1290	430	1320	440	1350	450	1380	460	1410	470	1440	480	1470	490	1500	500	1530	510	1560	520	1590	530	1620	540	1650	550	1680	560	1710	570	1740	580	1770	590
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+	[/static data]
+	[level info]
+		2	2	5	4	10	6	15	8	20	10	25	12	30	14	35	16	40	18	45	20	50	22	55	24	60	26	65	28	70	30	75	750	1150	780	1200	810	1250	840	1300	870	1350	900	1400	930	1450	960	1500	990	1550	1020	340	1050	350	1080	360	1110	370	1140	380	1170	390	1200	400	1230	410	1260	420	1290	430	1320	440	1350	450	1380	460	1410	470	1440	480	1470	490	1500	500	1530	510	1560	520	1590	530	1620	540	1650	550	1680	560	1710	570	1740	580	1770	590
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`物理攻擊力增加 : <int> 點
+力量增加 : <int> 點`	-1	0	1.0	-1	1	1.0
+[/level property]

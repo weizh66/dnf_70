@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`精良的榮譽之審判`
+
+[basic explain]
+	`    施放技能時， 有3%%的幾率使特定的敵人進入失明狀態， 并增加自身的智力和施放速度。
+    無法進行分解、 封裝和合成。`
+
+[detail explain]
+	`    施放技能時， 有3%%的幾率使300px范圍內最近的敵人進入失明狀態9秒， 失明狀態下的敵人， 會減少90%%視野和20%%命中率； 并且還會使自身增加15點智力和10%%的施放速度， 效果持續9秒； 但在決斗場中， 只能持續4.5秒。 (若敵人高于Lv62， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果。)
+    無法進行分解、 封裝和合成。`
+
+[grade]
+	65
+
+[rarity]
+	5
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	62
+
+[physical defense]
+	58
+
+[magical attack]
+	56
+
+[magical defense]
+	58
+
+[cast speed]
+	20
+
+[anti evil]
+	8
+
+[price]
+	0
+
+[repair price]
+	74088
+
+[value]
+	0
+
+[equipment physical attack]
+	572	548
+
+[equipment magical attack]
+	543	521
+
+[equipment physical defense]
+	650	640
+
+[equipment magical defense]
+	650	640
+
+[separate attack]
+	324	219
+
+[icon]
+	`Item/weapon/priest/cross.img`	38
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	6	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		9000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		9000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		70
+	[active status]
+		`blind`	62	90	20
+	[target]
+		`myself`	-1
+	[stat]
+		`magical attack`
+		`+`	15
+	[stat]
+		`cast speed`
+		`+`	100
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`冷酷屠殺者`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率使敵人進入出血狀態。
+對出血狀態下敵人的傷害 +10%%`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入出血狀態12秒， 出血狀態下的敵人， 每0.5秒受到40點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對出血狀態下敵人的傷害 +10%% (在決斗場中 +5%%)`
+
+[grade]
+	63
+
+[rarity]
+	5
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	46
+
+[magical attack]
+	46
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[anti evil]
+	8
+
+[need material]
+	3228	60
+
+[repair price]
+	74088
+
+[value]
+	70560
+
+[equipment physical attack]
+	528	505
+
+[equipment magical attack]
+	556	532
+
+[separate attack]
+	314	212
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/priest/scythe.img`	37
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	5	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		12000
+	[probability]
+		2
+	[active status]
+		`bleeding`	60	1250
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			18000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			12000
+		[probability]
+			2
+		[active status]
+			`bleeding`	50	1250
+	[/then]
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[possible kiri protect]

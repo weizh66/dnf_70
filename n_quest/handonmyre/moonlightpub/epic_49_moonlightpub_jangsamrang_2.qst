@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	49	99
+
+[pre required quest]
+	4101
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	140	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`探索`
+
+[depend message]
+	`如果我的酒館里真有你要尋找的人， 你不妨進去找一找。 不過酒館很大又吵， 要找一個人可不是那么容易的哦。`
+
+[condition message]
+	`    通關赫頓瑪爾市區里的『月光酒館』， 并尋找灰衣劍士。 (此任務在地下城中不可放棄)`
+
+[solve message]
+	`哎呀， 怎么就走了呀？ 酒……不多喝一杯嗎？`
+
+[quest point]
+	4

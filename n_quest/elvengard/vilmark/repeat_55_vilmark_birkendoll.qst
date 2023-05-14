@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	8
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	422
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3206	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7040	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 博肯人偶`
+
+[depend message]
+	`抽中博肯人偶的人也不要失望哦！ 嘿嘿， 如果你能收集一定數量的博肯人偶給我， 我會再給你一次機會的！ `
+
+[condition message]
+	`    收集5個[博肯人偶]交給艾爾文防線的土罐。`
+
+[solve message]
+	`唉， 生意還真難做啊， 再這樣下去我會破產的……`

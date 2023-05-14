@@ -1,0 +1,246 @@
+#PVF_File
+[FRAME MAX]
+	20
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-251	-249
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-363	56
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`PHAMMER_CREATE`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-294	-86
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME003]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-287	-96
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME004]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-272	-101
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME005]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-267	-111
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME006]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-212	-69
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME007]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-181	-315
+	[IMAGE ROTATE]
+		-0.3499999940395355
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME008]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-140	-72
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`PHAMMER_SWING`
+
+[FRAME009]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-67	-135
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME010]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-37	-211
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		35
+
+[FRAME011]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-230
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`PHAMMER_CRASH`
+	[ATTACK BOX]
+	-8	-50	-48	499	100	307
+
+[FRAME012]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-230
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+	[ATTACK BOX]
+	-8	-50	-48	499	100	307
+
+[FRAME013]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-230
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME014]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-230
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME015]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-230
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME016]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-230
+	[RGBA]
+		255	255	255	80
+	[DELAY]
+		70
+
+[FRAME017]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-230
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	0
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`PHAMMER_DISAP`
+
+[FRAME018]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-262
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	0
+	[DELAY]
+		70
+
+[FRAME019]
+	[IMAGE]
+		`Character/Priest/Effect/HammerOfContrition/hammer-normal.img`
+		0
+	[IMAGE POS]
+		-45	-262
+	[RGBA]
+		255	255	255	70
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	0
+	[DELAY]
+		70

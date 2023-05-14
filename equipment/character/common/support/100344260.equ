@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`瘋狂伊凡的靈魂面具`
+
+[basic explain]
+	`    每5秒在可以周圍召喚出瘋狂伊凡。
+    被攻擊時， 可以召喚出3個瘋狂伊凡。`
+
+[detail explain]
+	`    每5秒在可以周圍召喚出瘋狂伊凡。 (裝備5秒後生效)
+    被攻擊時， 可以召喚出3個瘋狂伊凡。 (冷卻時間25秒)`
+
+[flavor text]
+	`    這些愚蠢的家夥們， 按我的指示行動啊！`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[physical defense]
+	35
+
+[magical defense]
+	35
+
+[need material]
+	10000204	16
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[icon]
+	`Item/new_equipment/10_support/support.img`	152
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		5000	1	5000
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[summon monster]
+		61753	100	1
+	[summon monster]
+		61748	100	1
+	[summon monster]
+		61850	100	1
+	[summon monster]
+		61836	100	1
+	[summon monster]
+		61837	100	1
+	[summon monster]
+		61849	100	1
+	[summon monster]
+		56740	100	1
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		25000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[summon monster]
+		61753	100	3
+	[summon monster]
+		61753	100	3
+	[summon monster]
+		61753	100	3
+[/then]
+
+[possible kiri protect]

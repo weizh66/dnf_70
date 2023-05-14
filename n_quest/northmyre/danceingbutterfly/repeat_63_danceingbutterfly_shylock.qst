@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	63	99
+
+[pre required quest]
+	5808
+[/pre required quest]
+
+[pre required quest]
+	5813
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3279	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7748	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`死亡雪花`
+
+[depend message]
+	`嘿嘿， 是你啊！
+我跟你說， 這個世界上有無數種寶石， 不過它們的價值都不是最高的。
+你聽說過‘死亡雪花’嗎？ 它的名字雖然可怕， 但形狀卻像雪之結晶一樣美麗， 因此很受世人歡迎。
+你能幫我收集一些回來嗎？ 我會給你相應的報酬哦！`
+
+[condition message]
+	`    收集[死亡雪花]。 (死亡雪花可以在血蝴蝶之舞和疑惑之村中獲得)`
+
+[solve message]
+	`哇~這么多！ 哈哈， 這下發財了！`

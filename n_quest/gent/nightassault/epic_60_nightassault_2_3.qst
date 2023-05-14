@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5721
+[/pre required quest]
+
+[enemy reward item]
+	56001	1	83	1	4382	1	100	4	56422	1	83	1	4382	1	100	4	61458	1	83	1	4382	1	100	4	61804	1	83	1	4382	1	100	4	56001	1	83	2	4382	1	100	4	56422	1	83	2	4382	1	100	4	61458	1	83	2	4382	1	100	4	61804	1	83	2	4382	1	100	4	56001	1	83	3	4382	1	100	4	56422	1	83	3	4382	1	100	4	61458	1	83	3	4382	1	100	4	61804	1	83	3	4382	1	100	4	56001	1	83	4	4382	1	100	4	56422	1	83	4	4382	1	100	4	61458	1	83	4	4382	1	100	4	61804	1	83	4	4382	1	100	4
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4382	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`怪異的身份`
+
+[depend message]
+	`唔……原來除了卡勒特的正規軍外， 還有專門負責守衛營地的士兵……
+卡勒特在行軍打仗方面果然有一套！
+但那些士兵為什么會穿著像雜技團那樣的奇怪服裝呢？
+雖然我不想對別人的審美觀進行評論， 但這件事情確實很古怪。 我想在查清他們的底細之前， 不應該貿然把軍隊派出去。
+冒險家， 你能去收集一些他們的物品嗎？ 我想確認下這些人的身份。 拜托了！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』， 從敵人身上收集[銀勺團團員證]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`銀勺雜技團？ 啊！ 那是什么……`
+
+[quest point]
+	4

@@ -1,0 +1,228 @@
+#PVF_File
+
+[name]
+	`逆月者拉莫斯`
+
+[face image]
+	`Monster/monsterFace.img`	1046
+
+[category]
+	`[machine]`
+[/category]
+
+[ambient sound]
+	``
+
+[attack sound]
+	``
+
+[appear sound]
+	`LUKE_MEET`
+
+[damage sound]
+	``
+
+[die sound]
+	`LUKE_DIE`
+
+[ability category]
+	`[EQUIPMENT_PHYSICAL_ATTACK]`
+	`*`	103
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`*`	5176
+	`[EQUIPMENT_MAGICAL_ATTACK]`
+	`*`	65000
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`*`	5176
+	`[HP MAX]`
+	`*`	70512
+[/ability category]
+
+[level]
+	130	130
+
+[dark resistance]
+	30	30
+
+[light resistance]
+	100	100
+
+[fire resistance]
+	30	30
+
+[water resistance]
+	30	30
+
+[slow resistance]
+	200	200
+
+[freeze resistance]
+	200	200
+
+[poison resistance]
+	20	20
+
+[stun resistance]
+	50	50
+
+[curse resistance]
+	50	50
+
+[blind resistance]
+	50	50
+
+[lightning resistance]
+	30	30
+
+[stone resistance]
+	50	50
+
+[sleep resistance]
+	50	50
+
+[burn resistance]
+	50	50
+
+[bleeding resistance]
+	20	20
+
+[piercing resistance]
+	50	50
+
+[confuse resistance]
+	50	50
+
+[hold resistance]
+	50	50
+
+[move speed]
+	1400	1400
+
+[attack speed]
+	1300	1300
+
+[cast speed]
+	1000	1000
+
+[hit recovery]
+	1200	1200
+
+[weight]
+	120000	120000
+
+[stuckbonus on damage]
+	0	0	0	0
+
+[waiting action]
+	`Action/Stay.act`
+
+[move action]
+	`Action/Move.act`
+
+[damage action 1]
+	`Action/Stay.act`
+
+[damage action 2]
+	`Action/Stay.act`
+
+[attack action]
+	`Action/etc/AppearRamos_04.act`
+	`Action/etc/gathereffectup_01.act`
+	`Action/etc/PunchAttack1_01.act`
+[/attack action]
+
+[etc action]
+	`Action/etc/Disappear_01.act`
+	`Action/etc/Attack1Range.act`
+	`Action/etc/Attack2Range.act`
+	`Action/etc/Attack3Range.act`
+	`Action/etc/PunchStart_01.act`
+	`Action/etc/PunchMove_01.act`
+	`Action/etc/PunchAttack1_01.act`
+	`Action/etc/PunchAttack1_02.act`
+	`Action/etc/GluttonyAttack_03.act`
+	`Action/etc/GluttonyEnd_04.act`
+	`Action/etc/GatherAttack_09.act`
+	`Action/etc/gathereffectdown_03.act`
+	`Action/etc/GatherAttack_09.act`
+[/etc action]
+
+[attack info]
+	`AttackInfo/Summon.atk`
+	`AttackInfo/GatherAttack.atk`
+	`AttackInfo/BaseAttack1.atk`
+[/attack info]
+
+[cooltime]
+	300000	7000	3000
+[/cooltime]
+
+[etc attack info]
+	`AttackInfo/PunchAttackMove.atk`
+	`AttackInfo/PunchAttack1.atk`
+	`AttackInfo/PunchAttack2.atk`
+	`AttackInfo/GatherAttack.atk`
+	`AttackInfo/Summon.atk`
+	`AttackInfo/UnSummon.atk`
+	``
+	``
+	``
+	``
+	`AttackInfo/GatherAttack.atk`
+	`AttackInfo/GatherAttack.atk`
+	`AttackInfo/GatherAttack.atk`
+[/etc attack info]
+
+[think term]
+	100
+
+[destination change term]
+	1500
+
+[hp regen rate]
+	0.0	0.0
+
+[set damage check]
+	3000
+
+[ai pattern]
+	[normal]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/normal]
+	[expert]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/expert]
+	[master]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/master]
+	[king]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/king]
+	[slayer]
+		`ai/Event.ai`
+		`ai/DestinationSelect.ai`
+		`ai/Action.ai`
+		`ai/MoveMethod.ai`
+	[/slayer]
+[/ai pattern]
+
+[keep range distance with target]
+	0	0	0	0
+
+[vision]
+	5000
+
+[lie frame]
+	1	2	3	3	4

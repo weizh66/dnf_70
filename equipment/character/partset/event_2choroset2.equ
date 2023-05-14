@@ -1,0 +1,109 @@
+#PVF_File
+
+[set name]
+	`潛伏的彈匣  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[gunner]`	56
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[gunner]`	56
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-400
+		`[gunner]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4000
+		`[gunner]`	2
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[gunner]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[at gunner]`	56
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[at gunner]`	56
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-400
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-4000
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[gunner]`	57
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[gunner]`	57
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-750
+		`[gunner]`	1
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-7000
+		`[gunner]`	1
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[gunner]`	1
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[gunner]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[gunner]`	30
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[at gunner]`	57
+		`[dungeon type]`
+		`[static]`	0
+		`+`	1
+		`[at gunner]`	57
+		`[dungeon type]`
+		`[static]`	5
+		`+`	-750
+		`[at gunner]`	1
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-7000
+		`[at gunner]`	1
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+		`[at gunner]`	1
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at gunner]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[at gunner]`	30
+		`[dungeon type]`
+		`[level]`	0
+		`+`	3
+	[/skill data up]
+	[parameter basic explain]
+		`G-14手雷填裝數增加1， 丟擲的間隔冷卻時間減少0.4秒/冰凍彈冷卻時間減少4秒， 攻擊力增加1 5%%， 子彈數增加3 
+ G-35L感電手雷填裝數增加1， 丟擲的間隔冷卻時間減少0.75秒/爆炎彈冷卻時間減少7秒， 攻擊力增加10%%， 子彈數增加3 /銀彈冷卻時間減少3秒， 子彈數增加3 `
+[/piece set ability]

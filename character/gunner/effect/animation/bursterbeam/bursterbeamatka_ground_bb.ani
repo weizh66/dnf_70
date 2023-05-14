@@ -1,0 +1,81 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	176
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	176
+	[DELAY]
+		40
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	176
+	[DELAY]
+		40
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	176
+	[DELAY]
+		60
+
+[FRAME004]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	176
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	176
+	[DELAY]
+		100
+
+[FRAME006]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		8	176
+	[DELAY]
+		120
+
+[FRAME007]
+	[IMAGE]
+		`Character/Gunner/Effect/BursterBeam/BursterBeam_01_SootDodge.img`
+		2
+	[IMAGE POS]
+		-463	-346
+	[IMAGE RATE]
+		2.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

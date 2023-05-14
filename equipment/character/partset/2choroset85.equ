@@ -1,0 +1,113 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[at swordman]`	51
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[血飲狂舞]攻擊力 +30%%
+[血飲狂舞]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	41
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	41
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at swordman]`	41
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at swordman]`	29
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	32
+		`[dungeon type]`
+		`[level]`	9
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[蛇腹劍 : 滅]攻擊力 +30%%
+[蛇腹劍 : 滅]冷卻時間 -20%%
+[群魔亂舞]攻擊力 +30%%
+[群魔亂舞]冷卻時間 -20%%
+[喚魔 : 狂暴]技能攻擊力增加量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[level]`	3
+		`%`	50
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[at swordman]`	28
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[喚魔 : 塔莫斯之襲]攻擊力 +50%%
+[喚魔 : 塔莫斯之襲]冷卻時間 -30%%
+[喚魔 : 塔莫斯之襲]塔莫斯大小 +30%%
+[喚魔 : 塔莫斯之襲]跳躍距離 +30%%`
+[/piece set ability]

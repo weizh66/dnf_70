@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`格斗大賽高等武器裝扮 - 魔法師`
+
+[flavor text]
+	`<全國格斗大賽獎勵>`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/mage/staff/staff.img`	164
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		57	0
+	[layer variation]
+		2790
+		`staffc`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[layer variation]
+		200
+		`staffd`
+	[equipment ani script]
+		`equipment/character/mage.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/mage/weapon/staff/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[string data]
+	``
+[/string data]
+
+[move wav]
+	`STAFF_TOUCH`

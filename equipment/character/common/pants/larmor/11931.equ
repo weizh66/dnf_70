@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`瓦爾基莉亞護腿`
+
+[basic explain]
+	`[寸拳]冷卻時間-5秒
+[寸拳]傷害+80%%。
+    釋放[鐵山靠]時，發動海嘯攻擊。
+[昇龍拳]冷卻時間減少6秒
+[昇龍拳]移動距離增加50%%
+[昇龍拳]多段攻擊次數增加5。
+[閃電之舞]冷卻時間減少6秒
+[閃電之舞]最大移動距離增加20%%
+[閃電之舞]最大移動次數增加4`
+
+[detail explain]
+	`[寸拳]冷卻時間-5秒
+[寸拳]傷害+80%%。
+    釋放[鐵山靠]時，發動海嘯攻擊。
+[昇龍拳]冷卻時間減少6秒
+[昇龍拳]移動距離增加50%%
+[昇龍拳]多段攻擊次數增加5。
+[閃電之舞]冷卻時間減少6秒
+[閃電之舞]最大移動距離增加20%%
+[閃電之舞]最大移動次數增加4`
+
+[flavor text]
+	`    她們騎著馬與“野獵”幽靈一道出巡，或者化作天鵝飛向戰場，為瓦爾基哈拉殿堂收集陣亡的武士。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	51
+
+[magical attack]
+	34
+
+[need material]
+	3500	1500
+
+[repair price]
+	340
+
+[value]
+	81600
+
+[equipment physical defense]
+	3720	3480
+
+[icon]
+	`item/new_equipment/04_larmor/pants/larmor_pants.img`	49
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	2
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	100
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[item aura]
+	`equipment physical attack`
+	`+`	120	500
+
+[if]
+	[cooltime]
+		1500
+	[skill]
+		`fighter`	1
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		8745	0	-10	30	0	0
+		`../../../Monster/Act8/congcong/particle/eel.ptl`	62001	200	0	0	0	0
+		`../../../Monster/Act8/congcong/particle/wave.ptl`	8745	0	10	60	0	0
+		`../../../Monster/Act8/congcong/particle/eel2.ptl`	62002	0	0	40	0	0
+		`../../../Monster/Act8/congcong/particle/medusa2.ptl`	8746	0	0	10	0	0
+		`../../../Monster/Act8/congcong/particle/marlin.ptl`	8748	0	0	40	0	0
+		`../../../Monster/Act8/congcong/particle/octo.ptl`	8752	0	-1	30	0	0
+		`../../../Monster/Act8/congcong/particle/octo.ptl`	8748	-30	0	60	0	0
+		`../../../Monster/Act8/congcong/particle/octo.ptl`	8748	-20	0	50	0	0
+		`../../../Monster/Act8/congcong/particle/octo.ptl`	8752	-40	1	30	0	0
+		`../../../Monster/Act8/congcong/particle/octo.ptl`	62002	0	0	80	0	0
+		`../../../Monster/Act8/congcong/particle/medusa.ptl`	8752	30	-1	30	0	0
+		`../../../Monster/Act8/congcong/particle/octo.ptl`
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[fighter]`	19
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-5000
+	`[fighter]`	19
+	`[dungeon type]`
+	`[level]`	0
+	`%`	80
+	`[fighter]`	19
+	`[dungeon type]`
+	`[level]`	2
+	`%`	80
+	`[fighter]`	68
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-6000
+	`[fighter]`	68
+	`[dungeon type]`
+	`[static]`	0
+	`%`	20
+	`[fighter]`	68
+	`[dungeon type]`
+	`[level]`	0
+	`+`	4
+	`[fighter]`	83
+	`[dungeon type]`
+	`[cooltime]`	0
+	`+`	-6000
+	`[fighter]`	83
+	`[dungeon type]`
+	`[static]`	0
+	`+`	250
+	`[fighter]`	83
+	`[dungeon type]`
+	`[static]`	3
+	`+`	5
+[/skill data up]
+
+[set item master]
+	11930
+
+[routing priority]
+	`fighter`	2
+[/routing priority]
+
+[possible kiri protect]

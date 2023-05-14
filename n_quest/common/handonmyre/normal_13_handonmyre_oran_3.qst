@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[job change quest]
+	0
+
+[npc index]
+	36
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	13	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3015	6	3012	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	64013	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`奧蘭的墜飾`
+
+[depend message]
+	`全阿拉德大陸的寵物都是我的孩子， 如果你也喂養寵物， 請一定要用溫暖的心去對待它們。
+嗯， 我這兒有些東西可以幫助你的寵物成長， 但現在還缺少個鏈子， 你能幫我弄些材料嗎？ `
+
+[condition message]
+	`    收集6個[貓妖腳爪]和6個[哥布林手骨]。`
+
+[solve message]
+	`有了這材料就足夠了。`
+
+[quest point]
+	4

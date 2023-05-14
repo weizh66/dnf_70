@@ -1,0 +1,36 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`map/anton/mouth/bottom_deco.img`
+		0
+	[IMAGE POS]
+		-120	-40
+	[DELAY]
+		1000
+
+[FRAME001]
+	[IMAGE]
+		`map/anton/mouth/bottom_deco.img`
+		0
+	[IMAGE POS]
+		-120	-40
+	[INTERPOLATION]
+		1
+	[DELAY]
+		1500
+
+[FRAME002]
+	[IMAGE]
+		`map/anton/mouth/bottom_deco.img`
+		0
+	[IMAGE POS]
+		-120	-40
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		150

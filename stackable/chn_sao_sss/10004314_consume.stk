@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`結衣的玩具`
+
+[explain]
+	``
+
+[flavor text]
+	`這種程度我也能做到的！ --結衣`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[cool time]
+	10000
+
+[icon]
+	`Item/stackable/consumption_jp.img`	471
+
+[field image]
+	`Item/FieldImage.img`	30
+
+[stackable type]
+	`[waste]`	0
+
+[item group name]
+	`potion`
+
+[move wav]
+	`POTION_TOUCH`
+
+[impossible contents]
+	`gift`
+[/impossible contents]
+
+[cooltime group]
+	1028
+
+[stat change]
+	`+`	100
+	`all activestatus resistance`
+[/stat change]
+
+[active status recovery]
+	`any`	999
+	`myself`
+
+[stat change duration]
+	10000
+	`myself`

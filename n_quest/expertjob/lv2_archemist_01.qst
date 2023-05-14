@@ -1,0 +1,56 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	10
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[expertjob level]
+	2	2
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3037	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	2610001	20	2610002	20	2610003	20	2610004	20	2610005	20	2610006	20
+[/reward selection int data]
+
+[name]
+	`副職業 - 收集無色小晶塊`
+
+[depend message]
+	`是不是覺得收集煉金術材料很麻煩？
+呵~我就知道， 并不是每個人都像我一樣有天賦……唉~算了， 怎么說你也是我教出來的， 幫你一次吧。
+我這里之前收集了很多煉金術材料， 你需要的話可以用小晶塊和我換。`
+
+[condition message]
+	`    收集20個[無色小晶塊]交給羅莉安。`
+
+[solve message]
+	`我幫你省去了不少收集材料的時間， 所以你更要好好研究煉金術啊。 千萬不要給我丟臉！！`

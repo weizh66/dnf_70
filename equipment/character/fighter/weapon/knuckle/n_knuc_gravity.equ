@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`(舊) 地靈絕魂指虎`
+
+[basic explain]
+	`攻擊時， 增加等同于自身和金庫重量之和80%%的傷害。 (金庫中適用于上述屬性的重量為， 每個欄位最高不超過6Kg)`
+
+[flavor text]
+	`    想發出強力一擊？ 在你的拳中注入所有的體重試試吧。  --風振`
+
+[grade]
+	45
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`knuckle`
+
+[rarity]
+	4
+
+[weight]
+	1900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	43
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	39
+
+[price]
+	72000
+
+[value]
+	57600
+
+[cool time]
+	10000
+
+[magical attack]
+	32
+
+[equipment physical attack]
+	414	369
+
+[equipment magical attack]
+	501	446
+
+[separate attack]
+	259	173
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	2
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	2
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

@@ -1,0 +1,29 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ATForbiddenParty/EventHorizen/fpb02center_2ndmagiccircle_01.ani`
+	[SUB ANI]
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			711107
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	300
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

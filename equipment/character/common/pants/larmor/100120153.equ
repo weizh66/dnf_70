@@ -1,0 +1,216 @@
+#PVF_File
+
+[name]
+	`牛頭統帥的獸王骨甲`
+
+[basic explain]
+	`    裝備時， 會增加100點的力量和智力， 以及5%%的物理暴擊率和魔法暴擊率。
+    每增加1名隊友， 可以使自身增加50點力量、 50點智力、 2%%的物理暴擊率和魔法暴擊率。
+    攻擊時， 有3%%的幾率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`    裝備時， 會增加100點的力量和智力， 以及5%%的物理暴擊率和魔法暴擊率。
+    每增加1名隊友， 可以使自身增加50點力量、 50點智力、 2%%的物理暴擊率和魔法暴擊率。
+    攻擊時， 有3%%的幾率使敵人進入眩暈狀態3秒。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)`
+
+[flavor text]
+	`    你以為擁有強者身上的物品， 自己就能變成強者嗎？ 不要太天真了！`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	63
+
+[physical defense]
+	20
+
+[magical defense]
+	20
+
+[price]
+	89000
+
+[repair price]
+	74760
+
+[value]
+	71200
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3456	3276
+
+[icon]
+	`item/new_equipment/04_larmor/pants/larmor_pants.img`	21
+
+[field image]
+	`Item/field_equip.img`	6
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2500
+
+[item group name]
+	`la pants`
+
+[cool time]
+	10000
+
+[if]
+	[party count]
+		`=`	1
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	100
+	[stat by condition]
+		`magical attack`
+		`+`	100
+	[stat by condition]
+		`physical critical hit`
+		`+`	5
+	[stat by condition]
+		`magical critical hit`
+		`+`	5
+[/then]
+
+[if]
+	[party count]
+		`=`	2
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	150
+	[stat by condition]
+		`magical attack`
+		`+`	150
+	[stat by condition]
+		`physical critical hit`
+		`+`	7
+	[stat by condition]
+		`magical critical hit`
+		`+`	7
+[/then]
+
+[if]
+	[party count]
+		`=`	3
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	200
+	[stat by condition]
+		`magical attack`
+		`+`	200
+	[stat by condition]
+		`physical critical hit`
+		`+`	9
+	[stat by condition]
+		`magical critical hit`
+		`+`	9
+[/then]
+
+[if]
+	[party count]
+		`=`	4
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	250
+	[stat by condition]
+		`magical attack`
+		`+`	250
+	[stat by condition]
+		`physical critical hit`
+		`+`	11
+	[stat by condition]
+		`magical critical hit`
+		`+`	11
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	90
+[/then]
+
+[possible kiri protect]

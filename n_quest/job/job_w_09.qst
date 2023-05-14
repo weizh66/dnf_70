@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	-1
+
+[level]
+	18	99
+
+[pre required quest]
+	4065
+[/pre required quest]
+
+[pre required quest]
+	4068
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	28
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	35058	1	31695	1	33962	1	27997	1	29996	1
+[/reward selection int data]
+
+[name]
+	`恭喜你轉職了！`
+
+[depend message]
+	`恭喜轉職了。既然已經轉職了，最好使用符合職業的武器。`
+
+[condition message]
+	`與艾麗絲對話`
+
+[solve message]
+	`很不錯看喔。`

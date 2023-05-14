@@ -1,0 +1,24 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/monhold_01.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	3000
+[/object destroy condition]
+
+[name]
+	`火焰爆炸`

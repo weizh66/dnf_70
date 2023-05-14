@@ -1,0 +1,140 @@
+#PVF_File
+
+[set name]
+	`邪靈之息  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	37
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[fighter]`	39
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at fighter]`	37
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at fighter]`	39
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[強拳]力量 +25%%
+[弱點感知]暴擊率 +25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[fighter]`	83
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	58
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[衝膝]攻擊力 +40%%
+[衝膝]冷卻時間 -20%%
+[旋風腿]旋轉次數 +2
+格斗家(女)
+[寸拳]攻擊力 +40%%
+[寸拳]冷卻時間 -20%%
+[升龍拳]攻擊力 +40%%
+[升龍拳]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	103
+		`[dungeon type]`
+		`[static]`	3
+		`+`	5
+		`[fighter]`	103
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[fighter]`	103
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	122
+		`[dungeon type]`
+		`[level]`	1
+		`%`	80
+		`[at fighter]`	122
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	122
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[旋風碎心踢]最后一擊攻擊力 +80%%
+[旋風碎心踢]冷卻時間 -20%%
+[旋風碎心踢]無色小晶塊消耗量 +1
+格斗家(女)
+[升龍霸]多段攻擊次數 +5
+[升龍霸]攻擊力 +30%%
+[升龍霸]無色小晶塊消耗量 +1`
+[/piece set ability]

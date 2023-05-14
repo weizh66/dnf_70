@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`Summon Ramos Moon`
+
+[floating height]
+	400
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[follow parent]
+	`[parent]`
+
+[basic action]
+	`Animation/SummonRamos/Targeting_Start.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

@@ -1,0 +1,56 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[difficulty]
+	`D`
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	32	99
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	25	2	500	1	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`天帷巨獸的病`
+
+[depend message]
+	`呃， 你是不是也覺得天帷巨獸最近有點奇怪？ 其實這都是因為生活在天帷巨獸第一脊椎的那些樹精。
+不知道什么原因， 那些樹精的根在痛苦的掙扎。 如果它們一直這樣下去， 天帷巨獸會逐漸失去力量， 甚至會墜落。
+冒險家， 你能前往第一脊椎除掉那些樹精嗎。`
+
+[condition message]
+	`    前往天帷巨獸神殿的『第一脊椎』， 除掉10只樹精， 然后向奧菲利亞回復， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`呵呵， 你也聽到天帷巨獸舒服的叫聲了呀？ 那都是你的功勞啊。`
+
+[reward int data]
+	0	100
+[/reward int data]

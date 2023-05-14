@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`狂龍赫斯的龍骨胸甲`
+
+[basic explain]
+	`被攻擊時以 5%% 的機率讓自己進入出血狀態
+出血狀態下攻擊時敵人 50%%的附加傷害`
+
+[detail explain]
+	`受到攻擊時以 5%% 的機率10秒內讓自己進入出血狀態，每 0.5秒以58的攻擊力給予傷害。 （高於Lv50的對象得到的機率減少，低於Lv50的對象則會增加。）
+出血狀態下攻擊時給予敵人 50%%的附加傷害。`
+
+[flavor text]
+	`嗯，狂龍身上的每個部位都有意想不到的作用。包括它的龍息`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	26
+
+[physical defense]
+	24
+
+[magical attack]
+	19
+
+[price]
+	77000
+
+[repair price]
+	61600
+
+[value]
+	61600
+
+[equipment physical defense]
+	3024	2736
+
+[creation rate]
+	200
+
+[icon]
+	`Item/common/coat.img`	124
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		76
+	[active status]
+		`bleeding`	50	1500
+[/then]
+
+[if]
+	[my active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	50
+[/then]
+
+[set name]
+	`狂龍赫斯的龍骨重甲 套裝`
+
+[set item]
+	11291	13291
+[/set item]
+
+[set ability]
+	[if]
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`all enemy`	-1
+		[probability]
+			3
+		[thorn]
+			100
+	[/then]
+	[if]
+		[cooltime]
+			10500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`all enemy`	-1
+		[duration]
+			7000
+		[reduce duration to human armor at pvp module]
+			50
+		[probability]
+			5
+		[active status]
+			`confuse`	50	1
+	[/then]
+	[fullset basic explain]
+		`被攻擊時以 3%% 的機率受到傷害的100%%全部還給敵人
+攻擊時以5%% 的機率讓敵人全部進入混亂狀態`
+	[fullset detail explain]
+		`受到攻擊時以3%% 的機率，將受到傷害的100%%全部還給敵人。
+攻擊時以5%% 的機率 7秒內讓敵人全部進入混亂狀態。（高於Lv50的對象得到的機率和效果減少，低於Lv50的對象則會增加。）`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,194 @@
+#PVF_File
+
+[name]
+	`古樹終結者`
+
+[basic explain]
+	`    攻擊時， 有8%%的幾率增加近距離武器攻擊力和物理暴擊率。
+攻擊速度 +3%%`
+
+[detail explain]
+	`    攻擊時， 有8%%的幾率增加30%%的近距離武器攻擊力和物理暴擊率， 效果持續20秒。 (在決斗場中 +15%%)
+攻擊速度 +3%%`
+
+[flavor text]
+	`    斧頭上閃爍著奇異的光， 似乎有股力量在不斷增強。 如此強大的氣息， 連樹木都跟著顫抖……`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/priest/axe.img`	61
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	126000
+
+[repair price]
+	105840
+
+[value]
+	100800
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[equipment physical attack]
+	809	737
+
+[equipment magical attack]
+	573	522
+
+[separate attack]
+	411	278
+
+[attack speed]
+	-50
+
+[stuck]
+	-2
+
+[variation]
+	10	3
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[if]
+	[event attack success]
+		1
+	[cooltime]
+		35000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			8
+		[duration]
+			20000
+		[appendage]
+			105
+		[appendage]
+			107
+		[then probability]
+			40.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			8
+		[duration]
+			20000
+		[stat]
+			`physical critical hit rate`
+			`+`	30
+		[appendage]
+			106
+		[then probability]
+			60.0
+	[/then]
+[/multiple then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+		[cooltime]
+			35000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`enemy`	-1
+			[probability]
+				8
+			[duration]
+				20000
+			[appendage]
+				105
+			[appendage]
+				108
+			[then probability]
+				40.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				8
+			[duration]
+				20000
+			[stat]
+				`physical critical hit rate`
+				`+`	15
+			[appendage]
+				106
+			[then probability]
+				60.0
+		[/then]
+	[/multiple then]
+[/pvp]
+
+[routing priority]
+	`priest`	2
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

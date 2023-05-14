@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	60
+
+[complete npc index]
+	1009
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	5341
+[/pre required quest]
+
+[monster reward item]
+	17	1500	-1	4354	1	100	10	50070	1500	-1	4354	1	50	10	50071	1500	-1	4354	1	50	10	50072	1500	-1	4354	1	50	10
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5343
+
+[name]
+	`覺醒 - 機械之心 (3/4)`
+
+[depend message]
+	`不過考驗還沒有結束， G-0 戰爭領主之所以會掉下來， 就是因為原來的主人沒有保護好它。
+所以我希望它的下一個主人有足夠的實力， 可以讓它不再遭受支離破碎的命運。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`啊！ 受不了了！！ 你們這些女人怎么回事啊？ 一見面就開火……`

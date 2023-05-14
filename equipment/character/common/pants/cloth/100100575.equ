@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`塵封的悲鳴青絲護腿`
+
+[basic explain]
+	`HP值低於90%%時， 攻擊時有15%%的幾率減少10%%的HP並使Lv45技能的冷卻時間減少20%%， 效果持續15秒。`
+
+[detail explain]
+	`HP值低於90%%時， 攻擊時有15%%的幾率減少10%%的HP並使Lv45技能的冷卻時間減少20%%， 效果持續15秒。 (冷卻時間30秒， 裝備解除時效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12544
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	45
+
+[magical defense]
+	45
+
+[HP MAX]
+	700
+
+[need material]
+	3824	30
+
+[price]
+	72000
+
+[repair price]
+	57600
+
+[value]
+	57600
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	980	910
+
+[icon]
+	`item/new_equipment/02_cloth/pants/cloth_pants.img`	51
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[if]
+	[stat change]
+		`hp`
+		`<=`
+		`%`	90
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		15000
+	[restore]
+		`hp`
+		`%`	-10	15000
+	[appendage]
+		798
+[/then]
+
+[possible kiri protect]

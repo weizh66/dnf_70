@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	6
+
+[complete npc index]
+	17
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4965
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`風振的謎題`
+
+[depend message]
+	`你找我是因為要解謎題啊？
+如果你是格斗家， 修煉后可以找我學習技能……
+廢話不多說了， 我還是出謎題吧。 你可以把這當成是修煉， 希望你能堅持到最后。
+我的謎題是 : 教神槍手各種槍械的使用方法的教官是誰？
+這個人是位性格非常開朗的小姐， 而且就住在赫頓瑪爾的市區里， 你應該很容易找到她。`
+
+[condition message]
+	`    在赫頓瑪爾市區里， 找到神槍手的教官。 (按<N>鍵可以讓您更容易找到目標)`
+
+[solve message]
+	`嗨~哈羅~我是凱麗~我來自天界~
+問我為什么來這里？ 那可是我的秘~密~呵呵呵~開玩笑開玩笑~至于我為什么來這里， 等下次有機會再告訴你吧~
+對了對了， 我可以幫助神槍手轉職， 如果你需要轉職， 別忘了來這里找我呀~~`

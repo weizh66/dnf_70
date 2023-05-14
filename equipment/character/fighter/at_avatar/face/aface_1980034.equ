@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`紫色古玉雙扣環耳釘`
+
+[explain]
+	`夏日風情  套裝2 (男格斗)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_aface.img`	50
+
+[equipment type]
+	`[face avatar]`	0
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	24	2
+
+[layer variation]
+	1925
+	`face_c`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	30
+	`[ATTACK_SPEED]`
+	`+`	55
+	`[HIT_RECOVERY]`
+	`+`	160
+[/avatar select ability]
+
+[part set index]
+	31073

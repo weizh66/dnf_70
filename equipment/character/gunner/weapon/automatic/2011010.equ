@@ -1,0 +1,903 @@
+#PVF_File
+
+[name]
+	`離子驅逐者`
+
+[basic explain]
+	`技能攻擊力+40%%
+ -角色為女槍手時，增加40點光屬性強化
+ -角色為男槍手時，增加40點火屬性強化`
+
+[detail explain]
+	`技能攻擊力+40%%
+ -角色為女槍手時，增加40點光屬性強化
+ -角色為男槍手時，增加40點火屬性強化`
+
+[flavor text]
+	`嗶嗶……生命反應確定，離子驅逐者戰鬥功能激活……`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	141
+
+[stuck]
+	1
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	730	730
+
+[equipment magical attack]
+	1071	1071
+
+[separate attack]
+	686	686
+
+[icon]
+	`Item/wuqi.img`	10
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	50	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	47
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	4
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	27
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	12
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	14
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	6
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	37
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	33
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	7
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	13
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	56
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	8
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	23
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	22
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	32
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	10
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	11
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	26
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	38
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	20
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	60
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	66
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	64
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	101
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	44
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	21
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	34
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	73
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	74
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	40
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	39
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	62
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	36
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	41
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	75
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	38
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	45
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	71
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	54
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	65
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	107
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	50
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	46
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	28
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	42
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	79
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	80
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	29
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	43
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	81
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	63
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	83
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	68
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	67
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	105
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	106
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	82
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	2
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	31
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	110
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	76
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	48
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	57
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	49
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	1
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	52
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	58
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	109
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	77
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	53
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	78
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	70
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	69
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	103
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	102
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	163
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	227
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	150
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	223
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	162
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	225
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[gunner]`	156
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	47
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	4
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	27
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	12
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	14
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	6
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	37
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	33
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	7
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	13
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	56
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	8
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	23
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	22
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	32
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	10
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	11
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	26
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	38
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	20
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	60
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	66
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	64
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	101
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	44
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	21
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	34
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	73
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	74
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	40
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	39
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	62
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	36
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	41
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	75
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	38
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	45
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	71
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	54
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	65
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	107
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	50
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	46
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	28
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	42
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	79
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	80
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	29
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	43
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	81
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	63
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	83
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	68
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	67
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	105
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	106
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	82
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	2
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	31
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	110
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	76
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	48
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	57
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	49
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	1
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	52
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	58
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	109
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	77
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	53
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	78
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	70
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	69
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	103
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	102
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	163
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	227
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	150
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	223
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	162
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	225
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+	`[at gunner]`	156
+	`[dungeon type]`
+	`[level]`	0
+	`%`	38
+[/skill data up]
+
+[if]
+	[character]
+		`gunner`
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`fire attack`
+		`+`	40
+[/then]
+
+[if]
+	[character]
+		`at gunner`
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`light attack`
+		`+`	40
+[/then]
+
+[possible kiri protect]

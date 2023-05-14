@@ -1,0 +1,67 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/existence.img`
+		0
+	[IMAGE POS]
+		-114	-254
+	[IMAGE RATE]
+		1.0	2.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/existence.img`
+		0
+	[IMAGE POS]
+		-114	-254
+	[IMAGE RATE]
+		1.5	1.0
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/existence.img`
+		0
+	[IMAGE POS]
+		-114	-254
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/existence.img`
+		0
+	[IMAGE POS]
+		-114	-254
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`

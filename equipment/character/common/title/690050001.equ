@@ -1,0 +1,162 @@
+#PVF_File
+
+[name]
+	`尼努爾塔神的一縷意誌`
+
+[basic explain]
+	`  暴擊時， 增加12%%的傷害。
+  裝備後， 增加10%%的物理暴擊、 魔法暴擊以及3%%的攻擊速度、 施放速度和移動速度， 效果持續30秒。
+ 
+<僅一縷殘存意志，三日後便會消散>`
+
+[detail explain]
+	`  暴擊時， 增加12%%的傷害。 (在決鬥場效果減半)
+  裝備後， 增加10%%的物理暴擊、 魔法暴擊以及3%%的攻擊速度、 施放速度和移動速度， 效果持續30秒。 (冷卻時間為40秒)
+ 
+<僅一縷殘存意志，三日後便會消散>`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[usable period]
+	3
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[sub type]
+	0
+
+[equipment physical attack]
+	45	45
+
+[equipment magical attack]
+	45	45
+
+[separate attack]
+	85	85
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[stuck]
+	-2
+
+[stuck resistance]
+	20
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[HP regen speed]
+	40
+
+[MP regen speed]
+	8
+
+[physical critical hit]
+	15.0
+
+[magical critical hit]
+	15.0
+
+[all elemental attack]
+	18
+
+[room list move speed rate]
+	0.2
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	12
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	6
+	[/then]
+[/pvp]
+
+[if]
+	[time]
+		40000	1	40000
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		100
+	[stat]
+		`physical critical hit`
+		`+`	10
+	[stat]
+		`magical critical hit`
+		`+`	10
+	[stat]
+		`attack speed`
+		`+`	30
+	[stat]
+		`cast speed`
+		`+`	30
+	[stat]
+		`move speed`
+		`+`	30
+[/then]
+
+[icon]
+	`Item/Title/title.img`	118
+
+[custom animation]
+	`TitleAnimation/ninurtawill.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[flavor text]
+	`可賦予異次元氣息的裝備。
+只有角色對應的職業和裝備對應的職業一致時，才可以進行賦予。每個裝備最多可賦予2次，失敗時裝備會損壞；同一個技能對同一種屬性不可重複賦予。`

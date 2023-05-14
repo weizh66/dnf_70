@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`橘色炫光`
+
+[explain]
+	``
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	48
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	91
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[all elemental attack]
+	5
+
+[equipment physical attack]
+	25	25
+
+[aurora graphic effects]
+	3	0
+	`Character/Common/Animation/Aura/Aura_2015deback_red_back_dodge.ani`	1
+	`Character/Common/Animation/Aura/Aura_2015deback_red_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/Aura_2015deback_red_nomal.ani`
+
+[aura ability]
+	`[party teleport]`	600
+[/aura ability]

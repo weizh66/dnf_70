@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	76	99
+
+[pre required quest]
+	4183
+[/pre required quest]
+
+[monster reward item]
+	62517	76	-1	4777	13	40	100	62518	76	-1	4777	13	40	100	62519	76	-1	4777	13	40	100
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4777	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`小鐵柱的委託`
+
+[depend message]
+	`大哥！請等等我！我有件事情要委託你請你聽聽好嗎？
+我正在製作要送去皇宮的甲冑。你知道龍鱗片嗎？
+怒龍之鱗很堅硬，而且很輕盈，可以說是製作防具的特級中的特級材料。但是這東西並不容易收集。
+剛好在我傷腦筋且不斷抱怨的時候，西嵐碰巧經過並告訴我冒險家或許能夠替我解決這個問題。我再問他是否真實，他卻不願回答，所以只好來找你了。
+可以替我取得真正的怒龍之鱗嗎？`
+
+[condition message]
+	`收集胎動黑龍、真龍、火龍的龍鱗片100個 `
+
+[solve message]
+	`哇！真的找到了耶！！太完美了！`
+
+[quest point]
+	4

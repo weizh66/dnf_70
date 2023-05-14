@@ -1,0 +1,123 @@
+#PVF_File
+
+[set name]
+	`閃耀的遺跡  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	100
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1800
+		`[mage]`	100
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-90
+		`[mage]`	100
+		`[dungeon type]`
+		`[static]`	2
+		`+`	90
+		`[mage]`	100
+		`[dungeon type]`
+		`[static]`	8
+		`+`	1
+		`[mage]`	100
+		`[dungeon type]`
+		`[static]`	9
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[改良魔法星彈]冷卻時間 -1.8秒
+[改良魔法星彈]失敗率 -9%%
+[改良魔法星彈]大成功率 +9%%
+[改良魔法星彈]成功或大成功時攻擊次數 +1`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	98
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[mage]`	98
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[mage]`	98
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	98
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[旋轉掃把]冷卻時間 -5秒
+[旋轉掃把]連續按鍵達上限時， 攻擊間隔 -30%%
+[旋轉掃把]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[mage]`	105
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-250
+		`[mage]`	105
+		`[dungeon type]`
+		`[static]`	2
+		`+`	250
+		`[mage]`	105
+		`[dungeon type]`
+		`[static]`	8
+		`+`	20
+		`[mage]`	105
+		`[dungeon type]`
+		`[static]`	10
+		`+`	10
+		`[mage]`	105
+		`[dungeon type]`
+		`[static]`	11
+		`+`	4
+		`[mage]`	105
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[mage]`	105
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[mage]`	105
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[mage]`	105
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[mage]`	105
+		`[dungeon type]`
+		`[static]`	16
+		`+`	1
+		`[mage]`	105
+		`[dungeon type]`
+		`[static]`	17
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[電鰻碰撞機]冷卻時間 -15秒
+[電鰻碰撞機]失敗率 -25%%
+[電鰻碰撞機]大成功率 +25%%
+[電鰻碰撞機]吸附范圍 +20%%
+[電鰻碰撞機]吸附力 +20%%
+[電鰻碰撞機]攻擊力 +30%%
+[電鰻碰撞機]連續按鍵達上限時， 攻擊的目標數 +1`
+[/piece set ability]

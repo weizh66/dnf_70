@@ -1,0 +1,183 @@
+#PVF_File
+
+[name]
+	`名譽稱號(武尊)`
+
+[basic explain]
+	`    裝備時， 可以使500px範圍內的敵人減少15%%的防禦力
+    攻擊時， 有5%%的幾率使自身增加60點力量、 智力、 體力、 精神和70點的物理攻擊力、 魔法攻擊力， 以及100點獨立攻擊力， 效果持續30秒。 (冷卻時間30秒)
+    前沖時， 有8%%的幾率使自身增加8%%的攻擊速度、 施放速度和移動速度， 效果持續30秒。 (冷卻時間30秒)`
+
+[flavor text]
+	`<新紀元★DOF>`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	50
+
+[physical defense]
+	50
+
+[magical attack]
+	50
+
+[magical defense]
+	50
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[HP MAX]
+	330
+
+[MP MAX]
+	330
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[equipment physical attack]
+	30	30
+
+[equipment magical attack]
+	30	30
+
+[separate attack]
+	50	50
+
+[stuck resistance]
+	20
+
+[stuck]
+	-2
+
+[all elemental attack]
+	25
+
+[room list move speed rate]
+	0.2
+
+[icon]
+	`Item/Title/title.img`	663
+
+[custom animation]
+	`TitleAnimation/challenge2nd_9.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		500
+	[appendage]
+		369
+	[appendage]
+		370
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`equipment physical attack`
+		`+`	70
+	[stat]
+		`equipment magical attack`
+		`+`	70
+	[stat]
+		`separate attack`
+		`+`	100
+	[stat]
+		`physical attack`
+		`+`	60
+	[stat]
+		`physical defense`
+		`+`	60
+	[stat]
+		`magical attack`
+		`+`	60
+	[stat]
+		`magical defense`
+		`+`	60
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		8
+	[stat]
+		`attack speed`
+		`+`	80
+	[stat]
+		`move speed`
+		`+`	80
+	[stat]
+		`cast speed`
+		`+`	80
+[/then]

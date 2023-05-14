@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`封·逝魔之靈心腰帶`
+
+[basic explain]
+	`  攻擊時，消耗1%%的MP，增加自身15%%的魔法暴擊率，效果持續30秒。（冷卻時間30秒）。`
+
+[detail explain]
+	`  攻擊時，消耗1%%的MP，增加自身15%%的魔法暴擊率，效果持續30秒。（冷卻時間30秒）。`
+
+[flavor text]
+	`  摩恩是素南國的僧侶，為人有點半瘋癲，人稱“地獄僧侶”`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[part set index]
+	12571
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	28
+
+[magical defense]
+	28
+
+[need material]
+	3821	1000
+
+[price]
+	63700
+
+[repair price]
+	50960
+
+[value]
+	50960
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	408	372
+
+[icon]
+	`Item/new_equipment/02_cloth/belt/cloth_belt.img`	17
+
+[field image]
+	`Item/field_equip.img`	3
+
+[equipment type]
+	`[waist]`	14
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	550
+
+[item group name]
+	`cl waist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[stat]
+		`magical critical hit`
+		`+`	15
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

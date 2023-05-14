@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`咕嚕珍藏的機械手環`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使隊友增加50點物理攻擊力、 70點力量和10%%的物理暴擊率， 效果持續20秒； 但需要消耗3個無色小晶塊。
+    施放技能時， 有10%%的幾率使隊友增加50點魔法攻擊力、70點智力和10%%的魔法暴擊率， 效果持續30秒。 (消耗3個無色小晶塊)`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使隊友增加50點物理攻擊力、 70點力量和10%%的物理暴擊率， 效果持續20秒； 但需要消耗3個無色小晶塊。(冷卻時間20秒)
+    施放技能時， 有10%%的幾率使隊友增加50點魔法攻擊力、 70點智力和10%%的魔法暴擊率， 效果持續20秒； 但需要消耗3個無色小晶塊。 (冷卻時間20秒)
+(解除裝備後效果消失)`
+
+[flavor text]
+	`    這機械手環很貴的， 我都舍不得用。  --咕嚕`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[need material]
+	10000204	32
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	152
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	20
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		5
+	[consume item]
+		3037	3
+	[equipment duration]
+		20000
+	[stat]
+		`equipment physical attack`
+		`+`	50
+	[stat]
+		`physical attack`
+		`+`	70
+	[stat]
+		`physical critical hit`
+		`+`	10
+[/then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		10
+	[consume item]
+		3037	3
+	[equipment duration]
+		20000
+	[stat]
+		`equipment magical attack`
+		`+`	50
+	[stat]
+		`magical attack`
+		`+`	70
+	[stat]
+		`magical critical hit`
+		`+`	10
+[/then]
+
+[possible kiri protect]

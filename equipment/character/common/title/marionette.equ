@@ -1,0 +1,70 @@
+#PVF_File
+
+[name]
+	`人偶的誘惑`
+
+[explain]
+	`攻擊時，有3%%的機率使敵人進入混亂狀態3秒。(混亂Lv與自身Lv相同) `
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	267
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/marionette.ani`
+[/custom animation]
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[cooltime]
+		6000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`confuse`	-1	1
+[/then]

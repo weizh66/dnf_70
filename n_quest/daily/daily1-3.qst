@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	15
+
+[complete npc index]
+	25
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	47	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	33	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3229	18
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 王的冤魂`
+
+[depend message]
+	`我說， 年輕的冒險家們， 最近阿法利亞營地太缺人手了。 不管你有沒有經驗， 哪怕是菜鳥， 我們都需要你的幫忙。
+本來因為公國和暗精靈的戰爭， 我們的士兵就不夠， 現在還出現了那個叫什么王的遺跡， 搞得我們的士兵都莫名其妙地瘋掉……
+噢， 我是阿法利亞營地的加爾， 想歷練的都來找我。`
+
+[condition message]
+	`    通關暗黑城的『王的遺跡』， 然后去找阿法利亞營地的加爾， 要求地下城難度為王者級。 (此任務每天只能完成一次)`
+
+[solve message]
+	`看來你不算是菜鳥。
+總之， 謝謝你的幫忙。 不過你最好不要太高估自己的實力。`

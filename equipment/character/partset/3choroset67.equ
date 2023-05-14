@@ -1,0 +1,97 @@
+#PVF_File
+
+[set name]
+	`末日之殤  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	117
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	117
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[priest]`	117
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[黑暗之觸]攻擊力 +30%%
+[黑暗之觸]冷卻時間 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`+`	6
+		`[priest]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[priest]`	125
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[priest]`	131
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	131
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[黑暗權能]攻擊力 +20%%
+[黑暗權能]冷卻時間 -20%%
+[黑暗權能]黑暗晶體數量 +6
+[墮落之魂]每1點惡魔能量與智力的轉換率 +20%%
+[墮落之魂]智力上限 +20%%
+[墮落之魂]暗屬性強化 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	133
+		`[dungeon type]`
+		`[static]`	1
+		`+`	5
+		`[priest]`	134
+		`[dungeon type]`
+		`[level]`	0
+		`%`	45
+		`[priest]`	134
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[priest]`	134
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[priest]`	134
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[priest]`	134
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[地獄之門]多段攻擊次數上限 +5
+[末日浩劫]攻擊力 +45%%
+[末日浩劫]冷卻時間 -10%%
+[末日浩劫]移動速度 +30%%`
+[/piece set ability]

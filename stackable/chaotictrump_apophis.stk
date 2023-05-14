@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`混沌王牌 : 魔劍阿波菲斯`
+
+[explain]
+	`    使用後， 會消耗10個無色小晶塊並召喚出Lv55的魔劍阿波菲斯， 魔劍阿波菲斯存在60秒。 (即使回到城鎮， 也不會初始化該道具的冷卻時間)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	56
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	368
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	240000
+
+[cooltime group]
+	101
+
+[cooltime maintenance]
+	1	1	1
+
+[move wav]
+	`PAPER_TOUCH`
+
+[consume item]
+	3037	30
+[/consume item]
+
+[monster summons]
+	56123	56	56	900000	1

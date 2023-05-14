@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/nenofbrilliance/ready_ex1_12.ani`
+	[SUB ANI]
+	[/SUB ANI]
+	[SOUND]
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+		[POS]
+			0	0	-200
+		[MOVE ME]
+	[/TELEPORT]
+	[FOLLOWING TARGET AND DIRECTION]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

@@ -1,0 +1,45 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/ArcherOfFire/Fitz_archer.img`
+		33
+	[IMAGE POS]
+		-243	-311
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[DELAY]
+		20
+	[DAMAGE BOX]
+	-20	-10	0	41	20	145
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/ArcherOfFire/Fitz_archer.img`
+		33
+	[IMAGE POS]
+		-243	-311
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-20	-10	0	41	20	145
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/StrongLeg/ArcherOfFire/Fitz_archer.img`
+		33
+	[IMAGE POS]
+		-243	-311
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[DELAY]
+		20
+	[DAMAGE BOX]
+	-20	-10	0	41	20	145

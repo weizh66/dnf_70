@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`劍樹的鐮刀 -木本植物`
+
+[basic explain]
+	`攻擊時以3%% 的機率讓敵人呈現出血狀態
+復仇之刺攻擊時以 30%% 的機率讓敵人呈現出血狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以3%%機率 4秒內使敵人陷入出血狀態，每 0.5秒以100的攻擊力給予傷害。 （高於Lv39的對象得到的機率減少，低於Lv39的對象則會增加。）
+復仇之刺攻擊時以 30%% 的機率2秒內讓敵人進入出血狀態，每0.5秒以 250的攻擊力給予傷害。 （高於Lv39的對象得到的機率減少，低於Lv39的對象則會增加。決鬥場內修正為 3%% 機率）
+不可解體`
+
+[grade]
+	39
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	35
+
+[physical attack]
+	28
+
+[magical attack]
+	31
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	62400
+
+[repair price]
+	49920
+
+[value]
+	49920
+
+[equipment physical attack]
+	361	323
+
+[equipment magical attack]
+	380	340
+
+[separate attack]
+	221	146
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/priest/scythe.img`	73
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	24	0
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		6000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	39	800
+[/then]
+
+[if]
+	[skill]
+		`priest`	116
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		100
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	39	1000
+[/then]
+
+[routing priority]
+	`priest`	4
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

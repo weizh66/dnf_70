@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`格鬥天團`
+
+[explain]
+	`  攻擊時， 有3%%的幾率增加自身8%%的攻擊速度， 效果持續40秒。
+  施放時， 有3%%的幾率增加自身8%%的施放速度， 效果持續40秒。
+  前沖時， 有8%%的幾率增加自身8%%的移動速度， 效果持續40秒。`
+
+[flavor text]
+	`  第七屆全國格鬥大賽團隊全國冠軍的專屬稱號！ 它代表著阿拉德大陸最強的戰隊！他們的名聲已威震天下，擁有著至高無上的榮耀！請繼續以團隊的力量，捍衛這份天團的榮耀！FIGHT！`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	112
+
+[custom animation]
+	`TitleAnimation/2014_pvp_championship_spring_06_bestteam.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	550
+
+[MP MAX]
+	550
+
+[physical defense]
+	30
+
+[magical defense]
+	30
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck resistance]
+	40
+
+[stuck]
+	-4
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[hit recovery]
+	200
+
+[item aura]
+	`move speed`
+	`+`	40	300
+
+[if]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		3
+	[stat]
+		`attack speed`
+		`+`	80
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		3
+	[stat]
+		`cast speed`
+		`+`	80
+[/then]
+
+[if]
+	[cooltime]
+		60000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		40000
+	[probability]
+		4
+	[stat]
+		`move speed`
+		`+`	80
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

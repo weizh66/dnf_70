@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`格鬥王者`
+
+[explain]
+	`  攻擊命中敵人時， 有1%%的幾率使自身增加5%%的攻擊速度和施放速度。`
+
+[flavor text]
+	`  <F1南北爭霸賽>中， 給予區域個人戰冠軍的稱號。`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	69
+
+[custom animation]
+	`TitleAnimation/KingofFighters2009.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[sub type]
+	0
+
+[HP MAX]
+	150
+
+[MP MAX]
+	150
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[equipment physical defense]
+	100	100
+
+[hit recovery]
+	50
+
+[all activestatus resistance]
+	5
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		8000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`cast speed`
+		`+`	50
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

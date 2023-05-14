@@ -1,0 +1,78 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		189
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-19	-5	0	36	10	96
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		190
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[PLAY SOUND]
+		`SM_LEAP_BUFF`
+	[DAMAGE BOX]
+	-13	-5	0	52	10	68
+	[ATTACK BOX]
+	-81	-30	8	201	60	105
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		191
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-19	-5	0	47	10	63
+	[ATTACK BOX]
+	-72	-30	-6	185	60	127
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		192
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-28	-5	0	51	10	63
+	[ATTACK BOX]
+	-72	-30	-6	185	60	127
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/Equipment/Avatar/skin/sm_body%04d.img`
+		193
+	[IMAGE POS]
+		-232	-333
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DAMAGE BOX]
+	-28	-5	0	51	10	63
+	[ATTACK BOX]
+	-72	-30	-6	185	60	127

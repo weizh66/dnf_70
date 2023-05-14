@@ -1,0 +1,56 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Blob_DarkBlue.img`
+		0
+	[IMAGE POS]
+		-21	-21
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	200
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-22	-24	-21	44	53	44
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Blob_DarkBlue.img`
+		0
+	[IMAGE POS]
+		-21	-21
+	[IMAGE RATE]
+		2.5	2.5
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-22	-24	-21	44	53	44
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/Blob_DarkBlue.img`
+		0
+	[IMAGE POS]
+		-21	-21
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-22	-24	-21	44	53	44

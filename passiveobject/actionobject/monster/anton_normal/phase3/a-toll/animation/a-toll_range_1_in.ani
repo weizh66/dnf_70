@@ -1,0 +1,41 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Falls_to_the_sky/Boss_Gigalodon/RippleLaser.img`
+		0
+	[IMAGE POS]
+		-41	-96
+	[IMAGE RATE]
+		1.2000000476837158	0.800000011920929
+	[IMAGE ROTATE]
+		1.5700000524520874
+	[RGBA]
+		255	150	20	150
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		950
+
+[FRAME001]
+	[IMAGE]
+		`Monster/StormOfMetastasis/Falls_to_the_sky/Boss_Gigalodon/RippleLaser.img`
+		0
+	[IMAGE POS]
+		-41	-96
+	[IMAGE RATE]
+		0.30000001192092896	0.20000000298023224
+	[IMAGE ROTATE]
+		1.5700000524520874
+	[RGBA]
+		255	150	20	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100

@@ -1,0 +1,213 @@
+#PVF_File
+
+[name]
+	`瑪納幼茲`
+
+[basic explain]
+	`MP消耗 1%%時物理武器攻擊力減少1（最大減少99）
+MP MAX 每500物理武器攻擊力增加2（最大增加150）
+MP MAX增加20%% 
+攻擊時以2%% 的機率讓敵人陷入眩暈狀態`
+
+[detail explain]
+	`MP每消耗 1%%物理武器攻擊力減少1（最大減少99）
+MP MAX每 500物理武器攻擊力增加2（最大增加150）
+MP MAX增加20%% 
+攻擊時以2%%的機率2秒內讓敵人陷入眩暈狀態。 （高於Lv85的對象得到的機率和效果減少，低於Lv85的對象則會增加。）`
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+[/routing priority]
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[attack speed]
+	100
+
+[price]
+	153000
+
+[repair price]
+	128520
+
+[value]
+	122400
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	865	802
+
+[equipment magical attack]
+	783	726
+
+[separate attack]
+	504	343
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/bglove/bglove.img`	78
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	20	1
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	85
+[/then]
+
+[if]
+	[change status in range]
+		`mp`	100	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`equipment physical attack`
+		`+`	-1	-100
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`mp max`	500
+		`equipment physical attack`
+		`+`	2	150
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`mp max`
+		`%`	20
+[/then]
+
+[possible kiri protect]

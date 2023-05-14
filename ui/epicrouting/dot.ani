@@ -1,0 +1,63 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Interface/newstyle/windows/EpicRuting.img`
+		0
+	[IMAGE POS]
+		-3	-3
+	[IMAGE RATE]
+		3.0	3.0
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		40
+
+[FRAME001]
+	[IMAGE]
+		`Interface/newstyle/windows/EpicRuting.img`
+		0
+	[IMAGE POS]
+		-2	-2
+	[IMAGE RATE]
+		2.0	2.0
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`Interface/newstyle/windows/EpicRuting.img`
+		0
+	[IMAGE POS]
+		0	1
+	[IMAGE RATE]
+		0.8999999761581421	0.8999999761581421
+	[RGBA]
+		255	255	255	200
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		`Interface/newstyle/windows/EpicRuting.img`
+		0
+	[IMAGE POS]
+		0	1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		5000

@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`(舊) 飛龍幻影棍`
+
+[basic explain]
+	`以額外殺傷殺死敵人時， 可以召喚出1只翼龍。`
+
+[detail explain]
+	`    以額外殺傷殺死敵人時， 可以召喚出1只Lv30的翼龍協助召喚者攻擊敵人， 翼龍存在100秒。 (召喚的怪物只能同時存在1只， 若召喚的怪物受到較大傷害， 則召喚時間結束前就會消失)`
+
+[flavor text]
+	`    除掉橫行大陸的飛龍后， 用它們的牙齒制成的武器。`
+
+[grade]
+	25
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`tonfa`
+
+[rarity]
+	4
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	20
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	35
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	39
+
+[price]
+	40000
+
+[value]
+	32000
+
+[cool time]
+	10000
+
+[physical attack]
+	20
+
+[magical attack]
+	30
+
+[equipment physical attack]
+	262	217
+
+[equipment physical defense]
+	250	240
+
+[equipment magical attack]
+	276	228
+
+[separate attack]
+	159	103
+
+[stuck resistance]
+	30
+
+[attack speed]
+	50
+
+[if]
+	[cooltime]
+		100000
+	[attack success]
+		1
+	[overkill]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[reduce duration at pvp module]
+		75
+	[summon monster]
+		60110	30	1
+[/then]
+
+[stuck]
+	-2
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`TONFA_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

@@ -1,0 +1,39 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	20
+[/check count]
+
+[level]
+	10	99
+
+[type]
+	`[amplify item]`
+
+[sub type]
+	3
+
+[int data]
+	-1	2	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26698	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`強化稀有及以上等級的裝備， 碎了20個。 (包括神器和史詩， 但不包括勇者裝備)`
+
+[condition data]
+	0
+	`裝備粉碎次數 : %d / %d`
+[/condition data]

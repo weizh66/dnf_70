@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	89	2	63010	1	20	89	2	61494	1	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	8	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`想做狗肉湯？`
+
+[depend message]
+	`聽前線士兵們說， 在卡勒特的軍隊里， 最難對付的不是人， 而是那些煩人的軍犬。 它們身上裝著火箭炮， 到處亂竄……
+如果你有空的話， 就幫我消滅它們吧？
+什么？ 狗肉？……我可不需要那東西！ `
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特防御戰』， 消滅20只AM-0 阿斯蒂和4名卡勒特醫療兵， 要求地下城難度為王者級。 (不包括被召喚出來的怪物)`
+
+[solve message]
+	`……還好還好！ 我就擔心你真的把狗肉帶過來， 那我可不知道怎么辦。 `

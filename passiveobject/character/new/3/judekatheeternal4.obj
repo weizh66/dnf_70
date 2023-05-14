@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`黑色`
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/judekatheeternal4.act`
+
+[attack info]
+	`AttackInfo/judekatheeternal1.atk`
+
+[name]
+	`??之球`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1000
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

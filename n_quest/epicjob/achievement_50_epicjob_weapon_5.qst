@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	974
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	27699	1	27100	1	27998	1	27554	1	28269	1
+[/reward selection int data]
+
+[relation quest]
+	976
+
+[name]
+	`覺醒 - 劍圣 (2/4)`
+
+[depend message]
+	`你以為想隨心所欲地駕馭各種武器， 就必須得擁有天才般的資質嗎？
+呵呵， 雖然傳說中那位叫索德羅斯的劍士， 就是憑借他極高的天賦， 將所有武器的特點發揮到了淋漓盡致。 但是這天賦有時也會反過來成為修煉路上的絆腳石。
+因而在我看來， 有兩樣東西比資質更重要， 一樣是愛， 還有一樣是意志。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`怎么樣， 是不是感覺身體變輕了？
+要想駕馭最強的劍， 首先你必須對它有愛， 其次還要有堅定的意志， 通過不斷地修煉來掌握這把劍。`

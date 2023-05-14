@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 月影星劫 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+你的動作日漸敏銳， 仿佛一道無形的光， 超越認知極限的速度可謂是照亮了天空， 突破了空間。
+你會憑借干凈利落的動作和冷靜無比的判斷力在不到0.1秒的時間內秒殺敵人。
+做得很好。 我想以后任何人都沒法追上你了。 我可以無愧于心地說， 在即將來臨的大戰中， 你的力量絕對會發揮很大的作用。
+現在回去繼續打磨極致的力量吧。 從今日起你就是夜空之星——月影星劫。`
+
+[pre required quest]
+	6830
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

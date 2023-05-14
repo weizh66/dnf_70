@@ -1,0 +1,162 @@
+#PVF_File
+
+[name]
+	`牛頭械王的驚魂步槍`
+
+[basic explain]
+	`    [步槍精通]攻擊速度增加量 +7%%
+    [爆炎彈]火焰爆炸大小 +30%%`
+
+[detail explain]
+	`    [步槍精通]攻擊速度增加量 +7%%
+    [爆炎彈]火焰爆炸大小 +30%%`
+
+[flavor text]
+	`    嘿， 改良得還蠻不錯的嘛~  --凱麗`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	92
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	916	796
+
+[equipment magical attack]
+	796	692
+
+[separate attack]
+	552	363
+
+[skill levelup]
+	`[gunner]`	110	3
+	`[at gunner]`	110	3
+	`[gunner]`	112	2
+	`[at gunner]`	113	2
+	`[gunner]`	69	2
+	`[at gunner]`	99	2
+[/skill levelup]
+
+[fire attack]
+	18
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/musket/musket.img`	106
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	110
+	`[all]`
+	`[level]`	0
+	`+`	70
+	`[gunner]`	1
+	`[all]`
+	`[static]`	7
+	`%`	30
+	`[at gunner]`	110
+	`[all]`
+	`[level]`	0
+	`+`	70
+	`[at gunner]`	1
+	`[all]`
+	`[static]`	7
+	`%`	30
+[/skill data up]
+
+[possible kiri protect]

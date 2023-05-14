@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	674
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	500000	3263	1	3038	2	3041	2	3299	40
+[/int data]
+
+[exception quest]
+	`[urgent]`
+[/exception quest]
+
+[reward type]
+	`[slot expansion]`
+
+[reward int data]
+	20
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`穿戴輔助裝備的資格 (2/2)`
+
+[depend message]
+	`冒險家， 雖然你擁有足夠的實力， 不過想要成功穿戴輔助裝備， 還需要收集一些材料。
+這是所需的材料清單， 你可要看仔細嘍！ 上面大部分的材料你應該以前就見過， 所以收集起來并不困難。
+至于另外的那些， 我可以為你效勞， 只要……你肯支付一定的金幣~呵呵!`
+
+[condition message]
+	`    想要穿戴輔助裝備， 請收集以下材料。`
+
+[solve message]
+	`材料都備齊了， 我們這就開始吧……呵呵~放松，一會兒就好了。`
+
+[quest point]
+	4

@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`遠古之艾爾文指環`
+
+[basic explain]
+	`魔法攻擊時，有6%%的機率使自身增加9%%的智力，效果持續30秒。`
+
+[grade]
+	61
+
+[rarity]
+	3
+
+[creation rate]
+	40
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[anti evil]
+	9
+
+[physical attack]
+	37
+
+[magical attack]
+	37
+
+[price]
+	73200
+
+[repair price]
+	61488
+
+[value]
+	58560
+
+[need material]
+	3340	63
+
+[equipment magical defense]
+	2176	2016
+
+[icon]
+	`Item/common/ring.img`	23
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[attack type]
+		`magical`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		6
+	[stat]
+		`magical attack`
+		`%`	9
+[/then]
+
+[possible kiri protect]

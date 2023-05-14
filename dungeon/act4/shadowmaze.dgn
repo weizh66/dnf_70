@@ -1,0 +1,247 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/ShadowMaze.ani`
+
+[cutscene image]
+	`Map/CutScene/UnderFoot.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	7
+	`WorldMap/SelectdungeonSlot/underfoot.img`	1
+
+[minimum required level]
+	41
+
+[basis level]
+	44
+
+[coin limit]
+	4
+
+[experience increasing point]
+	1.2
+
+[champion]
+	6	12	18	24	26
+
+[pathgate object]
+	671	672	673	674	675	676	677	678	679	680
+
+[maze info]
+
+[size]
+	3	3
+
+[greed]
+	`JJNNEE
+ DDHHMM
+ BBFFGG`
+
+[map specification]
+	1	0	7011
+[/map specification]
+
+[map specification]
+	1	1	7008
+[/map specification]
+
+[map specification]
+	0	0	7015
+[/map specification]
+
+[map specification]
+	0	1	7016
+[/map specification]
+
+[start map]
+	0	2
+[/start map]
+
+[boss map]
+	2	0
+[/boss map]
+
+[seal door map index]
+	60021
+
+[seal door pos]
+	0	1
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[maze info]
+
+[size]
+	3	3
+
+[greed]
+	`IIJJMM
+ LLOOKK
+ DDGGCC`
+
+[map specification]
+	0	1	7013
+[/map specification]
+
+[map specification]
+	1	1	7010
+[/map specification]
+
+[map specification]
+	0	2	7017
+[/map specification]
+
+[map specification]
+	1	2	7018
+[/map specification]
+
+[start map]
+	2	2
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[seal door map index]
+	60022
+
+[seal door pos]
+	1	2
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[maze info]
+
+[size]
+	3	3
+
+[greed]
+	`JJFFEE
+ DDNNMM
+ BBHHGG`
+
+[map specification]
+	1	2	7012
+[/map specification]
+
+[map specification]
+	1	1	7007
+[/map specification]
+
+[map specification]
+	2	1	7019
+[/map specification]
+
+[map specification]
+	2	2	7020
+[/map specification]
+
+[start map]
+	2	0
+[/start map]
+
+[boss map]
+	0	2
+[/boss map]
+
+[seal door map index]
+	60023
+
+[seal door pos]
+	2	1
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[maze info]
+
+[size]
+	3	3
+
+[greed]
+	`IIJJMM
+ KKLLOO
+ DDGGCC`
+
+[map specification]
+	2	1	7014
+[/map specification]
+
+[map specification]
+	1	1	7009
+[/map specification]
+
+[map specification]
+	1	0	7021
+[/map specification]
+
+[map specification]
+	2	0	7022
+[/map specification]
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	2	2
+[/boss map]
+
+[seal door map index]
+	60024
+
+[seal door pos]
+	1	0
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[special passive object item]
+[/special passive object item]
+
+[boss room entrance condition]
+	`[hunt monster]`	1	50097	1	1
+
+[name]
+	`暗影迷宮`
+
+[explain]
+	`通往暗黑城的路漫長而艱險！ 冒險家歷盡艱辛闖過熔巖穴後， 發現眼前又出現了一個仿佛具有生命、 每次都會自動改變路徑的洞穴--暗影迷宮！ 據說在迷宮的盡頭， 有一位強悍的人類劍士把守著出口……人類劍士為什麼會守護暗精靈的聖地？ 難道迷宮裡隱藏有玄機？ 也許我們很快就能知道答案， 因為冒險家正向暗影迷宮前進！`
+
+[event monster]
+	1	10000	20181033	1	300	80	1
+[/event monster]

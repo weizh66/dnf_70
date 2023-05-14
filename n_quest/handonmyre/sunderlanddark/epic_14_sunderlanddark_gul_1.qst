@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	4
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	14	99
+
+[depend give item]
+	3080	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3080	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`辛達丟失的錘子`
+
+[depend message]
+	`哎呦！ 我把師父傳給我的鐵匠錘弄丟了， 怎么辦？ 要是師父知道了， 他肯定會死不瞑目的！
+冒險家， 你能幫我把它找回來嗎？ 錘子是我去格蘭之森尋找新礦石時弄丟的。
+記得那天我剛發現一種新奇的礦石， 我興奮的跑了過去， 沒想到好多尸體從地里爬出來， 我嚇呆了， 拿著這塊石頭轉身就跑。
+后來我按原路回去尋找卻再也找不到我的錘子了， 你幫我把這石頭拿給諾頓看看吧， 說不定他能找到一些線索。 `
+
+[condition message]
+	`    把辛達的奇怪石頭拿給諾頓。`
+
+[solve message]
+	`沒看見我在忙嗎？ 找我什么事？ 芝麻大小的事最好不要找我， 我沒那閑工夫！`
+
+[quest point]
+	4

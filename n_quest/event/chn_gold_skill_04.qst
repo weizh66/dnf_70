@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	20574
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	300000
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[name]
+	`提升絕殺技 - 第3階段`
+
+[depend message]
+	`想不想讓絕殺的力量更強一些？ 現在還可以提升到第三階段哦！ `
+
+[condition message]
+	`    支付賽麗亞一定數額的金幣， 將絕殺技提升到第3階段。`
+
+[solve message]
+	`到了第三階段， 使用要求就更苛刻了， 不過我相信如果是冒險家你， 肯定沒問題的！
+這次需要在同一個地下城里， 通關十個房間。 加油！`

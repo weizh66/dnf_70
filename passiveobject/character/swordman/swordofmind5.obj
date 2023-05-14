@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`邪光斬`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/SwordOfMind5.act`
+
+[attack info]
+	`AttackInfo/js4.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

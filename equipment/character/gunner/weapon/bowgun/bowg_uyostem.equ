@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`無軒之湮魄`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使所有隊員進入偽裝狀態。`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使所有隊員進入偽裝狀態， 效果持續20秒。 (消耗5個無色小晶塊)`
+
+[flavor text]
+	`    沒無色怎么行呢， 換武器也得準備啊~  --凱麗`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	35
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[magical attack]
+	22
+
+[equipment physical attack]
+	491	440
+
+[equipment magical attack]
+	546	489
+
+[separate attack]
+	378	255
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[buff]
+		`camoflage`
+[/then]
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[routing priority]
+[/routing priority]
+
+[need material]
+	2749095	129
+
+[possible kiri protect]

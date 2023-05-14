@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`哈尼克的心臟`
+
+[basic explain]
+	`真：比爾馬克帝國試驗場的血液粉，善變貓妖，倔強的哈尼克怪物攻擊時20%% 附加傷害
+安裝時每5秒讓200px 範圍內的敵人在 3秒內呈現出血狀態
+安裝時200px 範圍內出血狀態的敵人每1隻 力量、智力增加10，攻擊速度增加1%%，移動速度增加1%%（最多重疊15次）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	51
+
+[physical defense]
+	51
+
+[magical defense]
+	51
+
+[price]
+	89000
+
+[value]
+	71200
+
+[creation rate]
+	0
+
+[bleeding resistance]
+	30
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	83
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[magical attack]
+	51
+
+[if]
+	[dungeon check]
+		201
+	[/dungeon check]
+	[target check]
+		`monster`	56743
+		`monster`	56742
+		`monster`	61748
+	[/target check]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[time]
+		5000	1	500
+[/if]
+
+[then]
+	[target]
+		`all enemy`	200
+	[probability]
+		100
+	[duration]
+		3000
+	[active status]
+		`bleeding`	89	100
+[/then]
+
+[variable stat]
+	`physical attack`
+	`+`	10
+	`object number`
+	`enemy`	200
+	`bleeding`	15
+	`magical attack`
+	`+`	10
+	`object number`
+	`enemy`	200
+	`bleeding`	15
+	`attack speed`
+	`+`	10
+	`object number`
+	`enemy`	200
+	`bleeding`	15
+	`move speed`
+	`+`	10
+	`object number`
+	`enemy`	200
+	`bleeding`	15
+[/variable stat]
+
+[possible kiri protect]

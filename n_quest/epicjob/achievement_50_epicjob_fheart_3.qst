@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	1009
+
+[job]
+	`[at mage]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	4087
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	4089
+
+[name]
+	`覺醒 - 冰凍之心 (3/4)`
+
+[depend message]
+	`看來你需要向更強的高手挑戰， 才能進一步地刺激你體內的黑暗之眼， 這樣或許可以加快冰晶之花的綻放速度。
+月光修煉場的阿爾伯特就是一個絕佳的人員。 從小就被冠以天才武道家稱號的他， 應該可以激發你的潛力。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`我好像……從你身上看到了冰晶之花的影子……是我的錯覺嗎？`

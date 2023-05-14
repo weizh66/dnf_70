@@ -1,0 +1,145 @@
+#PVF_File
+
+[name]
+	`毒之碎骨`
+
+[basic explain]
+	`攻擊時以 5%%的機率讓敵人進入中毒狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以5%%的機率1秒內讓敵人呈現中毒狀態，每0.5秒以300的攻擊力給予傷害。 （高於Lv44的對象得到的機率減少，低於Lv44的對象則會增加。）
+不可解體`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	31
+
+[attack speed]
+	-80
+
+[price]
+	79200
+
+[repair price]
+	63360
+
+[value]
+	63360
+
+[equipment physical attack]
+	428	388
+
+[equipment magical attack]
+	336	304
+
+[separate attack]
+	245	164
+
+[physical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	87
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[thief]`
+
+[variation]
+	18	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`poison`	44	600
+[/then]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

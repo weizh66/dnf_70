@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`神王的雷電十字架`
+
+[basic explain]
+	`施放[天啟珠]技能時使所有隊員進入霸體狀態15秒， 冷卻時間30秒。
+聖光球攻擊力 +50%%
+聖光球大小 +50%%`
+
+[detail explain]
+	`施放[天啟珠]技能時使所有隊員進入霸體狀態15秒， 冷卻時間30秒。
+聖光球攻擊力 +50%%
+聖光球大小 +50%%`
+
+[flavor text]
+	`以神的名義，處決偽裝者們`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical defense]
+	75
+
+[magical attack]
+	199
+
+[magical defense]
+	199
+
+[cast speed]
+	20
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1113	1113
+
+[equipment magical attack]
+	1058	1058
+
+[equipment physical defense]
+	1056	1056
+
+[equipment magical defense]
+	1056	1056
+
+[separate attack]
+	686	686
+
+[skill levelup]
+	`[priest]`	84	2
+	`[priest]`	45	5
+	`[priest]`	7	5
+	`[priest]`	53	5
+	`[priest]`	74	3
+[/skill levelup]
+
+[icon]
+	`Item/wuqi.img`	21
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	47	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[event use skill]
+		`priest`	84
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		15000
+	[buff]
+		`superarmor`
+[/then]
+
+[skill data up]
+	`[priest]`	28
+	`[dungeon type]`
+	`[level]`	0
+	`%`	50
+	`[priest]`	28
+	`[dungeon type]`
+	`[level]`	1
+	`%`	50
+	`[priest]`	28
+	`[dungeon type]`
+	`[static]`	5
+	`%`	50
+[/skill data up]
+
+[possible kiri protect]

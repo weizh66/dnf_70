@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`G`
+
+[gold multiple]
+	80
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5780
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	11
+
+[int data]
+	85	2	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	9	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`殲滅最后的敵人`
+
+[depend message]
+	`現在仍有部分敵人在頑強抵抗， 這樣下去， 敵人的隊伍就會越來越大， 說不定敵人又會卷土重來。
+當務之急， 就是要殲滅剩下的敵人， 而且每個角落都要搜查一遍， 一個都不能落下！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 消滅所有房間中的敵人， 要求地下城難度為王者級。`
+
+[solve message]
+	`敵軍已經沒有勝利的可能， 我想再頑固的心也應該知道要放棄了吧！`
+
+[substitutive names]
+	`消滅所有房間中的敵人`
+[/substitutive names]

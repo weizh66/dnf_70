@@ -1,0 +1,45 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`center`
+	[horizontal distance]
+		0
+	[vertical alignment]
+		`middle`
+	[vertical distance]
+		0
+	[tile type]
+		5
+	[size]
+		13	10
+	[alpha]
+		255
+	[title string]
+		`金庫密碼告知`
+		
+	[title accesorry type]
+		16
+	[controls]
+		[ui controls]
+			`[text]`
+			`1`	6	20	1
+			`申請金庫密碼功能的話，就可以更安全地使用金庫。 要立刻申請嗎？`
+				9	10	150	0	0	0	0	221	197	147
+		[/ui controls]
+		[ui controls]
+			`[basic button]`
+			`2`	20	80	1
+			`確認`
+				0
+		[/ui controls]
+		[ui controls]
+			`[basic button]`
+			`3`	76	80	1
+			`取消`
+				0
+		[/ui controls]
+	[/controls]
+[/window]

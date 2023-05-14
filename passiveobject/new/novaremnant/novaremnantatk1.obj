@@ -1,0 +1,35 @@
+#PVF_File
+
+[name]
+	`NovaRemantAtk1`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/NovaRemnant/novaremnant_att_eff.ani`
+
+[etc motion]
+	`Animation/NovaRemnant/novaremnant_line_1.ani`
+	`Animation/NovaRemnant/novaremnant_line_blade.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/NovaRemnant.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	11297
+[/object destroy condition]

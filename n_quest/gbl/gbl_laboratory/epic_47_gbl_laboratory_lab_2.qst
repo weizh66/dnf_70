@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	19
+
+[complete npc index]
+	19
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	47	99
+
+[pre required quest]
+	3808
+[/pre required quest]
+
+[monster reward item]
+	61104	111	1	4299	1	50	5	61104	111	2	4299	1	60	5	61104	111	3	4299	1	70	5
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4299	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`GBL教的研究資料`
+
+[depend message]
+	`冒險家， 我需要GBL教正在研究的那些怪物的研究資料， 越詳細越好。 因為如果我們要對付那些怪物， 最好能先了解它們的特性， 這樣才不會吃虧。
+冒險家， 請你去趟GBL教研究所吧， 盡快找些研究資料給我。`
+
+[condition message]
+	`    前往墮落之殿的『GBL教研究所』， 收集5份[研究資料]， 然后向奧菲利亞回復， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`這就是他們的研究資料？ 呃， 他們到底想研究什么呢？`
+
+[quest point]
+	4

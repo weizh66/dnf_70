@@ -1,0 +1,170 @@
+#PVF_File
+
+[set name]
+	`詭秘之地  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	3
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	3
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[fighter]`	3
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	3
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[fighter]`	3
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	8
+		`%`	30
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	9
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[炎月踢]攻擊力 +30%%
+格斗家(女)
+[擒月炎]攻擊力 +20%%
+[擒月炎]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	99
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	99
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	99
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	99
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[fighter]`	99
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[fighter]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[fighter]`	75
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[fighter]`	75
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[at fighter]`	3
+		`[dungeon type]`
+		`[level]`	9
+		`%`	20
+		`[at fighter]`	14
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[炎月踢]攻擊力 +20%%
+[衝膝]冷卻時間 -30%%
+[伏虎霸王拳]冷卻時間 -25%%
+格斗家(女)
+[猛毒擒月炎]攻擊力 +30%%
+[猛毒擒月炎]冷卻時間 -30%%
+[毒影針]攻擊力 +20%%
+[毒影針]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	74
+		`[dungeon type]`
+		`[static]`	0
+		`+`	9
+		`[fighter]`	74
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[static]`	0
+		`+`	2
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-30
+		`[at fighter]`	74
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[狂·霸王拳]攻擊次數 +2
+[狂·霸王拳]攻擊力 -30%%
+[旋風碎心踢]無色小晶塊消耗量 +1
+格斗家(女)
+[狂·霸王拳]攻擊次數 +9
+[狂·霸王拳]無色小晶塊消耗量 +1`
+[/piece set ability]

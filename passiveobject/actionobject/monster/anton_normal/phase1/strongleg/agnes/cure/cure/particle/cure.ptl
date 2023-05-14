@@ -1,0 +1,67 @@
+#PVF_File
+
+[x axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	10	5
+
+[z axis]
+
+[move type]
+	`[straight line]`
+
+[move variable 1]
+	1	10
+
+[changing term]
+	1000
+
+[changing type]
+	`[keep last value]`
+
+[gravity]
+	10
+
+[rotation angle]
+	10	0	10
+
+[life time]
+	5000
+
+[landing type]
+	`[slide]`
+
+[creation frequency]
+	-1
+
+[maximum create number]
+	4
+
+[create area size]
+	40	25	25
+
+[create area rotation angle]
+	10	20	20
+
+[rotation angle range type]
+	`[rectangle]`
+
+[rotation angle variable]
+	20	20
+
+[random range]
+	20
+
+[display effect rate]
+	50	50	100
+
+[object type]
+	`[animation]`
+
+[object]
+	`../Animation/cure1.ani`	-1
+	`../Animation/cure2.ani`	-1
+[/object]

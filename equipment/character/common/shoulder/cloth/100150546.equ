@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`血色殘陽青絲護肩`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。`
+
+[detail explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。(冷卻時間20秒， 最大重疊3次；該效果與無法者的頭肩、腰帶鞋子共享；裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	11857
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	36
+
+[magical defense]
+	36
+
+[need material]
+	3824	30
+
+[price]
+	63000
+
+[repair price]
+	50400
+
+[value]
+	50400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	784	728
+
+[icon]
+	`item/new_equipment/02_cloth/neck/cloth_neck.img`	51
+
+[field image]
+	`Item/field_equip.img`	2
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	21
+
+[weight]
+	800
+
+[item group name]
+	`cl shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[equipment duration]
+		15000
+	[appendage]
+		802
+[/then]
+
+[possible kiri protect]

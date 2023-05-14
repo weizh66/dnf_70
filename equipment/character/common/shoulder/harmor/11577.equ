@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`誓血之盟肩甲`
+
+[basic explain]
+	`  所有技能MP消耗量 +15%
+  對敵人的傷害 +15%（傷害加成效果取最高值，且無法疊加；暴擊/附加傷害除外）`
+
+[flavor text]
+	`  反正都這樣了，狗就夠吧。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12575
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	34
+
+[physical defense]
+	31
+
+[magical attack]
+	25
+
+[MP MAX]
+	500
+
+[need material]
+	3821	1000
+
+[price]
+	109200
+
+[repair price]
+	87360
+
+[value]
+	87360
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	3264	2976
+
+[icon]
+	`Item/new_equipment/05_harmor/neck/harmor_neck.img`	18
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	18
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	15
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600772	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

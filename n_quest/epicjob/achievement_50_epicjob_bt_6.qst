@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	968
+
+[name]
+	`覺醒 - 貝亞娜斗神 (1/4)`
+
+[depend message]
+	`你聽說過利用炫紋強化體質的方法嗎？
+依靠炫紋獲得具有魔法性質的身體， 然后變身為擁有強大魔力的‘女神’， 這個過程就叫做‘變身貝亞娜’。
+而能將這種技能發揮到極致的戰斗法師就被稱為‘貝亞娜斗神’。 之前我看你施展炫紋， 似乎有這方面的潛力。`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`雖然生成和使用炫紋都很難， 但最難的還是如何利用魔法將炫紋與肉體融合在一起……`

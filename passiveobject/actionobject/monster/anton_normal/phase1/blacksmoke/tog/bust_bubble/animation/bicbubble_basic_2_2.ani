@@ -1,0 +1,36 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_smallboom_dodge.img`
+		1
+	[IMAGE POS]
+		-470	-332
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`NONE`
+	[LOOP]
+		255
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_smallboom_dodge.img`
+		0
+	[IMAGE POS]
+		0	0
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_smallboom_dodge.img`
+		0
+	[IMAGE POS]
+		0	0

@@ -1,0 +1,225 @@
+#PVF_File
+
+[name]
+	`神罰天珠`
+
+[basic explain]
+	`楊教授附體，天罰降臨`
+
+[detail explain]
+	`楊教授附體，天罰降臨`
+
+[flavor text]
+	`你知道楊教授嗎`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	112
+
+[attack speed]
+	-50
+
+[cast speed]
+	25
+
+[anti evil]
+	40
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1402	1402
+
+[equipment magical attack]
+	1580	1580
+
+[separate attack]
+	986	986
+
+[magical critical hit]
+	30
+
+[icon]
+	`item/new_equipment/01_weapon/priest/rosary/rosary.img`	136
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	45	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			48
+		[upper bound level]
+			70
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	40
+[/then]
+
+[skill data up]
+	`[priest]`	38
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[priest]`	99
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	38
+	`[all]`
+	`[level]`	12
+	`%`	100
+	`[priest]`	39
+	`[all]`
+	`[level]`	1
+	`%`	300
+	`[priest]`	40
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	40
+	`[all]`
+	`[level]`	2
+	`%`	100
+	`[priest]`	69
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[priest]`	69
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	70
+	`[all]`
+	`[level]`	2
+	`%`	100
+	`[priest]`	93
+	`[all]`
+	`[level]`	0
+	`%`	2000
+	`[priest]`	93
+	`[all]`
+	`[level]`	1
+	`%`	2000
+	`[priest]`	100
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[priest]`	100
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[priest]`	100
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[priest]`	101
+	`[all]`
+	`[level]`	1
+	`%`	300
+	`[priest]`	110
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[priest]`	110
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[priest]`	110
+	`[all]`
+	`[level]`	2
+	`%`	1000
+[/skill data up]
+
+[possible kiri protect]

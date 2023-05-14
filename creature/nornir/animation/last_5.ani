@@ -1,0 +1,46 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir_efc.img`
+		69
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir_efc.img`
+		69
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		280
+
+[FRAME002]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Nornir/nornir_efc.img`
+		69
+	[IMAGE POS]
+		-195	-275
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		600

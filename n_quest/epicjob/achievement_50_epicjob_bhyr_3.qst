@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	914
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	916
+
+[name]
+	`覺醒 - 百花繚亂 (2/4)`
+
+[depend message]
+	`無論哪個派別的格斗家， 想要更快地成長， 都需要多多參與實戰， 通過與別人對決來積累戰斗經驗。
+比如這次的考驗就是一個很好的機會， 你可以從對手身上發現自己的不足， 然后加以改進。 好好把握吧！`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`你的表情告訴我， 剛才應該算是一次不錯的歷練。`

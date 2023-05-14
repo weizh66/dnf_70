@@ -1,0 +1,164 @@
+#PVF_File
+
+[name]
+	`風湧雷煞圖騰`
+
+[basic explain]
+	`  攻擊時20%%幾率對400px範圍內的所有敵人發動閃電攻擊
+[意念驅動]攻擊領域大小增加50%%
+[極速颶風拳]吸附範圍+30%%
+[極速颶風拳]移動速度+20%%`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	110
+
+[stuck]
+	-1
+
+[need material]
+	3821	1600
+
+[repair price]
+	100800
+
+[value]
+	96000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1100	1000
+
+[equipment magical attack]
+	900	800
+
+[separate attack]
+	600	500
+
+[light attack]
+	40
+
+[skill levelup]
+	`[priest]`	4	3
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/totem/totem.img`	104
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	38	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[probability]
+		20
+	[passive object]
+		46001	0	0	0	40	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[priest]`	13
+	`[all]`
+	`[static]`	3
+	`%`	50
+	`[priest]`	13
+	`[all]`
+	`[static]`	4
+	`%`	50
+[/skill data up]
+
+[skill data up]
+	`[priest]`	4
+	`[dungeon type]`
+	`[level]`	3
+	`+`	160
+	`[priest]`	4
+	`[dungeon type]`
+	`[static]`	0
+	`+`	20
+	`[priest]`
+[/skill data up]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600741	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

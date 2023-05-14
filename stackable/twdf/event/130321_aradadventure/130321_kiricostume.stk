@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`凱麗服裝`
+	
+
+[explain]
+	`使用時變身為凱麗5分鐘 只限在地區使用,在變身的狀態進行移動時變身將會解除`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	336
+
+[stackable type]
+	`[disguise]`	0
+
+[cool time]
+	10000
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[string data]
+	`npc`
+[/string data]
+
+[int data]
+	17	300
+[/int data]
+
+[expiration date]
+	1370016000

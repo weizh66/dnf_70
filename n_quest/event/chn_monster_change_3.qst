@@ -1,0 +1,85 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20553
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680810	20
+[/int data]
+
+[reward type]
+	`[ridable]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	20555
+
+[name]
+	`變身 - 拉米姐姐`
+
+[depend message]
+	`想不想變成會使用魔法的高手？
+呵呵~這可是我最新的研究， 還沒人試過呢~你要不要做第一個？`
+
+[condition message]
+	`    前往任意地下城， 收集[神秘的粉末]交給諾頓。 (神秘的粉末只有在變身狀態下擊殺怪物才能獲得)`
+
+[solve message]
+	`看來進展十分順利啊！
+對了， 你等我一會兒~我再幫你做個新的實驗~`
+
+[mail time]
+	1
+
+[mail title]
+	`勇士變身活動`
+
+[mail contents]
+	`    這是您參與勇士變身活動獲得的獎勵， 請收好~`
+
+[mail enclose]
+	2680811	1
+[/mail enclose]

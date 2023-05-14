@@ -1,0 +1,40 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/bomb_throw.ani`
+	[SUB ANI]
+		`../Animation/weapon/Bomb_Throw_wp.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`R_GSEEKERWOMAN_ATK`	2
+		`THUNDERC_ATK`	2
+	[/SOUND]
+	[SPEECH]
+		`通通都燒掉~~！！`
+			2	3
+		`哈哈哈~熊熊烈火燒吧~~！！！！`
+			2	10
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8859
+		[PARTICLE FILENAME]
+			`../Particle/Bomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			25	0	100
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

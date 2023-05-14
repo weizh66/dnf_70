@@ -1,0 +1,225 @@
+#PVF_File
+
+[name]
+	`聖光領域 - 米歇爾的聖光項鏈`
+
+[basic explain]
+	`血量低於70%%時，攻擊時30%%的概率恢復10%%的血量`
+
+[flavor text]
+	`傳說他不受時間的影響，壹直保持著少年的姿態。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	260
+
+[magical defense]
+	264
+
+[anti evil]
+	30
+
+[need material]
+	3850	999999
+
+[price]
+	74400
+
+[repair price]
+	62496
+
+[value]
+	59520
+
+[creation rate]
+	0
+
+[light attack]
+	100
+
+[equipment magical defense]
+	25600	25120
+
+[all activestatus resistance]
+	100
+
+[icon]
+	`Item/common/necklace_cn.img`	41
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[set name]
+	`聖光天使的庇護`
+
+[set item]
+	2011118	2011119	2011120
+[/set item]
+
+[set ability]
+	[if]
+		[cooltime]
+			3000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			100
+		[active status]
+			`any`	100
+	[/then]
+	[if]
+		[target active status]
+			`any`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	100
+	[/then]
+	[if]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`physical attack bonus`
+			`%`	70
+		[stat by condition]
+			`magical attack bonus`
+			`%`	70
+		[stat by condition]
+			`separate attack`
+			`%`	70
+	[/then]
+	[if]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			100
+	[/if]
+	[then]
+		[target]
+			`all enemy`	500
+		[duration]
+			100
+		[appendage]
+			411
+	[/then]
+	[if]
+		[time]
+			10000	1	5000
+	[/if]
+	[then]
+		[target]
+			`enemy near`	1000
+		[passive object]
+			10360	0	0	0	0	0
+			``
+		[/passive object]
+	[/then]
+	[command]
+		{6=`(UP)`}
+		{8=`,`}
+		{6=`(UP)`}
+		{8=`,`}
+		{6=`(CREATURE)`}
+	[/command]
+	[if]
+		[use command]
+			1
+		[cooltime]
+			30000
+	[/if]
+	[then]
+		[target]
+			`all enemy`	800
+		[passive object]
+			10360	0	0	0	0	0
+			``
+		[/passive object]
+	[/then]
+	[if]
+		[stat change]
+			`hp`
+			`<=`
+			`%`	70
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			30
+		[restore]
+			`hp`
+			`%`	10	0
+	[/then]
+	[fullset basic explain]
+		`攻擊時，會使敵人進入隨機異常狀態。
+對異常狀態的敵人傷害附加100%%
+增加70%%的所有攻擊力
+使徒之力：
+1.召喚天使審判敵人。
+2.召喚出大範圍的天使部隊攻擊敵人。`
+	[fullset detail explain]
+		`攻擊時，會使敵人進入隨機異常狀態。
+對冰凍狀態的敵人傷害附加100%%
+增加70%%的所有攻擊力
+使徒之力：
+1.召喚天使審判敵人。
+2.召喚出大範圍的天使部隊攻擊敵人。`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

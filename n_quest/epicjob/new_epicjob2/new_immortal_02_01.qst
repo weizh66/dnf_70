@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 永生者 (2/6)`
+
+[depend message]
+	`雖然你擁有堅定的意志， 但惡魔化的你會變得狂躁不安， 而你一定是很難控制自己吧。 不但如此， 想必這對你自身的肉體也造成了很大的負擔吧。
+忍受痛苦一定很辛苦吧？ 從現在起， 讓自己舒坦一些吧。 其實方法很簡單， 你只要激發潛力， 抑制住魔力就好。
+你具有堅定的信仰， 而這正是沉睡在你體內的無窮潛力。 如果你能喚醒它， 你就可以抑制魔力， 從而獲得更強的力量。
+那么首先我們要做的是……沒錯， 你不妨先去參加魂·黃龍大會吧？ 去與那里的強者們切磋切磋， 在戰斗的過程中自然就可以激發出你的潛力了。 你就當是一項修煉的環節吧。
+據說， 想要參加大會首先要有‘斯卡迪女王的印章’， 既然如此， 你先去收集一下這個東西吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5075
+[/pre required quest]
+
+[relation quest]
+	6808
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,26 @@
+#PVF_File
+
+[name]
+	``
+
+[pass type]
+	`[pass all]`
+
+[layer]
+	`[bottom]`
+
+[piercing power]
+	1000
+
+[width]
+	30	0
+
+[basic action]
+	`Action/Ground0.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

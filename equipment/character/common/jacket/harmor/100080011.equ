@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`冰龍的鱗片鎧甲上衣`
+
+[basic explain]
+	`不能解體`
+
+[grade]
+	79
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	36
+
+[physical defense]
+	33
+
+[magical attack]
+	26
+
+[attack speed]
+	20
+
+[HP MAX]
+	200
+
+[need material]
+	3338	525
+
+[repair price]
+	79632
+
+[value]
+	75840
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	4128	3888
+
+[water resistance]
+	12
+
+[freeze resistance]
+	12
+
+[icon]
+	`Item/new_equipment/05_harmor/coat/harmor_coat.img`	12
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[set name]
+	`冰龍的鱗片鎧甲套裝`
+
+[set item]
+	100080011	100130011
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`龍類型的敵人攻擊時，敵人10%%追加傷害`
+	[if]
+		[attack success]
+			1
+		[target type]
+			`dragon`
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	10
+	[/then]
+[/set ability]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

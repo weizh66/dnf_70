@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`貪欲的目光`
+
+[basic explain]
+	`HP 20%% 以下被攻擊時HP 恢復10%%，10秒內攻擊時，以2%% 的機率得到1%%恢復效果（冷卻時間40秒）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	101
+
+[physical defense]
+	101
+
+[magical defense]
+	101
+
+[price]
+	89000
+
+[value]
+	71200
+
+[creation rate]
+	0
+
+[icon]
+	`Item/new_equipment/11_magicstone/magicstone.img`	87
+
+[field image]
+	`Item/field_equip.img`	23
+
+[equipment type]
+	`[magic stone]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`magic stone`
+
+[cool time]
+	10000
+
+[magical attack]
+	101
+
+[if]
+	[cooltime]
+		40000
+	[stat change]
+		`hp`
+		`<=`
+		`%`	20
+	[/stat change]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[restore]
+		`hp`
+		`%`	10	0
+	[appendage]
+		58
+[/then]
+
+[if]
+	[cooltime]
+		500
+	[my appendage]
+		58
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[restore]
+		`hp`
+		`%`	1	0
+[/then]
+
+[possible kiri protect]

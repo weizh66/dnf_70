@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`安徒恩討伐軍隊長`
+
+[explain]
+	`攻擊時以 3%% 的機率15秒內物理暴擊5%%，魔法暴擊增加5%%
+惡魔型敵人8%% 附加傷害
+攻擊時施展導彈暴擊支援（冷卻時間60秒，決鬥場，勢力戰，打鬥吧不適用）`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	453
+
+[custom animation]
+	`TitleAnimation/captain.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		3
+	[stat]
+		`physical critical hit rate`
+		`+`	5
+	[stat]
+		`magical critical hit rate`
+		`+`	5
+[/then]
+
+[if]
+	[target type]
+		`devil`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	8
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+		`[tournament dungeon]`
+	[/module]
+	[attack success]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		48238	0	0	0	80	0
+		``
+	[/passive object]
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

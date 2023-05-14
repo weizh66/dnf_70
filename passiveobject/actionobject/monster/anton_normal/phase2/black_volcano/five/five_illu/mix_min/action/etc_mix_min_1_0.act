@@ -1,0 +1,48 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_mix_min_1_0_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_mix_min_1_0_2.ani`	0	-2
+		`../Animation/Etc_mix_min_1_0_10.ani`	0	-1
+		`../Animation/Etc_mix_min_1_0_3.ani`	0	1
+		`../Animation/Etc_mix_min_1_0_4.ani`	0	2
+		`../Animation/Etc_mix_min_1_0_7.ani`	0	3
+		`../Animation/Etc_mix_min_1_0_8.ani`	0	4
+		`../Animation/Etc_mix_min_1_0_9.ani`	0	5
+		`../Animation/Etc_mix_min_1_1_0.ani`	0	6
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			58024
+		[LEVEL]
+			110
+		[POS]
+			0	0	0
+		[NO EFFECT]
+	[/SUMMON MONSTER]
+[/BEHAVIOR]

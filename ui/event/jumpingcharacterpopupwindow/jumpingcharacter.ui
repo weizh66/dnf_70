@@ -1,0 +1,96 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`left`
+	[vertical alignment]
+		`middle`
+	[horizontal distance]
+		-3
+	[vertical distance]
+		11
+	[size]
+		20	21
+	[title string]
+		`跳躍角色活動`
+	[controls]
+		[ui controls]
+			`[text button]`
+			`0`	96	246	2
+			`Interface/WindowCommon.img`
+			`確認`	4	12	13	14	15
+		[/ui controls]
+		[ui controls]
+			`[board image]`
+			`1`	-3	11	1
+			`Interface/WindowCommon.img`	11	245	230	213	214	215	216	217	218	219	220	221
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`2`	6	6	1
+			`1. 能夠讓角色快速成長的跳躍活動，可以套用到帳號內的1個角色上。
+2. 獎賞 – 20、40、60級： 各等級 10強神器武器
+         - 30級： 傳承防具套裝 
+         - 50級： 跳躍、牛頭稱號
+         - 70級： 3次勇者飾品 3種
+         - 22、32、42、52、 62級： 跳躍隨機箱
+         -活動期間結束後，除了跳躍隨機箱以外
+         其他的所有獎品都可以獲得。
+3. 跳躍角色活動無法套用在黑暗武士和創造者身上。`	9	-1	236	0	0	0	0	230	200	155
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`3`	40	156	1
+			`Interface2/event/JumpingCharacter/Event_jumping.img`	1	6
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`4`	6	5	1
+			`伺服器`	9	-1	50	1	0	0	0	221	197	147
+			[parent]
+				`3`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`6`	65	5	1
+			`角色名稱`	9	-1	90	1	0	0	0	221	197	147
+			[parent]
+				`3`
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`7`	40	197	1
+			`參加跳躍活動角色`	9	-1	160	1	0	0	0	230	200	155
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[control]`
+			`10`	0	0	0	2	200	100
+			[parent]
+				`1`
+		[/ui controls]
+		[ui controls]
+			`[hyperlinklabel]`
+			`100`	170	215	0	7	205	100	221	197	147	0	0
+			[parent]
+				`1`
+			[user option]
+				`url link`
+				`[前往官網]`	255	240	0
+				`http://df.nexon.com/?GO=pr|rejumping`
+			[/user option]
+		[/ui controls]
+		[ui controls]
+			`[image]`
+			`101`	150	226	1
+			`Interface2/UI/EventList/Event_window.img`	1	2
+		[/ui controls]
+	[/controls]
+[/window]

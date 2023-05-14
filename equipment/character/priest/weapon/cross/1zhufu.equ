@@ -1,0 +1,269 @@
+#PVF_File
+
+[name]
+	`神之天佑`
+
+[basic explain]
+	`  HP為50%%以下時， 增加313點體力。
+  MP為50%%以下時， 增加313點精神。
+  施放技能時， 有10%%的幾率對自身施放Lv8的[聖光守護]。
+  施放技能時， 有10%%的幾率對包括自身在內的隊員施放Lv13的[聖光守護]。`
+
+[detail explain]
+	`  HP為50%%以下時， 增加313點體力。
+  MP為50%%以下時， 增加313點精神。
+  施放技能時， 有10%%的幾率對自身施放Lv8的[聖光守護]。 (冷卻時間30秒)
+  施放技能時， 有10%%的幾率對包括自身在內的隊員施放Lv13的[聖光守護]。 (冷卻時間40秒)`
+
+[flavor text]
+	`  願神之榮譽與妳同在。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical defense]
+	80
+
+[magical attack]
+	80
+
+[magical defense]
+	80
+
+[cast speed]
+	20
+
+[move speed]
+	20
+
+[need material]
+	3821	1600
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1000	900
+
+[equipment magical attack]
+	1000	900
+
+[equipment physical defense]
+	1000	900
+
+[equipment magical defense]
+	1000	900
+
+[separate attack]
+	600	500
+
+[skill levelup]
+	`[priest]`	53	5
+	`[priest]`	7	5
+	`[priest]`	45	5
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/cross/cross.img`	96
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	4	2
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CROSS_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`cross`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		10000
+	[probability]
+		10
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		5000
+	[probability]
+		10
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[assault]`
+	[/module]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[duration]
+		3000
+	[probability]
+		10
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`cast speed`
+		`+`	100
+	[stat]
+		`physical defense`
+		`+`	300
+	[stat]
+		`magical defense`
+		`+`	300
+[/then]
+
+[if]
+	[cooltime]
+		45000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		30000
+	[probability]
+		20
+	[reduce probability to human armor at pvp module]
+		80
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`move speed`
+		`+`	100
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600744	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[possible kiri protect]

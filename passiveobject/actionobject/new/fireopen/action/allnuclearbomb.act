@@ -1,0 +1,37 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/ATOperationRaze/NuclearBomb3.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900167
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			330	0	500
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900167
+		[PARTICLE FILENAME]
+			`../Particle/NuclearBomb.ptl`
+		[LEVEL]
+			0
+		[POS]
+			660	0	500
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

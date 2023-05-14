@@ -1,0 +1,52 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/sswd/sg_sswd%02d%02da1.img`
+		48
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		80
+	[SET FLAG]
+		255
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/sswd/sg_sswd%02d%02da1.img`
+		49
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/sswd/sg_sswd%02d%02da1.img`
+		50
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		80
+	[ATTACK BOX]
+	60	-15	30	66	30	29
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/sswd/sg_sswd%02d%02da1.img`
+		51
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/sswd/sg_sswd%02d%02da1.img`
+		52
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		210

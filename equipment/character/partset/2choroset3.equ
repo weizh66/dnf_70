@@ -1,0 +1,84 @@
+#PVF_File
+
+[set name]
+	`波動之輻  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	4
+		`%`	50
+		`[swordman]`	108
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[鈍器精通]中的[破軍升龍擊]衝擊波傷害 +50%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[jump power]
+		50
+	[skill data up]
+		`[swordman]`	16
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[swordman]`	16
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[swordman]`	153
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[swordman]`	153
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[swordman]`	108
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[swordman]`	108
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[鈍器精通]中的[后跳斬]的浮空力 +10%%
+[銀光落刃]衝擊波攻擊力 +50%%
+[銀光落刃]衝擊波范圍 +15%%
+[流心 : 躍]衝擊波范圍 +15%%
+[流心 : 躍]中的鈍器衝擊波攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	3
+		`%`	70
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	8
+		`%`	70
+		`[swordman]`	15
+		`[dungeon type]`
+		`[level]`	7
+		`+`	200
+	[/skill data up]
+	[parameter basic explain]
+		`[鈍器精通]中的[后跳斬]的衝擊波攻擊力 +70%%
+[鈍器精通]中的跳躍攻擊的衝擊波攻擊力 +70%%
+[鈍器精通]中的跳躍攻擊的浮空力 +200`
+[/piece set ability]

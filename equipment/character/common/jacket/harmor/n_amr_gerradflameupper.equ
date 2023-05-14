@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	` 古拉德的火焰胸甲`
+
+[flavor text]
+	`穿上這個胸甲讓我有一種到處放火的衝動。-海嵐`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	26
+
+[physical defense]
+	24
+
+[magical attack]
+	19
+
+[price]
+	77000
+
+[repair price]
+	61600
+
+[value]
+	61600
+
+[equipment physical defense]
+	3024	2736
+
+[skill levelup]
+	`[gunner]`	36	1
+	`[gunner]`	13	1
+	`[at gunner]`	36	1
+	`[at gunner]`	13	1
+	`[swordman]`	22	1
+	`[priest]`	47	1
+[/skill levelup]
+
+[icon]
+	`Item/common/coat.img`	107
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	22
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[set name]
+	`古拉德的火焰套裝`
+
+[set item]
+	11289	13289	15279	19284	17278	26027
+[/set item]
+
+[set ability]
+	[fire resistance]
+		20
+	[burn resistance]
+		20
+	[skill levelup]
+		`[swordman]`	22	2
+		`[gunner]`	36	2
+		`[gunner]`	13	2
+		`[at gunner]`	36	2
+		`[at gunner]`	13	2
+		`[priest]`	47	2
+	[/skill levelup]
+	[fullset basic explain]
+		`火屬性被攻擊時以5%%的機率發動火焰光環`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

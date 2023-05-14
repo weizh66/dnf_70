@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95264
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[name]
+	`覺醒 - 極武圣 (6/6)`
+
+[depend message]
+	`那么， 現在有件事終于可以告訴你了。
+實際上， 現在由于扭曲現象的產生， 時空之門正在受到污染。
+那些試圖阻止污染的時空統治者們據說也被瞬間卷入其中， 一同被污染了。但現在還沒到絕望的地步， 只要成功凈化那些時空統治者， 時空之門遲早也會恢復原樣的。
+憑借你現在獲得的力量， 就可以成功凈化他們， 并能使被污染的時空之門恢復原樣。
+你愿意憑借新的力量來提供幫助嗎？`
+
+[condition message]
+	`    進入被污染的『時空之門』， 阻止時間的扭曲現象。`
+
+[solve message]
+	`時空統治者們都已回歸原位， 時間的步伐重新踏上正軌。 雖然現在各個角落仍然有被污染的殘骸， 但既然扭曲現象已經消失， 想必在不久的將來， 一切都會恢復原狀。
+集中精力， 用全身心去感受一下你現在獲得的力量吧。 是你一直以來渴求的力量嗎？
+不被任何東西束縛的……當然也不會被任何東西阻礙的純粹的力量。 對力量無盡的追求， 對， 就是那種饑渴！
+現在你終于悟出了‘真正的強悍’。 人們都說溫柔可以打敗強悍， 但對如今的你而言， 溫柔只是隨時可以戰勝的區區一塊碎片而已。
+好， 你現在完全可以勝任‘極武圣’這個稱號了。 不會被任何東西束縛的人， 追求真正意義上的強悍的人， 那就是你。`
+
+[pre required quest]
+	5380
+[/pre required quest]
+
+[job change quest]
+	3
+
+[grow number]
+	0

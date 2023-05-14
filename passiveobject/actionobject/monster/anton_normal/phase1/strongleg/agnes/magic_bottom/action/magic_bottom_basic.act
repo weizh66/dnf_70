@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/magic_bottom_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/magic_bottom_Basic_1.ani`	0	1
+		`../Animation/magic_bottom_Basic_2.ani`	0	2
+		`../Animation/magic_bottom_Basic_3.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`AGNES_MAGICSQUARE_EXP`	4
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[ON ATTACKSUCCESS]
+	[DO BEHAVIOR]
+	[LAST ATTACKSUCCESS]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[burn]
+		100	120	10000	5000	100	1	3000
+	[ACTIVE STATUS]
+	[hold]
+		100	120	3000
+[/BEHAVIOR]

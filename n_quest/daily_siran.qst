@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	1022
+
+[complete npc index]
+	-1
+
+[difficulty]
+	`O`
+
+[ignore quest level 4 exp]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	99	99
+
+[event]
+	1
+
+[pre required quest]
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	1032	2	1033	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3119	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`無酒不歡`
+
+[depend message]
+	`哎呀冒險家啊,你看我這酒壺又空了
+聽說月光酒館的索西雅釀的啤酒和葡萄酒味道不錯…………
+哈哈哈,你看能不能幫我去她那兒討兩口酒喝啊;你放心,我不會讓你白跑一趟的。`
+
+[condition message]
+	`收集2瓶[索西雅特製的精靈啤酒]和2瓶[索西雅特製的精靈葡萄酒]交給西嵐。`
+
+[solve message]
+	`哈哈哈,又有酒喝啦,謝了啊冒險家;這是給你準備的,接著~`
+
+[quest point]
+	0

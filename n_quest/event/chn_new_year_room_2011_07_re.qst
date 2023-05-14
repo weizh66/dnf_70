@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20544
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680717	50	2680718	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	2680719	3	2680720	3
+[/reward selection int data]
+
+[name]
+	`春節大掃除！ (重復)`
+
+[depend message]
+	`冒險家， 如果你有剩下的紅紙和鞭炮， 都拿來給我吧~
+呵呵， 我想再一次驅除霉運~`
+
+[condition message]
+	`    前往任意地下城， 收集50張[紅紙]和30個[鞭炮]。`
+
+[solve message]
+	`呵呵， 只要有冒險家在， 我相信這世界就會變得更加光明的~`

@@ -1,0 +1,85 @@
+#PVF_File
+
+[name]
+	`新人禮包`
+
+[explain]
+	`禮包內包含：
+時裝代幣 x 8個
+黑鉆契約 x 3天
+達人契約 x 7天
+霸王契約 x 7天
+1000D點兌換券 x 10
+章魚獵人 x 5個
+雙倍經驗 
+!!!!!!!每個賬號限購一次!!!!!!`
+
+[rarity]
+	3
+
+[attach type]
+	`[trade]`
+
+[weight]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[price]
+	10000
+
+[value]
+	5
+
+[stack limit]
+	1000
+
+[icon]
+	`item/stackable/op_cn.img`	3
+
+[field image]
+	`Item/FieldImage.img`	30
+
+[stackable type]
+	`[booster]`	0
+
+[booster info]
+	[etc]
+		1	31	1000	1
+	[/etc]
+	[etc]
+		1	44	1000	1
+	[/etc]
+	[etc]
+		1	3017951	1000	7
+	[/etc]
+	[etc]
+		1	202	1000	8
+	[/etc]
+	[etc]
+		1	690017132	1000	10
+	[/etc]
+	[etc]
+		1	2600032	1000	5
+	[/etc]
+	[etc]
+		1	7831	1000	7
+	[/etc]
+	[etc]
+		1	7829	1000	2
+	[/etc]
+	[etc]
+		1	690000283	1000	5
+	[/etc]
+	[etc]
+		1	8	1000	15
+	[/etc]
+[/booster info]
+
+[move wav]
+	`BONE_TOUCH`

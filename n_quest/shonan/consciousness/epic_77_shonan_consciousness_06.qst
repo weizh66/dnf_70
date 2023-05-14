@@ -1,0 +1,85 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	77	99
+
+[pre required quest]
+	4240
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	519	-1
+[/int data]
+
+[dungeon info]
+	519	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`艾麗絲的時間`
+
+[depend message]
+	`這女人進去後，打開了一扇到目前尚未開啟的門。呵呵呵，真是個厲害的女人！
+這次我也會同行！對方不是坦拉庫遝的族長嘛！我們兩人的勝負還很難說！`
+
+[condition message]
+	`在艾麗絲的時間與艾麗絲見面（該任務是單獨進行的任務。）`
+
+[solve message]
+	`什麼也沒做就輸了… `
+
+[dialog]
+	0	0	15405	0	0	0	0
+	`<monster::62105>唉唷～為了逼迫一個弱女子．來了這麼多人嗎？感到恐懼吧…
+<npc::126>閉嘴！這妖媚的女人！你的惡行到此為止了！
+<monster::62105>惡行？！不是這樣…… 一切都是按照預言…… 正常發生而已。如果你們攻擊我…… 無論如何都看不到我被打敗的模樣。只是看到你們的失敗！`
+[/dialog]
+
+[dialog]
+	0	1	15405	0	0	0	0
+	`<monster::62105>一切都依照預言進行著…
+<npc::126>輸了… 輸了。`
+[/dialog]
+
+[quest point]
+	4

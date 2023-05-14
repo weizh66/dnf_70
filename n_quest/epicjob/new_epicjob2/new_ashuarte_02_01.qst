@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 伊斯塔戰靈 (2/6)`
+
+[depend message]
+	`你做了一個很棒的決定， 如果你足夠認真， 一定會獲得成長。
+那我們開始訓練吧。 我想了一下你的不足之處， 發現你的短板竟然是魔法力量。
+雖然你現在并非是在利用正統的魔法， 而是開創了新的戰斗方式， 但本質上不還是魔法師嗎？ 也就是說， 你沒有去接觸本該鉆研的元素， 而是一直都在使用其他力量進行戰斗。
+既然如此， 不如就把你現在正在使用的貝亞娜之力和還沒開始研究的元素之力結合起來吧？ 這樣你一定能夠獲得新的力量。
+這就是我從你身上看到的可能性， 你具備著充分的開放性。
+那接下來， 我們就檢驗一下你的潛力吧。 你先去參加魂·黃龍大會吧， 去和那里的強者們進行切磋， 試著找到所謂的答案吧。
+現在就去準備參賽吧， 你可能需要用到‘斯卡迪女王的印章’， 快去收集吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5059
+[/pre required quest]
+
+[relation quest]
+	6792
+
+[job change quest]
+	3
+
+[grow number]
+	0

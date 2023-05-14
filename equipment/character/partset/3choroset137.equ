@@ -1,0 +1,130 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	81
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[風暴之眼]攻擊力 +20%%
+冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	81
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[at mage]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	7
+		`%`	10
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[at mage]`	85
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`[風暴之眼]攻擊力 +20%%
+[風暴之眼]攻擊范圍 +25%%
+[風暴之拳]攻擊力 +20%%
+冷卻時間 -25%%
+[疾風瞬影閃]范圍 +10%%
+[疾風瞬影閃]移動距離 +20%%
+[風卷殘云]冷卻時間 -30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[at mage]`	80
+		`[dungeon type]`
+		`[static]`	4
+		`%`	20
+		`[at mage]`	85
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	85
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at mage]`	85
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[at mage]`	84
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	7
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[風暴之拳]攻擊力 +35%%
+[風暴之拳]冷卻時間 -25%%
+[風暴之拳]攻擊范圍 +20%%
+[風卷殘云]攻擊力 +35%%
+[風卷殘云]冷卻時間 -20%%
+[疾風瞬影閃]冷卻時間 -20%%
+[疾風瞬影閃]攻擊范圍 +20%%`
+[/piece set ability]

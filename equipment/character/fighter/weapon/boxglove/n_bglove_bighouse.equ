@@ -1,0 +1,193 @@
+#PVF_File
+
+[name]
+	`比哈斯的圣斗`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使敵人進入眩暈狀態。
+[強拳]持續時間 +5秒
+[武神步]的效果持續時間 +50%%`
+
+[detail explain]
+	`    攻擊時， 有2%%的幾率使敵人進入眩暈狀態2秒； 但在決斗場中， 只能持續1秒。 (若敵人高于Lv55， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+[強拳]持續時間 +5秒
+[武神步]的效果持續時間 +50%%`
+
+[flavor text]
+	`    拉奇？ 你是說那個只會逃命的猥瑣家伙？ 甭提了， 我最鄙視的就是他了。  --極皇挑戰者比哈斯`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bglove`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2100
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[required skill]
+	34
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	25
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	39
+
+[need material]
+	3260	900
+
+[repair price]
+	83160
+
+[value]
+	79200
+
+[cool time]
+	10000
+
+[HP MAX]
+	500
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	559	508
+
+[equipment magical attack]
+	505	460
+
+[separate attack]
+	328	220
+
+[attack speed]
+	100
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	55
+[/then]
+
+[skill data up]
+	`[fighter]`	37
+	`[all]`
+	`[level]`	0
+	`+`	5000
+	`[fighter]`	70
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[at fighter]`	37
+	`[all]`
+	`[level]`	0
+	`+`	5000
+[/skill data up]
+
+[skill levelup]
+	`[fighter]`	37	3
+	`[at fighter]`	37	3
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	7
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	7
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+[/routing priority]
+
+[possible kiri protect]

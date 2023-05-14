@@ -1,0 +1,148 @@
+#PVF_File
+
+[name]
+	`木槌`
+
+[basic explain]
+	`攻擊時會以2%%機率內讓敵人陷入氣絕狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人2秒內陷入氣絕狀態。 (若敵人高於Lv14，則減少進入異常狀態的機率；反之，則增加機率。決鬥場修正為 1秒)`
+
+[flavor text]
+	` 到了這年紀，木槌也只能當拐杖用了...... --辛達`
+
+[grade]
+	14
+
+[rarity]
+	1
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	14
+
+[physical attack]
+	13
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[price]
+	14000
+
+[repair price]
+	11200
+
+[value]
+	10080
+
+[equipment physical attack]
+	136	136
+
+[equipment magical attack]
+	118	118
+
+[separate attack]
+	73	46
+
+[icon]
+	`Item/weapon/swordman/club.img`	6
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	20
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	4
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	4
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	14
+[/then]
+
+[possible kiri protect]

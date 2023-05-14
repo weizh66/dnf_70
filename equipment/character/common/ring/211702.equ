@@ -1,0 +1,137 @@
+#PVF_File
+
+[name]
+	`和者家之大事—戒指`
+
+[basic explain]
+	`  攻擊時,附加10W的傷害。
+  攻擊時有5%%的幾率使周圍250PX內的敵人進入詛咒狀態。(持續2秒)`
+
+[flavor text]
+	`好像男人很很喜歡种不用換洗的首飾......`
+
+[grade]
+	89
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	70
+
+[magical attack]
+	70
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[price]
+	80400
+
+[need material]
+	2701003	200
+
+[repair price]
+	67536
+
+[value]
+	64320
+
+[equipment magical defense]
+	2368	2208
+
+[icon]
+	`Item/common/ring_cn.img`	57
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[dark attack]
+	30
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	100000
+[/then]
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			20
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	250
+	[probability]
+		2
+	[duration]
+		2000
+	[active status]
+		`curse`	120	100	100	100	100
+[/then]
+
+[set item master]
+	211701
+
+[possible kiri protect]

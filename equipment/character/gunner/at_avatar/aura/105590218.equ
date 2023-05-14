@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`金色氣息光環 (男格鬥)`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[usable job]
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atgunner/gg_aura.img`	19
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	33
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]
+
+[physical defense]
+	30
+
+[magical defense]
+	30
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[room list move speed rate]
+	0.1
+
+[aurora graphic effects]
+	4	1
+	`Character/Common/Animation/Aura/aura21_front_normal.ani`	1
+	`Character/Common/Animation/Aura/aura21_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/aura21_back_normal.ani`	0
+	`Character/Common/Animation/Aura/aura21_back_dodge.ani`

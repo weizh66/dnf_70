@@ -1,0 +1,30 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ComeIn.ani`
+	[SPEECH]
+		` 你們到底是誰？ 沒看到掉落的隕石嗎？`
+			1	100
+		` 哈哈！看來隕石就在那裡！！`
+			7	100
+	[/SPEECH]
+	[SOUND]
+		`VENITH_MEET_02`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		14	14
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		2
+	[NOW]
+[/BEHAVIOR]

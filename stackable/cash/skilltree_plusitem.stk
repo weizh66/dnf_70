@@ -1,0 +1,33 @@
+#PVF_File
+
+[name]
+	`技能類型擴充券`
+
+[explain]
+	`生成1個技能類型。
+每個角色只能購買一次，購買時可永久使用技能類型 2。 （ 這是購買後會立刻套用的商品。 )`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	138
+
+[stackable type]
+	`[etc]`	0
+
+[move wav]
+	`SCRAP_TOUCH`

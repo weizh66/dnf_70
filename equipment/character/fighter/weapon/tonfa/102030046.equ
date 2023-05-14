@@ -1,0 +1,329 @@
+#PVF_File
+
+[name]
+	`解放東方棍`
+
+[basic explain]
+	`攻擊速度 +2%%
+攻擊時以 5%%的機率消耗1個靈魂晶石，20秒內賦予自己的武器靈魂。
+-狂暴的靈魂：武器狀態閃爍紅色，力量增加100，智力增加100，物理暴擊增加 7%%，魔法暴擊增加 7%% 
+-純潔的靈魂：武器狀態閃爍綠色，精神增加100，體力增加100，被攻擊時自己受到的傷害減少5%%，HP恢復5%% MP恢復5%% 
+-狂亂的靈魂：武器狀態閃爍黃色，攻擊速度 10%%，移動速度增加10%%，施放速度增加10%% 
+攻擊時12%% 附加傷害`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	73
+
+[magical attack]
+	102
+
+[attack speed]
+	70
+
+[cast speed]
+	30
+
+[move speed]
+	20
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[need material]
+	10000204	100
+
+[repair price]
+	119616
+
+[value]
+	113920
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	811	764
+
+[equipment magical attack]
+	854	804
+
+[equipment physical defense]
+	890	890
+
+[separate attack]
+	510	347
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/tonfa/tonfa.img`	93
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	28	0
+
+[layer variation]
+	2791
+	`tonfac1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	651
+	`tonfab1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	2792
+	`tonfac2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	652
+	`tonfab2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	29	0
+
+[layer variation]
+	2151
+	`at_tonfaa1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	651
+	`at_tonfab1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2791
+	`at_tonfac1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1351
+	`at_tonfax1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2152
+	`at_tonfaa2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	652
+	`at_tonfab2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2792
+	`at_tonfac2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1352
+	`at_tonfax2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	12
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[multiple then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			51
+		[stat]
+			`magical attack`
+			`+`	100
+		[stat]
+			`physical attack`
+			`+`	100
+		[stat]
+			`physical critical hit rate`
+			`+`	7
+		[stat]
+			`magical critical hit rate`
+			`+`	7
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			52
+		[stat]
+			`magical defense`
+			`+`	100
+		[stat]
+			`physical defense`
+			`+`	100
+		[restore]
+			`hp`
+			`%`	5	20000
+		[restore]
+			`mp`
+			`%`	5	20000
+		[then probability]
+			33.0
+	[/then]
+	[then]
+		[consume item]
+			3187	1
+		[target]
+			`myself`	-1
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[equipment duration]
+			20000
+		[appendage]
+			53
+		[stat]
+			`attack speed`
+			`+`	100
+		[stat]
+			`move speed`
+			`+`	100
+		[stat]
+			`cast speed`
+			`+`	100
+		[then probability]
+			34.0
+	[/then]
+[/multiple then]
+
+[if]
+	[my appendage]
+		52
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	5
+[/then]
+
+[possible kiri protect]

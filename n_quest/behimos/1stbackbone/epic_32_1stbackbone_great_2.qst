@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	32	99
+
+[pre required quest]
+	562
+[/pre required quest]
+
+[monster reward item]
+	260	25	1	4206	1	50	50	250	25	1	4206	1	55	50	252	25	1	4206	1	55	50	253	25	1	4206	1	55	50	251	25	1	4207	1	70	1	260	25	2	4206	1	50	50	250	25	2	4206	1	55	50	252	25	2	4206	1	55	50	253	25	2	4206	1	55	50	251	25	2	4207	1	70	1	260	25	3	4206	1	50	50	250	25	3	4206	1	55	50	252	25	3	4206	1	55	50	253	25	3	4206	1	55	50	251	25	3	4207	1	70	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4206	50	4207	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	33000
+[/reward int data]
+
+[reward selection int data]
+	12066	1	12456	1	12855	1	13255	1	13633	1
+[/reward selection int data]
+
+[name]
+	`解放靈魂`
+
+[depend message]
+	`你說大家……都變成那種樣子了？ 嗯， 這么說， 那些恐怖的章魚怪很可能就是我們GBL的信徒了……
+冒險家， 如果那些章魚怪真的是GBL教的信徒， 它們身上一定會帶有GBL教的信物！ 你能幫我找找看嗎， 拜托了！`
+
+[condition message]
+	`    前往天帷巨獸神殿的『第一脊椎』， 從普通怪物身上收集50個[GBL教的項鏈]， 從巨形黑章魚身上收集1個[大神官的印記]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`啊……這么多信徒都……啊……！！ 這個印記是……！！`
+
+[quest point]
+	4

@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	` 史蘇克的四滴眼淚`
+
+[flavor text]
+	`佩戴史蘇克的眼淚結晶後竟然覺得周圍更寒冷了？   --克米特兄弟`
+
+[grade]
+	50
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	45
+
+[magical attack]
+	22
+
+[magical defense]
+	53
+
+[price]
+	60000
+
+[repair price]
+	48000
+
+[value]
+	48000
+
+[equipment magical defense]
+	4640	4160
+
+[freeze resistance]
+	10
+
+[icon]
+	`Item/common/necklace.img`	7
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[set name]
+	`史蘇克的八滴眼淚首飾`
+
+[set item]
+	20109	22106	24108
+[/set item]
+
+[set ability]
+	[physical attack]
+		35
+	[physical defense]
+		35
+	[magical attack]
+		35
+	[magical defense]
+		35
+	[all elemental resistance]
+		10
+	[if]
+		[cooltime]
+			100000
+		[hit]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			100000
+		[reduce duration at pvp module]
+			75
+		[probability]
+			2
+		[summon monster]
+			60103	45	1
+	[/then]
+	[fullset basic explain]
+		`被攻擊時以2%% 的機率召喚1隻精靈冰奈斯`
+	[fullset detail explain]
+		`被攻擊時以2%% 的機率100秒內內召喚1隻Lv45精靈：冰奈斯攻擊敵人。（召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[creation rate]
+	190
+
+[possible kiri protect]

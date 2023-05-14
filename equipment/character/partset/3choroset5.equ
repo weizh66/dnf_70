@@ -1,0 +1,112 @@
+#PVF_File
+
+[set name]
+	`嗜血惡靈  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	65
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	10
+		`%`	20
+		`[swordman]`	64
+		`[dungeon type]`
+		`[level]`	11
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[崩山擊]攻擊力 +20%%
+[十字斬]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[swordman]`	31
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[swordman]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[swordman]`	103
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[swordman]`	103
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	103
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[嗜魂之手]攻擊力 +30%%
+[嗜魂之手]冷卻時間 -25%%
+[血氣之刃]攻擊力 +30%%
+[血氣之刃]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	102
+		`[dungeon type]`
+		`[static]`	4
+		`+`	2
+		`[swordman]`	102
+		`[dungeon type]`
+		`[level]`	3
+		`%`	35
+		`[swordman]`	102
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-30
+		`[swordman]`	102
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-9000
+		`[swordman]`	102
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[滅魂之手]力量 +35%%
+[滅魂之手]增加力量的持續時間 +50%%
+[滅魂之手]冷卻時間 -9秒
+[滅魂之手]噴發時多段攻擊次數 +2
+[滅魂之手]無色小晶塊消耗量 +1`
+[/piece set ability]

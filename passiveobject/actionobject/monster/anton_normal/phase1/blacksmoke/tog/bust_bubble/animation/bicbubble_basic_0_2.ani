@@ -1,0 +1,50 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_egg.img`
+		13
+	[IMAGE POS]
+		-380	-385
+	[IMAGE RATE]
+		1.2000000476837158	1.0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		260
+	[DAMAGE BOX]
+	-76	-70	-62	161	121	155
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_egg.img`
+		13
+	[IMAGE POS]
+		-380	-385
+	[IMAGE RATE]
+		1.399999976158142	1.2000000476837158
+	[INTERPOLATION]
+		1
+	[DELAY]
+		260
+	[DAMAGE BOX]
+	-76	-70	-62	161	121	155
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/phnom_egg.img`
+		13
+	[IMAGE POS]
+		-380	-385
+	[IMAGE RATE]
+		1.2000000476837158	1.0
+	[DELAY]
+		280
+	[DAMAGE BOX]
+	-76	-70	-62	161	121	155

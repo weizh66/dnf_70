@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	649
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3299	1
+[/int data]
+
+[exception quest]
+	`[urgent]`
+[/exception quest]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	440197	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`穿戴輔助裝備`
+
+[depend message]
+	`你已經獲得了穿戴輔助裝備的力量， 現在就差一件合適的裝備了。
+我可以為你準備一件這樣的裝備， 不過需要你替我找些材料。`
+
+[condition message]
+	`    收集1個[虛空魔石]交給艾麗絲。`
+
+[solve message]
+	`雖然這不是什么一流的裝備， 但對于你這種剛開始穿戴的人來說正合適。 趕緊試試吧！
+呵呵， 別失望嘛！ 你以后肯定還會遇到更強大的輔助裝備的。`
+
+[quest point]
+	4

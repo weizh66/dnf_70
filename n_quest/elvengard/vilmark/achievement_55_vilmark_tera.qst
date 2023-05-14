@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[monster reward item]
+	50070	1500	0	4161	3	50	1000	50070	1500	1	4161	3	60	1000	50070	1500	2	4161	3	70	1000	50070	1500	3	4161	3	83	1000	50072	1500	0	4162	3	50	1000	50072	1500	1	4162	3	60	1000	50072	1500	2	4162	3	70	1000	50072	1500	3	4162	3	83	1000	17	1500	0	4163	3	50	1000	17	1500	1	4163	3	60	1000	17	1500	2	4163	3	70	1000	17	1500	3	4163	3	83	1000
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4161	5	4162	5	4163	5	3205	10	3161	10
+[/int data]
+
+[dungeon info]
+	1500	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3220	10
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 最高級的武器材料`
+
+[depend message]
+	`泰拉石是所有鐵匠夢寐以求的極品材料， 用它打造的武器絕對是精品中的精品。 
+不過泰拉石非常稀有， 而且需要有很強的火焰和耐火材料才能強化它， 一般人不容易弄到那些東西的， 冒險家， 你愿意幫我嗎？ `
+
+[condition message]
+	`    前往洛蘭地區的『比爾馬克帝國試驗場』， 收集5個[瘋狂伊凡上校的火藥]、 5個[哈尼克的牙齒]、 5個[牛頭械王的碎片]、 10個[泰拉石]和10個[林納斯的鐵匠鋪使用券]。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`沒想到你真的弄來了這些材料， 真了不起！ `

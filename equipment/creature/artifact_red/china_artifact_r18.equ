@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`烈焰不死鳥之羽`
+
+[explain]
+	`攻擊時， 附加5%%的傷害。
+只有寵物裝備后，寵物裝備的屬性才會生效。`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	50
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_red_cn.img`	17
+
+[field image]
+	`Item/field_creature.img`	0
+
+[equipment type]
+	`[artifact red]`	15
+
+[sub type]
+	0
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[cool time]
+	10000
+
+[move wav]
+	`BONE_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

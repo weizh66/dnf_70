@@ -1,0 +1,177 @@
+#PVF_File
+
+[name]
+	`卡克瑪[活動]`
+
+[basic explain]
+	`攻擊時以 5%%的機率讓敵人呈現減速狀態
+不可解體，不可合成`
+
+[detail explain]
+	`攻擊時以5%%的機率讓敵人20秒內呈現鈍化狀態，移動速度減少16%%，攻擊速度減少16%%。 （高於Lv40的對象得到的機率和效果減少，低於Lv40的對象則會增加。）
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[flavor text]
+	`有名的暗殺者卡克瑪善用的刀`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	31
+
+[magical attack]
+	47
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	70400
+
+[repair price]
+	56320
+
+[value]
+	56320
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	399	361
+
+[equipment magical attack]
+	441	399
+
+[separate attack]
+	245	164
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	3
+
+[skill levelup]
+	`[swordman]`	13	1
+	`[swordman]`	16	1
+	`[swordman]`	75	1
+	`[common]`	188	1
+	`[demonic swordman]`	16	1
+	`[demonic swordman]`	13	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/katana.img`	20
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	3	3
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	3	3
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[active status]
+		`slow`	40	16	16
+[/then]
+
+[not amplify]
+	1
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

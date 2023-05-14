@@ -1,0 +1,138 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	11
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at priest]`	11
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at priest]`	11
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at priest]`	59
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	59
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at priest]`	59
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at priest]`	59
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at priest]`	59
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at priest]`	59
+		`[dungeon type]`
+		`[static]`	3
+		`%`	30
+		`[at priest]`	59
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[喚雷符]攻擊力 +25%%
+[喚雷符]落下距離 +30%%
+[和合之玉]攻擊力 +20%%
+[和合之玉]前進距離 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	66
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-33
+		`[at priest]`	66
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at priest]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at priest]`	60
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[at priest]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+		`[at priest]`	106
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at priest]`	106
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[聚魂吸星符]多段攻擊間隔 -33%%
+[聚魂吸星符]前進距離 +30%%
+[龍魂之怒]攻擊力 +35%%
+[龍魂之怒]落下距離 +25%%
+[龍魂之怒]冷卻時間 -35%%
+[縮地成寸]移動距離 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	67
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at priest]`	67
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[at priest]`	67
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	62
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[at priest]`	62
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at priest]`	62
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[奪命大念陣]攻擊力 +40%%
+[奪命大念陣]生成距離 +25%%
+[奪命大念陣]冷卻時間 -30%%
+[因果業火符]攻擊力 +40%%
+[因果業火符]前進距離 +20%%
+[因果業火符]冷卻時間 -25%%`
+[/piece set ability]

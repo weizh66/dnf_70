@@ -1,0 +1,85 @@
+#PVF_File
+
+[name]
+	`成長的新紀元下衣-布甲`
+
+[basic explain]
+	`隨著人物成長（最高成長到LV90）。`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[repair price]
+	5000
+
+[icon]
+	`Item/new_equipment/02_cloth/pants/cloth_pants.img`	62
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	13
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[level linear ability]
+	1	90
+	[grade]
+		1	90
+	[equipment physical defense]
+		244	136	2530	2460
+	[physical attack]
+		20	50
+	[magical attack]
+		30	85
+	[magical defense]
+		30	120
+[/level linear ability]
+
+[limit upgradable level]
+	`normal upgrade`	30	54
+	`amplify upgrade`	55	90
+[/limit upgradable level]
+
+[impossible contents]
+	`disjoint`
+	`gift`
+[/impossible contents]
+
+[set item master]
+	111600
+
+[possible kiri protect]

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	1751
+[/pre required quest]
+
+[type]
+	`[pvp rank]`
+
+[sub type]
+	0
+
+[int data]
+	11
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1753
+
+[name]
+	`成為高手之路 (1/2)`
+
+[depend message]
+	`你覺得自己的決斗技巧夠強了？ 可是在我眼里， 你的決斗技巧只是比那些和你決斗的菜鳥強一點而已。 也許我的話會讓你覺得很傷自尊， 但這是事實！
+我建議你到決斗等級2段后再來找我吧， 那時你會對決斗有更深的理解的。 `
+
+[condition message]
+	`    前往決斗場， 把決斗等級提升到2段后向阿爾伯特回復。`
+
+[solve message]
+	`還算不錯， 看來你有……兩下子……`
+
+[quest point]
+	4

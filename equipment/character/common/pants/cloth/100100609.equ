@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`上元節貼邊長裙`
+
+[basic explain]
+	`所有攻擊力 +5%%`
+
+[flavor text]
+	`該裝備可以通過合成進行升級。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[part set index]
+	12583
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	80
+
+[magical attack]
+	130
+
+[magical defense]
+	50
+
+[need material]
+	3826	1000
+
+[price]
+	86400
+
+[repair price]
+	345600
+
+[value]
+	345600
+
+[creation rate]
+	125
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	1060	970
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[all elemental attack]
+	12
+
+[icon]
+	`item/new_equipment/02_cloth/pants/cloth_pants.img`	65
+
+[field image]
+	`Item/field_equip.img`	1
+
+[equipment type]
+	`[pants]`	18
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	24
+
+[weight]
+	1100
+
+[item group name]
+	`cl pants`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	5
+	[stat by condition]
+		`magical attack bonus`
+		`%`	5
+	[stat by condition]
+		`separate attack`
+		`%`	5
+[/then]
+
+[possible kiri protect]

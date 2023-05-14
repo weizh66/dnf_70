@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	2
+
+[complete npc index]
+	19
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	4021
+[/pre required quest]
+
+[monster reward item]
+	63021	91	2	4713	1	50	1
+[/monster reward item]
+
+[quest point]
+	2
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4713	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`凈化女神殿`
+
+[depend message]
+	`雖然你身上的詛咒解除了， 但是只要神殿的詛咒還存在， 就有可能出現下一個受害者。 賽麗亞不想再看到有人變成‘夜叉’， 你能幫幫我嗎？
+據我了解， 美神維納斯的詛咒這么多年依然存在， 是因為這股力量寄存在祭祀阿索爾的身上。 以人作為媒介的詛咒十分強大， 很難被解除或者弱化。
+不過， GBL教有一種方法， 可以將力量封印起來。 我希望你能從阿索爾的身上找到詛咒晶石， 然后交給奧菲利亞。 拜托了， 冒險家！`
+
+[condition message]
+	`    把[詛咒晶石]交給奧菲利亞。 (詛咒晶石可以在王者級的GBL女神殿中獲得)`
+
+[solve message]
+	`原來這就是蘊含神之詛咒的晶石……我知道賽麗亞的意思， 我會把它封印起來的。
+冒險家， 現在你可以進入第二脊椎了， 不過我想那里還有更危險的怪物在等著你……`

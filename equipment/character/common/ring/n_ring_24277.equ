@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`黃龍紋戒指`
+
+[basic explain]
+	`被攻擊時以 10%% 的機率0.5秒內進入無敵狀態。`
+
+[detail explain]
+	`被攻擊時以10%%的機率0.5秒內進入無敵狀態。 （決鬥場不適用，以1%% 的機率發動勢力戰，打鬥吧）`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	44
+
+[magical attack]
+	44
+
+[stuck resistance]
+	30
+
+[hit recovery]
+	90
+
+[need material]
+	4732	50
+
+[repair price]
+	74592
+
+[value]
+	71040
+
+[equipment magical defense]
+	2592	2432
+
+[icon]
+	`Item/common/ring.img`	79
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	200
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[set item master]
+	20255
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[duration]
+		500
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[module]
+		`[assault]`
+	[/module]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		1
+	[duration]
+		500
+	[buff]
+		`unbreakable`
+[/then]
+
+[possible kiri protect]

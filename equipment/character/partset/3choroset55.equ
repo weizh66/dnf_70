@@ -1,0 +1,158 @@
+#PVF_File
+
+[set name]
+	`灼眼冰晶  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[mage]`	31
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[mage]`	56
+		`[dungeon type]`
+		`[static]`	2
+		`%`	10
+		`[mage]`	56
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2000
+	[/skill data up]
+	[parameter basic explain]
+		`[雷旋]攻擊力 +15%%
+[雷旋]大小 +15%%
+[冰牆]大小 +10%%
+[冰牆]持續時間 +2秒`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	17
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	600
+		`[mage]`	17
+		`[dungeon type]`
+		`[static]`	1
+		`+`	1
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-25
+		`[mage]`	17
+		`[dungeon type]`
+		`[level]`	3
+		`%`	-25
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[mage]`	16
+		`[dungeon type]`
+		`[static]`	5
+		`%`	-15
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[mage]`	55
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[mage]`	59
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[mage]`	59
+		`[dungeon type]`
+		`[static]`	5
+		`+`	3
+	[/skill data up]
+	[parameter basic explain]
+		`[光電鰻]冷卻時間 +0.6秒
+[光電鰻]發射數量 +1
+[光電鰻]持續時間 -25%%
+[冰霜雪人]攻擊力 +30%%
+[冰霜雪人]蓄氣時間上限 -15%%
+[天雷]攻擊力 +25%%
+[極冰盛宴]攻擊力 +25%%
+[極冰盛宴]攻擊范圍 +20%%
+[極冰盛宴]攻擊次數 +3`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	111
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[mage]`	111
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-75
+		`[mage]`	111
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[mage]`	111
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[mage]`	111
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[mage]`	111
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[mage]`	111
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[mage]`	111
+		`[dungeon type]`
+		`[level]`	9
+		`%`	20
+		`[mage]`	111
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[光電冰牆]冷卻時間 -50%%
+[光電冰牆]攻擊力 +20%%
+[光電冰牆]施放后僵直時間 -75%%
+[光電冰牆]MP消耗量 +20%%`
+[/piece set ability]

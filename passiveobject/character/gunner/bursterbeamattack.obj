@@ -1,0 +1,30 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Animation/BursterBeam/BursterBeamGroundAExplosion_00.act`
+
+[attack info]
+	`Attackinfo/BursterBeamGroundExplosionA.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	500
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	124998
+[/object destroy condition]

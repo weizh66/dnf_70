@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`迴旋鏢 4`
+	
+
+[explain]
+	`投擲時， 可以穿刺多個敵人， 並對每個敵人造成342點傷害。`
+	
+
+[grade]
+	26
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	25
+
+[icon]
+	`Item/IconMaterial.img`	38
+
+[field image]
+	`Item/FieldImage.img`	34
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	520
+
+[cool time]
+	2000
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50303	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Boomerang.ptl`
+[/string data]

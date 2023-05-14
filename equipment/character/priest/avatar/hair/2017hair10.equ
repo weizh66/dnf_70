@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`女聖騎頭部裝扮`
+
+[grade]
+	0
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`item/avatar/atpriest/pg_ahair.img`	3
+
+[equipment type]
+	`[hair avatar]`	0
+
+[animation job]
+	`[priest]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	800
+	`hair_b`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

@@ -1,0 +1,261 @@
+#PVF_File
+
+[name]
+	`戰神之怒`
+
+[basic explain]
+	`[機械改良]持續時間 -90秒
+[機械改良]力量和智力增加率 +40%%
+[空投支援]攻擊力 +30%%
+[Ez-8自爆者]爆炸大小比率 +20%%
+[Ez-8自爆者] 攻擊力+20%%
+[Ez-10反擊者]爆炸大小比率 +20%%
+[Ez-10反擊者]生成追擊者數量 +2
+[改裝 : G-1科羅納]攻擊力 +25%%
+[改裝 : G-2旋雷者]攻擊力 +25%%
+[改裝 : G-3捕食者]攻擊力 +25%%`
+
+[flavor text]
+	`  奧茲瑪， 我不甘心啊， 憑什么我們在外面出生入死， 卻落得這樣的下場！  --卡贊`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[stuck]
+	1
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	629	525
+
+[equipment magical attack]
+	923	770
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/automatic/automatic.img`	106
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	32	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	46
+	`[dungeon type]`
+	`[level]`	0
+	`+`	-90000
+	`[gunner]`	46
+	`[dungeon type]`
+	`[level]`	2
+	`%`	40
+	`[gunner]`	46
+	`[dungeon type]`
+	`[level]`	3
+	`%`	40
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	5
+	`%`	30
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	7
+	`%`	30
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	9
+	`%`	30
+	`[gunner]`	28
+	`[dungeon type]`
+	`[level]`	3
+	`%`	20
+	`[gunner]`	28
+	`[dungeon type]`
+	`[level]`	1
+	`%`	20
+	`[gunner]`	105
+	`[dungeon type]`
+	`[level]`	3
+	`%`	20
+	`[gunner]`	105
+	`[dungeon type]`
+	`[level]`	6
+	`+`	2
+	`[gunner]`	79
+	`[dungeon type]`
+	`[level]`	0
+	`%`	25
+	`[gunner]`	80
+	`[dungeon type]`
+	`[level]`	0
+	`%`	25
+	`[gunner]`	80
+	`[dungeon type]`
+	`[level]`	1
+	`%`	25
+	`[gunner]`	81
+	`[dungeon type]`
+	`[level]`	0
+	`%`	25
+	`[at gunner]`	46
+	`[dungeon type]`
+	`[level]`	0
+	`+`	-90000
+	`[at gunner]`	46
+	`[dungeon type]`
+	`[level]`	2
+	`%`	40
+	`[at gunner]`	46
+	`[dungeon type]`
+	`[level]`	3
+	`%`	40
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	5
+	`%`	30
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	7
+	`%`	30
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	9
+	`%`	30
+	`[at gunner]`	28
+	`[dungeon type]`
+	`[level]`	3
+	`%`	20
+	`[at gunner]`	28
+	`[dungeon type]`
+	`[level]`	1
+	`%`	20
+	`[at gunner]`	105
+	`[dungeon type]`
+	`[level]`	3
+	`%`	20
+	`[at gunner]`	105
+	`[dungeon type]`
+	`[level]`	6
+	`+`	2
+	`[at gunner]`	79
+	`[dungeon type]`
+	`[level]`	0
+	`%`	25
+	`[at gunner]`	80
+	`[dungeon type]`
+	`[level]`	0
+	`%`	25
+	`[at gunner]`	80
+	`[dungeon type]`
+	`[level]`	1
+	`%`	25
+	`[at gunner]`	81
+	`[dungeon type]`
+	`[level]`	0
+	`%`	25
+[/skill data up]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600711	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

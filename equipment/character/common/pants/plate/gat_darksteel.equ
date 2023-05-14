@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`幽冥玄鐵脛甲`
+
+[basic explain]
+	`被攻擊時，以3%%的機率使敵人進入失明狀態。`
+
+[detail explain]
+	`被攻擊時，有3%%的機率使敵人進入失明狀態9秒；失明狀態下的敵人，將減少90%%視野和20%%命中率。 (若敵人高於Lv55，則減少進入異常狀態的機率；反之，則增加機率)`
+
+[flavor text]
+	` 玄鐵如果處理不好，會讓你眼睛失明。-辛達，對GSD很畏懼的樣子（可是 GSD...）`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	27
+
+[physical defense]
+	29
+
+[magical attack]
+	27
+
+[price]
+	74400
+
+[repair price]
+	65620
+
+[value]
+	59520
+
+[equipment physical defense]
+	3500	3200
+
+[icon]
+	`Item/common/pants.img`	109
+
+[field image]
+	`Item/field_equip.img`	16
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	4100
+
+[item group name]
+	`mt pants`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		9000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		73
+	[active status]
+		`blind`	55	90	20
+[/then]
+
+[set item master]
+	11672
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

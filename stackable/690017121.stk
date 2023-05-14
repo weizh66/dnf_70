@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`豪華返饋禮包（二）`
+
+[explain]
+	`打開后，獲得如下道具：
+代幣券獎勵 * 2500
+強烈的氣息 * 200
+精致的裝備增幅保護券 * 1
+裝備品級調整箱 * 30`
+
+[flavor text]
+	`<新角色成長返饋>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[cool time]
+	100
+
+[icon]
+	`Item/stackable/consumption_cn.img`	1201
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[booster info]
+	[stackable]
+		1	88888889	100000	25
+	[/stackable]
+	[stackable]
+		1	3326	100000	200
+	[/stackable]
+	[stackable]
+		1	690017123	100000	1
+	[/stackable]
+	[stackable]
+		1	15	100000	30
+	[/stackable]
+[/booster info]

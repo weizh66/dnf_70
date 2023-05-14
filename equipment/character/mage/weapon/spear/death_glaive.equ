@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`悲鳴幽靈`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入詛咒狀態。
+攻擊速度增加1%%`
+
+[detail explain]
+	`攻擊時以3%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少27，體力減少27，智能減少27，精神力減少27。 (若敵人高於Lv10，則減少進入異常狀態的機率；反之，則增加機率。)`
+
+[grade]
+	14
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	10
+
+[physical attack]
+	20
+
+[attack speed]
+	-40
+
+[stuck]
+	-1
+
+[price]
+	22400
+
+[repair price]
+	17920
+
+[value]
+	2000
+
+[equipment physical attack]
+	216	168
+
+[equipment magical attack]
+	153	119
+
+[separate attack]
+	99	63
+
+[physical critical hit]
+	5
+
+[skill levelup]
+	`[mage]`	12	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/mage/spear.img`	22
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`curse`	10	27	27	27	27
+[/then]
+
+[possible kiri protect]

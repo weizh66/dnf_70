@@ -1,0 +1,220 @@
+#PVF_File
+
+[minimum info]
+	`臭水溝公主·帕麗絲`
+		1	3	0	1	60	0	0	1	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	10	30	10	30	50	50	50	30	30	60	30	30	30	30	30	30	0	30	30	30
+[/additional character status]
+
+[character status rate]
+	25	30	1	1	1	1	1	2	1	2	1	1	10	1	1	2	1	1	1	1	1	1	1	1	1	1	100	1	1	1	1	1	1	1	1	1	1	0.3	1	1	1
+[/character status rate]
+
+[quick skill]
+	14	10	46	10	38	2	75	2	76	1
+[/quick skill]
+
+[skill]
+	32	1	33	1	45	1	2	1	74	5	17	5	5	10	181	3	182	5	184	1	172	1	179	5	73	1	169	1	170	1	190	1	186	7	178	5	60	15	43	10	23	1	13	10	52	5	48	1	3	10
+[/skill]
+
+[quick item]
+	1025	500	6049	500	6049	500
+[/quick item]
+
+[equipment]
+	29701	1	0	10065	1	0	13655	1	0	15281	1	0	16481	1	0	17271	1	0	20091	1	0	24108	1	0	22072	1	0	43116	2	0	43557	2	0	43850	2	0	44299	2	0	44779	2	0	45175	2	0	45499	2	0	45955	2	0
+[/equipment]
+
+[think term]
+	300
+
+[destination change term]
+	500
+
+[keep distance with target]
+	100
+
+[warlike]
+	0
+
+[vision]
+	1000
+
+[appearance point]
+	0
+
+[pvp win point]
+	0	0
+
+[skill correction]
+	13	0.25	14	0.5	52	0.5	2	0	60	0.25
+[/skill correction]
+
+[default equipment]
+	0
+
+[attack damage rate]
+	0.05
+
+[targeting bonus]
+	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	100
+	`[down]`	0	100
+	`[bleeding]`
+	`[poison]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	`Basic_Combination`
+	`Basic_Combination.key`
+	`Venom_Mine_Combination`
+	`Venom_Mine_Combination.key`
+	`Hidden_Sting`
+	`Hidden_Sting.key`
+	`Mount`
+	`Mount.key`
+	`Block_Buster`
+	`Block_Buster.key`
+	`Upper`
+	`Upper.key`
+	`Enchant_Poison`
+	`Enchant_Poison.key`
+	`Dragon_Fear`
+	`Dragon_Fear.key`
+	`Double_Boomerang`
+	`Double_Boomerang.key`
+	`Double_Disk`
+	`Double_Disk.key`
+	`Double_Throw`
+	`Double_Throw.key`
+	`Helter_Skelter`
+	`Helter_Skelter.key`
+	`Throw_Web`
+	`Throw_Web.key`
+	`Crouch`
+	`Crouch.key`
+	`Quintuple_Boomerang`
+	`Quintuple_Boomerang.key`
+	`Quintuple_Disk`
+	`Quintuple_Disk.key`
+	`Subscript_Double_Mode`
+	`Subscript_Double_Mode.key`
+	`Subscript_Quintuple_Mode`
+	`Subscript_Quintuple_Mode.key`
+	`OneShot`
+	`OneShot.key`
+[/key stream]
+
+[key cooltime]
+	`Double_Disk`	5000
+	`Quintuple_Disk`	5000
+	`Double_Boomerang`	5000
+	`Quintuple_Boomerang`	5000
+	`Subscript_Double_Mode`	1000000
+	`Subscript_Quintuple_Mode`	1000000
+[/key cooltime]
+
+[speech on situation]
+	[on stand]
+		`決鬥……要贏了才有意義！`
+			5
+	[on die]
+		`你實力不錯啊……`
+			100
+	[on appear]
+		`喂~叫你呢，看什麼看？`
+			100
+	[on damage]
+		`實力不錯嘛~~`
+			15
+	[on damage]
+		`哼，就這點能力，失望~`
+			20
+	[on attack]
+		`決鬥不需要華麗的技術！`
+			35	1
+	[on attack]
+		`雖然個頭不大，但很強悍！`
+			35	1
+	[on attack]
+		`為了贏，也需要這種技巧！`
+			20	2
+	[on attack]
+		`感覺怎麼樣？酸痛嗎？`
+			20	2
+	[on attack]
+		`這就是機會！`
+			25	3
+	[on attack]
+		`到手的機會不要輕易放走！`
+			60	3
+	[on attack]
+		`兜裡要經常放塊磚~~`
+			25	4
+	[on attack]
+		`睡一會兒吧~`
+			25	4
+	[on attack]
+		`為了贏~放毒是基本中的基本！`
+			35	6
+	[on attack]
+		`過來……碰到了會很疼的！`
+			35	6
+	[on attack]
+		`猥瑣？哼~`
+			30	7
+	[on attack]
+		`如果有危險，什麼都可以用~`
+			30	7
+	[on attack]
+		`這次動真格了！`
+			30	8
+	[on attack]
+		`技術不行的話，道具總會用吧！`
+			30	8
+	[on attack]
+		`這個~很難躲哦？`
+			30	9
+	[on attack]
+		`來……看你怎麼躲~`
+			30	9
+	[on attack]
+		`阻礙對方的視野，也是必勝的關鍵之一~`
+			20	11
+	[on attack]
+		`眼睛可能會疼哦！`
+			20	11
+	[on attack]
+		`過來！`
+			30	12
+	[on attack]
+		`讓你見識下什麼叫地獄？`
+			30	12
+	[on key]
+		`要是中了這招，你就要拜拜了~`
+			30	14
+	[on key]
+		`嗯嗯，這種程度，躲不過就不正常了~`
+			30	14
+	[on key]
+		`如果這招你也能躲過，我就認了~`
+			30	15
+	[on key]
+		`如果覺得無法勝利，那就乾脆別決鬥~`
+			30	15
+	[on key]
+		`實力不錯，不過後街的決鬥才剛開始呢~`
+			100	16
+	[on key]
+		`我很欣賞你，但我要動真格了！`
+			100	17
+[/speech on situation]

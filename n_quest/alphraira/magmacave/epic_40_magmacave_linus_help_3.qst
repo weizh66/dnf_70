@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	24
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	413
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	4
+
+[int data]
+	34	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`布萊斯的遺憾`
+
+[depend message]
+	`這次你的目標還是熔巖穴， 不過難度稍微提高了點， 要求你不使用復活幣通關它， 有信心嗎？
+呃哼， 這是一個高難度的挑戰！ 那些怪物很強悍， 我試過幾次都沒有成功， 我一直很遺憾呢……希望你能完成！ `
+
+[condition message]
+	`    不使用復活幣通關暗黑城的『熔巖穴』， 要求地下城難度為王者級。`
+
+[solve message]
+	`哈哈， 好， 好， 有兩下子！ 我認可你！`
+
+[quest point]
+	4

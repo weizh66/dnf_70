@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`強化 - 鬼影閃`
+
+[explain]
+	`以極快的速度向前移動一段距離並斬擊敵人，但只能在[憑依]的前衝並進入無敵狀態時使用。
+被斬擊的敵人在一定時間內會進入禁錮狀態，狀態結束時會附加敵人暗屬性傷害。`
+
+[explain ex]
+	`技能每增加Lv1時被鬼影閃擊中的僵直時間大幅減少，2級開始鬼影閃的攻擊力增加。
+2級開始攻擊力增加量 : 10%%`
+
+[basic explain]
+	`以極快的速度向前移動一段距離並斬擊敵人，但只能在[憑依]的前衝並進入無敵狀態時使用。
+被斬擊的敵人在一定時間內會進入禁錮狀態，狀態結束時會附加敵人暗屬性傷害。`
+
+[basic explain ex]
+	`習得1級時，使用鬼影閃時的延遲會大幅度降低，從2級開始的鬼影閃攻擊力會增加。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	4
+[/special purchase cost]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[pre required skill]
+	60	10
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	10	0	5	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	314
+	`Character/Swordman/Effect/SkillIcon.img`	315
+
+[dungeon]
+	[static data]
+		300
+	[/static data]
+	[level info]
+		1	2160	2383	2606	2831	3054	3277	3500	3724	3948	4171	4394	4618	4841	5065	5288	5512	5735	5959	6182	6406	6629	6852	7076	7300	7523	7746	7969	8194	8417	8640	8863	9086	9311	9534	9757	9980	10204	10428	10651	10874	11098	11321	11545	11768	11992	12215	12439	12662	12886	13109	13332	13556	13779	14003	14226	14450	14673	14897	15120	15343	15567	15790	16014	16237	16461	16684	16908	17131	17355	17578
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	10
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		1	205	226	248	269	290	311	333	354	375	396	417	439	460	481	502	524	545	566	587	609	630	651	672	693	715	736	757	778	800	821	842	863	884	906	927	948	969	991	1012	1033	1054	1076	1097	1118	1139	1160	1182	1203	1224	1245	1267	1288	1309	1330	1351	1373	1394	1415	1436	1458	1479	1500	1521	1543	1564	1585	1606	1627	1649	1670
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魔法武器攻擊力 : <int>%%
+移動距離 : <int>px`	-1	0	1.0	0	0	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

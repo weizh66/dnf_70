@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	1708
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	5
+
+[int data]
+	14	2	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1048	3	1049	3	1050	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1710
+
+[name]
+	`精神修養之路 (協同)`
+
+[depend message]
+	`是不是覺得自己足夠強了？ 但個人再強也不會成為出色的武斗家， 以后你就會明白我說的話了。 現在你去找4個合適的人， 讓他們和你一起去挑戰黑暗玄廊吧！ `
+
+[condition message]
+	`    單人通關天空之城的『黑暗玄廊』， 要求地下城難度為王者級。`
+
+[solve message]
+	`有所領悟嗎？ ……如果沒有……就辜負了我對你的期待。 `
+
+[quest point]
+	4

@@ -1,0 +1,102 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-148	-297
+	[RGBA]
+		63	146	198	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-148	-297
+	[RGBA]
+		63	146	198	204
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-148	-297
+	[RGBA]
+		63	146	198	153
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-148	-297
+	[RGBA]
+		63	146	198	101
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-148	-297
+	[RGBA]
+		63	146	198	50
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		0
+	[IMAGE POS]
+		-148	-297
+	[RGBA]
+		63	146	198	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME006]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

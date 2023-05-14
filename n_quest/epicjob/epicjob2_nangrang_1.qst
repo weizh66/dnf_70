@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 神龍天女 (1/2)`
+
+[depend message]
+	`歡迎你！ 看來漫長的旅途讓你非常疲憊啊， 你能坐在這里聽我說幾句話嗎？
+你是不是想問這里怎么變得空蕩蕩了？ 哎， 自從教團宣布尊奉使徒米歇爾為守護神后， 對教團產生反感的大批圣職者就離開了。
+你怎么不說話？ 你對教團的這個決定有什么看法？ 難道你……也想離開教團？
+我知道你很難回答， 我理解你的心情。 因為一開始我也很難接受這個決定， 但很多信徒卻選擇了這個決定……而且從目前的局勢來看， 這個決定是正確的。
+我不想強迫你接受我的想法， 我只是希望你能留在教團， 把團結的理念傳播到阿拉德的每個角落。 如果圣職者們因為這件事而發生分裂， 圣職者的信徒們會更加彷徨的。
+謝謝你耐心聽我嘮叨。 在你踏上更遠的旅途前， 我想給你看看‘神龍天女’秘典， 請隨我來吧。`
+
+[condition message]
+	`    如果要進行二次覺醒并做好了準備， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`這本秘典是一位修為高深的先人留給教團的， 先人要求教團把這本秘典交給有資格的人。 現在， 我認為你已經具備了這個資格！`
+
+[pre required quest]
+	2924
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12849
+
+[job change quest]
+	3
+
+[grow number]
+	0

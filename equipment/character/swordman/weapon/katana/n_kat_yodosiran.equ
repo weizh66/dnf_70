@@ -1,0 +1,164 @@
+#PVF_File
+
+[name]
+	`西嵐的妖刀`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入眩暈狀態。
+攻擊速度增加1%%`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人5秒內陷入氣絕狀態。 (若敵人高於Lv40，則減少進入異常狀態的機率；反之，則增加機率)
+攻擊速度增加1%%`
+
+[flavor text]
+	`阿拉德最強劍士西嵐使用過的妖刀， 據傳西嵐因不滿它散發的妖氣，而把它深埋地下。`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	31
+
+[magical attack]
+	47
+
+[attack speed]
+	90
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	70400
+
+[repair price]
+	56320
+
+[value]
+	56320
+
+[creation rate]
+	30
+
+[equipment physical attack]
+	399	361
+
+[equipment magical attack]
+	441	399
+
+[separate attack]
+	245	164
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	25	2
+	`[swordman]`	44	1
+	`[demonic swordman]`	44	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/katana.img`	21
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		2
+	[active status]
+		`stun`	40
+[/then]
+
+[possible kiri protect]

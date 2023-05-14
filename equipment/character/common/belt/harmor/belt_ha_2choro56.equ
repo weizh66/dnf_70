@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`加持的殘忍之弒矽鋼腰帶 : [星落打]`
+
+[basic explain]
+	`[星落打]冷卻時間 -8%%
+[星落打]MP消耗量 -8%%`
+
+[flavor text]
+	`    收集[惡魔結晶]可以對2期勇者裝備進行改造， 提升裝備的基本攻擊力、 防御力和基本屬性； Lv70以上的角色可以穿戴。 (需消耗杜羅西處出售的勇者裝備改造券)`
+
+[grade]
+	53
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ha waist`
+
+[rarity]
+	5
+
+[anti evil]
+	28
+
+[weight]
+	1400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/common/belt.img`	126
+
+[field image]
+	`Item/field_equip.img`	13
+
+[equipment type]
+	`[waist]`	17
+
+[sub type]
+	3
+
+[durability]
+	26
+
+[repair price]
+	37396
+
+[value]
+	3712
+
+[cool time]
+	10000
+
+[HP MAX]
+	73
+
+[MP MAX]
+	33
+
+[physical attack]
+	19
+
+[physical defense]
+	14
+
+[magical attack]
+	11
+
+[equipment physical defense]
+	928	880
+
+[stuck resistance]
+	10
+
+[inventory limit]
+	3000
+
+[MP regen speed]
+	1
+
+[hit recovery]
+	10
+
+[skill data up]
+	`[priest]`	41
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-8
+	`[priest]`	41
+	`[dungeon type]`
+	`[mp]`	0
+	`%`	-8
+[/skill data up]
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[emancipate]
+	[input]
+		3290	35
+	[/input]
+	[output]
+		310173	1
+	[/output]
+	[emancipate explain]
+		`物防小幅增加
+屬性小幅提升
+提升HP、 MP最大值`
+[/emancipate]
+
+[possible kiri protect]

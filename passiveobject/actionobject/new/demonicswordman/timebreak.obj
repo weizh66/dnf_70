@@ -1,0 +1,34 @@
+#PVF_File
+
+[name]
+	`DarkBurst`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/None.ani`
+
+[etc motion]
+	`Animation/TimeBreak_DS/TimeBreak_Boom_HitNormal.ani`
+[/etc motion]
+
+[etc attack info]
+	`AttackInfo/TimeBreakBoom.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

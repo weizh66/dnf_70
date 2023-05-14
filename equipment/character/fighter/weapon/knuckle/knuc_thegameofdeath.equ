@@ -1,0 +1,190 @@
+#PVF_File
+
+[name]
+	`死神的調戲`
+
+[basic explain]
+	`攻擊時， 有1%%的幾率使敵人進入詛咒狀態。
+被攻擊時， 有1%%的幾率出現驅散效果。`
+
+[detail explain]
+	`    攻擊時， 有1%%的幾率使敵人進入詛咒狀態8秒； 詛咒狀態下的敵人， 將減少72點力量、 體力、 智力和精神。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    攻擊時， 有1%%的幾率出現驅散效果。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`knuckle`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	1900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	64
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	39
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[HP MAX]
+	150
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	658	603
+
+[separate attack]
+	360	243
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		12000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		8000
+	[probability]
+		1
+	[active status]
+		`curse`	60	72	72	72	72
+[/then]
+
+[skill levelup]
+	`[fighter]`	15	2
+	`[fighter]`	79	3
+	`[at fighter]`	15	2
+	`[at fighter]`	79	3
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2790
+	`knucklec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`knuckleb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2150
+	`at_knucklea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_knucklec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_knucklex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[light attack]
+	8
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		1
+	[disenchant]
+		1
+[/then]
+
+[routing priority]
+	`fighter`	1
+[/routing priority]
+
+[possible kiri protect]

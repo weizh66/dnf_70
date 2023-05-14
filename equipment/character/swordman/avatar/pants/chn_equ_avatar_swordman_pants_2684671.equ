@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`可口可樂休閑短褲`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_apants.img`	89
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[usable period]
+	30
+
+[avatar func filter]
+	0
+
+[sub type]
+	0
+
+[jump power]
+	20
+
+[room list move speed rate]
+	0.1
+
+[variation]
+	27	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

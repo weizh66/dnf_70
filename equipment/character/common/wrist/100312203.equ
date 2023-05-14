@@ -1,0 +1,492 @@
+#PVF_File
+
+[name]
+	`瘟疫之源手鐲`
+
+[basic explain]
+	`強化或增幅數值每+1時， 使自身增加1%%的物理暴擊率和魔法暴擊率。強化或增幅+11以上時， 使自身增加30點力量和智力， 並且強化或增幅數值每+1時， 額外再增加30點力量和智力。攻擊時， 有3%%的幾率使敵人進入出血狀態。`
+
+[detail explain]
+	`強化或增幅數值每+1時， 使自身增加1%%的物理暴擊率和魔法暴擊率。 (最多增加150點)攻擊時，有3%%的幾率使敵人進入出血狀態4秒；出血狀態下的敵人，每0.5秒受到1200點傷害。(若敵人高於Lv90，則減少進入異常狀態的幾率和效果；反之，則增加幾率和效果)`
+
+[flavor text]
+	`目前為止， 因為這樣而喪生的人還在少數嗎？ 就連亡者之靈都能被感染……`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12548
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	36
+
+[physical defense]
+	90
+
+[need material]
+	3824	30
+
+[price]
+	108000
+
+[value]
+	86400
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4752	4416
+
+[bleeding resistance]
+	30
+
+[icon]
+	`item/new_equipment/09_bracelet/bracelet.img`	132
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[wrist]`	20
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[dynamic part set index]
+	11121	12546	12547	12548	12549
+[/dynamic part set index]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	1	0
+		`amplify`
+		`=`	1	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	1
+	[stat by condition]
+		`physical critical hit`
+		`+`	1
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	2	0
+		`amplify`
+		`=`	2	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	2
+	[stat by condition]
+		`physical critical hit`
+		`+`	2
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	3	0
+		`amplify`
+		`=`	3	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	3
+	[stat by condition]
+		`physical critical hit`
+		`+`	3
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	4	0
+		`amplify`
+		`=`	4	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	4
+	[stat by condition]
+		`physical critical hit`
+		`+`	4
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	5	0
+		`amplify`
+		`=`	5	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	5
+	[stat by condition]
+		`physical critical hit`
+		`+`	5
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	6	0
+		`amplify`
+		`=`	6	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	6
+	[stat by condition]
+		`physical critical hit`
+		`+`	6
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	7	0
+		`amplify`
+		`=`	7	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	7
+	[stat by condition]
+		`physical critical hit`
+		`+`	7
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	8	0
+		`amplify`
+		`=`	8	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	8
+	[stat by condition]
+		`physical critical hit`
+		`+`	8
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	9	0
+		`amplify`
+		`=`	9	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	9
+	[stat by condition]
+		`physical critical hit`
+		`+`	9
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`>=`	10	0
+		`amplify`
+		`>=`	10	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`magical critical hit`
+		`+`	10
+	[stat by condition]
+		`physical critical hit`
+		`+`	10
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[duration]
+		4000
+	[active status]
+		`bleeding`	90	9600
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	11	0
+		`amplify`
+		`=`	11	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	30
+	[stat by condition]
+		`magical attack`
+		`+`	30
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	12	0
+		`amplify`
+		`=`	12	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	60
+	[stat by condition]
+		`magical attack`
+		`+`	60
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	13	0
+		`amplify`
+		`=`	13	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	90
+	[stat by condition]
+		`magical attack`
+		`+`	90
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	14	0
+		`amplify`
+		`=`	14	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	120
+	[stat by condition]
+		`magical attack`
+		`+`	120
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`>=`	15	0
+		`amplify`
+		`>=`	15	0
+	[/equipment upgrade]
+	[time]
+		500	1	500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	150
+	[stat by condition]
+		`magical attack`
+		`+`	150
+[/then]
+
+[possible kiri protect]

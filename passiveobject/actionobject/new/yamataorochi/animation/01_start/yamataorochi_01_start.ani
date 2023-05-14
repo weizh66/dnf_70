@@ -1,0 +1,218 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	17
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	2
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	2
+	[DELAY]
+		80
+	[PLAY SOUND]
+		`YAMATAOROCHI_SUMMON`
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	2
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		0
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[ATTACK BOX]
+	-155	-35	-2	299	70	221
+
+[FRAME004]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		1
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-143	-15	-21	291	30	297
+
+[FRAME005]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		2
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-155	-15	-8	313	30	299
+
+[FRAME006]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		3
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[SET FLAG]
+		1
+	[ATTACK BOX]
+	-165	-15	-22	310	30	315
+
+[FRAME007]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		4
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-175	-15	-50	343	30	352
+
+[FRAME008]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		5
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[ATTACK BOX]
+	-166	-15	-50	332	30	350
+
+[FRAME009]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		6
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME010]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		7
+	[IMAGE POS]
+		-171	-348
+	[INTERPOLATION]
+		1
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME011]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		7
+	[IMAGE POS]
+		-171	-348
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME012]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		8
+	[IMAGE POS]
+		-171	-348
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME013]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		8
+	[IMAGE POS]
+		-171	-348
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME014]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		9
+	[IMAGE POS]
+		-171	-348
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME015]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		9
+	[IMAGE POS]
+		-171	-348
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME016]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_BodyAppear.img`
+		10
+	[IMAGE POS]
+		-171	-348
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

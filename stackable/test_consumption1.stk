@@ -1,0 +1,69 @@
+#PVF_File
+
+[name]
+	`測試消耗品1`
+	
+
+[explain]
+	`使用時需要 無色小晶塊 1個`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	241
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	600000
+
+[cooltime group]
+	30
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`+`	600	5000
+	`myself`
+
+[cooltime maintenance]
+	1	1	1
+
+[consume item]
+	3037	1
+[/consume item]
+
+[effect maintenance]
+	1	1	1	1
+
+[stat change]
+	`+`	100
+	`physical attack`
+[/stat change]
+
+[stat change duration]
+	60000
+	`myself`

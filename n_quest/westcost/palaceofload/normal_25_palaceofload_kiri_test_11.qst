@@ -1,0 +1,58 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	7
+
+[int data]
+	15	-1	90
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	10852	1	11252	1	10453	1	10063	1	11630	1
+[/reward selection int data]
+
+[name]
+	`凱麗的測試`
+
+[depend message]
+	`只有在地下城中獲得高評分的人， 才能說是基礎扎實的人。 你有信心能在城主宮殿中獲得高評分嗎？`
+
+[condition message]
+	`    通關天空之城的『城主宮殿』， 要求連擊殺傷率達到90%以上。`
+
+[solve message]
+	`實力不錯嘛， 基礎很扎實！`

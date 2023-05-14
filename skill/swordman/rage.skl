@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`激怒`
+
+[basic explain]
+	`揮動武器將敵人挑空之後，用二刀流攻擊敵人並在空間上留下劍痕，最終，上挑斬會伴隨著滯留空間的劍痕一同將敵人撕裂。`
+
+[explain]
+	`揮動武器將敵人挑空之後，用二刀流攻擊敵人並在空間上留下劍痕，最終，上挑斬會伴隨著滯留空間的劍痕一同將敵人撕裂。`
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	0	0	0	20	0	20
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[consume MP]
+	450	1500
+
+[cool time]
+	45000	45000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	564
+	`Character/Swordman/Effect/SkillIcon.img`	565
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令:←↓→ + Z`
+
+[static data]
+	0
+[/static data]
+
+[dungeon]
+	[level info]
+		3	1238	361	4063	1364	397	4273	1489	434	4482	1615	471	4692	1740	507	4901	1866	544	5110	1992	581	5320	1117	617	5529	1243	654	5739	1369	690	5948	1494	727	6157	1620	764	6367	1746	800	6576	1871	837	6786	1997	874	6995	2122	910	7204	2248	947	7414	2374	984	7623	2499	1020	7833	2625	1057	8042
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`砸地攻擊力:<int>
+亂刀攻擊力:<int>
+終結攻擊力:<int>`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

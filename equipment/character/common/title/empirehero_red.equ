@@ -1,0 +1,205 @@
+#PVF_File
+
+[name]
+	`猴年大吉（力）`
+
+[explain]
+	`    攻擊時，有10%%的機率消耗1個無色小晶塊，增加30點力量，20點體力，以及5%%的攻擊速度，5%%的移動速度，效果持續30秒。（冷卻時間30秒）
+    施放技能時，有10%%的機率消耗1個無色小晶塊，增加30點力量，20點體力，以及5%%的攻擊速度，5%%的移動速度，效果持續30秒。（決斗場內持續時間15秒，冷卻時間60秒）`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	183
+
+[custom animation]
+	`TitleAnimation/empire_red.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	200
+
+[physical attack]
+	50
+
+[physical defense]
+	50
+
+[equipment physical attack]
+	100	100
+
+[separate attack]
+	100	100
+
+[anti evil]
+	110
+
+[all activestatus resistance]
+	15
+
+[MP regen speed]
+	15
+
+[move speed]
+	50
+
+[attack speed]
+	50
+
+[cast speed]
+	50
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		10
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`physical defense`
+		`+`	20
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[cooltime]
+		45000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		10
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`physical defense`
+		`+`	20
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`physical defense`
+		`+`	20
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	1
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[probability]
+		1
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`physical defense`
+		`+`	20
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[physical critical hit]
+	10
+
+[move wav]
+	`NAME_TOUCH`
+
+[all elemental attack]
+	25

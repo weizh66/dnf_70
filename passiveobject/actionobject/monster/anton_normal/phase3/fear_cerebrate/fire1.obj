@@ -1,0 +1,35 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/Casting_fire_drop1.act`
+
+[name]
+	`青?石巨人的子?`
+
+[attack info]
+	`AttackInfo/Damage.atk`
+
+[etc action]
+	`Action/floor.act`
+[/etc action]
+
+[etc attack info]
+	`AttackInfo/Damage1.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[team]
+	100

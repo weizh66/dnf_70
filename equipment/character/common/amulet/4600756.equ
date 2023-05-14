@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`封·精煉的混沌魔石項鏈`
+
+[basic explain]
+	`    裝備後， 每30秒會使自身進入混亂狀態， 效果持續30秒。
+  當自身處於混亂狀態時， 會增加20%%的攻擊傷害。`
+
+[flavor text]
+	`    甲 : 混沌！ 毀傷！ 遺忘！
+    乙 : 說人話！
+    甲 : 世界原是混沌的， 後來有了人， 然後經歷了很多事後毀滅了， 毀滅自然會有傷亡， 而且還狗血的失憶了， 也就是遺忘……`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12560
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	37
+
+[magical defense]
+	93
+
+[need material]
+	3821	1000
+
+[price]
+	127400
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	8160	7440
+
+[icon]
+	`Item/new_equipment/08_necklace/necklace.img`	109
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		100	1	100
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[active status]
+		`confuse`	91	1
+[/then]
+
+[if]
+	[my active status]
+		`confuse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

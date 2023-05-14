@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5190
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	63	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5192
+
+[name]
+	`勇者 - 好奇心旺盛的青年的母親 (1/2)`
+
+[depend message]
+	`嗯……我聽說有個地方可以和哥布林王國媲美， 就是被巴卡爾的魔力支配的天空之城！
+我真想親自去那看看， 可惜我有事去不了。 呃， 我可不是因為母親吩咐的事太多才走不開的， 我是真的有別的事……
+如果你能幫我打聽蠕動之城是否真的會蠕動， 我將感激不盡。 快去吧， 說不定我還會送你一個很棒的禮物！`
+
+[condition message]
+	`    通關異次元裂縫的『蠕動之城』。`
+
+[solve message]
+	`嗯。 原來蠕動之城并不是真的會蠕動……
+那為什么叫蠕動之城呢……總之， 謝啦~`
+
+[quest point]
+	4

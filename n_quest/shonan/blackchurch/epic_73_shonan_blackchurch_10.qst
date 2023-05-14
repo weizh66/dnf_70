@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	73	99
+
+[pre required quest]
+	4158
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	73	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`追趕阿斯塔羅斯2`
+
+[depend message]
+	`阿斯塔羅斯要跑掉了嗎？大概是逃去找奧茲瑪了，
+奧茲瑪或許已經和他在一起了，快點去追阿斯特羅斯吧！`
+
+[condition message]
+	`進入黑暗聖殿追趕阿斯塔羅斯後，和西嵐談話（該任務只能單獨進行，而且進行地下城時不可放棄的任務。）`
+
+[solve message]
+	`魔法師對嗎… `
+
+[dialog]
+	0	0	15377	0	0	0	0
+	`<monster::62141>竟然又把我關起來…… 憑我現在的力量，充分能夠支配這個世界！
+<npc::1028>…
+<npc::1014>噢… 奧茲瑪！！
+你對奧茲瑪做了什麼呢？ 魔法師！！我不會原諒你！！`
+[/dialog]
+
+[quest point]
+	4

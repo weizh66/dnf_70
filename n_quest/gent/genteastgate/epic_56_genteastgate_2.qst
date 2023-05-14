@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	56	99
+
+[pre required quest]
+	4212
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	81	-1	61113	1	7
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	7119	1	7129	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`阻止機動隊入侵`
+
+[depend message]
+	`看來根特東門的情況正如冒險家所說， 敵人的機動隊已經到達了。
+但我們能夠戰斗的大多數皇都軍正在進行內墻的修理工作， 還沒做好戰斗準備。
+冒險家， 你能去阻止一下機動隊嗎？ 幫我們爭取一些時間就可以。`
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特東門』， 除掉7名卡勒特機動隊員。`
+
+[solve message]
+	`冒險家， 多虧你幫忙， 我們總算準備好戰斗了。 現在， 該是我們踏入戰場的時候了， 真的非常感謝你！`
+
+[quest point]
+	4

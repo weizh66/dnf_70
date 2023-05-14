@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5928
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3299	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	24164	1	24165	1	24166	1	24167	1	24168	1	24169	1
+[/reward selection int data]
+
+[name]
+	`重領高科技戒指`
+
+[depend message]
+	`你還想再要一枚高科技戒指？
+沒問題， 我再給你制作一個吧！ 不過老規矩， 你得先去收集一些虛空魔石給我。`
+
+[condition message]
+	`    收集[虛空魔石]。`
+
+[solve message]
+	`這個給你。
+我現在有些事， 售后服務什么的你就自己搞定吧！`

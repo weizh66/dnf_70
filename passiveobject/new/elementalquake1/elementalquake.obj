@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`元素之幕`
+
+[floating height]
+	1
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ElementalQuake/MagicCircle.ani`
+
+[etc motion]
+	`Animation/ElementalQuake/QuakeBottom_Crack.ani`
+[/etc motion]
+
+[string data]
+	`PassiveObject/Character/Mage/Animation/ElementalQuake/Quake_GlowBeam.ani`
+[/string data]
+
+[attack info]
+	`AttackInfo/ElementalQuakeAttack.atk`

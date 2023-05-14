@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`FC5`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[width]
+	30	0
+
+[basic action]
+	`Action/FC5.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1500
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

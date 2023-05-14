@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+	`萬圣節哥布林爆炸頭 (神槍手)`
+
+[flavor text]
+	`<2010萬圣節派對活動裝扮>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[gunner]`
+[/usable job]
+
+[minimum level]
+	1
+
+[usable period]
+	15
+
+[icon]
+	`item/avatar/gunner/gn_acap.img`	248
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar func filter]
+	0
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[physical attack]
+	10
+
+[magical attack]
+	10
+
+[variation]
+	85	0
+
+[layer variation]
+	2500
+	`cap_c`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[character name y revision]
+	25	30

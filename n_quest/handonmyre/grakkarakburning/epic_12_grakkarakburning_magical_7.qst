@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[target character]
+	`[at mage]`	-1	-1
+	`[mage]`	-1	-1
+[/target character]
+
+[level]
+	13	99
+
+[pre required quest]
+	536
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	8	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	33961	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神奇的魔法 - 最后的冒險`
+
+[depend message]
+	`小魔法師， 這是你在格蘭之森的最后一次冒險。 還記得之前見過的克拉赫吧？ 她的姐姐彼諾修在烈焰格拉卡出現了， 我聽說彼諾修善用火焰魔法攻擊對手， 很多冒險家都遭到她的毒手了！
+如果你碰到她， 一定要小心啊。 `
+
+[condition message]
+	`    通關格蘭之森的『烈焰格拉卡』， 要求地下城難度為王者級。`
+
+[solve message]
+	`你這段時間成長了很多， 我很高興。 雖然你年紀很小， 但是你的魔法修為已遠遠超過了很多人， 我很期待你日后的表現。
+還有， 以后你要是想學習魔法技能了就來找我。 當你成長到Lv20時， 我會告訴你轉職的方法。 `
+
+[quest point]
+	4

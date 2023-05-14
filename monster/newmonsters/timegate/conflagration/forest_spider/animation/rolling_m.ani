@@ -1,0 +1,63 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/timegate/conflagration/forest_spider.img`
+		22
+	[IMAGE POS]
+		-255	-407
+	[DELAY]
+		20
+	[ATTACK BOX]
+	-61	-10	15	120	20	110
+	[DAMAGE BOX]
+	-61	-8	17	120	16	106
+
+[FRAME001]
+	[IMAGE]
+		`Monster/timegate/conflagration/forest_spider.img`
+		22
+	[IMAGE POS]
+		-324	-336
+	[IMAGE ROTATE]
+		-1.570796012878418
+	[DELAY]
+		20
+	[ATTACK BOX]
+	-61	-10	15	120	20	110
+	[DAMAGE BOX]
+	-61	-8	17	120	16	106
+
+[FRAME002]
+	[IMAGE]
+		`Monster/timegate/conflagration/forest_spider.img`
+		22
+	[IMAGE POS]
+		-254	-265
+	[IMAGE ROTATE]
+		-3.1415929794311523
+	[DELAY]
+		20
+	[ATTACK BOX]
+	-61	-10	15	120	20	110
+	[DAMAGE BOX]
+	-61	-8	17	120	16	106
+
+[FRAME003]
+	[IMAGE]
+		`Monster/timegate/conflagration/forest_spider.img`
+		22
+	[IMAGE POS]
+		-183	-336
+	[IMAGE ROTATE]
+		-4.71238899230957
+	[DELAY]
+		20
+	[ATTACK BOX]
+	-61	-10	15	120	20	110
+	[DAMAGE BOX]
+	-61	-8	17	120	16	106

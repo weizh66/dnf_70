@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`和平的吶喊`
+
+[explain]
+	`    使用後， 可以防止街頭爭霸， 效果持續30分鐘。 發起或接受挑戰後的10分鐘內， 無法使用和平的吶喊。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	30
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	395
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[expert town potion]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	1800000
+
+[move wav]
+	`POTION_TOUCH`
+
+[cooltime maintenance]
+	1	1	1
+
+[effect maintenance]
+	1	1	1	0
+
+[stat change duration]
+	1800000
+	`myself`

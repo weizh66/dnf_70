@@ -1,0 +1,37 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Sacrifice_Circle_0.ani`
+	[SUB ANI]
+		`../Animation/Sacrifice_Circle_e.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		100
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			70320
+		[/IS INDEX]
+		[DISTANCE]
+		[<=]
+			100
+		[CHECKED NO]
+		[<=]
+			0
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

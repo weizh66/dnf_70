@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	925
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	31398	1	31696	1	31101	1	31993	1	32295	1
+[/reward selection int data]
+
+[relation quest]
+	927
+
+[name]
+	`覺醒 - 狂暴者 (2/4)`
+
+[depend message]
+	`話說這個通信裝置， 也不知道是誰發明的， 真是超級重啊！ 不過只要你帶上它， 就差不多算是一個狂暴者了。
+現在你知道我剛才為什么夸你力氣大了吧？ 呵呵~就因為這東西一般人真拿不動~
+嘿， 你有信心扛著它橫掃戰場嗎？`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`扛一個這么重的家伙， 竟然還讓你贏了？ 真是了不起啊！`

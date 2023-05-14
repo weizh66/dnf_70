@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	56
+
+[complete npc index]
+	65
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	4037
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	65
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`開往無法地帶的列車`
+
+[depend message]
+	`雖然你給我帶來了這么重要的消息， 可是因為我們才剛剛收復根特， 如果要立即把所有兵力都轉移到無法地帶的話， 恐怕會有很大的風險， 所以還需要時間部署。
+而且， 這個情報的真實性也值得懷疑……我暫時還不敢盲目地做決定。
+不過， 即使皇都正規軍不能離開根特， 我也希望冒險家們組成的傭兵團能先前往霧都赫伊斯偵查， 如果確定了皇女就在那里， 到時候我們的正規軍就能即刻出發。
+這件事我已經跟貝倫提過， 讓他盡快在原航班表里加入赫伊斯， 這樣你們去那里也比較方便。 我想他現在應該準備得差不多了。`
+
+[condition message]
+	`    找貝倫·博內哥特咨詢新的列車航線。`
+
+[solve message]
+	`喲， 歡迎歡迎。 新航線已開通， 你想去哪呢？`
+
+[quest point]
+	4

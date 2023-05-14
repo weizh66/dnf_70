@@ -1,0 +1,131 @@
+#PVF_File
+
+[name]
+	`復蘇之風戰鐮`
+
+[grade]
+	94
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	61
+
+[magical attack]
+	61
+
+[attack speed]
+	80
+
+[stuck]
+	1
+
+[repair price]
+	135360
+
+[value]
+	135360
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	859	811
+
+[equipment magical attack]
+	904	854
+
+[separate attack]
+	541	368
+
+[physical critical hit]
+	2
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	2
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/priest/scythe/scythe.img`	141
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	48	1
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

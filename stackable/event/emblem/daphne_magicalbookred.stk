@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	``
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	342
+
+[stackable type]
+	`[waste]`	0
+
+[appendage group]
+	0
+
+[cool time]
+	600000
+
+[cooltime group]
+	200
+
+[move wav]
+	`BOOK_TOUCH`
+
+[stat change]
+	`+`	35
+	`physical attack`
+	`+`	35
+	`physical defense`
+	`+`	35
+	`magical attack`
+	`+`	35
+	`magical defense`
+[/stat change]
+
+[stat change duration]
+	600000
+	`myself`

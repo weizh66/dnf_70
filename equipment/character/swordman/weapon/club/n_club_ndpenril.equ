@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`猛毒爪牙棒`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入中毒狀態
+被攻擊時，以10%%的機率噴射毒氣。`
+
+[detail explain]
+	`攻擊時以3%%的機率7秒內讓敵人呈現中毒狀態，每0.5秒以121的攻擊力給予傷害。 (若敵人高於Lv35，則減少進入異常狀態的機率；反之，則增加機率)
+ 被攻擊時，有10%%的機率噴射毒氣。`
+
+[flavor text]
+	` 用毒貓王的毒爪製造的鈍器。`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	35
+
+[physical attack]
+	37
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[price]
+	51800
+
+[repair price]
+	41440
+
+[value]
+	207200
+
+[equipment physical attack]
+	365	348
+
+[equipment magical attack]
+	315	300
+
+[separate attack]
+	164	109
+
+[skill levelup]
+	`[swordman]`	8	1
+	`[demonic swordman]`	8	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/swordman/club.img`	16
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		12600
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[active status]
+		`poison`	35	1700
+[/then]
+
+[possible kiri protect]

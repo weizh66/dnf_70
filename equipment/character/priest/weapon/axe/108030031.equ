@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	`靈魂切斷機`
+
+[basic explain]
+	`攻擊速度 +3%%
+施展落鳳錘，疾風打，斷空捶擊，狂亂錘擊，疾空旋風破時以50%% 的機率施展Lv 4增加的技能 `
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[attack speed]
+	-50
+
+[stuck]
+	-2
+
+[price]
+	151200
+
+[repair price]
+	127008
+
+[value]
+	120960
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	965	905
+
+[equipment magical attack]
+	683	641
+
+[separate attack]
+	481	327
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	87
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	26	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[if]
+	[event use skill]
+		`priest`	11
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`priest`	11	4
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	85
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`priest`	85	4
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	111
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`priest`	111	4
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	49
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`priest`	49	4
+	[/skill levelup]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	5
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[skill levelup]
+		`priest`	5	4
+	[/skill levelup]
+[/then]
+
+[possible kiri protect]

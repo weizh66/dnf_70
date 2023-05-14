@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`覺醒材料禮盒`
+
+[explain]
+	`提供給沒有覺醒秘笈的角色。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption_cn.img`	530
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster info]
+	[stackable]
+		1	3039	100000	10
+	[/stackable]
+	[stackable]
+		1	3040	100000	10
+	[/stackable]
+	[stackable]
+		1	3155	100000	100
+	[/stackable]
+	[stackable]
+		1	3150	100000	100
+	[/stackable]
+	[stackable]
+		1	3229	100000	100
+	[/stackable]
+	[stackable]
+		1	3187	100000	200
+	[/stackable]
+[/booster info]

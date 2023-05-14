@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`黃色春季校服短裙 (法師)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/mage/mg_apants.img`	166
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[variation]
+	52	2
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[HP MAX]`
+	`+`	150
+	`[MP MAX]`
+	`+`	150
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`
+	`+`	300
+[/avatar select ability]
+
+[image packs]
+	`Character/Mage/Equipment/Avatar/pants/mg_pants0702d.img`
+[/image packs]

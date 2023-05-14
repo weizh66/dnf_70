@@ -1,0 +1,21 @@
+#PVF_File
+
+[name]
+	`BloodSnatchGround`
+
+[pass type]
+	`[pass all]`
+
+[layer]
+	`[bottom]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/BloodSnatchEffect/BloodSnatchBoomB_02.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

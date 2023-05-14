@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`經驗膠囊（LV.39）`
+
+[explain]
+	`使用後，角色立刻獲得當前等級50%%經驗值。
+（只有角色等級在LV.39時才可以使用）`
+
+[flavor text]
+	`<越戰越勇禮盒>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	39
+
+[maximum level]
+	39
+
+[icon]
+	`Item/stackable/consumption.img`	925
+
+[stackable type]
+	`[etc]`	0
+
+[item group name]
+	`potion`
+
+[move wav]
+	`POTION_TOUCH`
+
+[stack limit]
+	100
+
+[increase status type]
+	`[expUp]`	1182171
+[/increase status type]

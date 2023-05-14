@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`傳承： 幻象天使之墨石拳套`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入眩暈狀態。`
+
+[detail explain]
+	`攻擊時以2%%的機率讓敵人2秒內陷入氣絕狀態。 （比Lv35高的目標陷入狀態機率較低，比 Lv35低的目標陷入狀態機率較高。決鬥場修正為 1秒）`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	35
+
+[physical attack]
+	34
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	59200
+
+[repair price]
+	236800
+
+[equipment physical attack]
+	349	332
+
+[equipment magical attack]
+	315	300
+
+[separate attack]
+	164	109
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	8
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[spectrum]
+	50	20	200	200	500
+
+[required skill]
+	34
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		2
+	[active status]
+		`stun`	35
+[/then]
+
+[all skill item]
+	[item growtype]
+		`[fighter]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			35
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[all skill item]
+	[item growtype]
+		`[at fighter]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			35
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[value]
+	39800
+
+[possible kiri protect]

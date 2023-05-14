@@ -1,0 +1,97 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	3
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gun blader]`	3
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gun blader]`	3
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[gun blader]`	3
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[gun blader]`	3
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	3
+		`[dungeon type]`
+		`[static]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[連續射擊]攻擊力 +20%%
+[連續射擊]冷卻時間 -20%%
+[連續射擊]攻擊范圍 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gun blader]`	44
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	46
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[精準射擊]攻擊力 +30%%
+[精準射擊]冷卻時間 -30%%
+[鎖定射擊]冷卻時間 -20%%
+[特工使命]技能攻擊力增加率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gun blader]`	44
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[gun blader]`	44
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[gun blader]`	7
+		`[dungeon type]`
+		`[static]`	10
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[精準射擊]施放時連續射擊兩次
+[精準射擊]攻擊力 -20%%
+[精準射擊]冷卻時間 -20%%
+[鎖定射擊]攻擊力 +30%%
+[鎖定射擊]射程 +30%%`
+[/piece set ability]
+
+[partset specific growtype]
+	2

@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`(舊) 玄冰散靈`
+
+[basic explain]
+	`    攻擊時， 有2%%的幾率使自身和周圍隊員的武器屬性變成冰屬性， 效果持續60秒。`
+
+[flavor text]
+	`    用坎納克山的冰精靈力量制成的手套。`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`knuckle`
+
+[rarity]
+	4
+
+[weight]
+	1900
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	36
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	39
+
+[price]
+	80000
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[magical attack]
+	15
+
+[equipment physical attack]
+	445	384
+
+[equipment magical attack]
+	538	465
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[variation]
+	2	1
+
+[layer variation]
+	2600
+	`glovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

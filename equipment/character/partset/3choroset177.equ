@@ -1,0 +1,83 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	86
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[gun blader]`	86
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[能量飛魚彈]攻擊力 +25%%
+[能量飛魚彈]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	400
+		`[gun blader]`	91
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-80
+		`[gun blader]`	91
+		`[dungeon type]`
+		`[level]`	1
+		`%`	160
+		`[gun blader]`	92
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-35
+	[/skill data up]
+	[parameter basic explain]
+		`[電磁領域]多段攻擊力 +400%%
+[電磁領域]多段攻擊次數 -4次
+[電磁領域]能量釋放時間 -80%%
+[電磁領域]爆炸攻擊力 +160%%
+[光導裂地斬]冷卻時間 -35%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	92
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[gun blader]`	92
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+		`[gun blader]`	92
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[gun blader]`	96
+		`[dungeon type]`
+		`[level]`	0
+		`%`	400
+		`[gun blader]`	96
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-90
+		`[gun blader]`	96
+		`[dungeon type]`
+		`[level]`	1
+		`%`	190
+	[/skill data up]
+	[parameter basic explain]
+		`[光導裂地斬]攻擊力 +50%%
+[光導裂地斬]冷卻時間 -25%%
+[離散能量波]多段攻擊力 +400%%
+[離散能量波]多段攻擊次數 -9次
+[離散能量波]能量釋放時間 -90%%
+[離散能量波]爆炸攻擊力 +190%%`
+[/piece set ability]

@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5780
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[quest point]
+	10
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	13106
+[/int data]
+
+[dungeon info]
+	85	2
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`英雄 - 大決戰`
+
+[depend message]
+	`在你的幫助下， 我們終于做好了萬全的準備， 現在可以向敵軍所在區域發動全面攻擊了。
+皇都守備隊已經前往作戰區， 請你快去和他們匯合吧！`
+
+[condition message]
+	`    獨自一人前往安特貝魯峽谷的『追擊殲滅戰』， 與皇都守備軍匯合， 要求地下城難度為王者級。`
+
+[solve message]
+	`敵人終于被擊退了， 現在可以松一口氣啦！
+或許今后還會遇到同樣的事情， 但眼下我們總算平安地度過這個最大的危機。
+真不知道該如何表達我的感激之情……我想哥哥在天之靈也能安息了。
+啊~謝謝！ 真的非常感謝你！`
+
+[dialog]
+	0	0	13106	0	0	0	0
+	`<apc::10625>我軍已經做好準備。
+請下達指令。
+全軍聽令！ 進攻！`
+[/dialog]

@@ -1,0 +1,134 @@
+#PVF_File
+
+[set name]
+	`赤心之啟示  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	43
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-400
+		`[priest]`	43
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	43
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[priest]`	107
+		`[dungeon type]`
+		`[level]`	2
+		`+`	2000
+		`[priest]`	53
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	53
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[純白之刃]冷卻時間 -0.4秒
+[純白之刃]攻擊力 +10%%
+[天使祝福]魔法武器攻擊力 +20%%
+[天使祝福]智力 +10%%
+[圣光十字]Buff持續時間 +2`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	73
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1300
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[priest]`	73
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[priest]`	28
+		`[dungeon type]`
+		`[cooltime]`	3
+		`%`	-10
+		`[priest]`	74
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	74
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	81
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[勝利之矛]冷卻時間 -1.3秒
+[勝利之矛]攻擊力 +15%%
+[圣光球]冷卻時間 -10%%
+[懺悔之錘]攻擊力 +20%%
+[正義審判]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	109
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[priest]`	109
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	109
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[priest]`	109
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[priest]`	108
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-100
+		`[priest]`	108
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[priest]`	108
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[priest]`	108
+		`[dungeon type]`
+		`[static]`	4
+		`+`	4
+	[/skill data up]
+	[parameter basic explain]
+		`[雙子沁盾]冷卻時間 -30%%
+[雙子沁盾]攻擊力 +10%%
+[雙子沁盾]盾壁的HP +20%%
+[圣光琉璃碎]取消技能持續時間
+[圣光琉璃碎]冷卻時間 -30%%
+[圣光琉璃碎]粒子攻擊力 +20%%
+[圣光琉璃碎]增加粒子數量`
+[/piece set ability]

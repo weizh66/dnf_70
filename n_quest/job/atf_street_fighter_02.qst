@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7893
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	503	-1
+[/int data]
+
+[dungeon info]
+	503	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7895
+
+[name]
+	`轉職 - 街霸 (2/3)`
+
+[depend message]
+	`我可以教你一些街霸的技巧。 不過……我很擔心你的生命安全。
+剛才我也說了， 街霸是一項非常危險的職業。 如果因為我的緣故， 你選擇了錯誤的道路， 最后還弄丟了性命。 這對不起我武道家的頭銜。
+雖然你不會輕易改變心意， 但是我也有自己的原則。 如果你不能向我證明你可以在惡劣的環境中生存， 那有關街霸的事， 以后就不要再提了。`
+
+[condition message]
+	`    獨自一人通關格蘭之森的『亡月雷鳴廢墟』。`
+
+[solve message]
+	`看來你為了成為街霸， 付出了很多努力……`

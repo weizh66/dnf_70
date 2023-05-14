@@ -1,0 +1,786 @@
+#PVF_File
+
+[name]
+	`逆時空之越界鋒刃`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率對敵人施放毀滅之塔伊奧利的吸魂球。 (冷卻時間0.1秒)
+    攻擊被吸魂球吸附的敵人時， 會追加15%%的傷害。
+    擊殺被吸魂球吸附的敵人時， 會使所有技能的冷卻時間減少5%%。 (冷卻時間1秒)`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率對敵人施放毀滅之塔伊奧利的吸魂球。 (冷卻時間0.1秒)
+    攻擊被吸魂球吸附的敵人時， 會追加15%%的傷害。
+    擊殺被吸魂球吸附的敵人時， 會使所有技能的冷卻時間減少5%%。 (冷卻時間1秒)`
+
+[flavor text]
+	`    ‘我是不是穿越了?’`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	857	759
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/thief/dagger/dagger.img`	149
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[duration]
+		20000
+	[passive object]
+		16089	0	0	0	99	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[appendage]
+		689
+[/then]
+
+[if]
+	[my appendage]
+		689
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[my appendage]
+		689
+	[target death]
+		1
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		1
+		`%`	-5
+	[skill cooltime reset]
+		2
+		`%`	-5
+	[skill cooltime reset]
+		3
+		`%`	-5
+	[skill cooltime reset]
+		5
+		`%`	-5
+	[skill cooltime reset]
+		8
+		`%`	-5
+	[skill cooltime reset]
+		9
+		`%`	-5
+	[skill cooltime reset]
+		10
+		`%`	-5
+	[skill cooltime reset]
+		11
+		`%`	-5
+	[skill cooltime reset]
+		12
+		`%`	-5
+	[skill cooltime reset]
+		13
+		`%`	-5
+	[skill cooltime reset]
+		14
+		`%`	-5
+	[skill cooltime reset]
+		15
+		`%`	-5
+	[skill cooltime reset]
+		16
+		`%`	-5
+	[skill cooltime reset]
+		17
+		`%`	-5
+	[skill cooltime reset]
+		18
+		`%`	-5
+	[skill cooltime reset]
+		19
+		`%`	-5
+	[skill cooltime reset]
+		20
+		`%`	-5
+	[skill cooltime reset]
+		21
+		`%`	-5
+	[skill cooltime reset]
+		22
+		`%`	-5
+	[skill cooltime reset]
+		23
+		`%`	-5
+	[skill cooltime reset]
+		24
+		`%`	-5
+	[skill cooltime reset]
+		25
+		`%`	-5
+	[skill cooltime reset]
+		26
+		`%`	-5
+	[skill cooltime reset]
+		27
+		`%`	-5
+	[skill cooltime reset]
+		28
+		`%`	-5
+	[skill cooltime reset]
+		29
+		`%`	-5
+	[skill cooltime reset]
+		30
+		`%`	-5
+	[skill cooltime reset]
+		31
+		`%`	-5
+	[skill cooltime reset]
+		32
+		`%`	-5
+	[skill cooltime reset]
+		33
+		`%`	-5
+	[skill cooltime reset]
+		34
+		`%`	-5
+	[skill cooltime reset]
+		35
+		`%`	-5
+	[skill cooltime reset]
+		39
+		`%`	-5
+	[skill cooltime reset]
+		37
+		`%`	-5
+	[skill cooltime reset]
+		38
+		`%`	-5
+	[skill cooltime reset]
+		36
+		`%`	-5
+	[skill cooltime reset]
+		38
+		`%`	-5
+	[skill cooltime reset]
+		40
+		`%`	-5
+	[skill cooltime reset]
+		41
+		`%`	-5
+	[skill cooltime reset]
+		42
+		`%`	-5
+	[skill cooltime reset]
+		43
+		`%`	-5
+	[skill cooltime reset]
+		44
+		`%`	-5
+	[skill cooltime reset]
+		45
+		`%`	-5
+	[skill cooltime reset]
+		46
+		`%`	-5
+	[skill cooltime reset]
+		47
+		`%`	-5
+	[skill cooltime reset]
+		48
+		`%`	-5
+	[skill cooltime reset]
+		49
+		`%`	-5
+	[skill cooltime reset]
+		50
+		`%`	-5
+	[skill cooltime reset]
+		51
+		`%`	-5
+	[skill cooltime reset]
+		52
+		`%`	-5
+	[skill cooltime reset]
+		53
+		`%`	-5
+	[skill cooltime reset]
+		54
+		`%`	-5
+	[skill cooltime reset]
+		55
+		`%`	-5
+	[skill cooltime reset]
+		56
+		`%`	-5
+	[skill cooltime reset]
+		57
+		`%`	-5
+	[skill cooltime reset]
+		58
+		`%`	-5
+	[skill cooltime reset]
+		59
+		`%`	-5
+	[skill cooltime reset]
+		60
+		`%`	-5
+	[skill cooltime reset]
+		61
+		`%`	-5
+	[skill cooltime reset]
+		62
+		`%`	-5
+	[skill cooltime reset]
+		63
+		`%`	-5
+	[skill cooltime reset]
+		64
+		`%`	-5
+	[skill cooltime reset]
+		65
+		`%`	-5
+	[skill cooltime reset]
+		66
+		`%`	-5
+	[skill cooltime reset]
+		67
+		`%`	-5
+	[skill cooltime reset]
+		68
+		`%`	-5
+	[skill cooltime reset]
+		69
+		`%`	-5
+	[skill cooltime reset]
+		70
+		`%`	-5
+	[skill cooltime reset]
+		71
+		`%`	-5
+	[skill cooltime reset]
+		72
+		`%`	-5
+	[skill cooltime reset]
+		73
+		`%`	-5
+	[skill cooltime reset]
+		74
+		`%`	-5
+	[skill cooltime reset]
+		75
+		`%`	-5
+	[skill cooltime reset]
+		76
+		`%`	-5
+	[skill cooltime reset]
+		77
+		`%`	-5
+	[skill cooltime reset]
+		78
+		`%`	-5
+	[skill cooltime reset]
+		79
+		`%`	-5
+	[skill cooltime reset]
+		80
+		`%`	-5
+	[skill cooltime reset]
+		81
+		`%`	-5
+	[skill cooltime reset]
+		82
+		`%`	-5
+	[skill cooltime reset]
+		83
+		`%`	-5
+	[skill cooltime reset]
+		84
+		`%`	-5
+	[skill cooltime reset]
+		85
+		`%`	-5
+	[skill cooltime reset]
+		86
+		`%`	-5
+	[skill cooltime reset]
+		87
+		`%`	-5
+	[skill cooltime reset]
+		88
+		`%`	-5
+	[skill cooltime reset]
+		89
+		`%`	-5
+	[skill cooltime reset]
+		90
+		`%`	-5
+	[skill cooltime reset]
+		91
+		`%`	-5
+	[skill cooltime reset]
+		92
+		`%`	-5
+	[skill cooltime reset]
+		93
+		`%`	-5
+	[skill cooltime reset]
+		94
+		`%`	-5
+	[skill cooltime reset]
+		95
+		`%`	-5
+	[skill cooltime reset]
+		96
+		`%`	-5
+	[skill cooltime reset]
+		97
+		`%`	-5
+	[skill cooltime reset]
+		98
+		`%`	-5
+	[skill cooltime reset]
+		99
+		`%`	-5
+	[skill cooltime reset]
+		100
+		`%`	-5
+	[skill cooltime reset]
+		101
+		`%`	-5
+	[skill cooltime reset]
+		102
+		`%`	-5
+	[skill cooltime reset]
+		103
+		`%`	-5
+	[skill cooltime reset]
+		104
+		`%`	-5
+	[skill cooltime reset]
+		105
+		`%`	-5
+	[skill cooltime reset]
+		106
+		`%`	-5
+	[skill cooltime reset]
+		107
+		`%`	-5
+	[skill cooltime reset]
+		108
+		`%`	-5
+	[skill cooltime reset]
+		109
+		`%`	-5
+	[skill cooltime reset]
+		110
+		`%`	-5
+	[skill cooltime reset]
+		111
+		`%`	-5
+	[skill cooltime reset]
+		112
+		`%`	-5
+	[skill cooltime reset]
+		113
+		`%`	-5
+	[skill cooltime reset]
+		114
+		`%`	-5
+	[skill cooltime reset]
+		115
+		`%`	-5
+	[skill cooltime reset]
+		116
+		`%`	-5
+	[skill cooltime reset]
+		117
+		`%`	-5
+	[skill cooltime reset]
+		118
+		`%`	-5
+	[skill cooltime reset]
+		119
+		`%`	-5
+	[skill cooltime reset]
+		120
+		`%`	-5
+	[skill cooltime reset]
+		121
+		`%`	-5
+	[skill cooltime reset]
+		122
+		`%`	-5
+	[skill cooltime reset]
+		123
+		`%`	-5
+	[skill cooltime reset]
+		124
+		`%`	-5
+	[skill cooltime reset]
+		125
+		`%`	-5
+	[skill cooltime reset]
+		126
+		`%`	-5
+	[skill cooltime reset]
+		127
+		`%`	-5
+	[skill cooltime reset]
+		128
+		`%`	-5
+	[skill cooltime reset]
+		129
+		`%`	-5
+	[skill cooltime reset]
+		130
+		`%`	-5
+	[skill cooltime reset]
+		132
+		`%`	-5
+	[skill cooltime reset]
+		131
+		`%`	-5
+	[skill cooltime reset]
+		133
+		`%`	-5
+	[skill cooltime reset]
+		134
+		`%`	-5
+	[skill cooltime reset]
+		135
+		`%`	-5
+	[skill cooltime reset]
+		136
+		`%`	-5
+	[skill cooltime reset]
+		137
+		`%`	-5
+	[skill cooltime reset]
+		138
+		`%`	-5
+	[skill cooltime reset]
+		139
+		`%`	-5
+	[skill cooltime reset]
+		140
+		`%`	-5
+	[skill cooltime reset]
+		141
+		`%`	-5
+	[skill cooltime reset]
+		142
+		`%`	-5
+	[skill cooltime reset]
+		143
+		`%`	-5
+	[skill cooltime reset]
+		144
+		`%`	-5
+	[skill cooltime reset]
+		145
+		`%`	-5
+	[skill cooltime reset]
+		146
+		`%`	-5
+	[skill cooltime reset]
+		147
+		`%`	-5
+	[skill cooltime reset]
+		148
+		`%`	-5
+	[skill cooltime reset]
+		149
+		`%`	-5
+	[skill cooltime reset]
+		150
+		`%`	-5
+	[skill cooltime reset]
+		151
+		`%`	-5
+	[skill cooltime reset]
+		152
+		`%`	-5
+	[skill cooltime reset]
+		153
+		`%`	-5
+	[skill cooltime reset]
+		154
+		`%`	-5
+	[skill cooltime reset]
+		155
+		`%`	-5
+	[skill cooltime reset]
+		156
+		`%`	-5
+	[skill cooltime reset]
+		157
+		`%`	-5
+	[skill cooltime reset]
+		158
+		`%`	-5
+	[skill cooltime reset]
+		159
+		`%`	-5
+	[skill cooltime reset]
+		160
+		`%`	-5
+	[skill cooltime reset]
+		161
+		`%`	-5
+	[skill cooltime reset]
+		162
+		`%`	-5
+	[skill cooltime reset]
+		163
+		`%`	-5
+	[skill cooltime reset]
+		164
+		`%`	-5
+	[skill cooltime reset]
+		165
+		`%`	-5
+	[skill cooltime reset]
+		166
+		`%`	-5
+	[skill cooltime reset]
+		167
+		`%`	-5
+	[skill cooltime reset]
+		168
+		`%`	-5
+	[skill cooltime reset]
+		169
+		`%`	-5
+	[skill cooltime reset]
+		170
+		`%`	-5
+	[skill cooltime reset]
+		171
+		`%`	-5
+	[skill cooltime reset]
+		172
+		`%`	-5
+	[skill cooltime reset]
+		173
+		`%`	-5
+	[skill cooltime reset]
+		174
+		`%`	-5
+	[skill cooltime reset]
+		175
+		`%`	-5
+	[skill cooltime reset]
+		176
+		`%`	-5
+	[skill cooltime reset]
+		177
+		`%`	-5
+	[skill cooltime reset]
+		178
+		`%`	-5
+	[skill cooltime reset]
+		179
+		`%`	-5
+	[skill cooltime reset]
+		180
+		`%`	-5
+	[skill cooltime reset]
+		181
+		`%`	-5
+	[skill cooltime reset]
+		182
+		`%`	-5
+	[skill cooltime reset]
+		183
+		`%`	-5
+	[skill cooltime reset]
+		184
+		`%`	-5
+	[skill cooltime reset]
+		185
+		`%`	-5
+	[skill cooltime reset]
+		186
+		`%`	-5
+	[skill cooltime reset]
+		187
+		`%`	-5
+	[skill cooltime reset]
+		188
+		`%`	-5
+	[skill cooltime reset]
+		189
+		`%`	-5
+	[skill cooltime reset]
+		190
+		`%`	-5
+	[skill cooltime reset]
+		191
+		`%`	-5
+	[skill cooltime reset]
+		192
+		`%`	-5
+	[skill cooltime reset]
+		193
+		`%`	-5
+	[skill cooltime reset]
+		194
+		`%`	-5
+	[skill cooltime reset]
+		195
+		`%`	-5
+	[skill cooltime reset]
+		196
+		`%`	-5
+	[skill cooltime reset]
+		197
+		`%`	-5
+	[skill cooltime reset]
+		198
+		`%`	-5
+	[skill cooltime reset]
+		199
+		`%`	-5
+	[skill cooltime reset]
+		200
+		`%`	-5
+	[skill cooltime reset]
+		201
+		`%`	-5
+	[skill cooltime reset]
+		202
+		`%`	-5
+	[skill cooltime reset]
+		203
+		`%`	-5
+	[skill cooltime reset]
+		204
+		`%`	-5
+[/then]
+
+[possible kiri protect]

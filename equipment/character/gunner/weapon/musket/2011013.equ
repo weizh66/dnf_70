@@ -1,0 +1,902 @@
+#PVF_File
+
+[name]
+	`代號N ： 神諭`
+
+[basic explain]
+	`所有技能攻擊力 +30%%
+全部TP +1`
+
+[detail explain]
+	`所有技能攻擊力 +30%%
+全部TP +1`
+
+[flavor text]
+	`“神諭”，作戰功能!`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	75
+
+[magical attack]
+	112
+
+[attack speed]
+	50
+
+[price]
+	100000000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1120	1120
+
+[equipment magical attack]
+	974	974
+
+[separate attack]
+	686	686
+
+[physical critical hit]
+	25
+
+[magical critical hit]
+	25
+
+[anti evil]
+	22
+
+[skill levelup]
+	`[gunner]`	163	1
+	`[gunner]`	227	1
+	`[gunner]`	150	1
+	`[gunner]`	223	1
+	`[gunner]`	151	1
+	`[gunner]`	162	1
+	`[gunner]`	225	1
+	`[gunner]`	224	1
+	`[gunner]`	226	1
+	`[gunner]`	228	1
+	`[at gunner]`	152	1
+	`[at gunner]`	163	1
+	`[at gunner]`	227	1
+	`[at gunner]`	151	1
+	`[at gunner]`	150	1
+	`[at gunner]`	223	1
+	`[at gunner]`	225	1
+	`[at gunner]`	162	1
+	`[at gunner]`	224	1
+	`[at gunner]`	226	1
+	`[at gunner]`	228	1
+	`[at gunner]`	156	1
+	`[at gunner]`	229	1
+	`[gunner]`	21	3
+	`[at gunner]`	21	3
+[/skill levelup]
+
+[icon]
+	`Item/wuqi.img`	13
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	50	0
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	50	0
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	47
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	4
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	27
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	12
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	14
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	6
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	37
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	33
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	7
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	13
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	56
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	8
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	23
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	22
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	32
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	10
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	11
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	26
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	20
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	60
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	66
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	64
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	101
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	44
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	21
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	34
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	73
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	74
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	40
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	39
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	62
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	36
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	41
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	75
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	45
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	71
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	54
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	65
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	107
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	50
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	46
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	28
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	42
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	79
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	80
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	29
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	43
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	81
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	63
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	59
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	83
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	68
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	67
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	105
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	106
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	82
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	2
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	31
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	110
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	76
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	48
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	57
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	49
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	1
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	52
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	58
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	109
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	77
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	53
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	78
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	70
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	69
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	103
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	102
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	163
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	227
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	150
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	223
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	162
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	225
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[gunner]`	156
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	47
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	4
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	27
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	12
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	14
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	6
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	37
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	33
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	7
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	13
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	56
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	8
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	23
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	22
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	32
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	10
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	11
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	26
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	20
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	60
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	66
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	64
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	101
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	44
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	21
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	34
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	73
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	74
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	40
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	39
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	62
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	36
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	41
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	75
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	45
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	71
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	54
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	65
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	107
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	50
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	46
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	28
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	42
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	79
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	80
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	29
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	43
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	81
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	63
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	59
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	83
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	68
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	67
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	105
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	106
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	82
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	2
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	31
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	110
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	76
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	48
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	57
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	49
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	1
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	52
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	58
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	109
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	77
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	53
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	78
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	70
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	69
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	103
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	102
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	163
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	227
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	150
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	223
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	162
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	225
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+	`[at gunner]`	156
+	`[dungeon type]`
+	`[level]`	0
+	`%`	30
+[/skill data up]
+
+[possible kiri protect]

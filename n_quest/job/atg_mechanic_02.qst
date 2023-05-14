@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7874
+[/pre required quest]
+
+[collision quest]
+	7867	7871	7877
+[/collision quest]
+
+[monster reward item]
+	3001	13	-1	4199	1	100	2
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4199	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7876
+
+[name]
+	`轉職 - 機械師 (2/3)`
+
+[depend message]
+	`咦？ ‘馬柏斯的仆人’怎么搖搖晃晃的？ 而且還完全不能啟動。
+喂喂喂， 馬柏斯的仆人快給我醒醒！
+糟了， 沒反應……得趕緊修好才行。 你也別閑著啊， 快去幫忙收集些維修材料……
+對了， 你要特別留意一種叫強大魔力火種的材料， 如果看到它， 一定要帶回來給我。`
+
+[condition message]
+	`    前往天空之城的『石巨人塔』， 收集2個[強大魔力火種]交給凱麗。`
+
+[solve message]
+	`怎么樣， 找到了嗎？`

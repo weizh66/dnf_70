@@ -1,0 +1,225 @@
+#PVF_File
+
+[name]
+	`雷霆驚日棍`
+
+[basic explain]
+	`[磚襲]背擊敵人時， 增加50%%的眩暈幾率。
+[磚襲]投擲時， 眩暈幾率 +10%%
+[伏虎霸王拳]攻擊力 +30%%`
+
+[detail explain]
+	`    [磚襲]背擊敵人時， 增加50%%的眩暈幾率。
+[磚襲]投擲時， 眩暈幾率 +10%%
+[伏虎霸王拳]攻擊力 +30%% (在決斗場中 +15%%)`
+
+[flavor text]
+	`    如同雷霆般瞬間擊向敵人， 因此有了這個名字。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`tonfa`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	33
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	39
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	505	460
+
+[equipment physical defense]
+	570	560
+
+[equipment magical attack]
+	532	484
+
+[separate attack]
+	328	220
+
+[stuck resistance]
+	30
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[fighter]`	60	3
+	`[at fighter]`	60	3
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`TONFA_TOUCH`
+
+[skill data up]
+	`[fighter]`	60
+	`[all]`
+	`[static]`	0
+	`+`	100
+	`[fighter]`	14
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[fighter]`	14
+	`[all]`
+	`[level]`	1
+	`%`	30
+	`[at fighter]`	60
+	`[all]`
+	`[level]`	3
+	`+`	100
+	`[at fighter]`	60
+	`[all]`
+	`[level]`	8
+	`+`	100
+	`[at fighter]`	14
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[at fighter]`	14
+	`[all]`
+	`[level]`	1
+	`%`	30
+[/skill data up]
+
+[pvp]
+	[skill data up]
+		`[fighter]`	60
+		`[all]`
+		`[static]`	0
+		`+`	100
+		`[fighter]`	14
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[fighter]`	14
+		`[all]`
+		`[level]`	1
+		`%`	15
+		`[at fighter]`	14
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[at fighter]`	14
+		`[all]`
+		`[level]`	1
+		`%`	15
+	[/skill data up]
+[/pvp]
+
+[routing priority]
+	`fighter`	3
+	`at fighter`	3
+[/routing priority]
+
+[possible kiri protect]

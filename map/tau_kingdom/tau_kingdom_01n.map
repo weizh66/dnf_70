@@ -1,0 +1,331 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3700
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`FF FF`
+
+[tile]
+	`Tile/ForestOver.til`
+	`Tile/ForestOverUnder.til`
+	`Tile/ForestUnder.til`
+	`Tile/ForestUnderOver.til`
+	`Tile/ForestOverUnder.til`
+	`tile/ForestUnder.til`
+	`tile/ForestUnder.til`
+	`tile/ForestUnder.til`
+	`tile/ForestUnder.til`
+	`tile/ForestUnder.til`
+	`tile/ForestUnderOver.til`
+	`tile/ForestOverUnder.til`
+	`tile/ForestUnder.til`
+	`tile/ForestUnder.til`
+	`tile/ForestUnderOver.til`
+[/tile]
+
+[extended tile]
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+	`tile/tileex00.til`
+[/extended tile]
+
+[far sight scroll]
+	56
+
+[middle sight scroll]
+	90
+
+[near sight scroll]
+	110
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/far0.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+	[ani info]
+		[filename]
+			`Animation/mid0.ani`
+		[layer]
+			`[middleback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	12	242	3354	306
+
+[sound]
+	`M_GRAKKARAK`
+	`AMB_FOREST_03`
+[/sound]
+
+[animation]
+	`Animation/smallTree1.ani`
+	`[close]`	2	471	0
+	`Animation/Tree0.ani`
+	`[normal]`	164	104	0
+	`Animation/Tree4.ani`
+	`[normal]`	34	132	0
+	`Animation/smallTree1.ani`
+	`[normal]`	47	209	0
+	`Animation/Stone0.ani`
+	`[normal]`	577	229	0
+	`Animation/Stone0.ani`
+	`[normal]`	595	249	0
+	`Animation/smallTree1.ani`
+	`[normal]`	41	274	0
+	`Animation/Stone0.ani`
+	`[normal]`	554	179	0
+	`Animation/Stone0.ani`
+	`[normal]`	1010	200	0
+	`Animation/smallTree1.ani`
+	`[normal]`	9	325	0
+	`Animation/Tree1.ani`
+	`[closeback]`	993	168	0
+	`Animation/BurntTree6.ani`
+	`[closeback]`	307	150	0
+	`Animation/BurntTree3.ani`
+	`[closeback]`	651	120	0
+	`Animation/BurntTree0.ani`
+	`[closeback]`	419	155	0
+	`Animation/BurntTree1.ani`
+	`[closeback]`	665	162	0
+	`Animation/Tree1.ani`
+	`[closeback]`	1605	176	0
+	`Animation/Tree1.ani`
+	`[closeback]`	1262	169	0
+	`Animation/Tree1.ani`
+	`[closeback]`	1873	162	0
+	`Animation/Tree1.ani`
+	`[closeback]`	2700	162	0
+	`Animation/BurntTree0.ani`
+	`[closeback]`	2111	170	0
+	`Animation/smallTree1.ani`
+	`[normal]`	0	389	0
+[/animation]
+
+[passive object]
+	7	200	260	540	302	119	183	0	4500	506	371	0	2500	508	274	0	2600	375	276	0	4600	375	382	0
+[/passive object]
+
+[monster]
+	62038	1	0	1535	415	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1541	588	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1104	476	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1224	300	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1399	323	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	563	683	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	956	300	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	677	656	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1268	467	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1448	687	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1735	662	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2778	670	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2916	555	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2450	675	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2401	572	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1883	597	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2533	439	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1737	442	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1728	283	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2114	655	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1906	280	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2605	677	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1868	398	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1590	665	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2264	493	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2043	585	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1859	517	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2882	412	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	3099	669	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2691	467	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	3031	354	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2770	625	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	3077	569	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2021	385	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2167	394	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1597	285	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	923	512	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2340	319	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1066	625	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	993	674	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1196	624	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1686	617	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2567	535	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2942	683	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2522	319	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1845	675	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	876	673	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	1335	622	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2732	342	0	1	1
+	`[fixed]`
+	`[normal]`	62038	1	0	2275	647	0	1	1
+	`[fixed]`
+	`[normal]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+[/monster specific AI]
+
+[event monster position]
+[/event monster position]
+
+[map name]
+	`PVP 無名`

@@ -1,0 +1,28 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/big_crystal1_destroy_1.ani`
+	[SUB ANI]
+		`../Animation/big_crystal2_destroy_1.ani`	0	1
+		`../Animation/big_crystal3_destroy_1.ani`	0	2
+		`../Animation/1big_crystal1_destroy_1.ani`	0	3
+		`../Animation/1big_crystal2_destroy_1.ani`	0	4
+		`../Animation/1big_crystal3_destroy_1.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CHANGE LAYER]
+		`[bottom]`
+[/BEHAVIOR]

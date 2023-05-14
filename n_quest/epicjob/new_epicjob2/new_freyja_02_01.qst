@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	4
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 芙蕾雅 (2/6)`
+
+[depend message]
+	`曾有一段時間我也非常倔強， 非要一個人去承擔所有。 但后來拋棄了這個想法之后才發現， 身邊原來還有更多值得我去關心的東西。
+你也是， 有時候要學會放棄。 如果覺得實在是放不下， 至少也要與你的戰友們一同分擔。
+明白我的意思了嗎？ 不要總想著一個人背負所有， 你要相信自己和周圍的人， 放心大膽地交給別人去做吧。 如果你能以這種方式一點點放下包袱， 總有一天會覺得一身輕松的， 你說對嗎？
+看你這個表情好像還不太明白我的意思啊。 沒關系， 我們還有很多時間， 可以慢慢來。
+那這回就去參加魂·黃龍大會吧。 在這里你可以遇到各種各樣的強者， 也會看到他們各自的身上都背負著怎樣的責任。 你去跟他們對比一下吧。
+啊， 對了， 參加大會首先要獲得‘斯卡迪女王的印章’， 別忘了到時候帶過去。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5023
+[/pre required quest]
+
+[relation quest]
+	5739
+
+[job change quest]
+	3
+
+[grow number]
+	0

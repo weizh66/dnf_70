@@ -1,0 +1,267 @@
+#PVF_File
+
+[name]
+	`蝶血之怒`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態。
+對出血狀態下敵人的傷害 +20%%
+    殺死敵人時， 有10%的幾率使自身增加200點力量。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態3秒； 出血狀態下的敵人， 每0.5秒受到533點傷害。 (若敵人高于Lv69， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+對出血狀態下敵人的攻擊力 +20%% (在決斗場中 +10%%)
+    殺死敵人時， 有10%%的幾率使自身增加200點力量， 效果持續10秒。 (在決斗場中 +100點)`
+
+[flavor text]
+	`    餓……給我血……`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`tonfa`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	61
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	39
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[magical attack]
+	71
+
+[equipment physical attack]
+	640	583
+
+[equipment physical defense]
+	700	150
+
+[equipment magical attack]
+	674	614
+
+[separate attack]
+	411	278
+
+[stuck resistance]
+	30
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	13	1
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	13	1
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`TONFA_TOUCH`
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		5
+	[active status]
+		`bleeding`	70	3200
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		20
+	[stat]
+		`physical attack`
+		`+`	200
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			1000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			2000
+		[probability]
+			1
+		[active status]
+			`bleeding`	70	320
+	[/then]
+	[if]
+		[target active status]
+			`bleeding`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	10
+	[/then]
+	[if]
+		[cooltime]
+			10000
+		[attack success]
+			1
+		[target death]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[probability]
+			20
+		[stat]
+			`physical attack`
+			`+`	100
+	[/then]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

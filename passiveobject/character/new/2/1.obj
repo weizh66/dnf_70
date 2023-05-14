@@ -1,0 +1,26 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/1.act`
+
+[attack info]
+	`AttackInfo/atarmageddonstrike.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]
+
+[name]
+	`?的?么?的背景？！`

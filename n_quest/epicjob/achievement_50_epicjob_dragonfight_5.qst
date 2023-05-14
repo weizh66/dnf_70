@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	5321
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	35060	1	35357	1	35657	1	36256	1	35943	1
+[/reward selection int data]
+
+[relation quest]
+	5323
+
+[name]
+	`覺醒 - 龍斗士 (2/4)`
+
+[depend message]
+	`嗯， 在之前的驅魔過程中， 有些魔性殘留在你體內。 在你自己尚未意識的時候， 就已經侵蝕到你內心深處了。
+我聽說修為高深的驅魔師可以凝聚自身的精神結晶， 并用此結晶凈化自身和世界的諸多邪惡。
+如歷史上引領暗黑圣戰走向勝利的偉大傳奇驅魔師信耶， 他的身后就凝聚著天藍色的青龍氣息。 在你身上， 我也能看到那種藍色的氣息……
+總之， 你要走的路還很長。 從現在開始， 你最好去涌動著更強的魔之氣息的地方修煉自己。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`這是一種難以用語言描述的神秘景象， 藍色的氣息緊緊包裹著變得越來越重的黑暗氣息……
+呃， 我差點忘了， 你應該還看不到這些氣息……`

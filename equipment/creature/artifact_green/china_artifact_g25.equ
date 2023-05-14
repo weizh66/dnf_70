@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`布馮的項鏈`
+
+[explain]
+	`怪物防禦 -15%%`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	4
+
+[weight]
+	50
+
+[need material]
+	3850	500
+
+[all activestatus resistance]
+	30
+
+[set item]
+	111253	111254	111255
+[/set item]
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_green_cn.img`	25
+
+[field image]
+	`Item/field_creature.img`	1
+
+[equipment type]
+	`[artifact green]`	20
+
+[sub type]
+	0
+
+[equipment magical attack]
+	70	70
+
+[equipment physical attack]
+	70	70
+
+[fire attack]
+	50
+
+[water attack]
+	50
+
+[light attack]
+	50
+
+[dark attack]
+	50
+
+[anti evil]
+	15
+
+[creature skill charge time rate]
+	-20.1
+
+[creature skill over charge time rate]
+	-30.1
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[aura active]
+		`equipment physical defense`
+		`%`	-10	0
+	[aura active]
+		`equipment magical defense`
+		`%`	-10	0
+[/then]
+
+[set ability]
+	[fullset basic explain]
+		`裝備時，使800PX範圍內的敵人的速度降低50%%
+裝備時，使800PX範圍內的敵人的異常抗性降低50%%
+裝備時，使800PX範圍內的敵人的防禦降低30%%
+攻擊時，10%%的概率對敵人削減10%%的HP`
+	[fullset detail explain]
+		`裝備時，使800PX範圍內的敵人的速度降低50%%
+裝備時，使800PX範圍內的敵人的異常抗性降低50%%
+裝備時，使800PX範圍內的敵人的防禦降低30%%
+攻擊時，10%%的概率對敵人削減10%%的HP`
+[/set ability]
+
+[move wav]
+	`SKIN_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

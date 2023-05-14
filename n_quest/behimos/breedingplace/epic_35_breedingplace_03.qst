@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	19
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	35	99
+
+[pre required quest]
+	4025
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4704	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`木本植物的樣本 (2/2)`
+
+[depend message]
+	`我對生物不是很了解， 不過從這樣本來看， 樹精的樹液已經發生變質， 而且異常嚴重。 難道也是因為受到了長腳羅特斯的影響？
+可惜我的知識有限， 僅通過這些樣本， 很難知道樹精產生了什么變化。 不如你去問問煉金大師諾頓吧。`
+
+[condition message]
+	`    把[木本植物的樣本]交給諾頓。`
+
+[solve message]
+	`歡迎歡迎， 你這次帶來了什么有趣的研究材料啊？`
+
+[quest point]
+	4

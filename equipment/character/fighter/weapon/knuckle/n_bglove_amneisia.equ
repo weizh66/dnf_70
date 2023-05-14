@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`(舊) 遺忘的記憶`
+
+[flavor text]
+	`    深愛的人， 我好像有過……但想不起來她是誰了……  --阿甘左對諾羽說`
+
+[grade]
+	30
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`knuckle`
+
+[rarity]
+	4
+
+[weight]
+	1900
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	25
+
+[icon]
+	`Item/weapon/fighter/knuckle.img`	38
+
+[field image]
+	`Item/FieldImage.img`	15
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	39
+
+[price]
+	48000
+
+[value]
+	38400
+
+[cool time]
+	10000
+
+[magical attack]
+	23
+
+[equipment physical attack]
+	300	255
+
+[equipment magical attack]
+	363	308
+
+[separate attack]
+	184	121
+
+[all activestatus resistance]
+	50
+
+[attack speed]
+	100
+
+[cast speed]
+	20
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2790
+	`glovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2150
+	`at_glovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_glovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_glovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`KNUCKLE_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

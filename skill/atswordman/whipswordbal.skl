@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`whip_bal_name`
+
+[basic explain]
+	`whip_bal_basic_explain`
+
+[explain]
+	`whip_bal_explain`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	50	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[consume item]
+[/consume item]
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	0
+	`Character/Swordman/Effect/ATSkillIcon.img`	1
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←→ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		8	170
+	[cool time]
+		5000	6000
+	[static data]
+		3	80	3	120	200
+	[/static data]
+	[level info]
+		1	198	222	246	270	294	318	342	366	389	413	437	461	485	509	533	557	581	605	629	653	677	701	723	747	771	795	819	843	867	891	915	939	963	987	1011	1035	1059	1082	1106	1130	1154	1178	1202	1226	1250	1274	1298	1322	1346	1370	1394	1416	1440	1464	1488	1512	1536	1560	1584	1608	1632	1656	1680	1704	1728	1752	1775	1799	1823	1847
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		1	40	44	49	54	59	64	68	73	78	83	87	92	97	102	107	111	116	121	126	131	135	140	145	149	154	159	164	169	173	178	183	188	193	197	202	207	212	216	221	226	231	236	240	245	250	255	260	264	269	274	279	283	288	293	298	302	307	312	317	322	326	331	336	341	346	350	355	360	365	369
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`whip_bal_level_property`	0	0	1.0	-1	0	1.0
+[/level property]
+
+[feature skill index]
+	235

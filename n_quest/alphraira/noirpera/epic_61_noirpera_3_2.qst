@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[pre required quest]
+	4452
+[/pre required quest]
+
+[monster reward item]
+	61000	1502	-1	4346	1	70	10	56408	1502	-1	4346	1	100	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4346	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	1016	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 偽裝者的證據`
+
+[depend message]
+	`被傳染病摧毀的暗精靈城鎮里出現了疑似偽裝者的生物？
+這消息屬實嗎？ 如果屬實， 事情就很嚴重了， 不過我覺得摩根看錯的可能性更大。
+因為自從暗黑圣戰結束后， 借助布片等非生命體的形象現形的偽裝者再也沒有出現過……
+嗯， 如果他們真的是偽裝者， 就一定會擁有與一般生命體截然不同的變異的心臟。
+因此， 只要能拿到他們的心臟，　我就有辦法辨別他們是不是偽裝者。`
+
+[condition message]
+	`    前往諾伊佩拉地區的『諾伊佩拉』， 從偽裝者身上收集10個[偽裝者的證物 : 變異的心臟]。`
+
+[solve message]
+	`這……這是？ 真的是偽裝者？！ 我得把這個消息盡快通知圣職者教團！`
+
+[quest point]
+	4

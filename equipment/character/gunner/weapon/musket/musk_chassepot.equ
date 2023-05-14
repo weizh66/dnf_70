@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	` 裁決者`
+
+[basic explain]
+	`攻擊時以2%% 機率敵人 30的附加傷害`
+
+[grade]
+	28
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	24
+
+[physical attack]
+	21
+
+[magical attack]
+	32
+
+[stuck]
+	-2
+
+[price]
+	50400
+
+[repair price]
+	40320
+
+[value]
+	40320
+
+[equipment physical attack]
+	293	236
+
+[equipment magical attack]
+	255	206
+
+[separate attack]
+	168	110
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[common]`	186	1
+[/skill levelup]
+
+[icon]
+	`item/weapon/gunner/musket.img`	8
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[add absolute damage]
+		`all`
+		`+`	30
+[/then]
+
+[possible kiri protect]

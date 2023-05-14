@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[pre required quest]
+	4001
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	141	0	56035	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`鷹眼的考驗`
+
+[depend message]
+	`你有什么話就跟我說吧， 我會轉告我大哥的……你說的這些都是事實嗎？ 好， 我會給你機會證明。
+既然阿拉德大陸被黑色氣息籠罩， 我們班圖族也不可能置身事外， 如果你能通過我們的考驗， 我就相信你說的是實話， 而且我會把你的話親自轉告給我大哥。
+嗯， 不是我不相信你， 因為一直有冒險家過來騷擾我們。 我們不相信這些冒險家， 而且也沒有那么多時間去管他們， 所以安排了這樣的考驗。
+第一個測試， 就是去找庫尼族的勇士鷹眼。 他會測試你的力量， 你最好不要大意， 他可是我們班圖族數一數二的強大戰士。`
+
+[condition message]
+	`    前往萬年雪山的『布萬加的修煉場』， 通過霍克伊考驗。 (此任務在地下城中或完成后， 不可放棄)`
+
+[solve message]
+	`做得不錯，不過這才是開始而已。`
+
+[quest point]
+	4

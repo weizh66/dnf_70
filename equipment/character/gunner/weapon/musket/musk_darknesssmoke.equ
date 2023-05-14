@@ -1,0 +1,153 @@
+#PVF_File
+
+[name]
+	`黑暗之煙霧`
+
+[basic explain]
+	` 攻擊時，以 +2%%的機率使敵人進入失明狀態。
+攻擊速度增加2%%`
+
+[detail explain]
+	`攻擊速度+2%%
+攻擊時，有2%%的機率使敵人進入失明狀態6秒，在決鬥場時效果持續3.5秒；失明狀態下，減少90%%視野和20%%命中率。  （比Lv65高的目標陷入狀態機率較低，比 Lv65低的目標陷入狀態機率較高。決鬥場修正為 3秒）`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	42
+
+[magical attack]
+	64
+
+[attack speed]
+	20
+
+[MP MAX]
+	300
+
+[price]
+	107200
+
+[repair price]
+	90048
+
+[value]
+	428800
+
+[equipment physical attack]
+	597	571
+
+[equipment magical attack]
+	519	497
+
+[separate attack]
+	293	199
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/weapon/gunner/musket.img`	52
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	11	0
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`blind`	65	90	20
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`初音未來的大蔥`
+
+[flavor text]
+	`<初音未來禮包>`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/mage/rod/rod.img`	166
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		63	0
+	[layer variation]
+		2050
+		`at_roda`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[layer variation]
+		200
+		`at_rodd`
+	[equipment ani script]
+		`equipment/character/atmage.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/mage/weapon/rod/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[move wav]
+	`ROD_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[string data]
+	``
+[/string data]
+
+[int data]
+	654321	3	3	100	50	70	3	100	50	70	3	110	50	70	3	120	50	70	3	130	50	70
+[/int data]

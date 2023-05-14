@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`傳說之神槍手槍口`
+
+[explain]
+	`攻擊時， 附加6%%的傷害。
+只有寵物裝備后，寵物裝備的屬性才會生效。`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`Item/creature/artifact_red_cn.img`	20
+
+[field image]
+	`Item/field_creature.img`	0
+
+[equipment type]
+	`[artifact red]`	17
+
+[sub type]
+	0
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	6
+[/then]
+
+[weight]
+	50
+
+[move wav]
+	`BONE_TOUCH`
+
+[cool time]
+	10000
+
+[set item master]
+	-1

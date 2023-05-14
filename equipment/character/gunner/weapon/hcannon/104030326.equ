@@ -1,0 +1,1495 @@
+#PVF_File
+
+[name]
+	`超能封神手炮`
+
+[basic explain]
+	`    根據對敵人輸出的傷害量不同， 給自身施加對應的Buff， 效果持續10秒。 (冷卻時間0.5秒)
+    若輸出10萬以上傷害時， 則可以增加50點的力量和5%%的物理攻擊力。 (最搞增加）`
+
+[detail explain]
+	`    根據對敵人輸出的傷害量不同， 給自身施加對應的Buff， 效果持續10秒。 (解除裝備後效果消失； 冷卻時間0.5秒)
+    若輸出10萬以上傷害時， 則可以增加50點的力量和5%%的物理攻擊力。 (最高增加）`
+
+[flavor text]
+	`    我超神了，要我帶你嗎？`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	92
+
+[stuck]
+	-2
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	995	865
+
+[equipment magical attack]
+	597	519
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	130
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	5
+		`at gunner`	5
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	9
+		`at gunner`	9
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	10
+		`at gunner`	10
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	11
+		`at gunner`	11
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	15
+		`at gunner`	15
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	20
+		`at gunner`	20
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	26
+		`at gunner`	26
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	35
+		`at gunner`	35
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	51
+		`at gunner`	51
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	60
+		`at gunner`	60
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	72
+		`at gunner`	72
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	101
+		`at gunner`	101
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	104
+		`at gunner`	104
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	64
+		`at gunner`	64
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	3
+		`at gunner`	3
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	4
+		`at gunner`	4
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	6
+		`at gunner`	6
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	7
+		`at gunner`	7
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	12
+		`at gunner`	12
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	13
+		`at gunner`	13
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	14
+		`at gunner`	14
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	33
+		`at gunner`	33
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	37
+		`at gunner`	37
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	47
+		`at gunner`	47
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	56
+		`at gunner`	56
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	31
+		`at gunner`	31
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	48
+		`at gunner`	48
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	53
+		`at gunner`	53
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	57
+		`at gunner`	57
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	58
+		`at gunner`	58
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	70
+		`at gunner`	70
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	76
+		`at gunner`	76
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	77
+		`at gunner`	77
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	78
+		`at gunner`	78
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	102
+		`at gunner`	102
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	103
+		`at gunner`	103
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	36
+		`at gunner`	36
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	38
+		`at gunner`	38
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	39
+		`at gunner`	39
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	39
+		`at gunner`	39
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	40
+		`at gunner`	40
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	45
+		`at gunner`	45
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	54
+		`at gunner`	54
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	71
+		`at gunner`	71
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	73
+		`at gunner`	73
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	75
+		`at gunner`	75
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	107
+		`at gunner`	107
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	108
+		`at gunner`	108
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	28
+		`at gunner`	28
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	29
+		`at gunner`	29
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	43
+		`at gunner`	43
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	46
+		`at gunner`	46
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	50
+		`at gunner`	50
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	59
+		`at gunner`	59
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	63
+		`at gunner`	63
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	67
+		`at gunner`	67
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	79
+		`at gunner`	79
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	80
+		`at gunner`	80
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	81
+		`at gunner`	81
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		680
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	83
+		`at gunner`	83
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	105
+		`at gunner`	105
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	106
+		`at gunner`	106
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		30
+	[equipment duration]
+		10000
+	[appendage]
+		681
+[/then]
+
+[possible kiri protect]

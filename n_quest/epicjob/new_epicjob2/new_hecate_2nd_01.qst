@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 冥月女神 (1/6)`
+
+[depend message]
+	`莎蘭說的小家伙是你嗎？ 看你之前成天抱著小布偶四處亂竄， 怎么， 最近變強了些， 是嗎？
+哎呦， 好， 好， 就算你把我做成人偶， 也不會有人要啊。 行了， 趕緊過來跟我聊聊。 莎蘭可是特地囑咐過我來找你， 配合點。 `
+
+[condition message]
+	`如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`我看明白了， 這些日子你在不知不覺中經歷了很多， 也成長了很多。
+可別太驕傲啊， 這只是開始。 `
+
+[target character]
+	`[mage]`	5	1
+[/target character]
+
+[relation quest]
+	5168
+
+[job change quest]
+	3
+
+[grow number]
+	0

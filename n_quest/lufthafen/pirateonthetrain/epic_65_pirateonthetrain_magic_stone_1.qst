@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[monster reward item]
+	61192	86	2	690017044	1	100	10	61192	86	3	690017044	1	100	10
+[/monster reward item]
+
+[pre required quest]
+	649
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	690017044	10
+[/int data]
+
+[exception quest]
+	`[urgent]`
+[/exception quest]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`佩戴魔法石的資格 (1/2)`
+
+[depend message]
+	`下面我將傳授你佩戴魔法石的方法。
+記住， 只有經受得住強大能量的身體， 才有資格佩戴魔法石； 否則， 就會被魔法石的能量反噬。
+為了安全起見， 我想還是先確認一下你的身體情況。`
+
+[condition message]
+	`    除掉以下怪物， 獲得以下物品， 證明自己有資格佩戴魔法石， 要求地下城難度在王者級以上。`
+
+[solve message]
+	`無法想象， 你的身體究竟能承載多大的能量！ 以你目前的實力來說， 佩戴一個魔法石是小意思。`
+
+[quest point]
+	4

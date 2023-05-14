@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	3	99
+
+[pre required quest]
+	1905
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	3	-1	11	4
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	300
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神圣之路 - 第一個任務`
+
+[depend message]
+	`我們圣職者的職責是清除邪惡的存在， 阿拉德大陸最近出現了許多威脅世界安寧的邪惡力量。 如何清除這些邪惡的力量， 就是我們現在要做的事！
+你剛來這里， 就先從小任務開始歷練吧！ 如果沒什么問題， 就先去除掉潛伏在幽暗密林中的那些狂暴的牛頭怪吧！`
+
+[condition message]
+	`    前往格蘭之森的『幽暗密林』， 殺死4只牛頭兵。`
+
+[solve message]
+	`辛苦了 ！ 作為新人， 你的表現讓我有些吃驚， 呵呵。 `
+
+[quest point]
+	4

@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`至尊鍊金提取器`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	430
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[sub type]
+	2
+
+[cool time]
+	900000
+
+[cooltime group]
+	100
+
+[move wav]
+	`FOOD_TOUCH`
+
+[summon apc]
+	20437	20	20	900000	1

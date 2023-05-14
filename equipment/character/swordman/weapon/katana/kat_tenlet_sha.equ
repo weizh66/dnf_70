@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`十字斬刀 - 者`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率消減敵人30%%的HP。 (對精英怪物的效果為1/3、 對領主和深淵怪物的效果為1/6)`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率消減敵人30%%的HP； 在決斗場中， 只能消減敵人15%%的HP。 (對精英怪物的效果為1/3、 對領主和深淵怪物的效果為1/6)`
+
+[flavor text]
+	`    遇到皮硬的家伙， 就用這把刀砍它。  --西嵐和布萬加的對話中`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/swordman/katana.img`	32
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[price]
+	80000
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[magical attack]
+	53
+
+[equipment physical attack]
+	452	407
+
+[equipment magical attack]
+	500	449
+
+[separate attack]
+	285	189
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[physical critical hit]
+	2
+
+[stuck]
+	1
+
+[variation]
+	1	10
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[weakness]
+		30
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			3
+		[weakness]
+			15
+	[/then]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

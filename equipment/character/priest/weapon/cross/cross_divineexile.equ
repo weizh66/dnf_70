@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	`(舊) 神圣的浪人十字架`
+
+[flavor text]
+	`    獲得馬杰洛的神圣祝福的十字架， 散發著令惡魔恐懼的光芒。`
+
+[grade]
+	40
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[rarity]
+	4
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	35
+
+[icon]
+	`Item/weapon/priest/cross.img`	33
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	64000
+
+[value]
+	51200
+
+[cool time]
+	10000
+
+[physical defense]
+	37
+
+[magical attack]
+	29
+
+[magical defense]
+	37
+
+[equipment physical attack]
+	396	348
+
+[equipment physical defense]
+	400	390
+
+[equipment magical attack]
+	376	331
+
+[equipment magical defense]
+	400	390
+
+[separate attack]
+	234	156
+
+[cast speed]
+	20
+
+[item aura]
+	`all element`
+	`+`	20	300
+
+[skill levelup]
+	`[priest]`	22	2
+	`[priest]`	23	2
+[/skill levelup]
+
+[variation]
+	4	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

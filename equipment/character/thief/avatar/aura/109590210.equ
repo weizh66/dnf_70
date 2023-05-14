@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`灰色氣息光環 (暗夜使者)`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_aura.img`	18
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	32
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]
+
+[magical attack]
+	20
+
+[magical critical hit]
+	2
+
+[room list move speed rate]
+	0.1
+
+[aurora graphic effects]
+	4	1
+	`Character/Common/Animation/Aura/aura20_front_normal.ani`	1
+	`Character/Common/Animation/Aura/aura20_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/aura20_back_normal.ani`	0
+	`Character/Common/Animation/Aura/aura20_back_dodge.ani`

@@ -1,0 +1,148 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	15
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at swordman]`	15
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[破軍旋舞斬]攻擊力 +25%%
+[破軍旋舞斬]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	8
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	12
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[level]`	16
+		`%`	30
+		`[at swordman]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at swordman]`	18
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[瞬影三絕斬]攻擊力 +30%%
+[瞬影三絕斬]冷卻時間 -15%%
+[雷鳴千軍破]攻擊力 +30%%
+[雷鳴千軍破]冷卻時間 -15%%
+[人劍合一]暴擊傷害增加比率 +5%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	5
+		`%`	40
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	7
+		`%`	40
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	9
+		`%`	40
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	15
+		`%`	100
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[level]`	4
+		`%`	15
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[level]`	5
+		`%`	15
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+		`[at swordman]`	27
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at swordman]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+	[/skill data up]
+	[parameter basic explain]
+		`[惡即斬]最大斬擊數 +40%%
+[惡即斬]攻擊力 +15%%
+[惡即斬]冷卻時間 -25%%
+[惡即斬]蓄力時間 -50%%
+[惡即斬]斬擊速度 +100%%
+[惡即斬]無色小晶塊消耗量 +1
+[人劍合一]暴擊傷害增加比率 +5%%`
+[/piece set ability]

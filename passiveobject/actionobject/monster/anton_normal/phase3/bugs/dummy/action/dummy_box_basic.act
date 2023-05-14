@@ -1,0 +1,25 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Dummy_Box_Basic_0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[ON DAMAGE]
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			58531
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SEND DAMAGE]
+	[SET CURRENT HIT OBJECT]
+[/BEHAVIOR]

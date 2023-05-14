@@ -1,0 +1,104 @@
+#PVF_File
+[FRAME MAX]
+	7
+
+[FRAME000]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Aura_Norn_Front.img`
+		0
+	[IMAGE POS]
+		-290	-360
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		230
+
+[FRAME001]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Aura_Norn_Front.img`
+		0
+	[IMAGE POS]
+		-285	-355
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Aura_Norn_Front.img`
+		1
+	[IMAGE POS]
+		-305	-370
+	[RGBA]
+		255	255	255	200
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Aura_Norn_Front.img`
+		2
+	[IMAGE POS]
+		-315	-385
+	[RGBA]
+		255	255	255	150
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Aura_Norn_Front.img`
+		3
+	[IMAGE POS]
+		-325	-400
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Aura_Norn_Front.img`
+		4
+	[IMAGE POS]
+		-335	-415
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME006]
+	[IMAGE]
+		`Monster/MetroCenter/Time_Plaza/Norn/Aura_Norn_Front.img`
+		5
+	[IMAGE POS]
+		-345	-430
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

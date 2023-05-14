@@ -1,0 +1,233 @@
+#PVF_File
+
+[name]
+	`封·百鬼怨靈之咒`
+
+[basic explain]
+	`    施放[狂 · 霸王拳]時， 附加25%%的傷害， 效果持續7秒。
+[狂 · 霸王拳]無色小晶塊消耗量 +1
+    攻擊不死族敵人時， 附加15%%的傷害。
+    攻擊類人型敵人時， 附加15%%的傷害。`
+
+[flavor text]
+	`    活著有意思？ 被嘲笑、被欺辱……來吧， 跟我們走吧， 下面的世界歡迎妳～ ——某個冤鬼`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	62
+
+[magical attack]
+	31
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	907	774
+
+[equipment magical attack]
+	907	774
+
+[separate attack]
+	555	359
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	45	5
+	`[at fighter]`	45	5
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/claw/claw.img`	93
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	26	1
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	27	1
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[routing priority]
+	`fighter`	3
+	`at fighter`	3
+[/routing priority]
+
+[if]
+	[target type]
+		`undead`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[target type]
+		`human`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[use skill]
+		`fighter`	74
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		6000
+	[appendage]
+		292
+[/then]
+
+[if]
+	[use skill]
+		`at fighter`	74
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		6000
+	[appendage]
+		292
+[/then]
+
+[if]
+	[my appendage]
+		292
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	25
+[/then]
+
+[skill data up]
+	`[fighter]`	74
+	`[all]`
+	`[skill consume item]`	0
+	`+`	1
+	`[at fighter]`	74
+	`[all]`
+	`[skill consume item]`	0
+	`+`	1
+[/skill data up]
+
+[possible kiri protect]

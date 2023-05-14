@@ -1,0 +1,102 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	5
+
+[complete npc index]
+	-1
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	59	99
+
+[pre required quest]
+	4352
+[/pre required quest]
+
+[pre required quest]
+	4353
+[/pre required quest]
+
+[pre required quest]
+	4354
+[/pre required quest]
+
+[pre required quest]
+	4355
+[/pre required quest]
+
+[pre required quest]
+	4356
+[/pre required quest]
+
+[pre required quest]
+	5005
+[/pre required quest]
+
+[pre required quest]
+	7652
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	1501	-1	56117	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 骷髏凱恩`
+
+[depend message]
+	`阿甘左~ 阿甘左~！！
+ <apc::410> 索西雅， 我明明說過別妨礙我的……嗯？ 怎么又是你? 
+異界的怨恨？ 嗯， 你好象有點實力， 可以去悲鳴洞穴看看。
+不過， 能不能打敗骷髏凱恩還要看你的表現。 凱恩雖然死時受到了希洛克的影響變成了怪物， 但是他生前可是個厲害的人物。
+ <npc::0> 如果我打敗骷髏凱恩， 你會認可我的實力嗎? 
+ <apc::410> 等你打敗骷髏凱恩后， 再和我討論吧。
+ <npc::5> 冒險家， 我也沒辦法了。 你要是能打敗骷髏凱恩的話， 我一定會好好說服阿甘左。`
+
+[condition message]
+	`    前往洛蘭地區的『悲鳴洞穴』， 除掉骷髏凱恩， 然后向索西雅回復。`
+
+[solve message]
+	`你打敗骷髏凱恩了嗎？`
+
+[quest point]
+	4

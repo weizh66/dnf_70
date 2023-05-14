@@ -1,0 +1,118 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	9
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge.img`
+		2
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	51	51	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge.img`
+		3
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	51	51	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge.img`
+		4
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	51	51	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge.img`
+		5
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	51	51	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME006]
+	[IMAGE]
+		`Character/Common/WeaponEffect/Dodge.img`
+		6
+	[IMAGE POS]
+		-137	-146
+	[RGBA]
+		255	51	51	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME007]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		4	1
+	[DELAY]
+		80
+
+[FRAME008]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		4	1
+	[DELAY]
+		80

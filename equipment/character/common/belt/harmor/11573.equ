@@ -1,0 +1,160 @@
+#PVF_File
+
+[name]
+	`誓血之盟腰帶`
+
+[basic explain]
+	`  消滅敵人時，有50%的幾率使自身增加100點HP上限和10點體力。（最多疊加10次）
+  每5000點HP上限增加5點物理攻擊力、魔法攻擊力和獨立攻擊力。（最多增加50點）
+  每200點體力增加10點力量和智力。（最多可疊加100點；解除裝備后生效消失）`
+
+[flavor text]
+	`  即便靠吞噬一些人的肉體變強，也只是飲鴆止渴。 --某個老人`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12575
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	25
+
+[physical defense]
+	23
+
+[magical attack]
+	18
+
+[HP MAX]
+	1000
+
+[inventory limit]
+	1000
+
+[need material]
+	3821	1000
+
+[price]
+	91000
+
+[repair price]
+	72800
+
+[value]
+	72800
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	1632	1488
+
+[icon]
+	`Item/new_equipment/05_harmor/belt/harmor_belt.img`	18
+
+[field image]
+	`Item/field_equip.img`	13
+
+[equipment type]
+	`[waist]`	17
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	1400
+
+[item group name]
+	`ha waist`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		50
+	[equipment duration]
+		0
+	[appendage]
+		326
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`hp max`	5000
+		`equipment magical attack`
+		`+`	5	50
+	[stat change by stat]
+		`myself`	-1
+		`hp max`	5000
+		`equipment physical attack`
+		`+`	5	50
+	[stat change by stat]
+		`myself`	-1
+		`hp max`	5000
+		`separate attack`
+		`+`	5	50
+	[stat change by stat]
+		`myself`	-1
+		`physical defense`	200
+		`physical attack`
+		`+`	10	100
+	[stat change by stat]
+		`myself`	-1
+		`physical defense`	200
+		`magical attack`
+		`+`	10	100
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600802	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

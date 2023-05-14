@@ -1,0 +1,120 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	41
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[demonic lancer]`	41
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[追魂斬]攻擊力 +15%%
+[破滅斬]冷卻時間 -20%%
+[破滅斬]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[static]`	6
+		`+`	15
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[static]`	0
+		`+`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[落月斬]冷卻時間 -30%%
+[落月斬]攻擊力 +25%%
+[落月斬]大小比率 +15%%
+[破滅斬]冷卻時間 -20%%
+[破滅斬]攻擊力 +20%% 
+[破滅斬]大小比率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	41
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	41
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[demonic lancer]`	41
+		`[dungeon type]`
+		`[static]`	5
+		`+`	15
+		`[demonic lancer]`	50
+		`[dungeon type]`
+		`[level]`	5
+		`+`	-1000
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	42
+		`[dungeon type]`
+		`[static]`	6
+		`+`	20
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[static]`	0
+		`+`	15
+		`[demonic lancer]`	45
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[追魂斬]攻擊力 +30%%
+[追魂斬]大小比率 +15%%
+[戰戟猛攻]能量恢復時間 -1秒
+[落月斬]攻擊力 +40%%
+[落月斬]大小比率 +20%%
+[破滅斬]冷卻時間 -20%%
+[破滅斬]攻擊力 +35%%
+[破滅斬]大小比率 +15%%
+[破滅斬]無色小晶塊消耗量 +1`
+[/piece set ability]

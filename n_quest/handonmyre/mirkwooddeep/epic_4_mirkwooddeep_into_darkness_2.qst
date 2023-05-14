@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	4	99
+
+[pre required quest]
+	631
+[/pre required quest]
+
+[monster reward item]
+	5001	4	-1	4170	1	80	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4170	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	37005	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`黑暗的試煉 (2/7)`
+
+[depend message]
+	`表現還行， 接下來， 我要確認你是否具備暗夜使者的基本資質。
+你這次的對手是那些敏捷的貓妖， 我希望你能輕松地解決它們。`
+
+[condition message]
+	`    前往格蘭之森的『幽暗密林深處』， 從各類貓妖身上收集10個[貓妖指甲]。`
+
+[solve message]
+	`你平安回來了？ 不錯！`
+
+[quest point]
+	4

@@ -1,0 +1,29 @@
+#PVF_File
+
+[name]
+	`AllFireBomb`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1500
+
+[basic action]
+	`Action/AllFireBomb.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	3000
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

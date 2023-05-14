@@ -1,0 +1,85 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	100
+	[DELAY]
+		120
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	100
+	[DELAY]
+		120
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATFistofHellFire/FistofHellFire_Fire_Exp.img`
+		0
+	[IMAGE POS]
+		-194	-247
+	[IMAGE RATE]
+		3.200000047683716	3.200000047683716
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATFistofHellFire/FistofHellFire_Fire_Exp.img`
+		0
+	[IMAGE POS]
+		-194	-263
+	[IMAGE RATE]
+		6.400000095367432	6.400000095367432
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1040
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/Effect/ATFistofHellFire/FistofHellFire_Fire_Exp.img`
+		0
+	[IMAGE POS]
+		-194	-273
+	[IMAGE RATE]
+		9.600000381469727	9.600000381469727
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-17	429
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60

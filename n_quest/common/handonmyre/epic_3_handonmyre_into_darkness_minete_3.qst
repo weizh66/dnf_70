@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	4
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	4	99
+
+[pre required quest]
+	631
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	4	0
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`暗夜使者之路 - 所謂的轉職是？`
+
+[depend message]
+	`15級會怎樣嗎？好吧，讓我稍微透露一點關於「轉職」的事吧。
+簡單的說「轉職」就是可以獲得強大神秘的力量。根據你選擇什麼力量，你走的路就大不相同。
+沒有必要說那麼多，讓你看看關於「轉職」的書並向你說明。等一下，我的書放在哪裡？`
+
+[condition message]
+	`如果準備好聽取說明就與辛達對話`
+
+[solve message]
+	`原來書在這裡。來~借你看看認真讀一下吧。我很好奇你到底會對什麼力量有興趣呢。`
+
+[quest point]
+	4

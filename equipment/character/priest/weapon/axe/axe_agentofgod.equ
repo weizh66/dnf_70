@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`神之代言者`
+
+[basic explain]
+	`攻擊時， 有2%%的幾率使所有隊員進入霸體狀態， 效果持續20秒。
+攻擊速度 +2%%`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/priest/axe.img`	55
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	117000
+
+[repair price]
+	98280
+
+[value]
+	93600
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	749	677
+
+[equipment magical attack]
+	530	479
+
+[separate attack]
+	378	255
+
+[attack speed]
+	-60
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[buff]
+		`superarmor`
+[/then]
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[priest]`	47	3
+[/skill levelup]
+
+[variation]
+	9	1
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

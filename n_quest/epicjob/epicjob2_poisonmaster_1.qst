@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 毒神絕 (1/2)`
+
+[depend message]
+	`很高興看到你還活著！ 只是你身上那股令猛獸都畏懼的毒氣似乎在逐漸消散， 這樣下去， 你最后將只會剩下一副空殼。
+是不是因為身上的毒氣， 令所有人都對你感到畏懼， 所以你漸漸地覺得孤獨， 不想再繼續？
+確實人類是無法獨自生存的物種， 但是以毀滅自身力量來脫離這種孤獨感， 你不覺得可惜嗎？
+或許我可以幫你， 不過這需要異常決絕的勇氣。
+你可以令自己再提升一個境界， 達到了‘毒神絕’后， 便可以隨意控制自己體內的毒氣。 到時候， 就沒有之前這些顧慮了。
+但是， 事先聲明， 這是一種置之死地而后生的方法， 很可能在嘗試過程中， 你便中毒而亡……即使這樣， 你還要繼續嗎？ `
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`看來你的意志很堅決。 希望能有個好的結果吧！`
+
+[pre required quest]
+	912
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4814
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,42 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`monster/act8/turtle/Fire.img`
+		19
+	[IMAGE POS]
+		-227	-329
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`monster/act8/turtle/Fire.img`
+		20
+	[IMAGE POS]
+		-216	-329
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		700
+
+[FRAME002]
+	[IMAGE]
+		`monster/act8/turtle/Fire.img`
+		20
+	[IMAGE POS]
+		-216	-329
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		10

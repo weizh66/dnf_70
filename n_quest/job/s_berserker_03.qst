@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	12
+
+[complete npc index]
+	7
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7809
+[/pre required quest]
+
+[collision quest]
+	7800	7804	7811
+[/collision quest]
+
+[monster reward item]
+	3001	504	-1	3099	2	100	1
+[/monster reward item]
+
+[cant giveup]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3099	1
+[/int data]
+
+[dungeon info]
+	504	-1
+[/dungeon info]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 狂戰士 (3/3)`
+
+[depend message]
+	`雖然我為你施了法， 使你可以進入到天空之海中。 但是那里依然危機重重， 我希望你自己小心。`
+
+[condition message]
+	`    獨自一人前往天空之城的『天空之海』， 收集1個[食人魔的靈魂]交給G.S.D。`
+
+[solve message]
+	`兩只手緊握住食人魔的靈魂， 然后集中精神……嗯， 怎么樣？ 感覺到身體內流動的力量了嗎？`

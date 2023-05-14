@@ -1,0 +1,174 @@
+#PVF_File
+
+[name]
+	`古代的感染蟲圖騰`
+
+[basic explain]
+	`攻擊時以 8%%的機率讓敵人進入中毒狀態
+攻擊時以 5%% 的機率讓敵人進入感電狀態
+中毒的敵人攻擊時8%% 附加傷害
+感電的敵人攻擊時5%% 附加傷害`
+
+[detail explain]
+	`攻擊時以 8%% 的機率讓敵人 在7秒內進入中毒狀態，每 0.5秒以 250的攻擊力給予傷害。
+攻擊時以 5%% 的機率讓敵人在4秒內進入感電狀態，每次攻擊時以150的攻擊力給予附加傷害。（高於Lv74的對象得到的機率減少，低於Lv74的對象則會增加。）
+中毒的敵人攻擊時8%% 附加傷害
+感電的敵人攻擊時5%% 附加傷害`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	74
+
+[stuck]
+	-1
+
+[price]
+	118400
+
+[repair price]
+	99456
+
+[value]
+	94720
+
+[equipment physical attack]
+	739	687
+
+[equipment magical attack]
+	634	589
+
+[separate attack]
+	420	284
+
+[poison resistance]
+	20
+
+[icon]
+	`item/new_equipment/01_weapon/priest/totem/totem.img`	81
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	24	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		14000
+[/if]
+
+[then]
+	[probability]
+		8
+	[duration]
+		7000
+	[target]
+		`enemy`	-1
+	[active status]
+		`poison`	74	3500
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		8000
+[/if]
+
+[then]
+	[probability]
+		5
+	[duration]
+		4000
+	[target]
+		`enemy`	-1
+	[active status]
+		`lightning`	74	150
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target active status]
+		`poison`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target active status]
+		`lightning`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[possible kiri protect]

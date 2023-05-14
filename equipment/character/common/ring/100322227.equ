@@ -1,0 +1,166 @@
+#PVF_File
+
+[name]
+	`寒冰幻鏡指環`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使500px範圍內的敵人隨機發動寒冰棱柱。`
+
+[detail explain]
+	`攻擊時， 有5%%的幾率使500px範圍內的敵人隨機發動寒冰棱柱。 (冷卻時間5秒)`
+
+[flavor text]
+	`受死吧！ 冰凍射線~~！！`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[part set index]
+	12556
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[magical attack]
+	54
+
+[value]
+	86400
+
+[need material]
+	9999	100
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	3168	2944
+
+[water attack]
+	7
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	231
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[probability]
+		5
+	[passive object]
+		140175	0	0	0	0	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[probability]
+		5
+	[passive object]
+		140175	0	0	0	0	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[probability]
+		5
+	[passive object]
+		140175	0	0	0	0	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[probability]
+		5
+	[passive object]
+		140175	0	0	0	0	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[probability]
+		5
+	[passive object]
+		140175	0	0	0	0	0
+		` `
+	[/passive object]
+[/then]
+
+[possible kiri protect]

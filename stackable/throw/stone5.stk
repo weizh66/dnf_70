@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`石頭 5`
+	
+
+[explain]
+	`投擲時， 可以對單個敵人造成445點傷害。`
+	
+
+[grade]
+	29
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	28
+
+[icon]
+	`Item/IconMaterial.img`	39
+
+[field image]
+	`Item/FieldImage.img`	23
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	290
+
+[cool time]
+	1000
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50603	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Gravel.ptl`
+[/string data]

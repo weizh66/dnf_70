@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`無軒之黃金手炮`
+
+[basic explain]
+	`    攻擊時， 附加16%%的傷害。
+    攻擊時， 有3%%的幾率使隊員進入無敵狀態10秒， 但需消耗5個無色小晶體。
+    攻擊時，有5%%的幾率使包括自身在的隊員增加10%%的物理攻擊力、 10%%魔法攻擊力和7%%的獨立攻擊力， 效果持續20秒。`
+
+[detail explain]
+	`    攻擊時， 附加16%%的傷害。
+    攻擊時， 有3%%的幾率使隊員進入無敵狀態10秒， 但需消耗5個無色小晶體（冷卻時間50秒）。
+    攻擊時， 有5%%的幾率使包括自身在的隊員增加10%%的物理攻擊力、 10%%魔法攻擊力和7%%的獨立攻擊力， 效果持續20秒。（冷卻時間30秒；最多重疊1次，攻擊力加成效果包括其他裝備內最多重疊1次；解除裝備後效果消失）`
+
+[flavor text]
+	`    用神秘植物無軒的枝幹做成的手炮， 不過後來被壹個土豪截獲， 他在手炮的外面又鍍上壹層黃金。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	97
+
+[need material]
+	3821	1600
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1049	875
+
+[equipment magical attack]
+	629	525
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	102
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	16
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		50000
+[/if]
+
+[then]
+	[consume item]
+		3037	5
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[duration]
+		10000
+	[buff]
+		`unbreakable`
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		5
+	[equipment duration]
+		20000
+	[appendage]
+		238
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600705	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

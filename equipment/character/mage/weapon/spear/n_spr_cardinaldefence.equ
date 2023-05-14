@@ -1,0 +1,177 @@
+#PVF_File
+
+[name]
+	`赤龍守護矛`
+
+[basic explain]
+	`施放技能時， 有10%%的幾率使自身增加600點物理防御力， 效果持續60秒
+施放[魔法護盾]時， 有50%%的幾率使自身增加75點智力， 效果持續60秒`
+
+[flavor text]
+	`    傳說它是守護赤龍的戰矛。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`spear`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/mage/spear.img`	20
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical attack]
+	59
+
+[equipment physical attack]
+	638	581
+
+[equipment magical attack]
+	452	411
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-50
+
+[if]
+	[cooltime]
+		60000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		10
+	[stat]
+		`equipment physical defense`
+		`+`	600
+[/then]
+
+[if]
+	[use skill]
+		`mage`	37
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[probability]
+		50
+	[stat]
+		`physical attack`
+		`+`	75
+[/then]
+
+[physical critical hit]
+	2
+
+[stuck]
+	-1
+
+[skill levelup]
+	`[mage]`	37	3
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	6	2
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	6	2
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[possible kiri protect]

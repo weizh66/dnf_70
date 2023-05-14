@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`基礎很重要`
+
+[explain]
+	`攻擊時，有1%%的機率使自身增加15點力量和10點體力，效果持續20秒。施放技能時，有2%%的機率使自身增加15點智力和10點精神，效果持續20秒。`
+
+[flavor text]
+	`吃飯時，筷子用的不好，好吃的有可能被兄弟姐妹搶走。所以任何事情，基礎很重要！ - 風振`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	97
+
+[custom animation]
+	`TitleAnimation/fundamental_important.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	8
+
+[physical defense]
+	5
+
+[magical attack]
+	8
+
+[magical defense]
+	5
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		1
+	[stat]
+		`physical attack`
+		`+`	15
+	[stat]
+		`physical defense`
+		`+`	10
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[stat]
+		`magical attack`
+		`+`	15
+	[stat]
+		`magical defense`
+		`+`	10
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

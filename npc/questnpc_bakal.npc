@@ -1,0 +1,45 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	32
+
+[big face]
+	`Map/Npc/NpcFace04.img`	12
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	32
+
+[field animation]
+	`Animation/QuestNpc_bakal.ani`
+
+[popup wav]
+	`BAKAL_MEET`
+	``
+
+[look around]
+	0
+
+[name]
+	`暴龍王巴卡爾`
+
+[field name]
+	`暴龍王巴卡爾`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1018>如果能夠進行時光旅行，我想要回到與赫爾德第一次見面的那個時候。
+那麼我會把他那甜言蜜語的舌頭給拔掉。喝哈哈哈！`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::1018>只能夠對付這些不起眼的人類，真是讓人感到厭煩，但是卻沒有盡頭。回想在魔界時，強者還真多啊...
+想到摘除他們頭顱，那種樂趣還真不錯。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::1018>你知道關於德拉克巴特的星嗎？那是只有在初夏的清晨短暫出現的紅色晨星。
+人類在看到那個星星，就說會發生不吉利的事情，大家都感到很害怕。
+ 那並不是錯誤的傳言。因為德拉克巴特正是朕的故鄉。`
+[/dialog]

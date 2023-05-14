@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	1009
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	2
+
+[level]
+	50	99
+
+[pre required quest]
+	5334
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5336
+
+[name]
+	`覺醒 - 重炮掌控者 (3/4)`
+
+[depend message]
+	`是的， ‘遠古粒子炮’在我這里， 之前只是對你的一些考驗……
+先別生氣啊！ 如果不測試下， 怎么知道你夠不夠資格使用這把武器呢。 這么厲害的武器要是交到一個弱者的手里， 那不是白白浪費了……
+而且現在我已經基本認可你了， 只要你能過了接下來這一關， 你就可以成為‘遠古粒子炮’真正的主人。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`最近女人們都怎么了？ 總是毫無理由地襲擊我……我做了什么了我……
+還是說這就是所謂的人氣……`

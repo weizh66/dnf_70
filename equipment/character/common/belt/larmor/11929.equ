@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`瓦爾基莉亞腰帶`
+
+[basic explain]
+	`被擊時傷害減少30%%。`
+
+[detail explain]
+	`被擊時傷害減少30%%。`
+
+[flavor text]
+	`    瓦爾基莉亞是這樣一些手持盾牌的戰爭女神，戰爭是他們喜愛的生活環境。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	51
+
+[magical attack]
+	34
+
+[inventory limit]
+	5000
+
+[need material]
+	3500	1500
+
+[repair price]
+	260
+
+[value]
+	61200
+
+[equipment physical defense]
+	1688	1592
+
+[icon]
+	`item/new_equipment/04_larmor/belt/larmor_belt.img`	45
+
+[field image]
+	`Item/field_equip.img`	13
+
+[equipment type]
+	`[waist]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	100
+
+[item group name]
+	`ha waist`
+
+[cool time]
+	10000
+
+[set item master]
+	11930
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	30
+[/then]
+
+[skill levelup]
+	`[fighter]`	214	3
+	`[fighter]`	146	3
+	`[fighter]`	147	3
+	`[fighter]`	156	2
+	`[fighter]`	215	2
+[/skill levelup]
+
+[routing priority]
+	`fighter`	2
+[/routing priority]
+
+[possible kiri protect]

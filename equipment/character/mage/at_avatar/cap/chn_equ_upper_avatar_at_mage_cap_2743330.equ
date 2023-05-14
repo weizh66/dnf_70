@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`黃金哥布林爆炸頭 (男法師)`
+
+[flavor text]
+	`<萬圣節狂歡派對>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atmage/mm_acap.img`	104
+
+[equipment type]
+	`[hat avatar]`	0
+
+[usable period]
+	15
+
+[variation]
+	38	1
+
+[layer variation]
+	3801
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[cast speed]
+	120
+
+[part set index]
+	2
+
+[avatar func filter]
+	0

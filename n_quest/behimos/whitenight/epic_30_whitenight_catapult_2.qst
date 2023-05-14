@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	30	99
+
+[pre required quest]
+	558
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	24	-1	271	15	24	-1	272	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	15000	20069	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`破壞信徒的武器`
+
+[depend message]
+	`啊……這樣說來， 極晝已經被信徒們控制了！ 冒險家， 看來我們也得改變作戰計劃了……嗯， 我們現在唯一能控制他們的方法就是把GBL教的武器全部破壞！ `
+
+[condition message]
+	`    前往天帷巨獸神殿的『極晝』， 破壞15架鋸角撞車和15架火焰龍頭炮。`
+
+[solve message]
+	`你把那些武器都破壞了？ 呵呵， 看來你身手不錯呀！`
+
+[quest point]
+	4

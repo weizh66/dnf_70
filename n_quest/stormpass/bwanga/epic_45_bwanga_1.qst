@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	40
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	45	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	40
+[/int data]
+
+[dungeon info]
+	141	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`委托`
+
+[depend message]
+	`為什么要侵犯我們班圖族的領地， 外來者， 雪山的白雪并不歡迎你們的黑腳印。
+ <npc::42> 先不要下定論， 還是聽聽他到底有什么事吧。 我感覺他身上的氣息和其他外來者不同。`
+
+[condition message]
+	`    找奧爾卡談談。`
+
+[solve message]
+	`你是來找我大哥布萬加族長的？ 他現在不在， 抱歉了， 你還是先回去吧。`
+
+[quest point]
+	4

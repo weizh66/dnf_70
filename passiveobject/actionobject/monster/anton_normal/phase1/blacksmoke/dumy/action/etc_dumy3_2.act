@@ -1,0 +1,44 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/dumy3_Basic_2.ani`
+[/MOTION]
+
+[TRIGGER]
+	[ON DAMAGE]
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[IS LEFT]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON DAMAGE]
+	[WHICH]
+	[CHARACTER]
+	[CHECKUP]
+		[IS RIGHT]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

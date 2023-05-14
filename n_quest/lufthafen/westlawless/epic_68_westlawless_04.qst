@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	4049	4059
+[/pre required quest]
+
+[quest point]
+	4
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	93	2	59016	1	93	2	59017	1	93	2	56032	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`收復失地`
+
+[depend message]
+	`阿登高地的那場戰敗， 讓卡勒特最后反敗為勝。 當初要不是我們起內訌， 他們怎么可能贏， 皇都也不會被侵占……
+唉~~都是過去的事了……現在是時候重新振作起來， 收復阿登高地了。 哈~這件事就交給你們年輕的一代了！ 我看好你哦。 把卡勒特統統趕出我們的地盤！ `
+
+[condition message]
+	`    前往無法地帶的『阿登高地』， 消滅以下稀有怪物， 然后找凱麗談談， 要求地下城難度為王者級以上。`
+
+[solve message]
+	`太好了， 漫長的戰爭終于快結束了。`
+
+[dialog]
+	0	0	15260	3	0	0	0
+	`<monster::59016>我會誓死守護安祖大人的……`
+[/dialog]
+
+[dialog]
+	0	0	15263	3	0	0	0
+	`<monster::56032>膽敢阻擾蘭蒂盧斯大人的計劃， 不可饒恕！`
+[/dialog]

@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`詛咒爆彈`
+	
+
+[explain]
+	`爆炸時， 可以對敵人造成680點闇屬性傷害， 並使敵人進入詛咒狀態。`
+	
+
+[grade]
+	40
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/stackable/throw.img`	3
+
+[field image]
+	`Item/FieldImage.img`	34
+
+[stackable type]
+	`[throw]`	3
+
+[price]
+	1200
+
+[cool time]
+	3000
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	51000	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/CurseBomb.ptl`
+[/string data]

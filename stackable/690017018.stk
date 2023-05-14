@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`遊戲體驗自選禮盒`
+
+[explain]
+	`可選擇獲得以下道具中的一種 ： 
+ 
+1.更快的升級方式----滿級飛升禮盒
+ 
+內含秒升LV.70的史詩級經驗寶珠、轉職及覺醒完成券、300萬金幣、1000個無色小晶塊、特殊任務材料包（直接完成左右槽/所有深淵任務）、2個助力寶盒自選禮盒； 可助你節省大量時間更快奮戰深淵、異界之路。
+（QP點已經改版，即使不做主線任務也能全額獲得）
+ 
+2.更多的道具獎勵----越戰越勇禮盒
+ 
+內含分等級開啟的成長禮盒 ： 經驗膠囊、經驗藥、疲勞藥、升級券、代幣券、強化券、增幅券、紅字書、寵物裝備、神的意志體驗稱號、消耗品及大量魔盒魔錘、強烈的氣息等實用道具。（將會面臨較為漫長的升級過程）
+ 
+注 ： 無論選擇哪種禮盒，當角色等級達到LV.60及以后每升1級都會獲得深淵邀請函獎勵；角色滿級時都會獲得[節日套裝]獎勵。
+ 
+該道具在LV.70以后無法打開，請盡快使用。`
+
+[flavor text]
+	`<我的游戲我做主>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[maximum level]
+	69
+
+[cool time]
+	64800000
+
+[cooltime maintenance]
+	1	1	1
+
+[icon]
+	`Item/stackable/consumption_cn.img`	560
+
+[stackable type]
+	`[booster selection]`	0
+
+[booster category num]
+	1	2
+
+[booster selection num]
+	0
+
+[booster select category]
+	0	0
+	[stackable]
+		690017020	1
+	[/stackable]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[stackable]
+		690017019	1
+	[/stackable]
+[/booster select category]
+
+[booster category name]
+	`請選擇禮盒`
+	`滿級飛升禮盒`
+	`越戰越勇禮盒`
+[/booster category name]
+
+[move wav]
+	`BONE_TOUCH`

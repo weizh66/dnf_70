@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`艾爾茲`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	30000
+
+[over skill recovery time]
+	30000
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	0
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[learn overskill level]
+	1
+
+[skill MP]
+	0
+
+[over skill MP]
+	0
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation/stay.ani`
+
+[walk motion]
+	`Animation/walk.ani`
+
+[run motion]
+	`Animation/run.ani`
+
+[skill motion]
+	`Animation/skill.ani`
+
+[over skill motion]
+	`Animation/overskill.ani`
+
+[response motion]
+	`Animation/response.ani`
+
+[random motion]
+	`Animation/random_stay.ani`
+[/random motion]
+
+[skill info]
+	`skill/normal.skl`
+
+[attack info]
+	`AttackInfo/MoveSlashAfter.atk`
+[/attack info]
+
+[etc motion]
+	``
+[/etc motion]
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[skill string]
+	`千輪-輪迴之劍`
+	`召喚16把迴旋的劍攻擊敵人。`
+
+[int data]
+	10	10	12808	150	70	-200	40	10	35	30	10
+[/int data]
+
+[string data]
+	`Effect/Animation/overskill/Slash1.ani`
+	`Effect/Animation/overskill/Slash4.ani`
+[/string data]
+
+[skill level values]
+	1	50	50	200	1	50	20	20	100	100
+[/skill level values]
+
+[over skill level values]
+	1	50	10	50
+[/over skill level values]
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[default random motion rate]
+	20
+
+[draw new position balloon]
+	1	160	180	1	150	180
+[/draw new position balloon]

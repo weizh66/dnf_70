@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`極魔·雪·長袍`
+
+[basic explain]
+	`每10點冰屬性抗性增加4點冰屬性強化值。（最多增加100點）。
+每10點冰屬性抗性，使自身增加20點物理魔法攻擊力和20點獨立攻擊力。（最多增加400點）。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	155
+
+[magical attack]
+	155
+
+[magical defense]
+	88
+
+[physical defense]
+	88
+
+[price]
+	86000
+
+[repair price]
+	68800
+
+[value]
+	68800
+
+[need material]
+	3826	3000
+
+[anti evil]
+	18
+
+[equipment physical defense]
+	2164	2056
+
+[water resistance]
+	52
+
+[icon]
+	`item/new_equipment/02_cloth/coat/cloth_coat.img`	57
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			60
+		[upper bound level]
+			70
+		[value]
+			3
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[time]
+		500	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`water resistance`	10
+		`water attack`
+		`+`	4	100
+	[stat change by stat]
+		`myself`	-1
+		`water resistance`	10
+		`equipment magical attack`
+		`+`	20	400
+	[stat change by stat]
+		`myself`	-1
+		`water resistance`	10
+		`separate attack`
+		`+`	20	400
+	[stat change by stat]
+		`myself`	-1
+		`water resistance`	10
+		`equipment physical attack`
+		`+`	20	400
+[/then]
+
+[part set index]
+	12600
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`吸收地面`
+
+[width]
+	200	50
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[do not pass]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/hupsu_Basic.act`
+
+[last action]
+	`Action/hupsu_Last.act`
+
+[etc action]
+	`Action/Etc_hupsu_0.act`
+	`Action/Etc_hupsu_1.act`
+	`Action/Etc_hupsu_2.act`
+	`Action/Etc_hupsu_3.act`
+	`Action/Etc_hupsu_4.act`
+	`Action/Etc_hupsu_5.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/hupsu_Basic.atk`
+
+[etc attack info]
+	``
+	``
+	``
+	``
+	``
+	``
+[/etc attack info]

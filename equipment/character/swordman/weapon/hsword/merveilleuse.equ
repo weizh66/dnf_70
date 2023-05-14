@@ -1,0 +1,156 @@
+#PVF_File
+
+[name]
+	`凡爾賽的幻劍`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入混亂狀態。`
+
+[detail explain]
+	`攻擊時以3%%的機率在6秒內讓敵人陷入混亂狀態。 （比Lv55高的目標陷入狀態機率較低，比 Lv55低的目標陷入狀態機率較高。決鬥場修正為 3秒）`
+
+[grade]
+	59
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	55
+
+[physical attack]
+	38
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[stuck]
+	-1
+
+[price]
+	106200
+
+[repair price]
+	89208
+
+[value]
+	84960
+
+[equipment physical attack]
+	610	590
+
+[equipment magical attack]
+	457	443
+
+[separate attack]
+	256	173
+
+[skill levelup]
+	`[swordman]`	64	1
+	`[swordman]`	81	1
+	`[demonic swordman]`	64	1
+	`[demonic swordman]`	81	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	53
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	7	2
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	7	2
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10800
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[active status]
+		`confuse`	55	1
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`瘋狂伊凡的炸藥`
+
+[basic explain]
+	`被攻擊時以 20%% 的機率對300px 範圍內的最近敵人施展強大的火焰爆炸`
+
+[detail explain]
+	`被攻擊時以20%%的機率對300px 範圍內最近的敵人施展強大的火焰爆炸。 （冷卻時間10秒，決鬥場內以 2%% 的機率發動，被強大的火焰爆炸擊中的敵人，7秒內進入減速狀態，移動速度減少15%% 攻擊速度減少1 5%%，物理/魔法防禦力減少5%%。）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	34
+
+[physical defense]
+	34
+
+[magical defense]
+	34
+
+[price]
+	89000
+
+[value]
+	71200
+
+[creation rate]
+	0
+
+[fire attack]
+	7
+
+[icon]
+	`Item/new_equipment/10_support/support.img`	103
+
+[field image]
+	`Item/field_equip.img`	22
+
+[equipment type]
+	`[support]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	700
+
+[item group name]
+	`support`
+
+[cool time]
+	10000
+
+[magical attack]
+	34
+
+[if]
+	[cooltime]
+		10000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[probability]
+		20
+	[passive object]
+		48532	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

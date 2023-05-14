@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+	`精緻的青龍紋項鍊`
+
+[grade]
+	52
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`amulet`
+
+[rarity]
+	3
+
+[weight]
+	400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	48
+
+[icon]
+	`Item/common/necklace.img`	65
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[value]
+	49920
+
+[cool time]
+	10000
+
+[magical attack]
+	22
+
+[magical defense]
+	54
+
+[equipment magical defense]
+	4720	4320
+
+[light resistance]
+	11
+
+[attack speed]
+	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[set name]
+	`精緻的青龍紋首飾`
+
+[set item]
+	20258	22250	24280
+[/set item]
+
+[set ability]
+	[fullset basic explain]
+		`攻擊時7%% 附加傷害`
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	7
+	[/then]
+[/set ability]
+
+[possible kiri protect]

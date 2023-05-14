@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`BloodBoom`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/Nexon.ani`
+
+[etc motion]
+	`Animation/BloodBoom/Finish_BloodBoom_Finish3.ani`
+	`Animation/BloodBoom/Boom1_Bloodboom_Casting.ani`
+	`Animation/BloodRiven/BloodRivenExplosion.ani`
+	`Animation/BloodSnatchEffect/BloodSnatchShot1.ani`
+	`Animation/BloodSnatchEffect/BloodSnatchShot2.ani`
+	`Animation/BloodSnatch/BloodSnatchBoomF_12.ani`
+	`Animation/Rage/RageStartBottom_01.ani`
+	`Animation/Rage/RageLoop01Slash_00.ani`
+	`Animation/Rage/RageLoop02Slash_03.ani`
+	`Animation/Rage/RageLoop03Slash_00.ani`
+	`Animation/RageEffect/RageLoop01TraceLoop_01.ani`
+	`Animation/RageEffect/RageLoop02TraceLoop_00.ani`
+	`Animation/RageEffect/RageLoop03TraceLoop_01.ani`
+	`Animation/RageEffect/RageLoop04TraceLoop_00.ani`
+	`Animation/RageEffect/RageLoop01TraceStart_01.ani`
+	`Animation/RageEffect/RageLoop02TraceStart_00.ani`
+	`Animation/RageEffect/RageLoop03TraceStart_01.ani`
+	`Animation/RageEffect/RageLoop04TraceStart_00.ani`
+[/etc motion]
+
+[etc attack info]
+	`AttackInfo/BloodBoom.atk`
+	`AttackInfo/BloodSnatch.atk`
+	`AttackInfo/Rage_Atk1.atk`
+	`AttackInfo/RageLoop.atk`
+	`AttackInfo/RageLoopLast.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

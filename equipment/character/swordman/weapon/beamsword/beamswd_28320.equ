@@ -1,0 +1,197 @@
+#PVF_File
+
+[name]
+	`霜寒之魄`
+
+[basic explain]
+	`    [破軍升龍擊]命中敵人時， 可以使敵人進入感電狀態。
+    施放[拔刀斬]時， 有25%%的幾率不受冷卻時間影響。`
+
+[detail explain]
+	`    [破軍升龍擊]命中時， 可以使敵人進入感電狀態3秒， 若攻擊感電狀態的敵人， 則每次攻擊會附加200點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    施放[拔刀斬]時， 有25%%的幾率不受冷卻時間影響。 (在決斗場中幾率為2%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`beamswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	70
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	5
+
+[durability]
+	38
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	532	487
+
+[equipment magical attack]
+	515	472
+
+[separate attack]
+	360	243
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[variation]
+	3	5
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[if]
+	[skill]
+		`swordman`	68
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`lightning`	60	80
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	9
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		25
+	[skill data up]
+		`[swordman]`	9
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[pvp]
+	[if]
+		[skill]
+			`swordman`	68
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[active status]
+			`lightning`	60	40
+	[/then]
+	[if]
+		[event use skill]
+			`swordman`	9
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			2
+		[skill data up]
+			`[swordman]`	9
+			`[all]`
+			`[cooltime]`	0
+			`%`	-100
+		[/skill data up]
+	[/then]
+[/pvp]
+
+[routing priority]
+	`swordman`	1
+[/routing priority]
+
+[possible kiri protect]

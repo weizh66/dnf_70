@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`刀鋒女王的鐵血項鏈`
+
+[basic explain]
+	`  裝備後， 每20秒會使自身進入出血狀態， 效果持續20秒。
+  當自身處於出血狀態時， 會增加20%%的攻擊力。`
+
+[flavor text]
+	`  妳的心也會如刀鋒壹般銳利 ！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	37
+
+[magical defense]
+	93
+
+[MP regen speed]
+	1
+
+[need material]
+	3821	1000
+
+[repair price]
+	101920
+
+[price]
+	127400
+
+[value]
+	101920
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	8160	7440
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	104
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		20000	1	10000
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[active status]
+		`bleeding`	91	1600
+[/then]
+
+[if]
+	[my active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600754	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

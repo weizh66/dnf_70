@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`B`
+
+[gold multiple]
+	70
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	63	99
+
+[pre required quest]
+	5800
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	16
+
+[int data]
+	52	1	8919	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`別惹蜂巢`
+
+[depend message]
+	`哎呦……看來是被蜜蜂蟄了幾下！
+呵呵， 你的身體比我們哥布林要強悍得多， 不會有什么大礙的。
+不過啊， 捅蜂窩這類事情還是少做為妙。`
+
+[condition message]
+	`    通關諾斯瑪爾的『血蝴蝶之舞』， 破壞的蜂巢數不能超過2個， 要求地下城難度為冒險級以上。 (蜂巢危險， 請勿靠近！)`
+
+[solve message]
+	`哦， 這次沒被蜜蜂蜇到了吧？`

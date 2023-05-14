@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`塵封的悲鳴斷骨胸甲`
+
+[basic explain]
+	`HP值低於90%%時， 攻擊時有15%%的幾率減少10%%的HP並使Lv45技能的攻擊力增加20%%， 效果持續15秒。`
+
+[detail explain]
+	`HP值低於90%%時， 攻擊時有15%%的幾率減少10%%的HP並使Lv45技能的攻擊力增加20%%， 效果持續15秒。 (冷卻時間30秒， 裝備解除時效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12544
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[physical defense]
+	41
+
+[HP MAX]
+	700
+
+[need material]
+	3824	30
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	5880	5460
+
+[icon]
+	`item/new_equipment/06_plate/coat/plate_coat.img`	52
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	23
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[stat change]
+		`hp`
+		`<=`
+		`%`	90
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		15000
+	[restore]
+		`hp`
+		`%`	-10	15000
+	[appendage]
+		797
+[/then]
+
+[possible kiri protect]

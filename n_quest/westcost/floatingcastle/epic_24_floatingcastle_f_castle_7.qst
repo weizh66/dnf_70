@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	24	99
+
+[pre required quest]
+	365
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	17	2	751	1	17	2	752	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`懸空城的最后關口`
+
+[depend message]
+	`這是懸空城的最后一道關口， 也是最危險的一關。 因為把守這里的是巴卡爾創造的最強魔法生命--罪惡之眼。
+據我所知， 只有除掉那兩只罪惡之眼， 懸空城上殘存的巴卡爾魔力才會消失， 天空之城的危機才會解除！
+冒險家， 請你前往懸空城的最頂層， 除掉在那里看守懸空城魔力的兩只罪惡之眼吧。 這次的敵人很強大， 你要多加小心啊。`
+
+[condition message]
+	`    前往天空之城的『懸空城』， 除掉領主罪惡之左眼和罪惡之右眼， 要求地下城難度為王者級。`
+
+[solve message]
+	`總算放心了， 不過應該還有其它的懸空城存在。 如果再出現其他的懸空城， 你一定還會幫忙吧？ `
+
+[quest point]
+	4
+
+[reward int data]
+	0	100
+[/reward int data]

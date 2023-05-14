@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[knight]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 黑曜神 (4/6)`
+
+[depend message]
+	`據說亞丁曾被人們視為太陽神， 但直到有一天， 他卻以奇怪的模樣與一群魔物出現在了人們的眼前。 從那時起， 亞丁成為了危險的對象。
+傳說亞丁非常邪惡， 而且特別狡猾， 其思想體系更是粗劣不堪， 因此根本無法與之交流。
+如果你成為了黑曜神， 你就要一直與這個存在共同生活， 還要時刻與之進行較量。
+你有可能會被亞丁支配， 也有可能反過來支配他。 而這一過程可能會是極其痛苦的。
+如果不愿意承受這些， 現在放棄還來得及。 沒有人會責怪你， 因為我也不想你被亞丁折磨， 更不希望有一天看到你被他支配， 要由我來親手除掉你。
+你說你絕對不會被支配？ 你這是哪里來的自信啊？ 哈哈……既然如此， 那就試著堅持到最后吧。 我會盡全力去幫助你的。
+那么， 接下來我們開始修煉吧， 希望你能通過修煉提升自己， 成為足以強大到能夠支配亞丁的人。 這樣， 我才能對你放心一些。
+那你現在就去參加魂·青龍大會吧。 通過與那些強者們戰斗， 一步一步往上爬吧。
+你可能需要先去獲得‘赫侖皇帝的印章’， 有了它， 你才能進入會場， 別忘了提前收集好。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6848
+[/pre required quest]
+
+[relation quest]
+	6850
+
+[job change quest]
+	3
+
+[grow number]
+	0

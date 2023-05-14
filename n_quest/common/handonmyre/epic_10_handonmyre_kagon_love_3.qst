@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	10
+
+[complete npc index]
+	9
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[pre required quest]
+	212
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	9
+[/int data]
+
+[dungeon info]
+	1	-1	2	-1	3	-1	4	-1	5	-1	6	-1	7	-1	8	-1	9	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`羅莉安的指教 (2/4)`
+
+[depend message]
+	`你給她買這些就想得到她的愛， 那肯定是不行的！ 難道你沒聽說過嗎？ 女人的心都是很難滿足的。 就拿我自己來說吧， 雖然我會對自己喜愛的禮物心動， 但是就這么被俘虜我會覺得沒有成就感！
+這樣吧， 你去把現在最流行的希爾斯的裙子找來。 呃， 你不知道希爾斯是誰？ 他是這個時代最好的設計師， 他設計的衣服就是藝術， 就是每個女人夢寐以求的奢侈品……
+總之， 別的我不敢說， 如果你能弄到他做的裙子， 我敢保證賽麗亞一定會心動！ 不過我不知道從哪弄到希爾斯的裙子， 你可以去赫頓瑪爾后街找哥布林商人夏洛克幫忙。 我聽說只要有錢， 那家伙什么都能給你弄來。 `
+
+[condition message]
+	`    向赫頓瑪爾后街的夏洛克打聽[希爾斯的裙子]的來源。`
+
+[solve message]
+	`除了這個， 你還需要其他的東西嗎？ `
+
+[quest point]
+	4

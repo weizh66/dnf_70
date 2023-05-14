@@ -1,0 +1,657 @@
+#PVF_File
+
+[entry]
+	[event info]
+		94	2	4
+		`dimension activation event`
+		`異界地下城的四件事`
+		`20120614`
+		`20120719`
+		`http://df.nexon.com/?GO=pr|juneevent&TO=fourthings`
+	[/event info]
+	[link popupwindow type]
+		`dimension event window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		97	2	4
+		`growcapsule event`
+		`解除70級經驗值`
+		`20120621`
+		`20120726`
+		`http://df.nexon.com/?GO=pr|juneevent&TO=growingup `
+	[/event info]
+	[link popupwindow type]
+		`growcapsule event window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		92	2	2
+		`pcroom_benefit2 event`
+		`黑鑽夏日商城兌換`
+		`20120719`
+		`20120901`
+		`http://df.nexon.com/?GO=pr|summertogether&TO=pcbang`
+	[/event info]
+	[link popupwindow type]
+		`pcbang benefit play time window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		96	2	4
+		`Pandora Event`
+		`潘朵拉魔盒活動`
+		`20120830`
+		`20120906`
+		`http://df.nexon.com/?GO=pr|rejumping&TO=pandora`
+	[/event info]
+	[link popupwindow type]
+		`pandora event window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		98	2	1
+		`ontime event season 2`
+		`準時season 2`
+		`20120719`
+		`20120901`
+		`1. 第一次： 2012年07月21日下午 2點 ~ 3點
+2. 第2次： 2012年08月04日下午 2點 ~ 3點
+3. 第3次： 2012年08月18日下午 2點 ~ 3點
+4. 第4次： 2012年09月01日下午 2點 ~ 3點
+5. 在On Time活動進行的1小時內，只要隨時連線，都可以獲得驚人的禮物！
+6。期間內，也會同時進行經驗值 2倍活動。`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`準時season 2`
+		[explain]
+			`1. 第一次： 2012年07月21日下午 2點 ~ 3點
+2. 第2次： 2012年08月04日下午 2點 ~ 3點
+3. 第3次： 2012年08月18日下午 2點 ~ 3點
+4. 第4次： 2012年09月01日下午 2點 ~ 3點
+5. 在On Time活動進行的1小時內，只要隨時連線，都可以獲得驚人的禮物！
+6。期間內，也會同時進行經驗值 2倍活動。`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|summertogether&TO=ontimes2`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		99	2	4
+		`new account levelup event`
+		`新手升級活動`
+		`20120705`
+		`20120830`
+		`http://df.nexon.com/?GO=pr|helpproject`
+	[/event info]
+	[link popupwindow type]
+		`new account levelup window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		10001	2	4
+		`bonus cera event`
+		`獎勵塞拉活動`
+		`20120719`
+		`20120920`
+		`http://df.nexon.com/?GO=pr|twelvehorror`
+	[/event info]
+	[link popupwindow type]
+		`horror package payback event window`	0	2
+[/entry]
+
+[entry]
+	[event info]
+		100	2	4
+		`growth weapon event`
+		`突破黑暗的成長活動`
+		`20130425`
+		`20130516`
+		`http://df.nexon.com/?GO=pr|summertogether&TO=weapon`
+	[/event info]
+	[link popupwindow type]
+		`growth item event window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		10003	2	4
+		`gold_jar event`
+		`黃金缸活動`
+		`20120719`
+		`20120802`
+		`http://df.nexon.com/?GO=news|event&position=1&mode=view&no=6963`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`黃金缸活動`
+		[explain]
+			`1. 罐子兄弟的老么火罐在販賣黃金罐。
+2. 出現傳承和神器道具的機率是一般罐子的3倍！
+3. 請馬上與火罐連絡~`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=news|event&position=1&mode=view&no=6963`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		10004	2	4
+		`give grow creature event`
+		`創建黑暗騎士活動`
+		`20120802`
+		`20120823`
+		`http://df.nexon.com/?GO=pr|darkcre&TO=darkknight`
+	[/event info]
+	[link popupwindow type]
+		`growth creature event window`	0	9
+[/entry]
+
+[entry]
+	[event info]
+		10005	2	4
+		`give grow creature event`
+		`創建創造者活動`
+		`20120816`
+		`20120906`
+		`http://df.nexon.com/?GO=pr|darkcre&TO=creator`
+	[/event info]
+	[link popupwindow type]
+		`growth creature event window`	0	10
+[/entry]
+
+[entry]
+	[event info]
+		104	2	4
+		`give grow creature event`
+		`創建外傳角色活動`
+		`20120802`
+		`20120906`
+		`http://df.nexon.com/?GO=pr|darkcre&TO=all`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`創建外傳角色活動`
+		[explain]
+			`1. 為紀念黑暗武士和創造者的更新，將舉行外傳角色創建活動。
+2. 每當黑暗武士和創造者達到50級、70級時，將可以獲得達成等級的恭喜禮物！
+3. 在等級達成祝賀禮物中，可以獲得協助角色進行遊戲的各種具有價值的禮物。
+4. 黑暗騎士 1次 + 創造者 1次，每個帳號總共可以參加 2次`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|darkcre&TO=all`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		105	2	4
+		`LUCKY?DNF 7th event`
+		`LUCKY?DNF 7th 活動`
+		`20120809`
+		`20120830`
+		`http://df.nexon.com/?GO=pr|luckyseventh&TO=cakehat`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`LUCKY?DNF 7th 活動`
+		[explain]
+			`1. 只要連線，就可以獲得"LUCKY?DNF"。
+2. 在賽麗亞房裡，如使用"LUCKY?DNF"，將會出現紀念7週年的裝飾物。
+3. 收集所有9種裝飾物品可以兌換特別禮物！`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|luckyseventh&TO=cakehat`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		107	2	1
+		`Afterschool ontime event`
+		`下課後的On Time活動`
+		`20120816`
+		`20120829`
+		`http://df.nexon.com/?GO=pr|afterschooldf&TO=ontime`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`下課後的On Time活動`
+		[explain]
+			`1. 平日下午 9點開始，將舉行下課後的On Time活動。
+2. 在活動進行的1個小時內，只要連線遊戲，就可以獲得禮物！
+3. 在On Time的罐子裡，可以獲得多樣的道具和最大的克隆稀有裝扮整套。
+4. 在On Time強化券罐子裡，將有機會出現最高+12的強化券。`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|afterschooldf&TO=ontime`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		106	2	3
+		`DNF bingo event`
+		`DNF開學季賓果活動`
+		`20120816`
+		`20120906`
+		`http://df.nexon.com/?GO=pr|afterschooldf&TO=bingo`
+	[/event info]
+	[link popupwindow type]
+		`bingo event window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		108	2	4
+		`Jumping character event`
+		`跳躍角色活動`
+		`20120830`
+		`20121011`
+		`http://df.nexon.com/?GO=pr|rejumping`
+	[/event info]
+	[link popupwindow type]
+		`jumping character event window`	0	0
+[/entry]
+
+[entry]
+	[event info]
+		10006	2	4
+		`web coin event`
+		`拯救小貝貝活動`
+		`20120913`
+		`20120927`
+		`http://df.nexon.com/?GO=pr|bebegame`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`拯救小貝貝活動`
+		[explain]
+			`1. 在遊戲中收集金幣，參加網頁活動吧。
+2. 達到最高紀錄的50名玩家，將可以獲得CGV電影票2張。
+3. 拯救小貝貝，同時也來獲得各種獎品吧！`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|bebegame`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		43	2	1
+		`more u play event`
+		`神蹟降臨 ~ 勇者實力倍增 ！`
+		`20130629`
+		`20130714`
+		`找不到代碼event_list_tw_130627more_text_03`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`神蹟降臨 ~ 勇者實力倍增 ！`
+		[explain]
+			`- 來見識看看隨著刷越多次副本、玩越多次遊戲而越來越強大的角色吧！
+- 活動期間周末消耗疲勞值即可獲得Buff與獎勵。
+消耗20： 力量、智能、體力、 精神 +12
+消耗40： 力量、智能、體力、 精神 +24
+消耗60： 力量、智能、體力、 精神 +36
+消耗80： 力量、智能、體力、 精神 +48
+消耗100： 神奇紅果醬 x 10個
+消耗110： 力量、 智能、 體力、精神 +60
+消耗150： 神奇紅果醬 x 20個
+- 6月29日、 6月30日 / 7月6日、7月7日 / 
+7月13日、 7月14日一整天！`	230
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		109	2	3
+		`2012 hangawi event`
+		`DNF中秋節活動`
+		`20120927`
+		`20121018`
+		`http://df.nexon.com/?GO=pr|hangawi`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`DNF中秋節活動`
+		[explain]
+			`1. 接受羅傑·萊文的「被小偷偷走的物品」任務，並且消滅「小偷稻草人」！
+2. 收集被小偷偷走的小麥/米粒/黃金米粒各10個，然後去與羅傑·萊文交換小麥/米粒/黃金米粒布袋。
+3. 交換的小麥/米粒/黃金米粒布袋，可以向羅傑·萊文購買道具。
+4. 羅傑·萊文販賣的道具會在每天早上6點補貨。
+5. 準備有帳號綁定的2次勇者套裝箱子和異界氣息消滅書等多樣的道具。`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|hangawi`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		10007	2	3
+		`hangawiweb event`
+		`中秋送禮活動`
+		`20120927`
+		`20121011`
+		`http://df.nexon.com/?GO=news|event&TO=&mode=view&no=7098`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`中秋送禮活動`
+		[explain]
+			`1. 為配合中秋節的到來，DNF準備了禮物要送給大家。
+2. 請在網頁上輸入要收領感謝信和禮物的E-mail住址和手機號碼。
+3. 第1次： 2012年9月27日～10月11日
+4. 第1次獎賞： 幸運魔錘 2個 + 成長之契約 3天
+5. 第2次： 2012年10月18日～11月1日
+6。第2次獎賞
+- 各種契約中隨機獲得1種 3天
+- 時間制稀有裝扮和地獄組隊自由通行證
+- 神秘復活幣袋以及神靈的庇佑`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=news|event&TO=&mode=view&no=7098`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		10009	2	4
+		`twin raid event`
+		`雙重突襲活動`
+		`20120927`
+		`20121018`
+		`http://df.nexon.com/?GO=pr|twinraid`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`雙重突襲活動`
+		[explain]
+			`1. 入場等級 : Lv.60 ~ Lv.85 
+2. 入場條件 : 每入場1次會消耗疲勞度 10
+3. 入場方法 : 透過肯特皇宮的御前護衛隊長潘入場
+4. 遊戲方法 : 當兩隊6名成員全部入場後，將會自動開始。率先消滅P-0雙重的隊伍將可獲得勝利！
+5. 每當突襲結束時，獲得的費倫之魂將可以拿來交換各種獎品。`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|twinraid`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		10008	2	4
+		`racing event`
+		`DNF賽跑地下城活動`
+		`20120927`
+		`20121011`
+		`http://df.nexon.com/?GO=pr|speedracing&TO=racing`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`DNF賽跑地下城活動`
+		[explain]
+			`1. 入場等級 : Lv 10 ~ Lv 85 
+2. 入場方法 : 透過赫頓瑪爾廣場中的亞蒙下層入場
+3. 遊戲方法 : 3人入場時，會自動開始。請破壞障礙物或是躲避障礙物，在競賽中活用出現的隨機箱子，只要最先抵達終點，就可以獲得勝利了～！
+4. 每當在競賽結束後，可用獲得的跑步鞋交換神器道具和稱號。`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|speedracing&TO=racing`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		10010	2	4
+		`dnfrider event`
+		`從今天起，DNF賽跑活動`
+		`20120927`
+		`20121011`
+		`http://df.nexon.com/?GO=pr|speedracing&TO=withkart`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`從今天起，DNF賽跑活動`
+		[explain]
+			`1. 享受賽跑地下城的樂趣，同時不要忘了領取禮物喔！
+2. 由3階段條件組成，每個階段都可以獲得幸運魔錘等豐富的禮物。
+3. 如達成所有的條件，將可以獲得卡丁車道具。
+4. 領取道具可在網頁上進行。
+5. 該活動只有NEXON帳號可以使用。`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=pr|speedracing&TO=withkart`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		10011	2	3
+		`kannahangawi event`
+		`卡妮娜的中秋成長活動`
+		`20120927`
+		`20121011`
+		`http://df.nexon.com/?GO=news%7cevent&TO=&mode=view&no=7100`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`卡妮娜的中秋成長活動`
+		[explain]
+			`1. 從賽麗亞的祝福中獲得的卡妮娜彩虹松餅，請再次拿去給卡妮娜。
+2. 生氣的卡妮娜邀請冒險家參加地獄組隊。
+3. 交給卡妮娜最多松餅的的前100名玩家，將可以獲得豐富的中秋獎品！`	230
+		[url hyperlink]
+			`[前往官網]`
+			`http://df.nexon.com/?GO=news%7cevent&TO=&mode=view&no=7100`
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		10012	2	4
+		`levelup support event`
+		`LEVEL UP！ 等級支援活動`
+		`20120927`
+		`20121122`
+		`http://df.nexon.com/?GO=pr|dreamfighter12`
+	[/event info]
+	[link popupwindow type]
+		`thanks giving package bonus event window`	0	2
+[/entry]
+
+[entry]
+	[event info]
+		158	2	4
+		`levelup support event`
+		`LEVEL UP！ 等級支援活動`
+		`20130402`
+		`20130425`
+		`http://df.nexon.com/?GO=pr|dreamfighter12`
+	[/event info]
+	[link popupwindow type]
+		`levelup support tw window`	0	2
+[/entry]
+
+[entry]
+	[event info]
+		113	2	4
+		`conditon event`
+		`完成每日任務-勇闖地下城`
+		`20130516`
+		`20130530`
+		`http://df.nexon.com/?GO=pr|summertogether&TO=clear`
+	[/event info]
+	[link popupwindow type]
+		`condition event window`	0	2
+[/entry]
+
+[entry]
+	[event info]
+		36	2	1
+		`Gold Goblin event`
+		`布林好 Fun 送！活動`
+		`20130530`
+		`20130613`
+		`- 有聽過擁有巨額金銀財寶的黃金哥布林傳說嗎？
+- 黃金哥布林是6/1、6/2、6/8、6/9從晚上8點到10點會在地下城隨機出現！
+- 黃金哥布林的寶物罐子裡有稀有以上等級的飾品，或是各種D幣道具、珍貴的黃金罐子、帽子裝扮等，千萬不要錯過好時機！`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`布林好 Fun 送！活動`
+		[explain]
+			`- 有聽過擁有巨額金銀財寶的黃金哥布林傳說嗎？
+- 黃金哥布林是6/1、6/2、6/8、6/9從晚上8點到10點會在地下城隨機出現！
+- 黃金哥布林的寶物罐子裡有稀有以上等級的飾品，或是各種D幣道具、珍貴的黃金罐子、帽子裝扮等，千萬不要錯過好時機！`	230
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		-1	2	1
+		`growth capsule event`
+		`每周地下城時間軸`
+		`20130101`
+		`20301231`
+		`-每日全天 ： 01:00 ~ 01:00
+- 南部溪谷、限時任務開啟，可進入兩次。
+————————————————————————————————————
+- 金角銀角 每天3次。 世界樹3次。
+————————————————————————————————————
+- 周一二三四 ： 01:00 ~ 01:00
+- 領主之塔開啟，可進入一次。
+————————————————————————————————————
+- 周二/四/六/日 ： 19:40 ~ 22:00
+- 守護者祭壇、任務開啟，可進入三次。
+————————————————————————————————————`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`周常地下城時間軸`
+		[explain]
+			`-每日全天 ： 01:00 ~ 01:00
+- 南部溪谷、限時任務開啟，可進入兩次。
+————————————————————————————————————
+- 周一二三四 ： 01:00 ~ 01:00
+- 領主之塔開啟，可進入一次。
+————————————————————————————————————
+- 周/五/六/日 ： 08:10 ~ 22:00
+- 守護者祭壇、任務開啟，可進入三次。
+————————————————————————————————————`	230
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		-1	2	2
+		`newbie event`
+		`版本簡介`
+		`20130101`
+		`20351231`
+		`【版本簡介】
+---【還原經典70版本，重溫逝去的青春】---
+-還原國服原版任務系統-
+-還原所有國服70裝備名字及屬性-
+-還原國服70技能數據回到百花齊放的版本-
+-還原活動玩法，祭壇領主絕望等-
+-無論裝備還是材料全靠掉落，NPC不再賣任何奇怪物品-
+-沒有累計充值，沒有抽獎，只有點券，所有權利交給玩家，只有游戲理解能讓你變強-`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`版本簡介`
+		[explain]
+			`【版本簡介】
+---【還原經典70版本，重溫逝去的青春】---
+-還原國服原版任務系統-
+-還原所有國服70裝備名字及屬性-
+-還原國服70技能數據回到百花齊放的版本-
+-還原活動玩法，祭壇領主絕望等-
+-無論裝備還是材料全靠掉落，NPC不再賣任何奇怪物品-
+-沒有累計充值，沒有抽獎，只有點券，所有權利交給玩家，只有游戲理解能讓你變強-`	230
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]
+
+[entry]
+	[event info]
+		-1	2	3
+		`summer event`
+		`黑鑽來襲-閃耀阿拉德`
+		`20130101`
+		`20131231`
+		`- 成為黑鑽會員，尊享以下特權：
+- 疲勞值上限 + 32
+- 背包負重量 + 20%%
+- 地下城通關經驗 + 5%%
+- 任務物品掉落率 + 20%%
+- 消除返回城鎮負面影響
+- 通關後額外獲得一次翻牌獎勵
+- 進入地下城後雙暴和命中率 + 5%%
+- 獲得方式：
+- 從賽麗亞的祝福內獲得
+- LV.15後通過艾麗絲收集材料的任務獲得
+- 完成活動獲得材料，在艾麗絲處兌換獲得`
+	[/event info]
+	[popupwindow design]
+		[title]
+			`黑鑽來襲-閃耀阿拉德`
+		[explain]
+			`- 成為黑鑽會員，尊享以下特權：
+- 疲勞值上限 + 32
+- 背包負重量 + 20%%
+- 地下城通關經驗 + 5%%
+- 任務物品掉落率 + 20%%
+- 消除返回城鎮負面影響
+- 通關後額外獲得一次翻牌獎勵
+- 進入地下城後雙暴和命中率 + 5%%
+- 獲得方式：
+- 從賽麗亞的祝福內獲得
+- LV.15後通過艾麗絲收集材料的任務獲得
+- 完成活動獲得材料，在艾麗絲處兌換獲得`	230
+		[using ok button]
+			1
+	[/popupwindow design]
+[/entry]

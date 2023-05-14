@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[daily random]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	132
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	81	99
+
+[pre required quest]
+	4540
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	205	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	10000204	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`雷奎安的淨化`
+
+[depend message]
+	`我們要淨化雷奎安地區無邊無際的氣息。
+ 這些氣息可能會通過時間之門轉移到阿拉德… 也可能會發生我們無法預想的問題。
+去除掉雷奎安的強大對象，淨化雷奎安吧。`
+
+[condition message]
+	`完成以下地下城 （該任務每天只能進行一次，每天早上6點變更任務條件。但，接受任務時，任務不再變更。）`
+
+[solve message]
+	`雖然淨化了一些… 還遠著呢。`
+
+[quest point]
+	4

@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`天空樹果實`
+
+[explain]
+	`爆炸時， 可以炸飛敵人的奇異果實。 雖然傷害不大， 但是對我方隊員也有效， 要小心使用。`
+
+[flavor text]
+	`呃哼！ 嘗嘗天空樹果實吧！ 砰！！`
+
+[grade]
+	3
+
+[attach type]
+	`[free]`
+
+[creation rate]
+	800
+
+[rarity]
+	0
+
+[weight]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	3
+
+[icon]
+	`Item/IconMaterial.img`	43
+
+[field image]
+	`Item/FieldImage.img`	29
+
+[stackable type]
+	`[throw]`	2
+
+[price]
+	60
+
+[value]
+	0
+
+[cool time]
+	1500
+
+[move wav]
+	`BONE_TOUCH`
+
+[int data]
+	50580	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/FlyBomb.ptl`
+[/string data]

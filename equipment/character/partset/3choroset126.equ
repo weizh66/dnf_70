@@ -1,0 +1,122 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[thief]`	105
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[thief]`	105
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[thief]`	105
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[thief]`	106
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[割喉]冷卻時間 -20%%
+[割喉]攻擊力 +10%%
+[奪魂]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[thief]`	107
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	110
+		`[dungeon type]`
+		`[static]`	9
+		`%`	-100
+		`[thief]`	110
+		`[dungeon type]`
+		`[static]`	10
+		`%`	-100
+		`[thief]`	110
+		`[dungeon type]`
+		`[level]`	1
+		`%`	55
+		`[thief]`	110
+		`[dungeon type]`
+		`[level]`	2
+		`%`	55
+		`[thief]`	110
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	101
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[穿心]冷卻時間 -30%%
+    [刃舞]回旋斬模式解除， 最后斬擊攻擊力增加55%%， 冷卻時間減少30%%。
+[暗殺信條]暴擊攻擊力增加量 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[thief]`	115
+		`[dungeon type]`
+		`[level]`	2
+		`%`	50
+		`[thief]`	115
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-100
+		`[thief]`	111
+		`[dungeon type]`
+		`[level]`	2
+		`%`	55
+		`[thief]`	111
+		`[dungeon type]`
+		`[level]`	3
+		`%`	55
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	11
+		`%`	50
+		`[thief]`	111
+		`[dungeon type]`
+		`[static]`	12
+		`%`	50
+		`[thief]`	113
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[thief]`	113
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	113
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[thief]`	104
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[絕命飛刃]背擊追加最后一擊攻擊力 +50%%
+[絕命飛刃]冷卻時間 -30%%
+    [影戮]亂舞攻擊模式解除， 最后一擊攻擊力增加55%%， 增加最后一擊的攻擊速度。
+[瞬殺]冷卻時間 -30%%
+[瞬殺]攻擊力 +20%%
+[追影步]冷卻時間 -20%%`
+[/piece set ability]

@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	967
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	33662	1	33963	1	33366	1	33062	1	34224	1
+[/reward selection int data]
+
+[relation quest]
+	969
+
+[name]
+	`覺醒 - 貝亞娜斗神 (2/4)`
+
+[depend message]
+	`你想試試自己運用炫紋的能力嗎？
+要注意， 炫紋是依靠自身力量凝聚而成， 因而在施展炫紋的時候， 心智一定不能產生任何動搖。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`看來你施展的炫紋相當穩定啊！`

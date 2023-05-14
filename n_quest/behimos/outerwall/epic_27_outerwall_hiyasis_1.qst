@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	27	99
+
+[pre required quest]
+	22
+[/pre required quest]
+
+[monster reward item]
+	50009	21	1	4029	1	100	1	50009	21	2	4029	1	100	1	50009	21	3	4029	1	100	1
+[/monster reward item]
+
+[appear map]
+	21	-1	3025	100
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4029	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`預言家赫亞西斯的預言書 (1/4)`
+
+[depend message]
+	`你說全部的教徒都不正常了？ 到處都是怪物？ 噢！ 肯定是羅特斯！ 自從他進入神殿后， 所有的東西都在變化！
+我們歷史悠久的GBL教， 曾那么高貴， 沒想到現在卻變成了瘋狂信徒的教會……這都是因為他， 羅特斯！
+幸好預言家赫亞西斯把我從危險中救出來， 他還說如果神殿出事了， 就去神殿周圍找他留下的預言書。
+他的預言書由黎明、 光、 黃昏、 暗四本組成， 你能幫我找到黎明之預言書嗎？ 它應該在神殿外圍的黎明之傳道師身上。 `
+
+[condition message]
+	`    前往天帷巨獸神殿的『神殿外圍』， 從稀有怪物黎明之傳道師身上找到[黎明之預言書]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`為了我們GBL教的榮譽……黎明之傳道師， 請你寬恕我！ `
+
+[quest point]
+	4

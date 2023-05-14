@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`聖職者之髮`
+
+[grade]
+	0
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`item/avatar/priest/pr_ahair.img`	0
+
+[equipment type]
+	`[hair avatar]`	0
+
+[animation job]
+	`[priest]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

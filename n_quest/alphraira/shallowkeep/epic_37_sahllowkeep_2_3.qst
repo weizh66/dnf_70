@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	9
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[pre required quest]
+	357
+[/pre required quest]
+
+[monster reward item]
+	600	31	-1	4072	1	60	20	600	32	-1	4072	1	60	20
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4072	20
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`夏洛克的條件`
+
+[depend message]
+	`哈哈， 真有趣啊， 沒想到那些兇惡的暗精靈也會有求于我！ 呵呵， 我可以給你解讀， 不過有個條件。
+我聽說暗精靈爆發傳染病的城鎮有一種叫冰奈斯的冰精靈， 如果你能從它們身上收集一些冰奈斯的結晶給我， 我就給你解讀這封信！ `
+
+[condition message]
+	`    前往諾伊佩拉地區的『淺棲之地』或『蜘蛛洞穴』， 從冰奈斯身上收集20個[冰奈斯的結晶]。`
+
+[solve message]
+	`哦哦！ 辛苦了！ 你不知道吧？ 冰奈斯的結晶是很好的材料哦！ 看在你這么熱心幫忙的份上， 我就送你一個用冰奈斯的結晶制作的物品吧。 我從不輕易送禮物給別人的， 你要抓住機會啊。`
+
+[quest point]
+	4

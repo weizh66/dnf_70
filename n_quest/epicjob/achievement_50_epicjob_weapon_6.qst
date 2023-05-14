@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	1009
+
+[job]
+	`[swordman]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	975
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	977
+
+[name]
+	`覺醒 - 劍圣 (3/4)`
+
+[depend message]
+	`在劍術的修煉中， 與強者的對決是必不可少的經驗。
+說來， 赫頓瑪爾確實有這樣一位高手……我相信你在與他的比試中會學到不少東西。
+要知道， 索德羅斯也是在經歷了無數次這樣的對決， 才練就了自己獨特的劍術。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`你的實力增長了不少嘛！ 看來不能再把你當做菜鳥了……
+等你什么時候成為了劍圣， 我們再來進行一次真正的較量吧！`

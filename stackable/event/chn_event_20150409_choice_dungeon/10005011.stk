@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`裝扮合成禮包`
+
+[explain]
+	`使用后， 可以獲得2個黃金裝扮合成器和3個裝扮代幣。`
+
+[flavor text]
+	`<抉擇之沼>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	163
+
+[stackable type]
+	`[booster]`	0
+
+[stack limit]
+	10
+
+[booster info]
+	[stackable]
+		1	899	1000	2
+	[/stackable]
+	[stackable]
+		1	690000301	1000	3
+	[/stackable]
+[/booster info]
+
+[move wav]
+	`JEWEL_TOUCH`
+
+[need material]
+	10005004	12

@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`雷普特之眼`
+
+[basic explain]
+	`施展時以3%% 的機率5秒內讓300px 範圍內最近的敵人進入石化狀態
+不可解體`
+
+[detail explain]
+	`施展時以 3%% 的機率5秒內讓300px 範圍內最近的敵人進入石化狀態。 （高於Lv29的對象得到的機率和效果減少，低於Lv29的對象則會增加。）
+不可解體`
+
+[grade]
+	29
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	25
+
+[physical attack]
+	20
+
+[magical attack]
+	25
+
+[price]
+	34800
+
+[repair price]
+	29232
+
+[value]
+	27840
+
+[equipment magical defense]
+	1152	992
+
+[icon]
+	`Item/common/ring.img`	75
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		60
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stone`	29	950
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	13
+
+[complete npc index]
+	13
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20649
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`諾頓的實驗`
+
+[depend message]
+	`好了， 大功告成。 現在……要不要來做個實驗？ 比如你喝下這個試試？
+哈哈， 不要怕嘛~只是開個玩笑而已。`
+
+[condition message]
+	`    看諾頓喝下藥劑。`
+
+[solve message]
+	`你這么膽小， 那就我自己來吧。 科研工作者一定要有不怕犧牲的精神！ 好好學著點吧！
+(諾頓英勇地拿起藥劑喝了下去， 這一刻， 你覺得他的形象突然變得分外高大)……`

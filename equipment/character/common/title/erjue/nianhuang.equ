@@ -1,0 +1,165 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 念皇`
+
+[explain]
+	`從前有壹名男子。
+他曾是狂放不羈，隨心而為的男子。
+而現今的他，卻愁眉不展。
+他有壹個難以戰勝的敵人。
+那就是時間。
+時間會剝奪生命，將壹切未竟的夢都埋入黃土。
+如何抵禦時間的侵襲，他苦思不得，於是孤身壹人走入深山。
+就讓我用最殘酷的修煉來迎接結局吧，他想。
+瀑布奔流。
+他在瀑布下冥思，就快要支撐不住。
+而在此時，壹道閃電劈開天空。
+他看著閃電，突然悟了。
+男子感到身子壹輕，仿佛周身都被清風繚繞。
+他站了起來，仰天大笑，笑聲之響亮，連天地山川，鳥獸草木都為之震動。`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		11350	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[at fighter]`	79
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[at fighter]`	79
+	`[dungeon type]`
+	`[level]`	1
+	`%`	200
+	`[at fighter]`	79
+	`[dungeon type]`
+	`[level]`	2
+	`%`	200
+	`[at fighter]`	79
+	`[dungeon type]`
+	`[level]`	3
+	`%`	200
+	`[at fighter]`	79
+	`[dungeon type]`
+	`[level]`	4
+	`%`	200
+	`[at fighter]`	79
+	`[dungeon type]`
+	`[level]`	5
+	`%`	200
+	`[at fighter]`	79
+	`[dungeon type]`
+	`[level]`	6
+	`%`	200
+	`[at fighter]`	67
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[at fighter]`	67
+	`[dungeon type]`
+	`[level]`	1
+	`%`	500
+	`[at fighter]`	67
+	`[dungeon type]`
+	`[level]`	3
+	`%`	3000
+	`[at fighter]`	117
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[at fighter]`	120
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+[/skill data up]

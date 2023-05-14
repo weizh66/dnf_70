@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`下降時以15%%的機率7秒內呈現超級盔甲狀態，移動速度增加13%%。被擊時以5%%的機率5秒內迴避率增加13%%，恢復全體HP的3%%。（發動效果僅適用於決鬥場。)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	157
+
+[equipment type]
+	`[title name]`	1
+
+[custom animation]
+	`TitleAnimation/student_defender.ani`
+[/custom animation]
+
+[usable period]
+	30
+
+[HP MAX]
+	150
+
+[stuck resistance]
+	20
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[hit recovery]
+	70
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		20000
+	[set my state]
+		1
+	[my state]
+		`down`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		15
+	[buff]
+		`superarmor`
+	[stat]
+		`move speed`
+		`+`	130
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		5000
+	[probability]
+		5
+	[stat]
+		`stuck resistance`
+		`+`	130
+	[restore]
+		`HP`
+		`%`	3	1000
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

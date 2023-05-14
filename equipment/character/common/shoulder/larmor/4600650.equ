@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`封·混元武士的煞血護肩`
+
+[basic explain]
+	`  裝備後， 每30秒會使自身進入出血狀態。
+  裝備時， 會增加自身25%%的物理暴擊率和魔法暴擊率。
+  物理暴擊率 +25%%
+  魔法暴擊率 +25%%(裝備10秒後生效)`
+
+[detail explain]
+	`   每30秒使自身進入出血狀態30秒； 出血狀態下， 每0.5秒受到20點傷害。(若敵人高於Lv100， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 裝備1秒後生效)
+  物理暴擊率 +25%%
+  魔法暴擊率 +25%%(裝備10秒後生效)`
+
+[flavor text]
+	`  愛情容易讓人受傷、 流血……我說的是心在滴血……`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12567
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	63
+
+[magical attack]
+	52
+
+[HP MAX]
+	350
+
+[need material]
+	3821	800
+
+[price]
+	81000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2208	1992
+
+[icon]
+	`item/new_equipment/04_larmor/neck/larmor_neck.img`	16
+
+[field image]
+	`Item/field_equip.img`	7
+
+[equipment type]
+	`[shoulder]`	17
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	1900
+
+[item group name]
+	`la shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[start cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical critical hit`
+		`+`	25
+	[stat by condition]
+		`magical critical hit`
+		`+`	25
+[/then]
+
+[if]
+	[time]
+		30000	1	1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[active status]
+		`bleeding`	100	1150
+[/then]
+
+[possible kiri protect]

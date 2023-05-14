@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`封·聖光之靈`
+
+[basic explain]
+	`    攻擊時， 有3%%的幾率使敵人進入感電狀態， 效果持續7秒。
+    被攻擊時， 有20%%的幾率通過消耗壹個白色小晶體召喚出1只Lv81的中級精靈艾麗西婭， 效果持續60秒。`
+
+[detail explain]
+	`    攻擊時， 有3%%的幾率使敵人進入感電狀態， 效果持續7秒。(若敵人高於Lv81， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+  被攻擊時， 有20%%的幾率通過消耗壹個白色小晶體召喚出1只Lv81的中級精靈艾麗西婭， 效果持續60秒。(冷卻時間60秒； 召喚的怪物只能同時存在壹只， 若召喚的怪物受到較大傷害， 則召喚時間結束前會消失)`
+
+[flavor text]
+	`    能感受到光的存在也是壹種幸福。--某位聖職者`
+
+[grade]
+	70
+
+[rarity]
+	4
+
+[anti evil]
+	10
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	70
+
+[magical attack]
+	70
+
+[need material]
+	3821	750
+
+[repair price]
+	113400
+
+[price]
+	113400
+
+[value]
+	90720
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	2944	2656
+
+[light resistance]
+	18
+
+[light attack]
+	31
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	141
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	1
+	[duration]
+		7000
+	[probability]
+		3
+	[active status]
+		`lightning`	81	1000
+[/then]
+
+[if]
+	[cooltime]
+		100000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[duration]
+		60000
+	[consume item]
+		3034	1
+	[summon monster]
+		60046	81	1
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

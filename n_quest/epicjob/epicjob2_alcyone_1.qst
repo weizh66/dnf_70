@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	64
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 月影星劫 (1/2)`
+
+[depend message]
+	`你來了。 我就知道你一定會來找我的， 因為我了解你。
+實力越強， 就會越快發現變強的界限。 不對， 應該說為了變得更強的道路上， 每一個瞬間都如同難以突破的界限。
+也就是說擋在你面前的高墻非常堅固， 如果你的身體已經臨近了界限， 那么就很難跨越這面墻。
+不要氣餒， 現在當然還不是放棄的時候。 你也是這么想的吧？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與米內特談談。`
+
+[solve message]
+	`看來你還是想挑戰自己， 很好。`
+
+[pre required quest]
+	5681
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3081
+
+[job change quest]
+	3
+
+[grow number]
+	0

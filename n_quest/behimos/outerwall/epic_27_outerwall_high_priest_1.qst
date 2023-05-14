@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	27	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	21	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`調查GBL神殿`
+
+[depend message]
+	`我叫奧菲利亞， 是GBL(Grand Blue Lore)教的教徒， 你想去天帷巨獸神殿啊？ 這個……我勸你沒做好萬全準備前還是不要去， 因為那里太危險了。
+你不怕？ 那好吧！ 如果你執意要去， 就幫我留意下那里的情況吧。 我們GBL教只有我一個人活著逃出來， 不知道其他的教徒怎么樣了…… `
+
+[condition message]
+	`    通關天帷巨獸神殿的『神殿外圍』。`
+
+[solve message]
+	`你回來了？ 神殿的情況怎么樣了？ 有沒有看到我們GBL教的教徒？`
+
+[quest point]
+	4

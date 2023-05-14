@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20507
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680336	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	2680315	5	2680316	5	2680317	5
+[/reward selection int data]
+
+[name]
+	`60周年慶 - 收集信函 (重復)`
+
+[depend message]
+	`我們阿拉德大陸的居民都非常關注冒險家的故鄉呢， 到處都有人收集信函進行慶祝呢。
+我們會繼續以這種真摯熱誠的慶祝之心， 祝福冒險家的故鄉！`
+
+[condition message]
+	`    收集15個[國慶60周年慶祝函]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`好事情都要和大家分享才更有意義， 是吧？`

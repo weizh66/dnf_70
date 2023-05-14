@@ -1,0 +1,53 @@
+#PVF_File
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Newmonsters/CastleoftheDead/Watchtower/ZoomerT500/Arrow_In_Normal.img`
+		0
+	[IMAGE POS]
+		-39	-57
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		560
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Newmonsters/CastleoftheDead/Watchtower/ZoomerT500/Arrow_In_Normal.img`
+		0
+	[IMAGE POS]
+		90	-38
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Newmonsters/CastleoftheDead/Watchtower/ZoomerT500/Arrow_In_Normal.img`
+		0
+	[IMAGE POS]
+		90	-38
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		320
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Newmonsters/CastleoftheDead/Watchtower/ZoomerT500/Arrow_In_Normal.img`
+		0
+	[IMAGE POS]
+		90	-38
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

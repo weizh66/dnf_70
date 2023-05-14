@@ -1,0 +1,157 @@
+#PVF_File
+
+[name]
+	`泰拉石手炮`
+
+[basic explain]
+	`攻擊時，以2%%機率30秒內 移動速度、攻擊速度、施放速度增加10%%，裝備防禦力減少10%%`
+
+[flavor text]
+	`經轉移實驗結果研製出的泰拉石經過冶煉製成擁有卓越力量的武器。`
+
+[grade]
+	65
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	58
+
+[anti evil]
+	14
+
+[physical attack]
+	68
+
+[move speed]
+	20
+
+[MP MAX]
+	50
+
+[price]
+	117000
+
+[repair price]
+	98280
+
+[value]
+	93600
+
+[equipment physical attack]
+	671	611
+
+[equipment magical attack]
+	403	366
+
+[separate attack]
+	365	246
+
+[icon]
+	`item/weapon/gunner/hcannon.img`	32
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`cast speed`
+		`+`	100
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`move speed`
+		`+`	100
+	[stat]
+		`equipment physical defense`
+		`%`	-10
+	[stat]
+		`equipment magical defense`
+		`%`	-10
+[/then]
+
+[possible kiri protect]

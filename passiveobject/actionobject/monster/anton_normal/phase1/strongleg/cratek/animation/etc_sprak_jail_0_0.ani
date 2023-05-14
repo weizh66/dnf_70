@@ -1,0 +1,46 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Power_Station/No3_station/patris/barrier_red.img`
+		0
+	[IMAGE POS]
+		-223	-244
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-47	-10	-58	104	20	108
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Power_Station/No3_station/patris/barrier_red.img`
+		1
+	[IMAGE POS]
+		-223	-244
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-47	-10	-58	104	20	108
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Power_Station/No3_station/patris/barrier_red.img`
+		2
+	[IMAGE POS]
+		-223	-244
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-47	-10	-58	104	20	108

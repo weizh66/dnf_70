@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	` 雙龍棍`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入感電狀態。`
+
+[detail explain]
+	`攻擊時以3%%的機率15秒內讓敵人呈現觸電狀態，每次擊時以99的攻擊力給予追加傷害. (比Lv27高的目標陷入狀態機率較低，比 Lv27低的目標陷入狀態機率較高。)`
+
+[grade]
+	31
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	27
+
+[physical attack]
+	23
+
+[magical attack]
+	35
+
+[attack speed]
+	50
+
+[stuck]
+	-2
+
+[stuck resistance]
+	30
+
+[price]
+	49600
+
+[repair price]
+	39680
+
+[value]
+	39680
+
+[equipment physical attack]
+	300	262
+
+[equipment magical attack]
+	316	276
+
+[equipment physical defense]
+	310	300
+
+[separate attack]
+	183	119
+
+[skill levelup]
+	`[fighter]`	20	1
+	`[at fighter]`	20	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	14
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	5
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	5
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`TONFA_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`tonfa`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		22500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		15000
+	[probability]
+		3
+	[active status]
+		`lightning`	27	99
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`紅色松糕`
+	
+
+[flavor text]
+	`<中秋活動>`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	181
+
+[field image]
+	`Item/field_consumption.img`	33
+
+[stackable type]
+	`[waste]`	1
+
+[appendage group]
+	0
+
+[price]
+	10
+
+[cool time]
+	10000
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`%`	25	1000
+	`myself`
+
+[stat change]
+	`+`	45
+	`physical attack`
+[/stat change]
+
+[stat change duration]
+	60000
+	`myself`

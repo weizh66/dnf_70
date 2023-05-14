@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 真龍星君 (4/6)`
+
+[depend message]
+	`聽說通過四神寺的考驗， 黃龍就會附身， 屆時你就可以稱為真龍星君了。
+也就是說， 你將會成為傳說中的仙人。 但是黃龍的考驗很難通過， 聽說過去有許多優秀的龍斗士也都在這一關失去了性命。
+想要在考驗中活下來， 你得把靈力提升到更高的水平。 雖然我沒辦法直接提升你的靈力， 但至少可以幫你一起完成相關訓練。
+這次就去參加魂·青龍大會， 奪取大會冠軍吧。 你會在大會上遇到超越以往任何對手的強者。 去學習他們的信念吧。
+首先你需要拿到赫侖皇帝的印章。 你去把那個東西帶回來吧。 我在這里等你回來。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6804
+[/pre required quest]
+
+[relation quest]
+	6806
+
+[job change quest]
+	3
+
+[grow number]
+	0

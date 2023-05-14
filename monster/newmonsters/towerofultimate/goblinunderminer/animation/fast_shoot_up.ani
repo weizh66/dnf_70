@@ -1,0 +1,38 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/FastShootUp.img`
+		0
+	[IMAGE POS]
+		-34	-61
+	[IMAGE RATE]
+		0.8999999761581421	0.699999988079071
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/FastShootUp.img`
+		1
+	[IMAGE POS]
+		-5	-55
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150

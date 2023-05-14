@@ -1,0 +1,50 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/FireTile_Explodefloor_Loop.ani`
+	[SUB ANI]
+		`../Animation/FireTile_Explodefloor_l1.ani`	0	1
+		`../Animation/FireTile_Explodefloor_l2.ani`	0	2
+		`../Animation/FireTile_ExplodefloorEX.ani.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`FIRE_02_LOOP`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[CHECK TIME]
+		500
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[DISTANCE]
+		[<=]
+			150
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]

@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	17
+
+[complete npc index]
+	1009
+
+[job]
+	`[gunner]`
+
+[grow type]
+	4
+
+[level]
+	50	99
+
+[pre required quest]
+	943
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	945
+
+[name]
+	`覺醒 - 大將軍 (3/4)`
+
+[depend message]
+	`你聽說過阿爾伯特嗎？ 其實他也想成為黑玫瑰戰隊的領導者， 不過他既不是天界的人也不是神槍手， 所以我拒絕了他。
+但是他還是不放棄， 沒事就來煩我， 再加上他的實力確實很強， 所以……
+如果你能夠戰勝他， 那我就有一個完美的理由可以拒絕他了。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`什么？ 贏的人可以成為黑玫瑰戰隊的領導者！
+剛才不算， 你之前都沒說清楚！！ 我只是隨便應付一下而已……
+……我也想被那些美麗的花兒圍繞……唉……`

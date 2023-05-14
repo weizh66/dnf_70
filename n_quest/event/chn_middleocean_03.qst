@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	3
+
+[complete npc index]
+	3
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680411	80	2680412	80
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680413	1
+[/reward int data]
+
+[name]
+	`天空之海的秘密 - 3`
+
+[depend message]
+	`你好~冒險家！ 我最近一直在想辦法解開天空之海的秘密， 現在就差最后一步了！
+因為缺少一些材料， 所以……要是誰能給我80個天空之海的珊瑚和80個天空之海的貝殼就好了……嗚嗚， 我真可憐……我是那么渴望解開天空之海的秘密……
+什么？ 你說你要給我找材料， 那真是太感謝了， 嘻嘻~`
+
+[condition message]
+	`    收集80個[天空之海的珊瑚]和80個[天空之海的貝殼]交給卡妮娜。 (該材料可以在任意地下城的怪物身上獲得； 如果獲得的獎勵超過攜帶數量上限， 就不能繼續完成此任務)`
+
+[solve message]
+	`冒險家！ 嘿嘿， 我終于解開天空之海的秘密了， 它就是神秘的袖珍罐！！
+既然你幫了我這么大的忙， 這個神秘的袖珍罐就送給你吧！`

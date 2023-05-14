@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 暗街之王 (1/2)`
+
+[depend message]
+	`好久不見了。  你看起來狀態有點糟糕啊。 我大概能了解現在的狀況， 但沒想到連你也沒能挺住么？
+我知道你最近想要努力改變后街里永不停止的骯臟斗爭。 在無盡墮落的陰暗現實中， 你的改變無疑是黑暗里照進的一束光芒。
+但如果伸張正義只因為一時頭腦發熱， 是很容易被各種暗箭所傷的。 也就是說， 不管你有多強大， 當你被那些厭倦了的追隨者背叛時， 一切都結束了。
+黯淡的光芒會被黑暗吞噬。 放棄那些幼稚的正義和憐憫， 干脆爬到最高點用黑暗統治一切吧。
+沒錯， 也就是說先成為暗街之王后， 再完成你的大義。
+如果成為了暗街之王， 那戰斗就不是像現在這么簡單了。 你必須隱藏內心， 接近敵人的身邊并把他們的想法都攥在你腦子里。
+一直以來都喜歡直接了當的你能適應嗎？ 居高臨下的統治就是這樣， 是一種漫長而孤單的戰斗。
+怎么樣？ 想試試走這條路嗎？ 如果下定決心了就再來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`很好， 看來你已經準備好了。`
+
+[pre required quest]
+	7631
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3083
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`黑水晶念珠`
+
+[basic explain]
+	` 施放技能時，以2%%的機率使特定的敵人進入石化狀態。`
+
+[detail explain]
+	`施放技能時，有2%%的機率使300px範圍內最近的敵人進入石化狀態5秒；石化狀態解除時，使敵人受到990點傷害。 （比Lv65高的目標陷入狀態機率較低，比 Lv65低的目標陷入狀態機率較高。決鬥場修正為 2.5秒）`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[magical attack]
+	64
+
+[attack speed]
+	-50
+
+[cast speed]
+	70
+
+[price]
+	93800
+
+[repair price]
+	78792
+
+[value]
+	375200
+
+[equipment physical attack]
+	535	517
+
+[equipment magical attack]
+	683	660
+
+[separate attack]
+	293	199
+
+[magical critical hit]
+	4
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/priest/rosary.img`	48
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[priest]`
+
+[variation]
+	11	4
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stone`	65	990
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	11
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	19
+[/pre required quest]
+
+[depend give item]
+	3107	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3107	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`盛載記憶的水晶球`
+
+[depend message]
+	`光之城主消失時留下了這個水晶球？ 難道他的存在另有隱情？ 嗯， 看來這水晶球里的文字藏有秘密啊， 你把它拿給魔法公會會長莎蘭看看吧。`
+
+[condition message]
+	`    拿著[賽格哈特的水晶球]找莎蘭幫忙。`
+
+[solve message]
+	`你打敗賽格哈特了？ 噢， 你做了件了不起的事！ 冒險家們都會感激你的。`
+
+[quest point]
+	4

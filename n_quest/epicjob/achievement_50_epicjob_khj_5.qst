@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	1009
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	7613
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7615
+
+[name]
+	`覺醒 - 狂虎帝 (3/4)`
+
+[depend message]
+	`我還是第一次遇到這種事， 實在是太不可思議了。 你居然可以用自身潛在的能量將體內紋身的力量激發出來， 從而使它變得更強……這……
+我現在很好奇， 你的這股潛力究竟可以達到怎樣的程度……不如我們找個對手試試？`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`剛才有一瞬間， 我還以為自己看到了一頭猛虎……
+咳咳~算你過關了， 快走吧！`

@@ -1,0 +1,50 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_HairParticle.img`
+		0
+	[IMAGE POS]
+		-247	-642
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_HairParticle.img`
+		1
+	[IMAGE POS]
+		-278	-654
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Thief/Effect/YamataOrochi/01_HairParticle.img`
+		2
+	[IMAGE POS]
+		-278	-662
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

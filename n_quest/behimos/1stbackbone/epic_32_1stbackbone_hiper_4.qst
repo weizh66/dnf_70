@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	17
+
+[complete npc index]
+	9
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	30
+[/pre required quest]
+
+[depend give item]
+	4035	1	4034	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4035	1	4034	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`制作干擾發射器 (4/7)`
+
+[depend message]
+	`冒險家， 你把柯卡穆的干擾芯片放到壓縮機里就可以制作出小膠囊， 只要小膠囊里有小型干擾芯片就算成功了！
+不過這個壓縮機還是試驗品， 只有50%的機率能制作出小型干擾芯片！ 呵呵， 上帝保佑吧！
+噢， 差點忘了！ 如果想啟動壓縮機， 還需要有超強的電力。 我找不到這種電力， 不過聽說哥布林商人夏洛克有辦法。
+你把壓縮機和柯卡穆的干擾芯片拿給他看看吧， 他一定會幫忙的， 你做好后再回來找我就行啦。 `
+
+[condition message]
+	`    拿著凱麗制作的[壓縮機]和[柯卡穆的干擾芯片]找夏洛克。`
+
+[solve message]
+	`歡迎光臨！ 尊貴的客人， 需要幫忙嗎？ 有事請盡管吩咐， 我一定會盡最大的努力為你提供最好的服務。 `
+
+[quest point]
+	4

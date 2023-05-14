@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`變身機械牛`
+
+[explain]
+	`變身為機械牛進行戰鬥，等級傷害以自身而定。`
+
+[flavor text]
+	`牛頭人 : 老大！你怎么來了？
+勇士 : 巡邏視察。
+牛頭人 : 大哥竟親臨寒舍，小弟我...
+勇士 : 誒~我們都NTR嘛！
+牛頭人 : ？？？
+勇士 : 令正可在否？
+牛頭人 : 西吶！！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	100
+
+[icon]
+	`Item/Title/title.img`	95
+
+[icon mark]
+	`item/IconMark.img`	34
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	1
+
+[cooltime group]
+	1044
+
+[move wav]
+	`FOOD_TOUCH`
+
+[monster summons]
+	62132	-1	-1	900000	1
+
+[price]
+	10000
+
+[value]
+	5
+
+[cooltime maintenance]
+	1	1	1

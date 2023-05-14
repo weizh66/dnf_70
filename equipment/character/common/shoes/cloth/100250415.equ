@@ -1,0 +1,140 @@
+#PVF_File
+
+[name]
+	`八足神駿`
+
+[basic explain]
+	`  若保持前沖狀態2秒以上， 則增加10%%的攻擊速度和12%%的施放速度， 效果持續8秒。 (解除裝備後效果消失； 冷卻時間10秒)
+  前沖狀態時， 移動速度 +15%%。`
+
+[flavor text]
+	`  我這靴子穿了60年了，怎麼樣，結實吧。`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	67
+
+[physical defense]
+	20
+
+[magical defense]
+	27
+
+[move speed]
+	40
+
+[price]
+	54000
+
+[repair price]
+	43200
+
+[value]
+	43200
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	588	546
+
+[icon]
+	`item/new_equipment/02_cloth/shoes/cloth_shoes.img`	43
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	16
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[keep my state]
+		`dash`	2000
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		8000
+	[stat]
+		`attack speed`
+		`+`	100
+	[stat]
+		`cast speed`
+		`+`	120
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		435
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my prev state]
+		`dash`
+	[my appendage]
+		435
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		435
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

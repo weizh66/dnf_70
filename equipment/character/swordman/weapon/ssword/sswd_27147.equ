@@ -1,0 +1,185 @@
+#PVF_File
+
+[name]
+	`電擊劍`
+
+[basic explain]
+	`普通攻擊時以7%%的機率施展凱諾的落雷
+不可解體`
+
+[detail explain]
+	`普通攻擊時以7%% 的機率施展凱諾的落雷。
+被凱諾的落雷擊中時，以20%% 的機率讓敵人進入感電狀態，每次攻擊時時以 16的攻擊力給予附加傷害。 （高於Lv9的對象得到的機率減少，低於Lv9的對象則會增加。 決鬥場內以 1.5%% 機率施展）
+不可解體`
+
+[grade]
+	9
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	5
+
+[magical attack]
+	10
+
+[cast speed]
+	20
+
+[price]
+	14400
+
+[repair price]
+	11520
+
+[value]
+	11520
+
+[equipment physical attack]
+	133	95
+
+[equipment magical attack]
+	161	115
+
+[separate attack]
+	75	45
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	77
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	16	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	16	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		500
+	[set my state]
+		1
+	[my state]
+		`attack`
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			7
+		[reduce probability to human armor at pvp module]
+			80
+		[passive object]
+			48132	0	0	0	0	0
+			``
+		[/passive object]
+		[then probability]
+			50.0
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			7
+		[reduce probability to human armor at pvp module]
+			80
+		[passive object]
+			48133	0	0	0	0	0
+			``
+		[/passive object]
+		[then probability]
+			50.0
+	[/then]
+[/multiple then]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	2
+	`swordman`	3
+	`swordman`	4
+	`demonic swordman`	0
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

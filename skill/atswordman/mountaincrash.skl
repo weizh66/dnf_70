@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`mountain_crash_name`
+
+[basic explain]
+	`mountain_crash_basic_explain`
+
+[explain]
+	`mountain_crash_explain`
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[executable states]
+	`[stand]`
+	`[attack]`
+	`[dash]`
+	`[jump]`
+[/executable states]
+
+[required level]
+	5
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	4
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	8
+	`Character/Swordman/Effect/ATSkillIcon.img`	9
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →↓ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		10	120
+	[cool time]
+		3000	3000
+	[static data]
+		100	3	10	500	900	130
+	[/static data]
+	[level info]
+		3	62	186	110	69	207	112	77	231	113	85	255	115	92	276	117	99	297	118	107	321	120	115	345	121	122	366	123	130	390	125	137	411	126	145	435	128	153	459	129	160	480	131	167	501	133	175	525	134	183	549	136	190	570	137	198	594	139	205	615	141	213	639	142	221	663	144	228	684	145	235	705	147	243	729	149	251	753	150	258	774	152	266	798	153	273	819	155	281	843	157	289	867	158	296	888	160	303	909	161	311	933	163	319	957	165	326	978	166	334	1002	168	341	1023	169	349	1047	171	356	1068	173	364	1092	174	371	1113	176	379	1137	177	387	1161	179	394	1182	181	401	1203	182	409	1227	184	417	1251	185	424	1272	187	432	1296	189	439	1317	190	447	1341	192	455	1365	193	462	1386	195	469	1407	197	477	1431	198	485	1455	200	492	1476	201	500	1500	203	507	1521	205	515	1545	206	523	1569	208	530	1590	209	537	1611	211	545	1635	213	553	1659	214	560	1680	216	568	1704	217	575	1725	219	583	1749	221
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		5000	5000
+	[static data]
+		300	2	100	500	900
+	[/static data]
+	[level info]
+		3	31	19	60	35	21	61	39	23	62	43	26	63	46	28	64	50	30	65	54	32	66	58	35	67	61	37	68	65	39	69	69	41	70	73	44	71	77	46	72	80	48	73	84	50	74	88	53	75	92	55	76	95	57	77	99	59	78	103	62	79	107	64	80	111	66	81	114	68	82	118	71	83	122	73	84	126	75	85	129	77	86	133	80	87	137	82	88	141	84	89	145	87	90	148	89	91	152	91	92	156	93	93	160	96	94	163	98	95	167	100	96	171	102	97	175	105	98	178	107	99	182	109	100	186	111	101	190	114	102	194	116	103	197	118	104	201	120	105	205	123	106	209	125	107	212	127	108	216	130	109	220	132	110	224	134	111	228	137	112	231	139	113	235	141	114	239	143	115	243	146	116	246	148	117	250	150	118	254	152	119	258	155	120	262	157	121	265	159	122	269	161	123	273	164	124	277	166	125	280	168	126	284	170	127	288	173	128	292	175	129
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`mountain_crash_level_property`	-1	0	1.0	-2	1	1.0	-1	2	1.0	2	2	1.0
+[/level property]
+
+[feature skill index]
+	216

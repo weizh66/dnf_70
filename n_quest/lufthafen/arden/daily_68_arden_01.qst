@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	68	99
+
+[pre required quest]
+	4056
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	93	1	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`協同 : 決戰的城市決戰的都市 - 亞頓`
+
+[depend message]
+	`因他們的精神支柱安祖?賽弗是機器人不會倒下，所以敵人猛烈的抵抗。
+看來需要去挫挫他們的氣勢才行。要麻煩你除掉安祖?賽弗了。`
+
+[condition message]
+	`完成決戰的城市決戰的都市 - 亞頓，高難度以上`
+
+[solve message]
+	`稍微遞減了卡勒特的抵抗。謝謝。`
+
+[reward int data]
+	0	100
+[/reward int data]

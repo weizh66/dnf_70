@@ -1,0 +1,24 @@
+#PVF_File
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[attack info]
+	`AttackInfo/ATElementalField.atk`
+
+[basic action]
+	`Action/ATElementalField_front.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	710042000
+[/object destroy condition]

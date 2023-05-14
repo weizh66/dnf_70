@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	58	99
+
+[pre required quest]
+	4261
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	88	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	4000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`消滅北門的敵人`
+
+[depend message]
+	`據前方的士兵說， 北門附近突然出現了很多敵軍的身影。
+奇怪！ 卡勒特軍隊不是應該聚集在東門和南門嗎？ 怎么會……
+冒險家， 情況很緊急， 你能幫我們消滅北邊的敵人嗎？
+我們大部分的兵力現在都被調到東門和南門， 實在沒有多余的人手了……`
+
+[condition message]
+	`    通關安特貝魯峽谷的『根特北門』， 要求地下城難度為王者級。`
+
+[solve message]
+	`你這回真是幫了我們大忙了！
+呼~總算能夠松口氣了。 現在該是我們反擊的時候了！`
+
+[quest point]
+	4

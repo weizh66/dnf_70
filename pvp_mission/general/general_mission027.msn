@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	3
+
+[grade]
+	`[normal]`
+
+[rank range]
+	0	30
+
+[rate range]
+	0	101
+
+[prev mission]
+	26
+
+[next mission]
+	28
+
+[name_text]
+	`[大將戰] 鬥士的旅程4`
+	
+
+[cond_text]
+	`大將戰合計完成 500場競賽`
+	
+
+[condition]
+	`[join]`	2	500	-1
+[/condition]
+
+[reward item]
+	2601141	1
+[/reward item]

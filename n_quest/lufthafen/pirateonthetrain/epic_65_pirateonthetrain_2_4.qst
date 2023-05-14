@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	66
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5843
+[/pre required quest]
+
+[quest point]
+	8
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	86	2	61194	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	7778	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`小燈籠的好朋友`
+
+[depend message]
+	`冒險家， 你有空聽聽我的故事嗎？
+可怕的卡勒特占領這里的時候， 我差點就被他們抓去當實驗材料了。
+雖然我后來逃了出來， 可是我的好朋友空空伊卻被他們抓去了！
+要是你在行動的時候發現空空伊的下落， 請一定要回來告訴我哦！`
+
+[condition message]
+	`    前往海上列車的『列車上的海賊』， 尋找空空伊， 要求地下城難度為王者級。 (空空伊會以一定幾率作為領主在地下城中出現)`
+
+[solve message]
+	`怎么會……這不可能！ 空空伊不可能攻擊你！！
+她到底怎么了？`
+
+[dialog]
+	0	0	15042	3	0	0	0
+	`<monster::61194>咦？ 又來了一個！ 哈嘍~我是海賊！ 把你身上所有值錢的東西都交出來……
+哈哈， 當海賊真有趣！`
+[/dialog]

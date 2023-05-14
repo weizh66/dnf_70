@@ -1,0 +1,213 @@
+#PVF_File
+
+[name]
+	`封·御魂 - 七隻刀`
+
+[basic explain]
+	`    施放技能時， 增加700點智力， 效果持續3秒。 （冷卻時間3秒， 最多重疊1次）
+    攻擊時， [冥炎之卡洛]、 [不動明王陣]、 [黑暗冥王陣]的剩余冷卻時間減少20%%。 （冷卻時間10秒）`
+
+[detail explain]
+	`    施放技能時， 增加700點智力， 效果持續3秒。 （冷卻時間3秒， 最多重疊1次）
+    攻擊時， [冥炎之卡洛]、 [不動明王陣]、 [黑暗冥王陣]的剩余冷卻時間減少20%%。 （冷卻時間10秒）`
+
+[flavor text]
+	`    這把劍給你， 就像鮮花插在了那什么上......`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[magical attack]
+	247
+
+[attack speed]
+	80
+
+[cast speed]
+	250
+
+[stuck]
+	1
+
+[need material]
+	3821	1600
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1108	965
+
+[separate attack]
+	648	441
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	15
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/katana/katana.img`	117
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		3000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[appendage]
+		338
+[/then]
+
+[if]
+	[character]
+		`swordman`
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		82
+		`%`	-20
+[/then]
+
+[if]
+	[character]
+		`swordman`
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		74
+		`%`	-20
+[/then]
+
+[if]
+	[character]
+		`demonic swordman`
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		74
+		`%`	-20
+[/then]
+
+[possible kiri protect]

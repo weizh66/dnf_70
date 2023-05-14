@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`蛐蛐兒寵物禮包`
+	
+
+[explain]
+	`    包括一種蛐蛐兒寵物和30個寵物飼料。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	185
+
+[stackable type]
+	`[cera booster]`	0
+
+[booster info]
+	[etc]
+		1	63110	1000	1
+	[/etc]
+	[etc]
+		1	24	1000	30
+	[/etc]
+[/booster info]
+
+[move wav]
+	`FOOD_TOUCH`

@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`射手座 光環`
+
+[explain]
+	`    1~45級技能 +1`
+
+[flavor text]
+	`    射手座的守護星是木星， 一定要記住喲~`
+
+[grade]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[icon]
+	`Item/stackable/cash_japan.img`	881
+
+[sub type]
+	0
+
+[icon mark]
+	`item/IconMark.img`	162
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	176
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[physical attack]
+	20
+
+[physical defense]
+	20
+
+[magical attack]
+	20
+
+[magical defense]
+	20
+
+[all skill item container]
+	[all skill item]
+		[item growtype]
+			`[all]`	0
+		[skill apply condition]
+			[skill group]
+				`[all]`
+			[lower bound level]
+				1
+			[upper bound level]
+				45
+			[value]
+				1
+			[extra condition]
+				`[except for ex skill]`
+			[/extra condition]
+		[/skill apply condition]
+		[skill phase]
+			`[all]`
+	[/all skill item]
+[/all skill item container]
+
+[aurora graphic effects]
+	5	0
+	`Character/Common/Animation/Aura/sheshou_3.ani`	0
+	`Character/Common/Animation/Aura/sheshou_2.ani`	0
+	`Character/Common/Animation/Aura/sheshou_1.ani`	0
+	`Character/Common/Animation/Aura/sheshou_4.ani`	0
+	`Character/Common/Animation/Aura/sheshou_5.ani`
+[/aurora graphic effects]
+
+[aura ability]
+	`[upgrade solo teleport]`	600
+[/aura ability]

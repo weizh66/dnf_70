@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	` 梅麗莎的靈夕長劍`
+
+[basic explain]
+	`攻擊時以2%%的機率讓自己陷入祝福狀態`
+
+[detail explain]
+	`攻擊時以2%%的機率20秒內讓自己陷入祝福狀態，力量增加13，體力增加13，智能增加13，精神力增加13。`
+
+[flavor text]
+	` 某個實力優秀的鐵匠鑄造的重劍，用來紀念病故的愛妻梅麗莎。`
+
+[grade]
+	24
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	22
+
+[physical attack]
+	17
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[stuck]
+	1
+
+[price]
+	38400
+
+[repair price]
+	30720
+
+[value]
+	30720
+
+[equipment physical attack]
+	274	254
+
+[equipment magical attack]
+	205	191
+
+[separate attack]
+	115	75
+
+[skill levelup]
+	`[swordman]`	65	1
+	`[demonic swordman]`	65	1
+[/skill levelup]
+
+[bleeding resistance]
+	20
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	15
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		32000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[active status]
+		`bless`	22	13	13	13	13
+[/then]
+
+[possible kiri protect]

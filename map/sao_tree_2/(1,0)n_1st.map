@@ -1,0 +1,116 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3901
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`FF FF`
+
+[tile]
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_03.til`
+	`tile/sao_1st_04.til`
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_02.til`
+	`tile/sao_1st_04.til`
+[/tile]
+
+[background animation]
+	[ani info]
+		[filename]
+			`animation/far_sao_1st.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[pathgate pos]
+	207	239	1388	240	731	18	668	402
+
+[dungeon start area]
+	262	205	74	44
+
+[sound]
+	`M_DESPAIR_TOWER_UNDER`
+[/sound]
+
+[animation]
+	`animation/door_sao_1st_l.ani`
+	`[normal]`	-51	-114	0
+	`animation/door_sao_1st_r.ani`
+	`[bottom]`	1387	-117	0
+	`animation/bottom_sao_1st_01.ani`
+	`[closeback]`	-41	260	0
+	`animation/bottom_sao_1st_02.ani`
+	`[closeback]`	648	260	0
+	`animation/bottom_sao_1st_03.ani`
+	`[closeback]`	1337	260	0
+	`animation/bottom_sao_1st_01.ani`
+	`[closeback]`	189	260	0
+	`animation/bottom_sao_1st_03.ani`
+	`[closeback]`	878	260	0
+	`animation/bottom_sao_1st_03.ani`
+	`[closeback]`	1108	260	0
+	`animation/bottom_sao_1st_01.ani`
+	`[closeback]`	419	260	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	84	-214	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	309	-212	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	530	-212	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	758	-213	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	981	-214	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	1206	-214	0
+	`animation/sao_1st_torch.ani`
+	`[normal]`	1430	-215	0
+	`animation/sao_1st_leftdoor.ani`
+	`[normal]`	10	-32	0
+	`animation/sao_1st_leftdoor_fire.ani`
+	`[normal]`	12	-32	0
+	`animation/sao_1st_rightdoor.ani`
+	`[bottom]`	1365	-35	0
+	`animation/sao_1st_rightdoor_fire.ani`
+	`[bottom]`	1363	-35	0
+[/animation]
+
+[monster]
+	64823	1	0	990	245	0	1	1
+	`[fixed]`
+	`[normal]`	64822	1	0	922	323	0	1	1
+	`[fixed]`
+	`[normal]`	64822	1	0	922	167	0	1	1
+	`[fixed]`
+	`[normal]`	64822	1	0	770	165	0	1	1
+	`[fixed]`
+	`[normal]`	64822	1	0	793	300	0	1	1
+	`[fixed]`
+	`[normal]`
+[/monster]
+
+[monster specific AI]
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+	`[normal]`
+[/monster specific AI]
+
+[map name]
+	`PVP 無名`

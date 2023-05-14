@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`瘋狂伊凡的召喚`
+
+[basic explain]
+	`HP降到10%%以下時，被攻擊後會召喚出1隻瘋狂伊凡。`
+
+[detail explain]
+	`HP降到10%%以下時，被攻擊後會召喚出1隻Lv50的瘋狂伊凡協助召喚者攻擊敵人，瘋狂伊凡存在100秒。 （召喚的怪物最大可同時存在1隻，受到許多傷害時，就會和召喚時間無關消失。）`
+
+[flavor text]
+	`瘋狂伊凡，為我戰鬥吧！`
+
+[grade]
+	50
+
+[rarity]
+	4
+
+[creation rate]
+	200
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	45
+
+[magical attack]
+	22
+
+[magical defense]
+	53
+
+[move speed]
+	20
+
+[need material]
+	3260	375
+
+[repair price]
+	50400
+
+[value]
+	48000
+
+[equipment magical defense]
+	4640	4160
+
+[icon]
+	`Item/common/necklace.img`	13
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		300000
+	[hit]
+		1
+	[stat change]
+		`hp`
+		`<`
+		`%`	10
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		100000
+	[reduce duration at pvp module]
+		75
+	[summon monster]
+		60101	50	1
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

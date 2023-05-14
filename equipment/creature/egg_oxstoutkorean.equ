@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`寵物蛋 (憨憨牛)`
+
+[flavor text]
+	`    增加一定強化成功概率。
+    暴擊傷害 +10%%（在決斗場中效果減半）。`
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature_egg.img`	35
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[price]
+	1500000
+
+[sub type]
+	1
+
+[creature species]
+	41
+
+[output index]
+	63070
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[physical defense]
+	35
+
+[magical attack]
+	35
+
+[magical defense]
+	35
+
+[physical critical hit]
+	5.0
+
+[magical critical hit]
+	5.0
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[inventory limit]
+	15000
+
+[upgrade prob increase]
+	5000
+
+[room list move speed rate]
+	0.15
+
+[event attack success]
+	1
+
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	5
+	[/then]
+[/pvp]
+
+[move wav]
+	`CREATURE_EGG_TOUCH`
+
+[set item master]
+	-1

@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`邪龍的角`
+
+[basic explain]
+	`攻擊時以 2%%的機率召喚邪龍的銀質頸鏈
+被攻擊時以 5%%的機率召喚邪龍的銀質頸鏈
+不可解體`
+
+[detail explain]
+	`攻擊時以 2%%的機率召喚3個邪龍的銀質頸鏈，攻擊敵人。
+被攻擊時以 5%%的機率召喚1個邪龍的銀質頸鏈攻擊敵人。 （決鬥場內修正為 1%% 機率）
+不可解體`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	31
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	79200
+
+[repair price]
+	66528
+
+[value]
+	63360
+
+[equipment physical attack]
+	504	456
+
+[equipment magical attack]
+	378	342
+
+[separate attack]
+	245	164
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	84
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48194	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		500
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48193	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

@@ -1,0 +1,143 @@
+#PVF_File
+
+[set name]
+	`血之尖嘯  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[mage]`	65
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-800
+		`[mage]`	65
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	65
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-20
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	5
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	6
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	7
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	8
+		`%`	15
+		`[mage]`	14
+		`[dungeon type]`
+		`[level]`	9
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[圓舞棍]冷卻時間 -0.8秒
+[圓舞棍]攻擊力 +15%%
+[落花掌]蓄氣時間上限 -20%%
+[落花掌]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[mage]`	125
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1200
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[mage]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[mage]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1400
+		`[mage]`	13
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[mage]`	112
+		`[dungeon type]`
+		`[static]`	4
+		`+`	6
+		`[mage]`	112
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-50
+		`[mage]`	112
+		`[dungeon type]`
+		`[level]`	5
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[雙重錘擊]冷卻時間 -1.2秒
+[雙重錘擊]攻擊力 +15%%
+[碎霸]冷卻時間 -1.4秒
+[碎霸]攻擊力 +15%%
+[流星雷連擊]直刺次數 +6
+[流星雷連擊]最后一擊攻擊力 -50%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[mage]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-55
+		`[mage]`	68
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[mage]`	68
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[mage]`	68
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-25
+		`[mage]`	68
+		`[dungeon type]`
+		`[level]`	3
+		`%`	-25
+		`[mage]`	68
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-50
+	[/skill data up]
+	[parameter basic explain]
+		`[強襲流星打]冷卻時間 -55%%
+[強襲流星打]攻擊力 +10%%
+[強襲流星打]浮空力 -25%%
+[強襲流星打]蓄氣時間上限 -50%%`
+[/piece set ability]

@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`感?手雷`
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1500
+
+[basic motion]
+	`Animation/ATMecaBolt/Attack01/Missile_Normal.ani`
+
+[attack info]
+	`AttackInfo/MecaBoltGrenade.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`精煉的毀傷魔石手環`
+
+[basic explain]
+	`    攻擊HP為30%%以下的敵人時， 增加15%%的傷害。`
+
+[flavor text]
+	`    甲 : 混沌！ 毀傷！ 遺忘！
+    乙 : 說人話！
+    甲 : 世界原是混沌的， 後來有了人， 然後經歷了很多事後毀滅了， 毀滅自然會有傷亡， 而且還狗血的失憶了， 也就是遺忘……`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12560
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[physical defense]
+	93
+
+[need material]
+	3821	1000
+
+[price]
+	127400
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	4896	4464
+
+[icon]
+	`Item/new_equipment/09_bracelet/bracelet.img`	101
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[target stat]
+		`hp`
+		`<=`
+		`%`	30
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	15
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600760	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

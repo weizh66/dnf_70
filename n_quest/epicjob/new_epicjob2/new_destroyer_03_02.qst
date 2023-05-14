@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95266
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 毀滅者 (5/6)`
+
+[depend message]
+	`出發之際， 唯有一點望你謹記。
+之前我也說過， 悟出真理才是重點。 但更重要的是， 你要將悟出的東西用到真正有意義的事情上。
+否則苦心悟出的一切將化為泡影。
+那么， 接下來就去盡情展示自己吧。`
+
+[condition message]
+	`    參加魂 · 青龍大會并獲得冠軍。`
+
+[solve message]
+	`一開始看你還挺吃力， 但到了最后好像變得輕松自如了呢？ 早知如此， 就該早點推薦你去參加高手如云的大賽。
+哈哈， 我這不是跟你開玩笑呢嗎？ 目前青龍大會已經是最高水準的大賽了， 還沒有比它更高級的賽事。`
+
+[pre required quest]
+	5395
+[/pre required quest]
+
+[relation quest]
+	4997
+
+[job change quest]
+	3
+
+[grow number]
+	0

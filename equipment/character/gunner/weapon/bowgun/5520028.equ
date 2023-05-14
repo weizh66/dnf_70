@@ -1,0 +1,597 @@
+#PVF_File
+
+[name]
+	`名將軍之弩`
+
+[basic explain]
+	`無限冰凍彈
+無限爆炎彈
+感電手雷範圍+50%%
+冰凍手雷範圍+50%%
+彈藥主宰發射幾率+20%%
+跳躍狀態下，進入霸體狀態
+跳躍攻擊附加10%%的暗屬性傷害
+尼爾狙擊攻擊力+50%% CD-50%% 消耗品數量+200
+釋放尼爾狙擊時，出現祝福精靈，並且全屏敵人處於眩暈狀態
+釋放尼爾狙擊時，對自身釋放念氣罩
+，釋放尼爾狙擊時，會掉落大隕石并使自身血量-40%%
+使用尼爾狙擊攻擊時可以削減敵人5%%的HP
+自身血量低於30%%時，使自身恢復10%%HP
+女彈藥感電和冰凍手雷填充數+100%% 攻擊+100%% 投擲間隔-50%%`
+
+[detail explain]
+	`無限冰凍彈
+無限爆炎彈
+感電手雷範圍+50%%
+冰凍手雷範圍+50%%
+彈藥主宰發射幾率+20%%
+跳躍狀態下，進入霸體狀態
+跳躍攻擊附加10%%的暗屬性傷害
+尼爾狙擊攻擊力+50%% CD-50%% 消耗品數量+200
+釋放尼爾狙擊時，出現祝福精靈，並且全屏敵人處於眩暈狀態
+釋放尼爾狙擊時，對自身釋放念氣罩
+，釋放尼爾狙擊時，會掉落大隕石并使自身血量-40%%
+使用尼爾狙擊攻擊時可以削減敵人5%%的HP
+自身血量低於30%%時，使自身恢復10%%HP
+女彈藥感電和冰凍手雷填充數+100%% 攻擊+100%% 投擲間隔-50%%`
+
+[flavor text]
+	`將軍的意志沉睡在內，未來有一天他會醒來的！`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	43
+
+[magical attack]
+	22
+
+[attack speed]
+	20
+
+[push aside]
+	200
+
+[stuck]
+	-1
+
+[price]
+	102400
+
+[repair price]
+	86016
+
+[value]
+	81920
+
+[equipment physical attack]
+	475	432
+
+[equipment magical attack]
+	528	481
+
+[separate attack]
+	360	242
+
+[physical critical hit]
+	3
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	58
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	10	2
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	10	2
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[all]`	163
+	`[all]`
+	`[static]`	2
+	`+`	-2
+	`[all]`	162
+	`[all]`
+	`[static]`	4
+	`+`	-2
+	`[all]`	57
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[all]`	57
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[all]`	58
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[all]`	58
+	`[all]`
+	`[level]`	1
+	`%`	50
+	`[all]`	49
+	`[all]`
+	`[level]`	0
+	`+`	500
+	`[all]`	49
+	`[all]`
+	`[level]`	1
+	`+`	500
+	`[all]`	69
+	`[all]`
+	`[level]`	0
+	`+`	500
+	`[all]`	69
+	`[all]`
+	`[level]`	1
+	`+`	200
+	`[all]`	78
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[all]`	78
+	`[all]`
+	`[cooltime]`	0
+	`%`	-50
+	`[all]`	78
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[all]`	78
+	`[all]`
+	`[cooltime]`	0
+	`%`	50
+	`[all]`	78
+	`[dungeon type]`
+	`[skill consume item]`	0
+	`+`	200
+	`[at gunner]`	31
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[at gunner]`	31
+	`[dungeon type]`
+	`[level]`	1
+	`%`	200
+	`[at gunner]`	57
+	`[dungeon type]`
+	`[static]`	5
+	`%`	-100
+	`[at gunner]`	57
+	`[dungeon type]`
+	`[static]`	0
+	`%`	100
+	`[at gunner]`	57
+	`[dungeon type]`
+	`[static]`	7
+	`%`	-100
+	`[at gunner]`	57
+	`[dungeon type]`
+	`[static]`	9
+	`%`	200
+	`[at gunner]`	57
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[at gunner]`	58
+	`[dungeon type]`
+	`[static]`	5
+	`%`	-100
+	`[at gunner]`	58
+	`[dungeon type]`
+	`[static]`	0
+	`%`	100
+	`[at gunner]`	58
+	`[dungeon type]`
+	`[static]`	7
+	`%`	-100
+	`[at gunner]`	58
+	`[dungeon type]`
+	`[static]`	9
+	`%`	200
+	`[at gunner]`	58
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+[/skill data up]
+
+[if]
+	[my state]
+		`jump`
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		3000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		3000
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[my state]
+		`jump attack`
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1500
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`jump`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my prev state]
+		`jump`
+	[my appendage]
+		1002
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`jump`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my prev state]
+		`jump`
+	[my appendage]
+		1002
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`jump`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my prev state]
+		`jump`
+	[my appendage]
+		1002
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`down`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my prev state]
+		`down`
+	[my appendage]
+		1002
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		1002
+[/then]
+
+[if]
+	[event use skill]
+		`gunner`	78
+		`at gunner`	78
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		100
+	[duration]
+		5000
+	[active status]
+		`stun`	99
+	[target]
+		`myself`	-1
+	[passive object]
+		30517	0	0	0	0	0
+		``	2500	0	0	0	25	0
+		``	2600	0	0	0	25	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`gunner`	78
+		`at gunner`	78
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`enemy near`	500
+	[probability]
+		100
+	[passive object]
+		30501	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	78
+		`at gunner`	78
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-40	2000
+[/then]
+
+[if]
+	[event attack success]
+		1
+	[skill]
+		`gunner`	78
+		`at gunner`	78
+	[/skill]
+	[cooltime]
+		100
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[weakness]
+		5
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`<`
+		`%`	30
+	[time]
+		500	1	500
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	10	0
+[/then]
+
+[if]
+	[my state]
+		`jump attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`dark`
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			4500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[reduce duration to human armor at pvp module]
+			50
+		[probability]
+			5
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`freeze`	64
+	[/then]
+	[if]
+		[target active status]
+			`freeze`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[possible kiri protect]

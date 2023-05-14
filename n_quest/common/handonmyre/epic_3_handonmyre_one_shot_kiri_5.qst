@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	15	99
+
+[pre required quest]
+	4429
+[/pre required quest]
+
+[type]
+	`[custom quest]`
+
+[sub type]
+	0
+
+[int data]
+	1	0	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神槍手之路 - 任務商店`
+
+[depend message]
+	`這是我能告訴你的最後一件事了。你有聽過任務商店嗎？利用每次完成主線任務時獲得的 QP可以在任務商店中購買商品~ 
+我已經在你非買不可的商品貼上推薦標記了，請一定要購買！`
+
+[condition message]
+	`神槍手之路 - 任務商店`
+
+[solve message]
+	`很好。剩下的 QP你可以購買自己選擇的商品。那麼往後為了阿拉德的和平和天界的榮譽還請你多多表現！！！！`
+
+[quest point]
+	4

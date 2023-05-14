@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`神劍之巔`
+
+[flavor text]
+	`來了嗎？ 拜託你出招吧！`
+
+[explain]
+	`每隔100秒可以使自身增加100點的力量、智力、體力和精神，效果持續50秒。（佩戴時從50秒后發動。)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	399
+
+[custom animation]
+	`TitleAnimation/apc_tower_of_despair_99.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[if]
+	[time]
+		100000	1	50000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		50000
+	[stat]
+		`physical attack`
+		`+`	100
+	[stat]
+		`magical attack`
+		`+`	100
+	[stat]
+		`physical defense`
+		`+`	100
+	[stat]
+		`magical defense`
+		`+`	100
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1

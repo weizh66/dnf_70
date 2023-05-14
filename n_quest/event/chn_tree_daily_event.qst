@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[npc index]
+	2
+
+[complete npc index]
+	36
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	36
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749454	1
+[/reward int data]
+
+[name]
+	`奧蘭的禮物`
+
+[depend message]
+	`你好啊~冒險家。 聽說最近阿拉德大陸陸續發現了一些小樹精， 如果是真的話， 那可真是太高興了。
+要知道這里已經很久沒有出現它們的蹤跡了， 真希望小樹精們能夠在阿拉德大陸快快樂樂地成長！
+如果你也愿意出一份力的話， 可以去找奧蘭奶奶問問哦~`
+
+[condition message]
+	`    找奧蘭奶奶談談。`
+
+[solve message]
+	`沒想到年輕人還挺熱心的。 老太婆這邊正好有些小東西可以幫助樹精成長。 不過這要看你是不是有恒心？/n我會每天給你一些， 所以你必須每天來陪老太婆聊聊~~`

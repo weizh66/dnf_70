@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`幸存者的奧秘`
+
+[basic explain]
+	`隊伍中有1名隊員死亡時， 會增加自身20點力量和智力， 以及2%%的攻擊速度、 移動速度和3%%的施放速度。 `
+
+[detail explain]
+	`    隊伍中有1名隊員死亡時， 會增加自身20點智力、 以及2%%的攻擊速度、 移動速度和3%%的施放速度， 效果持續20秒。 (效果最多可重疊5次)`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	16
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	69
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	117000
+
+[repair price]
+	98280
+
+[value]
+	93600
+
+[cool time]
+	10000
+
+[physical attack]
+	44
+
+[equipment physical attack]
+	749	677
+
+[equipment magical attack]
+	562	508
+
+[separate attack]
+	378	255
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[variation]
+	10	7
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[if]
+	[party death]
+		1
+[/if]
+
+[then]
+	[duration]
+		20000
+	[target]
+		`myself`	-1
+	[appendage]
+		3
+[/then]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+[/routing priority]
+
+[need material]
+	2749095	169
+
+[possible kiri protect]

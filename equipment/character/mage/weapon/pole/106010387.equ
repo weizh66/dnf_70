@@ -1,0 +1,223 @@
+#PVF_File
+
+[name]
+	`民兵隊長的破敵戰棍`
+
+[basic explain]
+	`    裝備後， 300px範圍內的所有敵人減少10000點物理防禦力和魔法防禦力。
+    攻擊時， 有3%%的幾率使敵人進入出血狀態， 效果持續3秒。
+    攻擊出血狀態下的敵人時， 附加10%%的傷害。`
+
+[detail explain]
+	`    裝備後， 300px範圍內的所有敵人減少10000點物理防禦力和魔法防禦力。
+    攻擊時， 有3%%的幾率使敵人進入出血狀態3秒； 出血狀態下的敵人， 每0.5秒受到500點傷害。(若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果； 冷卻時間4秒)
+    攻擊出血狀態下的敵人時， 附加10%%的傷害。`
+
+[flavor text]
+	`    我該拿什麼拯救我的子民？  --梅婭女王`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	62
+
+[attack speed]
+	50
+
+[stuck]
+	-1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	983	879
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/mage/pole/pole.img`	108
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[mage]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	40	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`POLE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2400
+
+[item group name]
+	`pole`
+
+[cool time]
+	10000
+
+[if]
+	[time]
+		500	1	500
+	[cooltime]
+		500
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		500
+	[stat]
+		`equipment physical defense`
+		`+`	-10000
+	[stat]
+		`equipment magical defense`
+		`+`	-10000
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		2000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[duration]
+		5000
+	[active status]
+		`bleeding`	90	3000
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

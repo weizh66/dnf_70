@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`渴望炙熱襲擊的寶甲`
+
+[basic explain]
+	`被攻擊時以 10%% 的機率30秒內攻擊速度增加3%%，施放速度增加3%%，物理防禦力增加500（最多可重疊3次）
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[physical attack]
+	38
+
+[physical defense]
+	35
+
+[magical attack]
+	28
+
+[HP MAX]
+	200
+
+[need material]
+	3339	630
+
+[repair price]
+	84672
+
+[value]
+	80640
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	4368	4128
+
+[fire resistance]
+	11
+
+[burn resistance]
+	5
+
+[icon]
+	`item/new_equipment/05_harmor/coat/harmor_coat.img`	14
+
+[field image]
+	`Item/field_equip.img`	10
+
+[equipment type]
+	`[coat]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	3600
+
+[item group name]
+	`ha coat`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[if]
+	[cooltime]
+		500
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[duration]
+		30000
+	[appendage]
+		48
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

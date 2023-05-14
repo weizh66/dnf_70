@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`血霧玫瑰戰棍`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入出血狀態。
+攻擊速度增加1%%`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以22的攻擊力給予傷害。 (若敵人高於Lv10，則減少進入異常狀態的機率；反之，則增加機率。)`
+
+[grade]
+	14
+
+[rarity]
+	3
+
+[creation rate]
+	200
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	10
+
+[physical attack]
+	13
+
+[physical defense]
+	8
+
+[magical attack]
+	13
+
+[attack speed]
+	60
+
+[cast speed]
+	10
+
+[stuck]
+	-1
+
+[price]
+	22400
+
+[repair price]
+	17920
+
+[value]
+	2000
+
+[equipment physical attack]
+	194	151
+
+[equipment magical attack]
+	162	126
+
+[separate attack]
+	99	63
+
+[skill levelup]
+	`[mage]`	12	2
+	`[mage]`	36	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/mage/pole.img`	22
+
+[field image]
+	`Item/field_weapon.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2150
+	`at_polea`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_poled`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`polec`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`poled`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`POLE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2400
+
+[item group name]
+	`pole`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	10	450
+[/then]
+
+[possible kiri protect]

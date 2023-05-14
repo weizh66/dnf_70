@@ -1,0 +1,133 @@
+#PVF_File
+
+[name]
+	`月之光芒`
+
+[basic explain]
+	`[月光斬]冷卻時間 +1秒
+攻擊速度 +1%%`
+
+[flavor text]
+	`    月光色， 女子香
+    淚斷劍， 情多長
+    望明月， 心悲涼
+    千古恨， 輪回嘗`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/katana.img`	45
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	559	508
+
+[separate attack]
+	328	220
+
+[attack speed]
+	90
+
+[cast speed]
+	40
+
+[physical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[swordman]`	77
+	`[all]`
+	`[cooltime]`	0
+	`+`	-1000
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	77	5
+[/skill levelup]
+
+[variation]
+	0	3
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[routing priority]
+	`swordman`	2
+[/routing priority]
+
+[possible kiri protect]

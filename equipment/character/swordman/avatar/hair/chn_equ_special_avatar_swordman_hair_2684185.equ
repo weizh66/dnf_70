@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`銀色巨獸戰士頭冠`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[usable period]
+	30
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_ahair.img`	341
+
+[equipment type]
+	`[hair avatar]`	0
+
+[sub type]
+	0
+
+[variation]
+	102	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30001
+
+[cast speed]
+	130
+
+[physical defense]
+	15
+
+[avatar func filter]
+	2

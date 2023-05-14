@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	19
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	4018
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`女神的詛咒`
+
+[depend message]
+	`天啊……你好像也受到了維納斯女神的‘恩澤’……
+所謂‘恩澤’， 是為了怕對女神不敬而美化的一種說法， 其實那是一種詛咒。 它會讓你的身體由內部滋生出‘惡’， 而后逐漸侵蝕到外部， 直至你變成一個徹底的怪物。
+正如我之前所說的， 天帷巨獸里處處可見的‘夜叉’就是受詛咒的結果。 如果不趕快解除詛咒的話， 你可能也會步他們后塵……
+可是， 我們教里的書籍并沒有記載解除詛咒的方法……這可怎么辦呢？ 要不你去找找賽麗亞吧， 說不定她能知道……`
+
+[condition message]
+	`    向賽麗亞打聽解除詛咒的方法。`
+
+[solve message]
+	`啊！ 冒險家你說什么？ 你受到女神維納斯的詛咒了？`
+
+[quest point]
+	4

@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`限定的哥布林壓縮膠囊`
+	
+
+[explain]
+	`使用後，召喚出哥布林協助召喚者進行戰鬥，哥布林存在30秒。 哥布林的Lv與召喚者的Lv相同。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	184
+
+[icon mark]
+	`Item/IconMark.img`	13
+
+[field image]
+	`Item/field_consumption.img`	36
+
+[stackable type]
+	`[waste]`	1
+
+[cool time]
+	10000
+
+[cooltime group]
+	100
+
+[move wav]
+	`JEWEL_TOUCH`
+
+[monster summons]
+	1	-1	-1	30000	5
+
+[expiration date]
+	1250694000

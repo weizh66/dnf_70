@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	8	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3012	10
+[/int data]
+
+[dungeon info]
+	5	-1	6	-1	7	-1	8	-1	9	-1	1000	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	3033	5	3036	5
+[/reward selection int data]
+
+[name]
+	`神秘的晶體 (2/2)`
+
+[depend message]
+	`神秘的正六面體是伴隨著阿拉德大陸發生的怪異現象一起出現的， 我們煉金術師把它們稱為晶體。
+通過我們研究， 發現這種晶體蘊含有某種特殊的力量， 不過誰也不知道它是根據什么原理形成的。 冒險家， 只要你替我收集一些試驗材料， 我就把這些晶體給你， 怎么樣？ `
+
+[condition message]
+	`    收集10個[貓妖腳爪]。`
+
+[solve message]
+	`謝謝了。 來， 這是我送你的晶體。 神奇吧？ 色澤也夠漂亮吧？
+呵呵呵， 好好使用吧。 嗯？ 你問我怎么使用？
+………………
+嗯？ 你還沒走啊？ 快回家去吧！`

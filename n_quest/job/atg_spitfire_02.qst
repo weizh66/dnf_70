@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7877
+[/pre required quest]
+
+[collision quest]
+	7867	7871	7874
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7879
+
+[name]
+	`轉職 - 彈藥專家 (2/3)`
+
+[depend message]
+	`如果你想對子彈附加屬性并用它攻擊敵人， 那么根據時間和地點靈活變換戰略就非常重要。
+這次要考驗你的沉著冷靜和判斷力， 因為只有通過這次考驗， 你日后在作戰時， 才能根據實際情況隨機應變。`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』， 要求地下城難度為冒險級。`
+
+[solve message]
+	`你現在明白了吧？ 怪物這種東西， 不論是在天界還是在這里， 都是差不多的。`

@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`three`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	``
+
+[attack info]
+	`attackinfo/bloodcastle_dogs.atk`
+
+[etc motion]
+	`animation/bloodcastle/dog1.ani`
+	`animation/bloodcastle/dog2.ani`
+	`animation/bloodcastle/dog3.ani`
+[/etc motion]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

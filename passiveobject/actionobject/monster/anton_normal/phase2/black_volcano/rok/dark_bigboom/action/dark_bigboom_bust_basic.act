@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Dark_Bigboom_Basic_4.ani`
+	[SUB ANI]
+		`../Animation/Dark_Bigboom_Basic_6.ani`	0	1
+		`../Animation/Dark_Bigboom_Basic_5.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

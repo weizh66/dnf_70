@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`光之城主賽格哈特  卡片`
+
+[flavor text]
+	`    謹遵偉大的爆龍王巴卡爾之命， 永遠守衛天空之城……`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	28
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[need material]
+	3340	72
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[weapon]`
+[/string data]
+
+[int data]
+	28	3000
+[/int data]
+
+[enchant]
+	[elemental property]
+		`[light element]`
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

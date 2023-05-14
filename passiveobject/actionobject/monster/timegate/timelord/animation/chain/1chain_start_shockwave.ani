@@ -1,0 +1,83 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-384	-495
+	[RGBA]
+		0	220	255	255
+	[DELAY]
+		350
+
+[FRAME001]
+	[IMAGE]
+		`Monster/timegate/TimeLord/chain_bottom.img`
+		1
+	[IMAGE POS]
+		-384	-495
+	[RGBA]
+		0	220	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`Monster/timegate/TimeLord/chain_bottom.img`
+		1
+	[IMAGE POS]
+		-384	-495
+	[IMAGE RATE]
+		1.2000000476837158	1.2000000476837158
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		`Monster/timegate/TimeLord/chain_bottom.img`
+		1
+	[IMAGE POS]
+		-384	-495
+	[IMAGE RATE]
+		1.2999999523162842	1.2999999523162842
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME004]
+	[IMAGE]
+		`Monster/timegate/TimeLord/chain_bottom.img`
+		1
+	[IMAGE POS]
+		-384	-495
+	[IMAGE RATE]
+		1.399999976158142	1.399999976158142
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME005]
+	[IMAGE]
+		`Monster/timegate/TimeLord/chain_bottom.img`
+		1
+	[IMAGE POS]
+		-384	-495
+	[IMAGE RATE]
+		1.4500000476837158	1.4500000476837158
+	[RGBA]
+		0	22	105	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50

@@ -1,0 +1,21 @@
+#PVF_File
+
+[name]
+	`ATMage Forbidden passive`
+
+[layer]
+	`[cover]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/bg.ani`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+[/object destroy condition]

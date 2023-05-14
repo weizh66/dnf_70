@@ -1,0 +1,64 @@
+#PVF_File
+
+[background pos]
+	80
+
+[entering title]
+	`Title/LorienInside.ani`
+
+[cutscene image]
+	`Map/CutScene/Lorien.img`	0
+
+[minimap image]
+	`Map/MiniMap/Act1.img`
+
+[worldmap pattern info]
+	1	2
+	`WorldMap/SelectdungeonSlot/elvengard.img`	1
+
+[minimum required level]
+	2
+
+[basis level]
+	2
+
+[experience increasing point]
+	1.2
+
+[champion]
+	0	0	0	0	0
+
+[pathgate object]
+	361	362	363	364	365	366	367	368	369	370
+
+[maze info]
+
+[size]
+	3	3
+
+[greed]
+	`BBMMAA
+ BBPPEE
+ BBGGAA`
+
+[start map]
+	0	2	0	0
+[/start map]
+
+[boss map]
+	0	1	2	1
+[/boss map]
+
+[special passive object item]
+	0	-1	2	1000	1250	1004	1250	1	-1	0	2	-1	0
+[/special passive object item]
+
+[event monster]
+	1	7000	61726	1	300	80	1
+[/event monster]
+
+[name]
+	`洛蘭深處`
+
+[explain]
+	`古樹參天的洛蘭深處住著很多牛頭怪， 它們巨大的身軀裡有著強大的力量， 傳言哥布林族非常崇尚這些牛頭怪。 最近， 哥布林仗著牛頭怪的力量， 肆無忌憚的殘害周邊居民。 如果誰想徹底除掉這群煩人的傢伙， 就需要先除掉那些牛頭怪！`

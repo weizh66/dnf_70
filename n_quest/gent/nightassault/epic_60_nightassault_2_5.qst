@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	5723
+[/pre required quest]
+
+[enemy reward item]
+	61458	1	83	2	4381	1	100	1	61804	1	83	2	4381	1	100	1	61458	1	83	3	4381	1	100	1	61804	1	83	3	4381	1	100	1
+[/enemy reward item]
+
+[quest point]
+	10
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4381	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	7773	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`奪取敵軍作戰圖`
+
+[depend message]
+	`以目前形勢來看， 敵軍在人數上依然占優勢。 我們必須想個辦法， 在不損傷我軍兵力的前提下， 削減他們的戰斗力。
+嗯……我想了想， 最好的方法就是攻擊他們的補給線。 一旦后備物資跟不上， 戰斗力自然會下降。
+只是， 目前我軍還沒有查探到敵方補給基地的具體位置……聽說敵軍營地里有一份詳細的作戰地圖……
+如果能拿到手就好了！ 冒險家， 你能幫我們這個忙嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『夜間襲擊戰』， 擊敗帕菲斯兄弟， 并奪取[卡勒特作戰地圖]， 要求地下城難度為王者級以上。`
+
+[solve message]
+	`太好了！ 有了這張圖， 局勢將會發生新的變化， 而我們更是迎來了勝利的曙光。
+哈哈~我要馬上和戰士們分享這個好消息。`

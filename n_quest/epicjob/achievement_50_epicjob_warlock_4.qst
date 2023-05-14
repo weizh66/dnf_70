@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	4084
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3229	100	3187	200
+[/int data]
+
+[reward type]
+	`[awakening type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`覺醒 - 魔皇 (4/4)`
+
+[depend message]
+	`剩下最后一個小節了。 不知道你身上的黑暗之眼會不會對這首歌有所反應？ 真令人期待啊……
+對了， 在這之前還得做一些準備工作， 不然即使唱完整首歌， 效果也不會明顯。`
+
+[condition message]
+	`    為了成為魔皇， 請收集以下材料。`
+
+[solve message]
+	`最后一小節是這樣的。
+‘沒有歡笑， 沒有痛苦， 黑暗占據了你的身體， 新的生命即將降臨。’
+現在， 你試著把整首歌唱一遍……我也很好奇到底會發生什么……
+<npc::0>咳咳……
+‘雙眼被黑暗蒙蔽， 猶如黑色的月亮一般， 充滿了死氣。 這是無底的深淵， 讓人不寒而栗。 你聽這一聲聲絕望的凄厲， 是不是死亡就要來臨？’
+‘拋開俗世的羈絆， 拋開繁雜的感情， 你不再是你， 殘酷才是你的本性。 沒有歡笑， 沒有痛苦， 黑暗占據了你的身體， 新的生命即將降臨。’
+<npc::12>我感覺到了！ 你身體內黑暗之眼的力量在逐漸膨脹！ 原來這就是所謂的反應……恭喜你， 正式成為魔皇了。`

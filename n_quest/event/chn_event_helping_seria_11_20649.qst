@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	13
+
+[complete npc index]
+	13
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20648
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[int data]
+	-1	-1	-1	1	80
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2749655	1
+[/reward int data]
+
+[name]
+	`親身體驗的結果`
+
+[depend message]
+	`啊~喂~不要怕~還是我， 偉大的煉金術師諾頓！
+只不過我需要親身體驗下整個過程， 所以才變成現在這副模樣哈~
+但是也多虧了這樣， 我已經有些頭緒了。 你先幫我去地下城抓幾只怪物回來！ 快去快回啊~`
+
+[condition message]
+	`    在地下城中， 抓80只怪物。`
+
+[solve message]
+	`(告訴諾頓有關在地下城內抓怪物的事)
+嗯~對就是這樣……咦？ 哦， 這個這么做就可以了……
+$@#$$%#$(諾頓一直在自言自語， 難道那藥還能讓人變成瘋子？)`
+
+[substitutive names]
+	`擊敗次數`
+[/substitutive names]
+
+[condition data]
+	0
+	`擊敗次數 : %d / %d`
+[/condition data]

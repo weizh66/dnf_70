@@ -1,0 +1,29 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Map/BreakableObject/CageDestroy.img`
+		0
+	[IMAGE POS]
+		-45	-22
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[INTERPOLATION]
+		1
+	[DELAY]
+		500
+
+[FRAME001]
+	[IMAGE]
+		`Map/BreakableObject/CageDestroy.img`
+		0
+	[IMAGE POS]
+		-45	-22
+	[IMAGE RATE]
+		0.800000011920929	0.800000011920929
+	[IMAGE ROTATE]
+		3.130000114440918

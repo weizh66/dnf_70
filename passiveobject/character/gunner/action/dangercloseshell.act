@@ -1,0 +1,33 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/DangerClose/DangerShell.ani`
+	[SUB ANI]
+		`../Animation/DangerClose/MissileSmoke1.ani`	0	0
+		`../Animation/DangerClose/MissileSmoke2.ani`	0	0
+		`../Animation/DangerClose/MissileSmoke3.ani`	0	0
+		`../Animation/DangerClose/DangerSmoke.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			99215
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

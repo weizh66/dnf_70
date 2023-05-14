@@ -1,0 +1,247 @@
+#PVF_File
+
+[name]
+	`暗黑血之碎雲`
+
+[basic explain]
+	`攻擊速度增加2%%
+ 攻擊人類族敵人時，給予敵人20％的％附加傷害
+攻擊人類族敵人時，以10%%的機率附加6000的傷害。
+ 每殺死1個敵人時，以40%%的機率召喚出狄瑞吉的碎片。
+對類人型敵人的傷害增加20%%
+穿戴時，使自身HP每30秒削減1%%。`
+
+[detail explain]
+	`攻擊速度增加2%%
+對人類型敵人的傷害增加20%%
+ 攻擊人類型敵人時，有10%%的機率附加6000點傷害。
+ 每次殺死敵人時，有40%%的機率召喚出狄瑞吉的碎片。(在決鬥場中無效)
+ 穿戴後，每隔30秒會削減自身HP的1%%。`
+
+[grade]
+	75
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	68
+
+[anti evil]
+	10
+
+[physical attack]
+	74
+
+[attack speed]
+	-60
+
+[move speed]
+	40
+
+[stuck]
+	-1
+
+[price]
+	135000
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[need material]
+	3340	363
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	857	797
+
+[equipment magical attack]
+	643	598
+
+[separate attack]
+	425	288
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	59
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	11	3
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	11	3
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[if]
+	[target type]
+		`human`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[target type]
+		`human`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[add absolute damage]
+		`all`
+		`+`	6000
+[/then]
+
+[rigidity]
+	100
+
+[if]
+	[time]
+		10000	1	1000
+	[cooltime]
+		30000
+	[stat change]
+		`hp`
+		`>`
+		`%`	1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	-1	0
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		40
+	[summon monster]
+		62131	67	1
+[/then]
+
+[pvp]
+	[if]
+		[time]
+			10000	1	1000
+		[cooltime]
+			30000
+		[stat change]
+			`hp`
+			`>`
+			`%`	1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[restore]
+			`hp`
+			`%`	-1	0
+	[/then]
+[/pvp]
+
+[possible kiri protect]

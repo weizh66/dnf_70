@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	8
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	421
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	30000	3040	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7040	1	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 運氣試驗`
+
+[depend message]
+	`你真是奇怪的家伙， 怎么一見面就問我有沒有發現可疑的人？ 說實話， 我就算知道也不會直接告訴你的， 那多沒意思啊！
+這樣吧， 你來碰碰運氣。 如果運氣好， 說不準能從我嘴里問出點什么哦！ `
+
+[condition message]
+	`    將3萬金幣和3個[紅色大晶體]交給艾爾文防線的土罐。`
+
+[solve message]
+	`如果你抽中土罐人偶， 那就恭喜了！ 如果是博肯人偶……嘿嘿， 那就要重新開始！ 有意思吧？ `
+
+[quest point]
+	4

@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	4044
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	11
+
+[int data]
+	92	2	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`自食惡果`
+
+[depend message]
+	`現在想起來還是會火冒三丈！ 那么多年的同伴， 怎么說背叛就背叛了……
+那個忘恩負義的兜風皮埃爾， 就是因為他被蘭蒂盧斯收買出賣了我們， 才使得那場會戰最終慘敗……
+哼！ 決不能讓這種敗類活在世上！ 冒險家， 你去給他點顏色看看！`
+
+[condition message]
+	`    前往海上列車的『霧都赫伊斯』， 消滅所有房間中的敵人， 然后找凱麗談談， 要求地下城難度為王者級以上。`
+
+[solve message]
+	`這個家伙……到最后了還……我應該高興才對啊， 為什么心里有些悲傷呢……`
+
+[dialog]
+	0	0	15186	0	0	0	0
+	`<monster::56029>不如這次我用卡勒特的情報和你交易怎么樣？ 我的條件很簡單， 我需要自由！ 要知道這可不是虧本生意哦！`
+[/dialog]
+
+[dialog]
+	0	0	15197	0	0	0	0
+	`<monster::56031>你認識尼爾斯嗎？ 如果遇到他， 記得和他說， 艾麗格正到處找他， 讓他小心！`
+[/dialog]
+
+[dialog]
+	0	1	15186	0	0	0	0
+	`<monster::56029>掃把星！ 遇到你我就沒好事~`
+[/dialog]
+
+[quest point]
+	4

@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`火焰的尼爾狙擊兵`
+
+[basic explain]
+	`尼爾狙擊攻擊時火屬性 30%% 附加傷害
+用尼爾狙擊攻擊敵人時，以 50%% 的機率讓敵人陷入灼傷狀態`
+
+[detail explain]
+	`尼爾狙擊 攻擊時火屬性 30%% 附加傷害
+以尼爾狙擊攻擊敵人時，以 50%% 的機率讓敵人進入灼傷狀態，每 0.5秒用500的攻擊力給予傷害，或是身邊的敵人不給予傷害。 （高於Lv85的對象得到的機率減少，低於Lv85的對象則會增加。）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[magical attack]
+	84
+
+[price]
+	153000
+
+[repair price]
+	128520
+
+[value]
+	122400
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	829	749
+
+[equipment magical attack]
+	721	651
+
+[separate attack]
+	504	343
+
+[fire attack]
+	12
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/musket/musket.img`	88
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	28	1
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	28	1
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[if]
+	[skill]
+		`gunner`	78
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	30
+[/then]
+
+[if]
+	[skill]
+		`gunner`	78
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[probability]
+		50
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[active status]
+		`burn`	85	4000	0	0	10000
+[/then]
+
+[if]
+	[skill]
+		`at gunner`	78
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	30
+[/then]
+
+[if]
+	[skill]
+		`at gunner`	78
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[probability]
+		50
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[active status]
+		`burn`	85	4000	1	0	3000
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7836
+[/pre required quest]
+
+[collision quest]
+	7828	7832	7838
+[/collision quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	500	-1
+[/int data]
+
+[dungeon info]
+	500	-1
+[/dungeon info]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	3
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 機械師 (3/3)`
+
+[depend message]
+	`好了， 開始修復~~先這樣……再那樣……
+呼~~終于修好了。
+之前還擔心能不能修好， 好在總算完美解決了。
+嘿， 這不是你的嗎？ 快過來試試看能不能正常啟動。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`太好了！ 有了馬柏斯的仆人， 機械師就可以發揮100%的能力了， 加油！`

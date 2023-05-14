@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	16
+
+[grade]
+	`[repeatable]`
+
+[rank range]
+	2	30
+
+[rate range]
+	30	70
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[大將戰]關鍵人物`
+	
+
+[cond_text]
+	`大將戰中，一場競賽達成10次2kill`
+	
+
+[condition]
+	`[kill]`	2	2	10
+[/condition]
+
+[reward item]
+	3312	10
+[/reward item]

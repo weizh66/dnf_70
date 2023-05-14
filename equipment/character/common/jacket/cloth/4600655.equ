@@ -1,0 +1,136 @@
+#PVF_File
+
+[name]
+	`封·幽魂魅影長袍`
+
+[basic explain]
+	`  每10點暗屬性抗性增加2點暗屬性強化值。（最多增加50點）
+  每10點暗屬性抗性增加2點暗屬性強化值。 （最多增加50點）
+  每10點暗屬性抗性，使自身增加5點魔法攻擊力和5點獨立攻擊力。（最多增加150點）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12562
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	44
+
+[magical defense]
+	44
+
+[HP MAX]
+	100
+
+[MP MAX]
+	200
+
+[need material]
+	3821	900
+
+[price]
+	86000
+
+[repair price]
+	68800
+
+[value]
+	68800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1164	1056
+
+[dark resistance]
+	12
+
+[light resistance]
+	-6
+
+[icon]
+	`item/new_equipment/02_cloth/coat/cloth_coat.img`	10
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			70
+		[upper bound level]
+			70
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[time]
+		500	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat change by stat]
+		`myself`	-1
+		`dark resistance`	10
+		`dark attack`
+		`+`	2	50
+	[stat change by stat]
+		`myself`	-1
+		`dark resistance`	10
+		`equipment magical attack`
+		`+`	5	150
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 毒神絕 (2/6)`
+
+[depend message]
+	`當你精通毒氣之后， 只要站在那里都會散發出一股刺鼻的猛毒氣味。 所以， 據說連野獸們也會聞之喪膽， 紛紛逃走， 你說何況是人類呢？
+然而， 當你突破‘精通’的水平， 達到更高的境界后， 就可以把毒氣完美地掩藏在體內， 其他人完全感知不到。
+所以， 從現在開始我要教你如何掌控毒氣。
+你先去參加魂·黃龍大會吧， 那里強者云集， 你去試著控制身上的毒氣， 與他們切磋武藝吧。
+但你要銘記兩點。 一、 你不能殺生。 二、 你不能用毒氣讓自己的對手造成內傷。
+還有， 參加魂·黃龍大會需要獲得王室推薦的證明， 即‘斯卡迪女王的印章’， 我們先去收集一下這個東西吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`收集好了嗎？ 給我看看。
+可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4982
+[/pre required quest]
+
+[relation quest]
+	5382
+
+[job change quest]
+	3
+
+[grow number]
+	0

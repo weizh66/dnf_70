@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7802
+[/pre required quest]
+
+[collision quest]
+	7804	7808	7811
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3098	1
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 劍魂 (4/4)`
+
+[depend message]
+	`現在準備工作已經完成了。 你準備好轉職成為劍魂了嗎？`
+
+[condition message]
+	`    把[校正工具]交給G.S.D。`
+
+[solve message]
+	`祝賀你！ 只要你繼續勤加修煉， 就不會愧對于你‘劍魂’的稱號。 再接再厲吧！`

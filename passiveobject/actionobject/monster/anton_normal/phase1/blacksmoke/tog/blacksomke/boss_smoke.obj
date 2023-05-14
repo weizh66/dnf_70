@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`?主??`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/boss_smoke_Basic.act`
+
+[last action]
+	`Action/boss_smoke_Last.act`
+
+[etc action]
+	`Action/Etc_boss_smoke_0.act`
+	`Action/Etc_boss_smoke_1.act`
+[/etc action]
+
+[attack info]
+	`attackinfo/boss_smoke_Basic.atk`
+
+[etc attack info]
+	``
+	``
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	15000
+[/object destroy condition]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[CHARACTER]`	0
+	[homing velocity]
+		80.0	1050.0
+	[sync target move]
+[/homing]

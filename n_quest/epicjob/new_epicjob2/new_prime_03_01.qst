@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 機械元首 (4/6)`
+
+[depend message]
+	`知識會流傳、 積累， 容納百川， 最終形成浩瀚的海洋， 而當你擁有了這片海洋， 你就可以超越機械戰神， 成為‘機械元首’。
+讓你擁有的知識流動起來， 脫離固定觀念， 必要時甚至還得吸納別人的知識。 你要不斷的去驗證自己的能力， 克服一次又一次的失敗， 抵達成功的彼岸， 這樣你才能突破自己的極限。
+好， 那么現在你就去魂·青龍大會爭奪冠軍榮譽吧。 去盡情展示你悟出的道理。 當你走到道路的盡頭， 就會找到你想要的答案。
+聽說想要參加大會要有‘赫侖皇帝的印章’， 你去收集一下吧， 我就在這里等你回來。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5398
+[/pre required quest]
+
+[relation quest]
+	5400
+
+[job change quest]
+	3
+
+[grow number]
+	0

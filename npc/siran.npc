@@ -1,0 +1,56 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	22
+
+[big face]
+	`Map/Npc/NpcFace03.img`	30
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	22
+
+[field animation]
+	`Animation/Npc_Siran.ani`
+
+[field wav]
+	`R_NPC_SIRAN_AMB`
+
+[popup wav]
+	`R_NPC_SIRAN_TK`
+	`R_NPC_SIRAN_FW`
+
+[role]
+	`[item shop]`	58
+[/role]
+
+[look around]
+	0
+
+[name]
+	`西嵐`
+
+[field name]
+	`劍圣 西嵐`
+
+[quest speech]
+	`找不到代碼quest_speech_4330`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::126>最近阿拉德大陸咋樣了？ 沒想到那里還能住人？
+那些不知道從哪里來的使徒， 把阿拉德攪得混亂不堪。 嘿， 你可要打起精神， 多加警惕啊！ 不要像我當年一樣。
+還有啊， 如果遇到啥麻煩事兒， 就去找阿甘左或布萬加， 別來煩我。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::126>很多人都夸我年輕， 有的還來問我保養的秘訣。
+誒， 你說， 這是不是劍術達到一定境界后的結果？ 書上說， 劍術高手們都是這樣永葆青春的……怪不得他們老叫我四劍圣之首， 誰讓我最年輕呢~~`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::126>干啥子一副要死的樣子喲？
+高興點！ 人活在世， 啥都較真， 那活得多累啊！
+要想過幸福快樂， 就要像我一樣簡簡單單， 不要去計較太多， 這樣即使是亂世， 也能活得瀟灑！`
+[/dialog]

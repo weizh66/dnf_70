@@ -1,0 +1,66 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_warning_nomal_0_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_warning_nomal_0_2.ani`	0	1
+		`../Animation/Etc_warning_nomal_0_3.ani`	0	2
+		`../Animation/Etc_warning_nomal_0_4.ani`	0	3
+		`../Animation/Etc_warning_nomal_0_5.ani`	0	4
+		`../Animation/Etc_warning_nomal_0_6.ani`	0	5
+		`../Animation/Etc_warning_nomal_0_7.ani`	0	6
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		16	16
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

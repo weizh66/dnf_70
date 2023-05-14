@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`封·災難召喚法杖`
+
+[basic explain]
+	`  施放[天雷]、[雷光屏障]時，有20%%的幾率召喚出冰魄或火魄寄生蟲中的一個，召喚獸存在100秒。（召喚的怪物只能同時存在4只，若受到較大傷害，則召喚時間結束前就會傷害）`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[magical attack]
+	58
+
+[attack speed]
+	-100
+
+[cast speed]
+	100
+
+[need material]
+	3821	1200
+
+[price]
+	145800
+
+[repair price]
+	116640
+
+[value]
+	116640
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	812	688
+
+[equipment magical attack]
+	1026	869
+
+[separate attack]
+	520	336
+
+[skill levelup]
+	`[mage]`	48	2
+	`[mage]`	82	1
+	`[mage]`	55	4
+	`[at mage]`	29	4
+	`[mage]`	81	1
+	`[mage]`	29	1
+	`[mage]`	74	1
+	`[at mage]`	28	1
+	`[at mage]`	49	1
+[/skill levelup]
+
+[light attack]
+	20
+
+[icon]
+	`item/new_equipment/01_weapon/mage/staff/staff.img`	105
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	28	8
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	28	8
+
+[layer variation]
+	2150
+	`at_staffa`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_staffd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	28	8
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`STAFF_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2400
+
+[item group name]
+	`staff`
+
+[cool time]
+	10000
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[then probability]
+			50.0
+		[duration]
+			100000
+		[summon monster]
+			63035	81	1
+	[/then]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[then probability]
+			50.0
+		[duration]
+			100000
+		[summon monster]
+			63036	81	1
+	[/then]
+[/multiple then]
+
+[possible kiri protect]

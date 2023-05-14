@@ -1,0 +1,24 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Time_destroy00.ani`
+	[SUB ANI]
+		`../Animation/Time_destroy01.ani`	0	1
+	[/SUB ANI]
+	[SOUND]
+		`NEYMAR_WHEEL_CLOCK`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

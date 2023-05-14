@@ -1,0 +1,156 @@
+#PVF_File
+
+[name]
+	`班圖的冰毒`
+
+[basic explain]
+	`[冰霜之薩亞]攻擊時間間隔 -10%%
+攻擊時， 有2%%的幾率出現毒氣柱。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`katana`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2800
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/katana.img`	61
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	63
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	601	550
+
+[separate attack]
+	360	243
+
+[poison resistance]
+	-8
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[passive object]
+		48091	0	0	0	55	0
+		``
+	[/passive object]
+[/then]
+
+[physical critical hit]
+	2
+
+[stuck]
+	1
+
+[skill data up]
+	`[swordman]`	36
+	`[all]`
+	`[static]`	3
+	`%`	-10
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	36	2
+	`[swordman]`	21	2
+[/skill levelup]
+
+[variation]
+	10	3
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`KATANA_TOUCH`
+
+[water attack]
+	8
+
+[routing priority]
+	`swordman`	2
+	`swordman`	4
+[/routing priority]
+
+[possible kiri protect]

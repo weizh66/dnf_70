@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`聖騎士`
+
+[flavor text]
+	`這麼大的劍，我只用一隻手......酷吧！劍士就是這麼酷！  --巴坦`
+
+[grade]
+	40
+
+[rarity]
+	1
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	40
+
+[physical attack]
+	24
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[stuck]
+	1
+
+[price]
+	48000
+
+[repair price]
+	36206
+
+[value]
+	32585
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	398	398
+
+[equipment magical attack]
+	299	299
+
+[separate attack]
+	167	111
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	23
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	21
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[possible kiri protect]

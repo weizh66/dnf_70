@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`精緻的素喃訂製圖騰`
+
+[basic explain]
+	`攻擊速度 +5%%
+暴擊傷害增加10%% `
+
+[grade]
+	52
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`totem`
+
+[rarity]
+	3
+
+[weight]
+	3400
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	48
+
+[icon]
+	`Item/weapon/priest/totem.img`	77
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	38
+
+[value]
+	66560
+
+[cool time]
+	10000
+
+[physical attack]
+	54
+
+[equipment physical attack]
+	508	466
+
+[equipment magical attack]
+	436	400
+
+[separate attack]
+	287	192
+
+[attack speed]
+	50
+
+[stuck]
+	-1
+
+[variation]
+	1	5
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[possible kiri protect]

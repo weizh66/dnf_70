@@ -1,0 +1,82 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	12
+
+[complete npc index]
+	62
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5154
+[/pre required quest]
+
+[effect after clear quest]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	64	-1
+[/int data]
+
+[dungeon info]
+	64	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	7500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`異次元裂縫的力量`
+
+[depend message]
+	`我知道， 你一定很好奇暗精靈和異次元裂縫的傳說是不是真的。
+既然你已經去過了異次元裂縫， 我就告訴你吧， 那的確是事實。
+暗精靈在數百年前就發現了異次元裂縫， 并一直對它以及它擁有的力量進行研究。
+雖然暗精靈研究了數百年還不能弄清楚異次元裂縫是什么， 但還是有所收獲的。
+我們發現， 我們當中的某些暗精靈可以利用異次元裂縫進行時空旅行(雖然并不是隨心所欲的……)，
+也可以在某種程度上利用異界的強大力量。
+至于如何使用異次元裂縫， 就是機密了。 作為暗精靈宮廷魔法師的我， 是不會告訴你它的使用方法的。
+不過， 我可以告訴你， 進入異次元裂縫的強者若想獲得真正強大的力量， 就得遵從異次元裂縫的安排， 它會把你送到你該去的地方。`
+
+[condition message]
+	`    前往異次元裂縫， 通關之前無法進入的地下城， 然后向杜羅西報告。 (只有3人以上組隊才能進入異界地下城)`
+
+[solve message]
+	`果然是古代的天空之城……你們這次還發現了和卡勒特基地很相似的地方？ 看來異次元裂縫真的可以打破時空！
+辛苦你了， 這個情報對我以及帝國都非常重要， 非常感謝！`
+
+[quest point]
+	4

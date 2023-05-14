@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`民兵隊長的血影劍`
+
+[basic explain]
+	`攻擊時，以3%%的機率消耗自身5%%的HP，從而召喚出3個民兵隊員協助自身進行戰鬥，民兵隊員存在7秒； 同時增加自身20%%的物攻和物防。
+(在決鬥場中無效)`
+
+[flavor text]
+	`我在戰場上從不恐懼，因為我的身邊有一群可靠的戰友。-民兵隊長-`
+
+[grade]
+	68
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	64
+
+[anti evil]
+	9
+
+[physical attack]
+	45
+
+[attack speed]
+	-80
+
+[price]
+	122400
+
+[repair price]
+	102816
+
+[value]
+	97920
+
+[need material]
+	3340	37
+
+[equipment physical attack]
+	657	606
+
+[equipment magical attack]
+	515	475
+
+[separate attack]
+	384	260
+
+[physical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/twinswd.img`	79
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[thief]`
+
+[variation]
+	8	6
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[attack success]
+		1
+	[stat change]
+		`hp`
+		`>`
+		`%`	5
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[summon monster]
+		65011	55	1
+	[summon monster]
+		65011	55	1
+	[summon monster]
+		65011	55	1
+	[restore]
+		`hp`
+		`%`	-5	7000
+	[stat]
+		`equipment physical attack`
+		`%`	20
+	[stat]
+		`equipment physical defense`
+		`%`	20
+[/then]
+
+[possible kiri protect]

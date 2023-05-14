@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	7
+
+[complete npc index]
+	7
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	41	99
+
+[pre required quest]
+	131
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	37	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`迷宮中的劍士`
+
+[depend message]
+	`刀刃像被火燒焦了？ 難道是那個家伙……但是他為什么會出現在那里……
+ <npc::4>等等……那家伙應該還在虛祖吧？
+ <npc::7>也有可能是看錯了……
+你可以再替我去一趟嗎？ 看看是不是剎影那小子。`
+
+[condition message]
+	`    前往暗黑城的『暗影迷宮』， 擊敗領主影子劍士剎影， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`這樣啊……原來真的剎影。
+……為了學習魔法， 去找暗精靈……嗯， 如果是那小子， 應該會這樣做。
+ <npc::4>唉……可惜啊……從變成暗精靈守衛的結果來看， 可想而知那小子身上發生了什么事。
+肯定是以學習魔法的代價替暗精靈賣力， 或者被暗精靈直接用魔法洗腦了……
+ <npc::7>唉……真是可惜啊……`
+
+[quest point]
+	4

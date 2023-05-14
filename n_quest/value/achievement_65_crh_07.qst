@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	7658
+[/pre required quest]
+
+[enemy reward item]
+	56013	1	1504	-1	4467	1	15	1
+[/enemy reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4467	1	3299	20	3166	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+	16165	1	16548	1	16948	1	17331	1	17694	1
+[/reward selection int data]
+
+[relation quest]
+	7660
+
+[name]
+	`勇者 - 決戰使徒前的準備 (腰帶)`
+
+[depend message]
+	`這次的任務沒那么簡單了——因為我們的目標是幽靈列車的首領薩斯。
+雖然有點棘手， 但是如果能拿到首領薩斯的腰帶， 那也是值得一試的。`
+
+[condition message]
+	`    前往海上列車的『幽靈列車』， 收集[首領薩斯的腰帶]和以下材料。 (首領薩斯的腰帶可以從首領薩斯身上獲得)`
+
+[solve message]
+	`辛苦了， 這是被賦予了抗魔能力的腰帶， 請你收好。`
+
+[quest point]
+	4

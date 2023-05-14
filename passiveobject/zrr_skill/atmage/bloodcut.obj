@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`three`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`animation/bloodcut.ani`
+
+[etc motion]
+	`animation/atbloodstream/dome/atbloodstream_loop_domea_01.ani`
+	`animation/blood45/tooth_start.ani`
+	`animation/blood_energy.ani`
+	`animation/newblooddoghold/ready.ani`
+	`animation/newblooddoghold/loop.ani`
+	`animation/newblooddoghold/last.ani`
+	`animation/atbloodstream/loop/atbloodstream_loopa_front_bgeffa_01.ani`
+	`animation/atbloodstream/loop/atbloodstream_loopa_tornadoa_01.ani`
+	`animation/atbloodstream/loop/atbloodstream_loopb_front_bgeffa_01.ani`
+	`../swordman/Animation/SwordOfMind/normalhit/hit1_smoke.ani`
+	`../swordman/animation/swordofmind/last_hit.ani`
+	`../../../character/swordman/animation/ani_als/flashcut/fcfinish02_eff_00.ani`
+	`../newswordman/animation/meteorsword/dropsword1_meteorsword_swords.ani`
+	`../newswordman/animation/meteorsword/dropsword2_meteorsword_swords.ani`
+	`../newswordman/animation/meteorsword/dropsword3_meteorsword_swords.ani`
+	`../newswordman/animation/meteorsword/dropsword4_meteorsword_swords.ani`
+	`../newswordman/animation/meteorsword/dropsword5_meteorsword_swords.ani`
+	`../newswordman/animation/meteorsword/dropsword6_meteorsword_swords.ani`
+	`../newswordman/animation/meteorsword/dropsword7_meteorsword_swords.ani`
+	`../newswordman/animation/slashofboom/slashofboom_expl_ghost.ani`
+	`../newswordman/animation/slashofhell/slashofhell_att_eff_27.ani`
+	`../newswordman/animation/slashofhell/slashofhell_debuff_roof_dodge.ani`
+	`../newswordman/animation/bladephantomex/bladephantomex_crack_explosion02.ani`
+	`../newswordman/animation/bloodboom/boom_dodge.ani`
+[/etc motion]
+
+[attack info]
+	`attackinfo/blooccut.atk`
+
+[etc attack info]
+	`../swordman/attackinfo/meteorsword.atk`
+	`../newswordman/attackinfo/sword80.atk`
+	`../newswordman/attackinfo/slashofboomexp.atk`
+	`../newswordman/attackinfo/slashofhell.atk`
+	`../newswordman/attackinfo/bladephantomex_crack_exp.atk`
+[/etc attack info]

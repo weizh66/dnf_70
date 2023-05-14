@@ -1,0 +1,81 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/soulcutter.ani`
+	[SUB ANI]
+		`../animation/effect/soulcutter_slash_normal.ani`	0	-3
+		`../animation/effect/soulcutter_slash_dodge.ani`	0	-2
+		`../animation/effect/soulcutter_backdodge.ani`	0	-1
+		`../animation/effect/soulcutter_dodge.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FLASH SCREEN]
+		140	620	140	0	0	0	160
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TELEPORT]
+	[POS]
+		300	0	0
+	[SET SPEED]
+		[X AXIS]
+			2200
+		[USE MY DIRECTION]
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			0
+		[USE MY DIRECTION]
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11296
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	80
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

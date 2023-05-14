@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`瓦爾基莉亞戰靴`
+
+[basic explain]
+	`[破碎拳]移動距離增加100%%
+[破碎拳]冷卻時間減少40%%
+[破碎拳]攻擊力增加100%%
+[破碎拳]發動速度增加30%%。`
+
+[flavor text]
+	`    從此勇士們便一起以理想方式幸福生活，他們夜晚縱情歡宴，白晝則反復參加那張自己捐軀，并得以流芳百世的戰鬥。 `
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	31
+
+[magical attack]
+	20
+
+[attack speed]
+	80
+
+[move speed]
+	120
+
+[cast speed]
+	120
+
+[need material]
+	3500	1500
+
+[repair price]
+	260
+
+[value]
+	61200
+
+[equipment physical defense]
+	2232	2088
+
+[icon]
+	`item/new_equipment/04_larmor/shoes/larmor_shoes.img`	46
+
+[field image]
+	`Item/field_equip.img`	14
+
+[equipment type]
+	`[shoes]`	19
+
+[sub type]
+	2
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	100
+
+[item group name]
+	`ha shoes`
+
+[cool time]
+	10000
+
+[move speed]
+	70
+
+[skill levelup]
+	`[fighter]`	102	3
+	`[fighter]`	103	3
+[/skill levelup]
+
+[skill data up]
+	`[fighter]`	102
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-40
+	`[fighter]`	102
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+	`[fighter]`	102
+	`[dungeon type]`
+	`[level]`	3
+	`%`	100
+	`[fighter]`	102
+	`[dungeon type]`
+	`[level]`	6
+	`+`	40
+	`[fighter]`	102
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[fighter]`	102
+	`[dungeon type]`
+	`[level]`	7
+	`%`	100
+	`[fighter]`	102
+	`[dungeon type]`
+	`[level]`	8
+	`%`	100
+	`[fighter]`	102
+	`[dungeon type]`
+	`[level]`	9
+	`%`	100
+[/skill data up]
+
+[set item master]
+	11930
+
+[routing priority]
+	`fighter`	2
+[/routing priority]
+
+[possible kiri protect]

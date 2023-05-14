@@ -1,0 +1,77 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/NenFlower/ed-nen.img`
+		1
+	[IMAGE POS]
+		-104	-59
+	[IMAGE RATE]
+		0.699999988079071	10.0
+	[RGBA]
+		255	255	255	100
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/NenFlower/ed-nen.img`
+		1
+	[IMAGE POS]
+		-104	-59
+	[IMAGE RATE]
+		0.699999988079071	10.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/NenFlower/ed-nen.img`
+		1
+	[IMAGE POS]
+		-104	-59
+	[IMAGE RATE]
+		0.5	10.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		800
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Fighter/Effect/NenFlower/ed-nen.img`
+		1
+	[IMAGE POS]
+		-104	-59
+	[IMAGE RATE]
+		0.699999988079071	10.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[FLIP TYPE]
+		`HORIZON`

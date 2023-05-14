@@ -1,0 +1,87 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[demonic lancer]`	78
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[demonic lancer]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[光焰槍]攻擊力 +30%%
+[光焰槍]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-50
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[鷹墜]控制時間 -50%%
+[鷹墜]攻擊力 +40%%
+[鷹墜]冷卻時間 -25%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[demonic lancer]`	78
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[demonic lancer]`	82
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[static]`	0
+		`+`	-15
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[level]`	1
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[光焰槍]攻擊力 +35%%
+[鷹墜]攻擊力 +35%%
+[龍鱗碎割]魔法槍發射次數 -15次
+[龍鱗碎割]攻擊力 +50%%`
+[/piece set ability]

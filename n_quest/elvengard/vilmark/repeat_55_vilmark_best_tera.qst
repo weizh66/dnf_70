@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	1
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	1906
+[/pre required quest]
+
+[monster reward item]
+	50070	1500	0	4161	3	50	-1	50070	1500	1	4161	3	60	-1	50070	1500	2	4161	3	70	-1	50070	1500	3	4161	3	83	-1	50072	1500	0	4162	3	50	-1	50072	1500	1	4162	3	60	-1	50072	1500	2	4162	3	70	-1	50072	1500	3	4162	3	83	-1	17	1500	0	4163	3	50	-1	17	1500	1	4163	3	60	-1	17	1500	2	4163	3	70	-1	17	1500	3	4163	3	83	-1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4161	5	4162	5	4163	5	3205	10	3161	10
+[/int data]
+
+[dungeon info]
+	1500	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3220	4
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`最高級的材料 (重復)`
+
+[depend message]
+	`如果你想制作高級裝備， 那么你需要有很多精煉的泰拉石作材料。 事先說明， 這是一件很繁瑣的事， 你還要收集嗎？ `
+
+[condition message]
+	`    前往洛蘭地區的『比爾馬克帝國試驗場』， 收集5個[瘋狂伊凡上校的火藥]、 5個[哈尼克的牙齒]、 5個[牛頭械王的碎片]、 10個[泰拉石]和10個[林納斯的鐵匠鋪使用券]。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`我要的材料就是這些了， 真了不起！ `

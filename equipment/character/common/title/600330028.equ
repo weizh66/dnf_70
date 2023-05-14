@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`鋼鐵時鐘的齒輪`
+
+[explain]
+	`攻擊時有 5%% 的機率， 增加 30 秒的攻擊速度、移動速度、施放速度 3%%`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	1
+
+[equipment physical attack]
+	30	30
+
+[equipment magical attack]
+	30	30
+
+[separate attack]
+	50	50
+
+[all elemental attack]
+	10
+
+[icon]
+	`Item/Title/title.img`	489
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[custom animation]
+	`TitleAnimation/steampunk_blacktitle.ani`
+[/custom animation]
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+	[cooltime group]
+		5
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`attack speed`
+		`+`	30
+	[stat]
+		`cast speed`
+		`+`	30
+	[stat]
+		`move speed`
+		`+`	30
+[/then]

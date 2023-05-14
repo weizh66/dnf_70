@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	40
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	54	99
+
+[pre required quest]
+	4563
+[/pre required quest]
+
+[depend give item]
+	4291	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4291	1
+[/int data]
+
+[dungeon info]
+	45	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`決斷`
+
+[depend message]
+	`先來喝一杯吧， 呵呵， 我還是第一次和你一起喝酒呢……不過我不想讓村里人看見我狼狽的樣子， 所以也請你體諒一下我的處境。
+廢話我就不多說了， 關于那條龍， 你有什么看法？ 你覺得它會重新冬眠嗎？ 按以前的慣例， 那家伙本來應處在冬眠中的。
+但最近出現的怪異現象太多了， 不斷爆發的雪崩、 突然出現的利庫天井、 曾經無比溫順的雪魈一夜之間變得兇殘無比……甚至還出現了傳說中的洛絲……
+這么多不可思議的事全在這時候發生， 如果都是巧合， 也太夸張了吧？
+我覺得這背后肯定有什么貓膩， 所以特地給帝國皇帝寫了封信。 呵呵， 我們不久前不是締結了盟約嘛。
+聽說只要把信交給艾爾文防線的罐子人就可以了， 你幫我把這封信交給他們吧？`
+
+[condition message]
+	`    前往艾爾文防線找土罐談談。`
+
+[solve message]
+	`以錢賺錢啦~信在罐子里~以錢賺錢啦~`
+
+[quest point]
+	4

@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	8
+
+[complete npc index]
+	18
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[priest]`	-1	-1
+	`[thief]`	-1	-1
+	`[at fighter]`	-1	-1
+[/target character]
+
+[level]
+	68	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	18
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 失蹤的帝國騎士團`
+
+[depend message]
+	`謝天謝地你還活著！ 我可是找你很久了， 除了你， 我不敢向其他人透露我的身份……
+我這次找你， 主要是為了騎士團的事。 你也知道帝國一直在調查瘟疫的起源。
+最近他們發現了一個充滿瘟疫氣息的地方， 于是派出了精銳騎士團前往調查， 可是騎士團到現在都還沒有消息， 恐怕……
+唉~詳細情況你還是去問問博肯吧， 我敢打賭那家伙現在肯定在到處找你呢！
+對了， 還有一件事我必須提醒你， 這次的情況和以前的不一樣， 非常的危險。 雖然我也相信你的實力， 不過要是你想跟我打賭的話， 我會賭你有生命危險。
+當然， 我們土罐部隊也是有自己的原則的， 決不會拿別人的生命當賭注！ 可惜白白浪費了這次賺錢機會啊， 如果賭的話肯定是我贏……
+好了， 你趕快去吧。 記住， 這次的對話要保密哦~~我先告辭了。
+來來來， 以錢賺錢啦~~`
+
+[condition message]
+	`    找赫頓瑪爾的博肯談談。`
+
+[solve message]
+	`你終于來了！ 你怎么知道我在找你呢？`
+
+[quest point]
+	4

@@ -1,0 +1,200 @@
+#PVF_File
+
+[name]
+	`潛龍魅影`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使敵人進入減速狀態。
+對減速狀態下敵人的傷害 +30%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入減速狀態15秒； 減速狀態下， 可以減少40%%的移動速度和攻擊速度。 (若敵人高于Lv50， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+對減速狀態下敵人的傷害 +30%% (在決斗場中 +15%%)`
+
+[flavor text]
+	`    我一直準備逃亡呢
+朋友， 你再怎么逃亡都是在我的射程距離以內呢， 砰！`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`musket`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2100
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`item/weapon/gunner/musket.img`	33
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	2
+
+[durability]
+	30
+
+[need material]
+	3260	750
+
+[repair price]
+	75600
+
+[value]
+	72000
+
+[cool time]
+	10000
+
+[physical attack]
+	35
+
+[magical attack]
+	53
+
+[equipment physical attack]
+	478	401
+
+[equipment magical attack]
+	416	349
+
+[separate attack]
+	285	189
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		15000
+	[probability]
+		5
+	[active status]
+		`slow`	50	40	40
+[/then]
+
+[if]
+	[target active status]
+		`slow`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			5000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			15000
+		[probability]
+			5
+		[active status]
+			`slow`	50	40	40
+	[/then]
+	[if]
+		[target active status]
+			`slow`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

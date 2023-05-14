@@ -1,0 +1,211 @@
+#PVF_File
+
+[name]
+	`布魯的執念`
+
+[basic explain]
+	`攻擊時以4%% 的機率發射布魯的靈魂吶喊
+被攻擊時以20%%的機率發射布魯的靈魂吶喊`
+
+[detail explain]
+	`攻擊時以4%%的機率發射布魯的靈魂 吶喊（冷卻時間20秒，決鬥場內修正為1%% 機率）
+被攻擊時以 20%%的機率發射布魯的靈魂吶喊（冷卻時間20秒，決鬥場內修正為 2%% 機率）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	87
+
+[price]
+	160200
+
+[repair price]
+	134568
+
+[value]
+	128160
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	933	855
+
+[equipment magical attack]
+	560	513
+
+[separate attack]
+	510	347
+
+[skill levelup]
+	`[gunner]`	62	1
+	`[at gunner]`	62	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/hcannon/hcannon.img`	90
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		4
+	[passive object]
+		9104	0	0	0	70	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		1
+	[passive object]
+		48109	0	0	0	70	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[passive object]
+		9104	0	0	0	70	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp type]`
+	[/module]
+	[cooltime]
+		20000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[passive object]
+		48109	0	0	0	70	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

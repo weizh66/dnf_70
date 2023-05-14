@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`摩根的詛咒`
+
+[basic explain]
+	`攻擊時以10%%的機率在20秒內讓敵人陷入詛咒狀態，對詛咒狀態的敵人附加50%%的傷害。`
+
+[detail explain]
+	`攻擊時以10%%的機率在20秒內讓敵人陷入詛咒狀態，對詛咒狀態的敵人附加50%%的傷害。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	90
+
+[physical attack]
+	90
+
+[magical attack]
+	90
+
+[price]
+	89600
+
+[repair price]
+	75264
+
+[value]
+	71680
+
+[equipment physical attack]
+	1516	1476
+
+[equipment magical attack]
+	1516	1476
+
+[separate attack]
+	987	987
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[icon]
+	`Item/weapon/fighter/claw.img`	26
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	5
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	5
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`CLAW_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`claw`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		10
+	[active status]
+		`curse`	100	300	300	300	300
+[/then]
+
+[if]
+	[target active status]
+		`curse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	50
+[/then]
+
+[possible kiri protect]

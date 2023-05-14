@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	27
+
+[complete npc index]
+	10
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	22	99
+
+[pre required quest]
+	352
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	354
+
+[name]
+	`阿爾伯特的條件 (5/7)`
+
+[depend message]
+	`嗯， 糖果味道不錯！ 我的心情也變好了。 但是！ 我好無聊啊……
+這樣吧！ 如果你能讓我開心， 我就教你技能； 要是讓我打哈欠， 哼， 你就不要來找我了！ `
+
+[condition message]
+	`    找羅莉安談談。`
+
+[solve message]
+	`我說這位冒險家， 我知道我很漂亮， 但你也不能總找借口來找我啊！ `
+
+[quest point]
+	4

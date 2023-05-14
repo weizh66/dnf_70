@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`金鑲玉翠項鏈`
+
+[basic explain]
+	`    所有技能冷卻時間-5%%。
+    地下城內刷怪經驗+10%%。`
+
+[flavor text]
+	`    ‘這麼臭美的項鏈，某人應該會很喜歡。’`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	34
+
+[magical defense]
+	84
+
+[need material]
+	3821	750
+
+[price]
+	113400
+
+[repair price]
+	85120
+
+[value]
+	90720
+
+[creation rate]
+	125
+
+[equipment magical defense]
+	7360	6640
+
+[icon]
+	`item/new_equipment/08_necklace/necklace.img`	107
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`skill cool time`
+		`%`	-5
+[/then]
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			45
+		[upper bound level]
+			45
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[bonus exp]
+	10
+
+[emancipate]
+	[input]
+		15037	1
+	[/input]
+	[output]
+		4600621	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

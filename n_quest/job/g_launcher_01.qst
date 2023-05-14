@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	1
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7828	7835	7838
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	13	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7833
+
+[name]
+	`轉職 - 槍炮師 (1/3)`
+
+[depend message]
+	`槍炮師？！ 噢、噢， 你想成為可以自由運用重火器的槍炮師？ 呵呵， 有點困難哦， 因為我每次用重火器后胳膊都很酸痛……
+嗯， 如果你想把重火器用得和拿筷子一樣輕松， 就需要有超人般的體力咯！`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`哈呀？ 這么快就回來了？！ 不錯啊！`

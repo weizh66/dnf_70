@@ -1,0 +1,80 @@
+#PVF_File
+
+[background pos]
+	80
+
+[name]
+	`GBL教阿拉德分部`
+
+[explain]
+	`一直以來， 很多人都認為GBL教只生活在天帷巨獸的神殿中。 但最近， 有人發現GBL教在阿拉德大陸設了分部。 在GBL教的阿拉德分部裡， 冒險家們不僅發現那些崇尚古代知識的GBL教信徒身上出現了一些奇怪的卵， 而且還發現了一個被鎖著的門……門後面到底是什麼呢？ 這是否預示著新一場的災難即將來臨？ 看來只有找到鑰匙打開那個門， 才能找到答案。`
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	1
+	`WorldMap/SelectdungeonSlot/gbl.img`	0
+
+[minimum required level]
+	99
+
+[basis level]
+	49
+
+[experience increasing point]
+	1.1
+
+[champion]
+	3	6	9	12	14
+
+[pathgate object]
+	5500	5501	5502	5503	5504	5505	5506	5507	5508	5509
+
+[special passive object item]
+	0	-1	3	1068	1000	1069	1000	1070	1500	1	-1	0
+[/special passive object item]
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[seal door map index]
+	60040
+
+[seal door pos]
+	1	0
+
+[escape hell]
+	1
+
+[hit count]
+	50	50	50	50	50
+
+[seal door appear rate]
+	10
+
+[hell dungeon]
+	1
+
+[event monster]
+	1	1300	61728	1	300	80	1
+[/event monster]

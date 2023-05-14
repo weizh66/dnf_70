@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`玉米`
+	
+
+[explain]
+	`    使用後， 可以使自身恢復20%%的HP和MP最大值， 並且可以抵擋甘地的出血攻擊， 恢復Lv70為止的出血狀態。`
+	
+
+[flavor text]
+	`    想用這個玉米避免流血衝突嗎？  --非暴力甘地`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/stackable/consumption.img`	704
+
+[stack limit]
+	100
+
+[cool time]
+	10000
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[move wav]
+	`BONE_TOUCH`
+
+[hp recovery]
+	`%`	20	1000
+	`myself`
+
+[mp recovery]
+	`%`	20	1000
+	`myself`
+
+[active status recovery]
+	`bleeding`	70
+	`myself`
+
+[use effect explain]
+	0
+
+[expiration date]
+	1293807600

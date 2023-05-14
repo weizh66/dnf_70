@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`阿爾托莉亞`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	1000
+
+[over skill recovery time]
+	5000
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	0
+
+[start level]
+	1
+
+[permission level]
+	10
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[learn overskill level]
+	1
+
+[skill MP]
+	0
+
+[over skill MP]
+	60
+
+[basic motion]
+	`Animation/saver_stay.ani`
+
+[walk motion]
+	`Animation/saver_walk.ani`
+
+[run motion]
+	`Animation/saver_run.ani`
+
+[skill motion]
+	`Animation/skill.ani`
+
+[over skill motion]
+	`Animation/overskill.ani`
+
+[response motion]
+	`Animation/saver_response.ani`
+
+[etc motion]
+	`Effect/Animation/buff/saver_d_land.ani`
+	`Effect/Animation/buff/saver_d_landwind_b.ani`
+	`Effect/Animation/buff/saver_d_fade_in.ani`
+	`Effect/Animation/buff/saver_d_fade_out.ani`
+	`Effect/Animation/buff/saver_d_landwind_f.ani`
+	`Effect/Animation/buff/saver_d_sword_dodge.ani`
+	`Effect/Animation/buff/saver_d_swordlight_a.ani`
+	`Effect/Animation/buff/saver_d_wave.ani`
+	`Effect/Animation/buff/saver_d_explode.ani`
+	`Animation/saver_come_in_normal_skill.ani`
+	`Animation/saver_come_in_over_skill.ani`
+[/etc motion]
+
+[attack info]
+	`AttackInfo/skill.atk`
+	`AttackInfo/overskill.atk`
+[/attack info]
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[skill string]
+	`直感`
+	`    用敏銳的直感預知危險， 可使角色獲得屬性上升的Buff。`
+	`風王鐵槌`
+	`    釋放風之力量覆蓋劍身， 猛烈地攻擊前方敵人。`
+[/skill string]
+
+[over skill level values]
+	100	1000
+[/over skill level values]
+
+[int data]
+	50	50	10	10	20000	150	60	80	50	9	10
+[/int data]
+
+[string data]
+	`DESTROY_SOUND`
+[/string data]

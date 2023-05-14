@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	10	3040	10	3155	100	3150	100
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1089	20	1090	20	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	915
+
+[name]
+	`覺醒 - 百花繚亂 (1/4)`
+
+[depend message]
+	`聽說過‘百花繚亂’這名字嗎？
+當氣功師領悟到念氣的流動并和它融為一體時， 就能成為最強的氣功師， 也就是傳說中的百花繚亂。
+你有興趣試試嗎？`
+
+[condition message]
+	`    如果想要覺醒， 請收集以下材料。`
+
+[solve message]
+	`看起來你似乎很有決心。 呵呵， 我就拭目以待吧！`

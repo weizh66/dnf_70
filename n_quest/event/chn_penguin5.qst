@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	17
+
+[complete npc index]
+	12
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2444
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7342	6	7343	7	7344	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	7346	4	7347	4
+[/reward selection int data]
+
+[name]
+	`尋找企鵝圍巾 - 5`
+
+[depend message]
+	`啊哈！ 原來是這事啊， 好辦好辦， 我正好知道紅色染色劑的用途呢。
+據說紅色染色劑蘊含有神秘的魔法力量， 只要企鵝們系著用它染過的圍巾， 就能阻止狂暴的怪物接近它們。
+嗯……怪物們奪走那些紅色染色劑， 使企鵝王國的防御力量大受影響……怪物們的意圖已經很明確了！
+你現在知道那些紅色染色劑對企鵝們有多么重要了吧？ 快去找回來吧！ GO！ GO！
+呀， 差點忘了！ 你找到那些材料后， 就拿給西海岸的莎蘭吧， 這樣你就可以完成任務了。`
+
+[condition message]
+	`<七鉆閃耀活動>  前往任意的地下城， 收集6個[毛線團]、 7個[羽毛]和12瓶[紅色染色劑]交給莎蘭。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`見到你很高興！ 你想成為魔法師嗎？ 呵呵， 如果你想學魔法， 隨時都可以找我啊。`

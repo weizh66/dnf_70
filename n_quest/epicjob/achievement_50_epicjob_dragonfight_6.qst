@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	45
+
+[complete npc index]
+	1009
+
+[job]
+	`[priest]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	5322
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5324
+
+[name]
+	`覺醒 - 龍斗士 (3/4)`
+
+[depend message]
+	`從你丹田中升起的龍之爪似乎要破體而出了！ 而從你揮動手臂時留下的藍色殘影來看， 你身體里殘留的魔性已基本被驅散了。
+不過， 你之前的對手都太弱了， 無法激起你的危機意識。 說不定到了真正危急的關頭， 你體內隱藏的魔性又會迸發出來……到時候偽裝者就會趁機擾亂你的心智， 奪去你的性命……
+真是不敢想象！ 為了徹底杜絕這種情況， 我們需要試驗每一種可能……
+嗯， 這次我希望你能去月光修煉場向阿爾伯特挑戰， 看看你身上的藍色氣息在面對高手的時候是否依然穩定。`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`你的身體周圍確實有一層藍色氣息緊緊包裹著……那是什么感覺？ 我也想試試……`

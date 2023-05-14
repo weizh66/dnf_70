@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`APC專用十字架`
+
+[grade]
+	65
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[rarity]
+	4
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/weapon/priest/cross.img`	0
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	17
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	700
+
+[value]
+	560
+
+[cool time]
+	10000
+
+[physical defense]
+	55
+
+[magical attack]
+	44
+
+[magical defense]
+	55
+
+[equipment physical attack]
+	624	564
+
+[equipment physical defense]
+	650	640
+
+[equipment magical attack]
+	593	536
+
+[equipment magical defense]
+	650	640
+
+[separate attack]
+	378	255
+
+[cast speed]
+	20
+
+[variation]
+	17	0
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[possible kiri protect]

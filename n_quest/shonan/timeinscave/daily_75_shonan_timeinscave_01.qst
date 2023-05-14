@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	1011
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[pre required quest]
+	4235
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	75	2	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3332	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`協同 : 古悲鳴洞穴`
+
+[depend message]
+	`這地方太吵了無法讓我的情人安息。讓她安然入睡吧… `
+
+[condition message]
+	`完成古悲鳴洞穴，王者級以上`
+
+[solve message]
+	`謝謝你答應我的請求…… 
+現在讓我和她單獨在一起 吧… `

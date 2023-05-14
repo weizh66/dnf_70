@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	1
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3293	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3290	1
+[/reward int data]
+
+[name]
+	`兌換特級惡魔結晶`
+
+[depend message]
+	`冒險家， 你知道嗎？ 以后地下城內不再掉落異界的記憶碎片了， 改成掉落惡魔結晶。
+你手上還留有異界的記憶碎片嗎？ 有也沒有關系。 只要在規定時間內， 都可以拿到我這里來兌換。 (任務持續時間 ： 即日起至2012年7月17日維護前)`
+
+[condition message]
+	`    可以用1個[異界的記憶碎片]， 在賽麗亞處兌換1個[特級惡魔結晶]。`
+
+[solve message]
+	`偷偷告訴你哦~你可以用特級惡魔結晶在杜羅西那邊兌換第二期的精系列勇者裝備！`

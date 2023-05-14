@@ -1,0 +1,23 @@
+#PVF_File
+
+[event]
+	[title]
+		`calendar_name_1`
+	[explain]
+		`calendar_explain_1`
+	[db table]
+		`event_1207_pcroom_fatigue`
+	[user type]
+		1
+	[used fatigue]
+		30
+	[send mail]
+		[inven]
+			0
+		[detail]
+			8567	1	0	0
+			`game_server_msg_270`
+			`game_server_msg_271`
+		[/detail]
+	[/send mail]
+[/event]

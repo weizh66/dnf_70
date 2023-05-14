@@ -1,0 +1,15 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Die.ani`
+	[SUB ANI]
+		`../Animation/BackEffect/D_Die.ani`	0	-3
+	[/SUB ANI]
+	[SPEECH]
+		`額，啊啊啊...系統崩潰。`	1	2000
+	[/SPEECH]
+	[SOUND]
+		`AKARES_OUT`	1
+	[/SOUND]
+[/MOTION]

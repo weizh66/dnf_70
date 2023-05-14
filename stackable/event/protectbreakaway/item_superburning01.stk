@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`遠古精靈的超級秘藥`
+
+[explain]
+	`    使用後， 在30分鐘內通關任意地下城， 可獲得三倍的經驗值； 該效果不會因角色在地下城中死亡、 返回城鎮或重新登陸遊戲而消失； 該秘藥只能在地下城中使用， 且開啟多倍經驗活動時效果會重疊； 但通關亡者峽谷地下城時， 該秘藥不會額外增加經驗值。
+    遠古精靈的超級秘藥與普通的遠古精靈秘藥無法同時使用。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	20
+
+[icon]
+	`Item/stackable/consumption.img`	632
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	1800000
+
+[cooltime group]
+	99
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[exp bonus rate]
+	2.0
+
+[stat change duration]
+	1800000
+	`myself`

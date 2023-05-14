@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`攻擊時以1%%的機率20秒內攻擊速度增加7%%。施展時以2%%的機率20秒內施展速度增加7%%。`
+
+[flavor text]
+	`< 活動 > 購買挑戰者組合包時所獲得的稱號， 只能使用到8月13日。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	111
+
+[custom animation]
+	`TitleAnimation/challenger2008.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	100
+
+[MP MAX]
+	100
+
+[physical attack]
+	18
+
+[magical attack]
+	18
+
+[inventory limit]
+	10000
+
+[HP regen speed]
+	38
+
+[MP regen speed]
+	8
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		40000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	70
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[stat]
+		`cast speed`
+		`+`	70
+[/then]
+
+[move wav]
+	`NAME_TOUCH`
+
+[expiration date]
+	1218639600

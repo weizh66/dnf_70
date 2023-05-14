@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	26
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	52	99
+
+[pre required quest]
+	643
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3187	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	4083	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 為了受苦的人們`
+
+[depend message]
+	`啊……原來如此！ 看來我們要在波羅丁的騎士團蘇醒前阻止他們。 嗯， 我想最快的方法就是讓暗精靈幫忙制作能安定冤魂的符咒。
+據我所知， 只要有足夠的材料， 一些有特殊才能的暗精靈就能做出這種符咒。
+你好像不太相信暗精靈的能力？ 呵呵， 我是沒有這種能力， 但克倫特有。`
+
+[condition message]
+	`    收集10個[靈魂晶石]交給克倫特。`
+
+[solve message]
+	`莎蘭把情況都告訴我了， 事情很緊急， 你把材料都收集好了吧？ `
+
+[quest point]
+	4

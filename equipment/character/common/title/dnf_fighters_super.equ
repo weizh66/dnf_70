@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`2012 DNF FIGHTER`
+
+[explain]
+	`  被攻擊時， 有2%%的幾率使自身增加2000點物理防禦力和魔法防禦力， 效果持續30秒。`
+
+[flavor text]
+	`  DNF 2012超級錦標賽紀念專屬稱號！ 青春無敵， 熱血激情。 我們的口號是 “3 2 1 FIGHT！”`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	144
+
+[custom animation]
+	`TitleAnimation/2012_DNF_Fighters.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	200
+
+[MP MAX]
+	200
+
+[physical defense]
+	15
+
+[magical defense]
+	15
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[stuck resistance]
+	20
+
+[cast speed]
+	20
+
+[if]
+	[cooltime]
+		60000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		2
+	[stat]
+		`equipment physical defense`
+		`+`	2000
+	[stat]
+		`equipment magical defense`
+		`+`	2000
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

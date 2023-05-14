@@ -1,0 +1,196 @@
+#PVF_File
+
+[set name]
+	`變形大黃蜂  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	79
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-20
+		`[gunner]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	79
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-20
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[G-1科羅納]發射冷卻時間 -20%%
+[G-1科羅納]攻擊力 +20%%
+[G-1科羅納]爆炸大小 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	80
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[gunner]`	80
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-20
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[gunner]`	80
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[gunner]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[gunner]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-500
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-20
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at gunner]`	80
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[at gunner]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[改裝 : G-2旋雷者]蓄氣冷卻時間 -25%%
+[改裝 : G-2旋雷者]旋轉速度 +20%%
+[改裝 : G-2旋雷者]攻擊力 +20%%
+[改裝 : G-2旋雷者]影響[G-1科羅納]的攻擊力增加率 +10%%
+[改裝 : G-2旋雷者]影響[改裝 : G-3捕食者]的攻擊力增加率 +10%%
+[G-1科羅納]影響[改裝 : G-2旋雷者]的攻擊力增加率 +10%%
+[G-1科羅納]影響[改裝 : G-3捕食者]的攻擊力增加率 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	81
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-20
+		`[gunner]`	81
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-30
+		`[gunner]`	81
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[gunner]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[gunner]`	81
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[gunner]`	81
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[gunner]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-8000
+		`[gunner]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-20
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-30
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at gunner]`	81
+		`[dungeon type]`
+		`[level]`	3
+		`%`	10
+		`[at gunner]`	59
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-8000
+		`[at gunner]`	63
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-6000
+	[/skill data up]
+	[parameter basic explain]
+		`[改裝 : G-3捕食者]攻擊間隔 -20%%
+[改裝 : G-3捕食者]恢復時間 -30%%
+[改裝 : G-3捕食者]攻擊力 +20%%
+[改裝 : G-3捕食者]可攻擊范圍 +10%%
+[改裝 : G-3捕食者]影響[G-1科羅納]的攻擊力增加率 +10%%
+[改裝 : G-3捕食者]影響[改裝 : G-2旋雷者]的攻擊力增加率 +10%%
+[空投支援]冷卻時間 -8秒
+[空戰機械 : 風暴]冷卻時間 -6秒
+[空戰機械 : 狂風]冷卻時間 -6秒`
+[/piece set ability]

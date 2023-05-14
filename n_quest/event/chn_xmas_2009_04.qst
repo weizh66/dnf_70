@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2496
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680351	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680347	2	2680349	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`圣誕節亮點 <4/5>`
+
+[depend message]
+	`可愛的卡妮娜， 我現在已經很開心很幸福了。 但， 冒險家們應該有很多事要做， 我不能總這樣麻煩他們……
+ (卡妮娜) 哎呦， 這又不是什么辛苦的事， 包在我卡妮娜身上， 而且就差那么一點了。
+冒險家！ 圣誕節沒有禮物和襪子就沒有氣氛哦~所以還要麻煩你了~`
+
+[condition message]
+	`    前往任意地下城， 從怪物身上收集12個圣誕節禮盒交給賽麗亞。`
+
+[solve message]
+	`冒險家， 真抱歉~卡妮娜太頑皮了。`

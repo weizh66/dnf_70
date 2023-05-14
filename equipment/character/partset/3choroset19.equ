@@ -1,0 +1,262 @@
+#PVF_File
+
+[set name]
+	`墮落掌控者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	11
+		`%`	30
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	4
+		`+`	6
+		`[at fighter]`	38
+		`[dungeon type]`
+		`[level]`	9
+		`+`	6
+		`[fighter]`	13
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[fighter]`	13
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[fighter]`	13
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	13
+		`[dungeon type]`
+		`[level]`	1
+		`+`	6
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[毒瓶投擲]攻擊力 +30%%
+[毒瓶投擲]毒瓶數量 +2
+[毒瓶投擲]中毒Lv +6
+格斗家(女)
+[拋沙]攻擊力 +20%%
+[拋沙]冷卻時間 -20%%
+[拋沙]失明Lv +6`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+		`[fighter]`	60
+		`[dungeon type]`
+		`[level]`	6
+		`+`	6
+		`[fighter]`	60
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	44
+		`[dungeon type]`
+		`[level]`	8
+		`%`	20
+		`[fighter]`	106
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+		`[fighter]`	106
+		`[dungeon type]`
+		`[level]`	5
+		`+`	6
+		`[fighter]`	106
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	13
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	14
+		`%`	30
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	5
+		`+`	6
+		`[at fighter]`	75
+		`[dungeon type]`
+		`[level]`	11
+		`+`	6
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	4
+		`+`	6
+		`[at fighter]`	60
+		`[dungeon type]`
+		`[level]`	9
+		`+`	6
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	0
+		`+`	2
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	2
+		`+`	6
+		`[at fighter]`	52
+		`[dungeon type]`
+		`[level]`	8
+		`+`	6
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[毒針投擲]攻擊力 +30%%
+[毒針投擲]毒針數量 +2
+[毒針投擲]出血Lv +6
+[磚塊投擲]攻擊力 +30%%
+[磚塊投擲]磚塊數量 +2
+[磚塊投擲]眩暈Lv +2
+[羅網投擲]攻擊力 +30%%
+[羅網投擲]羅網數量 +2
+[羅網投擲]束縛Lv +6
+格斗家(女)
+[磚襲]眩暈Lv +6
+[磚襲]攻擊力 +30%%
+[磚襲]冷卻時間 -20%%
+[裂地飛沙]眩暈Lv +6； 失明Lv +6
+[裂地飛沙]攻擊力 +20%%
+[挑舋]減少異常狀態抗性 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`+`	10
+		`[fighter]`	77
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[fighter]`	77
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[fighter]`	77
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	77
+		`[dungeon type]`
+		`[level]`	0
+		`+`	7
+		`[at fighter]`	77
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at fighter]`	77
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[at fighter]`	77
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[fighter]`	52
+		`[dungeon type]`
+		`[level]`	1
+		`+`	6
+		`[fighter]`	52
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[fighter]`	52
+		`[dungeon type]`
+		`[level]`	5
+		`+`	15
+		`[fighter]`	52
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[血色風暴]旋轉次數 +7
+[血色風暴]攻擊力 +20%%
+[血色風暴]無色小晶塊消耗量 +1
+格斗家(女)
+[街頭風暴]投擲次數 +10
+[街頭風暴]攻擊力 +20%%
+[街頭風暴]無色小晶塊消耗量 +1
+[天羅地網]束縛時傷害增加比率 +15%%
+[天羅地網]束縛時間 +20%%
+[天羅地網]束縛Lv +6
+[天羅地網]無色小晶塊消耗量 +1`
+[/piece set ability]

@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`星火爆炸`
+
+[basic action]
+	`Action/boomspark_Basic.act`
+
+[etc action]
+	`Action/Etc_boomspark_0.act`
+	`Action/Etc_boomspark_1.act`
+	`Action/Etc_boomspark_2.act`
+	`Action/Etc_boomspark_3.act`
+[/etc action]
+
+[piercing power]
+	1000
+
+[attack info]
+	`attackinfo/boomspark_Basic.atk`
+
+[etc attack info]
+	``
+	``
+	``
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[CHARACTER]`	1
+	[homing velocity]
+		220.0	10.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[sync target move]
+	[homing time]
+		30000
+[/homing]
+
+[piercing power]
+	1000
+
+[hp max]
+	100000
+
+[hp destroy]
+	1

@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`貪心鬼的項鍊-黑暗騎士`
+
+[basic explain]
+	`地下城稀有掉落率增加6%%。（隊員配戴數增加2%%）
+地下城神器裝備掉落率增加3%%。（隊員佩戴數量增加1%%）`
+
+[grade]
+	61
+
+[rarity]
+	2
+
+[usable job]
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	0
+
+[need material]
+	3300	900
+
+[price]
+	0
+
+[repair price]
+	33600
+
+[value]
+	48800
+
+[icon]
+	`Item/common/necklace.img`	41
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	35
+
+[set name]
+	`貪心鬼的套裝`
+
+[set item]
+	100300068	100310062	100320069
+[/set item]
+
+[maximum level]
+	59
+
+[room list move speed rate]
+	0.07
+
+[level linear ability]
+	1	59
+	[grade]
+		3	61
+	[equipment magical defense]
+		544	336	5530	4960
+	[magical attack]
+		5	28
+	[magical defense]
+		8	68
+[/level linear ability]
+
+[set ability]
+	[HP MAX]
+		200
+	[MP MAX]
+		200
+	[physical attack]
+		28
+	[physical defense]
+		28
+	[magical attack]
+		28
+	[magical defense]
+		28
+	[fullset basic explain]
+		`地下城稀有掉落率增加5%%。
+地下城神器裝備掉落率增加 2%%。`
+[/set ability]
+
+[possible kiri protect]

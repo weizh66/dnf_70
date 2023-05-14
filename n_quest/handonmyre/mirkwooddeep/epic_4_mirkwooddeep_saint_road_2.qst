@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	4	99
+
+[pre required quest]
+	541
+[/pre required quest]
+
+[monster reward item]
+	5001	4	-1	4170	1	80	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4170	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	36203	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神圣之路 - 第二個任務`
+
+[depend message]
+	`最近， 越來越多的赫頓瑪爾居民向我們反映格蘭之森的叢林里出現了大量的貓妖， 它們狂暴而兇殘， 已經傷害了好多人。
+為了居民的安全， 我以神的名義起誓， 我們一定要除掉它們！ `
+
+[condition message]
+	`    前往格蘭之森的『幽暗密林深處』， 從各類貓妖身上收集10個[貓妖指甲]。`
+
+[solve message]
+	`怎么樣？ 那些貓妖容易對付嗎？ `
+
+[quest point]
+	4

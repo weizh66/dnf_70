@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`縱橫百戰`
+
+[basic explain]
+	`攻擊時， 附加45%%的傷害`
+
+[detail explain]
+	`攻擊時， 附加45%%的傷害`
+
+[flavor text]
+	`有種來啊！`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	112
+
+[attack speed]
+	-80
+
+[stuck]
+	-1
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1179	1179
+
+[equipment magical attack]
+	902	902
+
+[separate attack]
+	583	583
+
+[icon]
+	`Item/wuqi.img`	7
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	45	0
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	46	0
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	45
+[/then]
+
+[possible kiri protect]

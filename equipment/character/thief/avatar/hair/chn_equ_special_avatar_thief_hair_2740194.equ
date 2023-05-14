@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+	`紅色疾月戰士發飾`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[usable period]
+	30
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/thief/th_ahair.img`	160
+
+[equipment type]
+	`[hair avatar]`	0
+
+[sub type]
+	0
+
+[variation]
+	51	2
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	800
+	`hair_b`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[hide equipment]
+	`[cap avatar]`
+[/hide equipment]
+
+[hide layer]
+	2810	2500	2125	2100	750	700	300
+[/hide layer]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30001
+
+[cast speed]
+	130
+
+[physical defense]
+	15
+
+[avatar func filter]
+	2

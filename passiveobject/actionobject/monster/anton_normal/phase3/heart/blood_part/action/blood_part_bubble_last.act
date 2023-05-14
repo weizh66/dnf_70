@@ -1,0 +1,32 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Blood_part_bubble_Last_0.ani`
+	[SUB ANI]
+		`../Animation/Blood_part_bubble_Last_1.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			18843
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0
+		[RANDOM]
+			0	100	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

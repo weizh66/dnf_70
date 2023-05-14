@@ -1,0 +1,99 @@
+#PVF_File
+
+[minimum info]
+	`憂郁的小王子`	0	2	0	0	40	0	0	0	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	0	10000	0	0	0	0	0	0	0	40	-10	20	-10	30	30	30	30	30	30	30	30	30	30	30	30	0	0	30	30	30
+[/additional character status]
+
+[character status rate]
+	3	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+[/character status rate]
+
+[attack damage rate]
+	1.0
+
+[custom skill level]
+[/custom skill level]
+
+[far attack reaction rate]
+	80
+
+[quick skill]
+	25	5	41	5	36	5	75	5	180	20	60	5
+[/quick skill]
+
+[skill]
+	190	5	28	1	6	8	18	5	44	6	48	1	11	1	46	5	83	1	80	1	36	3	41	3	30	10	84	10	26	1	170	1	13	10	45	1	82	1	181	2	182	2	184	1	173	1	179	5	35	1	29	1	187	1
+[/skill]
+
+[skill correction]
+[/skill correction]
+
+[quick item]
+[/quick item]
+
+[equipment]
+	27067	4	0	11646	4	0	13646	4	0	15646	4	0	17646	4	0	19646	4	0	20114	4	0	22109	4	0	24115	4	0	39154	2	0	40801	2	0	41199	2	0	41973	2	0	41525	2	0
+[/equipment]
+
+[think term]
+	400
+
+[destination change term]
+	500
+
+[keep distance with target]
+	350
+
+[warlike]
+	0
+
+[vision]
+	1000
+
+[targeting bonus]
+	50	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+	`[down]`	0	0
+	`[stun]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect2.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	``
+	`khazan.key`
+	``
+	`bremen.key`
+	``
+	`saya.key`
+	``
+	`rasa.key`
+	``
+	`superarmoroncast.key`
+[/key stream]
+
+[speech on situation]
+	[on attack]
+		`世間最難得的……`	100	0
+	[on attack]
+		`就是`	100	1
+	[on attack]
+		`人的心！`	100	2
+	[on attack]
+		`我要怎樣……才能得到你的心？`	100	3
+	[on appear]
+		`我對朋友是最講義氣的~`	25
+	[on appear]
+		`你覺得誰是你的朋友？`	25
+	[on appear]
+		`你會喜歡和我在一起的~`	25
+	[on appear]
+		`雖然你很像我的朋友，但是我更喜歡我的朋友。他有時喜歡嘮叨，有時又愛吹牛；當他沉默時，我會靜靜的陪著他。我們之間的友情，是誰都無法替代的……`	100
+[/speech on situation]

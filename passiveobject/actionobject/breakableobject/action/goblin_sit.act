@@ -1,0 +1,24 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Goblin/sit.ani`
+	[SUB ANI]
+		`../Animation/Goblin/exclamation_mark.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[END]
+[/BEHAVIOR]

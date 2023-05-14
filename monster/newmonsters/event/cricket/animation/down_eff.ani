@@ -1,0 +1,103 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Event/Cricket/Cricket_eff.img`
+		5
+	[IMAGE POS]
+		-116	-64
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		3.1415929794311523
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Event/Cricket/Cricket_eff.img`
+		4
+	[IMAGE POS]
+		-131	-59
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		-2.0943949222564697
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Event/Cricket/Cricket_eff.img`
+		5
+	[IMAGE POS]
+		-85	-116
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		0.8726649880409241
+	[RGBA]
+		255	255	255	170
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME003]
+	[IMAGE]
+		`Monster/Event/Cricket/Cricket_eff.img`
+		3
+	[IMAGE POS]
+		-72	-120
+	[IMAGE RATE]
+		-1.0	1.0
+	[IMAGE ROTATE]
+		1.2217299938201904
+	[RGBA]
+		255	255	255	220
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+
+[FRAME004]
+	[IMAGE]
+		`Monster/Event/Cricket/Cricket_eff.img`
+		5
+	[IMAGE POS]
+		-108	-112
+	[IMAGE RATE]
+		-1.0	0.699999988079071
+	[IMAGE ROTATE]
+		-0.17453299462795258
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		350
+
+[FRAME005]
+	[IMAGE]
+		`Monster/Event/Cricket/Cricket_eff.img`
+		5
+	[IMAGE POS]
+		-108	-112
+	[IMAGE RATE]
+		-1.0	0.699999988079071
+	[IMAGE ROTATE]
+		-0.17453299462795258
+	[RGBA]
+		255	255	255	50
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150

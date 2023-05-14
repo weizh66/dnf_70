@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`COS變裝玩具 (艾麗絲)`
+
+[explain]
+	`使用時，連續5分鐘內會變身為艾麗絲。 只能在村子裡使用，在變身狀態下移動時，就會解除變身。`
+
+[flavor text]
+	`<萬聖節活動>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	100
+
+[icon]
+	`Item/stackable/consumption.img`	336
+
+[stackable type]
+	`[disguise]`	0
+
+[cool time]
+	10000
+
+[move wav]
+	`TRUNK_TOUCH`
+
+[string data]
+	`npc`
+[/string data]
+
+[int data]
+	28	300
+[/int data]

@@ -1,0 +1,213 @@
+#PVF_File
+
+[name]
+	`風暴突擊 - 逆輪`
+
+[basic explain]
+	`    若施放[爆頭壹擊]、[回頭壹擊]、[瞬踢]、[刺踢]技能時， 則可向前方施放毀滅之塔伊奧利的沖擊波。`
+
+[flavor text]
+	``
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[need material]
+	3500	1200
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	852	740
+
+[equipment magical attack]
+	717	623
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/revolver/revolver.img`	126
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`gunner`	5
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	120	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	20
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	120	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	5
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	20
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	7
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	7
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

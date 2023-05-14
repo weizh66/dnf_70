@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	57
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3271	20
+[/int data]
+
+[dungeon info]
+	84	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`彈藥改造`
+
+[depend message]
+	`你來了？ 我和梅爾文博士打算一起合作研發新型的彈藥。
+不知道你有沒有發現， 普通的彈藥對那些改造過的敵人幾乎沒什么效果， 所以我們需要研發加強型彈藥， 才能進行有效地攻擊。
+在你來之前， 我們已經成功研發出了性能更出色的彈頭， 可是由于火藥不足， 還無法投入大規模的生產。
+如果你能到補給倉庫找來敵人的彈藥包， 我們就能夠提取出其中的火藥為我軍所用……
+雖然這種做法不太正當， 不過在戰斗中講求的是輸贏， 用一些手段是必要的！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『補給線阻斷戰』， 收集[彈藥包]。`
+
+[solve message]
+	`謝啦！ 有了新型彈藥， 敵人就準備在恐懼中戰栗吧！ 哈哈哈！`

@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	18
+
+[complete npc index]
+	26
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	48	99
+
+[pre required quest]
+	56
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	26
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`相同的處境`
+
+[depend message]
+	`呃， 還有最后一件事……暗精靈說他們城鎮發生的傳染病是我們人類引發的， 并以這個理由向我們人類宣戰。
+如果我們能把人類也正受傳染病危害的事告訴他們， 也許就能解除這場誤會了， 你能幫我把這消息告訴暗精靈的傳令使克倫特嗎？ `
+
+[condition message]
+	`    把諾斯瑪爾發生的事告訴克倫特。`
+
+[solve message]
+	`看來暗精靈和人類的戰爭是因誤會引發的， 我也安心了。 呃， 不是我不想幫你， 我已經被一心想發動戰爭的暗精靈元老驅逐了。
+嗯……現在只好請你去趟暗精靈皇宮了。 不過去那之前， 你必須除掉看守暗黑城入口的無頭騎士， 你能做到嗎？`
+
+[quest point]
+	4

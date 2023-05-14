@@ -1,0 +1,210 @@
+#PVF_File
+
+[name]
+	`封·冥炎刀 - 魂殤`
+
+[basic explain]
+	`攻擊速度 +5%%
+    攻擊時， 有20%%的幾率附加35%%的火屬性傷害。
+    攻擊時， 會有3%%幾率發動魂殤的覺醒， 效果持續15秒。
+魂殤的覺醒效果
+  - 攻擊時， 附加10%%的火屬性傷害。
+  - 火屬性強化 +10`
+
+[detail explain]
+	`攻擊速度 +5%%
+  攻擊時， 有20%%的幾率附加35%%的火屬性傷害。
+  攻擊時， 會有3%%幾率發動魂殤的覺醒， 效果持續15秒。 (冷卻時間30秒； 解除裝備後效果消失)
+魂殤的覺醒效果
+-  攻擊時， 附加10%%的火屬性傷害。
+-  火屬性強化 +10`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	62
+
+[magical attack]
+	92
+
+[attack speed]
+	130
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	862	735
+
+[equipment magical attack]
+	953	813
+
+[separate attack]
+	555	359
+
+[physical critical hit]
+	2
+
+[fire attack]
+	20
+
+[fire resistance]
+	20
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	96
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	32	1
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	32	1
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[routing priority]
+	`swordman`	2
+	`demonic swordman`	0
+[/routing priority]
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		3
+	[appendage]
+		165
+	[equipment duration]
+		20000
+[/then]
+
+[if]
+	[my appendage]
+		165
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	10
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		30
+	[add absolute damage]
+		`fire`
+		`%`	35
+[/then]
+
+[possible kiri protect]

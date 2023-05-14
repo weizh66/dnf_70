@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	58
+
+[complete npc index]
+	56
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	62	99
+
+[pre required quest]
+	5767
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	13110
+[/int data]
+
+[dungeon info]
+	85	1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	6051	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`秘密武器飛燕`
+
+[depend message]
+	`除了尼貝爾和柯維， 還有一位女性神槍手也被派往作戰區了。
+可惜她也失去音訊了， 你能幫我去找找她嗎？
+<npc::56>她曾經是皇女庭院的成員。
+后來為了充分發揮自己的軍事實力， 申請加入了皇都正規軍。 不過她依然是我最珍惜的部下。
+冒險家， 請你一定要找到她！`
+
+[condition message]
+	`    前往安特貝魯峽谷的『追擊殲滅戰』， 找到神槍手飛燕， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`謝謝， 我終于松了一口氣。
+飛燕能夠平安無事， 我也就放心了。`
+
+[dialog]
+	0	0	13110	1	0	0	0
+	`<apc::26501>能在敵軍營地碰見自己的戰友， 真是一件令人開心的事。
+呵呵， 你也在執行同樣的任務嗎？
+那么我們趕緊完成任務， 早點回去吧！`
+[/dialog]
+
+[quest point]
+	4

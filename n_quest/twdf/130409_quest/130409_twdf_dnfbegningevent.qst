@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	200
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	2
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	690000124	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	690000122	5	690000123	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`新生的DNF`
+
+[depend message]
+	`你好，冒險家。有感覺到最近到處都充滿著閃爍且有活力的變化嗎？
+ 隨著來到阿拉德大陸的冒險家越來越多，這個世界變得更有活力更有能量了。
+ 請到地下城將這充滿能量新生的氣息收集來給我吧。
+ 我會將這新生的氣息使用在好的地方上。`
+
+[condition message]
+	`請在地下城收集10個 [新生的氣焰]`
+
+[solve message]
+	`找來很多新生的氣息呀。 現在將這新生的氣息揮灑在空氣中的話，這大陸就會變得更美好，更幸福。
+ 真的很謝謝你，冒險家。 雖然不貴重，但是可以接受我的謝禮嗎？如果收集來更多新生的氣息，我會再給你禮物的。`

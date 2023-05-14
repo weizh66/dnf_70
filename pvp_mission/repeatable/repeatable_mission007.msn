@@ -1,0 +1,35 @@
+#PVF_File
+
+[kind]
+	10
+
+[grade]
+	`[repeatable]`
+
+[rank range]
+	0	2
+
+[rate range]
+	0	101
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`[個人戰] 連勝大道1`
+	
+
+[cond_text]
+	`個人戰 2連勝以上，達到 5次`
+	
+
+[condition]
+	`[winning streak]`	1	2	5
+[/condition]
+
+[reward item]
+	3312	5
+[/reward item]

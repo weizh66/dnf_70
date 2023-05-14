@@ -1,0 +1,38 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/bicbubble_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/bicbubble_Basic_1.ani`	0	1
+		`../Animation/bicbubble_Basic_2.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET POSITION HP GAUGE]
+		0	0	-100
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+[/BEHAVIOR]

@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 掠天之翼 (1/2)`
+
+[depend message]
+	`哎喲， 什么風把你給吹來了啊？ 咦？ 你的臉色看起來不太對啊……
+啊哈， 看來你也厭倦浪跡在無法地帶了？ 這種漫無目的的生活， 我早就看出來不適合你了。
+要知道無法地帶里除了有像你這樣的自由主義者， 還有各種自稱是“槍神”欺壓平民的惡棍， 那些只不過是卡勒特的渣滓罷了。
+混跡于他們之間， 也會讓你非常痛苦吧。
+真正的自由和浪漫是游離于殘酷的戰爭之外的， 如果你想超越現在的你， 得到真正的自由， 翱翔在天界的話， 就必須要正視你內心的渴望， 這樣你才會有可能成為那傳說中的存在——掠天之翼。
+想清楚了的話， 就再和我聊聊吧， 我會盡力幫助你的。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和凱麗談談。`
+
+[solve message]
+	`下定決心了嗎？ 我就知道你會這樣選擇！`
+
+[pre required quest]
+	933
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4818
+
+[job change quest]
+	3
+
+[grow number]
+	0

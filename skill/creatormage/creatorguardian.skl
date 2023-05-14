@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`守護`
+
+[basic explain]
+	`可發動使用守護系列的技能。
+用滑鼠左鍵使用烈焰颶風用滑鼠右鍵使用冰凍護盾。`
+
+[explain]
+	`可發動使用守護系列的技能。
+用滑鼠左鍵使用烈焰颶風用滑鼠右鍵使用冰凍護盾。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[command customizing]
+	0
+
+[purchase cost]
+	35
+[/purchase cost]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[required level]
+	30
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	4
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	10	10	10	10	10
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[casting time]
+	500	700
+
+[durability decrease rate]
+	20
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	472
+	`Character/Mage/Effect/SkillIcon.img`	473
+
+[dungeon]
+	[consume MP]
+		150	3250
+	[static data]
+		20000
+	[/static data]
+	[level info]
+		1	100	102	104	106	108	110	112	114	116	118	120	122	124	126	128	130	132	134	136	138	140	142	144	146	148	150	152	154	156	158	160	162	164	166	168	170	172	174	176	178	180	182	184	186	188	190	192	194	196	198	200	202	204	206	208	210	212	214	216	218	220	222	224	226	228	230	232	234	236	238
+	[/level info]
+[/dungeon]
+
+[pvp]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`守護系列計量表量 : <int>
+守護系列能量恢復速度 : <float2>秒`	-1	0	1.0	0	0	0.001
+[/level property]
+
+[skill preloading image]
+	`Character/Mage/Effect/HandStrike.img`
+[/skill preloading image]

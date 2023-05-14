@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	17
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 緋紅玫瑰 (1/2)`
+
+[depend message]
+	`哎呀！ 拯救了皇女的英雄看起來精神不佳， 發生什么事了？
+天界確實是遭遇了一些劫難。 當皇都倒塌、 皇女被劫持時， 所有人都感到悲傷和憤怒。 我知道擔任警衛的你們一定是最為難過的。
+聽說甚至還有人因為過度自責而選擇自我了斷。 你們當時也許只能責怪那個可憐蟲， 又或者是怨恨她， 因為在你們看來她只是個為了自己選擇逃避現實的懦夫…… 這真是苦了你們了……
+但你還是戰勝了自己， 成了萬人矚目的英雄。 但若是你依然感到悔恨， 就試著去加入隸屬于‘秘密庭院’的‘緋紅玫瑰’吧。
+她們擅長先發制人， 只要嗅到威脅的一絲氣息， 就能先一步鏟除敵人。
+你要是感興趣， 就來找我吧。 我要看看你的身心， 是不是都準備好要參加試煉了。 `
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和凱麗談談。`
+
+[solve message]
+	`嗯， 看來你不想再經歷那種痛苦了。 你的覺悟讓人欣賞， 但也讓人有些傷感。`
+
+[pre required quest]
+	5332
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12861
+
+[job change quest]
+	3
+
+[grow number]
+	0

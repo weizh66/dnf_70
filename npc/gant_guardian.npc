@@ -1,0 +1,35 @@
+#PVF_File
+
+[name]
+	`御前護衛隊長潘`
+
+[field name]
+	`御前護衛隊長潘`
+
+[field animation]
+	`Animation/Npc_guardian_Captin.ani`
+
+[look around]
+	0
+
+[field wav]
+	`R_NPC_DEFENDER_PAN_LOOP`
+
+[popup wav]
+	`NPC_DEFENDER_TK`
+	`NPC_DEFENDER_TK`
+
+[role]
+	`[select channel]`	18
+[/role]
+
+[move town limit str]
+	`必須要達到60級以上，才可以往雙重突襲入場地區移動。`
+
+[move town confirm str]
+	`要往雙重突襲入場地區移動嗎？`
+
+[balloon message]
+	`蝗問雖煎 陛溥賊 頂啪 蜓擊 勘啪釭..`	5000
+	`檜嘐 號擎 賅陛陛 蝗問雖煎 檜翕棻啻...憮舒腦啪釭!`	5000
+[/balloon message]

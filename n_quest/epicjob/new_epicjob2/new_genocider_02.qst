@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 屠戮之魂 (2/6)`
+
+[depend message]
+	`氣是生命體生存、 活動的力量， 每個生命擁有的氣都不相同。
+有的氣性質相近， 可以相互融合； 有的氣性質相克， 就會互相排斥。
+至今為止， 你獵殺各種魔獸， 并吸收他們力量， 死于你手的魔獸不計其數。 但是， 你能發揮的力量卻不多， 那是因為你體內相克的氣無法融合。
+如果你能將它們融合為一體， 又會發生什么呢？ 如果你能做到， 就可以使用之前吸收的所有力量， 而且將使其成為完全屬于你自己的新力量。
+你首先該做的， 是在體內形成巨大的氣之流動， 然后其他氣就會自然而然地被吸入其中， 融為一體， 形成更巨大的氣流。
+接下來就開始訓練如何讓體內所有的氣都匯聚為一體吧。
+嗯……最近在素喃舉行的魂·黃龍大會是個修行的好去處。 在那里， 你能親眼觀察并學習強者運氣的方式。
+你還是可以按照以前的方式戰斗， 努力打敗對手。 不過， 這次的重點不是吸收氣， 而是學習。 哈哈哈。
+不過， 要想參加大會必須要‘斯卡迪女王的印章’， 你先準備那個吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5909
+[/pre required quest]
+
+[relation quest]
+	5911
+
+[job change quest]
+	3
+
+[grow number]
+	0

@@ -1,0 +1,256 @@
+#PVF_File
+
+[name]
+	`咆哮牛頭的鬃毛`
+
+[basic explain]
+	`近身攻擊時以5%% 的機率讓300px 範圍 內的所有敵人在2秒內進入暈眩狀態
+近身攻擊時20%%傷害增加
+暈眩狀態的敵人攻擊時10%% 附加傷害
+創造者系列表增加20%% 
+妨礙 施展時以20%% 的機率讓300px 範圍內的所有敵人在2秒內進入暈眩狀態。`
+
+[detail explain]
+	`近身攻擊時以5%%的機率讓300px 範圍內的所有敵人 2秒內進入暈眩狀態。 （高於Lv89的對象得到的機率和效果減少，低於Lv89的對象則會增加。 決鬥場內修正為1%% 機率）
+近身攻擊時增加 20%%傷害（決鬥場內增加10%%）
+暈眩狀態的敵人攻擊時10%% 附加傷害
+創造者 系列能力增加20%% 
+施展妨礙時以 20%% 的機率讓300px 範圍內的所有敵人2秒內進入暈眩狀態。 （高於Lv89的對象得到的機率和效果減少，低於Lv89的對象則會增加。 決鬥場機率修正為1%%）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[price]
+	160200
+
+[repair price]
+	134568
+
+[value]
+	128160
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	854	804
+
+[equipment magical attack]
+	939	884
+
+[separate attack]
+	510	347
+
+[icon]
+	`item/new_equipment/01_weapon/mage/broom/broom.img`	84
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[mage]`
+
+[variation]
+	15	9
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	15	9
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[magical attack]
+	58
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	20
+[/then]
+
+[if]
+	[target active status]
+		`stun`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[skill data up]
+	`[creator mage]`	250
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[creator mage]`	251
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[creator mage]`	252
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[creator mage]`	253
+	`[all]`
+	`[level]`	0
+	`%`	20
+	`[creator mage]`	254
+	`[all]`
+	`[level]`	0
+	`%`	20
+[/skill data up]
+
+[if]
+	[cooltime]
+		4000
+	[attacker]
+		`character`	-1
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		2000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	89
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[use skill]
+		`creator mage`	252
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		2000
+	[probability]
+		20
+	[reduce probability to human armor at pvp module]
+		90
+	[active status]
+		`stun`	89
+[/then]
+
+[required skill]
+	91
+
+[possible kiri protect]

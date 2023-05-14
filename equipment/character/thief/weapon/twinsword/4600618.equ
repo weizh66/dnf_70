@@ -1,0 +1,182 @@
+#PVF_File
+
+[name]
+	`封·千月之魅`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使500px範圍內的所有敵人進入失明狀態5秒。
+    攻擊失明狀態下敵人時， 附加15%%的傷害。
+攻擊時， 附加10%%的傷害。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使500px範圍內的所有敵人進入失明狀態； 失明狀態下的敵人， 會減少90%%的視野和20%%的命中率。(若敵人高於Lv86， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    攻擊失明狀態下敵人時， 附加15%%的傷害。
+    攻擊時， 附加10%%的傷害`
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	62
+
+[attack speed]
+	-80
+
+[need material]
+	3821	2100
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	925	789
+
+[equipment magical attack]
+	726	619
+
+[separate attack]
+	555	359
+
+[physical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	75	2
+	`[thief]`	30	2
+[/skill levelup]
+
+[dark attack]
+	18
+
+[icon]
+	`item/new_equipment/01_weapon/thief/twinswd/twinswd.img`	105
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	24	1
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		5
+	[active status]
+		`blind`	100	90	20
+[/then]
+
+[if]
+	[target active status]
+		`blind`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`?咒的魔法?`
+
+[basic action]
+	`Action/magic_bottom_Basic.act`
+
+[attack info]
+	`attackinfo/magic_bottom_Basic.atk`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	50000
+
+[layer]
+	`[bottom]`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1400
+[/object destroy condition]

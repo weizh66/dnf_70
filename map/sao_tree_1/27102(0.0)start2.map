@@ -1,0 +1,61 @@
+#PVF_File
+
+[player number]
+	2	8
+
+[pvp start area]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[dungeon]
+	3902
+[/dungeon]
+
+[type]
+	`[normal]`
+
+[greed]
+	`BB BB`
+
+[tile]
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom.til`
+	`Tile/tree_bottom.til`
+[/tile]
+
+[pathgate pos]
+	1271	668	773	275	1271	634	1256	673
+
+[sound]
+	`DARKELF_AMB`
+	`M_CARTEL_JUMP_DOWN`
+[/sound]
+
+[background animation]
+	[ani info]
+		[filename]
+			`Animation/tree_bottom.ani`
+		[layer]
+			`[distantback]`
+		[order]
+			`[below]`
+	[/ani info]
+[/background animation]
+
+[passive object]
+	12845	500	150	0
+[/passive object]
+
+[static player start pos]
+	[player 1]
+		180	171	1500
+	[player 2]
+		150	288	1500
+	[player 3]
+		250	240	1500
+	[player 4]
+		200	150	1500
+[/static player start pos]
+
+[map name]
+	`PVP 無名`

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20530
+[/pre required quest]
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680397	20	2680398	20	2680399	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	39943	1	43936	1	47934	1	51911	1	55883	1
+[/reward selection int data]
+
+[name]
+	`2周年慶活動 (3/4)`
+
+[depend message]
+	`冒險家， 過來看一下， 多虧你幫忙蛋糕胚經過裝飾變的像模像樣了， 但是我想再裝飾一下， 讓它變得更好看。
+麻煩你再給我收集20個雞蛋、 20個白面粉和40個裝飾品吧。 我要弄出一個漂亮的蛋糕。`
+
+[condition message]
+	`    收集20個[雞蛋]、 20個[白面粉]和40個[裝飾品]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`多謝冒險家！
+你覺得漂亮嗎？`

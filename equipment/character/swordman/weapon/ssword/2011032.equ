@@ -1,0 +1,245 @@
+#PVF_File
+
+[name]
+	`風暴之刃`
+
+[basic explain]
+	`跟隨著武器屬性釋放颶風。
+所有攻擊力 +50%%`
+
+[detail explain]
+	`跟隨著武器屬性釋放颶風。
+所有攻擊力 +50%%`
+
+[flavor text]
+	`風精靈的呼喚。。。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[need material]
+	3850	500
+
+[price]
+	500000000
+
+[magical attack]
+	125
+
+[cast speed]
+	20
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[equipment physical attack]
+	1358	1358
+
+[equipment magical attack]
+	1680	1680
+
+[separate attack]
+	986	986
+
+[physical critical hit]
+	15
+
+[magical critical hit]
+	15
+
+[all elemental attack]
+	150
+
+[anti evil]
+	22
+
+[icon]
+	`Item/wuqi.img`	58
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[element]
+		`light`
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990310	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[element]
+		`dark`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990313	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[element]
+		`fire`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990316	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[element]
+		`water`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		990319	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	50
+	[stat by condition]
+		`magical attack bonus`
+		`%`	50
+	[stat by condition]
+		`separate attack`
+		`%`	50
+[/then]
+
+[possible kiri protect]

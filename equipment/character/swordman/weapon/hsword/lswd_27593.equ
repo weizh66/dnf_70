@@ -1,0 +1,134 @@
+#PVF_File
+
+[name]
+	`惡魔的奴隸`
+
+[basic explain]
+	`物理攻擊力 +30
+[暴走]持續時間 +10秒`
+
+[detail explain]
+	`[暴走]持續時間 +10秒 (在決斗場中持續3秒)
+物理攻擊力 +30`
+
+[flavor text]
+	`    啊~我……我要殺了你！ 啊啊！！ `
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	74
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	126000
+
+[repair price]
+	105840
+
+[value]
+	100800
+
+[cool time]
+	10000
+
+[physical attack]
+	77
+
+[equipment physical attack]
+	839	737
+
+[equipment magical attack]
+	607	553
+
+[separate attack]
+	411	278
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[skill data up]
+	`[swordman]`	40
+	`[all]`
+	`[level]`	0
+	`+`	10000
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	40	2
+[/skill levelup]
+
+[variation]
+	13	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[pvp]
+	[skill data up]
+		`[swordman]`	40
+		`[all]`
+		`[level]`	0
+		`+`	3000
+	[/skill data up]
+[/pvp]
+
+[routing priority]
+	`swordman`	3
+[/routing priority]
+
+[possible kiri protect]

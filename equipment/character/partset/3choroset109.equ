@@ -1,0 +1,129 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at swordman]`	71
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	71
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	130
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	130
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[魅影暗魂斬]冷卻時間 -10%%
+[魅影暗魂斬]劍氣大小 +30%%
+[暗影盛宴]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	68
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[at swordman]`	127
+		`[dungeon type]`
+		`[static]`	1
+		`%`	-25
+		`[at swordman]`	70
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at swordman]`	129
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-25
+		`[at swordman]`	70
+		`[dungeon type]`
+		`[static]`	0
+		`%`	35
+		`[at swordman]`	129
+		`[dungeon type]`
+		`[static]`	0
+		`%`	35
+	[/skill data up]
+	[parameter basic explain]
+		`[魅影暗魂斬]冷卻時間 -15%%
+[魅影暗魂斬]劍氣多段連擊間隔 -25%%
+[暗影囚殺]冷卻時間 -25%%
+[暗影囚殺]多段攻擊次數 +35%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	71
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	130
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	71
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-40
+		`[at swordman]`	130
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-40
+		`[at swordman]`	71
+		`[dungeon type]`
+		`[static]`	1
+		`%`	40
+		`[at swordman]`	130
+		`[dungeon type]`
+		`[static]`	1
+		`%`	40
+		`[at swordman]`	70
+		`[dungeon type]`
+		`[static]`	0
+		`%`	40
+		`[at swordman]`	129
+		`[dungeon type]`
+		`[static]`	0
+		`%`	40
+	[/skill data up]
+	[parameter basic explain]
+		`[暗影囚殺]多段攻擊次數 +40%%
+[暗影盛宴]冷卻時間 -30%%
+[暗影盛宴]劍氣集中度 +40%%
+[暗影盛宴]劍氣發射次數 +40%%`
+[/piece set ability]

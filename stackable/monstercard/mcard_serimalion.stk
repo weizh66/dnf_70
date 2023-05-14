@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`翼龍  卡片`
+	
+
+[flavor text]
+	`    翼龍們往往喜歡成群活動， 你要前往天空之城就得小心它們。  --赫頓瑪爾鍊金術師協會會長諾頓`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	0
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	32
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[shoulder]`
+	`[foil]`
+	`[unlimited challenge]`
+[/string data]
+
+[int data]
+	32	50
+[/int data]
+
+[enchant]
+	[physical critical hit]
+		1
+	[magical critical hit]
+		0.5
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

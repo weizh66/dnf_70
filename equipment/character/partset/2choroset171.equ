@@ -1,0 +1,102 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[swordman]`	283
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[swordman]`	283
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[swordman]`	284
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[swordman]`	284
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[鬼步]攻擊力 +15%%
+[鬼步]冷卻時間 -10%%
+[幻鬼 : 一閃]攻擊力 +15%%
+[幻鬼 : 一閃]冷卻時間 -10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[swordman]`	290
+		`[dungeon type]`
+		`[level]`	0
+		`+`	100
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[swordman]`	293
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[swordman]`	293
+		`[dungeon type]`
+		`[static]`	0
+		`%`	25
+		`[swordman]`	293
+		`[dungeon type]`
+		`[static]`	1
+		`%`	25
+	[/skill data up]
+	[parameter basic explain]
+		`[雙魂共鳴]技能攻擊力增加率 +10%%
+[共鳴 : 離魂一閃]攻擊力 +35%%
+[共鳴 : 鬼靈斬]攻擊力 +30%%
+[共鳴 : 鬼靈斬]攻擊范圍 +25%% `
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[swordman]`	291
+		`[dungeon type]`
+		`[static]`	5
+		`+`	1
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[swordman]`	291
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[swordman]`	291
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[swordman]`	293
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[swordman]`	293
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`普通狀態下施放[共鳴 : 離魂一閃]時， 刪除幻鬼突進， 在前方立即生成幻鬼并發動交叉共鳴， 同時交叉共鳴攻擊力提高。
+[共鳴 : 離魂一閃]攻擊力 +35%%
+[共鳴 : 離魂一閃]冷卻時間 -30%%
+[共鳴 : 鬼靈斬]攻擊力 +40%%
+[共鳴 : 鬼靈斬]冷卻時間 -30%% `
+[/piece set ability]
+
+[partset specific growtype]
+	5

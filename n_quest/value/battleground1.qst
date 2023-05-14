@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	15
+
+[complete npc index]
+	18
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[effect after clear quest]
+	0
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	18
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500	1003	1	1067	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	406
+
+[name]
+	`招募公告 : 支援格林賽羅斯 `
+
+[depend message]
+	`貝爾瑪爾公國急召護衛格林賽羅斯的冒險家 : 怪物突然襲擊公國的森林資源供給中心 - 格林賽羅斯， 給周邊城鎮帶來了嚴重威脅。 
+因公國的軍隊正在阿法利亞營地抵抗暗精靈， 所以急需有實力的冒險家前往護衛格林賽羅斯。 
+如果能守住城鎮， 公國將給每位勇士頒發相應獎勵， 請有興趣的人去找博肯。 `
+
+[condition message]
+	`    找赫頓瑪爾的博肯談談。`
+
+[solve message]
+	`你來得正好， 看來格林賽羅斯有救了。 `

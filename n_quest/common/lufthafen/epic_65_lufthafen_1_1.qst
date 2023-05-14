@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	66
+
+[complete npc index]
+	66
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5839
+[/pre required quest]
+
+[monster reward item]
+	61192	86	2	4439	1	70	5	61194	-1	2	4439	1	70	5	56139	86	2	4439	1	70	5	56137	87	2	4439	1	70	5	56008	86	2	4439	1	70	5	56011	87	2	4439	1	70	5	61223	87	2	4439	1	70	5
+[/monster reward item]
+
+[quest point]
+	4
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4439	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 幽靈列車的傳說`
+
+[depend message]
+	`冒險家， 你聽過幽靈列車的傳說嗎？
+聽說那是一輛正在疾馳中的列車， 突然遭到了惡靈的入侵。 列車上的人都被惡靈吸去了靈魂， 變成了沒有知覺的人偶……雖然是傳說， 但也夠嚇人的。
+對了， 你說這個傳說會不會是真的啊？ 聽說有人真的見過幽靈列車啊！
+唉~如果那個傳說是真的， 那么列車上那些真實的生命， 現在肯定都變成了充滿惡靈氣息的軀殼了吧~`
+
+[condition message]
+	`    前往海上列車的『列車上的海賊』和『奪回西部線』， 收集[幽靈寶珠]， 要求地下城難度為王者級。`
+
+[solve message]
+	`這、 這是……幽靈寶珠！！ 難道， 幽靈列車的傳聞是真的？ 我的天啊！！！`

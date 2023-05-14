@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1019
+
+[complete npc index]
+	126
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4124
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`少女的身分`
+
+[depend message]
+	`耶？你說我的名字嗎？奇怪吧？聽說人類們都會想要知道對方的名字，看來傳聞是真的，
+冒險家你也同樣如此。但是我們妖精不輕易跟陌生人說出自己的名字呢。我就簡單地自我介紹一下，
+我負責東邊森林的大魔法陣，是名年幼且有一點實力的妖精。
+<npc::1020>因為突然發生騷動，所以我親自來了一趟。發現人類闖進來… 這結果真是相當稀奇。
+<npc::1019>啊，烏塔拉大人~你來了呀。這位人類是「來自未來的冒險家」。這位牛頭兵是野獸之王烏塔拉。雙方互相打招呼吧！
+<npc::1020>哈哈！你好。人類……。只要你不製造騷亂，乖乖去繞森林的話，我就不會使用這個「獸王泰錘」。
+ 現在西邊的森林不太尋常，我得去一趟。倘若還有話要說，就留到下次再說吧。
+<npc::1019>西邊森林發生什麼事了呢？
+<npc::1020>嗯… 應該是和最近發生的大大小小的火災有關吧。有人刻意引發火災削弱魔法陣的力量，然後傷害森林的妖精們。
+<npc::1019>真是太糟糕了。
+<npc::1020>不能再拖下去了… 那我告辭了。
+<npc::1019>哀… 越來越有不祥的感覺。`
+
+[condition message]
+	`把精靈少女與獸王烏塔拉的故事轉告西嵐`
+
+[solve message]
+	`西部森林… `
+
+[quest point]
+	4

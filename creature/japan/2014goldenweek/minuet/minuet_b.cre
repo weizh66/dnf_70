@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`女仆十六夜`
+
+[width]
+	30	20
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	45000
+
+[over skill recovery time]
+	0
+
+[learn overskill level]
+	100
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation_B/Stand/Minuet_B_stand.ani`
+
+[walk motion]
+	`Animation_B/Walk/Minuet_B_walk.ani`
+
+[run motion]
+	`Animation_B/Run/Minuet_B_run.ani`
+
+[response motion]
+	`Animation_B/Call/Minuet_B_call.ani`
+
+[skill motion]
+	`Animation_B/Skill/Minuet_B_skill(normal).ani`
+
+[over skill motion]
+	``
+
+[random motion]
+	`Animation_B/Random1/Minuet_B_random01.ani`
+	`Animation_B/Random2/Minuet_B_random02.ani`
+	`Animation_B/Random3/Minuet_B_random03.ani`
+[/random motion]
+
+[default random motion rate]
+	50
+
+[etc motion]
+[/etc motion]
+
+[attack info]
+	`AttackInfo/Skill.atk`
+[/attack info]
+
+[revision x]
+	0
+
+[revision y]
+	30
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[skill string]
+	`夢幻泡泡`
+	`    將敵人禁錮在泡泡中， 并使其浮空。`
+[/skill string]
+
+[int data]
+	300	20	40	20	300
+[/int data]

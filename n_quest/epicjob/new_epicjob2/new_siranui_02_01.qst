@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 不知火 (2/6)`
+
+[depend message]
+	`從你身上散發出的氣息真是令人驚嘆。 但比起你的氣勢， 你現在使用的力量卻小了許多。
+哈哈， 不要生氣， 只要把力量提升到與氣勢同等的水平， 你就能夠提升一個境界， 獲得更強大的力量。 怎么樣？ 期待嗎？
+好， 那我們開始訓練吧。 你應該也知道忍者的大本營就在素喃這里。 而且在這里還有許多具備著各種不同力量的強者。
+如果你作為一個忍者， 能夠在眾多強者中閃閃發光， 會怎么樣呢？ 你不覺得到時候他們就會主動找到你， 向你提出誘人的條件嗎？
+你說這條路并不好走？ 當然了， 不過試試總比不試強。
+去參加魂·黃龍大會吧， 就像我剛才說的一樣， 去打倒那里的強者們， 證明你的實力吧。
+忍者們應該也會在暗處關注這次大會， 這一趟值得折騰， 相信我吧。
+想要參加大會， 首先你要有‘斯卡迪女王的印章’， 你先去準備一下吧。 那我等你的好消息。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	5103
+[/pre required quest]
+
+[relation quest]
+	6836
+
+[job change quest]
+	3
+
+[grow number]
+	0

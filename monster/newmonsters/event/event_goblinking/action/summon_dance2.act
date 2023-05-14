@@ -1,0 +1,228 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/summon_dance.ani`
+	[SPEECH]
+		`我用黑哥布林祭祀！你會遭報應的！`	0	100
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[REVERSE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			30
+	[/SET SPEED]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		19	19
+	[WHICH]
+	[ALL MONSTER TEAM]
+	[CHECKUP]
+		[IS INDEX]
+			64512	64513	64514
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		2
+	[OFF]
+	[TRIGGER]
+		3
+	[OFF]
+	[TRIGGER]
+		4
+	[OFF]
+	[SET ACTION]
+	[ATTACK]
+		5
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		19	19
+	[WHICH]
+	[ALL MONSTER TEAM]
+	[CHECKUP]
+		[IS INDEX]
+			64514
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[WHICH]
+	[ALL MONSTER TEAM]
+	[CHECKUP]
+		[IS INDEX]
+			64513	64512
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		2
+	[DO BEHAVIOR]
+	[ME]
+		3
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		8
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		3
+	[OFF]
+	[TRIGGER]
+		4
+	[OFF]
+	[SET ACTION]
+	[ATTACK]
+		6
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		19	19
+	[WHICH]
+	[ALL MONSTER TEAM]
+	[CHECKUP]
+		[IS INDEX]
+			64514
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<]
+		1
+	[WHICH]
+	[ALL MONSTER TEAM]
+	[CHECKUP]
+		[IS INDEX]
+			64513	64512
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		4
+	[DO BEHAVIOR]
+	[ME]
+		6
+	[DO BEHAVIOR]
+	[ME]
+		9
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		4
+	[OFF]
+	[SET ACTION]
+	[ATTACK]
+		3
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		19	19
+	[WHICH]
+	[ALL MONSTER TEAM]
+	[CHECKUP]
+		[IS INDEX]
+			64512	64513	64514
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[>=]
+		1
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		5
+	[DO BEHAVIOR]
+	[ME]
+		6
+[/TRIGGER]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		7
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		3
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+	[ATTACK]
+		0	0
+	[ON]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		5
+	[OFF]
+	[CENTER MSG]
+		`請殺死黑哥布林。`	10000
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		2
+	[NOW]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SAY SPEECH]
+		`？？！殺錯哥布林了吧！`
+[/BEHAVIOR]

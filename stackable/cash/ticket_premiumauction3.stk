@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`拍賣場優待券`
+
+[explain]
+	`連續10天使用拍賣場時，同時可登錄的物品數會增加為30個。 此外，可上架能交易的商城道具（裝扮、寵物、消耗品）。
+（購買拍賣行優惠券後從商城道具欄配送到個人道具欄時即可使用。 )`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	68
+
+[stackable type]
+	`[contract]`	0
+
+[move wav]
+	`PAPER_TOUCH`
+
+[npc gift disallowance]
+	1

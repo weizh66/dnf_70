@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`惡魔契約`
+
+[explain]
+	`    攻擊時， 有66%%的幾率使自身增加66點力量、 智力、 體力和精神， 6%%的攻擊速度和施放速度， 效果持續66秒。 (解除裝備后效果消失； 發動時間內不適用屬性； 冷卻時間為66秒)`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	437
+
+[custom animation]
+	`TitleAnimation/devilcontract.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	6
+
+[physical defense]
+	6
+
+[magical attack]
+	6
+
+[magical defense]
+	6
+
+[MP regen speed]
+	2
+
+[HP regen speed]
+	-10
+
+[physical critical hit]
+	6
+
+[magical critical hit]
+	6
+
+[if]
+	[cooltime]
+		66000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		66000
+	[probability]
+		66
+	[stat]
+		`cast speed`
+		`+`	60
+	[stat]
+		`attack speed`
+		`+`	60
+	[stat]
+		`physical attack`
+		`+`	66
+	[stat]
+		`magical attack`
+		`+`	66
+	[stat]
+		`physical defense`
+		`+`	66
+	[stat]
+		`magical defense`
+		`+`	66
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

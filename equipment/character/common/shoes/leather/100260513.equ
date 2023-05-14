@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`血色殘陽狼魂戰靴`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。`
+
+[detail explain]
+	`攻擊時， 有3%%的幾率使隊友及自身的攻擊速度和移動速度增加10%%， 施放速度增加12%%， 效果持續15秒。(冷卻時間20秒， 最大重疊3次；該效果與無法者的頭肩、腰帶鞋子共享；裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	11857
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[magical defense]
+	25
+
+[move speed]
+	40
+
+[need material]
+	3824	30
+
+[price]
+	63000
+
+[repair price]
+	50400
+
+[value]
+	50400
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1176	1092
+
+[icon]
+	`item/new_equipment/03_leather/shoes/leather_shoes.img`	52
+
+[field image]
+	`Item/FieldImage.img`	4
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	900
+
+[item group name]
+	`lt shoes`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[equipment duration]
+		15000
+	[appendage]
+		802
+[/then]
+
+[possible kiri protect]

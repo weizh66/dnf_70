@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`燃燒的浪漫項鍊`
+
+[basic explain]
+	`接近攻擊時會以2%%的機率，在20秒內讓力量、智能、體力、精神力增加50（最多重複3次）`
+
+[flavor text]
+	`我打架的理由？ 哈哈，就是為了燃燒的浪漫-貝里特`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[magical attack]
+	33
+
+[magical defense]
+	83
+
+[need material]
+	4794	75
+
+[repair price]
+	67200
+
+[value]
+	67200
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	7280	6880
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/new_equipment/08_necklace/necklace.img`	81
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	20
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[if]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	0
+	[probability]
+		2
+	[equipment duration]
+		20000
+	[appendage]
+		168
+[/then]
+
+[set name]
+	`燃燒的浪漫套裝`
+
+[fullset basic explain]
+	`接近攻擊時會以2%%的機率，在20秒內讓物理爆擊、魔法爆擊增加15%%`
+
+[set item]
+	100300008	100320010	100310008
+[/set item]
+
+[set ability]
+	[if]
+		[attacker]
+			`character`	-1
+		[event attack success]
+			1
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`myself`	0
+		[probability]
+			2
+		[duration]
+			20000
+		[stat]
+			`physical critical hit rate`
+			`+`	15
+		[stat]
+			`magical critical hit rate`
+			`+`	15
+	[/then]
+[/set ability]
+
+[possible kiri protect]

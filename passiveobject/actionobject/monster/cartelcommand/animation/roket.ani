@@ -1,0 +1,48 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/BlackRose/GrenadeBullet.img`
+		0
+	[IMAGE POS]
+		-6	-7
+	[IMAGE RATE]
+		1.5	1.5
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+	[ATTACK BOX]
+	-6	-18	-8	34	36	18
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/BlackRose/GrenadeBullet.img`
+		0
+	[IMAGE POS]
+		-6	-7
+	[IMAGE RATE]
+		1.5	1.5
+	[IMAGE ROTATE]
+		-0.17453299462795258
+	[DELAY]
+		80
+	[ATTACK BOX]
+	-6	-18	-8	34	36	18
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/BlackRose/GrenadeBullet.img`
+		0
+	[IMAGE POS]
+		-6	-7
+	[IMAGE RATE]
+		1.5	1.5
+	[IMAGE ROTATE]
+		-0.3400000035762787
+	[DELAY]
+		1000
+	[ATTACK BOX]
+	-6	-18	-15	34	36	20

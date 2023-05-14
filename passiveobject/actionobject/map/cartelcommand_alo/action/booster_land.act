@@ -1,0 +1,202 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/cliff_falling.ani`
+[/MOTION]
+
+[TRIGGER]
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			0
+		[INCLUDE DEAD]
+			1
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			1
+		[INCLUDE DEAD]
+			1
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		1
+[/TRIGGER]
+
+[TRIGGER]
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			2
+		[INCLUDE DEAD]
+			1
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[TRIGGER]
+	[WHICH]
+	[PARTY TARGET]
+		[INDEX]
+			3
+		[INCLUDE DEAD]
+			1
+	[/PARTY TARGET]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[OFF]
+	[BOOSTER APPENDAGE]
+		[GRAVITY]
+			1500
+		[FALLING INIT VELOCITY]
+			1000
+		[TERMINAL VELOCITY]
+			1300
+		[HEIGHT]
+			10000
+		[DISABLE KEYINPUT]
+		[LANDING MODE]
+		[DEFAULT ANI]
+		[/DEFAULT ANI]
+		[BOOSTING ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo1.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo2.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+		[/BOOSTING ANI]
+		[RELEASE ANI]
+		[/RELEASE ANI]
+	[/BOOSTER APPENDAGE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		1
+	[OFF]
+	[BOOSTER APPENDAGE]
+		[GRAVITY]
+			1500
+		[FALLING INIT VELOCITY]
+			1000
+		[TERMINAL VELOCITY]
+			1300
+		[HEIGHT]
+			10000
+		[DISABLE KEYINPUT]
+		[LANDING MODE]
+		[DEFAULT ANI]
+		[/DEFAULT ANI]
+		[BOOSTING ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo1.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo2.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+		[/BOOSTING ANI]
+		[RELEASE ANI]
+		[/RELEASE ANI]
+	[/BOOSTER APPENDAGE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		2
+	[OFF]
+	[BOOSTER APPENDAGE]
+		[GRAVITY]
+			1500
+		[FALLING INIT VELOCITY]
+			1000
+		[TERMINAL VELOCITY]
+			1300
+		[HEIGHT]
+			10000
+		[DISABLE KEYINPUT]
+		[LANDING MODE]
+		[DEFAULT ANI]
+		[/DEFAULT ANI]
+		[BOOSTING ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo1.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo2.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+		[/BOOSTING ANI]
+		[RELEASE ANI]
+		[/RELEASE ANI]
+	[/BOOSTER APPENDAGE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		3
+	[OFF]
+	[BOOSTER APPENDAGE]
+		[GRAVITY]
+			1500
+		[FALLING INIT VELOCITY]
+			1000
+		[TERMINAL VELOCITY]
+			1300
+		[HEIGHT]
+			10000
+		[DISABLE KEYINPUT]
+		[LANDING MODE]
+		[DEFAULT ANI]
+		[/DEFAULT ANI]
+		[BOOSTING ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo1.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+			[ANI]
+				[PATH]
+					`Character/Common/Animation/fallingeffect_boost_alo2.ani`
+				[LAYER]
+					`back`
+			[/ANI]
+		[/BOOSTING ANI]
+		[RELEASE ANI]
+		[/RELEASE ANI]
+	[/BOOSTER APPENDAGE]
+[/BEHAVIOR]

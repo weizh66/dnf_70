@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 極武皇 (4/6)`
+
+[depend message]
+	`曾經有這樣一個男人。 他是一個一心追求夢想并不斷前行的人。
+他曾想要打破所有規矩， 不受任何拘束地超越武術的極限。 當時很多人指著他的鼻子， 嘲笑他愚蠢， 鄙視他的所作所為。 但后來你猜如何了？
+他戰勝了所有人的嘲諷， 最終達到了自己追求的最高境界， 從此開始受到人們的尊敬和贊賞。
+‘極武皇’
+人們開始這樣叫他。 那個曾經拒絕一切、 埋頭追求自我力量， 甚至被人們共同嘲諷的人， 后來就這樣獲得了世間最高的贊美。
+看著你， 我就能想起他。 我想你應該是抱著和他一樣的心態， 在這片寸草不生的荒野上一路奔跑到了現在， 并從中悟出了新的東西， 然后化為己有。
+你就把你最真實的力量展示出來吧， 即使不成熟、 被人鄙視也不用在意。 那就是你的個性， 是專屬于你的力量。
+去挑戰一下魂·青龍大會吧， 應該沒有比那里更適合展示自己的舞臺了。 不要考慮人們會如何看待你， 直接上去展示自己就好。 明白了嗎？
+那你先去準備一下‘赫侖皇帝的印章’吧。 據說有了它你才有資格參加魂·青龍大會。 我在這里等你回來。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5362
+[/pre required quest]
+
+[relation quest]
+	5364
+
+[job change quest]
+	3
+
+[grow number]
+	0

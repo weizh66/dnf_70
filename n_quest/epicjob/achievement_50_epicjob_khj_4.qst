@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	7612
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	29998	1	29699	1	29101	1	29350	1	30268	1
+[/reward selection int data]
+
+[relation quest]
+	7614
+
+[name]
+	`覺醒 - 狂虎帝 (2/4)`
+
+[depend message]
+	`你之前利用紋身獲得了氣功師的力量， 如果想進一步覺醒為狂虎帝的話， 還必須聚集更多的念力才行， 不過這樣做的同時也會增加你身體內的負荷。
+為了減少覺醒的危險性， 我需要先確認你的身體是否具備足夠的承受力。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`沒想到你體內的念氣不僅沒有減少， 反而有增強的跡象……`

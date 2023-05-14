@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	63	99
+
+[pre required quest]
+	5806
+[/pre required quest]
+
+[monster reward item]
+	62012	52	2	4387	5	80	30	56427	52	2	4387	3	70	30	56009	52	2	4387	3	70	30	56426	52	2	4387	3	70	30	62012	52	3	4387	5	80	30	56427	52	3	4387	3	70	30	56009	52	3	4387	3	70	30	56426	52	3	4387	3	70	30
+[/monster reward item]
+
+[quest point]
+	8
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4387	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`食夢樹`
+
+[depend message]
+	`被營救的特工傳來了新的情報。
+諾斯瑪爾的沙漠地區除了昆蟲以外， 植物也相繼出現了奇怪的變異現象。
+據說那里的植物能對人進行催眠， 然后再將他們做的夢吸進自己的體內并保存起來。
+這簡直太匪夷所思了。 我想見識一下那些被保存的夢， 希望你能夠幫我。`
+
+[condition message]
+	`    前往諾斯瑪爾的『血蝴蝶之舞』， 收集[冒險家的夢]， 要求地下城難度為王者級以上。`
+
+[solve message]
+	`原來是這個…… `

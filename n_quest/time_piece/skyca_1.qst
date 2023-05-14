@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	127
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	16	99
+
+[monster reward item]
+	71	11	-1	4796	1	100	10	40	12	-1	4796	1	100	10	3001	13	-1	4796	1	100	10	702	14	-1	4796	1	100	10	3000	15	-1	4796	1	100	10	751	17	-1	4796	1	60	10	752	17	-1	4796	1	60	10
+[/monster reward item]
+
+[job message]
+	1
+
+[quest piece]
+	1
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4796	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`時間碎片 - 第一個時間碎片`
+
+[depend message]
+	`天空之城地區散發一股強烈的時間的力量。在天空之城好像也有時間碎片。
+除掉那裡的首領，就能獲得時間碎片。大概是吸收了天空之城的力量。
+ 收集好之後交給我吧……`
+
+[condition message]
+	`擊天空之城地區的頭目，收集時間碎片交給最後的先知者`
+
+[solve message]
+	`這樣就找回部分的時間力量了……但是現在還差得遠。`
+
+[quest point]
+	4

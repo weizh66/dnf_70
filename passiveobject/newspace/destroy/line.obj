@@ -1,0 +1,27 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/line.act`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[CHARACTER]`	0
+	[homing velocity]
+		300	300
+	[sync target move]
+[/homing]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	10000
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

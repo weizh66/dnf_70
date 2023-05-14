@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	12
+
+[job]
+	`[swordman]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7800	7804	7811
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7809
+
+[name]
+	`轉職 - 狂戰士 (1/3)`
+
+[depend message]
+	`鬼劍士轉職為狂戰士后可以獲得狂暴的力量， 但要控制好力量卻不是件容易的事……如果你執意要走這條路， 就去找莎蘭打聽食人魔的靈魂吧。 `
+
+[condition message]
+	`    向莎蘭打聽[食人魔的靈魂]的獲得方法。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！)`
+
+[solve message]
+	`你好啊！ 渴求強悍力量的鬼劍士， 很高興見到你！ `

@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`可口可樂緊身衣`
+
+[grade]
+	0
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acoat.img`	90
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[avatar type select]
+	7	0	0	350	0	30	0	0	770	0	0	0	0	2310	0
+[/avatar type select]
+
+[avatar func filter]
+	0
+
+[sub type]
+	0
+
+[usable period]
+	30
+
+[HP regen speed]
+	75
+
+[MP regen speed]
+	15
+
+[variation]
+	29	0
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

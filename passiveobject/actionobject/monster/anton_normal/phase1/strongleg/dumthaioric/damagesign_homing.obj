@@ -1,0 +1,43 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	550
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1
+
+[basic action]
+	`Action/DamageSign_Homing.act`
+
+[etc action]
+	`Action/DamageSign_destroy.act`
+[/etc action]
+
+[follow parent]
+	`[parent]`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	56642
+	[homing velocity]
+		90.0	80.0
+	[homing check gap]
+		200
+	[diff rotation]
+		0.0
+	[sync target move]
+[/homing]
+
+[hp max]
+	2500000
+
+[hp destroy]
+	1

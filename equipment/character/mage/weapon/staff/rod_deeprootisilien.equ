@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+	`伊西利恩的觸手`
+
+[basic explain]
+	`施放技能時， 有5%%的幾率在300px范圍內最近的敵人腳下生成樹魔的樹根針刺。`
+
+[flavor text]
+	`    為了前進十步， 有時需要先退一步， 這種說法聽說過吧？ 如果我開始向后退， 那你要小心了。  --艾麗絲`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`staff`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2400
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/mage/staff.img`	46
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	3
+
+[durability]
+	28
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	638	581
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-100
+
+[if]
+	[cooltime]
+		1000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[probability]
+		5
+	[passive object]
+		30039	0	0	0	30	0
+		``
+	[/passive object]
+[/then]
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[mage]`	17	3
+	`[mage]`	18	3
+	`[at mage]`	26	3
+	`[at mage]`	9	3
+[/skill levelup]
+
+[animation job]
+	`[mage]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	6	0
+
+[layer variation]
+	2150
+	`at_staffa`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_staffd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[move wav]
+	`STAFF_TOUCH`
+
+[routing priority]
+	`mage`	1
+	`at mage`	1
+[/routing priority]
+
+[possible kiri protect]

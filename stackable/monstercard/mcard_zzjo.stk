@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`裴波·吉格卡片`
+
+[flavor text]
+	`你想通過這裡嗎？  門兒都沒有。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/MonsterCard_icon.img`	137
+
+[field image]
+	`Item/field_material.img`	30
+
+[stackable type]
+	`[material expert job]`	1
+
+[sub type]
+	1
+
+[price]
+	10
+
+[value]
+	10
+
+[move wav]
+	`PAPER_TOUCH`
+
+[string data]
+	`Interface/MonsterCard/MonsterCard_image.img`
+	`[shoulder]`
+	`[waist]`
+	`[shoes]`
+[/string data]
+
+[int data]
+	137	56030
+[/int data]
+
+[enchant]
+	[physical defense]
+		26
+[/enchant]
+
+[item category]
+	`monster card`
+[/item category]

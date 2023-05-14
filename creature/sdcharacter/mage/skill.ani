@@ -1,0 +1,23 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Creature/SDCharacter/Mage/body.img`
+		62
+	[IMAGE POS]
+		-83	-145
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Creature/SDCharacter/Mage/body.img`
+		63
+	[IMAGE POS]
+		-83	-145
+	[DELAY]
+		1900
+	[SET FLAG]
+		1

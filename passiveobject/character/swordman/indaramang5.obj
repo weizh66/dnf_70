@@ -1,0 +1,48 @@
+#PVF_File
+
+[width]
+	0	0
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/Effect/Animation/Indaramang/start_electric_ball_start.ani`
+
+[attack info]
+	`AttackInfo/Indaramang.atk`
+
+[name]
+	`冰波?`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ENEMY]`
+	[homing velocity]
+		150	200
+	[homing check gap]
+		200
+	[sync animation rotation]
+		0
+	[homing time]
+		0
+[/homing]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2500
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	710206	710207
+[/object destroy condition]

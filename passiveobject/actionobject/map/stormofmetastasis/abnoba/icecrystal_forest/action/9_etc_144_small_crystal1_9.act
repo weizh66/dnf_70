@@ -1,0 +1,38 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/9_Etc_144_small_crystal1_0_9.ani`
+	[SUB ANI]
+		`../Animation/9_1Etc_144_small_crystal3_0_9.ani`	0	1
+		`../Animation/9_Etc_144_small_crystal3_0_9.ani`	0	2
+		`../Animation/9_1Etc_144_small_crystal1_0_9.ani`	0	3
+		`../Animation/9_1Etc_144_small_crystal2_0_9.ani`	0	4
+		`../Animation/9_Etc_144_small_crystal2_0_9.ani`	0	5
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			13062
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	20
+	[/CREATE PASSIVEOBJECT]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+[/BEHAVIOR]

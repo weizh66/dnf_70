@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	8
+
+[complete npc index]
+	8
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	55	99
+
+[pre required quest]
+	422
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3207	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100	1047	30	1016	20
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 土罐人偶`
+
+[depend message]
+	`嘿嘿， 土罐人偶是幸運的標志， 博肯人偶是倒霉的標志……怎么樣？ 你今天的運氣如何啊？ `
+
+[condition message]
+	`    把從運氣試驗中抽取的[土罐人偶]交給土罐。`
+
+[solve message]
+	`呀！ 你的運氣真好啊！ 要再來點別的嗎？`
+
+[quest point]
+	4

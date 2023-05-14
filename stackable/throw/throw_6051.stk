@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`火焰瓶`
+	
+
+[explain]
+	`    使用後， 會發生爆炸並使命中的敵人受到傷害。 尤其是對吉賽爾的傷害， 會增加。`
+	
+
+[flavor text]
+	`    呃~果然不能用火焰瓶來做烤肉~  --尼貝爾`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	60
+
+[icon]
+	`Item/stackable/consumption.img`	601
+
+[field image]
+	`Item/field_consumption.img`	46
+
+[stackable type]
+	`[throw]`	1
+
+[price]
+	10
+
+[cool time]
+	5000
+
+[int data]
+	51331	0	0	450	0	100
+[/int data]
+
+[string data]
+	`PassiveObject/ThrowItem/Particle/Bomb.ptl`
+[/string data]
+
+[move wav]
+	`BOTTLE_TOUCH`

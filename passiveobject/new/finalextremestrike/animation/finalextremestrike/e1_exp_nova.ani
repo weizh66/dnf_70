@@ -1,0 +1,57 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-172	-71
+	[IMAGE RATE]
+		1.7999999523162842	1.7999999523162842
+	[INTERPOLATION]
+		1
+	[DELAY]
+		400
+
+[FRAME001]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-172	-69
+	[IMAGE RATE]
+		2.0	2.0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		320
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Priest/Effect/BlueDragon/exp_nova.img`
+		0
+	[IMAGE POS]
+		-172	-68
+	[IMAGE RATE]
+		2.200000047683716	2.200000047683716
+	[RGBA]
+		255	255	255	0
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	19
+	[DELAY]
+		80

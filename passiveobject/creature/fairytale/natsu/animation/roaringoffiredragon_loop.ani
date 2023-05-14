@@ -1,0 +1,129 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	8
+
+[FRAME000]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		0
+	[IMAGE POS]
+		26	-170
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-25	-35	3	140	70	76
+	[ATTACK BOX]
+	109	-35	-11	100	70	130
+	[ATTACK BOX]
+	203	-35	-22	160	70	170
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		1
+	[IMAGE POS]
+		27	-170
+	[DELAY]
+		60
+	[PLAY SOUND]
+		`NATSU_DRAGON`
+	[ATTACK BOX]
+	-27	-35	0	140	70	76
+	[ATTACK BOX]
+	112	-35	-6	100	70	130
+	[ATTACK BOX]
+	207	-35	-10	160	70	170
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		2
+	[IMAGE POS]
+		27	-170
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-15	-35	2	140	70	76
+	[ATTACK BOX]
+	122	-35	-8	100	70	130
+	[ATTACK BOX]
+	214	-35	-20	160	70	170
+
+[FRAME003]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		3
+	[IMAGE POS]
+		27	-170
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-51	-35	2	140	70	76
+	[ATTACK BOX]
+	90	-35	-20	100	70	130
+	[ATTACK BOX]
+	184	-35	-30	160	70	170
+
+[FRAME004]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		4
+	[IMAGE POS]
+		27	-170
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-43	-35	1	140	70	76
+	[ATTACK BOX]
+	93	-35	-25	100	70	130
+	[ATTACK BOX]
+	191	-35	-36	160	70	170
+
+[FRAME005]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		5
+	[IMAGE POS]
+		27	-170
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-43	-35	5	140	70	76
+	[ATTACK BOX]
+	96	-35	-17	100	70	130
+	[ATTACK BOX]
+	191	-35	-31	160	70	170
+
+[FRAME006]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		6
+	[IMAGE POS]
+		27	-170
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-50	-35	-2	140	70	76
+	[ATTACK BOX]
+	86	-35	-11	100	70	130
+	[ATTACK BOX]
+	186	-35	-27	160	70	170
+
+[FRAME007]
+	[IMAGE]
+		`Creature/Fairytail/Natsu/Natsu_skill_fire_repeat.img`
+		7
+	[IMAGE POS]
+		27	-170
+	[DELAY]
+		60
+	[ATTACK BOX]
+	-48	-35	4	140	70	76
+	[ATTACK BOX]
+	81	-35	-18	100	70	130
+	[ATTACK BOX]
+	173	-35	-35	160	70	170

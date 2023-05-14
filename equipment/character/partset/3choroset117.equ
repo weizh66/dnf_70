@@ -1,0 +1,138 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[knight]`	20
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[knight]`	20
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[knight]`	20
+		`[dungeon type]`
+		`[static]`	10
+		`%`	50
+		`[knight]`	20
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-1
+		`[knight]`	37
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[劍盾猛攻]攻擊力 +30%%
+[劍盾猛攻]最低指令成功范圍 +50%%
+[劍盾猛攻]技能攻擊力增加效果重疊次數上限 -1
+[憤怒沖撞]冷卻時間 -20%%
+[破甲沖擊]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[knight]`	20
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[knight]`	20
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[knight]`	20
+		`[dungeon type]`
+		`[static]`	10
+		`%`	80
+		`[knight]`	20
+		`[dungeon type]`
+		`[static]`	3
+		`+`	-1
+		`[knight]`	20
+		`[dungeon type]`
+		`[level]`	3
+		`%`	15
+		`[knight]`	33
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	34
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[劍盾猛攻]攻擊力 +20%%
+[劍盾猛攻]最低指令成功范圍 +80%%
+[劍盾猛攻]技能攻擊力增加效果重疊次數上限 -1
+[劍盾猛攻]強制使用技能時攻擊力增加量 +15%%
+[一刀兩斷]冷卻時間 -20%%
+[神木刺擊]冷卻時間 -20%%
+[颶風旋槍]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[knight]`	20
+		`[dungeon type]`
+		`[static]`	9
+		`%`	-50
+		`[knight]`	20
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[knight]`	23
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[knight]`	23
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[knight]`	23
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[knight]`	23
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[knight]`	23
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-25
+		`[knight]`	23
+		`[dungeon type]`
+		`[static]`	4
+		`+`	2
+		`[knight]`	23
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[knight]`	23
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[劍盾猛攻]每次成功時， 施放條(有效部分)長度消耗量 -50%%
+[劍盾猛攻]強制使用技能時攻擊力增加量 +20%%
+[壁壘突襲]多段攻擊間隔 -25%%
+[壁壘突襲]多段攻擊次數上限 +2
+[壁壘突襲]攻擊力 +25%%
+[壁壘突襲]前沖距離 +20%%
+[壁壘突襲]冷卻時間 -20%%
+[壁壘突襲]無色小晶塊消耗量 +1`
+[/piece set ability]

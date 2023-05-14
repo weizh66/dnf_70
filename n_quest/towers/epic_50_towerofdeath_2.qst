@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	12
+
+[complete npc index]
+	72
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	3588
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	72
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`占卜師希莫娜`
+
+[depend message]
+	`納特亞究竟在那個陰暗潮濕的塔里做什么？ 是因為受到死神詛咒而無法逃脫嗎？ 德萊弗斯將冒險家們聚集到死亡之塔又是為了什么？
+我現在腦子里充斥著太多的疑問……實在無法思考了。 聽說占卜師希莫娜對亡者峽谷十分了解， 也許她能解答我的這些疑問。`
+
+[condition message]
+	`    向占卜師希莫娜打聽死亡之塔的情況。`
+
+[solve message]
+	`你看起來好像有很多困惑， 呵呵， 是想讓我這個老人家幫忙解答嗎？`
+
+[quest point]
+	4

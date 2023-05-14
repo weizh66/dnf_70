@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	95266
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 掠天之翼 (5/6)`
+
+[depend message]
+	`出發之際， 唯有一點望你謹記。
+之前我也說過， 悟出真理才是重點。 但更重要的是， 你要將悟出的東西用到真正有意義的事情上。
+否則苦心悟出的一切將化為泡影。
+那么， 接下來就去盡情展示自己吧。`
+
+[condition message]
+	`    參加魂 · 青龍大會并獲得冠軍。`
+
+[solve message]
+	`當初你來找我的時候還是一副垂頭喪氣的樣子， 但現在看來你已經打起了精神， 眼神也變得犀利了。 現在的你幾乎不會再動搖了。 用不了多久， 你的實力將會更上一層樓。`
+
+[pre required quest]
+	5391
+[/pre required quest]
+
+[relation quest]
+	4993
+
+[job change quest]
+	3
+
+[grow number]
+	0

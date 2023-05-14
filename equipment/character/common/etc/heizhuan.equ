@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`新紀元皇家契約`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	0
+
+[rarity]
+	1
+
+[weight]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[equipment type]
+	`[support]`	16
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`equipment physical defense`
+		`%`	200
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+	[/module]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`equipment magical defense`
+		`%`	200
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	10
+	[stat by condition]
+		`magical attack bonus`
+		`%`	10
+	[stat by condition]
+		`separate attack`
+		`%`	10
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[module]
+		`[dungeon type]`
+	[/module]
+	[change status]
+		`hp`
+		`<`
+		`%`	50
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[restore]
+		`hp`
+		`%`	50	0
+	[restore]
+		`mp`
+		`%`	50	0
+[/then]

@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`神殿外圍`
+
+[explain]
+	`天空之海上面住著被稱作飛翔大陸的靈物--天帷巨獸。 天帷巨獸的背上， 有個叫GBL教的組織， 他們研究古代遺跡、 探索真理， 用他們崇高的教理影響著阿拉德大陸的人們。 但不知從什麼時候開始， GBL教教徒開始莫名其妙的發狂。 為查明教徒發狂的原因， 冒險家前往天帷巨獸一探究竟。`
+
+[background pos]
+	80
+
+[entering title]
+	`Title/Eventmap_countdown_ready.ani`
+
+[cutscene image]
+	`Map/event/BlueMarble/board.img`	1
+
+[minimap image]
+	`Map/MiniMap/Act3.img`
+
+[worldmap pattern info]
+	1	7
+	`WorldMap/SelectdungeonSlot/behimoth.img`	0
+
+[minimum required level]
+	99
+
+[basis level]
+	30
+
+[experience increasing point]
+	1.2
+
+[champion]
+	0	0	0	0	0
+
+[pathgate object]
+	431	432	439	433	434	440	435	436	437	438
+
+[maze info]
+
+[size]
+	1	1
+
+[greed]
+	`AA`
+
+[start map]
+	0	0
+[/start map]
+
+[boss map]
+	0	0
+[/boss map]
+
+[special passive object item]
+	0	-1	5	1068	1000	1069	1500	1070	500	1071	500	1072	3000	1	-1	0
+[/special passive object item]

@@ -1,0 +1,421 @@
+#PVF_File
+
+[name]
+	`賢者人之大事—項鏈`
+
+[basic explain]
+	`  施放時，有5%%的幾率使被攻擊目標周圍250PX的敵人進入詛咒狀態（效果持續5秒）`
+
+[flavor text]
+	`  來者生,死者大......`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	90
+
+[magical defense]
+	90
+
+[price]
+	80400
+
+[need material]
+	2701003	200
+
+[repair price]
+	67536
+
+[value]
+	64320
+
+[equipment magical defense]
+	2920	2520
+
+[icon]
+	`Item/common/necklace_cn.img`	50
+
+[field image]
+	`Item/FieldImage.img`	6
+
+[equipment type]
+	`[amulet]`	21
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`amulet`
+
+[cool time]
+	10000
+
+[dark attack]
+	30
+
+[curse appendage]
+	250000	300	10000	10000
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	250
+	[probability]
+		5
+	[duration]
+		5000
+	[active status]
+		`curse`	120	100	100	100	100
+[/then]
+
+[variable stat]
+	`physical attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`curse`	15
+	`magical attack`
+	`+`	50
+	`object number`
+	`enemy`	500
+	`curse`	15
+	`dark attack`
+	`+`	5
+	`object number`
+	`enemy`	500
+	`curse`	15
+[/variable stat]
+
+[set name]
+	`聖者之路靈心套裝`
+
+[set item]
+	211700	211701	211702
+[/set item]
+
+[set ability]
+	[physical critical hit]
+		12
+	[magical critical hit]
+		12
+	[HP MAX]
+		880
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	20
+	[/then]
+	[if]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`dark attack`
+			`%`	30
+	[/then]
+	[if]
+		[cooltime]
+			5000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`all enemy`	500
+		[duration]
+			20000
+		[probability]
+			10
+		[active status]
+			`curse`	120	100	100	100	100
+	[/then]
+	[if]
+		[target active status]
+			`curse`
+		[attack success]
+			1
+		[cooltime]
+			35000
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			35000
+		[probability]
+			100
+		[active status]
+			`curse`	120	200	200	200	200
+		[target]
+			`myself`	-1
+		[appendage]
+			378
+	[/then]
+	[if]
+		[my appendage]
+			378
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			20000
+		[appendage]
+			379
+	[/then]
+	[if]
+		[my appendage]
+			378
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			100
+		[stat]
+			`physical attack`
+			`+`	300
+		[stat]
+			`magical attack`
+			`+`	300
+		[stat]
+			`physical defense`
+			`+`	300
+		[stat]
+			`magical defense`
+			`+`	300
+	[/then]
+	[if]
+		[my appendage]
+			378
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			5000
+		[appendage]
+			380
+	[/then]
+	[if]
+		[my appendage]
+			380
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			-30000
+		[appendage]
+			381
+	[/then]
+	[if]
+		[target active status]
+			`curse`
+		[my appendage]
+			378
+		[attack success]
+			1
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			20000
+		[probability]
+			100
+		[active status]
+			`curse`	120	500	500	500	500
+		[target]
+			`myself`	-1
+		[appendage]
+			381
+	[/then]
+	[if]
+		[my appendage]
+			381
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			-30000
+		[appendage]
+			379
+	[/then]
+	[if]
+		[my appendage]
+			381
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[equipment duration]
+			20000
+		[appendage]
+			382
+	[/then]
+	[if]
+		[my appendage]
+			381
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			20000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			100
+		[stat]
+			`physical attack`
+			`+`	300
+		[stat]
+			`magical attack`
+			`+`	300
+		[stat]
+			`physical defense`
+			`+`	300
+		[stat]
+			`magical defense`
+			`+`	300
+	[/then]
+	[if]
+		[my appendage]
+			382
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			15000
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			20000
+		[probability]
+			100
+		[stat]
+			`attack speed`
+			`+`	200
+		[stat]
+			`move speed`
+			`+`	200
+		[stat]
+			`cast speed`
+			`+`	200
+	[/then]
+	[if]
+		[my appendage]
+			382
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			10
+		[weakness]
+			20
+	[/then]
+[/set ability]
+
+[fullset basic explain]
+	` 攻擊時有10%%的幾率使周圍500PX範圍內的敵人進入詛咒狀態。（詛咒等級120級，冷卻時間5秒）
+  裝備時，會使周圍300PX範圍內的敵人產生詛咒光環。
+  裝備時,增加30%%的暗屬性強化。
+  攻擊時,可以對單個敵人進行三層詛咒狀態疊加。
+  - 第一層詛咒狀態為普通狀態
+  - 第二層詛咒狀態使敵人減少200點力量-智力-體力-精神，并使自身獲得祝福狀態-300點力量-智力-體力-精神，武器顏色變成紅色
+  - 第三層詛咒狀態使敵人減少500點力量-智力-體力-精神，并使自身獲得加速狀態-三速增加20%%，武器顏色變成黑色，第三層狀態下攻擊敵人時會有10%%的幾率削  減敵人20%%的血量。（以上每種狀態持續20秒）
+  周圍500PX範圍內每有一個受詛咒的敵人時可以增加50點力量和智力以及5點暗屬性強化。（最高疊加15次）
+  攻擊時，附加20%%的傷害。`
+
+[possible kiri protect]

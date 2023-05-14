@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	318
+
+[complete npc index]
+	-1
+
+[job]
+	`[knight]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	318
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 黑曜神 (1/2)`
+
+[depend message]
+	`你好呀！ 哎呀， 伊利婭說你總是行蹤不定， 原來是真的…… 
+最近也是獨行俠狀態嗎？ 多和人們交流， 生活也會變得更加豐富多彩呢…… 啊！ 對不起！ 我不嘮叨就是了…… 
+找你是因為想問你， 近來是否感覺到了關于亞丁的一些不尋常之處？ 亞丁的力量， 我一直認為是不祥的。 但是為了控制惡魔， 也確實沒有其他方法…… 
+只是最近我感覺到， 亞丁的力量在逐漸進行變異。 在變強大的同時， 也變得更加邪惡了…… 我怕將來， 借用這種力量的人會連正常的思維方式也喪失……
+[myname]， 你是不是也感覺到了？ 以后， 你想…… 嗯？ 你已經知道“黑曜神”了？ 你是從哪聽說的……
+能給我一點時間來整理一下思緒嗎？ 就一會！`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與雅妮絲談談。`
+
+[solve message]
+	`唉…… 即使知道危險， 依然要繼續下去是嗎？ 好吧， 還是不能放你自己進行這愚蠢的挑戰， 我幫你一把吧。`
+
+[pre required quest]
+	12774
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3315
+
+[job change quest]
+	3
+
+[grow number]
+	0

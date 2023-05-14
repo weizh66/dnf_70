@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`塵封的悲鳴僚牙護肩`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率消耗3%%的HP， 增加10點所有屬性強化、 3%%的物理暴擊率和魔法暴擊率， 效果持續30秒。`
+
+[detail explain]
+	`攻擊時，有5%%的幾率消耗3%%的HP，增加10點所有屬性強化、3%%的物理暴擊率和魔法暴擊率，效果持續30秒。(冷卻時間30秒， 裝備解除後效果消失)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12544
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	33
+
+[magical attack]
+	24
+
+[physical defense]
+	30
+
+[need material]
+	3824	30
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3136	2912
+
+[icon]
+	`item/new_equipment/05_harmor/neck/harmor_neck.img`	48
+
+[field image]
+	`Item/field_equip.img`	12
+
+[equipment type]
+	`[shoulder]`	20
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	32
+
+[weight]
+	2300
+
+[item group name]
+	`ha shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[equipment duration]
+		30000
+	[restore]
+		`hp`
+		`%`	-3	0
+	[stat]
+		`dark attack`
+		`+`	10
+	[stat]
+		`light attack`
+		`+`	10
+	[stat]
+		`fire attack`
+		`+`	10
+	[stat]
+		`water attack`
+		`+`	10
+	[stat]
+		`physical critical hit rate`
+		`+`	3
+	[stat]
+		`magical critical hit rate`
+		`+`	3
+[/then]
+
+[possible kiri protect]

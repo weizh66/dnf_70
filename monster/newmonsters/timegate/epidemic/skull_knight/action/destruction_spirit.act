@@ -1,0 +1,37 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/destruction_spirit.ani`
+	[SUB ANI]
+		`../animation/effect/destruction_spirit_e3.ani`	0	1
+		`../animation/effect/destruction_spirit_e2.ani`	0	2
+		`../animation/effect/destruction_spirit_e1.ani`	0	3
+	[/SUB ANI]
+	[SPEECH]
+		`聚集了強大的黑暗氣息！！！！`
+			0	100
+	[/SPEECH]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			11166
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+		[FOLLOWING TARGET]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

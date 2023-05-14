@@ -1,0 +1,76 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/BloodRiven/BloodRivenExplosion.ani`
+	[SUB ANI]
+		`../animation/BloodRiven/boom_end_boomglow7.ani`	0	-8
+		`../animation/BloodRiven/boom_end_boomglow6.ani`	0	-7
+		`../animation/BloodRiven/boom_riven_boomline2.ani`	0	-6
+		`../animation/BloodRiven/boom_riven_boomline1.ani`	0	-5
+		`../animation/BloodRiven/boom_end_boomglow5.ani`	0	-4
+		`../animation/BloodRiven/boom_end_boomglow4.ani`	0	-3
+		`../animation/BloodRiven/boom_end_boomglow3.ani`	0	-2
+		`../animation/BloodRiven/boom_riven_dust_dodge.ani`	0	-1
+		`../animation/BloodRiven/boom_end_boomglow2.ani`	0	1
+		`../animation/BloodRiven/boom_riven_hurricane01.ani`	0	2
+		`../animation/BloodRiven/boom_riven_hurricane00.ani`	0	3
+		`../animation/BloodRiven/boom_end_boomglow1.ani`	0	4
+		`../animation/BloodRiven/boom_backblood1.ani`	0	5
+		`../animation/BloodRiven/boom_backblood2.ani`	0	6
+		`../animation/BloodRiven/boom_end_glow2.ani`	0	7
+		`../animation/BloodRiven/boom_end_glow1.ani`	0	8
+		`../animation/BloodRiven/boom_riven_bblood1.ani`	0	9
+		`../animation/BloodRiven/boom_riven_bblood2.ani`	0	10
+		`../animation/BloodRiven/boom_riven_bblood3.ani`	0	11
+		`../animation/BloodRiven/boom_riven_bblood4.ani`	0	12
+	[/SUB ANI]
+	[SOUND]
+		`BLOODRIVEN_EXP`	1
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		4	4
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

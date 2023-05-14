@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`封·逆龍之戰急速短靴`
+
+[basic explain]
+	`  前衝時，增加自身15%%的攻擊速度和移動速度，效果持續10秒。（冷卻時間10秒）
+  前沖狀態下，使自身進入霸體狀態。(解除裝備后效果失效)`
+
+[detail explain]
+	`  前衝時，增加自身15%%的攻擊速度和移動速度，效果持續10秒。（冷卻時間10秒）
+  前沖狀態下，使自身進入霸體狀態。(解除裝備后效果失效)`
+
+[flavor text]
+	`  在戰鬥中，速度決定一切`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12565
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	75
+
+[physical attack]
+	23
+
+[magical attack]
+	17
+
+[physical defense]
+	21
+
+[move speed]
+	70
+
+[need material]
+	3821	800
+
+[price]
+	81000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2208	1992
+
+[icon]
+	`Item/new_equipment/05_harmor/shoes/harmor_shoes.img`	16
+
+[field image]
+	`Item/field_equip.img`	14
+
+[equipment type]
+	`[shoes]`	18
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	1600
+
+[item group name]
+	`ha shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[stat]
+		`move speed`
+		`+`	150
+	[stat]
+		`attack speed`
+		`+`	150
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		255
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my prev state]
+		`dash`
+	[my appendage]
+		255
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		255
+[/then]
+
+[possible kiri protect]

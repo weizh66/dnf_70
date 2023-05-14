@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	26
+
+[complete npc index]
+	2
+
+[target character]
+	`[swordman]`	-1	-1
+	`[fighter]`	-1	-1
+	`[at fighter]`	-1	-1
+	`[gunner]`	-1	-1
+	`[at gunner]`	-1	-1
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+	`[priest]`	-1	-1
+[/target character]
+
+[level]
+	52	99
+
+[pre required quest]
+	394
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 再找賽麗亞`
+
+[depend message]
+	`我的能力有限， 只能幫你這些小忙， 剩下的就要靠你自己了。
+你先拿這個符咒去找賽麗亞， 她會告訴你怎么去王的遺跡。 啊！ 還有， 如果符咒不夠用的話， 可以再來找我制作！ `
+
+[condition message]
+	`    找賽麗亞談談。`
+
+[solve message]
+	`呵呵， 很高興再次看到您！ `
+
+[quest point]
+	4

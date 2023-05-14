@@ -1,0 +1,161 @@
+#PVF_File
+
+[name]
+	`滅亡者永眠`
+
+[basic explain]
+	`    [無雙擊]攻擊力 +30%%
+    
+    施放[無雙擊]時， 可以使附近的傷害增加25%%， 物理暴擊增加20%%， 效果持續20秒。 (冷卻時間30秒)`
+
+[detail explain]
+	`    [無雙擊]攻擊力 +30%%
+    
+    施放[無雙擊]時， 可以使附近的傷害增加25%%， 物理暴擊增加20%%， 效果持續20秒。 (冷卻時間30秒)(傷害加成效果取最高值）`
+
+[flavor text]
+	`    去死吧`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[need material]
+	5000	150
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[price]
+	162000
+
+[repair price]
+	129600
+
+[value]
+	129600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1093	977
+
+[equipment magical attack]
+	774	692
+
+[separate attack]
+	552	363
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	127
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	40	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[priest]`	88
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[priest]`	88
+	`[all]`
+	`[level]`	1
+	`%`	30
+[/skill data up]
+
+[if]
+	[event use skill]
+		`priest`	88
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[stat]
+		`physical critical hit rate`
+		`+`	20
+	[appendage]
+		690
+[/then]
+
+[if]
+	[distance]
+		`near`
+	[my appendage]
+		690
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	25
+[/then]
+
+[possible kiri protect]

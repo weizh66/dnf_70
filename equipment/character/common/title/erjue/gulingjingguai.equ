@@ -1,0 +1,218 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 古靈精怪`
+
+[explain]
+	`用高端的知識和神秘的智慧制作~魔道機械，無視挫折專註地叮叮當當！
+嘿喲~嘿喲~嘿喲~嘿喲~
+小氣的貓咪，大大的雪人，燃燒的南瓜 ，發光的蟲子 …………
+漂亮的機械上，載著好朋友，不要害怕，我們壹起冒險吧。
+齊心協力，讓使徒和我們bye~bye~
+嘿喲~嘿喲~嘿喲~嘿喲~
+同樣的道具在她靈巧的手裏會變成嶄新的武器。
+不要笑她只會模仿，小心被她轟到天上
+嘿喲~嘿喲~嘿喲~嘿喲~
+幸運的棒棒糖，總讓成功之後跟隨著另壹個成功
+讓我們高喊吧！
+神秘的組合術，奇妙的威力，就如她的名字
+魔術師
+嘿喲~嘿喲~嘿喲~嘿喲~
+——無間者伊奇在哼唱`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[skill data up]
+	`[mage]`	115
+	`[dungeon type]`
+	`[level]`	8
+	`%`	300
+	`[mage]`	115
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[mage]`	115
+	`[dungeon type]`
+	`[level]`	5
+	`%`	-100
+	`[mage]`	95
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+	`[mage]`	95
+	`[dungeon type]`
+	`[level]`	8
+	`%`	300
+	`[mage]`	101
+	`[dungeon type]`
+	`[level]`	1
+	`%`	300
+	`[mage]`	101
+	`[dungeon type]`
+	`[level]`	7
+	`%`	300
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	14
+	`+`	3
+	`[mage]`	106
+	`[dungeon type]`
+	`[level]`	1
+	`%`	50
+	`[mage]`	106
+	`[dungeon type]`
+	`[level]`	2
+	`%`	50
+	`[mage]`	106
+	`[dungeon type]`
+	`[level]`	3
+	`%`	50
+	`[mage]`	106
+	`[dungeon type]`
+	`[level]`	4
+	`%`	50
+	`[mage]`	106
+	`[dungeon type]`
+	`[level]`	5
+	`%`	50
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	8
+	`%`	-50
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	9
+	`%`	-50
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	10
+	`%`	-50
+	`[mage]`	106
+	`[dungeon type]`
+	`[static]`	11
+	`%`	-50
+	`[mage]`	103
+	`[dungeon type]`
+	`[level]`	1
+	`%`	200
+	`[mage]`	103
+	`[dungeon type]`
+	`[level]`	2
+	`%`	600
+	`[mage]`	103
+	`[dungeon type]`
+	`[level]`	3
+	`%`	200
+	`[mage]`	103
+	`[dungeon type]`
+	`[level]`	1
+	`%`	200
+	`[mage]`	109
+	`[dungeon type]`
+	`[level]`	0
+	`%`	200
+	`[mage]`	109
+	`[dungeon type]`
+	`[level]`	4
+	`%`	200
+	`[mage]`	109
+	`[dungeon type]`
+	`[level]`	6
+	`%`	200
+	`[mage]`	109
+	`[dungeon type]`
+	`[level]`	7
+	`%`	200
+[/skill data up]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		700000	0	0	0	99	-1
+		``
+	[/passive object]
+[/then]

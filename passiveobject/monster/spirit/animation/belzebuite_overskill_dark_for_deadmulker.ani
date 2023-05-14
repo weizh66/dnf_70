@@ -1,0 +1,61 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Creature/Belzebuite/belzebuite_breath.img`
+		0
+	[IMAGE POS]
+		-40	-40
+	[IMAGE RATE]
+		0.30000001192092896	0.15000000596046448
+	[RGBA]
+		255	255	255	154
+	[INTERPOLATION]
+		1
+	[DELAY]
+		600
+
+[FRAME001]
+	[IMAGE]
+		`Creature/Belzebuite/belzebuite_breath.img`
+		0
+	[IMAGE POS]
+		-40	-40
+	[IMAGE RATE]
+		4.0	2.0
+	[RGBA]
+		255	255	255	154
+	[INTERPOLATION]
+		1
+	[DELAY]
+		600
+
+[FRAME002]
+	[IMAGE]
+		`Creature/Belzebuite/belzebuite_breath.img`
+		0
+	[IMAGE POS]
+		-40	-40
+	[IMAGE RATE]
+		4.0	2.0
+	[RGBA]
+		255	255	255	154
+	[INTERPOLATION]
+		1
+	[DELAY]
+		600
+
+[FRAME003]
+	[IMAGE]
+		`Creature/Belzebuite/belzebuite_breath.img`
+		0
+	[IMAGE POS]
+		-40	-40
+	[IMAGE RATE]
+		4.0	2.0
+	[RGBA]
+		255	255	255	0

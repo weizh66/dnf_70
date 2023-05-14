@@ -1,0 +1,47 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/lighting_shild_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/lighting_shild_Basic_2.ani`	0	1
+		`../Animation/lighting_shild_Basic_1.ani`	0	2
+		`../Animation/lighting_shild_Basic_4.ani`	0	3
+		`../Animation/lighting_shild_Basic_3.ani`	0	4
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`count1`
+		[=]
+			`count1`
+		[+]
+			1
+	[/DIM]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[IF]
+		`count1`
+		[>=]
+			13
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

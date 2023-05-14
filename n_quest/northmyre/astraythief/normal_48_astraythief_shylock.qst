@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	18
+
+[complete npc index]
+	9
+
+[delete npc index]
+	9
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	48	99
+
+[appear map]
+	50	-1	6220	100
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	6220
+[/int data]
+
+[dungeon info]
+	50	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	20000	1091	5
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1476
+
+[name]
+	`失蹤的夏洛克`
+
+[depend message]
+	`夏洛克好像失蹤了， 我聽周圍的人說， 夏洛克說要找什么東西后就往傳染病城鎮諾斯瑪爾去了。 都過了好幾天了， 還沒有他的消息， 你要是去諾斯瑪爾就幫我打聽下他的消息吧。 `
+
+[condition message]
+	`    前往諾斯瑪爾的『墮落的盜賊』， 解救被困的夏洛克。 (解救夏洛克后請回到赫頓瑪爾后街夏洛克處)`
+
+[solve message]
+	`唉……聽說城鎮里的居民全死了， 那里出現了很多強盜……`

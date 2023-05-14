@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`excalibur_ex_name`
+
+[basic explain]
+	`excalibur_ex_basic_explain`
+
+[explain]
+	`excalibur_ex_explain`
+
+[basic explain ex]
+	`excalibur_ex_basic_explain2`
+
+[explain ex]
+	`excalibur_ex_explain2`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[pre required skill]
+	18	10
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	5	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[durability decrease rate]
+	0
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	126
+	`Character/Swordman/Effect/ATSkillIcon.img`	127
+
+[dungeon]
+	[static data]
+		140	-70	280	140	8	90
+	[/static data]
+	[level info]
+		2	398	478	434	521	471	565	510	612	546	655	584	701	621	745	659	791	695	834	732	878	771	925	807	968	845	1014	882	1058	918	1102	956	1147	993	1192	1029	1235	1068	1282	1106	1327	1142	1370	1179	1415	1217	1460	1254	1505	1290	1548	1329	1595	1367	1640	1403	1684	1440	1728	1478	1774	1514	1817	1551	1861	1590	1908	1626	1951	1664	1997	1701	2041	1739	2087	1775	2130	1812	2174	1851	2221	1887	2264	1925	2310	1962	2354	1998	2398	2036	2443	2073	2488	2109	2531	2148	2578	2186	2623	2222	2666	2259	2711	2297	2756	2334	2801	2372	2846	2409	2891	2445	2934	2483	2980	2520	3024	2558	3070	2595	3114	2631	3157	2669	3203	2706	3247	2744	3293	2781	3337	2819	3383	2855	3426	2892	3470	2930	3516	2967	3560
+	[/level info]
+	[special level up]
+		4	4
+		`+`	2
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	53	40	58	43	63	47	68	51	73	55	78	58	83	62	88	66	93	69	98	73	103	77	108	81	113	84	118	88	122	92	127	96	132	99	137	103	142	107	147	111	152	114	157	118	162	122	167	125	172	129	177	133	182	137	187	140	192	144	197	148	202	151	207	155	212	159	217	163	222	166	227	170	232	174	237	177	242	181	247	185	252	189	257	192	262	196	266	200	271	204	276	207	281	211	286	215	291	219	296	222	301	226	306	230	311	233	316	237	321	241	326	245	331	248	336	252	341	256	346	260	351	263	356	267	361	271	366	274	371	278	376	282	381	285	386	289	391	293	396	297
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`excalibur_ex_level_property`	-1	0	1.0	4	4	1.0	-1	1	1.0
+[/level property]

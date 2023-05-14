@@ -1,0 +1,841 @@
+#PVF_File
+
+[name]
+	`柯爾特 - 光頭強`
+
+[basic explain]
+	`【爆頭一擊】攻擊力+50% 冷卻時間-50% 
+使用爆頭一擊攻擊敵人會出現火箭俠的導彈
+【移動射擊】發射子彈數+100%  射速子彈增加50%
+【雙鷹迴旋】持續時間+50% 第三次飛槍空中懸停時間+10S 第三次飛槍範圍+100%  第三次飛槍傷害間隔-50%
+HP高於20%時
+      -復仇反擊釋放成功時自身物理攻擊力+15%
+      -攻擊時， 有1%的幾率消減敵人10%的HP(對精英怪物的效果為1/3、對領主和深淵怪物的效果為1/6)
+-      攻擊附加10%的光屬性傷害
+銀彈數量+50  魔法攻擊力+100%
+【亂射】冷卻時間-50% 發射數+20%
+【亂射】【槍舞】速度+20%
+施放【死亡左輪】成功時，觸發霸體增益效果，並使得自身lv1-50全部 技能Lv+1（特性技能除外）
+每強化+1，攻擊時附加傷害提升2W，強化到31附加100W傷害(強化11以下附加20W)
+當自身有技能冷卻時間大於20秒時，每10秒隨機隨機冷卻一個技能
+每攻擊一次，自身血量會減少1%
+每殺死一個敵人，血量恢復最大值的1%，力量增加20，智力增加20，速度增加1%增加100HPMAX（最多疊加100次）
+佩戴裝備後，會生成阿伽門農的攻擊光環 `
+
+[flavor text]
+	`帶上這把武器之前，先把頭髮剃乾淨！別誤會，我們不是光頭黨。。。`
+
+[grade]
+	55
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	49
+
+[need material]
+	3284	300
+
+[price]
+	118800
+
+[repair price]
+	95040
+
+[value]
+	95040
+
+[equipment physical attack]
+	652	532
+
+[equipment magical attack]
+	549	447
+
+[separate attack]
+	418	269
+
+[physical critical hit]
+	20
+
+[icon]
+	`item/weapon/gunner/revolver.img`	27
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	10	4
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[int data]
+	-1	-1	-1	-1	-1	-1	120	-1	-1	-1
+[/int data]
+
+[skill data up]
+	`[gunner]`	5
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	5
+	`[all]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	5
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-50
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-50
+	`[all]`	15
+	`[dungeon type]`
+	`[level]`	3
+	`%`	100
+	`[all]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	50
+	`[all]`	51
+	`[dungeon type]`
+	`[static]`	14
+	`%`	50
+	`[all]`	51
+	`[dungeon type]`
+	`[static]`	15
+	`%`	50
+	`[all]`	51
+	`[dungeon type]`
+	`[static]`	16
+	`+`	10000
+	`[all]`	51
+	`[dungeon type]`
+	`[static]`	10
+	`%`	100
+	`[all]`	51
+	`[dungeon type]`
+	`[static]`	13
+	`%`	-50
+	`[all]`	9
+	`[dungeon type]`
+	`[cooltime]`	0
+	`%`	-50
+	`[all]`	9
+	`[dungeon type]`
+	`[level]`	1
+	`%`	30
+	`[all]`	9
+	`[dungeon type]`
+	`[level]`	2
+	`%`	30
+	`[all]`	30
+	`[dungeon type]`
+	`[level]`	0
+	`+`	50
+	`[all]`	30
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+[/skill data up]
+
+[if]
+	[stat change]
+		`hp`
+		`>`
+		`%`	20
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		1
+	[weakness]
+		10
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=<`	10	0
+		`amplify`
+		`=<`	10	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	220000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	11	0
+		`amplify`
+		`=`	11	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	240000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	12	0
+		`amplify`
+		`=`	12	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	260000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	13	0
+		`amplify`
+		`=`	13	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	280000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	14	0
+		`amplify`
+		`=`	14	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	300000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	15	0
+		`amplify`
+		`=`	15	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	320000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	16	0
+		`amplify`
+		`=`	16	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	340000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	17	0
+		`amplify`
+		`=`	17	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	360000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	18	0
+		`amplify`
+		`=`	18	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	380000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	19	0
+		`amplify`
+		`=`	19	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	400000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	20	0
+		`amplify`
+		`=`	20	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	420000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	21	0
+		`amplify`
+		`=`	21	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	440000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	22	0
+		`amplify`
+		`=`	22	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	460000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	23	0
+		`amplify`
+		`=`	23	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	480000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	24	0
+		`amplify`
+		`=`	24	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	500000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	25	0
+		`amplify`
+		`=`	25	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	520000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	26	0
+		`amplify`
+		`=`	26	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	540000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	27	0
+		`amplify`
+		`=`	27	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	560000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	28	0
+		`amplify`
+		`=`	28	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	580000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	29	0
+		`amplify`
+		`=`	29	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	600000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	30	0
+		`amplify`
+		`=`	30	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	620000
+[/then]
+
+[if]
+	[equipment upgrade]
+		`upgrade`
+		`=`	31	0
+		`amplify`
+		`=`	31	0
+	[/equipment upgrade]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	1000000
+[/then]
+
+[if]
+	[attack success]
+		1
+	[skill]
+		`gunner`	5
+		`at gunner`	5
+	[/skill]
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		48142	0	0	0	9999	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`>`
+		`%`	20
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	10
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[restore]
+		`HP`
+		`%`	-1	0
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		1010
+	[appendage]
+		1011
+	[restore]
+		`HP`
+		`%`	1	0
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`>`
+		`%`	20
+	[time]
+		500	1	500
+	[use skill]
+		`at gunner`	26
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[stat]
+		`equipment physical attack`
+		`%`	15
+[/then]
+
+[if]
+	[stat change]
+		`hp`
+		`>`
+		`%`	20
+	[time]
+		500	1	500
+	[use skill]
+		`gunner`	26
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[stat]
+		`equipment physical attack`
+		`%`	15
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		10000
+	[skill cooltime]
+		`=<`	20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill cooltime reset]
+		0
+		``	1
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		9422	0	0	0	9999	-1
+		``	9423	0	0	0	9999	-1
+		``	9424	0	0	0	9999	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`gunner`	60
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		`skill level info`	60	0	-1
+	[appendage]
+		1008
+	[appendage]
+		1009
+[/then]
+
+[if]
+	[event use skill]
+		`at gunner`	60
+	[/event use skill]
+[/if]
+
+[target]
+	`myself`	-1
+
+[equipment duration]
+	`skill level info`	60	0	-1
+
+[appendage]
+	1008
+
+[appendage]
+	1009
+
+[/then]
+
+[possible kiri protect]

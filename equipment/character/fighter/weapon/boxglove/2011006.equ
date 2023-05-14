@@ -1,0 +1,195 @@
+#PVF_File
+
+[name]
+	`貝茲女王的榮耀之拳`
+
+[basic explain]
+	`物理攻擊力+12%%
+獨立攻擊力+12%%
+攻擊時， 10%%幾率100秒內全部攻擊力+12%%（最大重疊4次,冷卻0.1s,解除裝備時效果刪除）`
+
+[detail explain]
+	`物理攻擊力+12%%
+獨立攻擊力+12%%
+攻擊時， 10%%幾率100秒內全部攻擊力+12%%（最大重疊4次,冷卻0.1s,解除裝備時效果刪除）`
+
+[flavor text]
+	`史上最美最有實力的格鬥家使用的拳套`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	112
+
+[attack speed]
+	150
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1119	1119
+
+[equipment magical attack]
+	958	958
+
+[separate attack]
+	586	586
+
+[skill levelup]
+	`[fighter]`	70	2
+	`[at fighter]`	41	2
+[/skill levelup]
+
+[icon]
+	`Item/wuqi.img`	5
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	12
+	[stat by condition]
+		`separate attack`
+		`%`	12
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[equipment duration]
+		60000
+	[stat by condition]
+		`physical attack bonus`
+		`%`	48
+	[stat by condition]
+		`magical attack bonus`
+		`%`	48
+	[stat by condition]
+		`separate attack`
+		`%`	48
+[/then]
+
+[possible kiri protect]

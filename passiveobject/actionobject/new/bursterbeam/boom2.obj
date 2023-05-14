@@ -1,0 +1,32 @@
+#PVF_File
+
+[name]
+	`Boom2`
+
+[layer]
+	`[normal]`
+
+[width]
+	1	1
+
+[floating height]
+	0
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/Boom2.act`
+
+[attack info]
+	`Attackinfo/Boom2.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

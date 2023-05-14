@@ -1,0 +1,57 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/Kalla/DFS_02.img`
+		0
+	[IMAGE POS]
+		-145	-159
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/Kalla/DFS_02.img`
+		1
+	[IMAGE POS]
+		-139	-159
+	[IMAGE ROTATE]
+		0.09000000357627869
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/Kalla/DFS_02.img`
+		2
+	[IMAGE POS]
+		-138	-159
+	[IMAGE ROTATE]
+		0.10000000149011612
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		60

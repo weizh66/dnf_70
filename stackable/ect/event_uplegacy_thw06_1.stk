@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`(舊) 土罐的高級袖珍罐 (暗夜使者武器)`
+
+[explain]
+	`    從袖珍罐中隨機抽取一把Lv55~60的暗夜使者武器， 有一定幾率獲得袖珍罐里特有的傳承裝備或帽子裝扮。`
+
+[flavor text]
+	`<活動>  各位， 祝您發財！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[value]
+	5
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	462
+
+[icon mark]
+	`Item/IconMark.img`	11
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[upgradable legacy]`	1
+
+[price]
+	64000
+
+[int data]
+	37034	1	37035	6666	1	37036	77	1	37043	12	1	37059	33	1	37070	9506	1	37071	6666	1	37072	77	1	37073	77	1	37074	33	1	37080	12	1	37332	9506	1	37333	6666	1	37334	77	1	37357	33	1	37364	9506	1	37365	6666	1	37366	77	1	37367	77	1	37368	33	1	37374	12	1	37632	9506	1	37633	6666	1	37634	77	1	37641	12	1	37657	33	1	37665	9506	1	37666	6666	1	37667	77	1	37668	77	1	37669	33	1	37675	12	1
+[/int data]
+
+[move wav]
+	`BONE_TOUCH`

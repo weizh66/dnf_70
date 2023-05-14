@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+	`(塔) 特級生命藥劑`
+	
+
+[explain]
+	`離開塔時， 該物品會消失。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	0
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	154
+
+[icon mark]
+	`Item/IconMark.img`	12
+
+[field image]
+	`Item/field_consumption.img`	13
+
+[stackable type]
+	`[waste]`	1
+
+[cool time]
+	10000
+
+[cooltime group]
+	1
+
+[move wav]
+	`POTION_TOUCH`
+
+[hp recovery]
+	`%`	50	1000
+	`myself`

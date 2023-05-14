@@ -1,0 +1,29 @@
+#PVF_File
+
+[map image]
+	`WorldMap/UnderFoot.img`	0
+
+[ui path]
+	`WorldMap/UI/UnderFoot.ui`
+
+[dungeon]
+	33	-1	33	-1	34	-1	36	-1	37	-1
+[/dungeon]
+
+[name]
+	`暗黑城`
+
+[hell dungeon]
+	1
+
+[hell quest]
+	2603
+[/hell quest]
+
+[hell freepass item]
+	4152	1	2682582	1	2749501	1
+[/hell freepass item]
+
+[item condition]
+	2749501
+[/item condition]

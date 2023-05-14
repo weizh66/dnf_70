@@ -1,0 +1,73 @@
+#PVF_File
+
+[exposed by npc]
+	0
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	124
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward selection int data]
+	114000193
+	`[job]`	13	1	1	114000200
+	`[job]`	13	2	1	114010172
+	`[job]`	13	1	1	114010179
+	`[job]`	13	2	1
+[/reward selection int data]
+
+[name]
+	`二次覺醒 - 龍躍武器 (2/3)`
+
+[depend message]
+	`制作龍躍武器可是一件很辛苦的事。 大哥， 俺得先給你介紹下這把龍躍武器。
+之前， 大哥您應該也聽萊諾提到過一些吧？ 龍躍武器是一種能夠成長的武器。
+它一共有七個成長階段， 可以通過擊殺地下城的怪物升級到第三階段。
+不過普通的怪物可沒什么用處， 必須擊殺精英以上的怪物才能使它成長。
+而從第四階段開始， 除了擊殺怪物以外， 您還需要從俺這里購買龍躍之息卷軸才能讓這把武器繼續升級。
+怎么樣大哥， 了解了嗎？ 我相信這把武器在您的手中肯定可以發揮最大威力！`
+
+[condition message]
+	`    找素喃地區的小鐵柱談談。`
+
+[solve message]
+	`不錯不錯， 所謂‘英雄配寶劍’， 這把武器對您再合適不過了。`
+
+[pre required quest]
+	2665
+[/pre required quest]

@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	56
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	61	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3270	10
+[/int data]
+
+[dungeon info]
+	84	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`今天我來當廚師 (1/2)`
+
+[depend message]
+	`看著自己的子民在戰火中飽受苦難， 皇女殿下十分的憂心。 她希望能盡一份責任， 去幫助大家緩解戰亂的痛苦。
+不過為了皇女殿下的安全， 絕不能讓她親赴戰場， 所以我們考慮再三， 才想出了這個主意。
+這樣既可以慰勞前線英勇作戰的士兵和無辜挨餓的皇都居民， 也可以讓皇女殿下施展自己深藏不露的廚藝。
+只是……目前食材緊缺， 能做的并不多， 這可怎么辦呢？
+對了， 聽說敵軍的補給倉庫里各種物資堆積如山， 那其中肯定也有不少食材。 你能幫我們取一些回來嗎？`
+
+[condition message]
+	`    前往安特貝魯峽谷的『補給線阻斷戰』， 收集[碎肉塊]。`
+
+[solve message]
+	`啊~非常感謝！ 這些食材應該足夠了。
+接下來敬請期待皇女殿下的廚藝吧！`

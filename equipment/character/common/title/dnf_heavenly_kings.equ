@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`格鬥天王`
+
+[explain]
+	`  前沖時， 有8%%的幾率增加8%%的攻擊速度和移動速度， 效果持續30秒。`
+
+[flavor text]
+	`  <DNF格鬥大賽>的格鬥天王！ 這是為DNF全國格鬥大賽的優勝者特別制作的勛章， 傳言這枚勛章中融入了制作 ”永不言敗“ 的格鬥信念！它代表著格鬥界無上的榮耀，只有阿拉德大陸上最強的勇士才能擁有！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	113
+
+[custom animation]
+	`TitleAnimation/dnf_heavenly_kings.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[move speed]
+	35
+
+[attack speed]
+	35
+
+[cast speed]
+	35
+
+[physical attack]
+	30
+
+[physical defense]
+	30
+
+[magical attack]
+	30
+
+[magical defense]
+	30
+
+[hit recovery]
+	200
+
+[all elemental resistance]
+	15
+
+[if]
+	[cooltime]
+		50000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		4
+	[stat]
+		`move speed`
+		`+`	80
+	[stat]
+		`attack speed`
+		`+`	80
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

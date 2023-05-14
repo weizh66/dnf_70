@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at gunner]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 風暴騎兵 (4/6)`
+
+[depend message]
+	`想使用危險的重火器首先要具備冷靜的判斷力。 至于理由我已經詳細說明過了， 想必你也心知肚明。
+聽說想要成為風暴騎兵， 考驗的內容甚至包括對自我情感與本能的控制能力。
+想要與之媲美， 你必須具備同等的……哦不， 甚至是超越他們的能力。 除了情感因素的方法， 控制本能的方法， 在掌握這些技能的基礎上還要懂得如何駕馭重火器。
+好， 那我們就來試試看吧。 銘記我剛剛說的話， 去參加魂·青龍大會吧。 既然上次已經吃過苦頭， 這次至少應該不會再親吻武斗場的地板了吧？
+你先去拿到‘赫侖皇帝的印章’吧， 拿到之后你才能參加大會。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5464
+[/pre required quest]
+
+[relation quest]
+	5764
+
+[job change quest]
+	3
+
+[grow number]
+	0

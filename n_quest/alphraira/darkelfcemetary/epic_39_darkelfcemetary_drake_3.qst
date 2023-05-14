@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	26
+
+[complete npc index]
+	26
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	39	99
+
+[pre required quest]
+	442
+[/pre required quest]
+
+[monster reward item]
+	1010	35	2	4111	1	80	1	1010	35	3	4111	1	100	1	50073	35	-1	4112	4	71	20	50074	35	-1	4112	4	71	20	50075	35	-1	4112	4	71	20	50076	35	-1	4112	4	71	20	410	35	-1	4113	3	71	30	411	35	-1	4113	3	71	30	412	35	-1	4113	3	100	30	1000	35	-1	4114	4	60	60	1001	35	-1	4114	4	60	60
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4111	1	4112	20	4113	30	4114	60
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`肢解的邪龍身體`
+
+[depend message]
+	`其實邪龍身體本身就蘊含有非常強烈的邪惡力量， 雖然它被肢解了很多年， 但它的每個部位都還在持續地散發著邪惡的氣息， 周圍的生物也一直被它的氣息影響……
+如果你能把邪龍身體的部位收集起來， 用魔法封印后就可以大大削減邪龍的力量了。`
+
+[condition message]
+	`    前往諾伊佩拉地區的『暗精靈墓地』， 收集1個[邪龍的眼球]、 20個[邪龍的利爪]、 30個[邪龍的鱗片]和60個[邪龍的碎骨]交給克倫特。 (邪龍的眼球只能在王者級的地下城中獲得)`
+
+[solve message]
+	`呵呵， 你收集的東西還真不少呢！ 如果把它們都封印的話， 估計邪龍的力量就會被削弱了。`
+
+[quest point]
+	4

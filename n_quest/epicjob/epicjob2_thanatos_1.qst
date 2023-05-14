@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[thief]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	64
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 亡魂主宰 (1/2)`
+
+[depend message]
+	`看來， 你等了有一會兒了。 為什么你的樣子有點奇怪呢？
+看來我想的沒錯……所以說不要隱藏自己。 你想要打破死靈術士的禁忌么？
+呼， 盡管死靈術士聚集死者的靈魂當成力量的源泉， 但她們也有必須遵守的原則， 死靈術把超出這些原則以外的力量定成了禁忌。
+你不可能不知道那個禁忌……那么你執著于那種力量的理由是什么？
+算了， 看來現在已經不需要問你理由了。 很可惜， 你的靈魂能在這個世上停留的時間不多了。
+想知道有沒有延遲死亡的方法？ 雖然不是沒有， 但是被禁忌力量誘惑的你能有戰勝考驗的意志嗎？ 想清楚了再來找我吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與米內特談談。`
+
+[solve message]
+	`很好。 先做一些你能現在能做的事吧。`
+
+[pre required quest]
+	5687
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3077
+
+[job change quest]
+	3
+
+[grow number]
+	0

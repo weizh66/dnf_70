@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	123
+
+[complete npc index]
+	122
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	122
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`穿過紅色叢林`
+
+[depend message]
+	`微風帶著我的問候， 在輕撫你的臉~你感覺到了嗎？
+呵呵~你好啊， 冒險家！ 我國首都素喃正在以王的名義開展一場大型的武斗大會。 我是本次大會的引導者諾羽， 你可以叫我羽姐姐。
+如果你想像當年的西嵐或是阿甘左一樣， 可以考慮和我一起穿越紅色叢林， 到素喃和新世界的勇士們一起切磋一下。
+武斗大會的優勝者可以獲得豐厚的獎品和至高的榮譽。 如果你下定決心， 就請乘坐旁邊這輛護送馬車吧， 它會送你到達目的地的~`
+
+[condition message]
+	`    乘坐護送馬車穿過紅色叢林， 到素喃地區找諾羽談談。 (若想去虛祖首都素喃， 請點擊赫頓瑪爾的諾羽， 并選擇“區域移動”選項)`
+
+[solve message]
+	`雖然馬車有些顛簸， 但是從你的表情來看， 旅途還是蠻愉快的吧？`
+
+[quest point]
+	4

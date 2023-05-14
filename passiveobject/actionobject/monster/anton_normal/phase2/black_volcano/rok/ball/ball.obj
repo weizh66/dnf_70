@@ -1,0 +1,28 @@
+#PVF_File
+
+[name]
+	`洛克_召?珠子`
+
+[basic action]
+	`Action/Ball_Basic.act`
+
+[last action]
+	`Action/Ball_Last.act`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[CHARACTER]`	0
+	[homing velocity]
+		100.0	100.0
+	[sync animation rotation]
+		1
+	[diff rotation]
+		360.0
+[/homing]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	20000
+[/object destroy condition]

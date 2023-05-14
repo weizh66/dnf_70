@@ -1,0 +1,2439 @@
+#PVF_File
+
+[name]
+	`廢棄的光劍`
+
+[basic explain]
+	`所有技能攻擊力+35%%
+    賦予自身屬性值最高的屬性攻擊。
+    每次攻擊時可以吸收3點魔能， 最多可達100點。
+    自身魔能達到100點后， ↑↓+[寵物技能鍵]輸入時， 可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能。
+    釋放結束時，最後還對敵人造成魔能爆炸傷害。`
+
+[detail explain]
+	`所有技能攻擊力+35%% (對Buff技能無效)
+    賦予自身屬性值最高的屬性攻擊。
+    每次攻擊時可以吸收3點魔能， 最多可達100點。
+    若5秒內未攻擊（吸收魔能）， 則減少10點魔能值
+    自身魔能達到100點后， ↑↓+[寵物技能鍵]輸入時， 可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能， 時長持續20秒； 魔能釋放期間內， 所有技能攻擊力增加20%%， 但無色消耗量會增加2倍。（冷卻時間30秒； 對Buff技能無效）
+    釋放結束時，最後還對敵人造成魔能爆炸傷害。（傷害最高可達300萬）`
+
+[flavor text]
+	`    萬物生自守恒， 源力破則失正
+    莫以為敵消彼漲， 然乾坤逆之天崩。 --祭安徒恩之死`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	65
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3822	20
+
+[price]
+	182000
+
+[repair price]
+	145600
+
+[value]
+	145600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	893	766
+
+[equipment magical attack]
+	864	742
+
+[separate attack]
+	589	382
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	125
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	39	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	39	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`fire attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`dark attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`light attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`water attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`fire attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`dark attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`light attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`water attack`
+		`+`	40
+	[equipment duration]
+		1000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`fire attack`
+		`+`	40
+	[equipment duration]
+		2000
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`dark attack`
+		`+`	40
+	[equipment duration]
+		2000
+	[elemental weapon]
+		`dark`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`light attack`
+		`+`	40
+	[equipment duration]
+		2000
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	0
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`water attack`
+		`+`	40
+	[equipment duration]
+		2000
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		90000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		104000
+	[appendage]
+		600
+[/then]
+
+[if]
+	[my appendage]
+		600
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		104000
+	[passive object]
+		67020	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		600
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		100000
+	[appendage]
+		601
+[/then]
+
+[if]
+	[my appendage]
+		601
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		96000
+	[appendage]
+		602
+[/then]
+
+[if]
+	[my appendage]
+		602
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		92000
+	[appendage]
+		603
+[/then]
+
+[if]
+	[my appendage]
+		603
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		88000
+	[appendage]
+		604
+[/then]
+
+[if]
+	[my appendage]
+		604
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		84000
+	[appendage]
+		605
+[/then]
+
+[if]
+	[my appendage]
+		605
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		600
+[/then]
+
+[if]
+	[my appendage]
+		605
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		84000
+	[passive object]
+		67021	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		605
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		80000
+	[appendage]
+		606
+[/then]
+
+[if]
+	[my appendage]
+		606
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		76000
+	[appendage]
+		607
+[/then]
+
+[if]
+	[my appendage]
+		607
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		72000
+	[appendage]
+		608
+[/then]
+
+[if]
+	[my appendage]
+		608
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		68000
+	[appendage]
+		609
+[/then]
+
+[if]
+	[my appendage]
+		609
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		64000
+	[appendage]
+		610
+[/then]
+
+[if]
+	[my appendage]
+		610
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		605
+[/then]
+
+[if]
+	[my appendage]
+		610
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		64000
+	[passive object]
+		67022	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		610
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		611
+[/then]
+
+[if]
+	[my appendage]
+		611
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		56000
+	[appendage]
+		612
+[/then]
+
+[if]
+	[my appendage]
+		612
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		52000
+	[appendage]
+		613
+[/then]
+
+[if]
+	[my appendage]
+		613
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		48000
+	[appendage]
+		614
+[/then]
+
+[if]
+	[my appendage]
+		614
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		44000
+	[appendage]
+		615
+[/then]
+
+[if]
+	[my appendage]
+		615
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		610
+[/then]
+
+[if]
+	[my appendage]
+		615
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		44000
+	[passive object]
+		67015	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		615
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		40000
+	[appendage]
+		616
+[/then]
+
+[if]
+	[my appendage]
+		616
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		36000
+	[appendage]
+		617
+[/then]
+
+[if]
+	[my appendage]
+		617
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		32000
+	[appendage]
+		618
+[/then]
+
+[if]
+	[my appendage]
+		618
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		28000
+	[appendage]
+		619
+[/then]
+
+[if]
+	[my appendage]
+		619
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		24000
+	[appendage]
+		620
+[/then]
+
+[if]
+	[my appendage]
+		620
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		615
+[/then]
+
+[if]
+	[my appendage]
+		620
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		24000
+	[passive object]
+		67016	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		620
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		621
+[/then]
+
+[if]
+	[my appendage]
+		621
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		16000
+	[appendage]
+		622
+[/then]
+
+[if]
+	[my appendage]
+		622
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		12000
+	[appendage]
+		623
+[/then]
+
+[if]
+	[my appendage]
+		623
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		8000
+	[appendage]
+		624
+[/then]
+
+[if]
+	[my appendage]
+		624
+	[attack success]
+		1
+	[target death]
+		1
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		625
+[/then]
+
+[if]
+	[my appendage]
+		625
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-99999999
+	[appendage]
+		620
+[/then]
+
+[if]
+	[my appendage]
+		625
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		18000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[passive object]
+		67014	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		625
+	[use command]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		6000
+	[appendage]
+		626
+[/then]
+
+[if]
+	[my appendage]
+		626
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		627
+[/then]
+
+[if]
+	[my appendage]
+		626
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		-999999999
+	[appendage]
+		600
+	[appendage]
+		601
+	[appendage]
+		602
+	[appendage]
+		603
+	[appendage]
+		604
+	[appendage]
+		605
+	[appendage]
+		606
+	[appendage]
+		607
+	[appendage]
+		608
+	[appendage]
+		609
+	[appendage]
+		610
+	[appendage]
+		611
+	[appendage]
+		612
+	[appendage]
+		613
+	[appendage]
+		614
+	[appendage]
+		615
+	[appendage]
+		616
+	[appendage]
+		617
+	[appendage]
+		618
+	[appendage]
+		619
+	[appendage]
+		620
+	[appendage]
+		621
+	[appendage]
+		622
+	[appendage]
+		623
+	[appendage]
+		624
+	[appendage]
+		625
+[/then]
+
+[if]
+	[my appendage]
+		627
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[passive object]
+		67023	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		627
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		500
+	[appendage]
+		501
+	[appendage]
+		502
+	[appendage]
+		503
+	[appendage]
+		504
+	[appendage]
+		505
+[/then]
+
+[skill data up]
+	`[swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	8
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	16
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	16
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	11
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	17
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	10
+	`%`	35
+	`[swordman]`	64
+	`[all]`
+	`[level]`	11
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	65
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	77
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	7
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	108
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	109
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	72
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	15
+	`[all]`
+	`[level]`	11
+	`%`	35
+	`[swordman]`	86
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	86
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	86
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	98
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	98
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	98
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	97
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	97
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	97
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	31
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	31
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	31
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	24
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	24
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	103
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	103
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	81
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	81
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	81
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	85
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	102
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	102
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	102
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	101
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	101
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	18
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	6
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	111
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	111
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	36
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	44
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	112
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	112
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	75
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	75
+	`[all]`
+	`[level]`	18
+	`%`	35
+	`[swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	8
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	10
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	11
+	`%`	35
+	`[swordman]`	82
+	`[all]`
+	`[level]`	12
+	`%`	35
+	`[swordman]`	87
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	87
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	87
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	96
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	96
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	95
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	95
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	95
+	`[all]`
+	`[level]`	12
+	`%`	35
+	`[swordman]`	2
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	2
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	50
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	32
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	21
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	52
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	22
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	22
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	57
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	74
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	74
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	8
+	`%`	35
+	`[swordman]`	88
+	`[all]`
+	`[level]`	9
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	6
+	`%`	35
+	`[swordman]`	99
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[swordman]`	100
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[swordman]`	100
+	`[all]`
+	`[level]`	7
+	`%`	35
+[/skill data up]
+
+[skill data up]
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	2
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	5
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	8
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	20
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	24
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	30
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	44
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	46
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	50
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	57
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	58
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	64
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[demonic swordman]`	65
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	68
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[demonic swordman]`	72
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	73
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	74
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[demonic swordman]`	77
+	`[all]`
+	`[level]`	5
+	`%`	35
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	81
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	3
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	4
+	`%`	35
+	`[demonic swordman]`	82
+	`[all]`
+	`[level]`	7
+	`%`	35
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	103
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	107
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	108
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	111
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	0
+	`%`	35
+	`[demonic swordman]`	112
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	1
+	`%`	35
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	2
+	`%`	35
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	3
+	`%`	35
+[/skill data up]
+
+[emancipate]
+	[input]
+		10093971	250	3042	100	3822	10	3821	1000
+	[/input]
+	[output]
+		101040332	1
+	[/output]
+	[emancipate explain]
+		`增加技能攻擊力效果`
+[/emancipate]
+
+[possible kiri protect]

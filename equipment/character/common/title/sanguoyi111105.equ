@@ -1,0 +1,169 @@
+#PVF_File
+
+[name]
+	`三英雄（義）`
+
+[explain]
+	`    對敵人的傷害+12%%（在決斗場效果減半）
+   攻擊時，以3%的機率使自身增加35點力量、體力、智力和精神，效果持續20秒。
+     施放時、有5%%的幾率增加5%%的物理和魔法暴擊率、效果持續20秒。（冷卻時間30秒）`
+
+[flavor text]
+	`<2016春節禮包>`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title_cn.img`	337
+
+[custom animation]
+	`TitleAnimation/chn_2016newyear_majesty.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[HP MAX]
+	300
+
+[MP MAX]
+	300
+
+[HP regen speed]
+	24
+
+[MP regen speed]
+	24
+
+[physical attack]
+	50
+
+[physical defense]
+	50
+
+[magical attack]
+	50
+
+[magical defense]
+	50
+
+[stuck resistance]
+	20
+
+[equipment physical attack]
+	36	36
+
+[equipment magical attack]
+	36	36
+
+[separate attack]
+	55	55
+
+[move speed]
+	30
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[all elemental attack]
+	15
+
+[room list move speed rate]
+	0.2
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[stuck]
+	-2.0
+
+[move wav]
+	`NAME_TOUCH`
+
+[cooltime]
+	45000
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	12
+[/then]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[stat]
+		`physical attack`
+		`+`	35
+	[stat]
+		`physical defense`
+		`+`	35
+	[stat]
+		`magical attack`
+		`+`	35
+	[stat]
+		`magical defense`
+		`+`	35
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[stat]
+		`physical critical hit`
+		`+`	5
+	[stat]
+		`magical critical hit`
+		`+`	5
+[/then]

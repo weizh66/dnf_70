@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`傳承 : 天馬守護神的狼皮長袍`
+
+[grade]
+	82
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	53
+
+[magical attack]
+	53
+
+[magical defense]
+	35
+
+[price]
+	65600
+
+[repair price]
+	55104
+
+[value]
+	52480
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2040	1992
+
+[skill levelup]
+	`[gunner]`	51	1
+	`[gunner]`	66	1
+	`[at gunner]`	51	1
+	`[at gunner]`	94	1
+	`[gunner]`	78	1
+	`[gunner]`	69	1
+	`[at gunner]`	78	1
+	`[at gunner]`	99	1
+	`[thief]`	47	1
+	`[thief]`	56	1
+	`[mage]`	69	1
+	`[mage]`	84	1
+	`[mage]`	105	1
+	`[mage]`	110	1
+	`[at mage]`	50	1
+	`[at mage]`	13	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`item/new_equipment/03_leather/coat/leather_coat.img`	19
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[coat]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`傳承 : 天馬守護神的狼皮戰衣  套裝`
+
+[set item]
+	100060120	100110108	100160078	100210098	100260101
+[/set item]
+
+[piece set ability]
+	5
+	[physical attack]
+		90
+	[magical attack]
+		90
+	[magical defense]
+		60
+	[HP MAX]
+		260
+	[MP MAX]
+		260
+	[HP regen speed]
+		27
+	[MP regen speed]
+		27
+	[equipment physical defense]
+		550	550
+	[move speed]
+		40
+	[attack speed]
+		60
+	[stuck]
+		-2
+	[physical critical hit]
+		3
+	[magical critical hit]
+		3
+	[skill levelup]
+		`[mage]`	112	1
+		`[mage]`	114	1
+		`[at mage]`	63	1
+		`[gunner]`	104	1
+		`[gunner]`	102	1
+		`[at gunner]`	104	1
+		`[at gunner]`	104	1
+		`[thief]`	75	1
+		`[gunner]`	110	2
+		`[gunner]`	60	1
+		`[at gunner]`	110	2
+		`[at gunner]`	60	1
+		`[thief]`	9	2
+		`[mage]`	40	1
+		`[mage]`	97	1
+		`[at mage]`	31	2
+	[/skill levelup]
+	[if]
+		[module]
+			`[dungeon type]`
+			`[war room]`
+		[/module]
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[stat by condition]
+			`physical critical hit rate`
+			`+`	7
+		[stat by condition]
+			`magical critical hit rate`
+			`+`	7
+	[/then]
+	[parameter basic explain]
+		`進入地下城時， 因傳承的祝福增加自身7%%的物理暴擊率和7%%的魔法暴擊率。`
+[/piece set ability]
+
+[possible kiri protect]

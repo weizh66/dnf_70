@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 暗街之王`
+
+[explain]
+	`哦？是哪個蠢貨說光明只是暫時被黑暗掩蓋？
+是壹邊說著要隱匿起來，卻還四處叫囂的家夥吧？
+走著瞧吧，看看是誰會先被幹掉？
+為了逃亡而四處躲藏，疲於奔命的膽小鬼，
+妳什?都不敢面對，螻蟻都能成為妳的敵手。
+妳就在那裏，等著被殺，然後腐爛吧。
+說什?“那種見不得人的後街人生，註定會被敵人終結。”
+胡說八道的宵小之徒，滾吧！
+現在，我就是王法，我說了算。
+既然不屬於光明，那就在黑暗中稱王吧。
+好好觀賞吧，未來的每場戰鬥，都將充滿了樂趣...`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		130020	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[at fighter]`	38
+	`[dungeon type]`
+	`[level]`	1
+	`%`	300
+	`[at fighter]`	52
+	`[dungeon type]`
+	`[level]`	3
+	`%`	300
+	`[at fighter]`	60
+	`[dungeon type]`
+	`[level]`	1
+	`%`	300
+	`[at fighter]`	60
+	`[dungeon type]`
+	`[level]`	2
+	`%`	300
+	`[at fighter]`	75
+	`[dungeon type]`
+	`[level]`	1
+	`%`	300
+	`[at fighter]`	77
+	`[dungeon type]`
+	`[level]`	1
+	`%`	300
+	`[at fighter]`	105
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[at fighter]`	105
+	`[dungeon type]`
+	`[level]`	1
+	`%`	500
+	`[at fighter]`	105
+	`[dungeon type]`
+	`[level]`	2
+	`%`	500
+	`[at fighter]`	119
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+	`[at fighter]`	123
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+[/skill data up]

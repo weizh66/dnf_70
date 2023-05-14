@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680380	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	2680383	2
+[/reward int data]
+
+[name]
+	`溫暖之心`
+
+[depend message]
+	`冒險家， 好久不見啊~
+唉， 阿拉德大陸最近可真不太平， 到處都是那些從異界掉下來的臟兮兮的東西。
+我聽說那些東西還帶有一種特殊的異界氣息， 能吸引怪物呢。
+你也看見了吧， 那些怪物到哪都帶著那些臟東西， 不僅把阿拉德大陸的環境弄臟了， 甚至連我們住的地方都有一股臭味。
+冒險家， 請你幫幫我們吧， 幫我們收集怪物身上那些該死的東西！ 那些東西好像叫“變質的食物”、 “干電池”和“塑料和廢紙”。
+你把它們交給我、 卡妮娜和凱麗。 我們會把它們分類清理， 讓阿拉德大陸再次變得干凈整潔。`
+
+[condition message]
+	`    收集10個[變質的食物]交給賽麗亞。`
+
+[solve message]
+	`冒險家， 太感謝你了， 愿你的心永遠溫暖人間~`

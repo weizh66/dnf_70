@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`深淵派對挑戰書`
+
+[explain]
+	`    用于兌換挑戰深淵派對的邀請函。
+可以在歌蘭蒂斯商店兌換。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	30000
+
+[value]
+	50
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/material.img`	419
+
+[field image]
+	`Item/FieldImage.img`	28
+
+[stackable type]
+	`[material]`	0
+
+[move wav]
+	`PAPER_TOUCH`
+
+[action type]
+	`[open guide book]`	51	2
+[/action type]

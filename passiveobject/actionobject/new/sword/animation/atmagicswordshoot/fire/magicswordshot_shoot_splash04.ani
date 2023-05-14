@@ -1,0 +1,65 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMagicSwordShot/ATMagicSwordShot_shoot05.img`
+		0
+	[IMAGE POS]
+		-137	-178
+	[IMAGE RATE]
+		1.340000033378601	0.3400000035762787
+	[RGBA]
+		255	85	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMagicSwordShot/ATMagicSwordShot_shoot05.img`
+		0
+	[IMAGE POS]
+		-137	-312
+	[IMAGE RATE]
+		1.6799999475479126	0.17000000178813934
+	[RGBA]
+		255	85	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMagicSwordShot/ATMagicSwordShot_shoot05.img`
+		0
+	[IMAGE POS]
+		-137	-571
+	[IMAGE RATE]
+		1.8799999952316284	0.07999999821186066
+	[RGBA]
+		255	85	0	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-72	16
+	[DELAY]
+		80

@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`裝備強化保護券`
+
+[explain]
+	`持有該保護券， 強化失敗時， 裝備不會被銷毀， 但裝備的強化等級歸零。
+只有強化失敗時， 保護券才會消失。
+  不適用于裝備增幅。`
+
+[grade]
+	1
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[price]
+	50000
+
+[need material]
+	7804	5
+
+[icon]
+	`Item/stackable/material.img`	349
+
+[stackable type]
+	`[material]`	0
+
+[move wav]
+	`PAPER_TOUCH`

@@ -1,0 +1,65 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Goblin/move.ani`
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		1	2	3
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[REVERSE]
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			280
+	[/SET SPEED]
+	[SAY SPEECH]
+		`啊！！請饒了我吧！`
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			280
+	[/SET SPEED]
+	[SAY SPEECH]
+		`呃啊~~！`
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET SPEED]
+		[X AXIS]
+			280
+	[/SET SPEED]
+	[SAY SPEECH]
+		`偷襲！`
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		6	6
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]

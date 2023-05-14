@@ -1,0 +1,195 @@
+#PVF_File
+
+[name]
+	`獸王泰錘`
+
+[basic explain]
+	`攻擊時以3%% 的機率讓敵人陷入眩暈狀態
+鈍器精通幻影劍舞的衝擊波攻擊力增加25%% 
+鈍器精通衝擊波攻擊力增加25%% 
+不可解體`
+
+[detail explain]
+	`攻擊時以3%%的機率讓敵人2秒內陷入氣絕狀態。 （高於Lv74的對象得到的機率和效果減少，低於Lv74的對象則會增加。決鬥場內修正為1秒）
+鈍器精通幻影劍舞的衝擊波攻擊力增加2 5%%
+鈍器精通衝擊波攻擊力增加2 5%%
+不可解體`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[anti evil]
+	13
+
+[physical attack]
+	74
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[need material]
+	3338	670
+
+[repair price]
+	99456
+
+[value]
+	94720
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	774	719
+
+[equipment magical attack]
+	669	621
+
+[separate attack]
+	420	284
+
+[skill levelup]
+	`[swordman]`	15	2
+	`[swordman]`	68	1
+	`[swordman]`	73	1
+	`[demonic swordman]`	68	1
+	`[demonic swordman]`	73	1
+	`[demonic swordman]`	15	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/club/club.img`	87
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	25	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	25	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[skill data up]
+	`[swordman]`	15
+	`[dungeon type]`
+	`[level]`	4
+	`%`	25
+	`[swordman]`	15
+	`[dungeon type]`
+	`[level]`	10
+	`%`	25
+	`[swordman]`	15
+	`[dungeon type]`
+	`[level]`	11
+	`%`	25
+[/skill data up]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	74
+[/then]
+
+[possible kiri protect]

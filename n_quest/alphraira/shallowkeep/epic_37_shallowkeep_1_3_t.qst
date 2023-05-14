@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	26
+
+[complete npc index]
+	25
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	37	99
+
+[pre required quest]
+	4467
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	31	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`加爾·伊萊絲 (1/3)`
+
+[depend message]
+	`你來得正好， 你知道現在的情況吧？
+那些對人類反感的暗精靈元老相信了艾麗絲的話， 他們把諾伊佩拉爆發傳染病的根源歸咎于人類， 并且已經向人類宣戰了。
+人類也在阿法利亞營地建立了陣地， 與我們對峙， 眼看戰爭一觸即發……
+<npc::25>喂， 克倫特！ 你又想策劃什么陰謀？ 就算你是暗精靈傳令使， 你也不能這樣光明正大的聚集自己的族人啊， 這可是我們人類的地盤！
+<npc::26>啊……加爾， 你誤會了。 請你相信我們……
+我之前已經和你說過了， 并不是所有的暗精靈都希望開戰。 只要能阻止這場戰爭， 你讓我和這位暗精靈做什么， 我們都愿意。
+<npc::25>哼！ 想讓我相信這個看起來很危險的家伙？ 那請你告訴我去淺棲之地的那些冒險家為什么會消失？ 你能肯定和你們暗精靈沒有關系？
+<npc::0>淺棲之地在哪里？ 我可以幫你去看看。
+<npc::25>?， 你還挺有自信啊？ 既然你這么有能耐， 就去看看吧。 不過我提醒你， 我可沒興趣給暗精靈收尸。`
+
+[condition message]
+	`    通關諾伊佩拉地區的『淺棲之地』。`
+
+[solve message]
+	`你活著回來了？ 雖然你已經向我證明了你不是菜鳥， 但你再怎么厲害， 也不能掩蓋你暗精靈的身份。`
+
+[dialog]
+	1	0	31	0	1	402	0
+	` <monster::402>不要……靠……靠……近……
+逃……逃……跑吧……
+咳啊……啊啊啊……！！！`
+[/dialog]
+
+[quest point]
+	4

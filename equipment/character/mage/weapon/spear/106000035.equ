@@ -1,0 +1,220 @@
+#PVF_File
+
+[name]
+	`尖銳的冰槍`
+
+[basic explain]
+	`敵人攻擊時以 3%%的機率讓敵人在5秒內進入出血狀態
+暴擊攻擊力 10%%增加
+不可解體`
+
+[detail explain]
+	`敵人攻擊時以 3%% 的機率，敵人在 5秒內進入出血狀態，每0.5秒以 500的攻擊力給予傷害。（高於Lv79的對象得到的機率減少，低於Lv79的對象則會增加。）
+暴擊攻擊力增加10%%（決鬥場內增加5%%）
+不可解體`
+
+[grade]
+	79
+
+[rarity]
+	3
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	78
+
+[attack speed]
+	-50
+
+[need material]
+	3338	840
+
+[repair price]
+	106176
+
+[value]
+	101120
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	905	845
+
+[equipment magical attack]
+	641	598
+
+[separate attack]
+	450	305
+
+[physical critical hit]
+	12
+
+[icon]
+	`item/new_equipment/01_weapon/mage/spear/spear.img`	106
+
+[field image]
+	`Item/field_weapon.img`	6
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	34	0
+
+[layer variation]
+	2150
+	`at_speara`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_speard`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`spearc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`speard`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SPEAR_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3200
+
+[item group name]
+	`spear`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	3
+[/routing priority]
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[cooltime]
+		7000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[probability]
+		3
+	[active status]
+		`bleeding`	79	5000
+	[reduce duration to human armor at pvp module]
+		80
+[/then]
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	5
+[/then]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

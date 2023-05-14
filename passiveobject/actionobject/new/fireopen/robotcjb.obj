@@ -1,0 +1,26 @@
+#PVF_File
+
+[name]
+	`RobotCJB`
+
+[layer]
+	`[bottom]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/ATOperationRaze/StartBottom_01.ani`
+
+[attack info]
+	`AttackInfo/RobotCJB.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1500
+	`[on end of animation]`
+	`[object create after destroy]`
+[/object destroy condition]

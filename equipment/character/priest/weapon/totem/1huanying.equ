@@ -1,0 +1,194 @@
+#PVF_File
+
+[name]
+	`星云幻`
+
+[basic explain]
+	`  施放[聖拳錘擊]時， 會出現臺詞‘啪！’。
+  施放[破碎之錘]時， 會出現臺詞‘疼！！’。
+  施放[俯沖腹拳]時， 會出現臺詞‘妳死定了！’。
+  施放[神聖組合拳]時， 會出現臺詞‘沖出下水道！！’。
+[聖拳錘擊]沖擊波範圍 +25%%
+[破碎之錘]沖擊波範圍 +25%%
+[俯沖腹拳]攻擊力 +25%%
+[神聖組合拳]攻擊力 +30%%
+[聖拳錘擊]、 [破碎之錘]和[俯沖腹拳]攻擊時， 附加20%%的傷害， 效果持續30秒。`
+
+[detail explain]
+	`  施放[聖拳錘擊]時， 會出現臺詞‘啪！’。
+  施放[破碎之錘]時， 會出現臺詞‘疼！！’。
+  施放[俯沖腹拳]時， 會出現臺詞‘妳死定了！’。
+  施放[神聖組合拳]時， 會出現臺詞‘沖出下水道！！’。
+[聖拳錘擊]沖擊波範圍 +25%%
+[破碎之錘]沖擊波範圍 +25%%
+[俯沖腹拳]攻擊力 +25%%
+[神聖組合拳]攻擊力 +30%%
+[聖拳錘擊]、 [破碎之錘]和[俯沖腹拳]攻擊時， 附加20%%的傷害， 效果持續30秒。 (冷卻時間30秒)`
+
+[flavor text]
+	`  空空伊的弟弟是不是叫空空貳？`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	110
+
+[stuck]
+	-1
+
+[need material]
+	3821	1600
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1100	1000
+
+[equipment magical attack]
+	900	800
+
+[separate attack]
+	600	500
+
+[dark attack]
+	30
+
+[icon]
+	`Item/new_equipment/01_weapon/priest/totem/totem.img`	103
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	11	8
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[dark element]`
+
+[skill data up]
+	`[priest]`	35
+	`[all]`
+	`[level]`	0
+	`+`	5000
+	`[priest]`	35
+	`[all]`
+	`[cooltime]`	0
+	`+`	-10000
+	`[priest]`	35
+	`[all]`
+	`[static]`	0
+	`+`	2
+	`[priest]`	35
+	`[all]`
+	`[level]`	1
+	`%`	30
+[/skill data up]
+
+[if]
+	[cooltime]
+		5000
+	[event use skill]
+		`priest`	35
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[appendage]
+		103
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			5000
+		[event use skill]
+			`priest`	35
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			30000
+		[appendage]
+			104
+	[/then]
+[/pvp]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600740	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

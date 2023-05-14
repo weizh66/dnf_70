@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at priest]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 熾天使 (4/6)`
+
+[depend message]
+	`因為你是個信仰很忠誠的人， 據說有很多人開始關注你了。
+就連我也對你感到驚嘆了， 何況是別人呢？ 但好像也有不少人覺得你的實力還不夠。
+他們應該都是對米歇爾失望透頂， 已經不再信任教團的人了吧。 不過， 只要你能展現出更高的信仰， 再一次證明你的存在和實力， 他們應該也會回心轉意的。
+所以， 這次就去參加魂·青龍大會吧。 你要在那里讓人們看到你所具備的一切信仰。 明白了嗎？
+那你先去把‘赫侖皇帝的印章’取回來吧， 聽說有了它才有資格參加大會。 我在這里等你回來。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	6812
+[/pre required quest]
+
+[relation quest]
+	6814
+
+[job change quest]
+	3
+
+[grow number]
+	0

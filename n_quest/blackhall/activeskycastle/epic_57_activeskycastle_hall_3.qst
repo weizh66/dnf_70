@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	62
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5152
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	63	-1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	7500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`異次元裂縫的真面目`
+
+[depend message]
+	`哥布林王國位于格蘭之森的正中央， 是異變氣息最強的地方……你真的去了那里嗎？
+據我所知， 應該是沒有人能靠近那里的！
+而異次元裂縫把你們帶到那里， 我個人覺得這是某個人的意圖。
+啊……你還想再去一次異次元裂縫？
+呵呵， 我知道沒人能阻止冒險家想做的事， 只是這也太危險了……`
+
+[condition message]
+	`    通關異次元裂縫的『蠕動之城』。 (只有3人以上組隊才能進入異界地下城)`
+
+[solve message]
+	`異次元裂縫這次把你帶到了天空之城？
+什么， 你說那里好像不是現在的天空之城……？
+你， 你能詳細地給我說一下嗎？`
+
+[quest point]
+	4

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	7858
+[/pre required quest]
+
+[collision quest]
+	7852	7860	7863
+[/collision quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	504	-1
+[/int data]
+
+[reward type]
+	`[grow type]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`轉職 - 藍拳圣使 (4/4) `
+
+[depend message]
+	`你是否能通過考驗……只有神知道。`
+
+[condition message]
+	`    獨自一人通關天空之城的『天空之海』。`
+
+[solve message]
+	`為了正義， 選擇把自身的肉體修煉到極限的圣職者啊， 你已經正式成為藍拳圣使了。 在你將要前進的路上， 神會與你同在！ `

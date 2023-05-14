@@ -1,0 +1,24 @@
+#PVF_File
+
+[name]
+	`NuclearBomb1`
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/NuclearBomb1.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	35502
+[/object destroy condition]

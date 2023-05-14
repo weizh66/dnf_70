@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	28
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	4007
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1	4710	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`維納斯神殿`
+
+[depend message]
+	`我還是第一次聽說， 天帷巨獸上竟然還存在著一座神殿， 而且還與美神維納斯有關……
+可惜我們不知道神殿的具體位置， 不過我想也正是因為GBL教一直堅守這個教義， 才令外部人士一無所知……但是麻煩的是， 如果奧菲利亞一直恪守這個秘密， 我們要怎么才能找到羅特斯呢……
+對了， 你先去找莎蘭要一張羊皮紙， 記住越舊越好！ 呵呵~我有辦法能讓奧菲利亞開口了~`
+
+[condition message]
+	`    為了找出神殿的入口， 請向莎蘭索要[古老的羊皮紙]。`
+
+[solve message]
+	`別急！ 你想要什么東西？ 說清楚點~`
+
+[quest point]
+	4

@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`狂龍之怒`
+
+[basic explain]
+	`[怒氣爆發]攻擊次數 +2`
+
+[flavor text]
+	`    只要你能承受后果……就繼續惹火我吧。  --盧克西`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	43
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	102600
+
+[repair price]
+	86184
+
+[value]
+	82080
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	638	581
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[skill data up]
+	`[swordman]`	24
+	`[all]`
+	`[static]`	0
+	`+`	2
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	40	2
+	`[swordman]`	19	2
+[/skill levelup]
+
+[variation]
+	4	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[routing priority]
+	`swordman`	3
+[/routing priority]
+
+[possible kiri protect]

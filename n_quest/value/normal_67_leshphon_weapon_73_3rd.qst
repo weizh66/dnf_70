@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[npc index]
+	59
+
+[complete npc index]
+	-1
+
+[target character]
+	`[mage]`	-1	-1
+	`[at mage]`	-1	-1
+[/target character]
+
+[level]
+	65	99
+
+[pre required quest]
+	7667
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3299	70
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[reward selection int data]
+	33105	1	33705	1	33409	1	34004	1	34286	1
+[/reward selection int data]
+
+[name]
+	`勇者 - 重新制作的武器`
+
+[depend message]
+	`什么， 你要重新制作一次？ 我以前做給你的東西哪去了？
+雖然我可以再給你制作， 但我也是個大忙人啊。
+這次就再幫你一次， 下不為例。`
+
+[condition message]
+	`    請收集70個[虛空魔石]交給梅爾文·里克特。`
+
+[solve message]
+	`別忘了， 這是最后一次啊！ 你一定要好好珍惜。`
+
+[quest point]
+	4

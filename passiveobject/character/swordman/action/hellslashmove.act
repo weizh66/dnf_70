@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/HellSlash/VSMove/VSAttack01_00.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			260168
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			1
+		[POS]
+			320	0	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

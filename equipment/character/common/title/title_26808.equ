@@ -1,0 +1,358 @@
+#PVF_File
+
+[name]
+	`天使的祝福`
+
+[explain]
+	`    攻擊時， 有3%%的幾率可以隨機獲得以下效果， 效果持續20秒。
+    - 火屬性強化值 +4
+    - 冰屬性強化值 +4
+    - 暗屬性強化值 +4
+    - 光屬性強化值 +4
+    攻擊時， 有5%%的幾率可以隨機獲得以下效果， 效果持續20秒。
+    - 攻擊速度 +3%%
+    - 力量 +20
+    - 智力 +20
+    被攻擊時， 有10%的幾率可以隨機獲得以下效果。 (冷卻時間為30秒)
+    - 增加MP最大值的2%% + 300點MP
+    - 增加HP最大值的2%% + 300點HP
+    施放技能時， 有7%%的幾率使自身增加3%%的施放速度， 效果持續20秒。
+    前衝攻擊時， 有5%%的幾率使自身增加3%%的移動速度， 效果持續10秒。
+    HP為33%%以下時， 可以隨機獲得以下效果。
+    - 力量、 智力 +20 (根據HP減少比率， 可最高增加100點力量和智力)
+    - 所有屬性抗性強化值 +4 (根據HP減少比率， 最高可增加10點所有屬性抗性強化值)
+    - 攻擊速度、 施放速度、 移動速度 +2%% (根據HP減少比率， 可最高增加5%%的力量和智力)
+    倒地時， 有5%%的幾率使自身進入霸體狀態3秒。 (在決斗場中無效)
+    倒地時， 有5%%幾率出現衝擊波。 (在決斗場中無效)`
+
+[grade]
+	1
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	436
+
+[custom animation]
+	`TitleAnimation/angelblessing.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[appendage]
+		130
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[appendage]
+		131
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[appendage]
+		132
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[appendage]
+		133
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[stat]
+		`attack speed`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[stat]
+		`physical attack`
+		`+`	20
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		7
+	[stat]
+		`cast speed`
+		`+`	30
+[/then]
+
+[if]
+	[cooltime]
+		20000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		5
+	[stat]
+		`magical attack`
+		`+`	20
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[restore]
+		`mp`
+		`%`	2	0
+	[restore]
+		`mp`
+		`+`	300	0
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[restore]
+		`hp`
+		`%`	3	0
+	[restore]
+		`hp`
+		`+`	500	0
+[/then]
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[set my state]
+		1
+	[my state]
+		`down`
+	[cooltime]
+		25000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[probability]
+		5
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[set my state]
+		1
+	[my state]
+		`down`
+	[cooltime]
+		25000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[passive object]
+		9374	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[stat]
+		`move speed`
+		`+`	30
+[/then]
+
+[if]
+	[change status in range]
+		`hp`	33	3
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[apply status in range]
+		`physical attack`
+		`+`	20	100
+	[apply status in range]
+		`magical attack`
+		`+`	20	100
+	[apply status in range]
+		`fire attack`
+		`+`	4	10
+	[apply status in range]
+		`water attack`
+		`+`	4	10
+	[apply status in range]
+		`light attack`
+		`+`	4	10
+	[apply status in range]
+		`dark attack`
+		`+`	4	10
+	[apply status in range]
+		`move speed`
+		`+`	20	50
+	[apply status in range]
+		`attack speed`
+		`+`	20	50
+	[apply status in range]
+		`cast speed`
+		`+`	20	50
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

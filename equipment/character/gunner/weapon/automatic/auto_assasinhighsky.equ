@@ -1,0 +1,158 @@
+#PVF_File
+
+[name]
+	`蒼穹刺客`
+
+[basic explain]
+	`[空戰機械 : 風暴]、 [空戰機械 : 狂風]冷卻時間 -6秒
+[空投支援]冷卻時間 -8秒`
+
+[flavor text]
+	`    它看似蝴蝶， 但蜇起人來卻像馬蜂。  --穆`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`automatic`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	1500
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`item/weapon/gunner/automatic.img`	42
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	30
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[cool time]
+	10000
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	349	296
+
+[equipment magical attack]
+	512	433
+
+[separate attack]
+	328	220
+
+[stuck]
+	1
+
+[skill data up]
+	`[gunner]`	63
+	`[all]`
+	`[cooltime]`	0
+	`+`	-6000
+	`[gunner]`	59
+	`[all]`
+	`[cooltime]`	0
+	`+`	-8000
+	`[at gunner]`	63
+	`[all]`
+	`[cooltime]`	0
+	`+`	-6000
+	`[at gunner]`	59
+	`[all]`
+	`[cooltime]`	0
+	`+`	-8000
+[/skill data up]
+
+[skill levelup]
+	`[gunner]`	63	2
+	`[gunner]`	59	2
+	`[at gunner]`	63	2
+	`[at gunner]`	59	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	2
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[routing priority]
+	`gunner`	3
+	`at gunner`	3
+[/routing priority]
+
+[possible kiri protect]

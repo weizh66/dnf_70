@@ -1,0 +1,33 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/ATWildCannonSpike/bottom_dodge.img`
+		0
+	[IMAGE POS]
+		-396	-383
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		500
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/ATWildCannonSpike/bottom_dodge.img`
+		0
+	[IMAGE POS]
+		-396	-383
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

@@ -1,0 +1,38 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/SwordNormal.img`
+		21
+	[IMAGE POS]
+		-183	-184
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/SwordNormal.img`
+		23
+	[IMAGE POS]
+		-190	-28
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATMakeLotusSlash/SwordNormal.img`
+		23
+	[IMAGE POS]
+		-190	-29
+	[DELAY]
+		20
+	[DAMAGE TYPE]
+		`NORMAL`

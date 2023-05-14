@@ -1,0 +1,30 @@
+#PVF_File
+
+[width]
+	1	1
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Effect/animation/seventhflow/5/5_shoot_feather_2.act`
+
+[attack info]
+	`AttackInfo/SeventhFlowNormal.atk`
+
+[name]
+	`跳??的自?手?子?`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	200
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	230068
+[/object destroy condition]

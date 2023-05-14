@@ -1,0 +1,38 @@
+#PVF_File
+
+[index]
+	23
+
+[new page]
+
+[image]
+	1.0	7	22	0	0	0
+	`Interface/newstyle/windows/Guide/item.img`	1
+
+[text]
+	10	265	310	0
+	`裝扮可以變更角色外觀，每件衣服都有不同屬性，可以使角色變得更強。`
+
+[new page]
+
+[image]
+	1.0	7	22	0	0	0
+	`Interface/newstyle/windows/Guide/item.img`	3
+
+[text]
+	10	265	310	0
+	`高級/夢幻克隆裝扮可以在商城購買，有套裝屬性。`
+
+[new page]
+
+[image]
+	1.0	7	22	0	0	0
+	`Interface/newstyle/windows/Guide/item.img`	4
+
+[text]
+	10	265	310	0
+	`稀有/稀有克隆裝扮可以透過綁定背包合成一般裝扮時，以一定機率獲得。有3/5/8套裝屬性。`
+
+[explain]
+	`  直接穿戴不顯示外觀；可以複製穿戴中的同部位裝扮款式，但屬性值保留克隆裝扮原屬性。
+  如被複製的裝扮消失，則外觀恢復透明，反之則維持複製款式。（拖動或右鍵點擊穿戴裝扮圖標，可以解除克隆）`

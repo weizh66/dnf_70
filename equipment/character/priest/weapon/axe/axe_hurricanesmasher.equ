@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`颶風粉碎者`
+
+[basic explain]
+	`攻擊時， 有1%%的幾率消耗自身1%%的HP， 并使自身增加40點力量、 8%%的攻擊速度和移動速度， 效果持續30秒。
+[狂亂錘擊]眩暈Lv +3`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/axe.img`	57
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[price]
+	0
+
+[need material]
+	3285	1200
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	486	445
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-80
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`attack speed`
+		`+`	80
+	[stat]
+		`move speed`
+		`+`	80
+	[stat]
+		`physical attack`
+		`+`	40
+	[restore]
+		`hp`
+		`%`	-1	0
+[/then]
+
+[stuck]
+	-2
+
+[skill data up]
+	`[priest]`	49
+	`[all]`
+	`[level]`	7
+	`+`	3
+[/skill data up]
+
+[skill levelup]
+	`[priest]`	47	2
+[/skill levelup]
+
+[variation]
+	3	3
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[routing priority]
+	`priest`	3
+	`priest`	2
+[/routing priority]
+
+[possible kiri protect]

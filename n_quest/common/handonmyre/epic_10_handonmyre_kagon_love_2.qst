@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	10
+
+[complete npc index]
+	10
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[pre required quest]
+	211
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	22005	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`羅莉安的指教 (1/4)`
+
+[depend message]
+	`嗯？ 賽麗亞喜歡的？ 呵呵！ 你也喜歡賽麗亞啊？ 賽麗亞是長得不錯， 但要和我比還是差了一點！
+嗯？ 你想讓我當紅娘？ 看來你還算聰明， 知道我和賽麗亞要好， 想通過我打聽她的消息……但我有什么好處啊？ 你說以后會經常光顧我的店鋪。
+好吧， 讓我想想……賽麗亞最近經常提起絲綢護腕， 如果想讓她對你產生好感， 就幫她找到絲綢護腕吧！ `
+
+[condition message]
+	`    從羅莉安處購來賽麗亞喜歡的[絲綢護腕]。`
+
+[solve message]
+	`哦呵呵， 動作好快呀！ 看來愛情的力量就是偉大啊！ `
+
+[quest point]
+	4

@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[target character]
+	`[at mage]`	-1	-1
+	`[mage]`	-1	-1
+[/target character]
+
+[level]
+	4	99
+
+[pre required quest]
+	531
+[/pre required quest]
+
+[monster reward item]
+	5001	4	-1	4170	1	80	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4170	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200	33073	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`神奇的魔法 - 第二次冒險`
+
+[depend message]
+	`在叢林冒險一定要小心， 尤其是在格蘭之森！ 我聽說那里出現了很多邪惡的貓妖， 你想去看看的話， 我可以告訴你怎么去哦， 有興趣嗎？ `
+
+[condition message]
+	`    前往格蘭之森的『幽暗密林深處』， 從各類貓妖身上收集10個[貓妖指甲]。`
+
+[solve message]
+	`遇到貓妖了嗎？ 它們不好對付吧？ 呵呵， 看來我得送件東西給你防身才行吶。 `
+
+[quest point]
+	4

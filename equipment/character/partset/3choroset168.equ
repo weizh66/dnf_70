@@ -1,0 +1,92 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gun blader]`	30
+		`[dungeon type]`
+		`[static]`	10
+		`%`	-20
+		`[gun blader]`	30
+		`[dungeon type]`
+		`[static]`	11
+		`+`	2
+		`[gun blader]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[爆彈羅網]爆炸攻擊次數 +2次
+[爆彈羅網]多段攻擊間隔 -20%%
+[爆彈羅網]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gun blader]`	30
+		`[dungeon type]`
+		`[static]`	10
+		`%`	-30
+		`[gun blader]`	30
+		`[dungeon type]`
+		`[static]`	11
+		`+`	3
+		`[gun blader]`	30
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[gun blader]`	32
+		`[dungeon type]`
+		`[static]`	1
+		`+`	2
+		`[gun blader]`	32
+		`[dungeon type]`
+		`[static]`	2
+		`%`	-30
+		`[gun blader]`	32
+		`[dungeon type]`
+		`[static]`	6
+		`%`	10
+		`[gun blader]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[爆彈羅網]爆炸攻擊次數 +3次
+[爆彈羅網]多段攻擊間隔 -30%%
+[爆彈羅網]冷卻時間 -15%%
+[驚喜大禮]攻擊次數 +2次
+[驚喜大禮]多段攻擊間隔 -30%%
+[驚喜大禮]施放速度 +10%%
+[驚喜大禮]冷卻時間 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[gun blader]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[gun blader]`	32
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[gun blader]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-45
+	[/skill data up]
+	[parameter basic explain]
+		`[裂地爆刃]攻擊力 +35%%
+[裂地爆刃]冷卻時間 -15%%
+[驚喜大禮]攻擊力 +35%%
+[驚喜大禮]冷卻時間 -45%%`
+[/piece set ability]

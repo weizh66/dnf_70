@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`覺醒造型-上衣`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_acoat.img`	202
+
+[equipment type]
+	`[coat avatar]`	0
+
+[pvp]
+	[stuck]
+		-9
+[/pvp]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	62	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`

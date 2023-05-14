@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	40
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	59	99
+
+[job message]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	40
+[/int data]
+
+[exception quest]
+	`[urgent]`
+[/exception quest]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[遠古地下城] 林納斯的不安`
+
+[depend message]
+	` 糟了… 糟了… 
+ <npc::0>呀？ 大叔你好~可是大叔臉上怎麼這麼多皺紋？ 發生什麼事了？ 
+ <npc::1> 是、是嗎？ 有那麼明顯嗎？ 我有點擔心。 
+ <npc::0>嗯~大叔的皺紋由我來解決！  嘻嘻嘻~
+ <npc::1>…… … 雖然有點不安，但你確實擁有實力… 
+ 其實，有一個叫做罪惡布法羅的集團正在這附近四處亂挖地。 
+ 我是不太在意那些盜掘者，不過他們卻碰了不該碰的東西。 
+ 他們挖了一個通往被遺忘的恐怖之地，也就是悲鳴洞穴的洞口。 
+<npc::0>悲鳴洞穴？ 難道是鬼屋那樣的地方？  
+ <npc::1> 你應該也知道才對… 難道已經忘記了嗎？ 
+ 就是擊敗叫做希洛克的使徒的阿甘左等4人劍士的事情。 
+ <npc::0>(希洛克……好像聽說過， 是什麼來著？ 不像是吃的……) (啊！  好像是使徒中的一個！  我果然是天才，嘻嘻~)大叔，我想起來了。 
+ <npc::1>是……是嗎？ 是嗎？ 不管怎麼樣，現在它出現了，不知道會給我們帶來什麼災難呢。 
+ 就算想要調查悲鳴洞穴，既然不知道存在著何種威脅，就無法冒然進入。 
+ 可以幫我去找對於悲鳴洞穴有相當程度了解的人嗎？`
+
+[condition message]
+	`尋找瞭解悲鳴洞穴的人。(從斯頓雪域得到提示)`
+
+[solve message]
+	` 好，專程來這個寒冷的偏僻地帶有什麼事呢？ 小魔法師 `
+
+[quest point]
+	4

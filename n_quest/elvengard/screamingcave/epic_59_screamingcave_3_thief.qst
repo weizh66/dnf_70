@@ -1,0 +1,77 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	5
+
+[complete npc index]
+	1
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4378
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 相似的人`
+
+[depend message]
+	`阿甘左喜歡獨來獨往， 這次他打破慣例跟你一起去悲鳴洞穴， 看來他已經認可你了。
+<apc::410>索西雅， 這些話就不要說了……暗精靈小姐， 之前我對你很不客氣， 希望你不要介意， 我是被自己的那些陳年往事影響了。
+現在， 你擔憂的事情已經解決了， 你先去找林納斯， 讓他放心。
+也許林納斯是想通過你來約見我， 請你轉告他， 我還有別的事……
+<npc::0>我知道了……那個， 你知道暗精靈身上為什么會出現蘑菇形狀的紫色膿包嗎？ 我在悲鳴洞穴里沒有找到線索……
+<apc::410>呃， 你來找我幫忙， 就是因為這個？……很抱歉， 我對這個不了解。
+嗯，要是我能找到和它相關的線索， 我會告訴你的。
+<npc::0>嗯， 好的……謝謝你， 我就此告辭。
+<npc::5>這位暗精靈小姐離去的背影很輕靈啊……噢， 我想起來了， 你和那位暗精靈小姐很多年前來過我這里……
+<apc::410>不是的……她們不是同一個人， 只是有些相似而已……她沒這么有生氣， 呃， 也……不……不是。`
+
+[condition message]
+	`    找林納斯談談。`
+
+[solve message]
+	`啊， 原來如此……看來阿甘左還沒有忘記過去啊……
+呃， 你辛苦了！！ 呵呵， 托你的福， 我總算可以放心了！`
+
+[quest point]
+	4

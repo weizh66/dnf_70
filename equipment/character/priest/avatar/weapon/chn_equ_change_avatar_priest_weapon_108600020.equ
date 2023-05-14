@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`死亡之鐮`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/priest/scythe.img`	68
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[icon mark]
+	`Item/IconMark_cn.img`	15
+
+[avatar func filter]
+	0
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		21	1
+	[layer variation]
+		2790
+		`scythec`
+	[equipment ani script]
+		`equipment/character/priest.lay`
+	[layer variation]
+		200
+		`scythed`
+	[equipment ani script]
+		`equipment/character/priest.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/priest/weapon/scythe/`
+[/expand ani]

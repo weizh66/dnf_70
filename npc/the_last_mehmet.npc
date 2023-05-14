@@ -1,0 +1,48 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	25
+
+[big face]
+	`Map/Npc/NpcFace04.img`	6
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	25
+
+[field animation]
+	`Animation/mehmet.ani`
+
+[look around]
+	0
+
+[field wav]
+	`R_NPC_MEHMET_AMB`
+
+[popup wav]
+	`R_NPC_MEHMET_TK`
+	`R_NPC_MEHMET_FW`
+
+[role]
+	`[time sand]`	0
+[/role]
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::127>這樣留在人類界的時間已經不多了。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::127>我是最後的先知者。目擊歷史上最後大慘變的時間之路......。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::127>只有時間的孩子才能變更最後的歷史。`
+[/dialog]
+
+[name]
+	`最後的先知者`
+
+[field name]
+	`最後的先知者`

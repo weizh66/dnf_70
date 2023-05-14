@@ -1,0 +1,27 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/floor.act`
+
+[name]
+	`青?石巨人的子?`
+
+[attack info]
+	`AttackInfo/floor.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]
+
+[team]
+	100

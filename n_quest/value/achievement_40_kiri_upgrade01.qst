@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[type]
+	`[amplify item]`
+
+[sub type]
+	0
+
+[int data]
+	4	-1	35	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	20000	7743	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`強化武器`
+
+[depend message]
+	`嘿！ 怎么了？ 一副沒精打采的樣子。 有什么心事說出來， 我幫你解決。
+想要提高戰斗力？ 是不是覺得挑戰越來越難了？……看來是該強化下武器了。
+這點我可以幫你。 不過……你也知道， 姐姐就靠這個小小的強化機生活， 所以……需要收取一點點辛苦費。
+還有‘爐巖炭’也需要自備……呵呵~不過作為報答， 我可以保證+4前絕對安全， 但是從+5開始就會有一定風險。
+如果失敗了， 強化數值可能會下降； 如果是在+11后強化失敗， 裝備還有可能會報廢……這點你要做好心理準備啊！`
+
+[condition message]
+	`    將Lv35以上的武器強化至+4。`
+
+[solve message]
+	`恭喜恭喜！
+唉， 如果強化都能像你這次這么順利的話， 我就不會老挨罵了……其實這也不是我可以控制的啊~`

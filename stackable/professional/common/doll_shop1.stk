@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`懵懂的個人商店人偶`
+
+[explain]
+	`    使用後， 可以開設人偶商店。 (最多陳列1件物品)
+    開設商店後， 若切換角色、 選擇頻道或結束遊戲， 則自動關閉商店並將剩餘物品通過郵件寄回。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	784
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[expert town potion]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	1000
+
+[move wav]
+	`FOOD_TOUCH`
+
+[shop doll]
+	0

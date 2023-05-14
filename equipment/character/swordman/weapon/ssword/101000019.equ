@@ -1,0 +1,191 @@
+#PVF_File
+
+[name]
+	`焦熱的馬克多諾小劍`
+
+[basic explain]
+	`施展流心：刺時以 30%% 的機率在3秒內對 自己施展霸體狀態效果
+施展爆炎 · 波動劍時以 20%%的機率不適用
+黑波動柱個數增加2，間隔減少10%% 
+不可解體`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[cast speed]
+	20
+
+[need material]
+	3339	1000
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	764	716
+
+[equipment magical attack]
+	925	867
+
+[separate attack]
+	481	327
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	12	2
+	`[demonic swordman]`	12	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	95
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	24	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	24	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[routing priority]
+	`swordman`	4
+	`demonic swordman`	0
+[/routing priority]
+
+[if]
+	[event use skill]
+		`swordman`	107
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		3000
+	[probability]
+		30
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	22
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[skill data up]
+		`[swordman]`	22
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[skill data up]
+	`[demonic swordman]`	117
+	`[all]`
+	`[static]`	0
+	`%`	-10
+	`[demonic swordman]`	117
+	`[all]`
+	`[level]`	0
+	`+`	2
+[/skill data up]
+
+[possible kiri protect]

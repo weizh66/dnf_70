@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[job change quest]
+	20
+
+[npc index]
+	10
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	1
+
+[first exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	60	99
+
+[pre required quest]
+	2707
+[/pre required quest]
+
+[collision quest]
+	2702	2710	2712
+[/collision quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	3	3040	3	3041	3	3038	3	3042	3
+[/int data]
+
+[reward type]
+	`[expert job]`
+
+[reward int data]
+	2
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`副職業 - 煉金術師`
+
+[depend message]
+	`原來你是想學煉金術呀？
+其實你不用對我遮遮掩掩的， 再害羞也要說出來嘛~好吧， 這次我就當你是來學藝的吧。
+但是， 我現在有點忙， 你就先幫我收集些材料吧？
+等你把材料收集完后， 我再開始教你煉金術吧。`
+
+[condition message]
+	`    為了成為煉金術師， 請收集以下材料。 (完成此任務后， 就可以成為煉金術師。 如果想成為其他副職業， 請先放棄該任務， 然后再接受其他副職業任務。 完成該任務后， 若想轉成其他副職業， 則需要消耗金幣， 請慎重選擇！！)`
+
+[solve message]
+	`動作挺快的嘛， 那我現在就教你煉金術吧。`

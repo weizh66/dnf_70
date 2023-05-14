@@ -1,0 +1,46 @@
+#PVF_File
+
+[window]
+	[type]
+		`popup`
+	[horizontal alignment]
+		`center`
+	[horizontal distance]
+		0
+	[vertical alignment]
+		`middle`
+	[vertical distance]
+		0
+	[title string]
+		`賽麗亞的歡迎禮物`
+	[size]
+		18	10
+	[controls]
+		[ui controls]
+			`[image]`
+			`0`	0	4	1
+			`Interface2/event/ReturnGiftInfo/retune_gift_info.img`	1	0
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`1`	94	15	1
+			`啊！！你好。
+好久不見。
+好想你呀。??`	9	-1	165	1	0	0	0	255	255	255
+		[/ui controls]
+		[ui controls]
+			`[text]`
+			`2`	18	80	1
+			`賽麗亞會送歸還者包給最初登錄的角色。`	9	-1	180	1	1	0	0	255	255	255
+			[string option]
+				`additional tdt option`
+				`sort to each line`
+			[/string option]
+		[/ui controls]
+		[ui controls]
+			`[custom button]`
+			`10000`	78	107	1
+			`確定`	1	60
+		[/ui controls]
+	[/controls]
+[/window]

@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`封·閒雲碎步短靴`
+
+[basic explain]
+	`  裝備時，可以使300px范圍的所有敵人生成移動速度減少10%%的光環。
+  裝備時，可以使300px范圍內的所有敵人生成攻擊速度減少15%%的光環。`
+
+[flavor text]
+	`  如果對跑贏別人沒有信心，也可以換個角度，拖住他們的腳步，不讓他們跑不就行了。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12572
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	68
+
+[magical defense]
+	28
+
+[move speed]
+	60
+
+[need material]
+	3821	1000
+
+[price]
+	63700
+
+[repair price]
+	50960
+
+[value]
+	50960
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	612	558
+
+[all elemental attack]
+	8
+
+[icon]
+	`Item/new_equipment/02_cloth/shoes/cloth_shoes.img`	18
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	14
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		1000
+	[appendage]
+		267
+[/then]
+
+[possible kiri protect]

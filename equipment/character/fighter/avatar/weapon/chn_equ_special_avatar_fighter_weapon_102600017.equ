@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`復古拳套`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/fighter/bglove/bglove.img`	87
+
+[avatar func filter]
+	0
+
+[move wav]
+	`8BIT_WP_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		25	0
+	[layer variation]
+		2790
+		`bglovec`
+	[equipment ani script]
+		`equipment/character/fighter.lay`
+	[layer variation]
+		650
+		`bgloveb`
+	[equipment ani script]
+		`equipment/character/fighter.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/fighter/weapon/boxglove/`
+	[custom wav]
+		``
+		``
+		``
+		``
+	[/custom wav]
+[/expand ani]
+
+[string data]
+	`Common/Particle/weaponavatar_3/8bit.ptl`
+[/string data]
+
+[int data]
+	654321	4	1	60	30	70	1	60	30	70	2	60	30	70	2	60	30	70	1	50	30	70	2	80	30	20
+[/int data]

@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/moonlightslash_slash.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		7	7
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700167
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			280	0	50
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

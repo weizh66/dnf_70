@@ -1,0 +1,182 @@
+#PVF_File
+
+[name]
+	`精良的千年神鳥的羽毛`
+
+[basic explain]
+	`    施放技能時， 有3%%的幾率使特定的敵人進入中毒狀態， 并增加自身的智力和施放速度。
+    無法進行分解、 封裝和合成。`
+
+[detail explain]
+	`    施放技能時， 有3%%的幾率使300px范圍內最近的敵人進入中毒狀態12秒， 中毒狀態下的敵人， 每0.5秒受到40點傷害； 并且還會使自身增加15點智力和10%%的施放速度， 效果持續12秒。 (若敵人高于Lv62， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+    無法進行分解、 封裝和合成。`
+
+[grade]
+	65
+
+[rarity]
+	5
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	62
+
+[magical attack]
+	46
+
+[attack speed]
+	60
+
+[move speed]
+	30
+
+[anti evil]
+	8
+
+[price]
+	0
+
+[repair price]
+	84672
+
+[value]
+	0
+
+[equipment physical attack]
+	574	550
+
+[equipment magical attack]
+	629	603
+
+[separate attack]
+	324	219
+
+[icon]
+	`Item/weapon/mage/broom.img`	22
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2150
+	`at_brooma`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_broomd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BROOM_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2500
+
+[item group name]
+	`broom`
+
+[cool time]
+	10000
+
+[required skill]
+	91
+
+[if]
+	[cooltime]
+		12000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[duration]
+		12000
+	[probability]
+		3
+	[active status]
+		`poison`	62	1250
+	[target]
+		`myself`	-1
+	[stat]
+		`magical attack`
+		`+`	15
+	[stat]
+		`cast speed`
+		`+`	100
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

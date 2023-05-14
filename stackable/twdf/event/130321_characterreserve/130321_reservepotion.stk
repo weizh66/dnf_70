@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`預約紀念藥水`
+	
+
+[flavor text]
+	`參加DNF預約創角活動的禮物`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption_tw.img`	6
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	5000
+
+[cooltime group]
+	10
+
+[move wav]
+	`FOOD_TOUCH`
+
+[hp recovery]
+	`%`	15	1000
+	`myself`
+
+[mp recovery]
+	`%`	15	1000
+	`myself`
+
+[expiration date]
+	1370016000

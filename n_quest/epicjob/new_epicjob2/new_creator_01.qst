@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[realization]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`締造者 - 自我覺醒 (1/6)`
+
+[depend message]
+	`你最近給人的感覺與之前大不相同了。 你的身體散發出一種不知名的力量， 這種現象還真是異乎尋常。
+難道是要獲得新的力量了嗎？ 如果是這樣， 就先跟我好好談一談吧， 我想我可以幫助你。`
+
+[condition message]
+	`    如果做好了釋放力量的準備， 請前往虛祖首都素喃和西嵐談談。`
+
+[solve message]
+	`雖然你的體內蘊藏著非常強大的力量， 但貌似這些力量還無法被釋放出來。
+就好像有人故意阻礙你釋放力量一樣。
+如果可以的話， 我想幫你掌握這股力量， 你覺得如何？ 要不要試試看？`
+
+[target character]
+	`[creator mage]`	0	1
+[/target character]
+
+[relation quest]
+	6871
+
+[job change quest]
+	3
+
+[grow number]
+	0

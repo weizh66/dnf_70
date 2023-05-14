@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`寵物蛋（亞米）`
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature_egg.img`	8
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[need material]
+	3340	46
+
+[sub type]
+	1
+
+[creature species]
+	21
+
+[output index]
+	63025
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	5.0
+
+[inventory limit]
+	10000
+
+[move wav]
+	`CREATURE_EGG_TOUCH`
+
+[set item master]
+	-1

@@ -1,0 +1,24 @@
+#PVF_File
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Animation/QuasarExplosion/QCExpA_Exp_00.act`
+
+[attack info]
+	`AttackInfo/QuasarExplosion.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

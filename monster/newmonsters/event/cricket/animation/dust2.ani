@@ -1,0 +1,42 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Common/CommonEffect/new_dust.img`
+		4
+	[IMAGE POS]
+		-50	-50
+	[IMAGE RATE]
+		0.30000001192092896	0.30000001192092896
+	[INTERPOLATION]
+		1
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`Common/CommonEffect/new_dust.img`
+		4
+	[IMAGE POS]
+		-50	-50
+	[IMAGE RATE]
+		0.33000001311302185	0.33000001311302185
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+
+[FRAME002]
+	[IMAGE]
+		`Common/CommonEffect/new_dust.img`
+		4
+	[IMAGE POS]
+		-50	-60
+	[IMAGE RATE]
+		0.4000000059604645	0.4000000059604645
+	[INTERPOLATION]
+		1

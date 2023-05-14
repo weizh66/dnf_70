@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`班傑里斯的吶喊 - 左輪槍`
+
+[basic explain]
+	`攻擊速度 +2%%
+被攻擊時以 5%% 的機率召喚破壞之王修頓
+HP 50%% 以下時力量增加50，物理暴擊增加5%%
+不可解體`
+
+[detail explain]
+	`攻擊速度 +2%%
+被攻擊時以 5%% 的機率召喚破壞之王修頓（決鬥場內不適用）
+HP 50%% 以下時力量增加50，物理暴擊增加5%%
+不可解體`
+
+[grade]
+	54
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	37
+
+[attack speed]
+	20
+
+[price]
+	86400
+
+[repair price]
+	345600
+
+[value]
+	345600
+
+[equipment physical attack]
+	468	401
+
+[equipment magical attack]
+	393	337
+
+[separate attack]
+	299	200
+
+[physical critical hit]
+	2
+
+[icon]
+	`item/weapon/gunner/revolver.img`	68
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	20	1
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	20	1
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		60000
+	[hit]
+		1
+[/if]
+
+[then]
+	[probability]
+		5
+	[duration]
+		60000
+	[target]
+		`myself`	-1
+	[summon apc]
+		20606	54	1
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`<`
+		`%`	50
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`physical critical hit rate`
+		`+`	5
+[/then]
+
+[pvp]
+	[if]
+		[change status]
+			`hp`
+			`<`
+			`%`	50
+			`end`
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[stat by condition]
+			`physical attack`
+			`+`	50
+		[stat by condition]
+			`physical critical hit rate`
+			`+`	5
+	[/then]
+[/pvp]
+
+[routing priority]
+	`gunner`	1
+	`at gunner`	1
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

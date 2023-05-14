@@ -1,0 +1,89 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Character/Mage/Effect/ATLightningWall/6_el-p_dodge.img`
+		2
+	[IMAGE POS]
+		-73	-515
+	[IMAGE RATE]
+		0.800000011920929	1.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Character/Mage/Effect/ATLightningWall/6_el-p_dodge.img`
+		3
+	[IMAGE POS]
+		-73	-515
+	[IMAGE RATE]
+		0.6000000238418579	1.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Character/Mage/Effect/ATLightningWall/6_el-p_dodge.img`
+		4
+	[IMAGE POS]
+		-73	-515
+	[IMAGE RATE]
+		0.4000000059604645	1.0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Character/Mage/Effect/ATLightningWall/6_el-p_dodge.img`
+		2
+	[IMAGE POS]
+		-73	-515
+	[IMAGE RATE]
+		0.20000000298023224	1.0
+	[RGBA]
+		255	255	255	120
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Character/Mage/Effect/ATLightningWall/6_el-p_dodge.img`
+		3
+	[IMAGE POS]
+		-73	-515
+	[IMAGE RATE]
+		0.10000000149011612	1.0
+	[RGBA]
+		255	255	255	80
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		`Character/Mage/Effect/ATLightningWall/6_el-p_dodge.img`
+		4
+	[IMAGE POS]
+		-73	-515
+	[IMAGE RATE]
+		0.05000000074505806	1.0
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

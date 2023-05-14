@@ -1,0 +1,25 @@
+#PVF_File
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/CosmoFiend/SealedGate/SealedGateDestroyed.img`
+		0
+	[IMAGE POS]
+		-69	-308
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/CosmoFiend/SealedGate/SealedGateDestroyed.img`
+		2
+	[IMAGE POS]
+		-69	-306
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

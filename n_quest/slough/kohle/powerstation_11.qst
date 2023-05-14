@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	78	99
+
+[pre required quest]
+	4524
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	101	2	11215	3	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`破壞第1 發電器`
+
+[depend message]
+	`地獄火的畢托修是從克雷發電所的第 1發電器出來的能量，保留形態。
+只要破壞那個發電器，畢托修自然就會消失的。但是畢托修可不會讓你順利破壞發電器，請多加小心啊。`
+
+[condition message]
+	`在克雷發電所王者級(Hard)以上，破壞第1發電所 （第1發電所由克雷發電所的王怪畢托修守護著。）`
+
+[solve message]
+	`安徒恩的力量更削弱了。`
+
+[substitutive names]
+	`破壞發電機`
+[/substitutive names]
+
+[dialog]
+	1	0	101	0	1	63045	0
+	`<monster::63045>想破壞這個發電機嗎？地獄火的畢托修會阻擋你的！
+燃燒的地獄火會推翻你的！`
+[/dialog]
+
+[quest point]
+	4

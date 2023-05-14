@@ -1,0 +1,149 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at mage]`	84
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at mage]`	84
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[at mage]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[風暴之拳]攻擊力 +15%%
+[風暴之拳]冷卻時間 -20%%
+[疾風瞬影閃]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at mage]`	79
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	25
+		`[at mage]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at mage]`	80
+		`[dungeon type]`
+		`[static]`	4
+		`%`	10
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	7
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[真空旋風破]攻擊力 +25%%
+[真空旋風破]冷卻時間 -30%%
+[風暴之拳]攻擊力 +20%%
+[風暴之拳]冷卻時間 -20%%
+[風暴之拳]攻擊范圍 +10%%
+[疾風瞬影閃]范圍 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at mage]`	84
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at mage]`	84
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at mage]`	84
+		`[dungeon type]`
+		`[static]`	7
+		`%`	20
+		`[at mage]`	75
+		`[dungeon type]`
+		`[level]`	2
+		`+`	50
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	3
+		`%`	40
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-50
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-50
+		`[at mage]`	79
+		`[dungeon type]`
+		`[level]`	4
+		`%`	-50
+		`[at mage]`	80
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at mage]`	80
+		`[dungeon type]`
+		`[level]`	1
+		`%`	35
+		`[at mage]`	80
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at mage]`	80
+		`[dungeon type]`
+		`[static]`	6
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[疾風瞬影閃]攻擊力 +30%%
+[疾風瞬影閃]范圍 +20%%
+[流風訣]回避率 +5%%
+[真空旋風破]攻擊力 +40%%
+[真空旋風破]多段攻擊間隔 -50%%
+[真空旋風破]持續時間 -50%%
+[風暴之拳]攻擊力 +35%%
+[風暴之拳]冷卻時間 -20%%
+[風暴之拳]無色小晶塊消耗量 +1
+[風暴之拳]施放時僵直 -20%%`
+[/piece set ability]

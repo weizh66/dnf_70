@@ -1,0 +1,79 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/ScreamingCave/Magic.img`
+		0
+	[IMAGE POS]
+		-191	-58
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Monster/ScreamingCave/Magic.img`
+		1
+	[IMAGE POS]
+		-191	-58
+	[RGBA]
+		255	255	255	200
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Monster/ScreamingCave/Magic.img`
+		2
+	[IMAGE POS]
+		-191	-58
+	[RGBA]
+		255	255	255	150
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Monster/ScreamingCave/Magic.img`
+		3
+	[IMAGE POS]
+		-191	-58
+	[RGBA]
+		255	255	255	100
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Monster/ScreamingCave/Magic.img`
+		4
+	[IMAGE POS]
+		-191	-58
+	[RGBA]
+		255	255	255	50
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME005]
+	[IMAGE]
+		`Monster/ScreamingCave/Magic.img`
+		5
+	[IMAGE POS]
+		-191	-58
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

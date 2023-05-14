@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+	`戾波之尖嘯`
+
+[basic explain]
+	`[地裂 · 波動劍]、 [冰刃 · 波動劍]、 [爆炎 · 波動劍]傷害 +10%%`
+
+[detail explain]
+	`    [地裂 · 波動劍]、 [冰刃 · 波動劍]、 [爆炎 · 波動劍]傷害 +10%% (在決斗場中 +5%%)`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	64
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[magical attack]
+	42
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	658	603
+
+[separate attack]
+	360	243
+
+[cast speed]
+	20
+
+[elemental property]
+	`[dark element]`
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	47	2
+	`[swordman]`	20	1
+	`[swordman]`	21	1
+	`[swordman]`	22	1
+[/skill levelup]
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[skill data up]
+	`[swordman]`	20
+	`[all]`
+	`[level]`	0
+	`%`	10
+	`[swordman]`	20
+	`[all]`
+	`[level]`	2
+	`%`	10
+	`[swordman]`	21
+	`[all]`
+	`[level]`	3
+	`%`	10
+	`[swordman]`	22
+	`[all]`
+	`[level]`	0
+	`%`	10
+	`[swordman]`	22
+	`[all]`
+	`[level]`	1
+	`%`	10
+[/skill data up]
+
+[pvp]
+	[skill data up]
+		`[swordman]`	20
+		`[all]`
+		`[level]`	0
+		`%`	5
+		`[swordman]`	20
+		`[all]`
+		`[level]`	2
+		`%`	5
+		`[swordman]`	21
+		`[all]`
+		`[level]`	3
+		`%`	5
+		`[swordman]`	22
+		`[all]`
+		`[level]`	0
+		`%`	5
+		`[swordman]`	22
+		`[all]`
+		`[level]`	1
+		`%`	5
+	[/skill data up]
+[/pvp]
+
+[routing priority]
+	`swordman`	4
+[/routing priority]
+
+[possible kiri protect]

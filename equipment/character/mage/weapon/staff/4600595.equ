@@ -1,0 +1,266 @@
+#PVF_File
+
+[name]
+	`封·童話之森`
+
+[basic explain]
+	`  裝備時， 每20秒會召喚出牙簽鳥， 自身和隊友可以隨機獲得以下效果。
+-  恢復10%%的HP值
+-  力量、 智力 +125
+-  所有屬性強化 +20
+-  物理、 魔法暴擊率 +15%%
+  施放時， 有5%%的幾率召喚出牙簽鳥攻擊敵人， 效果持續30秒。 (冷卻時間20秒； 最多召喚兩只）`
+
+[detail explain]
+	`  裝備時， 每20秒會召喚出牙簽鳥， 自身和隊友可以隨機獲得以下效果， 效果持續25秒。 (最多疊加2次， 裝備15秒後生效）
+-  恢復10%%的HP值
+-  力量、 智力 +125
+-  所有屬性強化 +20
+-  物理、 魔法暴擊率 +15%%
+  施放時， 有5%%的幾率召喚出牙簽鳥攻擊敵人， 效果持續30秒。 (冷卻時間20秒； 最多召喚兩只）`
+
+[flavor text]
+	`  沒有童話， 人生會失去顏色； 但是全是童話， 人會變得不堪壹折！`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	162
+
+[attack speed]
+	-100
+
+[cast speed]
+	50
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	862	735
+
+[equipment magical attack]
+	1139	974
+
+[separate attack]
+	555	359
+
+[icon]
+	`item/new_equipment/01_weapon/mage/staff/staff.img`	102
+
+[field image]
+	`Item/field_weapon.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2150
+	`at_staffa`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_staffd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	30	1
+
+[layer variation]
+	2790
+	`staffc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`staffd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`STAFF_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2400
+
+[item group name]
+	`staff`
+
+[cool time]
+	10000
+
+[routing priority]
+	`mage`	1
+	`mage`	2
+	`at mage`	1
+[/routing priority]
+
+[if]
+	[start cooltime]
+		15000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		5
+	[duration]
+		20000
+	[target]
+		`myself`	-1
+	[summon monster]
+		65012	85	2
+	[appendage]
+		299
+[/then]
+
+[if]
+	[my appendage]
+		299
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		20000
+[/if]
+
+[multiple then]
+	[then]
+		[target]
+			`party`	-1
+		[restore]
+			`hp`
+			`%`	10	0
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`party`	-1
+		[duration]
+			25000
+		[appendage]
+			300
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`party`	-1
+		[duration]
+			25000
+		[appendage]
+			301
+		[then probability]
+			25.0
+	[/then]
+	[then]
+		[target]
+			`party`	-1
+		[duration]
+			25000
+		[appendage]
+			302
+		[then probability]
+			25.0
+	[/then]
+[/multiple then]
+
+[if]
+	[casting]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[duration]
+		30000
+	[summon monster]
+		65012	85	2
+[/then]
+
+[possible kiri protect]

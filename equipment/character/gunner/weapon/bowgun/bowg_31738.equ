@@ -1,0 +1,278 @@
+#PVF_File
+
+[name]
+	`元素之弩`
+
+[basic explain]
+	`攻擊時以1%% 的機率施展綠玉珠
+ 攻擊時以1%%的機率施展冰河珠
+ 攻擊時1%% 機率生成熔巖地帶
+不可解體`
+
+[detail explain]
+	`攻擊時以 1%% 的機率施展綠玉珠
+ 攻擊時以1%%的機率施展冰河珠（冷卻時間10秒，決鬥場不適用）
+ 攻擊時以1%% 的機率產生熔巖地帶（冷卻時間12秒）
+不可解體`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	65
+
+[anti evil]
+	12
+
+[physical attack]
+	46
+
+[magical attack]
+	23
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[price]
+	110400
+
+[repair price]
+	92736
+
+[value]
+	88320
+
+[equipment physical attack]
+	515	469
+
+[equipment magical attack]
+	572	521
+
+[separate attack]
+	389	264
+
+[physical critical hit]
+	3
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	69
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		1
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48187	0	0	0	0	0
+		``
+	[/passive object]
+	[speech on]
+		0	2000
+		`旋風之襲...`
+	[/speech on]
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		1
+	[reduce probability to human armor at pvp module]
+		80
+	[passive object]
+		48175	0	0	50	0	0
+		`3.ptl`
+	[/passive object]
+	[speech on]
+		0	2000
+		`刺穿敵人的冰針！！！`
+	[/speech on]
+[/then]
+
+[if]
+	[cooltime]
+		12000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		1
+	[reduce probability to human armor at pvp module]
+		80
+	[duration]
+		10000
+	[passive object]
+		48176	0	0	0	0	0
+		``
+	[/passive object]
+	[speech on]
+		0	2000
+		`去死吧！`
+	[/speech on]
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			1000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[probability]
+			1
+		[reduce probability to human armor at pvp module]
+			80
+		[passive object]
+			48187	0	0	0	0	0
+			``
+		[/passive object]
+		[speech on]
+			0	2000
+			`旋風之襲...`
+		[/speech on]
+	[/then]
+	[if]
+		[cooltime]
+			12000
+		[attack success]
+			1
+	[/if]
+	[target]
+		`enemy`	-1
+	[probability]
+		1
+	[reduce probability to human armor at pvp module]
+		80
+	[duration]
+		10000
+	[passive object]
+		48176	0	0	0	0	0
+		``
+	[/passive object]
+	[speech on]
+		0	2000
+		`去死吧！`
+	[/speech on]
+[/pvp]
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

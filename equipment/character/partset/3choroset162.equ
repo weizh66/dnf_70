@@ -1,0 +1,70 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[demonic lancer]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`[光焰飛槍]多段攻擊次數 +2次`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[demonic lancer]`	81
+		`[dungeon type]`
+		`[static]`	0
+		`+`	4
+	[/skill data up]
+	[parameter basic explain]
+		`[龍鱗碎割]攻擊力 +25%%
+[獵殺槍 : 穿心]多段攻擊次數 +4`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[demonic lancer]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	81
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[demonic lancer]`	81
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[static]`	0
+		`+`	10
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[demonic lancer]`	83
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[光焰飛槍]攻擊力 +25%%
+[獵殺槍 : 穿心]攻擊力 +25%%
+[龍鱗碎割]魔法槍發射次數 +10次
+[龍鱗碎割]冷卻時間 -30%%
+[龍鱗碎割]無色小晶塊消耗量 +1`
+[/piece set ability]

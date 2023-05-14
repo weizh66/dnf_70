@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3052	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 屠戮之魂 (4/6)`
+
+[depend message]
+	`啊……這是……利維坦的氣息？
+之前你體內各種魔獸的氣混雜在一起的時候還難以察覺， 但現在氣融合之后， 我能明顯感知到那種強大的存在感。
+這下終于知道氣不能融合的真正原因了。 如果將這股氣息也一并融合的話， 你將獲得無法想象的強大力量。
+馬上就開始下一步的修煉吧。 按照原本的計劃， 你體內應該只剩下一股氣， 但現在卻有兩股……即已融合的魔獸之氣和利維坦的氣。
+我們得把這兩股氣融合， 要想達到這個目的， 最好去參加比魂·黃龍大會更激烈的魂·青龍大會， 與更加強大的對手戰斗。
+參加大會需要‘赫侖皇帝的印章’， 你先去準備這個吧。`
+
+[condition message]
+	`收集40個[赫侖皇帝的印章]。`
+
+[solve message]
+	`嗯……確實收集齊了。 很好。`
+
+[pre required quest]
+	5911
+[/pre required quest]
+
+[relation quest]
+	5913
+
+[job change quest]
+	3
+
+[grow number]
+	0

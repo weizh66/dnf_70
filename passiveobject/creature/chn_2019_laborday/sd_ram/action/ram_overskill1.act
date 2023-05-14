@@ -1,0 +1,21 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/ram_overskill1.ani`
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		100
+	[WHICH]
+	[ME]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

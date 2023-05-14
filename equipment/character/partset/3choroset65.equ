@@ -1,0 +1,92 @@
+#PVF_File
+
+[set name]
+	`亡者之庇佑  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-15
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-15
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[惡魔之力]攻擊力 +20%%
+[惡魔之力]惡魔能量消耗量 -15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	0
+		`%`	-20
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	1
+		`%`	-20
+		`[priest]`	123
+		`[dungeon type]`
+		`[level]`	2
+		`%`	-20
+		`[priest]`	121
+		`[dungeon type]`
+		`[level]`	1
+		`%`	45
+		`[priest]`	121
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[惡魔之力]攻擊力 +30%%
+[惡魔之力]惡魔能量消耗量 -20%%
+[惡魔詛咒]技能傷害增加比率 +45%%
+[惡魔詛咒]移動速度增加比率 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	124
+		`[dungeon type]`
+		`[level]`	0
+		`%`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[死亡切割]連續攻擊次數 +100%%`
+[/piece set ability]

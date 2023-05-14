@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`終極無色流`
+
+[explain]
+	`攻擊時，以5%%的機率使自身增加30點力量和智力，但需要消耗2個無色小晶塊。`
+
+[flavor text]
+	`為了未來做投資！ 馬上聯繫我~   -卡妮娜`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	288
+
+[custom animation]
+	`TitleAnimation/generous_investment.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	10
+
+[magical attack]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	20
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[cooltime]
+		45000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3037	2
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		5
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`magical attack`
+		`+`	30
+[/then]

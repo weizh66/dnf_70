@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	4
+
+[complete npc index]
+	12
+
+[job]
+	`[mage]`
+
+[level]
+	13	99
+
+[pre required quest]
+	532
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	500
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魔法師之路 - 莎蘭`
+
+[depend message]
+	`你要選擇行走方向的時機已經迫在眉梢了。現在你要去尋找比我能教導你更多的人物。去找經營魔法學校的莎蘭看看吧。
+她會給予你相當多幫助的。`
+
+[condition message]
+	`與暗精靈魔法師莎蘭對話`
+
+[solve message]
+	`辛達介紹你來的喔?…… 這段時間我也注意到妳。妳的表現足以引來他人的注目。
+不過，再去多冒險一下吧。當我認為準備好的時候會馬上通知妳。`
+
+[quest point]
+	4

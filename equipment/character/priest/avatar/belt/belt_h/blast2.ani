@@ -1,0 +1,27 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		118
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE BOX]
+	-8	-5	-4	27	10	115
+
+[FRAME001]
+	[IMAGE]
+		`character/priest/atequipment/avatar/belt/pg_belt%02d%02dh.img`
+		119
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE BOX]
+	-5	-5	-6	24	10	117

@@ -1,0 +1,25 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/ghost_change.ani`
+	[SUB ANI]
+		`../Animation/ghost_change_dark.ani`	1	1
+		`../Animation/ghost_change_rad.ani`	1	1
+	[/SUB ANI]
+	[SOUND PROBABILITY]
+	[/SOUND PROBABILITY]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET DIRECTION]
+	[LEFT]
+[/BEHAVIOR]

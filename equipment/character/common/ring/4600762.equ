@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`封·冰雪公主的霜語戒指`
+
+[basic explain]
+	`  攻擊時，有2%%的機率使擊中目標周圍250px範圍內的敵人進入冰凍狀態，持續2秒。`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[part set index]
+	12559
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	37
+
+[physical defense]
+	93
+
+[need material]
+	3821	1000
+
+[price]
+	127400
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	0
+
+[equipment magical defense]
+	4896	4464
+
+[icon]
+	`item/new_equipment/07_ring/ring.img`	144
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[ring]`	21
+
+[move wav]
+	`RING_TOUCH`
+
+[weight]
+	300
+
+[item group name]
+	`ring`
+
+[cool time]
+	10000
+
+[routing priority]
+[/routing priority]
+
+[water attack]
+	30
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	250
+	[probability]
+		2
+	[duration]
+		2000
+	[active status]
+		`freeze`	91
+[/then]
+
+[possible kiri protect]

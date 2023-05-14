@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[at fighter]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 念皇 (1/2)`
+
+[depend message]
+	`你居然還活著……真是令我吃驚。
+用紋身的力量強制引出念氣， 這樣下去你的身體負擔會越來越大。 你卻仍然毫無節制的使用念氣， 讓念氣在體內變得愈發狂暴。 這樣魯莽的行為會在今年逐漸耗盡你的壽命……不過我相信你不是能被此打倒的泛泛之輩。
+我能感受到你身體里巨大的變化。 以前你的念氣在身體里四處強烈的沖撞， 現在你可以將它壓制下來， 平靜的呼吸了。 我想你在生死一線之間必能收獲頓悟。
+你現在沒有辦法靜下心來， 是因為你失去的太多， 體內殘存的力量維持你的性命都已十分勉強。 這樣下去， 絕望或超脫， 都只在一念之間……你聽說過‘念皇’嗎？
+所謂念皇， 已經脫離了單純的念氣使用者， 而是胸懷浩瀚自然， 看破生命循環真理之人， 猶如清風皓月般自在灑脫。
+如果可以達到那種境界， 就可以駕馭大自然的生命能量。 盡管不能恢復你損耗的生命， 但可以讓你在短暫的時光中領悟更多人生真諦。
+如何？ 你已經瀕臨危機， 何不嘗試挑戰呢？
+當然這也許會讓你陷入更危險的困境， 可能連僅剩的生命都無法安穩度過， 甚至可能失去一切。 我希望你想清楚后再來找我。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`既然你信任我， 我將幫助你戰勝死亡的恐怖。`
+
+[pre required quest]
+	7615
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	3090
+
+[job change quest]
+	3
+
+[grow number]
+	0

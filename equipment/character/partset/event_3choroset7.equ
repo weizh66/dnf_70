@@ -1,0 +1,70 @@
+#PVF_File
+
+[set name]
+	`邪靈之息  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[fighter]`	37
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[fighter]`	39
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[at fighter]`	37
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at fighter]`	39
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	83
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[fighter]`	83
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[fighter]`	83
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[level]`	2
+		`%`	40
+		`[at fighter]`	19
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	58
+		`[dungeon type]`
+		`[level]`	1
+		`+`	2
+	[/skill data up]
+	[parameter basic explain]
+		`強拳力量增加量增加2 5%% /增加弱點感知暴擊機率增加量的2 5%%
+格斗家(男)：衝膝攻擊力增加40%%， 冷卻時間減少20%% /旋風腿旋轉次數增加2
+格斗家(女)：吋勁拳擊攻擊力增加40%%， 冷卻時間減少20%%/昇龍拳攻擊力增加40%%， 冷卻時間減少20%%`
+[/piece set ability]

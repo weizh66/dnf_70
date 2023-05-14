@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`龍神刀`
+
+[basic explain]
+	`暴擊傷害增加10%% 
+攻擊時以 2%% 的機率讓敵人呈現出血狀態`
+
+[detail explain]
+	`暴擊傷害增加10%%（決鬥場內增加5%%）
+攻擊時以2%%的機率，7秒內讓敵人進入出血狀態，每0.5秒以 1000的攻擊力給予傷害。 （比Lv74高的目標陷入狀態的機率較低，比 Lv74低的目標陷入狀態的機率較高。）`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	49
+
+[magical attack]
+	74
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	118400
+
+[repair price]
+	99456
+
+[value]
+	94720
+
+[equipment physical attack]
+	669	621
+
+[equipment magical attack]
+	739	687
+
+[separate attack]
+	420	284
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	90
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	30	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		2
+	[active status]
+		`bleeding`	74	14000
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	10
+	[/then]
+	[if]
+		[cooltime]
+			10000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			1
+		[active status]
+			`bleeding`	74	7000
+	[/then]
+[/pvp]
+
+[possible kiri protect]

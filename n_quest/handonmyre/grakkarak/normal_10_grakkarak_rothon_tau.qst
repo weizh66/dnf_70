@@ -1,0 +1,61 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[monster reward item]
+	11	7	1	4171	1	50	3	12	7	1	4171	1	50	3	13	7	1	4171	1	50	3	14	7	1	4171	1	50	3	15	7	1	4171	1	50	3	11	7	2	4171	1	50	3	12	7	2	4171	1	50	3	13	7	2	4171	1	50	3	14	7	2	4171	1	50	3	15	7	2	4171	1	50	3	11	7	3	4171	1	50	3	12	7	3	4171	1	50	3	13	7	3	4171	1	50	3	14	7	3	4171	1	50	3	15	7	3	4171	1	50	3
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4171	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	700	1107	4
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`調查牛頭怪的煉金大師`
+
+[depend message]
+	`我聽說牛頭怪的筋很結實， 而且彈性很好， 是個好東西啊。 呵呵， 你能幫我弄些來嗎？ 我想研究下它。 `
+
+[condition message]
+	`    前往格蘭之森的『格拉卡』， 從各類牛頭怪身上收集3個[牛頭怪的脊骨]， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`嗯， 確實是不錯的研究材料， 謝謝你！ `

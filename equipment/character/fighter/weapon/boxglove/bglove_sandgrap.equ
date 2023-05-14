@@ -1,0 +1,157 @@
+#PVF_File
+
+[name]
+	` 狂沙侵襲拳套`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入失明狀態。`
+
+[detail explain]
+	`攻擊時以3%%的機率10秒內讓敵人陷入暗黑狀態，視野減少90%%，命中率減少20%%。 (若敵人高於Lv39，則減少進入異常狀態的機率和效果；反之，則增加機率和效果。)`
+
+[grade]
+	41
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	39
+
+[physical attack]
+	27
+
+[attack speed]
+	80
+
+[price]
+	65600
+
+[repair price]
+	52480
+
+[value]
+	52480
+
+[equipment physical attack]
+	382	365
+
+[equipment magical attack]
+	346	331
+
+[separate attack]
+	180	119
+
+[skill levelup]
+	`[fighter]`	13	2
+	`[fighter]`	1	1
+	`[at fighter]`	13	2
+	`[at fighter]`	1	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	9
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	0	5
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	0	5
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		18000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[active status]
+		`blind`	39	90	20
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,40 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Gunner/Effect/ATChainSnatch/Whirl.img`
+		0
+	[IMAGE POS]
+		-68	-216
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME001]
+	[IMAGE]
+		`Character/Gunner/Effect/ATChainSnatch/Whirl.img`
+		1
+	[IMAGE POS]
+		-68	-216
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60
+
+[FRAME002]
+	[IMAGE]
+		`Character/Gunner/Effect/ATChainSnatch/Whirl.img`
+		2
+	[IMAGE POS]
+		-68	-216
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		60

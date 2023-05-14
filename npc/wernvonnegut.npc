@@ -1,0 +1,491 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	4
+
+[big face]
+	`Map/Npc/NpcFace04.img`	4
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	4
+
+[field animation]
+	`Animation/Npc_WernVonnegut.ani`
+
+[field wav]
+	`R_NPC_WERN_AMB`
+
+[popup wav]
+	`R_NPC_WERN_TK`
+	`R_NPC_WERN_FW`
+
+[role]
+	`[item shop]`	43
+[/role]
+
+[name]
+	`貝倫·博內哥特`
+
+[field name]
+	`貝倫·博內哥特`
+
+[quest speech]
+	`最近忙死人了， 你找我有什么事啊？`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::65>你干嘛老在這里走來走去啊？ 我這兒又沒什么好處可撈。
+真懷念以前的日子……唉， 現在來來回回的， 都是一些快成古董的海上列車， 有錢的商船連影都沒見著……
+啊！ 啊？！ 那都是過去的事了， 你就當我什么都沒說吧……
+不過我有點好奇， 皇都軍干嘛費那么大的力氣從卡勒特手中奪回這些沒用的港口呢？`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::65>啊~真是的！ 最近忙得我幾乎感覺不到生活的樂趣了。
+忙得有時候， 我都有點羨慕那些被卡勒特抓去的同伴了！
+現在， 我不僅要忙自己的事， 還得負責他們的事， 就算再來一百個我， 也扛不住啊。
+唉。 不過那又有什么辦法呢？ 生活還得繼續…… 
+啊~好煩啊！ 怎么都打不起精神來， 我上輩子到底是造了什么孽啊……`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	`<npc::65>有些家伙一直在背后誣蔑我勾結卡勒特， 你可不要被他們騙了！
+雖然從某種程度上來說可能是事實， 但我那是生存所迫！
+你想想看， 什么忠誠啊、 原則啊、 這個那個的……說得再好聽， 如果我們都死了的話， 這一切還有意義嗎？
+所以啊， 以前的事情就讓它過去吧， 最重要的是眼前。 你看我現在還能為皇都軍做一些雜務， 不就證明我當初的選擇沒有錯！
+反正啊， 在背后說別人壞話的家伙沒一個是好東西， 他們說的話你真的不用太在意。`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	0	0
+	`<npc::65>其實我還偷偷收藏了一些很厲害的裝備。 怎樣？ 想不想見識見識？
+呃~你這個人真是的！ 當然得給錢啊！ 像你這么高貴的人， 怎么好意思老提免費啊？ 何況這可是我最心愛的寶貝……
+我看你也是個識貨的人， 就別那么小氣啦。 大家相互關照關照嘛， 你說對不對？`
+[/dialog]
+
+[dialog]
+	5	1	99	-1	0	0
+	`<npc::65>嘿~那邊有個叫小燈籠的小美人魚， 你知道不？ 聽說她攢了很多錢…… 
+哈~那個小不點兒， 還真不能小瞧。 她到底用了什么高明的手腕呢…… 
+如果好好哄一哄她， 說不準能在她身上撈一筆……
+啊？！ 你可別誤會！ 我只是隨便說說而已， 不能當真！
+你也真是的， 沒事干嗎豎起耳朵偷聽呢？
+我可不想把事情搞復雜了， 你就當什么都沒聽見吧， 明白嗎？`
+[/dialog]
+
+[dialog]
+	6	1	99	-1	1	0
+	`<npc::65>這個好像完全碎掉了， 呵呵呵~
+所以說， 做人要懂得輕重之分， 像你這樣完全沒有分寸的亂沖亂撞怎么行呢？
+不過話說回來， 既然事情都到這份上了， 你也不能傻站著。 還是趕緊振作起來去報仇吧， 嗯？
+要不然， 你肯定會憋出病來的！`
+[/dialog]
+
+[dialog]
+	7	1	99	-1	2	0
+	`<npc::65>什么啊？ 以前就聽說有一群陌生的家伙到處惹事， 原來你也是其中之一啊？
+不過你高興個什么勁啊？ 以你的實力， 能活到現在真是個奇跡。 嘖嘖~
+總之， 我是不會和你做什么生意的。 要交易， 至少得讓我相信你的實力才行啊。`
+[/dialog]
+
+[favor_dialog]
+	3	0	0
+	`<npc::65>我一直覺得自己不需要朋友或同伴， 只要過得好就行。 但是看到你后， 我覺得我的想法是錯誤的。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	1
+	`<npc::65>啊~真沒想到你會這么慷慨。 大恩不言謝， 我會用行動來回報你的。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	0	2
+	`<npc::65>嗯， 這個玩笑很無趣， 我就當作沒看見， 但沒有下一次。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	0
+	`<npc::65>啊哈， 好大一份驚喜啊！ `
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	1
+	`<npc::65>要是其他人給我帶這種東西的話， 我會毫不猶豫地拒絕。 不過既然是你送的……我就勉為其難的收下了。`
+[/favor_dialog]
+
+[favor_dialog]
+	3	1	2
+	`<npc::65>你這是和我開玩笑吧？ 一點都不好笑！`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	0
+	`<npc::65>啊哈， 壞心情一掃而光！ 謝啦……`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	1
+	`<npc::65>其實禮物也分好壞。 這個， 就有點遜了……你覺得呢？`
+[/favor_dialog]
+
+[favor_dialog]
+	3	2	2
+	`<npc::65>這……你再開這種玩笑的話， 我就不客氣了！`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	0
+	`<npc::65>哎呀， 冒險家閣下， 從今以后你就是我最好的朋友， 最真心的朋友！`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	1
+	`<npc::65>你最近好象有點心不在焉啊， 居然給我送這種沒用的東西。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	0	2
+	`<npc::65>我一直為你著想， 但你卻一次又一次地傷害我的感情……`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	0
+	`<npc::65>呵呵呵~~真是的……老是拿你的東西多不好意思啊……沒人的時候再悄悄給我吧， 呵呵呵呵……`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	1
+	`<npc::65>其實， 我想要的不是這個。 你不是有那個嗎？ 嗯？ 就是那個啊， 你懂的。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	1	2
+	`<npc::65>嗯， 本來我還挺看好你的。 沒想到你的水平也就這樣， 失望……`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	0
+	`<npc::65>有付出才有回報嘛， 你稍等啊， 很快就有好消息了。`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	1
+	`<npc::65>我最想要的可不是這玩意……難道， 你忘了我喜歡什么了嗎？`
+[/favor_dialog]
+
+[favor_dialog]
+	2	2	2
+	`<npc::65>不要總讓我遷就你！ 你老是這樣的話， 就沒意思了！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	0
+	`<npc::65>啊~這東西看上去值不少錢吶！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	1
+	`<npc::65>這是什么？ 沒有其他更好的東西嗎？……唉~真是的， 我都懶得說了！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	0	2
+	`<npc::65>你是故意氣我的吧？ 趁我現在心情還好， 適可而止！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	0
+	`<npc::65>啊哈， 總收這么好的禮物， 有點難為情啊……謝啦~~`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	1
+	`<npc::65>我說你這家伙是真傻還是裝傻， 這種爛東西有用嗎？ 多用點腦子吧。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	1	2
+	`<npc::65>我都要忙死了， 不要再來搗亂， 快給我閃一邊去！`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	0
+	`<npc::65>我知道你是有求于我， 才舍得給我送這么好的東西， 不過我還是要說聲謝謝。`
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	1
+	`<npc::65>我很忙， 如果你以后還送這種東西， 就不要來了。 `
+[/favor_dialog]
+
+[favor_dialog]
+	1	2	2
+	`<npc::65>不爽， 超級不爽！ 本來心情就不好， 你還送這種東西給我， 開什么玩笑呢！`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	0
+	`<npc::65>難得啊， 來了個稍微有眼力的人， 不錯不錯~`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	1
+	`<npc::65>這東西對我沒有用， 不過我還是收下了。 這只是出于禮貌， 懂不？`
+[/favor_dialog]
+
+[favor_dialog]
+	0	0	2
+	`<npc::65>你看著我， 認真地看， 我像是一個收破爛的嗎？ 啊？`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	0
+	`<npc::65>嗯？ 你還是有一點品位的嘛， 知道我喜歡什么……`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	1
+	`<npc::65>你以為我什么都要？ 真是連地球怎么轉都不懂的笨蛋！`
+[/favor_dialog]
+
+[favor_dialog]
+	0	1	2
+	`<npc::65>可惡的家伙！ 看來是想被列車輾了， 是吧？`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	0
+	`<npc::65>好吧， 看在你這么有誠意的份上， 我就收下了~`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	1
+	`<npc::65>什、 什么？ 你就給我這種東西， 它能干什么呀？`
+[/favor_dialog]
+
+[favor_dialog]
+	0	2	2
+	`<npc::65>喂~趕緊給我閃開！ 閃開！ 什么垃圾玩意啊……哎~真倒霉。`
+[/favor_dialog]
+
+[1st favor dialog]
+	`<npc::65>嗨~最近好嗎？ 我過得太無聊了， 還挺想你的……`
+[/1st favor dialog]
+
+[favor_dialog_exception]
+	0
+	`<npc::65>暈， 就這么點兒， 難道這就是你的誠意？ 我不稀罕！`
+[/favor_dialog_exception]
+
+[favor_dialog_exception]
+	1
+	`<npc::65>啊~好啦好啦， 別人在看呢……咳， 我可是一個很講商業道德的人， 絕不會多要的！`
+[/favor_dialog_exception]
+
+[favorable relationship]
+	[default favor]
+		500
+	[max gift per day]
+		30
+	[dialog day not continuously]
+		3	200
+	[mood]
+		[change]
+			`good`	1000
+			`bad`	3000
+			`normal`	3000
+		[/change]
+		[key item]
+			3023	1
+		[/key item]
+	[/mood]
+	[gift item]
+		[favor rate per mood]
+			150	100	80
+		[prefer item]
+		[/prefer item]
+		[prefer item group]
+			1
+			`cube stuff`	5	30	1
+			`mineral stuff`	5	30	2
+			`cube stuff`	5	30	2
+			`mineral stuff`	5	30	3
+			`cube stuff`	5	30	3
+			`mineral stuff`	5	30	4
+			`cube stuff`	5	50
+		[/prefer item group]
+		[unprefer item]
+		[/unprefer item]
+		[unprefer item group]
+			1
+			`cloth stuff`	50	2
+			`cloth stuff`	50	3
+			`cloth stuff`	50	4
+			`cloth stuff`	50
+		[/unprefer item group]
+	[/gift item]
+	[reward item]
+		[item info]
+			[favor level]
+				1
+			[mood]
+				`good`
+				[favor]
+					`up`	2610005	3	1000	0	0	1000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610005	3	1000	0	0	1500
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610005	3	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				2
+			[mood]
+				`good`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	0	0	2000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				3
+			[mood]
+				`good`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	2610013	3	1000	2610013	5	1000	0	0	3000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	2610013	3	1000	2610013	5	1000	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	2610013	3	1000	2610013	5	1000	0	0	5000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+		[item info]
+			[favor level]
+				4
+			[mood]
+				`good`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	2610013	3	1000	2610013	5	1000	2610021	3	1000	2610021	5	500	0	0	4000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`normal`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	2610013	3	1000	2610013	5	1000	2610021	3	1000	2610021	5	500	0	0	5000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+			[mood]
+				`bad`
+				[favor]
+					`up`	2610005	3	1000	2610005	5	1000	2610009	3	1000	2610009	5	1000	2610013	3	1000	2610013	5	1000	2610021	3	1000	2610021	5	500	0	0	6000
+				[/favor]
+				[favor]
+					`down`
+				[/favor]
+				[favor]
+					`keep`
+				[/favor]
+			[/mood]
+		[/item info]
+	[/reward item]
+[/favorable relationship]

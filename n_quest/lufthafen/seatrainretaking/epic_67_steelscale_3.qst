@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	59
+
+[complete npc index]
+	66
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	145
+[/pre required quest]
+
+[depend give item]
+	6056	1
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	66
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`掃描機器人`
+
+[depend message]
+	`你想借用我的掃描機器人？ 你怎么會知道我這個偉大的作品呢？……不過也是， 我的發明向來都很出名。
+我和你說哦， 我這個機器人不僅可以掃描任何生物， 還可以儲存所有掃描數據。 怎么樣？ 很神奇吧！
+你要知道， 這些數據可是我研究時的一大參考啊……雖然我這樣的天才是不太需要參考的……
+ <npc::0>好?嗦啊……總之我先借走了！(說完， 一溜煙地不見了人影)
+ <npc::59>喂、 喂喂！ 你好歹也聽我說完啊！ 真沒禮貌！`
+
+[condition message]
+	`    將[SC-13 掃描機器人]交給小燈籠。`
+
+[solve message]
+	`哇， 你真的借回來了！ 我就知道， 你最厲害了！`
+
+[quest point]
+	4

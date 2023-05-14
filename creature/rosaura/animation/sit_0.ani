@@ -1,0 +1,18 @@
+#PVF_File
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Luke_raid/Rosaura/Rosaura_Effect.img`
+		69
+	[IMAGE POS]
+		-200	-297
+	[RGBA]
+		255	255	255	255
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-41	-10	-4	59	20	95

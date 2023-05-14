@@ -1,0 +1,2660 @@
+// ??????? ??? ??? ??
+//
+// ★ ? ??? ??? ?? ? ???
+// ★ ????? ??? ??? ??? ?? ???? ?????!
+// ★ ??? ???? ???? ????? ??????,
+// ★ ??? ??? ???? ?? ???? ??????!
+//
+// 070321
+
+// Script\AICharacter
+ai_character_name_1>索德羅斯
+ai_character_name_5>基礎流路基亞
+ai_character_name_6>風影基什
+ai_character_name_600>阿拉德初階鬼劍士
+ai_character_name_601>凍死的劍士歌拉斯
+ai_character_name_602>暴風雪雀瑟
+ai_character_name_603>普俐坦·領主迪恩
+ai_character_name_604>颶風博爾赫
+ai_character_name_605>移動要塞迪瑞克
+ai_character_name_606>一點春虎延爵
+ai_character_name_607>骨劍士傑諾
+ai_character_name_608>15歲的庫蘭
+ai_character_name_609>迪斯可達人伊瓦
+ai_character_name_610>子彈男德萊斯
+ai_character_name_611>黑僧蘇爾咖
+ai_character_name_612>血手狄烏斯
+ai_character_name_613>光輝之羅恩格朗
+ai_character_name_614>邪毒希特爾
+ai_character_name_615>不起者安娜斯塔
+ai_character_name_616>爆炎裡格哈文
+ai_character_name_617>九猛龍煞秦
+ai_character_name_618>交叉火力赫伊斯
+ai_character_name_619>瘋癲的莉莉
+ai_character_name_620>天空熊
+ai_character_name_621>雷劍克魯斯
+ai_character_name_622>蟲之狄桑
+ai_character_name_623>德魯伊·梅亞
+ai_character_name_624>卡勒特官員
+ai_character_name_625>史莫克將軍
+ai_character_name_626>巫師迪索克
+ai_character_name_627>凍傷的紮爾
+ai_character_name_628>破壞王修頓
+ai_character_name_629>炙炎魔團團員
+ai_character_name_630>TMH通信兵
+ai_character_name_631>隊長高頓
+ai_character_name_632>支援兵拉斐爾
+ai_character_name_633>支援兵奧古斯丁
+ai_character_name_634>支援兵菲力普
+ai_character_name_635>突擊兵莉莉安娜
+ai_character_name_636>雪山雀瑟
+ai_character_name_637>狙擊手尼爾斯
+//ai_character_name_638>//ai_character_name_638
+//ai_character_name_639>//ai_character_name_639
+ai_character_name_640>樹之召喚者伊西利恩
+ai_character_name_641>順風耳咖森
+ai_character_name_642>機械師亨吉
+ai_character_name_643>雙槍手庫米
+ai_character_name_644>沒落先裡安
+ai_character_name_645>洗禮者約翰
+
+
+ai_character_name_300>阿卡茲 : 沙影荷爾廉
+ai_character_name_301>阿卡茲：風影基什
+ai_character_name_302>阿卡茲 : 霧影琳邇
+ai_character_name_303>安斯·妮奧凱
+ai_character_name_304>羅斯·妮奧凱
+ai_character_name_305>天羅的索雅娜
+ai_character_name_306>猥瑣的薩摩拉納
+ai_character_name_307>首席畢業生愛琳
+ai_character_name_308>瑪爾的武鬥
+ai_character_name_309>猥瑣的薩摩拉納
+ai_character_name_310>賢智的薩姆
+ai_character_name_311>阿拉德初階格鬥家
+ai_character_name_312>希蘇拉
+ai_character_name_313>被收買的魔法師
+ai_character_name_314>被收買的格鬥家
+ai_character_name_315>腐蝕彈頭團團員
+ai_character_name_316>長三郎
+ai_character_name_317>瘋狂酒客
+
+//???? ??? ???? apc ??? ???? ???? ??.
+ai_character_name_1400>庫蘭的宿敵紮西特
+ai_character_name_6400>寶藏獵人紮卡魯塔
+ai_character_name_11400>彷徨的天族人瑪格尼
+ai_character_name_21400>羅特斯的傀儡
+
+
+//???? ??? ???? apc ??? ???? ???? ??.
+ai_character_name_15502>死亡之納特亞
+ai_character_name_10504>爆頭狂人巴迪斯坦
+ai_character_name_15501>帕伊西斯
+ai_character_name_500>暗殺者影丸
+ai_character_name_20500>喋喋不休宇郭
+ai_character_name_501>蒼白的陰影狄爾
+ai_character_name_20501>鮮血風暴拉瑞夫
+
+// ???? ??? ?? ???? ?? ?? ? ?? : ???
+ai_character_name_201>灼燒之手芙伊拉
+ai_character_name_202>爆破之手伏裡亞
+ai_character_name_203>烈炎之手波爾拉
+ai_character_name_204>斯米拉的孩子
+ai_character_name_205>毒蛇炮狂人洛伊斯
+ai_character_name_206>克裡斯汀·羅納爾多
+ai_character_name_207>平凡的阿拉德初階聖職者
+ai_character_name_215>阿拉德初階聖職者
+ai_character_name_208>鳳凰
+ai_character_name_209>愛上襖索的女孩
+ai_character_name_210>冰之塔拉庫達團員
+ai_character_name_211>火之塔拉庫達團員
+ai_character_name_212>光之塔拉庫達團員
+ai_character_name_213>暗之塔拉庫達團員
+ai_character_name_214>傳說的教官巴頓
+
+// ??? ???, ???, ??? ?? ? ?? : ???
+ai_character_name_401>朱雀級抗魔團
+ai_character_name_402>白虎級抗魔團
+ai_character_name_403>皇都軍隊的機關師
+ai_character_name_404>奧斯巴·格林尼達
+ai_character_name_405>決戰反擊佐治
+ai_character_name_406>投擲精通Sun小姐
+ai_character_name_407>陷阱專家
+ai_character_name_408>鬼武者拉坤
+ai_character_name_409>被攻擊反擊米沙
+ai_character_name_410>被攻擊召喚瑪沙
+ai_character_name_411>黑魔團姐姐
+ai_character_name_418>偉大的杜爾夫
+ai_character_name_419>無憂女孩貝利
+ai_character_name_420>蘿耶
+ai_character_name_421>死神狄裡安
+ai_character_name_422>章魚獵人
+ai_character_name_423>GBL圖書館清潔工
+ai_character_name_424>疾行者霍利奧
+ai_character_name_425>巴恩特
+ai_character_name_426>獲救的鬼劍士
+ai_character_name_427>獲救的格鬥家
+ai_character_name_428>阿甘左
+ai_character_name_429>無謀的劍士
+ai_character_name_430>迷路的少女
+ai_character_name_431>阿甘左
+ai_character_name_432>冒險家蒂法
+ai_character_name_433>海之偉大的杜爾夫
+ai_character_name_10409>夜戰司令官巴比倫
+ai_santa1_speech_1>我決定今年夏天要涼爽的度過！！
+ai_santa1_speech_2>最近這個時尚最流行...... 怎麼樣？
+ai_santa1_speech_3>喔喔我的身體變帥了
+ai_santa1_speech_4>海邊有許多戀人真好。
+ai_santa1_speech_5>哈哈哈，看到我的身體不要太羨慕！！
+ai_santa1_speech_6>夏天快來吧！！
+ai_santa1_speech_7>喂，那裡的年輕小姐... 請過來這裡。
+ai_santa1_speech_8>有幫助嗎？
+ai_santa1_speech_9>請跟著我~這樣做？
+ai_santa1_speech_10>我越來越不喜歡了？
+ai_santa1_speech_11>覺得累的時候再聯絡吧！！哈哈哈哈哈
+ai_santa1_speech_12>哈哈哈哈哈
+
+// ?? ?? APC
+ai_character_name_5900>吶喊者孟克
+ai_character_name_10900>骸骨青年
+ai_character_name_15900>縱火犯
+ai_character_name_10901>雷歐尼斯王
+ai_character_name_20900>斯巴達斯的醫療兵
+
+// ?? ?? GSD
+ai_character_name_5001>G.S.D
+
+//???? ??? ???? apc ??? ???? ???? ??.
+ai_character_name_15901>黑暗的泰拉柯塔團員
+///////////////////////////////////////////////////////////////////
+//??? ?? ??
+ai_ans_speech_1>我抓住他了，快過來打他！
+
+ai_elin_speech_1>我沒什麼好怕的……
+ai_elin_speech_2>等……等一下！
+
+ai_eva_speech_1>這幫混蛋！
+ai_eva_speech_2>喝！
+ai_eva_speech_3>啊啊！
+ai_eva_speech_4>啊啊啊！
+ai_eva_speech_5>跳舞時間~
+ai_eva_speech_6>我要跳舞~
+ai_eva_speech_7>準備完畢！
+ai_eva_speech_8>燃燒吧！叛徒們！
+ai_eva_speech_9>看我華麗輕盈的舞步！
+ai_eva_speech_10>真的要這樣做嗎？
+ai_eva_speech_11>迪斯可回合！
+ai_eva_speech_12>迪斯可回合！
+
+ai_horan_speech_1>漫天飛沙！
+ai_horan_speech_2>這樣的死法也不錯吧！
+
+ai_jisun_speech_1>你躲不開的！
+ai_jisun_speech_2>讓你瞧瞧我偉大的連續技！
+
+ai_lynn_speech_1>接我一招，飛踢！
+ai_lynn_speech_2>把你踩得扁扁的……
+
+ai_myre_speech_1>華麗的踢腿技！
+
+ai_ros_speech_1>為什麼打我！
+ai_ros_speech_2>給我往死裡打！
+
+ai_ryu_speech_1>哼，老掉牙的戰鬥方式！
+ai_ryu_speech_2>哼，老掉牙的戰鬥方式！
+
+ai_shasra_speech_1>攻擊是最好的防禦！
+ai_shasra_speech_2>想用這種攻擊阻擋我？可笑！
+
+ai_shonan_speech_1>沒想到我會用這招吧……
+ai_shonan_speech_2>嘗嘗我的必殺連續技！
+
+
+ai_batista_speech_1>哼，你能躲開我的子彈嗎？
+ai_batista_speech_2>哪裡逃！
+ai_batista_speech_3>都給我死吧！
+ai_batista_speech_4>爆頭一擊！
+ai_batista_speech_5>百發百中！
+ai_batista_speech_6>頭！
+
+ai_phoenix_speech_1>燃燒吧！！ 我的的火花亂射！！
+ai_phoenix_speech_2>Burn！ Burn！
+ai_phoenix_speech_3>呃哈哈哈哈哈！！
+ai_phoenix_speech_4>被燃燒的子彈打中會怎麼樣？
+ai_phoenix_speech_5>雖然不太好吃，但請開心享用吧
+ai_phoenix_speech_6>我的膝蓋沒燒起來的事實真是太可惜了
+ai_phoenix_speech_7>哪裡！
+ai_phoenix_speech_8>爆炎彈， 填裝！
+ai_phoenix_speech_9>魔法秀！
+ai_phoenix_speech_10>好帥..你贏過我了...恭喜你
+
+ai_grenadier_speech_1>烈火盛宴！
+
+ai_machine_speech_1>是，長官！
+ai_machine_speech_2>明白，長官！
+ai_machine_speech_3>為了女王殿下~~~！
+
+ai_sam_speech_1>請不要靠近
+ai_sam_speech_2>過來我就會爆炸
+
+ai_samorana_speech_1>嘻嘻~嘻嘻~~
+ai_samorana_speech_2>接我一招！
+
+ai_viper_speech_1>你的對手不是我，是它！我的毒蛇炮！
+ai_viper_speech_2>你能衝破這些毒蛇炮的包圍嗎？
+ai_viper_speech_3>我的毒蛇炮發射的是夢想！！
+ai_viper_speech_4>我唯一的遺憾就是毒蛇炮不能發射核彈……
+ai_viper_speech_5>風暴！吹吧！吹散一切！
+ai_viper_speech_6>出發！！
+ai_viper_speech_7>這次先放過你！下次就沒這麼容易了……
+
+ai_aukuso_speech_1>美麗的魔界花啊，你永遠是最美麗的！
+ai_aukuso_speech_2>在灑滿鮮血的土地上，你盡情的綻放吧！
+ai_aukuso_speech_3>吞噬全世界吧！
+
+ai_fayra_speech_1>走開！！快走開啊！！多重傑克爆彈！
+ai_fayra_speech_2>都叫你別過來了……
+ai_fayra_speech_3>我好怕啊……
+
+ai_flea_speech_1>全都給我燒吧！！
+ai_flea_speech_2>你！惹怒我了！！
+ai_flea_speech_3>哇呀~哇呀~哇呀！！
+
+ai_dark_speech_1>好痛~
+ai_dark_speech_2>夥伴們，快來救救我……
+ai_dark_speech_3>感覺我的修煉還不夠……
+ai_dark_speech_4>出來吧！暗影夜貓！
+ai_dark_speech_5>暗影夜貓，遠距離攻擊他們！
+ai_dark_speech_6>虛無之球~
+
+ai_fire_speech_1>燃燒的南瓜！！
+ai_fire_speech_2>飛翔吧！傑克爆彈！
+ai_fire_speech_3>你比傑克爆彈還難看！
+ai_fire_speech_4>烈焰衝擊！
+ai_fire_speech_5>吃我一招！
+ai_fire_speech_6>哼！
+
+ai_light_speech_1>步伐要輕盈！
+ai_light_speech_2>像飄蕩的羽毛一樣！
+ai_light_speech_3>你往哪都躲不了！
+ai_light_speech_4>光電鰻~！
+ai_light_speech_5>凝聚光的力量！
+ai_light_speech_6>咿呀！
+ai_light_speech_7>該死的，有種別亂跑！
+ai_light_speech_8>你逃不掉的，死了這條心吧！
+ai_light_speech_9>閃！！
+
+ai_water_speech_1>哈呀！
+ai_water_speech_2>好痛~
+ai_water_speech_3>嗚嗚~
+ai_water_speech_4>冰霜雪人！
+ai_water_speech_5>接我一招~
+ai_water_speech_6>接招吧！
+ai_water_speech_7>冰牆！！
+ai_water_speech_8>出來吧！
+ai_water_speech_9>冰凍他！！！
+ai_water_speech_10>Show Time~！
+ai_water_speech_11>秀！秀！我再秀！
+ai_water_speech_12>嗚嗚，為什麼老打我啊！
+
+ai_volcayra_speech_1>之前小看你了……
+ai_volcayra_speech_2>遊戲到此為止！
+ai_volcayra_speech_3>我的杖不只是用來施展魔法的……
+
+ai_priest_speech_1>我說！你為什麼非要惹火我！？！？
+ai_priest_speech_2>說好不能打臉的！
+ai_priest_speech_3>別！！輕點！！求你輕點吧！！
+ai_priest_speech_4>換你了，讓我打一下，快點！！
+ai_priest_speech_5>動作溫柔點不行嗎……真是的……
+ai_priest_speech_6>現在才開始呢~
+
+ai_benham_speech_1>高貴的人啊！
+ai_benham_speech_3>嗚~
+ai_benham_speech_4>我……敗了！
+ai_benham_speech_7>讓我們在暴風裡戰鬥吧！
+ai_benham_speech_8>帥氣暴風！
+ai_benham_speech_9>我堅持不下去了……
+
+ai_ronaldo_speech_1>我的神啊！
+ai_ronaldo_speech_2>別指望我會除魔~
+ai_ronaldo_speech_3>Oh my god！我也太帥了吧？
+ai_ronaldo_speech_4>我的另一半很困擾呢~
+
+ai_drix_speech_1>高貴的人啊！
+ai_drix_speech_2>我的實驗材料呢？
+ai_drix_speech_3>嗚~
+ai_drix_speech_4>我……失敗了！
+ai_drix_speech_5>嘻嘻，實驗對象來了……
+ai_drix_speech_6>罪惡之眼，請殺死他們吧！
+ai_drix_speech_7>讓我們在暴風裡戰鬥吧！
+ai_drix_speech_8>帥氣暴風！
+ai_drix_speech_9>大地的憤怒！
+ai_drix_speech_10>槍靶子都死了，好可惜啊！
+ai_drix_speech_11>來玩貓抓老鼠吧！
+ai_drix_speech_12>喵~
+ai_drix_speech_13>定身大法！
+ai_drix_speech_14>都給我去死吧！
+
+ai_high_speech_1>這裡是我的地盤！
+
+ai_jogi_speech_1>決戰時刻到了！
+ai_jogi_speech_2>喝！
+ai_jogi_speech_3>你、你別過來！
+
+ai_low_speech_1>嗚哇！
+
+ai_snowstorm_speech_1>好想睡覺……
+ai_snowstorm_speech_2>啊啊~真冷啊！
+ai_snowstorm_speech_3>抖~抖~抖……
+ai_snowstorm_speech_4>應該會暖和一點吧……
+ai_snowstorm_speech_5>這些雪老下不停， 討厭！
+ai_snowstorm_speech_6>為什麼會這樣？
+ai_snowstorm_speech_7>呃啊~~啊啊啊！
+ai_snowstorm_speech_8>1 、2……哈！
+ai_snowstorm_speech_9>咿呀！
+
+ai_songang_speech_1>咳呵呵呵……
+ai_songang_speech_2>我的手下們不會放過你的！
+ai_songang_speech_3>呃嗯……
+ai_songang_speech_4>嗚嗚嗚……
+ai_songang_speech_5>我會在地獄等你……
+ai_songang_speech_6>歡迎你！
+ai_songang_speech_7>死亡之握！
+ai_songang_speech_8>成佛吧！
+ai_songang_speech_9>治癒！
+ai_songang_speech_10>我早就墮落了……
+ai_songang_speech_11>武器祝福！
+ai_songang_speech_12>請賜予我遠古的力量吧！
+ai_songang_speech_13>光之復仇！
+ai_songang_speech_14>太危險了！
+ai_songang_speech_15>純白之刃！
+
+ai_15kuran_speech_1>這些可惡的混蛋夜叉！
+ai_15kuran_speech_2>我失手了……
+ai_15kuran_speech_3>喝！
+ai_15kuran_speech_4>嗚啊……
+ai_15kuran_speech_5>可惡！
+ai_15kuran_speech_6>這次的獵物是什麼呢……
+ai_15kuran_speech_7>在那裡！
+ai_15kuran_speech_8>最好不要被我逮著！
+ai_15kuran_speech_9>危機時刻到了！
+
+ai_swordman_speech_1>太難了……
+ai_swordman_speech_2>咳啊！
+ai_swordman_speech_3>呃！
+ai_swordman_speech_4>嗚哇啊啊……
+ai_swordman_speech_5>嗯？
+ai_swordman_speech_6>哈哈！
+ai_swordman_speech_7>空中連技！
+ai_swordman_speech_8>咿呀……
+
+ai_derek_speech_3>嗯！
+ai_derek_speech_4>呃嗯……
+ai_derek_speech_5>你打敗我了？這不是真的……
+ai_derek_speech_6>我就是……移動的要塞！
+ai_derek_speech_7>哼，在我的殺氣裡顫抖吧！
+ai_derek_speech_8>你打我一下，我就還你兩下！
+
+ai_gulaax_speech_3>呃阿……
+ai_gulaax_speech_4>呃……
+ai_gulaax_speech_5>好冷啊……
+ai_gulaax_speech_6>啊……冰……
+ai_gulaax_speech_7>冰牆……
+ai_gulaax_speech_8>刺眼的雪白！
+ai_gulaax_speech_9>武器也帶著冰！
+ai_gulaax_speech_10>嗚嗚~~嗚嗚~~啊啊啊！
+ai_gulaax_speech_11>冰冷的女子啊
+
+ai_hoyunjak_speech_3>啊啊……
+ai_hoyunjak_speech_4>停下！
+ai_hoyunjak_speech_5>春天已經過去了……
+ai_hoyunjak_speech_6>啊啊，你是出來玩的嗎?？
+ai_hoyunjak_speech_7>我只剩下最後一個雷米了！
+ai_hoyunjak_speech_8>春天要過去了……
+ai_hoyunjak_speech_9>想留不能留……
+ai_hoyunjak_speech_10>花兒要謝了……
+ai_hoyunjak_speech_11>花兒被風吹落了……
+
+ai_pretender_speech_2>我的實驗材料呢？
+ai_pretender_speech_3>呃啊啊！
+ai_pretender_speech_4>喝啊啊！
+ai_pretender_speech_5>咳呃呃……
+ai_pretender_speech_6>嘻嘻，實驗物件來了……
+ai_pretender_speech_7>罪惡之眼，請殺死他們吧！
+ai_pretender_speech_8>還是先治療吧……
+ai_pretender_speech_9>呃，好像有東西在蠕動！
+ai_pretender_speech_10>血……
+ai_pretender_speech_11>咳，咳咳……
+ai_pretender_speech_12>嘻嘻……
+ai_pretender_speech_13>咳啊啊！
+
+ai_xeno_speech_1>有骨頭支撐的感覺就是好啊……
+ai_xeno_speech_2>骨頭的味道……
+ai_xeno_speech_3>吱……
+ai_xeno_speech_4>咯咯咯~~
+ai_xeno_speech_5>咯咯~~
+ai_xeno_speech_6>快上吧，我的分身們！
+ai_xeno_speech_7>在那邊！
+ai_xeno_speech_8>咯~~
+ai_xeno_speech_9>咯咯~~
+ai_xeno_speech_10>吱……
+ai_xeno_speech_11>咯吱！
+ai_xeno_speech_12>嗒……
+ai_xeno_speech_13>一定要守護我的骨頭，啊啊啊……
+ai_xeno_speech_14>咳，啊啊啊！
+
+ai_munch_speech_1>其唉唉唉唉！！！
+ai_munch_speech_2>生命是痛苦的~
+ai_munch_speech_3>全部消失吧！！！
+ai_munch_speech_4>全部去死吧！！！
+
+
+
+//??? ?? ??
+ai_aukuso_monster_1>魔界之花襖索
+
+//071204 ???? APC ?? ?? ???
+ai_character_name_1301>影子劍士羅影
+
+ai_sayoung_speech_1>就那幾招技能？我可以直接無視！
+ai_sayoung_speech_2>鬼神附靈！噬靈鬼斬！
+ai_sayoung_speech_3>這才是真正的鬼神之力！
+ai_sayoung_speech_4>當年師父教給我的……三段斬！
+ai_sayoung_speech_5>必殺！
+ai_sayoung_speech_6>這就是你們的墓碑！
+ai_sayoung_speech_7>有種就進我的領域！嘿嘿！
+ai_sayoung_speech_8>太危險了！
+ai_sayoung_speech_9>奇怪，難道我的能力退化了？
+ai_sayoung_speech_10>或許……師父才是對的……
+ai_sayoung_speech_11>你想從這裡活著出去？
+
+
+ai_santa_speech_1>你好啊，我過得很好，放心吧！
+ai_santa_speech_2>不礙事！
+ai_santa_speech_3>再召喚一次就可以了！！
+ai_santa_speech_4>遇到困難就找我啊！哈~哈~哈~哈~~
+ai_santa_speech_5>哈~哈~哈~哈~
+ai_santa_speech_6>就叫我大叔吧~
+ai_santa_speech_7>叫大哥也行~
+ai_santa_speech_8>相信我，這個會對你有幫助的！
+ai_santa_speech_9>怎麼樣？有幫助吧？
+ai_santa_speech_10>跟著我做~這樣？
+ai_santa_speech_11>感覺到我的偉大了吧？
+ai_santa_speech_12>想感受一下偉大的力量嗎？哈~哈~哈~
+
+
+ai_very_speech_1>救我！！
+ai_very_speech_2>救命啊！！
+ai_very_speech_3>願幸運之神與你同在……
+ai_very_speech_4>想幫忙 >_<
+ai_very_speech_5>嗚哇~太幸運了~
+ai_very_speech_6>等等！
+ai_very_speech_7>最後的全力一擊！
+ai_very_speech_8>偉大的魔法將成為你的力量！
+ai_very_speech_9>嘿嘿~~咻~咻咻！
+ai_very_speech_10>發射！
+
+ai_lie_speech_1>呀啊！！
+ai_lie_speech_2>咳呃！！
+ai_lie_speech_3>呃！氣死我了！
+ai_lie_speech_5>魔法導彈！！
+ai_lie_speech_6>接我一招！！
+
+// ????? : ???? ?? ?? ??? ?? ???
+ai_anastatia_speech_1>呃，竟然打倒我了？
+ai_anastatia_speech_2>呼呼，一點也不痛……
+ai_anastatia_speech_3>沒有感覺……
+ai_anastatia_speech_4>嗚哇！
+ai_anastatia_speech_5>為了特裡斯家族！
+ai_anastatia_speech_6>特裡斯！
+ai_anastatia_speech_7>別躲了！
+ai_anastatia_speech_8>看來這招不好用啊……
+ai_anastatia_speech_9>被我的貴族面孔迷住了？
+ai_anastatia_speech_12>哼，無知的傢夥！
+ai_anastatia_speech_10>喂！斯紮克！
+ai_anastatia_speech_11>這是我的寵物！
+
+// ??? : ???? ??? ??
+ai_hesus_speech_1>嘿呀！喝！
+ai_hesus_speech_2>呃！呃……
+ai_hesus_speech_3>呼唔……
+ai_hesus_speech_4>卡爾紮克啊……
+ai_hesus_speech_5>我會回來的！
+ai_hesus_speech_6>OK！
+ai_hesus_speech_7>你肯定會死在我的交叉火力下！
+ai_hesus_speech_8>交叉火力！
+ai_hesus_speech_9>噠噠噠噹！
+ai_hesus_speech_10>GOGO！
+ai_hesus_speech_11>還不夠猥瑣……
+ai_hesus_speech_12>讓你結成冰塊！
+
+ai_magni_speech_1>這裡將是埋葬你們的墳墓！
+ai_magni_speech_2>我就是從天界來的瑪格尼！
+ai_magni_speech_3>呃……我要報……報仇……
+
+// ??? ??? : ?? ?? ??? ??? ?? ?? ??
+ai_ivy_speech_1>哈啊！
+ai_ivy_speech_2>哈！呃？
+ai_ivy_speech_3>呼~唔！
+ai_ivy_speech_4>啊啊~~啊啊啊！！！
+ai_ivy_speech_5>給我陪葬吧！
+ai_ivy_speech_6>咳！啊啊啊……
+ai_ivy_speech_7>哈啊！哈啊！
+ai_ivy_speech_8>啊啊！啊啊啊……呃！
+ai_ivy_speech_9>呼啊！呼啊！
+ai_ivy_speech_10>咳呀！
+ai_ivy_speech_11>哈~喝呀！
+
+ai_doran_speech_1>你在給我搔癢嗎？
+ai_doran_speech_2>咳呵！呵呵……
+ai_doran_speech_3>消失吧！
+ai_doran_speech_4>我要試試新的身體……
+ai_doran_speech_5>你的靈魂是我的！
+ai_doran_speech_6>砸碎你！
+ai_doran_speech_7>去地獄等我吧！
+ai_doran_speech_8>我在等你失敗的那刻……
+
+// ?? : ????? ??? ?? ??
+ai_sajin_speech_1>唉咿
+ai_sajin_speech_4>我的龍..
+ai_sajin_speech_6>戰鬥吧！
+ai_sajin_speech_7>逃到哪裡去了？
+ai_sajin_speech_8>轟隆！
+ai_sajin_speech_9>轟隆隆！
+ai_sajin_speech_10>升龍！
+ai_sajin_speech_11>發！
+ai_sajin_speech_13>裡！
+
+// ???? : ?? ?? ??
+ai_deius_speech_1>咳~咿呀！
+ai_deius_speech_2>啊啊……
+ai_deius_speech_3>咿呀！
+ai_deius_speech_4>咳~呵呃！
+ai_deius_speech_5>呃……
+ai_deius_speech_6>嘿嘿~~嘿！
+ai_deius_speech_7>咳呃！
+ai_deius_speech_8>邪拳盛宴！
+ai_deius_speech_9>排山倒海的神力！
+ai_deius_speech_11>龍飛虎襲！
+ai_deius_speech_12>撕裂異空間的空斬打！
+
+// ?? : ???? ??
+ai_limlim_speech_stand>你才是瘋子！
+ai_limlim_speech_damage>好痛！
+ai_limlim_speech_die>你們是壞蛋！
+ai_limlim_speech_appear>你們！是誰？
+ai_limlim_speech_disappear>我叫莉莉，利庫的朋友……
+ai_limlim_speech_attack_bal>混沌拔杖！
+ai_limlim_speech_attack_adada>啊噠噠噠！
+ai_limlim_speech_attack_dragon>接招吧！
+ai_limlim_speech_attack_hold>咿呀~~哈！
+ai_limlim_speech_attack_flame>我好不容易才學會這招的……
+
+// ?? ??? : ???? ????
+ai_crux_speech_stand>偉大的光啊~賜予我力量吧！
+ai_crux_speech_damage1>吱吱~~
+ai_crux_speech_damage2>嗤嗤~~
+ai_crux_speech_die>我要回到雷光裡……
+ai_crux_speech_appear>你見到我要找的人了嗎？
+ai_crux_speech_disappear>她叫洛希婭……是我的表姐……
+ai_crux_speech_1>雷光之裡·鬼劍術！
+ai_crux_speech_2>吱……
+ai_crux_speech_3>好餓啊，來塊松糕吧……
+ai_crux_speech_4>噬靈雷劍！
+ai_crux_speech_5>雷劍亂舞！
+ai_crux_speech_6>光，無所不在！
+
+// ???? : ?? ???
+ai_ingelheim_speech_stand>喝呀！想造反呀！
+ai_ingelheim_speech_damage>嗯？
+ai_ingelheim_speech_die>你小子等著！
+ai_ingelheim_speech_appear>我來這裡練我的火焰……
+ai_ingelheim_speech_disappear>火焰還可以燒掉看不見的東西！
+ai_ingelheim_speech_1>燒掉！
+ai_ingelheim_speech_6>燃燒吧！
+ai_ingelheim_speech_7>給我熔化吧！
+ai_ingelheim_speech_3>咳！
+ai_ingelheim_speech_4>都給我閃開！
+ai_ingelheim_speech_5>嘿嘿，結束了？
+
+// ?? ??? 
+ai_octipus_speech_damage>竟然使用暴力……
+ai_octipus_speech_damage1>這個人的人品真差……
+ai_octipus_speech_die>我會躲開的~
+ai_octipus_speech_appear>你來幹什麼？
+ai_octipus_speech_1>這是我的地盤~
+ai_octipus_speech_2>你去別的地方吧~
+
+
+//??? ??? : ???
+ai_marome_speech_stand>呃，滑了一下~
+ai_marome_speech_damage>到處都是灰塵，真討厭~
+ai_marome_speech_damage1>嗯~我在打掃呢~
+ai_marome_speech_die>你自己收拾吧~
+ai_marome_speech_appear>你不能進這裡~
+ai_marome_speech_1>快讓開~
+ai_marome_speech_2>這掃把會傷到你的~
+
+//??? ??
+
+ai_ubogin_speech_stand> 付出代價吧！
+ai_ubogin_speech_damage> 喔呵？
+ai_ubogin_speech_damage1> 還不賴嘛
+ai_ubogin_speech_die> 到了要回去的時間了？
+ai_ubogin_speech_appear> 是誰呼叫我？
+ai_ubogin_speech_1> 呃啊啊啊！
+ai_ubogin_speech_2> 撘啊啊！
+ai_ubogin_speech_3> 咻咻咻！
+ai_ubogin_speech_4> 好慢！
+
+
+// ??? ???
+
+ai_rio_speech_damage>切！看這裡~
+ai_rio_speech_damage1>別靠近我！
+ai_rio_speech_die>我竟然敗了……嗚哇~
+ai_rio_speech_1>光的速度！！
+ai_rio_speech_2>召喚鬼神！
+ai_rio_speech_3>太慢了！
+
+// ??? ???
+ai_die_sword_speech_damage>哼！這是我的！
+ai_die_sword_speech_damage1>呃！死也不給！
+ai_die_sword_speech_die>真小氣！拿去吧~
+ai_die_sword_speech_appear>GBL教的稱號太帥了，所以我就……
+ai_die_sword_speech_1>逃吧！
+ai_die_sword_speech_2>讓開！
+
+// ??? ???
+ai_die_fighter_speech_damage>啊~還沒睡醒呢~
+ai_die_fighter_speech_damage1>呵~這是哪裡啊？
+ai_die_fighter_speech_die>我要再睡一會兒~
+ai_die_fighter_speech_appear> 啊~~ 睡得好飽喔~~
+ai_die_fighter_speech_1>請讓開！
+ai_die_fighter_speech_2>把你的肩膀借我一會？
+
+// GSD_awaken
+ai_gsd_awaken_speech_stand00> 領悟波動的力量後，雙眼就毫物用處
+ai_gsd_awaken_speech_stand01> 感受不到四週波動的氣息
+ai_gsd_awaken_speech_damage00> 咳咳
+ai_gsd_awaken_speech_damage01> 在我平靜的心中丟了一顆小石頭！
+ai_gsd_awaken_speech_die> 看來我修煉之路還很漫長
+ai_gsd_awaken_speech_attack00_1>波動之輪！
+ai_gsd_awaken_speech_attack00_2>有動靜！
+ai_gsd_awaken_speech_attack01_1>殺氣太重了！
+ai_gsd_awaken_speech_attack01_2>放出！
+ai_gsd_awaken_speech_attack01_3>忠告你，別太靠近！
+ai_gsd_awaken_speech_attack02_1>極·波動劍！天照！
+ai_gsd_awaken_speech_attack02_2>嗯！
+ai_gsd_awaken_speech_attack03_1>過來吧！快來吧！
+ai_gsd_awaken_speech_attack03_2>極·波動劍！光翼！
+ai_gsd_awaken_speech_attack04_1>極·波動劍！閃槍！
+ai_gsd_awaken_speech_attack04_2>穿刺吧！
+ai_gsd_awaken_speech_attack07_1>刺輪！
+ai_gsd_awaken_speech_attack09_1>極·波動劍之奧義！真·暗天波動眼！
+
+
+// GSD_normal
+ai_gsd_speech_stand00>領悟波動之力後，雙眼就會失去用武之地
+ai_gsd_speech_stand01> 這是真正的波動的力量
+ai_gsd_speech_damage00>咳咳！
+ai_gsd_speech_damage01>……我的心無法再平靜！
+ai_gsd_speech_die>看來，修煉之路還很漫長~
+ai_gsd_speech_attack00_1>波動之輪！
+ai_gsd_speech_attack00_2>有動靜！
+ai_gsd_speech_attack01_1>殺氣太重了！
+ai_gsd_speech_attack01_2>放出！
+ai_gsd_speech_attack01_3>警告你，別太靠近！
+ai_gsd_speech_attack02_1>大地之波動！
+ai_gsd_speech_attack02_2>嗯！
+ai_gsd_speech_attack03_1>極·波動劍！冰刃真經！
+ai_gsd_speech_attack03_2>寒冷的冰柱，掩埋眼前的邪惡吧！
+ai_gsd_speech_attack04_1>巨大的爆炎！
+ai_gsd_speech_attack04_2>燃燒吧！
+ai_gsd_speech_attack07_1>冰刃真經·2章！
+ai_gsd_speech_attack09_1>極·波動劍之奧義！真·暗天波動眼！
+
+// ??? ?? ??? ?? ??
+ai_character_name_5201>臭水溝公主·帕麗絲
+
+
+// ??? ??? ??
+ai_rookie_sword_speech_damage>呃！被攻擊了~
+ai_rookie_sword_speech_damage1>滾開~你這傢夥~
+ai_rookie_sword_speech_die>都怪你叫醒我，不然就不會死了！
+ai_rookie_sword_speech_appear>謝謝你救我~
+ai_rookie_sword_speech_1>你去死吧！！
+ai_rookie_sword_speech_2>哇哈哈！！
+
+// ? ?? ??
+ai_rookie_magic_speech_damage>嗚嗚~你讓我過去吧~
+ai_rookie_magic_speech_damage1>讓我回家吧~嗚嗚~
+ai_rookie_magic_speech_die>我想媽媽了~
+ai_rookie_magic_speech_appear>帶我回家吧~
+
+
+//???
+ai_aganzo_speech_appear>當年……
+ai_aganzo_speech_attack>記住，在自尊心之前，首先要提升勢力！
+ai_aganzo_speech_attack2>還有……那個女人……
+ai_aganzo_speech_attack3>……
+ai_aganzo_speech_appear1>你是來找我的？
+ai_aganzo_speech_attack4>非逼我出這招嗎？
+ai_aganzo_speech_attack5>接招！
+ai_aganzo_speech_attack6>實力不錯~
+ai_aganzo_speech_damage>哈！
+ai_aganzo_speech_die>看來你不是隨處可見的那種冒險家~
+
+
+
+// ??? ?? ???
+ai_paris_speech_stand00>決鬥……要贏了才有意義！
+ai_paris_speech_die>你實力不錯啊……
+ai_paris_speech_appear>喂~叫你呢，看什麼看？
+ai_paris_speech_damage00>實力不錯嘛~~
+ai_paris_speech_damage01>哼，就這點能力，失望~
+ai_paris_speech_attack01_1>決鬥不需要華麗的技術！
+ai_paris_speech_attack01_2>雖然個頭不大，但很強悍！
+ai_paris_speech_attack02_1>為了贏，也需要這種技巧！
+ai_paris_speech_attack02_2>感覺怎麼樣？酸痛嗎？
+ai_paris_speech_attack03_1>這就是機會！
+ai_paris_speech_attack03_2>到手的機會不要輕易放走！
+ai_paris_speech_attack04_1>兜裡要經常放塊磚~~
+ai_paris_speech_attack04_2>睡一會兒吧~
+ai_paris_speech_attack06_1>為了贏~放毒是基本中的基本！
+ai_paris_speech_attack06_2>過來……碰到了會很疼的！
+ai_paris_speech_attack07_1>猥瑣？哼~
+ai_paris_speech_attack07_2>如果有危險，什麼都可以用~
+ai_paris_speech_attack08_1>這次動真格了！
+ai_paris_speech_attack08_2>技術不行的話，道具總會用吧！
+ai_paris_speech_attack09_1>這個~很難躲哦？
+ai_paris_speech_attack09_2>來……看你怎麼躲~
+ai_paris_speech_attack11_1>阻礙對方的視野，也是必勝的關鍵之一~
+ai_paris_speech_attack11_2>眼睛可能會疼哦！
+ai_paris_speech_attack12_1>過來！
+ai_paris_speech_attack12_2>讓你見識下什麼叫地獄？
+ai_paris_speech_attack14_1>要是中了這招，你就要拜拜了~
+ai_paris_speech_attack14_2>嗯嗯，這種程度，躲不過就不正常了~
+ai_paris_speech_attack15_1>如果這招你也能躲過，我就認了~
+ai_paris_speech_attack15_2>如果覺得無法勝利，那就乾脆別決鬥~
+ai_paris_speech_attack16_1>實力不錯，不過後街的決鬥才剛開始呢~
+ai_paris_speech_attack17_1>我很欣賞你，但我要動真格了！
+
+//??? ?? 
+ai_differ_speech_die>oh~god！
+ai_differ_speech_damage00>oh~brother！
+ai_differ_speech_attack01>come on！
+ai_differ_speech_attack02>easy~！
+ai_differ_speech_attack03>oh！baby！
+
+//???? ??
+ai_mia_speech_die1>你別管我們~
+ai_mia_speech_die2>別欺負莫納亨……
+ai_mia_speech_appear1>我們不歡迎你！
+ai_mia_speech_appear2>整個世界都將變成綠色~
+ai_mia_speech_attack01>6根藤針刺！
+ai_mia_speech_attack02>藤蔓~快來幫忙！
+
+//??? ??
+ai_huton_speech_die1>又要回到黑暗的地下……
+ai_huton_speech_appear1>我是怎麼復活的？
+ai_huton_speech_appear2>管他呢，能戰鬥就行~
+ai_huton_speech_attack01>鐵血真漢子，就要用直拳！
+ai_huton_speech_attack02>人生就是一場賭博！
+
+//??? ??
+ai_snowstorm2_speech_stand>我只想躺著！
+ai_snowstorm2_speech_appear1>我們又在這裡見面了！
+ai_snowstorm2_speech_appear2>這裡是我的地盤！
+ai_snowstorm2_speech_attack01>暴風雪亂擊！
+ai_snowstorm2_speech_attack02>不同於死亡之塔的方式~
+ai_snowstorm2_speech_attack03>凍死這個可惡的人！
+
+//TMH ???
+ai_tmh_speech_die>都怪無線電，偏偏在這時候壞……
+ai_tmh_speech_appear>呃~無法通訊？！
+ai_tmh_speech_attack01>哇~終於通了！空投支援！
+ai_tmh_speech_attack02>太危險了~要躲起來！
+
+//SR ???
+ai_sr_rafael_speech_damage>請求掩護！
+ai_sr_rafael_speech_die>莉莉安娜，我無法繼續愛你了……
+ai_sr_rafael_speech_appear>弟！
+ai_sr_rafael_speech_attack01>接招吧！火焰強擊！
+
+//SR ??
+ai_sr_philip_speech_damage>咳啊！
+ai_sr_philip_speech_die>拉斐爾……我恐怕要失約了……
+ai_sr_philip_speech_appear>兄！
+ai_sr_philip_speech_attack01>全都燒掉！
+
+//SR ??
+ai_sr_gordon_speech_damage>排好陣形！
+ai_sr_gordon_speech_die>先戰略性撤退~活著再見吧！
+ai_sr_gordon_speech_appear>暴！
+ai_sr_gordon_speech_attack01>都給我出來~
+
+//SR ????
+ai_sr_augustin_speech_damage>莉莉安娜，幹什麼呢！
+ai_sr_augustin_speech_die>我先走一步了~ ?_?
+ai_sr_augustin_speech_appear>雷！
+ai_sr_augustin_speech_attack01>嘟嘟嘟嘟！
+
+//SR ????
+ai_sr_lilyana_speech_damage>咳啊！
+ai_sr_lilyana_speech_die>拉斐爾……我恐怕要失約了……
+ai_sr_lilyana_speech_appear>兄！
+ai_sr_lilyana_speech_attack01>全都燒掉！
+
+//??? ??
+ai_smoke_speech_disappear> 呃，居然從視線中錯過
+ai_smoke_speech_damage> 被發現了
+ai_smoke_speech_die> 經驗豐富的傢伙..
+ai_smoke_speech_appear> 我叫作史莫克將軍
+ai_smoke_speech_attack01> 戰爭真可恥
+
+//?? ??
+ai_jile_speech_disappear> 呃，居然從視線中錯過
+ai_jile_speech_damage>挺厲害嘛……
+ai_jile_speech_die>出大事了！
+ai_jile_speech_appear01>我的過去確實很混亂……
+ai_jile_speech_appear02>我通過諾伊佩拉來到這裡~
+ai_jile_speech_appear03>後來就被這些章魚打敗~
+ai_jile_speech_appear04>對~我的祖先就是魔槍手凱麗！
+ai_jile_speech_attack01>盛開吧~冰花！
+ai_jile_speech_attack02>不要被我的魔法嚇到~
+ai_jile_speech_attack03>凍傷！
+ai_jile_speech_attack04>強擊！
+
+//??? ????? ??
+ai_nils_speech_damage>呃！
+ai_nils_speech_appear>啊！又見面了啊~
+ai_nils_speech_stand>狙擊手最需要保護~
+ai_nils_speech_disappear>轉移陣地！
+ai_nils_speech_appear04> 沒錯，我的祖先就是魔槍手凱麗！
+ai_nils_speech_attack01>瞄準！
+ai_nils_speech_attack02>狙擊！
+
+//??? ??
+ai_cartelagent_speech_appear>敵人來了！
+ai_cartelagent_speech_die>組織會找你算帳的！
+ai_cartelagent_speech_attack01>射殺！
+ai_cartelagent_speech_attack02>射擊！
+ai_cartelagent_speech_attack03>你還敢過來？
+
+//?? ? ??
+ai_burningnut_speech_appear>我們是無法地帶的彈藥手！
+ai_burningnut_speech_die>要不是‘無色’不夠……
+ai_burningnut_speech_attack01>‘無色’快用完了，就一發搞定你吧！
+
+//?? ??
+ai_desyan_speech_disappear> 呃，居然從視線中錯過
+ai_desyan_speech_damage> 好厲害..
+ai_desyan_speech_die1>異能者也是人類！
+ai_desyan_speech_die2>我要躲到蟲群裡~
+ai_desyan_speech_appear01>我們是異能者~是變異的能力成就了我們！
+ai_desyan_speech_appear02>愛護環境吧！
+ai_desyan_speech_attack01>螳螂！
+ai_desyan_speech_attack02>骨鞭！
+ai_desyan_speech_attack03>飛蛾！
+
+//?????
+ai_necromancer_speech_disappear>呵啊啊啊！
+ai_necromancer_speech_damage>咳呃！
+ai_necromancer_speech_die1>我不會死的！
+ai_necromancer_speech_die2>憑你這點本事，殺不死我的！
+ai_necromancer_speech_appear01>肉身~的味道……
+ai_necromancer_speech_appear02>呵哈哈哈哈~~
+ai_necromancer_speech_attack01>徹底攪碎你的骨和肉~
+ai_necromancer_speech_attack02>我要更多的屍體……
+ai_necromancer_speech_attack03>爆炸吧！
+
+//??? ????
+ai_flameman_name>火焰之泊尼科斯
+ai_flameman_speech_1>嘗嘗灼熱的滋味吧！
+ai_flameman_speech_2>拉克西斯！攻擊！
+
+//?? by rocke
+ai_character_name1_203>西嵐
+
+//? by rocke
+ai_character_name1_204>巴恩
+
+// ???? ??? ??? 42??
+ai_character_name1_205>90後找人帶
+ai_character_name1_206>盜屍者 - 烏卡拉
+ai_character_name1_207>只召喚使徒不卡
+ai_character_name1_208>星彈·迪克派克
+ai_character_name1_209>塞利提精銳長槍兵
+ai_character_name1_210>迪克派克
+ai_character_name1_211>動物系 - 瘋狂企鵝
+ai_character_name1_212>火之魔女塔拉
+ai_character_name1_213>你是史林戴林！
+
+ai_character_name1_214>獅子王辛巴
+ai_character_name1_215>阿蓋爾鐵錘兵
+ai_character_name1_216>阿蓋爾長矛兵
+ai_character_name1_217>性感肌肉男
+ai_character_name1_218>式神先生·廣雲
+ai_character_name1_219>獅子王·理查
+
+ai_character_name1_220>青面修羅·洛茲貝倫
+ai_character_name1_221>疾病系 - 洛茲貝倫
+ai_character_name1_222>鬼神系 - 佰三青
+ai_character_name1_223>鬼神系 - 佰二魂
+ai_character_name1_224>鬼神系 - 佰一裳
+ai_character_name1_225>德米安
+ai_character_name1_226>血鬥士
+ai_character_name1_227>光炎裡克特
+ai_character_name1_228>骸骨系 - 骷髏王
+ai_character_name1_229>破眼之卡斯楚
+
+ai_character_name1_230>可愛小妖
+ai_character_name1_231>崩拳·赫羅菲
+ai_character_name1_232>塞利提守護兵
+ai_character_name1_233>漁夫的女兒漢娜
+ai_character_name1_234>漁夫的女兒魯
+ai_character_name1_235>漁夫的女兒詹妮
+ai_character_name1_236>鐵甲之阿米莉亞
+ai_character_name1_237>延邊1區的延基
+ai_character_name1_238>鬼魂系 - 痛苦女王
+
+ai_character_name1_239>長頸鹿畫的畫
+ai_character_name1_240>迪特裡希·萊姆
+ai_character_name1_241>暗精靈系 - 克裡西斯
+ai_character_name1_242>雇傭槍手
+ai_character_name1_243>火槍手
+ai_character_name1_244>戮蠱系 - 吉姆拉
+ai_character_name1_245>激情的解說員
+
+ai_character_name1_246>瑪麗·萊姆
+ai_character_name1_247>聯邦13分隊士兵
+ai_character_name1_248>聯邦154分隊士兵
+ai_character_name1_249>聯邦154分隊工兵
+ai_character_name1_250>聯邦154分隊隊長
+ai_character_name1_251>安卡拉狙擊手
+ai_character_name1_252>尖銳曲線·哈莉特
+ai_character_name1_253>夜之女王·特蕾比婭
+
+//0218, ?? ?? ??, ??
+ai_siran_speech_onstand_1>嗯哈~無聊啊~
+ai_siran_speech_damage_1>哎呀~別扯啦~
+ai_siran_speech_damage_2>我說過了，我吃飽了~
+ai_siran_speech_die1>啊……我也快不行了~
+ai_siran_speech_die2>哎……呀……羽，你在那裡嗎？
+ai_siran_speech_appear_1>幹嘛活那麼累？
+ai_siran_speech_attack_1>嗯……
+ai_siran_speech_attack_2>疼嗎？
+ai_siran_speech_attack_3>嘿喲~
+ai_siran_speech_attack_4>你的嗎？ 用我的字裝飾吧
+ai_siran_speech_attack_5>讓你屁滾尿流~
+ai_siran_speech_attack_6>這不是逃亡~
+ai_siran_speech_attack_7>去哪裡？
+ai_siran_speech_attack_8>咿呀！
+ai_siran_speech_attack_9>哎~真的要這麼做嗎？
+ai_siran_speech_onkey_1>那……這就開始？
+
+//0219, ? ?? ??, ??
+ai_bhan_speech_onstand_1>嗯！
+ai_bhan_speech_damage_1>嗚！
+ai_bhan_speech_damage_2>我就這麼不濟嗎！
+ai_bhan_speech_die_1>咳，修煉不夠呀~
+ai_bhan_speech_die_2>咳，好強~
+ai_bhan_speech_appear_1>試一下這段時間的修煉成果~
+ai_bhan_speech_attack_backstepcutter_1>哼，你以為躺著就沒事了嗎~
+ai_bhan_speech_attack_chargecrash_1>好機會！
+ai_bhan_speech_attack_hopsmash_near_1>你就以為
+ai_bhan_speech_attack_hopsmash_near_2>可以躲開？
+ai_bhan_speech_attack_hopsmash_range_1>逃也沒用~
+ai_bhan_speech_attack_hopsmash_range_2>切，就你那點水準……
+ai_bhan_speech_attack_upperslash_1>呃！
+ai_bhan_speech_attack_upperslash_2>啊！
+ai_bhan_speech_attack_combination_1>劍術最重要的是基礎！
+ai_bhan_speech_onkey_overdrive_1>極品劍是劍士的基礎！
+ai_bhan_speech_onkey_overdrive_2>有時節制的基礎比華麗的技術重要~
+ai_bhan_speech_onkey_reckless_1>現在才開始呢~
+ai_bhan_speech_onkey_reckless_2>魯莽不一定是壞事~
+ai_bhan_speech_onkey_guard_1>想攻擊我？
+
+//ai??? ????? ?? ?? (?????) 090520 // ???
+//???
+fighterkim_01>我不是人妖！
+fighterkim_02>你們想幹什麼？
+fighterkim_03>哎呀！
+fighterkim_04>啊~他們出來了！
+fighterkim_05>看你這身裝扮~好醜~
+fighterkim_06>都說了！我是女大學生！
+fighterkim_07>女大學生的背摔！
+//??? ??
+queenofpain_01>更大的痛苦！
+queenofpain_02>呃啊啊啊啊~
+queenofpain_03>先別打了！
+queenofpain_04>嗚啊啊啊！
+queenofpain_05>虛無的追擊！
+queenofpain_06>黑色螺旋！
+//??? ?? ??
+venom_01>venom_01
+venom_02>venom_02
+//??? ?? ??
+sting_01>投網！
+sting_02>詹妮~騎上了！
+sting_03>你的神經麻痹了吧？
+//??? ?? ??
+hanna_01>拋網！
+hanna_02>漢娜~騎上了！
+//???
+lightbug_01>紫裝？照樣不是我的對手……
+lightbug_02>請守護塞利提……
+lightbug_03>這裡就像是地獄~
+lightbug_04>能不能把特效關掉？
+lightbug_05>我們要變得更強！
+//?????
+patlabor_01>呵呵~小心啊~
+patlabor_02>浮空！
+patlabor_03>砰！
+patlabor_04>?！
+patlabor_05>喝！這次來真的！
+//???
+paul_01>你真小氣！
+paul_02>哎~真讓人惱火~
+paul_03>被我逮住就死定了！
+paul_04>啊嗚~！！！
+paul_05>這是我玩鐵拳3時學的！
+//??????
+rople_01>哎呀~好痛！
+rople_02>我抗不住了！
+rople_03>要是出螺旋隕星臂鎧，就給我吧~
+rople_04>我延基就是隊伍中的靈魂~
+rople_05>我會抓住它，你使勁打吧！
+//??? ??
+4gen1ghost_lunch_01>停~
+4gen1ghost_lunch_02>請不要~
+4gen1ghost_lunch_03>我是最容易對付的~
+4gen1ghost_lunch_04>我是天界最弱的人，嘻嘻~
+4gen1ghost_lunch_05>BBQ~
+4gen1ghost_lunch_06>X1！
+4gen1ghost_lunch_07>雷~射
+4gen1ghost_lunch_08>這樣用量子爆彈，只能算是農民連！
+//???? ??
+4gen1ghost_meca_01>好了，可以了~
+4gen1ghost_meca_02>停~
+4gen1ghost_meca_03>請不要~
+4gen1ghost_meca_04>小的先走了~
+4gen1ghost_meca_05>小的叫亨吉~
+4gen1ghost_meca_06>去吧~
+4gen1ghost_meca_07>這是個機械作品~
+4gen1ghost_meca_08>我本來不想使用的~
+4gen1ghost_meca_09>跑吧~
+4gen1ghost_meca_10>機械師，再怎麼說也得先練好槍法吧？
+//??? ??
+4gen1ghost_ranger_01>嘻嘻~
+4gen1ghost_ranger_02>哈哈哈~
+4gen1ghost_ranger_03>我是無法地帶的將軍庫米~
+4gen1ghost_ranger_04>到此為止吧！
+4gen1ghost_ranger_05>雙槍手！
+4gen1ghost_ranger_06>靠近者，死！
+4gen1ghost_ranger_07>?！
+4gen1ghost_ranger_08>咿呀！
+//??? ??
+4gen1ghost_spit_01>嘿嘿嘿~
+4gen1ghost_spit_02>嘻嘻~
+4gen1ghost_spit_03>嗚嗚~
+4gen1ghost_spit_04>切~~
+4gen1ghost_spit_05>我是最棒的！
+4gen1ghost_spit_06>是弱者就逃吧~
+4gen1ghost_spit_07>讓我射中誰呢~
+4gen1ghost_spit_08>要火燒誰呢~
+4gen1ghost_spit_09>給你身上打個洞~讓你透透風吧~
+//????
+animalgunner_01>嘿呀，小P孩~
+animalgunner_02>喂~等我一起呀~
+animalgunner_03>深淵派對！開始了~
+animalgunner_04>要是能掉史詩裝備就好了~
+animalgunner_05>不就是APC嗎！
+//????
+choa_01>等我換機械師來~
+choa_02>哈哈哈！
+choa_03>狙擊！
+//??? ???
+corona_01>蓋格萬歲！
+corona_02>啟動柯洛納！
+corona_03>?！你們會變成粉末！
+//??????
+darkelf_01>血……
+darkelf_02>血腥味……
+darkelf_03>呃呃！
+darkelf_04>咳咳~
+//????
+hariot_01>真空上旋踢！
+hariot_02>我的上旋踢無人能敵！
+hariot_03>咿呀！
+//?????
+mafia_01>喝！
+mafia_02>喝呃！
+mafia_03>放我一條生路吧~
+mafia_04>我是開罐之王！
+mafia_05>舔我腳指頭吧！
+mafia_06>嘿嘿嘿~
+mafia_07>敢來這兒，膽子不小啊~
+//?????
+musketeer_01>格拉希阿思~
+musketeer_02>唉爾~阿塔庫俄！
+musketeer_03>烏諾朵思杜磊四~
+//??????
+nugolspit_01>咳呃~
+nugolspit_02>唧唧~
+nugolspit_03>莫噢噢噢~
+nugolspit_04>喇！
+nugolspit_05>咳呃呃~
+//???????
+sniper_01>我的子彈會一直跟著你！
+sniper_02>啊！
+sniper_03>你太殘忍了！呃啊……
+sniper_04>喂！我在這兒呢！
+sniper_05>看招！
+sniper_06>我的子彈喜歡你……
+//????
+animalmagician_01>哎呦！
+animalmagician_02>別打了~
+animalmagician_03>啊！嘻嘻嘻~
+animalmagician_04>我是可愛的9後~
+animalmagician_05>哥哥，你的QQ是多少啊？
+//????
+firewitch_01>哈啊！
+firewitch_02>呃！
+firewitch_03>燒死你！
+firewitch_04>燃燒吧！
+firewitch_05>火精靈的突擊！
+firewitch_06>平凡隕石！
+firewitch_07>火焰之息！
+//???
+ghoul_01>咕嚕嚕！
+ghoul_02>啊啊！
+ghoul_03>哈！
+ghoul_04>盜~~~屍~~者~
+ghoul_05>哈啊啊！
+//????
+isilien_01>把你們種到我的庭院裡，嗯哼，一定很美麗！
+isilien_02>啊哈，小矮人！
+isilien_03>呀哈！
+isilien_04>又來了一個白癡！
+isilien_05>你們想幹什麼？為什麼來我的庭院！
+isilien_06>我的庭院正缺少肥料！
+isilien_07>我的庭院危機四伏！
+isilien_08>盛開吧，魔界花！
+isilien_09>變！變！！變！！！
+isilien_10>呼呼呼呼！有點氣喘~~
+isilien_11>哥布林隊長又躲哪去了？
+isilien_12>呃啊，我要……死了嗎？
+//????????
+kasyas_01>看吧~不卡了吧？
+kasyas_02>能不能把特效關掉？
+kasyas_03>先別打了！
+kasyas_04>凱西利亞斯大叔！
+//?????
+mami_01>啊啦啦啦！
+mami_02>啊嗚啊嗚！
+mami_03>啊啊嗚！
+mami_04>嗚嗚哦！
+mami_05>我是迪克派克！
+mami_06>噗嚕嚕！
+mami_07>迪克！
+mami_08>派克！
+mami_09>轉啊轉啊！
+mami_10>啊昂~
+mami_11>加油~
+//??????
+penguin_01>哈哈~
+penguin_02>哈哈哈~
+penguin_03>嘿嘿嘿嘿~你死定了！
+penguin_04>同歸於盡吧！
+penguin_05>企~~~~~~！！！！
+penguin_06>鵝~~~~~~！！！！
+penguin_07>啊？躲哪兒去了？
+penguin_08>啾啾！
+//?? ????
+piker_01>呃！
+piker_02>呃！
+piker_03>危險！
+piker_04>我的使命……
+piker_05>是敵人！
+piker_06>準備~
+piker_07>往哪裡逃?
+piker_08>黃龍！
+piker_09>戮蠱連擊！
+piker_10>嗒！
+piker_11>矛！
+piker_12>呀！
+piker_13>呼啦！
+//?????
+agail_01>矛兵準備！
+agail_02> 咿
+agail_03> 神哪
+agail_04> 維持隊形！
+agail_05> 穿透惡的槍！
+agail_06> 十字架之刃！
+//????
+animalpriest_01>吼嗚！
+animalpriest_02>獅子王的普通攻擊~
+//?????
+divine_01>啊~這個組織真不錯~
+divine_02>哦~我的護肩！
+divine_03>能幫我拿香皂來嗎？
+divine_04>你趴著幹嘛呀~
+divine_05>啊？
+//?????
+drix_01>我比你快3倍！
+drix_02>哈哈哈哈！
+drix_03>原地疾風！
+drix_04>哈哈哈哈哈哈哈！
+drix_05>啊~有點頭暈！
+drix_06>哈哈哈！！！
+//????
+east_01>邪惡的傢夥們！
+east_02>人生就像那空中的雲~
+east_03>呵呵呵！
+east_04>呵呃！
+east_05>回冥界吧！
+east_06>竟敢來這裡撒野！
+//???
+hammer_01>鐵錘兵準備！
+hammer_02>敵人太多了……
+hammer_03>維持隊形！
+hammer_04>懺悔吧！
+hammer_05>惡鬼斬！
+//???
+powerking_01>嘿喲~不賴嘛？
+powerking_02>嘿喲~
+powerking_03>呵~
+powerking_04>終有一天……
+powerking_05>真正的戰士嗎？
+powerking_06>資格夠了嗎？
+powerking_07>認真點吧！
+powerking_08>你能挺住嗎？
+powerking_09>就你這點本事，還無法讓我死掉~
+//3????
+3ghost_bremen_01>呼呃！
+3ghost_bremen_02>呼！
+3ghost_bremen_03>呼嗚嗚！
+3ghost_bremen_04>呼啊！
+//3???
+3ghost_rasa_01>咳呃！
+3ghost_rasa_02>咳！
+3ghost_rasa_03>咳啊！
+3ghost_rasa_04>咳哇！
+//3???
+3ghost_saya_01>叱！
+3ghost_saya_02>嚓啊啊！
+3ghost_saya_03>嚓啊！
+//??? ??
+apopis_01>下跌了！不玩了！
+apopis_02>阿波菲斯！
+apopis_03>居然使用覺醒！
+apopis_04>你可以死了！
+apopis_05>潛藏在我心裡的惡魔啊！
+//????
+blueface1_01>小小人類，我還不看在眼裡！
+blueface1_02>狄瑞吉~
+blueface1_03>崇拜使徒吧！
+blueface1_04>加入暴戾搜捕團吧！
+//??? ?????
+blueface2_01>噓~咿~
+blueface2_02>嘿嘿嘿~
+blueface2_03>嘿嘿嘿嘿~
+blueface2_04>嘿嘿嘿嘿嘿~
+//??????
+gladiator_01>千萬別害怕！
+gladiator_02>團結一起才不會死！
+gladiator_03>我會報仇的！
+gladiator_04>我下輩子也不會放過你！
+gladiator_05>你完蛋了！
+gladiator_06>血十字斬！
+gladiator_07>一定要活著~
+//?????
+hella_01>我的火很難熄滅~
+hella_02>光炎！
+hella_03>不管怎樣，贏就行了~
+hella_04>燙死你~
+//??? ??
+tombstone_01>tombstone_01
+tombstone_02>tombstone_02
+tombstone_03>tombstone_03
+tombstone_04>tombstone_04
+//???????
+waveeye_01>waveeye_01
+waveeye_02>waveeye_02
+waveeye_03>waveeye_03
+waveeye_04>waveeye_04
+//?? ??
+yohan_01>yohan_01
+yohan_02>yohan_02
+//gost
+gost_01>為了女王陛下~~！
+//mister_o
+mister_o_01>嗚哇！
+
+//?? apc ?? (???? ??? ? ??)
+//??
+sparrow_01>神槍手飛燕
+mechageneral_01>尼貝爾
+mechageneral_02>快追！
+mechageneral_03>變得有些棘手了……
+mechageneral_04>冒險家的實力還不錯嘛……
+mechageneral_05>往這邊跑了！快追！
+mechageneral_06>追擊吉賽爾！
+mechageneral_07>不能讓吉賽爾跑了~
+mechageneral_08>很高興見到你，我是尼貝爾·米哈伊爾上校~
+mechageneral_09>做好掩護啊！
+mechageneral_10>掩護工作做好了嗎？
+mechageneral_11>總部沒有派其他人支援了嗎？
+
+mechageneral1_01> 尼貝勒
+mechageneral1_02> 請深深的深呼吸！ 恐懼會消失。
+mechageneral1_03> 不要妨礙我！
+mechageneral1_04> 冒險家的實力日益精進...
+mechageneral1_05> 安徒恩的手下的實力也不怎麼樣！
+mechageneral1_06> 擊退安徒恩收復天界吧！
+mechageneral1_07> 不能錯過吉傑爾
+mechageneral1_08> 很高興見到你。 我是尼貝爾·米哈伊爾上校。
+mechageneral1_09> 怎麼樣了？！ 要確實做暗號！
+mechageneral1_10>冒險家！！ 拜託請支援。
+mechageneral1_11> 是危機嗎？
+
+punch_01>魯莽的柯維
+punch_02>我用這雙拳頭就能搞定你們！
+punch_03>我只知道一種技能！
+punch_04>會用覺醒技就行了！
+punch_05>蓋波加才是男人的選擇！
+punch_06> 敵人太多了！ 一定要殲滅！
+
+joker_01>背叛者郎克
+joker_02>來~我帶你去找吉賽爾~
+joker_03>跟我來~我知道一條捷徑~
+joker_04>卡勒特現在的行為越來越讓人厭惡了！
+joker_05>不要一直提防我嘛！
+joker_06> 呃！
+
+joker_07>你相信我嗎？
+joker_08>小小的背叛而已，沒什麼大不了的~
+joker_09>誰叫你要相信我啊！
+joker_10>背叛的好處
+joker_11>背叛者郎克
+joker_12>逃亡者郎克
+
+atmachinegunner_01>？？
+atmachinegunner_02>嗚啊！
+atmachinegunner_03>啊！
+atmachinegunner_04>我什麼都不記得了……
+atmachinegunner_05>聽說吉賽爾知道我的過去……
+atmachinegunner_06>真的什麼都記不起來了……
+atmachinegunner_07>我是誰？我叫什麼？……
+atmachinegunner_08>你認識我嗎？
+
+sparrow_02>迅速、敏捷……
+sparrow_03>像燕子一樣……
+sparrow_04>咿呀！
+
+
+//?? ??? APC??
+//?????
+Ratreia_Name_01>拉特雷亞
+Ratreia_01>來啊！哈！
+Ratreia_02>呃！
+Ratreia_03>給我閃開！
+Ratreia_04>呃……都怪可惡的主人……
+Ratreia_05>什麼都不會！
+Ratreia_06>我幹嘛要幫你收拾爛攤子啊？！
+Ratreia_07>實在是太弱了~~
+Ratreia_08>可惡的主人啊~~
+Ratreia_09>給我好好打啊！！！
+Ratreia_10>真累……
+// ??
+Rina_Name>蕾娜
+Rina_01>嘿呀！
+Rina_02>炸飛你們！！
+Rina_03>哈嚓~~！
+Rina_04>孩子們，出發！
+Rina_05>呃~~！
+Rina_06>破碎的閃電！
+
+
+Syrah_Name_01>希拉
+
+Creck_Name_01>克瑞克
+
+ai_character_noir_leben_01>諾伊爾本
+noir_leben_01>嘻嘻嘻嘻嘻嘻嘻~
+noir_leben_02>哈哈哈哈~~
+noir_leben_03>哪裡哪裡！呵呵呵~~
+noir_leben_04>嘻嘻嘻……心情不錯哦？！
+
+ai_character_28_01>28號
+
+28_01_01>嘿，來得正好！！
+28_02_01>一直期待您的光臨~~
+28_03_01>請跟我來。
+28_04_01>一定要再來哦~
+
+
+ai_character_28_02>格鬥人偶
+28_01>啪啊啊！
+28_02>呃呵呵……
+28_03>實力不錯嘛~
+28_04>可愛的傢夥們~
+
+ai_character_cutihaning_01>可愛的哈尼
+cutihaning_01>呀哦！
+cutihaning_02>啊，好燙哦！
+cutihaning_03>接著~
+cutihaning_04>哎呀！
+
+ai_character_eneone_01>埃尼歐
+eneone_01>讓你見識下人類的雜技！
+eneone_02>我還不能倒下！
+
+ai_vilmark_name_5>比爾馬克的變異少女
+
+ruin_01>遺跡少女
+
+agarum_name_01>幽靈
+
+ai_character_name_434>遠古遺跡守護者
+ai_tribune_speech_1>竟敢妨礙我睡覺？！
+ai_tribune_speech_2>偷盜寶物的傢夥！你們一定會遭到天譴的！！
+ai_tribune_speech_3>徹底消失吧！
+ai_tribune_speech_4>嘗嘗極度恐懼的滋味吧！
+ai_tribune_speech_5>嗚哈哈，試試這個吧！！
+ai_tribune_speech_6>擠爆它！
+ai_tribune_speech_7>下地獄吧~你們！！
+ai_tribune_speech_8>我會一直盯著你的！
+
+// 091115 ???? / ??? APC ??
+HV_guard_name>皇都守備軍
+HV_guard_speech_1>全部準備~瞄準！
+HV_guard_speech_2>殲滅敵人！
+HV_guard_speech_3>一個都不放過！
+naro_name>卡勒特古老部
+naro_1>羅老號……請回答！！羅老號……！！
+naro_2>成……成功啦……！！好耶！！
+naro_3>給……給我滾！
+silver_name>銀光魔法團
+silver_1>你逃不掉了！
+silver_2>比光更快！！
+silver_3>盡搞些小把戲！
+oldmaid_name>大齡女教師
+oldmaid_1>考出這種爛成績，還能睡得著？！
+oldmaid_2>天啊！你不能專心一點嗎？
+oldmaid_3>接著，粉筆攻擊！
+oldmaid_4>給我安靜點，下課後跟我到辦公室來！
+oldmaid_5>情書沒收！
+oldmaid_6>呃……你有還沒結婚的叔叔嗎……？
+afro_name>暴力舞者
+afro_1>嗯，舞臺搭建完成！
+afro_2>這就是裡鬼舞步！
+afro_3>跟上節拍，噠噠！
+afro_4>感受~節奏吧~
+afro_5>來，動起來~
+siran_ghost_name>夢境中的西嵐
+ai_siran_speech_onstand_2> 這裡是哪裡？
+ai_siran_speech_appear_2> 你是誰？
+hoyunjak_ghost_name>夢境中的冒險家
+
+//091127 ??? ??
+verrickt_name>沙影·貝利特
+verrickt_speech_1>啊，又來了！
+verrickt_speech_2>幹嘛這麼緊張啊，年輕人~
+verrickt_speech_3>還要再努力一點才行！
+verrickt_speech_4>小心背後~這可是基本常識啊，朋友！
+verrickt_speech_5>要做到遊刃有餘~
+verrickt_speech_6>鎮定點！
+verrickt_speech_7>噢吼，我先走一步啦~
+
+jade_name>佩戴翡翠戒指的少女
+jade_speech_1>我也無能為力啊……
+jade_speech_2>華麗的死吧~
+jade_speech_3>你是屬於我們的~
+jade_speech_4>阿嘉璐大人，就是現在！
+jade_speech_5>你逃不出去的！
+jade_speech_6>不……不該是這樣的啊……！！
+
+
+//091130 ??? ??
+sagi_name_1>明天去參軍
+sagi_name_2>我是你的老朋友
+sagi_name_3>POWER UP
+sagi_name_4>完美造型師
+
+sagi_speech_1>我明天要去參軍了~
+sagi_speech_2>價值400萬的2件裝備，現價20萬起拍啦~
+sagi_speech_3>快來買啊，沒剩幾件啦！
+sagi_speech_4>我下周就要結婚了……
+sagi_speech_18>啊 ~@#$%……我不想死！
+
+sagi_speech_5>喂，幹嘛呢？是我啊，是我！
+sagi_speech_6>我又回來玩DNF了！
+sagi_speech_7>給我點金幣吧，我要去找凱麗強化裝備！
+sagi_speech_8>唉，我成了沒朋友的可憐人……
+sagi_speech_9>啊~對了，還有霸體呢！
+
+sagi_speech_10>已經確認客戶您有違法的金幣交易。
+sagi_speech_11>沒錯，我是DNF官方運營人員！
+sagi_speech_12>請告訴我您的帳號和密碼~
+sagi_speech_13>對你的處罰是封號一年！謝謝合作~
+sagi_speech_19>現在是技能冷卻時間，請稍等片刻。
+
+sagi_speech_14>幫我買件裝扮吧，我會好好~謝謝你的~
+sagi_speech_15>請土豪聯繫我，非誠勿擾！
+sagi_speech_16>幹嘛不跟我交易啊？
+sagi_speech_17>哎呀，我得先下線一會！
+
+
+//091130 ??? ??
+tiger_name_1>白虎獸人
+tiger_name_2>黑虎獸人
+tiger_name_3>紅虎獸人
+tiger_name_4>黃虎獸人
+tiger_speech_1>啊，這裡還有一隻啊？
+tiger_speech_2>你的主人……也是奧茲瑪大人？
+tiger_speech_3>我知道你想要背叛奧茲瑪大人！
+tiger_speech_4>這回……你肯定要用復活幣了！
+tiger_speech_5>你……知道什麼叫自由嗎？
+tiger_speech_6>從前這樣，現在還是這樣！
+
+blueface1_05>這……這是哪裡……
+blueface1_06>現……現在還有很多事要做……
+blueface1_07>不……不太記得了……
+blueface1_08>呃呃呃……啊……！！
+
+hw_name_1>MJ
+hw_name_2>天堂漫步者
+
+dancer_speech_1>Show Time！
+dancer_speech_2>你是我們的敵人嗎？
+dancer_speech_3>掩護MJ大人！
+dancer_speech_4>Let's Dance！
+siran_real_name>西嵐
+
+ai_chinagirl_name>炸醬麵控
+ai_chinagirl_speech_1>中華飯店！
+ai_chinagirl_speech_2>即使孤單傷心~我也不會哭泣
+ai_chinagirl_speech_3>外賣單多得讓我沒時間傷感……
+ai_chinagirl_speech_4>我的覺醒技~就是可以飛速的給客人送外賣。
+ai_chinagirl_speech_5>好痛……
+ai_chinagirl_speech_6>我……我還要送外賣呢……
+
+ai_chinadaddy_name>炸醬麵師傅
+ai_chinadaddy_speech_1>中-華-飯-店?
+ai_chinadaddy_speech_2>拉麵 ！！
+ai_chinadaddy_speech_3>呼嚕嚕 噹噹 呼嚕嚕 噹噹 好吃的炸醬麵?
+ai_chinadaddy_speech_4>有嚼勁的麵條就出自我的這雙手~
+ai_chinadaddy_speech_5>再來一碗炸醬麵 ！！
+ai_chinadaddy_speech_6>訂……訂餐……延誤了……
+
+//????
+master_arad_p_01>聖職者修煉達人
+master_arad_p_02>OK！
+master_arad_p_03>好興奮哦！
+master_arad_p_04>哦耶！！
+master_arad_p_05>嘿！
+
+
+//??? ??? ??(??)
+Babylon_speedch_1>好強喔。 
+Babylon_speedch_2>我們已經無路可退了！
+Babylon_speedch_3>看招！
+Babylon_speedch_4>這裡是7.15，請求空中支援！
+Babylon_speedch_5>7.15，請求火力支援！
+Babylon_speedch_6>在這裡做個了結吧！
+Babylon_speedch_7>讓我來吧！
+Babylon_speedch_8>呃啊！
+
+//??? AI??? ??
+ai_manfighter_nen>鬥氣師 (男)
+ai_manfighter_street>街霸 (男)
+ai_manfighter_striker>武鬥 (男)
+ai_manfighter_grapler>柔道家 (男)
+
+//??? (???)
+ai_mutisha_name>尚武者穆迪沙
+ai_mutisha_speech_1>勝者為王，敗者為寇！！
+ai_mutisha_speech_2>這點本事還敢出來丟人現眼？！
+ai_mutisha_speech_3>看來我要使出絕招了！
+
+//?? (???)
+ai_omen_name>被詛咒的歐文
+ai_omen_speech_1>別過來……這裡很危險……
+ai_omen_speech_2>我肯定是被詛咒了……
+ai_omen_speech_3>啊……這惡毒的詛咒……
+
+//??? (???)
+ai_eltis_name>思鄉者艾丁斯
+ai_eltis_speech_1>只要打敗你， 我就能回故鄉了！！
+ai_eltis_speech_2>故鄉， 還很遠嗎……
+
+//?? (???)
+ai_tenero_name>瘋拳達爾
+ai_tenero_speech_1>出拳要控制好每一分力道……
+ai_tenero_speech_2>讓你見識一下拳術的奧義！
+ai_tenero_speech_3>必殺技！！！
+
+//??? (???)
+ai_sjar_name>幸運迪加爾
+ai_sjar_speech_1>好運氣也屬於實力的一種！！！
+ai_sjar_speech_2>幸運女神會永遠站在我這邊的~哦呵呵~
+ai_sjar_speech_3>難道我的好運終於用光了……
+
+//???
+ai_sky_name>機械師青空
+ai_sky_speech_1>我不會給你任何反擊的機會！
+ai_sky_speech_2>讓你見識下我的新招數~
+ai_sky_speech_3>終於能回歸美麗的天空了~
+
+ai_character_event_425>牧羊少年
+ai_kuran_event_1>不要傷害我的羊！ 咳~
+ai_kuran_event_2>呃啊~~有賊！！
+ai_kuran_event_3>全都拿走吧！！ 哈哈哈~
+ai_kuran_event_4>羊兒們啊~我們的晚餐自己送上門了。
+ai_character_event_426>謊言獵人
+
+//100325 ???? APC ??
+silver_practice_name>黑夜舞者
+
+dal_name_01>Dal shabet 雅英
+dal_name_02>Dal shabet佳恩
+dal_name_03>Dal shabet 智律
+dal_name_04>Dal shabet 賽麗
+dal_name_05>Dal shabet 秀彬
+dal_name_06>Dal shabet Viki
+dal_speech_01>我是Dal shabet 雅英?
+dal_speech_02>我是Dal shabet佳恩?
+dal_speech_03>我是Dal shabet智律?
+dal_speech_04>我是Dal shabetSerri?
+dal_speech_05>Dal shabet秀彬?
+dal_speech_06>我是Dal shabet Viki?
+dal_speech_07>粉紅火~箭?
+dal_speech_08>我不管，不管，啊，我不管?
+dal_speech_09>Pinky Fantasy?
+dal_speech_10>太吃驚了差點喘不過氣?
+girl_name_01>Girls Day 惠利
+girl_name_02>Girls Day 智海
+girl_name_03>Girls Day敏兒
+girl_name_04>Girls Day 素珍
+girl_name_05>Girls Day 俞利
+girl_speech_01>我是Girls Day惠利★
+girl_speech_02>我是 Girls Day智海★
+girl_speech_03>我是 Girls Day 敏兒
+girl_speech_04>我是Girls Day 素珍★
+girl_speech_05>我是Girls Day Yura★
+girl_speech_06>我愛你，我愛你?
+girl_speech_07>不要~不要~不不不不?
+girl_speech_08>閃閃發亮☆
+girl_speech_09>怕我們會越來越疏遠?
+
+
+//??? ? [??]
+//??? ???
+despair_04_motoro_name>長髮的摩多洛
+despair_04_motoro_01>反坦克炮連擊！！
+despair_04_motoro_02>我的頭！
+despair_04_motoro_03>不要剪我的頭...
+despair_04_motoro_04>唰！！
+despair_04_motoro_05>呃！！
+despair_04_motoro_06>你在做什麼？
+
+despair_03_asil_name>從天界掉落的加西爾
+despair_03_asil_01>這是哪裡？ 我又是誰？
+despair_03_asil_02>我竟然掉到塔底了？
+despair_03_asil_03>受死吧！！
+despair_03_asil_04>反正我活著也是墮落……
+despair_03_asil_05>唔……
+despair_03_asil_06>呃……
+
+despair_05_basiheu_name>疾刀流紅綾
+despair_05_basiheu_01>閃開！
+despair_05_basiheu_02>我要殺了你！！
+
+despair_06_tyler_name>金髮公主泰勒
+despair_06_tyler_01>超級雙槍極舞刃！！！！
+despair_06_tyler_02>我不想只做個花瓶！！
+
+despair_12_30kuran_name>中年人庫蘭
+despair_12_30kuran_01>嘿哈！！！
+despair_12_30kuran_02>哈！
+despair_12_30kuran_03>永遠保持年輕心態！
+
+despair_9_nana_name>神槍手娜娜
+
+despair_01_goback_name>村長哈克
+despair_01_goback_01>這不是你該來的地方！
+despair_01_goback_02>滾回家去！
+despair_01_goback_03>放你一條生路！識相就滾！
+despair_01_goback_04>呃呃！！！
+despair_01_goback_05>不懂規矩，長輩也打！
+despair_01_goback_06>村子裡還有事……
+
+despair_11_rai_name>王的女人 - 萊伊
+despair_11_rai_01>我是不會再回王宮的！！
+despair_11_rai_02>還是宮外的空氣最好！
+
+despair_01_daneasopo_name>虔誠的費納音
+despair_01_daneasopo_01>神啊， 為什麼讓我歷盡折磨？
+despair_01_daneasopo_02>神啊……請賜予我力量吧！
+despair_01_daneasopo_03>別想褻瀆神明！
+despair_01_daneasopo_04>我要懲罰你！
+despair_01_daneasopo_05>呃呃……
+
+despair_07_junon_name>偵察兵朱諾
+despair_07_junon_01>空投支援， 目標 X2 T15！
+despair_07_junon_02>空投支援， 目標 X53 T99！
+despair_07_junon_03>空投支援， 目標 X53 T99！
+despair_07_junon_04>發動空襲！！
+despair_07_junon_05>我暈！ 再來！
+despair_07_junon_06>呃呃……
+
+despair_08_tina_name>狂霸者迪娜
+despair_08_tina_01>哼！ 你來錯地方了！
+despair_08_tina_02>你會後悔踏入這裡的！
+despair_08_tina_03>放馬過來吧！
+despair_08_tina_04>別想跑！
+despair_08_tina_05>呵……還真有兩下子……
+despair_08_tina_06>呃啊~！ 哈哈！
+
+despair_13_tirano_name>狂斧者雷阿諾
+despair_13_tirano_01>我要將你碎屍萬段！
+despair_13_tirano_02>來啊!
+despair_13_tirano_03>別跑啊~
+despair_13_tirano_04>一百萬零二十一次！
+despair_13_tirano_05>一百萬零二十二次！
+despair_13_tirano_06>一百萬零二十三次！
+despair_13_tirano_07>嘿！ 哈哈！
+
+despair_14_yanus_name>煉藥師米爾諾
+despair_14_yanus_01>不要妨礙我煉藥！
+despair_14_yanus_02>唔~我好像看到了很特別的植物……
+despair_14_yanus_03>為什麼老跟著我呀？
+despair_14_yanus_04>給你！ 別再跟著我了！
+despair_14_yanus_05>我還沒……煉出……不死之藥……
+
+
+despair_15_samzang_name>三藏
+despair_15_samzang_01>施主， 可有見過我的徒兒？
+despair_15_samzang_02>放下屠刀， 立地成佛……
+despair_15_samzang_04>取經之路還很長……
+despair_15_samzang_05>阿彌陀佛……眾生皆苦……
+
+
+despair_18_soha_name>鬼影劍蕭風
+despair_18_soha_01>還想活命就別過來！
+despair_18_soha_02>嘖~看來你是專門找死來的！！
+despair_18_soha_03>那我就成全你！
+despair_18_soha_04>哈哈哈哈哈哈哈哈！
+despair_18_soha_05>呃！ 一切名利……都只是浮雲……
+
+
+despair_22_riquelme_name>花花公子瑞克麥
+despair_22_riquelme_01>你這身衣服在哪裡買的？
+despair_22_riquelme_02>邋遢的男人不會受女士歡迎！
+despair_22_riquelme_03>我要去約會了， 速戰速決！
+despair_22_riquelme_04>槍法要精準！
+despair_22_riquelme_05>踢腿要華麗！
+despair_22_riquelme_06>動作要迅速！
+despair_22_riquelme_07>有機會我們比比別的， 比如時尚潮流！
+
+despair_23_myungho_name>驅魔師明虎
+despair_23_myungho_01>你身上充滿了邪惡氣息……
+despair_23_myungho_02>讓我來淨化你的身心吧……
+despair_23_myungho_03>白虎！
+despair_23_myungho_04>朱雀！
+despair_23_myungho_05>第一次感受到如此強大的氣息……
+despair_23_myungho_06>原來我看錯了……你的……氣息是……
+
+despair_24_Amina_name>卡米娜部隊成員
+despair_24_Amina_01>別動！ 你已被正式逮捕！
+despair_24_Amina_02>報告， 逮捕到非法入侵者！
+despair_24_Amina_03>制裁不法者！
+despair_24_Amina_04>喝啊！
+despair_24_Amina_05>嘿！
+despair_24_Amina_06>入侵者很強大……請求……支援……呃啊……
+
+
+
+despair_26_ruho_name>鬼印珠流虎
+despair_26_ruho_01>哈！
+despair_26_ruho_02>嘿哈！
+despair_26_ruho_03>極·鬼印珠！！
+despair_26_ruho_04>我的修煉還是不夠啊……唔！
+
+
+despair_28_Hwangbee_name>無影腳菲兒
+despair_28_Hwangbee_01>無影腳！
+despair_28_Hwangbee_02>鬼影腳！
+despair_28_Hwangbee_03>疾步一殺！
+despair_28_Hwangbee_04>又學了一招， 可惜啊……
+
+
+
+despair_29_cypher_man>異能者拉維特
+despair_29_cypher_01>超音速！
+despair_29_cypher_02>哈！ 轟！
+despair_29_cypher_03>嚓！
+despair_29_cypher_04>一擊！ 必殺！
+despair_29_cypher_05>咚咚！ 咚！ 咚！
+despair_29_cypher_06>我……是死了嗎……
+
+
+despair_31_yeomyung_name>結界師金龍法王
+despair_31_yeomyung_01>哈！
+despair_31_yeomyung_02>哈~呃！！！
+despair_31_yeomyung_03>嚓！！
+despair_31_yeomyung_04>金剛陣！
+despair_31_yeomyung_05>去死吧！
+
+
+despair_32_yeomyung_name>神投手蘭蒂斯
+despair_32_yeomyung_01>哈哈哈~你就是接球手嗎？
+despair_32_yeomyung_02>唔~~唔！ 直線球！
+despair_32_yeomyung_03>曲線球！
+despair_32_yeomyung_04>下墜球！
+despair_32_yeomyung_05>好！ 這次是慢速變化球！！
+despair_32_yeomyung_06>離我遠點！ 不要影響我投球！
+despair_32_yeomyung_07>裁判！ 他違反比賽規則， 該給紅牌！！
+
+despair_34_yeomyung_name>極影者希克娜
+despair_34_yeomyung_01>你能看到我嗎？
+despair_34_yeomyung_02>你……咳咳~竟然被你發現了……
+
+despair_38_yeomyung_name>威爾·斯麥龍
+despair_38_yeomyung_01>入侵者， 請離開！
+despair_38_yeomyung_02>入侵者， 警告你們！ 趕快離開！
+despair_38_yeomyung_03>防護……措施……關閉……呃！
+despair_38_yeomyung_04>轟！ 再來一個直拳……
+
+
+despair_39_yeomyung_name>火舞鞋麗絲
+despair_39_yeomyung_01>請欣賞最炫麗的舞姿！
+despair_39_yeomyung_02>嘻哈！ 跟我一起旋轉吧~
+despair_39_yeomyung_03>踢飛你~
+despair_39_yeomyung_04>呃……請記住……我倒下前的樣子……
+
+
+despair_41_capensis_name>龍王凱西斯
+despair_41_capensis_01>哈哈哈哈！ 這是我的地盤！ 識相的就回去吧！
+despair_41_capensis_02>哼~看來你不準備逃啊？
+despair_41_capensis_03>哼！ 接招！
+despair_41_capensis_04>再來一招！
+despair_41_capensis_05>哼~~這是送你的最後一份大禮~
+
+despair_42_yeomyung_name>分身術達人奧洛特
+despair_42_yeomyung_01>召喚！ 分身術！
+despair_42_yeomyung_02>真假難辨吧？
+despair_42_yeomyung_03>哈哈哈哈~
+despair_42_yeomyung_04>呃呃！ 哈哈！
+despair_42_yeomyung_05>咳~~~
+
+
+despair_43_rodem_name>黑豹羅奇
+despair_43_rodem_01>你是誰？
+despair_43_rodem_02>你不會是賞金獵人吧？！
+despair_43_rodem_03>在還我清白之前， 我是不會這麼輕易死掉的！
+despair_43_rodem_04>別怪我……再見了！
+despair_43_rodem_05>呃……我決不會……背叛我的同類……唔！！！
+
+despair_45_yeomyung_name>機械巡邏隊
+despair_45_yeomyung_01>發現入侵者！ 警告， 請迅速離開！
+despair_45_yeomyung_02>發現緊急情況！ 戰爭領主， 出擊！
+despair_45_yeomyung_03>啊啊！
+despair_45_yeomyung_04>呼~請求……支援……呃呃！
+despair_45_yeomyung_05>機械巡邏隊在45層請求支援！
+
+despair_47_yeomyung_name>貴族名醫廖青
+despair_47_yeomyung_01>你預約了嗎？
+despair_47_yeomyung_02>你屬於心靈上的創傷……
+despair_47_yeomyung_03>讓我來治癒你吧！
+despair_47_yeomyung_04>別亂動！
+despair_47_yeomyung_05>唉……你……還沒……付診金呢！
+despair_47_yeomyung_06>請回吧！
+despair_47_yeomyung_07>嗯？！ 還沒治好嗎？
+
+despair_48_G_king_name>斷背山之王羅賽夫
+despair_48_G_king_01>我這裡只歡迎男人！
+despair_48_G_king_02>嗚嗚嗚~
+despair_48_G_king_03>過來嘛！
+despair_48_G_king_04>我來給你揉揉~~
+despair_48_G_king_05>帥氣的男人最讓我著迷~
+despair_48_G_king_06>感受到我的誠意了嗎？
+despair_48_G_king_07>泰山壓頂！
+
+despair_49_yeomyung_name>駕駛達人梅諾
+despair_49_yeomyung_01>來陪我玩嘛？
+despair_49_yeomyung_02>呀！ 救命！
+despair_49_yeomyung_03>買新車囉~
+despair_49_yeomyung_04>等等！
+
+despair_54_yeomyung_name>氣衝煞庫沙諾
+despair_54_yeomyung_01>出來!
+despair_54_yeomyung_02> 卡啊
+despair_54_yeomyung_03> 喀呃
+despair_54_yeomyung_04>媽…媽
+
+despair_55_raki_name>拳王阿裡
+despair_55_raki_01>紅方登場！ 第二回合開始！
+despair_55_raki_02>一！
+despair_55_raki_03>二！
+despair_55_raki_04>直拳！
+despair_55_raki_05>刺拳！
+despair_55_raki_06>結束！
+
+
+despair_55_bighouse_name>挑戰者烏斯
+despair_55_bighouse_01>藍方登場！ 第一回合開始！
+despair_55_bighouse_02>死亡之過山車！ 接招！！
+despair_55_bighouse_03>出拳無悔！
+despair_55_bighouse_04>再來一局！
+
+
+despair_56_minet_name>迷你莎洛特
+despair_56_minet_01>小瞧對手是會吃大虧的！
+despair_56_minet_02>快點！
+despair_56_minet_03>再快點！
+despair_56_minet_04>靈活些！
+despair_56_minet_05>再靈活些！
+despair_56_minet_06>來啊！！
+
+despair_57_Gigante_name>巨人吉安特
+despair_57_Gigante_01>你想變成殘廢嗎
+despair_57_Gigante_02>抓到你了！
+despair_57_Gigante_03>哈哈哈哈！！
+despair_57_Gigante_04>三段踢！
+despair_57_Gigante_05>呃呃！！天下最強的吉安特……竟然……被打倒了……
+
+despair_58_pilraki_name>追獵者海莉
+despair_58_pilraki_01>嗚啊！ 去抓捕入侵者~
+despair_58_pilraki_02>乖乖認輸吧！
+despair_58_pilraki_03>最討厭嘈雜的環境了！
+despair_58_pilraki_04>哼~你等著！ 呼叫隊長！
+despair_58_pilraki_05>抱歉， 讓你受傷了~
+
+
+despair_62_karsh_name>音波魔王卡修
+despair_62_karsh_01>哈！
+despair_62_karsh_02>呼！
+despair_62_karsh_03>開！
+despair_62_karsh_04>天！
+despair_62_karsh_05>闢！
+despair_62_karsh_06>地！
+
+
+
+despair_64_namie_name>靈魂師娜米
+despair_64_namie_01>咦？ 我好像聞到了死亡的氣息~
+despair_64_namie_02>惡靈們正好餓了！！
+despair_64_namie_03>你會活在恐怖中……
+despair_64_namie_04>看來我也餓了~
+despair_64_namie_05>惡靈之襲~
+
+
+despair_67_soccer_girl>球王菲爾絲
+despair_67_soccer_girl01>嘿！ 傳球！
+despair_67_soccer_girl02>什麼！？！ 你不會踢？
+despair_67_soccer_girl03>這球踢起來很沉吧？ 是我專用的~
+despair_67_soccer_girl04>來！ 接球！
+despair_67_soccer_girl05>這才叫帶球撞人！
+despair_67_soccer_girl06>來！ 加強防守！
+despair_67_soccer_girl07>新練了一招必殺技， 正好拿你做實驗！
+despair_67_soccer_girl08>讓我教你一招！
+
+despair_68_continum_name>馴獸師肯妮亞
+despair_68_continum_01>請止步！ 這裡是野生動物保護區。
+despair_68_continum_02>啊！ 請不要傷害動物們！
+despair_68_continum_03>我不會放過你的！
+despair_68_continum_04>你這個瘋子！ 竟然摧殘小動物？！
+despair_68_continum_05>保護動物……人人有責……
+despair_68_continum_06>到別的地方去吧！
+despair_68_continum_07>別呆在這裡！
+
+
+despair_74_nenma_name>氣功大師風蓮
+despair_74_nenma_01>龍騰！
+despair_74_nenma_02>氣功波！
+despair_74_nenma_03>喝！
+despair_74_nenma_04>看來你還不知道我是誰……
+despair_74_nenma_05>認識赫頓瑪爾的振兒嗎？
+despair_74_nenma_06>氣功就該這樣用~
+despair_74_nenma_07>你不是我的對手！
+
+despair_75_black_knight_name>黑暗騎士
+despair_75_black_knight_01>呃呵呵呵……
+despair_75_black_knight_02>喝！
+despair_75_black_knight_03>黑暗會吞噬你！
+despair_75_black_knight_04>呃……
+
+despair_82_marcelo_name>圖盧瓦的主人馬塞洛
+despair_82_marcelo_01>離開這裡吧！ 此地不宜久留！
+despair_82_marcelo_02>不要靠近十字架！
+despair_82_marcelo_03>到我這裡來， 我能解除你身上的詛咒！
+despair_82_marcelo_04>哦~神啊！ 讓傷口癒合吧！
+despair_82_marcelo_05>混沌啊~繼續沉睡吧！
+despair_82_marcelo_06>呵~你還是暫時留在這裡吧！
+despair_82_marcelo_07>留下來吧！ 你聽見我的哀求了嗎？
+despair_82_marcelo_08>謝謝你解除了我的詛咒！
+despair_82_marcelo_09>你聽見樓上猛獸的怒吼了嗎？ 請小心！
+
+despair_84_sandman_name>控沙者拉瑪
+despair_84_sandman_01>哈~~嘿！ 出來吧， 流沙王庫茨！
+despair_84_sandman_02>沙塵暴！
+despair_84_sandman_03>滅亡吧！
+despair_84_sandman_04>我要用沙子將你活埋！
+
+despair_86_marcelo_name>長兵器達人明菲
+despair_86_marcelo_01>我可是關家第六十九代後人~
+despair_86_marcelo_02>想和我切磋嗎？
+despair_86_marcelo_03>一招定勝負！
+despair_86_marcelo_04>看我的獨門秘技！！
+
+despair_88_whichlong_name>魔鬼教官金龍浩
+despair_88_whichlong_01>好久沒見過活人了~
+despair_88_whichlong_02>哈哈~讓我來好好訓練你！
+despair_88_whichlong_03>沒想到克服重力後， 還能行動自如~
+despair_88_whichlong_04>表現不錯！ 再來！
+despair_88_whichlong_05>只能打贏我才能走出這裡~~
+
+despair_98_teruxia_name>危險進化之特魯西亞
+despair_98_teruxia_01>發現敵人！ 開始攻擊！
+despair_98_teruxia_02>你是誰不重要， 反正都是死！
+despair_98_teruxia_03>放棄吧！
+despair_98_teruxia_04>執迷不悟， 只有一死！
+
+despair_99_marcelo_name>萬獸之皇明皓
+despair_99_marcelo_01>樓下的瘋子竟然被你打敗了？
+despair_99_marcelo_02>吼吼~這裡除了野獸竟然還有活人？
+despair_99_marcelo_03>準備好了嘛？ 我可是很厲害的！
+despair_99_marcelo_04>哈哈~別疼到哭喪著臉哦~
+despair_99_marcelo_05>你不配和我交手， 讓我的子民們好好招待你！
+despair_99_marcelo_06>我的子民們會教你什麼叫臣服~
+despair_99_marcelo_07>稍等片刻， 馬上讓你大開眼界！！
+despair_99_marcelo_08>再踏入這裡， 我可不會善罷甘休！
+
+
+despair_17_niel_name>時尚潮人尼爾
+
+despair_19_folia_name>惡臭者波利亞
+despair_19_folia_01>嘻~好香的毒氣啊~
+despair_19_folia_02>你說我身上有味道？！！
+despair_19_folia_03>你躲什麼？！
+
+despair_21_buyong_name>憤怒的艾爾卡
+despair_21_buyong_01>我要發洩！ 算你倒楣！！
+despair_21_buyong_02>巴倫那傢夥竟然自己上去了……氣死我了！！
+despair_21_buyong_03>
+
+despair_cubre_name>蒼松 - 丘伯莉
+despair_25_cubre_01>
+despair_logicstar_name>紅楓 - 洛伊塔
+despair_25_logicstar_01>
+despair_teonia_name>白樺 - 歐妮雅
+despair_25_teonia_01>
+despair_rhapanpan_name>黑蓮 - 艾芙拉
+despair_25_rhapanpan_01>
+
+despair_ojung_name>三徒弟沙僧
+despair_15_ojung_01>
+
+despair_ogong_name>大徒弟悟空
+despair_15_ogong_01>知道哪個是真身嗎？
+
+despair_lee_name>二徒弟八戒
+despair_15_lee_01>
+
+orca_name>奧爾卡
+
+despair_27_name>黑影烏蘭
+despair_27_01>你……你是暗精靈嗎？！
+despair_27_02>我正在尋找那可惡的叛徒！
+despair_27_03>小心你的身後！
+despair_27_04>叛徒就要接受懲罰！
+despair_27_05>不要妨礙我！
+despair_27_06>呃……失誤了……
+despair_27_07>一定要抓到真正的叛徒……一定……
+
+despair_33_name>貓女繆繆
+despair_33_01>博士？！ 你是誰？
+despair_33_02>穆尼斯博士你在哪啊？
+despair_33_03>繆繆生氣了！ 喵~
+despair_33_04>走開！喵~
+despair_33_05>喵~
+despair_33_06>好疼呀！！
+despair_33_07>博士……什麼時候來看繆繆呢……
+
+despair_36_name>瘋狂的卡雷婭
+despair_36_01>啊！！有敵人！ 我要被殺了！
+despair_36_02>敵人來了！ 大家快跑呀！
+despair_36_03>攻擊！ 攻擊呀！
+despair_36_04>機器人！ 快召喚機器人！
+despair_36_05>救命啊！！
+despair_36_06>誰來救救我？！！
+despair_36_07>我討厭武力……我要回家……
+
+despair_37_name>美腿朱莉
+despair_37_01>我的美世界聞名~
+despair_37_02>什麼？！ 我的廣告被人搶了？！
+despair_37_03>我的魅力來源於這雙健美的長腿！
+despair_37_04>想保持好身材， 就要不斷地踢腿！
+despair_37_05>不要迷戀我唷~嘻嘻~
+despair_37_06>你在嫉妒我嗎？
+despair_37_07>長得漂亮也是一種罪？
+despair_37_08>世界沒有我， 將失去所有色彩~
+
+despair_35_name_01>熊爸爸大熊
+despair_35_name_02>熊媽媽美熊
+despair_35_name_03>熊寶寶小熊
+despair_35_01>熊爸爸啊~最強壯~
+despair_35_02>熊媽媽啊~最美麗~
+despair_35_03>熊寶寶啊……能不能不唱？~
+despair_35_04>不要小看來自北極的男人！
+despair_35_05>兒子正處於發育期， 哈哈！
+despair_35_06>家庭由我來守護！
+despair_35_07>熊爸爸！！ 最強壯！！
+despair_35_08>呵呵！ 你在撓癢癢嗎？
+despair_35_09>啊……沒能保護好我的家人……
+despair_35_10>老公！ 寶貝！ 到媽媽懷裡來！
+despair_35_11>家庭是最寶貴的財富~
+despair_35_12>女人你也打！！
+despair_35_13>嗚嗚！ 老公！！
+despair_35_14>是你， 讓我們家破人亡……
+despair_35_15>我不要當熊寶寶！！
+despair_35_16>不要叫我熊寶寶！
+despair_35_17>你再說一次？！
+despair_35_18>唔！ 好丟臉！
+despair_35_19>其實有爸爸媽媽挺好的……
+
+girl_name_06>糖果甜心之香草
+girl_name_07>糖果甜心之檸檬
+girl_name_08>糖果甜心之蘋果
+girl_name_09>糖果甜心之櫻桃
+girl_name_10>糖果甜心之獼猴桃
+despair_65_01>我是糖果甜心的香草~
+despair_65_02>我是糖果甜心的檸檬~
+despair_65_03>我是糖果甜心的蘋果~
+despair_65_04>我是糖果甜心的櫻桃~
+despair_65_05>我不要當獼猴桃！！好難聽！！
+despair_65_06>想看我們表演嗎？
+despair_65_07>香甜可口~?
+despair_65_08>心跳加速了嗎？
+despair_65_09>呀！
+despair_65_10>呀！ 禁止拍照！
+despair_65_11>哎~我想下次換性感路線~
+despair_65_12>我果然不適合走可愛路線……
+despair_65_13>我可愛嗎？
+despair_65_14>嚶~很可愛吧？
+
+despair_61_name>安靜的J
+despair_61_01>我不喜歡說話~
+despair_61_02>……
+despair_61_03>……
+despair_61_04>我還是不想說話！
+despair_61_05>咳咳……
+despair_61_06>來~
+
+despair_52_name>黃金蝶之梅克琳
+despair_52_01>沒見過你？ 有什麼好玩的和我分享不？
+despair_52_02>是不是好像看到了黃金蝴蝶？
+despair_52_03>這裡有很多有趣的事哦……
+despair_52_04>我只是來玩的~放輕鬆！
+despair_52_05>別走啊~再陪我玩一會！
+despair_52_06>呀~你認真了？
+despair_52_07>太過分了！
+despair_52_08>……我不能死……我得等他……
+
+despair_72_name>重砲手布朗
+despair_72_01>男重砲手的未來全靠我了！
+despair_72_02>讓你見識下男重砲手真正的實力~
+despair_72_03>呵！ 你就這點本事嗎？
+despair_72_04>哈哈~還不錯嘛！
+despair_72_05>我相信男重砲手會等到頂峰的一天……
+despair_72_06>終於遇到了真正的對手， 可惜……
+despair_72_07>來！ 送你個重磅炸彈！！
+despair_72_08>打起精神來吧~
+despair_72_09>呼呼~給你消消暑！
+despair_72_10>呼呼~送你一片熱情的沙漠！
+despair_72_11>你是逃不掉的！
+despair_72_12>給你來個刺激的！！
+despair_72_13>哈哈！ 不是所有的重砲手都不敢接近敵人的~
+
+despair_83_name>銀狐詩玥
+despair_83_name1>銀狐
+despair_83_01>是人類毀了我們兄妹， 我要報仇！
+despair_83_02>可惡……走著瞧！
+despair_83_03>我不會輸的！
+despair_83_04>休想靠近我身邊！
+despair_83_05>貪得無厭的人啊！ 等著下地獄吧！
+despair_83_06>憑你也想拿銀狐皮！
+despair_83_07>呵~真能跑啊！
+despair_83_08>是人類欺騙了我們兄妹倆！
+despair_83_09>把哥哥還給我！
+despair_83_10>哥哥……我來陪你了……
+
+despair_91_name>墮落天使希爾
+despair_91_name1>地獄的怨靈
+despair_91_01>愛上了人類， 卻被這愛所毀滅……
+despair_91_02>想起我曾經呆過的那個地獄……
+despair_91_03>可惡！
+despair_91_04>我恨所有的一切……
+despair_91_05>我現在剩下的， 只有執著！
+despair_91_06>他早在100年前就已經不在了……
+despair_91_07>好不容易爬出那可怕的地獄……
+despair_91_08>翅膀被無情地折斷， 我的生活從此墮落！！
+despair_91_09>我只不過是愛上了人類而已……神， 我恨你！
+
+despair_85_name>地獄之手幽茗
+despair_85_01>無數雙手在向你召喚……召喚你來到地獄！！
+despair_85_02>再來啊！
+despair_85_03>嘻嘻嘻~
+despair_85_04>去吧……陷入這絕望的沼澤中去吧！！！
+despair_85_05>嘻嘻~看到了麼？ 一雙雙充滿絕望的手在不停地掙紮……
+despair_85_06>那是非常可怕又令人厭惡的……
+despair_85_07>哈哈！ 怨恨是非常恐怖的東西……
+despair_85_08>詛咒你……總有一天我會親手抓到你……
+
+//?? gsd ??
+cc_gsd_1>來， 用盡全力， 攻擊我！
+cc_gsd_2>放心， 我準備好了！
+cc_gsd_3>就這點本事麼？
+cc_gsd_4>太讓我失望了！
+
+despair_69_4season_name>突變四季
+despair_69_4season_01>醜陋的傢伙！
+despair_69_4season_02>快點換髮型吧！
+despair_69_4season_03>哇 你來自哪個星球？
+despair_69_4season_04>加上尾巴的話應該很帥！
+despair_69_4season_05>曲線美之踢！
+despair_69_4season_06>去！！
+despair_69_4season_07>不要參加時裝秀！！
+despair_69_4season_08>這是給你的禮物！
+despair_69_4season_09>喀
+despair_69_4season_10>啊!
+despair_69_4season_11>喀啊!
+
+despair_46_odo_name>升龍武神歐麗
+despair_46_odo_01>升龍拳！！
+despair_46_odo_02>疾風追擊！！
+despair_46_odo_03>受死吧！！
+despair_46_odo_04>或許天堂的空氣會更清新吧……
+despair_46_odo_05>啊!
+despair_46_odo_06>啊啊!
+
+despair_44_mosis_name>禦劍之魂莫希斯
+despair_44_mosis_01>磷光斬！！
+despair_44_mosis_02>一劍制敵！
+despair_44_mosis_03>嘗嘗威力吧！
+despair_44_mosis_04>橫掃千軍！
+despair_44_mosis_05>呃……一時大意……
+despair_44_mosis_06>碎裂吧！
+
+despair_53_pong_name>召喚大師珀婭
+despair_53_pong_01>出來吧……凱西利亞斯！！
+despair_53_pong_02>爆炸吧！！
+despair_53_pong_03>抓住他！！
+
+despair_59_japa_name>三個願望 - 嘉芭
+despair_59_japa_01>第一個願望， 保護我！！！
+despair_59_japa_02>我的第二個願望是除掉那個傢夥！！
+despair_59_japa_03>我還沒許第三個願呢……
+
+despair_63_airsword_name>伊奇兒劍黃梅良
+despair_63_airsword_01>嚐嚐我的劍的利害。 
+despair_63_airsword_02>刀子不長眼
+despair_63_airsword_03>注入劍氣。
+despair_63_airsword_04>看來我修煉得還不夠……
+
+despair_89_laowu_name>拳皇泰亨
+despair_89_laowu_01>聖暴擊拳！ 
+despair_89_laowu_02>你會後悔遇到我的！
+despair_89_laowu_03>聖·獄屠拳！
+despair_89_laowu_04>聖·虎破龍！
+despair_89_laowu_05>沒想到我也有這一天……
+despair_89_laowu_06>等下你會變成一攤肉體……
+
+despair_93_mesteria_name>墮落的隕石梅絲塔
+despair_93_mesteria_01>熾焰攻擊！！
+despair_93_mesteria_02>隕石浩劫！！
+despair_93_mesteria_03>嘗嘗隕石的滋味吧！
+despair_93_mesteria_04>燃燒吧！
+despair_93_mesteria_05>哼哼！ 不自量力！
+despair_93_mesteria_06>我……錯了……
+
+event_farmer_name>農夫
+event_farmer_00>我從來不用化肥。 種的水稻全靠養鴨子來施肥。
+event_farmer_01>哇哈哈~諾斯瑪爾的耕地我全包了！！
+event_farmer_02>為了生態平衡必須遵守有機農種植法。
+event_farmer_03>如果我提供阿拉德牌大米， 你會買麼？
+
+despair_71_ladudu_name>噬魂者裡恩
+ladudu_01>呃！
+
+despair_73_reina_name>魔彈持有者蕾娜
+reina_01>準備！
+reina_02>第一發！
+reina_03>第二發！
+reina_04>第三發！
+reina_05>第四發！
+reina_06>第五發！
+reina_07>第六發彈！
+reina_08>重新裝上子彈……
+reina_09>呵呵……明天我還會復活的……
+
+despair_97_coni_name>四次元的摩基絲
+coni_01>來自幻魔之眼。
+coni_02>肯定我的存在吧！
+
+despair_95_tinas_hauff_name>法力獵食者迪納斯
+tinas_hauff01>這麼多Buff……又有好吃的了！
+tinas_hauff02>看起來真美味啊！
+tinas_hauff03>謝謝你提供的美餐！
+tinas_hauff04>連鬼都不放過！！
+tinas_hauff05>我要把你的魔力都吸收掉！！
+tinas_hauff06>把我關在這裡的傢伙... 我不會放過你！  抵達里查德！
+
+despair_76_hesiss_name>穆尼斯博士
+hesiss_01>死神附身！ 等等你就知道了！
+hesiss_02>還剩80秒……
+hesiss_03>70秒……
+hesiss_04>60秒……
+hesiss_05>還剩50秒……
+hesiss_06>40秒……
+hesiss_07>30秒……
+hesiss_08>還剩20秒……
+hesiss_09>10秒倒計時……
+hesiss_10>取走你的性命...
+hesiss_11>艾澤拉……我們真的無法挽回了嗎？
+hesiss_12>是繆繆嗎？ 啊……原來不是……你看到繆繆了嗎？
+hesiss_13>真懷念故鄉啊……繆繆， 你想跟我一起回去嗎？
+hesiss_14>太痛苦了……
+hesiss_15>真不該做這樣的實驗……
+
+despair_78_bihwarang_name>花郎道
+despair_78_bihwarang_01>衝啊！！
+despair_78_bihwarang_02>你知道怎麼回新羅嗎？
+despair_78_bihwarang_03>事君以忠！
+despair_78_bihwarang_04>事親以孝！
+despair_78_bihwarang_05>事友以信！
+despair_78_bihwarang_06>臨陣無退！
+despair_78_bihwarang_07>殺生有擇！
+
+despair_79_guangma_name>阿修羅狂魔
+guangma_01>你看過另一個我嗎？ 感受的他的波動。
+
+guangma_stand00>你見過另一個我嗎？ 我能感受到他的波動。
+guangma_stand01>以前的我長什麼樣呢？
+guangma_stand02>陷入異次元裂縫後， 所有記憶都亂了。
+guangma_damage00>哼！
+guangma_damage01>呃……
+guangma_die>我還是沒看到另一個我……
+guangma_attack00_1>真·波動！
+guangma_attack00_2>是在那裡嗎？
+guangma_attack01_1>波動的力量似乎越來越強了……
+guangma_attack01_2>呃唔！
+guangma_attack01_3>真·波動！
+guangma_attack02_1>真·波動！ 極浪！
+guangma_attack02_2>哼！
+guangma_attack03_1>來吧！
+guangma_attack03_2>真·波動！ 紅眼！
+guangma_attack04_1>真·波動！ 煙波！
+guangma_attack04_2>哈哈！
+guangma_attack07_1>脈輪！
+guangma_attack09_1>真·暗天波動眼！
+
+despair_92_baron_name>覺醒後的巴倫
+despair_92_baron_01>看見我的孩子們了嗎？
+despair_92_baron_02>哈哈哈哈哈！
+despair_92_baron_03>強者的秘訣就是強化和商城道具！ 哈哈~
+despair_92_baron_04>這把大刀很帥吧？
+despair_92_baron_05>留我一條活路吧……
+despair_92_baron_06>饒了我吧！
+despair_92_baron_07>睡了嗎?
+despair_92_baron_08>繼續睡吧…
+despair_92_baron_09>我已經不再是從前的我！
+despair_92_baron_10>領主衝擊波！！！我是不是很霸氣啊？ 啊哈哈哈~
+despair_93_baron_11>我也要進入暴戾搜捕團嗎？
+
+despair_96_soldoros_name>劍聖索德羅斯
+soldoros_01>鈍器也挺好用的！
+soldoros_02>還是用光劍跟你好好玩吧！
+soldoros_03>竟然需要召喚到克拉麗斯！ 還不錯嘛~不如考慮加入我們？
+soldoros_04>很厲害嘛！ 年輕人！
+soldoros_05>暴戾搜捕團需要獲得重生！ 這種消極態度只能一事無成！
+soldoros_06>守護世界才是我們留在絕望之塔的唯一目的。
+soldoros_07>哈哈哈！ 今天就到此為止吧。
+
+despair_100_god_name>神劍梁月
+god_01>我只用一根手指就能對付你。
+god_02>咿喀！
+god_03>好好打鬥吧。
+god_04>有好多缺點。
+god_05>吼... 這樣不行喔....
+god_06>修煉有點不足。
+god_07>修改下……用兩根手指……
+god_08>呃……再加一根手指……
+god_09>100年來第一次失敗... 真新鮮。 再見吧！
+god_10>你還不錯~現在開始正式切磋！
+
+gm_lovely_name>親愛的英子
+gm_lovely_01>帶來幸福和微笑的英子
+gm_lovely_02>噶！！好害怕~
+gm_lovely_03>咦~ 走開走開！
+gm_lovely_04>媽呀~~請你救救我
+gm_lovely_05>我的天職是給大家帶來歡樂！！
+gm_lovely_06>好疼呀！
+gm_lovely_07>我多麼想把我的翅膀讓給你……
+gm_nasty_name>討厭的英子
+gm_nasty_01>別太憎恨她了~看到我的黑眼圈了麼？
+gm_nasty_02>我正在努力……
+gm_nasty_03>看到沒？ 看到沒？
+gm_nasty_04>都說不是巴爾幹了？？
+gm_nasty_05>快用無色小晶塊~會很有用的~！
+gm_nasty_06>啊~~不要這樣~
+gm_nasty_07>知道了……今天也要加班麼……
+gm_reliable_name>值得信賴的英子
+gm_reliable_01>我會在這裡保護大家的安全……
+gm_reliable_02>加油啊！
+gm_reliable_03>你會越來越厲害的。
+gm_reliable_04>不要擔心啊。
+gm_reliable_05>哎呀， 好危險。
+gm_reliable_06>呃呃！
+gm_reliable_07>放心吧……沒有我， 你也能做得很好。
+
+curse_priest_namd_q>聖職者
+ai_priest_speech_q>你是誰？
+ai_priest_speech_q1>從哪裡出現的？
+ai_priest_speech_q2>有什麼事嗎？
+
+//??? ????? ?? (??? ???)
+ai_nils2_speech_appear>令人厭煩的女人……
+
+verrickt2_speech_1>把我帶到朋友那裡吧……
+verrickt2_speech_2>好懷念過去啊……
+verrickt2_speech_3>哈！
+verrickt2_speech_4>不要站在身後！
+verrickt2_speech_5>試試這個吧！
+verrickt2_speech_6>你們也老了啊！
+verrickt2_speech_7>不要跟著我！
+
+// ???? ??(???)
+ai_Pain_of_WarRock_name>痛苦的魔皇
+ai_Pain_of_WarRock_speech_1>傷痕啊... 除掉我的痛苦！！！
+
+// ????(??)
+ai_GhostPriest_name>幽靈新娘
+ai_GhostPriest_speech_1>不能再接近了！
+ai_GhostPriest_speech_2>惡靈就交給我吧...
+
+//?? APC
+bodyguard_namd>巡查隊員多米尼
+bodyguard_01>你還好吧？
+bodyguard_02>我叫多米尼， 是阿拉德巡邏隊的一名隊員。
+bodyguard_03>呃……很抱歉， 我先告辭了……
+bodyguard_04>我主要負責巡查艾爾文防線和格蘭之森。
+
+bodyguard1_namd>巡查隊員加爾文
+bodyguard1_01>在這裡做什麼呢？ 呵呵~
+bodyguard1_02>我叫加利文， 是阿拉德巡邏隊的一名隊員。
+bodyguard1_03>嗚嗚~再見了， 希望下次不需要我的協助……
+bodyguard1_04>我主要負責巡查天空之城， 我非常熱愛這份工作！
+
+curse_priest_namd> 山多斯
+curse_priest_namd1> 羅米艾拉
+curse_priest_namd2> 米傑爾
+curse_priest_namd3> 安德雷亞
+
+curse_priest_01> 是光！
+
+mirror_name>明鏡止水
+
+ai_character_name_412>黑魔團隊長泰武
+ai_character_name_413>黑魔團副官庫拉因
+ai_character_name_414>黑魔團團員圖特魯
+ai_character_name_415>黑魔團監視官特羅佩
+ai_character_name_416>黑魔團監視官阿普雷多
+ai_character_name_417>黑魔團團員撒助
+Hunter_name01> 獵人Lee
+Rithe_name01>貪欲的畢昂西
+Spear_master_name01>槍術的達人呂雨
+Hell_raki_name01>卡蓮‧凱米亞
+Hell_bighouse_name01>湯姆‧凱米亞
+Esadon_name01>回去吧，親家
+Ice_archer_name01>冰弓箭手泰浩
+space_distortion_name01>轉移召喚師宏茲
+
+ai_name_412_speech01>你看！你來這裡是為了尋找什麼？
+ai_name_412_speech02>回去吧！你知道現在你們對多少人造成威脅嗎？
+ai_name_412_speech03>不要再打亂時間的規則
+
+ai_name_413_speech01>找到了 這個不良分子！
+ai_name_413_speech02>永遠被困在這個時間裡
+ai_name_413_speech03>你了不起的生命的時間就到此為止
+
+ai_name_414_speech01>外人！你想重溫過去的記憶嗎？
+ai_name_414_speech02>你！你最幸福的時候是什麼時候？
+ai_name_414_speech03>過去的記憶留下的是最美麗的
+
+ai_name_415_speech01>入侵者！我現在所屬的時間帶是哪裡呢！？
+ai_name_415_speech02>你在你存活的時間帶認真的生活
+ai_name_415_speech03>你把腳踏進此地的瞬間你的人生就改變了！！
+
+ai_name_416_speech01>膚淺的傢伙！還以為知道此地是哪裡才來~~
+ai_name_416_speech02>真膚淺！膚淺！你到底想知道些什麼！！
+ai_name_416_speech03>就算看得到未來，也無法改變你的人生！愚蠢的傢伙
+
+ai_name_417_speech01>辛苦了。請出示身分證~~
+ai_name_417_speech02>你知道這裡是禁止出入區域嗎？ 請出示身分證
+ai_name_417_speech03>會徵收罰款
+
+Hell_raki_speech01>這裡是聖殿嗎？
+Hell_raki_speech02>有任何疑問等戰鬥結束後再發問！
+
+Hell_bighouse_speech01>你是誰？
+Hell_bighouse_speech02>投降可以保住一條小命！
+
+Hunter_speech01> 喔呼~新的食物呢！
+Hunter_speech02> 今天絕對不會錯過！
+Hunter_speech03> 燃燒靈魂
+
+Rithe_speech01>不想知道未來嗎？
+Rithe_speech02>我知道所有值錢的情報！
+Rithe_speech03>80級的猶尼克常出現的地方是XX
+Rithe_speech04>80級首領猶尼克最常出現的地方是XX
+Rithe_speech05>80級史詩最常出現的地方是XXXX
+
+Esadon_speech01>都~~聽著！
+Esadon_speech02>一整天~~
+Esadon_speech03>咬緊牙根！
+Esadon_speech04>日以繼夜的~~
+
+Spear_master_speech01>泰！！浩~！給我看！
+Spear_master_speech02>NO~~~~
+Spear_master_speech03>這個世上不成材的傢伙就是不成材~~
+
+Ice_archer_speech01>? ?? ??? ?? ???!!
+Ice_archer_speech02>?? ???!
+Ice_archer_speech03>???? ???!
+
+space_distortion_speech01>咿嘻！這裡是哪裡？
+space_distortion_speech02>好煩喔~這裡都叫過了！
+space_distortion_speech03>只要再繼續研究就能解開所有秘密......
+
+corona_name01>西恩特戰團
+corona_speech01>哈咿呀呀~~
+corona_speech02>是敏植嗎？
+corona_speech03>現在你看見~~~~鳥嗎？
+corona_speech04>啊~~文帝叉.....
+corona_speech05>呀~！是百分之百嗎！
+corona_speech06>是萬植嗎？
+corona_speech07>是民植嗎？
+
+light_man_name01>雷劍亞里杉
+light_man_speech01>收集閃電用一把灰燼......
+light_man_speech02>全身感受戰慄
+
+super_riquelme_name01> 孤獨的巴戈拿海依傑
+super_riquelme_speech01> 毫不遲疑的嗨X！
+super_riquelme_speech02> 暈眩的決裂X！
+super_riquelme_speech03> 今天就到此為止！
+
+Tome_name01>牢埃拌 墨喘
+Tome_speech01>Tome_speech01
+Tome_speech02>Tome_speech02
+
+woman_general_name01>woman_general_name01
+woman_general_speech01>woman_general_speech01
+woman_general_speech02>woman_general_speech02
+
+sill_name01>碧羅斯切暗殺團
+sill_speech01>捕捉目標物！
+sill_speech02>除掉！
+
+tanker_name01>強化系摩比斯
+tanker_speech01>我的目標只有一個。
+tanker_speech02>變強之後活下來。
+
+
+Jackie_name>後巷的傑克成
+Jackie_01>躲在我背後
+Jackie_02>喀喀，除掉吧~？
+Jackie_03>很高興見到你~！
+
+nizard_name>浪人傭兵奈札特
+nizard_01> 客人你叫我你做了部會後悔的選擇。
+nizard_02>沒時間了。 我要馬上離開
+nizard_03> 全部用掉就好嗎？
+
+rosa_name>羅莎布雷克
+rosa_01>我只要抓一個傢伙
+rosa_02>等待！我需要休息時間
+rosa_03>羅莎~我的名字叫羅莎~
+rosa_04>羅莎~羅莎~羅莎~羅莎~羅~莎~
+
+bomb_man_0>D.T. 部隊納樂凱
+bomb_man_1>在炸彈放置結束前和敵人對峙
+bomb_man_2>爆破！趴下！
+bomb_man_3>因戰鬥導致地基不穩，無法放置炸彈
+bomb_man_4>要找別的路徑
+
+
+powerstation_priest_0>發電站總負責人泰拉斯特
+powerstation_priest_1>破壞這個傢伙，那個傢伙就會變弱
+powerstation_priest_2>那麼我先告辭了... 往後的事就拜託你了
+powerstation_priest_3>呼呼！果然是我做的
+
+powerstation_man_0>特隆貝所長魏奈茲
+powerstation_man_1>格蘭迪內所長元德斯
+powerstation_man_2>再撐一下！馬上就結束了
+powerstation_man_3>幾乎都結束了。
+powerstation_man_4>擊敗那個傢伙！
+powerstation_man_5>其他是你的部分
+
+
+Dual_tina_0> 親衛軍隊長高樂帕聰 
+
+Dual_Verrickt_0> 吉傑爾的護衛組員
+
+Dual_gost_0> 鬼武者拉坤
+
+Dual_general_0> 爆彈魔測試奈爾森

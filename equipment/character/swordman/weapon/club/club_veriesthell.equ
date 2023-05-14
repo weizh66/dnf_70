@@ -1,0 +1,188 @@
+#PVF_File
+
+[name]
+	`地獄邪目`
+
+[basic explain]
+	`    攻擊時， 有5%%的幾率使自身進入失明狀態。
+自身處于失明狀態下時， 對敵人的傷害 +50%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使自身進入失明狀態10秒； 但在決斗場中， 只能持續5秒； 失明狀態下， 減少80%%視野和10%%命中率。 (若敵人高于Lv60， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+自身處于失明狀態下傷害 +50%% (在決斗場中 +25%%)`
+
+[flavor text]
+	`    神給罪惡之人的懲罰是讓他下地獄！ 什么樣的人會下地獄？  --對武器威力心聲顫栗的布萬加`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`club`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3400
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/club.img`	37
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	64
+
+[equipment physical attack]
+	629	576
+
+[equipment magical attack]
+	543	498
+
+[separate attack]
+	360	243
+
+[attack speed]
+	-30
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		5
+	[active status]
+		`blind`	60	80	10
+[/then]
+
+[if]
+	[my active status]
+		`blind`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	50
+[/then]
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[variation]
+	5	2
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`STICK_TOUCH`
+
+[pvp]
+	[if]
+		[cooltime]
+			9000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[duration]
+			10000
+		[reduce duration to human armor at pvp module]
+			50
+		[probability]
+			5
+		[active status]
+			`blind`	60	80	10
+	[/then]
+	[if]
+		[my active status]
+			`blind`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	25
+	[/then]
+[/pvp]
+
+[routing priority]
+[/routing priority]
+
+[need material]
+	2749095	129
+
+[possible kiri protect]

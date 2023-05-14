@@ -1,0 +1,27 @@
+#PVF_File
+
+[name]
+	`哥布林挖掘者爆?`
+
+[width]
+	1	1
+
+[layer]
+	`[bottom]`
+
+[basic action]
+	`Action/Explosion.act`
+
+[team]
+	100
+
+[attack info]
+	`AttackInfo/EarthQuake.atk`
+
+[layer]
+	`[bottom]`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	2000
+[/object destroy condition]

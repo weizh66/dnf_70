@@ -1,0 +1,232 @@
+#PVF_File
+
+[name]
+	`焰火刀 - 卡拉貝拉`
+
+[basic explain]
+	`攻擊時以15%% 的機率火屬性 30%% 附加傷害
+輸入上，下，+ [寵物技能操作鍵] 時20秒內武器發出紅光。
+武器發出紅光時，火屬性強化增加20，火屬性抵抗增加20，攻擊時300px 範圍內最近的敵人施展Lv10烈焰衝擊`
+
+[detail explain]
+	`攻擊時以 15%% 的機率給予火屬性 30%% 附加傷害
+輸入上，下，+ [寵物技能操作鍵]時20秒內武器變紅。 （安裝解除時選項解除。）
+武器變紅時，火屬性強化增加20，火屬性抵抗增加20，攻擊時300px 範圍內最近的敵人施展 Lv10烈焰衝擊。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	56
+
+[magical attack]
+	84
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	783	726
+
+[equipment magical attack]
+	865	802
+
+[separate attack]
+	504	343
+
+[physical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	96
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	32	1
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	32	1
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[routing priority]
+	`swordman`	2
+	`demonic swordman`	0
+[/routing priority]
+
+[elemental property]
+	`[fire element]`
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[appendage]
+		165
+	[equipment duration]
+		20000
+[/then]
+
+[if]
+	[my appendage]
+		165
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[stat]
+		`fire attack`
+		`+`	20
+	[stat]
+		`fire resistance`
+		`+`	20
+[/then]
+
+[if]
+	[my appendage]
+		165
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`enemy near`	300
+	[passive object]
+		48518	0	0	0	10	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		30
+	[add absolute damage]
+		`fire`
+		`%`	30
+[/then]
+
+[possible kiri protect]

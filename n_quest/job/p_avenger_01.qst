@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	3
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7852	7856	7860
+[/collision quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7864
+
+[name]
+	`轉職 - 復仇者 (1/4)`
+
+[depend message]
+	`離我遠點！ 你這個惡魔！！ 否則我要代表教團對你進行懲戒！
+…………等等， 我好像從你眼中看到了什么……
+我知道你也中了血之詛咒， 可是為什么你的眼里還保留著一絲信仰……只可惜， 這一點點信仰也快被你的復仇之心蒙蔽了。
+你真的想當一個‘復仇者’嗎？`
+
+[condition message]
+	`    若想成為復仇者， 可以去找歌蘭蒂斯談談。 (若完成此任務， 則不能再接受其它的轉職任務， 請慎重選擇！)`
+
+[solve message]
+	`雖然你走的路與我們截然不同， 但無論如何， 也希望神能一直保佑你。`

@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	19
+
+[complete npc index]
+	2
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	34	99
+
+[pre required quest]
+	36
+[/pre required quest]
+
+[depend give item]
+	4037	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4037	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`羅特斯的記憶`
+
+[depend message]
+	`這個讓人毛骨悚然的紅色蠟燭是羅特斯的？ 火焰里好像有奇怪的文字！ 呃……讓我想想， 它很像我們在古代語言課上學的精靈語！
+可惜我很久沒有看過這種語言了， 你還是找精靈幫忙吧， 他們肯定懂這種語言。 `
+
+[condition message]
+	`    拿著[羅特斯的記憶蠟燭]找賽麗亞幫忙。`
+
+[solve message]
+	`你好……嗯？ 你拿的蠟燭好奇特， 它是……？！ `
+
+[quest point]
+	4

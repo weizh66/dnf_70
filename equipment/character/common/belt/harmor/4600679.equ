@@ -1,0 +1,131 @@
+#PVF_File
+
+[name]
+	`封·星雲迷蹤腰帶`
+
+[basic explain]
+	`  自身處于失明狀態時， 增加10%%的物理暴擊率和魔法暴擊率。 （解除裝備后效果消失）`
+
+[detail explain]
+	`  自身處于失明狀態時， 增加10%%的物理暴擊率和魔法暴擊率。 （解除裝備后效果消失）
+  被擊時以20%%的機率施展Lv15泯滅黑洞技能（決鬥場以2%%機率施展）`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12566
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	24
+
+[magical attack]
+	18
+
+[physical defense]
+	22
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	900
+
+[price]
+	86000
+
+[repair price]
+	68800
+
+[value]
+	68800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1552	1408
+
+[icon]
+	`item/new_equipment/05_harmor/belt/harmor_belt.img`	10
+
+[field image]
+	`Item/field_equip.img`	13
+
+[equipment type]
+	`[waist]`	19
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	1400
+
+[item group name]
+	`ha waist`
+
+[cool time]
+	10000
+
+[if]
+	[my active status]
+		`blind`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[stat by condition]
+		`stuck`
+		`+`	-20
+	[stat by condition]
+		`physical critical hit`
+		`+`	10
+	[stat by condition]
+		`magical critical hit`
+		`+`	10
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		30000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		20
+	[reduce probability to human armor at pvp module]
+		90
+	[perform skill]
+		`mage`	58	15	0
+[/then]
+
+[possible kiri protect]

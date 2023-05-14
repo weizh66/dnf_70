@@ -1,0 +1,198 @@
+#PVF_File
+
+[set name]
+	`璇龍奪魄  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[fighter]`	9
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	5
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	6
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	7
+		`%`	30
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[level]`	8
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[膝擊]攻擊力 +30%%
+格斗家(女)
+[背摔]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[fighter]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[fighter]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[fighter]`	89
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2
+		`[at fighter]`	9
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[at fighter]`	49
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[膝擊]冷卻時間 -30%%
+[拋投]冷卻時間 -20%%
+[拋投]攻擊力 +20%%
+[地獄風火輪]冷卻時間 -30%%
+格斗家(女)
+[背摔]冷卻時間 -30%%
+[地獄搖籃]旋轉次數 +2
+[地獄搖籃]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[fighter]`	89
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[fighter]`	89
+		`[dungeon type]`
+		`[static]`	2
+		`+`	6
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	0
+		`%`	70
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	70
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	2
+		`%`	70
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	3
+		`%`	70
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	4
+		`%`	70
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[level]`	5
+		`%`	70
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[static]`	4
+		`%`	100
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[static]`	5
+		`%`	100
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[static]`	0
+		`%`	-50
+		`[at fighter]`	89
+		`[dungeon type]`
+		`[static]`	1
+		`+`	100
+	[/skill data up]
+	[parameter basic explain]
+		`格斗家(男)
+[地獄風火輪]轉身踢時， 可以將敵人浮空
+[地獄風火輪]攻擊力 +70%%
+[地獄風火輪]攻擊波范圍 +100%
+[地獄風火輪]無色小晶塊消耗量 +1
+格斗家(女)
+[地獄搖籃]旋轉次數 +6
+[地獄搖籃]無色小晶塊消耗量 +1`
+[/piece set ability]

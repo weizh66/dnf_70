@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`旋風斗星弩`
+
+[basic explain]
+	`[回旋踢]、 [上旋踢]旋轉次數 +1`
+
+[flavor text]
+	`    神槍手的兩只手變得相對自由后……`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`bowgun`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	2300
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	33
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	39
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[magical attack]
+	20
+
+[equipment physical attack]
+	419	355
+
+[equipment magical attack]
+	465	394
+
+[separate attack]
+	328	220
+
+[attack speed]
+	20
+
+[physical critical hit]
+	3
+
+[stuck]
+	-1
+
+[skill data up]
+	`[gunner]`	3
+	`[all]`
+	`[level]`	1
+	`+`	1
+	`[at gunner]`	3
+	`[all]`
+	`[level]`	1
+	`+`	1
+[/skill data up]
+
+[skill levelup]
+	`[gunner]`	3	2
+	`[at gunner]`	3	2
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	4	0
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

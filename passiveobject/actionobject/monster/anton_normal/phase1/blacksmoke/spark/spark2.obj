@@ -1,0 +1,29 @@
+#PVF_File
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/spark2_Basic.act`
+
+[attack info]
+	`attackinfo/spark2_Basic.atk`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	4000
+[/object destroy condition]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ENEMY]`
+	[homing velocity]
+		350.0	250.0
+	[homing check gap]
+		300
+	[homing time]
+		500
+	[sync target move]
+[/homing]

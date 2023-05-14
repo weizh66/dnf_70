@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`SwordOfMind`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/Nexon.ani`
+
+[etc motion]
+	`Animation/Zero.ani`
+	`Animation/DunHit/DunHit1_Hit_Smoke.ani`
+	`Animation/DunHit/DunHit2_Hit_Smoke.ani`
+	`Animation/DunHit/DunHit3_Hit_Smoke.ani`
+	`Animation/Last_Hit.ani`
+	`Animation/Cross_Eff.ani`
+	`Animation/Six.ani`
+[/etc motion]
+
+[attack info]
+	`Attackinfo/Smoke.atk`
+
+[etc attack info]
+	`AttackInfo/Attack.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

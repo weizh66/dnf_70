@@ -1,0 +1,37 @@
+#PVF_File
+
+[name]
+	`月光??月`
+
+[width]
+	0	0
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/base.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	60000
+[/object destroy condition]
+
+[follow parent]
+	`[parent]`
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[ME]`
+	[homing velocity]
+		50.0	50.0
+	[homing check gap]
+		300
+	[diff rotation]
+		360.0
+	[homing direction]
+		0
+	[sync target move]
+[/homing]

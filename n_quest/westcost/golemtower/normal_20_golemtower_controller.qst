@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[monster reward item]
+	50094	13	-1	4201	1	50	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4201	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	14057	1	14450	1	14849	1	15249	1	15631	1
+[/reward selection int data]
+
+[name]
+	`操縱石巨人`
+
+[depend message]
+	`冒險家， 你上次帶來的研究材料讓我弄明白了古代石巨人的制造原理， 不過不知道為什么我制作的石巨人就是動不了。
+所以我想， 石巨人的制造者--人偶師一定知道操縱它們的方法， 你能去幫我調查下嗎？`
+
+[condition message]
+	`    前往天空之城的『石巨人塔』， 從石巨人操縱師身上收集10個[石巨人操縱器]。`
+
+[solve message]
+	`很好， 也就是說用這個就可以讓石巨人動起來了？ 嘿嘿嘿嘿……來吧， 動起來吧， 我可愛的石巨人啊！
+(石巨人動了)……你……不是主人……你……是丑八怪……你……是大騙子……
+轟！！(石巨人自爆了)
+……你這個……你你你說什么？！ 你這個丑八怪？ 石巨人啊啊啊！！`

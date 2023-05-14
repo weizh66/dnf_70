@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`電臺聽眾`
+	
+
+[explain]
+	`    使用該物品後， 可以恢復HP、 MP最大值的20%%； 但使用時會處於一定機率的眩暈狀態。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/stackable/consumption.img`	702
+
+[stackable type]
+	`[waste]`	1
+
+[price]
+	10
+
+[cool time]
+	10000
+
+[move wav]
+	`BONE_TOUCH`
+
+[hp recovery]
+	`%`	30	1000
+	`myself`
+
+[mp recovery]
+	`%`	30	1000
+	`myself`
+
+[my status]
+	`stun`	5	2000	25

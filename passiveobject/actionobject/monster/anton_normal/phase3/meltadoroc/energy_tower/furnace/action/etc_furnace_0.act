@@ -1,0 +1,132 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_furnace_0_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_furnace_0_1.ani`	0	1
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70229
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	5
+	[/CREATE PASSIVEOBJECT]
+	[CHANGE LAYER]
+		`[bottom]`
+	[SET WIDTH]
+		0	0
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			70215
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	5
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`time_energy`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		1
+	[OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[IF]
+		`time_energy`
+		[+]
+			20000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+	[DIM]
+		`time_energy`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		0
+	[RESET]
+	[TRIGGER]
+		1
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			64077
+		[/IS INDEX]
+	[/CHECKUP]
+	[CHECKED NO]
+	[<=]
+		3
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SUMMON MONSTER]
+		[INDEX]
+			64077
+		[LEVEL]
+			110
+		[POS]
+			0	0	0
+		[NO EFFECT]
+		[TEAM]
+			100
+	[/SUMMON MONSTER]
+[/BEHAVIOR]

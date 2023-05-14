@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	27
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	25	99
+
+[pre required quest]
+	1709
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	1
+
+[int data]
+	14	3	35
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	4000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	1711
+
+[name]
+	`精神修養之路 (集中)`
+
+[depend message]
+	`不能抑制自身力量的人， 無論多強大， 都無法從容面對敵人。 這次給你一個稍微有點難度的任務， 你再去趟黑暗玄廊吧。`
+
+[condition message]
+	`    通關天空之城的『黑暗玄廊』， 要求被擊數不超過35次， 要求地下城難度為王者級。`
+
+[solve message]
+	`嗯， 你的眼神總算有點武斗家的感覺了。 `
+
+[quest point]
+	4

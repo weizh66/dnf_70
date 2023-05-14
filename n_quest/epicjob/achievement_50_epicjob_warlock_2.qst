@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	1
+
+[level]
+	50	99
+
+[pre required quest]
+	4082
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	30030
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+	33662	1	33963	1	33366	1	33062	1
+[/reward selection int data]
+
+[relation quest]
+	4084
+
+[name]
+	`覺醒 - 魔皇 (2/4)`
+
+[depend message]
+	`想知道第二小節的內容嗎？
+那就接受下一個挑戰吧， 征服死亡之塔第三十層。 我想對你來說， 應該不難吧。`
+
+[condition message]
+	`    前往亡者峽谷的『死亡之塔』， 通關第30層。`
+
+[solve message]
+	`回來了！ 那我們繼續吧。
+第二小節是這樣唱的。
+‘這是無底的深淵， 讓人不寒而栗。 你聽這一聲聲絕望的凄厲， 是不是死亡就要來臨？’
+我想這應該是說夏勒·弗茲爆發出了可怕的魔法力。`

@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	444
+
+[complete npc index]
+	-1
+
+[job]
+	`[demonic lancer]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	444
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 不滅戰神 (1/2)`
+
+[depend message]
+	`……嗯？ 連招呼都不打， 就直接問我關于不滅戰神的事情……真心急啊。
+不過我還真有所了解， 我曾見過一次真正的不滅戰神， 游說過他與我共同對抗帝國， 但看到他戰斗的樣子， 我就打消念頭回來了。 就算是求人家， 也不能對牛彈琴吧， 完全說服不了他， 他戰斗的姿態也完全像瘋了一樣。
+你是為什么打聽他啊？ 是想跟他打一架嗎？ 跟我說實話吧， 你是想成為唯一的不滅戰神， 奪走戰場支配者的稱號吧。
+呼， 不滅戰神對于在戰場刀尖上游走的人來說也稱得上鬼神， 你竟然向往這一道路……也是，對于你來說痛快的戰斗比起生命還要重要……好吧， 那我就幫幫你。
+最后我再問你一次， 你真的想成為不滅戰神嗎？ 這可是關系到整個后半生的重大決定， 再好好想想吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與萊諾談談。`
+
+[solve message]
+	`我明白了。 既然你的意志如此堅定， 我也沒有道理一再阻攔。`
+
+[pre required quest]
+	2641
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	2662
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

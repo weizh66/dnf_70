@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	17
+
+[complete npc index]
+	5
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4972
+[/pre required quest]
+
+[effect after clear quest]
+	0
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[name]
+	`凱麗的謎題`
+
+[depend message]
+	`該我出謎題啦~
+冒險家， 如果你在地下城被強大的怪物打敗后回城鎮， 就會出現虛弱圖標~
+如果不把虛弱解除， 你的各項屬性值就會變得非常低。 要是你在這種狀態下進入地下城， 怪物就會顯得異常強悍哦~
+所以一定要把虛弱解除后再去地下城， 我要給你的謎題就是 : 誰可以幫助冒險家快速解除虛弱狀態？
+光是這樣說， 你可能會覺得很難， 給你個提示吧~
+從我站立的這個地方稍微往右走， 那里有個月光酒館， 你可以向酒館里的精靈小姐打聽下~怎么樣？ 是不是覺得非常簡單？`
+
+[condition message]
+	`    從凱麗站立的地方向右走， 進入月光酒館后找里面的人談談。 (按<N>鍵可以讓您更容易找到目標)`
+
+[solve message]
+	`歡迎來到月光酒館， 我叫索西雅。
+冒險家， 您與怪物戰斗很疲憊吧？ 如果您因虛弱無法繼續戰斗， 就來月光酒館休息一會吧。`

@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	5
+
+[job]
+	`[thief]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4374
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	5
+[/int data]
+
+[dungeon info]
+	1501	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 強大的支援者`
+
+[depend message]
+	`呃， 悲鳴洞穴里的情況怎么樣？ 怪物很多吧？<npc::0>很多……很難接近洞穴……
+特別是一種叫做“戮蠱”的變異蟲， 它們擋住了洞穴的入口……
+我想過很多種辦法， 但都無濟于事……
+<npc::1>變異的戮蠱？ 嗯……看來得請他出山了……
+呃， 你去月光酒館看看吧， 但我不能保證你會受到他的歡迎……`
+
+[condition message]
+	`    前往月光酒館找索西雅談談。`
+
+[solve message]
+	`你來了……需要我幫忙嗎？`
+
+[quest point]
+	4

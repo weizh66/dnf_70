@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`G.S.D的究極波動刃`
+
+[basic explain]
+	`[冰刃 · 波動劍]小冰柱持續時間 +5%%
+[冰刃 · 波動劍]小冰柱生成數 +2%%
+[冰刃 · 波動劍]冰凍幾率 100%
+[格擋]無冷卻時間
+[自動格擋]冷卻時間 +50%%
+[自動格擋] 發動幾率 100%%
+[自動格擋]持續時間 +50%%
+[逆轉反擊]施放幾率 100%%
+[暗天波動眼]冷卻時間增加1萬倍
+[暗天波動眼]持續時間增加1萬倍
+[波動眼 · 天照]冷卻時間 -2.5秒
+[波動劍 · 光翼]冷卻時間 -1秒
+[波動劍 · 閃槍]冷卻時間 -3秒`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	32
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[cool time]
+	10000
+
+[magical attack]
+	39
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	612	557
+
+[separate attack]
+	328	220
+
+[cast speed]
+	20
+
+[magical critical hit]
+	2
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[skill data up]
+	`[swordman]`	21
+	`[all]`
+	`[level]`	0
+	`%`	500
+	`[swordman]`	21
+	`[all]`
+	`[level]`	1
+	`%`	200
+	`[swordman]`	21
+	`[all]`
+	`[level]`	4
+	`+`	1000
+	`[swordman]`	21
+	`[all]`
+	`[level]`	5
+	`+`	5
+	`[swordman]`	3
+	`[all]`
+	`[cooltime]`	0
+	`%`	5000
+	`[swordman]`	3
+	`[all]`
+	`[level]`	0
+	`+`	100
+	`[swordman]`	3
+	`[all]`
+	`[level]`	1
+	`%`	10000
+	`[swordman]`	7
+	`[all]`
+	`[level]`	0
+	`+`	100
+	`[swordman]`	88
+	`[all]`
+	`[cooltime]`	0
+	`%`	1000000
+	`[swordman]`	88
+	`[all]`
+	`[static]`	0
+	`%`	1000000
+	`[swordman]`	88
+	`[all]`
+	`[static]`	6
+	`+`	-2500
+	`[swordman]`	88
+	`[all]`
+	`[static]`	7
+	`+`	-1000
+	`[swordman]`	88
+	`[all]`
+	`[static]`	8
+	`+`	-3000
+	`[swordman]`	1
+	`[all]`
+	`[cooltime]`	0
+	`+`	-2000
+[/skill data up]
+
+[possible kiri protect]

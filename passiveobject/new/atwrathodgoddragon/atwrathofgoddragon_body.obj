@@ -1,0 +1,27 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/atwrathofgoddragon_body.act`
+
+[attack info]
+	`AttackInfo/atwrathofgoddragon.atk`
+
+[name]
+	``
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+	`[add object index]`	1	800057
+[/object destroy condition]

@@ -1,0 +1,34 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/Shoot.ani`
+	[SPEECH]
+		`不要過來!`
+			0	100
+	[/SPEECH]
+	[SUB ANI]
+		`../Animation/Charge.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			8848
+		[PARTICLE FILENAME]
+			`../Particle/Bullet1.ptl`
+		[LEVEL]
+			60
+		[POS]
+			100	0	60
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

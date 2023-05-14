@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	26
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	71	99
+
+[pre required quest]
+	4133
+[/pre required quest]
+
+[monster reward item]
+	56159	71	-1	4742	4	50	10	56160	71	-1	4742	4	50	10	59032	71	-1	4742	4	50	10	59033	71	-1	4742	4	50	10	59034	71	-1	4742	4	50	10	63031	71	-1	4742	4	100	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4742	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`疾病的樣本`
+
+[depend message]
+	`治療劑目前沒有庫存，但或許能重新製作吧。
+在那之前，我得對該疾病有正確的認知，請幫我收集疾病的樣本，就可以製作出更有效的治療劑了。`
+
+[condition message]
+	`收集疾病的樣本 10個交給克倫特`
+
+[solve message]
+	`只要有了這樣本就可以馬上製作治療劑。拿去吧治療劑完成了。`
+
+[quest point]
+	4

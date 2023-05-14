@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[at swordman]`
+
+[grow type]
+	3
+
+[level]
+	75	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3051	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 弒神者 (2/6)`
+
+[depend message]
+	`我剛才也強調過， 這條路并不好走。 因為你很有可能會被魔人們反噬。
+你現在可能會覺得魔人們在順從你， 但其實并非如此。 他們可能正在假裝向你屈服， 于此同時卻對你的身體虎視眈眈， 就等著合適的機會吞噬你。 他們的本質就是如此。
+如果在現在這種狀態下， 用盡全力去嘗試與他們一體化， 你只能被剝奪肉體。
+然而， 如果你能具備不屬于他們的強大力量， 那么他們就會屈服于你的力量， 從此會乖乖順從你。
+現在我要試著讓你變得更強， 為此， 我打算讓你去與強者們進行切磋。
+首先， 我要讓你參加魂·黃龍大會， 聽說只有來到素喃的非凡強者才能參加這個大會。
+魂·黃龍大會向來以僅限有王室推薦資格的人參加而著稱， 既然如此， 你就先去拿到‘斯卡迪女王的印章’吧。`
+
+[condition message]
+	`收集10個[斯卡迪女王的印章]。`
+
+[solve message]
+	`可以， 有這些足夠參賽了。`
+
+[pre required quest]
+	4946
+[/pre required quest]
+
+[relation quest]
+	5326
+
+[job change quest]
+	3
+
+[grow number]
+	0

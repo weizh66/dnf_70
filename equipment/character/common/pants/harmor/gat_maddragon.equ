@@ -1,0 +1,136 @@
+#PVF_File
+
+[name]
+	`狂龍赫斯的龍骨護腿`
+
+[basic explain]
+	`攻擊時以2%% 的機率讓組隊進入加速狀態`
+
+[detail explain]
+	`攻擊時以2%% 的機率20秒內讓組隊進入 加速狀態，移動速度增加15%%，攻擊速度增加1 5%%。（PK場只能獲得2的攻速和移動速度）`
+
+[flavor text]
+	`飛奔。狂亂。是我喜歡的單字。- 範弗拉丁，被詢問喜愛的單字`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	29
+
+[physical defense]
+	27
+
+[magical attack]
+	21
+
+[price]
+	74400
+
+[repair price]
+	65620
+
+[value]
+	59520
+
+[equipment physical defense]
+	2800	2560
+
+[creation rate]
+	200
+
+[icon]
+	`Item/common/pants.img`	119
+
+[field image]
+	`Item/field_equip.img`	11
+
+[equipment type]
+	`[pants]`	21
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2900
+
+[item group name]
+	`ha pants`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		35000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[stat]
+		`attack speed`
+		`+`	150
+	[stat]
+		`move speed`
+		`+`	150
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			35000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`party`	-1
+		[duration]
+			20000
+		[probability]
+			2
+		[stat]
+			`attack speed`
+			`+`	20
+		[stat]
+			`move speed`
+			`+`	20
+	[/then]
+[/pvp]
+
+[set item master]
+	11317
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

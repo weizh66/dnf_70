@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 炎獄裁決者 (1/6)`
+
+[depend message]
+	`消息我已經聽說了， 據說你們教團決定侍奉使徒米歇爾是嗎？ 看樣子你一定會怒氣沖沖地去教團大鬧一場啊。 我勸你先暫停一下。
+你這樣沖動行事改變不了任何事， 沒有人會站在你這邊的。 但你想想看， 等有一天你變得比現在更強， 達到了更高的境界， 他們會不會愿意聽你的呢？
+是吧？ 那我們一起找找可以變強的辦法吧。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`我以為你會憤怒， 但你比我想象中要冷靜得多， 我還挺驚訝的。
+怎么？ 那看來也不是很好受啊。 不過已經忍住了， 做得很好。
+如果你因為不滿教團將使徒米歇爾信奉為圣徒的決定而被埋沒， 將會一無所獲。
+還不如盡快變強， 這樣一來你就可以憑借所獲得的力量登上新的位置， 改變大局。
+當你能夠登上懲罰異端的權力頂端， 成為‘炎獄裁決者’并代替神去執行裁決時， 大家就不會再無視你表露出的憤怒了。 你有興趣嗎？`
+
+[target character]
+	`[at priest]`	2	1
+[/target character]
+
+[relation quest]
+	6815
+
+[job change quest]
+	3
+
+[grow number]
+	0

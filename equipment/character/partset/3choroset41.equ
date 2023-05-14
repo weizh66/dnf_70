@@ -1,0 +1,186 @@
+#PVF_File
+
+[set name]
+	`致命逆襲  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	77
+		`[dungeon type]`
+		`[static]`	1
+		`+`	5000
+		`[gunner]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[gunner]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[gunner]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[gunner]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at gunner]`	77
+		`[dungeon type]`
+		`[static]`	1
+		`+`	5000
+		`[at gunner]`	77
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at gunner]`	76
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at gunner]`	2
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[冰凍彈]冷卻時間 -2秒
+[冰凍彈]攻擊力 +20%%
+[閃擊地雷]爆炸范圍 +20%%
+[C4遠程炸彈]限制時間 +5秒
+[C4遠程炸彈]爆炸范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	33
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[gunner]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[gunner]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[gunner]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[gunner]`	76
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at gunner]`	33
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at gunner]`	48
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at gunner]`	48
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at gunner]`	76
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at gunner]`	76
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	76
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[空中射擊]持續時間 +40%%
+[散彈槍]冷卻時間 -30%%
+[散彈槍]攻擊力 +10%%
+[閃擊地雷]冷卻時間 -20%%
+[閃擊地雷]攻擊力 +20%
+[閃擊地雷]眩暈范圍 +20%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-65
+		`[gunner]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-1
+		`[gunner]`	78
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-30
+		`[gunner]`	103
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[gunner]`	103
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[gunner]`	103
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[gunner]`	103
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at gunner]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-65
+		`[at gunner]`	78
+		`[dungeon type]`
+		`[static]`	1
+		`+`	-1
+		`[at gunner]`	78
+		`[dungeon type]`
+		`[mp]`	0
+		`%`	-30
+		`[at gunner]`	103
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[at gunner]`	103
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at gunner]`	103
+		`[dungeon type]`
+		`[level]`	5
+		`%`	40
+		`[at gunner]`	103
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[尼爾狙擊]冷卻時間 -65%%
+[尼爾狙擊]射擊次數 -1
+[尼爾狙擊]MP消耗量 -30%%
+[M-61地雷]冷卻時間 -50%%
+[M-61地雷]攻擊力 +40%%
+[M-61地雷]眩暈持續時間 +20%%`
+[/piece set ability]

@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	79	99
+
+[pre required quest]
+	4573
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	102	-1	16100	3	1	102	-1	16101	3	1	102	-1	16132	3	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`停止起重機`
+
+[depend message]
+	`感嘆薩謬爾是安徒恩的4人守護者之一，是食用熔巖維生的強力怪獸，在熔巖附近可以發揮近乎無敵的力量。
+薩謬爾利用起重機裝置在普樂茲發電所各個地方提供熔巖。
+若是不停止供給熔巖的起重機裝置，對付感嘆薩謬爾就會難上加難。
+普樂茲發電所有3個起重機控制桿，請去操作那些控制桿停止運作。`
+
+[condition message]
+	`在普樂茲發電所地下城啟動控制桿，然後去找尼貝爾`
+
+[solve message]
+	`有了這個應該能對付詠歎的薩謬爾了。`
+
+[quest point]
+	4

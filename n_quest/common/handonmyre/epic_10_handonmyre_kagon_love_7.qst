@@ -1,0 +1,69 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	10
+
+[complete npc index]
+	11
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	10	99
+
+[pre required quest]
+	216
+[/pre required quest]
+
+[depend give item]
+	4001	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4001	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`準備就緒`
+
+[depend message]
+	`你把這三樣東西都找齊了？ 還真是辛苦你了。 呃呵呵……其實是卡坤讓你這么做的吧？ 不用奇怪， 我之前聽賽麗亞提過卡坤給她寫過一封信。 
+呵呵， 你把這些東西拿給卡坤吧， 順便幫我向他說聲謝謝。 `
+
+[condition message]
+	`    拿著[卡坤的精致禮物]找卡坤談談。`
+
+[solve message]
+	`這些……就是賽麗亞最喜歡的東西？ `
+
+[quest point]
+	4

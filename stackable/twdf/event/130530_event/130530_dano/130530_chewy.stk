@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`QQ的粽子`
+	
+
+[flavor text]
+	`端午好 Fun 粽！活動`
+	
+
+[explain]
+	`使用後，增加100%%的任務道具掉落率，效果持續10分鐘。`
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption_tw.img`	37
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[alchemist]`
+
+[item group name]
+	`potion`
+
+[cool time]
+	600000
+
+[move wav]
+	`POTION_TOUCH`
+
+[cooltime maintenance]
+	1	1	1
+
+[effect maintenance]
+	1	1	1	0
+
+[stat change duration]
+	600000
+	`myself`
+
+[expiration date]
+	1371700800

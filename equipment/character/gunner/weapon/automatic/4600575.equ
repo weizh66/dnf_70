@@ -1,0 +1,260 @@
+#PVF_File
+
+[name]
+	`封·赤鏈蛇 - 火影`
+
+[basic explain]
+	`    施放[RX-78追擊者]時， 有30%%的幾率多召喚1個追擊者。
+    施放[RX-78追擊者]和[Ez-8自爆者]時， 可以使自身進入霸體狀態。
+神槍手(男)
+    施放[蓋波加之拳]時， 可以使自身增加130點智力， 效果持續時間與技能冷卻時間壹致。
+神槍手（女）
+    施放改裝：[G-0戰爭領主]時，可以使自身增加130點智力，效果持續時間與技能冷卻時間壹致。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	62
+
+[stuck]
+	1
+
+[need material]
+	3821	1400
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	595	494
+
+[equipment magical attack]
+	873	725
+
+[separate attack]
+	555	359
+
+[skill levelup]
+	`[gunner]`	27	3
+	`[gunner]`	28	3
+	`[gunner]`	67	2
+	`[gunner]`	68	3
+	`[at gunner]`	27	3
+	`[at gunner]`	28	3
+	`[at gunner]`	96	2
+	`[at gunner]`	95	3
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/automatic/automatic.img`	90
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	23	1
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	23	1
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	40
+
+[weight]
+	1500
+
+[item group name]
+	`automatic`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`gunner`	27
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`gunner`	27
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	28
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`gunner`	28
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	27
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`at gunner`	27
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	28
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[skill super armor]
+		`at gunner`	28
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	67
+	[/use skill]
+	[cooltime]
+		140000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		140000
+	[stat]
+		`magical attack`
+		`+`	130
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	96
+	[/use skill]
+	[cooltime]
+		140000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		140000
+	[stat]
+		`magical attack`
+		`+`	130
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	27
+	[/use skill]
+[/if]
+
+[then]
+	[probability]
+		30
+	[add skill summon]
+		27	1	-1
+	[/add skill summon]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	27
+	[/use skill]
+[/if]
+
+[then]
+	[probability]
+		30
+	[add skill summon]
+		27	1	-1
+	[/add skill summon]
+[/then]
+
+[routing priority]
+	`gunner`	3
+	`at gunner`	3
+[/routing priority]
+
+[possible kiri protect]

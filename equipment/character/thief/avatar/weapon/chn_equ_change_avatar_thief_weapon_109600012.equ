@@ -1,0 +1,82 @@
+#PVF_File
+
+[name]
+	`紅色暗月勇士雙劍`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	1
+
+[move speed]
+	10
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[icon]
+	`item/weapon/thief/twinswd.img`	92
+
+[icon mark]
+	`Item/IconMark_cn.img`	15
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`
+	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`
+	`+`	36
+	`[ATTACK_SPEED]`
+	`+`	60
+	`[HIT_RECOVERY]`
+	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1
+	[variation]
+		20	2
+	[layer variation]
+		2790
+		`twinswordc`
+	[equipment ani script]
+		`equipment/character/thief.lay`
+	[layer variation]
+		200
+		`twinswordd`
+	[equipment ani script]
+		`equipment/character/thief.lay`
+	[layer variation]
+		1350
+		`twinswordx`
+	[equipment ani script]
+		`equipment/character/thief.lay`
+	[move wav]
+		`CLOTH_TOUCH`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/thief/weapon/twinsword/`
+[/expand ani]
+
+[avatar func filter]
+	2

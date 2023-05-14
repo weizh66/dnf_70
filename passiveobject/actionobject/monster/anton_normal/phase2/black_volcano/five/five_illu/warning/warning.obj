@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`警告魔法?`
+
+[layer]
+	`[bottom]`
+
+[basic action]
+	`Action/warning_Basic.act`
+
+[last action]
+	`Action/warning_Basic_0_0_0_1_1_1_0.act`
+
+[etc action]
+	`Action/warning_Basic_0.act`
+	`Action/warning_Basic_0_0.act`
+	`Action/warning_Basic_0_0_0.act`
+	`Action/warning_Basic_0_0_0_0.act`
+	`Action/warning_Basic_0_0_0_1.act`
+	`Action/warning_Basic_0_0_0_1_0.act`
+	`Action/warning_Basic_0_0_0_1_1.act`
+	`Action/warning_Basic_0_0_0_1_1_0.act`
+	`Action/warning_Basic_0_0_0_1_1_1.act`
+[/etc action]
+
+[etc attack info]
+	``
+	``
+	``
+	``
+	``
+	``
+	``
+	``
+	``
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[MONSTER]`	58024
+	[homing velocity]
+		0	0
+	[homing check gap]
+		10
+	[sync animation rotation]
+		1
+	[max rotation]
+		200
+	[init rotation]
+		0
+	[diff rotation]
+		100
+	[homing time]
+		0
+	[sync target move]
+[/homing]

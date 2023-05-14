@@ -1,0 +1,44 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`使用此一道具的話，技能類型1與技能類型2中，目前為止使用 SP（技能點數）和 TP（特性技能點數）學習的技能初始化，使用的 SP與 TP全都會恢復。 提供後，若是14天內不使用的話，會自動消失。`
+
+[flavor text]
+	`「忘卻之河」。 喝下此一河水，先前的生活、存在、喜怒哀樂全都會忘記。  - 遺忘河`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	169
+
+[stackable type]
+	`[etc]`	0
+
+[usable period]
+	14
+
+[move wav]
+	`POTION_TOUCH`
+
+[npc gift disallowance]
+	1

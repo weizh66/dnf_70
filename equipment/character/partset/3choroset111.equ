@@ -1,0 +1,201 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	87
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	139
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at swordman]`	89
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	140
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+		`[at swordman]`	92
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	92
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	92
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+		`[at swordman]`	143
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	143
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[at swordman]`	143
+		`[dungeon type]`
+		`[level]`	2
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[圓舞斬]冷卻時間 -10%%
+[圓舞斬]攻擊力 +20%%
+[亂花葬]冷卻時間 -15%%
+[回天璇鳴劍]攻擊力 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	92
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[at swordman]`	143
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-40
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[回天璇鳴劍]冷卻時間 -40%%
+[嘯空十字斬]冷卻時間 -20%%
+[嘯空十字斬]攻擊力 +30%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	92
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	92
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	92
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	143
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at swordman]`	143
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	143
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	89
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at swordman]`	89
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at swordman]`	89
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+		`[at swordman]`	89
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+		`[at swordman]`	140
+		`[dungeon type]`
+		`[level]`	1
+		`%`	25
+		`[at swordman]`	140
+		`[dungeon type]`
+		`[level]`	2
+		`%`	25
+		`[at swordman]`	140
+		`[dungeon type]`
+		`[level]`	4
+		`%`	25
+		`[at swordman]`	140
+		`[dungeon type]`
+		`[level]`	5
+		`%`	25
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	98
+		`[dungeon type]`
+		`[level]`	2
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`[亂花葬]攻擊力 +25%%
+[回天璇鳴劍]攻擊力 +20%%
+[嘯空十字斬]冷卻時間 -30%%
+[嘯空十字斬]攻擊力 +30%%`
+[/piece set ability]

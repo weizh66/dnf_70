@@ -1,0 +1,141 @@
+#PVF_File
+
+[appearance point]
+	0
+
+[minimum info]
+	`可愛的小粉帽`	3	1	0	1	60	0	0	1	0	0	0
+	`no creature`	0	0	0
+
+[additional character status]
+	0	0	0	0	0	0	0	0	300	0	0	0	0	0	0	0	10	10	10	10	30	50	130	50	30	30	60	30	30	30	30	30	30	0	30	30	30
+[/additional character status]
+
+[character status rate]
+	2.4	1.5	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.3	1	1	1
+[/character status rate]
+
+[attack damage rate]
+	0.8
+
+[add equipment status from level]
+	1
+
+[custom skill level]
+[/custom skill level]
+
+[party member]
+	1	0	2	600
+[/party member]
+
+[far attack reaction rate]
+	30
+
+[default equipment]
+	0
+
+[quick skill]
+	11	0	12	0	4	0	14	0	169	1
+[/quick skill]
+
+[skill]
+	15	20	17	20	16	20	18	20	57	1	56	1	26	20	58	20	27	0	55	0	59	0	2	0	37	0	3	0	43	0	41	0	38	10	19	10	42	1	61	10	62	10	63	10	64	10	32	1	181	3	182	3	184	2	187	1	179	5	170	1	188	10	189	10	178	10	186	10
+[/skill]
+
+[skill correction]
+[/skill correction]
+
+[quick item]
+	1085	100	8	568	1082	1	3037	816	3033	500
+[/quick item]
+
+[equipment]
+	33935	4	0	10092	4	0	12090	4	0	14088	4	0	16074	4	0	18075	4	0	20114	4	0	22109	4	0	24115	4	0	51144	2	0	52764	2	0	53161	2	0	53953	2	0	53521	2	0
+[/equipment]
+
+[think term]
+	400
+
+[destination change term]
+	500
+
+[keep distance with target]
+	300
+
+[warlike]
+	20
+
+[vision]
+	1000
+
+[targeting bonus]
+	99	50	0	0	0	0	0	0	0	0	0	0	0	0	60	0	0	0	0	0	0
+	`[stand]`
+	`[dash]`	0	0
+	`[slow]`
+	`[confuse]`	0
+
+[ai pattern]
+	`Event.ai`
+	`DestinationSelect.ai`
+	`Action.ai`
+	`MoveMethod.ai`
+[/ai pattern]
+
+[key stream]
+	``
+	`a.key`
+	``
+	`s.key`
+	``
+	`d.key`
+	``
+	`f.key`
+	``
+	`g.key`
+	``
+	`h.key`
+	``
+	`z.key`
+	``
+	`aura_shield.key`
+	``
+	`1.key`
+	``
+	`combo.key`
+	``
+	`phase_shift.key`
+	``
+	`lantern.key`
+	``
+	`pluto.key`
+	``
+	`fluorescent.key`
+	``
+	`frosthead.key`
+	``
+	`flame_strike.key`
+	``
+	`chilling_fence.key`
+	``
+	`void.key`
+	``
+	`halloween_buster.key`
+	``
+	`night_hollow.key`
+	``
+	`show_time.key`
+	``
+	`shururu.key`
+	``
+	`library.key`
+	``
+	`final_hollow.key`
+	``
+	`sunder_collring.key`
+	``
+	`peist.key`
+[/key stream]
+
+[speech on situation]
+[/speech on situation]

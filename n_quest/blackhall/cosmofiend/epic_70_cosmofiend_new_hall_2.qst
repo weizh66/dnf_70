@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	28
+
+[complete npc index]
+	45
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	7728
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`[異界]凝氣珠`
+
+[depend message]
+	`根據我的占卜， 你前面要走的路， 將會是很艱難的一步。 別問我為什么， 天機不可泄露。
+這里有一個你會需要的東西， 拿著它去找歌蘭蒂斯吧。 到時候你就會明白了。`
+
+[condition message]
+	`    把艾麗絲給的[凝氣珠]交給歌蘭蒂斯·格拉西亞。`
+
+[solve message]
+	`咦， 你怎么知道我正急著找你？`
+
+[quest point]
+	4

@@ -1,0 +1,174 @@
+#PVF_File
+
+[name]
+	`鋼鐵鱗片拳套`
+
+[basic explain]
+	`攻擊時，以5%%的機率使敵人進入眩暈狀態
+不可解體`
+
+[detail explain]
+	`攻擊時以5%%的機率讓敵人2秒內陷入氣絕狀態。 （高於Lv69的對象得到的機率和效果減少，低於Lv69的對象則會增加。 決鬥場內修正為 1%% 機率）
+不可解體`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	65
+
+[anti evil]
+	12
+
+[physical attack]
+	46
+
+[attack speed]
+	100
+
+[stuck]
+	-1
+
+[need material]
+	3337	420
+
+[repair price]
+	104328
+
+[value]
+	99360
+
+[equipment physical attack]
+	714	634
+
+[equipment magical attack]
+	621	574
+
+[separate attack]
+	389	264
+
+[physical critical hit]
+	3
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	64
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	16	0
+
+[layer variation]
+	2790
+	`bglovec`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`bgloveb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2150
+	`at_bglovea`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_bglovec`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_bglovex`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	69
+[/then]
+
+[routing priority]
+	`fighter`	2
+	`at fighter`	2
+[/routing priority]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]

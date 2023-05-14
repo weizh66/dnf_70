@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	``
+	
+
+[explain]
+	``
+	
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[stack limit]
+	1
+
+[icon]
+	`Item/stackable/consumption.img`	262
+
+[stackable type]
+	`[waste]`	0
+
+[cool time]
+	86400000
+
+[cooltime group]
+	98
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect maintenance]
+	1	1	1	0
+
+[cooltime maintenance]
+	1	1	1
+
+[pc exp bonus rate]
+	0.05
+
+[usable period]
+	3
+
+[stat change duration]
+	86400000
+	`myself`

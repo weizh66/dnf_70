@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`雌雄雙股劍`
+
+[explain]
+	`所有攻擊力 +5%%`
+
+[minimum level]
+	1
+
+[grade]
+	99
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	3
+
+[weight]
+	50
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[icon]
+	`Item/creature/artifact_blue_cn.img`	23
+
+[field image]
+	`Item/field_creature.img`	1
+
+[equipment type]
+	`[artifact blue]`	15
+
+[sub type]
+	0
+
+[creature magical attack]
+	1000
+
+[physical critical hit]
+	10.0
+
+[magical critical hit]
+	10.0
+
+[anti evil]
+	10
+
+[need material]
+	3836	1000
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	5
+	[stat by condition]
+		`magical attack bonus`
+		`%`	5
+	[stat by condition]
+		`separate attack`
+		`%`	5
+[/then]
+
+[move wav]
+	`SKIN_TOUCH`
+
+[set item master]
+	-1
+
+[item category]
+	`no random`
+[/item category]

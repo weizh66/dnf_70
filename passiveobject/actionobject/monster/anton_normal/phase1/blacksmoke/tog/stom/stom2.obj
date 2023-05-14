@@ -1,0 +1,35 @@
+#PVF_File
+
+[piercing power]
+	500
+
+[basic action]
+	`Action/stom_Basic2.act`
+
+[last action]
+	`Action/stom_Last2.act`
+
+[etc action]
+	``
+[/etc action]
+
+[attack info]
+	`attackinfo/stom_Basic.atk`
+
+[etc attack info]
+	``
+[/etc attack info]
+
+[homing]
+	[homing use]
+		1
+	[homing follow]
+		`[PASSIVE]`	19894
+	[homing velocity]
+		450.0	0.0
+	[diff rotation]
+		0.0
+	[sync target move]
+	[homing time]
+		400
+[/homing]

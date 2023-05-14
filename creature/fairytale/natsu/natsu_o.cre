@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`羅茲`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	20000
+
+[over skill recovery time]
+	30000
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	0
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[learn overskill level]
+	1
+
+[skill MP]
+	0
+
+[over skill MP]
+	0
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation/stay.ani`
+
+[walk motion]
+	`Animation/walk.ani`
+
+[run motion]
+	`Animation/run.ani`
+
+[skill motion]
+	`Animation/skill.ani`
+
+[over skill motion]
+	`Animation/overskill.ani`
+
+[response motion]
+	`Animation/response.ani`
+
+[random motion]
+	`Animation/random_stay.ani`
+[/random motion]
+
+[etc motion]
+	`Effect/Animation/skill/skill_motion_loop.ani`
+	`Effect/Animation/skill/skill_motion_end.ani`
+[/etc motion]
+
+[attack info]
+	``
+[/attack info]
+
+[piercing]
+	1000	0	1000	0
+[/piercing]
+
+[skill string]
+	`炎龍咆哮`
+	`從口中噴射火焰`	0
+	`雙手握著火焰向對方採取突進攻擊。`
+[/skill string]
+
+[skill level values]
+[/skill level values]
+
+[over skill level values]
+	1	50	100	3000
+[/over skill level values]
+
+[int data]
+	80	80	12806	4000	90	40	20	1	1	4000	12807	60	-20	8	1620	120	60	4	4	100
+[/int data]
+
+[string data]
+	`DESTROY_SOUND`
+[/string data]
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[default random motion rate]
+	20
+
+[draw new position balloon]
+	0	0	0	1	70	120
+[/draw new position balloon]

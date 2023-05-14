@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`混沌天神圖騰`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入混亂狀態。
+攻擊混亂狀態的敵人時，有50%%的機率使自身增加50點力量，效果持續30秒。`
+
+[detail explain]
+	`攻擊時以3%%的機率在5秒內讓敵人陷入混亂狀態。 （高於Lv40的對象得到的機率和效果減少，低於Lv40的對象則會增加。）
+混亂狀態的敵人 攻擊時以50%% 的機率30秒內力量增加 50。 （冷卻時間40秒）`
+
+[grade]
+	44
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	47
+
+[stuck]
+	-1
+
+[price]
+	70400
+
+[repair price]
+	56320
+
+[value]
+	56320
+
+[creation rate]
+	30
+
+[equipment physical attack]
+	441	399
+
+[equipment magical attack]
+	378	342
+
+[separate attack]
+	245	164
+
+[skill levelup]
+	`[priest]`	16	2
+	`[priest]`	58	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/priest/totem.img`	27
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	1	8
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[active status]
+		`confuse`	40	1
+[/then]
+
+[if]
+	[cooltime]
+		45000
+	[target active status]
+		`confuse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		50
+	[stat]
+		`physical attack`
+		`+`	75
+[/then]
+
+[possible kiri protect]

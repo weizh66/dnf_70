@@ -1,0 +1,175 @@
+#PVF_File
+
+[name]
+	`地獄的犬戎`
+
+[basic explain]
+	`施展驅魔陣時350px 範圍內的所有敵人在 5秒內進入出血狀態
+出血狀態的敵人 攻擊時15%% 附加傷害
+不可解體`
+
+[detail explain]
+	`施展驅魔陣時350px 範圍內的所有敵人 5秒內進入出血狀態，每0.5秒給予15的傷害。（高於Lv79的對象得到的機率和效果減少，低於Lv79的對象則會增加。）
+出血狀態的敵人攻擊時15%% 附加傷害（決鬥場內7%% 附加傷害）
+不可解體`
+
+[grade]
+	79
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	78
+
+[stuck]
+	-1
+
+[need material]
+	3338	840
+
+[repair price]
+	106176
+
+[value]
+	101120
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	792	739
+
+[equipment magical attack]
+	679	634
+
+[separate attack]
+	450	305
+
+[icon]
+	`item/new_equipment/01_weapon/priest/totem/totem.img`	88
+
+[field image]
+	`Item/field_weapon.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	27	0
+
+[layer variation]
+	200
+	`totemd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`totemc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`TOTEM_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	3400
+
+[item group name]
+	`totem`
+
+[cool time]
+	10000
+
+[routing priority]
+	`priest`	2
+[/routing priority]
+
+[if]
+	[use skill]
+		`priest`	13
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	350
+	[duration]
+		5000
+	[probability]
+		100
+	[active status]
+		`bleeding`	79	150
+[/then]
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

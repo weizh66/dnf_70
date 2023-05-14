@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`奧德莉的龍皮胸甲`
+
+[flavor text]
+	`執行敵人暗殺命令。拉結-奧德莉和艾麗格交戰時說`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	27
+
+[magical attack]
+	27
+
+[magical defense]
+	29
+
+[price]
+	62000
+
+[repair price]
+	54684
+
+[value]
+	49600
+
+[equipment physical defense]
+	1680	1536
+
+[skill levelup]
+	`[gunner]`	12	2
+	`[at gunner]`	12	2
+[/skill levelup]
+
+[icon]
+	`Item/common/coat.img`	103
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	20
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[set name]
+	`奧德莉的蛟龍皮甲套裝`
+
+[set item]
+	10515	18512
+[/set item]
+
+[set ability]
+	[skill data up]
+		`[gunner]`	12
+		`[all]`
+		`[static]`	0
+		`+`	2
+		`[gunner]`	12
+		`[all]`
+		`[level]`	2
+		`+`	400
+		`[at gunner]`	12
+		`[all]`
+		`[static]`	0
+		`+`	2
+		`[at gunner]`	12
+		`[all]`
+		`[level]`	2
+		`+`	400
+	[/skill data up]
+	[skill levelup]
+		`[gunner]`	21	2
+		`[at gunner]`	21	2
+	[/skill levelup]
+	[fullset basic explain]
+		`格林機槍的每秒發射數增加2 
+格林機槍的最大 發射時間增加20%% `
+[/set ability]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

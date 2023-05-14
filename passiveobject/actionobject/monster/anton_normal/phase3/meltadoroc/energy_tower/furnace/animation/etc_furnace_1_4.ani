@@ -1,0 +1,53 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Map/Anton/Inside/Furnace_S.img`
+		0
+	[IMAGE POS]
+		-64	-149
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		1000
+
+[FRAME001]
+	[IMAGE]
+		`Map/Anton/Inside/Furnace_S.img`
+		0
+	[IMAGE POS]
+		-64	-149
+	[GRAPHIC EFFECT]
+		`MONOCHROME`
+		255	255	255
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Map/Anton/Inside/Furnace_S.img`
+		0
+	[IMAGE POS]
+		-64	-149
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Map/Anton/Inside/Furnace_S.img`
+		0
+	[IMAGE POS]
+		-64	-149
+	[DELAY]
+		80

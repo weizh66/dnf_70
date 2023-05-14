@@ -1,0 +1,56 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace04.img`	39
+
+[big face]
+	`Map/Npc/NpcFace04.img`	39
+
+[popup face]
+	`Map/Npc/NpcFace04.img`	39
+
+[field animation]
+	`Animation/Npc_Niber.ani`
+
+[field wav]
+	`R_NPC_NIBER_AMB`
+
+[popup wav]
+	`R_NPC_NIBER_TK`
+	`R_NPC_NIBER_FW`
+
+[role]
+[/role]
+
+[look around]
+	0
+
+[name]
+	`尼貝爾`
+
+[field name]
+	`尼貝勒`
+
+[quest speech]
+	`最近忙死人了， 你找我有什麼事啊？`
+
+[dialog]
+	1	1	99	-1	0	0
+	` <npc::76>分隊～立正！ 端正站好！ 
+戰鬥力的起源，可以想做是從具備的制式訓練來的。哇啊，被熱燙傷的刺痛感...
+就是要這麼緊密地訓練著士兵，士氣才不會下降的。在這裡和那裡要是能夠砌起花壇，那麼就可以種些華麗的花了，這樣這裡也就可變成一個兵營了。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	` <npc::76>我知道有不少人看不慣我升職的速度這麼快。
+那種紛論，我想只要在擊退使徒安徒恩後，就會平息的。`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	0	0
+	` <npc::76>從皇都送來的補給品，我一點也不感到滿意。
+你能夠相信三日裡都要吃無味的菜湯嗎？要填飽肚子，才能夠奮勇作戰啊... 
+我得積極地向皇女請求支援了。最少在三餐中，要有一到肉品才行，不然年輕士兵的士氣可是會大幅下降的！ 哈哈哈！
+什麼... 要是親自來一趟更好，哈哈..`
+[/dialog]

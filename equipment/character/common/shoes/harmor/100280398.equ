@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+	`海神謎咒之巨靈長靴`
+
+[basic explain]
+	`自身被攻擊時，若出現Miss則使所有敵人進入詛咒狀態。`
+
+[detail explain]
+	`若被擊時出現Miss，則會使所有敵人進入詛咒狀態5秒；詛咒狀態下的敵人，將減少50點力量、體力、智力和精神。(若敵人高於Lv90，則減少進入異常狀態的幾率和效果；反之則增加幾率和效果；冷卻時間5秒)`
+
+[flavor text]
+	`再後來，漁夫死了。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[part set index]
+	12400
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	25
+
+[magical attack]
+	18
+
+[physical defense]
+	22
+
+[move speed]
+	40
+
+[stuck resistance]
+	20
+
+[need material]
+	3824	30
+
+[price]
+	81000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2352	2184
+
+[water attack]
+	6
+
+[fire resistance]
+	-6
+
+[icon]
+	`item/new_equipment/05_harmor/shoes/harmor_shoes.img`	36
+
+[field image]
+	`Item/field_equip.img`	14
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[equipment type]
+	`[shoes]`	18
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	1600
+
+[item group name]
+	`ha shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		5000
+	[hit]
+		0
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[probability]
+		100
+	[duration]
+		5000
+	[active status]
+		`curse`	90	50	50	50	50
+[/then]
+
+[possible kiri protect]

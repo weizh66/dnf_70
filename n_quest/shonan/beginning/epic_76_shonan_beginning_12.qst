@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	124
+
+[complete npc index]
+	125
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	76	99
+
+[pre required quest]
+	4249
+[/pre required quest]
+
+[depend give item]
+	4780	1	4781	1
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4780	1	4781	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`皇帝的鎧甲 1`
+
+[depend message]
+	`你看看這個。終於完成了。這是到目前為止我製作最好的一件。
+阿斯卡一定也會喜歡。可是因為我正在處理燒熱的龍鱗片樣子，一定會很難看。
+這個樣子根本就沒辦法去見阿斯卡。交給阿斯卡大人的時間就快到了，請冒險家替我把這鎧甲交給她好嗎？信我也寫好了就一起轉交給她吧。
+得告訴阿斯卡，在製作這件甲冑的過程中，冒險家幫了相當大的忙。`
+
+[condition message]
+	`將鎧甲與小鐵柱的信交給阿斯卡`
+
+[solve message]
+	`唉唷，我正在等俊呢？冒險家來了嗎？`
+
+[quest point]
+	4

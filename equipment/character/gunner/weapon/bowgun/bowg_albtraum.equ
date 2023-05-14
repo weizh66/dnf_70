@@ -1,0 +1,178 @@
+#PVF_File
+
+[name]
+	` 紫色詛咒`
+
+[basic explain]
+	`攻擊時，以3%%的機率使敵人進入詛咒狀態。
+被攻擊時，有10%的機率使自身進入詛咒狀態。`
+
+[detail explain]
+	`攻擊時以3%%的機率在20秒內讓敵人陷入詛咒狀態，力量減少18，體力減少18，智能減少18，精神力減少18。 (若敵人高於Lv31，則減少進入異常狀態的機率和效果；反之，則增加機率和效果。) 
+被攻擊時，有10%%的機率使自身進入詛咒狀態20秒；詛咒狀態下，減少19點力量、體力、智力和精神。 (若敵人高於Lv31，則減少進入異常狀態的機率；反之，則增加機率。)`
+
+[grade]
+	33
+
+[rarity]
+	2
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	31
+
+[physical attack]
+	22
+
+[magical attack]
+	11
+
+[attack speed]
+	20
+
+[stuck]
+	-1
+
+[price]
+	46200
+
+[repair price]
+	36960
+
+[value]
+	36960
+
+[equipment physical attack]
+	236	208
+
+[equipment magical attack]
+	262	232
+
+[separate attack]
+	150	98
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[gunner]`	76	1
+	`[at gunner]`	76	1
+[/skill levelup]
+
+[curse resistance]
+	-10
+
+[icon]
+	`item/weapon/gunner/bowgun.img`	14
+
+[field image]
+	`Item/field_weapon.img`	5
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	1	6
+
+[layer variation]
+	2790
+	`bowgunc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`bowgunb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	1	6
+
+[layer variation]
+	2790
+	`at_bowgunc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_bowgunb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`BOWGUN_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2300
+
+[item group name]
+	`bowgun`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		32000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`curse`	31	18	18	18	18
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		10
+	[active status]
+		`curse`	31	19	19	19	19
+[/then]
+
+[possible kiri protect]

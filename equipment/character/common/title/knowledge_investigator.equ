@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`知識的探索者`
+
+[explain]
+	` 攻擊時，以1%%的機率使自身增加20點力量和智力，效果持續20秒。`
+
+[flavor text]
+	`<活動>  給予DNF的地下城篇/任務篇攻略書購買者的稱號。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	67
+
+[custom animation]
+	`TitleAnimation/knowledge_investigator.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[inventory limit]
+	5000
+
+[MP regen speed]
+	8
+
+[move speed]
+	20
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		1
+	[stat]
+		`physical attack`
+		`+`	30
+	[stat]
+		`magical attack`
+		`+`	30
+[/then]
+
+[skill levelup]
+	`[swordman]`	46	1
+	`[fighter]`	5	1
+	`[at fighter]`	5	1
+	`[gunner]`	4	1
+	`[mage]`	12	1
+	`[priest]`	1	1
+	`[at gunner]`	4	1
+[/skill levelup]
+
+[move wav]
+	`NAME_TOUCH`

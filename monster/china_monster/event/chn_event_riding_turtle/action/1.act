@@ -1,0 +1,121 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Tongbae1.ani`
+	[SUB ANI]
+		`../Animation/Chop_e_0.ani`	0	1
+		`../Animation/venom_normal.ani`	0	2
+		`../Animation/venom_dodge.ani`	0	3
+	[/SUB ANI]
+	[SOUND]
+		`VOTI_SKILL_06_1`	0
+		`VOTI_TONGBAE_GET`	1
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[LIMIT]
+		1
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[ON END BEHAVIOR]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[CHARACTER]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			100
+		[LAST TARGET PRIORITY]
+		[LOW]
+	[/CHECKUP]
+	[MOVE TO]
+	[TARGET]
+		100
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[RESET]
+	[SET ACTION]
+	[ATTACK]
+		11
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`time321`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		3
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[OFF]
+	[IF]
+		`time321`
+		[+]
+			1000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		3
+	[OFF]
+	[DIM]
+		`time321`
+		[=]
+			0
+	[/DIM]
+	[SET ACTION]
+	[STAND]
+	[NOW]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+		4
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[RESET]
+[/BEHAVIOR]

@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+	`破滅的撤退`
+
+[basic explain]
+	`巴拉克的野心2擊魔法攻擊力增加20%% 
+巴拉克的憤怒 2擊衝擊波魔法攻擊力增加30%% 
+千魂祭最後一擊魔法攻擊力增加40%% 
+釋魂暗勁波 爆發魔法攻擊力增加50%% `
+
+[routing priority]
+	`thief`	2
+[/routing priority]
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[magical attack]
+	56
+
+[attack speed]
+	-100
+
+[price]
+	136000
+
+[repair price]
+	114240
+
+[value]
+	108800
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	665	617
+
+[equipment magical attack]
+	948	879
+
+[separate attack]
+	504	343
+
+[magical critical hit]
+	5
+
+[skill levelup]
+	`[thief]`	59	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/thief/wand/wand.img`	106
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	26	1
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[thief]`	39
+	`[all]`
+	`[level]`	2
+	`%`	20
+	`[thief]`	39
+	`[all]`
+	`[level]`	3
+	`%`	20
+	`[theif]`	40
+	`[dungeon type]`
+	`[level]`	2
+	`%`	30
+	`[theif]`	40
+	`[dungeon type]`
+	`[level]`	3
+	`%`	30
+	`[theif]`	40
+	`[dungeon type]`
+	`[level]`	5
+	`%`	30
+	`[theif]`	59
+	`[dungeon type]`
+	`[level]`	2
+	`%`	40
+	`[theif]`	77
+	`[dungeon type]`
+	`[level]`	2
+	`%`	50
+	`[theif]`	77
+	`[dungeon type]`
+	`[level]`	3
+	`%`	50
+[/skill data up]
+
+[possible kiri protect]

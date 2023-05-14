@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[mage]`
+
+[level]
+	3	99
+
+[pre required quest]
+	104
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`魔法師之路 - 開始`
+
+[depend message]
+	`你選擇走上了魔法的道路。雖然和我走的路線不同，但是我想只有過程有別我們的目的地應該是相同的吧。不是嗎？`
+
+[condition message]
+	`與風振對話繼續聽取`
+
+[solve message]
+	`往後你要走的路還很遙遠呢。但是你要選擇行走方向的時機已經不遠了。
+不要停止冒險。目前我能說的就只有這些了。`
+
+[quest point]
+	4

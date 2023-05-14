@@ -1,0 +1,25 @@
+#PVF_File
+
+[ui controls]
+	`[board image]`
+	`300`	1	1	1
+	`Interface/WindowCommon.img`	11	230	40	213	214	215	216	217	218	219	220	221
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`301`	4	4	1
+	`以小隊進行遊戲時，經驗值獲得量會上升`
+		9	-1	220	0	0	0	0	230	200	155
+	[parent]
+		`300`
+[/ui controls]
+
+[ui controls]
+	`[text]`
+	`302`	4	20	1
+	`以小隊進行遊戲時，任務道具掉落率會上升`
+		9	-1	220	0	0	0	0	230	200	155
+	[parent]
+		`300`
+[/ui controls]

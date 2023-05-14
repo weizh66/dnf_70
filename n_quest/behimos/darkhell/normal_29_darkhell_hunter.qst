@@ -1,0 +1,57 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`C`
+
+[gold multiple]
+	50
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	29	99
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	23	-1	200	30	23	-1	201	15	23	-1	50095	3
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	15000	22067	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`夜叉的秘密`
+
+[depend message]
+	`你知道夜叉原先是什么生靈嗎？ 它原是受美神維納斯祝福的生靈， 后來因為觸犯某種禁忌被處罰了， 它們只有在臨死時才會知道自己是誰……你去幫助它們吧， 讓它們早日安息！ `
+
+[condition message]
+	`    前往天帷巨獸神殿的『煉獄』， 殺死30個夜叉、 15個艾力斯、 3個波動獵手伽雷斯。`
+
+[solve message]
+	`那些可憐的夜叉……愿它們早日安息吧！`

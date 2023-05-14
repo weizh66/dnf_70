@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+	`千蛛碎影之利齒戰靴`
+
+[basic explain]
+	`  攻擊時有10%%的幾率使敵人進入出血狀態。
+  攻擊出血狀態的敵人時， 敵人的防禦力減少， 效果持續10秒。`
+
+[flavor text]
+	`  哇！ 蜘蛛好可怕啊！  --小女孩害怕地跑遠了。
+還好我召喚的是蜘蛛王子……  --死靈術士背過身去暗自慶幸`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12576
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	75
+
+[physical defense]
+	23
+
+[magical attack]
+	68
+
+[move speed]
+	60
+
+[need material]
+	3821	1000
+
+[price]
+	91000
+
+[repair price]
+	72800
+
+[value]
+	72800
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	2448	2232
+
+[icon]
+	`Item/new_equipment/05_harmor/shoes/harmor_shoes.img`	18
+
+[field image]
+	`Item/field_equip.img`	14
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	3
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	26
+
+[weight]
+	1600
+
+[item group name]
+	`ha shoes`
+
+[cool time]
+	10000
+
+[active status control info]
+	`bleeding`	0	12	0	20
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		10
+	[duration]
+		3000
+	[active status]
+		`bleeding`	120	400000
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+	[cooltime]
+		8000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[appendage]
+		240
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600813	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

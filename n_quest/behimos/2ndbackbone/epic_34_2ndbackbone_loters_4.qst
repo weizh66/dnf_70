@@ -1,0 +1,80 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	28
+
+[complete npc index]
+	28
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	34	99
+
+[pre required quest]
+	4326
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	26	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`沉睡吧，羅特斯`
+
+[depend message]
+	`現在……是你實現盼望已久的夢想的時候了！
+要想解開引起這個世界混亂的謎團， 為你的父母和朋友報仇， 為你一直探究的疑問找到答案！ 那么就去消滅使徒羅特斯吧。`
+
+[condition message]
+	`    前往天帷巨獸神殿的『第二脊椎』， 擊敗領主長腳羅特斯， 要求地下城難度為王者級。`
+
+[solve message]
+	`懲處了使徒的英雄， 歡迎歡迎！`
+
+[dialog]
+	1	0	26	3	1	3002	0
+	` <monster::3002>卑微的生物竟然也能來到這里~
+那就好好感受使徒的強大力量吧~`
+[/dialog]
+
+[dialog]
+	1	1	26	3	1	3002	0
+	` <monster::3002>結果我還是像預言書中的預言一樣死在這里嗎……
+最后再問你們一句， 我邪惡嗎？ 或者在你們眼中是這樣的……
+但你們也不過是為實現預言書中的預言而聽命他人的傀儡罷了……在我看來， 愚蠢的你們才是邪惡的存在……
+愚蠢的人類啊， 當初希洛克在受盡折磨死去的那一刻， 把你們的未來之事都告訴你們了……
+但你們……依然一步步走向滅亡……無可救藥的人類……咳……呃……`
+[/dialog]
+
+[quest point]
+	4

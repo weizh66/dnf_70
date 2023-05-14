@@ -1,0 +1,199 @@
+#PVF_File
+
+[name]
+	`暴風之戾嘯`
+
+[basic explain]
+	`    攻擊束縛狀態下的敵人， 可以使其進入混亂、 出血狀態。
+    攻擊時， 可以發動強風。`
+
+[detail explain]
+	`    攻擊束縛狀態的敵人時， 可以使敵人進入混亂狀態3秒。 (若對方等級高于Lv60， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    攻擊束縛狀態的敵人時， 可以使敵人進入出血狀態1秒； 出血狀態下的敵人， 每0.5秒受到200點傷害。 (若對方等級高于Lv60， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果)
+    攻擊時， 發射強風。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`claw`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/fighter/claw.img`	61
+
+[field image]
+	`Item/FieldImage.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	39
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[equipment physical attack]
+	572	524
+
+[equipment magical attack]
+	572	524
+
+[separate attack]
+	360	243
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[target active status]
+		`hold`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`confuse`	60	1
+[/then]
+
+[if]
+	[target active status]
+		`hold`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[active status]
+		`bleeding`	60	400
+[/then]
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	52	1
+	`[at fighter]`	52	1
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2790
+	`clawc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`clawb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	2	3
+
+[layer variation]
+	2150
+	`at_clawa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_clawc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_clawx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLAW_TOUCH`
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48101	0	0	0	55	0
+		``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`fighter`	3
+	`at fighter`	3
+[/routing priority]
+
+[possible kiri protect]

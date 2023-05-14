@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`寵物蛋（大地之哥布林）`
+
+[explain]
+	`變身為大地之哥布林士兵協助戰鬥，變身效果持續30秒。變身時，會隨機選擇哥布林的變身種類。（1:哥布林護衛，2:哥布林人偶，3:哥布林突擊隊長，4:哥布林大族長）`
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature_egg.img`	26
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[need material]
+	3340	68
+
+[sub type]
+	1
+
+[creature species]
+	33
+
+[output index]
+	63054
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	5.0
+
+[physical attack]
+	23
+
+[MP regen speed]
+	12
+
+[move wav]
+	`CREATURE_EGG_TOUCH`
+
+[set item master]
+	-1

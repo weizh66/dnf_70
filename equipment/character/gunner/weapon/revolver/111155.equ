@@ -1,0 +1,429 @@
+#PVF_File
+
+[name]
+	`[魔改]風暴突擊 - 逆輪`
+
+[basic explain]
+	`  [神槍手/女槍手]
+  使用此武器，若施放技能將會對敵人附加以下效果。
+  -施放[死亡左輪]時，觸發霸體增益效果；同時施放閃電云效果。
+  -施放[踏射]時，則可對自身周圍的敵人施加地震效果。
+  -施放[爆頭壹擊]、[回頭壹擊]、[瞬踢]、[刺踢]技能時， 則可向前方施放毀滅之塔伊奧利的沖擊波。
+  -施放[亂射]、[多重控制]和[雙鷹回旋]技能時，則對自身周圍px300范圍內的敵人施放克洛的處罰。
+  -施放[反坦克炮]技能時，則向直線前方所有敵人施放冰霜懲罰
+  ↑↓+[寵物技能]輸入時，則可對周圍敵人施放蟲洞。`
+
+[flavor text]
+	`  神擋殺神，佛擋殺佛，此等神奇，只為TAO所有...`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[need material]
+	3500	1200
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	852	740
+
+[equipment magical attack]
+	717	623
+
+[separate attack]
+	552	363
+
+[attack speed]
+	200
+
+[cast speed]
+	200
+
+[move speed]
+	150
+
+[physical critical hit]
+	10
+
+[all elemental attack]
+	15
+
+[spectrum]
+	255	0	0	200	500
+
+[elemental property]
+	`[fire element]`
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/revolver/revolver.img`	126
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	41	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	39	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`gunner`	5
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	120	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	20
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	120	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	5
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	20
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	7
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	7
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54134	120	0	90	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	9
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54130	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	9
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54130	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	104
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		14125	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	104
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		14125	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	51
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54130	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	51
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54130	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	60
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		`skill level info`	60	0	-1
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	60
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		`skill level info`	60	0	-1
+	[buff]
+		`superarmor`
+[/then]
+
+[if]
+	[cooltime]
+		100
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[passive object]
+		60062	0	0	0	1	0
+		``	60063	0	0	0	1	0
+		``
+	[/passive object]
+[/then]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[cooltime]
+		100
+	[use command]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3037	2
+	[passive object]
+		54135	200	0	0	2	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	40
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54136	0	0	0	100	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	40
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		54136	0	0	0	100	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

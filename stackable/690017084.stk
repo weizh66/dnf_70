@@ -1,0 +1,52 @@
+#PVF_File
+
+[name]
+	`經驗膠囊隨機包(LV.1)`
+
+[explain]
+	`打開后，從經驗膠囊（LV.4）、經驗膠囊（LV.9）中隨機抽取獲得一個。
+ 
+有一定幾率獲得雙倍獎勵。`
+
+[flavor text]
+	`<越戰越勇禮盒>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[maximum level]
+	9
+
+[icon]
+	`Item/stackable/cash.img`	791
+
+[field image]
+	`Item/field_consumption.img`	0
+
+[stackable type]
+	`[booster]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[booster info]
+	[stackable]
+		1	690017070	490000	1	690017070	10000	2	690017071	490000	1	690017071	10000	2
+	[/stackable]
+[/booster info]

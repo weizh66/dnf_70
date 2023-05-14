@@ -1,0 +1,184 @@
+#PVF_File
+
+[name]
+	`戮蠱的哀鳴炮`
+
+[basic explain]
+	`[爆頭一擊]、[鐳射炮]、[散彈槍]攻擊力增加25%%
+[爆頭一擊]、[鐳射炮]、[散彈槍]攻擊時，有30%%的機率使敵人進入石化狀態。`
+
+[detail explain]
+	`[爆頭一擊]、[鐳射炮]、[散彈槍]攻擊力 +25%%
+  [爆頭一擊]、[鐳射炮]、[散彈槍]攻擊時，有30%%的機率使敵人進入石化狀態3秒；石化狀態解除時，使敵人受到1000點傷害。 (若敵人高於Lv61，則減少進入異常狀態的機率和效果；反之，則增加機率和效果。)`
+
+[grade]
+	65
+
+[rarity]
+	3
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	61
+
+[anti evil]
+	10
+
+[physical attack]
+	65
+
+[price]
+	117000
+
+[repair price]
+	98280
+
+[value]
+	93600
+
+[need material]
+	3340	37
+
+[equipment physical attack]
+	671	611
+
+[equipment magical attack]
+	403	366
+
+[separate attack]
+	365	246
+
+[icon]
+	`item/weapon/gunner/hcannon.img`	38
+
+[field image]
+	`Item/field_weapon.img`	4
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	4	1
+
+[layer variation]
+	2790
+	`hcanc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`hcanb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	4	1
+
+[layer variation]
+	2790
+	`at_hcanc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_hcanb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2800
+
+[item group name]
+	`hcannon`
+
+[cool time]
+	10000
+
+[if]
+	[skill]
+		`gunner`	5
+		`gunner`	39
+		`gunner`	48
+		`at gunner`	5
+		`at gunner`	39
+		`at gunner`	48
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		30
+	[active status]
+		`stone`	61	1300
+[/then]
+
+[skill data up]
+	`[gunner]`	5
+	`[all]`
+	`[level]`	0
+	`%`	25
+	`[gunner]`	39
+	`[all]`
+	`[level]`	0
+	`%`	25
+	`[gunner]`	39
+	`[all]`
+	`[level]`	1
+	`%`	25
+	`[gunner]`	48
+	`[all]`
+	`[level]`	0
+	`%`	25
+	`[at gunner]`	5
+	`[all]`
+	`[level]`	0
+	`%`	25
+	`[at gunner]`	39
+	`[all]`
+	`[level]`	0
+	`%`	25
+	`[at gunner]`	39
+	`[all]`
+	`[level]`	1
+	`%`	25
+	`[at gunner]`	48
+	`[all]`
+	`[level]`	0
+	`%`	25
+[/skill data up]
+
+[possible kiri protect]

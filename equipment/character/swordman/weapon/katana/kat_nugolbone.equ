@@ -1,0 +1,427 @@
+#PVF_File
+
+[name]
+	`戮蠱的骨刃`
+
+[basic explain]
+	`[拔刀斬]、[鬼影閃]、[嗜魂封魔斬]、[無雙波]、[拖引之劍]、[瞬間砍擊]、[闇影狂嘯]攻擊力增加30%%
+[拔刀斬]、[鬼影閃]、[嗜魂封魔斬]、[無雙波]、[拖引之劍]、[瞬間砍擊]、[闇影狂嘯]攻擊時，使敵人進入出血狀態。`
+
+[detail explain]
+	`[拔刀斬]、[鬼影閃]、[嗜魂封魔斬]、[無雙波]、[拖引之劍]、[瞬間砍擊]、[黑暗封魔斬]攻擊力增加30%% (在決鬥場中增加15%%)
+ [拔刀斬] 、[拖引之劍]命中時，使敵人進入出血狀態3秒； 出血狀態下的敵人每0.5秒會受到242點傷害。
+ [鬼影閃] 、[瞬間砍擊]攻擊時，使敵人進入出血狀態3秒； 出血狀態下的敵人每0.5秒會受到483點傷害。
+ [嗜魂封魔斬] 、[黑暗封魔斬]命中時，使敵人進入出血狀態3秒； 出血狀態下的敵人每0.5秒會受到483點傷害。
+ [無雙波]命中時，使敵人進入出血狀態3秒； 出血狀態下的敵人每0.5秒會受到358點傷害。
+ (若敵人高於Lv65，則減少進入異常狀態的機率； 反之，則增加機率)`
+
+[grade]
+	65
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	61
+
+[anti evil]
+	10
+
+[physical attack]
+	44
+
+[magical attack]
+	66
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	104000
+
+[repair price]
+	87360
+
+[value]
+	83200
+
+[need material]
+	3340	37
+
+[equipment physical attack]
+	583	536
+
+[equipment magical attack]
+	645	592
+
+[separate attack]
+	365	246
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/katana.img`	44
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	12	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	12	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[skill]
+		`swordman`	9
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`bleeding`	65	1450
+[/then]
+
+[if]
+	[skill]
+		`swordman`	60
+		`swordman`	79
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`bleeding`	65	2900
+[/then]
+
+[if]
+	[skill]
+		`swordman`	62
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`bleeding`	65	2150
+[/then]
+
+[if]
+	[skill]
+		`demonic swordman`	9
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`bleeding`	65	1450
+[/then]
+
+[if]
+	[skill]
+		`demonic swordman`	60
+		`demonic swordman`	79
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[active status]
+		`bleeding`	65	2900
+[/then]
+
+[skill data up]
+	`[swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	30
+	`[swordman]`	62
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[swordman]`	62
+	`[all]`
+	`[level]`	1
+	`%`	30
+	`[swordman]`	62
+	`[all]`
+	`[level]`	2
+	`%`	30
+	`[demonic swordman]`	9
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[demonic swordman]`	60
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[demonic swordman]`	79
+	`[all]`
+	`[level]`	1
+	`%`	30
+[/skill data up]
+
+[pvp]
+	[if]
+		[skill]
+			`swordman`	9
+		[/skill]
+		[cooltime]
+			4000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[active status]
+			`bleeding`	65	725
+	[/then]
+	[if]
+		[skill]
+			`swordman`	60
+			`swordman`	79
+		[/skill]
+		[cooltime]
+			4000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[active status]
+			`bleeding`	65	525
+	[/then]
+	[if]
+		[skill]
+			`swordman`	60
+		[/skill]
+		[cooltime]
+			4000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[active status]
+			`bleeding`	65	1450
+	[/then]
+	[if]
+		[skill]
+			`swordman`	62
+		[/skill]
+		[cooltime]
+			4000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[active status]
+			`bleeding`	65	1075
+	[/then]
+	[if]
+		[skill]
+			`demonic swordman`	9
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[active status]
+			`bleeding`	65	725
+	[/then]
+	[if]
+		[skill]
+			`demonic swordman`	60
+			`demonic swordman`	79
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			3000
+		[active status]
+			`bleeding`	65	525
+	[/then]
+	[skill data up]
+		`[swordman]`	9
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[swordman]`	60
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[swordman]`	79
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[swordman]`	79
+		`[all]`
+		`[level]`	1
+		`%`	15
+		`[swordman]`	62
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[swordman]`	62
+		`[all]`
+		`[level]`	1
+		`%`	15
+		`[swordman]`	62
+		`[all]`
+		`[level]`	2
+		`%`	15
+		`[demonic swordman]`	9
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[demonic swordman]`	60
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[demonic swordman]`	79
+		`[all]`
+		`[level]`	0
+		`%`	15
+		`[demonic swordman]`	79
+		`[all]`
+		`[level]`	1
+		`%`	15
+	[/skill data up]
+[/pvp]
+
+[possible kiri protect]

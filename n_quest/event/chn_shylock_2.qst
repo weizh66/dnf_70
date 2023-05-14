@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	9
+
+[complete npc index]
+	9
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4951
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	600	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	604	2	601	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`尋找哥布林雕像 - 2`
+
+[depend message]
+	`勇士， 因為你的熱心幫忙， 我賺大……不， 我找回了那些被怪物搶走的雕像， 不過我在清點那些雕像時發現數目和我原來記錄的相差很大。
+一定是那些怪物把剩下的雕像藏起來了， 你能不能再幫我一次？ 幫我把那些雕像找回來吧！`
+
+[condition message]
+	`<夏洛克的助威活動>  前往地下城， 收集25個[哥布林銅雕像]交給赫頓瑪爾后街的夏洛克。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`這么快就送來了？ 謝謝啦！ 嘿嘿， 作為報答， 我送你一個銀光閃閃的銀雕像吧。
+順便給你一個提示， 有些怪物會有我賣給它們的……不， 它們從我這里搶走的銀雕像。`

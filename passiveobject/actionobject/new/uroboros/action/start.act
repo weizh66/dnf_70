@@ -1,0 +1,65 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/uroboros/start/start_creation.ani`
+	[SUB ANI]
+		`../Animation/uroboros/start/start_circle.ani`	0	1
+		`../Animation/uroboros/start/start_dodge.ani`	0	1
+		`../Animation/uroboros/start/start_dust01.ani`	0	1
+		`../Animation/uroboros/start/start_dust02.ani`	0	1
+		`../Animation/uroboros/start/start_fluore.ani`	0	1
+		`../Animation/uroboros/start/start_fluto.ani`	0	1
+		`../Animation/uroboros/start/start_front01.ani`	0	1
+		`../Animation/uroboros/start/start_front02.ani`	0	1
+		`../Animation/uroboros/start/start_front03.ani`	0	1
+		`../Animation/uroboros/start/start_jackfrost.ani`	0	1
+		`../Animation/uroboros/start/start_lantern.ani`	0	1
+		`../Animation/uroboros/start/start_shock01.ani`	0	1
+		`../Animation/uroboros/start/start_shock02.ani`	0	1
+		`../Animation/uroboros/start/start_shock03.ani`	0	1
+		`../Animation/uroboros/start/start_shock04.ani`	0	1
+		`../Animation/uroboros/start/start_spark01.ani`	0	1
+		`../Animation/uroboros/start/start_spark02.ani`	0	1
+		`../Animation/uroboros/start/start_spark03.ani`	0	1
+		`../Animation/uroboros/start/start_spark04.ani`	0	1
+		`../Animation/uroboros/start/start_spark05.ani`	0	1
+		`../Animation/uroboros/start/start_spark06.ani`	0	1
+		`../Animation/uroboros/start/start_spark07.ani`	0	1
+		`../Animation/uroboros/start/start_spark09.ani`	0	1
+		`../Animation/uroboros/start/start_spark10.ani`	0	1
+		`../Animation/uroboros/start/start_spark11.ani`	0	1
+		`../Animation/uroboros/start/start_spark12.ani`	0	1
+		`../Animation/uroboros/start/start_spark13.ani`	0	1
+		`../Animation/uroboros/start/start_spark14.ani`	0	1
+		`../Animation/uroboros/start/start_spark15.ani`	0	1
+		`../Animation/uroboros/start/start_spark16.ani`	0	1
+		`../Animation/uroboros/start/start_tool_effect01.ani`	0	1
+		`../Animation/uroboros/start/start_tool_effect02.ani`	0	1
+		`../Animation/uroboros/start/start_tool3.ani`	0	1
+		`../Animation/uroboros/start/start_tool4_under.ani`	0	1
+		`../Animation/uroboros/start/start_tool4_upper.ani`
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		20	20
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700001
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+		[USE OBJECT ZPOS]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

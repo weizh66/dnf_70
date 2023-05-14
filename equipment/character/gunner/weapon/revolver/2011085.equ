@@ -1,0 +1,305 @@
+#PVF_File
+
+[name]
+	`浮雲般的霸氣-Cloud like domineering`
+
+[basic explain]
+	`AP彈穿甲效果大幅提升
+攻擊時，附加30%%的光屬性傷害
+攻擊時，使敵人進入感電狀態
+對感電的敵人傷害 +40%%`
+
+[flavor text]
+	`全身充滿著雷電的力量`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	120
+
+[repair price]
+	120320
+
+[value]
+	120320
+
+[equipment physical attack]
+	1746	1775
+
+[equipment magical attack]
+	1411	1452
+
+[separate attack]
+	987	987
+
+[light attack]
+	180
+
+[elemental property]
+	`[light element]`
+
+[physical critical hit]
+	20
+
+[anti evil]
+	60
+
+[icon]
+	`Item/wuqi.img`	14
+
+[field image]
+	`Item/field_weapon.img`	1
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	48	0
+
+[layer variation]
+	2790
+	`revc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`revb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	48	0
+
+[layer variation]
+	2790
+	`at_revc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_revb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`GUN_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2000
+
+[item group name]
+	`revolver`
+
+[cool time]
+	10000
+
+[if]
+	[use skill]
+		`gunner`	3
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[passive object]
+		990335	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	3
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[passive object]
+		990335	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[skill data up]
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	3
+	`%`	100
+	`[at gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	50
+	`[gunner]`	9
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	50
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	2
+	`%`	50
+	`[at gunner]`	51
+	`[dungeon type]`
+	`[level]`	3
+	`%`	50
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+	`[gunner]`	51
+	`[dungeon type]`
+	`[level]`	2
+	`%`	100
+	`[at gunner]`	60
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+	`[gunner]`	60
+	`[dungeon type]`
+	`[level]`	1
+	`%`	100
+	`[at gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[gunner]`	72
+	`[dungeon type]`
+	`[level]`	0
+	`%`	300
+	`[at gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[gunner]`	104
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[at gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[gunner]`	3
+	`[dungeon type]`
+	`[level]`	0
+	`%`	500
+	`[at gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[gunner]`	15
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[at gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[gunner]`	5
+	`[dungeon type]`
+	`[level]`	0
+	`%`	100
+	`[gunner]`	9
+	`[dungeon type]`
+	`[static]`	4
+	`%`	50
+	`[gunner]`	9
+	`[dungeon type]`
+	`[static]`	5
+	`%`	50
+	`[gunner]`	9
+	`[dungeon type]`
+	`[static]`	6
+	`%`	50
+[/skill data up]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	30
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	40
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		100
+	[active status]
+		`lightning`	90	2500
+[/then]
+
+[possible kiri protect]

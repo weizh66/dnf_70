@@ -1,0 +1,76 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	9
+
+[complete npc index]
+	9
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	4954
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	602	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	603	10	26165	1
+[/reward selection int data]
+
+[name]
+	`尋找哥布林金雕像`
+
+[depend message]
+	`嘿嘿， 勇士……呃， 如果你能把那個絕世雕像還給我， 我就送你一個我特制的物品。 你放心， 這個交易絕對劃算， 你就不要拒絕啦！`
+
+[condition message]
+	`<夏洛克的助威活動>  收集2個[哥布林金雕像]交給赫頓瑪爾后街的夏洛克。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`謝謝你， 嘿嘿……這些好東西你一定會喜歡的！`

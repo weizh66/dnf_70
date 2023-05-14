@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`快速的變色龍皮革鞋子`
+
+[basic explain]
+	`攻擊時以2%%機率在20秒內向隊員施展攻擊速度,移動速度,施放速度5%%增加增益`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	21
+
+[magical attack]
+	21
+
+[magical defense]
+	23
+
+[move speed]
+	70
+
+[price]
+	59500
+
+[repair price]
+	49980
+
+[value]
+	47600
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	1116	1044
+
+[icon]
+	`item/new_equipment/03_leather/shoes/leather_shoes.img`	10
+
+[field image]
+	`Item/FieldImage.img`	4
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	900
+
+[item group name]
+	`lt shoes`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		2
+	[stat]
+		`move speed`
+		`+`	50
+	[stat]
+		`cast speed`
+		`+`	50
+	[stat]
+		`attack speed`
+		`+`	50
+[/then]
+
+[set item master]
+	100060016
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

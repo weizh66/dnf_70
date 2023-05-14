@@ -1,0 +1,63 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`S`
+
+[gold multiple]
+	110
+
+[npc index]
+	19
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	35	99
+
+[pre required quest]
+	4024
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	90	-1	61600	5	90	-1	61602	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`清除GBL教信徒余黨`
+
+[depend message]
+	`據說大部分墮落的GBL教信徒都逃到樹精叢林深處去了。 你說那么多的信徒躲在那里， 會不會是在等待長腳羅特斯的重生呢？
+如果真是那樣， 那……冒險家， 你能幫我去那里看看嗎？`
+
+[condition message]
+	`    除掉以下怪物后， 向奧菲利亞回復。`
+
+[solve message]
+	`真的有很多信徒躲在那里嗎？
+希望死對他們是一種解脫。 謝謝你， 冒險家！`

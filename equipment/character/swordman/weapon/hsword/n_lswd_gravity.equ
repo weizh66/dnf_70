@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`(舊) 地靈絕魂劍`
+
+[basic explain]
+	`攻擊時， 增加等同于自身和金庫重量之和80%%的傷害。 (金庫中適用于上述屬性的重量為， 每個欄位最高不超過6Kg)`
+
+[flavor text]
+	`    它可以附上主人的重量去斬殺敵人。`
+
+[grade]
+	45
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`lswd`
+
+[rarity]
+	4
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	40
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	47
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	81000
+
+[value]
+	64800
+
+[cool time]
+	10000
+
+[physical attack]
+	32
+
+[equipment physical attack]
+	523	466
+
+[equipment magical attack]
+	392	349
+
+[separate attack]
+	259	173
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[variation]
+	4	2
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[creation rate]
+	190
+
+[possible kiri protect]

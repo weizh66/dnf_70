@@ -1,0 +1,66 @@
+#PVF_File
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/gemswd/sg_gemswd%02d%02da.img`
+		53
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		70
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/gemswd/sg_gemswd%02d%02da.img`
+		54
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		70
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/gemswd/sg_gemswd%02d%02da.img`
+		55
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		70
+	[ATTACK BOX]
+	75	-10	35	30	20	40
+	[ATTACK BOX]
+	-5	-10	35	20	20	40
+	[ATTACK BOX]
+	15	-10	16	80	20	19
+	[ATTACK BOX]
+	75	-10	75	20	20	20
+	[ATTACK BOX]
+	55	-10	35	20	20	20
+	[ATTACK BOX]
+	15	-10	35	20	20	20
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/gemswd/sg_gemswd%02d%02da.img`
+		56
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		70
+	[ATTACK BOX]
+	-2	-10	29	40	20	40
+	[ATTACK BOX]
+	18	-10	20	54	20	9
+	[ATTACK BOX]
+	38	-10	29	34	20	20
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/ATEquipment/Weapon/gemswd/sg_gemswd%02d%02da.img`
+		57
+	[IMAGE POS]
+		-248	-379
+	[DELAY]
+		185

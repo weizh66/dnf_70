@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`黃金貴族之獻祭光環`
+
+[grade]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura.img`	25
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	43
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[equipment physical attack]
+	10	10
+
+[equipment magical attack]
+	10	10
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[all elemental attack]
+	5
+
+[room list move speed rate]
+	0.1
+
+[aura ability]
+	`[party teleport]`	600
+[/aura ability]
+
+[aurora graphic effects]
+	6	1
+	`Character/Common/Animation/Aura/gold_front.ani`	1
+	`Character/Common/Animation/Aura/gold_front_dodge.ani`	0
+	`Character/Common/Animation/Aura/gold_back.ani`	0
+	`Character/Common/Animation/Aura/gold_back_dodge.ani`	0
+	`Character/Common/Animation/Aura/gold_halo.ani`	0
+	`Character/Common/Animation/Aura/gold_halo_dodge.ani`
+
+[aura pos datas]
+	4
+	`[swordman]`	0	0	4
+	`[fighter]`	2	11	4
+	`[gunner]`	-2	-17	4
+	`[mage]`	-2	25	4
+	`[priest]`	-5	-11	4
+	`[at gunner]`	0	-5	4
+	`[thief]`	0	-3	4
+	`[at fighter]`	-2	-6	4
+	`[at mage]`	0	10	4
+	`[demonic swordman]`	0	0	4
+	`[creator mage]`	-2	25	4
+	`[at swordman]`	0	3	4
+	`[knight]`	0	14	5
+	`[swordman]`	0	0	5
+	`[fighter]`	2	11	5
+	`[gunner]`	-2	-17	5
+	`[mage]`	-2	25	5
+	`[priest]`	-5	-11	5
+	`[at gunner]`	0	-5	5
+	`[thief]`	0	-3	5
+	`[at fighter]`	-2	-6	5
+	`[at mage]`	0	10	5
+	`[demonic swordman]`	0	0	5
+	`[creator mage]`	-2	25	5
+	`[at swordman]`	0	3	5
+	`[knight]`	0	14
+[/aura pos datas]

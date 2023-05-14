@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`蛇尾雙劍`
+
+[basic explain]
+	`普通攻擊攻擊時以50%% 的機率讓敵人呈現出血狀態
+出血狀態的敵人攻擊時8%% 附加傷害
+翔擊終結追擊攻擊力增加30%% 
+絕殺斬終結追擊攻擊力增加30%% `
+
+[detail explain]
+	`普通攻擊攻擊時以 50%% 的機率讓敵人在 2秒內進入出血狀態，每 0.5秒以 30的攻擊力給予傷害。（高於Lv84的對象得到的機率減少，低於Lv84的對象則會增加。）
+出血狀態的敵人攻擊時8%% 附加傷害
+翔擊終結追擊攻擊力增加30%% 
+絕殺斬終結追擊攻擊力增加30%% `
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[attack speed]
+	-80
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	820	769
+
+[equipment magical attack]
+	643	603
+
+[separate attack]
+	481	327
+
+[physical critical hit]
+	5
+
+[icon]
+	`item/new_equipment/01_weapon/thief/twinswd/twinswd.img`	104
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	24	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[if]
+	[my state]
+		`attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		50
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	84	120
+[/then]
+
+[if]
+	[target active status]
+		`bleeding`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	8
+[/then]
+
+[skill data up]
+	`[thief]`	9
+	`[all]`
+	`[level]`	0
+	`%`	30
+	`[thief]`	9
+	`[all]`
+	`[level]`	3
+	`%`	30
+	`[thief]`	9
+	`[all]`
+	`[level]`	5
+	`%`	30
+	`[thief]`	9
+	`[all]`
+	`[level]`	6
+	`%`	30
+	`[thief]`	9
+	`[all]`
+	`[level]`	7
+	`%`	30
+[/skill data up]
+
+[possible kiri protect]

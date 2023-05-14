@@ -1,0 +1,68 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	200
+
+[ignore quest level 4 exp]
+	1
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[at mage]`
+
+[grow type]
+	-1
+
+[level]
+	15	99
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	690000277	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	690000276	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`深淵的碎片`
+
+[depend message]
+	`不知何時已經成長為威風凜凜的魔法師，為了習得更高深的技術而來到了抉擇的十字路口。這段期間你傑出的表現我都看在眼裡。
+ 為了報答你付出的熱情與努力，我要給你一個能永久使用的裝扮寶箱。不過，你要先拿出努力的證據給我。
+每天挑戰一定次數的副本，獲得的[深淵碎片]10個應該很足夠了吧。`
+
+[condition message]
+	`請在地下城收集10個 [深淵的碎片]`
+
+[solve message]
+	`你果然做到了。我真以你為榮。我不會忘記你所展現的毅力與努力的。來，這是你的獎勵寶箱。`

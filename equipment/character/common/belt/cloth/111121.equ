@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`錦繡丹華腰帶`
+
+[basic explain]
+	`  施放技能時，有20%%的幾率使自身所有屬性強化增加30點，效果持續20秒。（消耗一個金色小金塊；冷卻時間20秒；解除裝備后效果消失）`
+
+[flavor text]
+	`  那個混蛋專挑我穿漂亮衣服的時候來戰斗，害我每次都輸！！ -娜塔莎`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12561
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[magical attack]
+	25
+
+[magical defense]
+	25
+
+[HP MAX]
+	150
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	800
+
+[price]
+	56700
+
+[repair price]
+	45360
+
+[value]
+	45360
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	1368	1132
+
+[icon]
+	`Item/new_equipment/02_cloth/belt/cloth_belt.img`	16
+
+[field image]
+	`Item/field_equip.img`	3
+
+[equipment type]
+	`[waist]`	14
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	550
+
+[item group name]
+	`cl waist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		20000
+	[casting]
+		1
+[/if]
+
+[then]
+	[consume item]
+		3262	2
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		20
+	[stat]
+		`fire attack`
+		`+`	30
+	[stat]
+		`water attack`
+		`+`	30
+	[stat]
+		`light attack`
+		`+`	30
+	[stat]
+		`dark attack`
+		`+`	30
+[/then]
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600674	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

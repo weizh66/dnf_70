@@ -1,0 +1,79 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-109	-183
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-109	-183
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-109	-183
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/casting_light1.img`
+		0
+	[IMAGE POS]
+		-109	-183
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/casting_light1.img`
+		0
+	[IMAGE POS]
+		-109	-183
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		240
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/casting_light1.img`
+		0
+	[IMAGE POS]
+		-109	-183
+	[RGBA]
+		255	255	255	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

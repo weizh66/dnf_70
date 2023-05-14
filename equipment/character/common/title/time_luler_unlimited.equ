@@ -1,0 +1,113 @@
+#PVF_File
+
+[name]
+	`時空統治者`
+
+[explain]
+	`  時空之門 - 鎮魂曲專用效果
+  自身及隊員力量 +80
+  自身及隊員智力 +80
+  自身及隊員最大HP +200`
+
+[flavor text]
+	`  滄海桑田， 壹曲鎮魂。`
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	15
+
+[physical defense]
+	15
+
+[magical attack]
+	15
+
+[magical defense]
+	15
+
+[physical critical hit]
+	3
+
+[magical critical hit]
+	3
+
+[move speed]
+	20
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[icon]
+	`Item/Title/title_cn.img`	228
+
+[custom animation]
+	`TitleAnimation/timeruler.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206
+	[/dungeon check]
+	[stat change]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	80
+	[stat by condition]
+		`magical attack`
+		`+`	80
+	[stat by condition]
+		`hp max`
+		`+`	2000
+[/then]
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206
+	[/dungeon check]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	2
+[/then]
+
+[move wav]
+	`NAME_TOUCH`

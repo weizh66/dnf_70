@@ -1,0 +1,160 @@
+#PVF_File
+
+[set name]
+	`玩具縱火者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[gunner]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`+`	3500
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	3
+		`%`	20
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	2
+		`+`	3500
+	[/skill data up]
+	[parameter basic explain]
+		`[RX-78追擊者]冷卻時間 -0.5秒
+[RX-78追擊者]攻擊力 +20%%
+[RX-78追擊者]存在時間 +3.5秒`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[gunner]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2100
+		`[gunner]`	42
+		`[dungeon type]`
+		`[level]`	1
+		`+`	100
+		`[gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[gunner]`	50
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[at gunner]`	42
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2100
+		`[at gunner]`	42
+		`[dungeon type]`
+		`[level]`	0
+		`+`	200
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-500
+		`[at gunner]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`+`	19
+		`[at gunner]`	50
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+	[/skill data up]
+	[parameter basic explain]
+		`神槍手(男) :
+[RX-78追擊者]冷卻時間 -0.5秒
+[機械引爆]冷卻時間 -1秒
+[嗜戰追擊者]冷卻時間 -2.1秒
+[嗜戰追擊者]追加召喚幾率 +10%%
+神槍手(女) :
+[RX-78追擊者]冷卻時間 -0.5秒
+[機械引爆]冷卻時間 -1秒
+[危機追擊者]冷卻時間 -2.1秒
+[危機追擊者]被攻擊時召喚幾率 +200%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[gunner]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[gunner]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[gunner]`	28
+		`[dungeon type]`
+		`[level]`	3
+		`%`	5
+		`[gunner]`	28
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1500
+		`[gunner]`	50
+		`[dungeon type]`
+		`[static]`	1
+		`%`	5
+		`[gunner]`	46
+		`[dungeon type]`
+		`[level]`	1
+		`+`	15
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-2000
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[level]`	3
+		`%`	5
+		`[at gunner]`	28
+		`[dungeon type]`
+		`[level]`	5
+		`+`	1500
+		`[at gunner]`	50
+		`[dungeon type]`
+		`[static]`	1
+		`%`	5
+		`[at gunner]`	46
+		`[dungeon type]`
+		`[level]`	1
+		`+`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[Ez-8自爆者]冷卻時間 -2秒
+[Ez-8自爆者]攻擊力 +20%%
+[Ez-8自爆者]爆炸大小比率 +5%%
+[Ez-8自爆者]爆炸延遲時間上限 +1.5秒
+[RX-78追擊者]爆炸大小比率 +5%%
+[機械改良]HP最大值增加率 +15%%`
+[/piece set ability]

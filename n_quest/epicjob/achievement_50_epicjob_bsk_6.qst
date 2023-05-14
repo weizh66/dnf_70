@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[job change quest]
+	2
+
+[npc index]
+	7
+
+[complete npc index]
+	1009
+
+[job]
+	`[swordman]`
+
+[grow type]
+	3
+
+[level]
+	50	99
+
+[pre required quest]
+	989
+[/pre required quest]
+
+[cant giveup]
+	1
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	1009
+[/int data]
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	991
+
+[name]
+	`覺醒 - 獄血魔神 (3/4)`
+
+[depend message]
+	`血氣并不是單指你身上流淌的紅色液體， 它還包括你的精、 氣、 神等等！ 因此你吸取其他生靈的血氣時， 也會把生靈附帶的怨恨和詛咒一起吸收。
+如果你吸收的血氣中帶有邪念， 那么你會更加瘋狂， 甚至無法控制自己， 最終變成一片灰燼……知道害怕了吧？
+現在的你還有自信可以在危急時刻控制好身體里的血氣嗎？
+很好， 我喜歡有自信的年輕人。 不過自信并不是光靠嘴說的， 你能用行動證明給我看嗎？`
+
+[condition message]
+	`    獨自一人通關赫頓瑪爾市區里的『月光修煉場』， 然后與阿爾伯特談談。 (可以從月光酒館進入地下城)`
+
+[solve message]
+	`沒想到面對我強力的進攻， 你依然能控制好體內的血氣。 我想這次試煉， 你應該是過關了！`

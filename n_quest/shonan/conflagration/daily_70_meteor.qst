@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[daily]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	70	99
+
+[pre required quest]
+	4130
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3333	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	3336	3	3337	3	3338	2
+[/reward selection int data]
+
+[name]
+	`收集融合之小晶塊`
+
+[depend message]
+	`收集隕石很困難？那有什麼難？直接到地下城除掉領主就可以了！
+沒辦法。我來幫你。但可不是免費哦。去收集「融合之小晶塊」我就給你換成隕石吧。
+融合之小晶塊，只要毀掉出現在時間之門的「沙漏」就能獲得，看到沙漏要打破哦！`
+
+[condition message]
+	`收集融合的晶塊，然後去找西嵐`
+
+[solve message]
+	`這麼快就收集了？破壞了沙漏就出來了？`

@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	79	99
+
+[pre required quest]
+	4556
+[/pre required quest]
+
+[type]
+	`[hunt enemy]`
+
+[sub type]
+	-1
+
+[int data]
+	102	-1	16120	3	30
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`破壞能量傳送體`
+
+[depend message]
+	`納樂凱雖然已經破壞普樂茲發電所的發電器了，可是安徒恩的部下轉變為熔爐的能量，傳送給安徒恩當中。
+要是不破壞能量傳送體，就算破壞發電器也無法削弱安徒恩的力量。
+能量傳送體是發射紅色光線型的能量，可以輕易辨識。`
+
+[condition message]
+	`破壞能量傳送體30個，然後去找尼貝爾`
+
+[solve message]
+	`好像聽到了安徒恩的尖叫聲。`
+
+[quest point]
+	4

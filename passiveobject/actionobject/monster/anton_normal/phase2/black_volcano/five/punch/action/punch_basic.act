@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/punch_Basic_0.ani`
+	[SUB ANI]
+		`../Animation/punch_Basic_3.ani`	0	1
+		`../Animation/punch_Basic_2.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DIM]
+		`time_punch`
+		[=]
+		[GET TIME]
+	[/DIM]
+	[TRIGGER]
+		0
+	[OFF]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[IF]
+		`time_punch`
+		[+]
+			3000
+		[<=]
+		[GET TIME]
+	[/IF]
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		1
+	[NOW]
+	[DIM]
+		`time_punch`
+		[=]
+		[GET TIME]
+	[/DIM]
+[/BEHAVIOR]

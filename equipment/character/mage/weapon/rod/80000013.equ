@@ -1,0 +1,1623 @@
+#PVF_File
+
+[name]
+	`聖耀救贖魔杖`
+
+[basic explain]
+	`所有技能攻擊力+
+1000%%
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能。
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。`
+
+[detail explain]
+	`所有技能攻擊力+
+1000%% (對Buff技能無效)
+ 進入地下城中， 每47秒便可釋放“第七使徒； 火焰吞噬者安徒恩”的魔能， 時長持續20秒； 釋放結束後20秒內使自身技能攻擊力增加20%%。（冷卻時間47秒）
+ 
+ 釋放結束時，最後還對敵人造成魔能爆炸傷害。(傷害最高可達300萬)`
+
+[flavor text]
+	`    萬物生自守恒， 源力破則失正
+    莫以為敵消彼漲， 然乾坤逆之天崩。 --祭安徒恩之死`
+
+[grade]
+	99
+
+[rarity]
+	4
+
+[usable job]
+	`[mage]`
+	`[at mage]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[anti evil]
+	60
+
+[magical attack]
+	126
+
+[attack speed]
+	100
+
+[cast speed]
+	50
+
+[stuck]
+	1
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1261	1261
+
+[equipment magical attack]
+	1592	1592
+
+[separate attack]
+	925	925
+
+[icon]
+	`Item/new_equipment/01_weapon/mage/rod/rod.img`	135
+
+[field image]
+	`Item/field_weapon.img`	7
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[mage]`
+
+[variation]
+	46	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[animation job]
+	`[at mage]`
+
+[variation]
+	45	1
+
+[layer variation]
+	2150
+	`at_roda`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[layer variation]
+	200
+	`at_rodd`
+
+[equipment ani script]
+	`equipment/character/atmage.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	46	0
+
+[layer variation]
+	2790
+	`rodc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`rodd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`ROD_TOUCH`
+
+[durability]
+	34
+
+[weight]
+	2200
+
+[item group name]
+	`rod`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		990009	0	0	0	0	-1
+		``
+	[/passive object]
+[/then]
+
+[if]
+
+	[if]
+		[start cooltime]
+			47000
+		[change status]
+			`hp`
+			`>`
+			`%`	0
+			`end`
+		[cooltime]
+			47000
+	[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[skill data up]
+	`[mage]`	4
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	55
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	11
+	`[all]`
+	`[static]`	4
+	`%`	1000
+	`[mage]`	55
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	11
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	55
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	11
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	12
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	12
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	14
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	14
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	14
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	14
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	14
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	14
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	14
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	15
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	15
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	15
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	15
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	16
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	16
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	16
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[mage]`	16
+	`[all]`
+	`[level]`	15
+	`%`	1000
+	`[mage]`	17
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	17
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	17
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	17
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	18
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	18
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	18
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	18
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	20
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	20
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	15
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	15
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	16
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	17
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	18
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	19
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	20
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	21
+	`%`	1000
+	`[mage]`	25
+	`[all]`
+	`[level]`	22
+	`%`	1000
+	`[mage]`	26
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	26
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	27
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	27
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	27
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	31
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	31
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	55
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	55
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	56
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	57
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	58
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	58
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	58
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	58
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	59
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	59
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	61
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	62
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	63
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	64
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	74
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	74
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	74
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	74
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	111
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	111
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	111
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	111
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	111
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	113
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	22
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	22
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	22
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	22
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	21
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	21
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	24
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	24
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	23
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	23
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	44
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	44
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	44
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[mage]`	44
+	`[all]`
+	`[level]`	15
+	`%`	1000
+	`[mage]`	45
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	45
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	45
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	45
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	45
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[mage]`	45
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	45
+	`[all]`
+	`[level]`	18
+	`%`	1000
+	`[mage]`	46
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	46
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	46
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[mage]`	46
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	46
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	46
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[mage]`	46
+	`[all]`
+	`[level]`	19
+	`%`	1000
+	`[mage]`	47
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	47
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[mage]`	47
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	47
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	51
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	51
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	51
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	52
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	53
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	54
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	76
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	76
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	76
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	76
+	`[all]`
+	`[level]`	19
+	`%`	1000
+	`[mage]`	77
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	77
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	77
+	`[all]`
+	`[level]`	16
+	`%`	1000
+	`[mage]`	77
+	`[all]`
+	`[level]`	22
+	`%`	1000
+	`[mage]`	78
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	78
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	78
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	78
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[mage]`	79
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	79
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	79
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	79
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	80
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	80
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	80
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	82
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	82
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	82
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	82
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	82
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	119
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	119
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	119
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	119
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	120
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	120
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	122
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	122
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	121
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	121
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	15
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	16
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	17
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	19
+	`%`	1000
+	`[mage]`	118
+	`[all]`
+	`[level]`	20
+	`%`	1000
+	`[mage]`	5
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	5
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	5
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	6
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	6
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	6
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	7
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	7
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[mage]`	7
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	8
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	8
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	8
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	9
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	8
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	8
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	10
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	13
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	65
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	65
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	66
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	66
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	66
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	68
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	68
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	69
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	69
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	69
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	9
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	10
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	11
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	12
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	13
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	14
+	`%`	1000
+	`[mage]`	83
+	`[all]`
+	`[level]`	15
+	`%`	1000
+	`[mage]`	112
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	112
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	112
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	125
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	125
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	125
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	126
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	126
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	126
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	92
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	92
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	89
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	90
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	95
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	95
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	93
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	93
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	98
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	98
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	99
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	99
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	99
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	99
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	100
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	100
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	100
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	100
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	101
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	101
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	101
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	106
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	106
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	106
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	106
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	106
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	103
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	103
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[mage]`	103
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	103
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	103
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	104
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	104
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	104
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	104
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	104
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	105
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[mage]`	105
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[mage]`	105
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	105
+	`[all]`
+	`[level]`	5
+	`%`	1000
+	`[mage]`	109
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	109
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[mage]`	109
+	`[all]`
+	`[level]`	6
+	`%`	1000
+	`[mage]`	109
+	`[all]`
+	`[level]`	7
+	`%`	1000
+	`[mage]`	115
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[mage]`	115
+	`[all]`
+	`[level]`	8
+	`%`	1000
+	`[mage]`	114
+	`[all]`
+	`[level]`	1
+	`%`	1000
+[/skill data up]
+
+[skill data up]
+	`[at mage]`	1
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	1
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	8
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	8
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	9
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	17
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	17
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	18
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	18
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	18
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	18
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[at mage]`	18
+	`[all]`
+	`[level]`	4
+	`%`	1000
+	`[at mage]`	26
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	27
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	2
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	3
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	4
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	6
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	6
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	6
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	11
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	11
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[at mage]`	14
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	24
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	29
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	29
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[at mage]`	30
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	30
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	49
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	49
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	49
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	49
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[at mage]`	61
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	61
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	61
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	62
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	62
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	21
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	23
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	16
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	16
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	10
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	15
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	15
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	12
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	12
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	32
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	32
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	32
+	`[all]`
+	`[level]`	3
+	`%`	1000
+	`[at mage]`	13
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	13
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	48
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	48
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	48
+	`[all]`
+	`[level]`	2
+	`%`	1000
+	`[at mage]`	60
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[at mage]`	60
+	`[all]`
+	`[level]`	1
+	`%`	1000
+	`[at mage]`	63
+	`[all]`
+	`[level]`	0
+	`%`	1000
+[/skill data up]
+
+[skill data up]
+	`[creator mage]`	131
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[creator mage]`	133
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[creator mage]`	134
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[creator mage]`	136
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[creator mage]`	132
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[creator mage]`	248
+	`[all]`
+	`[level]`	0
+	`%`	1000
+	`[creator mage]`	249
+	`[all]`
+	`[level]`	0
+	`%`	1000
+[/skill data up]
+
+[if]
+	[start cooltime]
+		47000
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		47000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		20000
+	[appendage]
+		712
+	[appendage]
+		713
+	[appendage]
+		714
+	[appendage]
+		715
+	[appendage]
+		716
+	[appendage]
+		717
+[/then]
+
+[if]
+	[my appendage]
+		888
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		642
+	[appendage]
+		650
+[/then]
+
+[possible kiri protect]

@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`女仆人的黑裙`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率消減敵人30%%的HP。(對精英怪物的效果為1/3、 對領主和深淵怪物的效果為1/6)`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`broom`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	2500
+
+[usable job]
+	`[mage]`
+[/usable job]
+
+[minimum level]
+	45
+
+[required skill]
+	91
+
+[icon]
+	`Item/weapon/mage/broom.img`	28
+
+[field image]
+	`Item/field_weapon.img`	10
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[need material]
+	3260	750
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	478	430
+
+[equipment magical attack]
+	524	471
+
+[move speed]
+	30
+
+[attack speed]
+	60
+
+[variation]
+	10	0
+
+[layer variation]
+	2600
+	`broomc`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[layer variation]
+	200
+	`broomd`
+
+[equipment ani script]
+	`equipment/character/mage.lay`
+
+[move wav]
+	`BROOM_TOUCH`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[weakness]
+		30
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[probability]
+			99
+		[weakness]
+			90
+	[/then]
+[/pvp]
+
+[possible kiri protect]

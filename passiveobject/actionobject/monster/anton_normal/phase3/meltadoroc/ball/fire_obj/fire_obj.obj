@@ -1,0 +1,34 @@
+#PVF_File
+
+[floating height]
+	1
+
+[piercing power]
+	10000000
+
+[pass type]
+	`[pass all]`
+
+[basic action]
+	`Action/Fire_obj.act`
+
+[etc action]
+	`Action/Fire_obj_0.act`
+	`Action/Etc_Fire_obj_1.act`
+	`Action/Fire_obj_0_0.act`
+[/etc action]
+
+[vanish on move collision]
+	0
+
+[team]
+	100
+
+[attack info]
+	`AttackInfo/Fire.atk`
+
+[etc attack info]
+	``
+	``
+	`attackinfo/Fire_obj_0_0.atk`
+[/etc attack info]

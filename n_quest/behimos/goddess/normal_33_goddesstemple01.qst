@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`S`
+
+[gold multiple]
+	110
+
+[npc index]
+	7
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	4017
+[/pre required quest]
+
+[type]
+	`[hunt monster]`
+
+[sub type]
+	-1
+
+[int data]
+	91	-1	63022	10	91	-1	59019	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	20000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`夜叉的秘密`
+
+[depend message]
+	`你去過GBL女神殿？ 那里還有中了詛咒的信徒嗎？
+這些可憐的信徒， 已經無法變回原來的樣子了， 我想他們一定非常痛苦， 不如你去幫他們一把， 讓他們早日脫離那個可怕的詛咒吧！ `
+
+[condition message]
+	`    前往天帷巨獸神殿的『GBL女神殿』， 除掉以下怪物后向G.S.D回復。`
+
+[solve message]
+	`希望他們能夠早日得到安息！`

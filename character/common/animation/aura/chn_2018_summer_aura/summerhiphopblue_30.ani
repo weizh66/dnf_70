@@ -1,0 +1,41 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		1
+	[IMAGE POS]
+		-248	-242
+	[IMAGE RATE]
+		0.5	0.20000000298023224
+	[RGBA]
+		0	5	197	0
+	[INTERPOLATION]
+		1
+	[DELAY]
+		600
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Common/CommonEffect/Glow/Circle.img`
+		1
+	[IMAGE POS]
+		-248	-242
+	[IMAGE RATE]
+		0.5	0.20000000298023224
+	[RGBA]
+		0	5	197	76
+	[INTERPOLATION]
+		1
+	[DELAY]
+		40
+	[DAMAGE TYPE]
+		`NORMAL`

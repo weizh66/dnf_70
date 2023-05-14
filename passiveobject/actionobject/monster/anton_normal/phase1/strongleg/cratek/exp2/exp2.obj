@@ -1,0 +1,34 @@
+#PVF_File
+
+[name]
+	`青?石巨人的子?`
+
+[layer]
+	`[bottom]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`Action/Exp.act`
+
+[etc action]
+	`Action/Etc_exp2_0.act`
+	`Action/Exp.act`
+[/etc action]
+
+[team]
+	100
+
+[attack info]
+	`AttackInfo/Exp_attack2.atk`
+
+[etc attack info]
+	``
+	``
+[/etc attack info]
+
+[sound category]
+	`[after object create]`
+	`BRONZEPIG_CRASH`	-1
+[/sound category]

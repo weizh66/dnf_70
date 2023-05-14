@@ -1,0 +1,25 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/hold6s.act`
+
+[etc action]
+	`action/hold6.1s.act`
+[/etc action]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5500
+[/object destroy condition]
+
+[name]
+	`劍聖一覺強控`

@@ -1,0 +1,47 @@
+#PVF_File
+
+[grade]
+	`[title]`
+
+[check count]
+	777
+[/check count]
+
+[limit showing msg]
+	10
+
+[level]
+	254	255
+
+[type]
+	`[get score]`
+
+[sub type]
+	1
+
+[int data]
+	4	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	26796	1
+[/reward int data]
+
+[send postal]
+	8395	5
+	`postal_message_08`
+	`postal_message_09`
+
+[reward selection int data]
+[/reward selection int data]
+
+[condition message]
+	`破招攻擊數達到777次。`
+
+[condition data]
+	0
+	`成功次數 : %d / %d`
+[/condition data]

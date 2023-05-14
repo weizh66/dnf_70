@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`藍色解豸`
+
+[attach type]
+	`[trade delete]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/creature/creature.img`	246
+
+[field image]
+	`item/fieldimage.img`	30
+
+[equipment type]
+	`[creature]`	0
+
+[sub type]
+	0
+
+[creature species]
+	10179
+
+[cool time]
+	10000
+
+[MP MAX rate]
+	5.0
+
+[magical attack]
+	25
+
+[magical defense]
+	25
+
+[physical attack]
+	25
+
+[physical defense]
+	25
+
+[magical critical hit]
+	12.0
+
+[set item master]
+	-1
+
+[move wav]
+	`CREATURE_EQUIP_TOUCH`
+
+[pvp]
+	[magical critical hit]
+		6.0
+[/pvp]

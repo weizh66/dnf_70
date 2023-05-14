@@ -1,0 +1,221 @@
+#PVF_File
+
+[name]
+	`改造的牛頭械王的斧頭`
+
+[basic explain]
+	`攻擊時以3%% 的機率讓敵人在 2秒內進入暈眩狀態
+反擊攻擊時敵人 15%% 附加傷害
+最後普通攻擊時消耗1個無色小晶塊，向前方施展落雷`
+
+[detail explain]
+	`攻擊時以 3%%的機率讓敵人在2秒內進入暈眩狀態。
+反擊攻擊時敵人15%% 附加傷害（決鬥場內7%% 附加傷害）
+最後普通攻擊時消耗1個無色小晶塊，朝前方3方向施展落雷。 （冷卻時間20秒，決鬥場內冷卻時間40秒，被落雷擊中的敵人以20%% 的機率 7秒內進入感電狀態，每次攻擊時以 200的攻擊力給予附加傷害。）`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	58
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[price]
+	160200
+
+[repair price]
+	134568
+
+[value]
+	128160
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1025	965
+
+[equipment magical attack]
+	726	683
+
+[separate attack]
+	510	347
+
+[icon]
+	`item/new_equipment/01_weapon/priest/axe/axe.img`	91
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[priest]`
+
+[variation]
+	29	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	4
+
+[move wav]
+	`AXE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`axe`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	15
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[attack condition]
+		`counter`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	7
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	89
+[/then]
+
+[if]
+	[module]
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[dead tower]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[cooltime]
+		20000
+	[my state]
+		`final attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3037	1
+	[probability]
+		100
+	[passive object]
+		48533	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+	[/module]
+	[cooltime]
+		40000
+	[my state]
+		`final attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3037	1
+	[probability]
+		100
+	[passive object]
+		48533	0	0	0	0	0
+		``
+	[/passive object]
+[/then]
+
+[possible kiri protect]

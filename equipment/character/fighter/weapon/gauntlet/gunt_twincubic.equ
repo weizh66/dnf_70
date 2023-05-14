@@ -1,0 +1,136 @@
+#PVF_File
+
+[name]
+	` 冰火臂鎧`
+
+[basic explain]
+	`攻擊時，以3%%的機率附加20點火屬性傷害。
+ 攻擊時，以2%%的機率附加30點水屬性傷害。`
+
+[flavor text]
+	` 鑲嵌了兩種魔力晶體的臂鎧。`
+
+[grade]
+	30
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	28
+
+[physical attack]
+	30
+
+[attack speed]
+	-70
+
+[stuck]
+	-1
+
+[price]
+	48000
+
+[repair price]
+	38400
+
+[value]
+	38400
+
+[equipment physical attack]
+	331	312
+
+[equipment magical attack]
+	248	234
+
+[separate attack]
+	138	91
+
+[skill levelup]
+	`[fighter]`	81	1
+	`[at fighter]`	81	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	15
+
+[field image]
+	`Item/FieldImage.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`gauntletc`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`gauntletb`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2150
+	`at_gauntleta`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_gauntletc`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_gauntletx`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`GUNTLET_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2900
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	10000
+
+[possible kiri protect]

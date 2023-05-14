@@ -1,0 +1,25 @@
+#PVF_File
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic action]
+	`action/bstart.act`
+
+[etc action]
+	`action/bloop.act`
+[/etc action]
+
+[last action]
+	`action/bend.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	5000
+[/object destroy condition]

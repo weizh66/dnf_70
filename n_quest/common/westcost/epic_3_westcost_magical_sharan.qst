@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	12
+
+[target character]
+	`[at mage]`	-1	-1
+	`[mage]`	-1	-1
+[/target character]
+
+[level]
+	3	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[dungeon info]
+	3	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`暗精靈魔法師莎蘭`
+
+[depend message]
+	`看你似乎想走魔法師之路， 我幫你推薦個人吧！ 她叫莎蘭， 是守衛貝爾瑪爾公國的暗精靈魔法師。 我聽說她掌握著人類無法想象的魔法力量， 你拿著我的推薦信就可以去找她了！
+哈哈， 莎蘭在西海岸， 不過去西海岸得先去艾爾文防線西邊的赫頓瑪爾。 你有赫頓瑪爾的地圖嗎？ 要是沒有就去通關洛蘭深處吧。 `
+
+[condition message]
+	`    前往西海岸拜訪莎蘭。`
+
+[solve message]
+	`嗯，你是從魔界來的小魔法師呀？ 呵呵， 怪不得小小年紀就掌握了那么深奧的魔法， 而且你身上還有種奇怪的魔力……這樣吧， 如果你想學習暗精靈的魔法， 就來找我吧。 `
+
+[quest point]
+	4

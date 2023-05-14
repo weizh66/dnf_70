@@ -1,0 +1,36 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/05_drill_dodge.img`
+		0
+	[IMAGE POS]
+		-148	-137
+	[DELAY]
+		100
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/05_drill_dodge.img`
+		0
+	[IMAGE POS]
+		-148	-137
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/05_drill_dodge.img`
+		1
+	[IMAGE POS]
+		-153	-136
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`

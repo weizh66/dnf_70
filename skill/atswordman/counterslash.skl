@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`counter_slash_name`
+
+[basic explain]
+	`counter_slash_basic_explain`
+
+[explain]
+	`counter_slash_explain`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[executable states]
+	`[stand]`
+	`[attack]`
+	`[dash]`	22
+[/executable states]
+
+[pre required skill]
+	4	1
+[/pre required skill]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	34
+	`Character/Swordman/Effect/ATSkillIcon.img`	35
+
+[command]
+	{6=`(DOWN)`}
+	{8=`&`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓(按住??下) + Z`
+
+[dungeon]
+	[consume MP]
+		17	390
+	[cool time]
+		2000	3000
+	[static data]
+		800
+	[/static data]
+	[level info]
+		1	555	612	669	726	783	840	900	954	1011	1071	1128	1182	1242	1299	1359	1413	1470	1530	1587	1641	1701	1758	1815	1872	1929	1986	2046	2100	2157	2217	2274	2331	2388	2445	2502	2562	2616	2673	2733	2790	2844	2904	2961	3021	3075	3132	3192	3249	3303	3363	3420	3477	3534	3591	3648	3708	3762	3819	3879	3936	3996	4050	4107	4167	4224	4278	4338	4395	4452	4509
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		3000	3000
+	[static data]
+		800
+	[/static data]
+	[level info]
+		1	31	34	37	40	44	47	50	53	56	60	63	66	69	72	76	79	82	85	88	91	95	98	101	104	107	110	114	117	120	123	126	130	133	136	139	142	145	149	152	155	158	161	165	168	171	174	177	181	184	187	190	193	196	200	203	206	209	212	216	219	222	225	228	232	235	238	241	244	247	251
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`counter_slash_level_property`	-1	0	1.0
+[/level property]
+
+[feature skill index]
+	220

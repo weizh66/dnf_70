@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	1
+
+[complete npc index]
+	40
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	40
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`遠古 - 林納斯的不安`
+
+[depend message]
+	`愁死了……愁死我了！！
+<npc::0>林納斯~你這是怎么了？ 發生什么事了？
+<npc::1>噢， 你來了啊， 來得正好啊。
+事情是這樣的， 罪惡布法羅組織最近四處挖寶藏。
+本來挖寶藏就挖寶吧， 但他們這次闖下大禍了， 他們挖寶藏竟然挖到了早已被人們遺忘的恐怖的悲鳴洞穴。
+ <npc::0>悲鳴洞穴？ 難道是那個傳說中的布萬加和阿甘左與使徒對決的地方？
+<npc::1>是的， 就是那個被人們遺忘的悲鳴洞穴！ 現在它出現了， 不知道會給我們帶來什么災難呢。
+雖然我很想去調查它， 但是害怕有危險， 幾次到洞口都不敢進去……
+呃， 你知道誰對悲鳴洞穴比較熟悉嗎？`
+
+[condition message]
+	`    前往斯頓雪域， 尋找了解悲鳴洞穴的人。`
+
+[solve message]
+	`天界的勇士……你來到如此寒冷的地方， 是為了尋找什么呢?`
+
+[quest point]
+	4

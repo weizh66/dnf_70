@@ -1,0 +1,66 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	33	99
+
+[pre required quest]
+	28
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3039	2	3108	20	3115	5
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	10000	1067	5	1071	20
+[/reward int data]
+
+[reward selection int data]
+	10072	1	10459	1	10858	1	11258	1	11636	1
+[/reward selection int data]
+
+[name]
+	`制作干擾發射器 (2/7)`
+
+[depend message]
+	`呵呵， 只要有這些東西， 我就可以測出羅特斯的精神波頻率了。
+接下來還需要有天界電波學機械專家柯卡穆設計的干擾芯片， 我這有設計圖， 你只要找到這些材料就行了。`
+
+[condition message]
+	`    收集2個[白色大晶體]、 20個[堅韌的觸須]和5個[耀眼的結晶]交給凱麗制作柯卡穆的干擾芯片。`
+
+[solve message]
+	`如果你比較著急， 就快點把材料收集全吧。 呵呵， 其實我也希望你能早日除掉羅特斯！ `
+
+[quest point]
+	4

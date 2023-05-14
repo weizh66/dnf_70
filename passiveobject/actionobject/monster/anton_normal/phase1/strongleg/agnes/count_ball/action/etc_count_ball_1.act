@@ -1,0 +1,13 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_count_ball_1_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_count_ball_1_1.ani`	0	1
+		`../Animation/Etc_count_ball_1_2.ani`	0	2
+	[/SUB ANI]
+	[SOUND]
+		`AGNES_FAIRY`	0
+	[/SOUND]
+[/MOTION]

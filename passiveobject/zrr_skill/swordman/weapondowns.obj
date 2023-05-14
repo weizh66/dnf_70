@@ -1,0 +1,36 @@
+#PVF_File
+
+[name]
+	`three`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	``
+
+[attack info]
+	`attackinfo/meteorsword.atk`
+
+[etc motion]
+	`animation/weapondown/sword0.ani`
+	`animation/weapondown/sword1.ani`
+	`animation/weapondown/sword2.ani`
+	`animation/weapondown/sword3.ani`
+	`animation/weapondown/sword4.ani`
+	`animation/weapondown/sword5.ani`
+	`animation/weapondown/sword6.ani`
+	`animation/weapondown/sword7.ani`
+	`animation/weapondown/sword_ding.ani`
+[/etc motion]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+[/object destroy condition]

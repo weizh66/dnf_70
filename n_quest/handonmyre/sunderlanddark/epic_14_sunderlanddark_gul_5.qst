@@ -1,0 +1,72 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	14	99
+
+[pre required quest]
+	95
+[/pre required quest]
+
+[monster reward item]
+	210	1000	1	4180	1	25	10	211	1000	1	4180	1	25	10	210	1000	2	4180	1	25	10	211	1000	2	4180	1	25	10	210	1000	3	4180	1	25	10	211	1000	3	4180	1	25	10
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4180	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3035	21	3034	21	3036	21	3033	21
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`毀滅的記憶`
+
+[depend message]
+	`根據我的研究， 那些僵尸并不是一般的怪物。 有很多證據表明它們很可能是人類或一種類似于人類的物種。
+雖然我還沒有找到確切的證據， 不過我總覺得真相應該和這個差不多。 呵呵， 這就不懂了吧？ 因為對我們科學家而言， 一個看起來并不怎么嚴謹的預感也會成為研究的重要指引。
+所以我又要拜托你了， 請你前往暗黑雷鳴廢墟， 收集它們的記憶吧。 放心， 我已經在你的黑色項圈里加入了新的功能， 你的收集工作不會太難的。
+呵呵， 誰也不知道它們的記憶里藏有什么？ 說不定我們能發現一個驚天秘密呢！`
+
+[condition message]
+	`    前往格蘭之森的『暗黑雷鳴廢墟』， 除掉僵尸后收集10個[毀滅記憶]交給諾頓， 要求地下城難度為冒險級以上。`
+
+[solve message]
+	`哦哦， 取來了？ 好呀， 謝謝你， 讓我看看…… 嗯？ 怎么會……不可能吧？ 不會的， 絕對不會的……
+等等， 這可不是件小事， 你先答應我， 要暫時保密， 不要到處亂說。 好了， 現在什么都別問， 馬上離開吧。`
+
+[quest point]
+	4

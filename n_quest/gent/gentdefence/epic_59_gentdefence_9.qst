@@ -1,0 +1,73 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4283
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	6
+
+[int data]
+	89	2
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`爭取作戰時間`
+
+[depend message]
+	`敵人現在是在做垂死掙扎。 他們集中火力攻擊一個地方， 是想要尋找突破口。 看他們進攻的方向， 難道是……
+絕不能讓他們得逞！ 我方的突襲部隊剛剛進入北方， 如果這時候讓卡勒特的部隊退回去， 雙方混戰只會造成兩敗俱傷。
+所以我們現在最要緊的就是拖住敵軍， 為我們的部隊爭取更多的準備時間。`
+
+[condition message]
+	`    通關安特貝魯峽谷的『根特防御戰』， 要求地下城難度為王者級。`
+
+[solve message]
+	`從北方傳來消息， 說突襲部隊的計劃進展得十分順利。
+看來我們也要開始準備反擊了。`
+
+[dialog]
+	0	0	17045	0	1	10409	0
+	`<apc::10409>你打算在這兒拖延時間嗎？
+哼， 我們可不會乖乖地讓你擺布， 趕緊給我們讓開！`
+[/dialog]
+
+[quest point]
+	4

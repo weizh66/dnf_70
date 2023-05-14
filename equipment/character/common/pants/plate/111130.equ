@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`圣堂騎士的神罰脛甲`
+
+[flavor text]
+	`  在諸位的見證下，開始對著偽裝者進行宣判...... -大圣堂內的某位圣職者`
+
+[grade]
+	81
+
+[rarity]
+	4
+
+[part set index]
+	12569
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	75
+
+[physical attack]
+	35
+
+[magical attack]
+	35
+
+[physical defense]
+	38
+
+[need material]
+	3821	800
+
+[price]
+	129600
+
+[repair price]
+	103680
+
+[value]
+	103680
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	4600	4150
+
+[physical critical hit]
+	15
+
+[magical critical hit]
+	15
+
+[icon]
+	`Item/new_equipment/06_plate/pants/plate_pants.img`	17
+
+[field image]
+	`Item/field_equip.img`	16
+
+[equipment type]
+	`[pants]`	20
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	4100
+
+[item group name]
+	`mt pants`
+
+[cool time]
+	10000
+
+[item aura]
+	`physical attack`
+	`+`	80	300
+
+[item aura]
+	`magical attack`
+	`+`	80	300
+
+[emancipate]
+	[input]
+		3831	1	3262	1000
+	[/input]
+	[output]
+		4600672	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	13
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[pre required quest]
+	122
+[/pre required quest]
+
+[monster reward item]
+	34	13	-1	4200	2	60	20	3001	13	-1	4200	5	80	20	75	13	-1	4200	2	60	20	76	13	-1	4200	2	60	20	78	13	-1	4200	2	60	20
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4200	20
+[/int data]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26601	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`石巨人終結者`
+
+[depend message]
+	`我最近在研究古代石巨人移動的原理。 如果你去石巨人塔的話， 就幫我帶些石巨人的碎片回來吧？
+呃， 你不會想獅子大開口吧？ 我們這些學者都很窮的， 而且那東西也不值錢， 只是簡單的研究材料而已……`
+
+[condition message]
+	`    前往天空之城的『石巨人塔』， 收集20個[石巨人的碎片]。`
+
+[solve message]
+	`你真是太客氣了， 竟然找來這么多！ 唉， 我剛還誤會你， 真是……
+不管怎么說， 感謝你支持我們的研究事業。`

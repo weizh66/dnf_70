@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	13
+
+[complete npc index]
+	13
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	14	99
+
+[pre required quest]
+	201
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	13
+[/int data]
+
+[dungeon info]
+	1000	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1500	20052	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`奇怪的石頭`
+
+[depend message]
+	`咦？ 這石頭好象在哪里見過？ 噢！ 想起來了！ 它是古代遺跡里特有的一種魔晶石， 只生長在黑暗氣息非常強的地方。
+書上記載， 如果用它制作魔法道具， 一定會有很強的黑暗氣息； 而且它生長的地方更奇特， 會隨時空逆轉， 人類的肉眼很難發現！
+嗯， 看來辛達的運氣真不錯啊！ 不過你要幫他找鐵錘的話， 最好能有一個可以看到那時空的物品。 我現在就可以給你制作， 你稍等一下…… `
+
+[condition message]
+	`    找諾頓幫忙。`
+
+[solve message]
+	`好了， 這個暗夜項墜不僅可以幫助你看到那個奇怪的空間， 而且還可以讓你抵抗黑暗氣息的侵襲， 你進入那個空間前一定要記得佩戴它啊。
+哦， 對了！ 我已經盡力幫你了， 如果你在那空間發現了有趣的東西， 一定要記得告訴我啊， 人是不能忘恩負義的！`
+
+[quest point]
+	4

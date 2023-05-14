@@ -1,0 +1,98 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/warning_Basic_0_0_0_0_2_1_1.ani`
+	[SUB ANI]
+		`../Animation/warning_Basic_0_0_0_1_0_2_1.ani`	0	-6
+		`../Animation/warning_Basic_0_0_0_1_1_1_1.ani`	0	-5
+		`../Animation/warning_Basic_0_0_0_1_1_2_1.ani`	0	-4
+		`../Animation/warning_Basic_0_0_0_1_1_3_1.ani`	0	-3
+		`../Animation/warning_Basic_0_0_0_1_1_1_2.ani`	0	-2
+		`../Animation/warning_Basic_0_0_0_1_1_1_3.ani`	0	-1
+		`../Animation/warning_Basic_0_0_2_0_1_1_1.ani`	0	1
+		`../Animation/warning_Basic_0_0_3_0_1_1_1.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			58024
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			15403
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	-10
+		[FOLLOWING TARGET]
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		10	10
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			15404
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		2
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[MONSTER]
+	[CHECKUP]
+		[IS INDEX]
+			58024
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		3
+[/TRIGGER]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[ATTACK]
+		0
+	[NOW]
+[/BEHAVIOR]

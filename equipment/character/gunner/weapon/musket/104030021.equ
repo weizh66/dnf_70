@@ -1,0 +1,318 @@
+#PVF_File
+
+[name]
+	`凱麗白派對`
+
+[basic explain]
+	`攻擊速度 +5%%
+銀彈施展時以 40%% 的機率20秒內隊員武器變更為光屬性
+爆炎彈施展時以35%% 的機率20秒內將隊員的武器變更為火屬性
+冰凍彈施展時以30%% 的機率20秒內將隊員武器變更為冰屬性
+破甲彈施展時以25%% 的機率20秒內隊員力量增加40，智力增加40，體力增加40，精神增加40 
+攻擊時敵人 6%%的附加傷害`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	50
+
+[magical attack]
+	75
+
+[attack speed]
+	50
+
+[need material]
+	3285	2100
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	728	655
+
+[equipment magical attack]
+	633	570
+
+[separate attack]
+	441	298
+
+[icon]
+	`item/new_equipment/01_weapon/gunner/musket/musket.img`	83
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	26	1
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	26	1
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[durability]
+	30
+
+[weight]
+	2100
+
+[item group name]
+	`musket`
+
+[cool time]
+	10000
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[if]
+	[use skill]
+		`gunner`	30
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		40
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	30
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		40
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[elemental weapon]
+		`light`
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	1
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		35
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	1
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		35
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[elemental weapon]
+		`fire`
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	2
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		30
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	2
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		30
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[use skill]
+		`gunner`	52
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		25
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[stat]
+		`physical attack`
+		`+`	40
+	[stat]
+		`magical attack`
+		`+`	40
+	[stat]
+		`physical defense`
+		`+`	40
+	[stat]
+		`magical defense`
+		`+`	40
+[/then]
+
+[if]
+	[use skill]
+		`at gunner`	52
+	[/use skill]
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[probability]
+		25
+	[duration]
+		20000
+	[target]
+		`party`	-1
+	[stat]
+		`physical attack`
+		`+`	40
+	[stat]
+		`magical attack`
+		`+`	40
+	[stat]
+		`physical defense`
+		`+`	40
+	[stat]
+		`magical defense`
+		`+`	40
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	6
+[/then]
+
+[possible kiri protect]

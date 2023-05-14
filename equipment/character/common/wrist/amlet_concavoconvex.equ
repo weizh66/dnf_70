@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`新月散射之腕式彈夾`
+
+[basic explain]
+	`[散彈槍]發射前準備時間減少50%%`
+
+[flavor text]
+	`手腕不聽話時，可用可好好固定且穩定的散彈槍......`
+
+[grade]
+	45
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	40
+
+[physical attack]
+	20
+
+[physical defense]
+	49
+
+[price]
+	54000
+
+[repair price]
+	43200
+
+[value]
+	43200
+
+[equipment magical defense]
+	2544	2256
+
+[skill levelup]
+	`[gunner]`	48	2
+	`[at gunner]`	48	2
+[/skill levelup]
+
+[icon]
+	`Item/common/bracelet.img`	11
+
+[field image]
+	`Item/FieldImage.img`	7
+
+[equipment type]
+	`[wrist]`	21
+
+[move wav]
+	`BRACELET_TOUCH`
+
+[weight]
+	400
+
+[item group name]
+	`wrist`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[gunner]`	48
+	`[all]`
+	`[static]`	0
+	`+`	-200
+	`[at gunner]`	48
+	`[all]`
+	`[static]`	0
+	`+`	-200
+[/skill data up]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

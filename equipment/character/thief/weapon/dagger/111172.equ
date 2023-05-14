@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`蘭諾的無影之刃`
+
+[basic explain]
+	`  ↑↓+[寵物技能鍵]輸入時，會消耗1個紅色小晶塊，召喚蘭諾的靈魂附體，效果持續30秒，附體狀態下，角色可以借用蘭諾的技能。（冷卻時間30秒）
+  附體狀態下進行攻擊時，會生成蘭諾的[劍刃風暴]，同時增加10%%的暴擊傷害。（暴擊傷害加成效果取最高值，且無法疊加；冷卻時間9秒）`
+
+[flavor text]
+	`  死亡總是悄無聲息地接近。 --米內特`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[attack speed]
+	200
+
+[move speed]
+	50
+
+[stuck]
+	1
+
+[need material]
+	3500	1300
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	820	733
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	10
+
+[icon]
+	`item/new_equipment/01_weapon/thief/dagger/dagger.img`	126
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	36	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		40000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3035	1
+	[duration]
+		40000
+	[appendage]
+		234
+	[passive object]
+		60092	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		234
+	[attack success]
+		1
+	[cooltime]
+		500
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[passive object]
+		60093	0	0	0	99	0
+		` `
+	[/passive object]
+[/then]
+
+[if]
+	[my appendage]
+		234
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[possible kiri protect]

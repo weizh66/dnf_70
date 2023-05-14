@@ -1,0 +1,81 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	45
+
+[complete npc index]
+	-1
+
+[job]
+	`[priest]`
+
+[grow type]
+	2
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	45
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 正義仲裁者(1/2)`
+
+[depend message]
+	`朋友， 感謝離開教團的你還能接受我的邀請前來。
+當然， 教團肯定是不會怨恨那些離開的人的， 即使你加入了其他教團， 我們還是希望如以前一樣把你們看作是宣揚神之恩德的同行者。
+你是否還是對我們有所顧慮？
+確實對你來說， 米歇爾大人可能是背叛者， 而選擇守護背叛者的我們更是沒有信任可言吧？ 但是我依然希望以同是神的孩子的身份給你一些善意的建議。
+我知道你們也有不少彷徨， 每次消滅偽裝者的時候， 看到他們悲傷和怨恨的眼神， 應該或多或少會對自己的使命產生點懷疑吧？
+所以這里我想要給你們的建議就是 -- 換個角度思考。 如果把自己當作是神之代行者去做正義的仲裁， 會不會內心就能更加堅定了呢。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請和歌蘭蒂斯談談。`
+
+[solve message]
+	`既然你選擇接受我的建議， 顯然對這事已經有所思考了吧。 只要將你煩惱的那些問題， 都想象成對正義的堅持、 對和平的維護， 這樣心安了， 自然彷徨也就少了。`
+
+[pre required quest]
+	5317
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	12847
+
+[job change quest]
+	3
+
+[grow number]
+	0

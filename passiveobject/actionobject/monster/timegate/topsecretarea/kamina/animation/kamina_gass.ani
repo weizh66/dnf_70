@@ -1,0 +1,44 @@
+#PVF_File
+[LOOP]
+	1
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/timegate/TopSecretArea/kamina_gass.img`
+		0
+	[IMAGE POS]
+		-9	-30
+	[IMAGE ROTATE]
+		-1.0471980571746826
+	[INTERPOLATION]
+		1
+	[DELAY]
+		400
+
+[FRAME001]
+	[IMAGE]
+		`Monster/timegate/TopSecretArea/kamina_gass.img`
+		0
+	[IMAGE POS]
+		-9	-30
+	[IMAGE ROTATE]
+		-2.0943949222564697
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200
+
+[FRAME002]
+	[IMAGE]
+		`Monster/timegate/TopSecretArea/kamina_gass.img`
+		0
+	[IMAGE POS]
+		-9	-30
+	[IMAGE ROTATE]
+		-4.8869218826293945
+	[INTERPOLATION]
+		1
+	[DELAY]
+		200

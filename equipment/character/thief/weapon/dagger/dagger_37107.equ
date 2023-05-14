@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`高科技白銀匕首`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入中毒狀態。
+ 無法進行解體、封裝和合成。`
+
+[detail explain]
+	`攻擊時以2%%的機率8秒內讓敵人呈現中毒狀態，每0.5秒以84的攻擊力給予傷害。 （若敵人高於Lv42，則減少進入異常狀態的機率；反之，則增加機率）
+ 無法進行解體、 封裝和合成。`
+
+[grade]
+	46
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	42
+
+[physical attack]
+	16
+
+[magical attack]
+	16
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[HP regen speed]
+	40
+
+[price]
+	0
+
+[repair price]
+	61824
+
+[value]
+	0
+
+[equipment physical attack]
+	371	337
+
+[equipment magical attack]
+	392	356
+
+[separate attack]
+	256	171
+
+[physical critical hit]
+	10
+
+[skill levelup]
+	`[thief]`	45	2
+[/skill levelup]
+
+[poison resistance]
+	15
+
+[icon]
+	`Item/weapon/thief/dagger.img`	39
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	9	5
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2100
+
+[item group name]
+	`dagger`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		12000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		8000
+	[probability]
+		2
+	[active status]
+		`poison`	42	1350
+[/then]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

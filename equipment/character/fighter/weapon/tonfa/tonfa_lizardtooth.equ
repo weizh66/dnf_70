@@ -1,0 +1,190 @@
+#PVF_File
+
+[name]
+	`敏捷之蜥蜴獠牙`
+
+[basic explain]
+	`HP降到40%%以下時， 攻擊速度 +3%%、 施放速度 +5%%、 移動速度 +4%% (效果不重疊)
+攻擊速度 +5%%`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`tonfa`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2300
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/fighter/tonfa.img`	58
+
+[field image]
+	`Item/FieldImage.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	39
+
+[need material]
+	3285	1200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	64
+
+[equipment physical attack]
+	543	498
+
+[equipment physical defense]
+	620	610
+
+[equipment magical attack]
+	572	524
+
+[separate attack]
+	360	243
+
+[stuck resistance]
+	30
+
+[move speed]
+	20
+
+[attack speed]
+	100
+
+[cast speed]
+	30
+
+[stuck]
+	-2
+
+[skill levelup]
+	`[fighter]`	38	1
+	`[fighter]`	50	1
+	`[at fighter]`	38	1
+	`[at fighter]`	50	1
+[/skill levelup]
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	4	2
+
+[layer variation]
+	2790
+	`tonfac`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	650
+	`tonfab`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	4	2
+
+[layer variation]
+	2150
+	`at_tonfaa`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	650
+	`at_tonfab`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2790
+	`at_tonfac`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1350
+	`at_tonfax`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`TONFA_TOUCH`
+
+[if]
+	[change status]
+		`hp`
+		`<`
+		`%`	40
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[stat by conidtion]
+		`cast speed`
+		`+`	50
+	[stat by conidtion]
+		`attack speed`
+		`+`	30
+	[stat by conidtion]
+		`move speed`
+		`+`	40
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

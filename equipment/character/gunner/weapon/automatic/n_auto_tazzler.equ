@@ -1,0 +1,152 @@
+#PVF_File
+
+[name]
+	`(舊) 絕殺 - 蝮蛇`
+
+[basic explain]
+	`使用槍身打擊敵人時， 附加50%%傷害。`
+
+[detail explain]
+	`    使用槍身打擊敵人時， 附加50%%傷害。 (在決斗場中 +25%%)`
+
+[flavor text]
+	`    為喜歡近戰的神槍手特別設計制作的槍。`
+
+[grade]
+	20
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`automatic`
+
+[rarity]
+	4
+
+[weight]
+	1500
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	15
+
+[icon]
+	`item/weapon/gunner/automatic.img`	39
+
+[field image]
+	`Item/field_weapon.img`	2
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	1
+
+[durability]
+	30
+
+[price]
+	32000
+
+[value]
+	25600
+
+[cool time]
+	10000
+
+[magical attack]
+	17
+
+[equipment physical attack]
+	155	115
+
+[equipment magical attack]
+	227	169
+
+[separate attack]
+	133	86
+
+[stuck]
+	1
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`autoc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`autob`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`at_autoc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_autob`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`GUN_TOUCH`
+
+[if]
+	[attacker]
+		`character`	-1
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	50
+[/then]
+
+[pvp]
+	[if]
+		[attacker]
+			`character`	-1
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase damage]
+			`%`	25
+	[/then]
+[/pvp]
+
+[creation rate]
+	190
+
+[possible kiri protect]

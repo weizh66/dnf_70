@@ -1,0 +1,56 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/TheGate/Fire/Loop/loop.ani`
+	[SUB ANI]
+		`../Animation/TheGate/Fire/Loop/Fire_Magic.ani`	0	0
+		`../Animation/TheGate/Fire/Loop/fire_aura.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			250116
+		[PARTICLE FILENAME]
+			`../Particle/thegatefiretail.ptl`
+		[LEVEL]
+			0
+		[POS]
+		[RANDOM SELECT]
+			-70	-60	-50	-40	-30	-20	-10	0	10	20	30	40	50	60	70	71
+		[/RANDOM SELECT]
+		[RANDOM SELECT]
+			-20	20
+		[/RANDOM SELECT]	0
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		1
+[/TRIGGER]
+
+[BEHAVIOR]
+	[FOLLOWING TARGET AND DIRECTION]
+[/BEHAVIOR]

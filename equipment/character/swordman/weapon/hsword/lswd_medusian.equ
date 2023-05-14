@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`梅迪亞的石化巨劍`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入石化狀態。`
+
+[detail explain]
+	`攻擊時以 2%% 的機率5秒內讓敵人進入石化狀態，解除時以1550的攻擊力給予傷害。 （比Lv65高的目標陷入狀態機率較低，比 Lv65低的目標陷入狀態機率較高。決鬥場修正為 2.5秒）`
+
+[grade]
+	67
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	42
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[MP MAX]
+	150
+
+[price]
+	120600
+
+[repair price]
+	101304
+
+[value]
+	96480
+
+[equipment physical attack]
+	713	689
+
+[equipment magical attack]
+	535	517
+
+[separate attack]
+	293	199
+
+[physical critical hit]
+	3
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	66
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	12	6
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	12	6
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		7500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stone`	65	1550
+[/then]
+
+[possible kiri protect]

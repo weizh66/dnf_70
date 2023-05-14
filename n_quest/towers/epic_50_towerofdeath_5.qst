@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	72
+
+[complete npc index]
+	12
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	50	99
+
+[pre required quest]
+	3591
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	12
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	30000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`德萊弗斯的目的`
+
+[depend message]
+	`死神的目的， 或許是想要得到冒險家們強韌的靈魂吧。
+據說亡者峽谷原來只有一座塔， 但死神和追隨他的邪惡勢力到了那后， 建造了數百座塔和祭壇。
+他們千方百計將冒險家們引誘到那里， 并允諾了一定的利益條件， 然后就開始不斷地訓練他們……很奇怪吧？
+不過， 這就是我所知道的全部內容了……其實， 我也很好奇， 死神的真面目究竟是什么？ 或許以后你可以為我解答。`
+
+[condition message]
+	`    將占卜師希莫娜的話轉告給莎蘭。`
+
+[solve message]
+	`什么……訓練冒險家？ 死神哪里有這么好心？
+他聚集大批的冒險家， 一定還有什么不可告人的陰謀。`
+
+[quest point]
+	4

@@ -1,0 +1,37 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/start/bowdisappear_arroweffect.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		3	3
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			245835
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			400	0	75
+	[/CREATE PASSIVEOBJECT]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			700037
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			400	0	75
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

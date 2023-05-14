@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`暗影大叔`
+
+[explain]
+	`使用後，可以召喚出幽靈新娘協助召喚者攻擊敵人，幽靈新娘存在15分鐘。
+人偶師Lv.9 時使用召喚的人偶等級增加 5，攻擊力增加 10%% `
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	184500
+
+[minimum level]
+	50
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	985
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[sub type]
+	2
+
+[cool time]
+	900000
+
+[cooltime group]
+	100
+
+[move wav]
+	`FOOD_TOUCH`
+
+[summon apc]
+	20901	50	50	900000	1

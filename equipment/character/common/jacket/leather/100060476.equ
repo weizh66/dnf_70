@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`貝拉的巡查隊制服`
+
+[basic explain]
+	`  被擊時所受遠程傷害 -10%%。
+  被攻擊時， 使自身增加30%%的物理暴擊率和魔法暴擊率， 效果持續5秒。 (冷卻時間10秒)`
+
+[flavor text]
+	`這年頭能混上一`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	38
+
+[magical attack]
+	38
+
+[magical defense]
+	41
+
+[attack speed]
+	30
+
+[move speed]
+	30
+
+[stuck resistance]
+	50
+
+[price]
+	90000
+
+[repair price]
+	72000
+
+[value]
+	72000
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	3852	3684
+
+[icon]
+	`Item/new_equipment/03_leather/coat/leather_coat.img`	24
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[magical attack]
+	56
+
+[if]
+	[distance]
+		`far`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add absolute defense percent]
+		`all`	10
+[/then]
+
+[if]
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[stat]
+		`physical critical hit`
+		`+`	30
+	[stat]
+		`magical critical hit`
+		`+`	30
+[/then]
+
+[possible kiri protect]

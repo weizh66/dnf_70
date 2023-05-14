@@ -1,0 +1,62 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`A`
+
+[gold multiple]
+	90
+
+[npc index]
+	58
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	59	99
+
+[pre required quest]
+	4282
+[/pre required quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	11
+
+[int data]
+	89	2	13
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`搜查所有角落`
+
+[depend message]
+	`我剛剛接到前方的情報， 說卡勒特的大部隊已經撤退， 不過根特外圍還有一些敵軍遺留下來的武器。
+所以， 我想請你把各個角落都搜查一遍， 確認下這個消息是否屬實。 `
+
+[condition message]
+	`    前往安特貝魯峽谷的『根特防御戰』， 搜查所有房間， 要求地下城難度為王者級。`
+
+[solve message]
+	`估計是敵人撤離得十分匆忙， 所以才會遺落這么多的武器。`

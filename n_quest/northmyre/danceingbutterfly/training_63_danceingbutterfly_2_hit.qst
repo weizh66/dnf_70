@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[training]`
+
+[difficulty]
+	`F`
+
+[gold multiple]
+	60
+
+[npc index]
+	15
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	63	99
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	1
+
+[int data]
+	52	-1	15
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	3300	4	4420	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`血蝴蝶之舞 - 急速閃避`
+
+[depend message]
+	`帝國通知！
+為選拔能夠擔負起拯救亂世重任的冒險家， 特在此列出以下條件。
+凡是達成以上所有條件的冒險家都可以得到皇帝陛下賜予的獎勵。
+所有有志之士， 請速速報名吧！`
+
+[condition message]
+	`    通關諾斯瑪爾的『血蝴蝶之舞』， 要求被擊數不超過16次。`
+
+[solve message]
+	`這是皇帝陛下賞賜給你的獎勵， 請收好！`

@@ -1,0 +1,249 @@
+#PVF_File
+
+[name]
+	`血之裂痕`
+
+[basic explain]
+	` 攻擊時，以2%%的機率使敵人進入眩暈狀態。
+ 攻擊時，有10%%的機率使敵人進入出血狀態。
+暴擊傷害增加10%%`
+
+[detail explain]
+	`暴擊傷害增加10%%  (在決鬥場中增加5%%)
+攻擊時，有2%%的機率使敵人進入眩暈狀態2秒。 (若敵人高於Lv64，則減少進入異常狀態的機率；反之，則增加機率。) 
+攻擊時，有10%%的機率使敵人進入出血狀態1秒；出血狀態下的敵人，每0.5秒受到2000點傷害。  (若敵人高於Lv72，則減少進入異常狀態的機率；反之，則增加機率。 在決鬥場中增加1%%)`
+
+[grade]
+	75
+
+[rarity]
+	3
+
+[usable job]
+	`[fighter]`
+	`[at fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	71
+
+[physical attack]
+	50
+
+[attack speed]
+	100
+
+[price]
+	135000
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[creation rate]
+	0
+
+[need material]
+	3340	300
+
+[equipment physical attack]
+	750	697
+
+[equipment magical attack]
+	678	631
+
+[separate attack]
+	425	288
+
+[icon]
+	`Item/weapon/fighter/bglove.img`	52
+
+[field image]
+	`Item/field_weapon.img`	0
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[fighter]`
+
+[variation]
+	9	3
+
+[layer variation]
+	2791
+	`bglovec1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	2792
+	`bglovec2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	651
+	`bgloveb1`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	652
+	`bgloveb2`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[animation job]
+	`[at fighter]`
+
+[variation]
+	9	3
+
+[layer variation]
+	2151
+	`at_bglovea1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	651
+	`at_bgloveb1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	2791
+	`at_bglovec1`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	202
+	`at_bgloved2`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`BGLOVE_TOUCH`
+
+[durability]
+	39
+
+[weight]
+	2100
+
+[item group name]
+	`bglove`
+
+[cool time]
+	10000
+
+[required skill]
+	34
+
+[elemental property]
+	`[dark element]`
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`stun`	72
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		1000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		10
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`bleeding`	72	4000
+[/then]
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[event attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[increase critical damage]
+			`%`	5
+	[/then]
+	[if]
+		[cooltime]
+			1000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			1000
+		[probability]
+			1
+		[active status]
+			`bleeding`	72	500
+	[/then]
+[/pvp]
+
+[possible kiri protect]

@@ -1,0 +1,36 @@
+#PVF_File
+
+[kind]
+	6
+
+[grade]
+	`[normal]`
+
+[rank range]
+	9	30
+
+[rate range]
+	-1	-1
+
+[prev mission]
+	-1
+
+[next mission]
+	-1
+
+[name_text]
+	`習得拷貝技能`
+	
+
+[cond_text]
+	`個人戰 剩下50%以上 HP，勝利達到10次`
+	
+
+[condition]
+	`[remainS HP]`	1	50	10
+[/condition]
+
+[target character]
+	`[at gunner]`
+
+[stealing skill]

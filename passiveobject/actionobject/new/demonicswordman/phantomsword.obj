@@ -1,0 +1,39 @@
+#PVF_File
+
+[name]
+	`PhantomSword`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	`Animation/None.ani`
+
+[etc motion]
+	`Animation/PhantomSword/Sword/PBReadyA_01.ani`
+	`Animation/PhantomSword/Sword/PBReadyB_01.ani`
+	`Animation/PhantomSword/Sword/PBReadyC_01.ani`
+	`Animation/PhantomSword/Attack/PBAtk_Slash_00.ani`
+	`Animation/PhantomSword/Explosion/PBAtkFinish_Smoke_00.ani`
+[/etc motion]
+
+[etc attack info]
+	`AttackInfo/PhantomSword.atk`
+	`AttackInfo/PhantomSwordExplosion.atk`
+[/etc attack info]
+
+[object destroy condition]
+	`[destroy condition]`
+	`[on end of animation]`
+	`[destroy action]`
+	`[object create after destroy]`
+[/object destroy condition]

@@ -1,0 +1,54 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/10_5-N-wave_dodge.img`
+		0
+	[IMAGE POS]
+		-149	-47
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[FLIP TYPE]
+		`ALL`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/10_5-N-wave_dodge.img`
+		0
+	[IMAGE POS]
+		-149	-47
+	[IMAGE RATE]
+		2.5	2.0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		150
+	[FLIP TYPE]
+		`ALL`
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Anton/Phase1/Blacksmoke/tog/10_5-N-wave_dodge.img`
+		0
+	[IMAGE POS]
+		-149	-47
+	[IMAGE RATE]
+		3.0	2.5
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[FLIP TYPE]
+		`ALL`

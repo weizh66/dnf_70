@@ -1,0 +1,158 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	3
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at priest]`	3
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at priest]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	4
+		`%`	15
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	7
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[治愈祈禱]效果范圍 +10%%
+[治愈祈禱]冷卻時間 -10%%
+[勇氣圣歌]攻擊力 +20%%
+[勇氣圣歌]詠嘆調范圍 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at priest]`	32
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	4
+		`%`	15
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	5
+		`%`	15
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	2
+		`%`	30
+		`[at priest]`	30
+		`[dungeon type]`
+		`[static]`	3
+		`%`	25
+		`[at priest]`	30
+		`[dungeon type]`
+		`[static]`	5
+		`%`	25
+		`[at priest]`	30
+		`[dungeon type]`
+		`[static]`	2
+		`+`	2000
+	[/skill data up]
+	[parameter basic explain]
+		`[勇氣圣歌]攻擊力 +40%%
+[勇氣圣歌]移動速度 +30%%
+[新生圣歌]恢復量 +20%%
+[新生圣歌]詠嘆調范圍 +15%%
+[新生圣歌]移動速度 +30%%
+[復蘇之光]效果范圍 +25%%
+[復蘇之光]復活等待時間 +2秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	7
+		`%`	30
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	1
+		`%`	50
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	2
+		`%`	50
+		`[at priest]`	32
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	4
+		`%`	30
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	5
+		`%`	30
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	1
+		`%`	50
+		`[at priest]`	32
+		`[dungeon type]`
+		`[static]`	2
+		`%`	50
+		`[at priest]`	32
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at priest]`	36
+		`[dungeon type]`
+		`[static]`	5
+		`%`	20
+		`[at priest]`	36
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-15
+	[/skill data up]
+	[parameter basic explain]
+		`[勇氣圣歌]攻擊力 +40%%
+[勇氣圣歌]詠嘆調范圍 +30%%
+[勇氣圣歌]移動速度 +50%%
+[新生圣歌]恢復量 +20%%
+[新生圣歌]詠嘆調范圍 +30%%
+[新生圣歌]移動速度 +50%%
+[新生圣歌]冷卻時間 -20%%
+[圣潔之翼]爆炸范圍 +20%%
+[圣潔之翼]冷卻時間 -15%%`
+[/piece set ability]

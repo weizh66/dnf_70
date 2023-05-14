@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`哈雷斯的疾光刃`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率增加10%%的攻擊速度和30點力量， 效果持續10秒。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`dagger`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/thief/dagger.img`	47
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[physical attack]
+	61
+
+[equipment physical attack]
+	486	445
+
+[equipment magical attack]
+	515	472
+
+[separate attack]
+	360	243
+
+[move speed]
+	30
+
+[attack speed]
+	100
+
+[cast speed]
+	30
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[stat]
+		`attack speed`
+		`%`	10
+	[stat]
+		`physical attack`
+		`+`	45
+[/then]
+
+[physical critical hit]
+	14
+
+[stuck]
+	1
+
+[skill levelup]
+	`[thief]`	29	2
+[/skill levelup]
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

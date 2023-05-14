@@ -1,0 +1,70 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`D`
+
+[gold multiple]
+	200
+
+[npc index]
+	12
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	5836
+[/pre required quest]
+
+[monster reward item]
+	61192	86	2	4411	2	90	150	61194	-1	2	4411	4	95	150	56139	86	2	4411	2	55	150	56137	87	2	4411	2	55	150	56008	86	2	4411	2	55	150	56010	87	2	4411	2	55	150	61223	87	2	4411	2	90	150	61192	86	3	4411	2	90	150	61194	-1	3	4411	4	95	150	56139	86	3	4411	2	60	150	56137	87	3	4411	2	60	150	56008	86	3	4411	2	60	150	56011	87	3	4411	2	60	150	61223	87	3	4411	2	90	150
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4411	150
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	5861
+
+[name]
+	`深海項鏈 (1/2)`
+
+[depend message]
+	`我常常關注你在天界的消息。
+聽說天界現在也變得像阿拉德大陸一樣， 很多動植物都變得異常兇殘。
+我想做一些研究， 你能幫我從它們身上取來深海純凈晶石嗎？`
+
+[condition message]
+	`    前往海上列車的『列車上的海賊』， 從稀有怪物和領主身上收集[深海純凈晶石]， 要求地下城難度為王者級以上。 (地下城的難度越高， 越容易獲得任務物品)`
+
+[solve message]
+	`辛苦了！ 請稍等一會……`

@@ -1,0 +1,181 @@
+#PVF_File
+
+[name]
+	`伊甸之森上衣`
+
+[basic explain]
+	`施放技能時， 有5%%的幾率增加15點的火屬性強化， 效果持續10秒。
+施放技能時， 有5%%的幾率增加15點的冰屬性強化， 效果持續10秒。
+施放技能時， 有5%%的幾率增加15點的光屬性強化， 效果持續10秒。
+施放技能時， 有5%%的幾率增加15點的暗屬性強化， 效果持續10秒。`
+
+[detail explain]
+	`施放技能時， 可以隨機提升12點的火、 冰、 光或暗屬性強化中的1種。 (解除裝備後效果消失； 冷卻時間10秒)`
+
+[flavor text]
+	`嘿嘿嘿......`
+
+[grade]
+	90
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	45
+
+[magical defense]
+	45
+
+[physical defense]
+	20
+
+[magical defense]
+	63
+
+[price]
+	81000
+
+[repair price]
+	64800
+
+[value]
+	64800
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	2376	2292
+
+[magical critical hit]
+	8
+
+[all elemental resistance]
+	12
+
+[icon]
+	`item/new_equipment/02_cloth/coat/cloth_coat.img`	48
+
+[field image]
+	`Item/field_equip.img`	0
+
+[equipment type]
+	`[coat]`	19
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	1400
+
+[item group name]
+	`cl coat`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[stat]
+		`fire attack`
+		`+`	12
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[stat]
+		`water attack`
+		`+`	12
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[stat]
+		`light attack`
+		`+`	12
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[casting]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[reduce probability to human armor at pvp module]
+		80
+	[stat]
+		`dark attack`
+		`+`	12
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[difficulty]
+	`M`
+
+[gold multiple]
+	10
+
+[job change quest]
+	1
+
+[grow number]
+	0
+
+[npc index]
+	17
+
+[complete npc index]
+	-1
+
+[job]
+	`[gunner]`
+
+[grow type]
+	-1
+
+[level]
+	20	99
+
+[collision quest]
+	7832	7835	7838
+[/collision quest]
+
+[type]
+	`[condition under clear]`
+
+[sub type]
+	1
+
+[int data]
+	13	-1	25
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	100
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[relation quest]
+	7829
+
+[name]
+	`轉職 - 漫游槍手 (1/4)`
+
+[depend message]
+	`噢、 噢！ 你想成為漫游槍手？ 你喜歡激烈的戰斗啊？ 嗯， 如果你真的喜歡， 就讓我看看你的實力吧。
+首先， 對漫游槍手而言， 敏捷的動作最為重要……`
+
+[condition message]
+	`    通關天空之城的『石巨人塔』， 要求被擊數不超過25次。 (若完成此任務， 則不能再接受其他的轉職任務， 請慎重選擇！) `
+
+[solve message]
+	`哈哈， 做得不錯！ 不過這才剛剛開始。 `

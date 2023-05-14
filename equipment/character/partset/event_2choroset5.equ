@@ -1,0 +1,61 @@
+#PVF_File
+
+[set name]
+	`無盡追擊  套裝`
+
+[piece set ability]
+	5
+	[skill data up]
+		`[thief]`	1
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	1
+		`[dungeon type]`
+		`[level]`	9
+		`%`	30
+		`[thief]`	1
+		`[dungeon type]`
+		`[level]`	3
+		`%`	30
+		`[thief]`	1
+		`[dungeon type]`
+		`[level]`	10
+		`%`	30
+		`[thief]`	16
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[thief]`	16
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[thief]`	16
+		`[dungeon type]`
+		`[level]`	5
+		`%`	20
+		`[thief]`	16
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[thief]`	16
+		`[dungeon type]`
+		`[level]`	7
+		`%`	20
+		`[thief]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3600
+		`[thief]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[thief]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+	[/skill data up]
+	[parameter basic explain]
+		`翔擊攻擊力增加30%%， 終結追擊攻擊力增加30%% / 絕殺斬攻擊力增加20%%， 終結追擊攻擊力增加20%% 
+ 劍刃風暴冷卻時間減少3.6秒， 攻擊力增加30%%， 終結追擊攻擊力增加30%% `
+[/piece set ability]

@@ -1,0 +1,57 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Map/TimeGate/epidemic/seal_rock_light_center.img`
+		0
+	[IMAGE POS]
+		-268	-274
+	[RGBA]
+		255	255	255	149
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Map/TimeGate/epidemic/seal_rock_light_center.img`
+		1
+	[IMAGE POS]
+		-268	-274
+	[RGBA]
+		255	255	255	100
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME002]
+	[IMAGE]
+		`Map/TimeGate/epidemic/seal_rock_light_center.img`
+		2
+	[IMAGE POS]
+		-268	-274
+	[RGBA]
+		255	255	255	50
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		`Map/TimeGate/epidemic/seal_rock_light_center.img`
+		3
+	[IMAGE POS]
+		-268	-274
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80

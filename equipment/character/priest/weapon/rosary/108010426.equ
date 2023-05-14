@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`泰拉 : 复?之?念珠`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	97
+
+[attack speed]
+	-50
+
+[cast speed]
+	50
+
+[repair price]
+	121600
+
+[value]
+	121600
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	866	778
+
+[equipment magical attack]
+	1106	994
+
+[separate attack]
+	584	386
+
+[physical critical hit]
+	12
+
+[magical critical hit]
+	2
+
+[magical critical hit]
+	12
+
+[icon]
+	`item/new_equipment/01_weapon/priest/rosary/rosary.img`	132
+
+[field image]
+	`Item/field_weapon.img`	12
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	44	0
+
+[layer variation]
+	200
+	`rosaryd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`rosaryc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`ROSARY_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2500
+
+[item group name]
+	`rosary`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			2
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]

@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`金色烈風勇士護腿`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[at fighter]`
+[/usable job]
+
+[usable period]
+	15
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atfighter/fm_apants.img`	86
+
+[equipment type]
+	`[pants avatar]`	0
+
+[variation]
+	30	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/atfighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30002
+
+[HP MAX]
+	200
+
+[avatar func filter]
+	2

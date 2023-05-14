@@ -1,0 +1,147 @@
+#PVF_File
+
+[name]
+	`[覺醒] 狂戰 - 赤血龍女 `
+
+[width]
+	3	3
+
+[floating height]
+	20
+
+[character span]
+	-50
+
+[layer]
+	`[normal]`
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	1500
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation/ShelbyRed_Stand.ani`
+
+[walk motion]
+	`Animation/ShelbyRed_Walk.ani`
+
+[run motion]
+	`Animation/ShelbyRed_Run.ani`
+
+[response motion]
+	`Animation/ShelbyRed_Call01.ani`
+
+[basic over effect]
+	``
+
+[walk over effect]
+	`Animation/ShelbyRed_Walk_Dodge.ani`
+
+[run over effect]
+	`Animation/ShelbyRed_Run_Dodge.ani`
+
+[response over effect]
+	`Animation/ShelbyRed_Call01_Dodge.ani`
+
+[random motion]
+	`Animation/ShelbyRed_Random.ani`
+	`Animation/ShelbyRed_Random01.ani`
+[/random motion]
+
+[default random motion rate]
+	2
+
+[increase random motion rate]
+	4
+
+[revision x]
+	0
+
+[revision y]
+	7
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[piercing]
+	1000	1	1000	1
+[/piercing]
+
+[skill list]
+	[skill node]
+		0
+		[skill type]
+			`general skill`
+		[skill name]
+			`燦爛龍的吶喊`
+		[skill explain]
+			`機械手臂的封印被解開而發射龍的吶喊而給予傷害。`
+		[skill recovery time]
+			20000
+		[learn skill level]
+			1
+		[skill mp]
+			10
+		[skill motion]
+			`Animation/ShelbyRed_Normal_Skill_Body.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			``
+		[skill info]
+			`skill/normal.skl`
+		[attack info]
+			`AttackInfo/normal.atk`
+	[/skill node]
+	[skill node]
+		0
+		[skill type]
+			`over skill`
+		[skill name]
+			`燦爛龍的回歸`
+		[skill explain]
+			`召喚被封印的龍劍，在地表產生巨大的衝擊波而給予傷害。同時會有25秒讓角色的力量、智力、體力、精神 +50。`
+		[skill recovery time]
+			200
+		[learn skill level]
+			1
+		[skill mp]
+			20
+		[skill motion]
+			`Animation/ShelbyRed_Overskill_Body.ani`
+		[skill under effect]
+			``
+		[skill over effect]
+			``
+		[skill info]
+			`skill/over.skl`
+		[attack info]
+			`AttackInfo/over.atk`
+	[/skill node]
+[/skill list]

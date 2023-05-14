@@ -1,0 +1,147 @@
+#PVF_File
+[LOOP]
+	0
+[SHADOW]
+	1
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`Monster/IceTiger/IceTiger.img`
+		14
+	[IMAGE POS]
+		-271	-237
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		400
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-85	-16	-1	108	30	58
+
+[FRAME001]
+	[IMAGE]
+		`Monster/IceTiger/IceTiger.img`
+		14
+	[IMAGE POS]
+		-271	-237
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-85	-16	-1	112	30	62
+
+[FRAME002]
+	[IMAGE]
+		`Monster/IceTiger/IceTiger.img`
+		15
+	[IMAGE POS]
+		-271	-237
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-98	-16	1	66	30	108
+
+[FRAME003]
+	[IMAGE]
+		`Monster/IceTiger/IceTiger.img`
+		16
+	[IMAGE POS]
+		-271	-237
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		1000
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-58	-16	63	73	30	53
+	[DAMAGE BOX]
+	-82	-10	12	28	20	64
+
+[FRAME004]
+	[IMAGE]
+		`Monster/IceTiger/IceTiger.img`
+		15
+	[IMAGE POS]
+		-271	-237
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-94	-16	3	60	30	102
+
+[FRAME005]
+	[IMAGE]
+		`Monster/IceTiger/IceTiger.img`
+		14
+	[IMAGE POS]
+		-271	-237
+	[IMAGE RATE]
+		1.0	1.0
+	[IMAGE ROTATE]
+		0.0
+	[RGBA]
+		255	255	255	255
+	[INTERPOLATION]
+		0
+	[GRAPHIC EFFECT]
+		`NONE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[DAMAGE BOX]
+	-85	-16	-1	106	30	58

@@ -1,0 +1,123 @@
+#PVF_File
+
+[name]
+	`露西`
+
+[width]
+	10	10
+
+[floating height]
+	0
+
+[layer]
+	`[normal]`
+
+[skill recovery time]
+	30000
+
+[over skill recovery time]
+	30000
+
+[direction correct]
+	1
+
+[move speed]
+	286	238	114	95	70
+
+[gravity]
+	0
+
+[start level]
+	1
+
+[permission level]
+	1
+
+[max level]
+	50
+
+[parent max level]
+	50
+
+[learn overskill level]
+	1
+
+[skill MP]
+	0
+
+[over skill MP]
+	0
+
+[artifact slot]
+	`red`
+	`blue`
+	`green`
+[/artifact slot]
+
+[basic motion]
+	`Animation/stay.ani`
+
+[walk motion]
+	`Animation/walk.ani`
+
+[run motion]
+	`Animation/run.ani`
+
+[skill motion]
+	`Animation/skill.ani`
+
+[over skill motion]
+	`Animation/overskill.ani`
+
+[response motion]
+	`Animation/response.ani`
+
+[random motion]
+	`Animation/random_stay.ani`
+[/random motion]
+
+[etc motion]
+	`Effect/Animation/WindAuraBodyDodgeOver.ani`
+	`Effect/Animation/WindAuraDodgeUnder.ani`
+	`Effect/Animation/WindAuraDodgeOver.ani`
+	`Effect/Animation/recall_lyla_skill.ani`
+	`Effect/Animation/recall_aquerias_skill.ani`
+[/etc motion]
+
+[attack info]
+	``
+[/attack info]
+
+[piercing]
+	0	0	1000	0
+[/piercing]
+
+[skill string]
+	`聖靈召喚-利拉`
+	`召喚利拉，賦予全體隊友迅速效果。`
+[/skill string]
+
+[skill level values]
+	25	25	4	4	4	4
+[/skill level values]
+
+[over skill level values]
+	1	50	500	2000
+[/over skill level values]
+
+[int data]
+	50	50	75	75	12805	440	0	1	1	1000
+[/int data]
+
+[string data]
+	`DESTROY_SOUND`
+[/string data]
+
+[evolution quest]
+	0
+
+[evolution creature id]
+	0
+
+[default random motion rate]
+	20

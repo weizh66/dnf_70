@@ -1,0 +1,60 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	42
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	42	99
+
+[pre required quest]
+	2507
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	3212	20
+[/int data]
+
+[dungeon info]
+	40	-1	41	-1	42	-1	43	-1	44	-1	45	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1097	8	1098	8
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`有用的皮革`
+
+[depend message]
+	`喂， 冒險家， 過來一下！ 你上次給我的虎皮是塊寶呢， 它的用途很廣， 很多人都想要呢！ 呵呵， 如果我把這些虎皮賣掉的話， 我就可以去找那些漂亮的小妞玩玩了。
+噓！ 我跟你說的話， 你千萬別對我老婆雷娜迪說啊！ `
+
+[condition message]
+	`    收集20張[雪虎的毛皮]。`
+
+[solve message]
+	`我說……你身邊有沒有漂亮的妞啊， 有就給我介紹個啊！ `

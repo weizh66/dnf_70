@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`封·魔戰無雙護肩`
+
+[basic explain]
+	`  攻擊時， 有5%%的幾率發動提升3倍攻擊力效果的[基礎精通]， 效果持續10秒。（冷卻時間10秒）`
+
+[flavor text]
+	`  魔界中， 看似大部分魔族把使徒奉為拯救世界的救世主， 但事實上， 很多人只是害怕使徒擁有的強大力量。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12579
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	31
+
+[magical attack]
+	31
+
+[physical defense]
+	34
+
+[need material]
+	3821	1000
+
+[price]
+	127400
+
+[repair price]
+	101920
+
+[value]
+	101920
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	4080	3720
+
+[icon]
+	`item/new_equipment/06_plate/neck/plate_neck.img`	17
+
+[field image]
+	`Item/field_equip.img`	17
+
+[equipment type]
+	`[shoulder]`	21
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	3200
+
+[item group name]
+	`mt shoulder`
+
+[cool time]
+	10000
+
+[if]
+	[event attack success]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[duration]
+		10000
+	[appendage]
+		289
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

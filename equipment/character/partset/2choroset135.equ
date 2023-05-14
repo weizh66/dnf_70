@@ -1,0 +1,124 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at priest]`	22
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	4
+		`%`	15
+		`[at priest]`	26
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at priest]`	26
+		`[dungeon type]`
+		`[static]`	5
+		`%`	10
+	[/skill data up]
+	[parameter basic explain]
+		`[洗禮之光]攻擊力 +15%%
+[洗禮之光]攻擊范圍 +30%%
+[圣光燼盾]攻擊力 +15%%
+[圣光燼盾]盾牌大小 +10%%
+[圣光燼盾]爆炸范圍 +10%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	4
+		`%`	40
+		`[at priest]`	26
+		`[dungeon type]`
+		`[static]`	0
+		`%`	10
+		`[at priest]`	26
+		`[dungeon type]`
+		`[static]`	5
+		`%`	10
+		`[at priest]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at priest]`	27
+		`[dungeon type]`
+		`[static]`	10
+		`%`	10
+		`[at priest]`	27
+		`[dungeon type]`
+		`[static]`	4
+		`%`	-50
+		`[at priest]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`%`	100
+	[/skill data up]
+	[parameter basic explain]
+		`[圣光燼盾]攻擊力 +40%%
+[圣光燼盾]盾牌大小 +10%%
+[圣光燼盾]爆炸范圍 +10%%
+[圣光燼盾]冷卻時間 -30%%
+[神圣鎖環]鎖環最初范圍 +10%%
+[神圣鎖環]鎖環持續時間 -50%%
+[神圣鎖環]多段攻擊力 +100%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	27
+		`[dungeon type]`
+		`[static]`	10
+		`%`	15
+		`[at priest]`	27
+		`[dungeon type]`
+		`[static]`	6
+		`%`	30
+		`[at priest]`	27
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	27
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at priest]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	35
+		`[at priest]`	24
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-50
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	8
+		`+`	-25
+	[/skill data up]
+	[parameter basic explain]
+		`[神圣鎖環]神圣鎖環最初范圍 +15%%
+[神圣鎖環]攻擊力 +30%%
+[神圣鎖環]最后爆炸范圍 +30%%
+[勇氣圣歌]攻擊力 +35%%
+[勇氣圣歌]冷卻時間 -50%%
+[勇氣圣歌]取消隊員Buff增幅效果`
+[/piece set ability]

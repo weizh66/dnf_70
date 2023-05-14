@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[difficulty]
+	`Y`
+
+[gold multiple]
+	250
+
+[npc index]
+	64
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	48	99
+
+[pre required quest]
+	1259
+[/pre required quest]
+
+[monster reward item]
+	1072	50	-1	4028	2	70	30	1069	50	-1	4028	1	30	30	1070	50	-1	4028	1	30	30	1071	50	-1	4028	1	30	30	50087	50	-1	4028	2	50	30	50084	50	-1	4028	2	50	30
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4028	30
+[/int data]
+
+[reward type]
+	`[title]`
+
+[reward int data]
+	26614	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`正義的使者`
+
+[depend message]
+	`目前這樣的形勢下， 瘋狂盜賊團卻仍在大肆搜刮財物， 完全不顧他人的死活， 實在是令人氣憤！
+這種人， 你難道不想給他們點顏色瞧瞧？
+我們可以把他們的錢全搶過來， 然后交給那些可憐的窮人。 反正都是些不義之財， 就算搶了， 良心上也不用過意不去。`
+
+[condition message]
+	`    前往諾斯瑪爾的『墮落的盜賊』， 收集30個[錢袋]交給米內特。`
+
+[solve message]
+	`不愧是正義的使者！ 我會把你帶回來的錢分給那些窮人的。`

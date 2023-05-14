@@ -1,0 +1,99 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/magic_circle.img`
+		1
+	[IMAGE POS]
+		-350	-349
+	[IMAGE RATE]
+		0.0	0.0
+	[IMAGE ROTATE]
+		6.269999980926514
+	[RGBA]
+		249	5	206	0
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		360
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/magic_circle.img`
+		1
+	[IMAGE POS]
+		-350	-349
+	[IMAGE RATE]
+		1.0	0.30000001192092896
+	[RGBA]
+		135	0	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/magic_circle.img`
+		1
+	[IMAGE POS]
+		-350	-349
+	[IMAGE RATE]
+		1.0	0.30000001192092896
+	[IMAGE ROTATE]
+		6.269999980926514
+	[RGBA]
+		135	0	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		6000
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME005]
+	[IMAGE]
+		`Character/Swordman/Effect/ATPunishment/magic_circle.img`
+		1
+	[IMAGE POS]
+		-350	-349
+	[IMAGE RATE]
+		1.0	0.30000001192092896
+	[RGBA]
+		135	0	255	255
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DAMAGE TYPE]
+		`NORMAL`

@@ -1,0 +1,38 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/UltimateCrossSlash/EndNomal01.img`
+		0
+	[IMAGE POS]
+		-639	-741
+	[IMAGE RATE]
+		1.0	0.8999999761581421
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/UltimateCrossSlash/EndNomal01.img`
+		1
+	[IMAGE POS]
+		-653	-742
+	[IMAGE RATE]
+		1.0	0.8999999761581421
+	[DELAY]
+		120
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0

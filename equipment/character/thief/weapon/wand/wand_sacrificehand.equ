@@ -1,0 +1,185 @@
+#PVF_File
+
+[name]
+	`獻祭之咒手杖`
+
+[basic explain]
+	`攻擊速度增加+2%%
+攻擊時，以3%%的機率使敵人進入詛咒狀態。
+對詛咒狀態下敵人的傷害 5%%
+`
+
+[detail explain]
+	`攻擊速度 +2%%
+攻擊時，有3%%的機率使敵人進入詛咒狀態20秒； 詛咒狀態下，減少75點力量、體力、智力和精神。 （若敵人高於Lv50，則減少進入異常狀態的機率；反之，則增加機率）
+對詛咒狀態下敵人的傷害增加5%%（在決鬥場中增加3%%）`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[magical attack]
+	38
+
+[attack speed]
+	-80
+
+[cast speed]
+	30
+
+[price]
+	89600
+
+[repair price]
+	75264
+
+[value]
+	71680
+
+[creation rate]
+	30
+
+[equipment physical attack]
+	417	384
+
+[equipment magical attack]
+	593	547
+
+[separate attack]
+	311	208
+
+[magical critical hit]
+	5
+
+[icon]
+	`Item/weapon/thief/wand.img`	40
+
+[field image]
+	`Item/field_weapon.img`	18
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	6	2
+
+[layer variation]
+	2790
+	`wandc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`wandd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`wandx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`WAND_TOUCH`
+
+[durability]
+	28
+
+[weight]
+	2300
+
+[item group name]
+	`wand`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[active status]
+		`curse`	50	75	75	75	75
+[/then]
+
+[if]
+	[target active status]
+		`curse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	5
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			30000
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			20000
+		[probability]
+			3
+		[active status]
+			`curse`	50	75	75	75	75
+	[/then]
+	[if]
+		[target active status]
+			`curse`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	3
+	[/then]
+[/pvp]
+
+[possible kiri protect]

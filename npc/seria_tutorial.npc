@@ -1,0 +1,79 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	4
+
+[big face]
+	`Map/Npc/NpcFace02.img`	3
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	5
+
+[field animation]
+	`Animation/Npc_se1.ani`
+
+[field wav]
+	`R_NPC_SERIA_AMB_LOOP`
+
+[popup wav]
+	`R_NPC_SERIA_TALK`
+	`R_NPC_SERIA_FAREWELL`
+
+[role]
+	`[item shop]`	15
+	`[sera shop]`	0
+	`[mouse register]`	0
+	`[security card make]`	0
+[/role]
+
+[skill]
+	`[fighter]`
+[/skill]
+
+[skill]
+	`[common]`	169	170	171	175	176	177	180	186	178	188	189	183	190
+[/skill]
+
+[name]
+	`賽麗亞·克魯敏`
+
+[field name]
+	`賽麗亞 `
+
+[quest speech]
+	`愿精靈的光芒照耀您……`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::2>您好！ 我叫賽麗亞。 我來這里， 是為了幫助那些有困難的冒險家。 如果您需要我幫忙， 隨時都可以來找我哦， 我一定會幫您的。`
+[/dialog]
+
+[dialog]
+	2	1	99	-1	0	0
+	`<npc::2>我負責為首次冒險的朋友講解如何接受任務。 在城鎮里， 人們會需要冒險家幫忙， 他們的需要就是任務。
+如果有人想找您幫忙， 他的頭頂上就會出現卷軸狀的圖標。 如果您想幫助別人， 就注意觀察他們的頭頂哦！`
+[/dialog]
+
+[dialog]
+	3	1	99	-1	1	0
+	`<npc::2>天啊！ 看看這傷口……千萬別過度戰斗了！ 我會拜托精靈幫您療傷的。`
+[/dialog]
+
+[dialog]
+	4	1	99	-1	0	0
+	`<npc::2>啊！ 這是哪兒？ 怎么這么黑暗？ 
+(不知從哪傳來的聲音) 你將……忘記， 忘記這些……
+忘……忘記？ 不！ 我不想忘記！ 不！！！
+呼……又是這個困擾我的夢！ 我忘記什么了……
+<npc::3>賽麗亞姐姐！ 你怎么流那么多汗？ 又做噩夢了？
+<npc::2>嗯， 我夢到……只要一做這個夢， 我就好害怕！
+<npc::3>姐姐， 你不要太擔心， 大家會保護你的！ 以前你被哥布林抓走， 不也平安回來了嗎？
+<npc::2>嗯……有那么多好心人幫我， 我一定會克服這個惡夢的！
+<npc::3>對呀對呀！ 看來姐姐又重新找回自己了， 呵呵。 呀， 看我這記性， 差點忘了要去林納斯大叔那了， 再見咯。
+<npc::2>……雖然我失去了記憶， 但他們會記住我的， 一定會記住我的……`	1
+[/dialog]
+
+[dialog]
+	5	1	99	-1	2	0
+	`<npc::2>太傷心了， 我那么相信你們……真失望！`
+[/dialog]

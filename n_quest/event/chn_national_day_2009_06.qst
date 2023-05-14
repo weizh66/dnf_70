@@ -1,0 +1,78 @@
+#PVF_File
+
+[grade]
+	`[common unique]`
+
+[npc index]
+	2
+
+[complete npc index]
+	2
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	20505
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680336	10
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	2680337	1	2680338	1
+[/reward selection int data]
+
+[name]
+	`慶祝60周年 - 6`
+
+[depend message]
+	`漂亮的字、 美麗的星星、 再加上燈飾~呵呵， 您猜猜下次看到它會變成什么樣子呢？ 想要知道的話就再收集一次材料吧。
+噢！ 對了， 我還準備了禮物哦， 嗯， 嚴格說是‘我們’阿拉德大陸的居民們為冒險家準備的禮物， 您可以期待一下~`
+
+[condition message]
+	`    收集10個[國慶60周年慶祝函]交給賽麗亞。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`全都布置好了， 哇~太漂亮了。
+還有， 從這兩種旗幟中選一種吧， 它代表著我們對冒險家和冒險家故鄉的美好祝福， 而且它還是冒險途中非常有用的道具呢。`

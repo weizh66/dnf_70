@@ -1,0 +1,44 @@
+#PVF_File
+
+[name]
+	`無限貓頭鷹`
+
+[explain]
+	`    使用後， 可以召喚出能搬來城鎮金庫的貓頭鷹。 金庫從空中掉落時會出現衝擊波， 金庫等級越高， 衝擊波的威力越強。 (可永久使用)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/stackable/cash.img`	5
+
+[field image]
+	`Item/FieldImage.img`	22
+
+[stackable type]
+	`[unlimited waste]`	0
+
+[cool time]
+	3000
+
+[cooltime group]
+	70
+
+[move wav]
+	`FOOD_TOUCH`
+
+[npc gift disallowance]
+	1

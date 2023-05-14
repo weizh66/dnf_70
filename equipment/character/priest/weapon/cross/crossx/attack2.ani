@@ -1,0 +1,73 @@
+#PVF_File
+[FRAME MAX]
+	6
+
+[FRAME000]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		33
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		80
+	[DAMAGE BOX]
+	-7	-5	24	35	10	78
+
+[FRAME001]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		34
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[PLAY SOUND]
+		`R_PW_2ATK`
+	[DAMAGE BOX]
+	-1	-5	23	27	10	82
+
+[FRAME002]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		35
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE BOX]
+	-8	-5	16	37	10	80
+
+[FRAME003]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		36
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		70
+	[DAMAGE BOX]
+	-11	-5	12	32	10	82
+	[ATTACK BOX]
+	-132	-20	10	267	40	110
+
+[FRAME004]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		37
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		50
+	[DAMAGE BOX]
+	-15	-5	16	41	10	78
+
+[FRAME005]
+	[IMAGE]
+		`character/priest/atequipment/weapon/cross/pg_cross%02d%02dx.img`
+		38
+	[IMAGE POS]
+		-252	-291
+	[DELAY]
+		300
+	[DAMAGE BOX]
+	-15	-5	14	39	10	82

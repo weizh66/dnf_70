@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	``
+
+[explain]
+	`背擊攻擊時以 4%% 的機率20秒內攻擊速度增加5%%，施放速度增加5%%，移動速度增加5%%。
+攻擊時以 1%%的機率給予 敵人2012 附加傷害`
+
+[flavor text]
+	`< 活動 >2012年升級得到道具！`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`Item/Title/title.img`	425
+
+[custom animation]
+	`TitleAnimation/2012newyear_backdo.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[no random]
+
+[npc gift disallowance]
+	1
+
+[if]
+	[cooltime]
+		35000
+	[attack condition]
+		`back attack`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		20000
+	[probability]
+		4
+	[stat]
+		`attack speed`
+		`+`	50
+	[stat]
+		`cast speed`
+		`+`	50
+	[stat]
+		`move speed`
+		`+`	50
+[/then]
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		8000
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		1
+	[add absolute damage]
+		`all`
+		`+`	2012
+[/then]
+
+[expiration date]
+	1326898800

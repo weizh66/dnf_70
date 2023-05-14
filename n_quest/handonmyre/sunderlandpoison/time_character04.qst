@@ -1,0 +1,64 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	4
+
+[complete npc index]
+	127
+
+[target character]
+	`[demonic swordman]`	-1	-1
+	`[creator mage]`	-1	-1
+[/target character]
+
+[level]
+	7	99
+
+[pre required quest]
+	4471
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4808	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	400
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`脆弱的時間碎片`
+
+[depend message]
+	`你的實力很不錯 。以後若有事情需要委託就找你吧。
+不過… 那個碎片到底是什麼？`
+
+[condition message]
+	`將時間碎片，交給最後的先知者`
+
+[solve message]
+	`嗯…這是時間碎片沒有錯，但是力量太弱了。若用它根本無法填滿碎片。無論如何得找到更強的碎片，才能恢復你的力量。`
+
+[quest point]
+	4

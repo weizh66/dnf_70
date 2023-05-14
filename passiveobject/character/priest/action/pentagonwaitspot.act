@@ -1,0 +1,34 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/PentagonObject/Spot/PriestPositionBackFront_01.ani`
+	[SUB ANI]
+		`../Animation/PentagonObject/Spot/PriestPositionBack_01.ani`	0	0
+		`../Animation/PentagonObject/Spot/CastWorkPriestFront_01.ani`	0	0
+		`../Animation/PentagonObject/Spot/CastWorkPriestBack_01.ani`	0	0
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		1	1
+	[WHICH]
+	[ALL ENEMY]
+	[CHECKUP]
+		[IS OBJECT TYPE]
+			[MONSTER]
+		[/IS OBJECT TYPE]
+		[DISTANCE]
+		[<=]
+			265
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[PULL APPENDAGE]
+		6.0	6.0	3000
+[/BEHAVIOR]

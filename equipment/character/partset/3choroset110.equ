@@ -1,0 +1,164 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-15
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-15
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	94
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[at swordman]`	142
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[游龍掌]攻擊力 +10%%
+[游龍掌]劍氣施放次數 +20%%
+[游龍掌]劍氣發射速度 +20%%
+[湮烈掌]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-25
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-25
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[static]`	0
+		`%`	20
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[游龍掌]冷卻時間 -30%%
+[游龍掌]劍氣施放次數 +20%%
+[游龍掌]劍氣發射速度 +30%%
+[如來神掌]冷卻時間 -20%%
+[如來神掌]攻擊力 +30%%
+[如來神掌]掌風大小 +20%%
+[如來神掌]爆炸范圍 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at swordman]`	91
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-30
+		`[at swordman]`	141
+		`[dungeon type]`
+		`[static]`	3
+		`%`	-30
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-30
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[level]`	0
+		`%`	40
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[level]`	1
+		`%`	40
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[static]`	0
+		`%`	30
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[static]`	1
+		`%`	30
+		`[at swordman]`	97
+		`[dungeon type]`
+		`[skill consume item]`	0
+		`+`	1
+	[/skill data up]
+	[parameter basic explain]
+		`[游龍掌]攻擊力 +30%%
+[游龍掌]劍氣發射速度 +40%%
+[如來神掌]冷卻時間 -30%%
+[如來神掌]攻擊力 +40%%
+[如來神掌]掌風大小 +30%%
+[如來神掌]爆炸范圍 +30%%
+[如來神掌]無色小晶塊消耗量 +1`
+[/piece set ability]

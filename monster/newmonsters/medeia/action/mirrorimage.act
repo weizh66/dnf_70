@@ -1,0 +1,37 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/MirrorImage.ani`
+	[SUB ANI]
+		`../animation/Sword/swMirrorImage.ani`	0	0
+	[/SUB ANI]
+	[SPEECH]
+		`哈哈哈….又可以擁有美麗石人玩偶了`
+			5	50
+		`天啊..不知道不能注視我嗎?`
+			5	50
+	[/SPEECH]
+	[SOUND]
+		`S_MEDUSA_SKILL`	3
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		8	8
+	[WHICH]
+	[ALL CHARACTER TEAM]
+	[CHECKUP]
+		[FRONTSIDE]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[CHECKUP OBJECT]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ACTIVE STATUS]
+	[stone]
+		100	60	8000	100
+[/BEHAVIOR]

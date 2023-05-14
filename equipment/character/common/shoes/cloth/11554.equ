@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`逝魔之風速短靴`
+
+[basic explain]
+	`  前衝時，消耗1%%的MP增加自身10%%的移動速度，效果持續30秒。（冷卻時間30秒）`
+
+[flavor text]
+	`  據說從來沒有人見過摩恩真正的模樣。`
+
+[grade]
+	83
+
+[rarity]
+	4
+
+[part set index]
+	12571
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	28
+
+[magical defense]
+	28
+
+[move speed]
+	60
+
+[need material]
+	3821	1000
+
+[price]
+	63700
+
+[repair price]
+	50960
+
+[value]
+	50960
+
+[creation rate]
+	200
+
+[equipment physical defense]
+	612	558
+
+[icon]
+	`Item/new_equipment/02_cloth/shoes/cloth_shoes.img`	17
+
+[field image]
+	`Item/field_equip.img`	4
+
+[equipment type]
+	`[shoes]`	14
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	18
+
+[weight]
+	600
+
+[item group name]
+	`cl shoes`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		30000
+	[set my state]
+		1
+	[my state]
+		`dash`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[stat]
+		`move speed`
+		`+`	100
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600808	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

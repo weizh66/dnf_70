@@ -1,0 +1,101 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Etc_curse_main_0_0_0.ani`
+	[SUB ANI]
+		`../Animation/Etc_curse_main_0_0_8.ani`	0	1
+		`../Animation/Etc_curse_main_0_0_7.ani`	0	2
+		`../Animation/Etc_curse_main_0_0_5.ani`	0	3
+		`../Animation/Etc_curse_main_0_0_6.ani`	0	4
+		`../Animation/Etc_curse_main_0_0_9.ani`	0	5
+		`../Animation/Etc_curse_main_0_0_1.ani`	0	6
+		`../Animation/Etc_curse_main_0_0_2.ani`	0	7
+		`../Animation/Etc_curse_main_0_0_3.ani`	0	8
+	[/SUB ANI]
+	[SOUND]
+		`AGNES_EYE`	0
+	[/SOUND]
+[/MOTION]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[ON SET ACTION]
+	[DO BEHAVIOR]
+	[ME]
+	[RANDOM SELECT]
+		0	1	2	3
+	[/RANDOM SELECT]
+[/TRIGGER]
+
+[BEHAVIOR]
+	[TRIGGER]
+		0
+	[OFF]
+	[CASTING]
+		10000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CASTING]
+		10000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CASTING]
+		10000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[CASTING]
+		10000	4
+	[/CASTING]
+	[IS CASTING IN THE SCREEN]
+		1
+[/BEHAVIOR]
+
+[BEHAVIOR]
+	[SET ACTION]
+	[CUSTOM]
+		0
+	[NOW]
+	[TRIGGER]
+		0
+	[ON]
+[/BEHAVIOR]
+
+[TRIGGER]
+	[ENABLE]
+	[ON]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		5
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			9249
+		[PARTICLE FILENAME]
+			``
+		[LEVEL]
+			0
+		[POS]
+			0	0	0
+	[/CREATE PASSIVEOBJECT]
+	[TRIGGER]
+		1
+	[OFF]
+[/BEHAVIOR]

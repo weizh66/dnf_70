@@ -1,0 +1,175 @@
+#PVF_File
+
+[name]
+	`戾嘯之游離銃`
+
+[basic explain]
+	`攻擊時， 有5%%的幾率使敵人進入眩暈狀態。
+攻擊速度 +3%%`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入感電狀態10秒； 若攻擊感電狀態的敵人， 則每次攻擊會附加450點傷害。 (若敵人高于Lv60， 則減少進入異常狀態的幾率； 反之， 則增加幾率)
+攻擊速度 +3%%`
+
+[flavor text]
+	`    一槍， 再一槍……移動著發射， 準心也不會歪。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`musket`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	2100
+
+[usable job]
+	`[gunner]`
+	`[at gunner]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`item/weapon/gunner/musket.img`	31
+
+[field image]
+	`Item/field_weapon.img`	3
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	2
+
+[durability]
+	30
+
+[price]
+	111600
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[cool time]
+	10000
+
+[physical attack]
+	42
+
+[magical attack]
+	64
+
+[equipment physical attack]
+	575	490
+
+[equipment magical attack]
+	500	427
+
+[separate attack]
+	360	243
+
+[attack speed]
+	30
+
+[if]
+	[cooltime]
+		5000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		5
+	[active status]
+		`lightning`	60	450
+[/then]
+
+[skill data up]
+	`[gunner]`	15
+	`[all]`
+	`[level]`	1
+	`%`	4
+	`[at gunner]`	15
+	`[all]`
+	`[level]`	1
+	`%`	4
+[/skill data up]
+
+[skill levelup]
+	`[gunner]`	15	2
+	`[gunner]`	5	1
+	`[at gunner]`	15	2
+	`[at gunner]`	5	1
+[/skill levelup]
+
+[animation job]
+	`[gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`musketc`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[layer variation]
+	650
+	`musketb`
+
+[equipment ani script]
+	`equipment/character/gunner.lay`
+
+[animation job]
+	`[at gunner]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`at_musketc`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[layer variation]
+	650
+	`at_musketb`
+
+[equipment ani script]
+	`equipment/character/atgunner.lay`
+
+[move wav]
+	`RIFLE_TOUCH`
+
+[routing priority]
+	`gunner`	4
+	`at gunner`	4
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	6
+
+[complete npc index]
+	-1
+
+[job]
+	`[fighter]`
+
+[grow type]
+	1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`二次覺醒 - 念帝 (1/2)`
+
+[depend message]
+	`好久不見， 你對念氣的理解竟已如此深刻了。 我想你現在一定在追求更高的境界了吧？
+運用念氣的最高境界就是‘念帝’。 可惜到目前為止， 我也只在傳聞中聽過有人能達到那種境界。
+唉， 要知道， 駕馭宇宙之源氣， 為自己所用， 對于我們人類來說， 實在是太難了。
+即使我們的肉體能夠承載這股力量， 但是精神上仍不具備這樣的條件， 所以一不小心， 很可能就會精神崩潰……
+即使這樣， 你還想嘗試嗎？`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請去與風振談談。`
+
+[solve message]
+	`下定決心了嗎？ 很好， 讓我來告訴你下一步該怎么做。`
+
+[pre required quest]
+	917
+[/pre required quest]
+
+[exposed by npc]
+	0
+
+[relation quest]
+	4807
+
+[job change quest]
+	3
+
+[show click on complete npc]
+	1
+
+[grow number]
+	0

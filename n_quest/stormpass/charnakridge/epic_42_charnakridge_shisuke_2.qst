@@ -1,0 +1,65 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`O`
+
+[gold multiple]
+	10
+
+[npc index]
+	40
+
+[complete npc index]
+	39
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	42	99
+
+[pre required quest]
+	2511
+[/pre required quest]
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	39
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1000
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`班圖族的副族長`
+
+[depend message]
+	`我就是班圖族的副族長奧爾卡， 你是真正的勇士嗎？ 如果不是， 我們不接受你的拜訪， 請回吧！ `
+
+[condition message]
+	`    無法與奧爾卡溝通， 去找其他人試試。`
+
+[solve message]
+	`咦？ 你不是我們族的人……
+你快走吧！ 如果被我們族的勇士發現就慘了， 他們絕不會輕易放過你的！ 趕快離開這里吧！ `
+
+[quest point]
+	4

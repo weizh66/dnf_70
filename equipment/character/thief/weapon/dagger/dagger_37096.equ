@@ -1,0 +1,248 @@
+#PVF_File
+
+[name]
+	`異能主宰者`
+
+[basic explain]
+	`    [翔擊]命中敵人時， 增加15點力量。
+    [弧光閃]命中敵人時， 增加35點力量。
+    [絕殺斬]命中敵人時， 增加40點力量。
+(在決斗場中， 力量增加量減少50%%)`
+
+[grade]
+	70
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`dagger`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	17
+
+[weight]
+	2100
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[minimum level]
+	65
+
+[icon]
+	`Item/weapon/thief/dagger.img`	81
+
+[field image]
+	`Item/field_weapon.img`	16
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	112000
+
+[repair price]
+	94080
+
+[value]
+	89600
+
+[cool time]
+	10000
+
+[physical attack]
+	47
+
+[equipment physical attack]
+	573	522
+
+[equipment magical attack]
+	607	553
+
+[separate attack]
+	411	278
+
+[attack speed]
+	100
+
+[physical critical hit]
+	10
+
+[stuck]
+	1
+
+[variation]
+	13	0
+
+[layer variation]
+	2790
+	`daggerc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`daggerd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`daggerx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[move wav]
+	`DAGGER_TOUCH`
+
+[if]
+	[cooltime]
+		500
+	[skill]
+		`thief`	1
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		10000
+	[stat]
+		`physical attack`
+		`+`	15
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[skill]
+		`thief`	3
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		10000
+	[stat]
+		`physical attack`
+		`+`	35
+[/then]
+
+[if]
+	[cooltime]
+		1000
+	[skill]
+		`thief`	16
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[duration]
+		10000
+	[stat]
+		`physical attack`
+		`+`	40
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			1000
+		[skill]
+			`thief`	1
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[duration]
+			10000
+		[stat]
+			`physical attack`
+			`+`	8
+	[/then]
+	[if]
+		[cooltime]
+			1000
+		[skill]
+			`thief`	3
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[duration]
+			10000
+		[stat]
+			`physical attack`
+			`+`	18
+	[/then]
+	[if]
+		[cooltime]
+			1000
+		[skill]
+			`thief`	16
+		[/skill]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`myself`	-1
+		[probability]
+			100
+		[duration]
+			10000
+		[stat]
+			`physical attack`
+			`+`	20
+	[/then]
+[/pvp]
+
+[routing priority]
+	`thief`	1
+[/routing priority]
+
+[possible kiri protect]

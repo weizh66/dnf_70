@@ -1,0 +1,110 @@
+#PVF_File
+
+[set name]
+	`黑暗審判者  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	64
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	64
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[priest]`	118
+		`[dungeon type]`
+		`[level]`	0
+		`%`	25
+		`[priest]`	118
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+	[/skill data up]
+	[parameter basic explain]
+		`[惡魔之手]攻擊力 +10%%
+[裂地錘]攻擊力 +25%%
+[裂地錘]冷卻時間 -1秒`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	64
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	64
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	64
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1300
+		`[priest]`	64
+		`[dungeon type]`
+		`[level]`	4
+		`+`	600
+		`[priest]`	131
+		`[dungeon type]`
+		`[level]`	2
+		`%`	70
+		`[priest]`	125
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	125
+		`[dungeon type]`
+		`[level]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[惡魔之手]攻擊力 +20%%
+[惡魔之手]冷卻時間 -1.3秒
+[惡魔之手]束縛持續時間 +0.6秒
+[墮落之魂]暗屬性強化增加量 +70%%
+[黑暗權能]攻擊力 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	113
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	113
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[priest]`	113
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[priest]`	113
+		`[dungeon type]`
+		`[static]`	2
+		`+`	4
+		`[priest]`	117
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[priest]`	117
+		`[dungeon type]`
+		`[level]`	1
+		`%`	30
+		`[priest]`	117
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+	[/skill data up]
+	[parameter basic explain]
+		`[回旋飛鐮]攻擊力 +30%%
+[回旋飛鐮]冷卻時間 -1秒
+[回旋飛鐮]減少多段攻擊間隔
+[黑暗之觸]攻擊力 +30%%
+[黑暗之觸]冷卻時間 -3秒`
+[/piece set ability]

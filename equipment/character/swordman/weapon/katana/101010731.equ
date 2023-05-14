@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`牛頭統帥的煞血骨刃`
+
+[basic explain]
+	`對出血狀態下敵人的暴擊傷害 +20%%
+    攻擊時， 有5%%的幾率使敵人進入出血狀態。`
+
+[detail explain]
+	`    攻擊時， 有5%%的幾率使敵人進入出血狀態6秒； 出血狀態下的敵人， 每0.5秒受到400點傷害。 (若敵人高於Lv90， 則減少進入異常狀態的幾率和效果； 反之， 則增加幾率和效果) 
+對出血狀態下敵人的暴擊傷害 +20%% (暴擊傷害加成效果取最高值， 且無法疊加)`
+
+[flavor text]
+	`    將最強韌的牛肋骨磨得異常鋒利， 其硬度可與鋼鐵相媲美。`
+
+[grade]
+	89
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	92
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	10000204	56
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	956	855
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	8
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	120
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	47	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	47	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[duration]
+		6000
+	[active status]
+		`bleeding`	90	4800
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target active status]
+		`bleeding`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	20
+[/then]
+
+[possible kiri protect]

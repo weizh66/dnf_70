@@ -1,0 +1,83 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`X`
+
+[gold multiple]
+	200
+
+[npc index]
+	76
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	81	99
+
+[pre required quest]
+	4588
+[/pre required quest]
+
+[type]
+	`[clear map]`
+
+[sub type]
+	-1
+
+[int data]
+	15421
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	200
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`重新團結的戰友`
+
+[depend message]
+	`嗯～ 大家快點打招呼吧！
+<apc::11500> 哇！好久不見！看來精神更強韌了？已經能習慣戰場了嗎？
+<apc::26501>好久不見了。這段時間過得好吧？
+<npc::76>寒暄到此為止…最好還是先進行作戰會議吧。這次要進入的是格蘭迪內發電所，
+許多隊員都在格蘭迪內發電所因為虛無的弗曼而喪命。
+虛無的弗曼是守護安徒恩最強的守護者。
+<apc::11500>就算是最強，應該也會一擊就結束吧！
+<apc::26501>少吹牛了… 該小心被一次打倒的是你吧？每次都被一次擊倒，所以才會被叫做「一擊的柯維」不是嗎？
+<apc::11500>不、不會吧？
+<npc::76>全都漏掉了！在長官面前…
+<apc::11500>立、立刻進行修正！
+<apc::26501>真是抱歉！看到久違的戰友後，精神狀態似乎稍微放鬆了。
+<npc::76>好了…. 待會見了！那我會把話說完。根據幹員的情報來看，要到達虛無的弗曼所在的地方根本就是不可能。
+似乎有某個特殊的裝置… 先和我一起去尋找原因吧。`
+
+[condition message]
+	`尋找未能和中將尼貝爾一起到達虛無的弗曼的原因`
+
+[solve message]
+	`原來是因為能量戰地啊。但是因為虛無的弗曼的幻影，不容易接近。`
+
+[dialog]
+	0	0	15421	0	0	0	0
+	`<apc::11518>看來原因在於能量區域。要先停止能量區域。
+能量區域基本上由波圖拉在守護，仔細找找地圖吧。`
+[/dialog]
+
+[quest point]
+	4

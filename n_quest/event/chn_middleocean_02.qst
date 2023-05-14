@@ -1,0 +1,67 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	3
+
+[complete npc index]
+	3
+
+[delete npc index]
+	-1
+
+[event]
+	1
+
+[exposed by npc]
+	0
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[appear map]
+	-1	-1	-1	-1
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	2680411	50	2680412	50
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	7114	3
+[/reward int data]
+
+[name]
+	`天空之海的秘密 - 2`
+
+[depend message]
+	`冒險家！ 你來啦？ 你也很好奇天空之海的秘密吧？
+我聽說阿拉德大陸最近經常出現一些神秘的東西， 據說那些東西都是來自天空之海。
+冒險家， 如果你給我收集50個天空之海的珊瑚和50個天空之海的貝殼， 我就能解開天空之海的秘密！ 你就相信我吧， 嘻嘻~`
+
+[condition message]
+	`    收集50個[天空之海的珊瑚]和50個[天空之海的貝殼]交給卡妮娜。 (該材料可以在任意地下城的怪物身上獲得)`
+
+[solve message]
+	`回來啦？ 辛苦你了， 冒險家！
+呃， 我沒有解開天空之海的秘密……不過你別泄氣， 我給你弄到了土罐部隊第五隊員金罐的袖珍罐~
+不過話說回來， 天空之海的秘密到底是什么呢？`

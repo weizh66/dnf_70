@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`銀色狂襲戰士腰帶`
+
+[explain]
+	`    煉就格斗之魂， 需要擁有執著的熱情與永不言敗的信念。  --2011年第四屆全國格斗大賽`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[fighter]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/fighter/ft_abelt.img`	270
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0	30	0	0	2200	0	0	0	0	4400	0	0	0	0	4840	2
+	`[D socket]`
+	`[D socket]`
+[/avatar type select]
+
+[variation]
+	80	1
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	2685747
+
+[all elemental resistance]
+	8
+
+[stuck resistance]
+	50
+
+[avatar func filter]
+	2

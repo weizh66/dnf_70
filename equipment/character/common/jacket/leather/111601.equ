@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`成長的新紀元上衣-皮甲`
+
+[basic explain]
+	`隨著人物成長（最高成長到LV90）。`
+
+[flavor text]
+	``
+
+[grade]
+	1
+
+[rarity]
+	3
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[repair price]
+	5000
+
+[icon]
+	`Item/new_equipment/03_leather/coat/leather_coat.img`	62
+
+[field image]
+	`Item/FieldImage.img`	0
+
+[equipment type]
+	`[coat]`	18
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	33
+
+[weight]
+	1900
+
+[item group name]
+	`lt coat`
+
+[cool time]
+	10000
+
+[level linear ability]
+	1	90
+	[grade]
+		1	90
+	[equipment physical defense]
+		320	236	2930	2960
+	[physical attack]
+		30	65
+	[magical attack]
+		30	55
+	[magical defense]
+		20	50
+[/level linear ability]
+
+[limit upgradable level]
+	`normal upgrade`	30	54
+	`amplify upgrade`	55	90
+[/limit upgradable level]
+
+[impossible contents]
+	`disjoint`
+	`gift`
+[/impossible contents]
+
+[set name]
+	`成長的新紀元套裝-皮甲`
+
+[set item]
+	111601	111606	111611	111616	111621
+[/set item]
+
+[set ability]
+	[HP MAX]
+		300
+	[MP MAX]
+		300
+	[physical attack]
+		120
+	[magical attack]
+		120
+	[physical defense]
+		120
+	[move speed]
+		70
+	[attack speed]
+		70
+	[cast speed]
+		70
+	[physical critical hit]
+		5
+	[magical critical hit]
+		5
+	[stuck]
+		-6
+	[stuck resistance]
+		60
+[/set ability]
+
+[possible kiri protect]

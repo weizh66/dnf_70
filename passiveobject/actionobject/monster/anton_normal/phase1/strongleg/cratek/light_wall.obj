@@ -1,0 +1,12 @@
+#PVF_File
+
+[name]
+	`光柱`
+
+[basic action]
+	`Action/light_wall_Basic.act`
+
+[object destroy condition]
+	`[destroy condition]`
+	`[time limite]`	1500
+[/object destroy condition]

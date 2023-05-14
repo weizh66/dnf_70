@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`封·鎮魂曲：幽游板甲上衣`
+
+[basic explain]
+	`  施放[無雙擊]、 [正義審判]、 [不動明王陣]、 [暗影盛宴]、 [天隕斷空斬]時， 有20%%的幾率不受冷卻時間影響。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12570
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	37
+
+[magical attack]
+	37
+
+[physical defense]
+	40
+
+[MP MAX]
+	250
+
+[need material]
+	3821	900
+
+[price]
+	154800
+
+[repair price]
+	123840
+
+[value]
+	123840
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	5820	5280
+
+[skill levelup]
+	`[priest]`	88	2
+	`[priest]`	81	2
+	`[swordman]`	74	2
+	`[creator mage]`	254	2
+	`[demonic swordman]`	74	2
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/06_plate/coat/plate_coat.img`	10
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	23
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[event use skill]
+		`priest`	88
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		12
+	[skill data up]
+		`[priest]`	88
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`priest`	81
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		12
+	[skill data up]
+		`[priest]`	81
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	74
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		12
+	[skill data up]
+		`[swordman]`	74
+		`[all]`
+		`[cooltime]`	0
+		`%`	-100
+	[/skill data up]
+[/then]
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			70
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

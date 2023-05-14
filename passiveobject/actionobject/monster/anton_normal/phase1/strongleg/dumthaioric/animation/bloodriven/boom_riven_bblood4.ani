@@ -1,0 +1,47 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/BloodRiven/riven_bblood.img`
+		1
+	[IMAGE POS]
+		-84	-258
+	[RGBA]
+		255	0	0	255
+	[INTERPOLATION]
+		1
+	[DELAY]
+		650
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/BloodRiven/riven_bblood.img`
+		1
+	[IMAGE POS]
+		-84	-258
+	[RGBA]
+		255	0	0	0
+	[DELAY]
+		80
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		-41	-14
+	[DELAY]
+		80

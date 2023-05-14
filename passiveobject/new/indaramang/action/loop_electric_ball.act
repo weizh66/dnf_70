@@ -1,0 +1,19 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/Indaramang/loop_electric_ball.ani`
+[/MOTION]
+
+[TRIGGER]
+	[CHECK TIME]
+		500
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ATTACKRECT]
+	[RESET]
+[/BEHAVIOR]

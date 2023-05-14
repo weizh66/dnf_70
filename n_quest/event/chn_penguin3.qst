@@ -1,0 +1,79 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[npc index]
+	6
+
+[complete npc index]
+	7
+
+[delete npc index]
+	-1
+
+[exposed by npc]
+	0
+
+[event]
+	1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	1	99
+
+[pre required quest]
+	2442
+[/pre required quest]
+
+[collision quest]
+[/collision quest]
+
+[clear reward item]
+[/clear reward item]
+
+[monster reward item]
+[/monster reward item]
+
+[depend give item]
+[/depend give item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	7342	7	7343	12	7344	6
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+[/reward int data]
+
+[reward selection int data]
+	7346	2	7347	2
+[/reward selection int data]
+
+[name]
+	`尋找企鵝圍巾 - 3`
+
+[depend message]
+	`嗯， 這事我也聽說了。 收集了這么多材料， 真是辛苦你了。
+不過據我所知， 那些企鵝在編織圍巾前， 會把自己身上脫落的羽毛放進去， 聽說這樣才能保暖。 那些羽毛應該是最重要的圍巾材料吧……
+哦， 對了， 好像還有一種紅色染色劑； 但我不知道它的用途， 你可以去問問G.S.D。 他是阿拉德大陸最淵博的鬼劍士……
+嗯， 如果你已經收集全了材料， 就去找G.S.D吧。 你可以從我左側的路口往上走， 然后再往右就可以看見他了。`
+
+[condition message]
+	`<七鉆閃耀活動>  前往任意的地下城， 收集7個[毛線團]、 12個[羽毛]和6瓶[紅色染色劑]后找G.S.D打聽情況。 (可以按<N>鍵打開城鎮地圖查找NPC)`
+
+[solve message]
+	`噢， 我就是給鬼劍士傳授技能的G.S.D。你專門來找我的？ 有什么事嗎？`

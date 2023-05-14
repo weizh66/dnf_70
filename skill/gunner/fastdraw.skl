@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`疾風驟雨`
+
+[explain]
+	`    快速切換數把左輪槍并以驚人的速度對前方敵人進行射擊。 使用左輪槍系列武器時才能使用該技能， 若施放后連續按攻擊鍵， 將會以更快的速度發射更多的子彈。`
+
+[basic explain]
+	`    以驚人的速度對前方敵人進行射擊。`
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	40	0	0	0	0
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[consume MP]
+	2110	3200
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[cool time]
+	40000	40000
+
+[durability decrease rate]
+	10
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[skill command advantage]
+	10	20
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	430
+	`Character/Gunner/Effect/SkillIcon.img`	431
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[static data]
+		100	900	450	160	25	90	120	200
+	[/static data]
+	[level info]
+		8	3	2	5	6	100	1807	200	0	3	2	5	6	100	1990	210	0	3	2	5	6	100	2174	220	0	3	2	5	6	100	2357	230	0	3	2	5	6	100	2540	240	0	3	2	5	6	100	2724	250	0	3	2	5	6	100	2907	260	0	3	2	5	6	100	3090	270	0	3	2	5	6	100	3274	280	0	3	2	5	6	100	3457	290	0	3	2	5	6	100	3641	300	0	3	2	5	6	100	3824	310	0	3	2	5	6	100	4007	320	0	3	2	5	6	100	4191	330	0	3	2	5	6	100	4374	340	0	3	2	5	6	100	4557	350	0	3	2	5	6	100	4741	360	0	3	2	5	6	100	4924	370	0	3	2	5	6	100	5107	380	0	3	2	5	6	100	5291	390	0	3	2	5	6	100	5474	400	0	3	2	5	6	100	5658	410	0	3	2	5	6	100	5841	420	0	3	2	5	6	100	6024	430	0	3	2	5	6	100	6208	440	0	3	2	5	6	100	6391	450	0	3	2	5	6	100	6574	460	0	3	2	5	6	100	6758	470	0	3	2	5	6	100	6941	480	0	3	2	5	6	100	7124	490	0	3	2	5	6	100	7308	500	0	3	2	5	6	100	7491	510	0	3	2	5	6	100	7674	520	0	3	2	5	6	100	7858	530	0	3	2	5	6	100	8041	540	0	3	2	5	6	100	8225	550	0	3	2	5	6	100	8408	560	0	3	2	5	6	100	8591	570	0	3	2	5	6	100	8775	580	0	3	2	5	6	100	8958	590	0
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`左輪槍切換次數 : <int>次
+每把左輪槍基本發射次數 : <int>
+每把左輪槍最高發射次數 : <int>
+每發子彈攻擊力 : <int>%%
+每發子彈增加物理暴擊率 : <int>%%
+穿刺力 : <int>%%`	-1	0	1.3	-1	2	1.0	-1	3	1.0	-1	5	1.0	-1	6	0.1	1	1	0.1
+[/level property]

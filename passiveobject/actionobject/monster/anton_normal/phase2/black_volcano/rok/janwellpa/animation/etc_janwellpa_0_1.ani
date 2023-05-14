@@ -1,0 +1,37 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	2
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/darkslash.img`
+		6
+	[IMAGE POS]
+		-386	-113
+	[IMAGE RATE]
+		1.7000000476837158	1.7000000476837158
+	[RGBA]
+		0	0	50	255
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Anton/Phase2/BlackVolcano/BlackFireRok/boom/darkslash.img`
+		6
+	[IMAGE POS]
+		-386	-113
+	[IMAGE RATE]
+		1.7000000476837158	1.7000000476837158
+	[RGBA]
+		0	0	50	255
+	[DELAY]
+		100
+	[FLIP TYPE]
+		`HORIZON`

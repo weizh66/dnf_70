@@ -1,0 +1,71 @@
+#PVF_File
+[SHADOW]
+	0
+[FRAME MAX]
+	4
+
+[FRAME000]
+	[IMAGE]
+		`Character/Fighter/Effect/HurricaneSP/boom4.img`
+		0
+	[IMAGE POS]
+		-324	-105
+	[IMAGE RATE]
+		1.0	1.2000000476837158
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		1360
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME001]
+	[IMAGE]
+		`Character/Fighter/Effect/HurricaneSP/boom4.img`
+		0
+	[IMAGE POS]
+		-336	-105
+	[IMAGE RATE]
+		1.0	1.2000000476837158
+	[RGBA]
+		255	255	255	51
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Fighter/Effect/HurricaneSP/boom4.img`
+		0
+	[IMAGE POS]
+		-336	-105
+	[IMAGE RATE]
+		1.0	1.2000000476837158
+	[RGBA]
+		255	255	255	25
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+	[FLIP TYPE]
+		`HORIZON`
+
+[FRAME003]
+	[IMAGE]
+		``
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		80

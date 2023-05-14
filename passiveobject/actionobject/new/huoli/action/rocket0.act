@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/FM-31Bullet/Rocket0.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900063
+		[PARTICLE FILENAME]
+			`../Particle/Rocket.ptl`
+		[LEVEL]
+			0
+		[POS]
+			120	0	30
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

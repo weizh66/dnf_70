@@ -1,0 +1,933 @@
+#PVF_File
+
+[name]
+	`冰火清影`
+
+[basic explain]
+	`攻擊時，附加 20%%屬性傷害（屬性強化效果取最高值，且無法疊加）
+物理，獨立攻擊力 +8%%`
+
+[detail explain]
+	`攻擊時，附加 20%%屬性傷害（屬性強化效果取最高值，且無法疊加）
+物理，獨立攻擊力 +8%%`
+
+[flavor text]
+	`霍如羿射九日落，矯如群帝驂龍翔。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	67
+
+[usable job]
+	`[thief]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	75
+
+[attack speed]
+	-80
+
+[anti evil]
+	22
+
+[price]
+	100000000
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	125
+
+[equipment physical attack]
+	1135	1135
+
+[equipment magical attack]
+	891	891
+
+[separate attack]
+	686	686
+
+[physical critical hit]
+	5
+
+[fire attack]
+	30
+
+[water attack]
+	30
+
+[icon]
+	`Item/wuqi.img`	26
+
+[field image]
+	`Item/field_weapon.img`	17
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[thief]`
+
+[variation]
+	47	0
+
+[layer variation]
+	2790
+	`twinswordc`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	200
+	`twinswordd`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[layer variation]
+	1350
+	`twinswordx`
+
+[equipment ani script]
+	`equipment/character/thief.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`TWINSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`twinswd`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		728
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		731
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		730
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	50
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	50
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	50
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		729
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		728
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		731
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		730
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	100
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	100
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	100
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		729
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		728
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		731
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		730
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	150
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	150
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	150
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		729
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		728
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		731
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		730
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	200
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	200
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	200
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		729
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		728
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		731
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		730
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	250
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	250
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	250
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		729
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		728
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		731
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		730
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`water attack`
+		`>`	300
+	[is stat]
+		`myself`	-1
+		`light attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`dark attack`
+		`<=`	300
+	[is stat]
+		`myself`	-1
+		`fire attack`
+		`<=`	300
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		729
+[/then]
+
+[if]
+	[my appendage]
+		728
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`fire`
+		`%`	18
+[/then]
+
+[if]
+	[my appendage]
+		729
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`water`
+		`%`	18
+[/then]
+
+[if]
+	[my appendage]
+		730
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`light`
+		`%`	18
+[/then]
+
+[if]
+	[my appendage]
+		731
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`dark`
+		`%`	18
+[/then]
+
+[if]
+	[is stat]
+		`myself`	-1
+		`dark resistance`
+		`=>`	-9999
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[add stat at once]
+		`equipment physical attack`
+		`%`	8
+	[add stat at once]
+		`separate attack`
+		`%`	8
+[/then]
+
+[possible kiri protect]

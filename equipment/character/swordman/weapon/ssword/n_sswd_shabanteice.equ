@@ -1,0 +1,143 @@
+#PVF_File
+
+[name]
+	`沙凡特的冰齒劍`
+
+[basic explain]
+	`攻擊時， 有3%%的幾率出現冰凍針刺。
+[冰霜之薩亞]范圍 +30px`
+
+[flavor text]
+	`    它可以冰凍一切……`
+
+[grade]
+	50
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`ssword`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	9
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	45
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	35
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	80000
+
+[repair price]
+	67200
+
+[value]
+	64000
+
+[cool time]
+	10000
+
+[magical attack]
+	35
+
+[equipment physical attack]
+	452	407
+
+[equipment magical attack]
+	547	492
+
+[separate attack]
+	285	189
+
+[cast speed]
+	20
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		3
+	[passive object]
+		30059	0	0	0	40	0
+		``
+	[/passive object]
+[/then]
+
+[magical critical hit]
+	2
+
+[skill data up]
+	`[swordman]`	36
+	`[all]`
+	`[static]`	1
+	`+`	30
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	21	3
+[/skill levelup]
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[routing priority]
+	`swordman`	2
+	`swordman`	4
+[/routing priority]
+
+[possible kiri protect]

@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`傳承：摩羯守護神防具自選禮盒`
+
+[explain]
+	`使用後，可選擇獲得一件傳承：摩羯守護神防具。`
+
+[flavor text]
+	`<裝備售出系統>`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[account]`
+
+[minimum level]
+	1
+
+[weight]
+	1
+
+[price]
+	0
+
+[cool time]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	931
+
+[stackable type]
+	`[booster selection]`	0
+
+[need material]
+	3340	16
+
+[move wav]
+	`BONE_TOUCH`
+
+[booster category num]
+	1	5
+
+[booster selection num]
+	1
+
+[booster select category]
+	0	0
+	[equipment]
+		10165	1	12162	1	14146	1	16138	1	18146	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	1	0
+	[equipment]
+		10537	1	12534	1	14524	1	16523	1	18533	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	2	0
+	[equipment]
+		10940	1	12934	1	14929	1	16923	1	18932	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	3	0
+	[equipment]
+		11329	1	13328	1	15318	1	17313	1	19320	1
+	[/equipment]
+[/booster select category]
+
+[booster select category]
+	4	0
+	[equipment]
+		11685	1	13683	1	15682	1	17677	1	19685	1
+	[/equipment]
+[/booster select category]
+
+[booster category name]
+	`請選擇防具類型`
+	`布甲`
+	`皮甲`
+	`輕甲`
+	`重甲`
+	`板甲`
+[/booster category name]

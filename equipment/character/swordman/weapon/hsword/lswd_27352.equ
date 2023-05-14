@@ -1,0 +1,289 @@
+#PVF_File
+
+[name]
+	`格琳賽羅斯戰爭英雄的巨劍`
+
+[basic explain]
+	`隊員增加1名時力量、智能增加15。 （1人組隊情況基本力量 +15，智力+15）
+隊員死亡時自己10秒內武器變紅，攻擊力增加 30%%。 （安裝解除時選項解除。）
+HP 10%% 以下時消耗1個靈魂晶石，HP恢復 10%%。 （冷卻時間60秒，決鬥場內不適用）`
+
+[flavor text]
+	`古格琳賽羅斯英雄的靈魂成為惡靈依附`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	46
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[stuck]
+	-2
+
+[HP MAX]
+	250
+
+[MP MAX]
+	250
+
+[price]
+	124200
+
+[repair price]
+	104328
+
+[value]
+	99360
+
+[equipment physical attack]
+	785	725
+
+[equipment magical attack]
+	589	544
+
+[separate attack]
+	389	264
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	88
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	6	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[party count]
+		`=`	1
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	15
+	[stat by condition]
+		`magical attack`
+		`+`	15
+[/then]
+
+[if]
+	[party count]
+		`=`	2
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	30
+	[stat by condition]
+		`magical attack`
+		`+`	30
+[/then]
+
+[if]
+	[party count]
+		`=`	3
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	45
+	[stat by condition]
+		`magical attack`
+		`+`	45
+[/then]
+
+[if]
+	[party count]
+		`=`	4
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	60
+	[stat by condition]
+		`magical attack`
+		`+`	60
+[/then]
+
+[if]
+	[my appendage]
+		38
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[increase damage]
+		`%`	30
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[assault]`
+		`[war room]`
+	[/module]
+	[cooltime]
+		60000
+	[time]
+		500	1	1000
+	[stat change]
+		`hp`
+		`<`
+		`%`	10
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3187	1
+	[restore]
+		`hp`
+		`%`	10	1000
+	[speech on]
+		0	2000
+		`靈魂： 咯吱咯吱..`
+	[/speech on]
+[/then]
+
+[if]
+	[party death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		38
+	[speech on]
+		0	2000
+		`靈魂： 咯吱咯吱..呃啊啊力量源源不絕湧出。`
+	[/speech on]
+[/then]
+
+[possible kiri protect]

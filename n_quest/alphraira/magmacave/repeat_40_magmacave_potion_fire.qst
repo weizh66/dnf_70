@@ -1,0 +1,59 @@
+#PVF_File
+
+[grade]
+	`[normaly repeat]`
+
+[npc index]
+	24
+
+[complete npc index]
+	24
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	40	99
+
+[pre required quest]
+	4419
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4084	8
+[/int data]
+
+[dungeon info]
+	34	-1
+[/dungeon info]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	1094	6
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`火焰的鍛煉 (重復)`
+
+[depend message]
+	`再弄點燃燒的心臟給我吧， 我會給你做點燒傷藥劑的。`
+
+[condition message]
+	`    收集8個[燃燒的心臟]。`
+
+[solve message]
+	`太過依賴藥劑是不行的， 你現在要達到能控制它的水平， 不是嗎？`

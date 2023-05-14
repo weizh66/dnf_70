@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+	`角色名稱變更券`
+
+[explain]
+	`消耗道具可以變更角色的名稱。 不可變更為伺服器內已存在的角色名稱。
+購買的角色只能在城鎮使用，不可送禮。
+進行傭兵任務或街頭爭霸時不可變更角色名稱。
+使用角色名稱變更券時自動返回角色選單。`
+
+[grade]
+	1
+
+[rarity]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[minimum level]
+	1
+
+[weight]
+	0
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`Item/stackable/cash.img`	771
+
+[stackable type]
+	`[waste]`	0
+
+[move wav]
+	`PAPER_TOUCH`
+
+[action type]
+	`[character name change]`
+[/action type]
+
+[action usable place]
+	`[village]`
+	`[dont use assult]`
+[/action usable place]
+
+[npc gift disallowance]
+	1

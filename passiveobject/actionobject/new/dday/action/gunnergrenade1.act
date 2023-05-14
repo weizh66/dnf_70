@@ -1,0 +1,27 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../animation/GunnerGrenade3.ani`
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		2	2
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[CREATE PASSIVEOBJECT]
+		[INDEX]
+			900132
+		[PARTICLE FILENAME]
+			`../Particle/Boom.ptl`
+		[LEVEL]
+			0
+		[POS]
+			0	0	65
+	[/CREATE PASSIVEOBJECT]
+[/BEHAVIOR]

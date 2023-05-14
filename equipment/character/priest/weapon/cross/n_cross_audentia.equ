@@ -1,0 +1,127 @@
+#PVF_File
+
+[name]
+	`悍不畏死之勇氣`
+
+[flavor text]
+	`    雷米迪亞大教堂為紀念暗黑圣戰中犧牲的圣騎士而特別制作的十字架。`
+
+[grade]
+	62
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`cross`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	13
+
+[weight]
+	3100
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/priest/cross.img`	35
+
+[field image]
+	`Item/field_weapon.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[cool time]
+	10000
+
+[MP MAX]
+	400
+
+[physical defense]
+	53
+
+[magical attack]
+	42
+
+[magical defense]
+	53
+
+[equipment physical attack]
+	572	524
+
+[equipment physical defense]
+	620	610
+
+[equipment magical attack]
+	543	498
+
+[equipment magical defense]
+	620	610
+
+[separate attack]
+	360	243
+
+[cast speed]
+	20
+
+[skill levelup]
+	`[priest]`	20	2
+	`[priest]`	24	2
+	`[priest]`	21	2
+[/skill levelup]
+
+[variation]
+	3	1
+
+[layer variation]
+	200
+	`crossd`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`crossc`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`CROSS_TOUCH`
+
+[routing priority]
+	`priest`	1
+[/routing priority]
+
+[need material]
+	2749095	129
+
+[possible kiri protect]

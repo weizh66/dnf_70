@@ -1,0 +1,114 @@
+#PVF_File
+
+[name]
+	`封·遊龍之魂戰靴`
+
+[basic explain]
+	`  攻擊時， 有3%%的幾率使包括自身在內的所有隊員增加20%%的攻擊速度、 20%%的移動速度和32.5的釋放速度效果持續20秒。 （冷卻時間20秒）
+  （解除裝備后效果消失）`
+
+[grade]
+	86
+
+[rarity]
+	4
+
+[part set index]
+	12564
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	22
+
+[magical attack]
+	22
+
+[magical defense]
+	24
+
+[move speed]
+	70
+
+[need material]
+	3821	900
+
+[price]
+	68800
+
+[repair price]
+	55040
+
+[value]
+	55040
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	1164	1056
+
+[icon]
+	`item/new_equipment/03_leather/shoes/leather_shoes.img`	10
+
+[field image]
+	`Item/FieldImage.img`	4
+
+[equipment type]
+	`[shoes]`	17
+
+[sub type]
+	1
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	20
+
+[weight]
+	900
+
+[item group name]
+	`lt shoes`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		20000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[duration]
+		20000
+	[probability]
+		3
+	[stat]
+		`move speed`
+		`+`	200
+	[stat]
+		`cast speed`
+		`+`	200
+	[stat]
+		`attack speed`
+		`+`	325
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

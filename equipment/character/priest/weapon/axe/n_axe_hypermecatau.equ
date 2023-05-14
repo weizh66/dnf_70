@@ -1,0 +1,131 @@
+#PVF_File
+
+[name]
+	`牛頭械王的巨斧`
+
+[basic explain]
+	`[潛龍]第4擊的蓄氣時間 -50%%
+[潛龍]第4擊的攻擊力 +30%%
+[潛龍]第4擊的沖擊波范圍 +30%%
+[潛龍]第4擊的沖擊波攻擊力 +30%%`
+
+[flavor text]
+	`    牛頭械王使用的斧頭， 擁有與牛頭械王身體一樣強大的威力。`
+
+[grade]
+	57
+
+[attach type]
+	`[trade]`
+
+[item group name]
+	`axe`
+
+[creation rate]
+	200
+
+[rarity]
+	4
+
+[anti evil]
+	12
+
+[weight]
+	4000
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[minimum level]
+	50
+
+[icon]
+	`Item/weapon/priest/axe.img`	33
+
+[field image]
+	`Item/field_weapon.img`	15
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	4
+
+[durability]
+	35
+
+[need material]
+	3260	900
+
+[repair price]
+	83160
+
+[value]
+	79200
+
+[cool time]
+	10000
+
+[physical attack]
+	39
+
+[equipment physical attack]
+	638	581
+
+[equipment magical attack]
+	452	411
+
+[separate attack]
+	328	220
+
+[attack speed]
+	-80
+
+[stuck]
+	-2
+
+[skill data up]
+	`[priest]`	66
+	`[all]`
+	`[static]`	0
+	`+`	-100
+	`[priest]`	66
+	`[all]`
+	`[static]`	1
+	`+`	30
+	`[priest]`	66
+	`[all]`
+	`[static]`	2
+	`+`	40
+	`[priest]`	66
+	`[all]`
+	`[static]`	3
+	`+`	30
+[/skill data up]
+
+[variation]
+	4	0
+
+[layer variation]
+	200
+	`axed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`axec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[move wav]
+	`AXE_TOUCH`
+
+[routing priority]
+	`priest`	3
+[/routing priority]
+
+[possible kiri protect]

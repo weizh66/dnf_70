@@ -1,0 +1,268 @@
+#PVF_File
+
+[name]
+	`格琳賽羅斯戰爭英雄的戰鐮 `
+
+[basic explain]
+	`隊員增加1名時力量、智能增加15。 （1人組隊情況基本力量 +15，智力+15）
+隊員死亡時自己10秒內武器變紅，攻擊力增加 30%%。 （安裝解除時選項解除。）
+HP 10%% 以下時消耗1個靈魂晶石，HP恢復 10%%。 （冷卻時間60秒，決鬥場內不適用）`
+
+[flavor text]
+	`古格琳賽羅斯英雄的靈魂成為惡靈依附`
+
+[grade]
+	69
+
+[rarity]
+	3
+
+[usable job]
+	`[priest]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	65
+
+[physical attack]
+	46
+
+[magical attack]
+	46
+
+[attack speed]
+	80
+
+[stuck]
+	-1
+
+[HP MAX]
+	250
+
+[MP MAX]
+	250
+
+[price]
+	110400
+
+[repair price]
+	92736
+
+[value]
+	88320
+
+[equipment physical attack]
+	621	574
+
+[equipment magical attack]
+	654	604
+
+[separate attack]
+	389	264
+
+[physical critical hit]
+	4
+
+[magical critical hit]
+	4
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/priest/scythe.img`	72
+
+[field image]
+	`Item/field_weapon.img`	14
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[priest]`
+
+[variation]
+	5	1
+
+[layer variation]
+	200
+	`scythed`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[layer variation]
+	2790
+	`scythec`
+
+[equipment ani script]
+	`equipment/character/priest.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SCYTHE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`scythe`
+
+[cool time]
+	10000
+
+[if]
+	[party count]
+		`=`	1
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	15
+	[stat by condition]
+		`magical attack`
+		`+`	15
+[/then]
+
+[if]
+	[party count]
+		`=`	2
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	30
+	[stat by condition]
+		`magical attack`
+		`+`	30
+[/then]
+
+[if]
+	[party count]
+		`=`	3
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	45
+	[stat by condition]
+		`magical attack`
+		`+`	45
+[/then]
+
+[if]
+	[party count]
+		`=`	4
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	60
+	[stat by condition]
+		`magical attack`
+		`+`	60
+[/then]
+
+[if]
+	[my appendage]
+		38
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[increase damage]
+		`%`	30
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[assault]`
+		`[war room]`
+	[/module]
+	[cooltime]
+		60000
+	[time]
+		500	1	1000
+	[stat change]
+		`hp`
+		`<`
+		`%`	10
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[consume item]
+		3187	1
+	[restore]
+		`hp`
+		`%`	10	1000
+	[speech on]
+		0	2000
+		`靈魂： 咯吱咯吱..`
+	[/speech on]
+[/then]
+
+[if]
+	[party death]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		10000
+	[appendage]
+		38
+	[speech on]
+		0	2000
+		`靈魂： 咯吱咯吱..呃啊啊力量源源不絕湧出。`
+	[/speech on]
+[/then]
+
+[possible kiri protect]

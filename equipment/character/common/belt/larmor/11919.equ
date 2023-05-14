@@ -1,0 +1,150 @@
+#PVF_File
+
+[name]
+	`天御凝霜腰帶`
+
+[basic explain]
+	`  攻擊時，有5%%的機率生成冰霜爆炸攻擊。（冷卻時間0.5秒 ）`
+
+[detail explain]
+	`  攻擊時，有5%%的機率生成冰霜爆炸攻擊400px范圍內的所有敵人。（冷卻時間15秒）`
+
+[flavor text]
+	`  說好的三版，三版之後又三版，三版之後又三版，這都改了幾十版了······--苦逼策劃案翻譯樂樂`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12577
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	28
+
+[magical attack]
+	18
+
+[inventory limit]
+	3000
+
+[need material]
+	3821	1000
+
+[price]
+	81900
+
+[repair price]
+	65520
+
+[value]
+	65520
+
+[creation rate]
+	125
+
+[equipment physical defense]
+	1224	1116
+
+[water attack]
+	20
+
+[icon]
+	`item/new_equipment/04_larmor/belt/larmor_belt.img`	17
+
+[field image]
+	`Item/field_equip.img`	8
+
+[equipment type]
+	`[waist]`	16
+
+[sub type]
+	2
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	25
+
+[weight]
+	1200
+
+[item group name]
+	`la waist`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		60075	0	0	0	9999	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[appendage]
+		252
+[/then]
+
+[if]
+	[cooltime]
+		10000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	400
+	[probability]
+		5
+	[passive object]
+		60075	0	0	0	9999	0
+		``
+	[/passive object]
+	[target]
+		`myself`	-1
+	[duration]
+		10000
+	[appendage]
+		252
+[/then]
+
+[emancipate]
+	[input]
+		3831	2	3262	1000
+	[/input]
+	[output]
+		4600804	1
+	[/output]
+	[emancipate explain]
+		`找不到代?epic_equipment_transaction_explain`
+[/emancipate]
+
+[possible kiri protect]

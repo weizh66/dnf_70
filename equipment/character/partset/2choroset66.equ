@@ -1,0 +1,146 @@
+#PVF_File
+
+[set name]
+	`殺手之王  套裝`
+
+[piece set ability]
+	3
+	[skill data up]
+		`[priest]`	77
+		`[dungeon type]`
+		`[static]`	2
+		`+`	54
+		`[priest]`	77
+		`[dungeon type]`
+		`[static]`	1
+		`+`	27
+		`[priest]`	14
+		`[dungeon type]`
+		`[level]`	6
+		`+`	10
+		`[priest]`	14
+		`[dungeon type]`
+		`[level]`	7
+		`+`	2
+		`[priest]`	56
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	31
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-1000
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	31
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+	[/skill data up]
+	[parameter basic explain]
+		`[瞬拳]增加吸附敵人范圍
+[戰環精通]提升的[瞬拳]范圍增加
+[俯衝直拳]攻擊力 +20%%
+[圣拳連擊]冷卻時間 -1秒
+[圣拳連擊]攻擊力 +15%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[priest]`	78
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-3000
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	1
+		`%`	15
+		`[priest]`	78
+		`[dungeon type]`
+		`[level]`	2
+		`%`	15
+		`[priest]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-5000
+		`[priest]`	4
+		`[dungeon type]`
+		`[level]`	2
+		`+`	1
+		`[priest]`	37
+		`[dungeon type]`
+		`[level]`	2
+		`+`	2000
+	[/skill data up]
+	[parameter basic explain]
+		`[刺拳猛擊]冷卻時間 -3秒
+[刺拳猛擊]攻擊力 +15%%
+[極速颶風拳]冷卻時間 -5秒
+[極速颶風拳]攻擊次數 +2
+[天譴颶風]持續時間 +2秒`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[priest]`	4
+		`[dungeon type]`
+		`[cooltime]`	0
+		`+`	-15000
+		`[priest]`	4
+		`[dungeon type]`
+		`[level]`	0
+		`%`	10
+		`[priest]`	4
+		`[dungeon type]`
+		`[level]`	1
+		`%`	10
+		`[priest]`	4
+		`[dungeon type]`
+		`[level]`	2
+		`+`	2
+		`[priest]`	4
+		`[dungeon type]`
+		`[level]`	3
+		`+`	96
+		`[priest]`	4
+		`[dungeon type]`
+		`[static]`	0
+		`+`	10
+		`[priest]`	37
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[priest]`	37
+		`[dungeon type]`
+		`[level]`	1
+		`%`	20
+		`[priest]`	37
+		`[dungeon type]`
+		`[static]`	1
+		`%`	20
+		`[priest]`	37
+		`[dungeon type]`
+		`[static]`	2
+		`%`	20
+	[/skill data up]
+	[parameter basic explain]
+		`[極速颶風拳]冷卻時間 -15秒
+[極速颶風拳]攻擊力 +10%%
+[極速颶風拳]攻擊次數 +4
+[極速颶風拳]吸附范圍 +20%%
+[極速颶風拳]移動速度 +20%%
+[天譴颶風]攻擊力 +20%%
+[天譴颶風]移動速度 +20%%`
+[/piece set ability]

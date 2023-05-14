@@ -1,0 +1,31 @@
+#PVF_File
+
+[small face]
+	`Map/Npc/NpcFace02.img`	39
+
+[big face]
+	`Map/Npc/NpcFace02.img`	38
+
+[popup face]
+	`Map/Npc/NpcFace02.img`	40
+
+[field animation]
+	`Animation/Npc_al.ani`
+
+[field wav]
+	`R_NPC_ALBERT_AMB_LOOP`
+
+[popup wav]
+	`R_NPC_ALBERT_TALK`
+	`R_NPC_ALBERT_FAREWELL`
+
+[name]
+	`阿爾伯特·伯恩斯坦`
+
+[field name]
+	`阿爾伯特·伯恩斯坦`
+
+[dialog]
+	1	1	99	-1	0	0
+	`<npc::1009>哼！ 你的實力還算不錯， 我勉強認可你了。 現在你可以走了。 難道還要留下來吃飯？`
+[/dialog]

@@ -1,0 +1,75 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`W`
+
+[gold multiple]
+	150
+
+[npc index]
+	28
+
+[complete npc index]
+	-1
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	65	99
+
+[pre required quest]
+	675
+[/pre required quest]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	0	1500000	3263	1	3039	2	3040	2	3299	60
+[/int data]
+
+[exception quest]
+	`[urgent]`
+[/exception quest]
+
+[reward type]
+	`[slot expansion]`
+
+[reward int data]
+	21
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`佩戴魔法石的資格 (2/2)`
+
+[depend message]
+	`魔法石的佩戴可比輔助裝備復雜得多， 所以這回我們需要收集更多的材料。
+如果你沒有其它意見的話， 我們還是像上一次那樣分工合作。
+你熟悉的那部分材料仍然由你來負責， 其余的那些我會幫你收集， 至于事后的報酬嘛？ 當然一個也不能少！`
+
+[condition message]
+	`    想要佩戴魔法石， 請收集以下材料。`
+
+[solve message]
+	`呵呵~這回不會像上次那樣緊張了吧？ 一會兒就好了， 請稍等！
+成功了！ 從現在起， 你可以佩戴魔法石了， 希望魔法石的能量能讓你變得更強。
+記住， 一定要善用這份力量！ 讓那些擾亂世界的使徒， 徹底地從這片大陸上消失！！`
+
+[quest point]
+	4

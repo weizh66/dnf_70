@@ -1,0 +1,144 @@
+#PVF_File
+
+[name]
+	`最接近神的人 - 神思者`
+
+[explain]
+	`聖職者米歇爾正是聖騎士團體中第壹個成為天使族成員的人，他在暗黑聖戰的表現令人稱道，為了不讓赫爾德的陰謀得逞，米歇爾不惜背負罵名，而誓死守護著被封印的奧茲瑪，即使如此，他對聖光的忠誠還是打動了神，他成為了第壹位被授予“聖體”稱號的聖職者。
+米歇爾的身軀倒在血泊之中，那曾經輝煌燦爛的名字也被“使徒”這壹黑暗的烙印所覆蓋。
+聖職者們悲痛欲絕，向神吶喊：“神啊，未來還會有什?事情等著我們？連我們信仰的米歇爾大人都變成了敵人倒在了我們的腳下……我們的血到底是為誰而留，到底什?才是我們真正的信仰啊……神啊……”
+他們的吶喊像利刃、像暴風壹樣刺痛了所有聽者的心。
+為了領導信徒，將信徒的靈魂引導在神的榮光面前，雷米迪亞主教獨斷地將聖者米歇爾納入了最高信仰的行列。雖然這讓大部分人都很高興，但知道內情的那部分人只能不斷地搖頭。
+特別是那些經歷過聖戰的人，他們拋棄了教團的信仰，隨後分道揚鑣。
+神聖的少女——歌蘭蒂斯接受了神的考驗，成為教團的基石，並堅守著教團。
+聖騎士和天啟者應當繼續跟隨歌蘭蒂斯，只有維持聖職者教團不使其分崩離析，才能使世人的信仰與贊美與神結合為壹。
+歌蘭蒂斯站出來說：“我們既沒有互相抱怨，也沒有互相憎惡。所有的聖職者們雖然侍奉各自的神，但仍然認定歸屬於同壹個教團，且願意接受其他兄弟聖職者的幫助。我們只是厭惡惡的聚集，但並不歧視其他的神。我們只認定正義，所以用神思者的名字，代表我們新的覺悟。”`
+
+[grade]
+	1
+
+[rarity]
+	4
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	140
+
+[physical defense]
+	140
+
+[magical attack]
+	140
+
+[magical defense]
+	140
+
+[move speed]
+	40
+
+[attack speed]
+	45
+
+[cast speed]
+	45
+
+[stuck]
+	-4.5
+
+[stuck resistance]
+	45
+
+[all elemental attack]
+	45
+
+[physical critical hit]
+	8
+
+[magical critical hit]
+	8
+
+[icon]
+	`Item/Title/title_cn.img`	315
+
+[custom animation]
+	`TitleAnimation/2015_pvp_championship_spring_05_bestplayer_365days.ani`
+[/custom animation]
+
+[equipment type]
+	`[title name]`	1
+
+[move wav]
+	`NAME_TOUCH`
+
+[weight]
+	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		120000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		130053	0	0	0	99	0
+		``
+	[/passive object]
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	20
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	20
+	[stat by condition]
+		`magical attack bonus`
+		`%`	20
+	[stat by condition]
+		`separate attack`
+		`%`	20
+[/then]

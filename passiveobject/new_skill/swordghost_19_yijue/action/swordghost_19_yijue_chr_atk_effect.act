@@ -1,0 +1,34 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/chr_ultimatecrossslash/endattacktrace_04.ani`
+	[SUB ANI]
+		`../Animation/chr_ultimatecrossslash/endattack_03.ani`	0	0
+	[/SUB ANI]
+	[SUB ANI WITH XYZ]
+		`../Animation/chr_ultimatecrossslash/effect/light_01.ani`	0	2	-73	0	95
+	[/SUB ANI WITH XYZ]
+	[SOUND PROBABILITY]
+	[/SOUND PROBABILITY]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		0	0
+	[WHICH]
+	[PASSIVE]
+	[CHECKUP]
+		[IS INDEX]
+			260184
+		[/IS INDEX]
+	[/CHECKUP]
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[ZOOM IT]
+		600	120
+[/BEHAVIOR]

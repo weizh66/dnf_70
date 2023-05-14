@@ -1,0 +1,113 @@
+#PVF_File
+
+[piece set ability]
+	3
+	[skill data up]
+		`[at priest]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	22
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-20
+	[/skill data up]
+	[parameter basic explain]
+		`[洗禮之光]攻擊力 +30%%
+[洗禮之光]冷卻時間 -20%%`
+[/piece set ability]
+
+[piece set ability]
+	6
+	[skill data up]
+		`[at priest]`	22
+		`[dungeon type]`
+		`[level]`	0
+		`%`	15
+		`[at priest]`	22
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at priest]`	14
+		`[dungeon type]`
+		`[level]`	1
+		`+`	5
+		`[at priest]`	14
+		`[dungeon type]`
+		`[level]`	2
+		`+`	5
+		`[at priest]`	14
+		`[dungeon type]`
+		`[level]`	4
+		`+`	5
+		`[at priest]`	14
+		`[dungeon type]`
+		`[level]`	5
+		`+`	5
+		`[at priest]`	14
+		`[dungeon type]`
+		`[level]`	6
+		`%`	20
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	20
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	4
+		`%`	20
+		`[at priest]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+	[/skill data up]
+	[parameter basic explain]
+		`[洗禮之光]攻擊力 +15%%
+[洗禮之光]冷卻時間 -10%%
+[圣光燼盾]攻擊力 +20%%
+[圣光燼盾]冷卻時間 -10%%
+[勇氣祝福]物理武器攻擊力 +5
+[勇氣祝福]魔法武器攻擊力 +5
+[勇氣祝福]力量 +5
+[勇氣祝福]智力 +5
+[勇氣祝福]命中率 +20%%`
+[/piece set ability]
+
+[piece set ability]
+	9
+	[skill data up]
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	0
+		`%`	30
+		`[at priest]`	26
+		`[dungeon type]`
+		`[level]`	4
+		`%`	30
+		`[at priest]`	26
+		`[dungeon type]`
+		`[cooltime]`	0
+		`%`	-10
+		`[at priest]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	4
+		`%`	50
+		`[at priest]`	24
+		`[dungeon type]`
+		`[static]`	7
+		`%`	50
+		`[at priest]`	24
+		`[dungeon type]`
+		`[level]`	0
+		`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[圣光燼盾]攻擊力 +30%%
+[圣光燼盾]冷卻時間 -10%%
+[勇氣圣歌]攻擊力 +50%%
+[勇氣圣歌]圣歌范圍 +50%%`
+[/piece set ability]

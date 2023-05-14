@@ -1,0 +1,74 @@
+#PVF_File
+
+[grade]
+	`[epic]`
+
+[difficulty]
+	`Z`
+
+[gold multiple]
+	300
+
+[npc index]
+	59
+
+[complete npc index]
+	58
+
+[job]
+	`[all]`
+
+[grow type]
+	-1
+
+[level]
+	67	99
+
+[pre required quest]
+	4043
+[/pre required quest]
+
+[monster reward item]
+	61266	92	-1	4701	1	100	1
+[/monster reward item]
+
+[type]
+	`[seeking]`
+
+[sub type]
+	-1
+
+[int data]
+	4724	1	4701	1
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	1
+[/reward int data]
+
+[reward selection int data]
+[/reward selection int data]
+
+[name]
+	`范·弗拉丁的自白書`
+
+[depend message]
+	`雖然使用測謊硬幣這種做法是有點卑鄙， 不過也是為了根特。 對了， 別到處宣傳啊， 最怕一堆女人找上門。
+好了， 你快去吧！ 希望能得到有用的情報。`
+
+[condition message]
+	`    將梅爾文的測謊硬幣和范·弗拉丁的自白書一起交給澤丁·施奈德。`
+
+[solve message]
+	`皇女大人被突擊隊長蘭蒂盧斯帶到了指揮部……這事有點棘手啊！ 不過總算是知道了皇女大人的下落， 謝謝你， 冒險家！`
+
+[dialog]
+	1	1	92	0	1	0	0
+	`<monster::61266>你剛對我用了什么……皇女？ 皇女被蘭蒂盧斯押去指揮部了， 你再怎么找也沒用！`
+[/dialog]
+
+[quest point]
+	4

@@ -1,0 +1,157 @@
+#PVF_File
+
+[ambient]
+	[room list]
+		``
+		``
+		``
+		[in elven gard]
+			``
+		[/in elven gard]
+		[in alfhlyra]
+			``
+		[/in alfhlyra]
+		[in stom pass]
+			``
+		[/in stom pass]
+	[/room list]
+	[main game]
+		[fill point under]
+			20
+			`嗚嗚~肚子好餓，難道是話說多了？`
+			`嗚嗚~肚子好餓，難道是話說多了？`
+			`嗚嗚~肚子好餓，難道是話說多了？`
+		[/fill point under]
+		[enemies alive]
+			[hits over]
+				20
+				`你是肉盾啊？換作是我，直接上去~~咻咻咻！`
+				`老大，你懂不懂躲避？腦袋怎么那么木！`
+			[/hits over]
+			[hits under]
+				21
+				`這裡沒有用得著我的地方，輪到我出場了再叫我……`
+				`啊啊，嘴開始癢了！來來！八卦時間到啦！`
+			[/hits under]
+		[/enemies alive]
+		[enemies destroyed]
+		[rank over]
+			`b`
+			`反正沒有敵人，我們來說說以前的事吧～～`
+			`敵人裡也有很能說的傢伙？哪天我去見識下……`
+		[/rank over]
+		[rank under]
+			`b`
+			`啊，無聊~無聊！好無聊啊！`
+			`扁擔長板凳寬，板凳沒有扁擔長，扁擔沒有板凳寬……`
+		[/rank under]
+	[/main game]
+[/ambient]
+
+[trigger]
+	[room list]
+		[renamed]
+			`你看看他、她，還有它……就知道我對你多好了！`
+		[/renamed]
+		[pop random]
+			30
+			[call the name]
+				`嗯，想和我好好聊聊了嗎？那就先檢討一下自己吧！`
+			[/call the name]
+		[/pop random]
+		[pop random]
+			20
+			[equip]
+				`傳說中的第一神嘴~~就是我！想聽相聲嗎？`
+				`人類的城鎮很神奇呀~大家來八卦一下嘛！`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`哈哈，我嘴部的肌肉越來越發達了！`
+				`四是四十是十！喇嘛喇叭臘八！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`哇哇，老大你升級了耶，好棒哦。`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+		[eat feed]
+			`這食物通過質檢了嗎？聽說食物不安全，吃了會變智障……`
+		[/eat feed]
+	[/room list]
+	[main game]
+		[eat feed]
+			`老大，這東西真好吃！是什么做的？還有嗎？`
+			`嗯嗯……我自己會拿出來吃的，老大放心吧……`
+		[/eat feed]
+		[none feed]
+			`又沒食物了！老大，你想我死也不需要用這招吧？！`
+		[/none feed]
+		[end buff]
+			`這些效果對我沒啥幫助，失望……T_T……`
+		[/end buff]
+		[dying]
+			`老大，我一會兒還要講故事！快給我食物！！！`
+		[/dying]
+		[using overskill]
+			``
+			``
+		[/using overskill]
+		[pop random]
+			30
+			[skill gauge full]
+				``
+				``
+			[/skill gauge full]
+		[/pop random]
+		[pop random]
+			30
+			[over skill gauge full]
+				``
+				``
+			[/over skill gauge full]
+		[/pop random]
+		[over skill waiting]
+			``
+			``
+		[/over skill waiting]
+		[call the name]
+			`嗯，想和我好好聊聊了嗎？那就先檢討一下自己吧！`
+		[/call the name]
+		[pop random]
+			20
+			[equip]
+				`傳說中的第一神嘴~~就是我！想聽相聲嗎？`
+				`人類的城鎮很神奇呀~大家來八卦一下嘛！`
+			[/equip]
+		[/pop random]
+		[pop random]
+			20
+			[level up]
+				`哈哈，我嘴部的肌肉越來越發達了！`
+				`四是四十是十！喇嘛喇叭臘八！`
+			[/level up]
+		[/pop random]
+		[pop random]
+			30
+			[character level up]
+				`哇哇，老大你升級了耶，好棒哦。`
+			[/character level up]
+		[/pop random]
+		[evolution]
+			``
+		[/evolution]
+	[/main game]
+	[pvp]
+		[press creature button]
+			`我本來就只會說話，你還想要我怎樣！`
+		[/press creature button]
+	[/pvp]
+[/trigger]

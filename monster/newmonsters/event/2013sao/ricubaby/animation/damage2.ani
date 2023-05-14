@@ -1,0 +1,42 @@
+#PVF_File
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		22
+	[IMAGE POS]
+		-189	-329
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-70	-10	-15	109	20	187
+
+[FRAME001]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		23
+	[IMAGE POS]
+		-189	-329
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-75	-10	-9	114	20	181
+
+[FRAME002]
+	[IMAGE]
+		`Monster/Arad/sao_nicholas.img`
+		24
+	[IMAGE POS]
+		-189	-329
+	[DAMAGE TYPE]
+		`SUPERARMOR`
+	[DELAY]
+		100
+	[DAMAGE BOX]
+	-77	-10	-7	116	20	179

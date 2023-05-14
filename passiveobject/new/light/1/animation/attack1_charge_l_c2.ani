@@ -1,0 +1,18 @@
+#PVF_File
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/DarkelfTemple/groop/effect/Attack1/ChargeC.img`
+		0
+	[IMAGE POS]
+		-241	-595
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		660

@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`封·魔戰無雙胸甲`
+
+[basic explain]
+	`所有技能MP消耗量+15%%
+所有技能冷卻時間-12%%
+對敵人的傷害+10%%  `
+
+[flavor text]
+	`  在魔界的所有使徒中，卡西利亞斯並沒有和普雷還有羅斯特決鬥過，至於盧克他壓根沒當做對手過。`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[part set index]
+	12579
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	39
+
+[magical attack]
+	39
+
+[physical defense]
+	42
+
+[MP MAX]
+	330
+
+[cast speed]
+	50
+
+[need material]
+	3821	1000
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	0
+
+[equipment physical defense]
+	5580	5220
+
+[icon]
+	`item/new_equipment/06_plate/coat/plate_coat.img`	21
+
+[field image]
+	`Item/field_equip.img`	15
+
+[equipment type]
+	`[coat]`	23
+
+[sub type]
+	4
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[durability]
+	60
+
+[weight]
+	5000
+
+[item group name]
+	`mt coat`
+
+[cool time]
+	10000
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cool time]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		719
+	[appendage]
+		720
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase damage]
+		`%`	10
+[/then]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]

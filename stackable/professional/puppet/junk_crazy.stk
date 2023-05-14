@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`瘋狂囧克`
+
+[explain]
+	`    使用後， 可以召喚出瘋狂囧克協助召喚者攻擊敵人， 瘋狂囧克存在15分鐘。`
+
+[grade]
+	1
+
+[attach type]
+	`[free]`
+
+[rarity]
+	1
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[price]
+	15500
+
+[minimum level]
+	20
+
+[stack limit]
+	1000
+
+[icon]
+	`Item/stackable/consumption.img`	426
+
+[field image]
+	`Item/FieldImage.img`	32
+
+[stackable type]
+	`[waste]`	0
+
+[expert type]
+	`[doll_controller]`
+
+[sub type]
+	2
+
+[cool time]
+	900000
+
+[cooltime group]
+	100
+
+[move wav]
+	`FOOD_TOUCH`
+
+[summon apc]
+	20414	30	30	900000	1

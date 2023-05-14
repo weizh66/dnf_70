@@ -1,0 +1,71 @@
+#PVF_File
+
+[grade]
+	`[achievement]`
+
+[exception filter]
+	`character`
+
+[ignore quest level 4 exp]
+	1
+
+[difficulty]
+	`f`
+
+[gold multiple]
+	200
+
+[npc index]
+	126
+
+[complete npc index]
+	-1
+
+[level]
+	75	99
+
+[type]
+	`[meet npc]`
+
+[sub type]
+	-1
+
+[int data]
+	126
+[/int data]
+
+[reward type]
+	`[item]`
+
+[reward int data]
+	0	0
+[/reward int data]
+
+[name]
+	`覺醒 - 月影星劫 (1/6)`
+
+[depend message]
+	`不知道你有沒有發現， 現在的你已經成長到足以嘗試進入更高境界了。 既然如此， 肯定是要站到更高處去看看不一樣的風景了， 對不對？
+我可以幫你完成進階。`
+
+[condition message]
+	`    如果準備好進行二次覺醒， 請前往武人之都素喃找西嵐談談。`
+
+[solve message]
+	`自從我關注你以來， 確實為是你突飛猛進的成長速度感到驚訝。 你真的是一天比一天敏銳了， 速度也提升得飛快。 我已經好久沒遇到過這樣的人才了。
+不過與此同時， 你應該很快就遇到了瓶頸。 不， 你反而恰恰是在無數個瞬間去嘗試突破自己， 因此， 可以說每一個瞬間對你都是某種意義上的極限。
+但這一次遇到的瓶頸與以往不同， 對現在的你來說可能會是一個特別高的門檻， 乃至像一座大山。
+即便如此， 你也想去挑戰一下， 對不對？ 如果你愿意， 我可以助你一臂之力。 怎么樣？ 要試試看嗎？`
+
+[target character]
+	`[thief]`	1	1
+[/target character]
+
+[relation quest]
+	6827
+
+[job change quest]
+	3
+
+[grow number]
+	0

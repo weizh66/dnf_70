@@ -1,0 +1,35 @@
+#PVF_File
+
+[width]
+	155	55
+
+[is hp by difficulty]
+	1
+
+[pass type]
+	`[do not pass]`
+
+[basic action]
+	`Action/Barigeyiteu_crystal1_Basic1.act`
+
+[last action]
+	`Action/Barigeyiteu_crystal1_destroy1.act`
+
+[team]
+	100
+
+[destroy particle]
+	`Particle/big_crystal1_destroy3.ptl`
+
+[hp destroy]
+	1
+
+[hp max]
+	20
+
+[sound category]
+	`[on damage]`
+	`R_ICE_HIT`	48428
+	`[on destroyobject]`
+	`FROZEN_DIE`	48428
+[/sound category]

@@ -1,0 +1,165 @@
+#PVF_File
+
+[name]
+	`洛希專用克里斯[黑鑽]`
+
+[basic explain]
+	`攻擊時以 2%% 的機率讓敵人呈現出血狀態
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[detail explain]
+	`攻擊時以2%%的機率10秒內讓敵人呈現出血狀態，每0.5秒以65的攻擊力給予傷害。 （高於Lv30的對象得到的機率減少，低於Lv30的對象則會增加。）
+不可強化、增幅、提鍊、解體、送禮、倉庫儲存`
+
+[flavor text]
+	`傳說中的狂戰士盧克西最喜愛的劍。`
+
+[grade]
+	34
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	30
+
+[magical attack]
+	25
+
+[cast speed]
+	20
+
+[HP MAX]
+	140
+
+[price]
+	54400
+
+[repair price]
+	43520
+
+[value]
+	43520
+
+[equipment physical attack]
+	323	285
+
+[equipment magical attack]
+	391	345
+
+[separate attack]
+	196	130
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	25	1
+[/skill levelup]
+
+[bleeding resistance]
+	20
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	16
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`gemswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`gemswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`gemswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`gemswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		2
+	[active status]
+		`bleeding`	30	1300
+[/then]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+	`charac cargo`
+[/impossible contents]
+
+[possible kiri protect]

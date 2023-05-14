@@ -1,0 +1,22 @@
+#PVF_File
+
+[MOTION]
+	[BASE ANI]
+		`../Animation/yung_protect_Basic_0_0.ani`
+	[SUB ANI]
+		`../Animation/yung_protect_Basic_1_0.ani`	0	1
+		`../Animation/yung_protect_Basic_2_0.ani`	0	2
+	[/SUB ANI]
+[/MOTION]
+
+[TRIGGER]
+	[FRAME]
+		5	5
+	[DO BEHAVIOR]
+	[ME]
+		0
+[/TRIGGER]
+
+[BEHAVIOR]
+	[DESTROY]
+[/BEHAVIOR]
